@@ -1,0 +1,2066 @@
+
+{
+  "topic_id": "indian_parliament_full",
+  "topic_title": "Parliament in the Indian Constitution",
+  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims", "BPSC TRE"],
+  "total_cards": 117,
+  "characters": {
+    "aman": { "name": "Aman Sir", "role": "teacher", "avatar": "👨‍🏫" },
+    "raju": { "name": "Raju", "role": "student", "avatar": "👦" }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "chapter_intro",
+      "level": 1,
+      "progress": { "current": 1, "total": 117 },
+      "intro_payload": {
+        "title": "🏛️ Parliament of India",
+        "subtitle": "Lok Sabha, Rajya Sabha aur Union Legislature ka Complete Officer-Level Mastery",
+        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims", "BPSC TRE"],
+        "learning_outcomes": [
+          "Article 79-122: Parliament ki poori sanrachna",
+          "Lok Sabha vs Rajya Sabha - composition, tenure, powers",
+          "Anti-Defection Law (10th Schedule) ke saare traps",
+          "Speaker, Deputy Speaker, Chairman ke exact powers",
+          "Money Bill vs Financial Bill - BPSC ka favorite confusion",
+          "Budget, Committees, Privileges, Question Hour, Zero Hour"
+        ]
+      },
+      "navigation": { "next": "card_02_village_hook", "button_text": "Start Learning ➔" }
+    },
+    {
+      "card_id": "card_02_village_hook",
+      "card_slug": "card_02_village_hook",
+      "type": "chat",
+      "concept_id": "intro_parliament",
+      "level": 1,
+      "progress": { "current": 2, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, tumhare gaanv mein jab koi bada faisla lena hota hai - jaise naya school banana ho - to log kahan jaate hain?" },
+        { "speaker": "raju", "text": "Panchayat mein sir! Mukhiya aur sab log baithke decide karte hain." },
+        { "speaker": "aman", "text": "Bilkul sahi! Ab socho, poore Bihar ke liye faisla lena ho to Vidhan Sabha hai. Lekin poore INDIA ke liye - jaise sabka tax rate ek jaisa ho, sabke liye ek jaisa passport rule ho - us faisle ke liye Delhi mein ek bahut bada 'Panchayat' baithti hai." },
+        { "speaker": "raju", "text": "Achhaaaa... wahi jo Republic Day pe TV pe dikhta hai, wo bada gol building?" }
+      ],
+      "navigation": { "next": "card_03_what_is_parliament", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_03_what_is_parliament",
+      "card_slug": "card_03_what_is_parliament",
+      "type": "chat",
+      "concept_id": "intro_parliament",
+      "level": 1,
+      "progress": { "current": 3, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul wahi! Usko kehte hain 'Parliament' - poore desh ke liye kanoon banane wali sabse badi sansthan. Ab exam-language seekho: hamare Constitution ka Article 79 kehta hai ki 'Parliament' teen cheezon se milkar banti hai - President, Lok Sabha aur Rajya Sabha." },
+        { "speaker": "raju", "text": "Sir, President bhi Parliament ka part hai?? Wo to alag office mein baithte hain na, Rashtrapati Bhavan mein!" },
+        { "speaker": "aman", "text": "Yahi sabse bada trap hai jo BPSC baar-baar poochti hai! President physically LS/RS mein baithkar bahas nahi karte, lekin unke bina koi bhi bill kanoon nahi banta - unki assent (sehmati) zaroori hai. Isliye Constitution unhe Parliament ka ANG (part) maanta hai." },
+        { "speaker": "raju", "text": "Matlab bina President ke sign ke, koi bhi law valid nahi hoga? Ye to important point hai!" }
+      ],
+      "navigation": { "next": "card_04_bicameral", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_04_bicameral",
+      "card_slug": "card_04_bicameral",
+      "type": "chat",
+      "concept_id": "intro_parliament",
+      "level": 1,
+      "progress": { "current": 4, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul, yaad rakho. Ab dekho, do Sadan (Houses) kyun hain? Lok Sabha ka matlab 'House of the People' - awaam seedhe vote karke apne MP chunti hai. Rajya Sabha ka matlab 'Council of States' - ye states ka pratinidhitva karti hai." },
+        { "speaker": "raju", "text": "Sir Bihar ki Vidhan Sabha bhi to bas ek hi sadan hai na? Fir Parliament mein do kyun?" },
+        { "speaker": "aman", "text": "Achha observation! Jaha do sadan hote hain use 'Bicameral' kehte hain, jaha ek hi hota hai use 'Unicameral'. ⭐ BPSC TRE Favorite: Bihar Vidhan Sabha bhi actually Bicameral hai - Vidhan Sabha + Vidhan Parishad dono hain, jaise UP, Maharashtra, Karnataka mein bhi hai. Par har state mein Vidhan Parishad zaroori nahi." },
+        { "speaker": "raju", "text": "Ohh! To Parliament hamesha do sadan wali hi hoti hai, national level pe?" }
+      ],
+      "navigation": { "next": "card_05_quiz1", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_05_quiz1",
+      "card_slug": "card_05_quiz1",
+      "type": "quiz",
+      "concept_id": "intro_parliament",
+      "level": 1,
+      "progress": { "current": 5, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Article 79 ke anusaar, Bharatiya Parliament kin-kin ka gathan hoti hai?",
+        "options": [
+          { "id": "A", "text": "Sirf Lok Sabha aur Rajya Sabha" },
+          { "id": "B", "text": "President, Lok Sabha aur Rajya Sabha" },
+          { "id": "C", "text": "Prime Minister, Lok Sabha aur Rajya Sabha" },
+          { "id": "D", "text": "President aur Prime Minister" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 79 saaf kehta hai: Parliament = President + Lok Sabha + Rajya Sabha. President ki assent ke bina koi bhi bill Act nahi ban sakta, isliye wo Parliament ka avibhajya ang hain."
+      },
+      "navigation": { "next": "card_06_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_06_quiz2",
+      "card_slug": "card_06_quiz2",
+      "type": "quiz",
+      "concept_id": "intro_parliament",
+      "level": 1,
+      "progress": { "current": 6, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: 'Council of States' kis Sadan ka anya naam hai?",
+        "options": [
+          { "id": "A", "text": "Lok Sabha" },
+          { "id": "B", "text": "Vidhan Sabha" },
+          { "id": "C", "text": "Rajya Sabha" },
+          { "id": "D", "text": "Lok Adalat" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Rajya Sabha ko 'Council of States' kaha jaata hai kyunki ye states ke hiton ka pratinidhitva karti hai. Lok Sabha ko 'House of the People' kehte hain."
+      },
+      "navigation": { "next": "card_07_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_07_quiz3",
+      "card_slug": "card_07_quiz3",
+      "type": "quiz",
+      "concept_id": "intro_parliament",
+      "level": 1,
+      "progress": { "current": 7, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: Do Sadan wali vidhayika ko kya kehte hain?",
+        "options": [
+          { "id": "A", "text": "Unicameral" },
+          { "id": "B", "text": "Bicameral" },
+          { "id": "C", "text": "Federal" },
+          { "id": "D", "text": "Tricameral" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Do sadan wali vidhayika 'Bicameral' kehlati hai (jaise Parliament of India), aur ek sadan wali 'Unicameral' (jaise Bihar Vidhan Sabha akele hoti to)."
+      },
+      "navigation": { "next": "card_08_milestone1", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_08_milestone1",
+      "card_slug": "card_08_milestone1",
+      "type": "milestone",
+      "concept_id": "intro_parliament",
+      "level": 1,
+      "progress": { "current": 8, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🏛️",
+        "completed_topic": "Introduction to Parliament",
+        "xp_earned": 50,
+        "milestone_progress": "Module 1/15 Clear",
+        "motivational_quote": "Foundation strong ho gayi Raju! Ab asli building banayenge - Lok Sabha se!"
+      },
+      "navigation": { "next": "card_09_ls_intro", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_09_ls_intro",
+      "card_slug": "card_09_ls_intro",
+      "type": "chat",
+      "concept_id": "lok_sabha",
+      "level": 2,
+      "progress": { "current": 9, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab Lok Sabha detail se samjhte hain. Isko 'Lower House' bhi kehte hain, lekin power mein ye kam nahi, upar hi hai! Article 81 ismein composition define karta hai." },
+        { "speaker": "raju", "text": "Sir, isme members kaise aate hain? Seedhe janta chunti hai?" },
+        { "speaker": "aman", "text": "Haan bilkul - direct election, universal adult suffrage se. Matlab 18 saal ya usse zyada umar ka har bharatiya nagrik vote de sakta hai - ye 61st Amendment (1988) se hua, pehle voting age 21 thi." },
+        { "speaker": "raju", "text": "Achha! Pehle 21 saal thi to sirf badi umar walon ko hi vote milta tha. Ab to mere bade bhaiya 18 ke hain, wo bhi vote de sakte hain!" }
+      ],
+      "navigation": { "next": "card_10_ls_strength", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_10_ls_strength",
+      "card_slug": "card_10_ls_strength",
+      "type": "chat",
+      "concept_id": "lok_sabha",
+      "level": 2,
+      "progress": { "current": 10, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab exam ka sabse bada confusion suno dhyan se - Lok Sabha ki maximum strength. Original Constitution ke hisaab se maximum 552 members ho sakte the - 530 states se, 20 Union Territories se, aur 2 Anglo-Indian community ke President dwara nominated." },
+        { "speaker": "raju", "text": "552? Par sir humne to news mein 543 suna hai hamesha!" },
+        { "speaker": "aman", "text": "Bilkul sahi pakda! Abhi actual strength 543 hai kyunki delimitation ke baad seats freeze hain 1971 ki janasankhya par - 84th Amendment ne ye freeze 2026 tak badha diya hai, taki jo states population control kar rahe hain unko seat nuksan na ho." },
+        { "speaker": "raju", "text": "Aur wo 2 Anglo-Indian wali seat ka kya hua? Wo to 552 mein add hoti thi na?" }
+      ],
+      "navigation": { "next": "card_11_anglo_indian", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_11_anglo_indian",
+      "card_slug": "card_11_anglo_indian",
+      "type": "chat",
+      "concept_id": "lok_sabha",
+      "level": 2,
+      "progress": { "current": 11, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Ruko, yahi sabse bada recent trap hai! 104th Constitutional Amendment Act, 2019 ne Anglo-Indian community ke liye Lok Sabha aur Vidhan Sabhaon mein nomination ka provision khatam kar diya - ye 25 January 2020 se effective hua." },
+        { "speaker": "raju", "text": "Toh ab maximum strength 552 nahi rahi?" },
+        { "speaker": "aman", "text": "Bilkul sahi socha! Ab theoretical maximum strength 550 hai (530 states + 20 UT), Anglo-Indian ka provision hat gaya. Par actual current strength abhi bhi 543 hi hai - ye number BPSC/SSC dono mein poocha jaata hai, dono figures yaad rakhna: Max=550, Actual=543." },
+        { "speaker": "raju", "text": "Sir ye to exam me pakka confuse karega! 552, 550, 543 - teeno number yaad rakhne padenge!" }
+      ],
+      "navigation": { "next": "card_12_ls_tenure", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_12_ls_tenure",
+      "card_slug": "card_12_ls_tenure",
+      "type": "guess",
+      "concept_id": "lok_sabha",
+      "level": 2,
+      "progress": { "current": 12, "total": 117 },
+      "guess_payload": {
+        "question": "Guess karo: Lok Sabha ka normal karyakaal (tenure) kitne saal ka hota hai, jab tak ise pehle bhang na kiya jaaye?",
+        "options": [
+          { "id": "A", "text": "4 saal" },
+          { "id": "B", "text": "5 saal" },
+          { "id": "C", "text": "6 saal" },
+          { "id": "D", "text": "Permanent, kabhi bhang nahi hoti" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 83(2) ke anusaar Lok Sabha ka tenure 5 saal hai, uske baad automatically bhang ho jaati hai. Emergency ke dauran Parliament kanoon banakar ise 1 saal ke liye badha sakti hai, ek baar mein, jitni baar chahe (jab tak Emergency chalti rahe), lekin Emergency khatam hone ke 6 mahine baad se aage nahi badha sakti. ⭐ Bihar Vidhan Sabha ka bhi tenure 5 saal hi hota hai - same rule state level pe."
+      },
+      "navigation": { "next": "card_13_quiz1_m2", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_13_quiz1_m2",
+      "card_slug": "card_13_quiz1_m2",
+      "type": "quiz",
+      "concept_id": "lok_sabha",
+      "level": 2,
+      "progress": { "current": 13, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: 104th Constitutional Amendment Act, 2019 ke baad Lok Sabha ki theoretical maximum strength kya hai?",
+        "options": [
+          { "id": "A", "text": "552" },
+          { "id": "B", "text": "550" },
+          { "id": "C", "text": "545" },
+          { "id": "D", "text": "543" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Anglo-Indian nomination provision (2 seats) khatam hone ke baad, theoretical maximum strength 552 se ghatkar 550 (530 states + 20 UTs) ho gayi. Actual current strength abhi bhi 543 hai."
+      },
+      "navigation": { "next": "card_14_quiz2_m2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_14_quiz2_m2",
+      "card_slug": "card_14_quiz2_m2",
+      "type": "quiz",
+      "concept_id": "lok_sabha",
+      "level": 2,
+      "progress": { "current": 14, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: Lok Sabha seats ka current delimitation (freeze) kis year ki janganana par based hai, aur kab tak freeze hai?",
+        "options": [
+          { "id": "A", "text": "1981 ki janganana, 2001 tak" },
+          { "id": "B", "text": "1971 ki janganana, 2026 tak" },
+          { "id": "C", "text": "1991 ki janganana, 2031 tak" },
+          { "id": "D", "text": "2001 ki janganana, 2041 tak" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "42nd Amendment (1976) ne seats freeze ki thi 1971 janganana par, aur 84th Amendment (2001) ne isse 2026 tak badha diya - taki population control karne wale states ko political nuksan na ho."
+      },
+      "navigation": { "next": "card_15_quiz3_m2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_15_quiz3_m2",
+      "card_slug": "card_15_quiz3_m2",
+      "type": "quiz",
+      "concept_id": "lok_sabha",
+      "level": 2,
+      "progress": { "current": 15, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: Voting ka minimum umar kitna hai, aur ye kis Amendment se lagu hui?",
+        "options": [
+          { "id": "A", "text": "21 saal, 44th Amendment" },
+          { "id": "B", "text": "18 saal, 61st Amendment" },
+          { "id": "C", "text": "18 saal, 42nd Amendment" },
+          { "id": "D", "text": "21 saal, 61st Amendment" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "61st Constitutional Amendment Act, 1988 ne Article 326 mein voting age 21 se ghatakar 18 saal ki - Rajiv Gandhi sarkar ke dauran."
+      },
+      "navigation": { "next": "card_16_milestone2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_16_milestone2",
+      "card_slug": "card_16_milestone2",
+      "type": "milestone",
+      "concept_id": "lok_sabha",
+      "level": 2,
+      "progress": { "current": 16, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🗳️",
+        "completed_topic": "Lok Sabha - The House of the People",
+        "xp_earned": 60,
+        "milestone_progress": "Module 2/15 Clear",
+        "motivational_quote": "Lok Sabha ke saare numbers pakke ho gaye! Ab Rajya Sabha ki baari!"
+      },
+      "navigation": { "next": "card_17_rs_intro", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_17_rs_intro",
+      "card_slug": "card_17_rs_intro",
+      "type": "chat",
+      "concept_id": "rajya_sabha",
+      "level": 2,
+      "progress": { "current": 17, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab Rajya Sabha - Upper House. Article 80 iski composition batata hai. Iski maximum strength 250 hoti hai." },
+        { "speaker": "raju", "text": "Sir 250 mein se sab elected hote hain?" },
+        { "speaker": "aman", "text": "Nahi Raju! Yahi twist hai - 238 members states aur UTs se elected hote hain (Fourth Schedule mein seat allocation di gayi hai), aur 12 members President dwara nominate kiye jaate hain - Article 80(3)." },
+        { "speaker": "raju", "text": "Nominate kis basis pe hote hain? Koi bhi bana denge kya?" }
+      ],
+      "navigation": { "next": "card_18_rs_nominated", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_18_rs_nominated",
+      "card_slug": "card_18_rs_nominated",
+      "type": "chat",
+      "concept_id": "rajya_sabha",
+      "level": 2,
+      "progress": { "current": 18, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Nahi, arbitrarily nahi. Constitution mein specific field diye hain - Literature, Science, Art aur Social Service mein special knowledge ya practical experience rakhne wale logon ko nominate kiya jaata hai. Jaise Sachin Tendulkar (sport), Lata Mangeshkar (art) nominate hue the." },
+        { "speaker": "raju", "text": "Achha! Matlab Lok Sabha mein to koi nominated nahi hota, sab elected hote hain, par Rajya Sabha mein kuch nominated bhi hote hain!" },
+        { "speaker": "aman", "text": "Bilkul sahi pakda! Ab current numbers dekho - J&K Reorganisation ke baad current Rajya Sabha strength 245 hai (233 elected + 12 nominated). Ye 250 maximum se kam hai." },
+        { "speaker": "raju", "text": "Aur Bihar se kitni seats hain sir Rajya Sabha mein?" }
+      ],
+      "navigation": { "next": "card_19_rs_bihar_permanent", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_19_rs_bihar_permanent",
+      "card_slug": "card_19_rs_bihar_permanent",
+      "type": "chat",
+      "concept_id": "rajya_sabha",
+      "level": 2,
+      "progress": { "current": 19, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ BPSC TRE Favorite: Bihar se Rajya Sabha mein 16 seats hain, aur Lok Sabha mein 40 seats hain - ye dono numbers BPSC bahut baar poochti hai, ratt lo!" },
+        { "speaker": "raju", "text": "Yaad kar liya sir - Bihar: 40 Lok Sabha, 16 Rajya Sabha! Par sir Rajya Sabha kabhi bhang kyun nahi hoti, Lok Sabha to hoti hai?" },
+        { "speaker": "aman", "text": "Bahut badhiya sawal! Rajya Sabha ek 'Permanent House' hai - kabhi dissolve nahi hoti. Har member ka tenure 6 saal ka hota hai, lekin har 2 saal mein 1/3rd members retire karte hain aur unki jagah naye members aate hain." },
+        { "speaker": "raju", "text": "Ohh! Matlab jaise ek pipeline chal rahi ho - kabhi khaali nahi hoti, bas dheere dheere purane log jaate hain aur naye aate hain!" }
+      ],
+      "navigation": { "next": "card_20_rs_deputy_pm_rule", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_20_rs_deputy_pm_rule",
+      "card_slug": "card_20_rs_deputy_pm_rule",
+      "type": "chat",
+      "concept_id": "rajya_sabha",
+      "level": 2,
+      "progress": { "current": 20, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi analogy! Isi wajah se Rajya Sabha ko 'Permanent House' kehte hain, jabki Lok Sabha ko 5 saal baad ya beech mein bhi bhang kiya ja sakta hai." },
+        { "speaker": "raju", "text": "Sir election kaise hota hai Rajya Sabha ka? Janta seedhe vote nahi karti na?" },
+        { "speaker": "aman", "text": "Sahi pakda - Rajya Sabha members INDIRECTLY elected hote hain. State ki Vidhan Sabha ke elected members (MLAs) vote karte hain, wo bhi Proportional Representation by means of Single Transferable Vote system se - ye ek complex voting method hai jisse alag-alag party ke candidates jeet sakein." },
+        { "speaker": "raju", "text": "Matlab hum janta seedhe Rajya Sabha MP nahi chunte, MLA log chunte hain hamari taraf se!" }
+      ],
+      "navigation": { "next": "card_21_quiz1_m3", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_21_quiz1_m3",
+      "card_slug": "card_21_quiz1_m3",
+      "type": "quiz",
+      "concept_id": "rajya_sabha",
+      "level": 2,
+      "progress": { "current": 21, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Rajya Sabha ki maximum strength kitni hai, aur usme kitne members nominated ho sakte hain?",
+        "options": [
+          { "id": "A", "text": "Maximum 250, 12 nominated" },
+          { "id": "B", "text": "Maximum 245, 10 nominated" },
+          { "id": "C", "text": "Maximum 250, 20 nominated" },
+          { "id": "D", "text": "Maximum 238, 12 nominated" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Article 80: Rajya Sabha maximum 250 members - jisme 238 states/UTs se elected aur 12 President dwara nominated (Literature, Science, Art, Social Service ke experts) hote hain."
+      },
+      "navigation": { "next": "card_22_quiz2_m3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_22_quiz2_m3",
+      "card_slug": "card_22_quiz2_m3",
+      "type": "quiz",
+      "concept_id": "rajya_sabha",
+      "level": 2,
+      "progress": { "current": 22, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: Rajya Sabha ke members kis tarah elect hote hain?",
+        "options": [
+          { "id": "A", "text": "Direct election, janta seedhe vote karti hai" },
+          { "id": "B", "text": "Indirect election - State Vidhan Sabha ke MLA vote karte hain (PR-STV system)" },
+          { "id": "C", "text": "President seedhe nominate karte hain" },
+          { "id": "D", "text": "Lok Sabha ke members vote karte hain" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Rajya Sabha members ko States ki Vidhan Sabhaon ke elected members, Proportional Representation by Single Transferable Vote (PR-STV) system se indirectly elect karte hain."
+      },
+      "navigation": { "next": "card_23_quiz3_m3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_23_quiz3_m3",
+      "card_slug": "card_23_quiz3_m3",
+      "type": "quiz",
+      "concept_id": "rajya_sabha",
+      "level": 2,
+      "progress": { "current": 23, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: Rajya Sabha ko 'Permanent House' kyun kaha jaata hai?",
+        "options": [
+          { "id": "A", "text": "Kyunki ye kabhi bhang nahi hoti, sirf 1/3rd members har 2 saal mein retire hote hain" },
+          { "id": "B", "text": "Kyunki iske members ka tenure life-long hota hai" },
+          { "id": "C", "text": "Kyunki isme koi election nahi hota" },
+          { "id": "D", "text": "Kyunki President ise kabhi prorogue nahi kar sakte" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Rajya Sabha ek continuing chamber hai jo kabhi poori tarah dissolve nahi hoti. Har member 6 saal ke liye chuna jaata hai, aur har 2 saal mein 1/3rd retire karke unki jagah naye members aate hain - isliye 'Permanent House'."
+      },
+      "navigation": { "next": "card_24_milestone3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_24_milestone3",
+      "card_slug": "card_24_milestone3",
+      "type": "milestone",
+      "concept_id": "rajya_sabha",
+      "level": 2,
+      "progress": { "current": 24, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "⚖️",
+        "completed_topic": "Rajya Sabha - The Council of States",
+        "xp_earned": 60,
+        "milestone_progress": "Module 3/15 Clear",
+        "motivational_quote": "Do sadan pakke ho gaye! Ab dekhte hain member banne ki kya sharten hain."
+      },
+      "navigation": { "next": "card_25_qualification", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_25_qualification",
+      "card_slug": "card_25_qualification",
+      "type": "chat",
+      "concept_id": "qualification_disqualification",
+      "level": 3,
+      "progress": { "current": 25, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, socho tumhare papa gaon ka Mukhiya banna chahte hain - to kuch minimum sharten to honi chahiye na, jaise umar aur nagrikta?" },
+        { "speaker": "raju", "text": "Haan sir, warna koi bhi khada ho jayega chunav mein!" },
+        { "speaker": "aman", "text": "Bilkul sahi. Article 84 mein MP banne ki qualifications di gayi hain: (1) Bharat ka nagrik hona chahiye, (2) Lok Sabha ke liye minimum umar 25 saal, Rajya Sabha ke liye 30 saal, (3) Parliament dwara banaye gaye kanoon (Representation of People Act, 1951) ke hisaab se aur qualifications poori karni hongi." },
+        { "speaker": "raju", "text": "25 aur 30 - alag alag kyun sir? Rajya Sabha mein zyada umar kyun chahiye?" }
+      ],
+      "navigation": { "next": "card_26_age_reason", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_26_age_reason",
+      "card_slug": "card_26_age_reason",
+      "type": "chat",
+      "concept_id": "qualification_disqualification",
+      "level": 3,
+      "progress": { "current": 26, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Kyunki Rajya Sabha ko 'Council of Elders' bhi socha jaata hai - jyada anubhav aur pariparkvta (maturity) wale logon ka sadan. Isliye umar limit thodi zyada rakhi gayi." },
+        { "speaker": "raju", "text": "Achha samajh gaya! Aur agar koi member galat kaam kare, to usse nikala kaise jaata hai?" },
+        { "speaker": "aman", "text": "Bahut important sawal! Article 102 disqualifications batata hai. Agar koi member: office of profit rakhta ho, unsound mind ho (court dwara declared), undischarged insolvent ho, Bharat ka nagrik na ho ya kisi videshi desh ki nagrikta le li ho, ya kisi kanoon ke tehat disqualified ho - to wo member banne ke laayak nahi." },
+        { "speaker": "raju", "text": "Office of profit? Matlab agar wo sarkari naukri bhi kare to?" }
+      ],
+      "navigation": { "next": "card_27_disqualification_detail", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_27_disqualification_detail",
+      "card_slug": "card_27_disqualification_detail",
+      "type": "chat",
+      "concept_id": "qualification_disqualification",
+      "level": 3,
+      "progress": { "current": 27, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Office of profit ka concept hai ki agar MP koi aisi sarkari post pe hai jaha se salary/labh milta hai (jise kanoon ne exempt na kiya ho), to wo apna independent decision nahi le payega, sarkar ke dabaav mein aa sakta hai - isliye conflict of interest maana jaata hai." },
+        { "speaker": "raju", "text": "Toh kya har sarkari kaam karne wale ko disqualify kar denge?" },
+        { "speaker": "aman", "text": "Nahi, Parliament kanoon banakar kuch posts ko is rule se exempt kar sakti hai - jaise Minister ka pad khud office of profit mein nahi aata, use special exempt kiya gaya hai. Ye judgment case-by-case hoti hai." },
+        { "speaker": "raju", "text": "Achha, matlab Minister banna office of profit nahi maana jaata but koi aur sarkari commission ka chairman banna ho sakta hai!" }
+      ],
+      "navigation": { "next": "card_28_quiz1_m4", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_28_quiz1_m4",
+      "card_slug": "card_28_quiz1_m4",
+      "type": "quiz",
+      "concept_id": "qualification_disqualification",
+      "level": 3,
+      "progress": { "current": 28, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Lok Sabha aur Rajya Sabha ke sadasya banne ke liye minimum umar kramsah kya hai?",
+        "options": [
+          { "id": "A", "text": "Lok Sabha - 21, Rajya Sabha - 25" },
+          { "id": "B", "text": "Lok Sabha - 25, Rajya Sabha - 30" },
+          { "id": "C", "text": "Lok Sabha - 30, Rajya Sabha - 35" },
+          { "id": "D", "text": "Dono ke liye 25 saal" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 84 ke anusaar: Lok Sabha ke liye minimum 25 saal, Rajya Sabha ke liye minimum 30 saal umar zaroori hai."
+      },
+      "navigation": { "next": "card_29_quiz2_m4", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_29_quiz2_m4",
+      "card_slug": "card_29_quiz2_m4",
+      "type": "quiz",
+      "concept_id": "qualification_disqualification",
+      "level": 3,
+      "progress": { "current": 29, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: Article 102 ke tehat, niche mein se kaun MP banne ke liye disqualification ka aadhar NAHI hai?",
+        "options": [
+          { "id": "A", "text": "Office of profit rakhna" },
+          { "id": "B", "text": "Unsound mind hona (court dwara declared)" },
+          { "id": "C", "text": "Undischarged insolvent hona" },
+          { "id": "D", "text": "10th class pass na hona" }
+        ],
+        "correct_option_id": "D",
+        "explanation": "Constitution mein educational qualification ki koi shart nahi hai MP banne ke liye. Disqualification ke aadhar hain: office of profit, unsound mind, undischarged insolvent, videshi nagrikta, aur kanoon ke tehat disqualification (jaise anti-defection)."
+      },
+      "navigation": { "next": "card_30_quiz3_m4", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_30_quiz3_m4",
+      "card_slug": "card_30_quiz3_m4",
+      "type": "quiz",
+      "concept_id": "qualification_disqualification",
+      "level": 3,
+      "progress": { "current": 30, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: MP ki qualifications ka detail kis kanoon mein aata hai jo Parliament ne khud banaya?",
+        "options": [
+          { "id": "A", "text": "Representation of People Act, 1951" },
+          { "id": "B", "text": "Indian Penal Code, 1860" },
+          { "id": "C", "text": "Anti-Defection Act, 1985" },
+          { "id": "D", "text": "Government of India Act, 1935" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Article 84(c) ke tehat Parliament ko power di gayi hai ki wo kanoon banakar additional qualifications tay kare - ye kaam Representation of People Act, 1951 se hua hai."
+      },
+      "navigation": { "next": "card_31_milestone4", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_31_milestone4",
+      "card_slug": "card_31_milestone4",
+      "type": "milestone",
+      "concept_id": "qualification_disqualification",
+      "level": 3,
+      "progress": { "current": 31, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "📜",
+        "completed_topic": "Qualifications & Disqualifications",
+        "xp_earned": 50,
+        "milestone_progress": "Module 4/15 Clear",
+        "motivational_quote": "Ab sabse zyada BPSC-favorite topic aata hai - Dal-badal kanoon! Taiyaar ho jao!"
+      },
+      "navigation": { "next": "card_32_defection_hook", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_32_defection_hook",
+      "card_slug": "card_32_defection_hook",
+      "type": "chat",
+      "concept_id": "anti_defection",
+      "level": 3,
+      "progress": { "current": 32, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, socho tumhari cricket team mein tum ek team se khelne ka wada karke maidan mein utre, aur beech match mein doosri team ke liye khelne lag jao - kaisa lagega?" },
+        { "speaker": "raju", "text": "Sir ye to dhokha hoga! Match hi kharab ho jayega!" },
+        { "speaker": "aman", "text": "Bilkul sahi! Politics mein bhi aisa hota tha - MP/MLA ek party ke ticket pe jeetkar doosri party join kar lete the, sarkar giraane ke liye. Isko rokne ke liye 52nd Constitutional Amendment, 1985 laayi gayi - jisne 10th Schedule (Anti-Defection Law) Constitution mein add ki." },
+        { "speaker": "raju", "text": "Achha! Isko 'Dal-badal Kanoon' kehte hain na sir?" }
+      ],
+      "navigation": { "next": "card_33_defection_grounds", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_33_defection_grounds",
+      "card_slug": "card_33_defection_grounds",
+      "type": "chat",
+      "concept_id": "anti_defection",
+      "level": 3,
+      "progress": { "current": 33, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi naam hai. Ab dhyan se suno - kis condition mein MP disqualify hota hai? Do main grounds hain: (1) Agar wo swayं (voluntarily) apni party ki membership chhod de, (2) Agar wo party whip ke against vote kare ya voting mein absent rahe bina permission ke." },
+        { "speaker": "raju", "text": "Sir agar party khud tod di jaaye, matlab split ho jaaye, tab bhi disqualify honge?" },
+        { "speaker": "aman", "text": "Bahut badhiya trap-catching sawal! Pehle (1985 se 2003) 'split' ka provision tha - agar party ka 1/3rd group alag ho jaaye to disqualify nahi hote the. Lekin 91st Amendment, 2003 ne ye SPLIT provision hata diya!" },
+        { "speaker": "raju", "text": "Toh ab kya bacha hai? Party chodne ka koi rasta nahi bacha?" }
+      ],
+      "navigation": { "next": "card_34_defection_merger_exception", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_34_defection_merger_exception",
+      "card_slug": "card_34_defection_merger_exception",
+      "type": "chat",
+      "concept_id": "anti_defection",
+      "level": 3,
+      "progress": { "current": 34, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Ek exception abhi bhi hai - 'MERGER'. Agar original political party ke kam se kam 2/3rd members kisi doosri party mein MERGE hone ko raazi ho jaayein, to wo disqualify nahi honge. Ye 91st Amendment ne hi laaya tha." },
+        { "speaker": "raju", "text": "Aur sir ye decide kaun karta hai ki disqualify karna hai ya nahi?" },
+        { "speaker": "aman", "text": "Ye faisla Presiding Officer karta hai - Lok Sabha mein Speaker, Rajya Sabha mein Chairman. Par 1992 ke famous Kihoto Hollohan case mein Supreme Court ne kaha ki Speaker ka ye faisla judicial review ke daayre mein aata hai - matlab Court usse challenge kar sakti hai agar mala fide ho." },
+        { "speaker": "raju", "text": "Achha, matlab Speaker final nahi hai, Court check kar sakti hai! Ye to bahut important point hai exam ke liye." }
+      ],
+      "navigation": { "next": "card_35_quiz1_m5", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_35_quiz1_m5",
+      "card_slug": "card_35_quiz1_m5",
+      "type": "quiz",
+      "concept_id": "anti_defection",
+      "level": 3,
+      "progress": { "current": 35, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Anti-Defection Law (10th Schedule) kis Constitutional Amendment se laayi gayi?",
+        "options": [
+          { "id": "A", "text": "42nd Amendment, 1976" },
+          { "id": "B", "text": "52nd Amendment, 1985" },
+          { "id": "C", "text": "91st Amendment, 2003" },
+          { "id": "D", "text": "44th Amendment, 1978" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "10th Schedule (Anti-Defection Law) ko 52nd Constitutional Amendment Act, 1985 dwara Constitution mein jodha gaya, Rajiv Gandhi sarkar ke dauran."
+      },
+      "navigation": { "next": "card_36_quiz2_m5", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_36_quiz2_m5",
+      "card_slug": "card_36_quiz2_m5",
+      "type": "quiz",
+      "concept_id": "anti_defection",
+      "level": 3,
+      "progress": { "current": 36, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: 91st Constitutional Amendment, 2003 ne Anti-Defection Law mein kya BADLAV kiya?",
+        "options": [
+          { "id": "A", "text": "'Split' provision (1/3rd group) ko hata diya, ab sirf 2/3rd Merger hi valid exception hai" },
+          { "id": "B", "text": "Anti-Defection Law ko poori tarah khatam kar diya" },
+          { "id": "C", "text": "Speaker ki power ko badha diya" },
+          { "id": "D", "text": "Rajya Sabha ke members ko is kanoon se bahar kar diya" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "91st Amendment, 2003 ne 'split' ka provision (jisme 1/3rd members alag hokar bhi disqualify nahi hote the) hata diya. Ab sirf 'merger' (2/3rd members ki sahmati se) hi valid exception bacha hai."
+      },
+      "navigation": { "next": "card_37_quiz3_m5", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_37_quiz3_m5",
+      "card_slug": "card_37_quiz3_m5",
+      "type": "quiz",
+      "concept_id": "anti_defection",
+      "level": 3,
+      "progress": { "current": 37, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: Kihoto Hollohan case (1992) mein Supreme Court ne kya nirnay diya?",
+        "options": [
+          { "id": "A", "text": "Speaker ka defection ka faisla judicial review ke daayre mein aata hai" },
+          { "id": "B", "text": "Anti-Defection Law asangvidhanik (unconstitutional) hai" },
+          { "id": "C", "text": "Speaker ka faisla kabhi challenge nahi ho sakta" },
+          { "id": "D", "text": "President hi defection decide karenge, Speaker nahi" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Kihoto Hollohan vs Zachillhu (1992) mein SC ne kaha Speaker/Chairman ka faisla ek quasi-judicial function hai aur agar mala fide, perverse ya rules ke against ho to wo judicial review ke daayre mein aata hai."
+      },
+      "navigation": { "next": "card_38_milestone5", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_38_milestone5",
+      "card_slug": "card_38_milestone5",
+      "type": "milestone",
+      "concept_id": "anti_defection",
+      "level": 3,
+      "progress": { "current": 38, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🚫",
+        "completed_topic": "Anti-Defection Law (10th Schedule)",
+        "xp_earned": 60,
+        "milestone_progress": "Module 5/15 Clear",
+        "motivational_quote": "Dal-badal kanoon ka boss ban gaye tum! Ab Sadan chalane wale officers ko jaano."
+      },
+      "navigation": { "next": "card_39_speaker_intro", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_39_speaker_intro",
+      "card_slug": "card_39_speaker_intro",
+      "type": "chat",
+      "concept_id": "presiding_officers",
+      "level": 3,
+      "progress": { "current": 39, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, class mein jab teacher nahi hoti, monitor line manage karta hai na? Sadan mein bhi ek 'monitor' hota hai jo poori bahas ko control karta hai." },
+        { "speaker": "raju", "text": "Wo Speaker hote hain na sir, jo TV pe 'Order Order' bolte hain?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Speaker Lok Sabha ke presiding officer hote hain - Article 93 ke tehat, Lok Sabha khud apne members mein se ek ko Speaker aur ek ko Deputy Speaker chunti hai." },
+        { "speaker": "raju", "text": "Speaker ka pehla naam kya tha sir, India ka?" }
+      ],
+      "navigation": { "next": "card_40_speaker_powers", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_40_speaker_powers",
+      "card_slug": "card_40_speaker_powers",
+      "type": "chat",
+      "concept_id": "presiding_officers",
+      "level": 3,
+      "progress": { "current": 40, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "India ke pehle Speaker the G.V. Mavalankar. Ab Speaker ki powers samjho: wo Sadan mein order maintain karte hain, decide karte hain ki koi bill Money Bill hai ya nahi (unka faisla FINAL hota hai, court mein challenge nahi ho sakta), aur normally vote nahi dete." },
+        { "speaker": "raju", "text": "Bilkul vote nahi dete? Fir agar tie ho jaaye vote mein to?" },
+        { "speaker": "aman", "text": "Yahi Article 100 ka important rule hai - Speaker sirf TIE hone par 'Casting Vote' dete hain, apni marzi se nahi. Normal voting mein wo hissa nahi lete, sirf jab barabar vote aayein tabhi apna decisive vote dete hain." },
+        { "speaker": "raju", "text": "Achha, matlab Speaker ek referee ki tarah hai, jo sirf tie-breaker ka kaam karta hai!" }
+      ],
+      "navigation": { "next": "card_41_speaker_removal", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_41_speaker_removal",
+      "card_slug": "card_41_speaker_removal",
+      "type": "chat",
+      "concept_id": "presiding_officers",
+      "level": 3,
+      "progress": { "current": 41, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Ekdum sahi analogy! Ab Speaker ka tenure - normally Lok Sabha ke tenure ke barabar chalta hai. Unhe hataya jaata hai - Lok Sabha ke saare (total, sirf present-voting nahi) members ke majority se resolution pass karke, 14 din pehle notice dekar." },
+        { "speaker": "raju", "text": "Aur agar Speaker resign karna chahe to kisko letter denge?" },
+        { "speaker": "aman", "text": "Speaker apna resignation Deputy Speaker ko dete hain, aur Deputy Speaker apna resignation Speaker ko dete hain - dono ek doosre ko denge, President ko nahi!" },
+        { "speaker": "raju", "text": "Interesting! Aur ek aur baat - naye Lok Sabha ka pehla session shuru hone pe, jab Speaker chuna hi nahi gaya, tab kaun manage karta hai?" }
+      ],
+      "navigation": { "next": "card_42_speaker_pro_tem_rs_chairman", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_42_speaker_pro_tem_rs_chairman",
+      "card_slug": "card_42_speaker_pro_tem_rs_chairman",
+      "type": "chat",
+      "concept_id": "presiding_officers",
+      "level": 3,
+      "progress": { "current": 42, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bahut acha sawal! Tab President ek senior-most member ko 'Speaker Pro-tem' appoint karte hain, jo naye members ko oath dilate hain aur naye Speaker ka election karwate hain. Ab dhyan do Rajya Sabha pe - RS ka presiding officer 'Chairman' kehlata hai, aur ye koi member nahi banta, ye VICE PRESIDENT hote hain EX-OFFICIO (Article 89(1))!" },
+        { "speaker": "raju", "text": "Hain?? Vice President seedhe Rajya Sabha ke Chairman ban jaate hain, bina election ke?" },
+        { "speaker": "aman", "text": "Bilkul! Ye automatic hota hai unke Vice President bante hi. Lekin Rajya Sabha apna 'Deputy Chairman' khud apne members mein se chunti hai, jaise Lok Sabha Deputy Speaker chunti hai." },
+        { "speaker": "raju", "text": "Achha, aur agar Vice President khud President ban jaayein ya President ka kaam sambhalein, tab Rajya Sabha kaun chalayega?" }
+      ],
+      "navigation": { "next": "card_43_quiz1_m6", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_43_quiz1_m6",
+      "card_slug": "card_43_quiz1_m6",
+      "type": "quiz",
+      "concept_id": "presiding_officers",
+      "level": 3,
+      "progress": { "current": 43, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Rajya Sabha ka Chairman kaun hota hai?",
+        "options": [
+          { "id": "A", "text": "Rajya Sabha ka koi elected senior member" },
+          { "id": "B", "text": "Vice President of India, ex-officio" },
+          { "id": "C", "text": "Lok Sabha Speaker" },
+          { "id": "D", "text": "Prime Minister" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 89(1) ke anusaar Vice President of India ex-officio Rajya Sabha ke Chairman hote hain - bina alag se election ke, unke Vice President bante hi ye pad mil jaata hai."
+      },
+      "navigation": { "next": "card_44_quiz2_m6", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_44_quiz2_m6",
+      "card_slug": "card_44_quiz2_m6",
+      "type": "quiz",
+      "concept_id": "presiding_officers",
+      "level": 3,
+      "progress": { "current": 44, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: Article 100 ke anusaar, Lok Sabha Speaker kab vote karte hain?",
+        "options": [
+          { "id": "A", "text": "Har bill par pehle vote karte hain" },
+          { "id": "B", "text": "Kabhi vote nahi karte" },
+          { "id": "C", "text": "Sirf jab vote barabar (tie) ho jaaye, tab casting vote dete hain" },
+          { "id": "D", "text": "Sirf Money Bill par vote karte hain" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Speaker normal voting mein participate nahi karte. Sirf tie hone ki sthiti mein, unka 'Casting Vote' faisla karta hai - ye Article 100 mein diya gaya hai."
+      },
+      "navigation": { "next": "card_45_quiz3_m6", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_45_quiz3_m6",
+      "card_slug": "card_45_quiz3_m6",
+      "type": "quiz",
+      "concept_id": "presiding_officers",
+      "level": 3,
+      "progress": { "current": 45, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: India ke pehle Lok Sabha Speaker kaun the?",
+        "options": [
+          { "id": "A", "text": "Dr. Rajendra Prasad" },
+          { "id": "B", "text": "G.V. Mavalankar" },
+          { "id": "C", "text": "Neelam Sanjiva Reddy" },
+          { "id": "D", "text": "Balram Jakhar" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "G.V. Mavalankar Bharat ke pehle Lok Sabha Speaker the (1952-1956)."
+      },
+      "navigation": { "next": "card_46_milestone6", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_46_milestone6",
+      "card_slug": "card_46_milestone6",
+      "type": "milestone",
+      "concept_id": "presiding_officers",
+      "level": 3,
+      "progress": { "current": 46, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🔨",
+        "completed_topic": "Presiding Officers of Parliament",
+        "xp_earned": 60,
+        "milestone_progress": "Module 6/15 Clear",
+        "motivational_quote": "Sadan ke bosses pehchan liye! Ab dekhte hain Sadan kab-kab baithti hai."
+      },
+      "navigation": { "next": "card_47_session_summon", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_47_session_summon",
+      "card_slug": "card_47_session_summon",
+      "type": "chat",
+      "concept_id": "sessions",
+      "level": 4,
+      "progress": { "current": 47, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, Panchayat ki baithak roz thodi hoti hai - saal mein kuch fix baar hoti hai na?" },
+        { "speaker": "raju", "text": "Haan sir, Mukhiya bulate hain jab zaroorat hoti hai." },
+        { "speaker": "aman", "text": "Bilkul waise hi Parliament ko bhi 'summon' kiya jaata hai - Article 85 ke tehat President Parliament ke har Sadan ko bulate hain. Rule ye hai: do sessions ke beech ka gap 6 mahine se zyada nahi hona chahiye." },
+        { "speaker": "raju", "text": "Matlab saal mein kam se kam do baar to session zaroor hogi?" }
+      ],
+      "navigation": { "next": "card_48_three_sessions", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_48_three_sessions",
+      "card_slug": "card_48_three_sessions",
+      "type": "chat",
+      "concept_id": "sessions",
+      "level": 4,
+      "progress": { "current": 48, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi socha - Constitution mein exact number nahi likha, bas 6-mahine ka gap-rule hai. Par practically, convention se, saal mein 3 sessions hoti hain: Budget Session (Feb-May, sabse lambi), Monsoon Session (July-Sept), aur Winter Session (Nov-Dec)." },
+        { "speaker": "raju", "text": "Sir 'Prorogation' aur 'Dissolution' mein kya farak hai? Dono same lagte hain!" },
+        { "speaker": "aman", "text": "Bahut common confusion! 'Prorogation' matlab session ka ANT hona - Sadan khud khatam nahi hoti, bas agla session tak break hoti hai. 'Dissolution' sirf Lok Sabha ke saath hota hai - poori Lok Sabha hi khatam ho jaati hai aur naye chunav ki zaroorat padti hai." },
+        { "speaker": "raju", "text": "Achha! Toh Rajya Sabha kabhi 'dissolve' nahi hoti kyunki wo Permanent House hai, sirf 'prorogue' hoti hai, sahi?" }
+      ],
+      "navigation": { "next": "card_49_quorum", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_49_quorum",
+      "card_slug": "card_49_quorum",
+      "type": "chat",
+      "concept_id": "sessions",
+      "level": 4,
+      "progress": { "current": 49, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Ab ek aur zaroori concept - Quorum. Matlab kam se kam kitne members present hone chahiye taaki Sadan mein kaam-kaaj chal sake." },
+        { "speaker": "raju", "text": "Agar sab members nahi hai to bhi kaam ho jayega kya?" },
+        { "speaker": "aman", "text": "Article 100(3) ke anusaar quorum hai Sadan ki total sadasya sankhya ka 1/10th (das-vaan hissa). Agar poori Lok Sabha 543 hai, to sirf 55 members present hone se bhi kaam chal sakta hai!" },
+        { "speaker": "raju", "text": "Sir ye to kaafi kam hai! Itne kam log kaise poore desh ke liye decide kar sakte hain?" }
+      ],
+      "navigation": { "next": "card_50_quorum_practical", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_50_quorum_practical",
+      "card_slug": "card_50_quorum_practical",
+      "type": "guess",
+      "concept_id": "sessions",
+      "level": 4,
+      "progress": { "current": 50, "total": 117 },
+      "guess_payload": {
+        "question": "Guess karo: Agar Sadan mein kaam-kaaj chalte waqt quorum poora na ho (kam log hon), to Presiding Officer kya karega?",
+        "options": [
+          { "id": "A", "text": "Fir bhi kaam jaari rakhega, koi farak nahi padta" },
+          { "id": "B", "text": "Sadan ko adjourn kar dega ya session suspend karega jab tak quorum poora na ho" },
+          { "id": "C", "text": "Sabhi members ko turant bulwa lega" },
+          { "id": "D", "text": "President ko complain karega" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Agar Sadan mein quorum poora nahi hai, to Presiding Officer (Speaker/Chairman) proceedings ko suspend ya adjourn kar dete hain jab tak quorum poora na ho jaaye. Ye ek practical challenge hai kyunki bahut baar Sadan mein quorum ki kami dekhi jaati hai."
+      },
+      "navigation": { "next": "card_51_quiz1_m7", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_51_quiz1_m7",
+      "card_slug": "card_51_quiz1_m7",
+      "type": "quiz",
+      "concept_id": "sessions",
+      "level": 4,
+      "progress": { "current": 51, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Article 85 ke anusaar, do Parliament sessions ke beech maximum gap kitna ho sakta hai?",
+        "options": [
+          { "id": "A", "text": "3 mahine" },
+          { "id": "B", "text": "6 mahine" },
+          { "id": "C", "text": "1 saal" },
+          { "id": "D", "text": "9 mahine" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 85 kehta hai ki do sessions ke beech gap 6 mahine se zyada nahi ho sakta - isliye saal mein kam se kam 2 sessions to zaroor honi chahiye."
+      },
+      "navigation": { "next": "card_52_quiz2_m7", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_52_quiz2_m7",
+      "card_slug": "card_52_quiz2_m7",
+      "type": "quiz",
+      "concept_id": "sessions",
+      "level": 4,
+      "progress": { "current": 52, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: 'Dissolution' aur 'Prorogation' mein sahi antar kya hai?",
+        "options": [
+          { "id": "A", "text": "Dono ek hi cheez hain" },
+          { "id": "B", "text": "Prorogation sirf session ka ant hai; Dissolution sirf Lok Sabha ke saath hota hai aur poori Sabha khatam hoti hai" },
+          { "id": "C", "text": "Dissolution Rajya Sabha ke saath hota hai" },
+          { "id": "D", "text": "Prorogation President nahi kar sakte" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Prorogation matlab ek session ka ant, Sadan khud nahi khatam hoti. Dissolution sirf Lok Sabha (kabhi Rajya Sabha nahi, kyunki wo Permanent House hai) ke saath hota hai aur naye chunav zaroori ho jaate hain."
+      },
+      "navigation": { "next": "card_53_quiz3_m7", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_53_quiz3_m7",
+      "card_slug": "card_53_quiz3_m7",
+      "type": "quiz",
+      "concept_id": "sessions",
+      "level": 4,
+      "progress": { "current": 53, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: Sadan mein kaam chalane ke liye quorum kitna hona chahiye?",
+        "options": [
+          { "id": "A", "text": "Total sadasya sankhya ka 1/2" },
+          { "id": "B", "text": "Total sadasya sankhya ka 1/10" },
+          { "id": "C", "text": "Total sadasya sankhya ka 1/3" },
+          { "id": "D", "text": "Total sadasya sankhya ka 2/3" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 100(3) ke anusaar quorum, Sadan ki total sadasya sankhya ka 1/10th hai."
+      },
+      "navigation": { "next": "card_54_milestone7", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_54_milestone7",
+      "card_slug": "card_54_milestone7",
+      "type": "milestone",
+      "concept_id": "sessions",
+      "level": 4,
+      "progress": { "current": 54, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "📅",
+        "completed_topic": "Sessions, Summoning & Quorum",
+        "xp_earned": 60,
+        "milestone_progress": "Module 7/15 Clear",
+        "motivational_quote": "Sadan kab baithti hai, ab pata chal gaya! Ab dekhte hain Bill kaise kanoon banta hai."
+      },
+      "navigation": { "next": "card_55_bill_stages", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_55_bill_stages",
+      "card_slug": "card_55_bill_stages",
+      "type": "chat",
+      "concept_id": "legislative_procedure",
+      "level": 4,
+      "progress": { "current": 55, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, socho ek naya rasta gaon mein banana hai - pehle proposal likha jaata hai, phir Panchayat mein charcha, phir final approval, tab kaam shuru hota hai. Kanoon banane mein bhi aise hi stages hoti hain." },
+        { "speaker": "raju", "text": "Achha, to kanoon banane se pehle usko 'Bill' kehte hain na sir?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Bill teen 'readings' se guzarta hai. First Reading mein bill introduce hota hai. Second Reading mein detail discussion hoti hai, committee stage bhi ismein aata hai, clause-by-clause padha jaata hai. Third Reading mein final voting hoti hai." },
+        { "speaker": "raju", "text": "Aur ek Sadan se pass hone ke baad, doosre Sadan mein bhi yehi process dohrana padega?" }
+      ],
+      "navigation": { "next": "card_56_bill_both_houses", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_56_bill_both_houses",
+      "card_slug": "card_56_bill_both_houses",
+      "type": "chat",
+      "concept_id": "legislative_procedure",
+      "level": 4,
+      "progress": { "current": 56, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi socha - Ordinary Bill kisi bhi Sadan mein pehle introduce ho sakta hai (Money Bill chhodkar), aur dono Sadan se pass hona zaroori hai. Uske baad President ke paas assent ke liye jaata hai - Article 111." },
+        { "speaker": "raju", "text": "Agar Rajya Sabha bill ko reject kar de ya Lok Sabha se alag amendment kar de to phir kya hoga?" },
+        { "speaker": "aman", "text": "Yahi to interesting part hai! Jab dono Sadan mein deadlock ho jaaye, tab Article 108 ke tehat President 'Joint Sitting' bula sakte hain - dono Sadan ke members ek saath baithkar vote karte hain." },
+        { "speaker": "raju", "text": "Joint sitting mein kaun preside karta hai? Speaker ya President khud?" }
+      ],
+      "navigation": { "next": "card_57_joint_sitting_details", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_57_joint_sitting_details",
+      "card_slug": "card_57_joint_sitting_details",
+      "type": "chat",
+      "concept_id": "legislative_procedure",
+      "level": 4,
+      "progress": { "current": 57, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "President khud preside nahi karte - Lok Sabha ke Speaker joint sitting preside karte hain (kyunki LS mein members zyada hote hain). Aur ye 3 conditions mein hoti hai: (1) ek Sadan reject kar de, (2) dono mein amendment pe assahmati ho, (3) 6 mahine tak koi action na ho." },
+        { "speaker": "raju", "text": "Sir kitni baar joint sitting hui hai ab tak India mein?" },
+        { "speaker": "aman", "text": "Sirf 3 baar! 1961 mein Dowry Prohibition Bill, 1978 mein Banking Service Commission (Repeal) Bill, aur 2002 mein POTA (Prevention of Terrorism Act) Bill. ⭐ BPSC ka favorite trap: Joint Sitting Money Bill ya Constitutional Amendment Bill ke liye kabhi nahi ho sakti!" },
+        { "speaker": "raju", "text": "Achha! Matlab Money Bill mein Rajya Sabha ka koi deadlock hi nahi ban sakta joint sitting tak jaane ka!" }
+      ],
+      "navigation": { "next": "card_58_president_assent_options", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_58_president_assent_options",
+      "card_slug": "card_58_president_assent_options",
+      "type": "chat",
+      "concept_id": "legislative_procedure",
+      "level": 4,
+      "progress": { "current": 58, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi pakda! Ab final step - President ke paas Bill jaane ke baad unke paas 3 options hote hain: (1) Assent de dein (bill Act ban jaata hai), (2) Withhold kar dein (mana kar dein), (3) Ordinary Bill ko ek baar reconsideration ke liye wapas bhej dein." },
+        { "speaker": "raju", "text": "Agar wapas bheja hua bill dobara pass hokar aaye to?" },
+        { "speaker": "aman", "text": "Tab President ko assent DENA hi padega, mana nahi kar sakte. Lekin yaad rakho - Money Bill ko President reconsideration ke liye wapas NAHI bhej sakte, sirf assent ya withhold kar sakte hain." },
+        { "speaker": "raju", "text": "Ye 'Money Bill' baar-baar special kyun treat ho raha hai sir? Agla topic yehi lagta hai!" }
+      ],
+      "navigation": { "next": "card_59_quiz1_m8", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_59_quiz1_m8",
+      "card_slug": "card_59_quiz1_m8",
+      "type": "quiz",
+      "concept_id": "legislative_procedure",
+      "level": 4,
+      "progress": { "current": 59, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Article 108 ke tehat Joint Sitting kis Sadan ke Speaker/Chairman preside karte hain?",
+        "options": [
+          { "id": "A", "text": "Rajya Sabha ke Chairman (Vice President)" },
+          { "id": "B", "text": "Lok Sabha ke Speaker" },
+          { "id": "C", "text": "President khud" },
+          { "id": "D", "text": "Deputy Chairman, Rajya Sabha" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Joint Sitting mein Lok Sabha ke Speaker hi preside karte hain, kyunki Lok Sabha mein members zyada hote hain aur convention se yehi practice hai."
+      },
+      "navigation": { "next": "card_60_quiz2_m8", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_60_quiz2_m8",
+      "card_slug": "card_60_quiz2_m8",
+      "type": "quiz",
+      "concept_id": "legislative_procedure",
+      "level": 4,
+      "progress": { "current": 60, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: Ab tak Bharat mein kितनी बार Joint Sitting bulaayi gayi hai, aur konse bills ke liye?",
+        "options": [
+          { "id": "A", "text": "2 baar - Dowry Bill aur POTA Bill" },
+          { "id": "B", "text": "3 baar - Dowry Prohibition Bill (1961), Banking Service Commission Repeal Bill (1978), POTA Bill (2002)" },
+          { "id": "C", "text": "4 baar including GST Bill" },
+          { "id": "D", "text": "1 baar - sirf POTA Bill" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Ab tak sirf 3 baar joint sitting hui hai: 1961 (Dowry Prohibition Bill), 1978 (Banking Service Commission Repeal Bill), 2002 (POTA Bill)."
+      },
+      "navigation": { "next": "card_61_quiz3_m8", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_61_quiz3_m8",
+      "card_slug": "card_61_quiz3_m8",
+      "type": "quiz",
+      "concept_id": "legislative_procedure",
+      "level": 4,
+      "progress": { "current": 61, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: Joint Sitting kis prakar ke Bill ke liye kabhi NAHI bulaayi ja sakti?",
+        "options": [
+          { "id": "A", "text": "Ordinary Bill" },
+          { "id": "B", "text": "Money Bill aur Constitutional Amendment Bill" },
+          { "id": "C", "text": "Private Member's Bill" },
+          { "id": "D", "text": "Financial Bill Category B" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Money Bill ke liye joint sitting ki zaroorat hi nahi padti (kyunki RS ke pass sirf recommend karne ki power hai), aur Constitutional Amendment Bill (Article 368) ke liye bhi joint sitting ka provision nahi hai - dono Sadan se alag-alag special majority se pass hona zaroori hai."
+      },
+      "navigation": { "next": "card_62_milestone8", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_62_milestone8",
+      "card_slug": "card_62_milestone8",
+      "type": "milestone",
+      "concept_id": "legislative_procedure",
+      "level": 4,
+      "progress": { "current": 62, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "📝",
+        "completed_topic": "Legislative Procedure & Joint Sitting",
+        "xp_earned": 60,
+        "milestone_progress": "Module 8/15 Clear",
+        "motivational_quote": "Kanoon banane ka process pakka hua! Ab Money Bill ka sabse bada trap todhte hain."
+      },
+      "navigation": { "next": "card_63_money_bill_def", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_63_money_bill_def",
+      "card_slug": "card_63_money_bill_def",
+      "type": "chat",
+      "concept_id": "money_bill",
+      "level": 4,
+      "progress": { "current": 63, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, ghar ka budget - kitna paisa aayega, kitna kharch hoga - iska faisla kaun karta hai, mummy ya papa?" },
+        { "speaker": "raju", "text": "Ghar mein to mummy karti hain sir, unhi ko pata hota hai kitna kharcha hoga!" },
+        { "speaker": "aman", "text": "Waise hi desh ke paise (tax, kharcha, karza) se related bill ko 'Money Bill' kehte hain - Article 110 ismein define karta hai. Aur BPSC ka sabse bada trap: Money Bill SIRF Lok Sabha mein introduce ho sakta hai, Rajya Sabha mein kabhi nahi!" },
+        { "speaker": "raju", "text": "Toh Rajya Sabha ka isme koi role hi nahi hai kya?" }
+      ],
+      "navigation": { "next": "card_64_money_bill_rs_role", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_64_money_bill_rs_role",
+      "card_slug": "card_64_money_bill_rs_role",
+      "type": "chat",
+      "concept_id": "money_bill",
+      "level": 4,
+      "progress": { "current": 64, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Rajya Sabha ka role hai - lekin bahut limited! Money Bill LS se pass hoke RS ke paas jaata hai, RS ke paas sirf 14 din hote hain use recommend karne ke liye. RS ise reject nahi kar sakti, sirf sujhaav de sakti hai." },
+        { "speaker": "raju", "text": "Aur Lok Sabha usko maanegi ya nahi, ye kaun decide karega?" },
+        { "speaker": "aman", "text": "Ye Lok Sabha ki marzi hai - wo RS ke suggestions maane ya na maane, dono option hai unke paas. Aur agar RS 14 din mein kuch na kare (na return kare, na recommend kare), to bill automatically dono Sadan se pass mana jaata hai." },
+        { "speaker": "raju", "text": "Matlab Money Bill mein Rajya Sabha ki power bahut kam hai! Aur ye decide kaun karta hai ki koi bill Money Bill hai ya nahi?" }
+      ],
+      "navigation": { "next": "card_65_speaker_certificate_financial_bill", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_65_speaker_certificate_financial_bill",
+      "card_slug": "card_65_speaker_certificate_financial_bill",
+      "type": "chat",
+      "concept_id": "money_bill",
+      "level": 4,
+      "progress": { "current": 65, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Ye faisla Lok Sabha ka SPEAKER karta hai, aur unka certificate FINAL hota hai - court mein challenge nahi ho sakta (Article 122 isko protect karta hai). Ab ek aur category suno - 'Financial Bill'." },
+        { "speaker": "raju", "text": "Sir Money Bill aur Financial Bill alag hote hain kya? Mujhe to same lag rahe hain!" },
+        { "speaker": "aman", "text": "Yahi sabse bada BPSC-level confusion hai! Financial Bill Category-A (Article 117(1)) mein money bill wale matters BHI hote hain PLUS kuch aur normal matters bhi. Isliye ise Money Bill nahi kaha jaata, lekin introduce sirf LS mein hoga, aur President ki prior recommendation chahiye." },
+        { "speaker": "raju", "text": "Aur Category-B wala kya hai sir?" }
+      ],
+      "navigation": { "next": "card_66_quiz1_m9", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_66_quiz1_m9",
+      "card_slug": "card_66_quiz1_m9",
+      "type": "quiz",
+      "concept_id": "money_bill",
+      "level": 4,
+      "progress": { "current": 66, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Money Bill kis Sadan mein hi introduce ho sakta hai?",
+        "options": [
+          { "id": "A", "text": "Sirf Rajya Sabha mein" },
+          { "id": "B", "text": "Sirf Lok Sabha mein" },
+          { "id": "C", "text": "Kisi bhi Sadan mein" },
+          { "id": "D", "text": "Joint Sitting mein" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 110 ke anusaar Money Bill SIRF Lok Sabha mein introduce ho sakta hai, aur wo bhi President ki prior recommendation ke saath. Isse Rajya Sabha ki taakat par control rehta hai financial matters mein."
+      },
+      "navigation": { "next": "card_67_quiz2_m9", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_67_quiz2_m9",
+      "card_slug": "card_67_quiz2_m9",
+      "type": "quiz",
+      "concept_id": "money_bill",
+      "level": 4,
+      "progress": { "current": 67, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: Money Bill ke liye Rajya Sabha ke paas kitne din ka time hota hai apne sujhaav dene ke liye?",
+        "options": [
+          { "id": "A", "text": "30 din" },
+          { "id": "B", "text": "6 mahine" },
+          { "id": "C", "text": "14 din" },
+          { "id": "D", "text": "60 din" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Rajya Sabha ke paas Money Bill par recommendations dene ke liye sirf 14 din hote hain. Is dauran koi action na hone par bill automatically dono Sadan se pass maan liya jaata hai."
+      },
+      "navigation": { "next": "card_68_quiz3_m9", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_68_quiz3_m9",
+      "card_slug": "card_68_quiz3_m9",
+      "type": "quiz",
+      "concept_id": "money_bill",
+      "level": 4,
+      "progress": { "current": 68, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: Koi Bill Money Bill hai ya nahi, iska final faisla kaun karta hai?",
+        "options": [
+          { "id": "A", "text": "President" },
+          { "id": "B", "text": "Supreme Court" },
+          { "id": "C", "text": "Lok Sabha Speaker (aur ye faisla court mein challenge nahi ho sakta)" },
+          { "id": "D", "text": "Rajya Sabha Chairman" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Lok Sabha ke Speaker ka certificate ye batata hai ki koi bill Money Bill hai ya nahi, aur Article 122 ke tehat ye faisla court mein challenge nahi kiya ja sakta."
+      },
+      "navigation": { "next": "card_69_milestone9", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_69_milestone9",
+      "card_slug": "card_69_milestone9",
+      "type": "milestone",
+      "concept_id": "money_bill",
+      "level": 4,
+      "progress": { "current": 69, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "💰",
+        "completed_topic": "Money Bill & Financial Bill",
+        "xp_earned": 60,
+        "milestone_progress": "Module 9/15 Clear",
+        "motivational_quote": "Money Bill ka trap solve ho gaya! Ab dekhte hain poore desh ka Budget kaise pass hota hai."
+      },
+      "navigation": { "next": "card_70_budget_intro", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_70_budget_intro",
+      "card_slug": "card_70_budget_intro",
+      "type": "chat",
+      "concept_id": "budget",
+      "level": 5,
+      "progress": { "current": 70, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, saal ke shuru mein tumhare papa plan karte hain na - itna kamaenge, itna kharch karenge, itna bachaenge? Desh ka bhi ek aisa hi saalana plan hota hai, jise 'Budget' kehte hain." },
+        { "speaker": "raju", "text": "Achha! Isko official constitutional naam kya hai sir?" },
+        { "speaker": "aman", "text": "Article 112 mein ise 'Annual Financial Statement' kaha gaya hai. Finance Minister ise Lok Sabha mein pesh karte hain, usually February ko. ⭐ Yaad rakho: 2017 se pehle Railway Budget alag pesh hota tha, ab 2017 se General Budget mein hi merge kar diya gaya hai." },
+        { "speaker": "raju", "text": "Sir Budget mein sirf 'kharcha' ka hisaab hota hai ya 'kamaai' ka bhi?" }
+      ],
+      "navigation": { "next": "card_71_funds_types", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_71_funds_types",
+      "card_slug": "card_71_funds_types",
+      "type": "chat",
+      "concept_id": "budget",
+      "level": 5,
+      "progress": { "current": 71, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Dono ka hisaab hota hai. Ab teen important 'Funds' samjho jo desh ke paise rakhte hain. Pehla: Consolidated Fund of India (Article 266) - iसमें sara tax revenue aur loan ka paisa aata hai, aur isse kharcha karne ke liye Parliament ki APPROVAL zaroori hai." },
+        { "speaker": "raju", "text": "Aur baaki do funds sir?" },
+        { "speaker": "aman", "text": "Doosra: Contingency Fund of India (Article 267) - ye ek emergency piggy-bank hai, President ke control mein, achanak zaroorat padne par bina Parliament approval ke turant kharcha kar sakte hain, baad mein Parliament se approve karwaya jaata hai. Corpus abhi Rs 30,000 crore hai." },
+        { "speaker": "raju", "text": "Aur teesra fund konsa hai sir?" }
+      ],
+      "navigation": { "next": "card_72_public_account_charged_voted", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_72_public_account_charged_voted",
+      "card_slug": "card_72_public_account_charged_voted",
+      "type": "chat",
+      "concept_id": "budget",
+      "level": 5,
+      "progress": { "current": 72, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Teesra hai Public Account of India (Article 266(2)) - ismein provident fund, small savings jaisi cheezein hoti hain jo sarkar 'trustee' ki tarah rakhti hai, isse nikaalne ke liye Parliament ki approval zaroori NAHI hoti." },
+        { "speaker": "raju", "text": "Achha! Aur Consolidated Fund ka poora paisa Lok Sabha vote karke approve karti hai?" },
+        { "speaker": "aman", "text": "Yahin ek zaroori twist hai! Kuch expenditure 'CHARGED' hoti hai - jaise President ki salary, Speaker/Deputy Speaker ki salary, judges ki salary, CAG ki salary - inpe Parliament sirf DISCUSS kar sakti hai, VOTE nahi kar sakti. Baaki sab 'VOTED' expenditure hoti hai jispe Lok Sabha vote karti hai." },
+        { "speaker": "raju", "text": "Toh judges ki salary kum-zyada karne ka vote LS nahi kar sakti? Interesting!" }
+      ],
+      "navigation": { "next": "card_73_cut_motions", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_73_cut_motions",
+      "card_slug": "card_73_cut_motions",
+      "type": "chat",
+      "concept_id": "budget",
+      "level": 5,
+      "progress": { "current": 73, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi, isse judicial independence bachti hai. Ab 'Cut Motions' samjho - jab LS members Demand for Grant mein kharcha kam karna chahte hain, to 3 tarah ke cut motion move karte hain: Policy Cut (kisi policy ka virodh, amount ko Re 1 kar dena), Economy Cut (specific amount kam karna), aur Token Cut (Rs 100 katna, sirf disapproval jataane ke liye)." },
+        { "speaker": "raju", "text": "Sir sirf Lok Sabha hi vote karti hai Demand for Grant pe? Rajya Sabha kuch nahi karti?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Sirf Lok Sabha hi Demands for Grant pe vote karti hai - Rajya Sabha isme voting nahi kar sakti, bas discuss kar sakti hai. Iske baad Appropriation Bill (Article 114) pass hoti hai kharcha ki legal permission ke liye, aur Finance Bill (Article 110) taxation proposals ke liye." },
+        { "speaker": "raju", "text": "Sir ye Appropriation Bill aur Finance Bill dono alag hain? Ye to naya confusion aa gaya!" }
+      ],
+      "navigation": { "next": "card_74_quiz1_m10", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_74_quiz1_m10",
+      "card_slug": "card_74_quiz1_m10",
+      "type": "quiz",
+      "concept_id": "budget",
+      "level": 5,
+      "progress": { "current": 74, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Consolidated Fund of India se paisa nikalne ke liye kya zaroori hai?",
+        "options": [
+          { "id": "A", "text": "Sirf President ki approval" },
+          { "id": "B", "text": "Parliament ki approval (kanoon dwara authorize kiya jaana)" },
+          { "id": "C", "text": "Sirf Finance Minister ka order" },
+          { "id": "D", "text": "Kisi approval ki zaroorat nahi" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 266 ke anusaar Consolidated Fund of India se koi bhi paisa Parliament ki approval (kanoon) ke bina nahi nikala ja sakta."
+      },
+      "navigation": { "next": "card_75_quiz2_m10", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_75_quiz2_m10",
+      "card_slug": "card_75_quiz2_m10",
+      "type": "quiz",
+      "concept_id": "budget",
+      "level": 5,
+      "progress": { "current": 75, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: 'Charged Expenditure' ke baare mein kaunsa kathan sahi hai?",
+        "options": [
+          { "id": "A", "text": "Lok Sabha isko vote karke pass karti hai" },
+          { "id": "B", "text": "Lok Sabha sirf discuss kar sakti hai, vote nahi kar sakti (jaise President/Judges ki salary)" },
+          { "id": "C", "text": "Rajya Sabha isko approve karti hai" },
+          { "id": "D", "text": "Isko Finance Minister decide karte hain" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Charged expenditure (President, Speaker, Judges ki salary, debt charges etc.) par Parliament VOTE nahi kar sakti, sirf discuss kar sakti hai - taaki judicial/constitutional independence bani rahe."
+      },
+      "navigation": { "next": "card_76_quiz3_m10", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_76_quiz3_m10",
+      "card_slug": "card_76_quiz3_m10",
+      "type": "quiz",
+      "concept_id": "budget",
+      "level": 5,
+      "progress": { "current": 76, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: Cut Motion ka 'Token Cut' kis amount ko kata jaata hai?",
+        "options": [
+          { "id": "A", "text": "Poori Demand ko Re 1 kar diya jaata hai" },
+          { "id": "B", "text": "Rs 100 kata jaata hai, disapproval jataane ke liye" },
+          { "id": "C", "text": "Ek specific amount kam kiya jaata hai" },
+          { "id": "D", "text": "Demand poori tarah reject kar di jaati hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Token Cut Motion mein Demand ki amount se Rs 100 kata jaata hai, iska matlab hai member sarkar ki policy se disagree karta hai lekin poori tarah reject nahi karna chahta."
+      },
+      "navigation": { "next": "card_77_milestone10", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_77_milestone10",
+      "card_slug": "card_77_milestone10",
+      "type": "milestone",
+      "concept_id": "budget",
+      "level": 5,
+      "progress": { "current": 77, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "💵",
+        "completed_topic": "The Budget - Article 112",
+        "xp_earned": 60,
+        "milestone_progress": "Module 10/15 Clear",
+        "motivational_quote": "Budget master ban gaye! Ab Parliament ke chhote-chhote 'watchdog' groups - Committees - jaante hain."
+      },
+      "navigation": { "next": "card_78_committees_intro", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_78_committees_intro",
+      "card_slug": "card_78_committees_intro",
+      "type": "chat",
+      "concept_id": "committees",
+      "level": 5,
+      "progress": { "current": 78, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, poori Parliament ke 543+245 members ek saath baithkar har chhoti detail check nahi kar sakte na? Isliye chhoti-chhoti teams banayi jaati hain jo detail mein kaam check karti hain - inhe 'Parliamentary Committees' kehte hain." },
+        { "speaker": "raju", "text": "Jaise class mein group project ke liye chhote-chhote group banate hain, waise hi?" },
+        { "speaker": "aman", "text": "Bilkul sahi analogy! Sabse important hai Public Accounts Committee (PAC) - 22 members (15 Lok Sabha + 7 Rajya Sabha), jo CAG ki report ki jaanch karti hai ki sarkar ne paisa sahi kharcha kiya ya nahi." },
+        { "speaker": "raju", "text": "Iska Chairman kaun banta hai sir, ruling party ka?" }
+      ],
+      "navigation": { "next": "card_79_pac_convention", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_79_pac_convention",
+      "card_slug": "card_79_pac_convention",
+      "type": "chat",
+      "concept_id": "committees",
+      "level": 5,
+      "progress": { "current": 79, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Yahi bada interesting fact hai - 1967 se ek convention chal rahi hai ki PAC ka Chairman VIRODHI DAL (opposition) se hota hai! Isse transparency maintain hoti hai ki ruling party khud apni jaanch na kare." },
+        { "speaker": "raju", "text": "Achha! Toh sarkar khud apna hisaab-kitaab check nahi karti, opposition karti hai - fair hai ye!" },
+        { "speaker": "aman", "text": "Bilkul! Ab Estimates Committee samjho - ye sirf Lok Sabha ke members se banti hai, 30 members, aur ise 'Continuing Economy Committee' bhi kehte hain kyunki ye budget estimates mein bachat (economy) ke suggestions deti hai." },
+        { "speaker": "raju", "text": "Sir PAC mein RS ke members hain lekin Estimates Committee mein sirf LS? Ye alag kyun hai?" }
+      ],
+      "navigation": { "next": "card_80_copu_drsc", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_80_copu_drsc",
+      "card_slug": "card_80_copu_drsc",
+      "type": "chat",
+      "concept_id": "committees",
+      "level": 5,
+      "progress": { "current": 80, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Ye historically decide kiya gaya - Estimates Committee ka focus sirf financial estimates hai jo primarily LS ka domain hai. Ab teesri financial committee - Committee on Public Undertakings (COPU) - 22 members (15 LS + 7 RS), jo PSUs (Public Sector Undertakings) ka kaam-kaaj check karti hai." },
+        { "speaker": "raju", "text": "Sir ye teeno - PAC, Estimates, COPU - inhe 'Financial Committees' kehte hain?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Aur ek aur important type hai - Departmental Related Standing Committees (DRSCs), 1993 mein shuru hui thin, jo har ministry ke bills aur kaam-kaaj ko detail mein scrutinize karti hain. Abhi total 24 DRSCs hain." },
+        { "speaker": "raju", "text": "Achha! Ye committees to poore government ka postmortem karti rehti hain, sahi mein 'watchdogs' hain!" }
+      ],
+      "navigation": { "next": "card_81_ad_hoc_committees", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_81_ad_hoc_committees",
+      "card_slug": "card_81_ad_hoc_committees",
+      "type": "chat",
+      "concept_id": "committees",
+      "level": 5,
+      "progress": { "current": 81, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi bola! Ab dhyan do - committees do type ki hoti hain: 'Standing Committees' (permanent, jaise PAC, Estimates, COPU, DRSCs) aur 'Ad hoc Committees' (temporary, khaas kaam ke liye banti hain jaise 'Select Committee' ya 'Joint Committee on a Bill', kaam poora hote hi khatam ho jaati hain)." },
+        { "speaker": "raju", "text": "Toh PAC hamesha rahegi, par kisi ek bill ke liye banayi gayi committee kaam khatam hote hi khatam ho jayegi?" },
+        { "speaker": "aman", "text": "Bilkul sahi samjhe! Ye difference exam mein directly poocha jaata hai - Standing vs Ad hoc." },
+        { "speaker": "raju", "text": "Samajh gaya sir, ab quiz de dijiye!" }
+      ],
+      "navigation": { "next": "card_82_quiz1_m11", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_82_quiz1_m11",
+      "card_slug": "card_82_quiz1_m11",
+      "type": "quiz",
+      "concept_id": "committees",
+      "level": 5,
+      "progress": { "current": 82, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Public Accounts Committee (PAC) ka Chairman convention ke anusaar kis se hota hai?",
+        "options": [
+          { "id": "A", "text": "Ruling party ka koi senior member" },
+          { "id": "B", "text": "1967 se opposition party ka member" },
+          { "id": "C", "text": "Prime Minister khud" },
+          { "id": "D", "text": "Rajya Sabha ka Chairman" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "1967 se ek convention chal rahi hai ki PAC ka Chairman opposition party se hota hai, taaki financial accountability check karne mein transparency bani rahe."
+      },
+      "navigation": { "next": "card_83_quiz2_m11", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_83_quiz2_m11",
+      "card_slug": "card_83_quiz2_m11",
+      "type": "quiz",
+      "concept_id": "committees",
+      "level": 5,
+      "progress": { "current": 83, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: Estimates Committee ke baare mein kaunsa kathan sahi hai?",
+        "options": [
+          { "id": "A", "text": "Isme Lok Sabha aur Rajya Sabha dono ke members hote hain" },
+          { "id": "B", "text": "Isme sirf Lok Sabha ke 30 members hote hain" },
+          { "id": "C", "text": "Isko 'Watchdog Committee' kehte hain" },
+          { "id": "D", "text": "Ye PSU ka kaam-kaaj check karti hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Estimates Committee mein sirf Lok Sabha ke 30 members hote hain, isliye Rajya Sabha ka isme koi representation nahi hai. Ise 'Continuing Economy Committee' kehte hain."
+      },
+      "navigation": { "next": "card_84_quiz3_m11", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_84_quiz3_m11",
+      "card_slug": "card_84_quiz3_m11",
+      "type": "quiz",
+      "concept_id": "committees",
+      "level": 5,
+      "progress": { "current": 84, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: 'Ad hoc Committee' aur 'Standing Committee' mein main antar kya hai?",
+        "options": [
+          { "id": "A", "text": "Ad hoc Committee permanent hoti hai, Standing temporary" },
+          { "id": "B", "text": "Standing Committee permanent hoti hai; Ad hoc Committee kisi khaas kaam ke liye banti hai aur kaam khatam hote hi khatam ho jaati hai" },
+          { "id": "C", "text": "Dono same hote hain" },
+          { "id": "D", "text": "Ad hoc Committee sirf Rajya Sabha mein hoti hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Standing Committees permanent hoti hain aur regularly kaam karti hain (jaise PAC), jabki Ad hoc Committees kisi specific purpose (jaise ek bill par Select/Joint Committee) ke liye banti hain aur kaam poora hote hi bhang ho jaati hain."
+      },
+      "navigation": { "next": "card_85_milestone11", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_85_milestone11",
+      "card_slug": "card_85_milestone11",
+      "type": "milestone",
+      "concept_id": "committees",
+      "level": 5,
+      "progress": { "current": 85, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🕵️",
+        "completed_topic": "Parliamentary Committees",
+        "xp_earned": 60,
+        "milestone_progress": "Module 11/15 Clear",
+        "motivational_quote": "Watchdog committees pakki hui! Ab dekhte hain Parliament ke saare BADE POWERS ek saath."
+      },
+      "navigation": { "next": "card_86_powers_legislative", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_86_powers_legislative",
+      "card_slug": "card_86_powers_legislative",
+      "type": "chat",
+      "concept_id": "powers_functions",
+      "level": 5,
+      "progress": { "current": 86, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, ab tak humne Parliament ke parts dekhe, ab uske saare KAAM ek saath samjhte hain. Sabse pehla hai - Legislative Power - Parliament Union List aur Concurrent List ke subjects par kanoon bana sakti hai." },
+        { "speaker": "raju", "text": "Sir agar koi cheez State List mein ho, to kya Parliament kabhi usme kanoon nahi bana sakti?" },
+        { "speaker": "aman", "text": "Achha sawal! Normally nahi, LEKIN 4 special situations mein bana sakti hai: Article 249 (agar Rajya Sabha 2/3rd majority se resolution paas kare national interest mein), Article 250 (National Emergency ke dauran), Article 252 (agar do ya zyada states khud request karein), Article 253 (international treaty implement karne ke liye)." },
+        { "speaker": "raju", "text": "Achha! Matlab Rajya Sabha ke paas ek special power hai State List pe bhi kanoon banwane ka, ye interesting hai!" }
+      ],
+      "navigation": { "next": "card_87_powers_executive_financial", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_87_powers_executive_financial",
+      "card_slug": "card_87_powers_executive_financial",
+      "type": "chat",
+      "concept_id": "powers_functions",
+      "level": 5,
+      "progress": { "current": 87, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi, aage aayega us pe. Ab doosra power - Executive Control. Article 75(3) kehta hai Council of Ministers LOK SABHA ke prati SAMUHIK RUP SE (collectively) uttardai (responsible) hai - matlab sarkar ko LS ka vishwas chahiye rehne ke liye." },
+        { "speaker": "raju", "text": "Isliye No-Confidence Motion se sarkar gir jaati hai na sir?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Teesra power hai Financial - Budget ko approve karna, tax lagana. Chautha hai Constituent Power - Article 368 ke tehat Constitution mein amendment karna. Paanchwa Judicial - President ka impeachment (Article 61), judges ko hataana (Article 124(4))." },
+        { "speaker": "raju", "text": "Sir itne saare powers! Ek aur bhi bacha hai kya?" }
+      ],
+      "navigation": { "next": "card_88_powers_electoral_other", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_88_powers_electoral_other",
+      "card_slug": "card_88_powers_electoral_other",
+      "type": "chat",
+      "concept_id": "powers_functions",
+      "level": 5,
+      "progress": { "current": 88, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Haan, ek aur - Electoral Power. Parliament ke elected members, State Vidhan Sabha ke saath milkar President ka chunav karte hain, aur akele hi Vice President ka chunav karte hain. Isके alawa Speaker, Deputy Speaker, Chairman, Deputy Chairman jaise apne internal officers bhi elect karti hai." },
+        { "speaker": "raju", "text": "Sir Vice President ka election mein State Assembly involve nahi hoti?" },
+        { "speaker": "aman", "text": "Bilkul sahi pakda! Vice President sirf Parliament ke members (LS+RS dono, elected aur nominated dono) chunte hain - iska Electoral College State Assembly ko include NAHI karta, jabki President ke Electoral College mein State Assembly bhi shaamil hoti hai." },
+        { "speaker": "raju", "text": "Ye to bada important difference hai President vs Vice President election mein!" }
+      ],
+      "navigation": { "next": "card_89_quiz1_m12", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_89_quiz1_m12",
+      "card_slug": "card_89_quiz1_m12",
+      "type": "quiz",
+      "concept_id": "powers_functions",
+      "level": 5,
+      "progress": { "current": 89, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Kis Article ke tehat Rajya Sabha 2/3rd majority se resolution paas karke Parliament ko State List par kanoon banane ka adhikar de sakti hai?",
+        "options": [
+          { "id": "A", "text": "Article 249" },
+          { "id": "B", "text": "Article 252" },
+          { "id": "C", "text": "Article 356" },
+          { "id": "D", "text": "Article 368" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Article 249 ke tehat Rajya Sabha, present-voting members ke 2/3rd majority se, ye resolution paas kar sakti hai ki national interest mein Parliament State List ke kisi subject par kanoon banaye - ye 1 saal ke liye valid hota hai, renewable."
+      },
+      "navigation": { "next": "card_90_quiz2_m12", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_90_quiz2_m12",
+      "card_slug": "card_90_quiz2_m12",
+      "type": "quiz",
+      "concept_id": "powers_functions",
+      "level": 5,
+      "progress": { "current": 90, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: Council of Ministers, kis Sadan ke prati samuhik roop se uttardai hoti hai?",
+        "options": [
+          { "id": "A", "text": "Rajya Sabha" },
+          { "id": "B", "text": "Lok Sabha" },
+          { "id": "C", "text": "Dono Sadan barabar" },
+          { "id": "D", "text": "President" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 75(3) ke anusaar Council of Ministers sirf LOK SABHA ke prati samuhik roop se uttardai hoti hai - isi wajah se No-Confidence Motion sirf Lok Sabha mein laayi jaa sakti hai."
+      },
+      "navigation": { "next": "card_91_quiz3_m12", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_91_quiz3_m12",
+      "card_slug": "card_91_quiz3_m12",
+      "type": "quiz",
+      "concept_id": "powers_functions",
+      "level": 5,
+      "progress": { "current": 91, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: Vice President ka chunav kaun karta hai?",
+        "options": [
+          { "id": "A", "text": "Sirf Lok Sabha ke members" },
+          { "id": "B", "text": "Parliament ke dono Sadan ke elected + nominated members (State Assembly involved nahi)" },
+          { "id": "C", "text": "State Assembly ke members bhi shaamil hote hain jaise President election mein" },
+          { "id": "D", "text": "Sirf Prime Minister nominate karte hain" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Vice President ka Electoral College sirf Parliament ke dono Sadan ke members (elected + nominated) se banta hai. State Legislative Assembly members isme shaamil nahi hote - ye President ke election se alag hai jisme states bhi involve hoti hain."
+      },
+      "navigation": { "next": "card_92_milestone12", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_92_milestone12",
+      "card_slug": "card_92_milestone12",
+      "type": "milestone",
+      "concept_id": "powers_functions",
+      "level": 5,
+      "progress": { "current": 92, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "⚡",
+        "completed_topic": "Powers & Functions of Parliament",
+        "xp_earned": 60,
+        "milestone_progress": "Module 12/15 Clear",
+        "motivational_quote": "Saare powers pakke hue! Ab MP ki special 'Special Powers' - Privileges dekhte hain."
+      },
+      "navigation": { "next": "card_93_privileges_intro", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_93_privileges_intro",
+      "card_slug": "card_93_privileges_intro",
+      "type": "chat",
+      "concept_id": "privileges",
+      "level": 6,
+      "progress": { "current": 93, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, socho Sadan mein ek MP sarkar ki galti pe bahut tez bol raha hai - agar bahar hota to shayad case ho jaata defamation ka. Par Sadan ke andar unhe kuch special suraksha (protection) milti hai." },
+        { "speaker": "raju", "text": "Matlab MP jo bhi bole, uspe koi case nahi ho sakta?" },
+        { "speaker": "aman", "text": "Bilkul sahi disha mein soch rahe ho! Article 105 kehta hai MP ko Parliament ke andar 'Freedom of Speech' hai, aur unke kisi bhi bhashan ya vote ke liye kisi court mein unke against koi proceeding nahi chal sakti - Article 105(2)." },
+        { "speaker": "raju", "text": "Hain?? Matlab MP Sadan ke andar kuch bhi bol sakta hai, kisi ki bhi burai kar sakta hai?" }
+      ],
+      "navigation": { "next": "card_94_privileges_limits", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_94_privileges_limits",
+      "card_slug": "card_94_privileges_limits",
+      "type": "chat",
+      "concept_id": "privileges",
+      "level": 6,
+      "progress": { "current": 94, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Ruko! Ye freedom bhi absolute nahi hai - Rules of Procedure aur Speaker ke control ke andar hoti hai. Ye sirf Sadan ke ANDAR bole gaye baaton ke liye hai, agar wahi baat MP Sadan ke bahar interview mein bole, to normal defamation kanoon lagu hote hain." },
+        { "speaker": "raju", "text": "Achha! Toh Sadan ke andar aur bahar alag rule hai. Aur ek baat sir, MP ko arrest nahi kar sakte kya, koi bhi time pe?" },
+        { "speaker": "aman", "text": "Bahut acha sawal - ek aur privilege hai 'Freedom from Arrest' - lekin ye sirf CIVIL cases mein hai, criminal cases mein NAHI. MP ko session ke dauran, aur session shuru hone se 40 din pehle aur khatam hone ke 40 din baad tak civil case mein arrest nahi kiya ja sakta." },
+        { "speaker": "raju", "text": "Matlab agar koi MP ne murder kiya ho to ye privilege nahi bachayegi use?" }
+      ],
+      "navigation": { "next": "card_95_privileges_others", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_95_privileges_others",
+      "card_slug": "card_95_privileges_others",
+      "type": "chat",
+      "concept_id": "privileges",
+      "level": 6,
+      "progress": { "current": 95, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Criminal cases mein koi arrest-se-suraksha nahi hai, MP ko normal citizen ki tarah criminal law follow karna padta hai. Kuch aur privileges hain - Sadan ki proceedings ko publish karne ka adhikar, Sadan mein bahar ke logon (strangers) ko exclude karne ka adhikar, aur 'contempt' ya 'breach of privilege' karne walon ko punish karne ka adhikar." },
+        { "speaker": "raju", "text": "Ye privileges kahan likhi hain Constitution mein, poori list?" },
+        { "speaker": "aman", "text": "Interesting baat ye hai ki Constitution mein privileges ki poori codified list nahi hai - Article 105 basic wale batata hai, baaki House of Commons (Britain) ki parampara aur Parliament ke apne banaye kanoon se follow hoti hain." },
+        { "speaker": "raju", "text": "Achha! Matlab ye ek 'living tradition' hai, poori tarah likhi hui nahi hai!" }
+      ],
+      "navigation": { "next": "card_96_quiz1_m13", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_96_quiz1_m13",
+      "card_slug": "card_96_quiz1_m13",
+      "type": "quiz",
+      "concept_id": "privileges",
+      "level": 6,
+      "progress": { "current": 96, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Article 105(2) ke anusaar MP ki 'Freedom of Speech' ke baare mein sahi kathan chuno.",
+        "options": [
+          { "id": "A", "text": "MP jahan chahe, kuch bhi bol sakta hai, hamesha protected hai" },
+          { "id": "B", "text": "Sadan ke andar diye gaye bhashan/vote ke liye court mein koi proceeding nahi chal sakti" },
+          { "id": "C", "text": "Ye freedom sirf Rajya Sabha mein lagu hoti hai" },
+          { "id": "D", "text": "Ye freedom Prime Minister ke liye special hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 105(2) MP ko Sadan ke andar bole gaye kisi bhi bhashan ya diye gaye vote ke liye court proceedings se protect karta hai. Ye protection Sadan ke bahar diye gaye bayano par lagu nahi hoti."
+      },
+      "navigation": { "next": "card_97_quiz2_m13", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_97_quiz2_m13",
+      "card_slug": "card_97_quiz2_m13",
+      "type": "quiz",
+      "concept_id": "privileges",
+      "level": 6,
+      "progress": { "current": 97, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: 'Freedom from Arrest' privilege kis prakar ke cases mein lagu HOTI hai?",
+        "options": [
+          { "id": "A", "text": "Criminal cases mein" },
+          { "id": "B", "text": "Civil cases mein hi, criminal cases mein nahi" },
+          { "id": "C", "text": "Sabhi tarah ke cases mein" },
+          { "id": "D", "text": "Sirf tax cases mein" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "MP ko session ke dauran aur session shuru/khatam hone se 40 din pehle/baad, sirf CIVIL cases mein arrest se suraksha milti hai. Criminal cases mein ye privilege lagu nahi hoti."
+      },
+      "navigation": { "next": "card_98_quiz3_m13", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_98_quiz3_m13",
+      "card_slug": "card_98_quiz3_m13",
+      "type": "quiz",
+      "concept_id": "privileges",
+      "level": 6,
+      "progress": { "current": 98, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: Parliamentary Privileges ke baare mein sahi kathan chuno.",
+        "options": [
+          { "id": "A", "text": "Constitution mein saari privileges detail mein codified hain" },
+          { "id": "B", "text": "Article 105 kuch basic privileges deta hai, baaki British parampara aur Parliament ke kanoon se follow hoti hain" },
+          { "id": "C", "text": "Privileges sirf Rajya Sabha members ke liye hain" },
+          { "id": "D", "text": "Privileges sirf Prime Minister ko milti hain" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Constitution mein privileges ki poori codified list nahi hai. Article 105 basic privileges deta hai, aur baaki House of Commons (UK) ki parampara tatha Parliament ke banaye kanoon se follow hoti hain."
+      },
+      "navigation": { "next": "card_99_milestone13", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_99_milestone13",
+      "card_slug": "card_99_milestone13",
+      "type": "milestone",
+      "concept_id": "privileges",
+      "level": 6,
+      "progress": { "current": 99, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🛡️",
+        "completed_topic": "Parliamentary Privileges",
+        "xp_earned": 60,
+        "milestone_progress": "Module 13/15 Clear",
+        "motivational_quote": "MP ki suraksha samajh gaye! Ab Sadan ke rojana ke drama - Question Hour aur Zero Hour dekhte hain."
+      },
+      "navigation": { "next": "card_100_question_hour", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_100_question_hour",
+      "card_slug": "card_100_question_hour",
+      "type": "chat",
+      "concept_id": "devices",
+      "level": 6,
+      "progress": { "current": 100, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, Sadan ka din kaise shuru hota hai pata hai? Har din ka pehla ghanta 'Question Hour' hota hai - jisme MPs Ministers se sawaal poochte hain sarkar ke kaam-kaaj par." },
+        { "speaker": "raju", "text": "Sir kaisa sawaal? Koi bhi poonch sakta hai kuch bhi?" },
+        { "speaker": "aman", "text": "Do type ke questions hote hain - 'Starred Question' (jispe zubaani jawab milta hai, aur supplementary question bhi pooch sakte hain) aur 'Unstarred Question' (jispe sirf likhit/written jawab milta hai, supplementary nahi poochh sakte)." },
+        { "speaker": "raju", "text": "Achha! Aur agar koi urgent matter ho jo Question Hour mein na aa paye to?" }
+      ],
+      "navigation": { "next": "card_101_zero_hour", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_101_zero_hour",
+      "card_slug": "card_101_zero_hour",
+      "type": "chat",
+      "concept_id": "devices",
+      "level": 6,
+      "progress": { "current": 101, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Isi ke liye hai 'Zero Hour'! Ye Question Hour ke turant baad, dopahar 12 baje shuru hota hai. Aur ⭐ BPSC ka bahut favorite trap: Zero Hour Rules of Procedure mein LIKHA hua nahi hai - ye ek Indian innovation hai jo practice se vikasit hui!" },
+        { "speaker": "raju", "text": "Matlab kahin bhi Constitution ya rule book mein 'Zero Hour' shabd nahi likha hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Isme members bina prior notice ke urgent public importance ke matters uthate hain. Isliye ise Indian Parliament ki apni khoj (contribution) mana jaata hai, ye kahin aur world mein aisa nahi hai." },
+        { "speaker": "raju", "text": "Wah, ye to India ne khud invent kiya! Ab motions ke baare mein bataiye sir." }
+      ],
+      "navigation": { "next": "card_102_no_confidence_censure", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_102_no_confidence_censure",
+      "card_slug": "card_102_no_confidence_censure",
+      "type": "chat",
+      "concept_id": "devices",
+      "level": 6,
+      "progress": { "current": 102, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab do important motions samjho jo bahut confuse karti hain - 'No-Confidence Motion' aur 'Censure Motion'. No-Confidence sirf LOK SABHA mein laayi ja sakti hai (kyunki sarkar sirf LS ke prati uttardai hai), aur admit hone ke liye 50 members ka support chahiye." },
+        { "speaker": "raju", "text": "Aur agar No-Confidence pass ho jaaye to sarkar gir jaati hai na?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Poori Council of Ministers ko resign karna padta hai. Ab Censure Motion - ye poori Council of Ministers ya kisi ek individual Minister ke against bhi laayi ja sakti hai, ISME reasons batana ZAROORI hai (No-Confidence mein reasons batana zaroori nahi)." },
+        { "speaker": "raju", "text": "Aur agar Censure Motion pass ho jaaye to bhi sarkar girni padegi?" }
+      ],
+      "navigation": { "next": "card_103_adjournment_calling_attention", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_103_adjournment_calling_attention",
+      "card_slug": "card_103_adjournment_calling_attention",
+      "type": "chat",
+      "concept_id": "devices",
+      "level": 6,
+      "progress": { "current": 103, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Nahi Raju! Yahi bada trap hai - Censure Motion pass hone par sarkar ko resign karna ZAROORI NAHI hai. Sirf No-Confidence Motion pass hone par hi resign karna padta hai." },
+        { "speaker": "raju", "text": "Achha, matlab Censure sirf ninda (disapproval) jataane ke liye hai, girane ke liye nahi!" },
+        { "speaker": "aman", "text": "Bilkul sahi! Ab do aur devices - Adjournment Motion (urgent public importance matter, sarkar ki ninda involve hoti hai, ye bhi sirf LS mein, 50 members ka support chahiye, aur Sadan ka normal kaam-kaaj rok deta hai) aur Calling Attention Motion (ek Indian innovation, member Minister ka dhyan kisi urgent matter ki taraf khinchta hai, koi voting nahi hoti)." },
+        { "speaker": "raju", "text": "Sir itne saare motions! Inko kaise yaad rakhun exam ke liye?" }
+      ],
+      "navigation": { "next": "card_104_quiz1_m14", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_104_quiz1_m14",
+      "card_slug": "card_104_quiz1_m14",
+      "type": "quiz",
+      "concept_id": "devices",
+      "level": 6,
+      "progress": { "current": 104, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: 'Zero Hour' ke baare mein sahi kathan chuno.",
+        "options": [
+          { "id": "A", "text": "Ye Constitution mein Article 118 ke tehat likha hai" },
+          { "id": "B", "text": "Ye Rules of Procedure mein likhit nahi hai, ek Indian innovation hai, jo Question Hour ke turant baad shuru hoti hai" },
+          { "id": "C", "text": "Ye sirf Rajya Sabha mein hoti hai" },
+          { "id": "D", "text": "Iske liye pehle se notice dena zaroori hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Zero Hour Rules of Procedure mein formally likhit nahi hai - ye ek Indian Parliament ki practical innovation hai, jo Question Hour khatam hone ke baad, dopahar 12 baje shuru hoti hai, bina prior notice ke urgent matters uthane ke liye."
+      },
+      "navigation": { "next": "card_105_quiz2_m14", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_105_quiz2_m14",
+      "card_slug": "card_105_quiz2_m14",
+      "type": "quiz",
+      "concept_id": "devices",
+      "level": 6,
+      "progress": { "current": 105, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: Censure Motion aur No-Confidence Motion mein kya antar hai?",
+        "options": [
+          { "id": "A", "text": "Dono same hain" },
+          { "id": "B", "text": "Censure Motion mein reasons dena zaroori hai aur pass hone par sarkar ka resign karna zaroori nahi; No-Confidence Motion pass hone par sarkar ko resign karna hi padta hai" },
+          { "id": "C", "text": "No-Confidence Motion Rajya Sabha mein laayi jaati hai" },
+          { "id": "D", "text": "Censure Motion sirf President ke against laayi jaati hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Censure Motion mein reasons batana zaroori hai, aur ye kisi individual minister ke against bhi ho sakti hai; iske pass hone par sarkar ka resign karna zaroori nahi. No-Confidence Motion sirf poori Council of Ministers ke against hoti hai aur pass hone par government girni padti hai."
+      },
+      "navigation": { "next": "card_106_quiz3_m14", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_106_quiz3_m14",
+      "card_slug": "card_106_quiz3_m14",
+      "type": "quiz",
+      "concept_id": "devices",
+      "level": 6,
+      "progress": { "current": 106, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: No-Confidence Motion aur Adjournment Motion ko admit hone ke liye kitne members ka samarthan chahiye?",
+        "options": [
+          { "id": "A", "text": "25 members" },
+          { "id": "B", "text": "50 members" },
+          { "id": "C", "text": "100 members" },
+          { "id": "D", "text": "10 members" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "No-Confidence Motion aur Adjournment Motion, dono ko admit hone ke liye 50 members ka samarthan chahiye hota hai, aur dono sirf Lok Sabha mein laayi ja sakti hain."
+      },
+      "navigation": { "next": "card_107_milestone14", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_107_milestone14",
+      "card_slug": "card_107_milestone14",
+      "type": "milestone",
+      "concept_id": "devices",
+      "level": 6,
+      "progress": { "current": 107, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "❓",
+        "completed_topic": "Question Hour, Zero Hour & Motions",
+        "xp_earned": 60,
+        "milestone_progress": "Module 14/15 Clear",
+        "motivational_quote": "Sadan ke daily drama samajh gaye! Ab last module - RS ki special powers aur President ka role!"
+      },
+      "navigation": { "next": "card_108_rs_special_powers", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_108_rs_special_powers",
+      "card_slug": "card_108_rs_special_powers",
+      "type": "chat",
+      "concept_id": "rs_special_president_role",
+      "level": 6,
+      "progress": { "current": 108, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, ek dilchasp baat - hum sochte hain Rajya Sabha to Lok Sabha se kam powerful hai, financial matters mein to bilkul limited hai. Lekin do khaas Articles mein Rajya Sabha ke paas EXTRA power hoti hai jo Lok Sabha ke paas bhi nahi!" },
+        { "speaker": "raju", "text": "Hain?? Rajya Sabha ke paas extra power? Konsi sir?" },
+        { "speaker": "aman", "text": "Article 249 - jo humne pehle padha, sirf Rajya Sabha State List pe kanoon banwa sakti hai 2/3rd majority se. Aur Article 312 - Rajya Sabha, 2/3rd majority se resolution paas karke, ek NAYI All India Service bana sakti hai (jaise IAS, IPS, IFS jaisi)!" },
+        { "speaker": "raju", "text": "Wah! Matlab agar sarkar chaahe naya 'All India Forest Service' jaisa kuch banana, to pehle Rajya Sabha se resolution chahiye?" }
+      ],
+      "navigation": { "next": "card_109_president_role_summon", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_109_president_role_summon",
+      "card_slug": "card_109_president_role_summon",
+      "type": "chat",
+      "concept_id": "rs_special_president_role",
+      "level": 6,
+      "progress": { "current": 109, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Ye Article 312 hi tha jisse IAS/IPS jaisi services banayi gayi thin. Ab President ke Parliament se related role revise karte hain: President Sadan ko summon karte hain, prorogue karte hain, Lok Sabha bhang karte hain (Article 85), aur SAAL KE PEHLE SESSION mein dono Sadan ko sambodhit (address) karte hain - Article 87." },
+        { "speaker": "raju", "text": "Wahi speech jisme President parliament ko batate hain sarkar kya karegi is saal?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Aur agar Parliament session mein nahi hai aur turant kanoon ki zaroorat pad jaaye, to President Article 123 ke tehat 'Ordinance' jaari kar sakte hain - iski power kanoon jaisi hoti hai." },
+        { "speaker": "raju", "text": "Ordinance hamesha ke liye chalta rahega ya expire bhi hota hai?" }
+      ],
+      "navigation": { "next": "card_110_ordinance_expiry", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_110_ordinance_expiry",
+      "card_slug": "card_110_ordinance_expiry",
+      "type": "chat",
+      "concept_id": "rs_special_president_role",
+      "level": 6,
+      "progress": { "current": 110, "total": 117 },
+      "messages": [
+        { "speaker": "aman", "text": "Bahut acha sawal! Ordinance hamesha ke liye nahi chalta - Parliament ka session dobara shuru hone ke 6 hafte (6 weeks) ke andar use dono Sadan se approve karwana zaroori hai, warna ye AUTOMATICALLY lapse ho jaata hai." },
+        { "speaker": "raju", "text": "Achha! Matlab Ordinance sirf ek temporary jugaad hai jab tak Parliament khud kanoon nahi bana leti!" },
+        { "speaker": "aman", "text": "Bilkul sahi samjhe! Yehi Parliament aur President ka poora rishta hai - dono ek doosre ke bina adhoore hain. Chalo ab last quiz set karte hain is module ka!" },
+        { "speaker": "raju", "text": "Ready sir! Poori Parliament ki poori kahani samajh mein aa gayi!" }
+      ],
+      "navigation": { "next": "card_111_quiz1_m15", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_111_quiz1_m15",
+      "card_slug": "card_111_quiz1_m15",
+      "type": "quiz",
+      "concept_id": "rs_special_president_role",
+      "level": 6,
+      "progress": { "current": 111, "total": 117 },
+      "quiz_payload": {
+        "question": "Q1/3: Article 312 ke tehat, kaun naya 'All India Service' banane ka resolution paas kar sakta hai?",
+        "options": [
+          { "id": "A", "text": "Lok Sabha, simple majority se" },
+          { "id": "B", "text": "Rajya Sabha, 2/3rd majority se" },
+          { "id": "C", "text": "President, akele" },
+          { "id": "D", "text": "Supreme Court" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 312 ke tehat sirf Rajya Sabha, present-voting members ke 2/3rd majority se resolution paas karke Parliament ko naya All India Service banane ka adhikar de sakti hai."
+      },
+      "navigation": { "next": "card_112_quiz2_m15", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_112_quiz2_m15",
+      "card_slug": "card_112_quiz2_m15",
+      "type": "quiz",
+      "concept_id": "rs_special_president_role",
+      "level": 6,
+      "progress": { "current": 112, "total": 117 },
+      "quiz_payload": {
+        "question": "Q2/3: President Parliament session ke shuru hone par saal ke pehle session mein Article kis ke tehat dono Sadan ko sambodhit karte hain?",
+        "options": [
+          { "id": "A", "text": "Article 85" },
+          { "id": "B", "text": "Article 87" },
+          { "id": "C", "text": "Article 111" },
+          { "id": "D", "text": "Article 123" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 87 ke tehat President saal ke pehle session mein dono Sadan ki joint sitting ko sambodhit karte hain, jisme sarkar ki policies aur programmes ki jhalak hoti hai."
+      },
+      "navigation": { "next": "card_113_quiz3_m15", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_113_quiz3_m15",
+      "card_slug": "card_113_quiz3_m15",
+      "type": "quiz",
+      "concept_id": "rs_special_president_role",
+      "level": 6,
+      "progress": { "current": 113, "total": 117 },
+      "quiz_payload": {
+        "question": "Q3/3: President dwara jaari Ordinance (Article 123), Parliament dobara jamaa hone ke kitne hafte ke andar approve na hone par lapse ho jaata hai?",
+        "options": [
+          { "id": "A", "text": "2 hafte" },
+          { "id": "B", "text": "4 hafte" },
+          { "id": "C", "text": "6 hafte" },
+          { "id": "D", "text": "8 hafte" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Article 123 ke anusaar, Ordinance Parliament ke dobara session shuru hone ke 6 hafte ke andar approve hona zaroori hai, warna ye automatically lapse ho jaata hai."
+      },
+      "navigation": { "next": "card_114_milestone15", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_114_milestone15",
+      "card_slug": "card_114_milestone15",
+      "type": "milestone",
+      "concept_id": "rs_special_president_role",
+      "level": 6,
+      "progress": { "current": 114, "total": 117 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "👑",
+        "completed_topic": "Special Powers of Rajya Sabha & President's Role",
+        "xp_earned": 60,
+        "milestone_progress": "Module 15/15 Clear - ALL MODULES DONE!",
+        "motivational_quote": "Poora Parliament chapter conquer ho gaya Raju! Ab final Officer-level revision aur Master Quiz baaki hai!"
+      },
+      "navigation": { "next": "card_115_final_summary", "button_text": "Go to Final Revision ➔" }
+    },
+    {
+      "card_id": "card_115_final_summary",
+      "card_slug": "card_115_final_summary",
+      "type": "summary",
+      "concept_id": "chapter_revision",
+      "level": 7,
+      "progress": { "current": 115, "total": 117 },
+      "summary_payload": {
+        "title": "⚡ Quick Officer Revision - Parliament",
+        "revision_points": [
+          {
+            "topic": "Lok Sabha Numbers",
+            "point": "Consider these statements: (1) Original max strength was 552 including 2 Anglo-Indian nominated seats. (2) 104th Amendment, 2019 abolished Anglo-Indian nomination, making theoretical max 550. (3) Current actual strength is 543, frozen on 1971 census till 2026 (84th Amendment). All three statements are CORRECT - a classic BPSC multi-statement trap."
+          },
+          {
+            "topic": "Rajya Sabha vs Lok Sabha",
+            "point": "Rajya Sabha: max 250 (238 elected + 12 nominated), Permanent House, 1/3rd retire every 2 years, tenure 6 years, indirect election via State MLAs (PR-STV). Lok Sabha: max 550 now, direct election, tenure 5 years, can be dissolved. Bihar sends 40 to Lok Sabha and 16 to Rajya Sabha."
+          },
+          {
+            "topic": "Money Bill Trap",
+            "point": "Money Bill (Article 110) can be introduced ONLY in Lok Sabha with President's prior recommendation; Rajya Sabha can only delay it for 14 days and recommend changes (LS can reject); Speaker's certification that a bill is a Money Bill is final and cannot be challenged in any court (Article 122)."
+          },
+          {
+            "topic": "Anti-Defection Law",
+            "point": "10th Schedule added by 52nd Amendment (1985); 91st Amendment (2003) removed the 'Split' exception (1/3rd group), only 'Merger' (2/3rd members) remains valid; Speaker/Chairman decides, but Kihoto Hollohan case (1992) made this decision subject to judicial review."
+          },
+          {
+            "topic": "Motions Comparison",
+            "point": "No-Confidence Motion: only in Lok Sabha, needs 50 members support, no reasons required, government MUST resign if passed. Censure Motion: can target individual minister too, reasons compulsory, government need NOT resign if passed. Joint Sitting (Article 108): presided by Lok Sabha Speaker, held only 3 times ever, never possible for Money Bills or Constitutional Amendment Bills."
+          }
+        ]
+      },
+      "navigation": { "next": "card_116_final_quiz", "button_text": "Attempt Final Officer Quiz ➔" }
+    },
+    {
+      "card_id": "card_116_final_quiz",
+      "card_slug": "card_116_final_quiz",
+      "type": "final_quiz",
+      "concept_id": "chapter_final_assessment",
+      "level": 7,
+      "progress": { "current": 116, "total": 117 },
+      "quiz_payload": {
+        "question": "Assertion (A): Rajya Sabha ka Money Bill par koi vastvik (real) niyantran (control) nahi hota.\nReason (R): Money Bill sirf Lok Sabha mein President ki poorva sifarish (prior recommendation) se introduce ho sakta hai, aur Rajya Sabha isse sirf 14 din tak rok sakti hai aur sujhaav de sakti hai, jinhe Lok Sabha maanna zaroori nahi.\n\nNiche diye gaye codes mein se sahi vikalp chuniye:",
+        "options": [
+          { "id": "A", "text": "A aur R dono sahi hain, aur R, A ki sahi vyakhya (explanation) hai" },
+          { "id": "B", "text": "A aur R dono sahi hain, lekin R, A ki sahi vyakhya nahi hai" },
+          { "id": "C", "text": "A sahi hai, lekin R galat hai" },
+          { "id": "D", "text": "A galat hai, lekin R sahi hai" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Dono statements sahi hain aur R sahi tarah A ki vyakhya karta hai. Article 110 aur 109 ke pravdhaan ke anusaar Money Bill ka poora niyantran Lok Sabha ke paas hai, Rajya Sabha ki bhoomika sirf salahkari (advisory) aur waqt-simit (time-bound, 14 din) hai. Ye is topic ka sabse zyada poocha jaane wala BPSC/UPSC-level Assertion-Reason trap hai."
+      },
+      "navigation": { "next": "card_117_trophy", "button_text": "Complete Chapter ➔" }
+    },
+    {
+      "card_id": "card_117_trophy",
+      "card_slug": "card_117_trophy",
+      "type": "milestone",
+      "concept_id": "chapter_complete",
+      "level": 7,
+      "progress": { "current": 117, "total": 117 },
+      "milestone_payload": {
+        "title": "🏆 CHAPTER MASTERED!",
+        "badge_emoji": "🏆",
+        "completed_topic": "Parliament in the Indian Constitution - Officer Level Complete",
+        "xp_earned": 150,
+        "milestone_progress": "Chapter 100% Complete",
+        "motivational_quote": "Badhai ho Raju! Ab tum Lok Sabha, Rajya Sabha, Money Bill, Anti-Defection, Committees, Privileges - sab kuch Officer level pe jaante ho. BPSC/SSC/Railway exam mein ye chapter ab tumhara sabse strong point hoga!"
+      },
+      "navigation": { "next": "card_01_intro", "button_text": "Restart Chapter 🔄" }
+    }
+  ]
+}
