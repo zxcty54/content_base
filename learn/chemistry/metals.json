@@ -1,0 +1,1538 @@
+
+{
+  "topic_id": "metals_chemistry",
+  "topic_title": "Metals - Properties, Reactions & Metallurgy",
+  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
+  "total_cards": 85,
+  "characters": {
+    "aman": {
+      "name": "Aman Sir",
+      "role": "teacher",
+      "avatar": "👨‍🏫"
+    },
+    "raju": {
+      "name": "Raju",
+      "role": "student",
+      "avatar": "👦"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "chapter_intro",
+      "level": 1,
+      "progress": { "current": 1, "total": 85 },
+      "intro_payload": {
+        "chapter_title": "Metals - From Cooking Vessel to Officer Exam",
+        "icon": "⚙️",
+        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims", "BPSC TRE"],
+        "learning_outcomes": [
+          "Physical properties of metals - lustre, conductivity, malleability, ductility",
+          "Chemical properties - reaction with oxygen, water, acids, bases",
+          "Reactivity Series (Activity Series) - complete order with exam traps",
+          "Corrosion - Rusting of iron, Aluminium oxide layer, Galvanisation",
+          "Alloys - Brass, Bronze, Steel, Stainless Steel, Amalgam compositions",
+          "Metallurgy - Ore, Gangue, Smelting, Refining processes",
+          "Important metals - Na, K, Ca, Al, Fe, Cu, Zn, Ag, Au with unique properties",
+          "Exceptions - Mercury liquid metal, Sodium & Potassium stored in kerosene",
+          "Bihar-specific minerals and mining context for BPSC TRE",
+          "Displacement reactions and electrolytic refining"
+        ]
+      },
+      "navigation": { "next": "card_02_daily_life", "button_text": "Start Learning ➔" }
+    },
+    {
+      "card_id": "card_02_daily_life",
+      "card_slug": "card_02_daily_life",
+      "type": "chat",
+      "concept_id": "metals_introduction",
+      "level": 1,
+      "progress": { "current": 2, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, subah uthke jab tum chai peete ho, wo bartan kaisa hota hai? Jab cycle chalate ho, uske parts kiske bane hote hain? Jab bijli ke wire lagate hain ghar me, wo kya hota hai?" },
+        { "speaker": "raju", "text": "Sir bartan stainless steel ka hota hai, cycle me loha hoga, aur wire me copper hota hai shayad!" },
+        { "speaker": "aman", "text": "Bilkul sahi! Steel, Iron, Copper - ye sab ek hi family ke hain jise hum Metals kehte hain. Aaj hum inheen metals ko itne depth se samjhenge ki BPSC aur Railway ke koi bhi sawal galat na ho." },
+        { "speaker": "raju", "text": "Sir metals matlab sirf loha-copper hi hote hain kya, ya aur bhi hote hain?" }
+      ],
+      "navigation": { "next": "card_03_metal_definition", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_03_metal_definition",
+      "card_slug": "card_03_metal_definition",
+      "type": "chat",
+      "concept_id": "metals_introduction",
+      "level": 1,
+      "progress": { "current": 3, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Bohot saare metals hote hain! [[Metal | Wo padarth jo chamakdar, bijli aur garmi ka achha conductor ho, peetkar phatke aur tang ho sakta ho, jaise iron, copper, gold]] kareeb 118 elements me se lagbhag 80+ elements metals hain. Ab dekho, metals me kuch khaas physical properties hoti hain jo unhe non-metals se alag karti hain." },
+        { "speaker": "raju", "text": "Kaunsi properties sir? Sirf shiny hona hi kafi nahi hai kya?" },
+        { "speaker": "aman", "text": "Nahi, sirf shiny nahi - metals me hoti hain: [[Lustre | Metals ki chamak jo polishing ke baad aur bhi badh jaati hai]], [[Malleability | Metal ko peetkar phatka ya sheet me badla ja sakna, jaise sona peetne par phat jaata hai]], [[Ductility | Metal ko kheenchkar wire me badla ja sakna, jaise copper wire]], aur thermal and electrical [[Conductivity | Garmi aur bijli ko ek sar se doosre sar tak pahunchane ki kshamata]]." },
+        { "speaker": "raju", "text": "Sir gold ka sheet banta hai matlab wo bhi malla-malleable hai? Wow! Aur copper se wire banti hai matlab wo ductile hai!" }
+      ],
+      "navigation": { "next": "card_04_sonority_hardness", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_04_sonority_hardness",
+      "card_slug": "card_04_sonority_hardness",
+      "type": "chat",
+      "concept_id": "metals_introduction",
+      "level": 1,
+      "progress": { "current": 4, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Aur ek property hai [[Sonority | Dhatu ko thokne par ek khaas awaz aana, jaise ghanti bajne par 'ting' ki awaaz - metals sonorous hote hain]] - isliye mandir ki ghanti metal ki hoti hai, plastic ki nahi! Aur ek aur property - metals ki density zyada hoti hai, aur ye [[High Melting Point | Zyada temperature par pighalte hain, isliye cooking utensils me use hote hain]] wale hote hain - isliye tave par roti sekh sakte ho." },
+        { "speaker": "raju", "text": "Sir mandir ki ghanti waali baat toh bilkul sahi samajh aayi! Lekin koi exception bhi hai na, kyunki mercury toh liquid hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi pakda Raju! Yahi sabse bada exam trap hai - [[Mercury | Paarad, wo ekmatra dhatu jo room temperature par liquid hoti hai, thermometer me use hoti hai]] ek aisa metal hai jo room temperature par liquid hota hai - ye ek critical exception hai BPSC, SSC dono me poocha jaata hai. Aur [[Gallium | Ek aur metal jo haath ki garmi se pighal jaata hai]] bhi hath ki garmi se pighal jaata hai." },
+        { "speaker": "raju", "text": "Toh mercury aur gallium dono room temperature pe liquid? Ye note karna padega!" }
+      ],
+      "navigation": { "next": "card_05_hardness_exceptions", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_05_hardness_exceptions",
+      "card_slug": "card_05_hardness_exceptions",
+      "type": "chat",
+      "concept_id": "metals_introduction",
+      "level": 1,
+      "progress": { "current": 5, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Aur ek aur important exception - hum kehte hain metals hard hote hain, lekin [[Sodium | Na, ek bahut reactive alkali metal jo paani se bhi react karta hai aur kerosene me rakha jaata hai]] aur [[Potassium | K, sodium jaisa hi reactive alkali metal, paani me daalne par aag lag jaati hai]] bahut soft hote hain - inhe knife se bhi kaata ja sakta hai! Isliye ye metals kerosene me store kiye jaate hain." },
+        { "speaker": "raju", "text": "Kerosene me kyun sir? Matlab tel me?" },
+        { "speaker": "aman", "text": "Haan! Sodium aur Potassium hawa ki nami (moisture) se bhi react karte hain aur aag lag sakti hai, toh unhe hawa se bachane ke liye kerosene (oil) me dabokar rakha jaata hai. Ye ek aisa fact hai jo SSC, Railway, BPSC teeno exams me bar-bar aata hai." },
+        { "speaker": "raju", "text": "Itne dangerous metals hain! Kerosene me rakhte hain - ye toh pakka yaad rakhna padega!" }
+      ],
+      "navigation": { "next": "card_06_quiz1", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_06_quiz1",
+      "card_slug": "card_06_quiz1",
+      "type": "quiz",
+      "concept_id": "metals_introduction",
+      "level": 1,
+      "progress": { "current": 6, "total": 85 },
+      "quiz_payload": {
+        "question": "Which metal is liquid at room temperature? (Q1/3)",
+        "options": [
+          { "id": "A", "text": "Gold" },
+          { "id": "B", "text": "Mercury" },
+          { "id": "C", "text": "Copper" },
+          { "id": "D", "text": "Aluminium" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Mercury (Hg) is the only metal that exists as a liquid at room temperature (25°C). It is used in thermometers. Gallium also becomes liquid at slightly above room temperature (29.76°C) but Mercury is the standard answer for 'liquid metal at room temperature'."
+      },
+      "navigation": { "next": "card_07_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_07_quiz2",
+      "card_slug": "card_07_quiz2",
+      "type": "quiz",
+      "concept_id": "metals_introduction",
+      "level": 1,
+      "progress": { "current": 7, "total": 85 },
+      "quiz_payload": {
+        "question": "Sodium and Potassium metals are stored in kerosene because: (Q2/3)",
+        "options": [
+          { "id": "A", "text": "They dissolve in water" },
+          { "id": "B", "text": "They react vigorously with moisture in air and can catch fire" },
+          { "id": "C", "text": "They are too heavy" },
+          { "id": "D", "text": "Kerosene makes them shiny" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Sodium and Potassium are highly reactive alkali metals that react violently with atmospheric moisture and oxygen. Storing them in kerosene (a non-reactive oil) prevents this reaction."
+      },
+      "navigation": { "next": "card_08_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_08_quiz3",
+      "card_slug": "card_08_quiz3",
+      "type": "quiz",
+      "concept_id": "metals_introduction",
+      "level": 1,
+      "progress": { "current": 8, "total": 85 },
+      "quiz_payload": {
+        "question": "The property of metals by which they can be drawn into thin wires is called: (Q3/3)",
+        "options": [
+          { "id": "A", "text": "Malleability" },
+          { "id": "B", "text": "Sonority" },
+          { "id": "C", "text": "Ductility" },
+          { "id": "D", "text": "Conductivity" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Ductility is the property that allows metals to be drawn into thin wires. Gold is the most ductile metal - 1 gram of gold can be drawn into 2 km of wire. Malleability is the ability to be beaten into thin sheets."
+      },
+      "navigation": { "next": "card_09_milestone1", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_09_milestone1",
+      "card_slug": "card_09_milestone1",
+      "type": "milestone",
+      "concept_id": "metals_introduction",
+      "level": 1,
+      "progress": { "current": 9, "total": 85 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "⚙️",
+        "completed_topic": "Physical Properties of Metals",
+        "xp_earned": 50,
+        "milestone_progress": "Module 1/10 Clear",
+        "motivational_quote": "Physical properties ekdum clear! Ab dekhte hain metals kaise react karte hain - yahi hai exam ka asli battleground!"
+      },
+      "navigation": { "next": "card_10_reaction_oxygen", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_10_reaction_oxygen",
+      "card_slug": "card_10_reaction_oxygen",
+      "type": "chat",
+      "concept_id": "chemical_reactions",
+      "level": 2,
+      "progress": { "current": 10, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab baat karte hain metals ki chemical properties ki. Pehla sawaal - tumne dekha hoga ki iron ki cheezein agar bahar chhod do toh kuch time baad laal-bhoori ho jaati hain, lekin aluminium ke bartan aisa kyon nahi karte?" },
+        { "speaker": "raju", "text": "Haan sir, cycle ka loha zaroor kharaab hota hai! Aluminium ke bartan toh theek rehte hain." },
+        { "speaker": "aman", "text": "Bilkul sahi observation! Iska jawab hai metal + oxygen ki reaction me. Jab metals hawa ke oxygen se milte hain toh [[Metal Oxide | Dhatu aur oxygen ke milne se bana compound, jaise Fe2O3 iron oxide]] banta hai. Most metals ka oxide [[Basic Oxide | Paani me milne par base banane wala oxide]] hota hai - jaise 4Na + O2 → 2Na2O, 4Al + 3O2 → 2Al2O3." },
+        { "speaker": "raju", "text": "Toh aluminium bhi oxygen se react karta hai - phir uske bartan kharab kyun nahi hote?" }
+      ],
+      "navigation": { "next": "card_11_passive_layer", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_11_passive_layer",
+      "card_slug": "card_11_passive_layer",
+      "type": "chat",
+      "concept_id": "chemical_reactions",
+      "level": 2,
+      "progress": { "current": 11, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Yahi toh twist hai! Aluminium react karta hai aur Al2O3 banta hai, lekin ye Al2O3 ki layer aluminium ki surface par ek protective shield bana deti hai - andar ka aluminium phir react hi nahi kar pata! Ise [[Passivation | Dhatu ki satah par oxide ki protective layer banana jo andar ke dhatu ko react karne se rokti hai]] kehte hain." },
+        { "speaker": "raju", "text": "Wah! Matlab aluminium khud apni raksha khud karta hai - apna kavach bana leta hai!" },
+        { "speaker": "aman", "text": "Bilkul sahi analogy! Aur ek interesting fact - [[Amphoteric Oxide | Wo oxide jo acid aur base dono se react kar sake, jaise Al2O3 aur ZnO]] bhi hote hain, jaise Aluminium oxide (Al2O3) aur Zinc oxide (ZnO) - ye acid se bhi react karte hain aur base se bhi - isliye inhe Amphoteric kehte hain. BPSC me poocha jaata hai." },
+        { "speaker": "raju", "text": "Amphoteric matlab dono se - ye toh unique hai!" }
+      ],
+      "navigation": { "next": "card_12_reaction_water", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_12_reaction_water",
+      "card_slug": "card_12_reaction_water",
+      "type": "chat",
+      "concept_id": "chemical_reactions",
+      "level": 2,
+      "progress": { "current": 12, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab baat karte hain metals ki paani se reaction ki. Yahan ek interesting pattern hai - different metals alag-alag tarike se react karte hain. Sodium toh itna reactive hai ki thande paani se bhi react karta hai aur [[Hydrogen Gas | Bahut halki aur inflammable gas jo paani me hydrogen hoti hai]] nikaalta hai - 2Na + 2H2O → 2NaOH + H2↑ (aag ke saath)." },
+        { "speaker": "raju", "text": "Matlab sodium paani se hi aag pakad leta hai? Khatarnak hai!" },
+        { "speaker": "aman", "text": "Haan! Potassium toh aur bhi tezi se react karta hai - K paani me daalte hi purple colour ki aag ke saath reaction hoti hai. Lekin Iron (Fe) thande paani se react nahi karta - wo sirf bhaap (steam) se react karta hai: 3Fe + 4H2O → Fe3O4 + 4H2." },
+        { "speaker": "raju", "text": "Toh Iron lazy hai - steam se hi manta hai! Aur sodium ekdum aggressive hai!" }
+      ],
+      "navigation": { "next": "card_13_reaction_acid", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_13_reaction_acid",
+      "card_slug": "card_13_reaction_acid",
+      "type": "chat",
+      "concept_id": "chemical_reactions",
+      "level": 2,
+      "progress": { "current": 13, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab baat karte hain metals ki acid se reaction ki - ye bahut important hai. General rule: Metal + Acid → Salt + Hydrogen gas. Jaise Zinc + Hydrochloric Acid: Zn + 2HCl → ZnCl2 + H2↑. Lekin ek important exception hai - Copper, Silver, Gold dilute acid se react NAHI karte!" },
+        { "speaker": "raju", "text": "Gold acid se nahi reacts? Isiliye toh jewelry hamesha gold ki rahti hai - kharab nahi hoti!" },
+        { "speaker": "aman", "text": "Bilkul sahi! Aur ek aur trap - [[Aqua Regia | Teen bhaag HCl aur ek bhaag HNO3 ka mixture jo sone aur platinum ko bhi gola sakta hai]] (3:1 HCl:HNO3 ka mixture) Gold ko dissolve kar sakta hai - yehi ekmatra acid mixture hai jo gold ko ghola sakta hai. BPSC aur UPSC dono me poocha jaata hai." },
+        { "speaker": "raju", "text": "Aqua Regia naam bahut interesting hai - 'Royal Water'! Gold ko bhi pighlata hai!" }
+      ],
+      "navigation": { "next": "card_14_quiz1", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_14_quiz1",
+      "card_slug": "card_14_quiz1",
+      "type": "quiz",
+      "concept_id": "chemical_reactions",
+      "level": 2,
+      "progress": { "current": 14, "total": 85 },
+      "quiz_payload": {
+        "question": "Aluminium does not corrode easily despite reacting with oxygen because: (Q1/3)",
+        "options": [
+          { "id": "A", "text": "Aluminium does not react with oxygen at all" },
+          { "id": "B", "text": "A thin protective layer of aluminium oxide forms on its surface, preventing further reaction" },
+          { "id": "C", "text": "Aluminium is stored in kerosene" },
+          { "id": "D", "text": "Aluminium oxide is soluble in water" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Aluminium reacts with oxygen to form Al2O3, which forms a thin, adherent protective layer on the surface. This passivation layer prevents further oxidation, making aluminium vessels resistant to corrosion."
+      },
+      "navigation": { "next": "card_15_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_15_quiz2",
+      "card_slug": "card_15_quiz2",
+      "type": "quiz",
+      "concept_id": "chemical_reactions",
+      "level": 2,
+      "progress": { "current": 15, "total": 85 },
+      "quiz_payload": {
+        "question": "Aqua Regia is a mixture of which acids, and in what ratio? (Q2/3)",
+        "options": [
+          { "id": "A", "text": "1 part HCl : 3 parts HNO3" },
+          { "id": "B", "text": "3 parts HCl : 1 part HNO3" },
+          { "id": "C", "text": "Equal parts H2SO4 and HCl" },
+          { "id": "D", "text": "2 parts HNO3 : 2 parts HCl" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Aqua Regia is a mixture of 3 parts concentrated HCl and 1 part concentrated HNO3. It is one of the few reagents capable of dissolving noble metals like gold and platinum."
+      },
+      "navigation": { "next": "card_16_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_16_quiz3",
+      "card_slug": "card_16_quiz3",
+      "type": "quiz",
+      "concept_id": "chemical_reactions",
+      "level": 2,
+      "progress": { "current": 16, "total": 85 },
+      "quiz_payload": {
+        "question": "When iron reacts with steam, which compound is formed? (Q3/3)",
+        "options": [
+          { "id": "A", "text": "FeO (Ferrous Oxide)" },
+          { "id": "B", "text": "Fe2O3 (Ferric Oxide)" },
+          { "id": "C", "text": "Fe3O4 (Magnetic Iron Oxide)" },
+          { "id": "D", "text": "Fe(OH)2" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "3Fe + 4H2O (steam) → Fe3O4 + 4H2. Fe3O4 is magnetic iron oxide (magnetite). Note: Fe2O3 is the rust formed when iron reacts with moist air. These two are a common exam trap!"
+      },
+      "navigation": { "next": "card_17_milestone2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_17_milestone2",
+      "card_slug": "card_17_milestone2",
+      "type": "milestone",
+      "concept_id": "chemical_reactions",
+      "level": 2,
+      "progress": { "current": 17, "total": 85 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "⚗️",
+        "completed_topic": "Chemical Reactions of Metals",
+        "xp_earned": 50,
+        "milestone_progress": "Module 2/10 Clear",
+        "motivational_quote": "Reactions clear ho gayi! Ab Reactivity Series ki ladder samjhte hain - yahi most tested concept hai!"
+      },
+      "navigation": { "next": "card_18_reactivity_intro", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_18_reactivity_intro",
+      "card_slug": "card_18_reactivity_intro",
+      "type": "chat",
+      "concept_id": "reactivity_series",
+      "level": 3,
+      "progress": { "current": 18, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab samjhte hain [[Reactivity Series | Dhaatuon ko unki reactivity ke ghatte hue order me sajaana, sabse reactive upar, sabse kam reactive neeche]], jise Activity Series bhi kehte hain. Ye ek table hai jisme metals ko unke reactivity ke hisaab se upar se neeche sajaya gaya hai - sabse reactive upar, sabse kam reactive neeche." },
+        { "speaker": "raju", "text": "Kaun sabse reactive hai sir - sodium hi hoga na jo hum pehle padh chuke hain?" },
+        { "speaker": "aman", "text": "Haan! Top pe hain - K (Potassium), Na (Sodium), Ca (Calcium), Mg (Magnesium), Al (Aluminium), Zn (Zinc), Fe (Iron), Pb (Lead), H (Hydrogen), Cu (Copper), Hg (Mercury), Ag (Silver), Au (Gold). Note karo - H ke upar wale metals acid se react karte hain, H ke neeche wale nahi!" },
+        { "speaker": "raju", "text": "H ke upar wale react karte hain, neeche wale nahi - ye ek bahut kaam ki baat hai sir!" }
+      ],
+      "navigation": { "next": "card_19_mnemonic_reactivity", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_19_mnemonic_reactivity",
+      "card_slug": "card_19_mnemonic_reactivity",
+      "type": "chat",
+      "concept_id": "reactivity_series",
+      "level": 3,
+      "progress": { "current": 19, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ye order yaad karna ek mnemonic se aasaan hai: 'Potassium Na Calcium Mangaata Aluminium Zinc Faad, Hydrogen Ko Copper Hua Mercury Aur Silver Gold.' - K, Na, Ca, Mg, Al, Zn, Fe, H, Cu, Hg, Ag, Au." },
+        { "speaker": "raju", "text": "Haha! Ye mnemonic toh mazedaar hai, yaad rahegi!" },
+        { "speaker": "aman", "text": "Ab iska use - agar ek zyada reactive metal ko kisi kam reactive metal ke salt solution me daala jaaye, toh zyada reactive metal, kam reactive metal ko solution se hatakar uski jagah le leta hai. Ise [[Displacement Reaction | Zyada reactive dhatu kam reactive dhatu ko uske salt solution se replace kar leta hai]] kehte hain. Jaise Fe + CuSO4 → FeSO4 + Cu (laal copper neeche baith jaata hai)." },
+        { "speaker": "raju", "text": "Matlab iron ne copper ko hata diya uski jagah se - ek tarah ki dhakka-mukki!" }
+      ],
+      "navigation": { "next": "card_20_displacement_detail", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_20_displacement_detail",
+      "card_slug": "card_20_displacement_detail",
+      "type": "chat",
+      "concept_id": "reactivity_series",
+      "level": 3,
+      "progress": { "current": 20, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi analogy! Ab ek practical example - agar tum zinc ki strip ko copper sulphate (blue colour) ke ghol me daalo, toh solution blue se colourless ho jaayega aur strip par laal copper jam jaayega. Kyunki Zinc, Copper se zyada reactive hai." },
+        { "speaker": "raju", "text": "Toh colour change se pata chal jaata hai ki reaction hui - ye experiment toh achha hai!" },
+        { "speaker": "aman", "text": "Haan! Aur ek important point - ye displacement reaction tab hi hogi jab UPAR wala metal NEECHE wale metal ke solution me daala jaaye. Agar tum copper ko zinc sulphate me daaloge toh kuch nahi hoga, kyunki copper zinc se kam reactive hai!" },
+        { "speaker": "raju", "text": "Ye toh bahut important rule hai - zyada reactive hi kam reactive ko hataa sakta hai, ulta nahi!" }
+      ],
+      "navigation": { "next": "card_21_quiz1", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_21_quiz1",
+      "card_slug": "card_21_quiz1",
+      "type": "quiz",
+      "concept_id": "reactivity_series",
+      "level": 3,
+      "progress": { "current": 21, "total": 85 },
+      "quiz_payload": {
+        "question": "In the reactivity series, metals above hydrogen can react with dilute acids. Which of the following metals CANNOT react with dilute acids? (Q1/3)",
+        "options": [
+          { "id": "A", "text": "Zinc" },
+          { "id": "B", "text": "Iron" },
+          { "id": "C", "text": "Copper" },
+          { "id": "D", "text": "Magnesium" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Copper (Cu) is placed below Hydrogen in the reactivity series, so it cannot displace hydrogen from dilute acids and does not react with HCl or dilute H2SO4."
+      },
+      "navigation": { "next": "card_22_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_22_quiz2",
+      "card_slug": "card_22_quiz2",
+      "type": "quiz",
+      "concept_id": "reactivity_series",
+      "level": 3,
+      "progress": { "current": 22, "total": 85 },
+      "quiz_payload": {
+        "question": "A strip of zinc is placed in copper sulphate solution. Which of the following observations is correct? (Q2/3)",
+        "options": [
+          { "id": "A", "text": "No reaction occurs because zinc cannot displace copper" },
+          { "id": "B", "text": "The blue colour of the solution fades and reddish copper deposits on zinc strip" },
+          { "id": "C", "text": "The solution turns more blue" },
+          { "id": "D", "text": "Zinc dissolves completely with no colour change" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Zn + CuSO4 → ZnSO4 + Cu. Zinc is more reactive than copper, so it displaces copper. ZnSO4 is colourless (blue fades) and reddish copper metal deposits on the zinc strip."
+      },
+      "navigation": { "next": "card_23_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_23_quiz3",
+      "card_slug": "card_23_quiz3",
+      "type": "quiz",
+      "concept_id": "reactivity_series",
+      "level": 3,
+      "progress": { "current": 23, "total": 85 },
+      "quiz_payload": {
+        "question": "Consider: Statement 1 - Gold is at the top of the reactivity series. Statement 2 - Potassium is the most reactive metal. Which is correct? (Q3/3)",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both" },
+          { "id": "D", "text": "Neither" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Statement 1 is WRONG - Gold is at the BOTTOM of the reactivity series (least reactive). Statement 2 is correct - Potassium (K) is the most reactive common metal, placed at the top."
+      },
+      "navigation": { "next": "card_24_milestone3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_24_milestone3",
+      "card_slug": "card_24_milestone3",
+      "type": "milestone",
+      "concept_id": "reactivity_series",
+      "level": 3,
+      "progress": { "current": 24, "total": 85 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🏆",
+        "completed_topic": "Reactivity Series & Displacement Reactions",
+        "xp_earned": 50,
+        "milestone_progress": "Module 3/10 Clear",
+        "motivational_quote": "Reactivity Series ka sabse bada trap pakad liya! Ab dekhte hain metals ka dushman - Corrosion!"
+      },
+      "navigation": { "next": "card_25_corrosion_intro", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_25_corrosion_intro",
+      "card_slug": "card_25_corrosion_intro",
+      "type": "chat",
+      "concept_id": "corrosion",
+      "level": 4,
+      "progress": { "current": 25, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, gaon me kisi ki purani cycle ya kheti ke abzaar kaafi time baad laal-bhoore ring jaate hain - ye kya hai?" },
+        { "speaker": "raju", "text": "Ye toh zang hai sir, matlab lohe par jo laal kharaab ho jaata hai!" },
+        { "speaker": "aman", "text": "Bilkul sahi! Iska scientific naam hai [[Corrosion | Dhatu ka hawa, nami, ya dusre padarth se slowly react karke nuksaan uthana, jaise lohe ka zaang lagna]] - aur iron ki specific corrosion ko [[Rusting | Lohe ka nami aur oxygen se react karke laal-bhoore Fe2O3.xH2O banana]] kehte hain. Chemical formula hai: Fe2O3.xH2O (Hydrated Iron Oxide)." },
+        { "speaker": "raju", "text": "Toh rusting ek specific type ka corrosion hai jo sirf iron ke liye hota hai?" }
+      ],
+      "navigation": { "next": "card_26_rusting_conditions", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_26_rusting_conditions",
+      "card_slug": "card_26_rusting_conditions",
+      "type": "chat",
+      "concept_id": "corrosion",
+      "level": 4,
+      "progress": { "current": 26, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Haan, rusting sirf iron aur steel me hoti hai. Aur rusting ke liye do cheezein zaroor chahiye: Oxygen (O2) aur Water/Moisture (H2O) - dono ek saath chahiye. Sirf paani me ya sirf oil me rakho toh rust nahi hoga. Isliye kaarigaron ke tools par grease lagaate hain - oxygen nahi pahunchti." },
+        { "speaker": "raju", "text": "Matlab dry hawa me bhi nahi rusts? Toh humara padosi ke ghar ki chhatt par rakhi purani cycle baarish me kyun rust hoti hai?" },
+        { "speaker": "aman", "text": "Kyunki wahan dono milte hain - hawa bhi hai, baarish ka paani bhi! Aur ek aur baat - salt (namak) wala paani rusting ko aur bhi tez karta hai, isliye samundar ke paas ki cheezein zyada tezi se kharab hoti hain." },
+        { "speaker": "raju", "text": "Ohh isiliye ships ko bahut zyada maintenance chahiye - namkeen samudr ka paani bahut dushman hai!" }
+      ],
+      "navigation": { "next": "card_27_prevention_galvanisation", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_27_prevention_galvanisation",
+      "card_slug": "card_27_prevention_galvanisation",
+      "type": "chat",
+      "concept_id": "corrosion",
+      "level": 4,
+      "progress": { "current": 27, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab rust se bachane ke tarike. Sabse popular hai [[Galvanisation | Iron ya steel ki surface par zinc ki thin coating karna taaki zaang se bachaaya ja sake]] - iron par zinc ki thin layer chadhaana. Zinc ka Al2O3 jaisi protective oxide layer banati hai, isliye andar ka iron safe rehta hai." },
+        { "speaker": "raju", "text": "Sir zinc ka protective layer bana, jaise aluminium ki thi - toh ye bhi passivation jaisi hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi connection! Galvanised iron pipes aur buckets me yahi zinc coating hoti hai. Iske alave aur bhi methods hain - Painting (jaise cycle pe paint), Electroplating, Alloying (stainless steel banao jisme chromium rust nahi karne deta), aur Tinning (tin ki coating)." },
+        { "speaker": "raju", "text": "Toh stainless steel me chromium hota hai jo rust nahi aata - isiliye hamare bartan nahi zaroorte rust hote!" }
+      ],
+      "navigation": { "next": "card_28_cathodic_guess", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_28_cathodic_guess",
+      "card_slug": "card_28_cathodic_guess",
+      "type": "guess",
+      "concept_id": "corrosion",
+      "level": 4,
+      "progress": { "current": 28, "total": 85 },
+      "guess_payload": {
+        "question": "Galvanised iron me zinc ki coating hoti hai. Agar kuch jagah scratch lagke zinc utar jaaye, toh kya iron rust hona shuru ho jaata hai?",
+        "options": [
+          { "id": "A", "text": "Haan, zinc uthne ke baad iron seedha rust hoga" },
+          { "id": "B", "text": "Nahi, zinc pehle react karta rahega iron ki jagah (sacrificial protection)" },
+          { "id": "C", "text": "Kuch nahi hoga, iron khud safe hai" },
+          { "id": "D", "text": "Iron bhi zinc ban jaata hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Zinc is more reactive than iron. Even if the coating is scratched, zinc will preferentially corrode (sacrificial protection or cathodic protection) - zinc sacrifices itself to save the iron underneath. This is why galvanization is so effective."
+      },
+      "navigation": { "next": "card_29_quiz1", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_29_quiz1",
+      "card_slug": "card_29_quiz1",
+      "type": "quiz",
+      "concept_id": "corrosion",
+      "level": 4,
+      "progress": { "current": 29, "total": 85 },
+      "quiz_payload": {
+        "question": "For rusting of iron to occur, which two substances are BOTH necessarily required? (Q1/3)",
+        "options": [
+          { "id": "A", "text": "Oxygen and Carbon dioxide" },
+          { "id": "B", "text": "Water and Nitrogen" },
+          { "id": "C", "text": "Oxygen and Water (moisture)" },
+          { "id": "D", "text": "Carbon dioxide and Water" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Rusting requires both Oxygen AND Water (moisture) simultaneously. In the absence of either, iron does not rust - this is why iron objects stored in oil or kept completely dry do not rust."
+      },
+      "navigation": { "next": "card_30_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_30_quiz2",
+      "card_slug": "card_30_quiz2",
+      "type": "quiz",
+      "concept_id": "corrosion",
+      "level": 4,
+      "progress": { "current": 30, "total": 85 },
+      "quiz_payload": {
+        "question": "The process of coating iron or steel with a thin layer of zinc to prevent rusting is called: (Q2/3)",
+        "options": [
+          { "id": "A", "text": "Electroplating" },
+          { "id": "B", "text": "Galvanisation" },
+          { "id": "C", "text": "Anodising" },
+          { "id": "D", "text": "Tinning" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Galvanisation is the process of applying a zinc coating to iron or steel to protect it from rusting. The zinc forms its own protective oxide layer and also provides sacrificial protection."
+      },
+      "navigation": { "next": "card_31_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_31_quiz3",
+      "card_slug": "card_31_quiz3",
+      "type": "quiz",
+      "concept_id": "corrosion",
+      "level": 4,
+      "progress": { "current": 31, "total": 85 },
+      "quiz_payload": {
+        "question": "Stainless steel resists rusting mainly due to the presence of which element? (Q3/3)",
+        "options": [
+          { "id": "A", "text": "Carbon" },
+          { "id": "B", "text": "Nickel" },
+          { "id": "C", "text": "Chromium" },
+          { "id": "D", "text": "Manganese" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Stainless steel contains Iron + Carbon + Chromium (and sometimes Nickel). Chromium forms a protective Cr2O3 layer that prevents oxygen and water from reaching the iron, thus preventing rust."
+      },
+      "navigation": { "next": "card_32_milestone4", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_32_milestone4",
+      "card_slug": "card_32_milestone4",
+      "type": "milestone",
+      "concept_id": "corrosion",
+      "level": 4,
+      "progress": { "current": 32, "total": 85 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🛡️",
+        "completed_topic": "Corrosion & Prevention",
+        "xp_earned": 50,
+        "milestone_progress": "Module 4/10 Clear",
+        "motivational_quote": "Corrosion se ladna seekh gaye! Ab alloys ka duniya explore karte hain - ye bahut poocha jaata hai!"
+      },
+      "navigation": { "next": "card_33_alloy_intro", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_33_alloy_intro",
+      "card_slug": "card_33_alloy_intro",
+      "type": "chat",
+      "concept_id": "alloys",
+      "level": 5,
+      "progress": { "current": 33, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, kya tumne note kiya - pure gold (24 carat) se jewelry nahi banti, balki 22 carat gold use hoti hai. Aur cycle ka loha ek hi iron nahi hota - steel hoti hai. Kyon?" },
+        { "speaker": "raju", "text": "Nahi sir, kyun aisa hota hai? Pure gold zyada valuable nahi hoti kya?" },
+        { "speaker": "aman", "text": "Kyunki pure metals akele bahut soft ya weak hote hain. Isiliye do ya zyada metals (ya ek metal + non-metal) ko milake [[Alloy | Do ya zyada dhaatuon ka mixture jisme dono properties better ho jaati hain, jaise steel]] banate hain, jo akele metals se kaafi zyada useful hota hai." },
+        { "speaker": "raju", "text": "Toh alloy ek mixture hai - phir compound se kaise alag hai sir?" }
+      ],
+      "navigation": { "next": "card_34_alloy_not_compound", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_34_alloy_not_compound",
+      "card_slug": "card_34_alloy_not_compound",
+      "type": "chat",
+      "concept_id": "alloys",
+      "level": 5,
+      "progress": { "current": 34, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Bahut badhiya question! Alloy ek [[Homogeneous Mixture | Wo mixture jisme sab cheezein ekdum ghuli hui ho, ek jaise dikhein]] hota hai, compound nahi. Iska matlab - alloy me elements apni individual identity rakhte hain aur kisi fixed ratio me nahi hote." },
+        { "speaker": "raju", "text": "Samajh aaya sir - mixture hai compound nahi!" },
+        { "speaker": "aman", "text": "Ab kuch important alloys yaad karo: [[Brass | Copper + Zinc ka alloy, peele rang ka, bartan aur instruments me]] (Cu + Zn, 70:30), [[Bronze | Copper + Tin ka alloy, murtiya aur coins me use hota hai]] (Cu + Sn), [[Solder | Tin + Lead ka alloy, taar jodne me use hota hai]] (Sn + Pb, wire jodhne me), [[Steel | Iron + Carbon ka alloy]] (Fe + C), [[Stainless Steel | Iron + Carbon + Chromium + Nickel ka alloy]] (Fe + C + Cr + Ni)." },
+        { "speaker": "raju", "text": "Sir Brass aur Bronze dono Copper wale hain - ye mix ho jayenge! Brass me Zinc hai, Bronze me Tin - note kar liya!" }
+      ],
+      "navigation": { "next": "card_35_more_alloys", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_35_more_alloys",
+      "card_slug": "card_35_more_alloys",
+      "type": "chat",
+      "concept_id": "alloys",
+      "level": 5,
+      "progress": { "current": 35, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Aur kuch aur important alloys: [[Duralumin | Aluminium + Copper + Manganese + Magnesium ka alloy, aircraft me use hota hai]] (Al + Cu + Mn + Mg, aircraft me), [[Amalgam | Kisi bhi dhatu ka Mercury ke saath alloy, danton me use hota hai]] (mercury + any metal, danto me filling me), [[German Silver | Copper + Zinc + Nickel ka alloy, chhurat aur instruments me]] (Cu + Zn + Ni), aur [[Magnalium | Aluminium + Magnesium ka alloy, aircraft aur scientific instruments me]] (Al + Mg)." },
+        { "speaker": "raju", "text": "Sir Amalgam toh interesting hai - mercury ka alloy daton me! Aur Duralumin aircraft me kyunki aluminum kaafi halka hoga." },
+        { "speaker": "aman", "text": "Bilkul sahi! Duralumin me aluminum hone se halka hai lekin copper se mazboot bhi. Ek aur important fact - pure gold 24 carat hoti hai, 22 carat me 2 parts copper/silver milaye jaate hain - isliye jewelry zyada strong hoti hai aur sasta bhi." },
+        { "speaker": "raju", "text": "24 carat = 100% pure gold! Aur 22 carat = thoda aur dhatu milaya gaya - samajh aaya!" }
+      ],
+      "navigation": { "next": "card_36_guess_alloy", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_36_guess_alloy",
+      "card_slug": "card_36_guess_alloy",
+      "type": "guess",
+      "concept_id": "alloys",
+      "level": 5,
+      "progress": { "current": 36, "total": 85 },
+      "guess_payload": {
+        "question": "Guess karo - Aircraft banane me Duralumin kyun use hota hai, pure Aluminium kyun nahi?",
+        "options": [
+          { "id": "A", "text": "Aluminium bahut mehanga hai" },
+          { "id": "B", "text": "Pure Aluminium bahut soft hai, Duralumin halka aur zyada mazboot dono hai" },
+          { "id": "C", "text": "Aluminium pighalta nahi hai" },
+          { "id": "D", "text": "Aluminium magnetic nahi hota" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Pure Aluminium is too soft for structural use. Duralumin (Al+Cu+Mn+Mg) combines aluminium's low density (lightweight) with greatly improved strength, making it ideal for aircraft where weight matters critically."
+      },
+      "navigation": { "next": "card_37_quiz1", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_37_quiz1",
+      "card_slug": "card_37_quiz1",
+      "type": "quiz",
+      "concept_id": "alloys",
+      "level": 5,
+      "progress": { "current": 37, "total": 85 },
+      "quiz_payload": {
+        "question": "Which alloy is used in making electrical fuses because it has a low melting point? (Q1/3)",
+        "options": [
+          { "id": "A", "text": "Brass" },
+          { "id": "B", "text": "Solder (Tin-Lead alloy)" },
+          { "id": "C", "text": "Duralumin" },
+          { "id": "D", "text": "Steel" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Solder (an alloy of Tin and Lead, typically 60:40 or 63:37) has a low melting point, which makes it useful for joining metals (soldering wires) and also in making electrical fuses."
+      },
+      "navigation": { "next": "card_38_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_38_quiz2",
+      "card_slug": "card_38_quiz2",
+      "type": "quiz",
+      "concept_id": "alloys",
+      "level": 5,
+      "progress": { "current": 38, "total": 85 },
+      "quiz_payload": {
+        "question": "Statement 1: Brass is an alloy of Copper and Zinc. Statement 2: Bronze is an alloy of Copper and Tin. Which is correct? (Q2/3)",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both are correct" },
+          { "id": "D", "text": "Both are wrong" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Both are correct. Brass = Cu + Zn (used in musical instruments, taps). Bronze = Cu + Sn (used in statues, coins, bells). Both are copper alloys but differ in the second metal - Zinc vs Tin. This is a very common exam trap."
+      },
+      "navigation": { "next": "card_39_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_39_quiz3",
+      "card_slug": "card_39_quiz3",
+      "type": "quiz",
+      "concept_id": "alloys",
+      "level": 5,
+      "progress": { "current": 39, "total": 85 },
+      "quiz_payload": {
+        "question": "An amalgam is defined as an alloy that always contains which metal? (Q3/3)",
+        "options": [
+          { "id": "A", "text": "Gold" },
+          { "id": "B", "text": "Silver" },
+          { "id": "C", "text": "Mercury" },
+          { "id": "D", "text": "Copper" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "An amalgam is any alloy of Mercury with another metal. Dental amalgam contains mercury + silver + tin + zinc. Silver amalgam is used in dental fillings."
+      },
+      "navigation": { "next": "card_40_milestone5", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_40_milestone5",
+      "card_slug": "card_40_milestone5",
+      "type": "milestone",
+      "concept_id": "alloys",
+      "level": 5,
+      "progress": { "current": 40, "total": 85 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🥇",
+        "completed_topic": "Alloys & Their Compositions",
+        "xp_earned": 50,
+        "milestone_progress": "Module 5/10 Clear",
+        "motivational_quote": "Alloys ke formulas pakad liye! Ab dekhte hain kaise kisi bhi metal ko zaamin se nikaal ke pure banaate hain - Metallurgy!"
+      },
+      "navigation": { "next": "card_41_metallurgy_ore", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_41_metallurgy_ore",
+      "card_slug": "card_41_metallurgy_ore",
+      "type": "chat",
+      "concept_id": "metallurgy",
+      "level": 6,
+      "progress": { "current": 41, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab ek bahut important topic - [[Metallurgy | Dhatu ko unke ores se nikaalkar shuddh karne ki poori vidhi]] - kaise mine se pure metal milta hai. Pehle samjho - metals zameen me apne pure form me nahi milte, balki [[Ore | Wo khanij jisme metal itni matra me hota hai ki use economically nikalaa ja sake]] ke roop me milte hain." },
+        { "speaker": "raju", "text": "Ore matlab? Toh zaamin me jo iron wali mitti hoti hai wo Ore hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Jaise Iron ka ore hai [[Haematite | Fe2O3, iron ka sabse important ore, laal rang ka]] (Fe2O3) aur [[Magnetite | Fe3O4, iron ka magnetic ore]] (Fe3O4). Ore me metal ke saath jo unwanted material hoti hai jise [[Gangue | Ore me metal ke saath maujood bekaar, unwanted material]] kehte hain - wo hataani padti hai." },
+        { "speaker": "raju", "text": "Toh ore = metal + gangue, aur hume sirf metal chahiye - gangue waste hai!" }
+      ],
+      "navigation": { "next": "card_42_concentration_roasting", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_42_concentration_roasting",
+      "card_slug": "card_42_concentration_roasting",
+      "type": "chat",
+      "concept_id": "metallurgy",
+      "level": 6,
+      "progress": { "current": 42, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ore se pure metal nikalane ke kuch main steps hain. Pehla step - [[Concentration of Ore | Ore se gangue hatana taaki metal ki matra badhe]] - isme gravity separation, froth flotation, magnetic separation methods use hoti hain. Doosra step - [[Roasting | Ore ko hawa me garam karna]] ya [[Calcination | Ore ko hawa ke bina garam karna]]." },
+        { "speaker": "raju", "text": "Roasting aur calcination dono garam karna hai, fark kya hai sir?" },
+        { "speaker": "aman", "text": "Important difference - Roasting hawa ke SAATH (oxygen present) hota hai jisse metal oxide banta hai, jabki Calcination hawa ke BINA hota hai jisse mainly CO2 ya water nikalta hai. Jaise CaCO3 → CaO + CO2 ye calcination hai." },
+        { "speaker": "raju", "text": "Roasting = hawa ke saath, Calcination = hawa ke bina - ye difference yaad rakhna padega!" }
+      ],
+      "navigation": { "next": "card_43_reduction_smelting", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_43_reduction_smelting",
+      "card_slug": "card_43_reduction_smelting",
+      "type": "chat",
+      "concept_id": "metallurgy",
+      "level": 6,
+      "progress": { "current": 43, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Teesra aur sabse important step hai [[Smelting | Metal oxide ko carbon ya coke ke saath garam karke pure metal banana]], jisme metal oxide ko carbon (coke) ke saath bhatt (blast furnace) me reduce kiya jaata hai. Iron ke liye: Fe2O3 + 3CO → 2Fe + 3CO2." },
+        { "speaker": "raju", "text": "Toh carbon ne oxygen chheen li iron se - ise reduction kehte hain?" },
+        { "speaker": "aman", "text": "Bilkul sahi samjhe! Ye [[Reduction | Oxygen hatana ya hydrogen/electron jodna - metal ore ko metal me convert karne me hota hai]] hai. Carbon is maamle me [[Reducing Agent | Wo padarth jo oxygen le leta hai aur doosre ko reduce karta hai]] ka kaam karta hai. Highly reactive metals jaise Na, K, Ca ke liye carbon se reduction nahi hota - unhe electrolytic reduction se nikalte hain." },
+        { "speaker": "raju", "text": "Reactive metals alag tarike se nikalte hain - make sense hai, wo carbon ko bhi react karwa denge!" }
+      ],
+      "navigation": { "next": "card_44_refining_electrolysis", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_44_refining_electrolysis",
+      "card_slug": "card_44_refining_electrolysis",
+      "type": "chat",
+      "concept_id": "metallurgy",
+      "level": 6,
+      "progress": { "current": 44, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Aakhri step hai [[Refining | Smelting ke baad mile impure metal ko aur shuddh banana]] - metal ko aur shuddh karna. Sabse pure refining hoti hai [[Electrolytic Refining | Bijli ke dwara impure metal ko anode banake pure metal ko cathode par jamana]] me - impure metal anode (positive) pe, pure metal cathode (negative) pe, aur salt solution electrolyte me." },
+        { "speaker": "raju", "text": "Sir anode pe impure, cathode pe pure - ye kaise hota hai exactly?" },
+        { "speaker": "aman", "text": "Bijli pass hone par anode ka impure metal dissolve ho jaata hai, solution me aata hai, aur pure metal ions cathode par jam jaate hain. Impurities anode ke neeche 'anode mud' ke roop me gir jaati hain. Copper, Gold, Aluminium sab is tarah refine kiye jaate hain." },
+        { "speaker": "raju", "text": "Anode mud me kya hota hai - waste products? Lekin kabhi kabhi gold bhi hota hai usme!" }
+      ],
+      "navigation": { "next": "card_45_quiz1", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_45_quiz1",
+      "card_slug": "card_45_quiz1",
+      "type": "quiz",
+      "concept_id": "metallurgy",
+      "level": 6,
+      "progress": { "current": 45, "total": 85 },
+      "quiz_payload": {
+        "question": "In electrolytic refining, the pure metal gets deposited on: (Q1/3)",
+        "options": [
+          { "id": "A", "text": "Anode" },
+          { "id": "B", "text": "Electrolyte" },
+          { "id": "C", "text": "Cathode" },
+          { "id": "D", "text": "Container walls" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "In electrolytic refining, the impure metal serves as the anode (which dissolves), and pure metal ions deposit on the cathode. Impurities settle as anode mud."
+      },
+      "navigation": { "next": "card_46_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_46_quiz2",
+      "card_slug": "card_46_quiz2",
+      "type": "quiz",
+      "concept_id": "metallurgy",
+      "level": 6,
+      "progress": { "current": 46, "total": 85 },
+      "quiz_payload": {
+        "question": "Haematite is the most important ore of Iron. What is the chemical formula of Haematite? (Q2/3)",
+        "options": [
+          { "id": "A", "text": "Fe3O4" },
+          { "id": "B", "text": "Fe2O3" },
+          { "id": "C", "text": "FeCO3" },
+          { "id": "D", "text": "FeS2" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Haematite is Fe2O3 (Ferric Oxide), the most important ore of iron. Fe3O4 is Magnetite. FeCO3 is Siderite. FeS2 is Iron Pyrite (Fool's Gold). These are common exam traps."
+      },
+      "navigation": { "next": "card_47_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_47_quiz3",
+      "card_slug": "card_47_quiz3",
+      "type": "quiz",
+      "concept_id": "metallurgy",
+      "level": 6,
+      "progress": { "current": 47, "total": 85 },
+      "quiz_payload": {
+        "question": "Highly reactive metals like Sodium and Potassium are extracted from their ores by: (Q3/3)",
+        "options": [
+          { "id": "A", "text": "Reduction with Carbon (Smelting)" },
+          { "id": "B", "text": "Roasting" },
+          { "id": "C", "text": "Electrolytic Reduction" },
+          { "id": "D", "text": "Displacement by iron" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Highly reactive metals (Na, K, Ca, Mg, Al) cannot be reduced by carbon because they have higher reactivity than carbon. They are extracted by electrolysis (electrolytic reduction) of their molten salts."
+      },
+      "navigation": { "next": "card_48_milestone6", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_48_milestone6",
+      "card_slug": "card_48_milestone6",
+      "type": "milestone",
+      "concept_id": "metallurgy",
+      "level": 6,
+      "progress": { "current": 48, "total": 85 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🏭",
+        "completed_topic": "Metallurgy & Metal Extraction",
+        "xp_earned": 50,
+        "milestone_progress": "Module 6/10 Clear",
+        "motivational_quote": "Metallurgy ka process clear ho gaya! Ab important individual metals ke baare me padhte hain!"
+      },
+      "navigation": { "next": "card_49_iron_properties", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_49_iron_properties",
+      "card_slug": "card_49_iron_properties",
+      "type": "chat",
+      "concept_id": "important_metals",
+      "level": 7,
+      "progress": { "current": 49, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab kuch important individual metals ke bare me padho jo exam me baar-baar poocha jaata hai. Pehle - Iron (Fe). Iron teeno forms me milta hai: [[Pig Iron | Sabse impure iron, seedha blast furnace se, 4% carbon hota hai]] (4% carbon, very brittle), [[Cast Iron | Pig iron se thoda shuddh, 2-3% carbon, brittle, pipes me use]] (2-3% carbon), aur [[Wrought Iron | Sabse pure iron, 0.1-0.2% carbon, malleable aur ductile]] (0.1-0.2% carbon, purest, malleable)." },
+        { "speaker": "raju", "text": "Sir carbon badhne se iron alag ho jaata hai - zyada carbon matlab zyada brittle?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Aur Steel (0.2-2% carbon) in dono ke beech hai - ye tough bhi hai aur malleable bhi. ⭐ BPSC TRE Favorite: Jharkhand (aur kuch hissa Bihar) me Iron ore mines hain - Jharia, Bokaro steel plant ye sab exam me poocha jaata hai." },
+        { "speaker": "raju", "text": "Bokaro Steel Plant - ye Bihar ke paas Jharkhand me hai! BPSC ke liye important hai!" }
+      ],
+      "navigation": { "next": "card_50_aluminium_copper", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_50_aluminium_copper",
+      "card_slug": "card_50_aluminium_copper",
+      "type": "chat",
+      "concept_id": "important_metals",
+      "level": 7,
+      "progress": { "current": 50, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab Aluminium (Al) - [[Bauxite | Al2O3.2H2O, aluminium ka mukhya ore, laal rang ka]] (Al2O3.2H2O) iski ore hai. Aluminium sabse zyada paaya jaane wala metal hai earth's crust me! Halka hone ki wajah se aircraft, vehicles me use hota hai. India me [[Odisha | India me aluminium ore (bauxite) ka sabse bada supplier]] aur Gujarat me bauxite milta hai." },
+        { "speaker": "raju", "text": "Aluminium sabse zyada paaya jaane wala metal! Mujhe laga iron hoga!" },
+        { "speaker": "aman", "text": "Ye bahut common trap hai! Iron second most abundant metal hai, pehle Aluminium. Ab Copper (Cu) - iska ore hai [[Copper Pyrites | CuFeS2, copper ka sabse important ore]] (CuFeS2, chalcopyrite). Copper sabse achha electrical conductor hai pure metals me (Silver isse bhi achha hai lekin mahanga), isliye ghar ke wires copper ke hote hain." },
+        { "speaker": "raju", "text": "Copper zyada achha conductor hai ya silver? Silver toh zyada achha hoga!" }
+      ],
+      "navigation": { "next": "card_51_gold_silver", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_51_gold_silver",
+      "card_slug": "card_51_gold_silver",
+      "type": "chat",
+      "concept_id": "important_metals",
+      "level": 7,
+      "progress": { "current": 51, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Haan Raju, Silver sabse achha conductor hai, tab Copper, tab Gold - order: Ag > Cu > Au > Al. Lekin Silver zyada mehanga hai isliye wire me copper use hota hai. Silver kabhi kabhi native (pure form) me milta hai, Gold bhi aksar free state me milta hai - isliye inhe 'Noble Metals' kehte hain." },
+        { "speaker": "raju", "text": "Noble Metals matlab jo react nahi karte aur naturally pure milte hain!" },
+        { "speaker": "aman", "text": "Bilkul sahi! Gold ka symbol Au - Latin word 'Aurum' se, Silver ka Ag - Latin 'Argentum' se, Iron ka Fe - Latin 'Ferrum' se, Copper ka Cu - Latin 'Cuprum' se. ⭐ BPSC ka favorite - ye Latin names exams me poocha jaata hai!" },
+        { "speaker": "raju", "text": "Au, Ag, Fe, Cu ke Latin origins yaad rakhne honge - ye toh tricky symbols hain!" }
+      ],
+      "navigation": { "next": "card_52_zinc_lead_guess", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_52_zinc_lead_guess",
+      "card_slug": "card_52_zinc_lead_guess",
+      "type": "guess",
+      "concept_id": "important_metals",
+      "level": 7,
+      "progress": { "current": 52, "total": 85 },
+      "guess_payload": {
+        "question": "Guess karo - agar Silver sabse achha conductor hai, toh ghar ke bijli ke taar silver ke kyun nahi hote?",
+        "options": [
+          { "id": "A", "text": "Silver bijli conduct nahi kar sakta" },
+          { "id": "B", "text": "Silver bahut mehanga hai, copper affordable aur equally practical hai" },
+          { "id": "C", "text": "Silver react karta hai wire me" },
+          { "id": "D", "text": "Silver bahut heavy hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Silver is indeed the best electrical conductor among all metals, but it is extremely expensive and relatively rare. Copper, being almost as good a conductor and far more affordable, is used practically in electrical wiring."
+      },
+      "navigation": { "next": "card_53_quiz1", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_53_quiz1",
+      "card_slug": "card_53_quiz1",
+      "type": "quiz",
+      "concept_id": "important_metals",
+      "level": 7,
+      "progress": { "current": 53, "total": 85 },
+      "quiz_payload": {
+        "question": "Which is the most abundant metal in the Earth's crust? (Q1/3)",
+        "options": [
+          { "id": "A", "text": "Iron" },
+          { "id": "B", "text": "Copper" },
+          { "id": "C", "text": "Aluminium" },
+          { "id": "D", "text": "Gold" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Aluminium is the most abundant metal in the Earth's crust (about 8% by mass). Iron is second. This is one of the most common exam traps - students often answer Iron."
+      },
+      "navigation": { "next": "card_54_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_54_quiz2",
+      "card_slug": "card_54_quiz2",
+      "type": "quiz",
+      "concept_id": "important_metals",
+      "level": 7,
+      "progress": { "current": 54, "total": 85 },
+      "quiz_payload": {
+        "question": "The chemical symbol 'Au' for Gold comes from which Latin word? (Q2/3)",
+        "options": [
+          { "id": "A", "text": "Aureum" },
+          { "id": "B", "text": "Aurum" },
+          { "id": "C", "text": "Auris" },
+          { "id": "D", "text": "Aura" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Au comes from the Latin word 'Aurum' (Gold). Similarly: Ag from 'Argentum' (Silver), Fe from 'Ferrum' (Iron), Cu from 'Cuprum' (Copper), Pb from 'Plumbum' (Lead), Hg from 'Hydrargyrum' (Mercury/Quicksilver)."
+      },
+      "navigation": { "next": "card_55_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_55_quiz3",
+      "card_slug": "card_55_quiz3",
+      "type": "quiz",
+      "concept_id": "important_metals",
+      "level": 7,
+      "progress": { "current": 55, "total": 85 },
+      "quiz_payload": {
+        "question": "Correct order of electrical conductivity among metals (highest to lowest): (Q3/3)",
+        "options": [
+          { "id": "A", "text": "Cu > Ag > Au > Al" },
+          { "id": "B", "text": "Ag > Cu > Au > Al" },
+          { "id": "C", "text": "Au > Ag > Cu > Al" },
+          { "id": "D", "text": "Al > Cu > Ag > Au" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Correct order: Silver (Ag) > Copper (Cu) > Gold (Au) > Aluminium (Al). Silver is the best conductor, but Copper is used in wires due to cost. This order is frequently tested in SSC and Railway exams."
+      },
+      "navigation": { "next": "card_56_milestone7", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_56_milestone7",
+      "card_slug": "card_56_milestone7",
+      "type": "milestone",
+      "concept_id": "important_metals",
+      "level": 7,
+      "progress": { "current": 56, "total": 85 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🌟",
+        "completed_topic": "Important Individual Metals",
+        "xp_earned": 50,
+        "milestone_progress": "Module 7/10 Clear",
+        "motivational_quote": "Individual metals clear! Ab Bihar ke mines aur minerals ka Bihar SCERT waala angle dekhte hain!"
+      },
+      "navigation": { "next": "card_57_bihar_minerals", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_57_bihar_minerals",
+      "card_slug": "card_57_bihar_minerals",
+      "type": "chat",
+      "concept_id": "bihar_minerals_context",
+      "level": 8,
+      "progress": { "current": 57, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ BPSC TRE Favorite - Ab ek bahut important section hai Bihar aur pados ke states ke minerals ka, jo Bihar SCERT textbook se seedha BPSC TRE me poocha jaata hai. Jharkhand (jo pehle Bihar ka hissa tha) mica, coal, iron ore, copper ke liye famous hai." },
+        { "speaker": "raju", "text": "Sir Jharkhand alag state ban gaya - toh Bihar me kya minerals hain apne?" },
+        { "speaker": "aman", "text": "Bihar me mineral resources limited hain compared to Jharkhand. Lekin kuch important hain - [[Pyrite | FeS2, iron pyrite jo Bihar ke Rohtas aur Aurangabad me milta hai]] Bihar ke Rohtas jile me milta hai. Nausar nadi aur Kaimur hills area me kuch minerals hain. ⭐ Mica Bihar me bilkul nahi - ye Jharkhand aur Andhra ka domain hai." },
+        { "speaker": "raju", "text": "Toh mica Bihar me nahi hota - ye ek important point hai exam ke liye!" }
+      ],
+      "navigation": { "next": "card_58_jharkhand_metals", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_58_jharkhand_metals",
+      "card_slug": "card_58_jharkhand_metals",
+      "type": "chat",
+      "concept_id": "bihar_minerals_context",
+      "level": 8,
+      "progress": { "current": 58, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ BPSC TRE Favorite: Jharkhand me aise important metal-related facts hain jo BPSC TRE me poocha gaya hai - [[Bokaro Steel Plant | Jharkhand me Bokaro city me 1964 me Soviet Russia ki madad se sthapit ishpaat kaarkhana]] 1964 me Soviet Russia ki help se banaya gaya tha, aur ye India ka ek key steel plant hai." },
+        { "speaker": "raju", "text": "Russia ne help ki tha Bokaro me? Interesting history hai!" },
+        { "speaker": "aman", "text": "Haan! Aur [[Jamshedpur | Jharkhand me Tata Steel ka mool plant, Jamsetji Tata ne 1907 me sthapit kiya]] me Tata Steel ka plant 1907 me Jamsetji Tata ne banaya tha - India ka pehla private steel plant. Ye historically aur scientifically dono angle se important hai." },
+        { "speaker": "raju", "text": "Tata 1907 aur Bokaro 1964 - dono years note kar liye!" }
+      ],
+      "navigation": { "next": "card_59_national_minerals", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_59_national_minerals",
+      "card_slug": "card_59_national_minerals",
+      "type": "chat",
+      "concept_id": "bihar_minerals_context",
+      "level": 8,
+      "progress": { "current": 59, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab kuch national level metal-mineral facts jo SSC, BPSC, Railway teeno me poocha jaata hai: Copper ke liye - Rajasthan (Khetri mines sabse badi), Iron Ore ke liye - Odisha, Jharkhand, Chhattisgarh, Karnataka. Bauxite (Aluminium) ke liye - Odisha, Gujarat." },
+        { "speaker": "raju", "text": "Rajasthan me copper! Mujhe laga copper sirf pani opi me hoga!" },
+        { "speaker": "aman", "text": "Haha! Gold ke liye - Karnataka (Kolar Gold Fields - ab mostly exhausted, Hatti mines bhi). Mica ke liye - Jharkhand, Andhra Pradesh, Rajasthan. Lead-Zinc ke liye - Rajasthan (Zawar mines, duniya ke bade lead-zinc mines me se ek)." },
+        { "speaker": "raju", "text": "Kolar Gold Field Karnataka me - ye toh bahut famous hai, suna tha!" }
+      ],
+      "navigation": { "next": "card_60_quiz1", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_60_quiz1",
+      "card_slug": "card_60_quiz1",
+      "type": "quiz",
+      "concept_id": "bihar_minerals_context",
+      "level": 8,
+      "progress": { "current": 60, "total": 85 },
+      "quiz_payload": {
+        "question": "Bokaro Steel Plant in Jharkhand was established with the technical help of which country? (Q1/3)",
+        "options": [
+          { "id": "A", "text": "United States of America" },
+          { "id": "B", "text": "United Kingdom" },
+          { "id": "C", "text": "Soviet Russia (USSR)" },
+          { "id": "D", "text": "Germany" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Bokaro Steel Plant was established in 1964 with Soviet Russian (USSR) collaboration and financial assistance - a key fact for BPSC TRE as it covers Bihar-Jharkhand industrial history."
+      },
+      "navigation": { "next": "card_61_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_61_quiz2",
+      "card_slug": "card_61_quiz2",
+      "type": "quiz",
+      "concept_id": "bihar_minerals_context",
+      "level": 8,
+      "progress": { "current": 61, "total": 85 },
+      "quiz_payload": {
+        "question": "Khetri mines in Rajasthan are famous for which metal? (Q2/3)",
+        "options": [
+          { "id": "A", "text": "Gold" },
+          { "id": "B", "text": "Iron" },
+          { "id": "C", "text": "Copper" },
+          { "id": "D", "text": "Aluminium" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Khetri mines in Rajasthan are India's most important copper mines. Kolar Gold Fields (Karnataka) is famous for gold. Zawar mines in Rajasthan are famous for lead-zinc."
+      },
+      "navigation": { "next": "card_62_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_62_quiz3",
+      "card_slug": "card_62_quiz3",
+      "type": "quiz",
+      "concept_id": "bihar_minerals_context",
+      "level": 8,
+      "progress": { "current": 62, "total": 85 },
+      "quiz_payload": {
+        "question": "Statement 1: Mica is abundantly found in Bihar. Statement 2: India's first private steel plant was set up by the Tata group at Jamshedpur in 1907. Which is correct? (Q3/3)",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both" },
+          { "id": "D", "text": "Neither" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Statement 1 is WRONG - Mica is found in Jharkhand (not Bihar), Andhra Pradesh, and Rajasthan. Statement 2 is correct - Tata Steel was established at Jamshedpur (Jharkhand) in 1907, making it India's first major private steel plant."
+      },
+      "navigation": { "next": "card_63_milestone8", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_63_milestone8",
+      "card_slug": "card_63_milestone8",
+      "type": "milestone",
+      "concept_id": "bihar_minerals_context",
+      "level": 8,
+      "progress": { "current": 63, "total": 85 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🗺️",
+        "completed_topic": "Minerals, Mines & Bihar-Jharkhand Context",
+        "xp_earned": 50,
+        "milestone_progress": "Module 8/10 Clear",
+        "motivational_quote": "Bihar-Jharkhand minerals pakad liye! Ab kuch important exceptional metals dekhte hain!"
+      },
+      "navigation": { "next": "card_64_alkali_metals", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_64_alkali_metals",
+      "card_slug": "card_64_alkali_metals",
+      "type": "chat",
+      "concept_id": "special_metals_exceptions",
+      "level": 9,
+      "progress": { "current": 64, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab kuch aisi metal-related facts padhte hain jo exams me trap ki tarah use hoti hain. Pehle - Thermite Reaction: [[Thermite Reaction | Aluminium powder aur iron oxide (Fe2O3) ka mixture jalaane par bahut tej reaction hoti hai, 3000°C tak temperature, train ki paatan jodne me use hota hai]]. Al + Fe2O3 → Al2O3 + Fe + bahut zyada garmi." },
+        { "speaker": "raju", "text": "Train ki paatan jodne me aluminium use hota hai? Ye toh unique hai!" },
+        { "speaker": "aman", "text": "Haan! Ise Thermite Welding ya [[Aluminothermy | Aluminium ki reducing power se metal oxides ko reduce karna, train ki peeli ke jod lagane me use hota hai]] bhi kehte hain. Aluminium is maamle me reducing agent hai. Ek aur fact - [[Magnesia | MgO, magnesium ka oxide jo high temperature pe bhi stable hai, furnace lining me use hota hai]] furnace me bhi use hoti hai - exam me Magnesium ka oxide poocha jaata hai." },
+        { "speaker": "raju", "text": "Aluminium - kahan nahi kaam aata ye! Aircraft me, Thermite me, passivation me - bahut useful metal hai!" }
+      ],
+      "navigation": { "next": "card_65_special_facts", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_65_special_facts",
+      "card_slug": "card_65_special_facts",
+      "type": "chat",
+      "concept_id": "special_metals_exceptions",
+      "level": 9,
+      "progress": { "current": 65, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Kuch rapid fire facts jo SSC, Railway me bar-bar aate hain: Sabse light metal - [[Lithium | Li, duniya ka sabse halka solid metal]] (Li). Sabse heavy metal - [[Osmium | Os, duniya ka sabse bhaari metal]]. Sabse hard metal - [[Tungsten | W, duniya ka sabse hard dhatu, bulb ke filament me use hota hai]]. Tungsten ka use bulb ke filament me hota hai kyunki iska melting point sabse zyada hai (3422°C)." },
+        { "speaker": "raju", "text": "Lithium sabse halka, Osmium sabse bhaari, Tungsten sabse hard - teen alag alag records!" },
+        { "speaker": "aman", "text": "Aur Tungsten ka symbol W hai - Latin word 'Wolfram' se! Aur [[Platinum | Pt, very expensive noble metal, catalytic converters me use, cars me]] - ye noble metal hai, car ke catalytic converters me use hota hai. [[Titanium | Ti, bahut strong aur light metal, aerospace aur medical implants me use hota hai]] - aerospace aur medical implants ke liye." },
+        { "speaker": "raju", "text": "Tungsten ka W Wolfram se - ye toh pata hi nahi tha! Platinum catalytic converters me!" }
+      ],
+      "navigation": { "next": "card_66_anodes_gold_plating", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_66_anodes_gold_plating",
+      "card_slug": "card_66_anodes_gold_plating",
+      "type": "chat",
+      "concept_id": "special_metals_exceptions",
+      "level": 9,
+      "progress": { "current": 66, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab [[Electroplating | Bijli ke dwara ek dhatu par doosre dhatu ki patli layer chadhana]] ke baare me baat karte hain - ye metallurgy aur daily life dono me important hai. Jaise cycle ke kuch parts par chromium ya nickel ki layer chadhaate hain taaki wo shiny rahe aur rust na kare." },
+        { "speaker": "raju", "text": "Ye toh goldsmith bhi karte hain na - artificial jewelry pe gold plating?" },
+        { "speaker": "aman", "text": "Ekdum sahi! Gold plating electroplating se hoti hai - object ko cathode pe, gold ko anode pe, aur gold salt ka solution electrolyte me. Bijli dene par thin gold layer jamti hai object par. Tin cans (dabba) par tin ki electroplating hoti hai food ko safe rakhne ke liye." },
+        { "speaker": "raju", "text": "Toh tin can me tin ki layer hai - isliye andar ka khaana safe rehta hai!" }
+      ],
+      "navigation": { "next": "card_67_quiz1", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_67_quiz1",
+      "card_slug": "card_67_quiz1",
+      "type": "quiz",
+      "concept_id": "special_metals_exceptions",
+      "level": 9,
+      "progress": { "current": 67, "total": 85 },
+      "quiz_payload": {
+        "question": "The Thermite reaction uses Aluminium powder and which other substance to produce very high temperatures? (Q1/3)",
+        "options": [
+          { "id": "A", "text": "Copper oxide (CuO)" },
+          { "id": "B", "text": "Iron oxide (Fe2O3)" },
+          { "id": "C", "text": "Zinc oxide (ZnO)" },
+          { "id": "D", "text": "Lead oxide (PbO)" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Thermite reaction: 2Al + Fe2O3 → Al2O3 + 2Fe + extreme heat (up to 2500°C). This is used in thermite welding for joining railway tracks (Aluminothermy)."
+      },
+      "navigation": { "next": "card_68_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_68_quiz2",
+      "card_slug": "card_68_quiz2",
+      "type": "quiz",
+      "concept_id": "special_metals_exceptions",
+      "level": 9,
+      "progress": { "current": 68, "total": 85 },
+      "quiz_payload": {
+        "question": "Which metal is used as the filament in electric bulbs because of its extremely high melting point? (Q2/3)",
+        "options": [
+          { "id": "A", "text": "Platinum" },
+          { "id": "B", "text": "Titanium" },
+          { "id": "C", "text": "Tungsten" },
+          { "id": "D", "text": "Molybdenum" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Tungsten (W, Wolfram) has the highest melting point of all metals (3422°C), making it ideal for incandescent bulb filaments. It also has the highest boiling point."
+      },
+      "navigation": { "next": "card_69_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_69_quiz3",
+      "card_slug": "card_69_quiz3",
+      "type": "quiz",
+      "concept_id": "special_metals_exceptions",
+      "level": 9,
+      "progress": { "current": 69, "total": 85 },
+      "quiz_payload": {
+        "question": "In electroplating, the object to be plated is connected to which electrode? (Q3/3)",
+        "options": [
+          { "id": "A", "text": "Anode (positive terminal)" },
+          { "id": "B", "text": "Cathode (negative terminal)" },
+          { "id": "C", "text": "Either - it doesn't matter" },
+          { "id": "D", "text": "It is not connected to any electrode" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "In electroplating, the object to be plated is the cathode (connected to negative terminal). The plating metal acts as the anode. Metal ions from the electrolyte solution deposit on the cathode."
+      },
+      "navigation": { "next": "card_70_milestone9", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_70_milestone9",
+      "card_slug": "card_70_milestone9",
+      "type": "milestone",
+      "concept_id": "special_metals_exceptions",
+      "level": 9,
+      "progress": { "current": 70, "total": 85 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "⚡",
+        "completed_topic": "Special Metals & Electroplating",
+        "xp_earned": 50,
+        "milestone_progress": "Module 9/10 Clear",
+        "motivational_quote": "Almost there! Ek aur module - Non-metals vs Metals comparison aur then final revision!"
+      },
+      "navigation": { "next": "card_71_nonmetal_comparison", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_71_nonmetal_comparison",
+      "card_slug": "card_71_nonmetal_comparison",
+      "type": "chat",
+      "concept_id": "metals_vs_nonmetals",
+      "level": 10,
+      "progress": { "current": 71, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab ek comparison jo BPSC me multi-statement me poocha jaata hai - Metals vs Non-metals ka. Metals: Lustre (chamak), Hard (generally), High MP, Conductors, Malleable, Ductile, Basic oxide banate hain, cations form karte hain. Non-metals: No lustre (generally), Soft, Low MP (generally), Poor conductors, Brittle." },
+        { "speaker": "raju", "text": "Sir non-metals ka oxide basic nahi hota - toh kaisa hota hai?" },
+        { "speaker": "aman", "text": "Non-metals [[Acidic Oxide | Non-metals ka oxide jo paani me milne par acid banta hai, jaise SO2, CO2, NO2]] banate hain! Jaise CO2 + H2O → H2CO3 (carbonic acid), SO3 + H2O → H2SO4 (sulphuric acid). Ek exception - [[Carbon Monoxide | CO, ek non-metal oxide jo neutral hai, acidic nahi]] neutral oxide hai." },
+        { "speaker": "raju", "text": "CO neutral hai - non-metal oxide hoke bhi acidic nahi, ye exception hai!" }
+      ],
+      "navigation": { "next": "card_72_metalloid_exception", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_72_metalloid_exception",
+      "card_slug": "card_72_metalloid_exception",
+      "type": "chat",
+      "concept_id": "metals_vs_nonmetals",
+      "level": 10,
+      "progress": { "current": 72, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Ek aur important category hai - [[Metalloid | Aise tatva jo kuch properties metals jaisi aur kuch non-metals jaisi rakhte hain, jaise Silicon, Germanium, Arsenic]] - ye dono metals aur non-metals ke beech mein hain. Silicon sabse important metalloid hai - computer chips me use hota hai, isliye California ka [[Silicon Valley | Duniya ka tech hub, silicon semiconductor use karne ki wajah se ye naam mila]] ka naam Silicon Valley hai." },
+        { "speaker": "raju", "text": "Silicon Valley ka naam Silicon se aaya! Metals ka tech connection!" },
+        { "speaker": "aman", "text": "Aur Silicon ek [[Semiconductor | Bijli ka ek aisa conductor jo conductivity dono conditions me change kar sakta hai, computers me use hota hai]] hai - normal halat me bijli kam conduct karta hai, lekin conditions change hone par zyada conduct karta hai - yahi property computer chips me use hoti hai." },
+        { "speaker": "raju", "text": "Semiconductor - na poora conductor, na poora insulator - beech ka!" }
+      ],
+      "navigation": { "next": "card_73_important_exceptions_guess", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_73_important_exceptions_guess",
+      "card_slug": "card_73_important_exceptions_guess",
+      "type": "guess",
+      "concept_id": "metals_vs_nonmetals",
+      "level": 10,
+      "progress": { "current": 73, "total": 85 },
+      "guess_payload": {
+        "question": "Guess karo - Iodine (I2) ek non-metal hai. Kya usmein koi metal jaisi property bhi hogi?",
+        "options": [
+          { "id": "A", "text": "Nahi, non-metal me koi metal property nahi hoti kabhi" },
+          { "id": "B", "text": "Haan, Iodine me lustre (chamak) hoti hai - ye metal jaisi property hai" },
+          { "id": "C", "text": "Iodine bijli conduct karta hai bhi" },
+          { "id": "D", "text": "Iodine hard hota hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Iodine (I2) is a solid non-metal at room temperature with a shiny/lustrous surface - this metallic lustre is an exception to the rule that only metals are lustrous. Carbon in diamond form is also an exception - it is a non-metal but the hardest natural substance."
+      },
+      "navigation": { "next": "card_74_quiz1", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_74_quiz1",
+      "card_slug": "card_74_quiz1",
+      "type": "quiz",
+      "concept_id": "metals_vs_nonmetals",
+      "level": 10,
+      "progress": { "current": 74, "total": 85 },
+      "quiz_payload": {
+        "question": "Which of the following metal oxides is amphoteric (reacts with both acids and bases)? (Q1/3)",
+        "options": [
+          { "id": "A", "text": "Na2O" },
+          { "id": "B", "text": "CaO" },
+          { "id": "C", "text": "Al2O3" },
+          { "id": "D", "text": "Fe2O3" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Al2O3 (Aluminium oxide) is amphoteric - it reacts with both HCl (acid) and NaOH (base). ZnO is also amphoteric. Na2O, CaO, Fe2O3 are basic oxides only."
+      },
+      "navigation": { "next": "card_75_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_75_quiz2",
+      "card_slug": "card_75_quiz2",
+      "type": "quiz",
+      "concept_id": "metals_vs_nonmetals",
+      "level": 10,
+      "progress": { "current": 75, "total": 85 },
+      "quiz_payload": {
+        "question": "Which non-metal exhibits lustre (a typical metallic property)? (Q2/3)",
+        "options": [
+          { "id": "A", "text": "Sulphur" },
+          { "id": "B", "text": "Phosphorus" },
+          { "id": "C", "text": "Iodine" },
+          { "id": "D", "text": "Nitrogen" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Iodine (solid I2) is a non-metal that shows metallic lustre (shiny surface). This is a well-known exception frequently tested in SSC, Railway, and BPSC exams."
+      },
+      "navigation": { "next": "card_76_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_76_quiz3",
+      "card_slug": "card_76_quiz3",
+      "type": "quiz",
+      "concept_id": "metals_vs_nonmetals",
+      "level": 10,
+      "progress": { "current": 76, "total": 85 },
+      "quiz_payload": {
+        "question": "Statement 1: Metal oxides are generally acidic in nature. Statement 2: Non-metal oxides are generally basic in nature. Which is correct? (Q3/3)",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both" },
+          { "id": "D", "text": "Neither" }
+        ],
+        "correct_option_id": "D",
+        "explanation": "BOTH statements are WRONG! Metal oxides are generally BASIC (not acidic), and Non-metal oxides are generally ACIDIC (not basic). This reversal is one of the most classic exam traps in chemistry!"
+      },
+      "navigation": { "next": "card_77_milestone10", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_77_milestone10",
+      "card_slug": "card_77_milestone10",
+      "type": "milestone",
+      "concept_id": "metals_vs_nonmetals",
+      "level": 10,
+      "progress": { "current": 77, "total": 85 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🎯",
+        "completed_topic": "Metals vs Non-Metals Comparison",
+        "xp_earned": 50,
+        "milestone_progress": "Module 10/10 Clear",
+        "motivational_quote": "Sabhi 10 modules complete! Ab Officer Level Revision ka time hai - Final Boss level!"
+      },
+      "navigation": { "next": "card_78_rapid_fire", "button_text": "Go to Final Revision ➔" }
+    },
+    {
+      "card_id": "card_78_rapid_fire",
+      "card_slug": "card_78_rapid_fire",
+      "type": "chat",
+      "concept_id": "rapid_fire_facts",
+      "level": 11,
+      "progress": { "current": 78, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, ab ek rapid fire round karte hain - exam me poocha jaane wala har chhota fact ek saath. Suno: Sabse Malleable metal = Gold. Sabse Ductile metal = Gold. Poorest conductor among metals = Lead (Pb). Best conductor overall = Silver. Softest metal = Sodium (or Caesium). Hardest natural substance = Diamond (carbon, non-metal)." },
+        { "speaker": "raju", "text": "Gold sabse malleable bhi hai aur ductile bhi - dono records gold ke paas!" },
+        { "speaker": "aman", "text": "Aur aur: Lightest metal = Lithium. Heaviest metal = Osmium. Highest melting point = Tungsten. Lowest melting point metal = Mercury (-38.8°C). Metal with highest density = Osmium. Liquid metal = Mercury. Radioactive metal = Uranium, Plutonium. Most abundant metal = Aluminium. Second most abundant = Iron." },
+        { "speaker": "raju", "text": "Sir itne saare records - Mercury ka lowest MP bhi yaad hai abhi, Tungsten ka highest bhi!" }
+      ],
+      "navigation": { "next": "card_79_more_rapidfire", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_79_more_rapidfire",
+      "card_slug": "card_79_more_rapidfire",
+      "type": "chat",
+      "concept_id": "rapid_fire_facts",
+      "level": 11,
+      "progress": { "current": 79, "total": 85 },
+      "messages": [
+        { "speaker": "aman", "text": "Kuch aur: Iron ka symbol Fe - Ferrum (Latin). Mercury ka symbol Hg - Hydrargyrum (Greek, 'water silver'). Tin ka symbol Sn - Stannum. Lead ka symbol Pb - Plumbum (isiliye plumber shbd aaya). Potassium ka symbol K - Kalium. Sodium ka symbol Na - Natrium." },
+        { "speaker": "raju", "text": "Pb Plumbum se aur plumber shbd bhi wahan se - ye connection toh mast yaad aayega!" },
+        { "speaker": "aman", "text": "Aur ek last set: Steel me Carbon hona zaroori hai. Stainless Steel me Chromium hona zaroori hai. Bronze Age mein manushya ne Bronze (Cu+Sn) use karna seekha tha - ye history me poocha jaata hai. Galvanisation me Zinc use hota hai. Anodising me oxide layer artificially thicker ki jaati hai - Aluminium me popular hai." },
+        { "speaker": "raju", "text": "Bronze Age! History aur chemistry ka connection - ye toh interesting detail hai!" }
+      ],
+      "navigation": { "next": "card_80_quiz_rapid1", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_80_quiz_rapid1",
+      "card_slug": "card_80_quiz_rapid1",
+      "type": "quiz",
+      "concept_id": "rapid_fire_facts",
+      "level": 11,
+      "progress": { "current": 80, "total": 85 },
+      "quiz_payload": {
+        "question": "The chemical symbol 'Pb' for Lead comes from which Latin word? (Q1/3)",
+        "options": [
+          { "id": "A", "text": "Plumbum" },
+          { "id": "B", "text": "Platina" },
+          { "id": "C", "text": "Plama" },
+          { "id": "D", "text": "Polybum" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Pb comes from 'Plumbum' (Latin for Lead). Interestingly, the word 'plumber' (a person who works with lead pipes) also derives from this Latin word."
+      },
+      "navigation": { "next": "card_81_quiz_rapid2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_81_quiz_rapid2",
+      "card_slug": "card_81_quiz_rapid2",
+      "type": "quiz",
+      "concept_id": "rapid_fire_facts",
+      "level": 11,
+      "progress": { "current": 81, "total": 85 },
+      "quiz_payload": {
+        "question": "Which metal is the most malleable AND most ductile among all metals? (Q2/3)",
+        "options": [
+          { "id": "A", "text": "Silver" },
+          { "id": "B", "text": "Copper" },
+          { "id": "C", "text": "Gold" },
+          { "id": "D", "text": "Platinum" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Gold is both the most malleable (can be beaten into ultra-thin sheets) and the most ductile (1 gram can be drawn into 2 km of wire) metal."
+      },
+      "navigation": { "next": "card_82_quiz_rapid3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_82_quiz_rapid3",
+      "card_slug": "card_82_quiz_rapid3",
+      "type": "quiz",
+      "concept_id": "rapid_fire_facts",
+      "level": 11,
+      "progress": { "current": 82, "total": 85 },
+      "quiz_payload": {
+        "question": "Consider: 1) Iron is the most abundant metal in Earth's crust. 2) Lead (Pb) is the poorest conductor among common metals. 3) Aluminium oxide (Al2O3) is an amphoteric oxide. How many statements are correct?",
+        "options": [
+          { "id": "A", "text": "Only one (only 3)" },
+          { "id": "B", "text": "Only two (2 and 3)" },
+          { "id": "C", "text": "All three" },
+          { "id": "D", "text": "None" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Statement 1 is WRONG - Aluminium is the most abundant metal (not Iron). Statement 2 is correct - Lead is the poorest conductor. Statement 3 is correct - Al2O3 reacts with both acid and base. So 2 statements (2 and 3) are correct."
+      },
+      "navigation": { "next": "card_83_summary", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_83_summary",
+      "card_slug": "card_83_summary",
+      "type": "summary",
+      "concept_id": "revision",
+      "level": 12,
+      "progress": { "current": 83, "total": 85 },
+      "summary_payload": {
+        "title": "⚡ Quick Officer Revision - Metals",
+        "revision_points": [
+          {
+            "topic": "Physical Properties & Exceptions (Multi-statement)",
+            "point": "1) Mercury is the ONLY metal liquid at room temperature. 2) Sodium & Potassium stored in kerosene (react with moisture). 3) Gold is most malleable AND ductile. 4) Aluminium is most abundant metal in Earth's crust (NOT Iron). 5) Best conductor order: Ag > Cu > Au > Al."
+          },
+          {
+            "topic": "Reactivity Series Traps",
+            "point": "K > Na > Ca > Mg > Al > Zn > Fe > H > Cu > Hg > Ag > Au. Metals above H react with dilute acid; below H do not. Gold is at BOTTOM (least reactive), NOT top. Cu cannot displace H from acid."
+          },
+          {
+            "topic": "Corrosion & Alloys Key Facts",
+            "point": "Rusting needs O2 + H2O both. Galvanisation = Zinc coating. Stainless Steel has Chromium. Brass = Cu+Zn. Bronze = Cu+Sn. Solder = Sn+Pb. Amalgam = any metal + Mercury. Duralumin = Al+Cu+Mn+Mg (aircraft)."
+          },
+          {
+            "topic": "Chemical Reaction Traps",
+            "point": "Aqua Regia = 3:1 (HCl:HNO3) dissolves Gold. Fe + Steam = Fe3O4 (NOT Fe2O3). Fe2O3 = rust from moist air. Thermite Reaction = Al + Fe2O3 → Al2O3 + Fe (train track welding). Metal oxides = BASIC; Non-metal oxides = ACIDIC."
+          },
+          {
+            "topic": "Bihar/Jharkhand Minerals (BPSC TRE)",
+            "point": "Tata Steel Jamshedpur = 1907. Bokaro Steel Plant = 1964 (Soviet help). Khetri (Rajasthan) = Copper. Kolar (Karnataka) = Gold. Zawar (Rajasthan) = Lead-Zinc. Mica = Jharkhand/AP/Rajasthan (NOT Bihar). Al2O3 and ZnO are Amphoteric oxides."
+          }
+        ]
+      },
+      "navigation": { "next": "card_84_final_quiz", "button_text": "Take Final Officer Quiz ➔" }
+    },
+    {
+      "card_id": "card_84_final_quiz",
+      "card_slug": "card_84_final_quiz",
+      "type": "final_quiz",
+      "concept_id": "final_assessment",
+      "level": 12,
+      "progress": { "current": 84, "total": 85 },
+      "quiz_payload": {
+        "question": "Consider the following statements about Metals: 1) Aluminium does not corrode because it does not react with oxygen. 2) Gold can be dissolved by Aqua Regia (3:1 HCl:HNO3). 3) In the Thermite reaction, Aluminium acts as an oxidising agent. 4) Galvanisation involves coating iron with Zinc to prevent rusting. How many of the above statements are CORRECT?",
+        "options": [
+          { "id": "A", "text": "Only one" },
+          { "id": "B", "text": "Only two" },
+          { "id": "C", "text": "Only three" },
+          { "id": "D", "text": "All four" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Statement 1 is WRONG - Aluminium DOES react with oxygen and forms Al2O3, but this oxide layer protects it from further corrosion (passivation). Statement 2 is CORRECT - Aqua Regia dissolves gold. Statement 3 is WRONG - In Thermite, Aluminium acts as a REDUCING agent (it removes oxygen from Fe2O3), not oxidising agent. Statement 4 is CORRECT - Galvanisation = Zinc coating on iron. So exactly 2 statements (2 and 4) are correct."
+      },
+      "navigation": { "next": "card_85_trophy", "button_text": "Check Final Score ➔" }
+    },
+    {
+      "card_id": "card_85_trophy",
+      "card_slug": "card_85_trophy",
+      "type": "milestone",
+      "concept_id": "chapter_complete",
+      "level": 12,
+      "progress": { "current": 85, "total": 85 },
+      "milestone_payload": {
+        "title": "🏆 METALS CHAPTER MASTER TROPHY!",
+        "badge_emoji": "🏆",
+        "completed_topic": "Metals in Chemistry - Complete Chapter",
+        "xp_earned": 200,
+        "milestone_progress": "Chapter 100% Complete",
+        "motivational_quote": "Zabardast Raju! Tumne Physical Properties se lekar Metallurgy, Reactivity Series, Alloys, Corrosion, Bihar-Jharkhand minerals, aur Officer-level multi-statement traps tak sab kuch master kar liya! BPSC, SSC, Railway - metals ke koi bhi sawal ab tumhe nahi rok sakte! Chalo agla chapter jeetne chalte hain!"
+      },
+      "navigation": { "next": "topic_selection_screen", "button_text": "Back to Topics ➔" }
+    }
+  ]
+}
