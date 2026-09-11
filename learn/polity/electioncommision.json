@@ -1,0 +1,1704 @@
+
+{
+  "topic_id": "indian_polity_election_commission",
+  "topic_title": "Election Commission of India — Composition, Powers & Independence",
+  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
+  "total_cards": 82,
+  "characters": {
+    "aman": {
+      "name": "Aman Sir",
+      "role": "teacher",
+      "avatar": "👨‍🏫"
+    },
+    "raju": {
+      "name": "Raju",
+      "role": "student",
+      "avatar": "👦"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "chapter_intro",
+      "level": 1,
+      "progress": { "current": 1, "total": 82 },
+      "intro_payload": {
+        "chapter_title": "Election Commission of India",
+        "chapter_icon": "🗳️",
+        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
+        "learning_outcomes": [
+          "Article 324 - constitutional basis, superintendence, direction and control of elections",
+          "Composition: single-member to multi-member journey (1950-1993)",
+          "Appointment process - old system vs CEC and Other ECs Act, 2023",
+          "Anoop Baranwal case (2023) and new Selection Committee mechanism",
+          "Term, qualification, salary and service conditions",
+          "Removal process - CEC vs other ECs (Article 324(5))",
+          "Administrative, Advisory & Quasi-judicial powers of ECI",
+          "Model Code of Conduct - nature and enforceability",
+          "State Election Commission (Article 243K/243ZA) - Bihar SEC specifics",
+          "Landmark personalities: Sukumar Sen, T.N. Seshan and key PYQ trivia"
+        ]
+      },
+      "navigation": {
+        "next": "card_02_ecvoting_hook",
+        "button_text": "Start Learning ➔"
+      }
+    },
+    {
+      "card_id": "card_02_ecvoting_hook",
+      "card_slug": "card_02_ecvoting_hook",
+      "type": "chat",
+      "concept_id": "eci_intro",
+      "level": 1,
+      "progress": { "current": 2, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, tumhare gaanv mein jab Sarpanch ka chunav hota hai, to voter list kaun banata hai, polling booth kaun set karta hai, aur ye decide kaun karta hai ki kisne jeeta?" },
+        { "speaker": "raju", "text": "Sir, ye sab to sarkari log karte honge, koi ek department hoga isके liye." },
+        { "speaker": "aman", "text": "Bilkul sahi socha! Poore desh mein Lok Sabha, Rajya Sabha, State Assembly, aur yahan tak ki President-VP ke chunav ko bhi chalane, control karne aur nigrani (supervise) karne ka kaam ek hi sanstha karti hai - Election Commission of India (ECI)." },
+        { "speaker": "raju", "text": "Achhaaaa! To ye ek institution hai jo saare chunav dekhta hai? Isko power kahan se milti hai sir?" }
+      ],
+      "navigation": {
+        "next": "card_03_article324_reveal",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_03_article324_reveal",
+      "card_slug": "card_03_article324_reveal",
+      "type": "chat",
+      "concept_id": "eci_intro",
+      "level": 1,
+      "progress": { "current": 3, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bahut achha sawaal! ECI ki power Constitution ke Article 324 se aati hai. Ye article kehta hai ki elections ki 'superintendence, direction and control' - yaani nigrani, disha-nirdesh aur niyantran - Election Commission mein nihit (vested) hoga." },
+        { "speaker": "raju", "text": "Sir ye teen words alag-alag kyun likhe hain? Ye sab ek hi baat nahi hai kya?" },
+        { "speaker": "aman", "text": "Bahut sharp doubt! Ruko, dekhte hain - 'Superintendence' matlab overall nigrani, 'direction' matlab kaise kaam ho iska guidance dena, aur 'control' matlab pura niyantran rakhna. In teenon shabdon ko mila kar Supreme Court ne interpret kiya hai ki ECI ke paas bahut hi vyapak (wide) power hai, jismein wo cheezein bhi shaamil hain jo Parliament ne kanoon se cover nahi ki hain." },
+        { "speaker": "raju", "text": "Matlab agar kisi situation ke liye koi specific kanoon nahi bana hai, tab bhi ECI khud faisla le sakta hai?" }
+      ],
+      "navigation": {
+        "next": "card_04_scope_of_324",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_04_scope_of_324",
+      "card_slug": "card_04_scope_of_324",
+      "type": "chat",
+      "concept_id": "eci_intro",
+      "level": 1,
+      "progress": { "current": 4, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Supreme Court ne kaha hai ki Article 324 ki power 'residuary' hai - matlab jahan kanoon khaamosh hai (silent hai), wahan ECI apni power se khaali jagah (gap) bhar sakta hai, bashart wo kisi existing kanoon se takrata na ho." },
+        { "speaker": "raju", "text": "Achha! Aur ye power sirf Lok Sabha-Vidhan Sabha ke liye hai, ya President-VP ke chunav ke liye bhi?" },
+        { "speaker": "aman", "text": "Article 324 explicitly Parliament (Lok Sabha, Rajya Sabha), State Legislature, President aur Vice-President - in sabhi ke chunav ko cover karta hai. Yaad rakho ye char cheezein." },
+        { "speaker": "raju", "text": "Theek hai sir, par Panchayat aur Nagar Palika ke chunav bhi to hote hain na? Wo bhi ECI hi karati hogi?" }
+      ],
+      "navigation": {
+        "next": "card_05_local_body_exception",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_05_local_body_exception",
+      "card_slug": "card_05_local_body_exception",
+      "type": "chat",
+      "concept_id": "eci_intro",
+      "level": 1,
+      "progress": { "current": 5, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Yahin sabse bada trap hai Raju! Nahi, Panchayat aur Municipality (Nagar Palika) ke chunav ECI NAHI karati. Inke liye alag se 'State Election Commission (SEC)' hoti hai, har raajya mein alag, jo Article 243K aur 243ZA se aati hai." },
+        { "speaker": "raju", "text": "Hain?? Matlab ek State Election Commission bhi hoti hai, ECI se alag?? Ye to mujhe pata hi nahi tha!" },
+        { "speaker": "aman", "text": "Haan, aur ye BPSC-BSSC mein bahut common trap hai kyunki Bihar mein bhi Panchayat aur Municipal elections state ka apna SEC karata hai, ECI ka isme koi role nahi hota. Hum isko detail mein Module 9 mein poori tarah padhenge." },
+        { "speaker": "raju", "text": "Theek hai sir, filhaal itna samajh liya - Parliament/Assembly/President/VP = ECI, Panchayat/Municipality = alag SEC. Ab batao ECI mein kitne log hote hain?" }
+      ],
+      "navigation": {
+        "next": "card_06_quiz1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_06_quiz1",
+      "card_slug": "card_06_quiz1",
+      "type": "quiz",
+      "concept_id": "eci_intro",
+      "level": 1,
+      "progress": { "current": 6, "total": 82 },
+      "quiz_payload": {
+        "question": "Election Commission of India ki power kis Article se aati hai?",
+        "options": [
+          { "id": "A", "text": "Article 320" },
+          { "id": "B", "text": "Article 324" },
+          { "id": "C", "text": "Article 325" },
+          { "id": "D", "text": "Article 356" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 324 elections ki superintendence, direction aur control ki power ECI ko deta hai. Article 320 UPSC se sambandhit hai, Article 356 President's Rule se."
+      },
+      "navigation": {
+        "next": "card_07_quiz2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_07_quiz2",
+      "card_slug": "card_07_quiz2",
+      "type": "quiz",
+      "concept_id": "eci_intro",
+      "level": 1,
+      "progress": { "current": 7, "total": 82 },
+      "quiz_payload": {
+        "question": "Nimnlikhit mein se kaunse chunav Article 324 ke तहत Election Commission of India (ECI) ke dayre mein aate hain?",
+        "options": [
+          { "id": "A", "text": "Sirf Lok Sabha ke chunav" },
+          { "id": "B", "text": "Parliament, State Legislature, President aur Vice-President ke chunav" },
+          { "id": "C", "text": "Panchayat aur Municipality ke chunav bhi" },
+          { "id": "D", "text": "Sirf State Assembly ke chunav" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 324 ke तहत ECI Parliament, State Legislature, aur President-VP ke chunav ki superintendence karta hai. Panchayat/Municipality ke chunav alag State Election Commission (Article 243K/243ZA) karati hai."
+      },
+      "navigation": {
+        "next": "card_08_quiz3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_08_quiz3",
+      "card_slug": "card_08_quiz3",
+      "type": "quiz",
+      "concept_id": "eci_intro",
+      "level": 1,
+      "progress": { "current": 8, "total": 82 },
+      "quiz_payload": {
+        "question": "Assertion (A): Election Commission of India ki power sirf usi cheez tak simit hai jo kanoon mein specifically likhi ho.\nReason (R): Supreme Court ne Article 324 ki power ko 'residuary' character diya hai, jisse kanoon ke gap ko ECI apne aap bhar sakta hai.\nSahi vikalp chuniye:",
+        "options": [
+          { "id": "A", "text": "A sahi hai, R galat hai" },
+          { "id": "B", "text": "A galat hai, R sahi hai" },
+          { "id": "C", "text": "Dono sahi hain aur R, A ki sahi vyakhya hai" },
+          { "id": "D", "text": "Dono galat hain" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Assertion galat hai - ECI ki power sirf likhe hue kanoon tak simit nahi hai. Reason sahi hai - Article 324 ki power 'residuary' hai, matlab jahan kanoon khaamosh hai, wahan ECI khud action le sakta hai."
+      },
+      "navigation": {
+        "next": "card_09_milestone1",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_09_milestone1",
+      "card_slug": "card_09_milestone1",
+      "type": "milestone",
+      "concept_id": "eci_intro",
+      "level": 1,
+      "progress": { "current": 9, "total": 82 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🗳️",
+        "completed_topic": "Introduction to Election Commission & Article 324",
+        "xp_earned": 50,
+        "milestone_progress": "Module 1/10 Clear",
+        "motivational_quote": "Foundation mazboot ho gayi hai! Ab dekhte hain ECI mein kitne log hote hain aur ye kaise badla."
+      },
+      "navigation": {
+        "next": "card_10_single_to_multi",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_10_single_to_multi",
+      "card_slug": "card_10_single_to_multi",
+      "type": "chat",
+      "concept_id": "eci_composition",
+      "level": 2,
+      "progress": { "current": 10, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, ek sawaal - agar tumhari class mein sirf ek hi monitor ho aur wo galat faisla le, to check karne wala koi nahi hoga. Lekin agar 3 monitors hon aur majority se faisla ho, to zyada balanced rahega na?" },
+        { "speaker": "raju", "text": "Haan sir, teen logon mein se do sahmat honge to hi decision lagega, zyada fair lagega." },
+        { "speaker": "aman", "text": "Bilkul yahi soch ECI ke composition mein bhi hui. Constitution khud nahi batata ki kitne members honge - Article 324(2) kehta hai ki Chief Election Commissioner (CEC) aur jitne bhi other Election Commissioners (ECs) Parliament banaye ya President tय kare, utne honge." },
+        { "speaker": "raju", "text": "Achha! Matlab ye number fix nahi hai, badal sakta hai? To shuruaat mein kitne the sir?" }
+      ],
+      "navigation": {
+        "next": "card_11_1989_1990_flip",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_11_1989_1990_flip",
+      "card_slug": "card_11_1989_1990_flip",
+      "type": "chat",
+      "concept_id": "eci_composition",
+      "level": 2,
+      "progress": { "current": 11, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "1950 mein, jab ECI bana, tab sirf ek hi member tha - Chief Election Commissioner. Ye single-member body 1989 tak chalta raha." },
+        { "speaker": "raju", "text": "Phir kya hua sir? Multi-member kab bana?" },
+        { "speaker": "aman", "text": "16 October 1989 ko, 1989 ke Lok Sabha chunav se thoda pehle, President ne do aur Election Commissioners niyukt kiye - to ECI pehli baar 3-member body ban gaya. Lekin ye zyaada din nahi chala!" },
+        { "speaker": "raju", "text": "Kya matlab, phir se single-member ho gaya kya?" }
+      ],
+      "navigation": {
+        "next": "card_12_1993_permanent",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_12_1993_permanent",
+      "card_slug": "card_12_1993_permanent",
+      "type": "chat",
+      "concept_id": "eci_composition",
+      "level": 2,
+      "progress": { "current": 12, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi guess! 1 January 1990 ko wo doosre do Commissioners hata diye gaye aur ECI phir se single-member ban gaya. Ye chhoti si duration (1989-90) BPSC PYQ mein bahut puchi jaati hai!" },
+        { "speaker": "raju", "text": "Achha, to permanent multi-member kab bana phir?" },
+        { "speaker": "aman", "text": "1 October 1993 ko, do naye Election Commissioners phir niyukt kiye gaye, aur tab se lekar aaj tak ECI ek permanent multi-member body hai - ek CEC aur do ECs, total 3 log." },
+        { "speaker": "raju", "text": "Ye to bahut confusing timeline hai sir - 1950 single, 1989 multi, 1990 wapas single, 1993 se hamesha multi! Ye to yaad rakhna padega dhyan se." }
+      ],
+      "navigation": {
+        "next": "card_13_current_composition",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_13_current_composition",
+      "card_slug": "card_13_current_composition",
+      "type": "chat",
+      "concept_id": "eci_composition",
+      "level": 2,
+      "progress": { "current": 13, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi Raju, ye timeline yaad rakhna zaroori hai. Aaj ki tarikh mein ECI mein 1 Chief Election Commissioner (CEC) aur 2 Election Commissioners (ECs) hote hain - total 3 members." },
+        { "speaker": "raju", "text": "Aur sir, agar in teenon mein kisi baat par mat-bhed (disagreement) ho jaaye, to kya hoga?" },
+        { "speaker": "aman", "text": "Bahut achha sawaal! Jab ECI multi-member hoti hai, faisle majority opinion (bahumat) se liye jaate hain - jaise tumne suggest kiya tha shuru mein! CEC ki koi special veto power nahi hoti, uska vote bhi baaki do ECs ke barabar hi hota hai." },
+        { "speaker": "raju", "text": "Achha! Matlab CEC bhi baaki do ke barabar hi hai voting mein? Ye interesting hai, mujhe laga CEC sabse powerful hoga." }
+      ],
+      "navigation": {
+        "next": "card_14_quiz1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_14_quiz1",
+      "card_slug": "card_14_quiz1",
+      "type": "quiz",
+      "concept_id": "eci_composition",
+      "level": 2,
+      "progress": { "current": 14, "total": 82 },
+      "quiz_payload": {
+        "question": "ECI kab pehli baar multi-member (3-member) body bani thi?",
+        "options": [
+          { "id": "A", "text": "1950" },
+          { "id": "B", "text": "16 October 1989" },
+          { "id": "C", "text": "1 January 1990" },
+          { "id": "D", "text": "1 October 1993" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "16 October 1989 ko pehli baar ECI 3-member body bani jab 2 aur Election Commissioners niyukt kiye gaye. Lekin ye 1 January 1990 tak hi chali."
+      },
+      "navigation": {
+        "next": "card_15_quiz2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_15_quiz2",
+      "card_slug": "card_15_quiz2",
+      "type": "quiz",
+      "concept_id": "eci_composition",
+      "level": 2,
+      "progress": { "current": 15, "total": 82 },
+      "quiz_payload": {
+        "question": "ECI kab se STHAYI (permanent) roop se multi-member body ban gayi jo aaj tak jaari hai?",
+        "options": [
+          { "id": "A", "text": "16 October 1989" },
+          { "id": "B", "text": "1 January 1990" },
+          { "id": "C", "text": "1 October 1993" },
+          { "id": "D", "text": "26 January 1950" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "1 October 1993 se ECI permanent multi-member (3-member) body ban gayi - 1 CEC aur 2 ECs - jo aaj bhi jaari hai."
+      },
+      "navigation": {
+        "next": "card_16_quiz3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_16_quiz3",
+      "card_slug": "card_16_quiz3",
+      "type": "quiz",
+      "concept_id": "eci_composition",
+      "level": 2,
+      "progress": { "current": 16, "total": 82 },
+      "quiz_payload": {
+        "question": "Multi-member ECI mein faisla kaise liya jaata hai, aur CEC ki position kya hai?",
+        "options": [
+          { "id": "A", "text": "Faisla majority opinion se hota hai; CEC ka vote baaki ECs ke barabar hi hai" },
+          { "id": "B", "text": "CEC ke paas veto power hai" },
+          { "id": "C", "text": "Sirf CEC hi faisla leta hai, ECs sirf salah dete hain" },
+          { "id": "D", "text": "President hi final faisla leta hai" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Multi-member ECI mein faisle majority se liye jaate hain aur CEC ka vote baaki do Election Commissioners ke barabar hi hota hai - koi special veto nahi."
+      },
+      "navigation": {
+        "next": "card_17_milestone2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_17_milestone2",
+      "card_slug": "card_17_milestone2",
+      "type": "milestone",
+      "concept_id": "eci_composition",
+      "level": 2,
+      "progress": { "current": 17, "total": 82 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "📅",
+        "completed_topic": "Composition & Historical Evolution of ECI",
+        "xp_earned": 55,
+        "milestone_progress": "Module 2/10 Clear",
+        "motivational_quote": "Timeline wala trap crack ho gaya! Ab dekhte hain ECI ke members kaise niyukt hote hain."
+      },
+      "navigation": {
+        "next": "card_18_appointment_old_system",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_18_appointment_old_system",
+      "card_slug": "card_18_appointment_old_system",
+      "type": "chat",
+      "concept_id": "eci_appointment",
+      "level": 2,
+      "progress": { "current": 18, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab batao Raju, CEC aur ECs ko niyukt (appoint) kaun karta hai? Guess karo." },
+        { "speaker": "raju", "text": "President karte honge sir, jaise baaki bade officials ko karte hain." },
+        { "speaker": "aman", "text": "Sahi socha! Formally to President hi appoint karte hain. Lekin lambe samay tak - 1950 se lekar 2023 tak - ye appointment sirf 'aid and advice' pe hota tha, matlab President, Prime Minister aur Council of Ministers ki salah se hi CEC/ECs choose karte the." },
+        { "speaker": "raju", "text": "Matlab sirf sarkar (executive) hi decide karti thi ki kaun CEC banega? Isme koi Opposition ya court ka role nahi tha?" }
+      ],
+      "navigation": {
+        "next": "card_19_anoop_baranwal_case",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_19_anoop_baranwal_case",
+      "card_slug": "card_19_anoop_baranwal_case",
+      "type": "chat",
+      "concept_id": "eci_appointment",
+      "level": 2,
+      "progress": { "current": 19, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi pakda - purane system mein sirf executive (sarkar) ka hi role tha. Isi baat ko lekar Supreme Court mein ek case gaya - 'Anoop Baranwal vs Union of India', jiska faisla 2 March 2023 ko aaya." },
+        { "speaker": "raju", "text": "Kya kaha Supreme Court ne is case mein sir?" },
+        { "speaker": "aman", "text": "Supreme Court ne kaha ki sirf executive ke haath mein appointment rehna theek nahi hai - isse independence par asar pad sakta hai. Court ne order diya ki jab tak Parliament koi kanoon nahi banaati, appointment ek committee karegi jisme PM, Leader of Opposition (Lok Sabha) aur Chief Justice of India (CJI) shaamil honge." },
+        { "speaker": "raju", "text": "Achha! Matlab CJI ko bhi shaamil kiya gaya taaki neutral opinion aaye. Phir Parliament ne kya kanoon banaya sir?" }
+      ],
+      "navigation": {
+        "next": "card_20_cec_act_2023",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_20_cec_act_2023",
+      "card_slug": "card_20_cec_act_2023",
+      "type": "chat",
+      "concept_id": "eci_appointment",
+      "level": 2,
+      "progress": { "current": 20, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Yahin sabse bada twist hai - Parliament ne 'Chief Election Commissioner and other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023' banaya, lekin isme CJI ko committee se HATA diya gaya!" },
+        { "speaker": "raju", "text": "Hain?? CJI ko hata diya?? Phir Supreme Court wale order ka kya matlab reh gaya?" },
+        { "speaker": "aman", "text": "Naye Act ke anusar, Selection Committee mein ab teen log hain - Prime Minister (Chairperson), Leader of Opposition in Lok Sabha (ya sabse badi opposition party ka neta), aur ek Union Cabinet Minister jise PM khud nominate karte hain." },
+        { "speaker": "raju", "text": "Sir isme to PM aur unke nominate kiye Minister mil ke 2-1 se hamesha jeet jaayenge, Leader of Opposition akela reh jaayega!" }
+      ],
+      "navigation": {
+        "next": "card_21_term_qualification",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_21_term_qualification",
+      "card_slug": "card_21_term_qualification",
+      "type": "chat",
+      "concept_id": "eci_appointment",
+      "level": 2,
+      "progress": { "current": 21, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi observation Raju! Ye 2-1 majority wala point bahut critique hua hai, aur BPSC/UPSC dono ismein interested hain. Ab batao term aur age ki baat karte hain - CEC aur ECs kitne saal ke liye niyukt hote hain?" },
+        { "speaker": "raju", "text": "5 saal honge shaayad sir, jaise baaki officials?" },
+        { "speaker": "aman", "text": "Sahi guess, par ek twist ke saath - 2023 Act ke anusar term 6 saal ka hai YA 65 saal ki umra tak, jo bhi pehle ho. Ye same rule pehle bhi tha - koi naya change nahi hai isme." },
+        { "speaker": "raju", "text": "Achha, 6 saal ya 65 saal, jo pehle aaye. Ye to Supreme Court judge ki retirement age (65) jaisa hi hai na sir?" }
+      ],
+      "navigation": {
+        "next": "card_22_quiz1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_22_quiz1",
+      "card_slug": "card_22_quiz1",
+      "type": "quiz",
+      "concept_id": "eci_appointment",
+      "level": 2,
+      "progress": { "current": 22, "total": 82 },
+      "quiz_payload": {
+        "question": "Anoop Baranwal vs Union of India (2023) case mein Supreme Court ne appointment committee mein kisko shaamil karne ka order diya tha?",
+        "options": [
+          { "id": "A", "text": "PM, Leader of Opposition (LS), aur CJI" },
+          { "id": "B", "text": "PM, Speaker Lok Sabha, aur Cabinet Secretary" },
+          { "id": "C", "text": "President, PM, aur Chief Justice" },
+          { "id": "D", "text": "Sirf President ki apni marzi se" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Supreme Court ne 2 March 2023 ke faisle mein kaha ki jab tak Parliament kanoon na banaye, CEC/ECs ki appointment ek committee karegi jisme PM, Leader of Opposition Lok Sabha, aur Chief Justice of India shaamil honge."
+      },
+      "navigation": {
+        "next": "card_23_quiz2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_23_quiz2",
+      "card_slug": "card_23_quiz2",
+      "type": "quiz",
+      "concept_id": "eci_appointment",
+      "level": 2,
+      "progress": { "current": 23, "total": 82 },
+      "quiz_payload": {
+        "question": "CEC and Other ECs Act, 2023 ke anusar Selection Committee mein kaun shaamil hai?",
+        "options": [
+          { "id": "A", "text": "PM, Leader of Opposition (LS), aur Chief Justice of India" },
+          { "id": "B", "text": "PM (Chairperson), Leader of Opposition Lok Sabha, aur ek Union Cabinet Minister jo PM nominate kare" },
+          { "id": "C", "text": "President, Vice-President, aur PM" },
+          { "id": "D", "text": "Speaker Lok Sabha, Chairman Rajya Sabha, aur CJI" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "2023 Act mein CJI ko committee se hata diya gaya. Ab Selection Committee: PM (Chairperson), Leader of Opposition Lok Sabha, aur ek Union Cabinet Minister jise PM nominate karte hain - isse committee mein sarkar ka 2-1 bahumat rehta hai."
+      },
+      "navigation": {
+        "next": "card_24_quiz3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_24_quiz3",
+      "card_slug": "card_24_quiz3",
+      "type": "quiz",
+      "concept_id": "eci_appointment",
+      "level": 2,
+      "progress": { "current": 24, "total": 82 },
+      "quiz_payload": {
+        "question": "CEC aur other ECs ka karyakaal (term) kya hai?",
+        "options": [
+          { "id": "A", "text": "5 saal ya 62 saal ki umra, jo pehle ho" },
+          { "id": "B", "text": "6 saal ya 65 saal ki umra, jo pehle ho" },
+          { "id": "C", "text": "Aajeevan (lifetime)" },
+          { "id": "D", "text": "3 saal, fixed" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "CEC aur other ECs ka term 6 saal ya 65 saal ki umra tak hai, jo bhi pehle poora ho - ye Supreme Court judge ki retirement age se milta-julta hai."
+      },
+      "navigation": {
+        "next": "card_25_milestone3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_25_milestone3",
+      "card_slug": "card_25_milestone3",
+      "type": "milestone",
+      "concept_id": "eci_appointment",
+      "level": 2,
+      "progress": { "current": 25, "total": 82 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "📝",
+        "completed_topic": "Appointment Process of CEC & ECs",
+        "xp_earned": 60,
+        "milestone_progress": "Module 3/10 Clear",
+        "motivational_quote": "2023 wala naya kanoon bhi crack kar liya! Ab dekhte hain inhe hataya kaise jaata hai."
+      },
+      "navigation": {
+        "next": "card_26_removal_intro",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_26_removal_intro",
+      "card_slug": "card_26_removal_intro",
+      "type": "chat",
+      "concept_id": "eci_removal",
+      "level": 3,
+      "progress": { "current": 26, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, ab ek bahut hi important aur tricky topic - agar CEC ka kaam sarkar ko pasand na aaye, to kya sarkar aasani se use hata sakti hai?" },
+        { "speaker": "raju", "text": "Haan sir, sarkar ne hi appoint kiya hai, to hata bhi sakti hogi na?" },
+        { "speaker": "aman", "text": "Yahin sabse bada trap hai! Nahi Raju - Constitution ne CEC ko hatana bahut mushkil banaya hai, taaki wo sarkar se dabe nahi. Article 324(5) kehta hai ki CEC ko usi tarah hataya jaa sakta hai jaise ek Supreme Court judge ko hataya jaata hai." },
+        { "speaker": "raju", "text": "Achhaaaa! Matlab CEC ko hatane ke liye bhi Parliament mein impeachment jaisi prakriya chahiye hogi?" }
+      ],
+      "navigation": {
+        "next": "card_27_cec_removal_like_judge",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_27_cec_removal_like_judge",
+      "card_slug": "card_27_cec_removal_like_judge",
+      "type": "chat",
+      "concept_id": "eci_removal",
+      "level": 3,
+      "progress": { "current": 27, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Supreme Court judge ko hatane ke liye dono sadan mein 'proved misbehaviour ya incapacity' ke aadhar par, special majority (total membership ka majority + present-voting ka 2/3rd) se resolution paas hona zaroori hai. CEC ki removal bhi isi tarike se hoti hai." },
+        { "speaker": "raju", "text": "Achha, matlab sarkar apni marzi se CEC ko kabhi bhi nikaal nahi sakti? Bahut strong protection hai ye to!" },
+        { "speaker": "aman", "text": "Bilkul, yehi to Constitution ki soch thi - CEC ko itna surakshit banao ki wo bina dar ke, sarkar ke against bhi kaam kar sake agar zaroorat pade. Ye judicial-level ki security hai." },
+        { "speaker": "raju", "text": "Aur baaki do Election Commissioners (ECs) ka kya sir? Unko bhi isi tarah hataya jaata hai kya?" }
+      ],
+      "navigation": {
+        "next": "card_28_other_ec_removal",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_28_other_ec_removal",
+      "card_slug": "card_28_other_ec_removal",
+      "type": "chat",
+      "concept_id": "eci_removal",
+      "level": 3,
+      "progress": { "current": 28, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Nahi Raju, yahan bhi ek chhota lekin important fark hai! Baaki do Election Commissioners (ECs) ko President dwara tabhi hataya jaa sakta hai jab CEC khud unki removal ki sifarish (recommendation) kare." },
+        { "speaker": "raju", "text": "Matlab ECs ko hatane ke liye CEC ki permission chahiye hoti hai? Lekin CEC ko hatane ke liye Parliament wali judge process chahiye?" },
+        { "speaker": "aman", "text": "Bilkul sahi pakda! Yaad rakho - CEC = Supreme Court judge jaisi process (Parliament se). Other ECs = President hataye, lekin sirf CEC ki sifarish par. Ye asymmetry BPSC ka favourite trap hai!" },
+        { "speaker": "raju", "text": "Achha, ye to seedha ulta hi lagta hai - CEC ko hataana zyada mushkil, ECs ko hataana thoda aasan (bas CEC recommend kare)!" }
+      ],
+      "navigation": {
+        "next": "card_29_independence_safeguard",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_29_independence_safeguard",
+      "card_slug": "card_29_independence_safeguard",
+      "type": "chat",
+      "concept_id": "eci_removal",
+      "level": 3,
+      "progress": { "current": 29, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab ek aur safeguard suno jo ECI ki independence banaye rakhta hai - CEC ya kisi bhi EC ki service conditions (jaise salary, allowances), niyukti ke baad, unke nuksan (disadvantage) mein badli nahi ja sakti." },
+        { "speaker": "raju", "text": "Matlab agar sarkar naaraz ho jaaye, to unki salary kam nahi kar sakti, ya koi facility nahi hata sakti?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Ye ek financial independence ka safeguard hai - fixed tenure ke saath-saath, service conditions bhi surakshit rehti hain, taaki sarkar in members ko dabaav mein na le sake." },
+        { "speaker": "raju", "text": "Achha to fixed term + secure salary + tough removal - ye teeno mil ke ECI ki independence banaye rakhte hain, sahi samjha na sir?" }
+      ],
+      "navigation": {
+        "next": "card_30_quiz1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_30_quiz1",
+      "card_slug": "card_30_quiz1",
+      "type": "quiz",
+      "concept_id": "eci_removal",
+      "level": 3,
+      "progress": { "current": 30, "total": 82 },
+      "quiz_payload": {
+        "question": "Chief Election Commissioner (CEC) ko kis prakriya se hataya jaa sakta hai?",
+        "options": [
+          { "id": "A", "text": "PM apni marzi se kabhi bhi hata sakte hain" },
+          { "id": "B", "text": "Usi tarah jaise Supreme Court judge ko hataya jaata hai - Parliament mein special majority se" },
+          { "id": "C", "text": "President apni marzi se hata sakte hain" },
+          { "id": "D", "text": "CJI ki sifarish par" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 324(5) ke anusar CEC ko usi tarah hataya jaa sakta hai jaise Supreme Court judge ko - proved misbehaviour/incapacity ke aadhar par Parliament mein special majority se resolution paas karke."
+      },
+      "navigation": {
+        "next": "card_31_quiz2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_31_quiz2",
+      "card_slug": "card_31_quiz2",
+      "type": "quiz",
+      "concept_id": "eci_removal",
+      "level": 3,
+      "progress": { "current": 31, "total": 82 },
+      "quiz_payload": {
+        "question": "Ek Election Commissioner (EC, non-CEC) ko kaise hataya ja sakta hai?",
+        "options": [
+          { "id": "A", "text": "President dwara, sirf CEC ki sifarish par" },
+          { "id": "B", "text": "Sirf Parliament ke special majority resolution se" },
+          { "id": "C", "text": "Prime Minister apni marzi se" },
+          { "id": "D", "text": "Kabhi hataya nahi jaa sakta" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Other Election Commissioners ko President dwara tabhi hataya jaa sakta hai jab CEC khud unki removal ki sifarish kare - ye CEC ki removal process se bilkul alag aur aasan process hai."
+      },
+      "navigation": {
+        "next": "card_32_quiz3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_32_quiz3",
+      "card_slug": "card_32_quiz3",
+      "type": "quiz",
+      "concept_id": "eci_removal",
+      "level": 3,
+      "progress": { "current": 32, "total": 82 },
+      "quiz_payload": {
+        "question": "Nimnlikhit kathanon par vichar karein:\n1) CEC/ECs ki service conditions unki niyukti ke baad unke nuksaan mein badli nahi ja sakti.\n2) Ye safeguard CEC/ECs ki financial independence banaye rakhne ke liye diya gaya hai.\nSahi kathan chuniye:",
+        "options": [
+          { "id": "A", "text": "Kewal Kathan 1 sahi hai" },
+          { "id": "B", "text": "Kewal Kathan 2 sahi hai" },
+          { "id": "C", "text": "Dono kathan sahi hain" },
+          { "id": "D", "text": "Dono kathan galat hain" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Dono kathan sahi hain - service conditions post-appointment disadvantage mein badli nahi ja sakti, aur ye safeguard financial independence sunishchit karta hai taaki executive dabaav na daal sake."
+      },
+      "navigation": {
+        "next": "card_33_milestone4",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_33_milestone4",
+      "card_slug": "card_33_milestone4",
+      "type": "milestone",
+      "concept_id": "eci_removal",
+      "level": 3,
+      "progress": { "current": 33, "total": 82 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🛡️",
+        "completed_topic": "Removal Process & Independence Safeguards",
+        "xp_earned": 60,
+        "milestone_progress": "Module 4/10 Clear",
+        "motivational_quote": "CEC vs EC removal ka trap bhi solve ho gaya! Ab salary aur service conditions dekhte hain."
+      },
+      "navigation": {
+        "next": "card_34_salary_old_rule",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_34_salary_old_rule",
+      "card_slug": "card_34_salary_old_rule",
+      "type": "chat",
+      "concept_id": "eci_salary",
+      "level": 3,
+      "progress": { "current": 34, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, purane rule ke anusar (2023 se pehle), CEC aur ECs ki salary, bhatte (allowances) aur pension Supreme Court ke judge ke barabar rakhe gaye the. Ye 1991 ke ek kanoon ke tahat tय kiya gaya tha." },
+        { "speaker": "raju", "text": "Achha, to CEC ki salary Supreme Court judge jaisi hi hoti thi? Simple lagta hai to sir." },
+        { "speaker": "aman", "text": "Haan, tha simple, lekin 2023 ke naye Act ne isme badlaav kar diya! Ab CEC/ECs ki salary, allowances aur service conditions 'Cabinet Secretary' ke barabar kar di gayi hain, na ki Supreme Court judge ke barabar." },
+        { "speaker": "raju", "text": "Hain?? Ye to bada change hai! Cabinet Secretary aur Supreme Court judge ka status to alag-alag hota hai na sir?" }
+      ],
+      "navigation": {
+        "next": "card_35_salary_2023_change",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_35_salary_2023_change",
+      "card_slug": "card_35_salary_2023_change",
+      "type": "chat",
+      "concept_id": "eci_salary",
+      "level": 3,
+      "progress": { "current": 35, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi observation! Cabinet Secretary bharat ka sabse senior civil servant hota hai, lekin ye ek executive (sarkar ke andar ka) pad hai, jabki Supreme Court judge judiciary ka independent pad hai. Isliye critics kehte hain ki ye change CEC ki 'perceived independence' ko kamzor karta hai." },
+        { "speaker": "raju", "text": "Matlab pehle CEC ka status judiciary jaisa tha, ab wo bureaucracy jaisa ho gaya? Ye to exam mein pakka confuse karega mujhe!" },
+        { "speaker": "aman", "text": "Bilkul sahi soch rahe ho - isliye ye ek bahut discuss hone wala PYQ-worthy topic hai. Yaad rakho: OLD rule = Supreme Court judge ke barabar; NEW rule (2023 Act) = Cabinet Secretary ke barabar." },
+        { "speaker": "raju", "text": "Theek hai sir, ye do rules alag-alag yaad rakhta hoon - purana wala aur naya wala." }
+      ],
+      "navigation": {
+        "next": "card_36_service_conditions",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_36_service_conditions",
+      "card_slug": "card_36_service_conditions",
+      "type": "chat",
+      "concept_id": "eci_salary",
+      "level": 3,
+      "progress": { "current": 36, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Ek aur zaroori service-condition fact - CEC/ECs apni niyukti ke baad koi aur sarkari pad grahan nahi kar sakte, na hi wapas usi pad ke liye re-appointment le sakte hain. Ye unki neutrality sunishchit karta hai." },
+        { "speaker": "raju", "text": "Matlab retirement ke baad bhi wo koi sarkari naukri nahi kar sakte?" },
+        { "speaker": "aman", "text": "Bilkul sahi - taaki koi ye na sochein ki 'chunav mein sarkar ke favour mein kaam karo, retirement ke baad achhi post milegi'. Ye ek anti-corruption/anti-bias safeguard hai." },
+        { "speaker": "raju", "text": "Achha, ye to bahut smart rule hai! Ab batao sir, ye log kaam kya-kya karte hain roz? Unki powers kya hain?" }
+      ],
+      "navigation": {
+        "next": "card_37_quiz1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_37_quiz1",
+      "card_slug": "card_37_quiz1",
+      "type": "quiz",
+      "concept_id": "eci_salary",
+      "level": 3,
+      "progress": { "current": 37, "total": 82 },
+      "quiz_payload": {
+        "question": "2023 Act ke pehle, CEC/ECs ki salary aur service conditions kiske barabar rakhi gayi thi?",
+        "options": [
+          { "id": "A", "text": "Cabinet Secretary" },
+          { "id": "B", "text": "Supreme Court ke judge" },
+          { "id": "C", "text": "Prime Minister" },
+          { "id": "D", "text": "State Governor" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "2023 Act se pehle, 1991 ke kanoon ke tahat CEC/ECs ki salary, allowances aur pension Supreme Court judge ke barabar rakhi gayi thi."
+      },
+      "navigation": {
+        "next": "card_38_quiz2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_38_quiz2",
+      "card_slug": "card_38_quiz2",
+      "type": "quiz",
+      "concept_id": "eci_salary",
+      "level": 3,
+      "progress": { "current": 38, "total": 82 },
+      "quiz_payload": {
+        "question": "CEC and Other ECs Act, 2023 ke anusar ab CEC/ECs ki salary aur service conditions kiske barabar hain?",
+        "options": [
+          { "id": "A", "text": "Cabinet Secretary" },
+          { "id": "B", "text": "Supreme Court judge" },
+          { "id": "C", "text": "Chief Justice of India" },
+          { "id": "D", "text": "Attorney General" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "2023 Act ne CEC/ECs ki salary/service conditions ko Cabinet Secretary ke barabar कर diya - ye change kaafi criticized hua kyunki isse ECI ki judicial-level independence perception kamzor hoti hai."
+      },
+      "navigation": {
+        "next": "card_39_quiz3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_39_quiz3",
+      "card_slug": "card_39_quiz3",
+      "type": "quiz",
+      "concept_id": "eci_salary",
+      "level": 3,
+      "progress": { "current": 39, "total": 82 },
+      "quiz_payload": {
+        "question": "CEC/ECs, apna karyakaal poora karne ke baad, kis cheez ke liye ayogya (disqualified) hote hain?",
+        "options": [
+          { "id": "A", "text": "Kisi bhi vote dene ke adhikar se" },
+          { "id": "B", "text": "Kisi aur sarkari pad grahan karne ya usi pad par re-appointment lene se" },
+          { "id": "C", "text": "Bharat mein rehne se" },
+          { "id": "D", "text": "Koi ayogyata nahi hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "CEC/ECs apni term poori hone ke baad koi aur sarkari pad grahan nahi kar sakte aur na hi usi pad par dobara niyukt ho sakte hain - ye unki neutrality sunishchit karne wala safeguard hai."
+      },
+      "navigation": {
+        "next": "card_40_milestone5",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_40_milestone5",
+      "card_slug": "card_40_milestone5",
+      "type": "milestone",
+      "concept_id": "eci_salary",
+      "level": 3,
+      "progress": { "current": 40, "total": 82 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "💰",
+        "completed_topic": "Salary & Service Conditions of CEC/ECs",
+        "xp_earned": 55,
+        "milestone_progress": "Module 5/10 Clear",
+        "motivational_quote": "Salary wala change trap bhi clear ho gaya! Ab ECI ki asli powers detail mein dekhte hain."
+      },
+      "navigation": {
+        "next": "card_41_admin_functions",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_41_admin_functions",
+      "card_slug": "card_41_admin_functions",
+      "type": "chat",
+      "concept_id": "eci_powers",
+      "level": 4,
+      "progress": { "current": 41, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab ECI ki asli powers samjhte hain - ye teen tarah ki hain: Administrative, Advisory, aur Quasi-judicial. Pehle Administrative dekhte hain - ye woh roz-marra ke practical kaam hain jo ECI karti hai." },
+        { "speaker": "raju", "text": "Jaise kya sir, ek example dijiye?" },
+        { "speaker": "aman", "text": "Jaise - voter list (electoral rolls) banana aur update karna, chunav ki tareekhein taय karna, poore desh mein constituencies ki delimitation par salaah dena, political parties ko recognition dena aur unhe election symbol allot karna, aur observers appoint karna." },
+        { "speaker": "raju", "text": "Achha, ye to bahut saare kaam hain! Aur ye jo 'election symbol' allot karte hain, isme bhi koi dispute hota hai kya sir?" }
+      ],
+      "navigation": {
+        "next": "card_42_advisory_functions",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_42_advisory_functions",
+      "card_slug": "card_42_advisory_functions",
+      "type": "chat",
+      "concept_id": "eci_powers",
+      "level": 4,
+      "progress": { "current": 42, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Haan, ho sakta hai - jaise jab party split ho jaaye aur dono factions same symbol maangein, uska faisla ECI karta hai. Chalo ab doosri power dekhte hain - Advisory power." },
+        { "speaker": "raju", "text": "Advisory matlab wo salaah dete hain, faisla khud nahi lete?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Jaise, Article 103 ke tahat, agar kisi sitting MP ke baare mein sawaal ho ki wo disqualification (jaise office of profit) ka shikaar hua hai ya nahi, to President ECI ki salaah lete hain aur uske hisaab se faisla lete hain. Isi tarah MLA ke liye Article 192 ke tahat Governor ECI ki salaah lete hain." },
+        { "speaker": "raju", "text": "Achha, to yahan ECI faisla nahi leti, sirf salaah deti hai, aur final decision President/Governor ka hota hai - lekin practically wo ECI ki baat maante hain na sir?" }
+      ],
+      "navigation": {
+        "next": "card_43_quasijudicial_functions",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_43_quasijudicial_functions",
+      "card_slug": "card_43_quasijudicial_functions",
+      "type": "chat",
+      "concept_id": "eci_powers",
+      "level": 4,
+      "progress": { "current": 43, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi, practically President/Governor is salaah ko maante hain, isliye kaha jaata hai ki ye 'binding advice' jaisa kaam karta hai. Ab teesri power - Quasi-judicial. Isme ECI kisi vivad (dispute) ka faisla khud sunta aur nirnay deta hai, jaise ek chhoti si court." },
+        { "speaker": "raju", "text": "Jaise kaunse vivad, ek example dijiye na sir?" },
+        { "speaker": "aman", "text": "Jaise - kisi political party ki recognition (National ya State party status) sambandhi vivad, ya candidate ki nomination ko manzoor/reject karna. Aur ye Model Code of Conduct violation ke complaints bhi sunte hain aur action lete hain." },
+        { "speaker": "raju", "text": "Achha! Ye to teenon powers alag-alag hain - admin, advisory, quasi-judicial. Par sir, ek doubt hai - agar koi candidate election results ko challenge karna chahe, to wo ECI ke paas jaayega kya?" }
+      ],
+      "navigation": {
+        "next": "card_44_election_petition_trap",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_44_election_petition_trap",
+      "card_slug": "card_44_election_petition_trap",
+      "type": "chat",
+      "concept_id": "eci_powers",
+      "level": 4,
+      "progress": { "current": 44, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bahut important sawaal, aur yahin sabse bada BPSC-UPSC trap hai! Nahi Raju, agar koi 'election petition' file karna chahe (matlab kisi result ko challenge karna hai kisi vajah se - jaise dhandhli, corrupt practice), to wo ECI ke paas NAHI jaata." },
+        { "speaker": "raju", "text": "Hain?? To phir kahan jaayega? ECI hi to chunav conduct karati hai!" },
+        { "speaker": "aman", "text": "Election petitions sidha High Court mein file hoti hain - Representation of the People Act, 1951 ke tahat. ECI sirf chunav conduct karati hai aur MCC violations dekhti hai, lekin result ko legally challenge karne ka forum High Court hai, aur High Court ke faisle ke against Supreme Court mein appeal ho sakti hai." },
+        { "speaker": "raju", "text": "Achhaaaa! Ye to bahut zaroori fact hai - ECI = chunav karati hai, High Court = election petition sunta hai. Ye mix nahi karunga ab!" }
+      ],
+      "navigation": {
+        "next": "card_45_quiz1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_45_quiz1",
+      "card_slug": "card_45_quiz1",
+      "type": "quiz",
+      "concept_id": "eci_powers",
+      "level": 4,
+      "progress": { "current": 45, "total": 82 },
+      "quiz_payload": {
+        "question": "President, kisi sitting MP ke disqualification (Article 103) ka faisla lete waqt kiski salaah lete hain?",
+        "options": [
+          { "id": "A", "text": "Chief Justice of India" },
+          { "id": "B", "text": "Election Commission of India" },
+          { "id": "C", "text": "Attorney General" },
+          { "id": "D", "text": "Speaker Lok Sabha" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Article 103 ke तहत MP ki disqualification par President, ECI ki salaah (advisory power) ke anusar faisla lete hain. Isi tarah MLA ke liye Article 192 mein Governor, ECI ki salaah lete hain."
+      },
+      "navigation": {
+        "next": "card_46_quiz2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_46_quiz2",
+      "card_slug": "card_46_quiz2",
+      "type": "quiz",
+      "concept_id": "eci_powers",
+      "level": 4,
+      "progress": { "current": 46, "total": 82 },
+      "quiz_payload": {
+        "question": "Ek election result ko chunauti dene wali 'Election Petition' kahan file ki jaati hai?",
+        "options": [
+          { "id": "A", "text": "Election Commission of India ke paas" },
+          { "id": "B", "text": "High Court mein" },
+          { "id": "C", "text": "Supreme Court mein sidha" },
+          { "id": "D", "text": "Rashtrapati Bhavan mein" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Election petitions Representation of the People Act, 1951 ke tahat High Court mein file hoti hain, ECI mein nahi - ye ek bahut common trap hai jismein students ECI ko galat forum samajh lete hain."
+      },
+      "navigation": {
+        "next": "card_47_quiz3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_47_quiz3",
+      "card_slug": "card_47_quiz3",
+      "type": "quiz",
+      "concept_id": "eci_powers",
+      "level": 4,
+      "progress": { "current": 47, "total": 82 },
+      "quiz_payload": {
+        "question": "Nimnlikhit mein se kaunsa kaam ECI ki 'Administrative' power ke antargat aata hai?",
+        "options": [
+          { "id": "A", "text": "MLA ki disqualification par Governor ko salaah dena" },
+          { "id": "B", "text": "Voter list banana aur election symbols allot karna" },
+          { "id": "C", "text": "Election petition sunna" },
+          { "id": "D", "text": "Supreme Court judge jaisi salary lena" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Voter list banana/update karna, chunav tareekh taय karna, aur symbol allot karna - ye sab Administrative functions hain. Option A advisory hai, C quasi-judicial ECI karti nahi (ye HC karta hai)."
+      },
+      "navigation": {
+        "next": "card_48_milestone6",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_48_milestone6",
+      "card_slug": "card_48_milestone6",
+      "type": "milestone",
+      "concept_id": "eci_powers",
+      "level": 4,
+      "progress": { "current": 48, "total": 82 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "⚡",
+        "completed_topic": "Powers & Functions of ECI",
+        "xp_earned": 65,
+        "milestone_progress": "Module 6/10 Clear",
+        "motivational_quote": "Election petition wala bada trap bhi crack ho gaya! Ab Model Code of Conduct dekhte hain."
+      },
+      "navigation": {
+        "next": "card_49_mcc_intro",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_49_mcc_intro",
+      "card_slug": "card_49_mcc_intro",
+      "type": "chat",
+      "concept_id": "eci_mcc",
+      "level": 4,
+      "progress": { "current": 49, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, tumne news mein suna hoga ki chunav ke time neta log serकारी gaadi use nahi kar sakte, sarkari scheme launch nahi kar sakte. Ye rule kaun banata hai?" },
+        { "speaker": "raju", "text": "Haan sir, sunta hoon! Isko 'Model Code of Conduct' kehte hain na?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Model Code of Conduct (MCC) ek set of guidelines hai jo ECI, saare political parties aur candidates ke liye jaari karti hai, taaki chunav free aur fair rahe." },
+        { "speaker": "raju", "text": "Sir ye MCC kisi kanoon ki tarah hai kya? Iska ullangan (violation) karne par jail ho sakti hai?" }
+      ],
+      "navigation": {
+        "next": "card_50_mcc_enforceability",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_50_mcc_enforceability",
+      "card_slug": "card_50_mcc_enforceability",
+      "type": "chat",
+      "concept_id": "eci_mcc",
+      "level": 4,
+      "progress": { "current": 50, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Yahin sabse bada trap hai Raju! Nahi, Model Code of Conduct ke paas koi 'statutory backing' nahi hai - matlab ye kisi Act ya law se banaya hua kanoon nahi hai. Isliye iske violation par direct jail ya jurmana (fine) nahi hota." },
+        { "speaker": "raju", "text": "Hain?? To phir netao ko MCC follow karne ka darr kyun hota hai?" },
+        { "speaker": "aman", "text": "Bahut achha sawaal - MCC 'morally binding' hai, matlab sabhi political parties ne khud isse maanne ki sehmati di hai. Aur ECI ke paas Article 324 ki wide power hai, jisse wo violation par warning de sakti hai, campaign par rok laga sakti hai, ya extreme case mein candidate ko disqualify bhi kar sakti hai." },
+        { "speaker": "raju", "text": "Achha! Matlab MCC khud kanoon nahi hai, par ECI apni general power se punish kar sakti hai. Ye to interesting hai sir!" }
+      ],
+      "navigation": {
+        "next": "card_51_mcc_timing",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_51_mcc_timing",
+      "card_slug": "card_51_mcc_timing",
+      "type": "chat",
+      "concept_id": "eci_mcc",
+      "level": 4,
+      "progress": { "current": 51, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab batao Raju, MCC kab se lagu hoti hai - jab voting shuru hoti hai, ya usse pehle?" },
+        { "speaker": "raju", "text": "Voting wale din se hi honi chahiye sir, tabhi to sahi tareeke se vote padenge." },
+        { "speaker": "aman", "text": "Nahi Raju - MCC us din se lagu hoti hai jis din ECI chunav ki tareekhon ki 'ghoshna' (announcement) karti hai - matlab election announce hote hi, chahe voting mahino baad ho. Ye tab tak jaari rehti hai jab tak result declare na ho jaaye." },
+        { "speaker": "raju", "text": "Achha! Matlab announcement se result tak, poore samay MCC active rehti hai. Ye timing wala fact bhi yaad rakhna zaroori hai sir!" }
+      ],
+      "navigation": {
+        "next": "card_52_quiz1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_52_quiz1",
+      "card_slug": "card_52_quiz1",
+      "type": "quiz",
+      "concept_id": "eci_mcc",
+      "level": 4,
+      "progress": { "current": 52, "total": 82 },
+      "quiz_payload": {
+        "question": "Model Code of Conduct (MCC) ke baare mein kaunsa kathan sahi hai?",
+        "options": [
+          { "id": "A", "text": "Ye kisi Act se bana kanoon hai, iske violation par jail ho sakti hai" },
+          { "id": "B", "text": "Iske paas koi statutory backing nahi hai, ye morally binding hai" },
+          { "id": "C", "text": "Ye sirf ruling party par lagu hoti hai" },
+          { "id": "D", "text": "Ye sirf Lok Sabha chunav ke liye hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "MCC ke paas koi statutory (kanooni) backing nahi hai - ye ek morally binding set of guidelines hai jise sabhi political parties ne sweekar kiya hai."
+      },
+      "navigation": {
+        "next": "card_53_quiz2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_53_quiz2",
+      "card_slug": "card_53_quiz2",
+      "type": "quiz",
+      "concept_id": "eci_mcc",
+      "level": 4,
+      "progress": { "current": 53, "total": 82 },
+      "quiz_payload": {
+        "question": "Model Code of Conduct kab se lagu ho jaati hai?",
+        "options": [
+          { "id": "A", "text": "Jab voting shuru hoti hai" },
+          { "id": "B", "text": "Jab ECI chunav ki tareekhon ki ghoshna (announcement) karti hai" },
+          { "id": "C", "text": "Jab nomination file hoti hai" },
+          { "id": "D", "text": "Jab result declare hota hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "MCC chunav tareekhon ki ghoshna hote hi lagu ho jaati hai, aur result declare hone tak jaari rehti hai."
+      },
+      "navigation": {
+        "next": "card_54_quiz3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_54_quiz3",
+      "card_slug": "card_54_quiz3",
+      "type": "quiz",
+      "concept_id": "eci_mcc",
+      "level": 4,
+      "progress": { "current": 54, "total": 82 },
+      "quiz_payload": {
+        "question": "Agar MCC ka statutory backing nahi hai, to ECI ismein violation hone par action kaise le paati hai?",
+        "options": [
+          { "id": "A", "text": "Wo Supreme Court se order maangti hai" },
+          { "id": "B", "text": "Wo apni Article 324 ki wide power ka use karke warning/disqualification jaisi action leti hai" },
+          { "id": "C", "text": "Ye action nahi le sakti, sirf mook darshak (silent) rehti hai" },
+          { "id": "D", "text": "Sirf police ko complaint karti hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "MCC khud kanoon nahi hai, par ECI apni Article 324 ki general residuary power ka use karke violation par warning, prachar band karwana, ya candidate ko disqualify karne jaisi action le sakti hai."
+      },
+      "navigation": {
+        "next": "card_55_milestone7",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_55_milestone7",
+      "card_slug": "card_55_milestone7",
+      "type": "milestone",
+      "concept_id": "eci_mcc",
+      "level": 4,
+      "progress": { "current": 55, "total": 82 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "📋",
+        "completed_topic": "Model Code of Conduct (MCC)",
+        "xp_earned": 55,
+        "milestone_progress": "Module 7/10 Clear",
+        "motivational_quote": "MCC ka trap bhi solve ho gaya! Ab 2023 ke naye Act ki detail mein aur gehraai se jaate hain."
+      },
+      "navigation": {
+        "next": "card_56_cec_act_background",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_56_cec_act_background",
+      "card_slug": "card_56_cec_act_background",
+      "type": "chat",
+      "concept_id": "eci_2023_act",
+      "level": 5,
+      "progress": { "current": 56, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Chalo Raju, ab CEC and Other ECs Act, 2023 ko thoda aur detail mein dekhte hain, kyunki ye bahut recent aur high-chance topic hai exams ke liye." },
+        { "speaker": "raju", "text": "Sir isme aur kya naya hai jo humne pehle nahi dekha?" },
+        { "speaker": "aman", "text": "Ye Act, jaisa humne pehle dekha, Anoop Baranwal case (2023) ke response mein aaya. Supreme Court ne 3-member committee (PM+LoP+CJI) ka order diya tha, lekin Parliament ne apna kanoon banaकर CJI ko replace kar diya ek Union Minister se." },
+        { "speaker": "raju", "text": "Achha, matlab ye kanoon Supreme Court ke original order se alag hai. Kya isko challenge nahi kiya gaya?" }
+      ],
+      "navigation": {
+        "next": "card_57_selection_committee",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_57_selection_committee",
+      "card_slug": "card_57_selection_committee",
+      "type": "chat",
+      "concept_id": "eci_2023_act",
+      "level": 5,
+      "progress": { "current": 57, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Haan, is Act ko Supreme Court mein challenge kiya gaya hai aur ye vivadit (controversial) topic bana hua hai - isliye current affairs ke saath-saath BPSC/UPSC mein bhi conceptual sawaal aa sakte hain. Chalo Selection Committee ko phir se yaad karte hain achhe se." },
+        { "speaker": "raju", "text": "PM, Leader of Opposition, aur ek Union Cabinet Minister jo PM khud choose karein - yahi tha na sir?" },
+        { "speaker": "aman", "text": "Bilkul sahi yaad rakha! Aur PM iस committee ke Chairperson hote hain. Isse pehle ki practice mein bhi PM ka role tha, par ab formally kanoon mein likh diya gaya hai." },
+        { "speaker": "raju", "text": "Achha, aur sir - candidates ko shortlist kaun karta hai jinme se committee choose karti hai?" }
+      ],
+      "navigation": {
+        "next": "card_58_search_committee",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_58_search_committee",
+      "card_slug": "card_58_search_committee",
+      "type": "chat",
+      "concept_id": "eci_2023_act",
+      "level": 5,
+      "progress": { "current": 58, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bahut achha sawaal! Is Act ke anusar ek 'Search Committee' hai, jiske chairperson hain 'Union Law Minister', aur do aur members hain jo Secretary level ke central government officers hain." },
+        { "speaker": "raju", "text": "Search Committee kya karti hai exactly?" },
+        { "speaker": "aman", "text": "Ye Search Committee CEC/EC banne ke yogya logon ke naam shortlist karke, Selection Committee ke saamne prastut karti hai. Lekin final choice Selection Committee (PM+LoP+Minister) ki hi hoti hai, wo Search Committee ki list tak bhi seemित nahi hain - unhe koi bhi eligible vyakti chun sakte hain." },
+        { "speaker": "raju", "text": "Achha, matlab Search Committee sirf suggestion deti hai, final power Selection Committee ke paas hi hai!" }
+      ],
+      "navigation": {
+        "next": "card_59_criticism_2to1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_59_criticism_2to1",
+      "card_slug": "card_59_criticism_2to1",
+      "type": "chat",
+      "concept_id": "eci_2023_act",
+      "level": 5,
+      "progress": { "current": 59, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Ab is Act ki sabse badi criticism yaad rakho - jaisa tumne khud pehle nikaala tha, Selection Committee mein PM aur unke nominate kiye Minister mil ke 2 hain, jabki Leader of Opposition akela 1 hai." },
+        { "speaker": "raju", "text": "To LoP ki opinion practically kabhi majority mein nahi aa sakti, chahe wo sahmat ho ya na ho!" },
+        { "speaker": "aman", "text": "Bilkul sahi analysis! Isi wajah se critics kehte hain ki is Act se executive (sarkar) ka effective control CEC/EC appointment par badh gaya hai, jo ECI ki independence ke liye chinta ka vishay hai." },
+        { "speaker": "raju", "text": "Ye to bahut deep-level analysis hai sir, par ab main is poore topic ko clearly samajh gaya hoon!" }
+      ],
+      "navigation": {
+        "next": "card_60_quiz1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_60_quiz1",
+      "card_slug": "card_60_quiz1",
+      "type": "quiz",
+      "concept_id": "eci_2023_act",
+      "level": 5,
+      "progress": { "current": 60, "total": 82 },
+      "quiz_payload": {
+        "question": "CEC and Other ECs Act, 2023 ke तहत 'Search Committee' ka Chairperson kaun hota hai?",
+        "options": [
+          { "id": "A", "text": "Prime Minister" },
+          { "id": "B", "text": "Union Law Minister" },
+          { "id": "C", "text": "Chief Justice of India" },
+          { "id": "D", "text": "Cabinet Secretary" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Search Committee ke Chairperson Union Law Minister hote hain, aur do aur Secretary-level officers isme shaamil hote hain. Ye committee names shortlist karke Selection Committee ko dete hain."
+      },
+      "navigation": {
+        "next": "card_61_quiz2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_61_quiz2",
+      "card_slug": "card_61_quiz2",
+      "type": "quiz",
+      "concept_id": "eci_2023_act",
+      "level": 5,
+      "progress": { "current": 61, "total": 82 },
+      "quiz_payload": {
+        "question": "2023 Act ki sabse badi criticism kya hai?",
+        "options": [
+          { "id": "A", "text": "Selection Committee mein PM aur unke nominate Minister mil ke hamesha 2-1 majority se jeet sakte hain, LoP akela reh jaata hai" },
+          { "id": "B", "text": "Search Committee ka koi role nahi hai" },
+          { "id": "C", "text": "CEC ki salary badha di gayi hai" },
+          { "id": "D", "text": "Term ghatakar 3 saal kar diya gaya hai" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Critics ka kehna hai ki Selection Committee mein sarkar-nominate 2 members (PM+Minister) aur Opposition ka sirf 1 member (LoP) hone se, effective control sarkar ke haath mein aa jaata hai."
+      },
+      "navigation": {
+        "next": "card_62_quiz3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_62_quiz3",
+      "card_slug": "card_62_quiz3",
+      "type": "quiz",
+      "concept_id": "eci_2023_act",
+      "level": 5,
+      "progress": { "current": 62, "total": 82 },
+      "quiz_payload": {
+        "question": "Anoop Baranwal case (2023) mein Supreme Court dwara diye gaye order aur Parliament dwara pass kiye gaye 2023 Act mein kya bunyaadi (fundamental) fark hai?",
+        "options": [
+          { "id": "A", "text": "SC order mein CJI shaamil tha, Act mein CJI ki jagah PM-nominated Union Minister hai" },
+          { "id": "B", "text": "Dono bilkul same hain, koi fark nahi" },
+          { "id": "C", "text": "SC order mein LoP nahi tha, Act mein LoP hai" },
+          { "id": "D", "text": "SC order mein PM ka role nahi tha" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Supreme Court ke interim order mein committee PM, LoP, aur CJI ki thi. Parliament ke 2023 Act mein CJI ko hataकर, PM dwara nominate kiya gaya Union Cabinet Minister rakha gaya hai - ye bunyaadi fark hai."
+      },
+      "navigation": {
+        "next": "card_63_milestone8",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_63_milestone8",
+      "card_slug": "card_63_milestone8",
+      "type": "milestone",
+      "concept_id": "eci_2023_act",
+      "level": 5,
+      "progress": { "current": 63, "total": 82 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "📜",
+        "completed_topic": "CEC and Other ECs Act, 2023 Deep-Dive",
+        "xp_earned": 65,
+        "milestone_progress": "Module 8/10 Clear",
+        "motivational_quote": "Sabse recent aur tricky topic bhi clear ho gaya! Ab State Election Commission dekhte hain - Bihar ke liye bahut zaroori hai."
+      },
+      "navigation": {
+        "next": "card_64_sec_intro",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_64_sec_intro",
+      "card_slug": "card_64_sec_intro",
+      "type": "chat",
+      "concept_id": "eci_state_election_commission",
+      "level": 5,
+      "progress": { "current": 64, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, yaad hai humne Module 1 mein kaha tha ki Panchayat aur Municipality ke chunav ECI nahi karati? Chalo ab detail mein dekhte hain ye kaun karata hai." },
+        { "speaker": "raju", "text": "Haan sir yaad hai, State Election Commission (SEC) kuch hoti hai naam!" },
+        { "speaker": "aman", "text": "Bilkul sahi! 73rd aur 74th Constitutional Amendment (1992) ke through, har state mein ek alag 'State Election Commission' banane ka pravdhaan (provision) kiya gaya, jo sirf us state ke Panchayat aur Municipality ke chunav karati hai." },
+        { "speaker": "raju", "text": "Achha, to ye ECI se bilkul alag body hai? Isko kaun appoint karta hai?" }
+      ],
+      "navigation": {
+        "next": "card_65_article243k_243za",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_65_article243k_243za",
+      "card_slug": "card_65_article243k_243za",
+      "type": "chat",
+      "concept_id": "eci_state_election_commission",
+      "level": 5,
+      "progress": { "current": 65, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bahut achha sawaal - State Election Commissioner ko Governor niyukt karte hain, President nahi! Panchayat ke liye ye Article 243K mein diya gaya hai, aur Municipality ke liye Article 243ZA mein - dono articles ka wording bilkul similar hai." },
+        { "speaker": "raju", "text": "Governor appoint karte hain? To Governor ki marzi se hi kaam karta hoga ye SEC bhi?" },
+        { "speaker": "aman", "text": "Nahi Raju - Governor sirf appoint karte hain, lekin SEC bhi apni superintendence, direction aur control ki power mein independent hota hai, bilkul ECI jaisa. Aur SEC ko bhi Governor sirf Supreme Court judge jaisi tough process se hi hata sakte hain - protection similar hai." },
+        { "speaker": "raju", "text": "Achha! To power aur protection ECI jaisa hi hai, bas ye state-level hai aur sirf local body chunav karata hai. Aur Bihar mein iska kya scene hai sir?" }
+      ],
+      "navigation": {
+        "next": "card_66_sec_vs_eci",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_66_sec_vs_eci",
+      "card_slug": "card_66_sec_vs_eci",
+      "type": "chat",
+      "concept_id": "eci_state_election_commission",
+      "level": 5,
+      "progress": { "current": 66, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab ek quick comparison table jaisa yaad karo Raju: ECI = Parliament/Assembly/President/VP chunav, President niyukt karte hain (2023 Act ki committee se), CEC ki removal Parliament se. SEC = Panchayat/Municipality chunav, Governor niyukt karte hain, removal bhi SC judge jaisi process se par Governor karte hain." },
+        { "speaker": "raju", "text": "Sir ye to point-by-point same structure hai bas 'level' alag hai - national vs state!" },
+        { "speaker": "aman", "text": "Bilkul sahi observation! Ab ek zaroori twist - kya kisi state mein ECI aur SEC ka kaam mix ho sakta hai, jaise koi ek insaan dono ka kaam kare?" },
+        { "speaker": "raju", "text": "Nahi honge alag-alag log sir, dono alag hi honge na?" }
+      ],
+      "navigation": {
+        "next": "card_67_bihar_sec_favorite",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_67_bihar_sec_favorite",
+      "card_slug": "card_67_bihar_sec_favorite",
+      "type": "chat",
+      "concept_id": "eci_state_election_commission",
+      "level": 5,
+      "progress": { "current": 67, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ BPSC TRE Favorite: Bilkul sahi Raju! Bihar mein 'Bihar State Election Commission' hai, jo alag se Panchayati Raj Sansthaon (Gram Panchayat, Panchayat Samiti, Zila Parishad) aur Urban Local Bodies (Nagar Nigam, Nagar Parishad, Nagar Panchayat) ke chunav karati hai - ye ECI se bilkul alag body hai." },
+        { "speaker": "raju", "text": "Achha, to Bihar mein 3 tarah ke Panchayati Raj sansthaayein hain - Gram Panchayat, Panchayat Samiti, Zila Parishad, aur Urban mein Nagar Nigam waale bhi Bihar SEC hi karata hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Ye Bihar Panchayati Raj Act aur Bihar Municipal Act ke tahat hota hai, jo BSEB/SCERT ki Political Science books mein bhi cover kiya jaata hai. BPSC TRE mein ये local governance wala fact bahut poocha jaata hai." },
+        { "speaker": "raju", "text": "Theek hai sir, achhe se yaad kar liya - ECI = National/State level chunav, State SEC (jaise Bihar SEC) = local body chunav, Governor niyukt karte hain!" }
+      ],
+      "navigation": {
+        "next": "card_68_quiz1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_68_quiz1",
+      "card_slug": "card_68_quiz1",
+      "type": "quiz",
+      "concept_id": "eci_state_election_commission",
+      "level": 5,
+      "progress": { "current": 68, "total": 82 },
+      "quiz_payload": {
+        "question": "State Election Commissioner ko kaun niyukt karta hai, aur ye kis Article se aata hai (Panchayat ke liye)?",
+        "options": [
+          { "id": "A", "text": "President, Article 324" },
+          { "id": "B", "text": "Governor, Article 243K" },
+          { "id": "C", "text": "Prime Minister, Article 280" },
+          { "id": "D", "text": "Chief Minister, Article 243ZA" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "State Election Commissioner ko Governor niyukt karte hain - Panchayat ke chunav ke liye ye pravdhaan Article 243K mein hai, Municipality ke liye Article 243ZA mein hai."
+      },
+      "navigation": {
+        "next": "card_69_quiz2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_69_quiz2",
+      "card_slug": "card_69_quiz2",
+      "type": "quiz",
+      "concept_id": "eci_state_election_commission",
+      "level": 5,
+      "progress": { "current": 69, "total": 82 },
+      "quiz_payload": {
+        "question": "⭐ BPSC TRE Favorite: Bihar State Election Commission kis tarah ke chunav sampann (conduct) karati hai?",
+        "options": [
+          { "id": "A", "text": "Bihar Vidhan Sabha ke chunav" },
+          { "id": "B", "text": "Panchayati Raj Sansthaon aur Urban Local Bodies (Nagar Nigam, Nagar Parishad) ke chunav" },
+          { "id": "C", "text": "Rajya Sabha ke chunav" },
+          { "id": "D", "text": "President ke chunav" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Bihar State Election Commission Bihar ke Panchayati Raj Sansthaon (Gram Panchayat, Panchayat Samiti, Zila Parishad) aur Urban Local Bodies ke chunav sampann karati hai - Vidhan Sabha/Lok Sabha/RS/President ke chunav ECI karati hai, na ki state SEC."
+      },
+      "navigation": {
+        "next": "card_70_quiz3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_70_quiz3",
+      "card_slug": "card_70_quiz3",
+      "type": "quiz",
+      "concept_id": "eci_state_election_commission",
+      "level": 5,
+      "progress": { "current": 70, "total": 82 },
+      "quiz_payload": {
+        "question": "Nimnlikhit kathanon par vichar karein:\n1) State Election Commissioner ki removal process, Supreme Court judge jaisi tough process ke saman hai.\n2) State Election Commission, ECI ka hi ek hissa (part) hai, alag body nahi hai.\nSahi kathan chuniye:",
+        "options": [
+          { "id": "A", "text": "Kewal Kathan 1 sahi hai" },
+          { "id": "B", "text": "Kewal Kathan 2 sahi hai" },
+          { "id": "C", "text": "Dono sahi hain" },
+          { "id": "D", "text": "Dono galat hain" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Kathan 1 sahi hai - State Election Commissioner ki removal SC judge jaisi tough process se hoti hai. Kathan 2 GALAT hai - SEC, ECI se bilkul ALAG, swatantra (independent) constitutional body hai, ECI ka hissa nahi hai."
+      },
+      "navigation": {
+        "next": "card_71_milestone9",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_71_milestone9",
+      "card_slug": "card_71_milestone9",
+      "type": "milestone",
+      "concept_id": "eci_state_election_commission",
+      "level": 5,
+      "progress": { "current": 71, "total": 82 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🏘️",
+        "completed_topic": "State Election Commission & Bihar Specifics",
+        "xp_earned": 65,
+        "milestone_progress": "Module 9/10 Clear",
+        "motivational_quote": "Bihar-specific fact bhi crack ho gaya! Ab last module mein kuch legendary personalities aur facts dekhte hain."
+      },
+      "navigation": {
+        "next": "card_72_first_cec_sukumar_sen",
+        "button_text": "Start Final Module ➔"
+      }
+    },
+    {
+      "card_id": "card_72_first_cec_sukumar_sen",
+      "card_slug": "card_72_first_cec_sukumar_sen",
+      "type": "chat",
+      "concept_id": "eci_trivia",
+      "level": 6,
+      "progress": { "current": 72, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, chalo ab India ke pehle Chief Election Commissioner se milte hain - unka naam tha Sukumar Sen. Unhone 21 March 1950 se lekar 1958 tak seva ki." },
+        { "speaker": "raju", "text": "Sir, ECI khud kab bani thi? Wo date bhi pata honi chahiye na?" },
+        { "speaker": "aman", "text": "Bahut achha sawaal! ECI ka gathan 25 January 1950 ko hua tha - iसi wajah se 25 January ko 'National Voters' Day' ke roop mein manaya jaata hai, taaki naye voters ko register hone ke liye protsaahit kiya jaa sake." },
+        { "speaker": "raju", "text": "Achha! 25 January - National Voters Day. Ye to bahut common GK fact hai, ab pakka yaad rahega." }
+      ],
+      "navigation": {
+        "next": "card_73_tn_seshan_reforms",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_73_tn_seshan_reforms",
+      "card_slug": "card_73_tn_seshan_reforms",
+      "type": "chat",
+      "concept_id": "eci_trivia",
+      "level": 6,
+      "progress": { "current": 73, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab ek aur bahut mashhoor naam - T.N. Seshan, jo 1990 se 1996 tak CEC rahe. Unhe 'ECI ko dandaant' banane ka credit diya jaata hai." },
+        { "speaker": "raju", "text": "Kya kiya tha unhone sir, jo itna mashhoor hain?" },
+        { "speaker": "aman", "text": "Unhone Model Code of Conduct ko bahut sakhti se lagu karna shuru kiya, voter ID card (EPIC) mandatory banaya, aur chunav mein criminalization/paise ka istemal rokne ke liye kaafi reforms laaye. Unke time se ECI ki chhavi ek 'powerful watchdog' jaisi bani." },
+        { "speaker": "raju", "text": "Achha, matlab wo pehle CEC the jinhone Article 324 ki poori power ka istemal karke dikhaya!" }
+      ],
+      "navigation": {
+        "next": "card_74_national_voters_day",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_74_national_voters_day",
+      "card_slug": "card_74_national_voters_day",
+      "type": "chat",
+      "concept_id": "eci_trivia",
+      "level": 6,
+      "progress": { "current": 74, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Ab ek aur zaroori article yaad karo - Article 326, jo kehta hai ki Lok Sabha aur State Assembly ke chunav 'universal adult suffrage' ke aadhar par honge, matlab har bharatiya nagrik jo 18 saal ka ho gaya ho, use vote dene ka adhikar hai." },
+        { "speaker": "raju", "text": "Sir, pehle bhi 18 saal hi tha kya voting age?" },
+        { "speaker": "aman", "text": "Nahi Raju! Shuruaat mein voting age 21 saal thi. 61st Constitutional Amendment Act, 1988 ke through ise ghatakar 18 saal kiya gaya - taaki zyada se zyada yuva vote de sakein." },
+        { "speaker": "raju", "text": "Achha, 21 se 18 - 1988 mein badla gaya. Ye important amendment yaad rakhna hoga!" }
+      ],
+      "navigation": {
+        "next": "card_75_delimitation_vs_eci",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_75_delimitation_vs_eci",
+      "card_slug": "card_75_delimitation_vs_eci",
+      "type": "chat",
+      "concept_id": "eci_trivia",
+      "level": 6,
+      "progress": { "current": 75, "total": 82 },
+      "messages": [
+        { "speaker": "aman", "text": "Ek last important trap - kya Delimitation Commission (jo constituencies ki boundaries taय karta hai) aur ECI same body hain?" },
+        { "speaker": "raju", "text": "Haan sir, dono chunav se related hi to hain, same hi honge shaayad!" },
+        { "speaker": "aman", "text": "Nahi Raju! Delimitation Commission ek ALAG body hai jo Delimitation Commission Act ke tahat, har Census ke baad, constituencies ki boundaries redraw karne ke liye banti hai. ECI sirf isme 'assist' (madad) karti hai, isko khud nahi banati." },
+        { "speaker": "raju", "text": "Achhaaaa! Ek aur alag body! Ye to poora chapter hi traps se bhara hua hai - par ab sab clear ho gaya sir!" }
+      ],
+      "navigation": {
+        "next": "card_76_quiz1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_76_quiz1",
+      "card_slug": "card_76_quiz1",
+      "type": "quiz",
+      "concept_id": "eci_trivia",
+      "level": 6,
+      "progress": { "current": 76, "total": 82 },
+      "quiz_payload": {
+        "question": "ECI ka gathan kab hua tha, aur us tareekh ko kis roop mein manaya jaata hai?",
+        "options": [
+          { "id": "A", "text": "26 January 1950, Republic Day" },
+          { "id": "B", "text": "25 January 1950, National Voters' Day" },
+          { "id": "C", "text": "15 August 1947, Independence Day" },
+          { "id": "D", "text": "26 November 1949, Constitution Day" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "ECI ka gathan 25 January 1950 ko hua tha, isliye is tareekh ko 'National Voters' Day' ke roop mein manaya jaata hai."
+      },
+      "navigation": {
+        "next": "card_77_quiz2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_77_quiz2",
+      "card_slug": "card_77_quiz2",
+      "type": "quiz",
+      "concept_id": "eci_trivia",
+      "level": 6,
+      "progress": { "current": 77, "total": 82 },
+      "quiz_payload": {
+        "question": "Voting age (matdaan ki umra) 21 saal se ghataकर 18 saal karne wala amendment kaunsa tha?",
+        "options": [
+          { "id": "A", "text": "42nd Constitutional Amendment Act" },
+          { "id": "B", "text": "44th Constitutional Amendment Act" },
+          { "id": "C", "text": "61st Constitutional Amendment Act, 1988" },
+          { "id": "D", "text": "73rd Constitutional Amendment Act" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "61st Constitutional Amendment Act, 1988 ke through Article 326 mein voting age 21 se ghataकर 18 saal ki gayi."
+      },
+      "navigation": {
+        "next": "card_78_quiz3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_78_quiz3",
+      "card_slug": "card_78_quiz3",
+      "type": "quiz",
+      "concept_id": "eci_trivia",
+      "level": 6,
+      "progress": { "current": 78, "total": 82 },
+      "quiz_payload": {
+        "question": "Delimitation Commission ke baare mein kaunsa kathan sahi hai?",
+        "options": [
+          { "id": "A", "text": "Ye ECI ka hi ek anga (part) hai" },
+          { "id": "B", "text": "Ye ek alag body hai jo har Census ke baad constituencies ki boundaries redraw karti hai; ECI isme sirf assist karti hai" },
+          { "id": "C", "text": "Ise CEC khud niyukt karte hain" },
+          { "id": "D", "text": "Ye state SEC ke antargat aata hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Delimitation Commission, Delimitation Commission Act ke tahat gathit hoti hai aur ECI se alag body hai. ECI isme sirf sahyog (assist) karti hai, isko khud nahi banati ya control nahi karti."
+      },
+      "navigation": {
+        "next": "card_79_milestone10",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_79_milestone10",
+      "card_slug": "card_79_milestone10",
+      "type": "milestone",
+      "concept_id": "eci_trivia",
+      "level": 6,
+      "progress": { "current": 79, "total": 82 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🏅",
+        "completed_topic": "Landmark Personalities & PYQ Trivia",
+        "xp_earned": 65,
+        "milestone_progress": "Module 10/10 Clear - ALL MODULES DONE!",
+        "motivational_quote": "Saare 10 modules clear! Ab tumhare paas officer level ka poora ECI syllabus hai. Chalo final revision karte hain!"
+      },
+      "navigation": {
+        "next": "card_80_summary",
+        "button_text": "Go to Final Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_80_summary",
+      "card_slug": "card_80_summary",
+      "type": "summary",
+      "concept_id": "eci_full_revision",
+      "level": 7,
+      "progress": { "current": 80, "total": 82 },
+      "summary_payload": {
+        "title": "⚡ Officer Revision - Election Commission ka Poora Nichod",
+        "revision_points": [
+          {
+            "topic": "Constitutional Basis & Scope",
+            "point": "Article 324 - superintendence, direction, control. Parliament, State Legislature, President-VP chunav cover karta hai, Panchayat/Municipality NAHI (wo Article 243K/243ZA ke tahat alag State Election Commission karati hai)."
+          },
+          {
+            "topic": "Composition & History",
+            "point": "1950-89 single member -> 16 Oct 1989 se 3-member -> 1 Jan 1990 wapas single -> 1 Oct 1993 se permanent multi-member (1 CEC + 2 EC). Faisla majority se, CEC ka vote baaki ke barabar."
+          },
+          {
+            "topic": "Appointment & Removal",
+            "point": "Anoop Baranwal case (2023) ke baad Parliament ne CEC and Other ECs Act, 2023 banaya - Selection Committee: PM+LoP+PM-nominated Union Minister (CJI hataya gaya). Term: 6 saal/65 saal jo pehle ho. CEC ki removal SC judge jaisi (Parliament se), other ECs ki removal President dwara sirf CEC ki sifarish par."
+          },
+          {
+            "topic": "Powers & MCC",
+            "point": "3 tarah ki powers - Administrative (voter list, symbol), Advisory (Article 103/192 disqualification par), Quasi-judicial (party recognition). Election petitions ECI nahi, High Court sunta hai. MCC ka koi statutory backing nahi, morally binding hai, announcement se result tak lagu."
+          },
+          {
+            "topic": "State Election Commission & Trivia",
+            "point": "SEC Governor niyukt karte hain (Panchayat: Art 243K, Municipality: Art 243ZA), Bihar SEC alag se Panchayati Raj/Urban Local Bodies chunav karati hai. Sukumar Sen pehle CEC, 25 January National Voters Day, T.N. Seshan reforms ke liye mashhoor, voting age 21 se 18 (61st Amendment 1988)."
+          }
+        ]
+      },
+      "navigation": {
+        "next": "card_81_final_quiz",
+        "button_text": "Take Final Officer Quiz ➔"
+      }
+    },
+    {
+      "card_id": "card_81_final_quiz",
+      "card_slug": "card_81_final_quiz",
+      "type": "final_quiz",
+      "concept_id": "eci_final_challenge",
+      "level": 7,
+      "progress": { "current": 81, "total": 82 },
+      "quiz_payload": {
+        "question": "Nimnlikhit kathanon par vichar karein:\n1) Election Commission of India, Panchayat aur Municipality ke chunav bhi conduct karati hai.\n2) CEC ko usi tarah hataya jaa sakta hai jaise Supreme Court ke judge ko hataya jaata hai.\n3) Ek Election Petition ka nirnay Election Commission of India karti hai.\n4) CEC and Other ECs Act, 2023 ke anusar Selection Committee mein PM, Leader of Opposition aur PM-nominated ek Union Cabinet Minister shaamil hain.\nUpayukt kathan chuniye:",
+        "options": [
+          { "id": "A", "text": "Kewal 2 aur 4 sahi hain" },
+          { "id": "B", "text": "1, 2 aur 4 sahi hain" },
+          { "id": "C", "text": "Kewal 1 aur 3 sahi hain" },
+          { "id": "D", "text": "Sabhi char kathan sahi hain" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Kathan 1 GALAT hai - Panchayat/Municipality ke chunav ECI nahi, alag State Election Commission karati hai. Kathan 2 sahi hai - CEC ki removal SC judge jaisi process se hoti hai. Kathan 3 GALAT hai - Election Petitions High Court mein file hoti hain, ECI mein nahi. Kathan 4 sahi hai - 2023 Act ka Selection Committee yahi hai. Isliye sahi jawab hai kewal 2 aur 4."
+      },
+      "navigation": {
+        "next": "card_82_trophy",
+        "button_text": "See Final Result ➔"
+      }
+    },
+    {
+      "card_id": "card_82_trophy",
+      "card_slug": "card_82_trophy",
+      "type": "milestone",
+      "concept_id": "chapter_complete",
+      "level": 7,
+      "progress": { "current": 82, "total": 82 },
+      "milestone_payload": {
+        "title": "🏆 CHAPTER MASTER TROPHY!",
+        "badge_emoji": "🏆",
+        "completed_topic": "Election Commission of India - Full Chapter Complete",
+        "xp_earned": 150,
+        "milestone_progress": "Chapter 100% Complete",
+        "motivational_quote": "Officer level ka pura Election Commission chapter tumne conquer kar liya hai, Raju jaisi mehnat rang laayegi! Ab BPSC/SSC/Railway ke prashno mein ECI ka koi bhi trap tumhe pareshan nahi kar sakta. Agla chapter ready hai jab tum ho!"
+      },
+      "navigation": {
+        "next": "card_01_intro",
+        "button_text": "Restart Chapter 🔁"
+      }
+    }
+  ]
+}
