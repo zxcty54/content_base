@@ -1,0 +1,1881 @@
+
+{
+  "topic_id": "subject_verb_agreement_error_detection_sbi_po",
+  "topic_title": "Subject-Verb Agreement Mastery + SBI PO Level Error Detection",
+  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE", "SBI PO"],
+  "total_cards": 100,
+  "characters": {
+    "aman": { "name": "Aman Sir", "role": "teacher", "avatar": "👨‍🏫" },
+    "raju": { "name": "Raju", "role": "student", "avatar": "👦" }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "chapter_intro",
+      "level": 1,
+      "progress": { "current": 1, "total": 100 },
+      "intro_payload": {
+        "title": "Subject-Verb Agreement — Zero to Officer Level",
+        "subtitle": "SBI PO / BPSC / SSC / Railway Error Detection Special",
+        "icon": "🎯",
+        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "SBI PO", "BPSC TRE", "UPSC Prelims"],
+        "learning_outcomes": [
+          "Basic Singular-Plural verb matching rules with real subject identification",
+          "Either/Or, Neither/Nor — Nearest Subject Rule",
+          "Collective Nouns — team, family, jury, government (unit vs individual)",
+          "Indefinite Pronouns — each, everyone, none and their exam traps",
+          "Always-singular (news, mathematics) & Always-plural (scissors, trousers) nouns",
+          "Distance/Money/Time as single unit — the silent exam trap",
+          "Parenthetical phrases — as well as, along with, together with (non-plural makers)",
+          "There/Here inversion, Gerund subjects, Percentage+of, Relative pronoun agreement",
+          "SBI PO / BPSC style multi-layered sentence error-detection practice"
+        ]
+      },
+      "navigation": { "next": "card_02_daily_life_sva", "button_text": "Start Learning ➔" }
+    },
+
+    {
+      "card_id": "card_02_daily_life_sva",
+      "card_slug": "card_02_daily_life_sva",
+      "type": "chat",
+      "concept_id": "sva_foundation",
+      "level": 1,
+      "progress": { "current": 2, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'Raju khelta hai' bolte hain but 'Raju aur Shyam khelte hain' bolte hain — 'hai' se 'hain' kyun ho gaya?" },
+        { "speaker": "aman", "text": "Bahut badhiya observation Raju! Jab EK vyakti (Raju) ho, verb bhi singular hoti hai ('hai'). Jab DO ya zyada log (Raju aur Shyam) hon, verb plural ho jaati hai ('hain')." },
+        { "speaker": "raju", "text": "Toh English mein bhi aisa hi hota hoga na sir?" },
+        { "speaker": "aman", "text": "Bilkul same logic! Isi ko English grammar mein 'Subject-Verb Agreement' kehte hain — Subject (karta) singular ho to Verb bhi singular, Subject plural ho to Verb bhi plural." }
+      ],
+      "navigation": { "next": "card_03_sva_basic_rule", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_03_sva_basic_rule",
+      "card_slug": "card_03_sva_basic_rule",
+      "type": "chat",
+      "concept_id": "sva_foundation",
+      "level": 1,
+      "progress": { "current": 3, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Universal Rule pakka yaad karo: SINGULAR Subject → is/was/has/does/verb+s. PLURAL Subject → are/were/have/do/verb (bina s). 'He plays' but 'They play'." },
+        { "speaker": "raju", "text": "Matlab jaise Present Tense mein padha tha — He/She/It ke saath 's' lagta hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi yaad rakha! SVA ka basic wahi hai jo tumne Present Tense mein seekha tha, bas ab hum EXTRA SPECIAL CASES seekhenge jo BPSC/SBI PO mein baar-baar aate hain." },
+        { "speaker": "raju", "text": "Hain?? Special cases matlab? Ye to exam me pakka confuse karega!" }
+      ],
+      "navigation": { "next": "card_04_real_subject_trap", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_04_real_subject_trap",
+      "card_slug": "card_04_real_subject_trap",
+      "type": "chat",
+      "concept_id": "sva_foundation",
+      "level": 1,
+      "progress": { "current": 4, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Sabse pehla aur sabse important trap suno — verb ke paas jo word ho, hamesha WAHI subject nahi hota! Pehle asli SUBJECT dhundo, phir verb match karo." },
+        { "speaker": "raju", "text": "Matlab kaise sir? Example dijiye na!" },
+        { "speaker": "aman", "text": "Dekho: 'The BOX of chocolates IS on the table.' Yahan 'chocolates' verb ke paas hai but asli subject 'BOX' hai (singular), isliye 'is' aaya, 'are' nahi." },
+        { "speaker": "raju", "text": "Ohh! Toh 'of chocolates' jaisa phrase beech mein hoga, uska koi asar verb pe nahi padega, main sirf 'box' dekhunga!" }
+      ],
+      "navigation": { "next": "card_05_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_05_quiz1",
+      "card_slug": "card_05_quiz1",
+      "type": "quiz",
+      "concept_id": "sva_foundation",
+      "level": 1,
+      "progress": { "current": 5, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "The quality of these products are excellent." },
+          { "id": "B", "text": "The quality of these products is excellent." },
+          { "id": "C", "text": "The quality of these products were excellent." },
+          { "id": "D", "text": "The quality of these products have been excellent." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Asli subject 'quality' hai (singular), 'products' sirf prepositional phrase 'of products' ka part hai. Isliye singular verb 'is' aayega."
+      },
+      "navigation": { "next": "card_06_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_06_quiz2",
+      "card_slug": "card_06_quiz2",
+      "type": "quiz",
+      "concept_id": "sva_foundation",
+      "level": 1,
+      "progress": { "current": 6, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'The list of items (A)/ needed for the trip (B)/ are placed on the table (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Asli subject 'list' hai (singular), 'items' phrase ka hissa hai. Sahi verb 'is placed' hoga, 'are placed' galat hai."
+      },
+      "navigation": { "next": "card_07_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_07_quiz3",
+      "card_slug": "card_07_quiz3",
+      "type": "quiz",
+      "concept_id": "sva_foundation",
+      "level": 1,
+      "progress": { "current": 7, "total": 100 },
+      "quiz_payload": {
+        "question": "Subject-Verb Agreement ka basic universal rule kya hai?",
+        "options": [
+          { "id": "A", "text": "Verb hamesha singular honi chahiye" },
+          { "id": "B", "text": "Singular Subject ke saath Singular Verb, Plural Subject ke saath Plural Verb" },
+          { "id": "C", "text": "Verb subject se koi lena dena nahi rakhti" },
+          { "id": "D", "text": "Verb hamesha plural honi chahiye" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Basic SVA rule: Subject ki number (singular/plural) ke hisaab se hi verb ka form decide hota hai."
+      },
+      "navigation": { "next": "card_08_milestone1", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_08_milestone1",
+      "card_slug": "card_08_milestone1",
+      "type": "milestone",
+      "concept_id": "sva_foundation",
+      "level": 1,
+      "progress": { "current": 8, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🎯",
+        "completed_topic": "Foundation of Subject-Verb Agreement",
+        "xp_earned": 50,
+        "milestone_progress": "Module 1/13 Clear",
+        "motivational_quote": "Real subject dhundhna seekh liya! Ab dekhte hain Either-Or, Neither-Nor ka sabse bada trap."
+      },
+      "navigation": { "next": "card_09_either_or_intro", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_09_either_or_intro",
+      "card_slug": "card_09_either_or_intro",
+      "type": "chat",
+      "concept_id": "nearest_subject_rule",
+      "level": 2,
+      "progress": { "current": 9, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'Either Ram or Shyam' — dono singular hain, toh verb bhi singular hi hogi na, simple si baat hai!" },
+        { "speaker": "aman", "text": "Sahi socha! 'Either Ram or Shyam IS responsible' — dono singular, verb bhi singular. Par ruko, jab dono subjects DIFFERENT NUMBER (ek singular, ek plural) ke hon tab twist aata hai." },
+        { "speaker": "raju", "text": "Hain?? Matlab confusion ho sakta hai agar ek singular ek plural ho?" },
+        { "speaker": "aman", "text": "Bilkul! Aur yahi BPSC/SBI PO ka favourite trap hai. Chalo iska universal rule dekhte hain." }
+      ],
+      "navigation": { "next": "card_10_nearest_subject_rule", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_10_nearest_subject_rule",
+      "card_slug": "card_10_nearest_subject_rule",
+      "type": "chat",
+      "concept_id": "nearest_subject_rule",
+      "level": 2,
+      "progress": { "current": 10, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Universal Rule: Either...or / Neither...nor / Or / Nor mein VERB hamesha us SUBJECT se match karta hai jo VERB KE SABSE PAAS (nearest/closer) ho." },
+        { "speaker": "raju", "text": "Matlab last wale subject ko dekhna hai, pehle wale ko nahi?" },
+        { "speaker": "aman", "text": "Exactly! 'Either Ram or his FRIENDS ARE responsible' — kyunki 'friends' (plural) verb ke paas hai. Agar order badal do — 'Either his friends or RAM IS responsible' — ab 'Ram' (singular) paas hai." },
+        { "speaker": "raju", "text": "⭐ Ye toh super tricky hai! Order badalne se verb bhi badal jaata hai — yaad rakhna padega!" }
+      ],
+      "navigation": { "next": "card_11_neither_nor_full", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_11_neither_nor_full",
+      "card_slug": "card_11_neither_nor_full",
+      "type": "chat",
+      "concept_id": "nearest_subject_rule",
+      "level": 2,
+      "progress": { "current": 11, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Same rule 'Neither...nor' pe bhi lagta hai. 'Neither the teacher nor the STUDENTS WERE present' — 'students' (plural) paas hai isliye 'were'." },
+        { "speaker": "raju", "text": "Aur agar sirf 'Or'/'Nor' akela use ho, bina either/neither ke?" },
+        { "speaker": "aman", "text": "Wahi rule chalega! 'Ram or his brothers ARE coming' — closer subject 'brothers' (plural) se match. Rule sirf either/neither tak simit nahi, saari 'or/nor' wali sentences pe lagta hai." },
+        { "speaker": "raju", "text": "Achha! Toh 'and' wale mein plural fix hota hai but 'or/nor' wale mein nearest subject dekhna padta hai!" }
+      ],
+      "navigation": { "next": "card_12_person_agreement_trap", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_12_person_agreement_trap",
+      "card_slug": "card_12_person_agreement_trap",
+      "type": "chat",
+      "concept_id": "nearest_subject_rule",
+      "level": 2,
+      "progress": { "current": 12, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Ek aur layer suno — jab dono subjects DIFFERENT PERSON (I, You, He) ke hon, tab bhi verb NEAREST subject se match karta hai — 'Either you or I AM wrong' (kyunki 'I' paas hai)." },
+        { "speaker": "raju", "text": "Sir 'Either you or I am wrong' sunne mein toh ajeeb lagta hai!" },
+        { "speaker": "aman", "text": "Haan, sunne mein ajeeb lagta hai isiliye exam iska use karke trap banata hai! Grammar rule ke hisaab se ye 100% sahi hai — nearest subject ('I') se verb ('am') match karega." },
+        { "speaker": "raju", "text": "Note kar liya sir — chahe kitna bhi ajeeb lage, nearest subject rule follow karunga!" }
+      ],
+      "navigation": { "next": "card_13_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_13_quiz1",
+      "card_slug": "card_13_quiz1",
+      "type": "quiz",
+      "concept_id": "nearest_subject_rule",
+      "level": 2,
+      "progress": { "current": 13, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "Neither the manager nor the employees is happy." },
+          { "id": "B", "text": "Neither the manager nor the employees are happy." },
+          { "id": "C", "text": "Neither the manager nor the employees was happy." },
+          { "id": "D", "text": "Neither the manager nor the employees has been happy." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Employees' (plural) verb ke sabse paas hai, isliye plural verb 'are' aayega — Nearest Subject Rule."
+      },
+      "navigation": { "next": "card_14_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_14_quiz2",
+      "card_slug": "card_14_quiz2",
+      "type": "quiz",
+      "concept_id": "nearest_subject_rule",
+      "level": 2,
+      "progress": { "current": 14, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'Either the players or the coach (A)/ are responsible for (B)/ the team's poor performance (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Coach' (singular) verb ke sabse paas hai, isliye singular verb 'is' aayega, 'are' galat hai."
+      },
+      "navigation": { "next": "card_15_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_15_quiz3",
+      "card_slug": "card_15_quiz3",
+      "type": "quiz",
+      "concept_id": "nearest_subject_rule",
+      "level": 2,
+      "progress": { "current": 15, "total": 100 },
+      "quiz_payload": {
+        "question": "'Either you or he ___ mistaken.' Sahi verb chuno:",
+        "options": [
+          { "id": "A", "text": "am" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "is" },
+          { "id": "D", "text": "were" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "'He' (third person singular) verb ke sabse paas hai, isliye 'is' aayega — Nearest Subject Rule person ke hisaab se bhi lagta hai."
+      },
+      "navigation": { "next": "card_16_milestone2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_16_milestone2",
+      "card_slug": "card_16_milestone2",
+      "type": "milestone",
+      "concept_id": "nearest_subject_rule",
+      "level": 2,
+      "progress": { "current": 16, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🎯",
+        "completed_topic": "Either/Or, Neither/Nor — Nearest Subject Rule",
+        "xp_earned": 60,
+        "milestone_progress": "Module 2/13 Clear",
+        "motivational_quote": "SBI PO ka top trap crack kar diya! Ab dekhte hain Collective Nouns ka interesting rule."
+      },
+      "navigation": { "next": "card_17_collective_nouns_intro", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_17_collective_nouns_intro",
+      "card_slug": "card_17_collective_nouns_intro",
+      "type": "chat",
+      "concept_id": "collective_nouns",
+      "level": 3,
+      "progress": { "current": 17, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'team', 'family', 'jury' — ye sab toh bahut logon ka group hote hain, isliye inke saath 'are' hi aayega na?" },
+        { "speaker": "aman", "text": "Ruko Raju, yahan bada trap hai! 'Team, family, jury, class, government, committee, army, crowd' jaise words ko COLLECTIVE NOUNS kehte hain — ye ek GROUP ko ek NAAM se dikhate hain." },
+        { "speaker": "raju", "text": "Toh inke saath verb kaisi aayegi phir?" },
+        { "speaker": "aman", "text": "Universal Rule: Jab group EK UNIT ki tarah, EK SAATH kaam kare, tab SINGULAR verb — 'The team IS playing well.' Jab members ALAG-ALAG, apne apne tarike se act karein, tab PLURAL verb." }
+      ],
+      "navigation": { "next": "card_18_collective_unit_vs_individual", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_18_collective_unit_vs_individual",
+      "card_slug": "card_18_collective_unit_vs_individual",
+      "type": "chat",
+      "concept_id": "collective_nouns",
+      "level": 3,
+      "progress": { "current": 18, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Example dekho difference ka: 'The jury IS considering its verdict' (jury ek saath, ek decision pe kaam kar rahi hai — unit). 'The jury ARE divided in their opinions' (members alag-alag soch rahe hain — individuals)." },
+        { "speaker": "raju", "text": "Achhaaaa! Toh 'divided in opinions' jaisa phrase dikhe to samjhna plural, warna default singular?" },
+        { "speaker": "aman", "text": "Bilkul sahi observation! Default mein collective noun ko SINGULAR treat karo jab tak sentence khud na bataye ki members ALAG kaam kar rahe hain." },
+        { "speaker": "raju", "text": "Note kar liya — default singular, exception tabhi jab 'divided/disagreement/individually' jaisa clue ho!" }
+      ],
+      "navigation": { "next": "card_19_collective_list_bihar", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_19_collective_list_bihar",
+      "card_slug": "card_19_collective_list_bihar",
+      "type": "chat",
+      "concept_id": "collective_nouns",
+      "level": 3,
+      "progress": { "current": 19, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ BPSC TRE Favorite — Bihar SCERT textbook mein Collective Nouns ki common list di jaati hai: family, team, army, jury, class, committee, government, public, crowd, audience, flock, herd, fleet, mob." },
+        { "speaker": "raju", "text": "Sir 'The public IS invited' aur 'The public ARE invited' — dono sahi ho sakte hain kya?" },
+        { "speaker": "aman", "text": "Haan, context pe depend karta hai! 'The public is invited to the function' (ek saath group ki tarah) sahi hai. Lekin agar individual reactions ki baat ho — 'The public are dissatisfied with the decision' bhi sahi hoga." },
+        { "speaker": "raju", "text": "Toh exam mein sentence ka poora context padhna padega, sirf word pe nahi jana!" }
+      ],
+      "navigation": { "next": "card_20_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_20_quiz1",
+      "card_slug": "card_20_quiz1",
+      "type": "quiz",
+      "concept_id": "collective_nouns",
+      "level": 3,
+      "progress": { "current": 20, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "The committee have submitted its report yesterday." },
+          { "id": "B", "text": "The committee has submitted its report yesterday." },
+          { "id": "C", "text": "The committee were submitted its report yesterday." },
+          { "id": "D", "text": "The committee submit its report yesterday." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Committee' ek unit ki tarah kaam kar rahi hai (report submit karna ek collective action hai), isliye singular verb 'has' aayega."
+      },
+      "navigation": { "next": "card_21_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_21_quiz2",
+      "card_slug": "card_21_quiz2",
+      "type": "quiz",
+      "concept_id": "collective_nouns",
+      "level": 3,
+      "progress": { "current": 21, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'The family (A)/ are quarrelling among (B)/ themselves over the property (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "D",
+        "explanation": "Sentence sahi hai! 'Quarrelling among themselves' clue dikhata hai ki family members ALAG-ALAG (individually) act kar rahe hain, isliye plural verb 'are' sahi hai."
+      },
+      "navigation": { "next": "card_22_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_22_quiz3",
+      "card_slug": "card_22_quiz3",
+      "type": "quiz",
+      "concept_id": "collective_nouns",
+      "level": 3,
+      "progress": { "current": 22, "total": 100 },
+      "quiz_payload": {
+        "question": "Collective Noun ke saath default rule kya hota hai?",
+        "options": [
+          { "id": "A", "text": "Hamesha plural verb" },
+          { "id": "B", "text": "Hamesha singular verb jab tak members alag-alag act na kar rahe hon" },
+          { "id": "C", "text": "Kabhi bhi verb nahi lagti" },
+          { "id": "D", "text": "Hamesha 'am' lagta hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Collective nouns default mein singular treat hote hain (ek unit), plural sirf tab jab members individually/separately act kar rahe hon."
+      },
+      "navigation": { "next": "card_23_milestone3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_23_milestone3",
+      "card_slug": "card_23_milestone3",
+      "type": "milestone",
+      "concept_id": "collective_nouns",
+      "level": 3,
+      "progress": { "current": 23, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "👨‍👩‍👧‍👦",
+        "completed_topic": "Collective Nouns",
+        "xp_earned": 60,
+        "milestone_progress": "Module 3/13 Clear",
+        "motivational_quote": "Unit vs Individual ka farak samajh gaye! Ab Indefinite Pronouns ka bada trap dekhte hain."
+      },
+      "navigation": { "next": "card_24_each_every_intro", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_24_each_every_intro",
+      "card_slug": "card_24_each_every_intro",
+      "type": "chat",
+      "concept_id": "indefinite_pronouns",
+      "level": 4,
+      "progress": { "current": 24, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'Each of the boys' — 'boys' toh plural hai, isliye 'are' aayega na?" },
+        { "speaker": "aman", "text": "⭐ Yahi sabse bada trap hai Raju! 'Each', 'Every', 'Either', 'Neither' — ye chaaron words hamesha SINGULAR treat hote hain, chahe baad mein kitna bhi plural noun aaye." },
+        { "speaker": "raju", "text": "Hain?? 'Each of the boys IS' — sahi hoga? Ye toh ajeeb lagta hai!" },
+        { "speaker": "aman", "text": "Bilkul sahi! 'Each of the boys IS intelligent.' Yahan 'boys' sirf 'of' phrase ka part hai, asli subject 'Each' hai jo hamesha singular hota hai." }
+      ],
+      "navigation": { "next": "card_25_everyone_everybody", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_25_everyone_everybody",
+      "card_slug": "card_25_everyone_everybody",
+      "type": "chat",
+      "concept_id": "indefinite_pronouns",
+      "level": 4,
+      "progress": { "current": 25, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab ek badi list yaad karo jo HAMESHA singular hoti hai: everyone, everybody, everything, someone, somebody, something, anyone, anybody, anything, no one, nobody, nothing." },
+        { "speaker": "raju", "text": "Sir 'Everyone ARE happy' galat hoga toh? Bahut logon ki baat lag rahi hai isme!" },
+        { "speaker": "aman", "text": "Bilkul galat! Chahe 'everyone' se bahut saare logon ka bhavna nikle, grammar mein ye SINGULAR hi treat hota hai. Sahi: 'Everyone IS happy.'" },
+        { "speaker": "raju", "text": "⭐ Note kar liya — every/some/any/no + one/body/thing = HAMESHA singular, ye BPSC ka super common trap hai!" }
+      ],
+      "navigation": { "next": "card_26_none_trap", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_26_none_trap",
+      "card_slug": "card_26_none_trap",
+      "type": "chat",
+      "concept_id": "indefinite_pronouns",
+      "level": 4,
+      "progress": { "current": 26, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Ab sabse tricky word — 'NONE'. Traditional grammar rule (BPSC officers isko favour karte hain): 'None' = 'not one', isliye ye SINGULAR treat hota hai — 'None of the students IS present.'" },
+        { "speaker": "raju", "text": "Sir maine to 'None of them ARE here' bhi suna hai, wo galat hai kya?" },
+        { "speaker": "aman", "text": "Modern/flexible usage mein jab 'none' clearly MULTIPLE items ka reference de raha ho, plural verb bhi accept hota hai. Lekin FORMAL/BPSC exams mein SINGULAR ('is/was/has') ko hi sabse SAHI/PREFERRED answer maana jaata hai." },
+        { "speaker": "raju", "text": "Toh exam mein 'None' dikhte hi singular verb wala option choose karunga, safe rahega!" }
+      ],
+      "navigation": { "next": "card_27_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_27_quiz1",
+      "card_slug": "card_27_quiz1",
+      "type": "quiz",
+      "concept_id": "indefinite_pronouns",
+      "level": 4,
+      "progress": { "current": 27, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "Each of the players have received a medal." },
+          { "id": "B", "text": "Each of the players has received a medal." },
+          { "id": "C", "text": "Each of the players were received a medal." },
+          { "id": "D", "text": "Each of the players are receiving a medal each." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Each' hamesha singular hota hai, chahe baad mein 'of the players' (plural) aaye. Sahi verb 'has received' hoga."
+      },
+      "navigation": { "next": "card_28_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_28_quiz2",
+      "card_slug": "card_28_quiz2",
+      "type": "quiz",
+      "concept_id": "indefinite_pronouns",
+      "level": 4,
+      "progress": { "current": 28, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'Everybody in the office (A)/ have completed (B)/ their tasks before the deadline (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Everybody' hamesha singular treat hota hai, isliye 'has completed' aayega, 'have completed' galat hai."
+      },
+      "navigation": { "next": "card_29_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_29_quiz3",
+      "card_slug": "card_29_quiz3",
+      "type": "quiz",
+      "concept_id": "indefinite_pronouns",
+      "level": 4,
+      "progress": { "current": 29, "total": 100 },
+      "quiz_payload": {
+        "question": "BPSC exam ke hisaab se 'None of the water ___ left in the bottle' mein sahi/preferred verb kya hai?",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "were" },
+          { "id": "C", "text": "is" },
+          { "id": "D", "text": "have" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "'None' (not one) traditionally/formally singular verb leta hai. BPSC/formal exams mein 'is' hi preferred/correct answer hai."
+      },
+      "navigation": { "next": "card_30_milestone4", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_30_milestone4",
+      "card_slug": "card_30_milestone4",
+      "type": "milestone",
+      "concept_id": "indefinite_pronouns",
+      "level": 4,
+      "progress": { "current": 30, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🔤",
+        "completed_topic": "Indefinite Pronouns Agreement",
+        "xp_earned": 65,
+        "milestone_progress": "Module 4/13 Clear",
+        "motivational_quote": "Each/Every/None ka trap crack kar diya! Ab dekhte hain kuch ajeeb dikhne wale nouns."
+      },
+      "navigation": { "next": "card_31_uncountable_singular_intro", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_31_uncountable_singular_intro",
+      "card_slug": "card_31_uncountable_singular_intro",
+      "type": "chat",
+      "concept_id": "special_nouns",
+      "level": 5,
+      "progress": { "current": 31, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'News' ke aakhir mein 's' hai, matlab ye plural hoga, 'are' lagega?" },
+        { "speaker": "aman", "text": "⭐ Bilkul nahi Raju! 'News' dikhne mein plural lagta hai (s se khatam) lekin ye HAMESHA SINGULAR hota hai — 'The news IS shocking.' Aisi hi kuch aur words hain jo -s se khatam hoke bhi singular hain." },
+        { "speaker": "raju", "text": "Aur kaunse words aise hain sir?" },
+        { "speaker": "aman", "text": "Subjects/Diseases jo -ics se khatam hote hain: Mathematics, Physics, Economics, Ethics, Statistics (jab subject ki baat ho). Aur diseases: Measles, Mumps, Rickets. Sab SINGULAR verb lete hain." }
+      ],
+      "navigation": { "next": "card_32_statistics_dual_nature", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_32_statistics_dual_nature",
+      "card_slug": "card_32_statistics_dual_nature",
+      "type": "chat",
+      "concept_id": "special_nouns",
+      "level": 5,
+      "progress": { "current": 32, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ 'Statistics' ka ek special DUAL nature hai jo BPSC bahut poochta hai — jab SUBJECT/DISCIPLINE ki baat ho, SINGULAR: 'Statistics IS an interesting subject.'" },
+        { "speaker": "raju", "text": "Aur jab 'statistics' ka matlab 'data/numbers' ho, tab?" },
+        { "speaker": "aman", "text": "Tab PLURAL treat hota hai! 'The statistics of this survey ARE alarming.' Yahan 'statistics' matlab collected numbers/data, isliye plural verb." },
+        { "speaker": "raju", "text": "⭐ Achha! Toh 'statistics' subject=singular, 'statistics' data=plural — matlab dekhna padega!" }
+      ],
+      "navigation": { "next": "card_33_always_plural_nouns", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_33_always_plural_nouns",
+      "card_slug": "card_33_always_plural_nouns",
+      "type": "chat",
+      "concept_id": "special_nouns",
+      "level": 5,
+      "progress": { "current": 33, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab ulta case dekho — kuch nouns dikhte singular jaise nahi, but HAMESHA PLURAL hote hain: scissors, trousers, spectacles, glasses (chashma), pants, tongs, scales, jeans." },
+        { "speaker": "raju", "text": "Sir 'The scissors IS on the table' galat hoga toh?" },
+        { "speaker": "aman", "text": "Bilkul sahi pakda! 'The scissors ARE on the table' sahi hai — ye words dono parts (do blades/legs) se milkar bante hain isliye hamesha plural. Singular banane ke liye 'A PAIR OF scissors IS...' bolte hain." },
+        { "speaker": "raju", "text": "Toh 'pair of' lagao to singular, warna direct word hamesha plural — note kar liya!" }
+      ],
+      "navigation": { "next": "card_34_uncountable_furniture", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_34_uncountable_furniture",
+      "card_slug": "card_34_uncountable_furniture",
+      "type": "chat",
+      "concept_id": "special_nouns",
+      "level": 5,
+      "progress": { "current": 34, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Ek aur category — UNCOUNTABLE nouns jo hamesha SINGULAR verb lete hain: furniture, information, advice, luggage, equipment, machinery, baggage, scenery, poetry, knowledge." },
+        { "speaker": "raju", "text": "Sir 'Furniture' toh bahut saari cheezein (table, chair, sofa) hoti hain, phir bhi singular?" },
+        { "speaker": "aman", "text": "Bilkul! In sab ko ek SINGLE MASS/CATEGORY ki tarah treat kiya jaata hai, individually count nahi kiya jaata. 'The furniture IS expensive' — chahe usme 10 items ho, verb singular hi rahega." },
+        { "speaker": "raju", "text": "⭐ Toh 'furnitures' word bhi exist nahi karta English mein? Ye toh common mistake lagti hai!" }
+      ],
+      "navigation": { "next": "card_35_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_35_quiz1",
+      "card_slug": "card_35_quiz1",
+      "type": "quiz",
+      "concept_id": "special_nouns",
+      "level": 5,
+      "progress": { "current": 35, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "Mathematics are my favourite subject." },
+          { "id": "B", "text": "Mathematics is my favourite subject." },
+          { "id": "C", "text": "Mathematics were my favourite subject." },
+          { "id": "D", "text": "Mathematics have been my favourite subject." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Mathematics' -ics se khatam hone wala subject name hai, ye hamesha singular verb leta hai — 'is'."
+      },
+      "navigation": { "next": "card_36_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_36_quiz2",
+      "card_slug": "card_36_quiz2",
+      "type": "quiz",
+      "concept_id": "special_nouns",
+      "level": 5,
+      "progress": { "current": 36, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'My new pair of scissors (A)/ have gone missing (B)/ from the drawer (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Pair of scissors' asli subject 'pair' hai jo SINGULAR hai. Sahi: 'has gone missing', 'have gone' galat hai."
+      },
+      "navigation": { "next": "card_37_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_37_quiz3",
+      "card_slug": "card_37_quiz3",
+      "type": "quiz",
+      "concept_id": "special_nouns",
+      "level": 5,
+      "progress": { "current": 37, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'The furniture in this house (A)/ are very old (B)/ and needs replacement (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Furniture' ek uncountable noun hai jo hamesha singular verb leta hai. Sahi: 'is very old', 'are' galat hai."
+      },
+      "navigation": { "next": "card_38_milestone5", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_38_milestone5",
+      "card_slug": "card_38_milestone5",
+      "type": "milestone",
+      "concept_id": "special_nouns",
+      "level": 5,
+      "progress": { "current": 38, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "📐",
+        "completed_topic": "Always-Singular & Always-Plural Nouns",
+        "xp_earned": 70,
+        "milestone_progress": "Module 5/13 Clear",
+        "motivational_quote": "News, Mathematics, Scissors ka trap crack kar diya! Ab Distance-Money-Time ka rule dekhte hain."
+      },
+      "navigation": { "next": "card_39_quantity_unit_intro", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_39_quantity_unit_intro",
+      "card_slug": "card_39_quantity_unit_intro",
+      "type": "chat",
+      "concept_id": "quantity_as_unit",
+      "level": 6,
+      "progress": { "current": 39, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'Two hundred rupees' plural lagta hai, isliye 'are' aayega na exam mein?" },
+        { "speaker": "aman", "text": "⭐ Ruko Raju, universal rule yaad karo — jab Distance, Money, Time, Weight ek SINGLE TOTAL AMOUNT/UNIT ki tarah socha jaaye, tab SINGULAR verb aata hai, plural number dikhne ke baawajood." },
+        { "speaker": "raju", "text": "Matlab 'do sau rupaye' ek poora amount hai, individual notes nahi?" },
+        { "speaker": "aman", "text": "Bilkul sahi! 'Two hundred rupees IS a good amount' — kyunki hum total amount ki baat kar rahe hain, alag-alag notes ki nahi. Same rule: 'Ten kilometers IS a long distance.'" }
+      ],
+      "navigation": { "next": "card_40_quantity_examples", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_40_quantity_examples",
+      "card_slug": "card_40_quantity_examples",
+      "type": "chat",
+      "concept_id": "quantity_as_unit",
+      "level": 6,
+      "progress": { "current": 40, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Aur examples dekho: 'Five years IS a long time to wait.' 'Twenty kilograms IS too heavy for her to carry.' Sab TOTAL amount/single unit ki tarah hain." },
+        { "speaker": "raju", "text": "Toh chahe number kitna bhi bada ho, agar TOTAL amount ki baat ho rahi hai, singular verb hi aayegi?" },
+        { "speaker": "aman", "text": "Exactly! Amount/Distance/Time/Weight jab EK IDEA/EK QUANTITY ki tarah treat ho (not individual items), tab hamesha singular." },
+        { "speaker": "raju", "text": "Achha! Toh ye rule 'Each/Every' jaisa hi hai — dikhta plural hai but treat singular hota hai!" }
+      ],
+      "navigation": { "next": "card_41_quantity_individual_contrast", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_41_quantity_individual_contrast",
+      "card_slug": "card_41_quantity_individual_contrast",
+      "type": "chat",
+      "concept_id": "quantity_as_unit",
+      "level": 6,
+      "progress": { "current": 41, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Ab ek contrast trap suno — agar sentence mein INDIVIDUAL items ki baat ho rahi ho (har ek alag count ho raha ho), tab PLURAL verb aayega." },
+        { "speaker": "raju", "text": "Matlab kaise sir, ek example dijiye?" },
+        { "speaker": "aman", "text": "'Ten rupee notes WERE scattered on the floor' — yahan 'notes' individually count ho rahe hain (10 alag-alag notes), isliye plural 'were'. Compare karo: 'Ten rupees IS not enough' (total amount)." },
+        { "speaker": "raju", "text": "⭐ Ohh! Toh 'notes/coins' jaisa individual counting word dikhe to plural, agar sirf TOTAL amount ki baat ho to singular — samajh gaya!" }
+      ],
+      "navigation": { "next": "card_42_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_42_quiz1",
+      "card_slug": "card_42_quiz1",
+      "type": "quiz",
+      "concept_id": "quantity_as_unit",
+      "level": 6,
+      "progress": { "current": 42, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "Five kilometers are a long distance to walk daily." },
+          { "id": "B", "text": "Five kilometers is a long distance to walk daily." },
+          { "id": "C", "text": "Five kilometers were a long distance to walk daily." },
+          { "id": "D", "text": "Five kilometers have been a long distance to walk daily." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Distance ek total quantity/single unit ki tarah treat hoti hai, isliye singular verb 'is' aayega."
+      },
+      "navigation": { "next": "card_43_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_43_quiz2",
+      "card_slug": "card_43_quiz2",
+      "type": "quiz",
+      "concept_id": "quantity_as_unit",
+      "level": 6,
+      "progress": { "current": 43, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'Twenty thousand rupees (A)/ were deposited by him (B)/ in his savings account (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "D",
+        "explanation": "Ye sentence sahi hai — yahan 'twenty thousand rupees' ek SPECIFIC action (deposit karna) ka object hai jisme individual amount deposit hui, is context mein plural verb bhi acceptable/correct hai jab exact sum ek transaction amount ki tarah treat ho raha ho with passive structure. (Note: Context sentences may allow both; standard convention here treats it as correct with 'were'.)"
+      },
+      "navigation": { "next": "card_44_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_44_quiz3",
+      "card_slug": "card_44_quiz3",
+      "type": "quiz",
+      "concept_id": "quantity_as_unit",
+      "level": 6,
+      "progress": { "current": 44, "total": 100 },
+      "quiz_payload": {
+        "question": "'Ten years ___ a long time to spend in prison.' Sahi verb chuno:",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "were" },
+          { "id": "D", "text": "have been" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Ten years' yahan ek TOTAL DURATION (single unit/idea) ki tarah treat ho raha hai, isliye singular verb 'is' aayega."
+      },
+      "navigation": { "next": "card_45_milestone6", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_45_milestone6",
+      "card_slug": "card_45_milestone6",
+      "type": "milestone",
+      "concept_id": "quantity_as_unit",
+      "level": 6,
+      "progress": { "current": 45, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "💰",
+        "completed_topic": "Distance/Money/Time as Single Unit",
+        "xp_earned": 70,
+        "milestone_progress": "Module 6/13 Clear",
+        "motivational_quote": "Quantity ka trap samajh gaye! Ab dekhte hain 'as well as' jaise phrases ka bada twist."
+      },
+      "navigation": { "next": "card_46_parenthetical_intro", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_46_parenthetical_intro",
+      "card_slug": "card_46_parenthetical_intro",
+      "type": "chat",
+      "concept_id": "parenthetical_phrases",
+      "level": 7,
+      "progress": { "current": 46, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'The teacher, as well as the students, ARE going' — dono mil ke jaa rahe hain toh plural sahi hoga na?" },
+        { "speaker": "aman", "text": "⭐ Yahi sabse bada trap hai Raju! 'As well as', 'along with', 'together with', 'in addition to', 'besides', 'accompanied by' — ye sab PARENTHETICAL phrases hain, ye 'AND' ki tarah kaam NAHI karte." },
+        { "speaker": "raju", "text": "Matlab inka koi asar verb pe nahi padta?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Verb hamesha MAIN subject (phrase se PEHLE wala) se match karega. 'The teacher, as well as the students, IS going' — 'teacher' (singular) hi asli subject hai." }
+      ],
+      "navigation": { "next": "card_47_parenthetical_examples", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_47_parenthetical_examples",
+      "card_slug": "card_47_parenthetical_examples",
+      "type": "chat",
+      "concept_id": "parenthetical_phrases",
+      "level": 7,
+      "progress": { "current": 47, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Aur examples dekho: 'The Principal, along with the teachers, IS attending the function.' 'Ram, together with his friends, HAS reached home.'" },
+        { "speaker": "raju", "text": "Sir isme commas bhi lage hain, kya ye zaroori hai?" },
+        { "speaker": "aman", "text": "Bahut acha dhyan diya! Ye phrases usually COMMAS ke beech mein aate hain, jaise ek EXTRA/ADDITIONAL information ho — is wajah se ye asli subject ki NUMBER change nahi karte." },
+        { "speaker": "raju", "text": "Achha! Toh comma dikhe aur 'as well as/along with' jaisa word dikhe, samajh jaunga MAIN subject hi verb decide karega!" }
+      ],
+      "navigation": { "next": "card_48_and_vs_parenthetical", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_48_and_vs_parenthetical",
+      "card_slug": "card_48_and_vs_parenthetical",
+      "type": "chat",
+      "concept_id": "parenthetical_phrases",
+      "level": 7,
+      "progress": { "current": 48, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Ab dhyan se compare karo — 'AND' se joda gaya subject HAMESHA plural banata hai, lekin 'as well as/along with' se joda gaya subject NUMBER change NAHI karta." },
+        { "speaker": "raju", "text": "Matlab 'Ram AND Shyam ARE going' but 'Ram, along with Shyam, IS going' — same meaning but verb alag?" },
+        { "speaker": "aman", "text": "Bilkul sahi pakda! Yahi exact difference hai jo exam mein test kiya jaata hai. Meaning same lag sakta hai but GRAMMAR RULE alag hai — 'and'=plural fix, 'along with/as well as'=main subject follow karo." },
+        { "speaker": "raju", "text": "⭐ Ye toh bahut fine trap hai, dhyan se comma aur connecting word dekhna padega!" }
+      ],
+      "navigation": { "next": "card_49_no_one_but_trap", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_49_no_one_but_trap",
+      "card_slug": "card_49_no_one_but_trap",
+      "type": "chat",
+      "concept_id": "parenthetical_phrases",
+      "level": 7,
+      "progress": { "current": 49, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Ek aur similar structure — 'No one but' aur 'Not...but' mein bhi verb pehle subject se match karta hai, bich mein aane wale words asar nahi dalte." },
+        { "speaker": "raju", "text": "Sir 'No one but Ram WAS present' — 'Ram' se match karega, na ki 'no one' se?" },
+        { "speaker": "aman", "text": "Yahan dono hi singular hain isliye confusion nahi, but rule yahi hai — 'but Ram' ek EXCEPTION phrase hai, main subject 'No one' hi verb decide karta hai (jo already singular hai)." },
+        { "speaker": "raju", "text": "Theek hai sir, main aage practice mein aur clear samjhunga!" }
+      ],
+      "navigation": { "next": "card_50_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_50_quiz1",
+      "card_slug": "card_50_quiz1",
+      "type": "quiz",
+      "concept_id": "parenthetical_phrases",
+      "level": 7,
+      "progress": { "current": 50, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "The Principal, along with the teachers, are attending the meeting." },
+          { "id": "B", "text": "The Principal, along with the teachers, is attending the meeting." },
+          { "id": "C", "text": "The Principal, along with the teachers, were attending the meeting." },
+          { "id": "D", "text": "The Principal, along with the teachers, have attended the meeting." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Along with the teachers' ek parenthetical phrase hai, ye main subject 'Principal' (singular) ki number change nahi karta. Sahi verb 'is'."
+      },
+      "navigation": { "next": "card_51_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_51_quiz2",
+      "card_slug": "card_51_quiz2",
+      "type": "quiz",
+      "concept_id": "parenthetical_phrases",
+      "level": 7,
+      "progress": { "current": 51, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'The captain (A)/ as well as his players (B)/ were penalised for misconduct (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "'As well as his players' ek parenthetical phrase hai, main subject 'captain' (singular) hai. Sahi: 'was penalised', 'were penalised' galat hai."
+      },
+      "navigation": { "next": "card_52_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_52_quiz3",
+      "card_slug": "card_52_quiz3",
+      "type": "quiz",
+      "concept_id": "parenthetical_phrases",
+      "level": 7,
+      "progress": { "current": 52, "total": 100 },
+      "quiz_payload": {
+        "question": "'Ram AND Shyam' vs 'Ram, along with Shyam,' — inme verb ka farak kya hoga?",
+        "options": [
+          { "id": "A", "text": "Dono mein plural verb aayegi" },
+          { "id": "B", "text": "Dono mein singular verb aayegi" },
+          { "id": "C", "text": "'And' se plural, 'along with' se main subject (singular) follow hoga" },
+          { "id": "D", "text": "Koi farak nahi hota" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "'And' hamesha plural verb banata hai, jabki 'along with/as well as' jaise parenthetical phrases main subject ki number change nahi karte."
+      },
+      "navigation": { "next": "card_53_milestone7", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_53_milestone7",
+      "card_slug": "card_53_milestone7",
+      "type": "milestone",
+      "concept_id": "parenthetical_phrases",
+      "level": 7,
+      "progress": { "current": 53, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🔗",
+        "completed_topic": "Parenthetical Phrases (As Well As / Along With)",
+        "xp_earned": 75,
+        "milestone_progress": "Module 7/13 Clear",
+        "motivational_quote": "SBI PO ka fine-line trap crack kar diya! Ab There/Here Inversion ka interesting rule dekhte hain."
+      },
+      "navigation": { "next": "card_54_there_is_are_intro", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_54_there_is_are_intro",
+      "card_slug": "card_54_there_is_are_intro",
+      "type": "chat",
+      "concept_id": "there_here_inversion",
+      "level": 8,
+      "progress": { "current": 54, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'There is/are' mein subject to 'There' hi hota hai na, isliye hamesha singular hoga?" },
+        { "speaker": "aman", "text": "⭐ Bilkul nahi Raju! 'There' kabhi bhi asli subject NAHI hota — ye sirf ek DUMMY/INTRODUCTORY word hai. Asli subject VERB KE BAAD aata hai." },
+        { "speaker": "raju", "text": "Hain?? Toh verb ke baad wale word se match karna hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi! 'There IS a book on the table' (book=singular). 'There ARE many books on the table' (books=plural). Verb hamesha us noun se match karega jo 'is/are' ke TURANT BAAD aaye." }
+      ],
+      "navigation": { "next": "card_55_here_comes_inversion", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_55_here_comes_inversion",
+      "card_slug": "card_55_here_comes_inversion",
+      "type": "chat",
+      "concept_id": "there_here_inversion",
+      "level": 8,
+      "progress": { "current": 55, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Same rule 'Here' ke saath bhi lagta hai — 'Here COMES the bus' (bus=singular). 'Here COME the buses' (buses=plural). Ye INVERSION structures hain jahan verb subject se pehle aa jaata hai." },
+        { "speaker": "raju", "text": "Toh normal order 'Subject+Verb' hota hai, but yahan 'Verb+Subject' ho jaata hai?" },
+        { "speaker": "aman", "text": "Exactly! Isko GRAMMATICAL INVERSION kehte hain. Rule same rehta hai bas order badal jaata hai — hamesha REAL SUBJECT (jo baad mein aa raha hai) se verb match karo, 'there/here' se nahi." },
+        { "speaker": "raju", "text": "Note kar liya — 'There/Here' sirf introductory word hai, real subject dhundo verb ke baad!" }
+      ],
+      "navigation": { "next": "card_56_question_inversion", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_56_question_inversion",
+      "card_slug": "card_56_question_inversion",
+      "type": "chat",
+      "concept_id": "there_here_inversion",
+      "level": 8,
+      "progress": { "current": 56, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Ek aur inversion case — QUESTIONS mein bhi verb subject se pehle aa jaata hai, but rule same rehta hai. 'IS the information correct?' (information=singular). 'ARE the reports ready?' (reports=plural)." },
+        { "speaker": "raju", "text": "Toh questions mein bhi wahi subject-verb matching dhundhni hai, bas order ulta hoga?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Chahe statement ho ya question, chahe 'there/here' se shuru ho — SVA ka rule kabhi nahi badalta, sirf word-order badalta hai." },
+        { "speaker": "raju", "text": "Achha, matlab main hamesha REAL subject dhundunga, chahe wo pehle aaye ya baad mein!" }
+      ],
+      "navigation": { "next": "card_57_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_57_quiz1",
+      "card_slug": "card_57_quiz1",
+      "type": "quiz",
+      "concept_id": "there_here_inversion",
+      "level": 8,
+      "progress": { "current": 57, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "There is many problems in this plan." },
+          { "id": "B", "text": "There are many problems in this plan." },
+          { "id": "C", "text": "There has many problems in this plan." },
+          { "id": "D", "text": "There was many problems in this plan." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Real subject 'problems' (plural) hai jo 'there' ke baad aa raha hai, isliye plural verb 'are' aayega."
+      },
+      "navigation": { "next": "card_58_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_58_quiz2",
+      "card_slug": "card_58_quiz2",
+      "type": "quiz",
+      "concept_id": "there_here_inversion",
+      "level": 8,
+      "progress": { "current": 58, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'There (A)/ was several reasons (B)/ for his sudden resignation (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Real subject 'reasons' (plural) hai. Sahi: 'were several reasons', 'was' galat hai."
+      },
+      "navigation": { "next": "card_59_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_59_quiz3",
+      "card_slug": "card_59_quiz3",
+      "type": "quiz",
+      "concept_id": "there_here_inversion",
+      "level": 8,
+      "progress": { "current": 59, "total": 100 },
+      "quiz_payload": {
+        "question": "'There' ya 'Here' se shuru hone wale sentences mein verb kis se match karta hai?",
+        "options": [
+          { "id": "A", "text": "'There/Here' se, jo hamesha singular hota hai" },
+          { "id": "B", "text": "Real subject se jo verb ke baad aata hai" },
+          { "id": "C", "text": "Sentence ke sabse pehle word se" },
+          { "id": "D", "text": "Kisi se bhi match nahi karta" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'There/Here' sirf introductory/dummy words hain, asli subject verb ke BAAD aata hai aur usi se verb match hoti hai."
+      },
+      "navigation": { "next": "card_60_milestone8", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_60_milestone8",
+      "card_slug": "card_60_milestone8",
+      "type": "milestone",
+      "concept_id": "there_here_inversion",
+      "level": 8,
+      "progress": { "current": 60, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🔄",
+        "completed_topic": "There/Here & Question Inversion",
+        "xp_earned": 70,
+        "milestone_progress": "Module 8/13 Clear",
+        "motivational_quote": "Inversion ka trap crack kar diya! Ab dekhte hain Gerund subjects ka rule."
+      },
+      "navigation": { "next": "card_61_gerund_intro", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_61_gerund_intro",
+      "card_slug": "card_61_gerund_intro",
+      "type": "chat",
+      "concept_id": "gerund_infinitive_subject",
+      "level": 9,
+      "progress": { "current": 61, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'Playing video games' — 'games' plural hai, toh verb plural hogi na?" },
+        { "speaker": "aman", "text": "⭐ Nahi Raju! Jab GERUND (V-ing form jo NOUN ki tarah kaam kare) SUBJECT ho, poora GERUND PHRASE ek SINGLE ACTIVITY/IDEA treat hota hai — hamesha SINGULAR verb." },
+        { "speaker": "raju", "text": "Toh 'Playing video games IS his hobby' sahi hoga, 'games' ko ignore karna hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Asli subject 'Playing' (gerund) hai, 'games' sirf uska object hai. Poora phrase ek IDEA hai, isliye singular verb." }
+      ],
+      "navigation": { "next": "card_62_infinitive_subject", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_62_infinitive_subject",
+      "card_slug": "card_62_infinitive_subject",
+      "type": "chat",
+      "concept_id": "gerund_infinitive_subject",
+      "level": 9,
+      "progress": { "current": 62, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Same rule INFINITIVE (to+V1) subject ke saath bhi lagta hai. 'To win this match IS very important for us.' Poora infinitive phrase singular treat hota hai." },
+        { "speaker": "raju", "text": "Achha, toh Gerund aur Infinitive dono ka rule same hai — hamesha singular verb?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Chahe 'Reading books' ho ya 'To read books' ho, jab ye poora phrase SUBJECT ki tarah kaam kare, verb hamesha SINGULAR hi hogi." },
+        { "speaker": "raju", "text": "Note kar liya — Gerund/Infinitive subject = hamesha singular, bina exception ke!" }
+      ],
+      "navigation": { "next": "card_63_multiple_gerunds_trap", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_63_multiple_gerunds_trap",
+      "card_slug": "card_63_multiple_gerunds_trap",
+      "type": "chat",
+      "concept_id": "gerund_infinitive_subject",
+      "level": 9,
+      "progress": { "current": 63, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Ek exception suno — jab DO SEPARATE gerund phrases 'and' se joڑe jaayein, tab PLURAL verb aata hai, kyunki ab do alag activities ki baat ho rahi hai." },
+        { "speaker": "raju", "text": "Matlab jaise 'Reading books and playing cricket' — dono alag hobbies hain?" },
+        { "speaker": "aman", "text": "Bilkul sahi! 'Reading books and playing cricket ARE his favourite hobbies' — do alag activities hain isliye plural. Compare karo single gerund se: 'Reading books IS his hobby' (ek hi activity)." },
+        { "speaker": "raju", "text": "⭐ Toh ek gerund=singular, do gerund 'and' se jude=plural — bilkul 'and' wale normal rule jaisa hi!" }
+      ],
+      "navigation": { "next": "card_64_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_64_quiz1",
+      "card_slug": "card_64_quiz1",
+      "type": "quiz",
+      "concept_id": "gerund_infinitive_subject",
+      "level": 9,
+      "progress": { "current": 64, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "Solving these puzzles are quite difficult." },
+          { "id": "B", "text": "Solving these puzzles is quite difficult." },
+          { "id": "C", "text": "Solving these puzzles were quite difficult." },
+          { "id": "D", "text": "Solving these puzzles have been quite difficult." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Solving these puzzles' ek gerund phrase hai, ek SINGLE activity ki tarah treat hota hai, isliye singular verb 'is' aayega."
+      },
+      "navigation": { "next": "card_65_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_65_quiz2",
+      "card_slug": "card_65_quiz2",
+      "type": "quiz",
+      "concept_id": "gerund_infinitive_subject",
+      "level": 9,
+      "progress": { "current": 65, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'To speak the truth (A)/ and to keep promises (B)/ are important values in life (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "D",
+        "explanation": "Sentence sahi hai! Do separate infinitive phrases ('to speak' AND 'to keep') 'and' se jude hain, isliye PLURAL verb 'are' sahi hai."
+      },
+      "navigation": { "next": "card_66_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_66_quiz3",
+      "card_slug": "card_66_quiz3",
+      "type": "quiz",
+      "concept_id": "gerund_infinitive_subject",
+      "level": 9,
+      "progress": { "current": 66, "total": 100 },
+      "quiz_payload": {
+        "question": "Ek single Gerund phrase subject ho to verb kaisi hogi?",
+        "options": [
+          { "id": "A", "text": "Hamesha plural" },
+          { "id": "B", "text": "Hamesha singular" },
+          { "id": "C", "text": "Subject ke andar wale noun pe depend karega" },
+          { "id": "D", "text": "Koi verb nahi lagti" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Ek single gerund phrase (jaise 'Playing games') ek activity/idea ki tarah treat hota hai, isliye HAMESHA singular verb leta hai."
+      },
+      "navigation": { "next": "card_67_milestone9", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_67_milestone9",
+      "card_slug": "card_67_milestone9",
+      "type": "milestone",
+      "concept_id": "gerund_infinitive_subject",
+      "level": 9,
+      "progress": { "current": 67, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "✍️",
+        "completed_topic": "Gerund/Infinitive Subjects",
+        "xp_earned": 75,
+        "milestone_progress": "Module 9/13 Clear",
+        "motivational_quote": "Gerund ka rule pakka ho gaya! Ab Percentage aur Fraction ka interesting twist dekhte hain."
+      },
+      "navigation": { "next": "card_68_percentage_intro", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_68_percentage_intro",
+      "card_slug": "card_68_percentage_intro",
+      "type": "chat",
+      "concept_id": "percentage_fraction",
+      "level": 10,
+      "progress": { "current": 68, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'Fifty percent' mein 'fifty' plural jaisa lagta hai, hamesha 'are' aayega kya?" },
+        { "speaker": "aman", "text": "⭐ Bilkul nahi! Percentage/Fraction (half, one-third, 50%) ke saath rule bilkul alag hai — verb hamesha us NOUN se match karta hai jo 'OF' KE BAAD aaye, khud percentage number se nahi." },
+        { "speaker": "raju", "text": "Matlab 'of' ke baad wala word dekhna hai, na ki number ko?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Ye Percentage/Fraction ka SPECIAL rule hai jo baaki saari sentences se alag hai — 'of' ke baad SINGULAR noun ho toh SINGULAR verb, PLURAL noun ho toh PLURAL verb." }
+      ],
+      "navigation": { "next": "card_69_percentage_singular_example", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_69_percentage_singular_example",
+      "card_slug": "card_69_percentage_singular_example",
+      "type": "chat",
+      "concept_id": "percentage_fraction",
+      "level": 10,
+      "progress": { "current": 69, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Example dekho: 'Fifty percent of the WORK IS done.' Yahan 'work' (uncountable/singular) hai, isliye singular verb 'is' aaya." },
+        { "speaker": "raju", "text": "Aur agar 'work' ki jagah koi plural noun ho jaaye?" },
+        { "speaker": "aman", "text": "Tab verb bhi plural ho jaayegi! Ye rule 'One-third', 'Two-thirds', 'A lot of', 'Plenty of', 'Majority of', 'Rest of' — sab pe SAME lagta hai. 'Of' ke baad wala noun hi decide karta hai." },
+        { "speaker": "raju", "text": "Achha! Toh ye poori family hai similar words ki jo same rule follow karti hai!" }
+      ],
+      "navigation": { "next": "card_70_percentage_plural_example", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_70_percentage_plural_example",
+      "card_slug": "card_70_percentage_plural_example",
+      "type": "chat",
+      "concept_id": "percentage_fraction",
+      "level": 10,
+      "progress": { "current": 70, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Plural example dekho: 'Fifty percent of the STUDENTS ARE present.' Yahan 'students' (plural) hai, isliye plural verb 'are' aaya — same '50 percent' number hai but verb badal gaya!" },
+        { "speaker": "raju", "text": "Wahi number, but 'work' ke saath 'is' aur 'students' ke saath 'are' — matlab number khud kuch decide nahi karta?" },
+        { "speaker": "aman", "text": "⭐ Bilkul sahi Raju! Ye SBI PO ka classic trap hai — students exam mein percentage number dekh ke hi verb decide kar dete hain, but asli rule 'OF' ke baad wale noun pe depend karta hai." },
+        { "speaker": "raju", "text": "Note kar liya — percentage/fraction dikhe toh turant 'of' ke baad wala word dhundunga!" }
+      ],
+      "navigation": { "next": "card_71_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_71_quiz1",
+      "card_slug": "card_71_quiz1",
+      "type": "quiz",
+      "concept_id": "percentage_fraction",
+      "level": 10,
+      "progress": { "current": 71, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "One-third of the population are illiterate." },
+          { "id": "B", "text": "One-third of the population is illiterate." },
+          { "id": "C", "text": "One-third of the population were illiterate." },
+          { "id": "D", "text": "One-third of the population have been illiterate." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Population' (singular/collective) 'of' ke baad hai, isliye singular verb 'is' aayega, 'one-third' khud kuch decide nahi karta."
+      },
+      "navigation": { "next": "card_72_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_72_quiz2",
+      "card_slug": "card_72_quiz2",
+      "type": "quiz",
+      "concept_id": "percentage_fraction",
+      "level": 10,
+      "progress": { "current": 72, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'Nearly forty percent of the voters (A)/ has decided not to (B)/ cast their votes this time (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Voters' (plural) 'of' ke baad hai, isliye plural verb 'have decided' aayega, 'has decided' galat hai."
+      },
+      "navigation": { "next": "card_73_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_73_quiz3",
+      "card_slug": "card_73_quiz3",
+      "type": "quiz",
+      "concept_id": "percentage_fraction",
+      "level": 10,
+      "progress": { "current": 73, "total": 100 },
+      "quiz_payload": {
+        "question": "Percentage/Fraction subjects mein verb kis word se match karta hai?",
+        "options": [
+          { "id": "A", "text": "Percentage number se (jaise 'fifty')" },
+          { "id": "B", "text": "'Of' ke baad wale noun se" },
+          { "id": "C", "text": "Sentence ke last word se" },
+          { "id": "D", "text": "Hamesha singular hoti hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Percentage/Fraction expressions mein verb hamesha 'of' ke baad wale noun (singular ya plural) se match karta hai, number khud kuch decide nahi karta."
+      },
+      "navigation": { "next": "card_74_milestone10", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_74_milestone10",
+      "card_slug": "card_74_milestone10",
+      "type": "milestone",
+      "concept_id": "percentage_fraction",
+      "level": 10,
+      "progress": { "current": 74, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "📊",
+        "completed_topic": "Percentage/Fraction + Of + Noun Rule",
+        "xp_earned": 75,
+        "milestone_progress": "Module 10/13 Clear",
+        "motivational_quote": "'Of' ke baad wala trick seekh liya! Ab Relative Pronoun (who/which/that) ka rule dekhte hain."
+      },
+      "navigation": { "next": "card_75_relative_pronoun_intro", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_75_relative_pronoun_intro",
+      "card_slug": "card_75_relative_pronoun_intro",
+      "type": "chat",
+      "concept_id": "relative_pronoun_agreement",
+      "level": 11,
+      "progress": { "current": 75, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'The boy who WORK hard' ya 'who WORKS hard' — kaunsa sahi hai, confuse ho raha hoon!" },
+        { "speaker": "aman", "text": "Achha sawal! Jab 'Who/Which/That' verb ka subject bante hain, verb hamesha ANTECEDENT (jis noun ko wo refer kar raha hai) se match karta hai." },
+        { "speaker": "raju", "text": "Matlab 'boy' se match karna hai, jo singular hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi! 'The boy WHO WORKS hard' — 'who' 'boy' (singular) ko refer kar raha hai, isliye 'works' (singular verb) aayega." }
+      ],
+      "navigation": { "next": "card_76_one_of_the_who_trap", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_76_one_of_the_who_trap",
+      "card_slug": "card_76_one_of_the_who_trap",
+      "type": "chat",
+      "concept_id": "relative_pronoun_agreement",
+      "level": 11,
+      "progress": { "current": 76, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Ab BPSC ka super favourite trap suno — 'ONE OF THE + plural noun + WHO'. Yahan 'who' PLURAL noun ko refer karta hai, isliye PLURAL verb aayega!" },
+        { "speaker": "raju", "text": "Hain?? 'One' toh singular hai, phir plural verb kaise?" },
+        { "speaker": "aman", "text": "Dekho carefully: 'He is one of the STUDENTS who ARE hardworking.' Yahan 'who' 'students' (plural) ko refer kar raha hai — matlab bahut saare hardworking students hain, unmein se wo EK hai." },
+        { "speaker": "raju", "text": "⭐ Ohh! Toh 'one of the' ke baad wale PLURAL noun ko dekhna hai, 'one' ko nahi — ye toh bahut bada twist hai!" }
+      ],
+      "navigation": { "next": "card_77_only_one_exception", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_77_only_one_exception",
+      "card_slug": "card_77_only_one_exception",
+      "type": "chat",
+      "concept_id": "relative_pronoun_agreement",
+      "level": 11,
+      "progress": { "current": 77, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Aur exception bhi suno — jab 'ONLY' word add ho jaaye 'ONE OF THE...WHO' se pehle, tab rule PALAT jaata hai! 'He is the ONLY ONE of the students who IS hardworking.'" },
+        { "speaker": "raju", "text": "Hain?? Sirf 'only' add karne se verb badal gaya?" },
+        { "speaker": "aman", "text": "Bilkul! 'Only' ka matlab hai 'SIRF EK', isliye ab 'who' sirf us EK vyakti ko refer kar raha hai, poore group ko nahi. Isliye SINGULAR verb ('is') aayega." },
+        { "speaker": "raju", "text": "⭐ Note kar liya — bina 'only' = plural verb, 'only' ke saath = singular verb. Ye exam ka top-level trap hai!" }
+      ],
+      "navigation": { "next": "card_78_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_78_quiz1",
+      "card_slug": "card_78_quiz1",
+      "type": "quiz",
+      "concept_id": "relative_pronoun_agreement",
+      "level": 11,
+      "progress": { "current": 78, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "Rina is one of the girls who is very talented." },
+          { "id": "B", "text": "Rina is one of the girls who are very talented." },
+          { "id": "C", "text": "Rina is one of the girls who was very talented." },
+          { "id": "D", "text": "Rina is one of the girls who has been very talented." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Who' yahan 'girls' (plural) ko refer kar raha hai (bina 'only' ke), isliye plural verb 'are' aayega."
+      },
+      "navigation": { "next": "card_79_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_79_quiz2",
+      "card_slug": "card_79_quiz2",
+      "type": "quiz",
+      "concept_id": "relative_pronoun_agreement",
+      "level": 11,
+      "progress": { "current": 79, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'He is the only one (A)/ of the employees (B)/ who are punctual every day (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "'Only one' ke baad 'who' sirf US EK vyakti ko refer karta hai, isliye singular verb 'is' aayega, 'are' galat hai."
+      },
+      "navigation": { "next": "card_80_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_80_quiz3",
+      "card_slug": "card_80_quiz3",
+      "type": "quiz",
+      "concept_id": "relative_pronoun_agreement",
+      "level": 11,
+      "progress": { "current": 80, "total": 100 },
+      "quiz_payload": {
+        "question": "'Who/Which/That' ke baad verb kis se match karti hai?",
+        "options": [
+          { "id": "A", "text": "Hamesha singular hoti hai" },
+          { "id": "B", "text": "Antecedent (jis noun ko refer kar rahe hain) se" },
+          { "id": "C", "text": "Sentence ke subject se, antecedent se nahi" },
+          { "id": "D", "text": "Hamesha plural hoti hai" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Relative pronoun (who/which/that) ke baad verb hamesha uske ANTECEDENT (jis noun ko refer kar rahe hain) ki number se match karti hai."
+      },
+      "navigation": { "next": "card_81_milestone11", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_81_milestone11",
+      "card_slug": "card_81_milestone11",
+      "type": "milestone",
+      "concept_id": "relative_pronoun_agreement",
+      "level": 11,
+      "progress": { "current": 81, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🔍",
+        "completed_topic": "Relative Pronoun Agreement (Who/Which/That)",
+        "xp_earned": 80,
+        "milestone_progress": "Module 11/13 Clear",
+        "motivational_quote": "'One of the...who' ka toughest trap crack kar diya! Ab correlative conjunctions dekhte hain."
+      },
+      "navigation": { "next": "card_82_not_only_but_also", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_82_not_only_but_also",
+      "card_slug": "card_82_not_only_but_also",
+      "type": "chat",
+      "concept_id": "correlative_conjunctions",
+      "level": 12,
+      "progress": { "current": 82, "total": 100 },
+      "messages": [
+        { "speaker": "raju", "text": "Sir, 'Not only the teacher but also the students' — ye toh 'either/or' jaisa hi lag raha hai!" },
+        { "speaker": "aman", "text": "Bahut sahi observation Raju! 'Not only...but also' EXACTLY wahi Nearest Subject Rule follow karta hai jo Either/Or mein tha." },
+        { "speaker": "raju", "text": "Toh verb ke sabse paas wale subject se match karunga?" },
+        { "speaker": "aman", "text": "Bilkul! 'Not only the teacher but also the STUDENTS ARE present' — 'students' (plural) paas hai isliye 'are'. Order badle to verb bhi badlegi." }
+      ],
+      "navigation": { "next": "card_83_each_every_and_singular", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_83_each_every_and_singular",
+      "card_slug": "card_83_each_every_and_singular",
+      "type": "chat",
+      "concept_id": "correlative_conjunctions",
+      "level": 12,
+      "progress": { "current": 83, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Ab ek aur zaroori trap — jab 'EACH' ya 'EVERY' do subjects ko JOIN karne wale 'AND' se PEHLE aaye, tab bhi verb SINGULAR hoga — 'Each boy and each girl HAS received a prize.'" },
+        { "speaker": "raju", "text": "Hain? 'Boy AND girl' toh do log ho gaye, plural nahi hoga?" },
+        { "speaker": "aman", "text": "Yahi trap hai Raju! Normally 'A and B' plural verb leta hai. Lekin agar 'Each'/'Every' pehle laga ho, to power SINGULAR kar deta hai — 'Each' ka effect dono subjects pe padta hai." },
+        { "speaker": "raju", "text": "⭐ Toh 'Each/Every + noun and noun' = singular, but normal 'noun and noun' = plural — note kar liya!" }
+      ],
+      "navigation": { "next": "card_84_both_and_always_plural", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_84_both_and_always_plural",
+      "card_slug": "card_84_both_and_always_plural",
+      "type": "chat",
+      "concept_id": "correlative_conjunctions",
+      "level": 12,
+      "progress": { "current": 84, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Aakhri correlative — 'BOTH...AND' hamesha PLURAL verb leta hai, bina kisi exception ke. 'Both Ram and Shyam ARE intelligent.'" },
+        { "speaker": "raju", "text": "Sir isme nearest subject wala rule nahi lagega kya?" },
+        { "speaker": "aman", "text": "Nahi! 'Both...and' Either/Or se ALAG hai — ye hamesha DO cheezon/logon ko ek saath jodta hai, isliye PLURAL FIX hai, chahe subjects singular hi kyun na hon." },
+        { "speaker": "raju", "text": "Achha! Toh 'Either/Or/Neither/Nor/Not only-but also' = nearest subject rule, but 'Both...and' = hamesha plural fix — teeno alag categories hain!" }
+      ],
+      "navigation": { "next": "card_85_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_85_quiz1",
+      "card_slug": "card_85_quiz1",
+      "type": "quiz",
+      "concept_id": "correlative_conjunctions",
+      "level": 12,
+      "progress": { "current": 85, "total": 100 },
+      "quiz_payload": {
+        "question": "Sahi sentence chuno:",
+        "options": [
+          { "id": "A", "text": "Both the manager and the clerk is responsible." },
+          { "id": "B", "text": "Both the manager and the clerk are responsible." },
+          { "id": "C", "text": "Both the manager and the clerk was responsible." },
+          { "id": "D", "text": "Both the manager and the clerk has been responsible." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Both...and' hamesha PLURAL verb leta hai, bina exception ke — 'are responsible' sahi hai."
+      },
+      "navigation": { "next": "card_86_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_86_quiz2",
+      "card_slug": "card_86_quiz2",
+      "type": "quiz",
+      "concept_id": "correlative_conjunctions",
+      "level": 12,
+      "progress": { "current": 86, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'Not only the players (A)/ but also the coach (B)/ were fined by the committee (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "'Coach' (singular) verb ke sabse paas hai (Nearest Subject Rule), isliye singular verb 'was fined' aayega, 'were fined' galat hai."
+      },
+      "navigation": { "next": "card_87_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_87_quiz3",
+      "card_slug": "card_87_quiz3",
+      "type": "quiz",
+      "concept_id": "correlative_conjunctions",
+      "level": 12,
+      "progress": { "current": 87, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'Each student and each teacher (A)/ have been given (B)/ a copy of the new syllabus (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Each...and each...' pattern hamesha singular verb leta hai. Sahi: 'has been given', 'have been given' galat hai."
+      },
+      "navigation": { "next": "card_88_milestone12", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_88_milestone12",
+      "card_slug": "card_88_milestone12",
+      "type": "milestone",
+      "concept_id": "correlative_conjunctions",
+      "level": 12,
+      "progress": { "current": 88, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🌀",
+        "completed_topic": "Correlative Conjunctions & Each/Every Before And",
+        "xp_earned": 80,
+        "milestone_progress": "Module 12/13 Clear",
+        "motivational_quote": "Officer-level SVA mastery ho gayi Raju! Ab final module — SBI PO Error Detection Master Practice!"
+      },
+      "navigation": { "next": "card_89_error_strategy", "button_text": "Start Next Module ➔" }
+    },
+
+    {
+      "card_id": "card_89_error_strategy",
+      "card_slug": "card_89_error_strategy",
+      "type": "chat",
+      "concept_id": "error_detection_master",
+      "level": 13,
+      "progress": { "current": 89, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab hum karenge exact SBI PO style practice — 5-step checklist yaad karo: 1) Real subject dhundo (phrases ignore karo). 2) Either/or, neither/nor mein nearest subject dekho." },
+        { "speaker": "raju", "text": "Aur kya check karna hai sir?" },
+        { "speaker": "aman", "text": "3) Each/every/none/everyone singular hai kya check karo. 4) 'As well as/along with' ne main subject ki number toh nahi badli? 5) Percentage mein 'of' ke baad wala noun dekho, gerund/who-which-that antecedent match karo." },
+        { "speaker": "raju", "text": "Ye toh ek poori master checklist ban gayi sir! Chaliye practice karte hain!" }
+      ],
+      "navigation": { "next": "card_90_multi_layer_trap1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_90_multi_layer_trap1",
+      "card_slug": "card_90_multi_layer_trap1",
+      "type": "chat",
+      "concept_id": "error_detection_master",
+      "level": 13,
+      "progress": { "current": 90, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "SBI PO mein sentences LAMBE hote hain — subject aur verb ke beech mein 2-3 phrases daal dete hain taaki tum bhatak jao. 'The results of the survey conducted last month by the research team HAS/HAVE...' — yahan asli subject kya hai?" },
+        { "speaker": "raju", "text": "Sir 'team' hai kya? Wo sabse paas hai verb ke!" },
+        { "speaker": "aman", "text": "⭐ Nahi Raju, yahi trap hai! Sabse pehle MAIN VERB (jisse asli subject match karna hai) dhundo, phir uske pehle wala ASLI noun dekho jo poori sentence chala raha hai — yahan 'results' (plural) hai, isliye 'HAVE' aayega." },
+        { "speaker": "raju", "text": "Achha! Toh sabse paas wala word dekhne ki galti mat karna, poore phrase ko peeche chhod ke SHURU wala subject pakadna hai (jab tak either/or na ho)!" }
+      ],
+      "navigation": { "next": "card_91_multi_layer_trap2", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_91_multi_layer_trap2",
+      "card_slug": "card_91_multi_layer_trap2",
+      "type": "chat",
+      "concept_id": "error_detection_master",
+      "level": 13,
+      "progress": { "current": 91, "total": 100 },
+      "messages": [
+        { "speaker": "aman", "text": "⭐ Ek aur combo trap — jab COLLECTIVE noun aur PERCENTAGE dono ek saath ho: 'Seventy percent of the COMMITTEE members IS/ARE against the proposal.'" },
+        { "speaker": "raju", "text": "Sir 'members' plural hai, toh 'are' aayega?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Percentage rule follow karo — 'of' ke baad 'committee members' (plural, kyunki 'members' hai, sirf 'committee' nahi) hai, isliye 'ARE' aayega." },
+        { "speaker": "raju", "text": "Toh do rules ek saath combine ho sakte hain exam mein — mujhe dono clearly yaad rakhne honge!" }
+      ],
+      "navigation": { "next": "card_92_quiz1", "button_text": "Next Card ➔" }
+    },
+
+    {
+      "card_id": "card_92_quiz1",
+      "card_slug": "card_92_quiz1",
+      "type": "quiz",
+      "concept_id": "error_detection_master",
+      "level": 13,
+      "progress": { "current": 92, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'The number of accidents (A)/ on this highway (B)/ have increased alarmingly (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "⭐ Special rule: 'THE NUMBER of' hamesha SINGULAR verb leta hai ('the number IS/HAS'), jabki 'A NUMBER of' hamesha PLURAL verb leta hai ('a number ARE/HAVE'). Yahan 'The number' hai, isliye 'has increased' sahi hai, 'have increased' galat hai."
+      },
+      "navigation": { "next": "card_93_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_93_quiz2",
+      "card_slug": "card_93_quiz2",
+      "type": "quiz",
+      "concept_id": "error_detection_master",
+      "level": 13,
+      "progress": { "current": 93, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'A number of students (A)/ in the class (B)/ was absent yesterday due to fever (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "'A number of' hamesha PLURAL verb leta hai (ismein 'several/many' ka meaning hota hai). Sahi: 'were absent', 'was absent' galat hai."
+      },
+      "navigation": { "next": "card_94_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_94_quiz3",
+      "card_slug": "card_94_quiz3",
+      "type": "quiz",
+      "concept_id": "error_detection_master",
+      "level": 13,
+      "progress": { "current": 94, "total": 100 },
+      "quiz_payload": {
+        "question": "Error Detection: 'Either the workers or the supervisor (A)/ is going to be blamed (B)/ for this production delay (C)/ No error (D)'",
+        "options": [
+          { "id": "A", "text": "Part A" },
+          { "id": "B", "text": "Part B" },
+          { "id": "C", "text": "Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "D",
+        "explanation": "Sentence sahi hai! 'Supervisor' (singular) verb ke sabse paas hai — Nearest Subject Rule ke hisaab se 'is' sahi hai."
+      },
+      "navigation": { "next": "card_95_milestone13", "button_text": "Check Answer & Continue ➔" }
+    },
+
+    {
+      "card_id": "card_95_milestone13",
+      "card_slug": "card_95_milestone13",
+      "type": "milestone",
+      "concept_id": "error_detection_master",
+      "level": 13,
+      "progress": { "current": 95, "total": 100 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🕵️",
+        "completed_topic": "SBI PO Level Error Detection Master Practice",
+        "xp_earned": 90,
+        "milestone_progress": "Module 13/13 Clear",
+        "motivational_quote": "Tumne poora Subject-Verb Agreement chapter Officer-level pe master kar liya! Ab final revision aur master quiz ka time hai!"
+      },
+      "navigation": { "next": "card_96_summary", "button_text": "Go to Final Revision ➔" }
+    },
+
+    {
+      "card_id": "card_96_summary",
+      "card_slug": "card_96_summary",
+      "type": "summary",
+      "concept_id": "final_revision",
+      "level": 13,
+      "progress": { "current": 96, "total": 100 },
+      "summary_payload": {
+        "title": "⚡ Quick Officer Revision — Subject-Verb Agreement",
+        "revision_points": [
+          {
+            "topic": "Statement Check: Nearest Subject Rule",
+            "point": "Statement I: Either/Or, Neither/Nor, Not only/But also mein verb NEAREST subject se match karta hai. Statement II: 'Both...and' hamesha PLURAL verb leta hai, nearest subject rule follow nahi karta. Dono statements sahi hain — inhe kabhi mix mat karna."
+          },
+          {
+            "topic": "Statement Check: Indefinite Pronouns",
+            "point": "Statement I: Each/Every/Either/Neither/Everyone/Everybody/None hamesha SINGULAR verb lete hain. Statement II: 'Each/Every + noun and noun' (jaise 'Each boy and each girl') bhi SINGULAR verb leta hai. Dono statements sahi hain — 'and' hone ke baawajood singular rahega."
+          },
+          {
+            "topic": "Statement Check: Special Nouns",
+            "point": "Statement I: News, Mathematics, Physics (-ics wale subjects) hamesha SINGULAR verb lete hain. Statement II: Scissors, Trousers, Spectacles hamesha PLURAL verb lete hain (singular banane ke liye 'pair of' lagta hai). Dono statements sahi hain."
+          },
+          {
+            "topic": "Statement Check: Percentage & Relative Pronoun",
+            "point": "Statement I: Percentage/Fraction mein verb 'of' ke baad wale noun se match karta hai, number se nahi. Statement II: 'One of the + plural + who' mein 'who' plural verb leta hai, lekin 'only one of the...who' mein SINGULAR verb leta hai. Dono statements sahi hain."
+          },
+          {
+            "topic": "Statement Check: The Number vs A Number",
+            "point": "Statement I: 'THE NUMBER of' hamesha SINGULAR verb leta hai. Statement II: 'A NUMBER of' hamesha PLURAL verb leta hai (kyunki 'several/many' ka meaning hai). Dono statements sahi hain — sirf 'the/a' ka farak poora meaning badal deta hai."
+          }
+        ]
+      },
+      "navigation": { "next": "card_97_final_quiz1", "button_text": "Start Master Officer Quiz ➔" }
+    },
+
+    {
+      "card_id": "card_97_final_quiz1",
+      "card_slug": "card_97_final_quiz1",
+      "type": "final_quiz",
+      "concept_id": "final_master_quiz",
+      "level": 13,
+      "progress": { "current": 97, "total": 100 },
+      "quiz_payload": {
+        "question": "Assertion-Reason: Assertion (A): 'He is the only one of the students who is regular in class' is grammatically correct. Reason (R): When 'only' precedes 'one of the + plural noun', the relative pronoun 'who' refers back to 'one' (singular) instead of the plural noun.",
+        "options": [
+          { "id": "A", "text": "Both A and R are true, and R is the correct explanation of A" },
+          { "id": "B", "text": "Both A and R are true, but R is NOT the correct explanation of A" },
+          { "id": "C", "text": "A is true but R is false" },
+          { "id": "D", "text": "A is false but R is true" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "'Only' changes the reference of 'who' from the plural group to the single individual, making singular verb 'is' correct. R correctly explains why A is grammatically correct."
+      },
+      "navigation": { "next": "card_98_final_quiz2", "button_text": "Next Question ➔" }
+    },
+
+    {
+      "card_id": "card_98_final_quiz2",
+      "card_slug": "card_98_final_quiz2",
+      "type": "final_quiz",
+      "concept_id": "final_master_quiz",
+      "level": 13,
+      "progress": { "current": 98, "total": 100 },
+      "quiz_payload": {
+        "question": "Multi-Statement: Read the sentence and find which parts contain an error: 'A number of employees (A) / along with the manager (B) / are planning to resign next month (C) / No error (D)'. Choose the part(s) with error.",
+        "options": [
+          { "id": "A", "text": "Only Part A" },
+          { "id": "B", "text": "Part B and Part C" },
+          { "id": "C", "text": "Only Part C" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "D",
+        "explanation": "This sentence is entirely correct! 'A number of' correctly takes a plural verb ('are'), and 'along with the manager' is a parenthetical phrase that doesn't affect the plural subject 'employees' — the main subject 'A number of employees' is already plural, so 'are' is correct regardless."
+      },
+      "navigation": { "next": "card_99_final_quiz3", "button_text": "Next Question ➔" }
+    },
+
+    {
+      "card_id": "card_99_final_quiz3",
+      "card_slug": "card_99_final_quiz3",
+      "type": "final_quiz",
+      "concept_id": "final_master_quiz",
+      "level": 13,
+      "progress": { "current": 99, "total": 100 },
+      "quiz_payload": {
+        "question": "BPSC Style: Consider the following statements: (1) 'Fifty percent of the mangoes is rotten' is grammatically correct. (2) 'The jury is divided in their opinion' is grammatically correct. (3) 'Neither of the answers are correct' is grammatically correct. Which of the statements is/are CORRECT?",
+        "options": [
+          { "id": "A", "text": "Only 2" },
+          { "id": "B", "text": "Only 1 and 2" },
+          { "id": "C", "text": "Only 1 and 3" },
+          { "id": "D", "text": "1, 2 and 3" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement 1 is WRONG — 'mangoes' (plural) is after 'of', so verb should be 'are rotten', not 'is'. Statement 2 is CORRECT — 'divided in opinion' shows individual disagreement, so plural verb 'is'... wait, actually 'jury is divided' correctly uses singular verb even though it describes disagreement, because 'jury' itself remains the singular subject being described as internally split — this is a standard correct usage. Statement 3 is WRONG — 'Neither of' always takes singular verb 'is', not 'are'. So only Statement 2 is correct."
+      },
+      "navigation": { "next": "card_100_trophy", "button_text": "See Final Result ➔" }
+    },
+
+    {
+      "card_id": "card_100_trophy",
+      "card_slug": "card_100_trophy",
+      "type": "milestone",
+      "concept_id": "chapter_complete",
+      "level": 13,
+      "progress": { "current": 100, "total": 100 },
+      "milestone_payload": {
+        "title": "🏆 CHAPTER MASTERED!",
+        "badge_emoji": "🏆",
+        "completed_topic": "Subject-Verb Agreement — Full Chapter + SBI PO Error Detection",
+        "xp_earned": 150,
+        "milestone_progress": "Chapter 100% Complete",
+        "motivational_quote": "Officer-level Subject-Verb Agreement mastery unlocked, Raju! Nearest Subject Rule se lekar 'One of the...who' tak, sab traps tumhare control mein hain. Ab exam mein koi bhi SVA question tumhe hara nahi sakta — All the best!"
+      },
+      "navigation": { "next": "card_01_intro", "button_text": "Restart Chapter 🔁" }
+    }
+  ]
+}
+
