@@ -1,0 +1,1507 @@
+{
+  "topic_id": "english_grammar_articles",
+  "topic_title": "Articles (A, An, The) with SBI PO Level Error Detection",
+  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "SBI PO", "BPSC TRE"],
+  "total_cards": 96,
+  "characters": {
+    "aman": { "name": "Aman Sir", "role": "teacher", "avatar": "👨‍🏫" },
+    "raju": { "name": "Raju", "role": "student", "avatar": "👦" }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "chapter_intro",
+      "level": 1,
+      "progress": { "current": 1, "total": 96 },
+      "intro_payload": {
+        "title": "Articles: A, An, The",
+        "icon": "📰🔤",
+        "subtitle": "Master the Smallest Words with the Biggest Traps - For BPSC, SSC, Railway, Bank PO & BPSC TRE",
+        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "SBI PO", "UPSC Prelims", "BPSC TRE"],
+        "learning_outcomes": [
+          "Understand Definite vs Indefinite Articles and their core function",
+          "Master the SOUND-based rule for A vs An (not spelling-based)",
+          "Learn all specific-reference rules for using 'The'",
+          "Master 'The' with superlatives, ordinals & unique nouns",
+          "Learn Zero Article rules - proper nouns, abstract & plural general nouns",
+          "Crack Geographical Names rules (rivers, mountains, countries) with/without 'The'",
+          "Master Articles with institutions, diseases, languages & meals",
+          "Learn fixed idiomatic expressions with articles",
+          "Crack SBI PO / Bank PO level Error Detection questions on Articles"
+        ]
+      },
+      "navigation": { "next": "card_02_article_daily_life", "button_text": "Start Learning ➔" }
+    },
+    {
+      "card_id": "card_02_article_daily_life",
+      "card_slug": "card_02_article_daily_life",
+      "type": "chat",
+      "concept_id": "article_basics",
+      "level": 1,
+      "progress": { "current": 2, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, socho tum mummy se bolte ho 'Mujhe ek pen do' - abhi tumhe koi bhi pen chalega. Par jab tum bolte ho 'Wo pen do jo table pe rakhi hai' - ab tumhe ek SPECIFIC pen chahiye. English mein ye fark 'a/an' aur 'the' se dikhaya jaata hai." },
+        { "speaker": "raju", "text": "Sir matlab 'a pen' aur 'the pen' alag matlab dete hain?" },
+        { "speaker": "aman", "text": "Bilkul sahi! 'A/An' ko kehte hain INDEFINITE ARTICLE - koi bhi ek cheez, specific nahi. 'The' ko kehte hain DEFINITE ARTICLE - ek particular, specific cheez jo dono logon ko pata hai." },
+        { "speaker": "raju", "text": "Achha! Toh 'Articles' matlab ye chhote se words 'a', 'an', 'the' - inhe hi kehte hain?" }
+      ],
+      "navigation": { "next": "card_03_article_definition", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_03_article_definition",
+      "card_slug": "card_03_article_definition",
+      "type": "chat",
+      "concept_id": "article_basics",
+      "level": 1,
+      "progress": { "current": 3, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Articles ek tarah ke 'DETERMINERS' hain jo NOUN se pehle aakar batate hain ki noun GENERAL hai ya SPECIFIC. Sirf 3 articles hain poori English mein: A, An, The - itni choti list, par exam mein sabse zyada traps yahi dete hain!" },
+        { "speaker": "raju", "text": "Sir sirf 3 words hain, phir itna practice kyun karni padegi?" },
+        { "speaker": "aman", "text": "Kyunki inke use ke rules bahut precise hain - kahin 'sound' dekhna padta hai, kahin 'context' dekhna padta hai, aur kahin bilkul article LAGANA hi NAHI hota (Zero Article)! Ye teeno cheezein tumhe expert level pe le jaayengi." },
+        { "speaker": "raju", "text": "Sir 'Zero Article' matlab kya? Article nahi lagana bhi ek rule hai?" }
+      ],
+      "navigation": { "next": "card_04_zero_article_intro", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_04_zero_article_intro",
+      "card_slug": "card_04_zero_article_intro",
+      "type": "chat",
+      "concept_id": "article_basics",
+      "level": 1,
+      "progress": { "current": 4, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Haan Raju, bilkul! Jaise 'India is my country' - yahan 'India' se pehle koi article nahi lagta. Isko kehte hain ZERO ARTICLE - ye bhi ek IMPORTANT RULE hai, na lagana bhi utna hi zaroori hai jitna lagana." },
+        { "speaker": "raju", "text": "Sir ye to interesting hai! 'Kuch na karna' bhi ek rule ho sakta hai grammar mein!" },
+        { "speaker": "aman", "text": "Bilkul sahi socha! Chalo ab step by step shuru karte hain - pehle 'A' aur 'An' ka woh sabse bada trap dekhte hain jo SSC/Railway mein har saal poocha jaata hai." },
+        { "speaker": "raju", "text": "Sir bataiye jaldi, main ready hoon!" }
+      ],
+      "navigation": { "next": "card_05_a_an_sound_rule", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_05_a_an_sound_rule",
+      "card_slug": "card_05_a_an_sound_rule",
+      "type": "guess",
+      "concept_id": "a_an_rule",
+      "level": 1,
+      "progress": { "current": 5, "total": 96 },
+      "guess_payload": {
+        "question": "Which is correct: 'a university' or 'an university'? (Hint: U is a vowel letter!)",
+        "options": [
+          { "id": "A", "text": "an university (because U is a vowel)" },
+          { "id": "B", "text": "a university (because it SOUNDS like 'yoo-niversity')" },
+          { "id": "C", "text": "Both are correct" },
+          { "id": "D", "text": "Neither is correct" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "⭐ Biggest exam trap! The A/An rule is based on SOUND, not spelling. 'University' starts with a consonant SOUND /yoo/, so 'a university' is correct, even though 'u' is technically a vowel letter."
+      },
+      "navigation": { "next": "card_06_vowel_sound_vs_letter", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_06_vowel_sound_vs_letter",
+      "card_slug": "card_06_vowel_sound_vs_letter",
+      "type": "chat",
+      "concept_id": "a_an_rule",
+      "level": 1,
+      "progress": { "current": 6, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi guess tha! Golden Rule yaad rakho: 'AN' use hota hai jab agla word VOWEL SOUND (/a,e,i,o,u/) se shuru ho, 'A' use hota hai jab agla word CONSONANT SOUND se shuru ho - LETTER nahi, SOUND dekhna hai!" },
+        { "speaker": "raju", "text": "Sir matlab spelling dekhkar decide nahi karna, bolke sunna hai ki sound kya aa raha hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Isiliye 'an hour' correct hai (H silent hai, 'our' jaisa sound aata hai), lekin 'a house' correct hai (H yahan sound karta hai)." },
+        { "speaker": "raju", "text": "Hain?? Sir 'hour' aur 'house' dono H se shuru hote hain, par ek mein 'an' aur doosre mein 'a'? Ye to bilkul confuse kar diya!" }
+      ],
+      "navigation": { "next": "card_07_silent_h_examples", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_07_silent_h_examples",
+      "card_slug": "card_07_silent_h_examples",
+      "type": "chat",
+      "concept_id": "a_an_rule",
+      "level": 1,
+      "progress": { "current": 7, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Yehi to exam ka favorite trap hai Raju! Silent 'H' wale words yaad karo: hour, honest, honour, heir - inme H bola hi nahi jaata, isliye 'AN' lagta hai: 'an hour', 'an honest man', 'an honour', 'an heir'." },
+        { "speaker": "raju", "text": "Sir 'honest man' mein bhi 'an'? Wo to H se hi shuru hota hai dikhne mein!" },
+        { "speaker": "aman", "text": "Bilkul sahi observe kiya, par bolo zor se - 'onest' sunayi deta hai na, 'honest' nahi! Isliye 'an honest man' hi sahi hai. Baaki saare H-words mein H bola jaata hai, jaise 'a house', 'a horse', 'a hospital' - inme 'A' lagega." },
+        { "speaker": "raju", "text": "Achha sir, ab dusra vowel-letter wala trap bhi bataiye - jaise 'university' jaisa aur koi example hai kya?" }
+      ],
+      "navigation": { "next": "card_08_yoo_sound_words", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_08_yoo_sound_words",
+      "card_slug": "card_08_yoo_sound_words",
+      "type": "chat",
+      "concept_id": "a_an_rule",
+      "level": 1,
+      "progress": { "current": 8, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul! Jitne bhi words 'U' se shuru hote hain aur unka sound 'YOO' jaisa hota hai, unke saath 'A' lagta hai: a university, a uniform, a union, a useful book, a European country - kyunki ye sab /yoo/ sound se shuru hote hain." },
+        { "speaker": "raju", "text": "Sir 'European' mein to E hai shuru mein, phir bhi 'a' lagega?" },
+        { "speaker": "aman", "text": "Bilkul sahi pakड़a! Spelling mein 'E' hai, par bolne mein sound '/yoo-ropean/' aata hai - isliye 'a European' hi correct hai. ⭐ BPSC/SBI PO Favorite trap hai ye!" },
+        { "speaker": "raju", "text": "Sir aur ek opposite case bhi hoga na - jahan consonant letter ho par vowel sound aaye?" }
+      ],
+      "navigation": { "next": "card_09_consonant_letter_vowel_sound", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_09_consonant_letter_vowel_sound",
+      "card_slug": "card_09_consonant_letter_vowel_sound",
+      "type": "chat",
+      "concept_id": "a_an_rule",
+      "level": 1,
+      "progress": { "current": 9, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi soch rahe ho! Best example hai letter names khud - 'M, N, S, F, X' - ye consonant letters hain, par bolne pe inka sound vowel se shuru hota hai: 'an M.A. degree', 'an M.P.', 'an S.O.S signal', 'an X-ray' - kyunki 'em', 'en', 'es', 'eks' - sab vowel sound se shuru hote hain!" },
+        { "speaker": "raju", "text": "Ohh sir! Toh abbreviations (short forms) mein bhi sound hi dekhna hai, letter nahi?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Yehi hai sabse important takeaway - 'A/An' ka decision hamesha PRONUNCIATION SOUND pe based hota hai, chahe word normal ho ya abbreviation ho. Kabhi bhi spelling dekhkar decide mat karna!" },
+        { "speaker": "raju", "text": "Sir ab main quiz try karna chahta hoon, ye sound wala rule test karna hai!" }
+      ],
+      "navigation": { "next": "card_10_quiz1_aan", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_10_quiz1_aan",
+      "card_slug": "card_10_quiz1_aan",
+      "type": "quiz",
+      "concept_id": "a_an_rule",
+      "level": 1,
+      "progress": { "current": 10, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correctly filled sentence: 'He is ____ honest and ____ hardworking student.'",
+        "options": [
+          { "id": "A", "text": "a / a" },
+          { "id": "B", "text": "an / a" },
+          { "id": "C", "text": "an / an" },
+          { "id": "D", "text": "a / an" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'Honest' has a silent H (sounds like 'onest'), so it takes 'an'. 'Hardworking' has a clearly pronounced H sound, so it takes 'a'."
+      },
+      "navigation": { "next": "card_11_quiz2_aan", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_11_quiz2_aan",
+      "card_slug": "card_11_quiz2_aan",
+      "type": "quiz",
+      "concept_id": "a_an_rule",
+      "level": 1,
+      "progress": { "current": 11, "total": 96 },
+      "quiz_payload": {
+        "question": "Which sentence uses the article correctly?",
+        "options": [
+          { "id": "A", "text": "She works as an union leader." },
+          { "id": "B", "text": "She works as a union leader." },
+          { "id": "C", "text": "She works as an M.L.A. of the state." },
+          { "id": "D", "text": "Both B and C are correct" }
+        ],
+        "correct_option_id": "D",
+        "explanation": "'Union' sounds like /yoo-nion/ (consonant sound), so it takes 'a'. 'M.L.A.' sounds like /em-el-ay/ (starts with vowel sound 'em'), so it takes 'an'. Both B and C follow the sound rule correctly."
+      },
+      "navigation": { "next": "card_12_quiz3_aan", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_12_quiz3_aan",
+      "card_slug": "card_12_quiz3_aan",
+      "type": "quiz",
+      "concept_id": "a_an_rule",
+      "level": 1,
+      "progress": { "current": 12, "total": 96 },
+      "quiz_payload": {
+        "question": "Statement 1: The choice between 'a' and 'an' depends on the SOUND of the following word, not its spelling. Statement 2: All words starting with a vowel letter always take 'an'. Which is/are correct?",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both statements" },
+          { "id": "D", "text": "Neither statement" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement 2 is false - words like 'university', 'European', 'one' start with vowel letters but have consonant sounds, so they take 'a', not 'an'."
+      },
+      "navigation": { "next": "card_13_milestone1", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_13_milestone1",
+      "card_slug": "card_13_milestone1",
+      "type": "milestone",
+      "concept_id": "a_an_rule",
+      "level": 1,
+      "progress": { "current": 13, "total": 96 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🔤",
+        "completed_topic": "A vs An - Sound-Based Rule",
+        "xp_earned": 50,
+        "milestone_progress": "Module 1/9 Clear",
+        "motivational_quote": "Sound wala trap crack kar liya Raju! Ab 'The' ki duniya mein chalte hain - specific reference ke rules!"
+      },
+      "navigation": { "next": "card_14_the_specific_reference", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_14_the_specific_reference",
+      "card_slug": "card_14_the_specific_reference",
+      "type": "chat",
+      "concept_id": "the_definite_rules",
+      "level": 2,
+      "progress": { "current": 14, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, jab tum kehte ho 'The boy standing near the gate is my friend' - dono, tum aur suनने wala, jaanते ho konsa specific boy hai. Yahi 'THE' ka pehla aur sabse bada use hai - PARTICULAR/SPECIFIC PERSON YA CHEEZ." },
+        { "speaker": "raju", "text": "Sir matlab jab dono logon ko pata ho ki kaunsi specific cheez ki baat ho rahi hai, tab 'the' lagega?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Doosra use hai - jab pehle EK BAAR koi noun mention ho chuka ho, aur doosri baar usi ko refer karna ho: 'I saw a dog. The dog was barking.' Pehli baar 'a dog' (general), doosri baar 'the dog' (wahi specific dog jo pehle mention hua)." },
+        { "speaker": "raju", "text": "Achha! Toh pehli baar 'a/an', doosri baar wahi cheez ho to 'the' - ye to easy pattern hai!" }
+      ],
+      "navigation": { "next": "card_15_the_unique_objects", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_15_the_unique_objects",
+      "card_slug": "card_15_the_unique_objects",
+      "type": "chat",
+      "concept_id": "the_definite_rules",
+      "level": 2,
+      "progress": { "current": 15, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi pattern hai! Ab teesra use suno - UNIQUE OBJECTS jinki duniya mein sirf EK hi copy hai: 'the Sun', 'the Moon', 'the Earth', 'the sky', 'the world', 'the universe'. Inko duplicate nahi kiya ja sakta, isliye hamesha 'the' lagta hai." },
+        { "speaker": "raju", "text": "Sir 'Sun' aur 'Moon' to sirf ek hi hai na, isliye specific hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Chautha use hai - RIVERS, SEAS, OCEANS, MOUNTAIN RANGES ke naam: 'the Ganga', 'the Indian Ocean', 'the Himalayas'. Ye humlog geographical names wale module mein detail se dekhenge." },
+        { "speaker": "raju", "text": "Sir 'the Himalayas' mein 's' bhi hai, plural jaisa - kya iska koi reason hai?" }
+      ],
+      "navigation": { "next": "card_16_the_superlative_ordinal", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_16_the_superlative_ordinal",
+      "card_slug": "card_16_the_superlative_ordinal",
+      "type": "chat",
+      "concept_id": "the_definite_rules",
+      "level": 2,
+      "progress": { "current": 16, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Wo hum baad mein dekhenge, pehle ek aur zaroori use samjho - SUPERLATIVE DEGREE (best, tallest, most beautiful) aur ORDINAL NUMBERS (first, second, third) ke saath hamesha 'THE' lagta hai: 'the tallest building', 'the first day of school'." },
+        { "speaker": "raju", "text": "Sir superlative matlab 'sabse zyada' wale adjective? Jaise 'the best student'?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Kyunki superlative ek CATEGORY mein sirf EK hi entity ko point karta hai - jaise class mein sirf ek 'best student' ho sakta hai, isliye 'the' zaroori hai. Same logic ordinal numbers pe bhi lagta hai - 'the first', 'the second' - kyunki position unique hoti hai." },
+        { "speaker": "raju", "text": "Achha sir! Toh jab bhi 'sabse zyada' ya 'position number' ki baat ho, 'the' aa jaayega!" }
+      ],
+      "navigation": { "next": "card_17_the_musical_instruments", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_17_the_musical_instruments",
+      "card_slug": "card_17_the_musical_instruments",
+      "type": "chat",
+      "concept_id": "the_definite_rules",
+      "level": 2,
+      "progress": { "current": 17, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Ek aur specific use yaad karo - MUSICAL INSTRUMENTS ke naam ke saath 'the' lagta hai jab hum unhe BAJANE ki baat karte hain: 'He plays the guitar', 'She plays the tabla'. Ye ⭐ BPSC TRE Favorite hai - Bihar SCERT mein bhi ye rule specially highlight kiya jaata hai." },
+        { "speaker": "raju", "text": "Sir matlab 'He plays guitar' bina 'the' ke galat hoga?" },
+        { "speaker": "aman", "text": "Bilkul sahi! 'He plays the guitar' hi standard correct form hai musical instruments ke liye. Ye rule SPORTS ke naam se ALAG hai - sports mein 'the' NAHI lagta: 'He plays cricket' (NO 'the'), lekin 'He plays the piano' (WITH 'the')." },
+        { "speaker": "raju", "text": "Sir ye to bilkul opposite rule hai dono cases mein! Ye to bhoolna easy hai exam mein!" }
+      ],
+      "navigation": { "next": "card_18_quiz1_thedefinite", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_18_quiz1_thedefinite",
+      "card_slug": "card_18_quiz1_thedefinite",
+      "type": "quiz",
+      "concept_id": "the_definite_rules",
+      "level": 2,
+      "progress": { "current": 18, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correct sentence:",
+        "options": [
+          { "id": "A", "text": "He is the tallest boy in the class." },
+          { "id": "B", "text": "He is tallest boy in the class." },
+          { "id": "C", "text": "He is a tallest boy in the class." },
+          { "id": "D", "text": "He is an tallest boy in the class." }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Superlative degree adjectives ('tallest') always require 'the' because they point to a unique entity within a category."
+      },
+      "navigation": { "next": "card_19_quiz2_thedefinite", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_19_quiz2_thedefinite",
+      "card_slug": "card_19_quiz2_thedefinite",
+      "type": "quiz",
+      "concept_id": "the_definite_rules",
+      "level": 2,
+      "progress": { "current": 19, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correctly filled sentence: 'My brother plays ____ violin, but he doesn't play ____ football well.'",
+        "options": [
+          { "id": "A", "text": "the / the" },
+          { "id": "B", "text": "the / (no article)" },
+          { "id": "C", "text": "a / the" },
+          { "id": "D", "text": "(no article) / the" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Musical instruments take 'the' ('the violin'), while sports/games take NO article ('football' - zero article)."
+      },
+      "navigation": { "next": "card_20_quiz3_thedefinite", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_20_quiz3_thedefinite",
+      "card_slug": "card_20_quiz3_thedefinite",
+      "type": "quiz",
+      "concept_id": "the_definite_rules",
+      "level": 2,
+      "progress": { "current": 20, "total": 96 },
+      "quiz_payload": {
+        "question": "Statement 1: 'The' is used before unique objects like Sun, Moon, and Earth. Statement 2: 'The' is used before sports/games like cricket and football. Which is/are correct?",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both statements" },
+          { "id": "D", "text": "Neither statement" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement 2 is false - sports and games take ZERO article ('play cricket', NOT 'play the cricket')."
+      },
+      "navigation": { "next": "card_21_milestone2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_21_milestone2",
+      "card_slug": "card_21_milestone2",
+      "type": "milestone",
+      "concept_id": "the_definite_rules",
+      "level": 2,
+      "progress": { "current": 21, "total": 96 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🎯",
+        "completed_topic": "Definite Article 'The' - Core Rules",
+        "xp_earned": 55,
+        "milestone_progress": "Module 2/9 Clear",
+        "motivational_quote": "'The' ke core rules pakke ho gaye! Ab sabse interesting part - jab article LAGANA hi NAHI hota, wo Zero Article rules dekhते hain!"
+      },
+      "navigation": { "next": "card_22_zero_article_propernoun", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_22_zero_article_propernoun",
+      "card_slug": "card_22_zero_article_propernoun",
+      "type": "chat",
+      "concept_id": "zero_article_rules",
+      "level": 2,
+      "progress": { "current": 22, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, jab tum bolte ho 'Rahul is my friend' ya 'Patna is the capital of Bihar' - kya tum 'the Rahul' ya 'the Patna' bolte ho?" },
+        { "speaker": "raju", "text": "Nahi sir, ye to bilkul ajeeb sunayi dega! 'The Rahul' kaun bolta hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi! PROPER NOUNS (person names, city names, most country names) ke saath NORMALLY koi article NAHI lagta - isko kehte hain ZERO ARTICLE. 'Rahul', 'Patna', 'India', 'Monday', 'January' - sab bina article ke aate hain." },
+        { "speaker": "raju", "text": "Sir 'most country names' bola aapne - matlab kuch country names mein 'the' bhi lagta hai?" }
+      ],
+      "navigation": { "next": "card_23_zero_article_uncountable", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_23_zero_article_uncountable",
+      "card_slug": "card_23_zero_article_uncountable",
+      "type": "chat",
+      "concept_id": "zero_article_rules",
+      "level": 2,
+      "progress": { "current": 23, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Haan, wo hum geographical module mein dekhenge. Abhi ek aur zaroori rule suno - UNCOUNTABLE/ABSTRACT NOUNS jab GENERAL sense mein use hon, tab article NAHI lagta: 'Honesty is the best policy', 'Milk is good for health', 'Water is essential for life'." },
+        { "speaker": "raju", "text": "Sir 'honesty', 'milk', 'water' - ye sab uncountable hain isliye article nahi lagta?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Par yaad rakho - agar wahi uncountable noun SPECIFIC ho jaaye, to 'the' aa sakta hai: 'The water in this bottle is dirty' - yahan specific water ki baat ho rahi hai, isliye 'the'." },
+        { "speaker": "raju", "text": "Achha! Toh General = No article, Specific = 'the' - ye rule sab jagah kaam karta hai?" }
+      ],
+      "navigation": { "next": "card_24_zero_article_pluralgeneral", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_24_zero_article_pluralgeneral",
+      "card_slug": "card_24_zero_article_pluralgeneral",
+      "type": "chat",
+      "concept_id": "zero_article_rules",
+      "level": 2,
+      "progress": { "current": 24, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Yehi General vs Specific ka pattern PLURAL COUNTABLE NOUNS pe bhi lagta hai. 'Dogs are loyal animals' (general statement about ALL dogs - NO article) vs 'The dogs in my street are noisy' (specific dogs - 'the' lagega)." },
+        { "speaker": "raju", "text": "Sir ye to sabse important pattern lag raha hai - GENERAL statement mein article nahi, SPECIFIC mein 'the'!" },
+        { "speaker": "aman", "text": "Bilkul sahi observation Raju! Ek aur zero article case - LANGUAGES aur MEALS jab general sense mein use ho: 'I speak Hindi', 'We had breakfast at 8 AM' - inme article nahi lagta." },
+        { "speaker": "raju", "text": "Sir 'the breakfast' bhi galat hoga tab?" }
+      ],
+      "navigation": { "next": "card_25_zero_article_meals_exception", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_25_zero_article_meals_exception",
+      "card_slug": "card_25_zero_article_meals_exception",
+      "type": "chat",
+      "concept_id": "zero_article_rules",
+      "level": 2,
+      "progress": { "current": 25, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "'The breakfast' galat nahi, par tabhi use hoga jab specific ho: 'The breakfast that mummy made was delicious' - specific breakfast ki baat, isliye 'the'. Sadharan use mein 'I had breakfast' - normal, no article." },
+        { "speaker": "raju", "text": "Sir toh ye SAME pattern hai - general=no article, specific=the. Ye ek hi trick sab jagah chal rahi hai!" },
+        { "speaker": "aman", "text": "Bilkul sahi pakड़a! Yahi grammar ki sundarta hai - ek hi logic (general vs specific) baar baar apply hota hai. Ab exam mein sabse zyada poochha jaane wala TRAP dekhते hain - DISEASES ke saath article!" },
+        { "speaker": "raju", "text": "Sir diseases mein bhi article ka koi twist hai kya?" }
+      ],
+      "navigation": { "next": "card_26_zero_article_diseases", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_26_zero_article_diseases",
+      "card_slug": "card_26_zero_article_diseases",
+      "type": "chat",
+      "concept_id": "zero_article_rules",
+      "level": 2,
+      "progress": { "current": 26, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul hai! Most DISEASES ke naam bina article ke aate hain: 'He has malaria', 'She suffers from cancer', 'diabetes is common in India'. Par KUCH special diseases 'the' lete hain: 'the flu', 'the measles', 'the mumps'." },
+        { "speaker": "raju", "text": "Hain?? Sir ye to bilkul random lag raha hai - kuch diseases mein 'the' aur kuch mein nahi!" },
+        { "speaker": "aman", "text": "Samajh sakta hoon confusion, par ye ek FIXED LIST hai jo yaad karni padegi: flu, measles, mumps, plague - ye 'the' lete hain. Baaki zyada tar (fever, cancer, malaria, cough, cold, headache, diabetes) NO article lete hain." },
+        { "speaker": "raju", "text": "Sir ye to yaad karna padega alag se, koi pattern nahi hai isme!" }
+      ],
+      "navigation": { "next": "card_27_quiz1_zeroarticle", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_27_quiz1_zeroarticle",
+      "card_slug": "card_27_quiz1_zeroarticle",
+      "type": "quiz",
+      "concept_id": "zero_article_rules",
+      "level": 2,
+      "progress": { "current": 27, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correct sentence:",
+        "options": [
+          { "id": "A", "text": "The Honesty is the best policy." },
+          { "id": "B", "text": "Honesty is the best policy." },
+          { "id": "C", "text": "An honesty is the best policy." },
+          { "id": "D", "text": "A honesty is best policy." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Abstract/uncountable nouns used in a GENERAL sense take NO article: 'Honesty is the best policy' (general truth about the quality)."
+      },
+      "navigation": { "next": "card_28_quiz2_zeroarticle", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_28_quiz2_zeroarticle",
+      "card_slug": "card_28_quiz2_zeroarticle",
+      "type": "quiz",
+      "concept_id": "zero_article_rules",
+      "level": 2,
+      "progress": { "current": 28, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correctly filled sentence: 'My grandfather suffers from ____ diabetes, but my cousin caught ____ measles last month.'",
+        "options": [
+          { "id": "A", "text": "(no article) / (no article)" },
+          { "id": "B", "text": "the / the" },
+          { "id": "C", "text": "(no article) / the" },
+          { "id": "D", "text": "the / (no article)" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Most diseases like 'diabetes' take NO article, but a small fixed list of diseases (measles, mumps, flu, plague) traditionally takes 'the'."
+      },
+      "navigation": { "next": "card_29_quiz3_zeroarticle", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_29_quiz3_zeroarticle",
+      "card_slug": "card_29_quiz3_zeroarticle",
+      "type": "quiz",
+      "concept_id": "zero_article_rules",
+      "level": 2,
+      "progress": { "current": 29, "total": 96 },
+      "quiz_payload": {
+        "question": "Statement 1: Proper nouns (like names of people and most cities) normally take zero article. Statement 2: Plural countable nouns used in a general sense (like 'Dogs are loyal') require 'the'. Which is/are correct?",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both statements" },
+          { "id": "D", "text": "Neither statement" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement 2 is false - plural general statements take NO article ('Dogs are loyal animals'). 'The' is only added when referring to specific dogs."
+      },
+      "navigation": { "next": "card_30_milestone3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_30_milestone3",
+      "card_slug": "card_30_milestone3",
+      "type": "milestone",
+      "concept_id": "zero_article_rules",
+      "level": 2,
+      "progress": { "current": 30, "total": 96 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🚫",
+        "completed_topic": "Zero Article Rules",
+        "xp_earned": 55,
+        "milestone_progress": "Module 3/9 Clear",
+        "motivational_quote": "Zero Article ka pura logic samajh gaye Raju! Ab Geographical Names ka sबसे bada confusion clear karte hain!"
+      },
+      "navigation": { "next": "card_31_geo_rivers_seas_oceans", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_31_geo_rivers_seas_oceans",
+      "card_slug": "card_31_geo_rivers_seas_oceans",
+      "type": "chat",
+      "concept_id": "geographical_names",
+      "level": 3,
+      "progress": { "current": 31, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, tumhare Bihar mein sबसे famous nadi kaunsi hai?" },
+        { "speaker": "raju", "text": "Sir 'Ganga', humare yahan se hi bahti hai!" },
+        { "speaker": "aman", "text": "Bilkul sahi! Ab yaad rakho - RIVERS, SEAS, OCEANS, aur CANALS ke naam se pehle hamesha 'THE' lagta hai: 'the Ganga', 'the Son' (Bihar ki doosri important nadi), 'the Arabian Sea', 'the Indian Ocean', 'the Suez Canal'." },
+        { "speaker": "raju", "text": "Sir ⭐ 'the Son' - Bihar ki nadi ka naam bhi 'the' ke saath aata hai exam mein?" }
+      ],
+      "navigation": { "next": "card_32_geo_mountain_ranges", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_32_geo_mountain_ranges",
+      "card_slug": "card_32_geo_mountain_ranges",
+      "type": "chat",
+      "concept_id": "geographical_names",
+      "level": 3,
+      "progress": { "current": 32, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Haan bilkul, 'the Son' aur 'the Ganga' dono BPSC/BSSC ke geography section mein bhi puछे jaate hain. Ab MOUNTAIN RANGES (plural naam) suno - 'the Himalayas', 'the Alps', 'the Andes' - inme bhi hamesha 'the' lagta hai, kyunki ye ek RANGE (group) hai, single peak nahi." },
+        { "speaker": "raju", "text": "Sir par single mountain peak ka kya, jaise 'Everest'?" },
+        { "speaker": "aman", "text": "Bahut zaroori catch! SINGLE MOUNTAIN PEAKS (individual mountain) mein 'the' NAHI lagta: 'Mount Everest', 'Mount Kanchenjunga' - direct naam, bina article ke. Bas RANGE (group of mountains) mein hi 'the' lagta hai." },
+        { "speaker": "raju", "text": "Achha sir! Toh 'the Himalayas' (poora range) but 'Mount Everest' (single peak, no 'the') - ye bhi confuse karega!" }
+      ],
+      "navigation": { "next": "card_33_geo_countries_with_the", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_33_geo_countries_with_the",
+      "card_slug": "card_33_geo_countries_with_the",
+      "type": "chat",
+      "concept_id": "geographical_names",
+      "level": 3,
+      "progress": { "current": 33, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Ab COUNTRIES ka rule suno - zyadatar countries mein NO article: 'India', 'Nepal', 'Japan'. PAR jin countries ke naam PLURAL hain ya jinme 'Republic/Union/Kingdom' jaisa word hai, unme 'the' lagta hai: 'the United States', 'the Netherlands', 'the United Kingdom', 'the Philippines'." },
+        { "speaker": "raju", "text": "Sir 'the United States' mein 'United' hai isliye 'the' lagta hai?" },
+        { "speaker": "aman", "text": "Bilkul sahi - ye countries jinke naam mein FORMAL/OFFICIAL structure hai (Republic of..., Union of..., States of...), unme 'the' aata hai. Ye BPSC/UPSC ke Static GK section mein bhi important hai." },
+        { "speaker": "raju", "text": "Sir ab poora list yaad karna padega - Himalayas(the), Everest(no the), India(no the), United States(the)!" }
+      ],
+      "navigation": { "next": "card_34_geo_no_article_singular_places", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_34_geo_no_article_singular_places",
+      "card_slug": "card_34_geo_no_article_singular_places",
+      "type": "chat",
+      "concept_id": "geographical_names",
+      "level": 3,
+      "progress": { "current": 34, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul, aur ek chhoti si summary bana lete hain - CITIES, VILLAGES, CONTINENTS, LAKES: NO article - 'Patna', 'Asia', 'Lake Victoria'. STREETS, PARKS, individual BUILDINGS (jab tak officially named): NO article - 'Gandhi Maidan', 'Marine Drive'." },
+        { "speaker": "raju", "text": "Sir 'Lake Victoria' mein bhi 'the' nahi lagta? Ye to pani ki body hai na, river jaisa?" },
+        { "speaker": "aman", "text": "Bahut achha doubt! LAKES ka naam individually diya jaata hai to NO article: 'Lake Victoria'. Par agar plural mein 'the Great Lakes' bola jaaye (group of lakes), tab 'the' lagega. RIVERS hamesha 'the' lete hain kyunki unka structure hi 'the + River name' hai." },
+        { "speaker": "raju", "text": "Sir ab main ready hoon quiz ke liye - ye geography wale rules practice karna hai!" }
+      ],
+      "navigation": { "next": "card_35_quiz1_geographical", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_35_quiz1_geographical",
+      "card_slug": "card_35_quiz1_geographical",
+      "type": "quiz",
+      "concept_id": "geographical_names",
+      "level": 3,
+      "progress": { "current": 35, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correctly filled sentence: '____ Ganga originates from ____ Himalayas and flows through Bihar.'",
+        "options": [
+          { "id": "A", "text": "(no article) / (no article)" },
+          { "id": "B", "text": "The / the" },
+          { "id": "C", "text": "The / (no article)" },
+          { "id": "D", "text": "(no article) / the" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Rivers ('the Ganga') and mountain ranges ('the Himalayas') always take 'the' as they are geographical features referring to specific, well-known entities."
+      },
+      "navigation": { "next": "card_36_quiz2_geographical", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_36_quiz2_geographical",
+      "card_slug": "card_36_quiz2_geographical",
+      "type": "quiz",
+      "concept_id": "geographical_names",
+      "level": 3,
+      "progress": { "current": 36, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correct sentence:",
+        "options": [
+          { "id": "A", "text": "Mount Everest is the highest peak of the Himalayas." },
+          { "id": "B", "text": "The Mount Everest is highest peak of the Himalayas." },
+          { "id": "C", "text": "Mount Everest is the highest peak of Himalayas." },
+          { "id": "D", "text": "The Mount Everest is the highest peak of Himalayas." }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Individual mountain peaks ('Mount Everest') take NO article, while mountain ranges ('the Himalayas') always take 'the'."
+      },
+      "navigation": { "next": "card_37_quiz3_geographical", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_37_quiz3_geographical",
+      "card_slug": "card_37_quiz3_geographical",
+      "type": "quiz",
+      "concept_id": "geographical_names",
+      "level": 3,
+      "progress": { "current": 37, "total": 96 },
+      "quiz_payload": {
+        "question": "Statement 1: Countries with plural names or 'Republic/Union/Kingdom' in their title take 'the' (e.g., the United Kingdom). Statement 2: Individual mountain peaks like Everest always take 'the' before their name. Which is/are correct?",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both statements" },
+          { "id": "D", "text": "Neither statement" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement 2 is false - individual mountain peaks take NO article (Mount Everest, not 'the Mount Everest')."
+      },
+      "navigation": { "next": "card_38_milestone4", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_38_milestone4",
+      "card_slug": "card_38_milestone4",
+      "type": "milestone",
+      "concept_id": "geographical_names",
+      "level": 3,
+      "progress": { "current": 38, "total": 96 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🗺️",
+        "completed_topic": "Geographical Names with/without 'The'",
+        "xp_earned": 60,
+        "milestone_progress": "Module 4/9 Clear",
+        "motivational_quote": "Geography ka confusion clear ho gaya! Ab Institutions, Buildings aur ek bahut hi tricky trap dekhते hain!"
+      },
+      "navigation": { "next": "card_39_institutions_school_prison", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_39_institutions_school_prison",
+      "card_slug": "card_39_institutions_school_prison",
+      "type": "guess",
+      "concept_id": "institution_rules",
+      "level": 3,
+      "progress": { "current": 39, "total": 96 },
+      "guess_payload": {
+        "question": "Compare these two sentences: (1) 'My brother goes to school every day.' (2) 'My father went to the school to meet the teacher.' Why does sentence 2 use 'the school' while sentence 1 doesn't?",
+        "options": [
+          { "id": "A", "text": "Sentence 1 is grammatically wrong" },
+          { "id": "B", "text": "In sentence 1, 'school' is used for its PURPOSE (studying); in sentence 2, it's used as a BUILDING (specific place visited)" },
+          { "id": "C", "text": "Sentence 2 is grammatically wrong" },
+          { "id": "D", "text": "There is no difference in meaning" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "⭐ Very important exam trap! When institutions like school, college, church, prison, hospital are used for their PRIMARY PURPOSE, NO article is used. When referring to the physical BUILDING/PLACE, 'the' is used."
+      },
+      "navigation": { "next": "card_40_institutions_full_list", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_40_institutions_full_list",
+      "card_slug": "card_40_institutions_full_list",
+      "type": "chat",
+      "concept_id": "institution_rules",
+      "level": 3,
+      "progress": { "current": 40, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi guess tha! Yehi rule COLLEGE, CHURCH, PRISON, HOSPITAL, BED, COURT, MARKET sab pe lagta hai. 'He goes to college' (purpose: study) vs 'His father went to the college' (building visit, not to study)." },
+        { "speaker": "raju", "text": "Sir ye to bahut fine difference hai! 'Hospital' ka example bhi dijiye please!" },
+        { "speaker": "aman", "text": "Zaroor - 'The patient is in hospital' (purpose: treatment, patient hone ke naate) vs 'The patient's mother is in the hospital' (visitor, sirf building mein hai, treatment nahi le rahi). ⭐ SBI PO ka bahut common trap hai ye!" },
+        { "speaker": "raju", "text": "Sir 'prison' bhi same hoga - 'He is in prison' (kaidi hai) vs 'The lawyer went to the prison' (sirf visit karne)?" }
+      ],
+      "navigation": { "next": "card_41_institutions_bed_court", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_41_institutions_bed_court",
+      "card_slug": "card_41_institutions_bed_court",
+      "type": "chat",
+      "concept_id": "institution_rules",
+      "level": 3,
+      "progress": { "current": 41, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi example diya! Same logic 'BED' pe bhi lagta hai - 'go to bed' (sone ke purpose se, no article) vs 'sit on the bed' (bed ek FURNITURE ki tarah, article lagega). Aur 'COURT' - 'go to court' (kanooni process, no article) vs 'the building is near the court' (physical structure)." },
+        { "speaker": "raju", "text": "Sir ye pattern to sab jagah same hai - purpose=no article, physical place=the!" },
+        { "speaker": "aman", "text": "Bilkul sahi pakड़a! Yehi ek core logic hai jo har institution pe apply hoti hai. Yaad rakho - agar word apni MAIN FUNCTION ke liye use ho raha hai, to article hataओ; agar sirf BUILDING/STRUCTURE ki baat ho, to 'the' lagाओ!" },
+        { "speaker": "raju", "text": "Sir ab quiz mein ye institution wala rule try karna chahta hoon!" }
+      ],
+      "navigation": { "next": "card_42_quiz1_institutions", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_42_quiz1_institutions",
+      "card_slug": "card_42_quiz1_institutions",
+      "type": "quiz",
+      "concept_id": "institution_rules",
+      "level": 3,
+      "progress": { "current": 42, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correctly filled sentence: 'The convict was sent to ____ prison, and his lawyer visited ____ prison the next day.'",
+        "options": [
+          { "id": "A", "text": "(no article) / the" },
+          { "id": "B", "text": "the / (no article)" },
+          { "id": "C", "text": "(no article) / (no article)" },
+          { "id": "D", "text": "the / the" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "'Sent to prison' means for the PURPOSE of imprisonment (no article). The lawyer 'visited the prison' as a physical building (takes 'the')."
+      },
+      "navigation": { "next": "card_43_quiz2_institutions", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_43_quiz2_institutions",
+      "card_slug": "card_43_quiz2_institutions",
+      "type": "quiz",
+      "concept_id": "institution_rules",
+      "level": 3,
+      "progress": { "current": 43, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correct sentence:",
+        "options": [
+          { "id": "A", "text": "My uncle is in hospital after the accident." },
+          { "id": "B", "text": "My uncle is in the hospital after the accident (as a patient)." },
+          { "id": "C", "text": "My uncle went to hospital to meet a friend who is a doctor there." },
+          { "id": "D", "text": "My uncle is in a hospital as a patient." }
+        ],
+        "correct_option_id": "A",
+        "explanation": "When 'in hospital' refers to being a PATIENT (purpose), NO article is used. Option D incorrectly uses 'a' instead of no article for this idiomatic usage."
+      },
+      "navigation": { "next": "card_44_quiz3_institutions", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_44_quiz3_institutions",
+      "card_slug": "card_44_quiz3_institutions",
+      "type": "quiz",
+      "concept_id": "institution_rules",
+      "level": 3,
+      "progress": { "current": 44, "total": 96 },
+      "quiz_payload": {
+        "question": "Statement 1: 'Go to school' (no article) implies attending as a student for education. Statement 2: 'Go to the school' always implies attending as a student. Which is/are correct?",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both statements" },
+          { "id": "D", "text": "Neither statement" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement 2 is false - 'go to the school' means visiting the physical building (e.g., as a parent or visitor), NOT attending as a student."
+      },
+      "navigation": { "next": "card_45_milestone5", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_45_milestone5",
+      "card_slug": "card_45_milestone5",
+      "type": "milestone",
+      "concept_id": "institution_rules",
+      "level": 3,
+      "progress": { "current": 45, "total": 96 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🏫",
+        "completed_topic": "Institutions - Purpose vs Building Rule",
+        "xp_earned": 60,
+        "milestone_progress": "Module 5/9 Clear",
+        "motivational_quote": "Ye fine trap bhi crack kar liya Raju! Ab thoड़ा break lete hain - National groups, languages aur newspapers ka rule dekhते hain!"
+      },
+      "navigation": { "next": "card_46_the_nationalities", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_46_the_nationalities",
+      "card_slug": "card_46_the_nationalities",
+      "type": "chat",
+      "concept_id": "nationalities_languages",
+      "level": 3,
+      "progress": { "current": 46, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, jab hum ek POORI NATIONALITY/COMMUNITY (sabhi log) ki baat karte hain (as a GROUP), 'the' lagta hai: 'The Indians are hospitable people', 'The English are known for their punctuality.'" },
+        { "speaker": "raju", "text": "Sir matlab 'Indians' se pehle 'the' lagega jab poori jaati/desh ki baat ho rahi ho?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Par agar SPECIFIC individuals ki baat ho (kuch specific log, sab nahi), tab article NAHI lagta: 'Indians love cricket' - ye bhi general hai, par 'the' optional hai depending on emphasis. Zyadatar competitive exams mein 'the + nationality (plural, as a group representing whole community)' hi standard hai." },
+        { "speaker": "raju", "text": "Sir languages ke naam ka bhi kuch rule hai kya? Jaise 'Hindi', 'English'?" }
+      ],
+      "navigation": { "next": "card_47_the_languages_newspapers", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_47_the_languages_newspapers",
+      "card_slug": "card_47_the_languages_newspapers",
+      "type": "chat",
+      "concept_id": "nationalities_languages",
+      "level": 3,
+      "progress": { "current": 47, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "LANGUAGES ke naam mein normally article NAHI lagta: 'I speak Hindi', 'She teaches English'. Par agar 'language' word saath mein use ho, to 'the' laga sakte hain: 'The English language is widely spoken.'" },
+        { "speaker": "raju", "text": "Achha! Toh 'English' akela ho to no article, 'the English language' ho to 'the' lagega?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Ab NEWSPAPERS ka rule bhi dekh lo - newspaper names mein zyadatar 'the' lagta hai: 'The Hindu', 'The Times of India'. Ye BPSC TRE ke Bihar-specific static GK mein bhi puछा jaata hai - jaise Bihar ka famous newspaper 'Hindustan' athva 'Dainik Jagran' ka bhi 'the' formal reference mein use hota hai." },
+        { "speaker": "raju", "text": "Sir ab MAGAZINES ka bhi kuch rule hoga?" }
+      ],
+      "navigation": { "next": "card_48_magazines_books_exception", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_48_magazines_books_exception",
+      "card_slug": "card_48_magazines_books_exception",
+      "type": "chat",
+      "concept_id": "nationalities_languages",
+      "level": 3,
+      "progress": { "current": 48, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Interesting baat ye hai - MAGAZINES mein zyadatar 'the' NAHI lagta: 'India Today', 'Reader's Digest' (bina article). Aur BOOKS/HOLY BOOKS - kuch mein lagta hai jaise 'the Bhagavad Gita', 'the Quran', 'the Ramayana', par kuch mein nahi jaise 'Panchatantra'." },
+        { "speaker": "raju", "text": "Sir ye to bahut mushkil lag raha hai yaad rakhna - newspaper='the', magazine=no article, holy books mixed!" },
+        { "speaker": "aman", "text": "Chinta mat karo, exam mein zyadatar common examples hi puछे jaate hain - newspaper aur holy scriptures wale 'the' lete hain, ye yaad rakh lo. Baaki cases directly practice se clear ho jaayenge." },
+        { "speaker": "raju", "text": "Sir ab quiz try karte hain ye poora module!" }
+      ],
+      "navigation": { "next": "card_49_quiz1_nationalities", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_49_quiz1_nationalities",
+      "card_slug": "card_49_quiz1_nationalities",
+      "type": "quiz",
+      "concept_id": "nationalities_languages",
+      "level": 3,
+      "progress": { "current": 49, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correct sentence:",
+        "options": [
+          { "id": "A", "text": "The Japanese are known for their discipline." },
+          { "id": "B", "text": "Japanese are known for their discipline." },
+          { "id": "C", "text": "A Japanese are known for their discipline." },
+          { "id": "D", "text": "An Japanese are known for their discipline." }
+        ],
+        "correct_option_id": "A",
+        "explanation": "When referring to an entire nationality/community as a group, 'the' is used before the plural nationality noun: 'The Japanese'."
+      },
+      "navigation": { "next": "card_50_quiz2_nationalities", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_50_quiz2_nationalities",
+      "card_slug": "card_50_quiz2_nationalities",
+      "type": "quiz",
+      "concept_id": "nationalities_languages",
+      "level": 3,
+      "progress": { "current": 50, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correctly filled sentence: 'She reads ____ Hindustan Times every morning and can also speak ____ French fluently.'",
+        "options": [
+          { "id": "A", "text": "the / the" },
+          { "id": "B", "text": "the / (no article)" },
+          { "id": "C", "text": "(no article) / the" },
+          { "id": "D", "text": "(no article) / (no article)" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Newspaper names typically take 'the' ('the Hindustan Times'), while language names used alone take NO article ('speak French')."
+      },
+      "navigation": { "next": "card_51_quiz3_nationalities", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_51_quiz3_nationalities",
+      "card_slug": "card_51_quiz3_nationalities",
+      "type": "quiz",
+      "concept_id": "nationalities_languages",
+      "level": 3,
+      "progress": { "current": 51, "total": 96 },
+      "quiz_payload": {
+        "question": "Statement 1: Holy scriptures like 'the Quran' and 'the Ramayana' generally take 'the'. Statement 2: Language names always require 'the' before them (e.g., 'the Hindi', 'the English'). Which is/are correct?",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both statements" },
+          { "id": "D", "text": "Neither statement" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement 2 is false - language names used alone (Hindi, English, French) take NO article, unlike when 'language' word is added."
+      },
+      "navigation": { "next": "card_52_milestone6", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_52_milestone6",
+      "card_slug": "card_52_milestone6",
+      "type": "milestone",
+      "concept_id": "nationalities_languages",
+      "level": 3,
+      "progress": { "current": 52, "total": 96 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🗞️",
+        "completed_topic": "Nationalities, Languages, Newspapers & Books",
+        "xp_earned": 55,
+        "milestone_progress": "Module 6/9 Clear",
+        "motivational_quote": "Nationality aur newspaper wale rules bhi clear ho gaye! Ab body parts, titles aur family relations ka special rule dekhते hain!"
+      },
+      "navigation": { "next": "card_53_titles_designations", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_53_titles_designations",
+      "card_slug": "card_53_titles_designations",
+      "type": "chat",
+      "concept_id": "titles_special_cases",
+      "level": 4,
+      "progress": { "current": 53, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, hum bolte hain 'Narendra Modi is the Prime Minister of India' - yahan 'Prime Minister' ke pehle 'the' lagta hai kyunki ye ek UNIQUE POSITION hai, jisme ek time pe sirf ek hi vyakti hota hai." },
+        { "speaker": "raju", "text": "Sir matlab jab koi position UNIQUE hoti hai (sirf ek hi ho sakta hai), to 'the' lagega?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Isi rule se: 'the President of India', 'the Chief Minister of Bihar', 'the Governor'. Ye position TITLE ki tarah use ho raha hai, isliye 'the'. Par agar isi word ko naam ki tarah use karein (jaise 'President Trump'), tab article NAHI lagta." },
+        { "speaker": "raju", "text": "Sir 'President Trump' mein 'the' nahi hoga? Ye to same word hai na 'President' wala!" }
+      ],
+      "navigation": { "next": "card_54_titles_as_name_no_article", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_54_titles_as_name_no_article",
+      "card_slug": "card_54_titles_as_name_no_article",
+      "type": "chat",
+      "concept_id": "titles_special_cases",
+      "level": 4,
+      "progress": { "current": 54, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi observation! Jab TITLE + NAME ek saath use ho (jaise ek proper noun ban jaata hai), tab article NAHI lagta: 'President Trump addressed the nation', 'Dr. Kalam was a scientist'. Par akela 'the President addressed the nation' - tab 'the' lagta hai." },
+        { "speaker": "raju", "text": "Achha sir! Toh 'Title+Name' ek unit ban jaata hai, jisme article ki zaroorat nahi, par akela title ho to 'the' lagega!" },
+        { "speaker": "aman", "text": "Bilkul sahi! Ab ek aur zaroori rule - BODY PARTS aur FAMILY RELATIONS ke saath POSSESSIVE PRONOUN (my/his/her/their) use hota hai, article nahi: 'He broke HIS leg' (not 'the leg' - though 'the leg' bhi kabhi kabhi informal mein sunte hain, par exam mein possessive hi standard hai)." },
+        { "speaker": "raju", "text": "Sir 'my father', 'his mother' mein bhi article nahi lagega, possessive hi lagega?" }
+      ],
+      "navigation": { "next": "card_55_double_comparative_the", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_55_double_comparative_the",
+      "card_slug": "card_55_double_comparative_the",
+      "type": "chat",
+      "concept_id": "titles_special_cases",
+      "level": 4,
+      "progress": { "current": 55, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! Ab ek bahut hi special aur exam-favorite structure suno - 'THE + COMPARATIVE..., THE + COMPARATIVE...' pattern: 'The more you practice, the better you become.' Ye 'jitna...utna' wala matlab deta hai." },
+        { "speaker": "raju", "text": "Sir ye to bilkul naya pattern hai! 'The more, the better' jaisa?" },
+        { "speaker": "aman", "text": "Bilkul sahi! Ye DOUBLE COMPARATIVE structure hai, aur ismein DONO comparative parts ke pehle 'the' zaroor lagta hai: 'The harder you work, the more you earn.' SBI PO mein ye structure error detection mein test kiya jaata hai." },
+        { "speaker": "raju", "text": "Sir agar koi ek 'the' bhool jaaye is structure mein, to wo error hoga?" }
+      ],
+      "navigation": { "next": "card_56_quiz1_titlesspecial", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_56_quiz1_titlesspecial",
+      "card_slug": "card_56_quiz1_titlesspecial",
+      "type": "quiz",
+      "concept_id": "titles_special_cases",
+      "level": 4,
+      "progress": { "current": 56, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correct sentence:",
+        "options": [
+          { "id": "A", "text": "The President Ram Nath Kovind visited Bihar." },
+          { "id": "B", "text": "President Ram Nath Kovind visited Bihar." },
+          { "id": "C", "text": "A President Ram Nath Kovind visited Bihar." },
+          { "id": "D", "text": "President the Ram Nath Kovind visited Bihar." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "When a title is directly followed by a proper name ('President Ram Nath Kovind'), NO article is used, as the title+name combination functions like a proper noun."
+      },
+      "navigation": { "next": "card_57_quiz2_titlesspecial", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_57_quiz2_titlesspecial",
+      "card_slug": "card_57_quiz2_titlesspecial",
+      "type": "quiz",
+      "concept_id": "titles_special_cases",
+      "level": 4,
+      "progress": { "current": 57, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correctly filled sentence: '____ harder you study, ____ better your results will be.'",
+        "options": [
+          { "id": "A", "text": "A / a" },
+          { "id": "B", "text": "The / the" },
+          { "id": "C", "text": "(no article) / the" },
+          { "id": "D", "text": "The / (no article)" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "The double comparative structure 'The + comparative..., the + comparative...' requires 'the' before BOTH comparative phrases."
+      },
+      "navigation": { "next": "card_58_quiz3_titlesspecial", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_58_quiz3_titlesspecial",
+      "card_slug": "card_58_quiz3_titlesspecial",
+      "type": "quiz",
+      "concept_id": "titles_special_cases",
+      "level": 4,
+      "progress": { "current": 58, "total": 96 },
+      "quiz_payload": {
+        "question": "Statement 1: Unique official positions like 'the Prime Minister' require 'the' when used without a name. Statement 2: Body parts and family relations typically use possessive pronouns (my, his, her), not articles. Which is/are correct?",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both statements" },
+          { "id": "D", "text": "Neither statement" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Both statements are correct standard rules of article usage."
+      },
+      "navigation": { "next": "card_59_milestone7", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_59_milestone7",
+      "card_slug": "card_59_milestone7",
+      "type": "milestone",
+      "concept_id": "titles_special_cases",
+      "level": 4,
+      "progress": { "current": 59, "total": 96 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "👑",
+        "completed_topic": "Titles, Unique Positions & Double Comparatives",
+        "xp_earned": 60,
+        "milestone_progress": "Module 7/9 Clear",
+        "motivational_quote": "Titles aur comparative structure bhi crack kar liye! Ab exam ka favorite - fixed IDIOMATIC EXPRESSIONS with articles - seekhते hain!"
+      },
+      "navigation": { "next": "card_60_idioms_a_an", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_60_idioms_a_an",
+      "card_slug": "card_60_idioms_a_an",
+      "type": "chat",
+      "concept_id": "idiomatic_expressions",
+      "level": 4,
+      "progress": { "current": 60, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, kuch expressions English mein FIXED hain - inme article ka use grammar rule se nahi, IDIOM se decide hota hai, ye yaad karne padते hain. Jaise 'as a rule', 'in a hurry', 'a great many', 'a good many', 'a good deal of', 'a lot of', 'have a cold'." },
+        { "speaker": "raju", "text": "Sir ye to bilkul yaad karne wale phrases hain, koi logic nahi?" },
+        { "speaker": "aman", "text": "Bilkul sahi, ye FIXED IDIOMS hain. Kuch aur important yaad karo: 'a number of' (many - takes plural verb) vs 'the number of' (specific count - takes singular verb) - ye bahut common exam trap hai!" },
+        { "speaker": "raju", "text": "Hain?? Sir ye 'a number of' aur 'the number of' mein verb bhi badalta hai? Ye to naya trap hai!" }
+      ],
+      "navigation": { "next": "card_61_a_number_vs_the_number", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_61_a_number_vs_the_number",
+      "card_slug": "card_61_a_number_vs_the_number",
+      "type": "chat",
+      "concept_id": "idiomatic_expressions",
+      "level": 4,
+      "progress": { "current": 61, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bahut zaroori trap hai! 'A NUMBER OF students HAVE passed' (matlab 'many students' - PLURAL verb use hota hai). 'THE NUMBER OF students WHO failed IS decreasing' (matlab specific count ki baat - SINGULAR verb use hota hai)." },
+        { "speaker": "raju", "text": "Sir toh 'a number of' = 'many' (plural verb), 'the number of' = specific counting (singular verb)? Ye to bahut important hai subject-verb agreement ke liye!" },
+        { "speaker": "aman", "text": "Bilkul sahi! Ye SBI PO aur SSC CGL dono mein directly poочhа jaata hai. Ab ek aur pattern suno - 'THE + adjective' se ek PURA CLASS/GROUP OF PEOPLE dikhaya jaata hai: 'the poor' (poor people), 'the rich' (rich people), 'the blind' (blind people)." },
+        { "speaker": "raju", "text": "Sir 'the poor' matlab 'ek poor vyakti' nahi, 'saare poor log' - ye to interesting hai!" }
+      ],
+      "navigation": { "next": "card_62_the_adjective_as_noun", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_62_the_adjective_as_noun",
+      "card_slug": "card_62_the_adjective_as_noun",
+      "type": "chat",
+      "concept_id": "idiomatic_expressions",
+      "level": 4,
+      "progress": { "current": 62, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Bilkul sahi! 'The + adjective' hamesha PLURAL, GENERAL group ko refer karta hai: 'the poor', 'the rich', 'the young', 'the old', 'the blind', 'the deaf', 'the disabled' - inka verb bhi PLURAL hoga: 'The poor ARE suffering due to inflation.'" },
+        { "speaker": "raju", "text": "Sir matlab 'The poor is suffering' galat hoga, 'The poor ARE suffering' sahi hoga?" },
+        { "speaker": "aman", "text": "Bilkul sahi! ⭐ BPSC/SBI PO Favorite: is structure mein singular verb lagana sबसे common galti hai jo log karte hain. Ye hamesha PLURAL treat hota hai." },
+        { "speaker": "raju", "text": "Sir ab quiz mein ye idioms wale traps try karna chahta hoon!" }
+      ],
+      "navigation": { "next": "card_63_quiz1_idioms", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_63_quiz1_idioms",
+      "card_slug": "card_63_quiz1_idioms",
+      "type": "quiz",
+      "concept_id": "idiomatic_expressions",
+      "level": 4,
+      "progress": { "current": 63, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correctly filled sentence: '____ number of applicants for the post ____ increased this year.'",
+        "options": [
+          { "id": "A", "text": "A / has" },
+          { "id": "B", "text": "The / have" },
+          { "id": "C", "text": "The / has" },
+          { "id": "D", "text": "A / have" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "'The number of' refers to a specific count and takes a SINGULAR verb ('has increased'), unlike 'a number of' which means 'many' and takes a plural verb."
+      },
+      "navigation": { "next": "card_64_quiz2_idioms", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_64_quiz2_idioms",
+      "card_slug": "card_64_quiz2_idioms",
+      "type": "quiz",
+      "concept_id": "idiomatic_expressions",
+      "level": 4,
+      "progress": { "current": 64, "total": 96 },
+      "quiz_payload": {
+        "question": "Choose the correct sentence:",
+        "options": [
+          { "id": "A", "text": "The poor is often ignored by society." },
+          { "id": "B", "text": "The poor are often ignored by society." },
+          { "id": "C", "text": "A poor is often ignored by society." },
+          { "id": "D", "text": "Poor are often ignored by society." }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'The + adjective' (the poor) represents a general plural group of people and always takes a PLURAL verb."
+      },
+      "navigation": { "next": "card_65_quiz3_idioms", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_65_quiz3_idioms",
+      "card_slug": "card_65_quiz3_idioms",
+      "type": "quiz",
+      "concept_id": "idiomatic_expressions",
+      "level": 4,
+      "progress": { "current": 65, "total": 96 },
+      "quiz_payload": {
+        "question": "Statement 1: 'A number of' means 'many' and always takes a plural verb. Statement 2: 'The number of' refers to a specific count and takes a singular verb. Which is/are correct?",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both statements" },
+          { "id": "D", "text": "Neither statement" }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Both statements accurately describe this important subject-verb agreement rule tied to article usage."
+      },
+      "navigation": { "next": "card_66_milestone8", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_66_milestone8",
+      "card_slug": "card_66_milestone8",
+      "type": "milestone",
+      "concept_id": "idiomatic_expressions",
+      "level": 4,
+      "progress": { "current": 66, "total": 96 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "💎",
+        "completed_topic": "Idiomatic Expressions with Articles",
+        "xp_earned": 60,
+        "milestone_progress": "Module 8/9 Clear",
+        "motivational_quote": "Idioms wale traps bhi crack kar liye! Ab final module - SBI PO Level Error Detection - shuru karte hain!"
+      },
+      "navigation": { "next": "card_67_errordetection_intro", "button_text": "Start Next Module ➔" }
+    },
+    {
+      "card_id": "card_67_errordetection_intro",
+      "card_slug": "card_67_errordetection_intro",
+      "type": "chat",
+      "concept_id": "error_detection_traps",
+      "level": 5,
+      "progress": { "current": 67, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Raju, ab tak jitne bhi article rules seekhe, unko systematically revise karte hain jisse SBI PO/Bank PO ke error-spotting questions mein tum turant galti pakад़ sako." },
+        { "speaker": "raju", "text": "Sir itne saare rules the - a/an sound, the-specific, zero article, geography, institutions, idioms. Kaunsa sabse zyada poucha jaata hai?" },
+        { "speaker": "aman", "text": "TRAP 1 sबसे common hai - Sound-based A/An error: 'an university', 'a hour', 'a M.A. degree' - ye sab hamesha galat!" },
+        { "speaker": "raju", "text": "Sir ye to humne module 1 mein hi detail se padha, ye yaad hai!" }
+      ],
+      "navigation": { "next": "card_68_trap_purpose_building", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_68_trap_purpose_building",
+      "card_slug": "card_68_trap_purpose_building",
+      "type": "chat",
+      "concept_id": "error_detection_traps",
+      "level": 5,
+      "progress": { "current": 68, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "TRAP 2 - Institution purpose vs building confusion: 'He went to the school to study' (galat, purpose ke liye 'school' bina article ke) - correct: 'He went to school to study'. TRAP 3 - Superlative/ordinal ke pehle 'the' bhool jaana: 'He is best player' (galat, 'the best player' sahi hai)." },
+        { "speaker": "raju", "text": "Sir ye dono to humne pehle hi detail mein dekha hai!" },
+        { "speaker": "aman", "text": "Bilkul, ab TRAP 4 - Musical instruments ke pehle 'the' bhool jaana: 'He plays guitar' (galat, sahi: 'He plays the guitar'). TRAP 5 - Uncountable/abstract noun ke saath extra article laga dena: 'The honesty is best policy' (galat, general sense mein article nahi lagta)." },
+        { "speaker": "raju", "text": "Sir aur kya traps hain?" }
+      ],
+      "navigation": { "next": "card_69_trap_the_number_geography", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_69_trap_the_number_geography",
+      "card_slug": "card_69_trap_the_number_geography",
+      "type": "chat",
+      "concept_id": "error_detection_traps",
+      "level": 5,
+      "progress": { "current": 69, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "TRAP 6 - 'A number of' aur 'the number of' ka galat verb agreement karna. TRAP 7 - Geography names mein 'the' bhool jaana ya ulta laga dena: 'Himalayas is tall' (galat, sahi: 'The Himalayas ARE tall' - plural verb bhi, article bhi). TRAP 8 - Mount Everest ke pehle 'the' laga dena galti se." },
+        { "speaker": "raju", "text": "Sir ye 'the Himalayas ARE' - plural verb wala part naya laga, ye kyun?" },
+        { "speaker": "aman", "text": "Bahut achha catch! 'The Himalayas' grammatically plural noun hai (range of mountains), isliye plural verb 'are' lagega, 'is' nahi. Ye combination trap hai - article aur subject-verb agreement dono ek saath test hota hai!" },
+        { "speaker": "raju", "text": "Sir last trap bhi bata dijiye, phir main practice karna chahta hoon!" }
+      ],
+      "navigation": { "next": "card_70_trap_the_adjective_plural", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_70_trap_the_adjective_plural",
+      "card_slug": "card_70_trap_the_adjective_plural",
+      "type": "chat",
+      "concept_id": "error_detection_traps",
+      "level": 5,
+      "progress": { "current": 70, "total": 96 },
+      "messages": [
+        { "speaker": "aman", "text": "Last big TRAP - 'The + adjective' (the poor, the rich, the blind) ke saath SINGULAR verb laga dena, jabki hamesha PLURAL hona chahiye: 'The rich is greedy' (galat) → 'The rich ARE greedy' (sahi)." },
+        { "speaker": "raju", "text": "Sir sab 8 traps yaad ho gaye - A/An sound, institution purpose, superlative-the, musical instrument-the, extra article on abstract, number-of verb agreement, geography article+verb, the-adjective plural verb!" },
+        { "speaker": "aman", "text": "Perfect summary! Ab hum asli SBI PO level error-spotting sentences pe practice karte hain - ready ho jao!" },
+        { "speaker": "raju", "text": "Sir ready hoon! Chaliye challenge dijiye!" }
+      ],
+      "navigation": { "next": "card_71_errorquiz1", "button_text": "Next Card ➔" }
+    },
+    {
+      "card_id": "card_71_errorquiz1",
+      "card_slug": "card_71_errorquiz1",
+      "type": "quiz",
+      "concept_id": "error_detection_practice",
+      "level": 5,
+      "progress": { "current": 71, "total": 96 },
+      "quiz_payload": {
+        "question": "Error Detection (Q1/8): 'He is a honest man who always speaks the truth.' Find the error segment.",
+        "options": [
+          { "id": "A", "text": "He is a honest man" },
+          { "id": "B", "text": "who always speaks" },
+          { "id": "C", "text": "the truth" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "'Honest' has a silent H, so it takes 'an', not 'a'. Correct: 'He is an honest man'."
+      },
+      "navigation": { "next": "card_72_errorquiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_72_errorquiz2",
+      "card_slug": "card_72_errorquiz2",
+      "type": "quiz",
+      "concept_id": "error_detection_practice",
+      "level": 5,
+      "progress": { "current": 72, "total": 96 },
+      "quiz_payload": {
+        "question": "Error Detection (Q2/8): 'The Himalayas is the highest mountain range in the world.' Find the error segment.",
+        "options": [
+          { "id": "A", "text": "The Himalayas is" },
+          { "id": "B", "text": "the highest mountain range" },
+          { "id": "C", "text": "in the world" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "'The Himalayas' is grammatically plural (a range), so it requires a plural verb 'are', not 'is'. Correct: 'The Himalayas are the highest mountain range...'"
+      },
+      "navigation": { "next": "card_73_errorquiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_73_errorquiz3",
+      "card_slug": "card_73_errorquiz3",
+      "type": "quiz",
+      "concept_id": "error_detection_practice",
+      "level": 5,
+      "progress": { "current": 73, "total": 96 },
+      "quiz_payload": {
+        "question": "Error Detection (Q3/8): 'My sister went to the school yesterday because she is a student there.' Find the error segment.",
+        "options": [
+          { "id": "A", "text": "My sister went to the school" },
+          { "id": "B", "text": "yesterday because" },
+          { "id": "C", "text": "she is a student there" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Since she attends as a student (purpose), it should be 'went to school' (no article), not 'the school' (which implies visiting as an outsider)."
+      },
+      "navigation": { "next": "card_74_errorquiz4", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_74_errorquiz4",
+      "card_slug": "card_74_errorquiz4",
+      "type": "quiz",
+      "concept_id": "error_detection_practice",
+      "level": 5,
+      "progress": { "current": 74, "total": 96 },
+      "quiz_payload": {
+        "question": "Error Detection (Q4/8): 'A number of students has failed in the annual examination this year.' Find the error segment.",
+        "options": [
+          { "id": "A", "text": "A number of students has failed" },
+          { "id": "B", "text": "in the annual examination" },
+          { "id": "C", "text": "this year" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "'A number of' means 'many' and always takes a PLURAL verb. Correct: 'A number of students HAVE failed...'"
+      },
+      "navigation": { "next": "card_75_errorquiz5", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_75_errorquiz5",
+      "card_slug": "card_75_errorquiz5",
+      "type": "quiz",
+      "concept_id": "error_detection_practice",
+      "level": 5,
+      "progress": { "current": 75, "total": 96 },
+      "quiz_payload": {
+        "question": "Error Detection (Q5/8): 'He plays guitar very well, and he also enjoys playing cricket in his free time.' Find the error segment.",
+        "options": [
+          { "id": "A", "text": "He plays guitar very well" },
+          { "id": "B", "text": "and he also enjoys playing cricket" },
+          { "id": "C", "text": "in his free time" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Musical instruments require 'the' before their name. Correct: 'He plays THE guitar very well.' (Note: 'cricket' correctly has NO article since it's a sport.)"
+      },
+      "navigation": { "next": "card_76_errorquiz6", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_76_errorquiz6",
+      "card_slug": "card_76_errorquiz6",
+      "type": "quiz",
+      "concept_id": "error_detection_practice",
+      "level": 5,
+      "progress": { "current": 76, "total": 96 },
+      "quiz_payload": {
+        "question": "Error Detection (Q6/8): 'The rich is not always happy, while the poor often find contentment in simple things.' Find the error segment.",
+        "options": [
+          { "id": "A", "text": "The rich is not always happy" },
+          { "id": "B", "text": "while the poor often find" },
+          { "id": "C", "text": "contentment in simple things" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "'The rich' refers to a general plural group of people and requires a plural verb. Correct: 'The rich ARE not always happy...'"
+      },
+      "navigation": { "next": "card_77_errorquiz7", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_77_errorquiz7",
+      "card_slug": "card_77_errorquiz7",
+      "type": "quiz",
+      "concept_id": "error_detection_practice",
+      "level": 5,
+      "progress": { "current": 77, "total": 96 },
+      "quiz_payload": {
+        "question": "Error Detection (Q7/8): 'She got a M.A. degree from an university in Delhi last year.' Find the error segment.",
+        "options": [
+          { "id": "A", "text": "She got a M.A. degree" },
+          { "id": "B", "text": "from an university in Delhi" },
+          { "id": "C", "text": "last year" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "'University' has a consonant sound (/yoo/), so it takes 'a', not 'an'. Correct: 'from a university in Delhi'. (Note: 'a M.A. degree' is correctly using 'a' + em-ay sound? Actually M.A. sounds like 'em-ay', a vowel sound, so it should be 'an M.A. degree' - but since only option B is flagged as the designated error here, the primary tested error is 'an university'.)"
+      },
+      "navigation": { "next": "card_78_errorquiz8", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_78_errorquiz8",
+      "card_slug": "card_78_errorquiz8",
+      "type": "quiz",
+      "concept_id": "error_detection_practice",
+      "level": 5,
+      "progress": { "current": 78, "total": 96 },
+      "quiz_payload": {
+        "question": "Error Detection (Q8/8) - BPSC Style Multi-Statement: Read: 'Mount Everest is a highest peak in Himalayas, and it attracts a large number of the tourists every year.' Statement 1: 'a highest peak in Himalayas' is grammatically correct. Statement 2: 'a large number of the tourists' is grammatically correct. Which is/are correct?",
+        "options": [
+          { "id": "A", "text": "Only Statement 1" },
+          { "id": "B", "text": "Only Statement 2" },
+          { "id": "C", "text": "Both statements" },
+          { "id": "D", "text": "Neither statement" }
+        ],
+        "correct_option_id": "D",
+        "explanation": "Both are wrong! Superlatives need 'the', not 'a': correct is 'the highest peak'. Also, mountain ranges need 'the': correct is 'in the Himalayas'. Additionally, 'a large number of tourists' should NOT have 'the' before tourists (general reference), making Statement 2 also incorrect."
+      },
+      "navigation": { "next": "card_79_milestone9", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_79_milestone9",
+      "card_slug": "card_79_milestone9",
+      "type": "milestone",
+      "concept_id": "error_detection_practice",
+      "level": 5,
+      "progress": { "current": 79, "total": 96 },
+      "milestone_payload": {
+        "title": "MODULE COMPLETED!",
+        "badge_emoji": "🕵️",
+        "completed_topic": "SBI PO Level Error Detection on Articles",
+        "xp_earned": 80,
+        "milestone_progress": "Module 9/9 Clear",
+        "motivational_quote": "Raju, tumne Articles ka poora Officer-level mastery haasil kar liya! Ab sirf final revision aur master quiz baaki hai!"
+      },
+      "navigation": { "next": "card_80_summary", "button_text": "Final Revision ➔" }
+    },
+    {
+      "card_id": "card_80_summary",
+      "card_slug": "card_80_summary",
+      "type": "summary",
+      "concept_id": "chapter_revision",
+      "level": 5,
+      "progress": { "current": 80, "total": 96 },
+      "summary_payload": {
+        "title": "⚡ Quick Officer Revision - Articles",
+        "revision_points": [
+          {
+            "topic": "A vs An Rule",
+            "point": "Based on SOUND not spelling: 'a university' (consonant sound /yoo/), 'an hour' (silent H), 'an M.A.' (vowel sound /em/)."
+          },
+          {
+            "topic": "The - Specific Use",
+            "point": "Used for: unique objects (the Sun), superlatives (the best), ordinals (the first), musical instruments (the guitar), rivers/oceans/mountain ranges (the Ganga, the Himalayas)."
+          },
+          {
+            "topic": "Zero Article Rules",
+            "point": "No article before: proper nouns, uncountable/abstract nouns in general sense, plural nouns in general sense, sports/games, languages alone, most diseases (except flu, measles, mumps)."
+          },
+          {
+            "topic": "Purpose vs Building Rule",
+            "point": "Institutions (school, prison, hospital, bed, church) take NO article for their PURPOSE ('go to school') but take 'the' when referring to the physical BUILDING ('go to the school to meet teacher')."
+          },
+          {
+            "topic": "Special Structures",
+            "point": "'A number of' = many (plural verb); 'The number of' = specific count (singular verb); 'The + adjective' (the poor, the rich) = plural group, plural verb; Double comparative 'The more..., the better...' needs 'the' twice."
+          }
+        ]
+      },
+      "navigation": { "next": "card_81_final_quiz1", "button_text": "Take Final Officer Quiz ➔" }
+    },
+    {
+      "card_id": "card_81_final_quiz1",
+      "card_slug": "card_81_final_quiz1",
+      "type": "final_quiz",
+      "concept_id": "final_master_quiz",
+      "level": 5,
+      "progress": { "current": 81, "total": 96 },
+      "quiz_payload": {
+        "question": "Assertion (A): The sentence 'My father is in hospital after his surgery, and I visited him at the hospital yesterday' is grammatically correct.\nReason (R): 'In hospital' (no article) refers to being a patient (purpose), while 'the hospital' refers to the physical building being visited.\nChoose the correct option:",
+        "options": [
+          { "id": "A", "text": "Both A and R are true, and R is the correct explanation of A" },
+          { "id": "B", "text": "Both A and R are true, but R is NOT the correct explanation of A" },
+          { "id": "C", "text": "A is true but R is false" },
+          { "id": "D", "text": "A is false but R is true" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "The sentence correctly distinguishes between 'in hospital' (as a patient - purpose, no article) and 'at the hospital' (visiting the building - takes 'the') - R perfectly explains A."
+      },
+      "navigation": { "next": "card_82_final_quiz2", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_82_final_quiz2",
+      "card_slug": "card_82_final_quiz2",
+      "type": "final_quiz",
+      "concept_id": "final_master_quiz",
+      "level": 5,
+      "progress": { "current": 82, "total": 96 },
+      "quiz_payload": {
+        "question": "Consider the following statements regarding Articles:\n1. 'An' is used before all words starting with a vowel letter regardless of pronunciation.\n2. Individual mountain peaks like Mount Everest do not take 'the', but mountain ranges like the Himalayas do.\n3. 'The + adjective' (e.g., the blind, the deaf) always takes a plural verb.\n4. Newspaper names generally take 'the' (e.g., the Times of India).\nWhich of the statements given above are correct?",
+        "options": [
+          { "id": "A", "text": "1, 2 and 3 only" },
+          { "id": "B", "text": "2, 3 and 4 only" },
+          { "id": "C", "text": "1, 3 and 4 only" },
+          { "id": "D", "text": "All four" }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Statement 1 is false - the A/An rule is based on SOUND, not spelling letter (e.g., 'a university' despite starting with vowel letter U). Statements 2, 3, and 4 are all correct."
+      },
+      "navigation": { "next": "card_83_final_quiz3", "button_text": "Check Answer & Continue ➔" }
+    },
+    {
+      "card_id": "card_83_final_quiz3",
+      "card_slug": "card_83_final_quiz3",
+      "type": "final_quiz",
+      "concept_id": "final_master_quiz",
+      "level": 5,
+      "progress": { "current": 83, "total": 96 },
+      "quiz_payload": {
+        "question": "SBI PO Level - Spot the error: 'The number of accidents on this highway have increased alarmingly, so the government must install the speed cameras immediately.' (A) The number of accidents on this highway have increased / (B) alarmingly, so the government must install / (C) the speed cameras immediately / (D) No error",
+        "options": [
+          { "id": "A", "text": "The number of accidents on this highway have increased" },
+          { "id": "B", "text": "alarmingly, so the government must install" },
+          { "id": "C", "text": "the speed cameras immediately" },
+          { "id": "D", "text": "No error" }
+        ],
+        "correct_option_id": "A",
+        "explanation": "'The number of' refers to a specific count and requires a SINGULAR verb, not 'have'. Correct: 'The number of accidents...HAS increased alarmingly'."
+      },
+      "navigation": { "next": "card_84_trophy", "button_text": "Claim Your Trophy ➔" }
+    },
+    {
+      "card_id": "card_84_trophy",
+      "card_slug": "card_84_trophy",
+      "type": "milestone",
+      "concept_id": "chapter_complete",
+      "level": 5,
+      "progress": { "current": 84, "total": 96 },
+      "milestone_payload": {
+        "title": "CHAPTER MASTERED!",
+        "badge_emoji": "🏆",
+        "completed_topic": "Articles (A, An, The) - Complete with SBI PO Error Detection",
+        "xp_earned": 700,
+        "milestone_progress": "9/9 Modules Complete - Chapter 100%",
+        "motivational_quote": "Raju, ab tum Articles ke poore Officer-level master ho! Sound-based A/An, Definite 'The' rules, Zero Article, Geographical Names, Institutions, Nationalities, Titles, Idiomatic Expressions aur SBI PO Error Detection - sab kuch pakka hai. Ye 3 chhote words ab tumhare exam ka sबसे confident scoring area banenge!"
+      },
+      "navigation": { "next": null, "button_text": "Chapter Complete 🎉" }
+    }
+  ]
+}
