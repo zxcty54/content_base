@@ -1,0 +1,2771 @@
+{
+  "topic_id": "nervous_system_biology_001",
+  "topic_title": "Nervous System — Neural Control & Coordination",
+  "target_exams": [
+    "BPSC",
+    "BSSC",
+    "RRB NTPC",
+    "SSC CGL",
+    "NEET",
+    "UPSC Prelims"
+  ],
+  "total_cards": 80,
+  "characters": {
+    "aman": {
+      "name": "Aman Sir",
+      "role": "teacher",
+      "avatar": "👨‍🏫"
+    },
+    "raju": {
+      "name": "Raju",
+      "role": "student",
+      "avatar": "👦"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "chapter_introduction",
+      "level": 1,
+      "progress": {
+        "current": 1,
+        "total": 80
+      },
+      "intro_payload": {
+        "chapter_icon": "🧠",
+        "chapter_title": "Nervous System",
+        "subtitle": "Neural Control & Coordination — From Neuron to Brain",
+        "target_exams": [
+          "BPSC",
+          "BSSC",
+          "RRB NTPC",
+          "SSC CGL",
+          "NEET",
+          "UPSC Prelims"
+        ],
+        "learning_outcomes": [
+          "Understand the structure of a Neuron with all parts and types",
+          "Master how nerve impulse is generated and transmitted",
+          "Learn the complete structure of Human Brain — all lobes and functions",
+          "Understand Spinal Cord structure and Reflex Action mechanism",
+          "Master the divisions of Nervous System — CNS, PNS, ANS",
+          "Learn Sensory organs — Eye and Ear structure & function",
+          "Crack BPSC multi-statement & NEET diagram-level questions"
+        ],
+        "modules": [
+          "Module 1: What is Nervous System? (Daily Life Hook)",
+          "Module 2: Neuron — Structure & Types",
+          "Module 3: Nerve Impulse — Resting & Action Potential",
+          "Module 4: Synapse & Neurotransmitters",
+          "Module 5: Divisions of Nervous System",
+          "Module 6: Human Brain — Structure & Functions",
+          "Module 7: Spinal Cord & Reflex Action",
+          "Module 8: Autonomic Nervous System",
+          "Module 9: Eye — Structure & Function",
+          "Module 10: Ear — Structure & Function",
+          "Module 11: Final Officer Revision & Master Quiz"
+        ]
+      },
+      "navigation": {
+        "next": "card_02_daily_hook",
+        "button_text": "Start Learning 🚀"
+      }
+    },
+    {
+      "card_id": "card_02_daily_hook",
+      "card_slug": "card_02_daily_hook",
+      "type": "chat",
+      "concept_id": "nervous_system_introduction",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Raju, kal raat soye the aur achanak neend mein paaon hila, ya kabhi garam chai ka cup haath se chhoot gaya bina soche? Ye sab ek second mein hota hai — bina plan kiye, bina sooche. Ye kaun karta hai? Ye sab hota hai tumhare andar ek adbhut system ki wajah se jise hum 'Nervous System' kehte hain — ek anokha network jo second ke hazarwen hisse mein signals bhejta hai body mein har jagah!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir! Kabhi kabhi toh haath apne aap hata leta hoon kuch goram cheez se — matlab sochne se pehle hi ho jaata hai! Ye system kya hai exactly?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul sahi observation! Ye Nervous System hamare body ka sabse fast communication system hai — ek electrical-chemical network jo brain, spinal cord aur poore body ko connect karta hai. Is system ki basic unit hai 'Neuron' — ek special cell jo messages ko bijli ki tarah ek jagah se doosri jagah bhejti hai. Poora body ek telecom network jaisa hai aur neuron uske wire!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Neuron! Matlab nerve cell? Ye toh bahut interesting lag raha hai Sir — bijli ki tarah signal jaata hai body mein?"
+        }
+      ],
+      "navigation": {
+        "next": "card_03_nervous_system_overview",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_03_nervous_system_overview",
+      "card_slug": "card_03_nervous_system_overview",
+      "type": "chat",
+      "concept_id": "nervous_system_overview",
+      "level": 1,
+      "progress": {
+        "current": 3,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ruko, pehle ek badi picture samjho. Hamare Nervous System ke teen kaam hain: (1) Sense karna — bahar ki duniya se information lena jaise aankhon se, kaanon se. (2) Process karna — us information ko brain mein samjhna. (3) React karna — usi ke hisaab se muscles ya glands ko command dena. Is poori process ko 'Neural Coordination' kehte hain. Ye wahi kaam hai jo computer karta hai — input, processing, output!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Ohh! Toh nervous system ek computer ki tarah hai — input lena, process karna, output dena! Sir lekin body mein sirf ek hi nervous system hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi Raju! Nervous System ke teen main divisions hain — Central Nervous System (CNS) jisme brain aur spinal cord, Peripheral Nervous System (PNS) jisme saari nerves body mein, aur Autonomic Nervous System (ANS) jo heartbeat aur digestion jaisi automatic cheezein control karta hai. Inhe hum aage detail mein padhenge — abhi pehle sबसे chhoti unit — Neuron — ko samajhte hain!"
+        },
+        {
+          "speaker": "raju",
+          "text": "CNS, PNS, ANS — teen divisions! Sir ye naam toh exam mein zaroor poochhe jaate honge!"
+        }
+      ],
+      "navigation": {
+        "next": "card_04_neuron_structure",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_04_neuron_structure",
+      "card_slug": "card_04_neuron_structure",
+      "type": "chat",
+      "concept_id": "neuron_structure",
+      "level": 1,
+      "progress": {
+        "current": 4,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ab Neuron ki structure samjho — ye body ki sabse lamba cell ho sakti hai — kuch neurons ek meter tak lambi hoti hain! Neuron ke teen main parts hain: (1) Cell Body (Soma/Cyton) — jisme nucleus aur cytoplasm. (2) Dendrites — Cell body se nikli choti-choti branches jo signals RECEIVE karti hain. (3) Axon — ek lamba process jo signals ko AWAY bhejta hai cell body se. Dendrites receive karti hain, Axon bhejta hai — ye direction yaad karo!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Dendrites receive karti hain, Axon bhejta hai — Sir ye toh important hai! Lekin ye ek meter lamba cell? Seriously?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan! Sciatic nerve ka neuron — jo spinal cord se paanv tak jaata hai — lagbhag ek meter lamba hota hai! Ye body ki sabse lamba cell hai. Aur ek aur baat — Axon ke end par 'Axon Terminals' hote hain jo agle neuron ya muscle ko signal dete hain. Axon ke upar ek covering hoti hai jise 'Myelin Sheath' kehte hain — ye bahut important hai speed ke liye — aage dekhenge!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Myelin Sheath! Axon ka covering! Sir ye naam kuch special kaam karta hoga — kya hai ye exactly?"
+        }
+      ],
+      "navigation": {
+        "next": "card_05_myelin_nodes",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_05_myelin_nodes",
+      "card_slug": "card_05_myelin_nodes",
+      "type": "chat",
+      "concept_id": "myelin_sheath_nodes",
+      "level": 1,
+      "progress": {
+        "current": 5,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Myelin Sheath — ye ek fatty (lipid) covering hai jo Axon ke upar hoti hai. Ye do kaam karti hai: (1) Insulation — electrical signal leak na ho baahar. (2) Speed — signal bahut fast jump karta hai. Myelin Sheath beech-beech mein khatam hoti hai — un jagahon ko 'Nodes of Ranvier' kehte hain. Signal in nodes par jump karta hai — isko 'Saltatory Conduction' kehte hain — matlab signal straight nahi, jump-jump karke jaata hai. Isliye myelinated nerves mein speed zyada hoti hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Nodes of Ranvier! Jump-jump karke signal jaata hai — Saltatory Conduction! Sir ye toh NEET mein zaroor aata hoga?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul! NEET aur BPSC dono mein. Aur ek important fact — Myelin Sheath PNS mein 'Schwann Cells' banati hain aur CNS mein 'Oligodendrocytes' banate hain. Ye dono alag hain — ye exam trap hai! Multiple Sclerosis ek disease hai jisme Myelin Sheath damage ho jaati hai — isliye signals slow ya block ho jaate hain. Ye bhi BPSC ka favorite question hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Schwann Cells PNS mein aur Oligodendrocytes CNS mein! Sir ye toh pakka exam mein aayega — Myelin disease ka naam bhi batao!"
+        }
+      ],
+      "navigation": {
+        "next": "card_06_neuron_types",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_06_neuron_types",
+      "card_slug": "card_06_neuron_types",
+      "type": "chat",
+      "concept_id": "neuron_types",
+      "level": 1,
+      "progress": {
+        "current": 6,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Neurons teen types ke hote hain kaam ke hisaab se — ye exam mein seedha poochha jaata hai: (1) Sensory Neurons (Afferent) — sense organs se brain/spinal cord tak signal laate hain — matlab darwaze se andar aane wale. (2) Motor Neurons (Efferent) — brain/spinal cord se muscles/glands tak signal bhejte hain — matlab andar se bahar jaane wale. (3) Interneurons (Association Neurons) — CNS ke andar hi kaam karte hain, sensory aur motor neurons ko connect karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Afferent matlab Andar aana — Sensory, aur Efferent matlab baahar jaana — Motor! Sir ye trick kaam aayegi!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Shandaar! A for Afferent = Arriving (andar aana) = Sensory. E for Efferent = Exiting (bahar jaana) = Motor. Structure ke hisaab se bhi neurons 3 types ke hote hain: Unipolar (ek process), Bipolar (do processes — retina mein), aur Multipolar (bahut processes — sabse common — motor neurons). Multipolar neurons ke dendrites bahut zyada hote hain — looks like a tree!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Bipolar neurons retina mein! Multipolar sabse common! Sir ye structure-wise types bhi exam mein aate hain?"
+        }
+      ],
+      "navigation": {
+        "next": "card_07_quiz1_module2",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_07_quiz1_module2",
+      "card_slug": "card_07_quiz1_module2",
+      "type": "quiz",
+      "concept_id": "neuron_structure_quiz",
+      "level": 1,
+      "progress": {
+        "current": 7,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Neuron ka kaunsa part signals ko RECEIVE karta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Axon"
+          },
+          {
+            "id": "B",
+            "text": "Myelin Sheath"
+          },
+          {
+            "id": "C",
+            "text": "Dendrites"
+          },
+          {
+            "id": "D",
+            "text": "Axon Terminal"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Dendrites signals RECEIVE karti hain — ye cell body se nikli choti branches hain. Axon signals ko AWAY bhejta hai cell body se. Myelin Sheath Axon ka fatty protective covering hai. Axon Terminals signal ko agle neuron ya effector organ tak deliver karte hain. Direction yaad karo: Dendrites → Cell Body → Axon → Axon Terminals."
+      },
+      "navigation": {
+        "next": "card_08_quiz2_module2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_08_quiz2_module2",
+      "card_slug": "card_08_quiz2_module2",
+      "type": "quiz",
+      "concept_id": "myelin_sheath_quiz",
+      "level": 1,
+      "progress": {
+        "current": 8,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "PNS mein Myelin Sheath kaun banata hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Oligodendrocytes"
+          },
+          {
+            "id": "B",
+            "text": "Astrocytes"
+          },
+          {
+            "id": "C",
+            "text": "Schwann Cells"
+          },
+          {
+            "id": "D",
+            "text": "Microglia"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "PNS (Peripheral Nervous System) mein Myelin Sheath Schwann Cells banati hain. CNS (Central Nervous System) mein Myelin Sheath Oligodendrocytes banate hain. Astrocytes CNS ki support cells hain — blood-brain barrier maintain karti hain. Microglia CNS ki immune cells hain. PNS = Schwann, CNS = Oligodendrocyte — ye difference NEET ka evergreen trap hai!"
+      },
+      "navigation": {
+        "next": "card_09_quiz3_module2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_09_quiz3_module2",
+      "card_slug": "card_09_quiz3_module2",
+      "type": "quiz",
+      "concept_id": "neuron_types_quiz",
+      "level": 1,
+      "progress": {
+        "current": 9,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "BPSC Multi-Statement: Neuron ke baare mein kaunse statements SAHI hain?\n(I) Sensory neurons ko Afferent neurons bhi kehte hain.\n(II) Motor neurons CNS se muscles tak signal bhejte hain.\n(III) Interneurons peripheral nervous system mein paaye jaate hain.\n(IV) Bipolar neurons retina mein paaye jaate hain.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sirf I aur II"
+          },
+          {
+            "id": "B",
+            "text": "I, II aur IV"
+          },
+          {
+            "id": "C",
+            "text": "Sirf III aur IV"
+          },
+          {
+            "id": "D",
+            "text": "Saare char"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Statement III GALAT hai — Interneurons (Association Neurons) CNS ke andar hote hain, PNS mein nahi. Statement I SAHI (Sensory = Afferent), Statement II SAHI (Motor neurons CNS se muscles tak), Statement IV SAHI (Bipolar neurons retina mein). Answer B — I, II aur IV. Ye BPSC-style multi-statement trap hai!"
+      },
+      "navigation": {
+        "next": "card_10_milestone_module2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_10_milestone_module2",
+      "card_slug": "card_10_milestone_module2",
+      "type": "milestone",
+      "concept_id": "module2_complete",
+      "level": 1,
+      "progress": {
+        "current": 10,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "MODULE 2 CLEARED! 🧠",
+        "badge_emoji": "⚡",
+        "completed_topic": "Neuron — Structure & Types",
+        "xp_earned": 60,
+        "milestone_progress": "Module 2/11 Clear",
+        "motivational_quote": "Neuron ki poori anatomy pakad li! Ab dekho kaise bijli ki tarah signal daudta hai — Resting Potential aata hai!"
+      },
+      "navigation": {
+        "next": "card_11_resting_potential",
+        "button_text": "Start Module 3 ➔"
+      }
+    },
+    {
+      "card_id": "card_11_resting_potential",
+      "card_slug": "card_11_resting_potential",
+      "type": "chat",
+      "concept_id": "resting_potential",
+      "level": 2,
+      "progress": {
+        "current": 11,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ab dekhte hain signal kaise jaata hai — ye thoda science hai lekin bahut interesting! Jab neuron koi signal nahi bhej raha — rest mein hai — tab uske bahar wali side pe positive charge hota hai aur andar negative. Ise 'Resting Membrane Potential' kehte hain. Exact value hai minus 70 millivolts (-70 mV). Ye ek charged battery ki tarah hai — ready to fire! Ye charge difference banata hai Na+ (Sodium) ions bahar zyada honkar aur K+ (Potassium) ions andar zyada honkar."
+        },
+        {
+          "speaker": "raju",
+          "text": "Minus 70 mV! Matlab neuron jab rest mein hoti hai tab bhi charge hoti hai? Khaali nahi hoti?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul! Ye 'loaded gun' jaisa hai — trigger ka wait kar raha hai. Resting potential maintain karne ke liye ek pump kaam karta hai — 'Sodium-Potassium Pump' (Na+/K+ ATPase) — ye 3 Na+ bahar nikalta hai aur 2 K+ andar laata hai — ATP energy se. Isliye bahar zyada Na+ rehta hai. Ye pump bahut important hai — energy consume karta hai — isliye brain bahut zyada energy (glucose + oxygen) use karta hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "3 Na+ bahar aur 2 K+ andar! ATP use karta hai! Isliye brain ko itna glucose chahiye! Ye connection samajh aaya Sir!"
+        }
+      ],
+      "navigation": {
+        "next": "card_12_action_potential",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_12_action_potential",
+      "card_slug": "card_12_action_potential",
+      "type": "chat",
+      "concept_id": "action_potential",
+      "level": 2,
+      "progress": {
+        "current": 12,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Jab koi stimulus aata hai — jaise haath ko kuch chubha — tab neuron fire karta hai. Andar Na+ channels khulte hain, Na+ rush karta hai andar — aur potential minus 70 mV se badh ke plus 30 mV ho jaata hai! Ise 'Depolarization' kehte hain — polarity ulti ho gayi! Aur is poori event ko 'Action Potential' kehte hain. Action potential ek 'all-or-none' phenomenon hai — ya poora hoga ya bilkul nahi — beech mein nahi!"
+        },
+        {
+          "speaker": "raju",
+          "text": "All-or-none! Matlab half signal nahi jaata? Ya poora jaayega ya kuch nahi? Ye interesting constraint hai!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan! Iske baad 'Repolarization' hota hai — K+ channels khulte hain, K+ bahar jaata hai, potential wapas minus 70 mV par aata hai. Aur ek brief time aata hai jise 'Refractory Period' kehte hain — jis time mein neuron dobara fire nahi kar sakta. Ye period signal ki frequency limit karta hai. Na+ channels band ho jaate hain aur Na+/K+ pump reset karta hai. Ye poora cycle ek nerve impulse hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Depolarization — Na+ andar, Repolarization — K+ bahar, Refractory Period — rest! Sir ye sequence yaad rakhna hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_13_impulse_conduction",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_13_impulse_conduction",
+      "card_slug": "card_13_impulse_conduction",
+      "type": "chat",
+      "concept_id": "impulse_conduction",
+      "level": 2,
+      "progress": {
+        "current": 13,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ab signal ek jagah se doosri jagah kaise jaata hai? Jab ek point par action potential hota hai, woh adjacent area ko depolarize karta hai — chain reaction jaisa! Aur myelinated nerves mein — signal Node of Ranvier se Node of Ranvier jump karta hai — Saltatory Conduction. Is wajah se myelinated nerves mein conduction speed bahut zyada hoti hai — 70 to 120 meters per second! Non-myelinated mein sirf 0.5 to 2 meters per second!"
+        },
+        {
+          "speaker": "raju",
+          "text": "120 meters per second! Ye toh 430 km/h se bhi zyada speed hai! Insan ki body mein itni tez signal jaati hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan! Isliye haath chubhane par turant pata chalta hai — microseconds mein brain ko signal milta hai. Lekin ye speed sabse important exam fact hai — myelinated > non-myelinated. Aur ek rule — nerve impulse sirf ek direction mein jaata hai — dendrite se cell body se axon tak — reverse nahi ho sakta. Iska reason hai ki Na+ channels ek baar khulne ke baad refractory period mein hote hain — wapas activate nahi hote turant!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Signal sirf ek direction mein! Ulta nahi ja sakta! Ye toh logical hai — warna body mein confusion ho jaata!"
+        }
+      ],
+      "navigation": {
+        "next": "card_14_quiz1_module3",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_14_quiz1_module3",
+      "card_slug": "card_14_quiz1_module3",
+      "type": "quiz",
+      "concept_id": "resting_potential_quiz",
+      "level": 2,
+      "progress": {
+        "current": 14,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Neuron ka Resting Membrane Potential approximately kitna hota hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "+70 mV"
+          },
+          {
+            "id": "B",
+            "text": "-70 mV"
+          },
+          {
+            "id": "C",
+            "text": "+30 mV"
+          },
+          {
+            "id": "D",
+            "text": "0 mV"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Resting Membrane Potential = -70 mV (minus 70 millivolts). Minus isliye kyunki cell ke andar negative charge hai bahar ke relatively. +30 mV Action Potential ki peak value hai — jab Na+ rush karta hai andar. 0 mV woh point hai jab depolarization shuru hoti hai. Sodium-Potassium Pump is potential ko maintain karta hai — 3 Na+ bahar, 2 K+ andar. Ye NEET ka direct question hai!"
+      },
+      "navigation": {
+        "next": "card_15_quiz2_module3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_15_quiz2_module3",
+      "card_slug": "card_15_quiz2_module3",
+      "type": "quiz",
+      "concept_id": "action_potential_quiz",
+      "level": 2,
+      "progress": {
+        "current": 15,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Action Potential ke dauran Depolarization kab hoti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jab K+ ions andar rush karte hain"
+          },
+          {
+            "id": "B",
+            "text": "Jab Na+ ions bahar jaate hain"
+          },
+          {
+            "id": "C",
+            "text": "Jab Na+ ions andar rush karte hain aur potential negative se positive ho jaata hai"
+          },
+          {
+            "id": "D",
+            "text": "Jab Sodium-Potassium pump activate hota hai"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Depolarization tab hoti hai jab Na+ (Sodium) ions ke channels khulte hain aur Na+ rush karke cell ke andar jaata hai — membrane potential -70 mV se +30 mV ho jaata hai. K+ ions bahar jaate hain Repolarization mein (not depolarization). Option A aur B dono galat direction hain. Na+/K+ pump Resting Potential maintain karne ke liye kaam karta hai, action potential ke during nahi. NEET mein ye exactly aise poochha gaya hai!"
+      },
+      "navigation": {
+        "next": "card_16_quiz3_module3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_16_quiz3_module3",
+      "card_slug": "card_16_quiz3_module3",
+      "type": "quiz",
+      "concept_id": "saltatory_conduction_quiz",
+      "level": 2,
+      "progress": {
+        "current": 16,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Saltatory Conduction kahan hoti hai aur kyun?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Non-myelinated nerves mein — kyunki koi covering nahi"
+          },
+          {
+            "id": "B",
+            "text": "Myelinated nerves mein — signal Nodes of Ranvier ke beech jump karta hai"
+          },
+          {
+            "id": "C",
+            "text": "Sirf sensory neurons mein"
+          },
+          {
+            "id": "D",
+            "text": "Sirf motor neurons mein"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Saltatory Conduction myelinated nerves mein hoti hai — signal Myelin Sheath ke beech-beech mein expose jagahon (Nodes of Ranvier) par jump karta hai. 'Saltare' Latin word hai — 'jump' ke liye. Is jumping ki wajah se speed bahut zyada hoti hai — 70-120 m/s. Non-myelinated nerves mein signal slowly step-by-step hota hai — 0.5-2 m/s. Ye NEET mein definitionally poochha gaya hai!"
+      },
+      "navigation": {
+        "next": "card_17_milestone_module3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_17_milestone_module3",
+      "card_slug": "card_17_milestone_module3",
+      "type": "milestone",
+      "concept_id": "module3_complete",
+      "level": 2,
+      "progress": {
+        "current": 17,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "MODULE 3 DONE! ⚡",
+        "badge_emoji": "🔋",
+        "completed_topic": "Nerve Impulse — Resting & Action Potential",
+        "xp_earned": 70,
+        "milestone_progress": "Module 3/11 Clear",
+        "motivational_quote": "Bijli ki tarah signal samajh liya! Ab dekho neuron-to-neuron kaise baat karta hai — Synapse ka magic aata hai!"
+      },
+      "navigation": {
+        "next": "card_18_synapse_intro",
+        "button_text": "Start Module 4 ➔"
+      }
+    },
+    {
+      "card_id": "card_18_synapse_intro",
+      "card_slug": "card_18_synapse_intro",
+      "type": "chat",
+      "concept_id": "synapse_introduction",
+      "level": 2,
+      "progress": {
+        "current": 18,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Raju, do neurons kabhi directly touch nahi karte — unke beech mein ek chhoti si gap hoti hai jise 'Synaptic Cleft' kehte hain aur poori junction ko 'Synapse' kehte hain. Jab signal ek neuron ke axon terminal tak pahuncha, toh yahan se doosre neuron ke dendrite tak kaise jaayega? Chemical messengers ke zariye! In messengers ko 'Neurotransmitters' kehte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Neurotransmitters! Chemical messengers! Matlab electrical signal chemical mein convert ho jaata hai gap cross karne ke liye?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Exactly! Ye ek amazing conversion hai — electrical → chemical → electrical. Axon terminal mein 'Synaptic Vesicles' hote hain jisme neurotransmitters packed hote hain. Signal aane par ye vesicles cleft mein neurotransmitters release karte hain — molecules gap cross karte hain — aur doosre neuron ke 'Receptors' se bind karte hain — jisse doosre neuron mein signal shuru hota hai! Ye whole process ek 'Chemical Synapse' hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Synaptic Vesicles mein packed hain neurotransmitters, gap mein release hote hain, receptor se bind! Sir ye toh bahut organized hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_19_neurotransmitters",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_19_neurotransmitters",
+      "card_slug": "card_19_neurotransmitters",
+      "type": "chat",
+      "concept_id": "neurotransmitters_types",
+      "level": 2,
+      "progress": {
+        "current": 19,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Neurotransmitters ke kuch important types yaad karo jo exam mein poochhe jaate hain: (1) Acetylcholine — sabse pehla discovered neurotransmitter — neuromuscular junction par kaam karta hai, Parasympathetic ANS mein. (2) Norepinephrine (Noradrenaline) — Sympathetic ANS mein, fight-or-flight response. (3) Dopamine — pleasure, reward, movement control. (4) Serotonin — mood, sleep regulation. (5) GABA — inhibitory neurotransmitter — nervous system ko calm karta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Itne saare neurotransmitters! Sir Dopamine ka naam suna tha — social media use karne par Dopamine release hoti hai keh ke?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul sahi! Dopamine reward system se linked hai — khushi milti hai tab release hoti hai. Parkinson's Disease mein Dopamine producing neurons degenerate ho jaate hain — isliye movement control problem hoti hai. Schizophrenia mein zyada Dopamine activity hoti hai. Aur Acetylcholine — iska enzyme 'Acetylcholinesterase' use destroy karta hai synapse ke baad — tabhi next signal ke liye ready hota hai. Nerve Gas weapons is enzyme ko block karte hain — dangerous!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Nerve gas Acetylcholinesterase ko block karta hai! Parkinson's mein Dopamine kam! Sir ye real world connections bahut kaam ke hain!"
+        }
+      ],
+      "navigation": {
+        "next": "card_20_quiz1_module4",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_20_quiz1_module4",
+      "card_slug": "card_20_quiz1_module4",
+      "type": "quiz",
+      "concept_id": "synapse_quiz",
+      "level": 2,
+      "progress": {
+        "current": 20,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Synapse par signal transmission ka sahi sequence kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Chemical → Electrical → Chemical"
+          },
+          {
+            "id": "B",
+            "text": "Electrical → Chemical → Electrical"
+          },
+          {
+            "id": "C",
+            "text": "Sirf Electrical throughout"
+          },
+          {
+            "id": "D",
+            "text": "Sirf Chemical throughout"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Chemical Synapse mein signal transmission: Electrical (nerve impulse in axon) → Chemical (neurotransmitters release in synaptic cleft) → Electrical (new action potential in next neuron). Pehle neuron mein electrical signal, gap mein chemical (neurotransmitter), agle neuron mein wapas electrical. Ye conversion isliye hoti hai kyunki neurons physically touch nahi karte — gap hoti hai. NEET ka direct question!"
+      },
+      "navigation": {
+        "next": "card_21_quiz2_module4",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_21_quiz2_module4",
+      "card_slug": "card_21_quiz2_module4",
+      "type": "quiz",
+      "concept_id": "neurotransmitter_quiz",
+      "level": 2,
+      "progress": {
+        "current": 21,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Parkinson's Disease mein kaun se neurotransmitter ki kami hoti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Acetylcholine"
+          },
+          {
+            "id": "B",
+            "text": "Serotonin"
+          },
+          {
+            "id": "C",
+            "text": "Dopamine"
+          },
+          {
+            "id": "D",
+            "text": "GABA"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Parkinson's Disease mein Substantia Nigra (brain ka ek part) ke Dopamine-producing neurons degenerate ho jaate hain — Dopamine ki kami hoti hai. Isliye movement control aur coordination affected hota hai — tremors, stiffness. Levodopa (Dopamine precursor) treatment mein diya jaata hai. Acetylcholine ki kami Alzheimer's se related hai. Serotonin ki imbalance depression se. GABA anxiolytic drugs target karte hain."
+      },
+      "navigation": {
+        "next": "card_22_quiz3_module4",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_22_quiz3_module4",
+      "card_slug": "card_22_quiz3_module4",
+      "type": "quiz",
+      "concept_id": "acetylcholine_quiz",
+      "level": 2,
+      "progress": {
+        "current": 22,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Acetylcholine ko synapse mein destroy kaun karta hai taaki next signal ke liye cleft clear ho sake?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dopaminase"
+          },
+          {
+            "id": "B",
+            "text": "Acetylcholinesterase"
+          },
+          {
+            "id": "C",
+            "text": "Monoamine Oxidase"
+          },
+          {
+            "id": "D",
+            "text": "Serotonin Reuptake Transporter"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Acetylcholinesterase enzyme Acetylcholine ko synaptic cleft mein rapidly destroy karta hai — Choline aur Acetate mein tod deta hai — taaki signal sirf ek baar transmit ho aur cleft clear ho jaye agle signal ke liye. Ye enzyme Nerve Gas (Organophosphates) dwara inhibit ho jaata hai — jisse Acetylcholine accumulate hoti hai aur muscles continuously stimulate hoti hain — dangerous! Ye BPSC aur NEET dono mein aaya hai."
+      },
+      "navigation": {
+        "next": "card_23_milestone_module4",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_23_milestone_module4",
+      "card_slug": "card_23_milestone_module4",
+      "type": "milestone",
+      "concept_id": "module4_complete",
+      "level": 2,
+      "progress": {
+        "current": 23,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "MODULE 4 CLEARED! 🧪",
+        "badge_emoji": "💬",
+        "completed_topic": "Synapse & Neurotransmitters",
+        "xp_earned": 70,
+        "milestone_progress": "Module 4/11 Clear",
+        "motivational_quote": "Neurotransmitters ke master ban gaye! Ab nervous system ke divisions — CNS, PNS, ANS — master karte hain!"
+      },
+      "navigation": {
+        "next": "card_24_cns_pns_divisions",
+        "button_text": "Start Module 5 ➔"
+      }
+    },
+    {
+      "card_id": "card_24_cns_pns_divisions",
+      "card_slug": "card_24_cns_pns_divisions",
+      "type": "chat",
+      "concept_id": "nervous_system_divisions",
+      "level": 2,
+      "progress": {
+        "current": 24,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ab poore Nervous System ka map samjho. Central Nervous System (CNS) = Brain + Spinal Cord. Ye command center hai — saare decisions yahan hote hain. Peripheral Nervous System (PNS) = Body mein baaki saari nerves — CNS se signals laati-lejati hain. PNS mein 12 pairs Cranial Nerves (brain se nikli) aur 31 pairs Spinal Nerves (spinal cord se nikli) hoti hain. Ye facts seedha poochhe jaate hain exams mein!"
+        },
+        {
+          "speaker": "raju",
+          "text": "12 Cranial Nerves aur 31 Spinal Nerves! Sir ye numbers yaad rakhne honge! Cranial nerves brain se nikli — toh kya saari cranial nerves brain mein hi kaam karti hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi! Cranial nerves face, neck, aur body ke various organs ko serve karti hain. Inhe Roman numerals se identify karte hain I se XII tak. Example: Optic Nerve (II) — aankhon se vision. Olfactory Nerve (I) — naak se smell. Vagus Nerve (X) — heart, lungs, stomach tak! Vagus nerve sabse lamba cranial nerve hai aur body mein bahut jagah jaata hai — BPSC ka favorite!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Vagus nerve sabse lamba cranial nerve! Roman numerals I to XII! Sir ye toh bahut important list lagti hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_25_cranial_nerves_detail",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_25_cranial_nerves_detail",
+      "card_slug": "card_25_cranial_nerves_detail",
+      "type": "chat",
+      "concept_id": "cranial_nerves_important",
+      "level": 2,
+      "progress": {
+        "current": 25,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Exam ke liye important Cranial Nerves yaad karo: I — Olfactory (Smell), II — Optic (Vision), III — Oculomotor (Eye movement), V — Trigeminal (Face sensation — sabse bada cranial nerve), VII — Facial (Facial muscles), VIII — Vestibulocochlear (Hearing + Balance), X — Vagus (Heart, lungs, digestive organs — longest cranial nerve), XII — Hypoglossal (Tongue movement). Mixed (Sensory+Motor) nerves bhi hain!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Itne saare nerves! Sir V Trigeminal sabse bada aur X Vagus sabse lamba — ye dono alag hain na? Bada aur lamba mein farak?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul sharp question! Trigeminal (V) sabse wide coverage wala — teeno branches face ke alag-alag parts ko cover karti hain — isliye 'sabse bada'. Vagus (X) physically sabse lamba — brain se neck, chest, abdomen tak jaata hai — isliye 'sabse lamba'. Dono alag nerves hain — exam mein ek ko doosre ki jagah mat likhna! Aur Spinal Nerves ke baare mein — 31 pairs mein se 8 Cervical, 12 Thoracic, 5 Lumbar, 5 Sacral, 1 Coccygeal!"
+        },
+        {
+          "speaker": "raju",
+          "text": "8+12+5+5+1 = 31! Sir ye calculation bhi yaad rakhni hogi! Cervical, Thoracic, Lumbar, Sacral, Coccygeal!"
+        }
+      ],
+      "navigation": {
+        "next": "card_26_quiz1_module5",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_26_quiz1_module5",
+      "card_slug": "card_26_quiz1_module5",
+      "type": "quiz",
+      "concept_id": "cranial_nerves_quiz",
+      "level": 2,
+      "progress": {
+        "current": 26,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Manushya mein total kitni pairs Cranial Nerves hoti hain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 pairs"
+          },
+          {
+            "id": "B",
+            "text": "31 pairs"
+          },
+          {
+            "id": "C",
+            "text": "12 pairs"
+          },
+          {
+            "id": "D",
+            "text": "8 pairs"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Manushya mein 12 pairs Cranial Nerves hoti hain (I to XII) — ye brain se nikali hain. 31 pairs Spinal Nerves hoti hain (spinal cord se) — 8 Cervical + 12 Thoracic + 5 Lumbar + 5 Sacral + 1 Coccygeal = 31. 10 pairs frog/amphibians mein hoti hain. 8 pairs sirf Cervical spinal nerves hain. SSC CGL, RRB NTPC aur BPSC teeno mein ye number directly poochha gaya hai!"
+      },
+      "navigation": {
+        "next": "card_27_quiz2_module5",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_27_quiz2_module5",
+      "card_slug": "card_27_quiz2_module5",
+      "type": "quiz",
+      "concept_id": "vagus_nerve_quiz",
+      "level": 2,
+      "progress": {
+        "current": 27,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Sabse lamba Cranial Nerve kaun si hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Optic Nerve (II)"
+          },
+          {
+            "id": "B",
+            "text": "Trigeminal Nerve (V)"
+          },
+          {
+            "id": "C",
+            "text": "Vagus Nerve (X)"
+          },
+          {
+            "id": "D",
+            "text": "Facial Nerve (VII)"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Vagus Nerve (X) sabse lamba cranial nerve hai — ye brain se neck, chest, aur abdomen tak jaata hai aur heart, lungs, stomach, intestines ko supply karta hai. Trigeminal (V) sabse bada (thick/wide distribution) cranial nerve hai — ye confusion exam mein create karta hai. Optic Nerve (II) vision ke liye hai. BPSC mein exact question: 'Longest cranial nerve = Vagus (X)' — ye trap hai ki Vagus lamba hai ya Trigeminal bada!"
+      },
+      "navigation": {
+        "next": "card_28_quiz3_module5",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_28_quiz3_module5",
+      "card_slug": "card_28_quiz3_module5",
+      "type": "quiz",
+      "concept_id": "spinal_nerves_quiz",
+      "level": 2,
+      "progress": {
+        "current": 28,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Manushya mein Spinal Nerves ki kul kitni pairs hoti hain aur sabse zyada pairs kaunse region ki hain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "31 pairs — Thoracic region mein sabse zyada (12 pairs)"
+          },
+          {
+            "id": "B",
+            "text": "31 pairs — Cervical region mein sabse zyada (12 pairs)"
+          },
+          {
+            "id": "C",
+            "text": "12 pairs — Thoracic region mein"
+          },
+          {
+            "id": "D",
+            "text": "31 pairs — Lumbar region mein sabse zyada (8 pairs)"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Total Spinal Nerves = 31 pairs: Cervical = 8 pairs, Thoracic = 12 pairs (sabse zyada!), Lumbar = 5 pairs, Sacral = 5 pairs, Coccygeal = 1 pair. 8+12+5+5+1 = 31. Thoracic region mein 12 pairs — ribcage ke corresponding — isliye sabse zyada. Option B mein Cervical ko 12 dikhaya — ye exam trap hai, Cervical sirf 8 hain!"
+      },
+      "navigation": {
+        "next": "card_29_milestone_module5",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_29_milestone_module5",
+      "card_slug": "card_29_milestone_module5",
+      "type": "milestone",
+      "concept_id": "module5_complete",
+      "level": 2,
+      "progress": {
+        "current": 29,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "MODULE 5 CONQUERED! 🗺️",
+        "badge_emoji": "🔗",
+        "completed_topic": "CNS, PNS & Nerve Divisions",
+        "xp_earned": 80,
+        "milestone_progress": "Module 5/11 Clear",
+        "motivational_quote": "12 Cranial aur 31 Spinal — sab pakad liya! Ab Brain ka Raja — structure aur functions master karte hain!"
+      },
+      "navigation": {
+        "next": "card_30_brain_overview",
+        "button_text": "Start Module 6 ➔"
+      }
+    },
+    {
+      "card_id": "card_30_brain_overview",
+      "card_slug": "card_30_brain_overview",
+      "type": "chat",
+      "concept_id": "brain_overview",
+      "level": 3,
+      "progress": {
+        "current": 30,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ab aate hain sabse important part par — Human Brain! Ye lagbhag 1.4 kg ka hota hai aur 86 billion neurons se bana hai. Brain teen main parts mein divided hai: (1) Forebrain (Prosencephalon) — Cerebrum + Thalamus + Hypothalamus. (2) Midbrain (Mesencephalon) — visual aur auditory reflexes. (3) Hindbrain (Rhombencephalon) — Cerebellum + Pons + Medulla Oblongata. Ye teen divisions embryological hain — exam mein poochhe jaate hain!"
+        },
+        {
+          "speaker": "raju",
+          "text": "86 billion neurons! Aur teen main divisions — Forebrain, Midbrain, Hindbrain! Sir ye toh bahut badi structure hai!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Aur brain ek protective case mein hota hai — skull (cranium) ke andar. Plus teen layers ki protective membranes — 'Meninges' — bahar se andar: Dura Mater (sabse bahari, sabse tough), Arachnoid (beech mein), Pia Mater (sabse andar, direct brain surface par). Meningitis disease mein in membranes mein inflammation hoti hai — bahut dangerous! Ye BPSC ka exact question hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Dura Mater, Arachnoid, Pia Mater — DAP — teen layers! Meningitis in layers ki infection! Sir ye names bizarre hain lekin interesting!"
+        }
+      ],
+      "navigation": {
+        "next": "card_31_cerebrum_lobes",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_31_cerebrum_lobes",
+      "card_slug": "card_31_cerebrum_lobes",
+      "type": "chat",
+      "concept_id": "cerebrum_lobes",
+      "level": 3,
+      "progress": {
+        "current": 31,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Cerebrum — brain ka sabse bada part — overall brain ka 80% se zyada! Ye do hemispheres (left aur right) mein divided hai jo 'Corpus Callosum' se connected hain. Outer layer ko 'Cerebral Cortex' kehte hain — ye grey matter hai. Cerebrum ke 4 lobes hain jo exam mein bahut poochhe jaate hain: Frontal Lobe (front) — thinking, planning, personality, voluntary movement. Parietal Lobe (top) — touch, temperature, pain sensation."
+        },
+        {
+          "speaker": "raju",
+          "text": "Frontal Lobe — thinking aur planning! Parietal — touch sensation! Sir aur kaunse lobes hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Temporal Lobe (sides) — hearing, memory, language (Broca's aur Wernicke's area). Occipital Lobe (back) — vision processing. Ek trick: 'Forehead pe Frontal, Top pe Parietal, Side pe Temporal, Peechhe Occipital'! Aur important: Left hemisphere language aur logic, Right hemisphere creativity aur spatial. Corpus Callosum in dono hemisphere ko communicate karne deta hai. Ye NEET mein diagram dekh ke poochha jaata hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Occipital back mein — vision! Temporal side mein — hearing! Sir ye positions samajh aa gaye ab! Corpus Callosum bridge ka kaam karta hai dono hemispheres ke beech!"
+        }
+      ],
+      "navigation": {
+        "next": "card_32_thalamus_hypothalamus",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_32_thalamus_hypothalamus",
+      "card_slug": "card_32_thalamus_hypothalamus",
+      "type": "chat",
+      "concept_id": "thalamus_hypothalamus",
+      "level": 3,
+      "progress": {
+        "current": 32,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Forebrain mein Cerebrum ke alawa do aur important structures hain: Thalamus aur Hypothalamus. Thalamus — ek relay station jaisa hai — sensory signals bahar se aate hain toh pehle Thalamus se hokar Cerebral Cortex jaate hain. Pain, temperature, touch — sab Thalamus se filter hokar jaate hain. Ise 'Gateway to Cerebral Cortex' bhi kehte hain. Ye BPSC ka direct question hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Thalamus — Gateway to Cerebral Cortex! Relay station! Matlab traffic controller jaisa? Aur Hypothalamus kya karta hai Sir?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Hypothalamus — ye Thalamus ke neeche hai (Hypo = below). Ye body ka master regulator hai: Temperature control (thermostat), Hunger and thirst regulation, Sleep-wake cycle, Emotional responses, Pituitary gland ko control karta hai — isliye endocrine system se link. Hypothalamus ko 'Master of the Autonomic Nervous System' bhi kehte hain. Fever, sweating, shivering — sab Hypothalamus control karta hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Hypothalamus — thermostat, bhook-pyaas, neend! Pituitary bhi! Sir ye toh bahut powerful structure hai — bahut kuch control karta hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_33_cerebellum_midbrain",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_33_cerebellum_midbrain",
+      "card_slug": "card_33_cerebellum_midbrain",
+      "type": "chat",
+      "concept_id": "cerebellum_midbrain_hindbrain",
+      "level": 3,
+      "progress": {
+        "current": 33,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Hindbrain ke three parts: (1) Cerebellum — brain ka doosra sabse bada part — motor coordination, balance, posture. Agar Cerebellum damage ho toh — ataxia (balance nahi), slurred speech. Sharab pine se Cerebellum affect hota hai — isliye drunk person ka balance kharab hota hai! (2) Pons — breathing rhythm, relay between cerebrum and cerebellum. (3) Medulla Oblongata — heartbeat, breathing, blood pressure, vomiting, swallowing control."
+        },
+        {
+          "speaker": "raju",
+          "text": "Cerebellum balance karta hai — aur sharab se Cerebellum affect — isliye drunk person girta hai! Sir ye connection bahut clearly samajh aaya!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Medulla Oblongata — ye brain stem ka most vital part hai. Isko 'Vital Center' kehte hain kyunki heartbeat aur breathing yahan control hote hain — agar ye damage ho jaaye toh instant death! Ye Spinal Cord se directly connect hota hai — brain aur spinal cord ke beech setu. Aur Midbrain — visual reflexes (pupil reflex — bright light mein pupil sameek hona) aur auditory reflexes yahan hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Medulla Oblongata — heartbeat aur breathing — Vital Center! Agar damage ho toh death! Sir ye toh sabse important part hai body ka!"
+        }
+      ],
+      "navigation": {
+        "next": "card_34_quiz1_module6",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_34_quiz1_module6",
+      "card_slug": "card_34_quiz1_module6",
+      "type": "quiz",
+      "concept_id": "brain_lobes_quiz",
+      "level": 3,
+      "progress": {
+        "current": 34,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Vision processing ka primary area brain ke kaunse lobe mein hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Frontal Lobe"
+          },
+          {
+            "id": "B",
+            "text": "Temporal Lobe"
+          },
+          {
+            "id": "C",
+            "text": "Parietal Lobe"
+          },
+          {
+            "id": "D",
+            "text": "Occipital Lobe"
+          }
+        ],
+        "correct_option_id": "D",
+        "explanation": "Occipital Lobe (brain ke peeche) vision processing ka primary center hai. Frontal Lobe = thinking, voluntary movement, personality. Temporal Lobe = hearing, memory, language. Parietal Lobe = touch, temperature, pain sensation, spatial awareness. Lobe-Function mapping NEET mein diagram ke saath aur BPSC mein direct question ke roop mein aaya hai — ye 4 lobes aur unke functions rote karna zaroori hai!"
+      },
+      "navigation": {
+        "next": "card_35_quiz2_module6",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_35_quiz2_module6",
+      "card_slug": "card_35_quiz2_module6",
+      "type": "quiz",
+      "concept_id": "hypothalamus_quiz",
+      "level": 3,
+      "progress": {
+        "current": 35,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Body temperature regulation (thermoregulation) kaunsa brain structure control karta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cerebellum"
+          },
+          {
+            "id": "B",
+            "text": "Thalamus"
+          },
+          {
+            "id": "C",
+            "text": "Hypothalamus"
+          },
+          {
+            "id": "D",
+            "text": "Medulla Oblongata"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Hypothalamus body ka 'thermostat' hai — temperature regulation, hunger, thirst, sleep-wake cycle, emotional responses aur Pituitary gland control karta hai. Thalamus sensory relay station hai (Gateway to Cortex). Cerebellum balance aur motor coordination. Medulla Oblongata heartbeat, breathing, blood pressure. Fever hona = Hypothalamus ka set point badh jaana. SSC CGL, RRB NTPC, BPSC sabne ye poochha hai!"
+      },
+      "navigation": {
+        "next": "card_36_quiz3_module6",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_36_quiz3_module6",
+      "card_slug": "card_36_quiz3_module6",
+      "type": "quiz",
+      "concept_id": "brain_parts_trap_quiz",
+      "level": 3,
+      "progress": {
+        "current": 36,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "BPSC Multi-Statement: Brain ke baare mein kaunse statements SAHI hain?\n(I) Cerebellum balance aur motor coordination control karta hai.\n(II) Medulla Oblongata ko 'Vital Center' kehte hain kyunki heartbeat aur breathing yahan control hoti hai.\n(III) Thalamus ko 'Master of Endocrine System' kehte hain.\n(IV) Corpus Callosum do cerebral hemispheres ko jodta hai.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sirf I aur II"
+          },
+          {
+            "id": "B",
+            "text": "I, II aur IV"
+          },
+          {
+            "id": "C",
+            "text": "Sirf III aur IV"
+          },
+          {
+            "id": "D",
+            "text": "Saare char"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Statement III GALAT — Hypothalamus ko 'Master of Endocrine System' kehte hain (Pituitary control karke) — Thalamus nahi. Thalamus sensory relay station hai. Statement I SAHI (Cerebellum = balance + coordination), Statement II SAHI (Medulla = Vital Center), Statement IV SAHI (Corpus Callosum = dono hemispheres ka bridge). Answer B!"
+      },
+      "navigation": {
+        "next": "card_37_milestone_module6",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_37_milestone_module6",
+      "card_slug": "card_37_milestone_module6",
+      "type": "milestone",
+      "concept_id": "module6_complete",
+      "level": 3,
+      "progress": {
+        "current": 37,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "MODULE 6 CLEARED! 🧠",
+        "badge_emoji": "🏆",
+        "completed_topic": "Human Brain — All Parts & Functions",
+        "xp_earned": 90,
+        "milestone_progress": "Module 6/11 Clear",
+        "motivational_quote": "Brain ka poora map dil mein utar gaya! Ab Spinal Cord aur Reflex Action ka thrilling chapter aata hai!"
+      },
+      "navigation": {
+        "next": "card_38_spinal_cord_structure",
+        "button_text": "Start Module 7 ➔"
+      }
+    },
+    {
+      "card_id": "card_38_spinal_cord_structure",
+      "card_slug": "card_38_spinal_cord_structure",
+      "type": "chat",
+      "concept_id": "spinal_cord_structure",
+      "level": 3,
+      "progress": {
+        "current": 38,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Spinal Cord — ye ek cylindrical structure hai jo brain se neeche vertebral column (reedh ki haddi) mein hoti hai. Length lagbhag 45 cm (adult mein). Spinal Cord ki cross-section mein andar 'H-shape' mein grey matter hota hai — neurons ke cell bodies. Bahar white matter hota hai — myelinated axons. Ye brain se bilkul ULTA hai — brain mein bahar grey matter (cortex) aur andar white matter!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Hain?? Brain mein bahar grey matter, andar white — Spinal Cord mein andar grey matter, bahar white! Ye toh exact opposite hai! Exam mein toh ye zaroor confuse karega!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Yahin sabse bada exam trap hai! Brain = Bahar Grey, Andar White. Spinal Cord = Andar Grey (H-shape), Bahar White. Grey matter ka 'H' shape — dorsal horn (sensory signals receive karta hai) aur ventral horn (motor signals bhejta hai). Dorsal se sensory enter karti hai, Ventral se motor nikalti hai — ye 'Bell-Magendie Law' hai — BPSC ka direct question!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Bell-Magendie Law! Dorsal = Sensory in, Ventral = Motor out! Sir ye naam bhi yaad rakhna padega!"
+        }
+      ],
+      "navigation": {
+        "next": "card_39_reflex_action",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_39_reflex_action",
+      "card_slug": "card_39_reflex_action",
+      "type": "chat",
+      "concept_id": "reflex_action",
+      "level": 3,
+      "progress": {
+        "current": 39,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ab Reflex Action — jo humne shuru mein baat ki thi — haath ka garm cheez se hata lena. Reflex action ek automatic, involuntary response hai jo brain tak signal jaaye bina hoti hai — sirf Spinal Cord se hi hoti hai! Isi wajah se bahut fast hoti hai. Iska path hai: Receptor → Sensory Neuron → Spinal Cord → Motor Neuron → Effector (muscle/gland). Is poore path ko 'Reflex Arc' kehte hain!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Brain tak nahi jaata signal? Sirf Spinal Cord se? Toh Brain ko baad mein pata chalta hai ki haath hata liya? Wow!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Exactly! Pehle haath hata lete ho — phir brain ko 'ouch' feel hota hai — slight delay hoti hai! Reflex arc mein Interneuron bhi hota hai Spinal Cord ke andar — jo sensory aur motor neuron ko connect karta hai. Reflexes ke types: (1) Spinal Reflexes — Spinal Cord se (knee-jerk). (2) Cranial Reflexes — brain stem se (pupil reflex, blinking). Knee-jerk reflex (Patellar reflex) sabse simple — monosynaptic — sirf ek synapse!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Knee-jerk monosynaptic — sirf ek synapse! Aur pupil reflex cranial reflex! Sir ye dono famous examples hain exams ke liye?"
+        }
+      ],
+      "navigation": {
+        "next": "card_40_conditioned_reflex",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_40_conditioned_reflex",
+      "card_slug": "card_40_conditioned_reflex",
+      "type": "chat",
+      "concept_id": "conditioned_reflex_pavlov",
+      "level": 3,
+      "progress": {
+        "current": 40,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ek aur type hai — 'Conditioned Reflex'. Ye Ivan Pavlov ne discover ki — unke famous dog experiment se. Pavlov ne dekha ki khaana dekhke dog ki saliva nikalti hai — ye natural reflex. Phir unhone khaana dene se pehle ghanti bajani shuru ki. Kuch time baad sirf ghanti bajane se bhi dog ki saliva nikalti — bina khaane ke! Is seekhe hue reflex ko 'Conditioned Reflex' kehte hain. 1904 mein Pavlov ko Nobel Prize mila!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Pavlov ka dog! Ghanti bajao — saliva aao! Ye toh Maine suna tha Sir — 1904 Nobel Prize! Ye toh psychology mein bhi padha jaata hai!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul! Ye Classical Conditioning ka foundation hai. Humans mein bhi conditioned reflexes hote hain — school ki bell sunke bhook lagna, neem ki khushbu se dadi ki yaad — ye sab conditioned responses hain! Pavlov ke experiments ne prove kiya ki nervous system learning karta hai — reflexes sirf genetic nahi, environment se bhi seekhe ja sakte hain. Ye BPSC, UPSC dono mein poochha gaya hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Neem ki khushbu se dadi ki yaad — ye bhi conditioned reflex hai! Sir nervous system bahut smart hai — learning bhi karta hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_41_quiz1_module7",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_41_quiz1_module7",
+      "card_slug": "card_41_quiz1_module7",
+      "type": "quiz",
+      "concept_id": "reflex_arc_quiz",
+      "level": 3,
+      "progress": {
+        "current": 41,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Reflex Arc mein sahi sequence kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Receptor → Motor Neuron → Spinal Cord → Sensory Neuron → Effector"
+          },
+          {
+            "id": "B",
+            "text": "Receptor → Sensory Neuron → Spinal Cord → Motor Neuron → Effector"
+          },
+          {
+            "id": "C",
+            "text": "Effector → Sensory Neuron → Brain → Motor Neuron → Receptor"
+          },
+          {
+            "id": "D",
+            "text": "Receptor → Brain → Spinal Cord → Motor Neuron → Effector"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Reflex Arc ka correct sequence: Receptor (stimulus detect kare) → Sensory Neuron (afferent — signal spinal cord tak) → Interneuron in Spinal Cord → Motor Neuron (efferent — command muscle tak) → Effector (muscle/gland respond kare). Brain directly involved nahi hota simple spinal reflexes mein. Option D mein brain shamil hai — jo reflex arc mein nahi hota. NEET aur SSC CGL mein exact sequence poochha gaya hai!"
+      },
+      "navigation": {
+        "next": "card_42_quiz2_module7",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_42_quiz2_module7",
+      "card_slug": "card_42_quiz2_module7",
+      "type": "quiz",
+      "concept_id": "spinal_cord_grey_white_quiz",
+      "level": 3,
+      "progress": {
+        "current": 42,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Spinal Cord ki cross-section mein grey matter aur white matter ki sahi arrangement kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bahar Grey Matter, Andar White Matter — Brain ke jaisa"
+          },
+          {
+            "id": "B",
+            "text": "Andar Grey Matter (H-shape), Bahar White Matter — Brain ke ulta"
+          },
+          {
+            "id": "C",
+            "text": "Sirf Grey Matter hota hai"
+          },
+          {
+            "id": "D",
+            "text": "Grey aur White randomly mixed hote hain"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Spinal Cord mein: Andar H-shape Grey Matter (neuron cell bodies — dorsal horn sensory, ventral horn motor), Bahar White Matter (myelinated axons). Brain mein exactly ULTA: Bahar Grey Matter (Cerebral Cortex), Andar White Matter. Ye reversal NEET aur BPSC dono ka favorite trap hai — ek ko doosre ki jagah likh dene par answer galat! Bell-Magendie Law: Dorsal root = sensory input, Ventral root = motor output."
+      },
+      "navigation": {
+        "next": "card_43_quiz3_module7",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_43_quiz3_module7",
+      "card_slug": "card_43_quiz3_module7",
+      "type": "quiz",
+      "concept_id": "pavlov_conditioned_reflex_quiz",
+      "level": 3,
+      "progress": {
+        "current": 43,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Ivan Pavlov ko Nobel Prize kab mila aur kis field mein?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1900 — Nobel Prize in Physics"
+          },
+          {
+            "id": "B",
+            "text": "1904 — Nobel Prize in Physiology or Medicine"
+          },
+          {
+            "id": "C",
+            "text": "1910 — Nobel Prize in Chemistry"
+          },
+          {
+            "id": "D",
+            "text": "1906 — Nobel Prize in Psychology"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Ivan Pavlov ko 1904 mein Nobel Prize in Physiology or Medicine mila — digestive system research ke liye, specifically gastric secretion par kaam ke liye (Conditioned Reflex experiment uske baad aaya). 'Nobel Prize in Psychology' koi category nahi hoti — ye exam trap hai. Pavlov Russian scientist the. Unka Conditioned Reflex experiment (Classical Conditioning) psychology aur neuroscience dono mein landmark hai. BPSC ne exact saal poochha hai!"
+      },
+      "navigation": {
+        "next": "card_44_milestone_module7",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_44_milestone_module7",
+      "card_slug": "card_44_milestone_module7",
+      "type": "milestone",
+      "concept_id": "module7_complete",
+      "level": 3,
+      "progress": {
+        "current": 44,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "MODULE 7 DONE! 🦴",
+        "badge_emoji": "🧩",
+        "completed_topic": "Spinal Cord & Reflex Action",
+        "xp_earned": 90,
+        "milestone_progress": "Module 7/11 Clear",
+        "motivational_quote": "Spinal Cord aur Reflexes — sab crystal clear! Ab Autonomic Nervous System ka secret explore karte hain!"
+      },
+      "navigation": {
+        "next": "card_45_ans_overview",
+        "button_text": "Start Module 8 ➔"
+      }
+    },
+    {
+      "card_id": "card_45_ans_overview",
+      "card_slug": "card_45_ans_overview",
+      "type": "chat",
+      "concept_id": "autonomic_nervous_system",
+      "level": 3,
+      "progress": {
+        "current": 45,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Raju, socho — raat ko neend mein bhi dil dhadakta rehta hai, saas chalti rehti hai, khaana pachta rehta hai — ye sab tumne nahi kiya, khud ba khud hota hai! Ye sab Autonomic Nervous System (ANS) karta hai — jo smooth muscles, cardiac muscle aur glands ko control karta hai — hum jaante bhi nahi! ANS ke do divisions hain: Sympathetic aur Parasympathetic — ye dono zyada tar ANTA-GONIST hain — ek karta hai toh doosra rokta hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Sympathetic aur Parasympathetic — aur ye ek doosre ke opposite kaam karte hain! Sir kaunsa kaunsa kaam karta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Sympathetic — 'Fight or Flight' response — emergency mein activate: heart rate badhta hai, pupils dilate hote hain, digestion slow hoti hai, breathing fast, adrenaline release. Parasympathetic — 'Rest and Digest' — normal, relaxed state mein: heart rate slow, digestion normal, pupils constrict. Mnemonic: S for Stress (Sympathetic), P for Peace (Parasympathetic). Ek classical exam question — 'Fright, Flight, Fight' = Sympathetic!"
+        },
+        {
+          "speaker": "raju",
+          "text": "S for Stress — Sympathetic, P for Peace — Parasympathetic! Bahut achchi trick Sir! Emergency mein Sympathetic, Normal mein Parasympathetic!"
+        }
+      ],
+      "navigation": {
+        "next": "card_46_sympathetic_parasympathetic_detail",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_46_sympathetic_parasympathetic_detail",
+      "card_slug": "card_46_sympathetic_parasympathetic_detail",
+      "type": "chat",
+      "concept_id": "sympathetic_parasympathetic_comparison",
+      "level": 3,
+      "progress": {
+        "current": 46,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Kuch important comparisons yaad karo: Sympathetic — Neurotransmitter = Norepinephrine (mostly), Preganglionic neuron chota, Postganglionic neuron lamba. Parasympathetic — Neurotransmitter = Acetylcholine, Preganglionic neuron lamba, Postganglionic neuron chota. Sympathetic ganglia spinal cord ke paas hote hain. Parasympathetic ganglia effector organ ke paas hote hain. Ye length comparisons NEET mein diagram ke saath aata hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Sympathetic mein Norepinephrine, Parasympathetic mein Acetylcholine! Aur ganglia ki position bhi alag! Sir ye toh complex hai!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Ek simple rule: Sympathetic mein PRE-ganglionic CHOTA, POST-ganglionic LAMBA (S-C-L: Sympathetic Chota Lamba). Parasympathetic mein PRE-ganglionic LAMBA, POST-ganglionic CHOTA (P-L-C: Parasympathetic Lamba Chota). Aur dono mein Acetylcholine preganglionic neuron use karta hai — sirf postganglionic mein difference hai. Ye NEET 2020 mein directly aya tha!"
+        },
+        {
+          "speaker": "raju",
+          "text": "S-C-L aur P-L-C! Dono mein preganglionic mein Acetylcholine, sirf postganglionic mein farak! Sir ab samajh aaya!"
+        }
+      ],
+      "navigation": {
+        "next": "card_47_quiz1_module8",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_47_quiz1_module8",
+      "card_slug": "card_47_quiz1_module8",
+      "type": "quiz",
+      "concept_id": "ans_divisions_quiz",
+      "level": 3,
+      "progress": {
+        "current": 47,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "'Fight or Flight' response kaunsa system control karta hai aur uska main neurotransmitter kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Parasympathetic — Acetylcholine"
+          },
+          {
+            "id": "B",
+            "text": "Sympathetic — Norepinephrine"
+          },
+          {
+            "id": "C",
+            "text": "Somatic Nervous System — Dopamine"
+          },
+          {
+            "id": "D",
+            "text": "Central Nervous System — Serotonin"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Fight or Flight response = Sympathetic Nervous System. Postganglionic sympathetic neurons mainly Norepinephrine (Noradrenaline) release karte hain. Adrenal medulla Epinephrine (Adrenaline) aur Norepinephrine blood mein release karta hai — isliye heart rate, blood pressure badhta hai, digestion slow hoti hai. Parasympathetic = Acetylcholine = Rest and Digest. Somatic nervous system voluntary muscles control karta hai — involuntary nahi. SSC CGL aur BPSC mein exact poochha gaya!"
+      },
+      "navigation": {
+        "next": "card_48_quiz2_module8",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_48_quiz2_module8",
+      "card_slug": "card_48_quiz2_module8",
+      "type": "quiz",
+      "concept_id": "parasympathetic_effects_quiz",
+      "level": 3,
+      "progress": {
+        "current": 48,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Parasympathetic Nervous System ke activation ka kaunsa effect GALAT hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Heart rate kam hoti hai"
+          },
+          {
+            "id": "B",
+            "text": "Digestion activate hoti hai"
+          },
+          {
+            "id": "C",
+            "text": "Pupils dilate hote hain"
+          },
+          {
+            "id": "D",
+            "text": "Salivation badhti hai"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Pupils DILATE karna Sympathetic system ka effect hai — emergency mein zyada light enter karni hoti hai. Parasympathetic mein pupils CONSTRICT hote hain (miosis). Parasympathetic ke effects: Heart rate decrease (A — SAHI), Digestion stimulate (B — SAHI), Salivation increase (D — SAHI). Option C galat answer hai — pupil dilation Sympathetic ka kaam hai, Parasympathetic ka nahi. Ye NEET ka repeated trap question hai!"
+      },
+      "navigation": {
+        "next": "card_49_quiz3_module8",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_49_quiz3_module8",
+      "card_slug": "card_49_quiz3_module8",
+      "type": "quiz",
+      "concept_id": "ans_neurotransmitter_quiz",
+      "level": 3,
+      "progress": {
+        "current": 49,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "ANS ke dono divisions (Sympathetic aur Parasympathetic) mein PREGANGLIONIC neuron ka neurotransmitter kya hota hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sympathetic mein Norepinephrine, Parasympathetic mein Acetylcholine"
+          },
+          {
+            "id": "B",
+            "text": "Dono mein Norepinephrine"
+          },
+          {
+            "id": "C",
+            "text": "Dono mein Acetylcholine"
+          },
+          {
+            "id": "D",
+            "text": "Dono mein Dopamine"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "DONO divisions mein Preganglionic neurons Acetylcholine release karte hain — ye common fact hai! Difference sirf Postganglionic mein: Sympathetic postganglionic = Norepinephrine (mostly). Parasympathetic postganglionic = Acetylcholine. Isliye Parasympathetic neurons ko 'Cholinergic' kehte hain. Sympathetic postganglionic ko 'Adrenergic' kehte hain (except sweat glands jo cholinergic hain — ye exception exam trap hai!)."
+      },
+      "navigation": {
+        "next": "card_50_milestone_module8",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_50_milestone_module8",
+      "card_slug": "card_50_milestone_module8",
+      "type": "milestone",
+      "concept_id": "module8_complete",
+      "level": 3,
+      "progress": {
+        "current": 50,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "MODULE 8 CONQUERED! 🎯",
+        "badge_emoji": "🤖",
+        "completed_topic": "Autonomic Nervous System",
+        "xp_earned": 90,
+        "milestone_progress": "Module 8/11 Clear",
+        "motivational_quote": "ANS ka master ban gaye! Ab sensory organs — aankhon ka jaadu dekhte hain!"
+      },
+      "navigation": {
+        "next": "card_51_eye_structure",
+        "button_text": "Start Module 9 ➔"
+      }
+    },
+    {
+      "card_id": "card_51_eye_structure",
+      "card_slug": "card_51_eye_structure",
+      "type": "chat",
+      "concept_id": "eye_structure",
+      "level": 4,
+      "progress": {
+        "current": 51,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ab Sensory Organs — aankhein pehle! Aankhon ki teen layers hoti hain: (1) Sclera — sabse bahari, tough white layer — jo 'aankhon ka safed part' dikhta hai. Aage transparent part Cornea — yahan se light enter hoti hai. (2) Choroid — beech ki layer — blood supply, melanin (aankhon ka rang). Aage Iris (colored part) aur Pupil (beech ka khaali jagah — light entry control). (3) Retina — sabse andar — photoreceptors hain!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Sclera — safed, Choroid — blood supply, Retina — andar! Iris colored part aur Pupil khaali jagah! Sir eye toh camera ki tarah hai!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Exactly! Camera analogy perfect hai: Cornea = Camera lens, Iris = Aperture diaphragm, Pupil = Aperture opening, Lens = Camera lens (ye additional hota hai — shape change karke focus adjust karta hai — 'Accommodation'). Retina = Camera film/sensor. Aur lens ke do tarf fluid hota hai — aage 'Aqueous Humor' aur peeche 'Vitreous Humor'. Glaucoma mein Aqueous Humor pressure badh jaata hai — ye BPSC ka question hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Aqueous Humor aur Vitreous Humor! Glaucoma mein Aqueous pressure badha! Sir Camera aur Aankh ka comparison bahut helpful hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_52_retina_rods_cones",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_52_retina_rods_cones",
+      "card_slug": "card_52_retina_rods_cones",
+      "type": "chat",
+      "concept_id": "retina_photoreceptors",
+      "level": 4,
+      "progress": {
+        "current": 52,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Retina mein do types ke photoreceptors hain — ye NEET ka most important topic hai: (1) Rods — dim light mein kaam karte hain — black and white vision. Pigment = Rhodopsin (Vitamin A se bana). Raat ko andhera lagta hai — Rods kaam karte hain. Vitamin A ki kami = Night Blindness (Rods affect). (2) Cones — bright light mein kaam karte hain — color vision. Teen types: Red, Green, Blue-sensitive cones. Color blindness mein Cones kharab hote hain!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Rods — raat, black-white — Rhodopsin — Vitamin A! Cones — din, rang — Color Blindness! Sir Night Blindness ka karan Vitamin A ki kami — ye toh famous fact hai!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan! Aur Retina mein ek special area hai — 'Fovea Centralis' — yahan sirf Cones hote hain — sabse sharp vision yahan — jab koi cheez directly dekhte ho. Ek aur area — 'Blind Spot' (Optic Disc) — yahan koi photoreceptor nahi — yahan se Optic Nerve nikali — isliye is jagah par koi image nahi dikhti! Blind spot reality mein exist karta hai — proof karne ka simple experiment bhi hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Fovea mein sirf Cones — sharp vision! Blind Spot mein koi receptor nahi — optic nerve exit point! Sir ye facts toh NEET ke liye gold hain!"
+        }
+      ],
+      "navigation": {
+        "next": "card_53_quiz1_module9",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_53_quiz1_module9",
+      "card_slug": "card_53_quiz1_module9",
+      "type": "quiz",
+      "concept_id": "eye_layers_quiz",
+      "level": 4,
+      "progress": {
+        "current": 53,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Aankh ki teen layers ka bahari se andar sahi order kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Retina → Choroid → Sclera"
+          },
+          {
+            "id": "B",
+            "text": "Choroid → Sclera → Retina"
+          },
+          {
+            "id": "C",
+            "text": "Sclera → Choroid → Retina"
+          },
+          {
+            "id": "D",
+            "text": "Sclera → Retina → Choroid"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Aankh ki layers bahari se andar: Sclera (sabse bahari tough white layer — aage Cornea) → Choroid (middle vascular layer — aage Iris aur Pupil) → Retina (sabse andar — photoreceptors). SCR yaad karo: Sclera-Choroid-Retina! Retina sabse andar hai — light yahan photoreceptors (Rods aur Cones) tak pahunchi tab vision hoti hai. NEET mein diagram ke saath ye order poochha jaata hai!"
+      },
+      "navigation": {
+        "next": "card_54_quiz2_module9",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_54_quiz2_module9",
+      "card_slug": "card_54_quiz2_module9",
+      "type": "quiz",
+      "concept_id": "rods_cones_quiz",
+      "level": 4,
+      "progress": {
+        "current": 54,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Night Blindness kaunse photoreceptors ki kharabi se hoti hai aur kaunse vitamin ki kami se?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cones ki kharabi — Vitamin C ki kami"
+          },
+          {
+            "id": "B",
+            "text": "Rods ki kharabi — Vitamin A ki kami"
+          },
+          {
+            "id": "C",
+            "text": "Rods ki kharabi — Vitamin D ki kami"
+          },
+          {
+            "id": "D",
+            "text": "Cones ki kharabi — Vitamin A ki kami"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Night Blindness (Nyctalopia) = Rods ki dysfunction — dim light mein Rods kaam nahi karte. Cause = Vitamin A ki kami — kyunki Rods ka visual pigment Rhodopsin Vitamin A (Retinal) se bana hota hai. Cones color vision ke liye hain — inki kharabi se Color Blindness hoti hai. Vitamin D bone health ke liye. Vitamin C scurvy ke liye. Ye SSC CGL, BPSC, NEET sab mein poochha gaya hai!"
+      },
+      "navigation": {
+        "next": "card_55_quiz3_module9",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_55_quiz3_module9",
+      "card_slug": "card_55_quiz3_module9",
+      "type": "quiz",
+      "concept_id": "fovea_blind_spot_quiz",
+      "level": 4,
+      "progress": {
+        "current": 55,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Retina mein 'Blind Spot' (Optic Disc) kyun hota hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Yahan sirf Rods hote hain, Cones nahi"
+          },
+          {
+            "id": "B",
+            "text": "Yahan koi bhi photoreceptor nahi hota — yahan se Optic Nerve nikali hoti hai"
+          },
+          {
+            "id": "C",
+            "text": "Yahan sirf Cones hote hain — Fovea jaisa"
+          },
+          {
+            "id": "D",
+            "text": "Yahan light nahi pahunchi"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Blind Spot (Optic Disc) retina ka woh point hai jahan se Optic Nerve (Cranial Nerve II) aankh se nikali hoti hai. Is jagah par koi bhi photoreceptor (na Rods na Cones) nahi hota — isliye is point par padne wali image ka koi perception nahi hota — 'blind' spot. Fovea Centralis mein sirf Cones hote hain — maximum visual acuity. Blind Spot aur Fovea — dono alag hain — exam trap! NEET mein ye distinction poochha gaya hai."
+      },
+      "navigation": {
+        "next": "card_56_milestone_module9",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_56_milestone_module9",
+      "card_slug": "card_56_milestone_module9",
+      "type": "milestone",
+      "concept_id": "module9_complete",
+      "level": 4,
+      "progress": {
+        "current": 56,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "MODULE 9 DONE! 👁️",
+        "badge_emoji": "👁️",
+        "completed_topic": "Eye — Structure & Function",
+        "xp_earned": 90,
+        "milestone_progress": "Module 9/11 Clear",
+        "motivational_quote": "Aankhon ka poora science samajh liya! Ab kaanon ka magic — Ear module shuru!"
+      },
+      "navigation": {
+        "next": "card_57_ear_structure",
+        "button_text": "Start Module 10 ➔"
+      }
+    },
+    {
+      "card_id": "card_57_ear_structure",
+      "card_slug": "card_57_ear_structure",
+      "type": "chat",
+      "concept_id": "ear_structure_overview",
+      "level": 4,
+      "progress": {
+        "current": 57,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Kaan — Ear — sirf sunaane ka kaam nahi karta, balance bhi maintain karta hai! Ear ke teen main parts hain: (1) Outer Ear — Pinna (jo bahar dikhta hai) + External Auditory Canal (kaan ki nali) + Tympanic Membrane (Ear Drum). (2) Middle Ear — Teen tiny bones: Malleus, Incus, Stapes — inhe collectively 'Ossicles' kehte hain — body ki sabse chhoti bones! (3) Inner Ear — Cochlea (hearing) + Vestibular apparatus (balance)."
+        },
+        {
+          "speaker": "raju",
+          "text": "Ossicles — body ki sabse chhoti bones! Malleus, Incus, Stapes — teen bones! Sir ye names kaise yaad rakhein?"
+        },
+        {
+          "speaker": "aman",
+          "text": "MIS yaad karo — Malleus-Incus-Stapes — bahar se andar ka order! Malleus (hammer shape — Tympanic Membrane se connected), Incus (anvil shape — beech mein), Stapes (stirrup shape — andar — Oval Window se connected — sabse chhoti bone). Ye chain vibrations ko amplify karke inner ear tak transfer karti hai. Stapes sab se chhoti bone hai — BPSC aur SSC ne directly poochha hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "MIS! Malleus-Incus-Stapes! Stapes sabse chhoti bone! Ye toh alag fact hai Sir — kaan ki haddi sabse chhoti!"
+        }
+      ],
+      "navigation": {
+        "next": "card_58_cochlea_hearing",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_58_cochlea_hearing",
+      "card_slug": "card_58_cochlea_hearing",
+      "type": "chat",
+      "concept_id": "cochlea_hearing_mechanism",
+      "level": 4,
+      "progress": {
+        "current": 58,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Cochlea — ye snail shell jaisi coiled structure hai — Inner Ear mein — aur ye hearing ka actual organ hai. Cochlea mein teen chambers hain: Scala Vestibuli, Scala Media (Cochlear Duct), Scala Tympani. Scala Media mein 'Organ of Corti' hai — actual hearing organ! Isme 'Hair Cells' hain jo vibrations ko electrical signals mein convert karti hain — phir Auditory Nerve (Cochlear Nerve) se brain tak!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Organ of Corti — actual hearing organ! Hair cells vibrations detect karti hain! Sir ye naam exam mein zaroor aata hoga?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul! NEET mein almost har saal! Organ of Corti Cochlea mein Basilar Membrane par hota hai. Alag-alag frequencies alag-alag jagah par Basilar Membrane ko vibrate karti hain — isliye hum alag pitch sunn sakte hain. Aur Cochlear Nerve (Vestibulocochelar Nerve ka branch) in signals ko Brain ke Temporal Lobe tak le jaata hai — processing wahan hoti hai! Auditory cortex Temporal Lobe mein hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Cochlea → Cochlear Nerve → Temporal Lobe — hearing ka poora path! Sir ye complete pathway NEET ke liye important hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_59_vestibular_balance",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_59_vestibular_balance",
+      "card_slug": "card_59_vestibular_balance",
+      "type": "chat",
+      "concept_id": "vestibular_apparatus_balance",
+      "level": 4,
+      "progress": {
+        "current": 59,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ear ka doosra bada kaam — Balance! Inner Ear mein 'Vestibular Apparatus' hai jo balance aur body position sense karta hai. Iske do parts: (1) Semicircular Canals — teen canals teen alag directions mein — rotation aur angular movement detect karte hain. Inme 'Endolymph' fluid hota hai. (2) Utricle aur Saccule — linear acceleration aur gravity detect karte hain. Motion sickness tab hota hai jab ye signals aur aankhon ke signals mismatch hoti hain!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Semicircular Canals rotation detect karte hain! Motion sickness kaan-aankh mismatch se! Sir ye bahut interesting hai — kaan aur aankh dono milke balance banate hain!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Exactly! Aur Semicircular Canals teeno 3D mein hain — X, Y, Z axes — toh kisi bhi direction ki movement detect kar sakte hain. Vestibular Nerve (Vestibulocochlear Nerve ka doosra branch) balance information Cerebellum ko bhejta hai — yaad hai Cerebellum balance control karta hai? Ye sab connected hai! Vertigo (dizziness) tab hota hai jab inner ear ka problem hota hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Vestibular Nerve → Cerebellum — balance connection! Vertigo inner ear problem se! Poora system connected hai Sir!"
+        }
+      ],
+      "navigation": {
+        "next": "card_60_quiz1_module10",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_60_quiz1_module10",
+      "card_slug": "card_60_quiz1_module10",
+      "type": "quiz",
+      "concept_id": "ear_ossicles_quiz",
+      "level": 4,
+      "progress": {
+        "current": 60,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Human body ki sabse chhoti bone kaun si hai aur woh kahan hoti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Malleus — Outer Ear mein"
+          },
+          {
+            "id": "B",
+            "text": "Incus — Middle Ear mein"
+          },
+          {
+            "id": "C",
+            "text": "Stapes — Middle Ear mein"
+          },
+          {
+            "id": "D",
+            "text": "Patella — Knee mein"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Stapes (stirrup bone) human body ki sabse chhoti bone hai — Middle Ear mein hoti hai. Ye Teen Ossicles (Malleus, Incus, Stapes) mein sabse andar wali hai — Oval Window se connect hai. Stapes ka size lagbhag 3 mm hota hai. Patella (kneecap) sesamoid bone hai — sabse chhoti nahi. Malleus sabse bahari ossicle hai (Tympanic Membrane se connected). Ye SSC CGL, RRB NTPC, BPSC — sabka evergreen question hai!"
+      },
+      "navigation": {
+        "next": "card_61_quiz2_module10",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_61_quiz2_module10",
+      "card_slug": "card_61_quiz2_module10",
+      "type": "quiz",
+      "concept_id": "organ_of_corti_quiz",
+      "level": 4,
+      "progress": {
+        "current": 61,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Hearing ka actual organ (receptor) kaunsa hai aur woh kahan hota hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pinna — Outer Ear mein"
+          },
+          {
+            "id": "B",
+            "text": "Tympanic Membrane — Middle Ear mein"
+          },
+          {
+            "id": "C",
+            "text": "Organ of Corti — Cochlea mein (Inner Ear)"
+          },
+          {
+            "id": "D",
+            "text": "Semicircular Canals — Inner Ear mein"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Organ of Corti Cochlea ke Scala Media (Cochlear Duct) mein Basilar Membrane par hota hai — ye actual hearing receptor hai. Isme Hair Cells (Mechanoreceptors) hain jo vibrations ko electrical signals mein convert karti hain. Pinna sound waves collect karta hai. Tympanic Membrane vibrate karta hai. Semicircular Canals balance ke liye hain — hearing ke liye nahi. NEET mein Organ of Corti ka location (Cochlea + Basilar Membrane) direct poochha gaya hai!"
+      },
+      "navigation": {
+        "next": "card_62_quiz3_module10",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_62_quiz3_module10",
+      "card_slug": "card_62_quiz3_module10",
+      "type": "quiz",
+      "concept_id": "semicircular_canals_quiz",
+      "level": 4,
+      "progress": {
+        "current": 62,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Semicircular Canals ka primary function kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sound waves amplification"
+          },
+          {
+            "id": "B",
+            "text": "Angular/rotational movement aur balance detect karna"
+          },
+          {
+            "id": "C",
+            "text": "Light sensitivity"
+          },
+          {
+            "id": "D",
+            "text": "Cochlea mein fluid maintain karna"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Semicircular Canals (teen — teeno 3D planes mein) rotational/angular movement detect karte hain — body ki rotation sense. Inka fluid (Endolymph) movement detect karta hai aur Hair Cells ko stimulate karta hai. Vestibular Nerve se Cerebellum ko signals jaate hain — balance maintain hota hai. Sound waves Cochlea mein process hote hain — Semicircular Canals mein nahi. Motion sickness tab hoti hai jab Semicircular Canals ke signals aankh se mismatch hote hain. BPSC ka question!"
+      },
+      "navigation": {
+        "next": "card_63_milestone_module10",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_63_milestone_module10",
+      "card_slug": "card_63_milestone_module10",
+      "type": "milestone",
+      "concept_id": "module10_complete",
+      "level": 4,
+      "progress": {
+        "current": 63,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "MODULE 10 DONE! 👂",
+        "badge_emoji": "🎵",
+        "completed_topic": "Ear — Structure, Hearing & Balance",
+        "xp_earned": 100,
+        "milestone_progress": "Module 10/11 Clear",
+        "motivational_quote": "Aankhein aur Kaan dono pakad liye! Ek aur final module — Officer Revision aur Master Quiz — aur tum Nervous System ke KING ban jaoge!"
+      },
+      "navigation": {
+        "next": "card_64_cerebrospinal_fluid",
+        "button_text": "Start Final Module ➔"
+      }
+    },
+    {
+      "card_id": "card_64_cerebrospinal_fluid",
+      "card_slug": "card_64_cerebrospinal_fluid",
+      "type": "chat",
+      "concept_id": "csf_blood_brain_barrier",
+      "level": 5,
+      "progress": {
+        "current": 64,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Kuch exam-critical facts jo syllabus mein hain lekin aksar chhoot jaate hain! Cerebrospinal Fluid (CSF) — ye ek clear fluid hai jo brain aur spinal cord ko cushion karta hai — shock absorber ki tarah. Ye Meninges ki Arachnoid layer ke neeche hota hai (Subarachnoid space mein). Ek adult mein lagbhag 150 ml CSF hota hai. Ye brain ki 'Ventricles' mein produce hota hai — Choroid Plexus se. Lumbar Puncture (Spinal Tap) se CSF sample lete hain meningitis diagnose karne ke liye!"
+        },
+        {
+          "speaker": "raju",
+          "text": "CSF shock absorber hai! Meninges ke beech! Aur Lumbar Puncture se sample! Sir ye medical procedure bhi exam mein aata hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan BPSC mein! Aur Blood-Brain Barrier (BBB) — ye ek selective barrier hai jo blood aur brain ke beech hoti hai — harmful substances ko brain mein enter nahi hone deti. Astrocytes aur tight junctions is barrier ko banate hain. Isi wajah se bahut saari medicines brain mein kaam nahi karti — woh BBB cross nahi kar paatein. Ye concept NEET mein bhi aaya hai aur UPSC mein bhi!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Blood-Brain Barrier! Astrocytes ise banati hain! Isliye brain mein har medicine nahi pahunhti! Sir ye connection bilkul naya tha mere liye!"
+        }
+      ],
+      "navigation": {
+        "next": "card_65_limbic_system",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_65_limbic_system",
+      "card_slug": "card_65_limbic_system",
+      "type": "chat",
+      "concept_id": "limbic_system_memory",
+      "level": 5,
+      "progress": {
+        "current": 65,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ek aur officer-level concept — 'Limbic System'. Ye brain ki inner ring hai jo emotions, memory, aur motivation se linked hai. Iske important parts: Hippocampus — long-term memory formation ke liye — Alzheimer's mein pehle Hippocampus affect hota hai! Amygdala — fear, aggression, emotional responses. Ye Cerebrum ke neeche hypothalamus ke around hote hain. Ye BPSC 2019 mein direct poochha gaya tha!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Hippocampus — long-term memory! Alzheimer's mein pehle Hippocampus kharab hota hai! Amygdala — fear! Sir ye names interesting hain — hippocampus toh seahorse jaisa lagta hai!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Exactly! Hippocampus Greek mein 'seahorse' ka matlab hai — aur is brain structure ki shape seahorse jaisi hoti hai! Aur Alzheimer's disease mein Amyloid plaques aur Tau protein tangles form hote hain — neurons marte hain — memory aur cognition progressively kharab hoti hai. Ye Acetylcholine system bhi affect karta hai — isliye Cholinesterase inhibitors treat karne mein use hote hain. Ye NEET level ka concept hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Hippocampus = seahorse shape! Alzheimer's mein Amyloid plaques aur Tau protein! Sir ye toh poora medical science hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_66_glial_cells",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_66_glial_cells",
+      "card_slug": "card_66_glial_cells",
+      "type": "chat",
+      "concept_id": "glial_cells_types",
+      "level": 5,
+      "progress": {
+        "current": 66,
+        "total": 80
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ek important topic jo mostly chhoot jaata hai — Glial Cells (Neuroglia). Ye neurons ke support cells hain — nervous system mein neurons se bhi zyada hoti hain! Types: Astrocytes — Blood-Brain Barrier banati hain, neurons ko support. Oligodendrocytes — CNS mein Myelin Sheath banate hain. Schwann Cells — PNS mein Myelin Sheath banate hain. Microglia — CNS ki immune cells — phagocytosis karte hain. Ependymal Cells — CSF produce karte hain (Choroid Plexus mein)."
+        },
+        {
+          "speaker": "raju",
+          "text": "Glial cells ka type dekho — Astrocytes BBB, Oligodendrocytes CNS Myelin, Schwann PNS Myelin, Microglia immune! Ependymal CSF! Sir ye sab alag functions hain!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Aur ek important fact — brain tumors mostly glial cells se develop hote hain, neurons se nahi — kyunki neurons generally divide nahi karte. Glioma, Glioblastoma — ye glial cell tumors hain. Neurons post-natal mein rarely divide karte hain — isliye brain damage mein neurons regenerate nahi hote — serious consequence! PNS mein kuch regeneration hoti hai — Schwann cells ki wajah se! Ye NEET ka interesting question point hai!"
+        },
+        {
+          "speaker": "raju",
+          "text": "Brain tumors glial cells se! Neurons divide nahi karte — isliye brain injury permanent ho sakti hai! PNS mein Schwann cells ki wajah se recovery hoti hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_67_quiz1_final_module",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_67_quiz1_final_module",
+      "card_slug": "card_67_quiz1_final_module",
+      "type": "quiz",
+      "concept_id": "csf_bbq_quiz",
+      "level": 5,
+      "progress": {
+        "current": 67,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Cerebrospinal Fluid (CSF) kahan produce hota hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dura Mater mein"
+          },
+          {
+            "id": "B",
+            "text": "Brain ke Ventricles mein Choroid Plexus se"
+          },
+          {
+            "id": "C",
+            "text": "Hippocampus mein"
+          },
+          {
+            "id": "D",
+            "text": "Cerebellum mein"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "CSF (Cerebrospinal Fluid) brain ke Ventricles mein present Choroid Plexus (specialized Ependymal Cells) se produce hota hai. CSF Subarachnoid space (Arachnoid aur Pia Mater ke beech) mein circulate karta hai aur brain/spinal cord ko cushion karta hai. Adult mein ~150 mL CSF hota hai. Lumbar Puncture se L3-L4 level par spinal cord ke neeche CSF sample lete hain. Dura Mater sabse bahari meningeal layer hai — produce nahi karta. BPSC 2019 ne directly poochha tha!"
+      },
+      "navigation": {
+        "next": "card_68_quiz2_final_module",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_68_quiz2_final_module",
+      "card_slug": "card_68_quiz2_final_module",
+      "type": "quiz",
+      "concept_id": "hippocampus_quiz",
+      "level": 5,
+      "progress": {
+        "current": 68,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "Alzheimer's Disease mein pehle kaunsa brain structure affect hota hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cerebellum"
+          },
+          {
+            "id": "B",
+            "text": "Medulla Oblongata"
+          },
+          {
+            "id": "C",
+            "text": "Hippocampus"
+          },
+          {
+            "id": "D",
+            "text": "Pons"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Alzheimer's Disease mein Hippocampus pehle affect hota hai — isliye recent memory loss pehle symptom hota hai. Hippocampus Limbic System ka part hai aur new long-term memories banane ke liye crucial hai. Amyloid plaques aur Tau protein tangles Hippocampus mein pehle form hote hain. Medulla aur Cerebellum vital functions ke liye hain — Alzheimer's late stages mein ye affect hote hain. BPSC aur NEET dono ke liye relevant!"
+      },
+      "navigation": {
+        "next": "card_69_quiz3_final_module",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_69_quiz3_final_module",
+      "card_slug": "card_69_quiz3_final_module",
+      "type": "quiz",
+      "concept_id": "glial_cells_quiz",
+      "level": 5,
+      "progress": {
+        "current": 69,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "CNS mein Blood-Brain Barrier (BBB) banane mein mainly kaunsi Glial cells help karti hain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Microglia"
+          },
+          {
+            "id": "B",
+            "text": "Schwann Cells"
+          },
+          {
+            "id": "C",
+            "text": "Oligodendrocytes"
+          },
+          {
+            "id": "D",
+            "text": "Astrocytes"
+          }
+        ],
+        "correct_option_id": "D",
+        "explanation": "Astrocytes Blood-Brain Barrier (BBB) banane mein crucial role nibhati hain — unke 'end-feet' blood capillaries ko wrap karte hain aur tight junctions ke saath barrier form karte hain. Microglia CNS ki immune cells hain (phagocytosis). Schwann Cells PNS mein Myelin banati hain. Oligodendrocytes CNS mein Myelin banate hain. Astrocytes neurons ko metabolic support bhi deti hain. BBB ke cross na kar paane ki wajah se brain mein drug delivery challenging hai — pharmaceutical science ka hot topic!"
+      },
+      "navigation": {
+        "next": "card_70_milestone_module11",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_70_milestone_module11",
+      "card_slug": "card_70_milestone_module11",
+      "type": "milestone",
+      "concept_id": "module11_complete",
+      "level": 5,
+      "progress": {
+        "current": 70,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "MODULE 11 CLEARED! 🎓",
+        "badge_emoji": "🏅",
+        "completed_topic": "CSF, Limbic System, Glial Cells & Advanced Concepts",
+        "xp_earned": 100,
+        "milestone_progress": "Module 11/11 Clear",
+        "motivational_quote": "Sab modules complete! Ab Final Officer Revision aur Master Quiz se apna Officer Level prove karo!"
+      },
+      "navigation": {
+        "next": "card_71_officer_summary",
+        "button_text": "Go to Final Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_71_officer_summary",
+      "card_slug": "card_71_officer_summary",
+      "type": "summary",
+      "concept_id": "full_chapter_revision",
+      "level": 5,
+      "progress": {
+        "current": 71,
+        "total": 80
+      },
+      "summary_payload": {
+        "title": "⚡ Officer Rapid Revision — Nervous System",
+        "revision_points": [
+          {
+            "topic": "Neuron Structure & Types",
+            "point": "Neuron ke parts: Dendrites (receive) → Cell Body → Axon (send) → Axon Terminals. PNS mein Myelin = Schwann Cells; CNS mein Myelin = Oligodendrocytes. Nodes of Ranvier ke beech Saltatory Conduction (70-120 m/s). Sensory = Afferent (Arriving), Motor = Efferent (Exiting), Interneurons CNS mein. Bipolar neurons retina mein; Multipolar sabse common. Multiple Sclerosis mein Myelin damage — BPSC trap."
+          },
+          {
+            "topic": "Nerve Impulse & Synapse",
+            "point": "Resting Potential = -70 mV; Na+/K+ pump 3Na+ bahar, 2K+ andar. Action Potential: Na+ andar = Depolarization (-70 to +30 mV), K+ bahar = Repolarization. All-or-None law. Synapse: Electrical→Chemical→Electrical. Acetylcholinesterase Acetylcholine destroy karta hai. Parkinson's = Dopamine kami; Alzheimer's = Acetylcholine kami. GABA inhibitory neurotransmitter."
+          },
+          {
+            "topic": "Brain Structure & Functions",
+            "point": "Forebrain: Cerebrum (4 Lobes — Frontal=thinking/movement, Parietal=touch, Temporal=hearing/memory, Occipital=vision) + Thalamus (Gateway/Relay) + Hypothalamus (Thermostat, master of ANS + Endocrine). Hindbrain: Cerebellum (balance — drunk person falls), Pons, Medulla (Vital Center — heartbeat/breathing). Meninges: Dura Mater→Arachnoid→Pia Mater. Corpus Callosum = 2 hemispheres ka bridge."
+          },
+          {
+            "topic": "Spinal Cord, Reflexes & ANS",
+            "point": "Spinal Cord: Andar Grey (H-shape), Bahar White — Brain ke ULTA! Bell-Magendie Law: Dorsal=Sensory input, Ventral=Motor output. 12 Cranial Nerves, 31 Spinal Nerves (8C+12T+5L+5S+1Coc). Vagus nerve = longest cranial. Reflex Arc: Receptor→Sensory N→Spinal Cord→Motor N→Effector (no brain). Sympathetic=Fight or Flight=Norepinephrine; Parasympathetic=Rest & Digest=Acetylcholine."
+          },
+          {
+            "topic": "Eye & Ear Facts",
+            "point": "Eye layers: Sclera→Choroid→Retina (SCR). Rods=dim light/Rhodopsin/Vit A kami=Night Blindness. Cones=color/Fovea. Blind Spot=Optic Disc=no receptors. Ear Ossicles (MIS): Malleus→Incus→Stapes — Stapes=smallest bone in body. Organ of Corti (Cochlea, Basilar Membrane) = hearing receptor. Semicircular Canals = rotation/balance→Cerebellum. CSF produced by Choroid Plexus in Ventricles (~150mL). Hippocampus = long-term memory; first affected in Alzheimer's."
+          }
+        ]
+      },
+      "navigation": {
+        "next": "card_72_final_quiz_1",
+        "button_text": "Attempt Master Quiz ➔"
+      }
+    },
+    {
+      "card_id": "card_72_final_quiz_1",
+      "card_slug": "card_72_final_quiz_1",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_1",
+      "level": 5,
+      "progress": {
+        "current": 72,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "BPSC Officer Level Multi-Statement:\nNiche diye statements mein se kaunse SAHI hain?\n(I) Spinal Cord mein andar Grey Matter (H-shape) aur bahar White Matter hota hai — Brain ke bilkul ulta.\n(II) Bell-Magendie Law ke anusar Dorsal root sensory information enter karti hai aur Ventral root motor commands nikalti hai.\n(III) Vagus Nerve (CN X) sirf neck tak jaata hai aur sabse lamba cranial nerve hai.\n(IV) Corpus Callosum dono cerebral hemispheres ko connect karta hai.\n(V) Hypothalamus ko 'Gateway to Cerebral Cortex' kehte hain.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sirf I, II aur IV"
+          },
+          {
+            "id": "B",
+            "text": "I, II, III aur IV"
+          },
+          {
+            "id": "C",
+            "text": "Sirf IV aur V"
+          },
+          {
+            "id": "D",
+            "text": "Saare paanch"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement III GALAT — Vagus Nerve heart, lungs aur abdomen tak jaata hai — sirf neck tak nahi, isliye ye longest hai. Statement V GALAT — 'Gateway to Cerebral Cortex' Thalamus hai, Hypothalamus nahi. Hypothalamus 'Master of ANS aur Endocrine' hai. Statement I SAHI (Spinal Cord arrangement), II SAHI (Bell-Magendie Law), IV SAHI (Corpus Callosum). Answer A!"
+      },
+      "navigation": {
+        "next": "card_73_final_quiz_2",
+        "button_text": "Next Master Question ➔"
+      }
+    },
+    {
+      "card_id": "card_73_final_quiz_2",
+      "card_slug": "card_73_final_quiz_2",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_2",
+      "level": 5,
+      "progress": {
+        "current": 73,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "NEET Level Assertion-Reason:\nAssertion (A): Myelinated nerve fibers mein action potential Saltatory Conduction ke zariye travel karta hai jo speed ko 70-120 m/s tak badhata hai.\nReason (R): Myelin Sheath electrically insulating hoti hai aur sirf Nodes of Ranvier par action potential generate hota hai, jisse signal jump karta hai.\n\nNiche diye options mein sahi answer chuniye:",
+        "options": [
+          {
+            "id": "A",
+            "text": "A aur R dono sahi hain aur R, A ka sahi explanation hai"
+          },
+          {
+            "id": "B",
+            "text": "A aur R dono sahi hain lekin R, A ka sahi explanation nahi hai"
+          },
+          {
+            "id": "C",
+            "text": "A sahi hai lekin R galat hai"
+          },
+          {
+            "id": "D",
+            "text": "A galat hai lekin R sahi hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Assertion sahi hai — Myelinated nerves mein Saltatory Conduction hoti hai aur speed 70-120 m/s tak hoti hai (non-myelinated mein 0.5-2 m/s). Reason bhi bilkul sahi hai aur correct explanation hai — Myelin Sheath insulation deta hai aur Na+ channels sirf Nodes of Ranvier par concentrate hote hain — isliye action potential sirf wahan generate hota hai aur signal node to node jump karta hai. Dono sahi aur logically connected — Answer A. NEET 2021 level ka question!"
+      },
+      "navigation": {
+        "next": "card_74_final_quiz_3",
+        "button_text": "Next Master Question ➔"
+      }
+    },
+    {
+      "card_id": "card_74_final_quiz_3",
+      "card_slug": "card_74_final_quiz_3",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_3",
+      "level": 5,
+      "progress": {
+        "current": 74,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "SSC CGL/BPSC Speed Facts — Multi-Statement:\n(I) Stapes human body ki sabse chhoti bone hai aur Middle Ear mein hoti hai.\n(II) Organ of Corti Cochlea mein Basilar Membrane par hota hai aur hearing ka actual receptor hai.\n(III) Fovea Centralis mein sirf Rod cells hote hain jo maximum visual acuity dete hain.\n(IV) Night Blindness Vitamin A ki kami se hoti hai kyunki Rhodopsin pigment ka synthesis rukta hai.\n(V) Semicircular Canals hearing ke liye responsible hain.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sirf I, II aur IV"
+          },
+          {
+            "id": "B",
+            "text": "I, II, III aur IV"
+          },
+          {
+            "id": "C",
+            "text": "Sirf III aur V"
+          },
+          {
+            "id": "D",
+            "text": "Saare paanch"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement III GALAT — Fovea Centralis mein sirf CONES hote hain, Rods nahi — Cones sabse sharp color vision dete hain. Statement V GALAT — Semicircular Canals balance/rotation detect karte hain, hearing nahi — Hearing Cochlea (Organ of Corti) se hoti hai. Statement I SAHI (Stapes = smallest bone), II SAHI (Organ of Corti = Cochlea, Basilar Membrane), IV SAHI (Night Blindness = Vit A kami = Rhodopsin kami). Answer A!"
+      },
+      "navigation": {
+        "next": "card_75_final_quiz_4",
+        "button_text": "Next Master Question ➔"
+      }
+    },
+    {
+      "card_id": "card_75_final_quiz_4",
+      "card_slug": "card_75_final_quiz_4",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_4",
+      "level": 5,
+      "progress": {
+        "current": 75,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "UPSC/BPSC Integration Level:\nNiche Scientists aur unke contributions ka sahi match karo:\n(I) Ivan Pavlov — (a) Conditioned Reflex/Classical Conditioning — 1904 Nobel\n(II) Santiago Ramon y Cajal — (b) Neuron Doctrine — neurons individual cells hain\n(III) Otto Loewi — (c) Chemical neurotransmission discover kiya — 1936 Nobel\n(IV) Alan Hodgkin & Andrew Huxley — (d) Action Potential ionic mechanism — 1963 Nobel",
+        "options": [
+          {
+            "id": "A",
+            "text": "I-a, II-b, III-c, IV-d"
+          },
+          {
+            "id": "B",
+            "text": "I-b, II-a, III-d, IV-c"
+          },
+          {
+            "id": "C",
+            "text": "I-a, II-c, III-b, IV-d"
+          },
+          {
+            "id": "D",
+            "text": "I-d, II-b, III-a, IV-c"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Sahi matches: Pavlov (I-a) = Conditioned Reflex, 1904 Nobel. Santiago Ramon y Cajal (II-b) = Neuron Doctrine (neurons individual cells hain, reticular theory galat) — 1906 Nobel shared with Golgi. Otto Loewi (III-c) = Chemical neurotransmission discovered using frog heart experiment ('Vagusstoff' = Acetylcholine) — 1936 Nobel. Hodgkin & Huxley (IV-d) = Na+/K+ ionic mechanism of Action Potential — 1963 Nobel. Answer A — ye UPSC Prelims level ka matching question hai!"
+      },
+      "navigation": {
+        "next": "card_76_final_quiz_5",
+        "button_text": "Next Master Question ➔"
+      }
+    },
+    {
+      "card_id": "card_76_final_quiz_5",
+      "card_slug": "card_76_final_quiz_5",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_5",
+      "level": 5,
+      "progress": {
+        "current": 76,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "NEET 2022 Level — Nervous System Integration:\nEk patient mein damage hua hai jahan Sympathetic postganglionic neurons kaam nahi kar rahe. Niche kaunsa effect NAHI hoga?\n(I) Heart rate normal ya kam rahegi (no tachycardia)\n(II) Pupils normal ya constricted rahenge (no dilation)\n(III) Digestion bahut slow ho jaayegi\n(IV) Salivation increase hogi",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sirf III galat prediction hai — sab baaki sahi hain"
+          },
+          {
+            "id": "B",
+            "text": "III aur IV galat predictions hain — invert hona chahiye"
+          },
+          {
+            "id": "C",
+            "text": "I aur II sahi hain — III galat (digestion actually improve hogi) — IV sahi hai"
+          },
+          {
+            "id": "D",
+            "text": "Saari predictions sahi hain"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Sympathetic nahi hai toh Parasympathetic UNOPPOSED ho jaayega — 'Rest and Digest' dominant. I SAHI — heart rate slow (no sympathetic tachycardia). II SAHI — pupils constrict (no sympathetic dilation). III GALAT prediction — Digestion IMPROVE hogi (Parasympathetic stimulates digestion), slow nahi hogi. IV SAHI — Salivation increase hogi (Parasympathetic increases salivation). Ye high-order clinical application question hai — NEET aur BPSC dono ke liye relevant!"
+      },
+      "navigation": {
+        "next": "card_77_final_quiz_6",
+        "button_text": "Next Master Question ➔"
+      }
+    },
+    {
+      "card_id": "card_77_final_quiz_6",
+      "card_slug": "card_77_final_quiz_6",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_6",
+      "level": 5,
+      "progress": {
+        "current": 77,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "BPSC 2023 Style Assertion-Reason — Reflex Action:\nAssertion (A): Haath ko garam cheez se hatane ki reflex action brain ke involve hue bina hoti hai.\nReason (R): Simple spinal reflexes mein signal pathway Receptor→Sensory Neuron→Spinal Cord→Motor Neuron→Effector tak limited hoti hai aur brain sirf baad mein pain conscious feel karta hai.\n\nAnswer chuniye:",
+        "options": [
+          {
+            "id": "A",
+            "text": "A aur R dono sahi hain aur R, A ka sahi explanation hai"
+          },
+          {
+            "id": "B",
+            "text": "A sahi hai lekin R galat hai — brain involved hota hai"
+          },
+          {
+            "id": "C",
+            "text": "A galat hai — brain hamesha involved hota hai reflex mein"
+          },
+          {
+            "id": "D",
+            "text": "A sahi hai lekin R sirf partially sahi hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Assertion bilkul sahi hai — withdrawal reflex (haath hatana) spinal reflex hai — brain involve nahi hota in the actual reflex loop. Reason bhi sahi hai aur perfect explanation hai — Reflex Arc path: Receptor→Sensory Neuron→Interneuron in Spinal Cord→Motor Neuron→Effector. Brain baad mein pain conscious feel karta hai jab signal ascending pathways se upar pahunchta hai — ye slight time delay hoti hai. A aur R dono sahi aur logically linked — Answer A!"
+      },
+      "navigation": {
+        "next": "card_78_final_quiz_7",
+        "button_text": "Next Master Question ➔"
+      }
+    },
+    {
+      "card_id": "card_78_final_quiz_7",
+      "card_slug": "card_78_final_quiz_7",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_7",
+      "level": 5,
+      "progress": {
+        "current": 78,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "RRB NTPC/SSC CGL Speed Fact Trap:\nNiche diye facts mein se kaunsa/kaunse GALAT hain?\n(I) Vestibulocochlear nerve (CN VIII) hearing aur balance dono control karta hai.\n(II) Trigeminal nerve (CN V) sabse lamba cranial nerve hai.\n(III) Optic nerve (CN II) smell sense karta hai.\n(IV) Hypoglossal nerve (CN XII) tongue movement control karta hai.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sirf II aur III galat hain"
+          },
+          {
+            "id": "B",
+            "text": "Sirf III galat hai"
+          },
+          {
+            "id": "C",
+            "text": "I, II aur III galat hain"
+          },
+          {
+            "id": "D",
+            "text": "Sirf II galat hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement II GALAT — Trigeminal (CN V) sabse BADA (widest distribution) cranial nerve hai, lekin sabse LAMBA Vagus (CN X) hai — common trap! Statement III GALAT — Optic nerve (CN II) VISION ke liye hai, SMELL Olfactory nerve (CN I) sense karta hai! Statement I SAHI — Vestibulocochlear (VIII) hearing (Cochlear branch) + balance (Vestibular branch). Statement IV SAHI — Hypoglossal (XII) tongue movement. Galat: II aur III — Answer A. Ye SSC CGL 2022 mein aaya tha!"
+      },
+      "navigation": {
+        "next": "card_79_final_quiz_8",
+        "button_text": "Last Master Question ➔"
+      }
+    },
+    {
+      "card_id": "card_79_final_quiz_8",
+      "card_slug": "card_79_final_quiz_8",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_8",
+      "level": 5,
+      "progress": {
+        "current": 79,
+        "total": 80
+      },
+      "quiz_payload": {
+        "question": "NEET Highest Order — Glial Cells & Neurotransmitters Integration:\nNiche kaunse statements SAHI hain?\n(I) Astrocytes Blood-Brain Barrier banane mein help karti hain.\n(II) Brain tumors mostly neurons se develop hote hain kyunki neurons zyada divide karte hain.\n(III) Sweat glands ko supply karne wale Sympathetic postganglionic neurons Acetylcholine release karte hain — Norepinephrine nahi.\n(IV) Oligodendrocytes CNS mein Myelin Sheath banate hain.\n(V) GABA ek excitatory neurotransmitter hai jo neurons ko fire karne mein help karta hai.",
+        "options": [
+          {
+            "id": "A",
+            "text": "I, III aur IV"
+          },
+          {
+            "id": "B",
+            "text": "Sirf I aur IV"
+          },
+          {
+            "id": "C",
+            "text": "I, II aur IV"
+          },
+          {
+            "id": "D",
+            "text": "Saare paanch"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statement II GALAT — Brain tumors mostly GLIAL CELLS se develop hote hain (Glioma, Glioblastoma) kyunki neurons post-natal mein divide nahi karte. Statement V GALAT — GABA INHIBITORY neurotransmitter hai — neurons ko calm karta hai, excite nahi. Statement I SAHI (Astrocytes = BBB). Statement III SAHI — Sweat glands sympathetic system se innervated hain lekin neurotransmitter Acetylcholine hai — ye famous exception hai! Statement IV SAHI (Oligodendrocytes = CNS Myelin). Answer A — I, III aur IV!"
+      },
+      "navigation": {
+        "next": "card_80_chapter_trophy",
+        "button_text": "See Final Result ➔"
+      }
+    },
+    {
+      "card_id": "card_80_chapter_trophy",
+      "card_slug": "card_80_chapter_trophy",
+      "type": "milestone",
+      "concept_id": "chapter_complete",
+      "level": 5,
+      "progress": {
+        "current": 80,
+        "total": 80
+      },
+      "milestone_payload": {
+        "title": "🏆 CHAPTER COMPLETE! NERVOUS SYSTEM OFFICER! 🧠",
+        "badge_emoji": "🧠",
+        "completed_topic": "Nervous System — Neural Control & Coordination (Full Chapter)",
+        "xp_earned": 600,
+        "milestone_progress": "All 11 Modules Cleared! 80/80 Cards Done!",
+        "motivational_quote": "Neuron se Neocortex tak, Synapse se Saltatory Conduction tak, Reflex Arc se Retina tak — tune poora Nervous System master kar liya! BPSC, NEET, SSC — koi bhi exam tera nervous system nahi hila sakta! Tu ab Nervous System ka OFFICER hai! 🚀🎉"
+      },
+      "navigation": {
+        "next": null,
+        "button_text": "Chapter Complete! 🎉"
+      }
+    }
+  ]
+}
