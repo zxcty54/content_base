@@ -520,5 +520,45 @@
     "a": "B",
     "ee": "Method 1 (100-Base Method):\nLet the third number be 100.\nFirst number $= 100 - 48 = 52$.\nSecond number $= 100 - 20 = 80$.\nPercentage $= \\frac{52}{80} \\times 100\\%$.\nDividing numerator and denominator by 4:\n$= \\frac{13}{20} \\times 100\\% = 13 \\times 5\\% = 65\\%$.\n\nMethod 2 (Ratio Method):\nFirst number : Second number $= 52 : 80$.\nDivide by 4: $13 : 20$.\nSince standard unit fraction $\\frac{1}{20} = 5\\%$,\n$\\frac{13}{20} = 13 \\times 5\\% = 65\\%$.",
     "eh": "विधि 1 (100 आधार विधि):\nमाना तीसरी संख्या $= 100$.\nपहली संख्या $= 100 - 48 = 52$.\nदूसरी संख्या $= 100 - 20 = 80$.\nअभीष्ट प्रतिशत $= \\frac{52}{80} \\times 100\\%$.\n4 से सरल करने पर: $\\frac{13}{20} \\times 100\\% = 65\\%$.\n\nविधि 2 (अनुपात विधि):\nपहली संख्या : दूसरी संख्या $= 52 : 80 = 13 : 20$.\nहम जानते हैं कि $\\frac{1}{20} = 5\\%$ होता है,\nअतः $\\frac{13}{20} = 13 \\times 5\\% = 65\\%$."
+  },
+  
+  {
+    "qe": "During a division, Aryan mistakenly took as the dividend a number that was 20% more than the original dividend. He also mistakenly took as the divisor a number that was 50% more than the original divisor. If the correct quotient of the original division problem was 40 and the remainder was 0, what was the quotient that Aryan obtained, assuming his calculations had no error?",
+    "qh": "एक विभाजन प्रक्रिया के दौरान, आर्यन ने भाज्य के रूप में मूल भाज्य से 20% अधिक संख्या ले ली। उसने भाजक के रूप में भी मूल भाजक से 50% अधिक संख्या ले ली। यदि मूल विभाजन समस्या का सही भागफल 40 था और शेषफल 0 था, तो यह मानते हुए कि उसकी गणना में कोई त्रुटि नहीं थी, आर्यन को क्या भागफल प्राप्त हुआ?",
+    "o": [
+      "(a) 30",
+      "(b) 32",
+      "(c) 35",
+      "(d) 36"
+    ],
+    "a": "B",
+    "ee": "Method 1 (Ratio Method):\nLet the original dividend be $D_1$ and the original divisor be $d_1$.\nOriginal Quotient $Q_1 = \\frac{D_1}{d_1} = 40$.\nNew dividend $D_2$ is $20\\%$ more $\\implies D_2 = \\frac{6}{5} D_1$.\nNew divisor $d_2$ is $50\\%$ more $\\implies d_2 = \\frac{3}{2} d_1$.\nNew Quotient $Q_2 = \\frac{D_2}{d_2} = \\frac{\\frac{6}{5} D_1}{\\frac{3}{2} d_1} = \\left(\\frac{6}{5} \\times \\frac{2}{3}\\right) \\times \\frac{D_1}{d_1}$.\n$Q_2 = \\frac{4}{5} \\times 40 = 4 \\times 8 = 32$.\n\nMethod 2 (100-Base Reference Method):\nAssume the initial divisor $d_1 = 100$.\nSince the quotient is 40, original dividend $D_1 = 100 \\times 40 = 4000$.\nNew dividend $D_2 = 4000 + (20\\% \\text{ of } 4000) = 4000 + 800 = 4800$.\nNew divisor $d_2 = 100 + (50\\% \\text{ of } 100) = 150$.\nAryan's quotient $= \\frac{4800}{150} = 32$.",
+    "eh": "विधि 1 (अनुपात विधि):\nमाना मूल भाज्य $= D_1$ तथा मूल भाजक $= d_1$ है।\nमूल भागफल $Q_1 = \\frac{D_1}{d_1} = 40$.\nनया भाज्य $20\\%$ अधिक $= \\frac{6}{5} D_1$.\nनया भाजक $50\\%$ अधिक $= \\frac{3}{2} d_1$.\nनया भागफल $Q_2 = \\frac{D_2}{d_2} = \\left(\\frac{6}{5} \\times \\frac{2}{3}\\right) \\times \\frac{D_1}{d_1} = \\frac{4}{5} \\times 40 = 32$.\n\nविधि 2 (100 आधार संदर्भ विधि):\nमाना मूल भाजक $d_1 = 100$.\nचूँकि भागफल 40 है, अतः मूल भाज्य $D_1 = 100 \\times 40 = 4000$.\nनया भाज्य $D_2 = 4000 + 800 = 4800$.\nनया भाजक $d_2 = 100 + 50 = 150$.\nआर्यन का भागफल $= \\frac{4800}{150} = 32$."
+  },
+  {
+    "qe": "Rohit was to get a 20% hike in his salary, but due to a typing error, the figure was wrongly typed as 45% and the new slip was printed. He received this revised salary for 4 months before the organization realized the mistake. If the excess amount paid to him in the previous months is to be deducted from his fifth month salary, and after deduction he gets ₹14,000 as fifth month salary, then find his actual (original) salary.",
+    "qh": "रोहित को अपने वेतन में 20% की वृद्धि मिलनी थी, लेकिन टाइपिंग की त्रुटि के कारण गलती से 45% टाइप हो गया और नई पर्ची छप गई। संगठन को गलती का एहसास होने से पहले उसे 4 महीने तक यह संशोधित वेतन मिला। यदि पिछले महीनों में उसे दिए गए अतिरिक्त भुगतान को उसके 5वें महीने के वेतन से काटा जाना है, और कटौती के बाद उसे 5वें महीने के वेतन के रूप में ₹14,000 मिलते हैं, तो उसका वास्तविक (मूल) वेतन ज्ञात कीजिए।",
+    "o": [
+      "(a) ₹60,000",
+      "(b) ₹70,000",
+      "(c) ₹75,000",
+      "(d) ₹80,000"
+    ],
+    "a": "B",
+    "ee": "Method 1 (Ratio Method):\nLet original base salary be 100 units.\nCorrect monthly salary with $20\\%$ hike = 120 units.\nIncorrect monthly salary paid with $45\\%$ hike = 145 units.\nExcess amount received per month $= 145 - 120 = 25$ units.\nTotal excess amount received in 4 months $= 4 \\times 25 = 100$ units.\nFifth month salary due $= 120$ units (correct hike).\nSalary received in fifth month after deduction $= 120 - 100 = 20$ units.\nGiven: 20 units $= ₹14000 \\implies 1 \\text{ unit} = \\frac{14000}{20} = ₹700$.\nOriginal salary (100 units) $= 100 \\times 700 = ₹70000$.\n\nMethod 2 (100-Base Method):\nLet original salary be $100\\%$.\nCorrect revised salary $= 120\\%$.\nWrong revised salary paid $= 145\\%$.\nMonthly excess paid $= 45\\% - 20\\% = 25\\%$.\nTotal excess paid over 4 months $= 4 \\times 25\\% = 100\\%$.\nIn the 5th month, Rohit is entitled to his correct salary ($120\\%$) minus the total excess ($100\\%$):\n5th month net payment $= 120\\% - 100\\% = 20\\%$.\nGiven: $20\\% = ₹14000$.\nMultiply by 5 to get $100\\%$:\nActual original salary ($100\\%$) $= 14000 \\times 5 = ₹70000$.",
+    "eh": "विधि 1 (अनुपात विधि):\nमाना मूल मासिक वेतन = 100 इकाई।\n$20\\%$ वृद्धि के साथ सही वेतन = 120 इकाई।\n$45\\%$ वृद्धि के साथ दिया गया गलत वेतन = 145 इकाई।\nप्रति माह दिया गया अतिरिक्त वेतन $= 145 - 120 = 25$ इकाई।\n4 महीनों का कुल अतिरिक्त भुगतान $= 4 \\times 25 = 100$ इकाई।\n5वें महीने का देय सही वेतन $= 120$ इकाई।\nकटौती के बाद 5वें महीने का वेतन $= 120 - 100 = 20$ इकाई।\nदिया है: 20 इकाई $= ₹14000 \\implies 1 \\text{ इकाई} = ₹700$.\nमूल वेतन (100 इकाई) $= 100 \\times 700 = ₹70000$.\n\nविधि 2 (100 आधार विधि):\nमाना मूल वेतन $= 100\\%$.\nसही संशोधित वेतन $= 120\\%$.\nगलत संशोधित वेतन $= 145\\%$.\nप्रति माह अतिरिक्त भुगतान $= 45\\% - 20\\% = 25\\%$.\n4 महीनों का कुल अतिरिक्त भुगतान $= 4 \\times 25\\% = 100\\%$.\n5वें महीने का शुद्ध भुगतान $= 120\\% - 100\\% = 20\\%$.\nदिया है: $20\\% = ₹14000$.\n5 से गुणा करने पर:\nमूल वास्तविक वेतन ($100\\%$) $= 14000 \\times 5 = ₹70000$."
+  },
+  {
+    "qe": "In a competitive exam with 150 questions, there are three sections: General Awareness (30 questions), Quantitative Aptitude (60 questions), and English Language (60 questions). A candidate answered 80% of General Awareness, 60% of Quantitative Aptitude, and 40% of English Language questions correctly. If the minimum passing score is 60%, how many more questions did the candidate need to answer correctly to pass?",
+    "qh": "150 प्रश्नों वाली एक प्रतियोगी परीक्षा में तीन खंड हैं: सामान्य जागरूकता (30 प्रश्न), मात्रात्मक योग्यता (60 प्रश्न), और अंग्रेजी भाषा (60 प्रश्न)। एक उम्मीदवार ने सामान्य जागरूकता के 80%, मात्रात्मक योग्यता के 60%, और अंग्रेजी भाषा के 40% प्रश्नों का सही उत्तर दिया। यदि न्यूनतम उत्तीर्ण अंक 60% है, तो उत्तीर्ण होने के लिए उम्मीदवार को कितने और प्रश्नों के सही उत्तर देने की आवश्यकता थी?",
+    "o": [
+      "(a) 4",
+      "(b) 6",
+      "(c) 8",
+      "(d) 10"
+    ],
+    "a": "B",
+    "ee": "Method 1 (Ratio & Fraction Method):\nCalculate correct answers section-wise using fractional equivalents:\n• General Awareness: $80\\% = \\frac{4}{5} \\implies \\frac{4}{5} \\times 30 = 24$ questions.\n• Quantitative Aptitude: $60\\% = \\frac{3}{5} \\implies \\frac{3}{5} \\times 60 = 36$ questions.\n• English Language: $40\\% = \\frac{2}{5} \\implies \\frac{2}{5} \\times 60 = 24$ questions.\nTotal correct questions answered $= 24 + 36 + 24 = 84$ questions.\nRequired passing percentage $= 60\\% = \\frac{3}{5}$.\nTotal questions needed to pass $= \\frac{3}{5} \\times 150 = 90$ questions.\nAdditional questions needed $= 90 - 84 = 6$ questions.\n\nMethod 2 (100-Base Reference Method):\nTotal exam questions $= 150 = 100\\%$.\nPassing mark needed $= 60\\% \\text{ of } 150 = 0.60 \\times 150 = 90$ marks/questions.\nMarks scored by candidate:\n• GA: $0.80 \\times 30 = 24$\n• Quant: $0.60 \\times 60 = 36$\n• English: $0.40 \\times 60 = 24$\nTotal marks obtained $= 24 + 36 + 24 = 84$.\nShortfall $= 90 - 84 = 6$ questions.",
+    "eh": "विधि 1 (अनुपात एवं भिन्न विधि):\nप्रत्येक खंड में सही प्रश्नों की संख्या ज्ञात करें:\n• सामान्य जागरूकता: $\\frac{4}{5} \\times 30 = 24$ प्रश्न।\n• मात्रात्मक योग्यता: $\\frac{3}{5} \\times 60 = 36$ प्रश्न।\n• अंग्रेजी भाषा: $\\frac{2}{5} \\times 60 = 24$ प्रश्न।\nकुल सही हल किए गए प्रश्न $= 24 + 36 + 24 = 84$ प्रश्न।\nउत्तीर्ण होने के लिए आवश्यक अंक $= 60\\% = \\frac{3}{5}$.\nपास होने के लिए कुल आवश्यक प्रश्न $= \\frac{3}{5} \\times 150 = 90$ प्रश्न।\nअतिरिक्त आवश्यक सही प्रश्न $= 90 - 84 = 6$ प्रश्न।\n\nविधि 2 (100 आधार संदर्भ विधि):\nकुल प्रश्न $= 150 = 100\\%$.\nपास होने के लिए आवश्यक अंक $= 150 \\text{ का } 60\\% = 90$.\nअभ्यर्थी द्वारा प्राप्त अंक:\n• GA: $30 \\text{ का } 80\\% = 24$\n• Quant: $60 \\text{ का } 60\\% = 36$\n• English: $60 \\text{ का } 40\\% = 24$\nकुल प्राप्त अंक $= 24 + 36 + 24 = 84$.\nआवश्यक अतिरिक्त अंक $= 90 - 84 = 6$ प्रश्न।"
   }
 ]
