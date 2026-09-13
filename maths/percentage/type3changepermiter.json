@@ -276,5 +276,54 @@
     ],
     "a": "A",
     "e": "Method 1 (Ratio Method):\nLength ($-20\\% = -\\frac{1}{5}$): ratio $= 5 : 4$.\nBreadth ($-10\\% = -\\frac{1}{10}$): ratio $= 10 : 9$.\nHeight ($+50\\% = +\\frac{1}{2}$): ratio $= 2 : 3$.\nInitial Volume : New Volume $= (5 \\times 10 \\times 2) : (4 \\times 9 \\times 3) = 100 : 108$.\nVolume 100 se badhkar 108 ho gaya, isliye net change $= 108 - 100 = 8\\%$ increase.\n\nMethod 2 (100-Base Method):\nInitial Volume $= 100$.\nLength aur breadth dono me kami ka net: $-20 - 10 + \\frac{(-20)(-10)}{100} = -30 + 2 = -28\\%$.\nAb $-28\\%$ aur height ke $+50\\%$ ka net change:\n$= -28 + 50 + \\frac{(-28) \\times 50}{100} = 22 - 14 = +8\\%$ (8% increase)."
+  },
+  
+  {
+    "qe": "If the length and breadth of a cuboid are increased by 8% and 5%, respectively, while its height remains unchanged, then the percentage increase in its volume is:",
+    "qh": "यदि एक घनाभ की लंबाई और चौड़ाई में क्रमशः 8% और 5% की वृद्धि की जाती है, जबकि उसकी ऊंचाई अपरिवर्तित रहती है, तो उसके आयतन में कितने प्रतिशत की वृद्धि होगी?",
+    "o": [
+      "(a) 13.00%",
+      "(b) 13.40%",
+      "(c) 14.20%",
+      "(d) 14.80%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Successive Formula):\nCuboid ka volume $V = l \\times b \\times h$. Yahan height constant hai, isliye volume me percentage badlav length aur breadth ke successive change ke barabar hoga:\nNet Change $= a + b + \\frac{ab}{100}$\nYahan $a = +8\\%$ aur $b = +5\\%$:\n$= 8 + 5 + \\frac{8 \\times 5}{100} = 13 + 0.40 = 13.40\\%$.\n\nMethod 2 (Ratio Method):\nLength ($+8\\% = \\frac{2}{25}$): ratio $= 25 : 27$.\nBreadth ($+5\\% = \\frac{1}{20}$): ratio $= 20 : 21$.\nVolume ratio $= (25 \\times 20) : (27 \\times 21) = 500 : 567$.\nBase ko 100 banane ke liye 5 se divide karo: $100 : 113.4$.\nVolume me increase $= 113.4 - 100 = 13.4\\%$."
+  },
+  {
+    "qe": "If the height of a cylinder is decreased by 20% and its radius is increased by 20%, then the volume changes by:",
+    "qh": "यदि एक बेलन की ऊंचाई 20% कम कर दी जाए और त्रिज्या 20% बढ़ा दी जाए, तो आयतन में कितना परिवर्तन होगा?",
+    "o": [
+      "(a) Increase by 15.2%",
+      "(b) Decrease by 15.2%",
+      "(c) Increase by 12.5%",
+      "(d) No change"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio Method):\nCylinder ka volume $V = \\pi r^2 h \\implies V \\propto r \\times r \\times h$.\nRadius ($+20\\% = +\\frac{1}{5}$): ratio $= 5 : 6$ (do baar apply hoga).\nHeight ($-20\\% = -\\frac{1}{5}$): ratio $= 5 : 4$.\nInitial Volume : New Volume $= (5 \\times 5 \\times 5) : (6 \\times 6 \\times 4) = 125 : 144$.\nVolume me increase $= 144 - 125 = 19$ units (125 ke base par).\nPercentage change $= \\frac{19}{125} \\times 100\\% = \\frac{19 \\times 4}{5}\\% = 15.2\\%$ increase.\n\nMethod 2 (Successive Formula):\nRadius me do baar $20\\%$ badhav ka net: $20 + 20 + \\frac{20 \\times 20}{100} = 44\\%$.\nAb $+44\\%$ aur height ke $-20\\%$ ka net change:\n$= 44 - 20 + \\frac{44 \\times (-20)}{100} = 24 - 8.8 = +15.2\\%$ (Increase by 15.2%)."
+  },
+  {
+    "qe": "The radius of a sphere is reduced by 20%. By what approximate percentage does the volume decrease?",
+    "qh": "एक गोले की त्रिज्या 20% कम कर दी जाती है। आयतन में लगभग कितने प्रतिशत की कमी होगी?",
+    "o": [
+      "(a) 48.8%",
+      "(b) 51.2%",
+      "(c) 45.5%",
+      "(d) 52.8%"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio Method):\nSphere ka volume $V = \\frac{4}{3}\\pi r^3 \\implies V \\propto r^3$.\nRadius reduction $= 20\\% = \\frac{1}{5}$.\nInitial Radius : New Radius $= 5 : (5 - 1) = 5 : 4$.\nVolume ratio $= 5^3 : 4^3 = 125 : 64$.\nVolume me kami $= 125 - 64 = 61$ units (125 ke base par).\nPercentage decrease $= \\frac{61}{125} \\times 100\\% = \\frac{61 \\times 4}{5}\\% = \\frac{244}{5}\\% = 48.8\\%$.\n\nMethod 2 (100-Base Method):\nInitial volume $= 100$.\nPehle do radius cut ka net: $-20 - 20 + \\frac{(-20)(-20)}{100} = -40 + 4 = -36\\%$.\nAb $-36\\%$ aur teesre cut ($-20\\%$) ka net:\n$= -36 - 20 + \\frac{(-36) \\times (-20)}{100} = -56 + 7.2 = -48.8\\%$ (yaani 48.8% decrease)."
+  },
+  {
+    "qe": "If both the length and breadth of a cuboid are increased by 20%, then by how much percent (correct to two decimal places) should its height be reduced so that the volume of the cuboid remains the same?",
+    "qh": "यदि एक घनाभ की लंबाई और चौड़ाई दोनों में 20% की वृद्धि की जाती है, तो इसकी ऊंचाई में कितने प्रतिशत की कमी की जानी चाहिए ताकि घनाभ का आयतन समान रहे?",
+    "o": [
+      "(a) 28.55%",
+      "(b) 30.56%",
+      "(c) 32.25%",
+      "(d) 33.33%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n$\\text{Volume} = \\text{Base Area} \\times \\text{Height} = \\text{Constant} \\implies \\text{Height} \\propto \\frac{1}{\\text{Base Area}}$.\nLength aur breadth dono $20\\% (\\frac{1}{5})$ badhe hain:\nBase Area ratio $= (5 \\times 5) : (6 \\times 6) = 25 : 36$.\nVolume unchanged rakhne ke liye height ka ratio ulta hoga:\nHeight ratio $= 36 : 25$.\nHeight me reduction $= 36 - 25 = 11$ units (36 ke base par).\nPercentage reduction $= \\frac{11}{36} \\times 100\\% = \\frac{275}{9}\\% \\approx 30.56\\%$.\n\nMethod 2 (100-Base Method):\nInitial base area $= 100$.\nLength aur breadth badhne ke baad naya base area:\n$= 20 + 20 + \\frac{20 \\times 20}{100} = 44\\% \\implies 144$.\nVolume constant rakhne ke liye height ko 144 se ghata kar wapas 100 par laana hoga:\nReduction needed $= 144 - 100 = 44$.\n144 ke base par percentage reduction:\n$= \\frac{44}{144} \\times 100\\% = \\frac{11}{36} \\times 100\\% \\approx 30.56\\%$."
   }
 ]
