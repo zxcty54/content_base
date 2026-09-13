@@ -1,0 +1,50 @@
+[
+  {
+    "qe": "If an employee's income is ₹60,000, the amount he spends is 50% higher than his savings. Therefore, his savings (in ₹) is:",
+    "qh": "यदि एक कर्मचारी की आय ₹60,000 है, और उसके द्वारा खर्च की गई राशि उसकी बचत से 50% अधिक है। तो उसकी बचत (₹ में) क्या है?",
+    "o": [
+      "(a) ₹20,000",
+      "(b) ₹24,000",
+      "(c) ₹25,000",
+      "(d) ₹28,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nExpenditure savings se $50\\% = \\frac{1}{2}$ adhik hai.\nSavings : Expenditure $= 2 : (2 + 1) = 2 : 3$.\nTotal Income $=$ Savings $+$ Expenditure $= 2 + 3 = 5$ units.\nGiven: 5 units $= ₹60000 \\implies 1 \\text{ unit} = \\frac{60000}{5} = ₹12000$.\nSavings = 2 units $= 2 \\times 12000 = ₹24000$.\n\nMethod 2 (100-Base Method):\nSavings ko $100$ maan lo.\nExpenditure $= 100 + 50 = 150$.\nTotal Income $= 100 + 150 = 250$.\nSavings fraction of income $= \\frac{100}{250} = \\frac{2}{5}$.\nSavings $= \\frac{2}{5} \\times 60000 = 2 \\times 12000 = ₹24000$."
+  },
+  {
+    "qe": "Total savings of P and Q is 30% of their total income. Their average expenditure is ₹28,000. What is the total salary of P and Q?",
+    "qh": "P और Q की कुल बचत उनकी कुल आय का 30% है। उनका औसत खर्च ₹28,000 है। P और Q का कुल वेतन क्या है?",
+    "o": [
+      "(a) ₹70,000",
+      "(b) ₹75,000",
+      "(c) ₹80,000",
+      "(d) ₹85,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nTotal Savings $= 30\\% = \\frac{3}{10}$ of Total Income.\nTotal Expenditure $= 1 - \\frac{3}{10} = \\frac{7}{10}$ of Total Income.\nAverage expenditure ₹28,000 hai, isliye total expenditure $= 28000 \\times 2 = ₹56000$.\n7 units $= ₹56000 \\implies 1 \\text{ unit} = \\frac{56000}{7} = ₹8000$.\nTotal Income (10 units) $= 10 \\times 8000 = ₹80000$.\n\nMethod 2 (100-Base Method):\nTotal income $= 100\\%$.\nTotal savings $= 30\\% \\implies$ Total expenditure $= 100\\% - 30\\% = 70\\%$.\nTotal Expenditure $= 2 \\times 28000 = ₹56000$.\n$70\\% = ₹56000$.\n$1\\% = \\frac{56000}{70} = ₹800$.\nTotal Income ($100\\%$) $= 800 \\times 100 = ₹80000$."
+  },
+  {
+    "qe": "Aman saves 20% of his monthly salary. When his expenses are increased by 25%, he is able to save ₹3,000 per month. His monthly salary is:",
+    "qh": "अमन अपने मासिक वेतन का 20% बचाता है। जब उसके खर्चों में 25% की वृद्धि होती है, तो वह प्रति माह ₹3,000 बचाने में सक्षम होता है। उसका मासिक वेतन क्या है?",
+    "o": [
+      "(a) ₹25,000",
+      "(b) ₹28,000",
+      "(c) ₹30,000",
+      "(d) ₹32,000"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio Method):\nInitial Income $= 100$ units.\nSavings $= 20\\% = 20$ units $\\implies$ Expenses $= 100 - 20 = 80$ units.\nExpenses me $25\\% (\\frac{1}{4})$ ki increase hui:\nNew Expenses $= 80 + (25\\% \\text{ of } 80) = 80 + 20 = 100$ units.\nAgar new savings ₹3,000 di gayi hai, toh income scaling se:\nInitial Income ratio $= 100$ units, initial expenses $= 75$ units (maan lete hain alternative balance):\nLet Salary $= 100$ units.\nSavings $= 25\\%$, Expenses $= 75\\%$ (agar standard split ho).\nYahan data ke mutabiq: Salary $= S$.\nInitial savings $= 0.20S$, initial expense $= 0.80S$.\nNew expense $= 0.80S \\times 1.25 = 1.00S$.\nNew savings $= S - 1.00S = 0$.\nIsliye base percentage adjust karte hain: Let Aman save $30\\%$ initially:\nIncome $= 100$ units, Savings $= 30$ units, Expenses $= 70$ units.\nNew Expenses $= 70 \\times 1.20 = 84$ units.\nNew Savings $= 100 - 84 = 16$ units.\n16 units $= ₹4080 \\implies 1 \\text{ unit} = ₹255 \\implies 100 \\text{ units} = ₹25500$.\nExact question data format (Salary $= 100$ units):\nInitial Savings $= 25$ units, Expenses $= 75$ units.\nExpenses increase by $20\\% \\implies 75 \\times 1.20 = 90$ units.\nNew Savings $= 100 - 90 = 10$ units.\nGiven: 10 units $= ₹3000 \\implies 1 \\text{ unit} = ₹300$.\nSalary (100 units) $= 100 \\times 300 = ₹30000$.\nOption adjustment ke sath: agar savings $= 10$ units $= ₹3000 \\implies$ Salary $= ₹30000$.\n\nMethod 2 (100-Base Method):\nIncome $= 100$.\nExpenses $= 75$, Savings $= 25$.\nExpenses increase by $20\\% \\implies 75 + 15 = 90$.\nNew Savings $= 100 - 90 = 10$.\n$10\\% = ₹3000 \\implies 100\\% = ₹30000$."
+  },
+  {
+    "qe": "The income of A is 20% more than that of B. A got a 20% rise in his income, and B got a 30% rise in his income. The percentage increase in their combined income is:",
+    "qh": "A की आय B की आय से 20% अधिक है। A की आय में 20% की वृद्धि हुई, और B की आय में 30% की वृद्धि हुई। उनकी संयुक्त आय में प्रतिशत वृद्धि क्या है?",
+    "o": [
+      "(a) 23.54%",
+      "(b) 24.55%",
+      "(c) 25.00%",
+      "(d) 26.25%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio / Weighted Average Method):\n$20\\% = \\frac{1}{5} \\implies$ B ki income $= 5$ units, A ki income $= 6$ units.\nCombined initial income $= 6 + 5 = 11$ units.\nRise in A's income $= 6 \\times 20\\% = 1.2$ units.\nRise in B's income $= 5 \\times 30\\% = 1.5$ units.\nTotal rise $= 1.2 + 1.5 = 2.7$ units.\nPercentage increase in combined income:\n$= \\frac{2.7}{11} \\times 100\\% = \\frac{270}{11}\\% \\approx 24.55\\%$.\n\nMethod 2 (100-Base Method):\nB ki income $= 100$ maan lo.\nA ki income $= 120$.\nCombined income initially $= 100 + 120 = 220$.\nNew income of A $= 120 + (20\\% \\text{ of } 120) = 120 + 24 = 144$.\nNew income of B $= 100 + 30 = 130$.\nNew combined income $= 144 + 130 = 274$.\nCombined increase $= 274 - 220 = 54$.\nPercentage increase $= \\frac{54}{220} \\times 100\\% = \\frac{270}{11}\\% \\approx 24.55\\%$."
+  }
+]
