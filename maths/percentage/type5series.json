@@ -471,5 +471,78 @@
     ],
     "a": "C",
     "e": "Method 1 (Ratio Method):\nTotal students me girls ka ratio $= 60\\% = \\frac{3}{5}$.\nGirls me se badminton select karne waliyon ka ratio $= 75\\% = \\frac{3}{4}$.\nTotal students ka fraction jo badminton chunti hain $= \\frac{3}{5} \\times \\frac{3}{4} = \\frac{9}{20}$.\nGiven: 9 units $= 135 \\implies 1 \\text{ unit} = \\frac{135}{9} = 15$.\nTotal students = 20 units $= 20 \\times 15 = 300$.\n\nMethod 2 (100-Base Method):\nTotal students in the class $= 100\\%$.\nNumber of girls $= 60\\%$.\nGirls choosing badminton $= 75\\% \\text{ of } 60\\% = 45\\%$.\nGiven: $45\\% = 135$.\n$1\\% = \\frac{135}{45} = 3$.\nTotal students in the class ($100\\%$) $= 3 \\times 100 = 300$."
+  },
+  
+  {
+    "qe": "The population of a city grew from 50 lakh to 56 lakh in one year. Find the rate of growth per annum.",
+    "qh": "एक शहर की जनसंख्या एक वर्ष में 50 लाख से बढ़कर 56 लाख हो गई। प्रति वर्ष वृद्धि की दर ज्ञात कीजिए।",
+    "o": [
+      "(a) 10%",
+      "(b) 12%",
+      "(c) 14%",
+      "(d) 15%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nInitial Population : New Population $= 50 : 56 = 25 : 28$.\nIncrease in 1 year $= 28 - 25 = 3$ units (25 ke base par).\nGrowth rate per annum $= \\frac{3}{25} \\times 100\\% = 12\\%$.\n\nMethod 2 (100-Base Method):\nPopulation increase $= 56 - 50 = 6\\text{ lakh}$.\nRate of growth $= \\frac{\\text{Increase}}{\\text{Initial Value}} \\times 100\\% = \\frac{6}{50} \\times 100\\% = 12\\%$."
+  },
+  {
+    "qe": "The population of a town in 2005 was 8,000, and in 2008 it grew to 10,648. Find the rate of growth per annum if it increases at a constant rate every year.",
+    "qh": "2005 में एक कस्बे की जनसंख्या 8,000 थी, और 2008 में यह बढ़कर 10,648 हो गई। यदि यह प्रत्येक वर्ष एक समान दर से बढ़ती है, तो प्रति वर्ष वृद्धि की दर ज्ञात कीजिए।",
+    "o": [
+      "(a) 8%",
+      "(b) 10%",
+      "(c) 12%",
+      "(d) 15%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nTime period $= 2008 - 2005 = 3\\text{ years}$.\nInitial Population : Final Population $= 8000 : 10648$.\nSimplify by dividing by 8: $1000 : 1331$.\n3 saal ka compounding hai, isliye 1 saal ka ratio nikalne ke liye cube root $(\\sqrt[3]{\\phantom{x}})$ lenge:\n1-Year Ratio $= \\sqrt[3]{1000} : \\sqrt[3]{1331} = 10 : 11$.\nIncrease per year $= 11 - 10 = 1$ unit (10 ke base par).\nRate of growth per annum $= \\frac{1}{10} \\times 100\\% = 10\\%$.\n\nMethod 2 (Formula Method):\n$A = P\\left(1 + \\frac{r}{100}\\right)^t \\implies 10648 = 8000\\left(1 + \\frac{r}{100}\\right)^3$.\n$\\frac{10648}{8000} = \\frac{1331}{1000} = \\left(\\frac{11}{10}\\right)^3 = \\left(1 + \\frac{r}{100}\\right)^3$.\n$1 + \\frac{r}{100} = \\frac{11}{10} \\implies \\frac{r}{100} = \\frac{1}{10} \\implies r = 10\\%$."
+  },
+  {
+    "qe": "The income of a company increases by x% per year. If its income is ₹43,20,000 in the year 2020, and the income in 2018 was ₹30,00,000, then what is the value of x?",
+    "qh": "एक कंपनी की आय प्रति वर्ष x% बढ़ती है। यदि 2020 में इसकी आय ₹43,20,000 है, और 2018 में आय ₹30,00,000 थी, तो x का मान क्या है?",
+    "o": [
+      "(a) 15%",
+      "(b) 18%",
+      "(c) 20%",
+      "(d) 25%"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nTime period $= 2020 - 2018 = 2\\text{ years}$.\nIncome 2018 : Income 2020 $= 3000000 : 4320000 = 300 : 432 = 25 : 36$.\n2 saal ka successive multiplier hai, isliye 1 saal ka factor nikalne ke liye square root lenge:\n1-Year Ratio $= \\sqrt{25} : \\sqrt{36} = 5 : 6$.\nAnnual growth $= 6 - 5 = 1$ unit (5 ke base par).\n$x = \\frac{1}{5} \\times 100\\% = 20\\%$.\n\nMethod 2 (100-Base Method):\n2 saal ka total growth factor $= \\frac{4320000}{3000000} = 1.44$.\n$(1 + x\\%)^2 = 1.44 \\implies 1 + x\\% = \\sqrt{1.44} = 1.20$.\n$x\\% = 1.20 - 1 = 0.20 = 20\\%$."
+  },
+  {
+    "qe": "A shopkeeper has a certain length of cable wire. 20% of the wire is stolen and 60% of the remaining was sold out. Find the original length of the wire if 960 meters is still left.",
+    "qh": "एक दुकानदार के पास एक निश्चित लंबाई का केबल तार है। 20% तार चोरी हो जाता है और शेष का 60% बेच दिया जाता है। यदि अभी भी 960 मीटर तार शेष बचा है, तो तार की मूल लंबाई ज्ञात कीजिए।",
+    "o": [
+      "(a) 2,800 meters",
+      "(b) 3,000 meters",
+      "(c) 3,200 meters",
+      "(d) 3,500 meters"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nStolen: $20\\% = \\frac{1}{5} \\implies$ Remaining $= 5 - 1 = 4$ units.\nSold: $60\\% = \\frac{3}{5} \\implies$ Remaining $= 5 - 3 = 2$ units.\nInitial Length : Left Wire $= (5 \\times 5) : (4 \\times 2) = 25 : 8$.\nGiven: 8 units $= 960\\text{ meters} \\implies 1 \\text{ unit} = \\frac{960}{8} = 120\\text{ meters}$.\nOriginal length = 25 units $= 25 \\times 120 = 3000\\text{ meters}$.\n\nMethod 2 (100-Base Method):\nTotal length $= 100\\%$.\n$20\\%$ chori hone ke baad bacha $= 80\\%$.\n$80\\%$ ka $60\\%$ bech diya $= 0.60 \\times 80\\% = 48\\%$.\nRemaining balance $= 80\\% - 48\\% = 32\\%$.\nGiven: $32\\% = 960\\text{ meters}$.\n$1\\% = \\frac{960}{32} = 30\\text{ meters}$.\nOriginal length ($100\\%$) $= 30 \\times 100 = 3000\\text{ meters}$."
+  },
+  {
+    "qe": "In a library, 10% of the books are in Hindi, 40% of the remaining are in English, and 50% of the remaining are in French, while the rest 8,100 books are in regional languages. Find the total number of books in the library.",
+    "qh": "एक पुस्तकालय में 10% पुस्तकें हिंदी में हैं, शेष की 40% अंग्रेजी में हैं, और शेष की 50% फ्रेंच में हैं, जबकि शेष 8,100 पुस्तकें क्षेत्रीय भाषाओं में हैं। पुस्तकालय में पुस्तकों की कुल संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 25,000",
+      "(b) 28,000",
+      "(c) 30,000",
+      "(d) 32,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nHindi: $10\\% = \\frac{1}{10} \\implies$ Left $= 10 - 1 = 9$ units.\nEnglish: $40\\% = \\frac{2}{5} \\implies$ Left $= 5 - 2 = 3$ units.\nFrench: $50\\% = \\frac{1}{2} \\implies$ Left $= 2 - 1 = 1$ unit.\nTotal Books : Regional Language Books $= (10 \\times 5 \\times 2) : (9 \\times 3 \\times 1) = 100 : 27$.\nGiven: 27 units $= 8100 \\implies 1 \\text{ unit} = \\frac{8100}{27} = 300$.\nTotal books = 100 units $= 100 \\times 300 = 30000$.\n\nMethod 2 (100-Base Method):\nTotal books $= 100\\%$.\nAfter Hindi ($10\\%$): $100 - 10 = 90\\%$.\nAfter English ($40\\% \\text{ of } 90\\% = 36\\%$): $90 - 36 = 54\\%$.\nAfter French ($50\\% \\text{ of } 54\\% = 27\\%$): $54 - 27 = 27\\%$.\nGiven: $27\\% = 8100$.\n$1\\% = \\frac{8100}{27} = 300$.\nTotal books ($100\\%$) $= 300 \\times 100 = 30000$."
+  },
+  {
+    "qe": "Pooja spends 10% of her total income on travelling and 25% of the rest on food. She then donates ₹200 to an orphanage and is still left with ₹2,500. Find her total income.",
+    "qh": "पूजा अपनी कुल आय का 10% यात्रा पर और शेष का 25% भोजन पर खर्च करती है। फिर वह एक अनाथालय में ₹200 दान करती है और फिर भी उसके पास ₹2,500 शेष बचते हैं। उसकी कुल आय ज्ञात कीजिए।",
+    "o": [
+      "(a) ₹3,600",
+      "(b) ₹4,000",
+      "(c) ₹4,200",
+      "(d) ₹4,500"
+    ],
+    "a": "B",
+    "e": "Method 1 (Backtrack Method):\nDonation dene se pehle bachi hui rashi $= ₹2500 + ₹200 = ₹2700$.\nTravelling ke baad bachi hui income ka $25\\% (\\frac{1}{4})$ khane me kharch hua, toh bacha $\\frac{3}{4}$:\n$\\frac{3}{4} \\times \\text{Remaining after travel} = 2700 \\implies \\text{Remaining after travel} = 2700 \\times \\frac{4}{3} = ₹3600$.\nTravelling me total income ka $10\\% (\\frac{1}{10})$ gaya, toh bacha $\\frac{9}{10}$:\n$\\frac{9}{10} \\times \\text{Total Income} = 3600 \\implies \\text{Total Income} = 3600 \\times \\frac{10}{9} = ₹4000$.\n\nMethod 2 (100-Base Method):\nTotal income $= 100\\%$.\nAfter travel ($10\\%$): $100 - 10 = 90\\%$.\nFood expense $= 25\\% \\text{ of } 90\\% = 22.5\\%$.\nRemaining percentage $= 90\\% - 22.5\\% = 67.5\\%$.\nDonation ke baad bacha ₹2500, yaani donation milakar bachi hui amount $= 2500 + 200 = ₹2700$.\n$67.5\\% = ₹2700$.\n$1\\% = \\frac{2700}{67.5} = \\frac{27000}{675} = ₹40$.\nTotal Income ($100\\%$) $= 40 \\times 100 = ₹4000$."
   }
 ]
