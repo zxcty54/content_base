@@ -1,0 +1,50 @@
+[
+  {
+    "qe": "Pass percentage of an examination is 35%. If a student who got 210 marks, failed by 14 marks, then what are the maximum marks of the examination?",
+    "qh": "एक परीक्षा का उत्तीर्ण प्रतिशत 35% है। यदि एक छात्र, जिसे 210 अंक प्राप्त हुए, वह 14 अंकों से अनुत्तीर्ण हो गया, तो परीक्षा के अधिकतम अंक क्या हैं?",
+    "o": [
+      "(a) 660",
+      "(b) 600",
+      "(c) 640",
+      "(d) 620"
+    ],
+    "a": "C",
+    "e": "Method 1 (100-Base Method):\nPassing marks required = $210 + 14 = 224$.\nGiven passing percentage = $35\\%$.\n$35\\% = 224$\n$1\\% = \\frac{224}{35} = \\frac{32}{5} = 6.4$\nMaximum marks ($100\\%$) = $6.4 \\times 100 = 640$.\n\nMethod 2 (Ratio Method):\n$35\\% = \\frac{7}{20}$.\nPassing Marks : Total Marks = $7 : 20$.\nGiven: $7\\text{ units} = 210 + 14 = 224$.\n$1\\text{ unit} = \\frac{224}{7} = 32$.\nMaximum marks = $20\\text{ units} = 20 \\times 32 = 640$."
+  },
+  {
+    "qe": "John got 20% marks in an examination and failed by 10 marks. In the same examination, Jack got 35% marks which were 20 more than the minimum passing marks. Find the percentage of minimum marks required to pass.",
+    "qh": "जॉन ने एक परीक्षा में 20% अंक प्राप्त किए और वह 10 अंकों से अनुत्तीर्ण हो गया। उसी परीक्षा में, जैक ने 35% अंक प्राप्त किए जो न्यूनतम उत्तीर्ण अंकों से 20 अंक अधिक थे। उत्तीर्ण होने के लिए आवश्यक न्यूनतम अंकों का प्रतिशत ज्ञात कीजिए।",
+    "o": [
+      "(a) 30%",
+      "(b) 35%",
+      "(c) 25%",
+      "(d) 20%"
+    ],
+    "a": "C",
+    "e": "Method 1 (Percentage Difference Method):\nMarks difference = $35\\% - 20\\% = 15\\%$.\nNumerical difference = $20 - (-10) = 20 + 10 = 30\\text{ marks}$.\n$15\\% = 30\\text{ marks} \\implies 1\\% = 2\\text{ marks}$.\nJohn 10 marks se fail hua tha, percentage me fail margin = $\\frac{10}{2} = 5\\%$.\nPassing percentage = $20\\% + 5\\% = 25\\%$.\n\nMethod 2 (Total Marks to Pass Percentage):\n$1\\% = 2\\text{ marks} \\implies$ Total marks ($100\\%$) = $200$.\nPassing marks = $20\\% \\text{ of } 200 + 10 = 40 + 10 = 50$.\nPassing percentage = $\\frac{50}{200} \\times 100\\% = 25\\%$."
+  },
+  {
+    "qe": "In an examination a student who got 20% marks, failed by 30 marks. But another student who got 32% marks got 42 marks more than the required marks to pass. Find the maximum number of marks.",
+    "qh": "एक परीक्षा में एक छात्र जिसने 20% अंक प्राप्त किए, वह 30 अंकों से अनुत्तीर्ण हो गया। लेकिन एक अन्य छात्र जिसने 32% अंक प्राप्त किए, उसने उत्तीर्ण होने के लिए आवश्यक अंकों से 42 अंक अधिक प्राप्त किए। अधिकतम अंक ज्ञात कीजिए।",
+    "o": [
+      "(a) 600",
+      "(b) 700",
+      "(c) 500",
+      "(d) 400"
+    ],
+    "a": "A",
+    "e": "Method 1 (Percentage Difference Method):\nDifference between percentages = $32\\% - 20\\% = 12\\%$.\nDifference between scored marks = $42 - (-30) = 42 + 30 = 72\\text{ marks}$.\n$12\\% = 72\\text{ marks}$\n$1\\% = \\frac{72}{12} = 6\\text{ marks}$.\nMaximum marks ($100\\%$) = $6 \\times 100 = 600$.\n\nMethod 2 (Algebraic Equation Method):\nMaana maximum marks = $M$.\nPassing marks dono taraf barabar honge:\n$0.20M + 30 = 0.32M - 42$\n$0.32M - 0.20M = 30 + 42$\n$0.12M = 72$\n$M = \\frac{72}{0.12} = 600$."
+  },
+  {
+    "qe": "Ravi scores 40% marks and fails by 30 marks. Sohan scores 50% marks and gets 20 marks more than the pass marks. Find the maximum marks of the exam.",
+    "qh": "रवि 40% अंक प्राप्त करता है और 30 अंकों से अनुत्तीर्ण हो जाता है। सोहन 50% अंक प्राप्त करता है और उत्तीर्ण अंकों से 20 अंक अधिक प्राप्त करता है। परीक्षा के अधिकतम अंक ज्ञात कीजिए।",
+    "o": [
+      "(a) 400",
+      "(b) 450",
+      "(c) 500",
+      "(d) 600"
+    ],
+    "a": "C",
+    "e": "Method 1 (Percentage Difference Method):\nPercentage difference = $50\\% - 40\\% = 10\\%$.\nMarks difference = $20 - (-30) = 20 + 30 = 50\\text{ marks}$.\n$10\\% = 50\\text{ marks}$.\nMaximum marks ($100\\%$) = $50 \\times 10 = 500$.\n\nMethod 2 (Ratio / Passing Marks Balance Method):\n$0.40M + 30 = 0.50M - 20$\n$0.10M = 50$\n$M = \\frac{50}{0.10} = 500$."
+  }
+]
