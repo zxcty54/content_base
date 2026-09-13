@@ -46,5 +46,29 @@
     ],
     "a": "C",
     "e": "Method 1 (Percentage Difference Method):\nPercentage difference = $50\\% - 40\\% = 10\\%$.\nMarks difference = $20 - (-30) = 20 + 30 = 50\\text{ marks}$.\n$10\\% = 50\\text{ marks}$.\nMaximum marks ($100\\%$) = $50 \\times 10 = 500$.\n\nMethod 2 (Ratio / Passing Marks Balance Method):\n$0.40M + 30 = 0.50M - 20$\n$0.10M = 50$\n$M = \\frac{50}{0.10} = 500$."
+  },
+  {
+    "qe": "R targets to score 85% marks in exams. He scores 450 marks and misses the target by 35%. How much increment in percentage should be there in his scored marks to meet the target?",
+    "qh": "R परीक्षा में 85% अंक प्राप्त करने का लक्ष्य रखता है। वह 450 अंक प्राप्त करता है और लक्ष्य से 35% चूक जाता है। लक्ष्य को पूरा करने के लिए उसके प्राप्त अंकों में कितने प्रतिशत की वृद्धि होनी चाहिए?",
+    "o": [
+      "(a) 70%",
+      "(b) 35%",
+      "(c) 53.85%",
+      "(d) 45%"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio / Target-Base Method):\nTarget marks ko $100\\%$ maan lo.\nTarget se $35\\%$ chook gaya $\\implies$ Scored marks $= 100 - 35 = 65\\%$ of Target.\nTarget : Scored $= 100 : 65 = 20 : 13$.\nTarget par pahunchne ke liye scored marks me badhotari $= 20 - 13 = 7$ units (13 ke base par).\nPercentage increment needed in scored marks:\n$= \\frac{7}{13} \\times 100\\% = \\frac{700}{13}\\% \\approx 53.85\\% \\approx 53\\%$.\n\nMethod 2 (Marks-Base Calculation):\nScored Marks $= 450 = 65\\%$ of Target.\nTarget Marks $= \\frac{450}{0.65} = \\frac{9000}{13} \\approx 692.3$.\nMarks required to add $= \\text{Target} - \\text{Scored} = \\frac{9000}{13} - 450 = \\frac{3150}{13}$.\nPercentage increment over scored marks (450):\n$= \\frac{\\frac{3150}{13}}{450} \\times 100\\% = \\frac{3150}{13 \\times 450} \\times 100\\% = \\frac{7}{13} \\times 100\\% \\approx 53.85\\% \\approx 53\\%$."
+  },
+  {
+    "qe": "A student needs at least 60% to pass. He got 40% on the first exam, 70% on the second and x% on the third (equal weightage). What is the minimum x% to pass?",
+    "qh": "एक छात्र को उत्तीर्ण होने के लिए कम से कम 60% अंकों की आवश्यकता है। उसने पहली परीक्षा में 40%, दूसरी में 70% और तीसरी में x% अंक प्राप्त किए (समान वेटेज)। उत्तीर्ण होने के लिए न्यूनतम x% क्या है?",
+    "o": [
+      "(a) 70%",
+      "(b) 80%",
+      "(c) 75%",
+      "(d) 85%"
+    ],
+    "a": "A",
+    "e": "Method 1 (Average / Equation Method):\nTeeno exams ka weightage barabar hai, isliye average pass mark kam se kam $60\\%$ hona chahiye:\n$\\frac{40 + 70 + x}{3} = 60$\n$110 + x = 180$\n$x = 180 - 110 = 70\\%$.\n\nMethod 2 (Deviation Method):\nTarget average $= 60\\%$.\nExam 1 me deviation $= 40 - 60 = -20\\%$.\nExam 2 me deviation $= 70 - 60 = +10\\%$.\nNet deviation ab tak $= -20 + 10 = -10\\%$.\nAverage $60\\%$ maintain karne ke liye Exam 3 me $+10\\%$ ka compensation chahiye:\n$x = 60 + 10 = 70\\%$."
   }
 ]
