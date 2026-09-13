@@ -1,0 +1,256 @@
+[
+  {
+    "qe": "After decreasing by 25%, the cost of a jacket becomes ₹4,500. Find its original cost.",
+    "qh": "25% की कमी के बाद, एक जैकेट का मूल्य ₹4,500 हो जाता है। इसका मूल मूल्य ज्ञात कीजिए।",
+    "o": [
+      "(a) ₹5,500",
+      "(b) ₹6,000",
+      "(c) ₹6,500",
+      "(d) ₹5,800"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n$25\\% = \\frac{1}{4}$.\nOriginal Cost : Decreased Cost $= 4 : (4 - 1) = 4 : 3$.\nGiven: 3 units $= ₹4500 \\implies 1 \\text{ unit} = \\frac{4500}{3} = ₹1500$.\nOriginal Cost = 4 units $= 4 \\times 1500 = ₹6000$.\n\nMethod 2 (100-Base Method):\nOriginal cost ko $100\\%$ maan lo.\n$25\\%$ decrease ke baad cost $= 100\\% - 25\\% = 75\\%$.\nGiven: $75\\% = ₹4500$.\n$1\\% = \\frac{4500}{75} = ₹60$.\nOriginal Cost ($100\\%$) $= 60 \\times 100 = ₹6000$."
+  },
+  {
+    "qe": "The price of a laptop was ₹80,000 last year. This year, its price decreased by 20%. What is the price (in ₹) of the laptop this year?",
+    "qh": "पिछले वर्ष एक लैपटॉप का मूल्य ₹80,000 था। इस वर्ष इसके मूल्य में 20% की कमी आई। इस वर्ष लैपटॉप का मूल्य (₹ में) क्या है?",
+    "o": [
+      "(a) ₹60,000",
+      "(b) ₹62,000",
+      "(c) ₹64,000",
+      "(d) ₹66,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\n$20\\% = \\frac{1}{5}$.\nOriginal Price : New Price $= 5 : 4$.\nGiven: 5 units $= ₹80000 \\implies 1 \\text{ unit} = \\frac{80000}{5} = ₹16000$.\nNew Price = 4 units $= 4 \\times 16000 = ₹64000$.\n\nMethod 2 (100-Base Method):\nOriginal Price $= 100\\% = ₹80000$.\nPrice $20\\%$ decrease hone ke baad bacha $= 80\\%$.\nNew Price $= 80\\% \\text{ of } 80000 = \\frac{80}{100} \\times 80000 = ₹64000$."
+  },
+  {
+    "qe": "Rahul's salary in 2021 was ₹30,000. He gets an increment of 10% every year. What was his salary in 2023?",
+    "qh": "2021 में राहुल का वेतन ₹30,000 था। उसे प्रत्येक वर्ष 10% की वेतन वृद्धि मिलती है। 2023 में उसका वेतन क्या था?",
+    "o": [
+      "(a) ₹36,000",
+      "(b) ₹36,300",
+      "(c) ₹35,800",
+      "(d) ₹37,200"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n$10\\% = \\frac{1}{10}$.\nHar saal salary ka ratio $= 10 : 11$.\n2 saal (2021 se 2023) me ratio $= 10^2 : 11^2 = 100 : 121$.\nGiven: 100 units $= ₹30000 \\implies 1 \\text{ unit} = ₹300$.\nSalary in 2023 = 121 units $= 121 \\times 300 = ₹36300$.\n\nMethod 2 (100-Base / Successive Formula):\nTwo successive hikes of $10\\%$:\nNet hike $= 10 + 10 + \\frac{10 \\times 10}{100} = 21\\%$.\nSalary in 2023 $= 30000 + (21\\% \\text{ of } 30000) = 30000 + 6300 = ₹36300$."
+  },
+  {
+    "qe": "A motorcycle is sold for ₹72,000, which is 20% less than its original price. What was the original price of the motorcycle?",
+    "qh": "एक मोटरसाइकिल ₹72,000 में बेची जाती है, जो इसके मूल मूल्य से 20% कम है। मोटरसाइकिल का मूल मूल्य क्या था?",
+    "o": [
+      "(a) ₹85,000",
+      "(b) ₹88,000",
+      "(c) ₹90,000",
+      "(d) ₹95,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\n$20\\% = \\frac{1}{5}$.\nOriginal Price : Selling Price $= 5 : 4$.\nGiven: 4 units $= ₹72000 \\implies 1 \\text{ unit} = \\frac{72000}{4} = ₹18000$.\nOriginal Price = 5 units $= 5 \\times 18000 = ₹90000$.\n\nMethod 2 (100-Base Method):\nOriginal price $= 100\\%$.\nSelling price after $20\\%$ reduction $= 80\\%$.\nGiven: $80\\% = ₹72000$.\n$1\\% = \\frac{72000}{80} = ₹900$.\nOriginal Price ($100\\%$) $= 900 \\times 100 = ₹90000$."
+  },
+  {
+    "qe": "If 25% of 40% of a number is 180, then 15% of that number is:",
+    "qh": "यदि किसी संख्या के 40% का 25% मान 180 है, तो उस संख्या का 15% क्या होगा?",
+    "o": [
+      "(a) 250",
+      "(b) 270",
+      "(c) 285",
+      "(d) 300"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n$25\\% = \\frac{1}{4}$ aur $40\\% = \\frac{2}{5}$.\nFractional part $= \\frac{1}{4} \\times \\frac{2}{5} = \\frac{1}{10}$.\nGiven: $\\frac{1}{10}$ of number $= 180 \\implies \\text{Number} = 1800$.\nAb number ka $15\\%$ nikaalna hai:\n$15\\% = \\frac{3}{20} \\implies \\frac{3}{20} \\times 1800 = 3 \\times 90 = 270$.\n\nMethod 2 (100-Base Method):\nLet the number be $100\\%$.\n$40\\% \\text{ of } 100\\% = 40\\%$.\n$25\\% \\text{ of } 40\\% = 10\\%$.\nGiven: $10\\% = 180$.\n$1\\% = 18$.\nRequired $15\\% = 15 \\times 18 = 270$."
+  },
+  {
+    "qe": "During the first year, the population of a town increased by 10% and during the second year it decreased by 10%. At the end of the second year, its population was 59,400. What was the population at the beginning of the first year?",
+    "qh": "पहले वर्ष के दौरान एक कस्बे की जनसंख्या में 10% की वृद्धि हुई और दूसरे वर्ष के दौरान इसमें 10% की कमी आई। दूसरे वर्ष के अंत में इसकी जनसंख्या 59,400 थी। पहले वर्ष की शुरुआत में जनसंख्या कितनी थी?",
+    "o": [
+      "(a) 60,000",
+      "(b) 62,000",
+      "(c) 58,000",
+      "(d) 65,000"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio Method):\nYear 1 (+10%): $10 : 11$.\nYear 2 (-10%): $10 : 9$.\nInitial Population : Final Population $= (10 \\times 10) : (11 \\times 9) = 100 : 99$.\nGiven: 99 units $= 59400 \\implies 1 \\text{ unit} = \\frac{59400}{99} = 600$.\nInitial Population = 100 units $= 100 \\times 600 = 60000$.\n\nMethod 2 (Successive Formula):\nNet percentage change $= +10 - 10 - \\frac{10 \\times 10}{100} = -1\\%$.\nFinal population $= 100\\% - 1\\% = 99\\%$.\n$99\\% = 59400 \\implies 1\\% = 600$.\nInitial population ($100\\%$) $= 600 \\times 100 = 60000$."
+  },
+  {
+    "qe": "Pankaj gets a 10% increase in his sales in the first year and a 20% increase in the second year. If his present sales amount is ₹1,58,400, what was his sales amount two years ago?",
+    "qh": "पंकज की बिक्री में पहले वर्ष 10% और दूसरे वर्ष 20% की वृद्धि होती है। यदि उसकी वर्तमान बिक्री राशि ₹1,58,400 है, तो दो वर्ष पहले उसकी बिक्री राशि क्या थी?",
+    "o": [
+      "(a) ₹1,10,000",
+      "(b) ₹1,15,000",
+      "(c) ₹1,20,000",
+      "(d) ₹1,25,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nYear 1 (+10%): $10\\% = \\frac{1}{10} \\implies 10 : 11$.\nYear 2 (+20%): $20\\% = \\frac{1}{5} \\implies 5 : 6$.\nInitial Sales : Present Sales $= (10 \\times 5) : (11 \\times 6) = 50 : 66 = 25 : 33$.\nGiven: 33 units $= ₹158400 \\implies 1 \\text{ unit} = \\frac{158400}{33} = ₹4800$.\nInitial Sales = 25 units $= 25 \\times 4800 = ₹120000$.\n\nMethod 2 (100-Base Method):\nNet increase $= 10 + 20 + \\frac{10 \\times 20}{100} = 32\\%$.\nPresent Sales $= 100\\% + 32\\% = 132\\%$.\nGiven: $132\\% = ₹158400$.\n$1\\% = \\frac{158400}{132} = ₹1200$.\nSales 2 years ago ($100\\%$) $= 1200 \\times 100 = ₹120000$."
+  },
+  {
+    "qe": "After a discount of 15%, an electronic gadget is available for ₹1,19,000. Find its marked price.",
+    "qh": "15% की छूट के बाद, एक इलेक्ट्रॉनिक उपकरण ₹1,19,000 में उपलब्ध है। इसका अंकित मूल्य ज्ञात कीजिए।",
+    "o": [
+      "(a) ₹1,35,000",
+      "(b) ₹1,40,000",
+      "(c) ₹1,42,000",
+      "(d) ₹1,45,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n$15\\% = \\frac{3}{20}$.\nMarked Price : Discounted Price $= 20 : (20 - 3) = 20 : 17$.\nGiven: 17 units $= ₹119000 \\implies 1 \\text{ unit} = \\frac{119000}{17} = ₹7000$.\nMarked Price = 20 units $= 20 \\times 7000 = ₹140000$.\n\nMethod 2 (100-Base Method):\nMarked Price $= 100\\%$.\nPrice after $15\\%$ discount $= 85\\%$.\nGiven: $85\\% = ₹119000$.\n$1\\% = \\frac{119000}{85} = ₹1400$.\nMarked Price ($100\\%$) $= 1400 \\times 100 = ₹140000$."
+  },
+  
+  {
+    "qe": "Two years ago, the population of a town was 80,000. Due to industrial development, it increases every year at the rate of 5%. The present population of the town is:",
+    "qh": "दो वर्ष पहले, एक शहर की जनसंख्या 80,000 थी। औद्योगिक विकास के कारण, इसमें प्रत्येक वर्ष 5% की दर से वृद्धि होती है। शहर की वर्तमान जनसंख्या क्या है?",
+    "o": [
+      "(a) 88,000",
+      "(b) 88,200",
+      "(c) 89,000",
+      "(d) 89,200"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n$5\\% = \\frac{1}{20}$.\nHar saal population ratio $= 20 : 21$.\n2 saal me compound change $= 20^2 : 21^2 = 400 : 441$.\nGiven: 400 units $= 80000 \\implies 1 \\text{ unit} = \\frac{80000}{400} = 200$.\nPresent population = 441 units $= 441 \\times 200 = 88200$.\n\nMethod 2 (100-Base / Successive Formula):\n2 saal ka net percentage increase $= 5 + 5 + \\frac{5 \\times 5}{100} = 10.25\\%$.\nPresent population $= 80000 + (10.25\\% \\text{ of } 80000) = 80000 + 8200 = 88200$."
+  },
+  {
+    "qe": "Sumit gets a 5% increase in his sale amount in the first year and 10% in the second year. If his present sale is ₹1,38,600, what was his sale (in ₹) two years ago?",
+    "qh": "सुमित की बिक्री राशि में पहले वर्ष 5% और दूसरे वर्ष 10% की वृद्धि होती है। यदि उसकी वर्तमान बिक्री ₹1,38,600 है, तो दो वर्ष पहले उसकी बिक्री (₹ में) क्या थी?",
+    "o": [
+      "(a) ₹1,15,000",
+      "(b) ₹1,20,000",
+      "(c) ₹1,25,000",
+      "(d) ₹1,30,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nYear 1 (+5%): $5\\% = \\frac{1}{20} \\implies 20 : 21$.\nYear 2 (+10%): $10\\% = \\frac{1}{10} \\implies 10 : 11$.\nInitial Sale : Present Sale $= (20 \\times 10) : (21 \\times 11) = 200 : 231$.\nGiven: 231 units $= ₹138600 \\implies 1 \\text{ unit} = \\frac{138600}{231} = ₹600$.\nSale 2 years ago = 200 units $= 200 \\times 600 = ₹120000$.\n\nMethod 2 (100-Base Method):\nNet increase over 2 years $= 5 + 10 + \\frac{5 \\times 10}{100} = 15.5\\%$.\nPresent sale $= 100\\% + 15.5\\% = 115.5\\%$.\nGiven: $115.5\\% = ₹138600$.\n$1\\% = \\frac{138600}{115.5} = ₹1200$.\nOriginal sale ($100\\%$) $= 1200 \\times 100 = ₹120000$."
+  },
+  {
+    "qe": "The price of an article is increased by k%. The new price was decreased by k% later. Now the latest price is ₹P. What was the original price of the article?",
+    "qh": "एक वस्तु के मूल्य में k% की वृद्धि की जाती है। बाद में नए मूल्य में k% की कमी की जाती है। अब नवीनतम मूल्य ₹P है। वस्तु का मूल मूल्य क्या था?",
+    "o": [
+      "(a) \\frac{10000 P}{10000 - k^2}",
+      "(b) \\frac{(10000 - k^2) P}{10000}",
+      "(c) \\frac{100 P}{100 - k^2}",
+      "(d) \\frac{100 P}{1 - k^2}"
+    ],
+    "a": "A",
+    "e": "Method 1 (Successive Multiplier Method):\nPehle $k\\%$ badhane par factor $= \\left(1 + \\frac{k}{100}\\right)$.\nFir $k\\%$ ghatane par factor $= \\left(1 - \\frac{k}{100}\\right)$.\nNet Multiplier $= \\left(1 + \\frac{k}{100}\\right)\\left(1 - \\frac{k}{100}\\right) = 1 - \\frac{k^2}{10000} = \\frac{10000 - k^2}{10000}$.\nLatest Price $= \\text{Original Price} \\times \\frac{10000 - k^2}{10000} = P$.\n$\\implies \\text{Original Price} = \\frac{10000 P}{10000 - k^2}$.\n\nMethod 2 (100-Base / Direct Loss Formula):\nJab kisi value ko pehle $k\\%$ badhayein aur fir $k\\%$ ghatayein, toh net loss $= \\frac{k^2}{100}\\%$ hota hai.\nFinal percentage $= 100\\% - \\frac{k^2}{100}\\% = \\frac{10000 - k^2}{100}\\%$.\nYe value $P$ ke barabar hai:\n$\\frac{10000 - k^2}{10000} \\times \\text{Original} = P \\implies \\text{Original} = \\frac{10000 P}{10000 - k^2}$."
+  },
+  {
+    "qe": "The population of a village was 2,50,000. It increased by 10% in the first year and increased by 20% in the second year. Its population after two years is:",
+    "qh": "एक गाँव की जनसंख्या 2,50,000 थी। पहले वर्ष में इसमें 10% की वृद्धि हुई और दूसरे वर्ष में 20% की वृद्धि हुई। दो वर्ष बाद इसकी जनसंख्या क्या होगी?",
+    "o": [
+      "(a) 3,25,000",
+      "(b) 3,30,000",
+      "(c) 3,35,000",
+      "(d) 3,40,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nYear 1 (+10%): $10 : 11$.\nYear 2 (+20%): $5 : 6$.\nInitial Population : Final Population $= (10 \\times 5) : (11 \\times 6) = 50 : 66 = 25 : 33$.\nGiven: 25 units $= 250000 \\implies 1 \\text{ unit} = 10000$.\nPopulation after 2 years = 33 units $= 33 \\times 10000 = 330000$.\n\nMethod 2 (100-Base / Successive Formula):\nTwo successive increases of $10\\%$ and $20\\%$:\nNet increase $= 10 + 20 + \\frac{10 \\times 20}{100} = 32\\%$.\nPopulation after 2 years $= 250000 + (32\\% \\text{ of } 250000) = 250000 + 80000 = 330000$."
+  },
+  {
+    "qe": "The population of a town increases by 10% in the first year, decreases by 20% in the second year, and again increases by 30% in the third year. If the population at the beginning was 50,000, what will it be after 3 years?",
+    "qh": "एक शहर की जनसंख्या पहले वर्ष में 10% बढ़ती है, दूसरे वर्ष में 20% घटती है, और तीसरे वर्ष में पुनः 30% बढ़ती है। यदि शुरुआत में जनसंख्या 50,000 थी, तो 3 वर्ष बाद यह कितनी होगी?",
+    "o": [
+      "(a) 56,800",
+      "(b) 57,200",
+      "(c) 57,600",
+      "(d) 58,400"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nYear 1 (+10%): $10 : 11$.\nYear 2 (-20%): $5 : 4$.\nYear 3 (+30%): $10 : 13$.\nInitial : Final $= (10 \\times 5 \\times 10) : (11 \\times 4 \\times 13) = 500 : 572$.\nGiven: 500 units $= 50000 \\implies 1 \\text{ unit} = 100$.\nPopulation after 3 years = 572 units $= 572 \\times 100 = 57200$.\n\nMethod 2 (100-Base Method):\nInitial population $= 100$.\nAfter Year 1 (+10%): $100 + 10 = 110$.\nAfter Year 2 (-20%): $110 - (20\\% \\text{ of } 110) = 110 - 22 = 88$.\nAfter Year 3 (+30%): $88 + (30\\% \\text{ of } 88) = 88 + 26.4 = 114.4$.\nPopulation after 3 years $= 50000 \\times \\frac{114.4}{100} = 500 \\times 114.4 = 57200$."
+  },
+  {
+    "qe": "The population of a city is 60,000. It increases by 10% in the first year and decreases by 5% in the second year. What will be the population of the city after 2 years?",
+    "qh": "एक शहर की जनसंख्या 60,000 है। पहले वर्ष में इसमें 10% की वृद्धि होती है और दूसरे वर्ष में 5% की कमी होती है। 2 वर्ष बाद शहर की जनसंख्या क्या होगी?",
+    "o": [
+      "(a) 62,500",
+      "(b) 62,700",
+      "(c) 63,000",
+      "(d) 63,200"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nYear 1 (+10%): $10\\% = \\frac{1}{10} \\implies 10 : 11$.\nYear 2 (-5%): $5\\% = \\frac{1}{20} \\implies 20 : 19$.\nInitial : Final $= (10 \\times 20) : (11 \\times 19) = 200 : 209$.\nGiven: 200 units $= 60000 \\implies 1 \\text{ unit} = \\frac{60000}{200} = 300$.\nPopulation after 2 years = 209 units $= 209 \\times 300 = 62700$.\n\nMethod 2 (Successive Formula):\nNet percentage change $= +10 - 5 + \\frac{10 \\times (-5)}{100} = 5 - 0.5 = +4.5\\%$.\nPopulation after 2 years $= 60000 + (4.5\\% \\text{ of } 60000) = 60000 + 2700 = 62700$."
+  },
+  
+  {
+    "qe": "The price of a digital camera is first reduced by 20% and then increased by 40%. If the resulting price of the digital camera is ₹8,960, then what was its original price (in ₹)?",
+    "qh": "एक डिजिटल कैमरे के मूल्य में पहले 20% की कमी की जाती है और फिर 40% की वृद्धि की जाती है। यदि डिजिटल कैमरे का परिणामी मूल्य ₹8,960 है, तो इसका मूल मूल्य (₹ में) क्या था?",
+    "o": [
+      "(a) ₹7,500",
+      "(b) ₹8,000",
+      "(c) ₹8,200",
+      "(d) ₹8,500"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nReduction: $20\\% = \\frac{1}{5} \\implies 5 : 4$.\nIncrease: $40\\% = \\frac{2}{5} \\implies 5 : 7$.\nInitial Price : Resulting Price $= (5 \\times 5) : (4 \\times 7) = 25 : 28$.\nGiven: 28 units $= ₹8960 \\implies 1 \\text{ unit} = \\frac{8960}{28} = ₹320$.\nOriginal Price = 25 units $= 25 \\times 320 = ₹8000$.\n\nMethod 2 (100-Base Method):\nInitial Price $= 100\\%$.\nNet Change $= -20 + 40 + \\frac{(-20) \\times 40}{100} = 20 - 8 = +12\\%$.\nResulting Price $= 100\\% + 12\\% = 112\\%$.\nGiven: $112\\% = ₹8960$.\n$1\\% = \\frac{8960}{112} = ₹80$.\nOriginal Price ($100\\%$) $= 80 \\times 100 = ₹8000$."
+  },
+  {
+    "qe": "The price of an electronic printer decreased by 10%, 10%, and 20% during the first three years. What will be the price of the printer after three years if the value at the beginning was ₹15,000?",
+    "qh": "एक इलेक्ट्रॉनिक प्रिंटर के मूल्य में पहले तीन वर्षों के दौरान क्रमशः 10%, 10% और 20% की कमी आई। यदि शुरुआत में इसका मूल्य ₹15,000 था, तो तीन वर्ष बाद प्रिंटर का मूल्य क्या होगा?",
+    "o": [
+      "(a) ₹9,720",
+      "(b) ₹9,850",
+      "(c) ₹10,200",
+      "(d) ₹10,500"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio Method):\nYear 1 (-10%): $10 : 9$\nYear 2 (-10%): $10 : 9$\nYear 3 (-20%): $5 : 4$\nInitial Value : Value after 3 years $= (10 \\times 10 \\times 5) : (9 \\times 9 \\times 4) = 500 : 324$.\nGiven: 500 units $= ₹15000 \\implies 1 \\text{ unit} = \\frac{15000}{500} = ₹30$.\nPrice after 3 years = 324 units $= 324 \\times 30 = ₹9720$.\n\nMethod 2 (100-Base Method):\nInitial Value $= ₹15000$.\nAfter Year 1: $15000 \\times 0.90 = 13500$.\nAfter Year 2: $13500 \\times 0.90 = 12150$.\nAfter Year 3: $12150 \\times 0.80 = ₹9720$."
+  },
+  {
+    "qe": "The population of a town is 20,000. If the population increases by 10% in the first year, by 20% in the second year, and due to migration it decreases by 5% in the third year, what will be its population after 3 years?",
+    "qh": "एक शहर की जनसंख्या 20,000 है। यदि पहले वर्ष में जनसंख्या में 10% की वृद्धि होती है, दूसरे वर्ष में 20% की वृद्धि होती है, और प्रवास के कारण तीसरे वर्ष में 5% की कमी होती है, तो 3 वर्ष बाद इसकी जनसंख्या क्या होगी?",
+    "o": [
+      "(a) 24,850",
+      "(b) 25,080",
+      "(c) 25,240",
+      "(d) 26,120"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nYear 1 (+10%): $10 : 11$\nYear 2 (+20%): $5 : 6$\nYear 3 (-5%): $20 : 19$\nInitial : Final $= (10 \\times 5 \\times 20) : (11 \\times 6 \\times 19) = 1000 : 1254$.\nGiven: 1000 units $= 20000 \\implies 1 \\text{ unit} = 20$.\nPopulation after 3 years = 1254 units $= 1254 \\times 20 = 25080$.\n\nMethod 2 (100-Base Method):\nInitial population $= 20000$.\nAfter Year 1 (+10%): $20000 + 2000 = 22000$.\nAfter Year 2 (+20%): $22000 + 4400 = 26400$.\nAfter Year 3 (-5%): $26400 - (5\\% \\text{ of } 26400) = 26400 - 1320 = 25080$."
+  },
+  {
+    "qe": "Deepak studies the pattern of daily sale of a grocery shop. He finds that on Monday, the sale was decreased by 20% in comparison to the sale on Sunday. On Tuesday, the sale was increased by 20% in comparison to the sale of Monday. If the sale on Tuesday was of ₹2,880, how much was the sale on Sunday?",
+    "qh": "दीपक एक किराना दुकान की दैनिक बिक्री के पैटर्न का अध्ययन करता है। वह पाता है कि रविवार की बिक्री की तुलना में सोमवार को बिक्री में 20% की कमी आई। सोमवार की बिक्री की तुलना में मंगलवार को बिक्री में 20% की वृद्धि हुई। यदि मंगलवार को ₹2,880 की बिक्री हुई, तो रविवार को बिक्री कितनी थी?",
+    "o": [
+      "(a) ₹2,900",
+      "(b) ₹3,000",
+      "(c) ₹3,150",
+      "(d) ₹3,200"
+    ],
+    "a": "B",
+    "e": "Method 1 (Equal Change Direct Shortcut):\nJab kisi base value ko pehle $x\\%$ ghatayein aur fir $x\\%$ badhayein, toh net loss $= \\frac{x^2}{100}\\%$ hota hai.\nNet loss $= \\frac{20^2}{100}\\% = 4\\%$.\nSunday ki sale ke mukable Tuesday ki sale $= 100\\% - 4\\% = 96\\%$.\nGiven: $96\\% = ₹2880$.\n$1\\% = \\frac{2880}{96} = ₹30$.\nSunday ki sale ($100\\%$) $= 30 \\times 100 = ₹3000$.\n\nMethod 2 (Ratio Method):\nMonday (-20%): $5 : 4$.\nTuesday (+20%): $5 : 6$.\nSunday : Tuesday $= (5 \\times 5) : (4 \\times 6) = 25 : 24$.\nGiven: 24 units $= ₹2880 \\implies 1 \\text{ unit} = \\frac{2880}{24} = ₹120$.\nSunday's sale = 25 units $= 25 \\times 120 = ₹3000$."
+  },
+  {
+    "qe": "The price of a car increases by 25% in the first year and decreases by 20% in the second year. If its final price becomes ₹4,80,000, find the original price of the car.",
+    "qh": "एक कार के मूल्य में पहले वर्ष 25% की वृद्धि होती है और दूसरे वर्ष 20% की कमी होती है। यदि इसका अंतिम मूल्य ₹4,80,000 हो जाता है, तो कार का मूल मूल्य ज्ञात कीजिए।",
+    "o": [
+      "(a) ₹4,50,000",
+      "(b) ₹4,60,000",
+      "(c) ₹4,80,000",
+      "(d) ₹5,00,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nYear 1 (+25%): $25\\% = \\frac{1}{4} \\implies 4 : 5$.\nYear 2 (-20%): $20\\% = \\frac{1}{5} \\implies 5 : 4$.\nOriginal Price : Final Price $= (4 \\times 5) : (5 \\times 4) = 20 : 20 = 1 : 1$.\nSince ratio is $1 : 1$, Original Price $=$ Final Price $= ₹480000$.\n\nMethod 2 (Successive Formula):\nNet Change $= +25 - 20 + \\frac{25 \\times (-20)}{100} = 5 - 5 = 0\\%$.\nKyunki net change $0\\%$ hai, isliye price unaltered rahega.\nOriginal Price $= ₹480000$."
+  },
+  {
+    "qe": "10% of the inhabitants of a village having died of an epidemic, a panic set in, during which 20% of the remaining inhabitants left the village. The population was then reduced to 14,400. What was the number of inhabitants initially?",
+    "qh": "एक महामारी से एक गाँव के 10% निवासियों की मृत्यु हो जाने के बाद, दहशत फैल गई, जिसके दौरान शेष निवासियों में से 20% ने गाँव छोड़ दिया। इसके बाद जनसंख्या घटकर 14,400 हो गई। शुरुआत में निवासियों की संख्या क्या थी?",
+    "o": [
+      "(a) 18,000",
+      "(b) 20,000",
+      "(c) 22,500",
+      "(d) 24,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nStep 1 (-10%): $10 : 9$.\nStep 2 (-20%): $5 : 4$.\nInitial Population : Final Population $= (10 \\times 5) : (9 \\times 4) = 50 : 36 = 25 : 18$.\nGiven: 18 units $= 14400 \\implies 1 \\text{ unit} = \\frac{14400}{18} = 800$.\nInitial Population = 25 units $= 25 \\times 800 = 20000$.\n\nMethod 2 (100-Base Method):\nInitial population $= 100\\%$.\nAfter epidemic deaths: $100 - 10 = 90\\%$.\nAfter migration of remaining: $90\\% - (20\\% \\text{ of } 90\\%) = 90 - 18 = 72\\%$.\nGiven: $72\\% = 14400$.\n$1\\% = \\frac{14400}{72} = 200$.\nInitial Population ($100\\%$) $= 200 \\times 100 = 20000$."
+  },
+  {
+    "qe": "On account of a viral outbreak, 10% of the population of a village died. Out of the remaining population, 25% fled due to panic. If the present population is 5,400, then what was the population of the village before the outbreak?",
+    "qh": "वायरस के प्रकोप के कारण एक गाँव की 10% जनसंख्या की मृत्यु हो गई। शेष जनसंख्या में से 25% दहशत के कारण भाग गए। यदि वर्तमान जनसंख्या 5,400 है, तो प्रकोप से पहले गाँव की जनसंख्या क्या थी?",
+    "o": [
+      "(a) 7,500",
+      "(b) 8,000",
+      "(c) 8,400",
+      "(d) 8,800"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nStep 1 (-10%): $10 : 9$.\nStep 2 (-25%): $4 : 3$.\nInitial Population : Present Population $= (10 \\times 4) : (9 \\times 3) = 40 : 27$.\nGiven: 27 units $= 5400 \\implies 1 \\text{ unit} = \\frac{5400}{27} = 200$.\nInitial Population = 40 units $= 40 \\times 200 = 8000$.\n\nMethod 2 (100-Base Method):\nInitial population $= 100\\%$.\nAfter deaths: $100 - 10 = 90\\%$.\nAfter panic exit: $90\\% - (25\\% \\text{ of } 90\\%) = 90 - 22.5 = 67.5\\%$.\nGiven: $67.5\\% = 5400$.\n$1\\% = \\frac{5400}{67.5} = 80$.\nInitial Population ($100\\%$) $= 80 \\times 100 = 8000$."
+  }
+]
