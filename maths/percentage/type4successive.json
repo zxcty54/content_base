@@ -216,5 +216,248 @@
     ],
     "a": "C",
     "e": "Method 1 (Successive Formula):\nNet Increase $= a + b + \\frac{ab}{100}$\nYahan $a = +30\\%$ aur $b = +30\\%$:\n$= 30 + 30 + \\frac{30 \\times 30}{100} = 60 + 9 = 69\\%$.\n\nMethod 2 (Ratio Method):\n$30\\% = \\frac{3}{10} \\implies$ Har step me ratio $10 : 13$ hoga.\nInitial Price : Final Price $= (10 \\times 10) : (13 \\times 13) = 100 : 169$.\nBase 100 par net increase $= 169 - 100 = 69\\%$."
+  },
+  
+  {
+    "qe": "If the price of diesel increased by 9%, then by what percentage should the consumption be decreased by the consumer, if the expenditure on diesel remains unchanged?",
+    "qh": "यदि डीजल के मूल्य में 9% की वृद्धि होती है, तो उपभोक्ता द्वारा इसके उपभोग में कितने प्रतिशत की कमी की जानी चाहिए ताकि डीजल पर होने वाला खर्च अपरिवर्तित रहे?",
+    "o": [
+      "(a) 8\\frac{28}{109}%",
+      "(b) 7\\frac{25}{109}%",
+      "(c) 8\\frac{15}{109}%",
+      "(d) 7\\frac{32}{109}%"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio Method):\nPrice me increase $= 9\\% = \\frac{9}{100}$.\nInitial Price : New Price $= 100 : 109$.\nExpenditure constant rakhne ke liye consumption ka ratio price ka ulta hoga:\nConsumption ratio $= 109 : 100$.\nConsumption me reduction $= 109 - 100 = 9$ units (109 ke base par).\nPercentage reduction $= \\frac{9}{109} \\times 100\\% = \\frac{900}{109}\\% = 8\\frac{28}{109}\\%$.\n\nMethod 2 (100-Base Method):\nInitial expenditure $= 100$.\nPrice $9\\%$ badhne ke baad new cost $= 109$.\nKharcha wapas 100 par laane ke liye kami $= 109 - 100 = 9$.\nNew base 109 par percentage reduction $= \\frac{9}{109} \\times 100\\% = 8\\frac{28}{109}\\%$."
+  },
+  {
+    "qe": "If the price of sugar is decreased by 20%, then by how much percentage consumption should be increased, so that the expenditure remains the same?",
+    "qh": "यदि चीनी के मूल्य में 20% की कमी होती है, तो उपभोग में कितने प्रतिशत की वृद्धि की जानी चाहिए ताकि खर्च समान रहे?",
+    "o": [
+      "(a) 20%",
+      "(b) 25%",
+      "(c) 30%",
+      "(d) 33.33%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nPrice decrease $= 20\\% = \\frac{1}{5}$.\nInitial Price : Reduced Price $= 5 : 4$.\nExpenditure constant rakhne ke liye consumption ratio $= 4 : 5$.\nConsumption me increase $= 5 - 4 = 1$ unit (4 ke base par).\nPercentage increase $= \\frac{1}{4} \\times 100\\% = 25\\%$.\n\nMethod 2 (100-Base Method):\nInitial expenditure $= 100$.\n$20\\%$ cut ke baad cost $= 80$.\nWapas 100 tak pahunchne ke liye required increase $= 100 - 80 = 20$.\nNew base 80 par percentage increase $= \\frac{20}{80} \\times 100\\% = 25\\%$."
+  },
+  {
+    "qe": "If the price of coffee is increased by 25%, by how what percentage must the consumption of coffee be decreased so as not to increase the expenditure?",
+    "qh": "यदि कॉफी के मूल्य में 25% की वृद्धि होती है, तो कॉफी के उपभोग में कितने प्रतिशत की कमी की जानी चाहिए ताकि खर्च में कोई वृद्धि न हो?",
+    "o": [
+      "(a) 15%",
+      "(b) 20%",
+      "(c) 25%",
+      "(d) 16.66%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nPrice increase $= 25\\% = \\frac{1}{4}$.\nPrice ratio $= 4 : 5$.\nExpenditure unaltered rakhne ke liye consumption ratio $= 5 : 4$.\nConsumption me kami $= 5 - 4 = 1$ unit (5 ke base par).\nPercentage decrease $= \\frac{1}{5} \\times 100\\% = 20\\%$.\n\nMethod 2 (100-Base Method):\nInitial expenditure $= 100$.\n$25\\%$ badhne ke baad new cost $= 125$.\nKharcha 100 rakhne ke liye reduction $= 125 - 100 = 25$.\n125 ke base par percentage decrease $= \\frac{25}{125} \\times 100\\% = 20\\%$."
+  },
+  {
+    "qe": "A project was estimated to be completed in 150 days. Due to heavy rainfall, only 75% of the days were productive. If the total work done on each productive day remains constant, by what percent must daily output be increased to complete the project on time?",
+    "qh": "एक परियोजना को 150 दिनों में पूरा करने का अनुमान लगाया गया था। भारी बारिश के कारण केवल 75% दिन ही उत्पादक रहे। यदि प्रत्येक उत्पादक दिन किया गया कार्य स्थिर रहता है, तो परियोजना को समय पर पूरा करने के लिए दैनिक उत्पादन में कितने प्रतिशत की वृद्धि की जानी चाहिए?",
+    "o": [
+      "(a) 25%",
+      "(b) 30%",
+      "(c) 33.33%",
+      "(d) 35%"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nTotal Work $=$ Days $\\times$ Daily Output $=$ Constant.\nProductive days $= 75\\% = \\frac{3}{4}$ of scheduled days.\nDays ratio $= 4 : 3$.\nOutput ko inversely badhana hoga taaki total work match ho sake:\nDaily output ratio $= 3 : 4$.\nIncrease $= 4 - 3 = 1$ unit (3 ke base par).\nPercentage increase $= \\frac{1}{3} \\times 100\\% = 33.33\\%$.\n\nMethod 2 (100-Base Method):\nProductive capacity available $= 75\\%$.\nTarget capacity required $= 100\\%$.\nShortfall to cover $= 100 - 75 = 25$.\nAvailable base 75 par required increase $= \\frac{25}{75} \\times 100\\% = 33.33\\%$."
+  },
+  {
+    "qe": "The cost of liquefied petroleum gas (LPG) per cylinder is increased by 60%. By what percentage must a family reduce its consumption of LPG so as not to increase its expenditure?",
+    "qh": "एलपीजी सिलेंडर के मूल्य में 60% की वृद्धि होती है। एक परिवार को एलपीजी के उपभोग में कितने प्रतिशत की कमी करनी चाहिए ताकि उसका खर्च न बढ़े?",
+    "o": [
+      "(a) 35.0%",
+      "(b) 37.5%",
+      "(c) 40.0%",
+      "(d) 42.5%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nCost increase $= 60\\% = \\frac{3}{5}$.\nPrice ratio $= 5 : 8$.\nExpenditure same rakhne ke liye consumption ratio $= 8 : 5$.\nConsumption me kami $= 8 - 5 = 3$ units (8 ke base par).\nPercentage reduction $= \\frac{3}{8} \\times 100\\% = 37.5\\%$.\n\nMethod 2 (100-Base Method):\nInitial expenditure $= 100$.\nPrice $60\\%$ badhne par $= 160$.\nKharcha 100 par wapas laane ke liye cut $= 160 - 100 = 60$.\n160 ke base par percentage cut $= \\frac{60}{160} \\times 100\\% = \\frac{3}{8} \\times 100\\% = 37.5\\%$."
+  },
+  {
+    "qe": "If the price of an entry ticket increased by 15% and the sale of tickets also increased by 10%, then find the overall percentage change in revenue.",
+    "qh": "यदि प्रवेश टिकट के मूल्य में 15% की वृद्धि होती है और टिकटों की बिक्री में भी 10% की वृद्धि होती है, तो कुल राजस्व में प्रतिशत परिवर्तन ज्ञात कीजिए।",
+    "o": [
+      "(a) 25.0%",
+      "(b) 26.5%",
+      "(c) 27.2%",
+      "(d) 28.0%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Successive Formula):\n$\\text{Revenue} = \\text{Price} \\times \\text{Sale}$.\nNet Change $= a + b + \\frac{ab}{100}$\nYahan $a = +15\\%$ aur $b = +10\\%$:\n$= 15 + 10 + \\frac{15 \\times 10}{100} = 25 + 1.5 = 26.5\\%$.\n\nMethod 2 (Ratio Method):\nPrice ($+15\\% = \\frac{3}{20}$): ratio $= 20 : 23$.\nSale ($+10\\% = \\frac{1}{10}$): ratio $= 10 : 11$.\nRevenue ratio $= (20 \\times 10) : (23 \\times 11) = 200 : 253$.\nBase ko 100 banane ke liye 2 se divide karo: $100 : 126.5$.\nNet increase $= 126.5 - 100 = 26.5\\%$."
+  },
+  {
+    "qe": "Monthly salary of Tanuj in the month of December 2021 was ₹32,000. Every year his salary increases by 10% from the month of January. What was his monthly salary (in ₹) in the month of February 2023?",
+    "qh": "दिसंबर 2021 के महीने में तनुज का मासिक वेतन ₹32,000 था। प्रत्येक वर्ष जनवरी माह से उसके वेतन में 10% की वृद्धि होती है। फरवरी 2023 के महीने में उसका मासिक वेतन (₹ में) क्या था?",
+    "o": [
+      "(a) 38,400",
+      "(b) 38,720",
+      "(c) 39,200",
+      "(d) 39,600"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nDecember 2021 se February 2023 tak do baar January aayega (January 2022 aur January 2023), yaani 2 baar successive hike lagegi.\n$10\\% = \\frac{1}{10} \\implies$ Multiplier $= \\frac{11}{10}$.\nSalary in Feb 2023 $= 32000 \\times \\frac{11}{10} \\times \\frac{11}{10} = 320 \\times 121 = ₹38720$.\n\nMethod 2 (100-Base Method):\n2 successive $10\\%$ hikes ka net effective hike $= 10 + 10 + \\frac{10 \\times 10}{100} = 21\\%$.\nFinal Salary $= 32000 + (21\\% \\text{ of } 32000) = 32000 + 6720 = ₹38720$."
+  },
+  {
+    "qe": "The population of a city increases every year at the rate of 10%. If the present population of the city is 25,000, what will be the population after 2 years?",
+    "qh": "एक शहर की जनसंख्या में प्रत्येक वर्ष 10% की दर से वृद्धि होती है। यदि शहर की वर्तमान जनसंख्या 25,000 है, तो 2 वर्ष बाद जनसंख्या क्या होगी?",
+    "o": [
+      "(a) 30,000",
+      "(b) 30,250",
+      "(c) 30,500",
+      "(d) 31,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n$10\\% = \\frac{1}{10}$.\nHar saal population ratio $= 10 : 11$.\n2 saal baad ratio $= 10^2 : 11^2 = 100 : 121$.\nInitial base 100 units $= 25000 \\implies 1 \\text{ unit} = 250$.\nPopulation after 2 years $= 121 \\times 250 = 30250$.\n\nMethod 2 (100-Base Method):\n2 saal ka net percentage increase $= 10 + 10 + \\frac{10 \\times 10}{100} = 21\\%$.\nPopulation after 2 years $= 25000 + (21\\% \\text{ of } 25000) = 25000 + 5250 = 30250$."
+  },
+  {
+    "qe": "A worker's salary was reduced by 10%, and then the reduced salary was increased by 10%. By what percentage is his new salary more or less as compared to his original salary?",
+    "qh": "एक कर्मचारी के वेतन में 10% की कमी की गई, और फिर घटे हुए वेतन में 10% की वृद्धि की गई। मूल वेतन की तुलना में उसका नया वेतन कितने प्रतिशत कम या अधिक है?",
+    "o": [
+      "(a) 1% more",
+      "(b) 1% less",
+      "(c) 2% less",
+      "(d) No change"
+    ],
+    "a": "B",
+    "e": "Method 1 (Direct Shortcut):\nJab equal percentage decrease aur increase ho, toh hamesha loss hota hai:\n$\\text{Loss}\\% = \\frac{x^2}{100} = \\frac{10^2}{100} = 1\\%$ less.\n\nMethod 2 (Ratio Method):\nDecrease: $10 : 9$.\nIncrease: $10 : 11$.\nInitial : Final $= (10 \\times 10) : (9 \\times 11) = 100 : 99$.\nNet change $= 99 - 100 = -1$ unit (yaani 1% less)."
+  },
+  {
+    "qe": "A worker gets an increase of 20% in his wage rate per hour, but there is a drop of 15% in the number of hours worked per week. If his original weekly wages for a week of 40 hours was ₹24,000, then what is the percentage change in his total weekly wages?",
+    "qh": "एक कर्मचारी की प्रति घंटे मजदूरी दर में 20% की वृद्धि होती है, लेकिन प्रति सप्ताह काम करने के घंटों में 15% की गिरावट आती है। यदि 40 घंटे के एक सप्ताह के लिए उसकी मूल साप्ताहिक मजदूरी ₹24,000 थी, तो उसकी कुल साप्ताहिक मजदूरी में प्रतिशत परिवर्तन क्या है?",
+    "o": [
+      "(a) 2% increase",
+      "(b) 2% decrease",
+      "(c) 3% increase",
+      "(d) 4% increase"
+    ],
+    "a": "A",
+    "e": "Method 1 (Successive Formula):\n$\\text{Weekly Wages} = \\text{Hourly Rate} \\times \\text{Hours Worked}$.\nPercentage nikalne ke liye original wages (₹24,000) ya hours (40) ki calculation me zaroorat nahi hoti.\nNet Change $= a + b + \\frac{ab}{100}$\nYahan $a = +20\\%$ aur $b = -15\\%$:\n$= 20 - 15 + \\frac{20 \\times (-15)}{100} = 5 - 3 = +2\\%$ (2% increase).\n\nMethod 2 (Ratio Method):\nHourly rate ($+20\\% = \\frac{1}{5}$): ratio $= 5 : 6$.\nHours ($-15\\% = -\\frac{3}{20}$): ratio $= 20 : 17$.\nTotal Wages ratio $= (5 \\times 20) : (6 \\times 17) = 100 : 102$.\nNet change $= 102 - 100 = +2\\%$ (2% increase)."
+  },
+  {
+    "qe": "When the price of an article was reduced by 10%, its sale increased by x%. If there is an increase of 17% in the receipt of revenue, then find the value of x.",
+    "qh": "जब किसी वस्तु के मूल्य में 10% की कमी की गई, तो उसकी बिक्री में x% की वृद्धि हुई। यदि राजस्व की प्राप्ति में 17% की वृद्धि होती है, तो x का मान ज्ञात कीजिए।",
+    "o": [
+      "(a) 25",
+      "(b) 28",
+      "(c) 30",
+      "(d) 32"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\n$\\text{Revenue} = \\text{Price} \\times \\text{Sale} \\implies \\text{Sale} = \\frac{\\text{Revenue}}{\\text{Price}}$.\nPrice ratio ($-10\\%$): $10 : 9$.\nRevenue ratio ($+17\\%$): $100 : 117$.\nSale ratio $= \\frac{100}{10} : \\frac{117}{9} = 10 : 13$.\nSale me increase $= 13 - 10 = 3$ units (10 ke base par).\n$x\\% = \\frac{3}{10} \\times 100\\% = 30\\% \\implies x = 30$.\n\nMethod 2 (100-Base Method):\nInitial revenue $= 100$.\nPrice $10\\%$ ghatne ke baad revenue ho jata $= 90$.\nLekin target revenue $= 117$ ($17\\%$ gain).\nSale ki wajah se required increase $= 117 - 90 = 27$.\nYeh 27 ka increase 90 ke base par calculate hoga:\n$x = \\frac{27}{90} \\times 100 = 30$."
+  },
+  {
+    "qe": "The income of P is 75% of Q's income, and the expenditure of P is 50% of Q's expenditure. If the income of P is equal to 80% of Q's expenditure, then by what percentage are the savings of P more than Q's savings?",
+    "qh": "P की आय Q की आय का 75% है, और P का खर्च Q के खर्च का 50% है। यदि P की आय Q के खर्च के 80% के बराबर है, तो P की बचत Q की बचत से कितने प्रतिशत अधिक है?",
+    "o": [
+      "(a) 100%",
+      "(b) 120%",
+      "(c) 125%",
+      "(d) 150%"
+    ],
+    "a": "D",
+    "e": "Method 1 (100-Base Reference Method):\nQ ke expenditure ko standard base $100$ maan lete hain.\n1. P ki income $= 80\\% \\text{ of Q's expenditure} = 80$.\n2. P ki income Q ki income ka $75\\% (\\frac{3}{4})$ hai:\n   $\\frac{3}{4} \\times \\text{Q's income} = 80 \\implies \\text{Q's income} = \\frac{320}{3}$.\n3. P ka expenditure $= 50\\% \\text{ of Q's expenditure} = 50\\% \\text{ of } 100 = 50$.\nAb savings nikaalte hain ($\\text{Income} - \\text{Expenditure}$):\n• P ki savings $= 80 - 50 = 30$.\n• Q ki savings $= \\frac{320}{3} - 100 = \\frac{20}{3}$.\nDifference $= 30 - \\frac{20}{3} = \\frac{70}{3}$.\nPercentage more than Q's savings $= \\frac{70/3}{20/3} \\times 100\\% = \\frac{7}{2} \\times 100\\% = 350\\%$.\n\nMethod 2 (Ratio Integer Scaling Method):\nQ's expenditure $= 300$ units lete hain taaki fraction na bane.\nP's income $= 80\\% \\text{ of } 300 = 240$ units.\nQ's income $= 240 \\div \\frac{3}{4} = 320$ units.\nP's expenditure $= 50\\% \\text{ of } 300 = 150$ units.\nSavings:\n• P's savings $= 240 - 150 = 90$ units.\n• Q's savings $= 320 - 300 = 20$ units.\nP's excess savings $= 90 - 20 = 70$ units.\nPercentage excess $= \\frac{70}{20} \\times 100\\% = 350\\%$."
+  },
+  
+  {
+    "qe": "If the price of an article is increased by 12.5% and the expenditure on it remains constant, by what percentage should the consumption be reduced?",
+    "qh": "यदि किसी वस्तु के मूल्य में 12.5% की वृद्धि होती है और उस पर होने वाला खर्च स्थिर रहता है, तो उपभोग में कितने प्रतिशत की कमी की जानी चाहिए?",
+    "o": [
+      "(a) 10.00%",
+      "(b) 11.11%",
+      "(c) 12.50%",
+      "(d) 14.28%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nPrice me increase $= 12.5\\% = \\frac{1}{8}$.\nInitial Price : New Price $= 8 : 9$.\nExpenditure constant rakhne ke liye consumption ka ratio price ka ulta hoga:\nConsumption ratio $= 9 : 8$.\nConsumption me kami $= 9 - 8 = 1$ unit (9 ke base par).\nPercentage reduction $= \\frac{1}{9} \\times 100\\% = 11.11\\%$.\n\nMethod 2 (100-Base Method):\nInitial expenditure $= 100$.\nPrice $12.5\\%$ badhne ke baad cost $= 112.5$.\nWapas 100 par laane ke liye cut $= 112.5 - 100 = 12.5$.\nNew base 112.5 par percentage cut:\n$= \\frac{12.5}{112.5} \\times 100\\% = \\frac{1}{9} \\times 100\\% = 11.11\\%$."
+  },
+  {
+    "qe": "If the price of a movie ticket increased by 12.5% and the sale of tickets also increased by 8.5%, then find the percentage change in income.",
+    "qh": "यदि एक सिनेमा टिकट के मूल्य में 12.5% की वृद्धि होती है और टिकटों की बिक्री में भी 8.5% की वृद्धि होती है, तो कुल आय में प्रतिशत परिवर्तन ज्ञात कीजिए।",
+    "o": [
+      "(a) 21.00%",
+      "(b) 21.56%",
+      "(c) 22.06%",
+      "(d) 23.12%"
+    ],
+    "a": "C",
+    "e": "Method 1 (Successive Formula):\n$\\text{Income} = \\text{Price} \\times \\text{Sale}$.\nNet Change $= a + b + \\frac{ab}{100}$\nYahan $a = +12.5\\%$ aur $b = +8.5\\%$:\n$= 12.5 + 8.5 + \\frac{12.5 \\times 8.5}{100} = 21 + \\frac{106.25}{100} = 21 + 1.0625 = 22.0625\\% \\approx 22.06\\%$.\n\nMethod 2 (Ratio Method):\nPrice factor $= 1 + \\frac{1}{8} = \\frac{9}{8} = 1.125$.\nSale factor $= 1 + \\frac{8.5}{100} = 1.085$.\nIncome factor $= 1.125 \\times 1.085 = 1.220625$.\nPercentage change over base $1 = (1.220625 - 1) \\times 100\\% \\approx 22.06\\%$ increase."
+  },
+  
+  {
+    "qe": "The strength of a college increases and decreases every alternate year by 10%. It started with an increase in 2019. What is the strength of the college at the start of 2022 as compared to that of 2019?",
+    "qh": "एक कॉलेज की छात्र संख्या में प्रत्येक एकांतर वर्ष में 10% की वृद्धि और कमी होती है। इसकी शुरुआत 2019 में वृद्धि के साथ हुई थी। 2019 की तुलना में 2022 की शुरुआत में कॉलेज की छात्र संख्या में कितने प्रतिशत का परिवर्तन हुआ?",
+    "o": [
+      "(a) Decrease by 8.9%",
+      "(b) Increase by 8.9%",
+      "(c) Decrease by 9.1%",
+      "(d) Increase by 9.1%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n2019 se 2022 ki shuruat tak kul 3 saal ka badlav hoga:\nYear 1 (+10%): $10 : 11$\nYear 2 (-10%): $10 : 9$\nYear 3 (+10%): $10 : 11$\nInitial Strength : Final Strength $= (10 \\times 10 \\times 10) : (11 \\times 9 \\times 11) = 1000 : 1089$.\nNet increase $= 1089 - 1000 = 89$ units (1000 ke base par).\nPercentage increase $= \\frac{89}{1000} \\times 100\\% = 8.9\\%$ (Increase by 8.9%).\n\nMethod 2 (100-Base Method):\nInitial strength $= 100$.\nAfter Year 1 (+10%): $100 + 10 = 110$.\nAfter Year 2 (-10%): $110 - (10\\% \\text{ of } 110) = 110 - 11 = 99$.\nAfter Year 3 (+10%): $99 + (10\\% \\text{ of } 99) = 99 + 9.9 = 108.9$.\nNet change over base $100 = 108.9 - 100 = +8.9\\%$ (Increase by 8.9%)."
+  },
+  {
+    "qe": "The strength of a school increases and decreases every alternate year by 20%. If it started with an increase in 2015, then the strength of the school in the beginning of 2018, as compared to that in 2015, had:",
+    "qh": "एक स्कूल की छात्र संख्या में प्रत्येक एकांतर वर्ष में 20% की वृद्धि और कमी होती है। यदि इसकी शुरुआत 2015 में वृद्धि के साथ हुई थी, तो 2015 की तुलना में 2018 की शुरुआत में स्कूल की छात्र संख्या में:",
+    "o": [
+      "(a) Decreased by 15.2%",
+      "(b) Increased by 15.2%",
+      "(c) Decreased by 16.4%",
+      "(d) Increased by 16.4%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nKul 3 saal ka change hoga (2015-16 increase, 2016-17 decrease, 2017-18 increase):\n$20\\% = \\frac{1}{5}$.\nYear 1 (+20%): $5 : 6$\nYear 2 (-20%): $5 : 4$\nYear 3 (+20%): $5 : 6$\nInitial : Final $= (5 \\times 5 \\times 5) : (6 \\times 4 \\times 6) = 125 : 144$.\nIncrease $= 144 - 125 = 19$ units (125 par).\nPercentage increase $= \\frac{19}{125} \\times 100\\% = \\frac{19 \\times 4}{5}\\% = 15.2\\%$ (Increased by 15.2%).\n\nMethod 2 (Successive Formula):\nPehle do saal ka net: $+20 - 20 + \\frac{20 \\times (-20)}{100} = -4\\%$.\nAb $-4\\%$ aur teesre saal ke $+20\\%$ ka net:\n$= -4 + 20 + \\frac{(-4) \\times 20}{100} = 16 - 0.8 = +15.2\\%$ (Increased by 15.2%)."
+  },
+  {
+    "qe": "A number is first decreased by 15%, then increased by 20% and then further it is decreased by 10%. What is the net decrease percentage in the number?",
+    "qh": "एक संख्या में पहले 15% की कमी की जाती है, फिर 20% की वृद्धि की जाती है और फिर 10% की कमी की जाती है। संख्या में शुद्ध प्रतिशत कमी क्या है?",
+    "o": [
+      "(a) 7\\frac{4}{5}%",
+      "(b) 8\\frac{1}{5}%",
+      "(c) 8\\frac{3}{5}%",
+      "(d) 9\\frac{1}{5}%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n1. Decrease of $15\\% = \\frac{3}{20} \\implies 20 : 17$\n2. Increase of $20\\% = \\frac{1}{5} \\implies 5 : 6$\n3. Decrease of $10\\% = \\frac{1}{10} \\implies 10 : 9$\nInitial : Final $= (20 \\times 5 \\times 10) : (17 \\times 6 \\times 9) = 1000 : 918$.\nNet decrease $= 1000 - 918 = 82$ units (1000 ke base par).\nPercentage decrease $= \\frac{82}{1000} \\times 100\\% = 8.2\\% = 8\\frac{2}{10}\\% = 8\\frac{1}{5}\\%$.\n\nMethod 2 (100-Base Method):\nInitial number $= 100$.\n1. $15\\%$ decrease $\\implies 100 - 15 = 85$.\n2. $20\\%$ increase $\\implies 85 + (20\\% \\text{ of } 85) = 85 + 17 = 102$.\n3. $10\\%$ decrease $\\implies 102 - (10\\% \\text{ of } 102) = 102 - 10.2 = 91.8$.\nNet decrease $= 100 - 91.8 = 8.2\\% = 8\\frac{1}{5}\\%$."
+  },
+  {
+    "qe": "A number is first increased by 15% and then increased by 25%. The number so obtained is now decreased by 35%. What is the net increase or decrease percent in the original number (nearest to an integer)?",
+    "qh": "एक संख्या में पहले 15% की वृद्धि की जाती है और फिर 25% की वृद्धि की जाती है। इस प्रकार प्राप्त संख्या में अब 35% की कमी की जाती है। मूल संख्या में शुद्ध प्रतिशत वृद्धि या कमी क्या है (निकटतम पूर्णांक तक)?",
+    "o": [
+      "(a) 7% decrease",
+      "(b) 7% increase",
+      "(c) 5% decrease",
+      "(d) 5% increase"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio Method):\n1. $+15\\% = \\frac{3}{20} \\implies 20 : 23$\n2. $+25\\% = \\frac{1}{4} \\implies 4 : 5$\n3. $-35\\% = -\\frac{7}{20} \\implies 20 : 13$\nInitial : Final $= (20 \\times 4 \\times 20) : (23 \\times 5 \\times 13) = 1600 : 1495$.\nNet decrease $= 1600 - 1495 = 105$ units.\nPercentage decrease $= \\frac{105}{1600} \\times 100\\% = \\frac{105}{16}\\% = 6.5625\\% \\approx 7\\%$ decrease.\n\nMethod 2 (100-Base Method):\nInitial number $= 100$.\nAfter $+15\\% \\implies 115$.\nAfter $+25\\% \\implies 115 \\times 1.25 = 143.75$.\nAfter $-35\\% \\implies 143.75 \\times (1 - 0.35) = 143.75 \\times 0.65 = 93.4375$.\nNet change $= 93.4375 - 100 = -6.5625\\% \\approx -7\\%$ (7% decrease)."
+  },
+  {
+    "qe": "The value of a motorcycle depreciated from ₹62,500 to ₹32,000 in 3 years. Find the yearly rate of depreciation.",
+    "qh": "एक मोटरसाइकिल का मूल्य 3 वर्षों में ₹62,500 से घटकर ₹32,000 हो गया। मूल्यह्रास (depreciation) की वार्षिक दर ज्ञात कीजिए।",
+    "o": [
+      "(a) 15%",
+      "(b) 18%",
+      "(c) 20%",
+      "(d) 25%"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nInitial Value : Final Value $= 62500 : 32000$.\nSimplify ratio: $625 : 320 = 125 : 64$.\nTime period $= 3$ years, isliye 1 year ka multiplier nikalne ke liye cube root $(\\sqrt[3]{\\phantom{x}})$ lenge:\n1 Year Ratio $= \\sqrt[3]{125} : \\sqrt[3]{64} = 5 : 4$.\nHar saal kami $= 5 - 4 = 1$ unit (5 ke base par).\nYearly rate of depreciation $= \\frac{1}{5} \\times 100\\% = 20\\%$.\n\nMethod 2 (100-Base Reverse Check Method):\nAgar annual depreciation $20\\%$ ho, toh factor $= 1 - 0.20 = 0.8 = \\frac{4}{5}$ hoga.\n3 saal baad value $= 62500 \\times \\left(\\frac{4}{5}\\right)^3 = 62500 \\times \\frac{64}{125} = 500 \\times 64 = ₹32000$.\nYeh given final value ₹32,000 se match karta hai, isliye answer 20% hai."
+  },
+  {
+    "qe": "The population of a town increased from 1,00,000 to 1,61,051 in 5 years. What is the compounded percent increase of population per year?",
+    "qh": "एक कस्बे की जनसंख्या 5 वर्षों में 1,00,000 से बढ़कर 1,61,051 हो गई। प्रति वर्ष जनसंख्या में चक्रवृद्धि प्रतिशत वृद्धि क्या है?",
+    "o": [
+      "(a) 8%",
+      "(b) 10%",
+      "(c) 12%",
+      "(d) 15%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nInitial Population : Final Population $= 100000 : 161051$.\nTime period $= 5$ years, isliye 1 year ka factor nikalne ke liye 5th root $(\\sqrt[5]{\\phantom{x}})$ lenge:\n$\\sqrt[5]{100000} : \\sqrt[5]{161051} = 10 : 11$.\n(Kyunki $10^5 = 100000$ aur $11^5 = 161051$).\nHar saal badhav $= 11 - 10 = 1$ unit (10 ke base par).\nCompounded annual growth rate $= \\frac{1}{10} \\times 100\\% = 10\\%$.\n\nMethod 2 (100-Base Reference Method):\nGrowth multiplier $= \\frac{161051}{100000} = 1.61051$.\nHum jante hain ki $(1 + r)^5 = 1.61051$.\n$(1.1)^5 = 1.61051$ hota hai, isliye $1 + r = 1.10 \\implies r = 0.10 = 10\\%$."
   }
 ]
