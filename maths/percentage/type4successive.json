@@ -1,0 +1,220 @@
+[
+  {
+    "qe": "Aman's salary was increased by 40%. After some time, his new salary was also increased by 40%. Find his overall percentage gain in salary.",
+    "qh": "अमन के वेतन में 40% की वृद्धि की गई। कुछ समय बाद उसके नए वेतन में भी 40% की वृद्धि की गई। उसके वेतन में कुल कितने प्रतिशत का लाभ हुआ?",
+    "o": [
+      "(a) 80%",
+      "(b) 96%",
+      "(c) 84%",
+      "(d) 92%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Successive Formula):\nFormula: $a + b + \\frac{ab}{100}$\nYahan $a = +40\\%$ aur $b = +40\\%$:\n$= 40 + 40 + \\frac{40 \\times 40}{100} = 80 + 16 = 96\\%$.\n\nMethod 2 (Ratio Method):\n$40\\% = \\frac{2}{5} \\implies$ Har baar salary $5$ se badhkar $7$ ho rahi hai.\nInitial Salary : Final Salary $= (5 \\times 5) : (7 \\times 7) = 25 : 49$.\nNet increase $= 49 - 25 = 24$ units (25 ke base par).\nPercentage gain $= \\frac{24}{25} \\times 100\\% = 24 \\times 4\\% = 96\\%$."
+  },
+  {
+    "qe": "The salary of a technician is increased by 20% and then the increased salary is reduced by 20%. The percentage loss in the salary of the technician is:",
+    "qh": "एक तकनीशियन के वेतन में 20% की वृद्धि की जाती है और फिर बढ़े हुए वेतन में 20% की कमी की जाती है। तकनीशियन के वेतन में प्रतिशत हानि क्या है?",
+    "o": [
+      "(a) 2%",
+      "(b) 4%",
+      "(c) 5%",
+      "(d) 1%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Direct Shortcut for Equal Change):\nJab kisi value ko pehle $x\\%$ badhayein aur fir $x\\%$ ghatayein, toh hamesha loss hota hai:\n$\\text{Loss}\\% = \\frac{x^2}{100} = \\frac{20^2}{100} = \\frac{400}{100} = 4\\%$.\n\nMethod 2 (Ratio Method):\nIncrease: $20\\% = \\frac{1}{5} \\implies 5 : 6$.\nDecrease: $20\\% = \\frac{1}{5} \\implies 5 : 4$.\nInitial : Final $= (5 \\times 5) : (6 \\times 4) = 25 : 24$.\nLoss $= 25 - 24 = 1$ unit.\nPercentage loss $= \\frac{1}{25} \\times 100\\% = 4\\%$."
+  },
+  {
+    "qe": "The price of a jacket is increased by 25% and then again increased by 20%. What is the net percentage increase in price?",
+    "qh": "एक जैकेट के मूल्य में 25% की वृद्धि की जाती है और फिर से 20% की वृद्धि की जाती है। मूल्य में कुल कितने प्रतिशत की वृद्धि हुई?",
+    "o": [
+      "(a) 45%",
+      "(b) 48%",
+      "(c) 50%",
+      "(d) 52%"
+    ],
+    "a": "C",
+    "e": "Method 1 (Successive Formula):\nFormula: $a + b + \\frac{ab}{100}$\nYahan $a = +25\\%$ aur $b = +20\\%$:\n$= 25 + 20 + \\frac{25 \\times 20}{100} = 45 + 5 = 50\\%$.\n\nMethod 2 (Ratio Method):\n$25\\% = \\frac{1}{4} \\implies 4 : 5$.\n$20\\% = \\frac{1}{5} \\implies 5 : 6$.\nInitial : Final $= (4 \\times 5) : (5 \\times 6) = 4 : 6 = 2 : 3$.\nIncrease $= 3 - 2 = 1$ unit (2 ke base par).\nPercentage increase $= \\frac{1}{2} \\times 100\\% = 50\\%$."
+  },
+  {
+    "qe": "A number was mistakenly increased by 30% instead of being decreased by 10%. By what percent is the final result more than the correct value?",
+    "qh": "एक संख्या में 10% की कमी करने के बजाय गलती से 30% की वृद्धि कर दी गई। अंतिम परिणाम सही मान से कितने प्रतिशत अधिक है?",
+    "o": [
+      "(a) 40.00%",
+      "(b) 44.44%",
+      "(c) 42.50%",
+      "(d) 45.25%"
+    ],
+    "a": "B",
+    "e": "Method 1 (100-Base Method):\nOriginal number ko $100$ maan lo.\nCorrect value $= 100 - 10 = 90$.\nIncorrect obtained value $= 100 + 30 = 130$.\nDifference $= 130 - 90 = 40$.\nCorrect value (90) ke base par percentage excess:\n$= \\frac{40}{90} \\times 100\\% = \\frac{4}{9} \\times 100\\% = 44.44\\%$.\n\nMethod 2 (Ratio Method):\nCorrect ratio $= 1 - \\frac{1}{10} = \\frac{9}{10}$.\nObtained ratio $= 1 + \\frac{3}{10} = \\frac{13}{10}$.\nCorrect : Obtained $= 9 : 13$.\nExcess $= 13 - 9 = 4$ units on base 9.\nPercentage excess $= \\frac{4}{9} = 44.44\\%$."
+  },
+  {
+    "qe": "In an organization, all employees get equal wages. If the number of employees is increased by 25% and their wages per head are decreased by 12%, what is the percentage change in total wages?",
+    "qh": "एक संस्था में सभी कर्मचारियों को समान मजदूरी मिलती है। यदि कर्मचारियों की संख्या में 25% की वृद्धि की जाती है और प्रति व्यक्ति मजदूरी में 12% की कमी की जाती है, तो कुल मजदूरी में प्रतिशत परिवर्तन क्या है?",
+    "o": [
+      "(a) 8% increase",
+      "(b) 10% increase",
+      "(c) 12% increase",
+      "(d) 10% decrease"
+    ],
+    "a": "B",
+    "e": "Method 1 (Successive Formula):\n$\\text{Total Wages} = \\text{Employees} \\times \\text{Wages per head}$.\nFormula: $a + b + \\frac{ab}{100}$\nYahan $a = +25\\%$ aur $b = -12\\%$:\n$= 25 - 12 + \\frac{25 \\times (-12)}{100} = 13 - 3 = +10\\%$ (10% increase).\n\nMethod 2 (Ratio Method):\nEmployees: $25\\% = \\frac{1}{4} \\implies 4 : 5$.\nWages: $12\\% = \\frac{3}{25} \\implies 25 : 22$.\nTotal Wages $= (4 \\times 25) : (5 \\times 22) = 100 : 110$.\nIncrease $= 110 - 100 = 10\\%$ increase."
+  },
+  {
+    "qe": "If the price of an article increases successively by 20% and 15%, respectively, then what is the single percentage price increase equivalent to these two increases?",
+    "qh": "यदि किसी वस्तु के मूल्य में क्रमशः 20% और 15% की क्रमिक वृद्धि होती है, तो इन दोनों वृद्धियों के समतुल्य एकल प्रतिशत मूल्य वृद्धि क्या है?",
+    "o": [
+      "(a) 35%",
+      "(b) 36%",
+      "(c) 38%",
+      "(d) 40%"
+    ],
+    "a": "C",
+    "e": "Method 1 (Successive Formula):\nNet Change $= a + b + \\frac{ab}{100}$\nYahan $a = 20\\%$ aur $b = 15\\%$:\n$= 20 + 15 + \\frac{20 \\times 15}{100} = 35 + 3 = 38\\%$.\n\nMethod 2 (Ratio Method):\n$20\\% = \\frac{1}{5} \\implies 5 : 6$.\n$15\\% = \\frac{3}{20} \\implies 20 : 23$.\nInitial : Final $= (5 \\times 20) : (6 \\times 23) = 100 : 138$.\nDirect 100 par increase $= 138 - 100 = 38\\%$."
+  },
+  {
+    "qe": "The population of a city first decreased by 15% due to an epidemic. The next year, the population increased by 20% due to better healthcare facilities. What is the net percentage change in the population?",
+    "qh": "एक महामारी के कारण एक शहर की जनसंख्या में पहले 15% की कमी आई। अगले वर्ष, बेहतर स्वास्थ्य सुविधाओं के कारण जनसंख्या में 20% की वृद्धि हुई। जनसंख्या में शुद्ध प्रतिशत परिवर्तन क्या है?",
+    "o": [
+      "(a) 2% increase",
+      "(b) 5% increase",
+      "(c) 2% decrease",
+      "(d) 4% decrease"
+    ],
+    "a": "A",
+    "e": "Method 1 (Successive Formula):\nFormula: $a + b + \\frac{ab}{100}$\nYahan $a = -15\\%$ aur $b = +20\\%$:\n$= -15 + 20 + \\frac{(-15) \\times 20}{100} = 5 - 3 = +2\\%$ (2% increase).\n\nMethod 2 (Ratio Method):\nDecrease: $15\\% = \\frac{3}{20} \\implies 20 : 17$.\nIncrease: $20\\% = \\frac{1}{5} \\implies 5 : 6$.\nInitial : Final $= (20 \\times 5) : (17 \\times 6) = 100 : 102$.\nNet change $= 102 - 100 = 2\\%$ increase."
+  },
+  {
+    "qe": "The price of a watch is first increased by 30% and then decreased by 40% due to clearance sale. Find the net percentage change in the final price of the watch.",
+    "qh": "एक घड़ी के मूल्य में पहले 30% की वृद्धि की जाती है और फिर क्लीयरेंस सेल के कारण 40% की कमी की जाती है। घड़ी के अंतिम मूल्य में शुद्ध प्रतिशत परिवर्तन ज्ञात कीजिए।",
+    "o": [
+      "(a) -18%",
+      "(b) -22%",
+      "(c) +18%",
+      "(d) -10%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Successive Formula):\nFormula: $a + b + \\frac{ab}{100}$\nYahan $a = +30\\%$ aur $b = -40\\%$:\n$= 30 - 40 + \\frac{30 \\times (-40)}{100} = -10 - 12 = -22\\%$ (22% decrease).\n\nMethod 2 (100-Base Method):\nInitial price $= 100$.\nPehle $30\\%$ badha $\\implies 100 + 30 = 130$.\nAb $130$ par $40\\%$ kami $= 130 - (0.40 \\times 130) = 130 - 52 = 78$.\nNet change over base $100 = 78 - 100 = -22\\%$."
+  },
+  {
+    "qe": "A number is first decreased by 15% and the resulting number is then increased by 20%. What is the overall percentage change in the original number?",
+    "qh": "एक संख्या में पहले 15% की कमी की जाती है और परिणामी संख्या में फिर 20% की वृद्धि की जाती है। मूल संख्या में कुल कितने प्रतिशत का परिवर्तन हुआ?",
+    "o": [
+      "(a) Increase by 2%",
+      "(b) Decrease by 2%",
+      "(c) Increase by 5%",
+      "(d) Decrease by 3.5%"
+    ],
+    "a": "A",
+    "e": "Method 1 (Successive Formula):\nFormula: $a + b + \\frac{ab}{100}$\nYahan $a = -15\\%$ aur $b = +20\\%$:\n$= -15 + 20 + \\frac{(-15) \\times 20}{100} = 5 - 3 = +2\\%$ (Increase by 2%).\n\nMethod 2 (Ratio Method):\nDecrease: $15\\% = \\frac{3}{20} \\implies 20 : 17$.\nIncrease: $20\\% = \\frac{1}{5} \\implies 5 : 6$.\nInitial : Final $= (20 \\times 5) : (17 \\times 6) = 100 : 102$.\nOverall change $= 102 - 100 = +2\\%$ (Increase by 2%)."
+  },
+  {
+    "qe": "The price of a product increases by 15% in the first year and 20% in the second year. What is the overall percentage increase in the price of the product over the two years?",
+    "qh": "एक वस्तु के मूल्य में पहले वर्ष में 15% और दूसरे वर्ष में 20% की वृद्धि होती है। दो वर्षों में वस्तु के मूल्य में कुल कितने प्रतिशत की वृद्धि होगी?",
+    "o": [
+      "(a) 35%",
+      "(b) 38%",
+      "(c) 36%",
+      "(d) 40%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Successive Formula):\nNet Increase $= a + b + \\frac{ab}{100}$\nYahan $a = 15\\%$ aur $b = 20\\%$:\n$= 15 + 20 + \\frac{15 \\times 20}{100} = 35 + 3 = 38\\%$.\n\nMethod 2 (Ratio Method):\nYear 1: $15\\% = \\frac{3}{20} \\implies 20 : 23$.\nYear 2: $20\\% = \\frac{1}{5} \\implies 5 : 6$.\nInitial : Final $= (20 \\times 5) : (23 \\times 6) = 100 : 138$.\nTotal increase $= 138 - 100 = 38\\%$."
+  },
+
+  {
+    "qe": "The price of an electric bicycle increases successively by 10%, 15%, and 20%. What is the total percentage increase in the price of the bicycle?",
+    "qh": "एक इलेक्ट्रिक साइकिल के मूल्य में क्रमशः 10%, 15% और 20% की क्रमिक वृद्धि होती है। साइकिल के मूल्य में कुल कितने प्रतिशत की वृद्धि हुई?",
+    "o": [
+      "(a) 48.5%",
+      "(b) 51.8%",
+      "(c) 50.4%",
+      "(d) 52.2%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n$10\\% = \\frac{1}{10} \\implies 10 : 11$.\n$15\\% = \\frac{3}{20} \\implies 20 : 23$.\n$20\\% = \\frac{1}{5} \\implies 5 : 6$.\nInitial Price : Final Price $= (10 \\times 20 \\times 5) : (11 \\times 23 \\times 6) = 1000 : 1518$.\nNet increase $= 1518 - 1000 = 518$ units.\nPercentage increase $= \\frac{518}{1000} \\times 100\\% = 51.8\\%$.\n\nMethod 2 (Successive Formula Step-by-Step):\nPehle do changes ($10\\%$ aur $15\\%$) ka net:\n$= 10 + 15 + \\frac{10 \\times 15}{100} = 25 + 1.5 = 26.5\\%$.\nAb $26.5\\%$ aur teesre change ($20\\%$) ka net:\n$= 26.5 + 20 + \\frac{26.5 \\times 20}{100} = 46.5 + 5.3 = 51.8\\%$."
+  },
+  {
+    "qe": "Instead of increasing a number successively by 10% and 20%, it is mistakenly decreased by 15%. The resultant value obtained is what percentage of the required correct value?",
+    "qh": "किसी संख्या में क्रमशः 10% और 20% की क्रमिक वृद्धि करने के बजाय, इसे गलती से 15% घटा दिया जाता है। प्राप्त परिणामी मान आवश्यक सही मान का कितना प्रतिशत है?",
+    "o": [
+      "(a) 62.5%",
+      "(b) 64.39%",
+      "(c) 65.0%",
+      "(d) 66.67%"
+    ],
+    "a": "B",
+    "e": "Method 1 (100-Base Method):\nOriginal number ko $100$ maan lo.\nCorrect value: $10\\%$ aur $20\\%$ badhne ke baad:\n$= 10 + 20 + \\frac{10 \\times 20}{100} = 32\\% \\implies \\text{Correct Value} = 132$.\nIncorrect value: $15\\%$ ghatne ke baad:\n$= 100 - 15 = 85$.\nPercentage of correct value $= \\frac{85}{132} \\times 100\\% = \\frac{8500}{132}\\% \\approx 64.39\\%$.\n\nMethod 2 (Ratio Method):\nCorrect multiplier $= \\frac{11}{10} \\times \\frac{6}{5} = \\frac{66}{50} = \\frac{132}{100}$.\nIncorrect multiplier $= 1 - \\frac{3}{20} = \\frac{17}{20} = \\frac{85}{100}$.\nRatio $= \\frac{85}{132}$.\nPercentage $= \\frac{85}{132} \\times 100\\% \\approx 64.39\\%$."
+  },
+  {
+    "qe": "The price of a machine increases and decreases in alternate years by 20%. It started with an increase in 2021. What is the overall percentage change in the price of the machine in 2024 as compared to 2021?",
+    "qh": "एक मशीन के मूल्य में प्रत्येक एकांतर वर्ष में 20% की वृद्धि और कमी होती है। इसकी शुरुआत 2021 में वृद्धि के साथ हुई थी। 2021 की तुलना में 2024 में मशीन के मूल्य में कुल कितने प्रतिशत का परिवर्तन हुआ?",
+    "o": [
+      "(a) 15.2% increase",
+      "(b) 15.2% decrease",
+      "(c) 12.5% increase",
+      "(d) 12.5% decrease"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio Method):\nTotal 3 saal ka badlav hoga (2021 to 2022: increase, 2022 to 2023: decrease, 2023 to 2024: increase).\n$20\\% = \\frac{1}{5}$.\nYear 1 (+20%): $5 : 6$\nYear 2 (-20%): $5 : 4$\nYear 3 (+20%): $5 : 6$\nInitial : Final $= (5 \\times 5 \\times 5) : (6 \\times 4 \\times 6) = 125 : 144$.\nIncrease $= 144 - 125 = 19$ units (125 par).\nPercentage change $= \\frac{19}{125} \\times 100\\% = \\frac{19 \\times 4}{5}\\% = 15.2\\%$ increase.\n\nMethod 2 (100-Base Method):\nInitial price $= 100$.\nAfter Year 1: $100 + 20\\% = 120$.\nAfter Year 2: $120 - 20\\% \\text{ of } 120 = 120 - 24 = 96$.\nAfter Year 3: $96 + 20\\% \\text{ of } 96 = 96 + 19.2 = 115.2$.\nNet change over base $100 = 115.2 - 100 = +15.2\\%$ (Increase)."
+  },
+  {
+    "qe": "Two successive percentage decreases of 20% each is by what percentage less than two successive percentage increases of 20% each?",
+    "qh": "प्रत्येक 20% की दो क्रमिक प्रतिशत कमियां, प्रत्येक 20% की दो क्रमिक प्रतिशत वृद्धियों से कितने प्रतिशत कम हैं?",
+    "o": [
+      "(a) 50.00%",
+      "(b) 55.56%",
+      "(c) 44.44%",
+      "(d) 52.50%"
+    ],
+    "a": "B",
+    "e": "Method 1 (100-Base Method):\nInitial base $= 100$.\n1. Two successive increases of $20\\%$:\n$= 20 + 20 + \\frac{20 \\times 20}{100} = 44\\% \\implies \\text{Value} = 100 + 44 = 144$.\n2. Two successive decreases of $20\\%$:\n$= -20 - 20 + \\frac{(-20)(-20)}{100} = -36\\% \\implies \\text{Value} = 100 - 36 = 64$.\nDifference $= 144 - 64 = 80$.\nRequired percentage reduction (comparing with the increased value 144):\n$= \\frac{80}{144} \\times 100\\% = \\frac{5}{9} \\times 100\\% = 55.56\\%$.\n\nMethod 2 (Ratio Method):\nSuccessive increase multiplier $= \\left(\\frac{6}{5}\\right)^2 = \\frac{36}{25} = \\frac{144}{100}$.\nSuccessive decrease multiplier $= \\left(\\frac{4}{5}\\right)^2 = \\frac{16}{25} = \\frac{64}{100}$.\nRatio $= 144 : 64 = 9 : 4$.\nKami $= 9 - 4 = 5$ units (base 9 par).\nPercentage less $= \\frac{5}{9} \\times 100\\% = 55.56\\%$."
+  },
+  {
+    "qe": "After two successive equal percentage increments, a person's salary became 144% of the original salary. What was the percentage of each increment?",
+    "qh": "दो समान क्रमिक प्रतिशत वृद्धियों के बाद, एक व्यक्ति का वेतन मूल वेतन का 144% हो गया। प्रत्येक वृद्धि का प्रतिशत क्या था?",
+    "o": [
+      "(a) 18%",
+      "(b) 20%",
+      "(c) 22%",
+      "(d) 24%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nInitial Salary : Final Salary $= 100 : 144$.\nDo bar barabar badhav hua hai, isliye single step ka ratio nikalne ke liye square root lenge:\nInitial : Final (per step) $= \\sqrt{100} : \\sqrt{144} = 10 : 12 = 5 : 6$.\nIncrease per step $= 6 - 5 = 1$ unit (5 par).\nPercentage of each increment $= \\frac{1}{5} \\times 100\\% = 20\\%$.\n\nMethod 2 (Successive Check Method):\nAgar each increment $x = 20\\%$ hai:\nNet change $= 20 + 20 + \\frac{20 \\times 20}{100} = 40 + 4 = 44\\%$.\nSalary $100\\% + 44\\% = 144\\%$ ho jayegi, jo question ke data se match karti hai. Isliye answer 20% hoga."
+  },
+  {
+    "qe": "An investor invested ₹3,00,000 in shares. The shares rose by 20% on the first day, fell by 10% on the second day, and then fell by 5% on the third day. What is the net percentage change in the value of the investor's shares?",
+    "qh": "एक निवेशक ने शेयरों में ₹3,00,000 का निवेश किया। पहले दिन शेयरों में 20% की वृद्धि हुई, दूसरे दिन 10% की गिरावट आई और फिर तीसरे दिन 5% की गिरावट आई। निवेशक के शेयरों के मूल्य में कुल कितने प्रतिशत का परिवर्तन हुआ?",
+    "o": [
+      "(a) 2.6% increase",
+      "(b) 2.6% decrease",
+      "(c) 3.2% increase",
+      "(d) 3.2% decrease"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio Method):\nInitial amount (₹3,00,000) par percentage change depend nahi karega.\nDay 1 (+20%): $5 : 6$\nDay 2 (-10%): $10 : 9$\nDay 3 (-5%): $20 : 19$\nInitial : Final $= (5 \\times 10 \\times 20) : (6 \\times 9 \\times 19) = 1000 : 1026$.\nNet change $= 1026 - 1000 = +26$ units.\nPercentage increase $= \\frac{26}{1000} \\times 100\\% = 2.6\\%$ increase.\n\nMethod 2 (100-Base Method):\nInitial value $= 100$.\nAfter Day 1 (+20%): $100 \\times 1.20 = 120$.\nAfter Day 2 (-10%): $120 - (10\\% \\text{ of } 120) = 120 - 12 = 108$.\nAfter Day 3 (-5%): $108 - (5\\% \\text{ of } 108) = 108 - 5.4 = 102.6$.\nNet change over 100 base $= 102.6 - 100 = +2.6\\%$ (2.6% increase)."
+  },
+  
+  {
+    "qe": "If Rohan's salary was decreased by 40% and subsequently increased by 40%, then how much percent did he lose?",
+    "qh": "यदि रोहन के वेतन में 40% की कमी की गई और उसके बाद 40% की वृद्धि की गई, तो उसे कितने प्रतिशत का नुकसान हुआ?",
+    "o": [
+      "(a) 12%",
+      "(b) 16%",
+      "(c) 20%",
+      "(d) 24%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Equal Change Direct Shortcut):\nJab kisi value ko pehle $x\\%$ ghataya jaye aur fir $x\\%$ badhaya jaye, toh hamesha loss hota hai:\n$\\text{Loss}\\% = \\frac{x^2}{100} = \\frac{40^2}{100} = \\frac{1600}{100} = 16\\%$.\n\nMethod 2 (Ratio Method):\nDecrease: $40\\% = \\frac{2}{5} \\implies 5 : 3$.\nIncrease: $40\\% = \\frac{2}{5} \\implies 5 : 7$.\nInitial Salary : Final Salary $= (5 \\times 5) : (3 \\times 7) = 25 : 21$.\nLoss $= 25 - 21 = 4$ units (25 ke base par).\nPercentage loss $= \\frac{4}{25} \\times 100\\% = 16\\%$."
+  },
+  {
+    "qe": "Two successive price increases of 30% and 30% of an article are equivalent to a single price increase of:",
+    "qh": "किसी वस्तु के मूल्य में 30% और 30% की दो क्रमिक वृद्धियां एकल मूल्य वृद्धि के कितने प्रतिशत के बराबर हैं?",
+    "o": [
+      "(a) 60.00%",
+      "(b) 66.00%",
+      "(c) 69.00%",
+      "(d) 72.00%"
+    ],
+    "a": "C",
+    "e": "Method 1 (Successive Formula):\nNet Increase $= a + b + \\frac{ab}{100}$\nYahan $a = +30\\%$ aur $b = +30\\%$:\n$= 30 + 30 + \\frac{30 \\times 30}{100} = 60 + 9 = 69\\%$.\n\nMethod 2 (Ratio Method):\n$30\\% = \\frac{3}{10} \\implies$ Har step me ratio $10 : 13$ hoga.\nInitial Price : Final Price $= (10 \\times 10) : (13 \\times 13) = 100 : 169$.\nBase 100 par net increase $= 169 - 100 = 69\\%$."
+  }
+]
