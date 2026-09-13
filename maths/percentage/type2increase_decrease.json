@@ -1,0 +1,80 @@
+[
+  {
+    "qe": "If the price of a product increases by 60%, by what percent should the consumption be reduced to keep the expenditure same?",
+    "qh": "यदि किसी वस्तु के मूल्य में 60% की वृद्धि होती है, तो खर्च को समान रखने के लिए उपभोग में कितने प्रतिशत की कमी की जानी चाहिए?",
+    "o": [
+      "(a) 35%",
+      "(b) 37.5%",
+      "(c) 40%",
+      "(d) 42.5%"
+    ],
+    "a": "B",
+    "ee": "Method 1 (Ratio / Inverse Relation Method):\nPrice increase $= 60\\% = \\frac{3}{5}$.\nInitial Price : Increased Price $= 5 : 8$.\nSince $\\text{Expenditure} = \\text{Price} \\times \\text{Consumption} = \\text{Constant}$,\nConsumption must be inversely proportional to price:\nInitial Consumption : Reduced Consumption $= 8 : 5$.\nReduction in consumption $= 8 - 5 = 3$ units on base of 8 units.\nPercentage reduction $= \\frac{3}{8} \\times 100\\% = 3 \\times 12.5\\% = 37.5\\%$.\n\nMethod 2 (100-Base Method):\nLet initial expenditure $= 100$.\nPrice increases by $60\\% \\implies$ New cost $= 160$.\nTo keep the expenditure at 100, the reduction needed $= 160 - 100 = 60$.\nThis reduction of 60 must be calculated on the increased base of 160:\nPercentage reduction $= \\frac{60}{160} \\times 100\\% = \\frac{3}{8} \\times 100\\% = 37.5\\%$.",
+    "eh": "विधि 1 (अनुपात / व्युत्क्रमानुपाती विधि):\nमूल्य में वृद्धि $= 60\\% = \\frac{3}{5}$.\nप्रारंभिक मूल्य : नया मूल्य $= 5 : 8$.\nचूँकि $\\text{खर्च} = \\text{मूल्य} \\times \\text{उपभोग} = \\text{स्थिर}$ है,\nअतः उपभोग का अनुपात मूल्य के व्युत्क्रम होगा:\nप्रारंभिक उपभोग : नया उपभोग $= 8 : 5$.\nउपभोग में कमी $= 8 - 5 = 3$ इकाई (8 के आधार पर)।\nप्रतिशत कमी $= \\frac{3}{8} \\times 100\\% = 37.5\\%$.\n\nविधि 2 (100 आधार विधि):\nमाना प्रारंभिक खर्च $= 100$.\nमूल्य $60\\%$ बढ़ने पर नया खर्च $= 160$.\nखर्च को पुनः 100 पर लाने के लिए आवश्यक कमी $= 160 - 100 = 60$.\nयह 60 की कमी नए आधार 160 पर होगी:\nप्रतिशत कमी $= \\frac{60}{160} \\times 100\\% = \\frac{3}{8} \\times 100\\% = 37.5\\%$."
+  },
+  {
+    "qe": "The price of pulses has increased by 35%. By what percentage (rounded off to the nearest integer) the increased price of the pulses should be reduced so that the price of the pulses remains unaltered?",
+    "qh": "दालों के मूल्य में 35% की वृद्धि हुई है। दालों के बढ़े हुए मूल्य को कितने प्रतिशत (निकटतम पूर्णांक तक) कम किया जाना चाहिए ताकि दालों का मूल्य अपरिवर्तित रहे?",
+    "o": [
+      "(a) 24",
+      "(b) 26",
+      "(c) 28",
+      "(d) 30"
+    ],
+    "a": "B",
+    "ee": "Method 1 (Ratio Method):\nPrice increase $= 35\\% = \\frac{7}{20}$.\nInitial Price : Increased Price $= 20 : (20 + 7) = 20 : 27$.\nTo restore the original price, the reduction required $= 27 - 20 = 7$ units.\nThis reduction is made on the increased base of 27 units:\nPercentage reduction $= \\frac{7}{27} \\times 100\\% = \\frac{700}{27}\\% \\approx 25.925\\% \\approx 26\\%$.\n\nMethod 2 (100-Base Method):\nLet initial price $= 100$.\nIncreased price $= 100 + 35 = 135$.\nReduction required to return to $100 = 135 - 100 = 35$.\nPercentage reduction on the increased price of $135$:\n$= \\frac{35}{135} \\times 100\\% = \\frac{7}{27} \\times 100\\% \\approx 25.925\\% \\approx 26\\%$.",
+    "eh": "विधि 1 (अनुपात विधि):\nमूल्य में वृद्धि $= 35\\% = \\frac{7}{20}$.\nप्रारंभिक मूल्य : बढ़ा हुआ मूल्य $= 20 : 27$.\nमूल्य को पुनः प्रारंभिक स्तर पर लाने के लिए कमी $= 27 - 20 = 7$ इकाई।\nयह कमी बढ़े हुए मूल्य 27 पर की जाएगी:\nप्रतिशत कमी $= \\frac{7}{27} \\times 100\\% = \\frac{700}{27}\\% \\approx 25.925\\% \\approx 26\\%$.\n\nविधि 2 (100 आधार विधि):\nमाना प्रारंभिक मूल्य $= 100$.\nबढ़ा हुआ मूल्य $= 135$.\nपुनः 100 पर आने के लिए आवश्यक कमी $= 135 - 100 = 35$.\nबढ़े हुए मूल्य 135 पर प्रतिशत कमी:\n$= \\frac{35}{135} \\times 100\\% = \\frac{7}{27} \\times 100\\% \\approx 25.925\\% \\approx 26\\%$."
+  },
+  {
+    "qe": "A population falls by 15% in the first year. By what percentage must it increase in the second year so that at the end of the second year the population is exactly the same as the original?",
+    "qh": "पहले वर्ष में एक जनसंख्या में 15% की गिरावट आती है। दूसरे वर्ष में इसमें कितने प्रतिशत की वृद्धि होनी चाहिए ताकि दूसरे वर्ष के अंत में जनसंख्या मूल जनसंख्या के बिल्कुल समान हो जाए?",
+    "o": [
+      "(a) 15.6%",
+      "(b) 16.8%",
+      "(c) 17.6%",
+      "(d) 18.2%"
+    ],
+    "a": "C",
+    "ee": "Method 1 (Ratio Method):\nDecline in population $= 15\\% = \\frac{3}{20}$.\nOriginal Population : Decreased Population $= 20 : (20 - 3) = 20 : 17$.\nTo return to the original level of 20, the increase needed $= 20 - 17 = 3$ units.\nBase for this increase is the reduced population (17 units):\nPercentage increase $= \\frac{3}{17} \\times 100\\% = \\frac{300}{17}\\% \\approx 17.647\\% \\approx 17.6\\%$.\n\nMethod 2 (100-Base Method):\nLet the initial population $= 100$.\nAfter a $15\\%$ decrease, population $= 100 - 15 = 85$.\nIncrease required to reach back to $100 = 100 - 85 = 15$.\nPercentage increase on the new base of $85$:\n$= \\frac{15}{85} \\times 100\\% = \\frac{3}{17} \\times 100\\% \\approx 17.6\\%$.",
+    "eh": "विधि 1 (अनुपात विधि):\nजनसंख्या में गिरावट $= 15\\% = \\frac{3}{20}$.\nप्रारंभिक जनसंख्या : घटी हुई जनसंख्या $= 20 : 17$.\nपुनः 20 पर पहुँचने के लिए आवश्यक वृद्धि $= 20 - 17 = 3$ इकाई।\nयह वृद्धि घटे हुए आधार 17 पर होगी:\nप्रतिशत वृद्धि $= \\frac{3}{17} \\times 100\\% = \\frac{300}{17}\\% \\approx 17.647\\% \\approx 17.6\\%$.\n\nविधि 2 (100 आधार विधि):\nमाना प्रारंभिक जनसंख्या $= 100$.\n$15\\%$ की कमी के बाद जनसंख्या $= 85$.\nपुनः 100 पर पहुँचने के लिए वृद्धि $= 100 - 85 = 15$.\n85 के आधार पर प्रतिशत वृद्धि:\n$= \\frac{15}{85} \\times 100\\% = \\frac{3}{17} \\times 100\\% \\approx 17.6\\%$."
+  },
+  {
+    "qe": "The salary of employees in a factory was reduced by 25% due to economic crisis. In order to have their salary back to original amount, it must be raised by:",
+    "qh": "आर्थिक संकट के कारण एक कारखाने में कर्मचारियों के वेतन में 25% की कमी की गई। उनका वेतन मूल राशि पर वापस लाने के लिए इसमें कितनी वृद्धि की जानी चाहिए?",
+    "o": [
+      "(a) 25%",
+      "(b) 30%",
+      "(c) 33\\frac{1}{3}%",
+      "(d) 40%"
+    ],
+    "a": "C",
+    "ee": "Method 1 (Ratio Method):\nReduction in salary $= 25\\% = \\frac{1}{4}$.\nOriginal Salary : Reduced Salary $= 4 : (4 - 1) = 4 : 3$.\nIncrease required to restore original salary $= 4 - 3 = 1$ unit.\nThis increase of 1 unit is on the reduced base of 3 units:\nPercentage raise $= \\frac{1}{3} \\times 100\\% = 33\\frac{1}{3}\\%$.\n\nMethod 2 (100-Base Method):\nLet original salary $= 100$.\nReduced salary $= 100 - 25 = 75$.\nAmount to be raised to reach $100 = 100 - 75 = 25$.\nPercentage raise on reduced base $75$:\n$= \\frac{25}{75} \\times 100\\% = \\frac{1}{3} \\times 100\\% = 33\\frac{1}{3}\\%$.",
+    "eh": "विधि 1 (अनुपात विधि):\nवेतन में कमी $= 25\\% = \\frac{1}{4}$.\nमूल वेतन : घटा हुआ वेतन $= 4 : 3$.\nवेतन को पुनः मूल मान पर लाने के लिए आवश्यक वृद्धि $= 4 - 3 = 1$ इकाई।\nयह वृद्धि घटे हुए आधार 3 इकाई पर होगी:\nप्रतिशत वृद्धि $= \\frac{1}{3} \\times 100\\% = 33\\frac{1}{3}\\%$.\n\nविधि 2 (100 आधार विधि):\nमाना मूल वेतन $= 100$.\nघटने के बाद वेतन $= 75$.\nपुनः 100 पर पहुँचने के लिए आवश्यक वृद्धि $= 100 - 75 = 25$.\nघटे हुए आधार 75 पर प्रतिशत वृद्धि:\n$= \\frac{25}{75} \\times 100\\% = \\frac{1}{3} \\times 100\\% = 33\\frac{1}{3}\\%$."
+  },
+  {
+    "qe": "If Ramu's salary is 40% less than Somu's salary, then by how much percent is Somu's salary more than Ramu's salary?",
+    "qh": "यदि रामू का वेतन सोमु के वेतन से 40% कम है, तो सोमु का वेतन रामू के वेतन से कितने प्रतिशत अधिक है?",
+    "o": [
+      "(a) 60%",
+      "(b) 66.67%",
+      "(c) 70%",
+      "(d) 75%"
+    ],
+    "a": "B",
+    "ee": "Method 1 (Ratio Method):\n$40\\% = \\frac{2}{5}$.\nSomu's salary = 5 units.\nRamu's salary $= 5 - 2 = 3$ units.\nDifference between Somu and Ramu $= 5 - 3 = 2$ units.\nPercentage by which Somu's salary exceeds Ramu's salary (base = Ramu = 3 units):\n$= \\frac{2}{3} \\times 100\\% = 2 \\times 33.33\\% = 66.67\\%$.\n\nMethod 2 (100-Base Method):\nLet Somu's salary $= 100$.\nRamu's salary $= 100 - 40 = 60$.\nExcess of Somu's salary over Ramu's salary $= 100 - 60 = 40$.\nPercentage comparison with Ramu as base:\n$= \\frac{40}{60} \\times 100\\% = \\frac{2}{3} \\times 100\\% = 66.67\\%$.",
+    "eh": "विधि 1 (अनुपात विधि):\n$40\\% = \\frac{2}{5}$.\nसोमु का वेतन = 5 इकाई।\nरामू का वेतन $= 5 - 2 = 3$ इकाई।\nसोमु के वेतन की अधिकता $= 5 - 3 = 2$ इकाई।\nरामू के आधार (3 इकाई) पर प्रतिशत अधिकता:\n$= \\frac{2}{3} \\times 100\\% = 66.67\\%$.\n\nविधि 2 (100 आधार विधि):\nमाना सोमु का वेतन $= 100$.\nरामू का वेतन $= 100 - 40 = 60$.\nसोमु का वेतन रामू से अधिक है $= 100 - 60 = 40$.\nरामू के आधार (60) पर प्रतिशत अधिकता:\n$= \\frac{40}{60} \\times 100\\% = \\frac{2}{3} \\times 100\\% = 66.67\\%$."
+  },
+  {
+    "qe": "Shyam's income is 25% less than Ram's. How much is Ram's income more than Shyam's in percentage terms?",
+    "qh": "श्याम की आय राम की आय से 25% कम है। प्रतिशत के रूप में राम की आय श्याम की आय से कितनी अधिक है?",
+    "o": [
+      "(a) 20%",
+      "(b) 25%",
+      "(c) 33\\frac{1}{3}%",
+      "(d) 50%"
+    ],
+    "a": "C",
+    "ee": "Method 1 (Ratio Method):\n$25\\% = \\frac{1}{4}$.\nRam's income = 4 units.\nShyam's income $= 4 - 1 = 3$ units.\nExcess of Ram's income over Shyam's income $= 4 - 3 = 1$ unit.\nPercentage more than Shyam's income (base = Shyam = 3 units):\n$= \\frac{1}{3} \\times 100\\% = 33\\frac{1}{3}\\%$.\n\nMethod 2 (100-Base Method):\nLet Ram's income $= 100$.\nShyam's income $= 100 - 25 = 75$.\nExcess of Ram's income over Shyam's income $= 100 - 75 = 25$.\nPercentage comparison with Shyam's income ($75$) as base:\n$= \\frac{25}{75} \\times 100\\% = \\frac{1}{3} \\times 100\\% = 33\\frac{1}{3}\\%$.",
+    "eh": "विधि 1 (अनुपात विधि):\n$25\\% = \\frac{1}{4}$.\nराम की आय = 4 इकाई।\nश्याम की आय $= 4 - 1 = 3$ इकाई।\nराम की आय श्याम की तुलना में अधिक $= 4 - 3 = 1$ इकाई।\nश्याम के आधार (3 इकाई) पर प्रतिशत अधिकता:\n$= \\frac{1}{3} \\times 100\\% = 33\\frac{1}{3}\\%$.\n\nविधि 2 (100 आधार विधि):\nमाना राम की आय $= 100$.\nश्याम की आय $= 100 - 25 = 75$.\nराम की आय में अधिकता $= 100 - 75 = 25$.\nश्याम के आधार (75) पर प्रतिशत अधिकता:\n$= \\frac{25}{75} \\times 100\\% = \\frac{1}{3} \\times 100\\% = 33\\frac{1}{3}\\%$."
+  }
+]
