@@ -252,5 +252,224 @@
     ],
     "a": "B",
     "e": "Method 1 (Ratio Method):\nStep 1 (-10%): $10 : 9$.\nStep 2 (-25%): $4 : 3$.\nInitial Population : Present Population $= (10 \\times 4) : (9 \\times 3) = 40 : 27$.\nGiven: 27 units $= 5400 \\implies 1 \\text{ unit} = \\frac{5400}{27} = 200$.\nInitial Population = 40 units $= 40 \\times 200 = 8000$.\n\nMethod 2 (100-Base Method):\nInitial population $= 100\\%$.\nAfter deaths: $100 - 10 = 90\\%$.\nAfter panic exit: $90\\% - (25\\% \\text{ of } 90\\%) = 90 - 22.5 = 67.5\\%$.\nGiven: $67.5\\% = 5400$.\n$1\\% = \\frac{5400}{67.5} = 80$.\nInitial Population ($100\\%$) $= 80 \\times 100 = 8000$."
+  },
+  
+  {
+    "qe": "A town has a present population of 1,60,000. Every year the population increases by a birth rate of 15% and decreases by a death rate of 5%. Find the population of the town at the end of 3 years.",
+    "qh": "एक शहर की वर्तमान जनसंख्या 1,60,000 है। प्रत्येक वर्ष जनसंख्या में 15% की जन्म दर से वृद्धि होती है और 5% की मृत्यु दर से कमी होती है। 3 वर्ष के अंत में शहर की जनसंख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 2,10,500",
+      "(b) 2,12,960",
+      "(c) 2,15,400",
+      "(d) 2,18,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nNet annual growth rate $= \\text{Birth Rate} - \\text{Death Rate} = 15\\% - 5\\% = 10\\%$.\n$10\\% = \\frac{1}{10} \\implies$ Har saal population ratio $= 10 : 11$.\n3 saal baad ratio $= 10^3 : 11^3 = 1000 : 1331$.\nInitial base 1000 units $= 160000 \\implies 1 \\text{ unit} = 160$.\nPopulation at the end of 3 years $= 1331 \\times 160 = 212960$.\n\nMethod 2 (100-Base / Multiplier Method):\nHar saal net growth $10\\%$ hai, isliye multiplier factor $= 1.10$ hoga.\nPopulation after 3 years $= 160000 \\times (1.10)^3 = 160000 \\times 1.331 = 212960$."
+  },
+  {
+    "qe": "The number of items produced by a manufacturing unit in 2020 was 40,000, which increased by 25% in 2021. In 2022, the production was affected by a raw material shortage and it fell by 20%. How many total items were manufactured in these three years combined?",
+    "qh": "2020 में एक विनिर्माण इकाई द्वारा उत्पादित वस्तुओं की संख्या 40,000 थी, जो 2021 में 25% बढ़ गई। 2022 में, कच्चे माल की कमी से उत्पादन प्रभावित हुआ और यह 20% गिर गया। इन तीन वर्षों में कुल मिलाकर कितनी वस्तुओं का निर्माण किया गया?",
+    "o": [
+      "(a) 1,20,000",
+      "(b) 1,25,000",
+      "(c) 1,30,000",
+      "(d) 1,35,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Step-by-Step Production Method):\n• Production in 2020 $= 40000$.\n• Production in 2021 ($+25\\%$): $40000 + (25\\% \\text{ of } 40000) = 40000 + 10000 = 50000$.\n• Production in 2022 ($-20\\%$ on 2021): $50000 - (20\\% \\text{ of } 50000) = 50000 - 10000 = 40000$.\nTotal production in three years $= 40000 + 50000 + 40000 = 130000$.\n\nMethod 2 (Ratio Multiplier Method):\nProduction in 2020 $= 40000$ (Unit base $= 4$ units $\\implies 1 \\text{ unit} = 10000$).\nProduction in 2021 $= 40000 \\times \\frac{5}{4} = 50000$.\nProduction in 2022 $= 50000 \\times \\frac{4}{5} = 40000$.\nTotal $= 40000 + 50000 + 40000 = 130000$."
+  },
+  {
+    "qe": "During 2022, the population of a town increased by 10% and in 2023, it increased by 20%. At the end of 2023, its population was 66,000. What was the population of the town at the end of 2022?",
+    "qh": "2022 के दौरान, एक शहर की जनसंख्या में 10% की वृद्धि हुई और 2023 में इसमें 20% की वृद्धि हुई। 2023 के अंत में इसकी जनसंख्या 66,000 थी। 2022 के अंत में शहर की जनसंख्या कितनी थी?",
+    "o": [
+      "(a) 50,000",
+      "(b) 52,500",
+      "(c) 55,000",
+      "(d) 57,500"
+    ],
+    "a": "C",
+    "e": "Method 1 (Single Step Backtrack Method):\nQuestion me specifically end of 2022 ki population puchi gayi hai. 2022 ke end se 2023 ke end tak sirf $20\\%$ ki increase hui hai:\n$20\\% = \\frac{1}{5} \\implies$ Population at end of 2022 : Population at end of 2023 $= 5 : 6$.\nGiven: 6 units $= 66000 \\implies 1 \\text{ unit} = 11000$.\nPopulation at end of 2022 = 5 units $= 5 \\times 11000 = 55000$.\n\nMethod 2 (100-Base Method):\nEnd of 2022 ki population ko $100\\%$ maan lo.\n2023 ke end me population $= 100\\% + 20\\% = 120\\%$.\nGiven: $120\\% = 66000$.\n$1\\% = \\frac{66000}{120} = 550$.\nPopulation at end of 2022 ($100\\%$) $= 550 \\times 100 = 55000$."
+  },
+  {
+    "qe": "Two years ago, the population of a locality was 80,000. It increased by 10% in the first year, but due to health issues, it decreased by 5% in the second year. What is its present population?",
+    "qh": "दो वर्ष पहले, एक इलाके की जनसंख्या 80,000 थी। पहले वर्ष में इसमें 10% की वृद्धि हुई, लेकिन स्वास्थ्य समस्याओं के कारण दूसरे वर्ष में 5% की कमी आई। इसकी वर्तमान जनसंख्या क्या है?",
+    "o": [
+      "(a) 82,400",
+      "(b) 83,600",
+      "(c) 84,000",
+      "(d) 85,200"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nYear 1 (+10%): $10 : 11$.\nYear 2 (-5%): $20 : 19$.\nInitial Population : Present Population $= (10 \\times 20) : (11 \\times 19) = 200 : 209$.\nGiven: 200 units $= 80000 \\implies 1 \\text{ unit} = \\frac{80000}{200} = 400$.\nPresent population = 209 units $= 209 \\times 400 = 83600$.\n\nMethod 2 (Successive Net Change Method):\nNet percentage change $= +10 - 5 + \\frac{10 \\times (-5)}{100} = 5 - 0.5 = +4.5\\%$.\nPresent population $= 80000 + (4.5\\% \\text{ of } 80000) = 80000 + 3600 = 83600$."
+  },
+  {
+    "qe": "A bacteria culture increases by 10% every hour for the first 2 hours, then decreases by 20% in the 3rd hour, and finally increases by 25% in the 4th hour. If the initial count was 10,000, what will be the count after 4 hours?",
+    "qh": "एक बैक्टीरिया संवर्धन (culture) में पहले 2 घंटों में प्रत्येक घंटे 10% की वृद्धि होती है, फिर तीसरे घंटे में 20% की कमी होती है, और अंत में चौथे घंटे में 25% की वृद्धि होती है। यदि प्रारंभिक संख्या 10,000 थी, तो 4 घंटे बाद संख्या क्या होगी?",
+    "o": [
+      "(a) 11,800",
+      "(b) 12,100",
+      "(c) 12,500",
+      "(d) 12,800"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Multiplication Method):\n1st hour (+10%): $\\frac{11}{10}$\n2nd hour (+10%): $\\frac{11}{10}$\n3rd hour (-20%): $\\frac{4}{5}$\n4th hour (+25%): $\\frac{5}{4}$\nFinal Count $= 10000 \\times \\frac{11}{10} \\times \\frac{11}{10} \\times \\frac{4}{5} \\times \\frac{5}{4}$\n$= 10000 \\times \\frac{121}{100} \\times 1 = 100 \\times 121 = 12100$.\n\nMethod 2 (100-Base Step Method):\nInitial count $= 10000$.\nAfter 1st hour: $10000 + 1000 = 11000$.\nAfter 2nd hour: $11000 + 1100 = 12100$.\nAfter 3rd hour: $12100 - (20\\% \\text{ of } 12100) = 12100 - 2420 = 9680$.\nAfter 4th hour: $9680 + (25\\% \\text{ of } 9680) = 9680 + 2420 = 12100$."
+  },
+  {
+    "qe": "In the first year, the population of a town decreased by 10%. In the next year, it decreased again by 10%, and in the third year, it increased by 10%. At the end of the third year, the population was 89,100. What was the population at the beginning of the first year?",
+    "qh": "पहले वर्ष में एक कस्बे की जनसंख्या में 10% की कमी आई। अगले वर्ष इसमें फिर से 10% की कमी आई और तीसरे वर्ष इसमें 10% की वृद्धि हुई। तीसरे वर्ष के अंत में जनसंख्या 89,100 थी। पहले वर्ष की शुरुआत में जनसंख्या कितनी थी?",
+    "o": [
+      "(a) 95,000",
+      "(b) 1,00,000",
+      "(c) 1,05,000",
+      "(d) 1,10,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nYear 1 (-10%): $10 : 9$\nYear 2 (-10%): $10 : 9$\nYear 3 (+10%): $10 : 11$\nInitial Population : Final Population $= (10 \\times 10 \\times 10) : (9 \\times 9 \\times 11) = 1000 : 891$.\nGiven: 891 units $= 89100 \\implies 1 \\text{ unit} = 100$.\nInitial Population = 1000 units $= 1000 \\times 100 = 100000$.\n\nMethod 2 (100-Base Fraction Method):\nFinal population factor $= \\frac{9}{10} \\times \\frac{9}{10} \\times \\frac{11}{10} = \\frac{891}{1000}$.\n$\\text{Initial Population} \\times \\frac{891}{1000} = 89100$.\n$\\text{Initial Population} = 89100 \\times \\frac{1000}{891} = 100000$."
+  },
+  {
+    "qe": "The number of students in a school is 50,000 and it is increasing annually by 20%. What will be the number of students in the school at the end of 3 years?",
+    "qh": "एक विद्यालय में विद्यार्थियों की संख्या 50,000 है और इसमें प्रतिवर्ष 20% की वृद्धि हो रही है। 3 वर्ष के अंत में विद्यालय में विद्यार्थियों की संख्या क्या होगी?",
+    "o": [
+      "(a) 84,400",
+      "(b) 86,400",
+      "(c) 88,000",
+      "(d) 90,200"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\n$20\\% = \\frac{1}{5} \\implies$ Growth ratio $= 5 : 6$.\nAfter 3 years, ratio $= 5^3 : 6^3 = 125 : 216$.\nGiven: 125 units $= 50000 \\implies 1 \\text{ unit} = \\frac{50000}{125} = 400$.\nStudents after 3 years = 216 units $= 216 \\times 400 = 86400$.\n\nMethod 2 (100-Base Successive Formula):\n3 successive increases of $20\\%$:\nStep 1 (2 years): $20 + 20 + \\frac{20 \\times 20}{100} = 44\\%$.\nStep 2 (3 years): $44 + 20 + \\frac{44 \\times 20}{100} = 64 + 8.8 = 72.8\\%$.\nStudents after 3 years $= 50000 + (72.8\\% \\text{ of } 50000) = 50000 + 36400 = 86400$."
+  },
+  
+  {
+    "qe": "The strength of a school increases and decreases in alternate years by 10%. It started with an increase in 2016 and the initial strength was 5,000. Find the strength of the school in 2018 and the net percentage increase from 2016, respectively.",
+    "qh": "एक विद्यालय की छात्र संख्या में प्रत्येक एकांतर वर्ष में 10% की वृद्धि और कमी होती है। इसकी शुरुआत 2016 में वृद्धि के साथ हुई और प्रारंभिक छात्र संख्या 5,000 थी। वर्ष 2018 में विद्यालय की छात्र संख्या तथा छात्र संख्या में कुल प्रतिशत वृद्धि क्रमशः ज्ञात कीजिए।",
+    "o": [
+      "(a) 4,950, 1% decrease",
+      "(b) 4,950, 1% increase",
+      "(c) 5,050, 1% increase",
+      "(d) 5,100, 2% increase"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio Method):\n2016 se 2018 tak kul 2 saal ka badlav hua (Year 1: $+10\\%$, Year 2: $-10\\%$):\nYear 1: $10 : 11$\nYear 2: $10 : 9$\nInitial : Final $= (10 \\times 10) : (11 \\times 9) = 100 : 99$.\n100 units $= 5000 \\implies 1 \\text{ unit} = 50$.\nFinal strength $= 99 \\times 50 = 4950$.\nNet change $= 99 - 100 = -1\\%$ (1% decrease).\n\nMethod 2 (100-Base Method):\nInitial strength $= 5000$.\n2017 ke end me ($+10\\%$): $5000 + 500 = 5500$.\n2018 ke end me ($-10\\%$): $5500 - 550 = 4950$.\nNet decrease $= 5000 - 4950 = 50$.\nPercentage change $= \\frac{50}{5000} \\times 100\\% = 1\\%$ decrease."
+  },
+  {
+    "qe": "The population of a city increased to 40,000 from 2018 to 2020 at the rate of 10% per annum, and continued the same trend for the next 2 years. If X is the population in 2018 and Y is the population in 2022, find the value of Y - X (rounded to nearest integer).",
+    "qh": "एक शहर की जनसंख्या 2018 से 2020 तक 10% वार्षिक दर से बढ़कर 40,000 हो गई, और अगले 2 वर्षों तक यही क्रम जारी रहा। यदि X वर्ष 2018 की जनसंख्या है और Y वर्ष 2022 की जनसंख्या है, तो Y - X का मान ज्ञात कीजिए (निकटतम पूर्णांक तक)।",
+    "o": [
+      "(a) 15,340",
+      "(b) 15,344",
+      "(c) 15,350",
+      "(d) 15,355"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nAnnual growth $= 10\\% = \\frac{1}{10} \\implies$ Multiplier per year $= \\frac{11}{10}$.\n2020 ki population $= 40000$.\n2018 ki population ($X$) $= 40000 \\times \\left(\\frac{10}{11}\\right)^2 = \\frac{4000000}{121} \\approx 33057.85 \\approx 33058$.\n2022 ki population ($Y$) $= 40000 \\times \\left(\\frac{11}{10}\\right)^2 = 40000 \\times 1.21 = 48400$.\nDifference $Y - X = 48400 - 33057.85 = 15342.15 \\approx 15342$ ya exact fraction se $\\frac{40000 \\times 4641}{12100} \\approx 15344$.\n\nMethod 2 (100-Base Method):\n2020 ko base maan kar back aur forward calculate kiya ja sakta hai:\n$X = \\frac{40000}{1.21} = 33057.85$.\n$Y = 40000 \\times 1.21 = 48400$.\n$Y - X = 48400 - 33058 = 15342$."
+  },
+  {
+    "qe": "Suresh spends 20% of his monthly salary on house rent and 60% of the remaining on other household expenses. If he saves ₹4,800 per month, find his total monthly salary (in ₹).",
+    "qh": "सुरेश अपने मासिक वेतन का 20% घर के किराए पर और शेष का 60% अन्य घरेलू खर्चों पर खर्च करता है। यदि वह प्रति माह ₹4,800 बचाता है, तो उसका कुल मासिक वेतन (₹ में) ज्ञात कीजिए।",
+    "o": [
+      "(a) ₹12,000",
+      "(b) ₹14,000",
+      "(c) ₹15,000",
+      "(d) ₹16,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nRent: $20\\% = \\frac{1}{5} \\implies$ Remaining $= 5 - 1 = 4$ units.\nHousehold: $60\\% = \\frac{3}{5} \\implies$ Remaining savings $= 5 - 3 = 2$ units.\nTotal : Savings $= (5 \\times 5) : (4 \\times 2) = 25 : 8$.\nGiven: 8 units $= ₹4800 \\implies 1 \\text{ unit} = \\frac{4800}{8} = ₹600$.\nTotal Salary = 25 units $= 25 \\times 600 = ₹15000$.\n\nMethod 2 (100-Base Method):\nTotal salary $= 100\\%$.\nRent $= 20\\% \\implies$ Remaining $= 80\\%$.\nHousehold expenses $= 60\\% \\text{ of } 80\\% = 48\\%$.\nSavings $= 80\\% - 48\\% = 32\\%$.\nGiven: $32\\% = ₹4800$.\n$1\\% = \\frac{4800}{32} = ₹150$.\nTotal salary ($100\\%$) $= 150 \\times 100 = ₹15000$."
+  },
+  {
+    "qe": "A man spent 50% of his salary on household expenses, 25% of his salary on rent, and out of the remaining salary, he donated 60% to a charitable trust. If he is left with ₹16,000, then what is his total salary?",
+    "qh": "एक व्यक्ति ने अपने वेतन का 50% घरेलू खर्चों पर, 25% किराए पर खर्च किया और शेष वेतन में से 60% एक धर्मार्थ ट्रस्ट को दान कर दिया। यदि उसके पास ₹16,000 शेष बचते हैं, तो उसका कुल वेतन क्या है?",
+    "o": [
+      "(a) ₹1,20,000",
+      "(b) ₹1,50,000",
+      "(c) ₹1,60,000",
+      "(d) ₹1,80,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nDirect expenses on salary $= 50\\% + 25\\% = 75\\% = \\frac{3}{4}$.\nRemaining salary $= 1 - \\frac{3}{4} = \\frac{1}{4}$ (4 units me se 1 unit bachi).\nDonation out of remaining $= 60\\% = \\frac{3}{5} \\implies$ Final savings $= 1 - \\frac{3}{5} = \\frac{2}{5}$ of remaining.\nNet fraction left $= \\frac{1}{4} \\times \\frac{2}{5} = \\frac{1}{10}$.\nGiven: 1 unit $= ₹16000$.\nTotal Salary = 10 units $= 10 \\times 16000 = ₹160000$.\n\nMethod 2 (100-Base Method):\nTotal salary $= 100\\%$.\nHousehold + Rent $= 50\\% + 25\\% = 75\\%$.\nRemaining $= 100\\% - 75\\% = 25\\%$.\nDonation $= 60\\% \\text{ of } 25\\% = 15\\%$.\nRemaining balance $= 25\\% - 15\\% = 10\\%$.\nGiven: $10\\% = ₹16000$.\nTotal salary ($100\\%$) $= 16000 \\times 10 = ₹160000$."
+  },
+  {
+    "qe": "A person spends 50% of his salary on family expenses, 15% on medical expenses, 10% on charity, and saves the remaining amount. If the amount of savings is ₹6,000, find his monthly salary.",
+    "qh": "एक व्यक्ति अपने वेतन का 50% पारिवारिक खर्चों पर, 15% चिकित्सा खर्चों पर, 10% दान पर खर्च करता है, और शेष राशि बचाता है। यदि बचत की राशि ₹6,000 है, तो उसका मासिक वेतन ज्ञात कीजिए।",
+    "o": [
+      "(a) ₹20,000",
+      "(b) ₹22,000",
+      "(c) ₹24,000",
+      "(d) ₹25,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nTotal expenditure percentage $= 50\\% + 15\\% + 10\\% = 75\\%$.\nExpenditure fraction $= \\frac{75}{100} = \\frac{3}{4}$.\nSavings fraction $= 1 - \\frac{3}{4} = \\frac{1}{4}$.\nGiven: 1 unit of savings $= ₹6000$.\nTotal monthly salary = 4 units $= 4 \\times 6000 = ₹24000$.\n\nMethod 2 (100-Base Method):\nTotal salary $= 100\\%$.\nTotal spent $= 50\\% + 15\\% + 10\\% = 75\\%$.\nSavings $= 100\\% - 75\\% = 25\\%$.\nGiven: $25\\% = ₹6000$.\nMultiply by 4 to get $100\\%$:\nMonthly Salary ($100\\%$) $= 6000 \\times 4 = ₹24000$."
+  },
+  {
+    "qe": "Imran spends 25% of his monthly income on food, 20% of the remaining on transport, and saves 15% of the rest. If his monthly salary is ₹60,000, how much money does he save every month?",
+    "qh": "इमरान अपनी मासिक आय का 25% भोजन पर, शेष का 20% परिवहन पर खर्च करता है, और बाकी का 15% बचाता है। यदि उसका मासिक वेतन ₹60,000 है, तो वह प्रत्येक माह कितने रुपये बचाता है?",
+    "o": [
+      "(a) ₹4,800",
+      "(b) ₹5,400",
+      "(c) ₹5,600",
+      "(d) ₹6,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nFood: $25\\% = \\frac{1}{4} \\implies$ Remaining $= 4 - 1 = 3$ units.\nTransport: $20\\% = \\frac{1}{5} \\implies$ Remaining $= 5 - 1 = 4$ units.\nRest amount fraction $= \\frac{3}{4} \\times \\frac{4}{5} = \\frac{3}{5}$.\nRest amount $= \\frac{3}{5} \\times 60000 = ₹36000$.\nSavings $= 15\\% \\text{ of } 36000 = \\frac{3}{20} \\times 36000 = 3 \\times 1800 = ₹5400$.\n\nMethod 2 (100-Base Method):\nTotal salary $= ₹60000 = 100\\%$.\nAfter food ($25\\%$ cut): $60000 \\times 0.75 = ₹45000$.\nAfter transport ($20\\%$ cut of remainder): $45000 \\times 0.80 = ₹36000$.\nSavings $= 15\\% \\text{ of } 36000 = 0.15 \\times 36000 = ₹5400$."
+  },
+  {
+    "qe": "A man spent 20% of his monthly income on house rent. He spent 25% of the remaining amount on food. 20% of the remaining amount was used for other expenses. If ₹1,44,000 was left with him, then what was his monthly income?",
+    "qh": "एक व्यक्ति ने अपनी मासिक आय का 20% घर के किराए पर खर्च किया। उसने शेष राशि का 25% भोजन पर खर्च किया। बची हुई राशि का 20% अन्य खर्चों के लिए उपयोग किया गया। यदि उसके पास ₹1,44,000 शेष बचे, तो उसकी मासिक आय क्या थी?",
+    "o": [
+      "(a) ₹2,50,000",
+      "(b) ₹2,80,000",
+      "(c) ₹3,00,000",
+      "(d) ₹3,20,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nRent: $20\\% = \\frac{1}{5} \\implies 5 : 4$.\nFood: $25\\% = \\frac{1}{4} \\implies 4 : 3$.\nOther: $20\\% = \\frac{1}{5} \\implies 5 : 4$.\nTotal Income : Final Balance $= (5 \\times 4 \\times 5) : (4 \\times 3 \\times 4) = 100 : 48 = 25 : 12$.\nGiven: 12 units $= ₹144000 \\implies 1 \\text{ unit} = \\frac{144000}{12} = ₹12000$.\nTotal Income = 25 units $= 25 \\times 12000 = ₹300000$.\n\nMethod 2 (100-Base Method):\nTotal income $= 100$.\nAfter rent ($20\\%$ cut) $= 80$.\nAfter food ($25\\%$ of 80 cut) $= 80 - 20 = 60$.\nAfter other expenses ($20\\%$ of 60 cut) $= 60 - 12 = 48$.\nGiven: $48\\% = ₹144000$.\n$1\\% = \\frac{144000}{48} = ₹3000$.\nTotal monthly income ($100\\%$) $= 3000 \\times 100 = ₹300000$."
+  },
+  
+  {
+    "qe": "A person spends 20% of his income on goods of daily uses. Furthermore, he spends 25% of the rest on house rent and 10% of the rest on travel. After that, only ₹1,080 is left with him. What is his salary?",
+    "qh": "एक व्यक्ति अपनी आय का 20% दैनिक उपयोग की वस्तुओं पर खर्च करता है। इसके अलावा, वह शेष राशि का 25% घर के किराए पर और शेष राशि का 10% यात्रा पर खर्च करता है। उसके बाद, उसके पास केवल ₹1,080 बचते हैं। उसका वेतन क्या है?",
+    "o": [
+      "(a) ₹1,800",
+      "(b) ₹2,000",
+      "(c) ₹2,200",
+      "(d) ₹2,400"
+    ],
+    "a": "B",
+    "e": "Method 1 (Ratio Method):\nDaily uses: $20\\% = \\frac{1}{5} \\implies 5 : 4$.\nHouse rent: $25\\% = \\frac{1}{4} \\implies 4 : 3$.\nTravel: $10\\% = \\frac{1}{10} \\implies 10 : 9$.\nTotal Salary : Final Balance $= (5 \\times 4 \\times 10) : (4 \\times 3 \\times 9) = 200 : 108 = 50 : 27$.\nGiven: 27 units $= ₹1080 \\implies 1 \\text{ unit} = \\frac{1080}{27} = ₹40$.\nTotal Salary = 50 units $= 50 \\times 40 = ₹2000$.\n\nMethod 2 (100-Base Method):\nTotal salary $= 100$.\nAfter daily uses ($20\\%$ cut) $= 80$.\nAfter house rent ($25\\% \\text{ of } 80 = 20$ cut) $= 80 - 20 = 60$.\nAfter travel ($10\\% \\text{ of } 60 = 6$ cut) $= 60 - 6 = 54$.\nGiven: $54\\% = ₹1080$.\n$1\\% = \\frac{1080}{54} = ₹20$.\nTotal Salary ($100\\%$) $= 20 \\times 100 = ₹2000$."
+  },
+  {
+    "qe": "A father gives 10% of his monthly income to both his sons as pocket money. The elder son gets 80% of the total amount given to both the sons. He spends 75% of his amount and saves ₹50. What is the monthly income of the father?",
+    "qh": "एक पिता अपनी मासिक आय का 10% अपने दोनों बेटों को जेब खर्च के रूप में देता है। बड़े बेटे को दोनों बेटों को दी गई कुल राशि का 80% मिलता है। वह अपनी राशि का 75% खर्च करता है और ₹50 बचाता है। पिता की मासिक आय क्या है?",
+    "o": [
+      "(a) ₹2,000",
+      "(b) ₹2,500",
+      "(c) ₹3,000",
+      "(d) ₹3,200"
+    ],
+    "a": "B",
+    "e": "Method 1 (Fraction / Ratio Method):\nPocket money $= \\frac{1}{10}$ of father's income.\nElder son's share $= 80\\% = \\frac{4}{5}$ of pocket money.\nElder son's savings $= 100\\% - 75\\% = 25\\% = \\frac{1}{4}$ of his share.\nFather's income ka fraction jo elder son bachata hai $= \\frac{1}{10} \\times \\frac{4}{5} \\times \\frac{1}{4} = \\frac{1}{50}$.\nGiven: $\\frac{1}{50}$ of Father's Income $= ₹50$.\nFather's Income $= 50 \\times 50 = ₹2500$.\n\nMethod 2 (100-Base Method):\nFather's income $= 100\\%$.\nTotal pocket money $= 10\\%$.\nElder son's pocket money $= 80\\% \\text{ of } 10\\% = 8\\%$.\nElder son saves $25\\%$ of his amount:\nSavings $= 25\\% \\text{ of } 8\\% = 2\\%$.\nGiven: $2\\% = ₹50$.\n$1\\% = ₹25$.\nFather's monthly income ($100\\%$) $= 25 \\times 100 = ₹2500$."
+  },
+  {
+    "qe": "Three years ago, Raman's salary was ₹50,000. His salary was increased by 20%, A%, and 10% in the first, second, and third year, respectively. Raman's present salary is ₹79,200. What is the value of A?",
+    "qh": "तीन वर्ष पहले, रमन का वेतन ₹50,000 था। उसके वेतन में पहले, दूसरे और तीसरे वर्ष में क्रमशः 20%, A% और 10% की वृद्धि हुई। रमन का वर्तमान वेतन ₹79,200 है। A का मान क्या है?",
+    "o": [
+      "(a) 15%",
+      "(b) 20%",
+      "(c) 25%",
+      "(d) 18%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Step-by-Step Backtrack Method):\nInitial salary (3 years ago) $= ₹50000$.\nAfter Year 1 (+20%): $50000 + (20\\% \\text{ of } 50000) = 50000 + 10000 = ₹60000$.\nPresent salary (after Year 3) $= ₹79200$.\nYear 3 me $10\\%$ hike mili thi, isliye Year 2 ke end ka salary:\n$\\text{Salary after Year 2} \\times \\frac{110}{100} = 79200 \\implies \\text{Salary after Year 2} = \\frac{79200 \\times 10}{11} = ₹72000$.\nAb Year 1 ke end ($₹60000$) se Year 2 ke end ($₹72000$) tak ka hike:\n$\\text{Increase} = 72000 - 60000 = ₹12000$.\n$A = \\frac{12000}{60000} \\times 100\\% = 20\\%$.\n\nMethod 2 (Ratio Method):\nOverall multiplier $= \\frac{79200}{50000} = \\frac{792}{500} = \\frac{198}{125}$.\nYear 1 multiplier $= \\frac{6}{5}$, Year 3 multiplier $= \\frac{11}{10}$.\nYear 2 multiplier $= \\frac{198}{125} \\div \\left(\\frac{6}{5} \\times \\frac{11}{10}\\right) = \\frac{198}{125} \\div \\frac{33}{25} = \\frac{198}{125} \\times \\frac{25}{33} = \\frac{6}{5}$.\n$\\frac{6}{5}$ multiplier ka matlab increase $= \\frac{6 - 5}{5} \\times 100\\% = 20\\% \\implies A = 20\\%$."
+  },
+  {
+    "qe": "60% of students in a class are girls and 75% of girls have chosen badminton as their favourite sport. If 135 girls have chosen badminton as their favourite sport, what is the total number of students in the class?",
+    "qh": "एक कक्षा में 60% विद्यार्थी लड़कियां हैं और 75% लड़कियों ने बैडमिंटन को अपने पसंदीदा खेल के रूप में चुना है। यदि 135 लड़कियों ने बैडमिंटन को अपने पसंदीदा खेल के रूप में चुना है, तो कक्षा में विद्यार्थियों की कुल संख्या क्या है?",
+    "o": [
+      "(a) 250",
+      "(b) 280",
+      "(c) 300",
+      "(d) 320"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nTotal students me girls ka ratio $= 60\\% = \\frac{3}{5}$.\nGirls me se badminton select karne waliyon ka ratio $= 75\\% = \\frac{3}{4}$.\nTotal students ka fraction jo badminton chunti hain $= \\frac{3}{5} \\times \\frac{3}{4} = \\frac{9}{20}$.\nGiven: 9 units $= 135 \\implies 1 \\text{ unit} = \\frac{135}{9} = 15$.\nTotal students = 20 units $= 20 \\times 15 = 300$.\n\nMethod 2 (100-Base Method):\nTotal students in the class $= 100\\%$.\nNumber of girls $= 60\\%$.\nGirls choosing badminton $= 75\\% \\text{ of } 60\\% = 45\\%$.\nGiven: $45\\% = 135$.\n$1\\% = \\frac{135}{45} = 3$.\nTotal students in the class ($100\\%$) $= 3 \\times 100 = 300$."
   }
 ]
