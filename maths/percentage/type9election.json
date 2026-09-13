@@ -1,0 +1,573 @@
+[
+  {
+    "qe": "Three persons ran for office and got 1136, 7636, and 11628 votes, respectively. What was the winning candidate's percentage of the total votes?",
+    "qh": "तीन व्यक्तियों ने चुनाव लड़ा और उन्हें क्रमशः 1136, 7636 और 11628 मत प्राप्त हुए। जीतने वाले उम्मीदवार को कुल मतों का कितना प्रतिशत प्राप्त हुआ?",
+    "o": [
+      "(a) 57%",
+      "(b) 59%",
+      "(c) 52%",
+      "(d) 61%"
+    ],
+    "a": "A",
+    "e": "Method 1 (Direct Percentage Method):\nTotal votes polled = $1136 + 7636 + 11628 = 20400$.\nWinning candidate got maximum votes = $11628$.\nWinning percentage = $\\frac{11628}{20400} \\times 100\\% = \\frac{11628}{204}\\% = 57\\%$.\n\nMethod 2 (Unit Digit / Divisibility Method):\n$\\frac{11628}{204} = \\frac{2907}{51} = 57\\%$. Since $204 \\times 50 = 10200$ and $204 \\times 7 = 1428$, $10200 + 1428 = 11628$."
+  },
+  {
+    "qe": "The difference between 31% and 26% of votes for the same party at different places is 2350. What is 7% of those votes?",
+    "qh": "अलग-अलग स्थानों पर एक ही पार्टी के लिए 31% और 26% मतों के बीच का अंतर 2350 है। उन मतों का 7% कितना है?",
+    "o": [
+      "(a) 2270",
+      "(b) 3090",
+      "(c) 4090",
+      "(d) 3290"
+    ],
+    "a": "D",
+    "e": "Method 1 (Percentage Difference Method):\nDifference in percentage = $31\\% - 26\\% = 5\\%$.\nGiven: $5\\% = 2350$.\n$1\\% = \\frac{2350}{5} = 470$.\nValue of $7\\% = 7 \\times 470 = 3290$.\n\nMethod 2 (Unitary Ratio Method):\nRequired value = $2350 \\times \\frac{7}{5} = 470 \\times 7 = 3290$."
+  },
+  {
+    "qe": "Two candidates contested an election. One of them got 64% of the votes and won by 434 votes. What was the total number of votes polled?",
+    "qh": "दो उम्मीदवारों ने एक चुनाव लड़ा। उनमें से एक को 64% मत मिले और वह 434 मतों से जीत गया। कुल डाले गए मतों की संख्या क्या थी?",
+    "o": [
+      "(a) 1550",
+      "(b) 1345",
+      "(c) 1680",
+      "(d) 1684"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nTotal votes = $100\\%$.\nWinner got = $64\\% \\implies$ Loser got = $100\\% - 64\\% = 36\\%$.\nWinning majority margin = $64\\% - 36\\% = 28\\%$.\nGiven: $28\\% = 434$.\n$1\\% = \\frac{434}{28} = \\frac{31}{2} = 15.5$.\nTotal votes ($100\\%$) = $15.5 \\times 100 = 1550$.\n\nMethod 2 (Ratio Method):\nWinner : Loser = $64 : 36 = 16 : 9$.\nTotal = $25$ units. Margin = $16 - 9 = 7$ units.\n$7\\text{ units} = 434 \\implies 1\\text{ unit} = 62$.\nTotal votes = $25\\text{ units} = 25 \\times 62 = 1550$."
+  },
+  {
+    "qe": "In an election between two candidates, the one who gets 88% of the votes is elected by a majority of 684 votes. What is the total number of votes polled? (all polled votes are valid)",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, 88% मत प्राप्त करने वाला उम्मीदवार 684 मतों के बहुमत से चुना जाता है। डाले गए मतों की कुल संख्या क्या है? (सभी डाले गए मत वैध हैं)",
+    "o": [
+      "(a) 900",
+      "(b) 800",
+      "(c) 850",
+      "(d) 750"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nWinner = $88\\%$, Loser = $100\\% - 88\\% = 12\\%$.\nMajority margin = $88\\% - 12\\% = 76\\%$.\nGiven: $76\\% = 684$.\n$1\\% = \\frac{684}{76} = 9$.\nTotal votes ($100\\%$) = $9 \\times 100 = 900$.\n\nMethod 2 (Ratio Method):\nWinner : Loser = $88 : 12 = 22 : 3$.\nTotal = $25$ units. Difference = $22 - 3 = 19$ units.\n$19\\text{ units} = 684 \\implies 1\\text{ unit} = 36$.\nTotal votes = $25 \\times 36 = 900$."
+  },
+  {
+    "qe": "In an election, a candidate secured 41% of the votes polled and lost the election by 97,632. What is the number of votes obtained by the winning candidate?",
+    "qh": "एक चुनाव में, एक उम्मीदवार ने डाले गए मतों का 41% प्राप्त किया और वह 97,632 मतों से चुनाव हार गया। जीतने वाले उम्मीदवार द्वारा प्राप्त मतों की संख्या क्या है?",
+    "o": [
+      "(a) 320016",
+      "(b) 542400",
+      "(c) 222384",
+      "(d) 360072"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nLoser = $41\\% \\implies$ Winner = $100\\% - 41\\% = 59\\%$.\nMargin = $59\\% - 41\\% = 18\\%$.\nGiven: $18\\% = 97632$.\n$1\\% = \\frac{97632}{18} = 5424$.\nWinning candidate got $59\\% = 59 \\times 5424 = 320016$.\n\nMethod 2 (Direct Ratio Fraction Method):\nWinner's votes = $97632 \\times \\frac{59}{18} = 5424 \\times 59 = 320016$."
+  },
+  {
+    "qe": "In an election between two candidates A and B, A got 33% of total votes casted and still lost by 55,522 votes. Find the total number of votes got by B.",
+    "qh": "दो उम्मीदवारों A और B के बीच एक चुनाव में, A को डाले गए कुल मतों का 33% मिला और फिर भी वह 55,522 मतों से हार गया। B द्वारा प्राप्त कुल मतों की संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 1,09,411",
+      "(b) 1,09,511",
+      "(c) 1,09,311",
+      "(d) 1,08,411"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nA = $33\\% \\implies$ B = $100\\% - 33\\% = 67\\%$.\nMargin between B and A = $67\\% - 33\\% = 34\\%$.\nGiven: $34\\% = 55522$.\n$1\\% = \\frac{55522}{34} = 1633$.\nVotes got by B ($67\\%$) = $67 \\times 1633 = 109411$.\n\nMethod 2 (Ratio Formulation):\nB's votes = $55522 \\times \\frac{67}{34} = 1633 \\times 67 = 109411$."
+  },
+  
+  {
+    "qe": "In an election there were only two candidates. One of the candidates secured 35% of votes and is defeated by the other candidate by 381 votes. The total number of votes polled is:",
+    "qh": "एक चुनाव में केवल दो उम्मीदवार थे। उम्मीदवारों में से एक ने 35% मत प्राप्त किए और वह दूसरे उम्मीदवार से 381 मतों से पराजित हो गया। डाले गए कुल मतों की संख्या है:",
+    "o": [
+      "(a) 1270",
+      "(b) 1028",
+      "(c) 635",
+      "(d) 514"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nTotal votes polled = 100%.\nDefeated candidate = 35%.\nWinning candidate = 100% - 35% = 65%.\nDefeat margin = 65% - 35% = 30%.\nGiven: 30% = 381.\n1% = \\frac{381}{30} = 12.7.\nTotal votes (100%) = 12.7 \\times 100 = 1270.\n\nMethod 2 (Ratio Method):\nRatio of votes (Winner : Loser) = 65 : 35 = 13 : 7.\nTotal votes = 13 + 7 = 20 units.\nMargin = 13 - 7 = 6 units.\n6 units = 381 \\implies 1 unit = 63.5.\nTotal votes = 20 \\times 63.5 = 1270."
+  },
+  {
+    "qe": "In an election, a candidate secures 40% of the votes, but is defeated by the only other candidate with a majority of 298 votes. Find the total number of votes recorded.",
+    "qh": "एक चुनाव में, एक उम्मीदवार 40% मत प्राप्त करता है, लेकिन एकमात्र अन्य उम्मीदवार से 298 मतों के बहुमत से पराजित हो जाता है। डाले गए कुल मतों की संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 1,470",
+      "(b) 1,490",
+      "(c) 1,270",
+      "(d) 1,290"
+    ],
+    "a": "B",
+    "e": "Method 1 (100-Base Method):\nTotal votes = 100%.\nCandidate 1 (Loser) = 40%.\nCandidate 2 (Winner) = 100% - 40% = 60%.\nMargin = 60% - 40% = 20%.\nGiven: 20% = 298.\nMultiply both sides by 5 to get 100%:\nTotal votes (100%) = 298 \\times 5 = 1490.\n\nMethod 2 (Ratio Method):\nWinner : Loser = 60 : 40 = 3 : 2.\nTotal = 5 units. Difference = 3 - 2 = 1 unit.\n1 unit = 298.\nTotal votes recorded = 5 \\times 298 = 1490."
+  },
+  {
+    "qe": "In an election, there were only two candidates. One of the candidates secured 44% of the votes and is defeated by the other candidate by 1440 votes. If there were no invalid votes, then the total number of votes polled is:",
+    "qh": "एक चुनाव में केवल दो उम्मीदवार थे। उम्मीदवारों में से एक ने 44% मत प्राप्त किए और वह दूसरे उम्मीदवार से 1440 मतों से हार गया। यदि कोई अमान्य मत नहीं था, तो डाले गए मतों की कुल संख्या है:",
+    "o": [
+      "(a) 14000",
+      "(b) 12000",
+      "(c) 15000",
+      "(d) 13000"
+    ],
+    "a": "B",
+    "e": "Method 1 (100-Base Method):\nTotal votes = 100%.\nLoser = 44% \\implies Winner = 100% - 44% = 56%.\nDefeat margin = 56% - 44% = 12%.\nGiven: 12% = 1440.\n1% = \\frac{1440}{12} = 120.\nTotal votes polled (100%) = 120 \\times 100 = 12000.\n\nMethod 2 (Ratio Method):\nWinner : Loser = 56 : 44 = 14 : 11.\nDifference = 14 - 11 = 3 units.\n3 units = 1440 \\implies 1 unit = 480.\nTotal votes = (14 + 11) \\times 480 = 25 \\times 480 = 12000."
+  },
+  {
+    "qe": "In an election a candidate secured 47% of the votes and lost to his only opponent by 276 votes. Find the total number of votes polled.",
+    "qh": "एक चुनाव में एक उम्मीदवार ने 47% मत प्राप्त किए और वह अपने एकमात्र प्रतिद्वंद्वी से 276 मतों से हार गया। डाले गए कुल मतों की संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 4000",
+      "(b) 4200",
+      "(c) 3800",
+      "(d) 4600"
+    ],
+    "a": "D",
+    "e": "Method 1 (100-Base Method):\nTotal votes = 100%.\nLoser = 47% \\implies Winner = 100% - 47% = 53%.\nDifference = 53% - 47% = 6%.\nGiven: 6% = 276.\n1% = \\frac{276}{6} = 46.\nTotal votes polled (100%) = 46 \\times 100 = 4600.\n\nMethod 2 (Ratio Method):\nWinner : Loser = 53 : 47.\nMargin = 53 - 47 = 6 units.\n6 units = 276 \\implies 1 unit = 46.\nTotal votes = (53 + 47) \\times 46 = 100 \\times 46 = 4600."
+  },
+  {
+    "qe": "In an election there were three candidates. The first candidate got 40% votes and second candidate got 35% votes. If the total votes in the election are 50,000, find the number of votes got by the third candidate.",
+    "qh": "एक चुनाव में तीन उम्मीदवार थे। पहले उम्मीदवार को 40% मत और दूसरे उम्मीदवार को 35% मत मिले। यदि चुनाव में कुल मत 50,000 हैं, तो तीसरे उम्मीदवार को मिले मतों की संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 12,000",
+      "(b) 12,500",
+      "(c) 13,000",
+      "(d) 15,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (100-Base Method):\nTotal votes = 100% = 50,000.\nFirst candidate = 40%.\nSecond candidate = 35%.\nThird candidate = 100% - (40% + 35%) = 100% - 75% = 25%.\nVotes for 3rd candidate = 25% of 50000 = \\frac{25}{100} \\times 50000 = 12500.\n\nMethod 2 (Ratio Method):\nRatio of Candidates (1st : 2nd : 3rd) = 40 : 35 : 25 = 8 : 7 : 5.\nTotal units = 8 + 7 + 5 = 20 units.\n20 units = 50000 \\implies 1 unit = 2500.\nThird candidate = 5 units = 5 \\times 2500 = 12500."
+  },
+  
+  {
+    "qe": "In an election between two candidates, one candidate gets 72% of the total votes cast. If the total votes are 1000, by how many votes does the winner win the election?",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, एक उम्मीदवार को डाले गए कुल मतों का 72% प्राप्त होता है। यदि कुल मत 1000 हैं, तो जीतने वाला उम्मीदवार कितने मतों से चुनाव जीतता है?",
+    "o": [
+      "(a) 360",
+      "(b) 250",
+      "(c) 720",
+      "(d) 440"
+    ],
+    "a": "D",
+    "e": "Method 1 (100-Base Method):\nTotal votes = $100\\% = 1000$.\nWinner got = $72\\%$.\nLoser got = $100\\% - 72\\% = 28\\%$.\nWinning margin = $72\\% - 28\\% = 44\\%$.\nNumber of votes by which winner wins = $44\\% \\text{ of } 1000 = \\frac{44}{100} \\times 1000 = 440$.\n\nMethod 2 (Ratio Method):\nWinner : Loser = $72 : 28 = 18 : 7$.\nTotal units = $18 + 7 = 25$ units.\nGiven: $25\\text{ units} = 1000 \\implies 1\\text{ unit} = \\frac{1000}{25} = 40$.\nWinning margin = $18 - 7 = 11$ units.\nMargin in votes = $11 \\times 40 = 440$."
+  },
+  {
+    "qe": "In an election between two candidates, a candidate who gets 78% of the votes is elected by a majority of 448 votes. What is the total number of votes polled?",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, 78% मत प्राप्त करने वाला उम्मीदवार 448 मतों के बहुमत से निर्वाचित होता है। डाले गए मतों की कुल संख्या क्या है?",
+    "o": [
+      "(a) 800",
+      "(b) 900",
+      "(c) 750",
+      "(d) 850"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nTotal votes polled = $100\\%$.\nWinning candidate = $78\\%$.\nLosing candidate = $100\\% - 78\\% = 22\\%$.\nWinning majority margin = $78\\% - 22\\% = 56\\%$.\nGiven: $56\\% = 448$.\n$1\\% = \\frac{448}{56} = 8$.\nTotal number of votes polled ($100\\%$) = $8 \\times 100 = 800$.\n\nMethod 2 (Ratio Method):\nWinner : Loser = $78 : 22 = 39 : 11$.\nTotal units = $39 + 11 = 50$ units.\nDifference between them = $39 - 11 = 28$ units.\nGiven: $28\\text{ units} = 448 \\implies 1\\text{ unit} = \\frac{448}{28} = 16$.\nTotal votes polled = $50\\text{ units} = 50 \\times 16 = 800$."
+  },
+  
+  {
+    "qe": "In an election between two candidates, the candidate who gets 35% of the votes polled is defeated by 15,900 votes. What is the total number of votes polled?",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, डाले गए मतों का 35% मत प्राप्त करने वाला उम्मीदवार 15,900 मतों से पराजित हो जाता है। डाले गए मतों की कुल संख्या क्या है?",
+    "o": [
+      "(a) 53,000",
+      "(b) 45,000",
+      "(c) 35,000",
+      "(d) 43,000"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nTotal votes polled = $100\\%$.\nLosing candidate = $35\\%$.\nWinning candidate = $100\\% - 35\\% = 65\\%$.\nDefeat margin = $65\\% - 35\\% = 30\\%$.\nGiven: $30\\% = 15900$.\n$1\\% = \\frac{15900}{30} = 530$.\nTotal votes polled ($100\\%$) = $530 \\times 100 = 53000$.\n\nMethod 2 (Ratio Method):\nWinner : Loser = $65 : 35 = 13 : 7$.\nMargin = $13 - 7 = 6$ units.\n$6\\text{ units} = 15900 \\implies 1\\text{ unit} = \\frac{15900}{6} = 2650$.\nTotal votes = $13 + 7 = 20\\text{ units} = 20 \\times 2650 = 53000$."
+  },
+  {
+    "qe": "Vinod and Sanjay were fighting against each other for the post of a village Pradhan. Sanjay got 47.5% votes and lost the election by 270 votes. How many votes did Vinod get (assuming that all the villagers participated in the voting)?",
+    "qh": "विनोद और संजय ग्राम प्रधान के पद के लिए एक-दूसरे के खिलाफ चुनाव लड़ रहे थे। संजय को 47.5% मत मिले और वह 270 मतों से चुनाव हार गया। विनोद को कितने मत मिले (यह मानते हुए कि सभी ग्रामीणों ने मतदान में भाग लिया)?",
+    "o": [
+      "(a) 2385",
+      "(b) 2835",
+      "(c) 2565",
+      "(d) 2655"
+    ],
+    "a": "B",
+    "e": "Method 1 (100-Base Method):\nTotal votes = $100\\%$.\nSanjay = $47.5\\%$.\nVinod = $100\\% - 47.5\\% = 52.5\\%$.\nMargin between them = $52.5\\% - 47.5\\% = 5\\%$.\nGiven: $5\\% = 270$.\n$1\\% = \\frac{270}{5} = 54$.\nVotes obtained by Vinod ($52.5\\%$) = $52.5 \\times 54 = 2835$.\n\nMethod 2 (Ratio Method):\nVinod : Sanjay = $52.5 : 47.5 = 105 : 95 = 21 : 19$.\nMargin = $21 - 19 = 2$ units.\n$2\\text{ units} = 270 \\implies 1\\text{ unit} = 135$.\nVinod's votes = $21\\text{ units} = 21 \\times 135 = 2835$."
+  },
+  {
+    "qe": "In an election, the candidate who gets 90% votes is elected by a margin of 800 votes. What is the total number of votes cast? Note: Only two candidates are participating in the election and assume all votes are valid.",
+    "qh": "एक चुनाव में, 90% मत प्राप्त करने वाला उम्मीदवार 800 मतों के अंतर से चुना जाता है। डाले गए मतों की कुल संख्या क्या है? नोट: चुनाव में केवल दो उम्मीदवार भाग ले रहे हैं और मान लें कि सभी मत वैध हैं।",
+    "o": [
+      "(a) 900",
+      "(b) 1000",
+      "(c) 1050",
+      "(d) 950"
+    ],
+    "a": "B",
+    "e": "Method 1 (100-Base Method):\nTotal votes cast = $100\\%$.\nWinner = $90\\% \\implies$ Loser = $100\\% - 90\\% = 10\\%$.\nMargin = $90\\% - 10\\% = 80\\%$.\nGiven: $80\\% = 800$.\n$1\\% = \\frac{800}{80} = 10$.\nTotal votes cast ($100\\%$) = $10 \\times 100 = 1000$.\n\nMethod 2 (Ratio Method):\nWinner : Loser = $90 : 10 = 9 : 1$.\nMargin = $9 - 1 = 8$ units.\n$8\\text{ units} = 800 \\implies 1\\text{ unit} = 100$.\nTotal votes = $9 + 1 = 10\\text{ units} = 10 \\times 100 = 1000$."
+  },
+  {
+    "qe": "In an election between R and S, R gets 110% of the votes of S and beats S by 770 votes. If there were no invalid votes, then the total number of votes polled is:",
+    "qh": "R और S के बीच एक चुनाव में, R को S के मतों का 110% प्राप्त होता है और वह S को 770 मतों से हराता है। यदि कोई अमान्य मत नहीं था, तो डाले गए मतों की कुल संख्या है:",
+    "o": [
+      "(a) 17610",
+      "(b) 17160",
+      "(c) 16170",
+      "(d) 16710"
+    ],
+    "a": "C",
+    "e": "Method 1 (Ratio Method):\nLet votes of S = $100$ units.\nThen votes of R = $110\\%$ of $100 = 110$ units.\nRatio of R : S = $110 : 100 = 11 : 10$.\nMargin by which R beats S = $11 - 10 = 1$ unit.\nGiven: $1\\text{ unit} = 770$.\nTotal votes polled = $11 + 10 = 21$ units.\nTotal votes = $21 \\times 770 = 16170$.\n\nMethod 2 (Algebraic Method):\nLet S get $x$ votes, then R gets $1.10x$ votes.\nDifference = $1.10x - x = 0.10x = 770 \\implies x = 7700$.\nTotal votes = $x + 1.10x = 2.10x = 2.10 \\times 7700 = 16170$."
+  },
+  {
+    "qe": "A total of 7,50,000 voters participated in an election. A candidate received 3,82,500 votes which was 60% of the total valid votes. What was the percentage of invalid votes in the election?",
+    "qh": "एक चुनाव में कुल 7,50,000 मतदाताओं ने भाग लिया। एक उम्मीदवार को 3,82,500 मत प्राप्त हुए जो कुल वैध मतों का 60% था। चुनाव में अमान्य मतों का प्रतिशत क्या था?",
+    "o": [
+      "(a) 15%",
+      "(b) 20%",
+      "(c) 12%",
+      "(d) 18%"
+    ],
+    "a": "A",
+    "e": "Method 1 (Valid Votes to Invalid Percentage Method):\nCandidate received $60\\%$ of Valid Votes = $382500$.\nTotal Valid Votes = $\\frac{382500}{60} \\times 100 = \\frac{382500}{0.6} = 637500$.\nInvalid Votes = $\\text{Total Votes} - \\text{Valid Votes} = 750000 - 637500 = 112500$.\nPercentage of invalid votes = $\\frac{112500}{750000} \\times 100\\% = \\frac{1125}{75}\\% = 15\\%$.\n\nMethod 2 (Ratio Method):\n$\\frac{\\text{Candidate's Votes}}{\\text{Total Votes}} = \\frac{382500}{750000} = \\frac{3825}{7500} = \\frac{51}{100} = 51\\%$.\nSince Candidate got $60\\%$ of Valid Votes:\n$60\\% \\text{ of Valid Votes} = 51\\% \\text{ of Total Votes}$.\n$\\text{Valid Votes} = \\frac{51\\%}{0.60} = 85\\%$ of Total Votes.\nInvalid Votes = $100\\% - 85\\% = 15\\%$."
+  },
+  {
+    "qe": "In an election, 95% of the total voters cast their votes. In this election, there were only two candidates A and B. The winner A, by obtaining 75% of the total votes, defeated his contestant B by 5500 votes. Find the total number of voters in the election.",
+    "qh": "एक चुनाव में कुल मतदाताओं में से 95% ने अपने मत डाले। इस चुनाव में केवल दो उम्मीदवार A और B थे। विजेता A ने कुल मतों का 75% प्राप्त करके अपने प्रतिद्वंद्वी B को 5500 मतों से हराया। चुनाव में मतदाताओं की कुल संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 11,000",
+      "(b) 10,000",
+      "(c) 13,000",
+      "(d) 12,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (100-Base Method):\nLet total voters registered = $100\\%$.\nTotal votes cast = $95\\%$.\nA gets $75\\%$ of total votes = $75\\%$.\nVotes obtained by B = $\\text{Total cast} - \\text{Votes of A} = 95\\% - 75\\% = 20\\%$.\nWinning margin = $75\\% - 20\\% = 55\\%$.\nGiven: $55\\% = 5500$.\n$1\\% = \\frac{5500}{55} = 100$.\nTotal number of voters ($100\\%$) = $100 \\times 100 = 10000$.\n\nMethod 2 (Ratio Method):\nA : B : Did not cast = $75 : 20 : 5 = 15 : 4 : 1$.\nMargin between A and B = $15 - 4 = 11$ units.\nGiven: $11\\text{ units} = 5500 \\implies 1\\text{ unit} = 500$.\nTotal voters = $15 + 4 + 1 = 20\\text{ units} = 20 \\times 500 = 10000$."
+  },
+  {
+    "qe": "In an election, A received 27% of the votes and B received 125,982 votes. 19% did not cast their votes. Find the number of votes received by A.",
+    "qh": "एक चुनाव में, A को 27% मत प्राप्त हुए और B को 1,25,982 मत प्राप्त हुए। 19% लोगों ने अपने मत नहीं डाले। A द्वारा प्राप्त मतों की संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 44,327",
+      "(b) 1,88,973",
+      "(c) 57,827",
+      "(d) 62,991"
+    ],
+    "a": "D",
+    "e": "Method 1 (100-Base Method):\nTotal voters = $100\\%$.\nA's votes = $27\\%$.\nDid not vote = $19\\%$.\nPercentage of votes received by B = $100\\% - (27\\% + 19\\%) = 100\\% - 46\\% = 54\\%$.\nGiven: $54\\% = 125982$.\n$1\\% = \\frac{125982}{54} = 2333$.\nNumber of votes received by A ($27\\%$) = $27 \\times 2333 = 62991$.\n\nMethod 2 (Ratio Method):\nRatio of votes of A to B = $27\\% : 54\\% = 1 : 2$.\nSince B has 2 units and A has 1 unit:\nA's votes = $\\frac{\\text{B's votes}}{2} = \\frac{125982}{2} = 62991$."
+  },
+  {
+    "qe": "In an election between two candidates, one got 60% of the total valid votes, 90% of the votes were valid. If the total number of votes was 12000, then what was the number of valid votes that the other candidate got?",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, एक को कुल वैध मतों का 60% प्राप्त हुआ, 90% मत वैध थे। यदि मतों की कुल संख्या 12000 थी, तो दूसरे उम्मीदवार को प्राप्त वैध मतों की संख्या क्या थी?",
+    "o": [
+      "(a) 8840",
+      "(b) 4320",
+      "(c) 10800",
+      "(d) 6200"
+    ],
+    "a": "B",
+    "e": "Method 1 (Step-by-Step Multiplication):\nTotal votes = $12000$.\nValid votes = $90\\% \\text{ of } 12000 = 12000 \\times 0.90 = 10800$.\nFirst candidate got $60\\%$ of valid votes, so the other candidate got:\n$100\\% - 60\\% = 40\\%$ of valid votes.\nOther candidate's valid votes = $40\\% \\text{ of } 10800 = \\frac{40}{100} \\times 10800 = 4320$.\n\nMethod 2 (Ratio Method):\nOther candidate's share = $12000 \\times \\frac{90}{100} \\times \\frac{40}{100} = 12000 \\times \\frac{9}{10} \\times \\frac{2}{5} = 12000 \\times \\frac{18}{50} = 240 \\times 18 = 4320$."
+  },
+  
+  {
+    "qe": "In an election between two candidates, 15% of the votes were invalid and one candidate got 52% of the total valid votes. If the total number of votes was 8000, what was the number of valid votes that the other candidate got?",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, 15% मत अमान्य थे और एक उम्मीदवार को कुल वैध मतों का 52% प्राप्त हुआ। यदि मतों की कुल संख्या 8000 थी, तो दूसरे उम्मीदवार को प्राप्त वैध मतों की संख्या क्या थी?",
+    "o": [
+      "(a) 3840",
+      "(b) 3536",
+      "(c) 6800",
+      "(d) 3264"
+    ],
+    "a": "D",
+    "e": "Method 1 (Step-by-Step Percentage Method):\nTotal votes = 8000.\nInvalid votes = 15% of 8000 = 1200.\nValid votes = 8000 - 1200 = 6800.\nFirst candidate got 52% of valid votes, so the other candidate got:\n100% - 52% = 48% of valid votes.\nOther candidate's valid votes = 48% of 6800 = \\frac{48}{100} \\times 6800 = 48 \\times 68 = 3264.\n\nMethod 2 (Direct Fraction Multiplier):\nOther candidate's votes = 8000 \\times (1 - 0.15) \\times (1 - 0.52)\n= 8000 \\times 0.85 \\times 0.48 = 6800 \\times 0.48 = 3264."
+  },
+  {
+    "qe": "In an election between two candidates, 10% of the registered voters did not cast their vote. The winning candidate got 60% of the total votes cast and defeated the other candidate by 1242 votes. Find the total number of registered voters.",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, पंजीकृत मतदाताओं में से 10% ने अपना मत नहीं डाला। जीतने वाले उम्मीदवार को डाले गए कुल मतों का 60% प्राप्त हुआ और उसने दूसरे उम्मीदवार को 1242 मतों से हराया। पंजीकृत मतदाताओं की कुल संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 8640",
+      "(b) 9600",
+      "(c) 6200",
+      "(d) 6900"
+    ],
+    "a": "D",
+    "e": "Method 1 (100-Base Method):\nLet registered voters = 100%.\nVotes cast = 100% - 10% = 90%.\nWinner got = 60% of votes cast = 0.60 \\times 90% = 54% of registered voters.\nLoser got = 40% of votes cast = 0.40 \\times 90% = 36% of registered voters.\nWinning margin = 54% - 36% = 18% of registered voters.\nGiven: 18% = 1242.\n1% = \\frac{1242}{18} = 69.\nTotal registered voters (100%) = 69 \\times 100 = 6900.\n\nMethod 2 (Ratio Method):\nVotes cast = 9 units (out of 10).\nWinner : Loser = 60 : 40 = 3 : 2.\nDifference = 3 - 2 = 1 unit (out of 5 units of votes cast).\nMargin = \\frac{1}{5} \\times \\text{Votes Cast} = 1242 \\implies \\text{Votes Cast} = 1242 \\times 5 = 6210.\nRegistered voters = 6210 \\times \\frac{10}{9} = 690 \\times 10 = 6900."
+  },
+  {
+    "qe": "In an election between two candidates, one got 65% of the total valid votes. 20% of the votes were invalid. If the total number of votes was 7,500, the number of valid votes that the other candidate got was:",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, एक को कुल वैध मतों का 65% प्राप्त हुआ। 20% मत अमान्य थे। यदि मतों की कुल संख्या 7,500 थी, तो दूसरे उम्मीदवार को प्राप्त वैध मतों की संख्या थी:",
+    "o": [
+      "(a) 4,300",
+      "(b) 1,700",
+      "(c) 1,900",
+      "(d) 2,100"
+    ],
+    "a": "D",
+    "e": "Method 1 (Step-by-Step Method):\nTotal votes = 7500.\nValid votes = (100% - 20%) of 7500 = 80% of 7500 = \\frac{80}{100} \\times 7500 = 6000.\nFirst candidate received 65% of valid votes.\nOther candidate received = 100% - 65% = 35% of valid votes.\nOther candidate's valid votes = 35% of 6000 = \\frac{35}{100} \\times 6000 = 35 \\times 60 = 2100.\n\nMethod 2 (Ratio Method):\nTotal : Valid = 5 : 4.\nValid votes = 4 units = \\frac{4}{5} \\times 7500 = 6000.\nCandidate 1 : Candidate 2 = 65 : 35 = 13 : 7 (out of 20 units of valid votes).\nCandidate 2's share = 6000 \\times \\frac{7}{20} = 300 \\times 7 = 2100."
+  },
+  {
+    "qe": "In an election between two candidates, Anant and Arvind, Anant got 55% of the total valid votes, and 20% of the votes were invalid. If the total number of votes was 30,000, find the number of valid votes that Arvind got.",
+    "qh": "दो उम्मीदवारों अनंत और अरविंद के बीच एक चुनाव में, अनंत को कुल वैध मतों का 55% प्राप्त हुआ, और 20% मत अमान्य थे। यदि मतों की कुल संख्या 30,000 थी, तो अरविंद को मिले वैध मतों की संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 10800",
+      "(b) 1080",
+      "(c) 13200",
+      "(d) 24000"
+    ],
+    "a": "A",
+    "e": "Method 1 (Step-by-Step Method):\nTotal votes = 30000.\nInvalid votes = 20% of 30000 = 6000.\nValid votes = 30000 - 6000 = 24000.\nAnant got 55% of valid votes, so Arvind got = 100% - 55% = 45% of valid votes.\nArvind's valid votes = 45% of 24000 = \\frac{45}{100} \\times 24000 = 45 \\times 240 = 10800.\n\nMethod 2 (Direct Fraction Multiplication):\nArvind's votes = 30000 \\times \\left(1 - \\frac{20}{100}\\right) \\times \\left(1 - \\frac{55}{100}\\right)\n= 30000 \\times \\frac{4}{5} \\times \\frac{45}{100} = 24000 \\times 0.45 = 10800."
+  },
+  {
+    "qe": "In an election between two candidates, one got 60% of the total valid votes and 15% of the votes were invalid. If the total number of votes were 8400, the number of valid votes that the other candidate got were:",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, एक को कुल वैध मतों का 60% प्राप्त हुआ और 15% मत अमान्य थे। यदि मतों की कुल संख्या 8400 थी, तो दूसरे उम्मीदवार को प्राप्त वैध मतों की संख्या थी:",
+    "o": [
+      "(a) 2998",
+      "(b) 2856",
+      "(c) 3213",
+      "(d) 3117"
+    ],
+    "a": "B",
+    "e": "Method 1 (Percentage Step Method):\nTotal votes = 8400.\nValid votes = (100% - 15%) of 8400 = 85% of 8400 = \\frac{85}{100} \\times 8400 = 85 \\times 84 = 7140.\nOther candidate received = 100% - 60% = 40% of valid votes.\nOther candidate's valid votes = 40% of 7140 = \\frac{40}{100} \\times 7140 = 4 \\times 714 = 2856.\n\nMethod 2 (Ratio Method):\nTotal to Valid = 20 : 17.\nValid votes = 8400 \\times \\frac{17}{20} = 420 \\times 17 = 7140.\nOther candidate got \\frac{2}{5} of valid votes = 7140 \\times \\frac{2}{5} = 1428 \\times 2 = 2856."
+  },
+  {
+    "qe": "In an election between two candidates, one got 60% of the total valid votes. 25% of the votes were invalid. If the total number of votes was 15,000, then find the number of valid votes that the other candidate got.",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, एक को कुल वैध मतों का 60% प्राप्त हुआ। 25% मत अमान्य थे। यदि मतों की कुल संख्या 15,000 थी, तो दूसरे उम्मीदवार को प्राप्त वैध मतों की संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 5,550",
+      "(b) 4,500",
+      "(c) 6,750",
+      "(d) 5,000"
+    ],
+    "a": "B",
+    "e": "Method 1 (Step-by-Step Method):\nTotal votes = 15000.\nValid votes = (100% - 25%) of 15000 = 75% of 15000 = \\frac{3}{4} \\times 15000 = 11250.\nOther candidate got = 100% - 60% = 40% of valid votes.\nOther candidate's valid votes = 40% of 11250 = \\frac{2}{5} \\times 11250 = 2 \\times 2250 = 4500.\n\nMethod 2 (Direct Chain Fraction):\nOther candidate's votes = 15000 \\times \\frac{75}{100} \\times \\frac{40}{100} = 15000 \\times \\frac{3}{4} \\times \\frac{2}{5} = 15000 \\times \\frac{3}{10} = 4500."
+  },
+  {
+    "qe": "In an election, there were only two candidates. 12% of the voters did not cast their votes. The winner by obtaining 60% of the total votes defeated his opposite contestant by 1200 votes. Find the total number of votes.",
+    "qh": "एक चुनाव में केवल दो उम्मीदवार थे। 12% मतदाताओं ने अपने मत नहीं डाले। विजेता ने कुल मतों का 60% प्राप्त करके अपने प्रतिद्वंद्वी को 1200 मतों से हराया। मतों की कुल संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 3750",
+      "(b) 3570",
+      "(c) 4000",
+      "(d) 5730"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nLet total registered voters = 100%.\nVoters who did not cast votes = 12%.\nTotal polled votes = 100% - 12% = 88%.\nWinner got 60% of the total votes = 60%.\nLoser's votes = Total polled votes - Winner's votes = 88% - 60% = 28%.\nWinning margin = 60% - 28% = 32% of total votes.\nGiven: 32% = 1200.\n1% = \\frac{1200}{32} = 37.5.\nTotal number of votes (100%) = 37.5 \\times 100 = 3750.\n\nMethod 2 (Equation Method):\nLet total votes = V.\nWinner votes = 0.60V.\nPolled votes = 0.88V.\nOpponent votes = 0.88V - 0.60V = 0.28V.\nMargin = 0.60V - 0.28V = 0.32V = 1200.\nV = \\frac{1200}{0.32} = \\frac{120000}{32} = 3750."
+  },
+  
+  {
+    "qe": "In an election between two candidates, the first gets 75% of the total valid votes. If 20% votes are invalid among 2,48,000 votes, then how many votes were cast in the favour of the other candidate?",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, पहले उम्मीदवार को कुल वैध मतों का 75% प्राप्त होता है। यदि 2,48,000 मतों में से 20% मत अमान्य हैं, तो दूसरे उम्मीदवार के पक्ष में कितने मत पड़े?",
+    "o": [
+      "(a) 56600",
+      "(b) 46800",
+      "(c) 53800",
+      "(d) 49600"
+    ],
+    "a": "D",
+    "e": "Method 1 (Step-by-Step Multiplication):\nTotal votes = 2,48,000.\nValid votes = 100% - 20% = 80%.\nValid votes count = 2,48,000 \\times 0.80 = 1,98,400.\nFirst candidate gets 75% of valid votes, so the other candidate gets:\n100% - 75% = 25% of valid votes.\nVotes for other candidate = 25% of 1,98,400 = \\frac{1}{4} \\times 1,98,400 = 49,600.\n\nMethod 2 (Direct Fraction Method):\nOther candidate's votes = 248000 \\times \\frac{80}{100} \\times \\frac{25}{100} = 248000 \\times \\frac{4}{5} \\times \\frac{1}{4} = \\frac{248000}{5} = 49600."
+  },
+  {
+    "qe": "In an election between two candidates, 75% of the voters cast their votes, out of which 4% of the votes were declared invalid. A candidate got 9504 votes, which were 80% of the valid votes. Find the total number of votes enrolled in that election.",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, 75% मतदाताओं ने अपने मत डाले, जिनमें से 4% मत अमान्य घोषित कर दिए गए। एक उम्मीदवार को 9504 मत मिले, जो वैध मतों का 80% था। उस चुनाव में नामांकित कुल मतों की संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 12,375",
+      "(b) 12,672",
+      "(c) 13,200",
+      "(d) 16,500"
+    ],
+    "a": "D",
+    "e": "Method 1 (Ratio / Step Backtrack Method):\nLet total enrolled votes be V.\nValid votes ka 80% = 9504.\nTotal Valid votes = \\frac{9504}{0.80} = 11,880.\nVotes cast ka 96% valid tha (4% invalid):\nVotes cast = \\frac{11880}{0.96} = 12,375.\nTotal enrolled voters ka 75% cast hua tha:\nTotal Enrolled (V) = \\frac{12375}{0.75} = \\frac{12375 \\times 4}{3} = 4125 \\times 4 = 16,500.\n\nMethod 2 (Chain Multiplier Method):\nV \\times \\frac{75}{100} \\times \\frac{96}{100} \\times \\frac{80}{100} = 9504\nV \\times \\frac{3}{4} \\times \\frac{24}{25} \\times \\frac{4}{5} = 9504\nV \\times \\frac{72}{125} = 9504 \\implies V = \\frac{9504 \\times 125}{72} = 132 \\times 125 = 16500."
+  },
+  {
+    "qe": "Two candidates A and B contested in an election. 80% of the voters cast their votes, out of which 2% of the votes were invalid. A got 9,408 votes which was 60% of the valid votes. Find the total number of votes.",
+    "qh": "दो उम्मीदवारों A और B ने एक चुनाव लड़ा। 80% मतदाताओं ने अपने मत डाले, जिनमें से 2% मत अमान्य थे। A को 9,408 मत मिले जो वैध मतों का 60% था। कुल मतों की संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 12,000",
+      "(b) 22,000",
+      "(c) 20,000",
+      "(d) 21,000"
+    ],
+    "a": "C",
+    "e": "Method 1 (Chain Fraction Method):\nLet total votes be T.\nT \\times \\frac{80}{100} \\times \\frac{98}{100} \\times \\frac{60}{100} = 9408\nT \\times \\frac{4}{5} \\times \\frac{49}{50} \\times \\frac{3}{5} = 9408\nT \\times \\frac{588}{1250} = 9408\nT = \\frac{9408 \\times 1250}{588} = 16 \\times 1250 = 20,000.\n\nMethod 2 (100-Base Step Method):\nValid votes = \\frac{9408}{0.60} = 15,680.\nVotes polled = \\frac{15680}{0.98} = 16,000.\nTotal votes = \\frac{16000}{0.80} = 20,000."
+  },
+  {
+    "qe": "In an election, 80% of eligible voters cast their votes. Of these votes, 5% were declared invalid. If a winning candidate received 11,400 votes, which accounted for 60% of the total valid votes, what was the total number of eligible voters enrolled in that election?",
+    "qh": "एक चुनाव में, 80% पात्र मतदाताओं ने अपने मत डाले। इन मतों में से 5% अमान्य घोषित कर दिए गए। यदि जीतने वाले उम्मीदवार को 11,400 मत मिले, जो कुल वैध मतों का 60% था, तो उस चुनाव में नामांकित पात्र मतदाताओं की कुल संख्या क्या थी?",
+    "o": [
+      "(a) 20,000",
+      "(b) 22,500",
+      "(c) 25,000",
+      "(d) 27,500"
+    ],
+    "a": "C",
+    "e": "Method 1 (Chain Fraction Method):\nLet total eligible voters be N.\nN \\times \\frac{80}{100} \\times \\frac{95}{100} \\times \\frac{60}{100} = 11400\nN \\times \\frac{4}{5} \\times \\frac{19}{20} \\times \\frac{3}{5} = 11400\nN \\times \\frac{228}{500} = 11400\nN = \\frac{11400 \\times 500}{228} = 50 \\times 500 = 25,000.\n\nMethod 2 (Step Backtrack Method):\nValid votes = \\frac{11400}{0.60} = 19,000.\nVotes cast = \\frac{19000}{0.95} = 20,000.\nEligible voters = \\frac{20000}{0.80} = 25,000."
+  },
+  {
+    "qe": "In a constituency, 85% of the total number of people on the electoral roll cast their votes during an election. 10% of the votes cast were declared invalid. If there were 3,00,000 people on the electoral roll, and Dharam secured 1,37,700 valid votes, then what percentage of the total number of valid votes did Dharam secure?",
+    "qh": "एक निर्वाचन क्षेत्र में, चुनाव के दौरान मतदाता सूची में शामिल कुल लोगों में से 85% ने अपने मत डाले। डाले गए मतों में से 10% अमान्य घोषित कर दिए गए। यदि मतदाता सूची में 3,00,000 लोग थे, और धरम ने 1,37,700 वैध मत प्राप्त किए, तो धरम ने कुल वैध मतों का कितना प्रतिशत प्राप्त किया?",
+    "o": [
+      "(a) 50.5%",
+      "(b) 70.2%",
+      "(c) 45.9%",
+      "(d) 60%"
+    ],
+    "a": "D",
+    "e": "Method 1 (Direct Calculation Method):\nTotal enrolled voters = 3,00,000.\nVotes cast = 85% of 3,00,000 = 2,55,000.\nValid votes = (100% - 10%) of 2,55,000 = 90% of 2,55,000 = 2,29,500.\nDharam secured = 1,37,700 valid votes.\nPercentage of valid votes = \\frac{137700}{229500} \\times 100% = \\frac{1377}{2295} \\times 100% = \\frac{3}{5} \\times 100% = 60%.\n\nMethod 2 (Ratio Simplification Method):\n\\frac{137700}{300000 \\times 0.85 \\times 0.90} = \\frac{137700}{229500} = \\frac{1377}{2295} = 0.60 = 60%."
+  },
+  {
+    "qe": "In an election between two candidates, one candidate got 60% of the valid votes. If the total number of votes polled were 8850, and 10% of the votes were invalid, then find the number of valid votes that the other candidate got.",
+    "qh": "दो उम्मीदवारों के बीच एक चुनाव में, एक उम्मीदवार को वैध मतों का 60% प्राप्त हुआ। यदि डाले गए कुल मत 8850 थे, और 10% मत अमान्य थे, तो ज्ञात कीजिए कि दूसरे उम्मीदवार को कितने वैध मत मिले।",
+    "o": [
+      "(a) 3816",
+      "(b) 3186",
+      "(c) 3681",
+      "(d) 3618"
+    ],
+    "a": "B",
+    "e": "Method 1 (Step-by-Step Method):\nTotal votes polled = 8850.\nInvalid votes = 10% of 8850 = 885.\nValid votes = 8850 - 885 = 7965.\nFirst candidate got 60% of valid votes, so the second candidate got:\n100% - 60% = 40% of valid votes.\nOther candidate's valid votes = 40% of 7965 = \\frac{2}{5} \\times 7965 = 2 \\times 1593 = 3186.\n\nMethod 2 (Single Line Multiplication):\nOther candidate's votes = 8850 \\times \\frac{90}{100} \\times \\frac{40}{100} = 8850 \\times \\frac{9}{10} \\times \\frac{2}{5} = 8850 \\times \\frac{18}{50} = 177 \\times 18 = 3186."
+  },
+  {
+    "qe": "In an election, 8% of the voters did not cast their votes. Two candidates contested the election in which the winning candidate got 48% of the total votes and won the election by 1100 votes. Find the total number of voters in the election, given that all the votes cast were valid.",
+    "qh": "एक चुनाव में, 8% मतदाताओं ने अपने मत नहीं डाले। दो उम्मीदवारों ने चुनाव लड़ा जिसमें जीतने वाले उम्मीदवार ने कुल मतों का 48% प्राप्त किया और 1100 मतों से चुनाव जीत गया। चुनाव में मतदाताओं की कुल संख्या ज्ञात कीजिए, यह देखते हुए कि डाले गए सभी मत वैध थे।",
+    "o": [
+      "(a) 27,500",
+      "(b) 25,000",
+      "(c) 26,500",
+      "(d) 28,000"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nLet total enrolled voters = 100%.\nVoters who did not vote = 8%.\nTotal votes cast = 100% - 8% = 92%.\nWinning candidate got 48% of the total votes = 48%.\nLosing candidate got = Total votes cast - Winner's votes = 92% - 48% = 44% of total votes.\nWinning margin = 48% - 44% = 4% of total votes.\nGiven: 4% = 1100.\n1% = \\frac{1100}{4} = 275.\nTotal voters (100%) = 275 \\times 100 = 27,500.\n\nMethod 2 (Ratio Method):\nWinner = 48 units, Did not vote = 8 units, Loser = 92 - 48 = 44 units.\nMargin = 48 - 44 = 4 units.\n4 units = 1100 \\implies 1 unit = 275.\nTotal voters = 100 units = 100 \\times 275 = 27,500."
+  },
+  
+  {
+    "qe": "In a state election between two parties, 83% of the voters cast their votes, out of which 4% of the votes were declared invalid. Party A got 156611 votes which were 83% of the total valid votes. Find the total number of votes enrolled in that election. (Consider integer part only)",
+    "qh": "दो पार्टियों के बीच एक राज्य चुनाव में, 83% मतदाताओं ने अपने मत डाले, जिनमें से 4% मत अमान्य घोषित कर दिए गए। पार्टी A को 156611 मत मिले, जो कुल वैध मतों का 83% था। उस चुनाव में नामांकित मतों की कुल संख्या ज्ञात कीजिए। (केवल पूर्णांक भाग पर विचार करें)",
+    "o": [
+      "(a) 2,58,233",
+      "(b) 2,34,888",
+      "(c) 2,36,807",
+      "(d) 23,46,807"
+    ],
+    "a": "C",
+    "e": "Method 1 (Chain Multiplication Method):\nLet the total number of enrolled voters be $V$.\nVotes cast = $83\\%$ of $V = \\frac{83}{100} V$.\nValid votes = $96\\%$ of votes cast = $\\frac{96}{100} \\times \\frac{83}{100} V$.\nParty A's votes = $83\\%$ of valid votes = $\\frac{83}{100} \\times \\frac{96}{100} \\times \\frac{83}{100} V = 156611$.\n$V \\times 0.83 \\times 0.96 \\times 0.83 = 156611$\n$V \\times 0.661344 = 156611$\n$V = \\frac{156611}{0.661344} \\approx 236807.05 \\approx 2,36,807$.\n\nMethod 2 (Step Backtrack Method):\nValid votes = $\\frac{156611}{0.83} \\approx 188687.95$.\nVotes cast = $\\frac{188687.95}{0.96} \\approx 196549.95$.\nTotal enrolled voters = $\\frac{196549.95}{0.83} \\approx 2,36,807$."
+  },
+  {
+    "qe": "In an election between P, R and S, 1/10 of the total votes polled are invalid. Votes polled in favour of R and S are half of the total votes polled, and they get equal votes. Due to a fault in the machine, half of the votes of S and half of the invalid votes are counted additionally in favour of R. What is the overall percentage of votes secured by R due to the fault?",
+    "qh": "P, R और S के बीच एक चुनाव में, डाले गए कुल मतों का 1/10 भाग अमान्य है। R और S के पक्ष में डाले गए मत, कुल डाले गए मतों के आधे हैं, और उन्हें बराबर मत प्राप्त होते हैं। मशीन में खराबी के कारण, S के आधे मत और अमान्य मतों के आधे मत अतिरिक्त रूप से R के पक्ष में गिने जाते हैं। खराबी के कारण R द्वारा प्राप्त मतों का कुल प्रतिशत क्या है?",
+    "o": [
+      "(a) 37.55%",
+      "(b) 41.55%",
+      "(c) 38.5%",
+      "(d) 42.5%"
+    ],
+    "a": "D",
+    "e": "Method 1 (100-Base Assumption Method):\nLet total votes polled = $100$ units.\nInvalid votes = $\\frac{1}{10} \\times 100 = 10$ units.\nVotes polled in favour of $(R + S) = \\frac{1}{2} \\times 100 = 50$ units.\nSince R and S get equal votes: $R = 25$ units, $S = 25$ units.\nDue to the fault, additional votes counted for R:\n- Half of S's votes = $\\frac{25}{2} = 12.5$ units.\n- Half of invalid votes = $\\frac{10}{2} = 5$ units.\nTotal votes secured by R = $25 + 12.5 + 5 = 42.5$ units.\nOverall percentage of votes secured by R = $\\frac{42.5}{100} \\times 100\\% = 42.5\\%$.\n\nMethod 2 (Fraction Formulation):\nInitial fraction of R = $\\frac{1}{4} = 0.25$.\nFault bonus = $\\frac{1}{2}(S) + \\frac{1}{2}(\\text{Invalid}) = \\frac{1}{2}\\left(\\frac{1}{4}\\right) + \\frac{1}{2}\\left(\\frac{1}{10}\\right) = \\frac{1}{8} + \\frac{1}{20} = 0.125 + 0.05 = 0.175$.\nTotal fraction for R = $0.25 + 0.175 = 0.425 = 42.5\\%$."
+  },
+  {
+    "qe": "Hari, Kamal and Lalit contested an election in which 6050 votes were polled and none of the votes were invalid. Kamal got 42% more votes than the total votes obtained by Hari and Lalit together. If Lalit obtained only 8% of the total polled votes, find the number of votes obtained by Hari.",
+    "qh": "हरि, कमल और ललित ने एक चुनाव लड़ा जिसमें 6050 मत पड़े और कोई भी मत अमान्य नहीं था। कमल को हरि और ललित द्वारा प्राप्त कुल मतों से 42% अधिक मत मिले। यदि ललित को कुल डाले गए मतों का केवल 8% प्राप्त हुआ, तो हरि द्वारा प्राप्त मतों की संख्या ज्ञात कीजिए।",
+    "o": [
+      "(a) 2016",
+      "(b) 1556",
+      "(c) 1912",
+      "(d) 1668"
+    ],
+    "a": "A",
+    "e": "Method 1 (Ratio & Algebra Method):\nLet the combined votes of $(H + L) = 100$ units.\nKamal ($K$) got $42\\%$ more $\\implies K = 142$ units.\nTotal votes polled = $(H + L) + K = 100 + 142 = 242$ units.\nGiven: $242\\text{ units} = 6050$.\n$1\\text{ unit} = \\frac{6050}{242} = 25$.\nVotes of $(H + L) = 100 \\times 25 = 2500$.\nVotes obtained by Lalit ($L$) = $8\\% \\text{ of } 6050 = 0.08 \\times 6050 = 484$.\nVotes obtained by Hari ($H$) = $2500 - 484 = 2016$.\n\nMethod 2 (100-Base Method):\n$K = 1.42 (H + L)$.\nTotal votes $= K + (H + L) = 2.42 (H + L) = 6050 \\implies H + L = \\frac{6050}{2.42} = 2500$.\n$L = 8\\% \\text{ of } 6050 = 484 \\implies H = 2500 - 484 = 2016$."
+  },
+  {
+    "qe": "In an election between three candidates Arjun, Bhaskar and Saral contested for a post. Arjun got 50% votes more than Saral and Saral got 2% votes less than Bhaskar. The difference between the votes of Bhaskar and Saral is 1296. What is the half of the difference between the votes of Arjun and Bhaskar?",
+    "qh": "तीन उम्मीदवारों अर्जुन, भास्कर और सरल के बीच एक पद के लिए चुनाव हुआ। अर्जुन को सरल से 50% अधिक मत मिले और सरल को भास्कर से 2% कम मत मिले। भास्कर और सरल के मतों के बीच का अंतर 1296 है। अर्जुन और भास्कर के मतों के बीच के अंतर का आधा क्या है?",
+    "o": [
+      "(a) 3888",
+      "(b) 13988",
+      "(c) 7766",
+      "(d) 15228"
+    ],
+    "a": "D",
+    "e": "Method 1 (Step-by-Step Value Method):\nLet votes of Bhaskar = $B$.\nSaral got $2\\%$ less than Bhaskar $\\implies B - S = 2\\% \\text{ of } B = 1296$.\n$0.02 B = 1296 \\implies B = \\frac{1296}{0.02} = 64800$.\nVotes of Saral ($S$) = $64800 - 1296 = 63504$.\nArjun got $50\\%$ more than Saral:\n$A = 1.5 \\times 63504 = 95256$.\nDifference between Arjun and Bhaskar = $A - B = 95256 - 64800 = 30456$.\nHalf of the difference = $\\frac{30456}{2} = 15228$.\n\nMethod 2 (Ratio Formulation Method):\n$B = 100$ units, $S = 98$ units.\nDifference $= 2$ units $= 1296 \\implies 1\\text{ unit} = 648$.\n$A = 1.5 \\times 98 = 147$ units.\nDifference $(A - B) = 147 - 100 = 47$ units.\nHalf of the difference = $\\frac{47}{2} \\times 648 = 47 \\times 324 = 15228$."
+  },
+  {
+    "qe": "Two candidates P and Q contested in an election. 70% of the registered voters are P supporters. If 60% of the P supporters and 30% of the Q supporters are expected to vote for candidate P, then what percentage of the registered voters are expected to vote for candidate P?",
+    "qh": "दो उम्मीदवारों P और Q ने एक चुनाव लड़ा। पंजीकृत मतदाताओं में से 70% P के समर्थक हैं। यदि P के 60% समर्थकों और Q के 30% समर्थकों से उम्मीदवार P को वोट देने की उम्मीद है, तो पंजीकृत मतदाताओं में से कितने प्रतिशत से उम्मीदवार P को वोट देने की उम्मीद है?",
+    "o": [
+      "(a) 30%",
+      "(b) 51%",
+      "(c) 26%",
+      "(d) 47%"
+    ],
+    "a": "B",
+    "e": "Method 1 (100-Base Method):\nLet registered voters = $100$.\nP supporters = $70$, Q supporters = $100 - 70 = 30$.\nVotes for P from P supporters = $60\\% \\text{ of } 70 = \\frac{60}{100} \\times 70 = 42$.\nVotes for P from Q supporters = $30\\% \\text{ of } 30 = \\frac{30}{100} \\times 30 = 9$.\nTotal expected votes for P = $42 + 9 = 51$.\nPercentage of registered voters = $\\frac{51}{100} \\times 100\\% = 51\\%$.\n\nMethod 2 (Weighted Average Formula):\nExpected percentage = $(0.70 \\times 60\\%) + (0.30 \\times 30\\%) = 42\\% + 9\\% = 51\\%$."
+  },
+  {
+    "qe": "In an election, a voter has choices to vote for one candidate out of three candidates. There is also an option 'None Of The Above' (NOTA) to reject all candidates. The three candidates get votes that are 6 times NOTA. The winner gets votes that are twice the second runner-up's votes. The first runner-up gets 900 votes more than NOTA and defeats the second runner-up by 150 votes. What is the total number of votes polled?",
+    "qh": "एक चुनाव में, एक मतदाता के पास तीन उम्मीदवारों में से किसी एक उम्मीदवार को वोट देने का विकल्प होता है। सभी उम्मीदवारों को अस्वीकार करने के लिए 'उपरोक्त में से कोई नहीं' (नोटा) का विकल्प भी है। तीनों उम्मीदवारों को मिले मत नोटा के 6 गुना हैं। विजेता को दूसरे उपविजेता (तीसरे स्थान वाले) के मतों के दोगुने मत मिलते हैं। पहले उपविजेता को नोटा से 900 मत अधिक मिलते हैं और वह दूसरे उपविजेता को 150 मतों से हराता है। डाले गए मतों की कुल संख्या क्या है?",
+    "o": [
+      "(a) 17,715",
+      "(b) 15,177",
+      "(c) 11,025",
+      "(d) 11,577"
+    ],
+    "a": "C",
+    "e": "Method 1 (Algebraic Substitution Method):\nLet votes for NOTA = $N$.\nSum of votes of the three candidates ($W + R_1 + R_2$) = $6N$.\nTotal votes polled = Candidate votes + NOTA = $6N + N = 7N$.\nGiven:\n- First runner-up ($R_1$) = $N + 900$.\n- $R_1$ defeats second runner-up ($R_2$) by 150 votes $\\implies R_2 = R_1 - 150 = (N + 900) - 150 = N + 750$.\n- Winner ($W$) gets twice of $R_2 \\implies W = 2(N + 750) = 2N + 1500$.\nAdding all three candidates:\n$W + R_1 + R_2 = (2N + 1500) + (N + 900) + (N + 750) = 4N + 3150$.\nEquating to $6N$:\n$6N = 4N + 3150 \\implies 2N = 3150 \\implies N = 1575$.\nTotal votes polled = $7N = 7 \\times 1575 = 11025$.\n\nMethod 2 (Verification Method):\nIf $N = 1575$:\n$R_1 = 1575 + 900 = 2475$.\n$R_2 = 2475 - 150 = 2325$.\n$W = 2 \\times 2325 = 4650$.\nCandidate sum = $4650 + 2475 + 2325 = 9450 = 6 \\times 1575$.\nTotal votes polled = $9450 + 1575 = 11025$."
+  },
+  
+  {
+    "qe": "Three candidates P, Q and R participated in an election. P got 35% more votes than Q, and R got 15% more votes than Q. P overtook R by 2,412 votes. If 90% voters voted and no invalid or illegal votes were cast, then what was the number of voters in the voting list?",
+    "qh": "तीन उम्मीदवारों P, Q और R ने एक चुनाव में भाग लिया। P को Q से 35% अधिक मत मिले, और R को Q से 15% अधिक मत मिले। P ने R को 2,412 मतों से पछाड़ा। यदि 90% मतदाताओं ने मतदान किया और कोई अमान्य या अवैध मत नहीं डाला गया, तो मतदाता सूची में मतदाताओं की संख्या क्या थी?",
+    "o": [
+      "(a) 46,900",
+      "(b) 42,800",
+      "(c) 42,210",
+      "(d) 48,500"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nLet votes obtained by Q = $100$ units.\nThen P's votes = $135$ units, and R's votes = $115$ units.\nDifference between P and R = $135 - 115 = 20$ units.\nGiven: $20\\text{ units} = 2412$.\n$1\\text{ unit} = \\frac{2412}{20} = 120.6$.\nTotal votes cast = $P + Q + R = 135 + 100 + 115 = 350$ units.\nTotal votes cast = $350 \\times 120.6 = 42210$.\nSince only $90\\%$ voters cast their votes:\nTotal voters on the voting list = $\\frac{42210}{0.90} = 46900$.\n\nMethod 2 (Ratio Method):\nRatio P : Q : R = $135 : 100 : 115 = 27 : 20 : 23$.\nDifference between P and R = $27 - 23 = 4$ units.\n$4\\text{ units} = 2412 \\implies 1\\text{ unit} = 603$.\nTotal valid votes polled = $27 + 20 + 23 = 70\\text{ units} = 70 \\times 603 = 42210$.\nVoters in voting list = $42210 \\times \\frac{10}{9} = 46900$."
+  },
+  {
+    "qe": "28% of the people eligible to vote are between 20 to 25 years. In an election 75% of those eligible to vote who were between 20 to 25 years actually voted. In that election the number of persons between 20 to 25 who actually voted was what percentage of those eligible to vote?",
+    "qh": "मतदान के पात्र लोगों में से 28% की आयु 20 से 25 वर्ष के बीच है। एक चुनाव में 20 से 25 वर्ष के बीच के मतदान के पात्र लोगों में से 75% ने वास्तव में मतदान किया। उस चुनाव में 20 से 25 वर्ष के बीच के वास्तव में मतदान करने वाले व्यक्तियों की संख्या, मतदान के पात्र कुल व्यक्तियों का कितना प्रतिशत थी?",
+    "o": [
+      "(a) 25%",
+      "(b) 21%",
+      "(c) 28%",
+      "(d) 22%"
+    ],
+    "a": "B",
+    "e": "Method 1 (Direct Percentage Method):\nTotal eligible voters ko $100$ maan lete hain.\nEligible voters between 20 to 25 years = $28\\% \\text{ of } 100 = 28$.\nNumber of persons who actually voted = $75\\% \\text{ of } 28 = \\frac{3}{4} \\times 28 = 21$.\nPercentage of total eligible voters = $\\frac{21}{100} \\times 100\\% = 21\\%$.\n\nMethod 2 (Fraction Multiplication Method):\nRequired fraction = $28\\% \\times 75\\% = \\frac{28}{100} \\times \\frac{3}{4} = \\frac{7 \\times 3}{100} = \\frac{21}{100} = 21\\%$."
+  },
+  {
+    "qe": "In an election, 35% of the voter voted for candidate P whereas 50% of the remaining voted for candidate Q. The remaining voter did not vote. If the difference between those who voted for candidate P and those who did not vote was 1000, the number of individuals eligible for casting a vote in that election was:",
+    "qh": "एक चुनाव में, 35% मतदाताओं ने उम्मीदवार P को वोट दिया जबकि शेष के 50% ने उम्मीदवार Q को वोट दिया। शेष मतदाताओं ने मतदान नहीं किया। यदि उम्मीदवार P को वोट देने वालों और मतदान न करने वालों के बीच का अंतर 1000 था, तो उस चुनाव में मतदान करने के लिए पात्र व्यक्तियों की संख्या थी:",
+    "o": [
+      "(a) 40000",
+      "(b) 60000",
+      "(c) 75000",
+      "(d) 55000"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nLet total eligible voters = $100\\%$.\nVoted for P = $35\\%$.\nRemaining voters = $100\\% - 35\\% = 65\\%$.\nVoted for Q = $50\\% \\text{ of } 65\\% = 32.5\\%$.\nDid not vote = Remaining $50\\% \\text{ of } 65\\% = 32.5\\%$.\nDifference between (Voted for P) and (Did not vote) = $35\\% - 32.5\\% = 2.5\\%$.\nGiven: $2.5\\% = 1000$.\n$1\\% = \\frac{1000}{2.5} = 400$.\nTotal eligible voters ($100\\%$) = $400 \\times 100 = 40000$.\n\nMethod 2 (Ratio Method):\nTotal = $200$ units.\nP = $35\\% \\text{ of } 200 = 70$ units.\nRemaining = $200 - 70 = 130$ units.\nQ = $65$ units, Did not vote = $65$ units.\nDifference between P and Did not vote = $70 - 65 = 5$ units.\n$5\\text{ units} = 1000 \\implies 1\\text{ unit} = 200$.\nTotal voters = $200\\text{ units} = 200 \\times 200 = 40000$."
+  },
+  {
+    "qe": "In a survey it was found that in a constituency, 55% of voters are male and the rest are female. 40% of the male voters are literate and 33 1/3% of the female voters are illiterate. What percentage of the voters are literate?",
+    "qh": "एक सर्वेक्षण में पाया गया कि एक निर्वाचन क्षेत्र में 55% मतदाता पुरुष हैं और शेष महिलाएं हैं। 40% पुरुष मतदाता साक्षर हैं और 33 1/3% महिला मतदाता निरक्षर हैं। कुल मतदाताओं का कितना प्रतिशत साक्षर है?",
+    "o": [
+      "(a) 52%",
+      "(b) 48%",
+      "(c) 54%",
+      "(d) 37%"
+    ],
+    "a": "A",
+    "e": "Method 1 (100-Base Method):\nLet total voters = $100$.\nMales = $55$, Females = $100 - 55 = 45$.\nLiterate males = $40\\% \\text{ of } 55 = \\frac{2}{5} \\times 55 = 22$.\nFemale illiterates = $33\\frac{1}{3}\\% = \\frac{1}{3}$ of females.\nLiterate females = $1 - \\frac{1}{3} = \\frac{2}{3}$ of females = $\\frac{2}{3} \\times 45 = 30$.\nTotal literate voters = $22 + 30 = 52$.\nOverall percentage of literate voters = $\\frac{52}{100} \\times 100\\% = 52\\%$.\n\nMethod 2 (Fraction / Ratio Method):\nMales fraction = $\\frac{11}{20}$, Females fraction = $\\frac{9}{20}$.\nLiterate part = $\\left(\\frac{11}{20} \\times \\frac{2}{5}\\right) + \\left(\\frac{9}{20} \\times \\frac{2}{3}\\right) = \\frac{22}{100} + \\frac{30}{100} = \\frac{52}{100} = 52\\%$."
+  },
+  {
+    "qe": "In a constituency, 55% of the total number of voters are males and the rest are females. If 40% of the males are illiterate and 40% of the females are literate, then by what percentage is the number of illiterate females more than that of the illiterate males (correct to one decimal place)?",
+    "qh": "एक निर्वाचन क्षेत्र में, मतदाताओं की कुल संख्या का 55% पुरुष हैं और शेष महिलाएं हैं। यदि 40% पुरुष निरक्षर हैं और 40% महिलाएं साक्षर हैं, तो निरक्षर महिलाओं की संख्या निरक्षर पुरुषों की तुलना में कितने प्रतिशत अधिक है (एक दशमलव स्थान तक सही)?",
+    "o": [
+      "(a) 21.5%",
+      "(b) 20.8%",
+      "(c) 16.4%",
+      "(d) 22.7%"
+    ],
+    "a": "D",
+    "e": "Method 1 (100-Base Method):\nLet total voters = $100$.\nMales = $55$, Females = $45$.\nIlliterate males = $40\\% \\text{ of } 55 = 0.40 \\times 55 = 22$.\nSince $40\\%$ of females are literate, illiterate females = $60\\% \\text{ of } 45 = 0.60 \\times 45 = 27$.\nDifference = $27 - 22 = 5$.\nRequired percentage more than illiterate males:\n$= \\frac{5}{22} \\times 100\\% = \\frac{250}{11}\\% \\approx 22.72\\% \\approx 22.7\\%$.\n\nMethod 2 (Ratio Method):\nIlliterate males : Illiterate females = $22 : 27$.\nIncrease = $27 - 22 = 5$ units (base 22).\nPercentage more = $\\frac{5}{22} \\times 100\\% = 22.7\\%$."
+  },
+  {
+    "qe": "In a constituency, 45% of the total number of voters are males and the rest are females. If 60% of the males are illiterate and 60% of the females are literate, then by what percent is the number of illiterate females more than that of literate males? (Rounded off to 2 decimal places)",
+    "qh": "एक निर्वाचन क्षेत्र में, कुल मतदाताओं का 45% पुरुष हैं और बाकी महिलाएं हैं। यदि 60% पुरुष निरक्षर हैं और 60% महिलाएं साक्षर हैं, तो निरक्षर महिलाओं की संख्या साक्षर पुरुषों से कितने प्रतिशत अधिक है? (2 दशमलव स्थानों तक पूर्णांकित)",
+    "o": [
+      "(a) 19.11%",
+      "(b) 27.23%",
+      "(c) 30.24%",
+      "(d) 22.22%"
+    ],
+    "a": "D",
+    "e": "Method 1 (100-Base Method):\nLet total voters = $100$.\nMales = $45$, Females = $100 - 45 = 55$.\nIlliterate males = $60\\% \\text{ of } 45 = 27 \\implies$ Literate males = $45 - 27 = 18$.\nLiterate females = $60\\% \\text{ of } 55 = 33 \\implies$ Illiterate females = $55 - 33 = 22$.\nDifference between illiterate females and literate males = $22 - 18 = 4$.\nRequired percentage (over literate males base 18):\n$= \\frac{4}{18} \\times 100\\% = \\frac{2}{9} \\times 100\\% \\approx 22.22\\%$.\n\nMethod 2 (Ratio Method):\nLiterate Males : Illiterate Females = $(45 \\times 0.40) : (55 \\times 0.40) = 45 : 55 = 9 : 11$.\nExcess = $11 - 9 = 2$ units (base 9).\nPercentage more = $\\frac{2}{9} \\times 100\\% \\approx 22.22\\%$."
+  }
+]
