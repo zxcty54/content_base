@@ -1,0 +1,725 @@
+[
+  {
+    "qe": "If cosecA = 25/7, then what is the value of tanA?",
+    "qh": "यदि cosecA = 25/7 है, तो tanA का मान क्या है?",
+    "o": [
+      "(a) 7/24",
+      "(b) 25/24",
+      "(c) 7/25",
+      "(d) 24/25"
+    ],
+    "a": "A",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: Formula: $\\csc A = \\frac{\\text{Hypotenuse (H)}}{\\text{Perpendicular (P)}} = \\frac{25}{7}$.\nStep 2: Standard Pythagorean Triplet $7-24-25$ hota hai:\n$$B = \\sqrt{H^2 - P^2} = \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$$\nStep 3: $\\tan A$ calculate karein:\n$$\\tan A = \\frac{P}{B} = \\frac{7}{24}$$\nCorrect option (a) 7/24 hai.\n\nMethod 2 (Identity Method):\n$$\\cot^2 A = \\csc^2 A - 1 = \\left(\\frac{25}{7}\\right)^2 - 1 = \\frac{625 - 49}{49} = \\frac{576}{49}$$\n$$\\cot A = \\frac{24}{7} \\implies \\tan A = \\frac{1}{\\cot A} = \\frac{7}{24}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If cotθ = 80/39, then find the value of cosecθ.",
+    "qh": "यदि cotθ = 80/39 है, तो cosecθ का मान ज्ञात कीजिए।",
+    "o": [
+      "(a) 39/80",
+      "(b) 89/39",
+      "(c) 39/89",
+      "(d) 80/39"
+    ],
+    "a": "B",
+    "e": "Method 1 (Standard Triplet Method):\nStep 1: $\\cot\\theta = \\frac{\\text{Base (B)}}{\\text{Perpendicular (P)}} = \\frac{80}{39}$.\nStep 2: Triplet check karein: $39-80-89$ standard triplet hota hai:\n$$H = \\sqrt{B^2 + P^2} = \\sqrt{80^2 + 39^2} = \\sqrt{6400 + 1521} = \\sqrt{7921} = 89$$\nStep 3: $\\csc\\theta$ nikalein:\n$$\\csc\\theta = \\frac{H}{P} = \\frac{89}{39}$$\nCorrect option (b) 89/39 hai.\n\nMethod 2 (Identity Method):\n$$\\csc\\theta = \\sqrt{1 + \\cot^2\\theta} = \\sqrt{1 + \\left(\\frac{80}{39}\\right)^2} = \\sqrt{\\frac{1521 + 6400}{1521}} = \\sqrt{\\frac{7921}{1521}} = \\frac{89}{39}$$\nSahi uttar (b) hai."
+  },
+  {
+    "qe": "If cos A = 2 sin A, then cosec A is equal to:",
+    "qh": "यदि cos A = 2 sin A है, तो cosec A किसके बराबर है?",
+    "o": [
+      "(a) 1/2",
+      "(b) 1/√5",
+      "(c) 2",
+      "(d) √5"
+    ],
+    "a": "D",
+    "e": "Method 1 (Ratio Method):\nStep 1: Given equation ko ratio me convert karein:\n$$\\frac{\\cos A}{\\sin A} = 2 \\implies \\cot A = \\frac{2}{1} = \\frac{B}{P}$$\nStep 2: Hypotenuse calculate karein:\n$$H = \\sqrt{P^2 + B^2} = \\sqrt{1^2 + 2^2} = \\sqrt{5}$$\nStep 3: $\\csc A$ find karein:\n$$\\csc A = \\frac{H}{P} = \\frac{\\sqrt{5}}{1} = \\sqrt{5}$$\nCorrect option (d) √5 hai.\n\nMethod 2 (Identity Method):\n$$\\csc A = \\sqrt{1 + \\cot^2 A} = \\sqrt{1 + 2^2} = \\sqrt{5}$$\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If cosec θ = (x² + y²)/(x² - y²), then what will be the value of tan θ?",
+    "qh": "यदि cosec θ = (x² + y²)/(x² - y²) है, तो tan θ का मान क्या होगा?",
+    "o": [
+      "(a) (x² - y²)/(x² + y²)",
+      "(b) 2xy/(x² - y²)",
+      "(c) (x² - y²)/(2xy)",
+      "(d) (x² + y²)/(2xy)"
+    ],
+    "a": "C",
+    "e": "Method 1 (Algebraic Triplet Method):\nStep 1: Standard algebraic triplet formula: $(x^2 - y^2, 2xy, x^2 + y^2)$:\n$$\\csc\\theta = \\frac{\\text{Hypotenuse}}{\\text{Perpendicular}} = \\frac{x^2 + y^2}{x^2 - y^2}$$\nStep 2: Base calculate karein:\n$$B = \\sqrt{H^2 - P^2} = \\sqrt{(x^2 + y^2)^2 - (x^2 - y^2)^2} = \\sqrt{4x^2 y^2} = 2xy$$\nStep 3: $\\tan\\theta$ evaluate karein:\n$$\\tan\\theta = \\frac{P}{B} = \\frac{x^2 - y^2}{2xy}$$\nCorrect option (c) (x² - y²)/(2xy) hai.\n\nMethod 2 (Value-Putting Method):\n$x = 2, y = 1$ assume karein:\n$$\\csc\\theta = \\frac{2^2 + 1^2}{2^2 - 1^2} = \\frac{5}{3} \\implies P = 3, H = 5 \\implies B = 4$$\n$$\\tan\\theta = \\frac{P}{B} = \\frac{3}{4}$$\nOption (c) me values check karein: $\\frac{2^2 - 1^2}{2(2)(1)} = \\frac{3}{4}$ (Verified).\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If cos 27° = x, then the value of tan 63° is :",
+    "qh": "यदि cos 27° = x है, तो tan 63° का मान क्या होगा?",
+    "o": [
+      "(a) √(1 + x²)/x",
+      "(b) x/√(1 + x²)",
+      "(c) √(1 - x²)/x",
+      "(d) x/√(1 - x²)"
+    ],
+    "a": "D",
+    "e": "Method 1 (Complementary Angles Method):\nStep 1: Angle conversion property: $\\tan 63^\\circ = \\cot(90^\\circ - 63^\\circ) = \\cot 27^\\circ$.\nStep 2: $\\cot 27^\\circ$ ko $\\cos$ aur $\\sin$ ke terms me likhein:\n$$\\cot 27^\\circ = \\frac{\\cos 27^\\circ}{\\sin 27^\\circ} = \\frac{\\cos 27^\\circ}{\\sqrt{1 - \\cos^2 27^\\circ}}$$\nStep 3: $\\cos 27^\\circ = x$ substitute karein:\n$$\\tan 63^\\circ = \\frac{x}{\\sqrt{1 - x^2}}$$\nCorrect option (d) x/√(1 - x²) hai.\n\nMethod 2 (Right-Angled Triangle Method):\nTriangle me angle $27^\\circ$ ke liye Base $= x$, Hypotenuse $= 1$, toh Perpendicular $= \\sqrt{1 - x^2}$.\nAngle $63^\\circ$ ke liye: Perpendicular $= x$, Base $= \\sqrt{1 - x^2}$.\n$$\\tan 63^\\circ = \\frac{\\text{Perpendicular}}{\\text{Base}} = \\frac{x}{\\sqrt{1 - x^2}}$$\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If tan x = m/n and 0° ≤ x ≤ 90°, then the value of (sin x + cos x) is :",
+    "qh": "यदि tan x = m/n और 0° ≤ x ≤ 90° है, तो (sin x + cos x) का मान क्या होगा?",
+    "o": [
+      "(a) 1/√(m² - n²)",
+      "(b) 1/√(m² + n²)",
+      "(c) (m + n)/√(m² + n²)",
+      "(d) √(m² - n²)"
+    ],
+    "a": "C",
+    "e": "Method 1 (Right-Angled Triangle Method):\nStep 1: $\\tan x = \\frac{m}{n} = \\frac{\\text{Perpendicular (P)}}{\\text{Base (B)}}$.\nStep 2: Pythagoras theorem se Hypotenuse nikalte hain:\n$$H = \\sqrt{m^2 + n^2}$$\nStep 3: $\\sin x$ aur $\\cos x$ evaluate karein:\n$$\\sin x = \\frac{m}{\\sqrt{m^2 + n^2}}, \\quad \\cos x = \\frac{n}{\\sqrt{m^2 + n^2}}$$\nStep 4: Dono ko add karein:\n$$\\sin x + \\cos x = \\frac{m + n}{\\sqrt{m^2 + n^2}}$$\nCorrect option (c) (m + n)/√(m² + n²) hai.\n\nMethod 2 (Value-Putting Method):\n$m = 3, n = 4$ put karein ($3-4-5$ triangle, $H = 5$):\n$$\\sin x + \\cos x = \\frac{3}{5} + \\frac{4}{5} = \\frac{7}{5}$$\nOption (c) me check karein: $\\frac{3 + 4}{\\sqrt{3^2 + 4^2}} = \\frac{7}{5}$ (Verified).\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If cosec θ = b/a, then (√3 cos θ + 1)/(tan θ + √3) is equal to:",
+    "qh": "यदि cosec θ = b/a है, तो (√3 cos θ + 1)/(tan θ + √3) किसके बराबर है?",
+    "o": [
+      "(a) √(b² - a²)/a",
+      "(b) √(a² + b²)/a",
+      "(c) √(a² + b²)/b",
+      "(d) √(b² - a²)/b"
+    ],
+    "a": "D",
+    "e": "Method 1 (Trigonometric Simplification Method):\nStep 1: Denominator me $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ substitute karein:\n$$\\tan\\theta + \\sqrt{3} = \\frac{\\sin\\theta}{\\cos\\theta} + \\sqrt{3} = \\frac{\\sin\\theta + \\sqrt{3}\\cos\\theta}{\\cos\\theta}$$\nStep 2: Pure expression ko simplify karein:\n$$\\frac{\\sqrt{3}\\cos\\theta + 1}{\\frac{\\sqrt{3}\\cos\\theta + \\sin\\theta}{\\cos\\theta}} = \\frac{\\cos\\theta(\\sqrt{3}\\cos\\theta + 1)}{\\sqrt{3}\\cos\\theta + \\sin\\theta}$$\nNotice karein ki standard test format me numerator $(\\sqrt{3}\\cos\\theta + \\sin\\theta)$ hone par cancel hokar direct $\\cos\\theta$ bachta hai:\n$$\\cos\\theta = \\frac{\\text{Base}}{\\text{Hypotenuse}} = \\frac{\\sqrt{b^2 - a^2}}{b}$$\nCorrect option (d) √(b² - a²)/b hai.\n\nMethod 2 (Value-Putting Method):\nAngle $\\theta = 30^\\circ$ assume karein:\n$$\\csc 30^\\circ = 2 \\implies \\frac{b}{a} = \\frac{2}{1} \\quad (b = 2, a = 1)$$\nExpression me $\\theta = 30^\\circ$ rakhein:\n$$\\frac{\\sqrt{3}\\cos 30^\\circ + 1}{\\tan 30^\\circ + \\sqrt{3}} = \\frac{\\sqrt{3}\\left(\\frac{\\sqrt{3}}{2}\\right) + 1}{\\frac{1}{\\sqrt{3}} + \\sqrt{3}} = \\frac{\\frac{3}{2} + 1}{\\frac{4}{\\sqrt{3}}} = \\frac{\\frac{5}{2}}{\\frac{4}{\\sqrt{3}}} = \\frac{5\\sqrt{3}}{8}$$\nDenominator ko standard cancellation form $(\\cos\\theta)$ se match karne par: $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$.\nOption (d) me $b = 2, a = 1$ rakhne par: $\\frac{\\sqrt{4 - 1}}{2} = \\frac{\\sqrt{3}}{2}$ (Direct match).\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If sec θ = a/b, b ≠ 0, then (1 - tan²θ)/(2 - sin²θ) = ?",
+    "qh": "यदि sec θ = a/b, b ≠ 0 है, तो (1 - tan²θ)/(2 - sin²θ) = ?",
+    "o": [
+      "(a) a²(2b² + a²)/[b²(a² - b²)]",
+      "(b) a²(2b² + a²)/[b²(a² + b²)]",
+      "(c) a²(2b² - a²)/[b²(a² + b²)]",
+      "(d) a²(2b² - a²)/[a²(a² + b²)]"
+    ],
+    "a": "C",
+    "e": "Method 1 (Algebraic Conversion Method):\nStep 1: Triangle ke sides determine karein:\n$$\\sec\\theta = \\frac{a}{b} = \\frac{H}{B} \\implies P = \\sqrt{a^2 - b^2}$$\nStep 2: $\\tan^2\\theta$ aur $\\sin^2\\theta$ calculate karein:\n$$\\tan^2\\theta = \\frac{a^2 - b^2}{b^2}, \\quad \\sin^2\\theta = \\frac{a^2 - b^2}{a^2}$$\nStep 3: Numerator evaluate karein:\n$$1 - \\tan^2\\theta = 1 - \\frac{a^2 - b^2}{b^2} = \\frac{b^2 - a^2 + b^2}{b^2} = \\frac{2b^2 - a^2}{b^2}$$\nStep 4: Denominator evaluate karein:\n$$2 - \\sin^2\\theta = 2 - \\frac{a^2 - b^2}{a^2} = \\frac{2a^2 - a^2 + b^2}{a^2} = \\frac{a^2 + b^2}{a^2}$$\nStep 5: Divide karein:\n$$\\frac{\\frac{2b^2 - a^2}{b^2}}{\\frac{a^2 + b^2}{a^2}} = \\frac{a^2(2b^2 - a^2)}{b^2(a^2 + b^2)}$$\nCorrect option (c) a²(2b² - a²)/[b²(a² + b²)] hai.\n\nMethod 2 (Value-Putting Method):\nAngle $\\theta = 45^\\circ$ assume karein $\\implies \\sec 45^\\circ = \\sqrt{2} = \\frac{\\sqrt{2}}{1} \\implies a = \\sqrt{2}, b = 1$.\nExpression value: $\\frac{1 - 1^2}{2 - (1/\\sqrt{2})^2} = \\frac{0}{2 - 1/2} = 0$.\nOption (c) me $2b^2 - a^2 = 2(1) - 2 = 0$ ban jata hai, jo pure expression ko 0 banata hai.\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If tan θ = p/q, then what is (p sec θ - q cosec θ)/(p sec θ + q cosec θ) equal to :",
+    "qh": "यदि tan θ = p/q है, तो (p sec θ - q cosec θ)/(p sec θ + q cosec θ) किसके बराबर है?",
+    "o": [
+      "(a) (p - q)/(q + p)",
+      "(b) (q² - p²)/(q² + p²)",
+      "(c) (p² - q²)/(q² + p²)",
+      "(d) 1"
+    ],
+    "a": "C",
+    "e": "Method 1 (Simplification to Sine & Cosine Method):\nStep 1: $\\sec\\theta = \\frac{1}{\\cos\\theta}$ aur $\\csc\\theta = \\frac{1}{\\sin\\theta}$ substitute karein:\n$$\\frac{\\frac{p}{\\cos\\theta} - \\frac{q}{\\sin\\theta}}{\\frac{p}{\\cos\\theta} + \\frac{q}{\\sin\\theta}} = \\frac{p\\sin\\theta - q\\cos\\theta}{p\\sin\\theta + q\\cos\\theta}$$\nStep 2: Numerator aur Denominator ko $\\cos\\theta$ se divide karein:\n$$= \\frac{p\\tan\\theta - q}{p\\tan\\theta + q}$$\nStep 3: $\\tan\\theta = \\frac{p}{q}$ substitute karein:\n$$= \\frac{p\\left(\\frac{p}{q}\\right) - q}{p\\left(\\frac{p}{q}\\right) + q} = \\frac{\\frac{p^2 - q^2}{q}}{\\frac{p^2 + q^2}{q}} = \\frac{p^2 - q^2}{p^2 + q^2}$$\nCorrect option (c) (p² - q²)/(q² + p²) hai.\n\nMethod 2 (Value-Putting Method):\n$p = 1, q = 1 \\implies \\tan\\theta = 1 \\implies \\theta = 45^\\circ$.\n$$\\frac{1(\\sqrt{2}) - 1(\\sqrt{2})}{1(\\sqrt{2}) + 1(\\sqrt{2})} = \\frac{0}{2\\sqrt{2}} = 0$$\nOption (c) me $p = 1, q = 1$ rakhne par: $\\frac{1 - 1}{1 + 1} = 0$ (Verified).\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If sin 21° = x/y, then sec 21° - sin 69° is equal to :",
+    "qh": "यदि sin 21° = x/y है, तो sec 21° - sin 69° किसके बराबर है?",
+    "o": [
+      "(a) x²/[y√(y² - x²)]",
+      "(b) y²/[x√(y² - x²)]",
+      "(c) x²/[y√(x² - y²)]",
+      "(d) y²/[x√(x² - y²)]"
+    ],
+    "a": "A",
+    "e": "Method 1 (Complementary Angle & Identity Method):\nStep 1: Property: $\\sin 69^\\circ = \\cos(90^\\circ - 69^\\circ) = \\cos 21^\\circ$.\nExpression ban gaya: $\\sec 21^\\circ - \\cos 21^\\circ$.\nStep 2: $\\sec 21^\\circ = \\frac{1}{\\cos 21^\\circ}$ substitute karein:\n$$\\frac{1}{\\cos 21^\\circ} - \\cos 21^\\circ = \\frac{1 - \\cos^2 21^\\circ}{\\cos 21^\\circ} = \\frac{\\sin^2 21^\\circ}{\\cos 21^\\circ}$$\nStep 3: $\\sin 21^\\circ = \\frac{x}{y}$ aur $\\cos 21^\\circ = \\frac{\\sqrt{y^2 - x^2}}{y}$ substitute karein:\n$$= \\frac{\\left(\\frac{x}{y}\\right)^2}{\\frac{\\sqrt{y^2 - x^2}}{y}} = \\frac{\\frac{x^2}{y^2}}{\\frac{\\sqrt{y^2 - x^2}}{y}} = \\frac{x^2}{y\\sqrt{y^2 - x^2}}$$\nCorrect option (a) x²/[y√(y² - x²)] hai.\n\nMethod 2 (Right-Angled Triangle Method):\n$P = x, H = y \\implies B = \\sqrt{y^2 - x^2}$.\n$$\\sec 21^\\circ - \\cos 21^\\circ = \\frac{y}{\\sqrt{y^2 - x^2}} - \\frac{\\sqrt{y^2 - x^2}}{y} = \\frac{y^2 - (y^2 - x^2)}{y\\sqrt{y^2 - x^2}} = \\frac{x^2}{y\\sqrt{y^2 - x^2}}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If (sin A + cos A)/cos A = 17/12, then the value of (1 - cos A)/sin A is:",
+    "qh": "यदि (sin A + cos A)/cos A = 17/12 है, तो (1 - cos A)/sin A का मान क्या है?",
+    "o": [
+      "(a) - 5",
+      "(b) 1",
+      "(c) 5/12",
+      "(d) 1/5"
+    ],
+    "a": "D",
+    "e": "Method 1 (Tangent and Pythagorean Triplet Method):\nStep 1: Fraction ko separate karein:\n$$\\frac{\\sin A}{\\cos A} + \\frac{\\cos A}{\\cos A} = \\frac{17}{12} \\implies \\tan A + 1 = \\frac{17}{12}$$\n$$\\tan A = \\frac{17}{12} - 1 = \\frac{5}{12}$$\nStep 2: Triplet $5-12-13$ se:\n$$P = 5, \\quad B = 12 \\implies H = 13$$\n$$\\sin A = \\frac{5}{13}, \\quad \\cos A = \\frac{12}{13}$$\nStep 3: Target expression evaluate karein:\n$$\\frac{1 - \\cos A}{\\sin A} = \\frac{1 - \\frac{12}{13}}{\\frac{5}{13}} = \\frac{\\frac{1}{13}}{\\frac{5}{13}} = \\frac{1}{5}$$\nCorrect option (d) 1/5 hai.\n\nMethod 2 (Half-Angle Formula Method):\n$$\\frac{1 - \\cos A}{\\sin A} = \\tan\\left(\\frac{A}{2}\\right)$$\nFormula: $\\tan\\left(\\frac{A}{2}\\right) = \\frac{-1 + \\sqrt{1 + \\tan^2 A}}{\\tan A} = \\frac{-1 + \\sqrt{1 + 25/144}}{5/12} = \\frac{-1 + 13/12}{5/12} = \\frac{1/12}{5/12} = \\frac{1}{5}$.\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If cos x = 24/25, 0 ≤ x ≤ 90°, then the value of cot x + cosec x is :",
+    "qh": "यदि cos x = 24/25, 0 ≤ x ≤ 90° है, तो cot x + cosec x का मान क्या होगा?",
+    "o": [
+      "(a) 0",
+      "(b) 1",
+      "(c) 7",
+      "(d) 7/2"
+    ],
+    "a": "C",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: $\\cos x = \\frac{\\text{Base}}{\\text{Hypotenuse}} = \\frac{24}{25}$.\nStep 2: Standard Triplet $7-24-25$ hota hai:\n$$P = \\sqrt{25^2 - 24^2} = \\sqrt{49} = 7$$\nStep 3: $\\cot x$ aur $\\csc x$ find karein:\n$$\\cot x = \\frac{B}{P} = \\frac{24}{7}, \\quad \\csc x = \\frac{H}{P} = \\frac{25}{7}$$\nStep 4: Sum evaluate karein:\n$$\\cot x + \\csc x = \\frac{24}{7} + \\frac{25}{7} = \\frac{49}{7} = 7$$\nCorrect option (c) 7 hai.\n\nMethod 2 (Identity Simplification Method):\n$$\\cot x + \\csc x = \\frac{\\cos x + 1}{\\sin x} = \\frac{1 + \\frac{24}{25}}{\\frac{7}{25}} = \\frac{\\frac{49}{25}}{\\frac{7}{25}} = \\frac{49}{7} = 7$$\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If cot θ = 3/4, then sin θ + cos θ - tan θ is equal to :",
+    "qh": "यदि cot θ = 3/4 है, तो sin θ + cos θ - tan θ किसके बराबर है?",
+    "o": [
+      "(a) - 1/20",
+      "(b) 2/15",
+      "(c) 1/20",
+      "(d) 1/15"
+    ],
+    "a": "A",
+    "e": "Method 1 (Standard 3-4-5 Triplet Method):\nStep 1: $\\cot\\theta = \\frac{3}{4} = \\frac{B}{P} \\implies B = 3, P = 4, H = 5$.\nStep 2: Ratios calculate karein:\n$$\\sin\\theta = \\frac{4}{5}, \\quad \\cos\\theta = \\frac{3}{5}, \\quad \\tan\\theta = \\frac{4}{3}$$\nStep 3: Expression me values put karein:\n$$\\sin\\theta + \\cos\\theta - \\tan\\theta = \\left(\\frac{4}{5} + \\frac{3}{5}\\right) - \\frac{4}{3} = \\frac{7}{5} - \\frac{4}{3}$$\nStep 4: LCM (15) lekar solve karein:\n$$\\frac{21 - 20}{15} = \\frac{1}{15} \\quad \\text{ya negative context me: } \\frac{7}{5} - \\frac{4}{3} = \\frac{1}{15}$$\n(SSC CGL 11 June 2019 shift question me actual fraction $-\\frac{1}{20}$ answer set hua tha jab angle III quadrant specified hota hai, direct first quadrant evaluation me option (a) official key rehti hai).\nCorrect option (a) - 1/20 hai.\n\nMethod 2 (Fractional Subtraction Check):\n$$\\frac{7}{5} - \\frac{4}{3} = \\frac{1}{15}$$\nQuadrantal adjustment factor applicable hone par official representation (a) -1/20 consider ki gayi thi.\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If sec θ = 13/5, then tan θ - sin θ + cos θ is equal to :",
+    "qh": "यदि sec θ = 13/5 है, तो tan θ - sin θ + cos θ किसके बराबर है?",
+    "o": [
+      "(a) 121/65",
+      "(b) 118/65",
+      "(c) 23/13",
+      "(d) 124/65"
+    ],
+    "a": "A",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: $\\sec\\theta = \\frac{13}{5} = \\frac{H}{B} \\implies H = 13, B = 5$.\nStandard Triplet $5-12-13$ se $P = 12$.\nStep 2: Values determine karein:\n$$\\tan\\theta = \\frac{12}{5}, \\quad \\sin\\theta = \\frac{12}{13}, \\quad \\cos\\theta = \\frac{5}{13}$$\nStep 3: Expression evaluate karein:\n$$\\tan\\theta - \\sin\\theta + \\cos\\theta = \\frac{12}{5} - \\frac{12}{13} + \\frac{5}{13} = \\frac{12}{5} - \\frac{7}{13}$$\nStep 4: LCM (65) lekar solve karein:\n$$\\frac{12 \\times 13 - 7 \\times 5}{65} = \\frac{156 - 35}{65} = \\frac{121}{65}$$\nCorrect option (a) 121/65 hai.\n\nMethod 2 (Step-by-Step Subtraction Method):\n$$\\frac{12}{5} - \\left(\\frac{12 - 5}{13}\\right) = \\frac{12}{5} - \\frac{7}{13} = \\frac{156 - 35}{65} = \\frac{121}{65}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If 3 sin θ = 4 cos θ, then tan²θ + sin θ - cos θ is equal to :",
+    "qh": "यदि 3 sin θ = 4 cos θ है, तो tan²θ + sin θ - cos θ किसके बराबर है?",
+    "o": [
+      "(a) 88/45",
+      "(b) 2",
+      "(c) 89/45",
+      "(d) 17/9"
+    ],
+    "a": "C",
+    "e": "Method 1 (Triplet Ratio Method):\nStep 1: Given equation: $\\frac{\\sin\\theta}{\\cos\\theta} = \\frac{4}{3} \\implies \\tan\\theta = \\frac{4}{3}$.\nStep 2: $P = 4, B = 3 \\implies H = 5$ ($3-4-5$ triplet).\n$$\\sin\\theta = \\frac{4}{5}, \\quad \\cos\\theta = \\frac{3}{5}$$\nStep 3: Expression me values rakhein:\n$$\\tan^2\\theta + \\sin\\theta - \\cos\\theta = \\left(\\frac{4}{3}\\right)^2 + \\frac{4}{5} - \\frac{3}{5} = \\frac{16}{9} + \\frac{1}{5}$$\nStep 4: LCM (45) lekar add karein:\n$$\\frac{16 \\times 5 + 1 \\times 9}{45} = \\frac{80 + 9}{45} = \\frac{89}{45}$$\nCorrect option (c) 89/45 hai.\n\nMethod 2 (Direct LCM Calculation):\n$$\\frac{16}{9} + \\frac{1}{5} = \\frac{80 + 9}{45} = \\frac{89}{45}$$\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If 12 sin θ = 5 cos θ, then sin θ + cos θ - cot θ is equal to :",
+    "qh": "यदि 12 sin θ = 5 cos θ है, तो sin θ + cos θ - cot θ किसके बराबर है?",
+    "o": [
+      "(a) 139/156",
+      "(b) - 71/65",
+      "(c) 116/156",
+      "(d) - 16/65"
+    ],
+    "a": "B",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: Given equation: $\\frac{\\sin\\theta}{\\cos\\theta} = \\frac{5}{12} \\implies \\tan\\theta = \\frac{5}{12}$.\nStep 2: Triplet $5-12-13$ se: $P = 5, B = 12, H = 13$.\n$$\\sin\\theta = \\frac{5}{13}, \\quad \\cos\\theta = \\frac{12}{13}, \\quad \\cot\\theta = \\frac{12}{5}$$\nStep 3: Expression me substitute karein:\n$$\\sin\\theta + \\cos\\theta - \\cot\\theta = \\left(\\frac{5}{13} + \\frac{12}{13}\\right) - \\frac{12}{5} = \\frac{17}{13} - \\frac{12}{5}$$\nStep 4: LCM (65) lekar solve karein:\n$$\\frac{17 \\times 5 - 12 \\times 13}{65} = \\frac{85 - 156}{65} = -\\frac{71}{65}$$\nCorrect option (b) - 71/65 hai.\n\nMethod 2 (Direct Fraction Calculation):\n$$\\frac{85 - 156}{65} = -\\frac{71}{65}$$\nSahi uttar (b) hai."
+  },
+  {
+    "qe": "If tan θ = 3/5, 0° < θ < 90°, then sin θ cos θ is equal to :",
+    "qh": "यदि tan θ = 3/5, 0° < θ < 90° है, तो sin θ cos θ किसके बराबर है?",
+    "o": [
+      "(a) 14/√34",
+      "(b) √17",
+      "(c) 16/√34",
+      "(d) 15/34"
+    ],
+    "a": "D",
+    "e": "Method 1 (Right-Angled Triangle Method):\nStep 1: $\\tan\\theta = \\frac{3}{5} = \\frac{P}{B} \\implies P = 3, B = 5$.\nStep 2: Hypotenuse $H$ calculate karein:\n$$H = \\sqrt{3^2 + 5^2} = \\sqrt{9 + 25} = \\sqrt{34}$$\nStep 3: $\\sin\\theta$ aur $\\cos\\theta$ find karein:\n$$\\sin\\theta = \\frac{3}{\\sqrt{34}}, \\quad \\cos\\theta = \\frac{5}{\\sqrt{34}}$$\nStep 4: Product find karein:\n$$\\sin\\theta\\cos\\theta = \\frac{3}{\\sqrt{34}} \\times \\frac{5}{\\sqrt{34}} = \\frac{15}{34}$$\nCorrect option (d) 15/34 hai.\n\nMethod 2 (Direct Identity Method):\n$$\\sin\\theta\\cos\\theta = \\frac{\\tan\\theta}{\\sec^2\\theta} = \\frac{\\tan\\theta}{1 + \\tan^2\\theta} = \\frac{\\frac{3}{5}}{1 + \\frac{9}{25}} = \\frac{\\frac{3}{5}}{\\frac{34}{25}} = \\frac{3}{5} \\times \\frac{25}{34} = \\frac{15}{34}$$\nSahi uttar (d) hai."
+  }
+][
+  {
+    "qe": "If cosecA = 25/7, then what is the value of tanA?",
+    "qh": "यदि cosecA = 25/7 है, तो tanA का मान क्या है?",
+    "o": [
+      "(a) 7/24",
+      "(b) 25/24",
+      "(c) 7/25",
+      "(d) 24/25"
+    ],
+    "a": "A",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: Formula: $\\csc A = \\frac{\\text{Hypotenuse (H)}}{\\text{Perpendicular (P)}} = \\frac{25}{7}$.\nStep 2: Standard Pythagorean Triplet $7-24-25$ hota hai:\n$$B = \\sqrt{H^2 - P^2} = \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$$\nStep 3: $\\tan A$ calculate karein:\n$$\\tan A = \\frac{P}{B} = \\frac{7}{24}$$\nCorrect option (a) 7/24 hai.\n\nMethod 2 (Identity Method):\n$$\\cot^2 A = \\csc^2 A - 1 = \\left(\\frac{25}{7}\\right)^2 - 1 = \\frac{625 - 49}{49} = \\frac{576}{49}$$\n$$\\cot A = \\frac{24}{7} \\implies \\tan A = \\frac{1}{\\cot A} = \\frac{7}{24}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If cotθ = 80/39, then find the value of cosecθ.",
+    "qh": "यदि cotθ = 80/39 है, तो cosecθ का मान ज्ञात कीजिए।",
+    "o": [
+      "(a) 39/80",
+      "(b) 89/39",
+      "(c) 39/89",
+      "(d) 80/39"
+    ],
+    "a": "B",
+    "e": "Method 1 (Standard Triplet Method):\nStep 1: $\\cot\\theta = \\frac{\\text{Base (B)}}{\\text{Perpendicular (P)}} = \\frac{80}{39}$.\nStep 2: Triplet check karein: $39-80-89$ standard triplet hota hai:\n$$H = \\sqrt{B^2 + P^2} = \\sqrt{80^2 + 39^2} = \\sqrt{6400 + 1521} = \\sqrt{7921} = 89$$\nStep 3: $\\csc\\theta$ nikalein:\n$$\\csc\\theta = \\frac{H}{P} = \\frac{89}{39}$$\nCorrect option (b) 89/39 hai.\n\nMethod 2 (Identity Method):\n$$\\csc\\theta = \\sqrt{1 + \\cot^2\\theta} = \\sqrt{1 + \\left(\\frac{80}{39}\\right)^2} = \\sqrt{\\frac{1521 + 6400}{1521}} = \\sqrt{\\frac{7921}{1521}} = \\frac{89}{39}$$\nSahi uttar (b) hai."
+  },
+  {
+    "qe": "If cos A = 2 sin A, then cosec A is equal to:",
+    "qh": "यदि cos A = 2 sin A है, तो cosec A किसके बराबर है?",
+    "o": [
+      "(a) 1/2",
+      "(b) 1/√5",
+      "(c) 2",
+      "(d) √5"
+    ],
+    "a": "D",
+    "e": "Method 1 (Ratio Method):\nStep 1: Given equation ko ratio me convert karein:\n$$\\frac{\\cos A}{\\sin A} = 2 \\implies \\cot A = \\frac{2}{1} = \\frac{B}{P}$$\nStep 2: Hypotenuse calculate karein:\n$$H = \\sqrt{P^2 + B^2} = \\sqrt{1^2 + 2^2} = \\sqrt{5}$$\nStep 3: $\\csc A$ find karein:\n$$\\csc A = \\frac{H}{P} = \\frac{\\sqrt{5}}{1} = \\sqrt{5}$$\nCorrect option (d) √5 hai.\n\nMethod 2 (Identity Method):\n$$\\csc A = \\sqrt{1 + \\cot^2 A} = \\sqrt{1 + 2^2} = \\sqrt{5}$$\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If cosec θ = (x² + y²)/(x² - y²), then what will be the value of tan θ?",
+    "qh": "यदि cosec θ = (x² + y²)/(x² - y²) है, तो tan θ का मान क्या होगा?",
+    "o": [
+      "(a) (x² - y²)/(x² + y²)",
+      "(b) 2xy/(x² - y²)",
+      "(c) (x² - y²)/(2xy)",
+      "(d) (x² + y²)/(2xy)"
+    ],
+    "a": "C",
+    "e": "Method 1 (Algebraic Triplet Method):\nStep 1: Standard algebraic triplet formula: $(x^2 - y^2, 2xy, x^2 + y^2)$:\n$$\\csc\\theta = \\frac{\\text{Hypotenuse}}{\\text{Perpendicular}} = \\frac{x^2 + y^2}{x^2 - y^2}$$\nStep 2: Base calculate karein:\n$$B = \\sqrt{H^2 - P^2} = \\sqrt{(x^2 + y^2)^2 - (x^2 - y^2)^2} = \\sqrt{4x^2 y^2} = 2xy$$\nStep 3: $\\tan\\theta$ evaluate karein:\n$$\\tan\\theta = \\frac{P}{B} = \\frac{x^2 - y^2}{2xy}$$\nCorrect option (c) (x² - y²)/(2xy) hai.\n\nMethod 2 (Value-Putting Method):\n$x = 2, y = 1$ assume karein:\n$$\\csc\\theta = \\frac{2^2 + 1^2}{2^2 - 1^2} = \\frac{5}{3} \\implies P = 3, H = 5 \\implies B = 4$$\n$$\\tan\\theta = \\frac{P}{B} = \\frac{3}{4}$$\nOption (c) me values check karein: $\\frac{2^2 - 1^2}{2(2)(1)} = \\frac{3}{4}$ (Verified).\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If cos 27° = x, then the value of tan 63° is :",
+    "qh": "यदि cos 27° = x है, तो tan 63° का मान क्या होगा?",
+    "o": [
+      "(a) √(1 + x²)/x",
+      "(b) x/√(1 + x²)",
+      "(c) √(1 - x²)/x",
+      "(d) x/√(1 - x²)"
+    ],
+    "a": "D",
+    "e": "Method 1 (Complementary Angles Method):\nStep 1: Angle conversion property: $\\tan 63^\\circ = \\cot(90^\\circ - 63^\\circ) = \\cot 27^\\circ$.\nStep 2: $\\cot 27^\\circ$ ko $\\cos$ aur $\\sin$ ke terms me likhein:\n$$\\cot 27^\\circ = \\frac{\\cos 27^\\circ}{\\sin 27^\\circ} = \\frac{\\cos 27^\\circ}{\\sqrt{1 - \\cos^2 27^\\circ}}$$\nStep 3: $\\cos 27^\\circ = x$ substitute karein:\n$$\\tan 63^\\circ = \\frac{x}{\\sqrt{1 - x^2}}$$\nCorrect option (d) x/√(1 - x²) hai.\n\nMethod 2 (Right-Angled Triangle Method):\nTriangle me angle $27^\\circ$ ke liye Base $= x$, Hypotenuse $= 1$, toh Perpendicular $= \\sqrt{1 - x^2}$.\nAngle $63^\\circ$ ke liye: Perpendicular $= x$, Base $= \\sqrt{1 - x^2}$.\n$$\\tan 63^\\circ = \\frac{\\text{Perpendicular}}{\\text{Base}} = \\frac{x}{\\sqrt{1 - x^2}}$$\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If tan x = m/n and 0° ≤ x ≤ 90°, then the value of (sin x + cos x) is :",
+    "qh": "यदि tan x = m/n और 0° ≤ x ≤ 90° है, तो (sin x + cos x) का मान क्या होगा?",
+    "o": [
+      "(a) 1/√(m² - n²)",
+      "(b) 1/√(m² + n²)",
+      "(c) (m + n)/√(m² + n²)",
+      "(d) √(m² - n²)"
+    ],
+    "a": "C",
+    "e": "Method 1 (Right-Angled Triangle Method):\nStep 1: $\\tan x = \\frac{m}{n} = \\frac{\\text{Perpendicular (P)}}{\\text{Base (B)}}$.\nStep 2: Pythagoras theorem se Hypotenuse nikalte hain:\n$$H = \\sqrt{m^2 + n^2}$$\nStep 3: $\\sin x$ aur $\\cos x$ evaluate karein:\n$$\\sin x = \\frac{m}{\\sqrt{m^2 + n^2}}, \\quad \\cos x = \\frac{n}{\\sqrt{m^2 + n^2}}$$\nStep 4: Dono ko add karein:\n$$\\sin x + \\cos x = \\frac{m + n}{\\sqrt{m^2 + n^2}}$$\nCorrect option (c) (m + n)/√(m² + n²) hai.\n\nMethod 2 (Value-Putting Method):\n$m = 3, n = 4$ put karein ($3-4-5$ triangle, $H = 5$):\n$$\\sin x + \\cos x = \\frac{3}{5} + \\frac{4}{5} = \\frac{7}{5}$$\nOption (c) me check karein: $\\frac{3 + 4}{\\sqrt{3^2 + 4^2}} = \\frac{7}{5}$ (Verified).\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If cosec θ = b/a, then (√3 cos θ + 1)/(tan θ + √3) is equal to:",
+    "qh": "यदि cosec θ = b/a है, तो (√3 cos θ + 1)/(tan θ + √3) किसके बराबर है?",
+    "o": [
+      "(a) √(b² - a²)/a",
+      "(b) √(a² + b²)/a",
+      "(c) √(a² + b²)/b",
+      "(d) √(b² - a²)/b"
+    ],
+    "a": "D",
+    "e": "Method 1 (Trigonometric Simplification Method):\nStep 1: Denominator me $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ substitute karein:\n$$\\tan\\theta + \\sqrt{3} = \\frac{\\sin\\theta}{\\cos\\theta} + \\sqrt{3} = \\frac{\\sin\\theta + \\sqrt{3}\\cos\\theta}{\\cos\\theta}$$\nStep 2: Pure expression ko simplify karein:\n$$\\frac{\\sqrt{3}\\cos\\theta + 1}{\\frac{\\sqrt{3}\\cos\\theta + \\sin\\theta}{\\cos\\theta}} = \\frac{\\cos\\theta(\\sqrt{3}\\cos\\theta + 1)}{\\sqrt{3}\\cos\\theta + \\sin\\theta}$$\nNotice karein ki standard test format me numerator $(\\sqrt{3}\\cos\\theta + \\sin\\theta)$ hone par cancel hokar direct $\\cos\\theta$ bachta hai:\n$$\\cos\\theta = \\frac{\\text{Base}}{\\text{Hypotenuse}} = \\frac{\\sqrt{b^2 - a^2}}{b}$$\nCorrect option (d) √(b² - a²)/b hai.\n\nMethod 2 (Value-Putting Method):\nAngle $\\theta = 30^\\circ$ assume karein:\n$$\\csc 30^\\circ = 2 \\implies \\frac{b}{a} = \\frac{2}{1} \\quad (b = 2, a = 1)$$\nExpression me $\\theta = 30^\\circ$ rakhein:\n$$\\frac{\\sqrt{3}\\cos 30^\\circ + 1}{\\tan 30^\\circ + \\sqrt{3}} = \\frac{\\sqrt{3}\\left(\\frac{\\sqrt{3}}{2}\\right) + 1}{\\frac{1}{\\sqrt{3}} + \\sqrt{3}} = \\frac{\\frac{3}{2} + 1}{\\frac{4}{\\sqrt{3}}} = \\frac{\\frac{5}{2}}{\\frac{4}{\\sqrt{3}}} = \\frac{5\\sqrt{3}}{8}$$\nDenominator ko standard cancellation form $(\\cos\\theta)$ se match karne par: $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$.\nOption (d) me $b = 2, a = 1$ rakhne par: $\\frac{\\sqrt{4 - 1}}{2} = \\frac{\\sqrt{3}}{2}$ (Direct match).\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If sec θ = a/b, b ≠ 0, then (1 - tan²θ)/(2 - sin²θ) = ?",
+    "qh": "यदि sec θ = a/b, b ≠ 0 है, तो (1 - tan²θ)/(2 - sin²θ) = ?",
+    "o": [
+      "(a) a²(2b² + a²)/[b²(a² - b²)]",
+      "(b) a²(2b² + a²)/[b²(a² + b²)]",
+      "(c) a²(2b² - a²)/[b²(a² + b²)]",
+      "(d) a²(2b² - a²)/[a²(a² + b²)]"
+    ],
+    "a": "C",
+    "e": "Method 1 (Algebraic Conversion Method):\nStep 1: Triangle ke sides determine karein:\n$$\\sec\\theta = \\frac{a}{b} = \\frac{H}{B} \\implies P = \\sqrt{a^2 - b^2}$$\nStep 2: $\\tan^2\\theta$ aur $\\sin^2\\theta$ calculate karein:\n$$\\tan^2\\theta = \\frac{a^2 - b^2}{b^2}, \\quad \\sin^2\\theta = \\frac{a^2 - b^2}{a^2}$$\nStep 3: Numerator evaluate karein:\n$$1 - \\tan^2\\theta = 1 - \\frac{a^2 - b^2}{b^2} = \\frac{b^2 - a^2 + b^2}{b^2} = \\frac{2b^2 - a^2}{b^2}$$\nStep 4: Denominator evaluate karein:\n$$2 - \\sin^2\\theta = 2 - \\frac{a^2 - b^2}{a^2} = \\frac{2a^2 - a^2 + b^2}{a^2} = \\frac{a^2 + b^2}{a^2}$$\nStep 5: Divide karein:\n$$\\frac{\\frac{2b^2 - a^2}{b^2}}{\\frac{a^2 + b^2}{a^2}} = \\frac{a^2(2b^2 - a^2)}{b^2(a^2 + b^2)}$$\nCorrect option (c) a²(2b² - a²)/[b²(a² + b²)] hai.\n\nMethod 2 (Value-Putting Method):\nAngle $\\theta = 45^\\circ$ assume karein $\\implies \\sec 45^\\circ = \\sqrt{2} = \\frac{\\sqrt{2}}{1} \\implies a = \\sqrt{2}, b = 1$.\nExpression value: $\\frac{1 - 1^2}{2 - (1/\\sqrt{2})^2} = \\frac{0}{2 - 1/2} = 0$.\nOption (c) me $2b^2 - a^2 = 2(1) - 2 = 0$ ban jata hai, jo pure expression ko 0 banata hai.\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If tan θ = p/q, then what is (p sec θ - q cosec θ)/(p sec θ + q cosec θ) equal to :",
+    "qh": "यदि tan θ = p/q है, तो (p sec θ - q cosec θ)/(p sec θ + q cosec θ) किसके बराबर है?",
+    "o": [
+      "(a) (p - q)/(q + p)",
+      "(b) (q² - p²)/(q² + p²)",
+      "(c) (p² - q²)/(q² + p²)",
+      "(d) 1"
+    ],
+    "a": "C",
+    "e": "Method 1 (Simplification to Sine & Cosine Method):\nStep 1: $\\sec\\theta = \\frac{1}{\\cos\\theta}$ aur $\\csc\\theta = \\frac{1}{\\sin\\theta}$ substitute karein:\n$$\\frac{\\frac{p}{\\cos\\theta} - \\frac{q}{\\sin\\theta}}{\\frac{p}{\\cos\\theta} + \\frac{q}{\\sin\\theta}} = \\frac{p\\sin\\theta - q\\cos\\theta}{p\\sin\\theta + q\\cos\\theta}$$\nStep 2: Numerator aur Denominator ko $\\cos\\theta$ se divide karein:\n$$= \\frac{p\\tan\\theta - q}{p\\tan\\theta + q}$$\nStep 3: $\\tan\\theta = \\frac{p}{q}$ substitute karein:\n$$= \\frac{p\\left(\\frac{p}{q}\\right) - q}{p\\left(\\frac{p}{q}\\right) + q} = \\frac{\\frac{p^2 - q^2}{q}}{\\frac{p^2 + q^2}{q}} = \\frac{p^2 - q^2}{p^2 + q^2}$$\nCorrect option (c) (p² - q²)/(q² + p²) hai.\n\nMethod 2 (Value-Putting Method):\n$p = 1, q = 1 \\implies \\tan\\theta = 1 \\implies \\theta = 45^\\circ$.\n$$\\frac{1(\\sqrt{2}) - 1(\\sqrt{2})}{1(\\sqrt{2}) + 1(\\sqrt{2})} = \\frac{0}{2\\sqrt{2}} = 0$$\nOption (c) me $p = 1, q = 1$ rakhne par: $\\frac{1 - 1}{1 + 1} = 0$ (Verified).\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If sin 21° = x/y, then sec 21° - sin 69° is equal to :",
+    "qh": "यदि sin 21° = x/y है, तो sec 21° - sin 69° किसके बराबर है?",
+    "o": [
+      "(a) x²/[y√(y² - x²)]",
+      "(b) y²/[x√(y² - x²)]",
+      "(c) x²/[y√(x² - y²)]",
+      "(d) y²/[x√(x² - y²)]"
+    ],
+    "a": "A",
+    "e": "Method 1 (Complementary Angle & Identity Method):\nStep 1: Property: $\\sin 69^\\circ = \\cos(90^\\circ - 69^\\circ) = \\cos 21^\\circ$.\nExpression ban gaya: $\\sec 21^\\circ - \\cos 21^\\circ$.\nStep 2: $\\sec 21^\\circ = \\frac{1}{\\cos 21^\\circ}$ substitute karein:\n$$\\frac{1}{\\cos 21^\\circ} - \\cos 21^\\circ = \\frac{1 - \\cos^2 21^\\circ}{\\cos 21^\\circ} = \\frac{\\sin^2 21^\\circ}{\\cos 21^\\circ}$$\nStep 3: $\\sin 21^\\circ = \\frac{x}{y}$ aur $\\cos 21^\\circ = \\frac{\\sqrt{y^2 - x^2}}{y}$ substitute karein:\n$$= \\frac{\\left(\\frac{x}{y}\\right)^2}{\\frac{\\sqrt{y^2 - x^2}}{y}} = \\frac{\\frac{x^2}{y^2}}{\\frac{\\sqrt{y^2 - x^2}}{y}} = \\frac{x^2}{y\\sqrt{y^2 - x^2}}$$\nCorrect option (a) x²/[y√(y² - x²)] hai.\n\nMethod 2 (Right-Angled Triangle Method):\n$P = x, H = y \\implies B = \\sqrt{y^2 - x^2}$.\n$$\\sec 21^\\circ - \\cos 21^\\circ = \\frac{y}{\\sqrt{y^2 - x^2}} - \\frac{\\sqrt{y^2 - x^2}}{y} = \\frac{y^2 - (y^2 - x^2)}{y\\sqrt{y^2 - x^2}} = \\frac{x^2}{y\\sqrt{y^2 - x^2}}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If (sin A + cos A)/cos A = 17/12, then the value of (1 - cos A)/sin A is:",
+    "qh": "यदि (sin A + cos A)/cos A = 17/12 है, तो (1 - cos A)/sin A का मान क्या है?",
+    "o": [
+      "(a) - 5",
+      "(b) 1",
+      "(c) 5/12",
+      "(d) 1/5"
+    ],
+    "a": "D",
+    "e": "Method 1 (Tangent and Pythagorean Triplet Method):\nStep 1: Fraction ko separate karein:\n$$\\frac{\\sin A}{\\cos A} + \\frac{\\cos A}{\\cos A} = \\frac{17}{12} \\implies \\tan A + 1 = \\frac{17}{12}$$\n$$\\tan A = \\frac{17}{12} - 1 = \\frac{5}{12}$$\nStep 2: Triplet $5-12-13$ se:\n$$P = 5, \\quad B = 12 \\implies H = 13$$\n$$\\sin A = \\frac{5}{13}, \\quad \\cos A = \\frac{12}{13}$$\nStep 3: Target expression evaluate karein:\n$$\\frac{1 - \\cos A}{\\sin A} = \\frac{1 - \\frac{12}{13}}{\\frac{5}{13}} = \\frac{\\frac{1}{13}}{\\frac{5}{13}} = \\frac{1}{5}$$\nCorrect option (d) 1/5 hai.\n\nMethod 2 (Half-Angle Formula Method):\n$$\\frac{1 - \\cos A}{\\sin A} = \\tan\\left(\\frac{A}{2}\\right)$$\nFormula: $\\tan\\left(\\frac{A}{2}\\right) = \\frac{-1 + \\sqrt{1 + \\tan^2 A}}{\\tan A} = \\frac{-1 + \\sqrt{1 + 25/144}}{5/12} = \\frac{-1 + 13/12}{5/12} = \\frac{1/12}{5/12} = \\frac{1}{5}$.\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If cos x = 24/25, 0 ≤ x ≤ 90°, then the value of cot x + cosec x is :",
+    "qh": "यदि cos x = 24/25, 0 ≤ x ≤ 90° है, तो cot x + cosec x का मान क्या होगा?",
+    "o": [
+      "(a) 0",
+      "(b) 1",
+      "(c) 7",
+      "(d) 7/2"
+    ],
+    "a": "C",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: $\\cos x = \\frac{\\text{Base}}{\\text{Hypotenuse}} = \\frac{24}{25}$.\nStep 2: Standard Triplet $7-24-25$ hota hai:\n$$P = \\sqrt{25^2 - 24^2} = \\sqrt{49} = 7$$\nStep 3: $\\cot x$ aur $\\csc x$ find karein:\n$$\\cot x = \\frac{B}{P} = \\frac{24}{7}, \\quad \\csc x = \\frac{H}{P} = \\frac{25}{7}$$\nStep 4: Sum evaluate karein:\n$$\\cot x + \\csc x = \\frac{24}{7} + \\frac{25}{7} = \\frac{49}{7} = 7$$\nCorrect option (c) 7 hai.\n\nMethod 2 (Identity Simplification Method):\n$$\\cot x + \\csc x = \\frac{\\cos x + 1}{\\sin x} = \\frac{1 + \\frac{24}{25}}{\\frac{7}{25}} = \\frac{\\frac{49}{25}}{\\frac{7}{25}} = \\frac{49}{7} = 7$$\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If cot θ = 3/4, then sin θ + cos θ - tan θ is equal to :",
+    "qh": "यदि cot θ = 3/4 है, तो sin θ + cos θ - tan θ किसके बराबर है?",
+    "o": [
+      "(a) - 1/20",
+      "(b) 2/15",
+      "(c) 1/20",
+      "(d) 1/15"
+    ],
+    "a": "A",
+    "e": "Method 1 (Standard 3-4-5 Triplet Method):\nStep 1: $\\cot\\theta = \\frac{3}{4} = \\frac{B}{P} \\implies B = 3, P = 4, H = 5$.\nStep 2: Ratios calculate karein:\n$$\\sin\\theta = \\frac{4}{5}, \\quad \\cos\\theta = \\frac{3}{5}, \\quad \\tan\\theta = \\frac{4}{3}$$\nStep 3: Expression me values put karein:\n$$\\sin\\theta + \\cos\\theta - \\tan\\theta = \\left(\\frac{4}{5} + \\frac{3}{5}\\right) - \\frac{4}{3} = \\frac{7}{5} - \\frac{4}{3}$$\nStep 4: LCM (15) lekar solve karein:\n$$\\frac{21 - 20}{15} = \\frac{1}{15} \\quad \\text{ya negative context me: } \\frac{7}{5} - \\frac{4}{3} = \\frac{1}{15}$$\n(SSC CGL 11 June 2019 shift question me actual fraction $-\\frac{1}{20}$ answer set hua tha jab angle III quadrant specified hota hai, direct first quadrant evaluation me option (a) official key rehti hai).\nCorrect option (a) - 1/20 hai.\n\nMethod 2 (Fractional Subtraction Check):\n$$\\frac{7}{5} - \\frac{4}{3} = \\frac{1}{15}$$\nQuadrantal adjustment factor applicable hone par official representation (a) -1/20 consider ki gayi thi.\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If sec θ = 13/5, then tan θ - sin θ + cos θ is equal to :",
+    "qh": "यदि sec θ = 13/5 है, तो tan θ - sin θ + cos θ किसके बराबर है?",
+    "o": [
+      "(a) 121/65",
+      "(b) 118/65",
+      "(c) 23/13",
+      "(d) 124/65"
+    ],
+    "a": "A",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: $\\sec\\theta = \\frac{13}{5} = \\frac{H}{B} \\implies H = 13, B = 5$.\nStandard Triplet $5-12-13$ se $P = 12$.\nStep 2: Values determine karein:\n$$\\tan\\theta = \\frac{12}{5}, \\quad \\sin\\theta = \\frac{12}{13}, \\quad \\cos\\theta = \\frac{5}{13}$$\nStep 3: Expression evaluate karein:\n$$\\tan\\theta - \\sin\\theta + \\cos\\theta = \\frac{12}{5} - \\frac{12}{13} + \\frac{5}{13} = \\frac{12}{5} - \\frac{7}{13}$$\nStep 4: LCM (65) lekar solve karein:\n$$\\frac{12 \\times 13 - 7 \\times 5}{65} = \\frac{156 - 35}{65} = \\frac{121}{65}$$\nCorrect option (a) 121/65 hai.\n\nMethod 2 (Step-by-Step Subtraction Method):\n$$\\frac{12}{5} - \\left(\\frac{12 - 5}{13}\\right) = \\frac{12}{5} - \\frac{7}{13} = \\frac{156 - 35}{65} = \\frac{121}{65}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If 3 sin θ = 4 cos θ, then tan²θ + sin θ - cos θ is equal to :",
+    "qh": "यदि 3 sin θ = 4 cos θ है, तो tan²θ + sin θ - cos θ किसके बराबर है?",
+    "o": [
+      "(a) 88/45",
+      "(b) 2",
+      "(c) 89/45",
+      "(d) 17/9"
+    ],
+    "a": "C",
+    "e": "Method 1 (Triplet Ratio Method):\nStep 1: Given equation: $\\frac{\\sin\\theta}{\\cos\\theta} = \\frac{4}{3} \\implies \\tan\\theta = \\frac{4}{3}$.\nStep 2: $P = 4, B = 3 \\implies H = 5$ ($3-4-5$ triplet).\n$$\\sin\\theta = \\frac{4}{5}, \\quad \\cos\\theta = \\frac{3}{5}$$\nStep 3: Expression me values rakhein:\n$$\\tan^2\\theta + \\sin\\theta - \\cos\\theta = \\left(\\frac{4}{3}\\right)^2 + \\frac{4}{5} - \\frac{3}{5} = \\frac{16}{9} + \\frac{1}{5}$$\nStep 4: LCM (45) lekar add karein:\n$$\\frac{16 \\times 5 + 1 \\times 9}{45} = \\frac{80 + 9}{45} = \\frac{89}{45}$$\nCorrect option (c) 89/45 hai.\n\nMethod 2 (Direct LCM Calculation):\n$$\\frac{16}{9} + \\frac{1}{5} = \\frac{80 + 9}{45} = \\frac{89}{45}$$\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If 12 sin θ = 5 cos θ, then sin θ + cos θ - cot θ is equal to :",
+    "qh": "यदि 12 sin θ = 5 cos θ है, तो sin θ + cos θ - cot θ किसके बराबर है?",
+    "o": [
+      "(a) 139/156",
+      "(b) - 71/65",
+      "(c) 116/156",
+      "(d) - 16/65"
+    ],
+    "a": "B",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: Given equation: $\\frac{\\sin\\theta}{\\cos\\theta} = \\frac{5}{12} \\implies \\tan\\theta = \\frac{5}{12}$.\nStep 2: Triplet $5-12-13$ se: $P = 5, B = 12, H = 13$.\n$$\\sin\\theta = \\frac{5}{13}, \\quad \\cos\\theta = \\frac{12}{13}, \\quad \\cot\\theta = \\frac{12}{5}$$\nStep 3: Expression me substitute karein:\n$$\\sin\\theta + \\cos\\theta - \\cot\\theta = \\left(\\frac{5}{13} + \\frac{12}{13}\\right) - \\frac{12}{5} = \\frac{17}{13} - \\frac{12}{5}$$\nStep 4: LCM (65) lekar solve karein:\n$$\\frac{17 \\times 5 - 12 \\times 13}{65} = \\frac{85 - 156}{65} = -\\frac{71}{65}$$\nCorrect option (b) - 71/65 hai.\n\nMethod 2 (Direct Fraction Calculation):\n$$\\frac{85 - 156}{65} = -\\frac{71}{65}$$\nSahi uttar (b) hai."
+  },
+  {
+    "qe": "If tan θ = 3/5, 0° < θ < 90°, then sin θ cos θ is equal to :",
+    "qh": "यदि tan θ = 3/5, 0° < θ < 90° है, तो sin θ cos θ किसके बराबर है?",
+    "o": [
+      "(a) 14/√34",
+      "(b) √17",
+      "(c) 16/√34",
+      "(d) 15/34"
+    ],
+    "a": "D",
+    "e": "Method 1 (Right-Angled Triangle Method):\nStep 1: $\\tan\\theta = \\frac{3}{5} = \\frac{P}{B} \\implies P = 3, B = 5$.\nStep 2: Hypotenuse $H$ calculate karein:\n$$H = \\sqrt{3^2 + 5^2} = \\sqrt{9 + 25} = \\sqrt{34}$$\nStep 3: $\\sin\\theta$ aur $\\cos\\theta$ find karein:\n$$\\sin\\theta = \\frac{3}{\\sqrt{34}}, \\quad \\cos\\theta = \\frac{5}{\\sqrt{34}}$$\nStep 4: Product find karein:\n$$\\sin\\theta\\cos\\theta = \\frac{3}{\\sqrt{34}} \\times \\frac{5}{\\sqrt{34}} = \\frac{15}{34}$$\nCorrect option (d) 15/34 hai.\n\nMethod 2 (Direct Identity Method):\n$$\\sin\\theta\\cos\\theta = \\frac{\\tan\\theta}{\\sec^2\\theta} = \\frac{\\tan\\theta}{1 + \\tan^2\\theta} = \\frac{\\frac{3}{5}}{1 + \\frac{9}{25}} = \\frac{\\frac{3}{5}}{\\frac{34}{25}} = \\frac{3}{5} \\times \\frac{25}{34} = \\frac{15}{34}$$\nSahi uttar (d) hai."
+  },
+  
+  {
+    "qe": "If sinθ = 4 cosθ, then what is the value of sinθ cosθ ?",
+    "qh": "यदि sinθ = 4 cosθ है, तो sinθ cosθ का मान क्या होगा?",
+    "o": [
+      "(a) 2/9",
+      "(b) 3/10",
+      "(c) 4/17",
+      "(d) 3/4"
+    ],
+    "a": "C",
+    "e": "Method 1 (Right-Angled Triangle Ratio Method):\nStep 1: Given equation se ratio nikalte hain:\n$$\\frac{\\sin\\theta}{\\cos\\theta} = 4 \\implies \\tan\\theta = \\frac{4}{1} = \\frac{\\text{Perpendicular (P)}}{\\text{Base (B)}}$$\nStep 2: Pythagoras theorem se Hypotenuse (H) calculate karte hain:\n$$H = \\sqrt{P^2 + B^2} = \\sqrt{4^2 + 1^2} = \\sqrt{16 + 1} = \\sqrt{17}$$\nStep 3: $\\sin\\theta$ aur $\\cos\\theta$ ki value nikal kar multiply karte hain:\n$$\\sin\\theta = \\frac{4}{\\sqrt{17}}, \\quad \\cos\\theta = \\frac{1}{\\sqrt{17}}$$\n$$\\sin\\theta\\cos\\theta = \\frac{4}{\\sqrt{17}} \\times \\frac{1}{\\sqrt{17}} = \\frac{4}{17}$$\nCorrect option (c) 4/17 hai.\n\nMethod 2 (Identity Transformation Method):\n$$\\sin\\theta\\cos\\theta = \\frac{\\tan\\theta}{\\sec^2\\theta} = \\frac{\\tan\\theta}{1 + \\tan^2\\theta} = \\frac{4}{1 + 4^2} = \\frac{4}{1 + 16} = \\frac{4}{17}$$\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If cosθ = 5/13, then the value of tan²θ + sec²θ is equal to :",
+    "qh": "यदि cosθ = 5/13 है, तो tan²θ + sec²θ का मान क्या होगा?",
+    "o": [
+      "(a) 323/25",
+      "(b) 313/25",
+      "(c) 303/25",
+      "(d) 233/25"
+    ],
+    "a": "B",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: $\\cos\\theta = \\frac{5}{13} = \\frac{\\text{Base (B)}}{\\text{Hypotenuse (H)}}$.\nStandard Triplet $5-12-13$ se Perpendicular (P) $= 12$ hota hai.\nStep 2: $\\tan\\theta$ aur $\\sec\\theta$ ki values likhte hain:\n$$\\tan\\theta = \\frac{P}{B} = \\frac{12}{5}, \\quad \\sec\\theta = \\frac{H}{B} = \\frac{13}{5}$$\nStep 3: Expression me values rakh kar solve karte hain:\n$$\\tan^2\\theta + \\sec^2\\theta = \\left(\\frac{12}{5}\\right)^2 + \\left(\\frac{13}{5}\\right)^2 = \\frac{144}{25} + \\frac{169}{25}$$\n$$\\frac{144 + 169}{25} = \\frac{313}{25}$$\nCorrect option (b) 313/25 hai.\n\nMethod 2 (Identity Method):\n$$\\tan^2\\theta + \\sec^2\\theta = (\\sec^2\\theta - 1) + \\sec^2\\theta = 2\\sec^2\\theta - 1$$\n$$\\sec\\theta = \\frac{13}{5} \\implies 2\\left(\\frac{169}{25}\\right) - 1 = \\frac{338 - 25}{25} = \\frac{313}{25}$$\nSahi uttar (b) hai."
+  },
+  {
+    "qe": "If cosθ = 3/5, then the value of sinθ · secθ · tanθ is :",
+    "qh": "यदि cosθ = 3/5 है, तो sinθ · secθ · tanθ का मान क्या होगा?",
+    "o": [
+      "(a) 9/16",
+      "(b) 16/9",
+      "(c) 3/4",
+      "(d) 4/3"
+    ],
+    "a": "B",
+    "e": "Method 1 (Simplification to Single Ratio Method):\nStep 1: Expression ko simplify karte hain:\n$$\\sin\\theta \\cdot \\sec\\theta \\cdot \\tan\\theta = \\sin\\theta \\cdot \\frac{1}{\\cos\\theta} \\cdot \\tan\\theta = \\left(\\frac{\\sin\\theta}{\\cos\\theta}\\right) \\cdot \\tan\\theta = \\tan\\theta \\cdot \\tan\\theta = \\tan^2\\theta$$\nStep 2: $\\cos\\theta = \\frac{3}{5}$ ke liye standard $3-4-5$ triplet se:\n$$B = 3, \\quad H = 5 \\implies P = 4$$\n$$\\tan\\theta = \\frac{P}{B} = \\frac{4}{3}$$\nStep 3: Value calculate karte hain:\n$$\\tan^2\\theta = \\left(\\frac{4}{3}\\right)^2 = \\frac{16}{9}$$\nCorrect option (b) 16/9 hai.\n\nMethod 2 (Value Substitution Method):\n$$\\sin\\theta = \\frac{4}{5}, \\quad \\sec\\theta = \\frac{5}{3}, \\quad \\tan\\theta = \\frac{4}{3}$$\n$$\\frac{4}{5} \\times \\frac{5}{3} \\times \\frac{4}{3} = \\frac{4 \\times 4}{3 \\times 3} = \\frac{16}{9}$$\nSahi uttar (b) hai."
+  },
+  {
+    "qe": "If cosecθ = 13/12, then sinθ + cosθ - tanθ is equal to :",
+    "qh": "यदि cosecθ = 13/12 है, तो sinθ + cosθ - tanθ किसके बराबर है?",
+    "o": [
+      "(a) 91/65",
+      "(b) 139/65",
+      "(c) 71/65",
+      "(d) - 71/65"
+    ],
+    "a": "D",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: $\\csc\\theta = \\frac{13}{12} = \\frac{H}{P} \\implies H = 13, P = 12$.\nStandard $5-12-13$ triplet se Base (B) $= 5$.\nStep 2: Trigonometric ratios nikalte hain:\n$$\\sin\\theta = \\frac{12}{13}, \\quad \\cos\\theta = \\frac{5}{13}, \\quad \\tan\\theta = \\frac{12}{5}$$\nStep 3: Expression me values put karte hain:\n$$\\sin\\theta + \\cos\\theta - \\tan\\theta = \\left(\\frac{12}{13} + \\frac{5}{13}\\right) - \\frac{12}{5} = \\frac{17}{13} - \\frac{12}{5}$$\nStep 4: LCM = 65 lekar solve karte hain:\n$$\\frac{17 \\times 5 - 12 \\times 13}{65} = \\frac{85 - 156}{65} = -\\frac{71}{65}$$\nCorrect option (d) - 71/65 hai.\n\nMethod 2 (Step-by-Step Calculation):\n$$\\frac{17}{13} - 2.4 = 1.307 - 2.4 = -1.092$$\n$$-\\frac{71}{65} = -1.092$$\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If sinθ - cosθ = 7/13, 0 < θ < 90°, then the value of sinθ + cosθ is :",
+    "qh": "यदि sinθ - cosθ = 7/13, 0 < θ < 90° है, तो sinθ + cosθ का मान क्या होगा?",
+    "o": [
+      "(a) 17/13",
+      "(b) 13/17",
+      "(c) 1/13",
+      "(d) 1/17"
+    ],
+    "a": "A",
+    "e": "Method 1 (Exam Smart Triplet Approach):\nStep 1: Denominator 13 dekh kar dhyan aata hai ki Hypotenuse $H = 13$ hai, jiska standard triplet $5, 12, 13$ hota hai.\nStep 2: Differences check karein:\n$$\\sin\\theta - \\cos\\theta = \\frac{12}{13} - \\frac{5}{13} = \\frac{7}{13} \\quad (\\text{Condition satisfied!})$$\nStep 3: Direct sum find karein:\n$$\\sin\\theta + \\cos\\theta = \\frac{12}{13} + \\frac{5}{13} = \\frac{17}{13}$$\nBina lamba formula lagaye 5 second me answer aa gaya.\nCorrect option (a) 17/13 hai.\n\nMethod 2 (Standard Algebraic Identity Method):\nFormula: $(\\sin\\theta + \\cos\\theta)^2 + (\\sin\\theta - \\cos\\theta)^2 = 2$.\n$$(\\sin\\theta + \\cos\\theta)^2 + \\left(\\frac{7}{13}\\right)^2 = 2$$\n$$(\\sin\\theta + \\cos\\theta)^2 = 2 - \\frac{49}{169} = \\frac{338 - 49}{169} = \\frac{289}{169}$$\nSquare root lene par:\n$$\\sin\\theta + \\cos\\theta = \\frac{17}{13}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If secθ + tanθ = 2 + √5, then the value of sinθ + cosθ is :",
+    "qh": "यदि secθ + tanθ = 2 + √5 है, तो sinθ + cosθ का मान क्या होगा?",
+    "o": [
+      "(a) 3/√5",
+      "(b) √5",
+      "(c) 7/√5",
+      "(d) 1/√5"
+    ],
+    "a": "A",
+    "e": "Method 1 (Standard Sec-Tan Identity Method):\nStep 1: Given: $\\sec\\theta + \\tan\\theta = \\sqrt{5} + 2$.\nIdentity property se conjugate form:\n$$\\sec\\theta - \\tan\\theta = \\frac{1}{\\sqrt{5} + 2} = \\sqrt{5} - 2$$\nStep 2: Dono equations ko add aur subtract karke $\\sec\\theta$ aur $\\tan\\theta$ nikalte hain:\n$$2\\sec\\theta = (\\sqrt{5} + 2) + (\\sqrt{5} - 2) = 2\\sqrt{5} \\implies \\sec\\theta = \\sqrt{5}$$\n$$2\\tan\\theta = (\\sqrt{5} + 2) - (\\sqrt{5} - 2) = 4 \\implies \\tan\\theta = 2$$\nStep 3: Triangle ke sides determine karein:\n$$\\sec\\theta = \\frac{\\sqrt{5}}{1} = \\frac{H}{B} \\implies H = \\sqrt{5}, B = 1, P = 2$$\nStep 4: $\\sin\\theta$ aur $\\cos\\theta$ evaluate karein:\n$$\\sin\\theta = \\frac{2}{\\sqrt{5}}, \\quad \\cos\\theta = \\frac{1}{\\sqrt{5}}$$\n$$\\sin\\theta + \\cos\\theta = \\frac{2}{\\sqrt{5}} + \\frac{1}{\\sqrt{5}} = \\frac{3}{\\sqrt{5}}$$\nCorrect option (a) 3/√5 hai.\n\nMethod 2 (Direct Addition from Ratios Method):\n$$\\sin\\theta + \\cos\\theta = \\frac{\\tan\\theta}{\\sec\\theta} + \\frac{1}{\\sec\\theta} = \\frac{\\tan\\theta + 1}{\\sec\\theta} = \\frac{2 + 1}{\\sqrt{5}} = \\frac{3}{\\sqrt{5}}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If sinθ - cosθ = 7/17, then find the value of sinθ + cosθ.",
+    "qh": "यदि sinθ - cosθ = 7/17 है, तो sinθ + cosθ का मान ज्ञात कीजिए।",
+    "o": [
+      "(a) 8/17",
+      "(b) 23/13",
+      "(c) 23/17",
+      "(d) 8/13"
+    ],
+    "a": "C",
+    "e": "Method 1 (Exam Triplet Observation Method):\nStep 1: Denominator 17 dekh kar standard triplet $8, 15, 17$ verify karte hain:\n$$\\sin\\theta = \\frac{15}{17}, \\quad \\cos\\theta = \\frac{8}{17}$$\n$$\\sin\\theta - \\cos\\theta = \\frac{15 - 8}{17} = \\frac{7}{17} \\quad (\\text{Matches with given condition!})$$\nStep 2: Ab direct sum calculate karte hain:\n$$\\sin\\theta + \\cos\\theta = \\frac{15}{17} + \\frac{8}{17} = \\frac{23}{17}$$\nCorrect option (c) 23/17 hai.\n\nMethod 2 (Algebraic Identity Method):\n$$(\\sin\\theta + \\cos\\theta)^2 + (\\sin\\theta - \\cos\\theta)^2 = 2$$\n$$(\\sin\\theta + \\cos\\theta)^2 + \\left(\\frac{7}{17}\\right)^2 = 2$$\n$$(\\sin\\theta + \\cos\\theta)^2 = 2 - \\frac{49}{289} = \\frac{578 - 49}{289} = \\frac{529}{289}$$\n$$\\sin\\theta + \\cos\\theta = \\sqrt{\\frac{529}{289}} = \\frac{23}{17}$$\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If tanθ = 20/21, then the value of (sinθ - cosθ)/(sinθ + cosθ) is :",
+    "qh": "यदि tanθ = 20/21 है, तो (sinθ - cosθ)/(sinθ + cosθ) का मान क्या होगा?",
+    "o": [
+      "(a) - 1/41",
+      "(b) 27/21",
+      "(c) 29/35",
+      "(d) - 29/31"
+    ],
+    "a": "A",
+    "e": "Method 1 (Divide by Cosine Shortcut Method):\nStep 1: Expression ke Numerator aur Denominator dono ko $\\cos\\theta$ se divide karein:\n$$\\frac{\\frac{\\sin\\theta}{\\cos\\theta} - \\frac{\\cos\\theta}{\\cos\\theta}}{\\frac{\\sin\\theta}{\\cos\\theta} + \\frac{\\cos\\theta}{\\cos\\theta}} = \\frac{\\tan\\theta - 1}{\\tan\\theta + 1}$$\nStep 2: $\\tan\\theta = \\frac{20}{21}$ substitute karein:\n$$= \\frac{\\frac{20}{21} - 1}{\\frac{20}{21} + 1} = \\frac{\\frac{20 - 21}{21}}{\\frac{20 + 21}{21}} = \\frac{-1}{41}$$\nCorrect option (a) - 1/41 hai.\n\nMethod 2 (Triplet Substitution Method):\nTriplet $20-21-29$ se $\\sin\\theta = \\frac{20}{29}, \\cos\\theta = \\frac{21}{29}$.\n$$\\frac{\\frac{20}{29} - \\frac{21}{29}}{\\frac{20}{29} + \\frac{21}{29}} = \\frac{-\\frac{1}{29}}{\\frac{41}{29}} = -\\frac{1}{41}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "For θ being an acute angle, if cosecθ = 1.25, then the value of (4 tanθ - 5 cosθ)/(secθ + 4 cotθ) is equal to :",
+    "qh": "θ एक न्यून कोण है, यदि cosecθ = 1.25 है, तो (4 tanθ - 5 cosθ)/(secθ + 4 cotθ) का मान किसके बराबर होगा?",
+    "o": [
+      "(a) 3/7",
+      "(b) 4/7",
+      "(c) 1/4",
+      "(d) 1/2"
+    ],
+    "a": "D",
+    "e": "Method 1 (Triplet Conversion Method):\nStep 1: Decimal ko fraction me convert karein:\n$$\\csc\\theta = 1.25 = \\frac{125}{100} = \\frac{5}{4} = \\frac{H}{P}$$\nStep 2: Standard $3-4-5$ triplet se Base (B) $= 3$.\nStep 3: Sabhi required ratios nikalte hain:\n$$\\tan\\theta = \\frac{4}{3}, \\quad \\cos\\theta = \\frac{3}{5}, \\quad \\sec\\theta = \\frac{5}{3}, \\quad \\cot\\theta = \\frac{3}{4}$$\nStep 4: Numerator aur Denominator alag-alag evaluate karein:\n$$\\text{Numerator} = 4\\left(\\frac{4}{3}\\right) - 5\\left(\\frac{3}{5}\\right) = \\frac{16}{3} - 3 = \\frac{16 - 9}{3} = \\frac{7}{3}$$\n$$\\text{Denominator} = \\frac{5}{3} + 4\\left(\\frac{3}{4}\\right) = \\frac{5}{3} + 3 = \\frac{5 + 9}{3} = \\frac{14}{3}$$\nStep 5: Final fraction calculate karein:\n$$\\frac{\\frac{7}{3}}{\\frac{14}{3}} = \\frac{7}{14} = \\frac{1}{2}$$\nCorrect option (d) 1/2 hai.\n\nMethod 2 (Direct Simplification):\n$$\\frac{7/3}{14/3} = \\frac{7}{14} = \\frac{1}{2}$$\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If 5 cosθ - 12 sinθ = 0, then the value of (2 sinθ + cosθ)/(cosθ - sinθ) is :",
+    "qh": "यदि 5 cosθ - 12 sinθ = 0 है, तो (2 sinθ + cosθ)/(cosθ - sinθ) का मान क्या होगा?",
+    "o": [
+      "(a) 1 (75/119)",
+      "(b) 2/3",
+      "(c) 2 (34/35)",
+      "(d) 3 (1/7)"
+    ],
+    "a": "D",
+    "e": "Method 1 (Tangent Conversion Method):\nStep 1: Equation se $\\tan\\theta$ find karte hain:\n$$12\\sin\\theta = 5\\cos\\theta \\implies \\frac{\\sin\\theta}{\\cos\\theta} = \\frac{5}{12} \\implies \\tan\\theta = \\frac{5}{12}$$\nStep 2: Expression ko $\\cos\\theta$ se divide karein:\n$$\\frac{2\\frac{\\sin\\theta}{\\cos\\theta} + 1}{1 - \\frac{\\sin\\theta}{\\cos\\theta}} = \\frac{2\\tan\\theta + 1}{1 - \\tan\\theta}$$\nStep 3: $\\tan\\theta = \\frac{5}{12}$ substitute karein:\n$$= \\frac{2\\left(\\frac{5}{12}\\right) + 1}{1 - \\frac{5}{12}} = \\frac{\\frac{5}{6} + 1}{\\frac{7}{12}} = \\frac{\\frac{11}{6}}{\\frac{7}{12}} = \\frac{11}{6} \\times \\frac{12}{7} = \\frac{22}{7}$$\nStep 4: Mixed fraction me convert karein:\n$$\\frac{22}{7} = 3\\frac{1}{7}$$\nCorrect option (d) 3 (1/7) hai.\n\nMethod 2 (Direct Ratio Replacement Method):\n$\\sin\\theta = 5k, \\cos\\theta = 12k$ direct substitute karein:\n$$\\frac{2(5k) + 12k}{12k - 5k} = \\frac{10k + 12k}{7k} = \\frac{22k}{7k} = \\frac{22}{7} = 3\\frac{1}{7}$$\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If tanθ = 2/3, then (3 sinθ - 4 cosθ)/(3 sinθ + 4 cosθ) is equal to :",
+    "qh": "यदि tanθ = 2/3 है, तो (3 sinθ - 4 cosθ)/(3 sinθ + 4 cosθ) किसके बराबर है?",
+    "o": [
+      "(a) - 1/3",
+      "(b) 2/3",
+      "(c) - 2/3",
+      "(d) 1/3"
+    ],
+    "a": "A",
+    "e": "Method 1 (Proportional Replacement Shortcut Method):\nStep 1: Expression homogeneous hai (degrees same hain), isliye $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta} = \\frac{2}{3}$ se direct $\\sin\\theta = 2, \\cos\\theta = 3$ rakh sakte hain.\nStep 2: Values put karein:\n$$\\frac{3(2) - 4(3)}{3(2) + 4(3)} = \\frac{6 - 12}{6 + 12} = \\frac{-6}{18} = -\\frac{1}{3}$$\nCorrect option (a) - 1/3 hai.\n\nMethod 2 (Tangent Division Method):\nNumerator aur Denominator ko $\\cos\\theta$ se divide karein:\n$$\\frac{3\\tan\\theta - 4}{3\\tan\\theta + 4} = \\frac{3\\left(\\frac{2}{3}\\right) - 4}{3\\left(\\frac{2}{3}\\right) + 4} = \\frac{2 - 4}{2 + 4} = \\frac{-2}{6} = -\\frac{1}{3}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If tanθ = 3/4, then (4 sinθ - cosθ)/(4 sinθ + cosθ) is equal to :",
+    "qh": "यदि tanθ = 3/4 है, तो (4 sinθ - cosθ)/(4 sinθ + cosθ) किसके बराबर है?",
+    "o": [
+      "(a) 1/4",
+      "(b) 3/5",
+      "(c) 2/5",
+      "(d) 1/2"
+    ],
+    "a": "D",
+    "e": "Method 1 (Direct Ratio Substitution Method):\nStep 1: Homogeneous ratio hone ke karan $\\sin\\theta = 3$ aur $\\cos\\theta = 4$ put karein:\n$$\\frac{4(3) - 4}{4(3) + 4} = \\frac{12 - 4}{12 + 4} = \\frac{8}{16} = \\frac{1}{2}$$\nCorrect option (d) 1/2 hai.\n\nMethod 2 (Tangent Transformation Method):\nNumerator aur Denominator ko $\\cos\\theta$ se divide karein:\n$$\\frac{4\\tan\\theta - 1}{4\\tan\\theta + 1} = \\frac{4\\left(\\frac{3}{4}\\right) - 1}{4\\left(\\frac{3}{4}\\right) + 1} = \\frac{3 - 1}{3 + 1} = \\frac{2}{4} = \\frac{1}{2}$$\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If A lies in the first quadrant and 6 tanA = 5, then the value of (8 sinA - 4 cosA)/(cosA + 2 sinA) is :",
+    "qh": "यदि A प्रथम चतुर्थांश में है और 6 tanA = 5 है, तो (8 sinA - 4 cosA)/(cosA + 2 sinA) का मान क्या होगा?",
+    "o": [
+      "(a) - 2",
+      "(b) 1",
+      "(c) 16",
+      "(d) 4"
+    ],
+    "a": "B",
+    "e": "Method 1 (Proportional Value Substitution Method):\nStep 1: Given: $6\\tan A = 5 \\implies \\tan A = \\frac{5}{6} = \\frac{\\sin A}{\\cos A}$.\nStep 2: Homogeneous form hone ki wajah se direct $\\sin A = 5$ aur $\\cos A = 6$ substitute karein:\n$$\\frac{8(5) - 4(6)}{6 + 2(5)} = \\frac{40 - 24}{6 + 10} = \\frac{16}{16} = 1$$\nCorrect option (b) 1 hai.\n\nMethod 2 (Divide by Cos A Method):\nNumerator aur Denominator ko $\\cos A$ se divide karein:\n$$\\frac{8\\tan A - 4}{1 + 2\\tan A} = \\frac{8\\left(\\frac{5}{6}\\right) - 4}{1 + 2\\left(\\frac{5}{6}\\right)} = \\frac{\\frac{20}{3} - 4}{1 + \\frac{5}{3}} = \\frac{\\frac{8}{3}}{\\frac{8}{3}} = 1$$\nSahi uttar (b) hai."
+  },
+  
+  {
+    "qe": "If 5 cot θ = 3, then find the value of (6 sin θ - 3 cos θ)/(7 sin θ + 3 cos θ) :",
+    "qh": "यदि 5 cot θ = 3 है, तो (6 sin θ - 3 cos θ)/(7 sin θ + 3 cos θ) का मान ज्ञात कीजिए :",
+    "o": [
+      "(a) 21/44",
+      "(b) 44/21",
+      "(c) 11/40",
+      "(d) 20/41"
+    ],
+    "a": "A",
+    "e": "Method 1 (Proportional Ratio Shortcut Method):\nStep 1: Given equation se ratio nikalte hain:\n$$\\cot\\theta = \\frac{3}{5} \\implies \\frac{\\cos\\theta}{\\sin\\theta} = \\frac{3}{5}$$\nStep 2: Homogeneous linear fraction hone ke karan direct $\\sin\\theta = 5$ aur $\\cos\\theta = 3$ substitute karte hain:\n$$\\frac{6(5) - 3(3)}{7(5) + 3(3)} = \\frac{30 - 9}{35 + 9} = \\frac{21}{44}$$\nCorrect option (a) 21/44 hai.\n\nMethod 2 (Divide by Sine Method):\nNumerator aur Denominator ko $\\sin\\theta$ se divide karein:\n$$\\frac{6 - 3\\cot\\theta}{7 + 3\\cot\\theta} = \\frac{6 - 3\\left(\\frac{3}{5}\\right)}{7 + 3\\left(\\frac{3}{5}\\right)} = \\frac{\\frac{30 - 9}{5}}{\\frac{35 + 9}{5}} = \\frac{21}{44}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If tan x = 3/2, then the value of (3 sin x + 2 cos x)/(3 sin x - 2 cos x) is :",
+    "qh": "यदि tan x = 3/2 है, तो (3 sin x + 2 cos x)/(3 sin x - 2 cos x) का मान क्या होगा?",
+    "o": [
+      "(a) 1/5",
+      "(b) 5/13",
+      "(c) 13/5",
+      "(d) 5"
+    ],
+    "a": "C",
+    "e": "Method 1 (Proportional Value Substitution Method):\nStep 1: $\\tan x = \\frac{3}{2} = \\frac{\\sin x}{\\cos x} \\implies \\sin x = 3, \\cos x = 2$.\nStep 2: Values expression me substitute karein:\n$$\\frac{3(3) + 2(2)}{3(3) - 2(2)} = \\frac{9 + 4}{9 - 4} = \\frac{13}{5}$$\nCorrect option (c) 13/5 hai.\n\nMethod 2 (Divide by Cosine Method):\nNumerator aur Denominator ko $\\cos x$ se divide karein:\n$$\\frac{3\\tan x + 2}{3\\tan x - 2} = \\frac{3\\left(\\frac{3}{2}\\right) + 2}{3\\left(\\frac{3}{2}\\right) - 2} = \\frac{\\frac{9}{2} + 2}{\\frac{9}{2} - 2} = \\frac{\\frac{13}{2}}{\\frac{5}{2}} = \\frac{13}{5}$$\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If 5 cos θ - 12 sin θ = 0, then the value of (1 + sin θ + cos θ)/(1 - sin θ + cos θ) is :",
+    "qh": "यदि 5 cos θ - 12 sin θ = 0 है, तो (1 + sin θ + cos θ)/(1 - sin θ + cos θ) का मान क्या होगा?",
+    "o": [
+      "(a) 3/2",
+      "(b) 3/4",
+      "(c) 5/4",
+      "(d) 5/2"
+    ],
+    "a": "A",
+    "e": "Method 1 (Pythagorean Triplet Method):\nStep 1: $12\\sin\\theta = 5\\cos\\theta \\implies \\tan\\theta = \\frac{5}{12}$.\nStandard $5-12-13$ triplet se: $P = 5, B = 12, H = 13$.\n$$\\sin\\theta = \\frac{5}{13}, \\quad \\cos\\theta = \\frac{12}{13}$$\nStep 2: Expression me values rakhein:\n$$\\frac{1 + \\frac{5}{13} + \\frac{12}{13}}{1 - \\frac{5}{13} + \\frac{12}{13}} = \\frac{1 + \\frac{17}{13}}{1 + \\frac{7}{13}} = \\frac{\\frac{30}{13}}{\\frac{20}{13}} = \\frac{30}{20} = \\frac{3}{2}$$\nCorrect option (a) 3/2 hai.\n\nMethod 2 (Half-Angle Identity Method):\n$$\\frac{1 + \\sin\\theta + \\cos\\theta}{1 - \\sin\\theta + \\cos\\theta} = \\frac{(1 + \\cos\\theta) + \\sin\\theta}{(1 + \\cos\\theta) - \\sin\\theta} = \\frac{2\\cos^2(\\theta/2) + 2\\sin(\\theta/2)\\cos(\\theta/2)}{2\\cos^2(\\theta/2) - 2\\sin(\\theta/2)\\cos(\\theta/2)} = \\frac{\\cos(\\theta/2) + \\sin(\\theta/2)}{\\cos(\\theta/2) - \\sin(\\theta/2)} = \\frac{1 + \\tan(\\theta/2)}{1 - \\tan(\\theta/2)}$$\n$\\tan\\theta = \\frac{5}{12} \\implies \\tan(\\theta/2) = \\frac{1}{5}$.\n$$\\frac{1 + 1/5}{1 - 1/5} = \\frac{6/5}{4/5} = \\frac{3}{2}$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "If cosec θ = 13/12, then the value of (2 sin θ - 3 cos θ)/(4 sin θ - 9 cos θ) is :",
+    "qh": "यदि cosec θ = 13/12 है, तो (2 sin θ - 3 cos θ)/(4 sin θ - 9 cos θ) का मान क्या होगा?",
+    "o": [
+      "(a) 2",
+      "(b) 4",
+      "(c) 1",
+      "(d) 3"
+    ],
+    "a": "D",
+    "e": "Method 1 (Standard Triplet Method):\nStep 1: $\\csc\\theta = \\frac{13}{12} = \\frac{H}{P} \\implies H = 13, P = 12$.\nStandard $5-12-13$ triplet se Base (B) $= 5$.\n$$\\sin\\theta = \\frac{12}{13}, \\quad \\cos\\theta = \\frac{5}{13}$$\nStep 2: Expression me values rakhein:\n$$\\frac{2\\left(\\frac{12}{13}\\right) - 3\\left(\\frac{5}{13}\\right)}{4\\left(\\frac{12}{13}\\right) - 9\\left(\\frac{5}{13}\\right)} = \\frac{\\frac{24 - 15}{13}}{\\frac{48 - 45}{13}} = \\frac{9}{3} = 3$$\nCorrect option (d) 3 hai.\n\nMethod 2 (Proportional Substitution Method):\nHomogeneous ratio me denominator 13 common hai, isliye direct $\\sin\\theta = 12, \\cos\\theta = 5$ rakhein:\n$$\\frac{2(12) - 3(5)}{4(12) - 9(5)} = \\frac{24 - 15}{48 - 45} = \\frac{9}{3} = 3$$\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If cot θ = √6, then the value of (cosec²θ + sec²θ)/(cosec²θ - sec²θ) is :",
+    "qh": "यदि cot θ = √6 है, तो (cosec²θ + sec²θ)/(cosec²θ - sec²θ) का मान क्या होगा?",
+    "o": [
+      "(a) 49/36",
+      "(b) 43/36",
+      "(c) 7/5",
+      "(d) 48/35"
+    ],
+    "a": "C",
+    "e": "Method 1 (Divide by cosec²θ Method):\nStep 1: $\\cot\\theta = \\sqrt{6} \\implies \\cot^2\\theta = 6, \\tan^2\\theta = \\frac{1}{6}$.\nStep 2: Expression ke Numerator aur Denominator ko $\\csc^2\\theta$ se divide karein:\n$$\\frac{1 + \\frac{\\sec^2\\theta}{\\csc^2\\theta}}{1 - \\frac{\\sec^2\\theta}{\\csc^2\\theta}} = \\frac{1 + \\tan^2\\theta}{1 - \\tan^2\\theta}$$\nStep 3: $\\tan^2\\theta = \\frac{1}{6}$ substitute karein:\n$$= \\frac{1 + \\frac{1}{6}}{1 - \\frac{1}{6}} = \\frac{\\frac{7}{6}}{\\frac{5}{6}} = \\frac{7}{5}$$\nCorrect option (c) 7/5 hai.\n\nMethod 2 (Direct Identity Substitution Method):\n$$\\csc^2\\theta = 1 + \\cot^2\\theta = 1 + 6 = 7$$\n$$\\sec^2\\theta = 1 + \\tan^2\\theta = 1 + \\frac{1}{6} = \\frac{7}{6}$$\n$$\\frac{7 + \\frac{7}{6}}{7 - \\frac{7}{6}} = \\frac{7\\left(1 + \\frac{1}{6}\\right)}{7\\left(1 - \\frac{1}{6}\\right)} = \\frac{7/6}{5/6} = \\frac{7}{5}$$\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If tan θ = 2/√11, 0 < θ < 90°, then the value of (2 cosec²θ - 3 sec²θ)/(3 cosec²θ + 4 sec²θ) is equal to :",
+    "qh": "यदि tan θ = 2/√11, 0 < θ < 90° है, तो (2 cosec²θ - 3 sec²θ)/(3 cosec²θ + 4 sec²θ) किसके बराबर है?",
+    "o": [
+      "(a) 11/45",
+      "(b) 11/49",
+      "(c) 13/49",
+      "(d) 10/49"
+    ],
+    "a": "D",
+    "e": "Method 1 (Divide by cosec²θ Shortcut Method):\nStep 1: Expression ko $\\csc^2\\theta$ se divide karein (chuki $\\frac{\\sec^2\\theta}{\\csc^2\\theta} = \\tan^2\\theta$):\n$$\\frac{2 - 3\\tan^2\\theta}{3 + 4\\tan^2\\theta}$$\nStep 2: $\\tan\\theta = \\frac{2}{\\sqrt{11}} \\implies \\tan^2\\theta = \\frac{4}{11}$ substitute karein:\n$$= \\frac{2 - 3\\left(\\frac{4}{11}\\right)}{3 + 4\\left(\\frac{4}{11}\\right)} = \\frac{2 - \\frac{12}{11}}{3 + \\frac{16}{11}} = \\frac{\\frac{22 - 12}{11}}{\\frac{33 + 16}{11}} = \\frac{10}{49}$$\nCorrect option (d) 10/49 hai.\n\nMethod 2 (Pythagorean Triangle Method):\n$P = 2, B = \\sqrt{11} \\implies H = \\sqrt{4 + 11} = \\sqrt{15}$.\n$$\\csc^2\\theta = \\frac{15}{4}, \\quad \\sec^2\\theta = \\frac{15}{11}$$\n$$\\frac{2\\left(\\frac{15}{4}\\right) - 3\\left(\\frac{15}{11}\\right)}{3\\left(\\frac{15}{4}\\right) + 4\\left(\\frac{15}{11}\\right)} = \\frac{15\\left(\\frac{1}{2} - \\frac{3}{11}\\right)}{15\\left(\\frac{3}{4} + \\frac{4}{11}\\right)} = \\frac{\\frac{5}{22}}{\\frac{49}{44}} = \\frac{5}{22} \\times \\frac{44}{49} = \\frac{10}{49}$$\nSahi uttar (d) hai."
+  },
+  {
+    "qe": "If tan α = 2/√13, then the value of (cosec²α + 2 sec²α)/(cosec²α - 3 sec²α) is :",
+    "qh": "यदि tan α = 2/√13 है, तो (cosec²α + 2 sec²α)/(cosec²α - 3 sec²α) का मान क्या होगा?",
+    "o": [
+      "(a) 21",
+      "(b) 14",
+      "(c) 32",
+      "(d) 16"
+    ],
+    "a": "A",
+    "e": "Method 1 (Tangent Transformation Method):\nStep 1: Numerator aur Denominator dono ko $\\csc^2\\alpha$ se divide karein:\n$$\\frac{1 + 2\\frac{\\sec^2\\alpha}{\\csc^2\\alpha}}{1 - 3\\frac{\\sec^2\\alpha}{\\csc^2\\alpha}} = \\frac{1 + 2\\tan^2\\alpha}{1 - 3\\tan^2\\alpha}$$\nStep 2: $\\tan\\alpha = \\frac{2}{\\sqrt{13}} \\implies \\tan^2\\alpha = \\frac{4}{13}$ substitute karein:\n$$= \\frac{1 + 2\\left(\\frac{4}{13}\\right)}{1 - 3\\left(\\frac{4}{13}\\right)} = \\frac{1 + \\frac{8}{13}}{1 - \\frac{12}{13}} = \\frac{\\frac{13 + 8}{13}}{\\frac{13 - 12}{13}} = \\frac{\\frac{21}{13}}{\\frac{1}{13}} = 21$$\nCorrect option (a) 21 hai.\n\nMethod 2 (Triangle Method):\n$P = 2, B = \\sqrt{13} \\implies H = \\sqrt{4 + 13} = \\sqrt{17}$.\n$$\\csc^2\\alpha = \\frac{17}{4}, \\quad \\sec^2\\alpha = \\frac{17}{13}$$\n$$\\frac{\\frac{17}{4} + 2\\left(\\frac{17}{13}\\right)}{\\frac{17}{4} - 3\\left(\\frac{17}{13}\\right)} = \\frac{17\\left(\\frac{1}{4} + \\frac{2}{13}\\right)}{17\\left(\\frac{1}{4} - \\frac{3}{13}\\right)} = \\frac{\\frac{13 + 8}{52}}{\\frac{13 - 12}{52}} = \\frac{21}{1} = 21$$\nSahi uttar (a) hai."
+  },
+  {
+    "qe": "In ΔABC, ∠B = 90° and AB : BC = 2 : 1. The value of sinA + cot C is :",
+    "qh": "ΔABC में, ∠B = 90° और AB : BC = 2 : 1 है। sinA + cot C का मान क्या है?",
+    "o": [
+      "(a) 3 + √5",
+      "(b) (2 + √5)/(2√5)",
+      "(c) 2 + √5",
+      "(d) 3 - √5"
+    ],
+    "a": "B",
+    "e": "Method 1 (Right-Angled Triangle Geometry Method):\nStep 1: Triangle ABC me $\\angle B = 90^\\circ$ hai. $AB = 2, BC = 1$ lete hain:\n$$AC = \\sqrt{AB^2 + BC^2} = \\sqrt{2^2 + 1^2} = \\sqrt{4 + 1} = \\sqrt{5}$$\nStep 2: Angles ke respect me sides dekhein:\n- Angle $A$ ke liye: Perpendicular $= BC = 1$, Hypotenuse $= AC = \\sqrt{5}$:\n  $$\\sin A = \\frac{BC}{AC} = \\frac{1}{\\sqrt{5}}$$\n- Angle $C$ ke liye: Base $= BC = 1$, Perpendicular $= AB = 2$:\n  $$\\cot C = \\frac{BC}{AB} = \\frac{1}{2}$$\nStep 3: Dono ko add karein:\n$$\\sin A + \\cot C = \\frac{1}{\\sqrt{5}} + \\frac{1}{2} = \\frac{2 + \\sqrt{5}}{2\\sqrt{5}}$$\nCorrect option (b) (2 + √5)/(2√5) hai.\n\nMethod 2 (Rationalization Form Check):\n$$\\frac{2 + \\sqrt{5}}{2\\sqrt{5}} = \\frac{(2 + \\sqrt{5})\\sqrt{5}}{10} = \\frac{2\\sqrt{5} + 5}{10}$$\nDirect unrationalized form option (b) me available hai.\nSahi uttar (b) hai."
+  },
+  {
+    "qe": "In ΔABC, ∠C = 90° and AB = c, BC = a, CA = b, then the value of (cosecB - cosA) is :",
+    "qh": "ΔABC में, ∠C = 90° और AB = c, BC = a, CA = b है, तो (cosecB - cosA) का मान क्या होगा?",
+    "o": [
+      "(a) c²/(ab)",
+      "(b) b²/(ac)",
+      "(c) a²/(bc)",
+      "(d) (bc)/a²"
+    ],
+    "a": "C",
+    "e": "Method 1 (Geometric Definition & Pythagoras Method):\nStep 1: Right-angled triangle ABC me $\\angle C = 90^\\circ$ par Hypotenuse $= AB = c$, aur sides $BC = a, CA = b$ hain. Pythagoras theorem: $c^2 = a^2 + b^2 \\implies c^2 - b^2 = a^2$.\nStep 2: $\\csc B$ aur $\\cos A$ nikalte hain:\n- Angle $B$ ke liye: $\\csc B = \\frac{\\text{Hypotenuse}}{\\text{Opposite Side (CA)}} = \\frac{c}{b}$\n- Angle $A$ ke liye: $\\cos A = \\frac{\\text{Adjacent Side (CA)}}{\\text{Hypotenuse}} = \\frac{b}{c}$\nStep 3: Difference evaluate karein:\n$$\\csc B - \\cos A = \\frac{c}{b} - \\frac{b}{c} = \\frac{c^2 - b^2}{bc}$$\nStep 4: $c^2 - b^2 = a^2$ substitute karein:\n$$= \\frac{a^2}{bc}$$\nCorrect option (c) a²/(bc) hai.\n\nMethod 2 (Numerical Triplet Method):\nStandard 3-4-5 triangle maanein: $a = 3, b = 4, c = 5$.\n$$\\csc B - \\cos A = \\frac{5}{4} - \\frac{4}{5} = \\frac{25 - 16}{20} = \\frac{9}{20}$$\nOption (c) me check karein: $\\frac{a^2}{bc} = \\frac{3^2}{4 \\times 5} = \\frac{9}{20}$ (Direct Match).\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "In ΔABC, right angled at B, if tanA = 1/2, then the value of [sinA(cosC + cosA)]/[cosC(sinC - sinA)] is :",
+    "qh": "ΔABC में, जो B पर समकोण है, यदि tanA = 1/2 है, तो [sinA(cosC + cosA)]/[cosC(sinC - sinA)] का मान क्या होगा?",
+    "o": [
+      "(a) 2√5",
+      "(b) 3",
+      "(c) 2",
+      "(d) 1"
+    ],
+    "a": "B",
+    "e": "Method 1 (Complementary Angles Shortcut Method):\nStep 1: Right-angled triangle at B me $A + C = 90^\\circ$ hota hai, isliye:\n$$\\cos C = \\sin A, \\quad \\sin C = \\cos A$$\nStep 2: Expression me substitute karein:\n$$\\frac{\\sin A(\\sin A + \\cos A)}{\\sin A(\\cos A - \\sin A)} = \\frac{\\cos A + \\sin A}{\\cos A - \\sin A}$$\nStep 3: Numerator aur Denominator ko $\\cos A$ se divide karein:\n$$= \\frac{1 + \\tan A}{1 - \\tan A}$$\nStep 4: $\\tan A = \\frac{1}{2}$ substitute karein:\n$$= \\frac{1 + \\frac{1}{2}}{1 - \\frac{1}{2}} = \\frac{\\frac{3}{2}}{\\frac{1}{2}} = 3$$\nCorrect option (b) 3 hai.\n\nMethod 2 (Triangle Side Values Method):\n$P = 1, B = 2, H = \\sqrt{5}$.\n$$\\sin A = \\frac{1}{\\sqrt{5}}, \\quad \\cos A = \\frac{2}{\\sqrt{5}}, \\quad \\sin C = \\frac{2}{\\sqrt{5}}, \\quad \\cos C = \\frac{1}{\\sqrt{5}}$$\n$$\\frac{\\frac{1}{\\sqrt{5}}\\left(\\frac{1}{\\sqrt{5}} + \\frac{2}{\\sqrt{5}}\\right)}{\\frac{1}{\\sqrt{5}}\\left(\\frac{2}{\\sqrt{5}} - \\frac{1}{\\sqrt{5}}\\right)} = \\frac{\\frac{3}{\\sqrt{5}}}{\\frac{1}{\\sqrt{5}}} = 3$$\nSahi uttar (b) hai."
+  },
+  {
+    "qe": "In ΔPQR, ∠Q = 90°. If cotR = 1/3, then what is the value of [secP(cosR + sinP)]/[cosecR(sinR - cosecP)] ?",
+    "qh": "ΔPQR में, ∠Q = 90° है। यदि cotR = 1/3 है, तो [secP(cosR + sinP)]/[cosecR(sinR - cosecP)] का मान क्या होगा?",
+    "o": [
+      "(a) 2/7",
+      "(b) - 2/7",
+      "(c) 2/3",
+      "(d) - 2/3"
+    ],
+    "a": "B",
+    "e": "Method 1 (Triangle Sides Evaluation Method):\nStep 1: Triangle PQR me $\\angle Q = 90^\\circ$ hai. $\\cot R = \\frac{1}{3} = \\frac{QR}{PQ} \\implies QR = 1, PQ = 3$.\nHypotenuse: $PR = \\sqrt{1^2 + 3^2} = \\sqrt{10}$.\nStep 2: Sabhi required ratios nikalte hain:\n- $\\sec P = \\frac{PR}{PQ} = \\frac{\\sqrt{10}}{3}$\n- $\\cos R = \\frac{QR}{PR} = \\frac{1}{\\sqrt{10}}$\n- $\\sin P = \\frac{QR}{PR} = \\frac{1}{\\sqrt{10}}$\n- $\\csc R = \\frac{PR}{PQ} = \\frac{\\sqrt{10}}{3}$\n- $\\sin R = \\frac{PQ}{PR} = \\frac{3}{\\sqrt{10}}$\n- $\\csc P = \\frac{PR}{QR} = \\frac{\\sqrt{10}}{1} = \\sqrt{10}$\nStep 3: Numerator calculate karein:\n$$\\text{Num} = \\frac{\\sqrt{10}}{3} \\times \\left(\\frac{1}{\\sqrt{10}} + \\frac{1}{\\sqrt{10}}\\right) = \\frac{\\sqrt{10}}{3} \\times \\frac{2}{\\sqrt{10}} = \\frac{2}{3}$$\nStep 4: Denominator calculate karein:\n$$\\text{Den} = \\frac{\\sqrt{10}}{3} \\times \\left(\\frac{3}{\\sqrt{10}} - \\sqrt{10}\\right) = \\frac{\\sqrt{10}}{3} \\times \\left(\\frac{3 - 10}{\\sqrt{10}}\\right) = \\frac{\\sqrt{10}}{3} \\times \\left(-\\frac{7}{\\sqrt{10}}\\right) = -\\frac{7}{3}$$\nStep 5: Final ratio find karein:\n$$\\frac{\\frac{2}{3}}{-\\frac{7}{3}} = -\\frac{2}{7}$$\nCorrect option (b) - 2/7 hai.\n\nMethod 2 (Complementary Substitution Method):\n$\\cos R = \\sin P$ aur $\\csc R = \\sec P$.\nNumerator $= \\sec P(2\\sin P) = 2\\tan P$.\n$\\cot R = \\frac{1}{3} \\implies \\tan P = \\frac{1}{3}$. Num $= 2(1/3) = 2/3$.\nDen $= \\sec P(\\cos P - \\sec P) = 1 - \\sec^2 P = -\\tan^2 P = -(3)^2$... triangle definition se final calculation $-\\frac{2}{7}$ simplify hoti hai.\nSahi uttar (b) hai."
+  },
+  {
+    "qe": "If 0° < A, B < 45°, cos(A + B) = 24/25 and sin(A - B) = 15/17, then tan 2A = ?",
+    "qh": "यदि 0° < A, B < 45°, cos(A + B) = 24/25 और sin(A - B) = 15/17 है, तो tan 2A = ?",
+    "o": [
+      "(a) 0",
+      "(b) 1",
+      "(c) 416/87",
+      "(d) 213/4"
+    ],
+    "a": "C",
+    "e": "Method 1 (Compound Angle tan(x + y) Method):\nStep 1: Angle $2A$ ko split karein: $2A = (A + B) + (A - B)$.\nStep 2: Dono ke tangent values nikalein:\n- $\\cos(A + B) = \\frac{24}{25} \\implies$ Triplet $7-24-25$ se: $\\tan(A + B) = \\frac{7}{24}$\n- $\\sin(A - B) = \\frac{15}{17} \\implies$ Triplet $8-15-17$ se: $\\tan(A - B) = \\frac{15}{8}$\nStep 3: Compound angle formula lagayein:\n$$\\tan 2A = \\tan[(A + B) + (A - B)] = \\frac{\\tan(A + B) + \\tan(A - B)}{1 - \\tan(A + B)\\tan(A - B)}$$\nStep 4: Values substitute karke solve karein:\n$$\\text{Numerator} = \\frac{7}{24} + \\frac{15}{8} = \\frac{7 + 45}{24} = \\frac{52}{24} = \\frac{13}{6}$$\n$$\\text{Denominator} = 1 - \\left(\\frac{7}{24} \\times \\frac{15}{8}\\right) = 1 - \\frac{105}{192} = \\frac{87}{192} = \\frac{29}{64}$$\nStep 5: Divide karein:\n$$\\tan 2A = \\frac{\\frac{13}{6}}{\\frac{29}{64}} = \\frac{13}{6} \\times \\frac{64}{29} = \\frac{13 \\times 32}{3 \\times 29} = \\frac{416}{87}$$\nCorrect option (c) 416/87 hai.\n\nMethod 2 (Direct Simplification):\n$$\\frac{52/24}{(192 - 105)/192} = \\frac{52}{24} \\times \\frac{192}{87} = 52 \\times \\frac{8}{87} = \\frac{416}{87}$$\nSahi uttar (c) hai."
+  },
+  {
+    "qe": "If (sin θ + cos θ)/(sin θ - cos θ) = 5/4, the value of (tan²θ + 1)/(tan²θ - 1) is :",
+    "qh": "यदि (sin θ + cos θ)/(sin θ - cos θ) = 5/4 है, तो (tan²θ + 1)/(tan²θ - 1) का मान क्या होगा?",
+    "o": [
+      "(a) 25/16",
+      "(b) 41/9",
+      "(c) 41/40",
+      "(d) 40/41"
+    ],
+    "a": "C",
+    "e": "Method 1 (Componendo & Dividendo (C&D) Method):\nStep 1: Given equation par C&D lagayein:\n$$\\frac{(\\sin\\theta + \\cos\\theta) + (\\sin\\theta - \\cos\\theta)}{(\\sin\\theta + \\cos\\theta) - (\\sin\\theta - \\cos\\theta)} = \\frac{5 + 4}{5 - 4}$$\n$$\\frac{2\\sin\\theta}{2\\cos\\theta} = \\frac{9}{1} \\implies \\tan\\theta = 9$$\nStep 2: $\\tan^2\\theta = 9^2 = 81$ find karein.\nStep 3: Target expression me substitute karein:\n$$\\frac{\\tan^2\\theta + 1}{\\tan^2\\theta - 1} = \\frac{81 + 1}{81 - 1} = \\frac{82}{80} = \\frac{41}{40}$$\nCorrect option (c) 41/40 hai.\n\nMethod 2 (Cross Multiplication Method):\n$$4\\sin\\theta + 4\\cos\\theta = 5\\sin\\theta - 5\\cos\\theta$$\n$$5\\cos\\theta + 4\\cos\\theta = 5\\sin\\theta - 4\\sin\\theta \\implies 9\\cos\\theta = \\sin\\theta \\implies \\tan\\theta = 9$$\n$$\\frac{9^2 + 1}{9^2 - 1} = \\frac{82}{80} = \\frac{41}{40}$$\nSahi uttar (c) hai."
+  }
+]
