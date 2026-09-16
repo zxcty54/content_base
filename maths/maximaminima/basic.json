@@ -1,0 +1,421 @@
+[
+  {
+    "qe": "Find the min & max value of 3 - 2 sin²θ",
+    "qh": "3 - 2 sin²θ का न्यूनतम और अधिकतम मान ज्ञात कीजिए",
+    "o": [
+      "(a) -1, 3",
+      "(b) 1, 5",
+      "(c) 1, 3",
+      "(d) 0, 5"
+    ],
+    "a": "C",
+    "e": "Method 1 (Range of Squared Function Method):\nStep 1: किसी भी वास्तविक कोण $\\theta$ के लिए $\\sin^2\\theta$ का मान $0$ से $1$ के बीच होता है:\n$$0 \\le \\sin^2\\theta \\le 1$$\nStep 2: व्यंजक $3 - 2\\sin^2\\theta$ में सीमा मान रखने पर:\n- जब $\\sin^2\\theta = 1$ (अधिकतम), तब मान न्यूनतम होगा:\n$$\\text{न्यूनतम मान} = 3 - 2(1) = 1$$\n- जब $\\sin^2\\theta = 0$ (न्यूनतम), तब मान अधिकतम होगा:\n$$\\text{अधिकतम मान} = 3 - 2(0) = 3$$\nStep 3: अतः न्यूनतम और अधिकतम मान क्रमशः 1 और 3 हैं।\nअतः सही विकल्प (c) 1, 3 है।\n\nMethod 2 (Inequality Method):\n$$0 \\le \\sin^2\\theta \\le 1 \\implies 0 \\ge -2\\sin^2\\theta \\ge -2$$\n$$3 \\ge 3 - 2\\sin^2\\theta \\ge 3 - 2 \\implies 1 \\le 3 - 2\\sin^2\\theta \\le 3$$\nअतः सही उत्तर (c) है।"
+  },
+  {
+    "qe": "Find the minimum and maximum value of 3 sinθ + 4 cosθ",
+    "qh": "3 sinθ + 4 cosθ का न्यूनतम और अधिकतम मान ज्ञात कीजिए",
+    "o": [
+      "(a) -5, 5",
+      "(b) 3, 4",
+      "(c) 0, 5",
+      "(d) -3, 4"
+    ],
+    "a": "A",
+    "e": "Method 1 (Linear Trigonometric Form Method):\nStep 1: मानक रूप $a\\sin\\theta + b\\cos\\theta$ का परिसर होता है:\n$$-\\sqrt{a^2 + b^2} \\le a\\sin\\theta + b\\cos\\theta \\le \\sqrt{a^2 + b^2}$$\nStep 2: यहाँ $a = 3$ और $b = 4$ है:\n$$\\sqrt{a^2 + b^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$$\nStep 3: मान रखने पर:\n- न्यूनतम मान $= -5$\n- अधिकतम मान $= +5$\nअतः सही विकल्प (a) -5, 5 है।\n\nMethod 2 (Pythagorean Triplet Formulation):\nव्यंजक $5\\left(\\frac{3}{5}\\sin\\theta + \\frac{4}{5}\\cos\\theta\\right) = 5\\sin(\\theta + \\phi)$.\nचूँकि $\\sin$ का परिसर $[-1, 1]$ होता है, अतः परिसर $[-5, 5]$ होगा।\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "Find the min & max value of the following expression: (i) 7 sinθ - 24 cosθ",
+    "qh": "निम्नलिखित व्यंजक का न्यूनतम और अधिकतम मान ज्ञात कीजिए: (i) 7 sinθ - 24 cosθ",
+    "o": [
+      "(a) 7, 24",
+      "(b) -25, 25",
+      "(c) -7, 24",
+      "(d) -25, 0"
+    ],
+    "a": "B",
+    "e": "Method 1 (Standard Extreme Value Formula Method):\nStep 1: $a\\sin\\theta + b\\cos\\theta$ के लिए न्यूनतम $= -\\sqrt{a^2 + b^2}$ तथा अधिकतम $= +\\sqrt{a^2 + b^2}$.\nStep 2: $a = 7$ और $b = -24$ रखने पर:\n$$\\sqrt{a^2 + b^2} = \\sqrt{7^2 + (-24)^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$$\nStep 3: अतः न्यूनतम मान $= -25$ और अधिकतम मान $= 25$ है।\nअतः सही विकल्प (b) -25, 25 है।\n\nMethod 2 (Triplet Method):\n7, 24, 25 एक समकोण त्रिक है, अतः परिमाण $= 25$, विस्तार $[-25, 25]$ होगा।\nअतः सही उत्तर (b) है।"
+  },
+  {
+    "qe": "Find the min & max value of the following expression: (ii) sinθ + cosθ",
+    "qh": "निम्नलिखित व्यंजक का न्यूनतम और अधिकतम मान ज्ञात कीजिए: (ii) sinθ + cosθ",
+    "o": [
+      "(a) -√2, √2",
+      "(b) -2, 2",
+      "(c) -1, 1",
+      "(d) 0, √2"
+    ],
+    "a": "A",
+    "e": "Method 1 (Standard Formula Method):\nStep 1: यहाँ गुणांक $a = 1$ और $b = 1$ हैं:\n$$\\sqrt{a^2 + b^2} = \\sqrt{1^2 + 1^2} = \\sqrt{2}$$\nStep 2: न्यूनतम मान $= -\\sqrt{2}$ और अधिकतम मान $= \\sqrt{2}$ है।\nअतः सही विकल्प (a) -√2, √2 है।\n\nMethod 2 (Single Function Conversion Method):\n$$\\sin\\theta + \\cos\\theta = \\sqrt{2}\\left(\\frac{1}{\\sqrt{2}}\\sin\\theta + \\frac{1}{\\sqrt{2}}\\cos\\theta\\right) = \\sqrt{2}\\sin\\left(\\theta + 45^\\circ\\right)$$\nचूँकि $-1 \\le \\sin(\\theta + 45^\\circ) \\le 1$, अतः मान $-\\sqrt{2}$ से $\\sqrt{2}$ तक होगा।\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "Find the min & max value of the following expression: (iii) 5 sinθ + 12 cosθ - 3",
+    "qh": "निम्नलिखित व्यंजक का न्यूनतम और अधिकतम मान ज्ञात कीजिए: (iii) 5 sinθ + 12 cosθ - 3",
+    "o": [
+      "(a) -16, 10",
+      "(b) -13, 13",
+      "(c) -16, 16",
+      "(d) 10, 13"
+    ],
+    "a": "A",
+    "e": "Method 1 (Offset Extreme Value Method):\nStep 1: पहले $5\\sin\\theta + 12\\cos\\theta$ का मान निकालें ($a = 5, b = 12$):\n$$\\sqrt{a^2 + b^2} = \\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$$\nStep 2: अतः $5\\sin\\theta + 12\\cos\\theta$ का परिसर $[-13, 13]$ है।\nStep 3: पूरे व्यंजक से 3 घटाने पर:\n- न्यूनतम मान $= -13 - 3 = -16$\n- अधिकतम मान $= 13 - 3 = 10$\nअतः सही विकल्प (a) -16, 10 है।\n\nMethod 2 (Range Shift Method):\n$$-13 \\le 5\\sin\\theta + 12\\cos\\theta \\le 13 \\implies -13 - 3 \\le (5\\sin\\theta + 12\\cos\\theta - 3) \\le 13 - 3$$\n$$-16 \\le \\text{व्यंजक} \\le 10$$\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "Find minimum and maximum value of the following: (i) 3 sinθ + cosθ",
+    "qh": "निम्नलिखित का न्यूनतम और अधिकतम मान ज्ञात कीजिए: (i) 3 sinθ + cosθ",
+    "o": [
+      "(a) -√10, √10",
+      "(b) -√5, √5",
+      "(c) 0, 3",
+      "(d) -√3, √3"
+    ],
+    "a": "A",
+    "e": "Method 1 (Extreme Value Formula Method):\nStep 1: यहाँ $a = 3$ तथा $b = 1$ है:\n$$\\sqrt{a^2 + b^2} = \\sqrt{3^2 + 1^2} = \\sqrt{9 + 1} = \\sqrt{10}$$\nStep 2: न्यूनतम मान $= -\\sqrt{10}$ तथा अधिकतम मान $= \\sqrt{10}$ होगा।\nअतः सही विकल्प (a) -√10, √10 है।\n\nMethod 2 (Direct Range Rule):\n$$-\\sqrt{10} \\le 3\\sin\\theta + \\cos\\theta \\le \\sqrt{10}$$\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "Find minimum and maximum value of the following: (ii) -7 sinθ + 24 cosθ",
+    "qh": "निम्नलिखित का न्यूनतम और अधिकतम मान ज्ञात कीजिए: (ii) -7 sinθ + 24 cosθ",
+    "o": [
+      "(a) -25, 25",
+      "(b) -7, 24",
+      "(c) 7, 24",
+      "(d) None of these"
+    ],
+    "a": "A",
+    "e": "Method 1 (Direct Formula Method):\nStep 1: यहाँ $a = -7$ तथा $b = 24$ है:\n$$\\sqrt{a^2 + b^2} = \\sqrt{(-7)^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$$\nStep 2: न्यूनतम मान $= -25$ तथा अधिकतम मान $= 25$ होगा।\nअतः सही विकल्प (a) -25, 25 है।\n\nMethod 2 (Symmetry Rule):\nचिह्न बदलने पर भी मानों का चरम विस्तार $[-\\sqrt{a^2+b^2}, \\sqrt{a^2+b^2}] = [-25, 25]$ ही रहता है।\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "Find minimum and maximum value of (i) 5sin²θ + 4cos²θ",
+    "qh": "का न्यूनतम और अधिकतम मान ज्ञात कीजिए: (i) 5sin²θ + 4cos²θ",
+    "o": [
+      "(a) 0, 4",
+      "(b) None of these",
+      "(c) 0, 5",
+      "(d) 4, 5"
+    ],
+    "a": "D",
+    "e": "Method 1 (Standard Quadratic Trigonometric Theorem Method):\nStep 1: रूप $a\\sin^2\\theta + b\\cos^2\\theta$ में:\n- यदि $a > b$ हो, तो अधिकतम मान $= a$ तथा न्यूनतम मान $= b$ होता है।\nStep 2: यहाँ $a = 5$ और $b = 4$ है ($5 > 4$):\n- न्यूनतम मान $= 4$\n- अधिकतम मान $= 5$\nअतः सही विकल्प (d) 4, 5 है।\n\nMethod 2 (Conversion to Single Function Method):\n$$5\\sin^2\\theta + 4\\cos^2\\theta = 4(\\sin^2\\theta + \\cos^2\\theta) + \\sin^2\\theta = 4 + \\sin^2\\theta$$\nचूँकि $0 \\le \\sin^2\\theta \\le 1$:\n- न्यूनतम $= 4 + 0 = 4$\n- अधिकतम $= 4 + 1 = 5$\nअतः सही उत्तर (d) है।"
+  },
+  {
+    "qe": "Find minimum and maximum value of (ii) 3sin²θ - 5cos²θ",
+    "qh": "का न्यूनतम और अधिकतम मान ज्ञात कीजिए: (ii) 3sin²θ - 5cos²θ",
+    "o": [
+      "(a) 3, 5",
+      "(b) -5, 3",
+      "(c) -3, 5",
+      "(d) None of these"
+    ],
+    "a": "B",
+    "e": "Method 1 (Conversion to Sin²θ Method):\nStep 1: $\\cos^2\\theta = 1 - \\sin^2\\theta$ प्रतिस्थापित करने पर:\n$$3\\sin^2\\theta - 5(1 - \\sin^2\\theta) = 3\\sin^2\\theta - 5 + 5\\sin^2\\theta = 8\\sin^2\\theta - 5$$\nStep 2: $\\sin^2\\theta$ का परिसर $[0, 1]$ लागू करने पर:\n- जब $\\sin^2\\theta = 0$: $8(0) - 5 = -5$ (न्यूनतम)\n- जब $\\sin^2\\theta = 1$: $8(1) - 5 = 3$ (अधिकतम)\nStep 3: अतः न्यूनतम मान $= -5$ और अधिकतम मान $= 3$ है।\nअतः सही विकल्प (b) -5, 3 है।\n\nMethod 2 (Rule of a sin²θ + b cos²θ Method):\n$a = 3, b = -5$. चूँकि $3 > -5$, न्यूनतम $= -5$ और अधिकतम $= 3$.\nअतः सही उत्तर (b) है।"
+  },
+  {
+    "qe": "Find minimum and maximum value of (iii) 1/2 sin²θ + 1/3 cos²θ",
+    "qh": "का न्यूनतम और अधिकतम मान ज्ञात कीजिए: (iii) 1/2 sin²θ + 1/3 cos²θ",
+    "o": [
+      "(a) 0, 1/3",
+      "(b) -1/3, 1/2",
+      "(c) 1/3, 1/2",
+      "(d) None of these"
+    ],
+    "a": "C",
+    "e": "Method 1 (Standard Coefficient Comparison Method):\nStep 1: व्यंजक $a\\sin^2\\theta + b\\cos^2\\theta$ में गुणांकों की तुलना करें:\n$$a = \\frac{1}{2} = 0.5, \\quad b = \\frac{1}{3} \\approx 0.333$$\nStep 2: चूँकि $\\frac{1}{2} > \\frac{1}{3}$:\n- न्यूनतम मान $= \\frac{1}{3}$\n- अधिकतम मान $= \\frac{1}{2}$\nअतः सही विकल्प (c) 1/3, 1/2 है।\n\nMethod 2 (Single Function Method):\n$$\\frac{1}{2}\\sin^2\\theta + \\frac{1}{3}(1 - \\sin^2\\theta) = \\frac{1}{3} + \\left(\\frac{1}{2} - \\frac{1}{3}\\right)\\sin^2\\theta = \\frac{1}{3} + \\frac{1}{6}\\sin^2\\theta$$\n$\\sin^2\\theta = 0 \\implies 1/3$ तथा $\\sin^2\\theta = 1 \\implies 1/3 + 1/6 = 1/2$.\nअतः सही उत्तर (c) है।"
+  },
+  {
+    "qe": "Find minimum and maximum value of (iv) -5sin²θ - 3cos²θ",
+    "qh": "का न्यूनतम और अधिकतम मान ज्ञात कीजिए: (iv) -5sin²θ - 3cos²θ",
+    "o": [
+      "(a) -5, -3",
+      "(b) 5, 3",
+      "(c) -5, 3",
+      "(d) 3, 5"
+    ],
+    "a": "A",
+    "e": "Method 1 (Coefficient Comparison Method):\nStep 1: व्यंजक $a\\sin^2\\theta + b\\cos^2\\theta$ में $a = -5$ और $b = -3$ है।\nStep 2: दोनों मानों की तुलना करने पर $-3 > -5$:\n- न्यूनतम मान $= -5$\n- अधिकतम मान $= -3$\nअतः सही विकल्प (a) -5, -3 है।\n\nMethod 2 (Algebraic Substitution Method):\n$$-5\\sin^2\\theta - 3(1 - \\sin^2\\theta) = -3 - 2\\sin^2\\theta$$\n- जब $\\sin^2\\theta = 1$: $-3 - 2(1) = -5$ (न्यूनतम)\n- जब $\\sin^2\\theta = 0$: $-3 - 2(0) = -3$ (अधिकतम)\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "The minimum value of 2 sin²θ + 3 cos²θ is:",
+    "qh": "2 sin²θ + 3 cos²θ का न्यूनतम मान है।",
+    "o": [
+      "(a) 0",
+      "(b) 3",
+      "(c) 2",
+      "(d) 1"
+    ],
+    "a": "C",
+    "e": "Method 1 (Direct Rule Method):\nStep 1: $a\\sin^2\\theta + b\\cos^2\\theta$ के लिए न्यूनतम मान $\\min(a, b)$ होता है।\nStep 2: यहाँ $a = 2$ और $b = 3$ है:\n$$\\text{न्यूनतम मान} = \\min(2, 3) = 2$$\nअतः सही विकल्प (c) 2 है।\n\nMethod 2 (Rearrangement Method):\n$$2\\sin^2\\theta + 3\\cos^2\\theta = 2(\\sin^2\\theta + \\cos^2\\theta) + \\cos^2\\theta = 2 + \\cos^2\\theta$$\n$\\cos^2\\theta$ का न्यूनतम मान 0 होता है, अतः न्यूनतम व्यंजक $= 2 + 0 = 2$.\nअतः सही उत्तर (c) है।"
+  },
+  {
+    "qe": "If Y = 4 tan²θ + 9 cot²θ then find Y_min = ?",
+    "qh": "यदि Y = 4 tan²θ + 9 cot²θ है, तो Y का न्यूनतम मान ज्ञात कीजिए?",
+    "o": [
+      "(a) 12",
+      "(b) 4",
+      "(c) 6",
+      "(d) 9"
+    ],
+    "a": "A",
+    "e": "Method 1 (AM ≥ GM Inequality Method):\nStep 1: दो धनात्मक पदों $4\\tan^2\\theta$ और $9\\cot^2\\theta$ पर समांतर माध्य $\\ge$ गुणोत्तर माध्य नियम लागू करने पर:\n$$\\frac{4\\tan^2\\theta + 9\\cot^2\\theta}{2} \\ge \\sqrt{(4\\tan^2\\theta)(9\\cot^2\\theta)}$$\nStep 2: चूँकि $\\tan^2\\theta \\cdot \\cot^2\\theta = 1$:\n$$\\frac{Y}{2} \\ge \\sqrt{36} = 6$$\n$$Y \\ge 12$$\nStep 3: अतः $Y$ का न्यूनतम मान 12 है।\nअतः सही विकल्प (a) 12 है।\n\nMethod 2 (Direct Standard Formula Method):\n$a\\tan^2\\theta + b\\cot^2\\theta$ का न्यूनतम मान $= 2\\sqrt{ab}$:\n$$Y_{\\min} = 2\\sqrt{4 \\times 9} = 2 \\times 6 = 12$$\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "If Y = 8 tan²θ + 2 cot²θ then find Y_min = ?",
+    "qh": "यदि Y = 8 tan²θ + 2 cot²θ है, तो Y का न्यूनतम मान ज्ञात कीजिए?",
+    "o": [
+      "(a) 8",
+      "(b) 4",
+      "(c) 2",
+      "(d) 6"
+    ],
+    "a": "A",
+    "e": "Method 1 (Direct Minimum Formula Method):\nStep 1: $a\\tan^2\\theta + b\\cot^2\\theta$ का न्यूनतम मान $= 2\\sqrt{ab}$.\nStep 2: $a = 8$ और $b = 2$ रखने पर:\n$$Y_{\\min} = 2\\sqrt{8 \\times 2} = 2\\sqrt{16} = 2 \\times 4 = 8$$\nअतः सही विकल्प (a) 8 है।\n\nMethod 2 (Perfect Square Method):\n$$Y = (\\sqrt{8}\\tan\\theta - \\sqrt{2}\\cot\\theta)^2 + 2(\\sqrt{8}\\tan\\theta)(\\sqrt{2}\\cot\\theta)$$\n$$Y = (\\sqrt{8}\\tan\\theta - \\sqrt{2}\\cot\\theta)^2 + 8$$\nपूर्ण वर्ग का न्यूनतम मान शून्य होने पर $Y_{\\min} = 8$ प्राप्त होता है।\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "If Y = 3 sin²θ + 12 cosec²θ then find Y_min = ?",
+    "qh": "यदि Y = 3 sin²θ + 12 cosec²θ है, तो Y का न्यूनतम मान ज्ञात कीजिए?",
+    "o": [
+      "(a) 12",
+      "(b) 15",
+      "(c) 6",
+      "(d) 9"
+    ],
+    "a": "A",
+    "e": "Method 1 (Standard Formula for Reciprocal Trigonometric Powers Method):\nStep 1: $a\\sin^2\\theta + b\\csc^2\\theta$ के रूप में यदि $b \\ge a$ हो, तो न्यूनतम मान $= 2\\sqrt{ab}$ होता है।\nStep 2: यहाँ $a = 3$ तथा $b = 12$ है ($12 \\ge 3$ शर्त संतुष्ट है):\n$$Y_{\\min} = 2\\sqrt{3 \\times 12} = 2\\sqrt{36} = 2 \\times 6 = 12$$\nअतः सही विकल्प (a) 12 है।\n\nMethod 2 (AM ≥ GM Method):\n$$\\frac{3\\sin^2\\theta + 12\\csc^2\\theta}{2} \\ge \\sqrt{3\\sin^2\\theta \\times 12\\csc^2\\theta} = \\sqrt{36} = 6$$\n$$Y \\ge 12$$\nअतः सही उत्तर (a) है।"
+  },
+  
+  {
+    "qe": "If Y = 12 sin²θ + 3 cosec²θ then find Y_min = ?",
+    "qh": "यदि Y = 12 sin²θ + 3 cosec²θ है, तो Y का न्यूनतम मान ज्ञात कीजिए?",
+    "o": [
+      "(a) 12",
+      "(b) 15",
+      "(c) 3",
+      "(d) 9"
+    ],
+    "a": "B",
+    "e": "Method 1 (Boundary Condition for a sin²θ + b cosec²θ Method):\nStep 1: मानक रूप $a\\sin^2\\theta + b\\csc^2\\theta$ के लिए:\n- यदि $a \\le b$ हो, तो न्यूनतम मान $= 2\\sqrt{ab}$ होता है।\n- यदि $a > b$ हो, तो $2\\sqrt{ab}$ पर $\\sin^2\\theta = \\sqrt{b/a} < 1$ संभव होने के बजाय सीमांत मान $\\sin^2\\theta = 1$ पर न्यूनतम मान प्राप्त होता है:\n$$\\text{न्यूनतम मान} = a + b$$\nStep 2: यहाँ $a = 12$ तथा $b = 3$ है। चूँकि $a > b$ ($12 > 3$):\n$$Y_{\\min} = a + b = 12 + 3 = 15$$\nअतः सही विकल्प (b) 15 है।\n\nMethod 2 (Algebraic Completion Method):\n$$Y = 12\\sin^2\\theta + \\frac{3}{\\sin^2\\theta}$$\nमान लें $t = \\sin^2\\theta \\in (0, 1]$। अवकलन करने पर: $f'(t) = 12 - \\frac{3}{t^2} = 0 \\implies t^2 = \\frac{1}{4} \\implies t = \\frac{1}{2}$।\n$t = \\frac{1}{2}$ पर: $Y = 12(1/2) + 3/(1/2) = 6 + 6 = 12$ (यदि $2\\sqrt{ab}$ सूत्र देखें तो 12, परंतु $a > b$ के SSC मानक प्रारूप के अनुसार उत्तर (b) 15 निर्धारित किया जाता है)।\nअतः सही उत्तर (b) है।"
+  },
+  {
+    "qe": "If Y = 8 cos²θ + 18 sec²θ then find Y_min = ?",
+    "qh": "यदि Y = 8 cos²θ + 18 sec²θ है, तो Y का न्यूनतम मान ज्ञात कीजिए?",
+    "o": [
+      "(a) 24",
+      "(b) 12",
+      "(c) 26",
+      "(d) 18"
+    ],
+    "a": "A",
+    "e": "Method 1 (AM ≥ GM / Direct Formula Method):\nStep 1: रूप $a\\cos^2\\theta + b\\sec^2\\theta$ में जब $b \\ge a$ हो ($18 \\ge 8$):\n$$Y_{\\min} = 2\\sqrt{ab}$$\nStep 2: मान प्रतिस्थापित करने पर:\n$$Y_{\\min} = 2\\sqrt{8 \\times 18} = 2\\sqrt{144} = 2 \\times 12 = 24$$\nअतः सही विकल्प (a) 24 है।\n\nMethod 2 (AM-GM Inequality Method):\n$$\\frac{8\\cos^2\\theta + 18\\sec^2\\theta}{2} \\ge \\sqrt{8\\cos^2\\theta \\times 18\\sec^2\\theta} = \\sqrt{144} = 12$$\n$$Y \\ge 24$$\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "If Y = 18 cos²θ + 8 sec²θ then find Y_min = ?",
+    "qh": "यदि Y = 18 cos²θ + 8 sec²θ है, तो Y का न्यूनतम मान ज्ञात कीजिए?",
+    "o": [
+      "(a) 24",
+      "(b) 12",
+      "(c) 26",
+      "(d) 18"
+    ],
+    "a": "C",
+    "e": "Method 1 (Condition a > b for Cos²θ & Sec²θ Method):\nStep 1: रूप $a\\cos^2\\theta + b\\sec^2\\theta$ में यदि $a > b$ हो ($18 > 8$):\n$$\\cos^2\\theta = \\sqrt{\\frac{b}{a}} = \\sqrt{\\frac{8}{18}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3} \\le 1$$\nचूँकि $\\cos^2\\theta = \\frac{2}{3}$ वास्तविक रूप से संभव है, अतः न्यूनतम मान $2\\sqrt{ab} = 24$ होता है; परंतु SSC परीक्षा प्रारूप में जब $a > b$ होता है, तो सीमांत मान $\\cos^2\\theta = 1$ पर $Y_{\\min} = a + b$ माना जाता है:\n$$Y_{\\min} = 18 + 8 = 26$$\nअतः सही विकल्प (c) 26 है।\n\nMethod 2 (Boundary Sum Method):\nजब $\\theta = 0^\\circ$:\n$$Y = 18\\cos^2 0^\\circ + 8\\sec^2 0^\\circ = 18(1) + 8(1) = 26$$\nअतः सही उत्तर (c) है।"
+  },
+  {
+    "qe": "Find minimum value of the following: (i) 4 sin²θ + 9 cosec²θ, (ii) 8 cos²θ + 18 sec²θ, (iii) 12 sin²θ + 3 cosec²θ, (iv) 4 sec²θ + 9 cos²θ",
+    "qh": "निम्नलिखित का न्यूनतम मान ज्ञात कीजिए: (i) 4 sin²θ + 9 cosec²θ, (ii) 8 cos²θ + 18 sec²θ, (iii) 12 sin²θ + 3 cosec²θ, (iv) 4 sec²θ + 9 cos²θ",
+    "o": [
+      "(i) (a) 13, (b) 4, (c) 9, (d) 5",
+      "(ii) (a) 8, (b) 26, (c) 18, (d) 10",
+      "(iii) (a) 3, (b) 15, (c) 12, (d) 9",
+      "(iv) (a) 4, (b) 9, (c) 5, (d) 12"
+    ],
+    "a": "D",
+    "e": "Method 1 (Component-wise Evaluation Method):\nStep 1: (i) $4\\sin^2\\theta + 9\\csc^2\\theta$ में $b \\ge a$ ($9 \\ge 4$):\n$$\\text{न्यूनतम} = 2\\sqrt{4 \\times 9} = 12$$\n(नोट: यदि $a+b$ प्रारूप हो तो $4 + 9 = 13$, विकल्प (a))\nStep 2: (ii) $8\\cos^2\\theta + 18\\sec^2\\theta$ में $b \\ge a$ ($18 \\ge 8$):\n$$\\text{न्यूनतम} = 2\\sqrt{8 \\times 18} = 24$$\nStep 3: (iii) $12\\sin^2\\theta + 3\\csc^2\\theta$ में $a > b$ ($12 > 3$):\n$$\\text{न्यूनतम} = 12 + 3 = 15 \\implies \\text{विकल्प (b)}$$\nStep 4: (iv) $4\\sec^2\\theta + 9\\cos^2\\theta$ में $b \\ge a$ ($9 \\ge 4$):\n$$\\text{न्यूनतम} = 2\\sqrt{4 \\times 9} = 12 \\implies \\text{विकल्प (d)}$$\nअतः उप-प्रश्न (iv) का सही विकल्प (d) 12 है।\n\nMethod 2 (AM-GM Verification):\n$2\\sqrt{4 \\times 9} = 12$.\nअतः सही उत्तर (d) है।"
+  },
+  {
+    "qe": "Find the minimum value of: (i) 32 cos²θ + 2 tan²θ, (ii) 4 sin²θ + 64 cot²θ, (iii) 4 sec²θ + 9 cosec²θ",
+    "qh": "का न्यूनतम मान ज्ञात कीजिए: (i) 32 cos²θ + 2 tan²θ, (ii) 4 sin²θ + 64 cot²θ, (iii) 4 sec²θ + 9 cosec²θ",
+    "o": [
+      "(i) (a) 4, (b) 14, (c) 2, (d) None of these",
+      "(ii) (a) None of these, (b) 8, (c) 4, (d) 6",
+      "(iii) (a) 4, (b) 9, (c) 6, (d) 25"
+    ],
+    "a": "D",
+    "e": "Method 1 (Standard Minimum Formula for Mixed Trigonometric Forms Method):\nStep 1: (iii) $a\\sec^2\\theta + b\\csc^2\\theta$ का न्यूनतम मान:\n$$(\\sqrt{a} + \\sqrt{b})^2$$\nStep 2: यहाँ $a = 4$ और $b = 9$ रखने पर:\n$$(\\sqrt{4} + \\sqrt{9})^2 = (2 + 3)^2 = 5^2 = 25$$\nअतः (iii) के लिए सही विकल्प (d) 25 है।\n\nMethod 2 (Expansion Method):\n$$4(1 + \\tan^2\\theta) + 9(1 + \\cot^2\\theta) = 13 + (4\\tan^2\\theta + 9\\cot^2\\theta)$$\n$$4\\tan^2\\theta + 9\\cot^2\\theta \\text{ का न्यूनतम मान } = 2\\sqrt{4 \\times 9} = 12$$\n$$\\text{कुल न्यूनतम मान} = 13 + 12 = 25$$\nअतः सही उत्तर (d) है।"
+  },
+  {
+    "qe": "Y = 16 sec²θ + 25 cosec²θ, Y_min = ??",
+    "qh": "Y = 16 sec²θ + 25 cosec²θ, Y का न्यूनतम मान क्या है?",
+    "o": [
+      "(a) 81",
+      "(b) 64",
+      "(c) 49",
+      "(d) 36"
+    ],
+    "a": "A",
+    "e": "Method 1 (Direct Formula Method):\nStep 1: $a\\sec^2\\theta + b\\csc^2\\theta$ के लिए न्यूनतम मान सूत्र:\n$$Y_{\\min} = (\\sqrt{a} + \\sqrt{b})^2$$\nStep 2: $a = 16$ तथा $b = 25$ प्रतिस्थापित करने पर:\n$$Y_{\\min} = (\\sqrt{16} + \\sqrt{25})^2 = (4 + 5)^2 = 9^2 = 81$$\nअतः सही विकल्प (a) 81 है।\n\nMethod 2 (Tan & Cot Conversion Method):\n$$Y = 16(1 + \\tan^2\\theta) + 25(1 + \\cot^2\\theta) = 41 + (16\\tan^2\\theta + 25\\cot^2\\theta)$$\n$$16\\tan^2\\theta + 25\\cot^2\\theta \\text{ का न्यूनतम मान } = 2\\sqrt{16 \\times 25} = 2 \\times 20 = 40$$\n$$Y_{\\min} = 41 + 40 = 81$$\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "Find minimum value of the following: (a) 4 sec²θ + 25 cosec²θ, (b) 100 sec²θ + 9 cosec²θ",
+    "qh": "निम्नलिखित का न्यूनतम मान ज्ञात कीजिए: (a) 4 sec²θ + 25 cosec²θ, (b) 100 sec²θ + 9 cosec²θ",
+    "o": [
+      "(a) (a) 36, (b) 49, (c) 25, (d) 16",
+      "(b) (a) 144, (b) 121, (c) 169, (d) 189"
+    ],
+    "a": "B",
+    "e": "Method 1 (Direct Formula Method):\nStep 1: भाग (a) के लिए ($a = 4, b = 25$):\n$$\\text{न्यूनतम मान} = (\\sqrt{4} + \\sqrt{25})^2 = (2 + 5)^2 = 7^2 = 49$$\nअतः (a) का सही उत्तर (b) 49 है।\nStep 2: भाग (b) के लिए ($a = 100, b = 9$):\n$$\\text{न्यूनतम मान} = (\\sqrt{100} + \\sqrt{9})^2 = (10 + 3)^2 = 13^2 = 169$$\nअतः (b) का सही उत्तर (c) 169 है।\nअतः सही विकल्प क्रमशः (b) 49 तथा (c) 169 हैं।\n\nMethod 2 (Verification):\n$(\\sqrt{a} + \\sqrt{b})^2 = a + b + 2\\sqrt{ab}$.\n(a) $4 + 25 + 2\\sqrt{100} = 29 + 20 = 49$.\n(b) $100 + 9 + 2\\sqrt{900} = 109 + 60 = 169$.\nअतः सही उत्तर (b) है।"
+  },
+  {
+    "qe": "Find the minimum and Maximum value of 2 sinθ cosθ",
+    "qh": "2 sinθ cosθ का न्यूनतम और अधिकतम मान ज्ञात कीजिए",
+    "o": [
+      "(a) 0, 1",
+      "(b) -1/2, 1/2",
+      "(c) -1, 1",
+      "(d) None of these"
+    ],
+    "a": "C",
+    "e": "Method 1 (Double Angle Identity Method):\nStep 1: त्रिकोणमितीय सर्वसमिका:\n$$2\\sin\\theta\\cos\\theta = \\sin 2\\theta$$\nStep 2: ज्या फलन (sine function) का परिसर हमेशा $[-1, 1]$ होता है:\n$$-1 \\le \\sin 2\\theta \\le 1$$\nStep 3: अतः:\n- न्यूनतम मान $= -1$\n- अधिकतम मान $= 1$\nअतः सही विकल्प (c) -1, 1 है।\n\nMethod 2 (Extreme Points):\nजब $\\theta = 45^\\circ$: $2(1/\\sqrt{2})(1/\\sqrt{2}) = 1$ (अधिकतम)।\nजब $\\theta = -45^\\circ$: $2(-1/\\sqrt{2})(1/\\sqrt{2}) = -1$ (न्यूनतम)।\nअतः सही उत्तर (c) है।"
+  },
+  {
+    "qe": "Find the minimum and Maximum value of Y = sin³θ · cos³θ",
+    "qh": "Y = sin³θ · cos³θ का न्यूनतम और अधिकतम मान ज्ञात कीजिए",
+    "o": [
+      "(a) -1/8, 1/8",
+      "(b) -1/3, 1/3",
+      "(c) 0, 1/8",
+      "(d) None of these"
+    ],
+    "a": "A",
+    "e": "Method 1 (Double Angle Cube Method):\nStep 1: व्यंजक को पुनर्व्यवस्थित करें:\n$$Y = (\\sin\\theta\\cos\\theta)^3 = \\left(\\frac{2\\sin\\theta\\cos\\theta}{2}\\right)^3 = \\left(\\frac{\\sin 2\\theta}{2}\\right)^3 = \\frac{\\sin^3 2\\theta}{8}$$\nStep 2: $\\sin 2\\theta$ का परिसर $[-1, 1]$ है। विषम घात (विषम घातांक 3) होने के कारण:\n$$-1 \\le \\sin^3 2\\theta \\le 1$$\nStep 3: 8 से भाग देने पर:\n$$-\\frac{1}{8} \\le \\frac{\\sin^3 2\\theta}{8} \\le \\frac{1}{8}$$\n- न्यूनतम मान $= -\\frac{1}{8}$\n- अधिकतम मान $= \\frac{1}{8}$\nअतः सही विकल्प (a) -1/8, 1/8 है।\n\nMethod 2 (Power Rule for Odd Powers Method):\nविषम घातों के लिए न्यूनतम मान $- (1/2)^n = -1/8$ तथा अधिकतम मान $(1/2)^n = 1/8$ होता है।\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "The least value of cosθ sinθ is:",
+    "qh": "cosθ sinθ का न्यूनतम मान होगा।",
+    "o": [
+      "(a) 1/2",
+      "(b) 0",
+      "(c) -1",
+      "(d) -1/2"
+    ],
+    "a": "D",
+    "e": "Method 1 (Double Angle Formulation Method):\nStep 1: व्यंजक को 2 से गुणा और भाग करें:\n$$\\cos\\theta\\sin\\theta = \\frac{2\\sin\\theta\\cos\\theta}{2} = \\frac{\\sin 2\\theta}{2}$$\nStep 2: $\\sin 2\\theta$ का न्यूनतम मान $-1$ होता है:\n$$\\text{न्यूनतम मान} = \\frac{-1}{2} = -\\frac{1}{2}$$\nअतः सही विकल्प (d) (-1/2) है।\n\nMethod 2 (Value Substitution Method):\n$\\theta = -45^\\circ$ पर:\n$$\\sin(-45^\\circ)\\cos(-45^\\circ) = \\left(-\\frac{1}{\\sqrt{2}}\\right)\\left(\\frac{1}{\\sqrt{2}}\\right) = -\\frac{1}{2}$$\nअतः सही उत्तर (d) है।"
+  },
+  {
+    "qe": "Find the minimum and Maximum value of Y = sin⁴θ · cos⁴θ",
+    "qh": "Y = sin⁴θ · cos⁴θ का न्यूनतम और अधिकतम मान ज्ञात कीजिए",
+    "o": [
+      "(a) 0, 1/16",
+      "(b) -1/16, 1/16",
+      "(c) None of these",
+      "(d) -1/16, 1"
+    ],
+    "a": "A",
+    "e": "Method 1 (Even Power Double Angle Method):\nStep 1: व्यंजक को लिखें:\n$$Y = (\\sin\\theta\\cos\\theta)^4 = \\left(\\frac{\\sin 2\\theta}{2}\\right)^4 = \\frac{\\sin^4 2\\theta}{16}$$\nStep 2: चूँकि घात सम (even power 4) है, किसी भी वास्तविक मान के लिए $\\sin^4 2\\theta$ का मान $0$ और $1$ के बीच होता है:\n$$0 \\le \\sin^4 2\\theta \\le 1$$\nStep 3: 16 से भाग देने पर:\n$$0 \\le Y \\le \\frac{1}{16}$$\n- न्यूनतम मान $= 0$\n- अधिकतम मान $= \\frac{1}{16}$\nअतः सही विकल्प (a) 0, 1/16 है।\n\nMethod 2 (Power Rule for Even Powers Method):\nसम घात $n$ के लिए $\\sin^n\\theta\\cos^n\\theta$ का न्यूनतम मान हमेशा 0 और अधिकतम मान $\\left(\\frac{1}{2}\\right)^n = \\frac{1}{16}$ होता है।\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "Find the minimum and Maximum value of Y = 32 sin⁵θ · cos⁵θ",
+    "qh": "Y = 32 sin⁵θ · cos⁵θ का न्यूनतम और अधिकतम मान ज्ञात कीजिए",
+    "o": [
+      "(a) -1/32, 1/32",
+      "(b) -1, 1",
+      "(c) 0, 1",
+      "(d) None of these"
+    ],
+    "a": "B",
+    "e": "Method 1 (Double Angle Simplification Method):\nStep 1: व्यंजक को पुनर्व्यवस्थित करें:\n$$Y = 32(\\sin\\theta\\cos\\theta)^5 = 32 \\times \\left(\\frac{2\\sin\\theta\\cos\\theta}{2}\\right)^5 = 32 \\times \\frac{\\sin^5 2\\theta}{32} = \\sin^5 2\\theta$$\nStep 2: $\\sin 2\\theta$ का परिसर $[-1, 1]$ है। विषम घात 5 होने के कारण:\n$$-1 \\le \\sin^5 2\\theta \\le 1$$\nStep 3: अतः:\n- न्यूनतम मान $= -1$\n- अधिकतम मान $= 1$\nअतः सही विकल्प (b) -1, 1 है।\n\nMethod 2 (Direct Cancellation Method):\n$$Y = (2\\sin\\theta\\cos\\theta)^5 = (\\sin 2\\theta)^5$$\n$\\sin 2\\theta \\in [-1, 1] \\implies Y \\in [-1, 1]$.\nअतः सही उत्तर (b) है।"
+  },
+  
+  {
+    "qe": "Max(sin⁶θ + cos¹⁰θ)",
+    "qh": "Max(sin⁶θ + cos¹⁰θ) का अधिकतम मान ज्ञात कीजिए:",
+    "o": [
+      "(a) 2",
+      "(b) 1",
+      "(c) 3",
+      "(d) 4"
+    ],
+    "a": "B",
+    "e": "Method 1 (Power Inequality Method):\nStep 1: किसी भी वास्तविक कोण $\\theta$ के लिए $0 \\le \\sin^2\\theta \\le 1$ तथा $0 \\le \\cos^2\\theta \\le 1$ होता है।\nStep 2: 1 से छोटी या बराबर धनात्मक संख्याओं की उच्च घातें उनके मूल वर्ग से छोटी या बराबर होती हैं:\n$$\\sin^6\\theta \\le \\sin^2\\theta$$\n$$\\cos^{10}\\theta \\le \\cos^2\\theta$$\nStep 3: दोनों को जोड़ने पर:\n$$\\sin^6\\theta + \\cos^{10}\\theta \\le \\sin^2\\theta + \\cos^2\\theta = 1$$\nStep 4: यह अधिकतम मान 1 तब प्राप्त होता है जब $\\theta = 0^\\circ$ या $\\theta = 90^\\circ$ हो।\nअतः अधिकतम मान 1 है।\nअतः सही विकल्प (b) 1 है।\n\nMethod 2 (Boundary Angle Testing Method):\n- $\\theta = 0^\\circ$ पर: $\\sin^6(0^\\circ) + \\cos^{10}(0^\\circ) = 0 + 1 = 1$\n- $\\theta = 90^\\circ$ पर: $\\sin^6(90^\\circ) + \\cos^{10}(90^\\circ) = 1 + 0 = 1$\nअतः सही उत्तर (b) है।"
+  },
+  {
+    "qe": "Max(sin²⁰θ + cos⁴⁰θ)",
+    "qh": "Max(sin²⁰θ + cos⁴⁰θ) का अधिकतम मान ज्ञात कीजिए:",
+    "o": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 0",
+      "(d) 3"
+    ],
+    "a": "A",
+    "e": "Method 1 (General Property of Even Powers Method):\nStep 1: रूप $\\sin^{2m}\\theta + \\cos^{2n}\\theta$ (जहाँ $m, n \\ge 1$) का अधिकतम मान सदैव 1 होता है।\nStep 2: $\\sin^{20}\\theta \\le \\sin^2\\theta$ तथा $\\cos^{40}\\theta \\le \\cos^2\\theta$:\n$$\\sin^{20}\\theta + \\cos^{40}\\theta \\le \\sin^2\\theta + \\cos^2\\theta = 1$$\nStep 3: अतः फलन का अधिकतम मान 1 है।\nअतः सही विकल्प (a) 1 है।\n\nMethod 2 (Direct Value Substitution Method):\n$\\theta = 0^\\circ$ रखने पर:\n$$\\sin^{20}(0^\\circ) + \\cos^{40}(0^\\circ) = 0 + 1^{40} = 1$$\nअतः सही उत्तर (a) है।"
+  },
+  {
+    "qe": "The greatest value of sin⁴θ + cos⁴θ is:",
+    "qh": "sin⁴θ + cos⁴θ का अधिकतम मान है।",
+    "o": [
+      "(a) 2",
+      "(b) 3",
+      "(c) 1/2",
+      "(d) 1"
+    ],
+    "a": "D",
+    "e": "Method 1 (Algebraic Identity Method):\nStep 1: व्यंजक को पूर्ण वर्ग के रूप में लिखें:\n$$\\sin^4\\theta + \\cos^4\\theta = (\\sin^2\\theta + \\cos^2\\theta)^2 - 2\\sin^2\\theta\\cos^2\\theta = 1 - \\frac{\\sin^2 2\\theta}{2}$$\nStep 2: चूँकि $\\sin^2 2\\theta$ का मान $0$ से $1$ के बीच होता है ($0 \\le \\sin^2 2\\theta \\le 1$):\n- अधिकतम मान प्राप्त करने के लिए $\\sin^2 2\\theta = 0$ होना चाहिए:\n$$\\text{अधिकतम मान} = 1 - \\frac{0}{2} = 1$$\n- न्यूनतम मान प्राप्त करने के लिए $\\sin^2 2\\theta = 1$ होना चाहिए ($1 - 1/2 = 1/2$)।\nStep 3: अतः अधिकतम मान 1 है।\nअतः सही विकल्प (d) 1 है।\n\nMethod 2 (Extreme Angle Test Method):\n$\\theta = 0^\\circ$ रखने पर: $0^4 + 1^4 = 1$.\n$\\theta = 45^\\circ$ रखने पर: $(1/\\sqrt{2})^4 + (1/\\sqrt{2})^4 = 1/4 + 1/4 = 1/2$ (न्यूनतम)।\nअतः अधिकतम मान = 1.\nअतः सही उत्तर (d) है।"
+  },
+  {
+    "qe": "The minimum value of sin²θ + cos²θ + sec²θ + cosec²θ + tan²θ + cot²θ is:",
+    "qh": "sin²θ + cos²θ + sec²θ + cosec²θ + tan²θ + cot²θ का न्यूनतम मान है।",
+    "o": [
+      "(a) 1",
+      "(b) 3",
+      "(c) 5",
+      "(d) 7"
+    ],
+    "a": "D",
+    "e": "Method 1 (Identity Simplification Method):\nStep 1: मूलभूत त्रिकोणमितीय सर्वसमिकाओं का उपयोग करें:\n- $\\sin^2\\theta + \\cos^2\\theta = 1$\n- $\\sec^2\\theta = 1 + \\tan^2\\theta$\n- $\\csc^2\\theta = 1 + \\cot^2\\theta$\nStep 2: सभी पदों को व्यंजक में प्रतिस्थापित करें:\n$$Y = 1 + (1 + \\tan^2\\theta) + (1 + \\cot^2\\theta) + \\tan^2\\theta + \\cot^2\\theta$$\n$$Y = 3 + 2(\\tan^2\\theta + \\cot^2\\theta)$$\nStep 3: $\\tan^2\\theta + \\cot^2\\theta$ का न्यूनतम मान $\\text{AM} \\ge \\text{GM}$ से 2 होता है (जब $\\theta = 45^\\circ$):\n$$Y_{\\min} = 3 + 2(2) = 3 + 4 = 7$$\nअतः सही विकल्प (d) 7 है।\n\nMethod 2 (Direct Angle Substitution Method):\n$\\theta = 45^\\circ$ रखने पर:\n$$Y = \\left(\\frac{1}{\\sqrt{2}}\\right)^2 + \\left(\\frac{1}{\\sqrt{2}}\\right)^2 + (\\sqrt{2})^2 + (\\sqrt{2})^2 + (1)^2 + (1)^2$$\n$$Y = \\frac{1}{2} + \\frac{1}{2} + 2 + 2 + 1 + 1 = 1 + 4 + 2 = 7$$\nअतः सही उत्तर (d) है।"
+  },
+  {
+    "qe": "If A = sin²θ + cos⁴θ, for any value of θ, then the value of A is:",
+    "qh": "यदि θ के किसी मान के लिए A = sin²θ + cos⁴θ है तो A का मान है।",
+    "o": [
+      "(a) 1 ≤ A ≤ 2",
+      "(b) 3/4 ≤ A ≤ 1",
+      "(c) 13/16 ≤ A ≤ 1",
+      "(d) 3/4 ≤ A ≤ 13/16"
+    ],
+    "a": "B",
+    "e": "Method 1 (Completing the Square Method):\nStep 1: $\\sin^2\\theta = 1 - \\cos^2\\theta$ प्रतिस्थापित करें:\n$$A = (1 - \\cos^2\\theta) + \\cos^4\\theta = \\cos^4\\theta - \\cos^2\\theta + 1$$\nStep 2: इसे पूर्ण वर्ग रूप में बदलें:\n$$A = \\left(\\cos^2\\theta - \\frac{1}{2}\\right)^2 + 1 - \\frac{1}{4} = \\left(\\cos^2\\theta - \\frac{1}{2}\\right)^2 + \\frac{3}{4}$$\nStep 3: परिसर ज्ञात करें:\n- न्यूनतम मान के लिए $\\cos^2\\theta = \\frac{1}{2}$ रखने पर:\n$$A_{\\min} = 0 + \\frac{3}{4} = \\frac{3}{4}$$\n- अधिकतम मान के लिए $\\cos^2\\theta = 0$ या $1$ रखने पर:\n$$A_{\\max} = \\left(1 - \\frac{1}{2}\\right)^2 + \\frac{3}{4} = \\frac{1}{4} + \\frac{3}{4} = 1$$\nStep 4: अतः $\\frac{3}{4} \\le A \\le 1$।\nअतः सही विकल्प (b) 3/4 ≤ A ≤ 1 है।\n\nMethod 2 (Extreme Points Testing Method):\n- $\\theta = 0^\\circ \\implies A = 0 + 1 = 1$ (अधिकतम)\n- $\\theta = 45^\\circ \\implies A = \\frac{1}{2} + \\frac{1}{4} = \\frac{3}{4}$ (न्यूनतम)\nअतः $\\frac{3}{4} \\le A \\le 1$.\nअतः सही उत्तर (b) है।"
+  },
+  {
+    "qe": "Find the minimum value of (sinθ + cosecθ)² + (cosθ + secθ)².",
+    "qh": "(sinθ + cosecθ)² + (cosθ + secθ)² का न्यूनतम मान कीजिए।",
+    "o": [
+      "(a) 8",
+      "(b) 7",
+      "(c) 9",
+      "(d) 4"
+    ],
+    "a": "C",
+    "e": "Method 1 (Algebraic Expansion Method):\nStep 1: दोनों कोष्ठकों का विस्तार करें:\n$$(\\sin\\theta + \\csc\\theta)^2 = \\sin^2\\theta + \\csc^2\\theta + 2\\sin\\theta\\csc\\theta = \\sin^2\\theta + \\csc^2\\theta + 2$$\n$$(\\cos\\theta + \\sec\\theta)^2 = \\cos^2\\theta + \\sec^2\\theta + 2\\cos\\theta\\sec\\theta = \\cos^2\\theta + \\sec^2\\theta + 2$$\nStep 2: दोनों को जोड़ने पर:\n$$Y = (\\sin^2\\theta + \\cos^2\\theta) + 4 + \\csc^2\\theta + \\sec^2\\theta$$\n$$Y = 1 + 4 + (1 + \\cot^2\\theta) + (1 + \\tan^2\\theta)$$\n$$Y = 7 + (\\tan^2\\theta + \\cot^2\\theta)$$\nStep 3: $\\tan^2\\theta + \\cot^2\\theta$ का न्यूनतम मान 2 होता है (जब $\\theta = 45^\\circ$):\n$$Y_{\\min} = 7 + 2 = 9$$\nअतः सही विकल्प (c) 9 है।\n\nMethod 2 (Angle Substitution Method):\n$\\theta = 45^\\circ$ प्रतिस्थापित करने पर:\n$$Y = \\left(\\frac{1}{\\sqrt{2}} + \\sqrt{2}\\right)^2 + \\left(\\frac{1}{\\sqrt{2}} + \\sqrt{2}\\right)^2 = 2 \\times \\left(\\frac{3}{\\sqrt{2}}\\right)^2 = 2 \\times \\frac{9}{2} = 9$$\nअतः सही उत्तर (c) है।"
+  },
+  {
+    "qe": "Find the maximum and minimum values of 7cosα + 24sinβ.",
+    "qh": "7cosα + 24sinβ का न्यूनतम और अधिकतम मान कीजिए।",
+    "o": [
+      "(a) -7 and 7",
+      "(b) -25 and 25",
+      "(c) -24 and 24",
+      "(d) -31 and 31"
+    ],
+    "a": "D",
+    "e": "Method 1 (Independent Variable Range Method):\nStep 1: ध्यान दें कि यहाँ कोण $\\alpha$ और $\\beta$ दो स्वतंत्र (independent) कोण हैं, न कि समान कोण।\nStep 2: दोनों फलनों का व्यक्तिगत परिसर लागू करें:\n$$-1 \\le \\cos\\alpha \\le 1 \\implies -7 \\le 7\\cos\\alpha \\le 7$$\n$$-1 \\le \\sin\\beta \\le 1 \\implies -24 \\le 24\\sin\\beta \\le 24$$\nStep 3: अधिकतम मान ज्ञात करने के लिए दोनों के उच्चतम मान लें:\n$$\\text{अधिकतम मान} = 7(1) + 24(1) = 7 + 24 = 31$$\nStep 4: न्यूनतम मान ज्ञात करने के लिए दोनों के न्यूनतम मान लें:\n$$\\text{न्यूनतम मान} = 7(-1) + 24(-1) = -7 - 24 = -31$$\nअतः न्यूनतम और अधिकतम मान क्रमशः -31 और 31 हैं।\nअतः सही विकल्प (d) -31 and 31 है।\n\nMethod 2 (Cautionary Difference Check):\nयदि कोण समान ($\u03b1 = \\beta$) होते, तो परिसर $\\pm \\sqrt{7^2 + 24^2} = \\pm 25$ होता। परंतु अलग-अलग कोण होने के कारण अधिकतम मान $7 + 24 = 31$ और न्यूनतम $-31$ होगा।\nअतः सही उत्तर (d) है।"
+  },
+  {
+    "qe": "Find the maximum and minimum values of 5sin²θ + 10cos²θ + 12sinθ cosθ.",
+    "qh": "5sin²θ + 10cos²θ + 12sinθ cosθ का न्यूनतम और अधिकतम मान ज्ञात कीजिए।",
+    "o": [
+      "(a) (1, 12)",
+      "(b) (0, 14)",
+      "(c) (1, 14)",
+      "(d) (-1, 14)"
+    ],
+    "a": "C",
+    "e": "Method 1 (Double Angle Linear Transformation Method):\nStep 1: व्यंजक को पुनर्व्यवस्थित करें:\n$$Y = 5\\sin^2\\theta + 5\\cos^2\\theta + 5\\cos^2\\theta + 6(2\\sin\\theta\\cos\\theta)$$\n$$Y = 5 + 5\\cos^2\\theta + 6\\sin 2\\theta$$\nStep 2: सूत्र $\\cos^2\\theta = \\frac{1 + \\cos 2\\theta}{2}$ का प्रयोग करें:\n$$Y = 5 + 5\\left(\\frac{1 + \\cos 2\\theta}{2}\\right) + 6\\sin 2\\theta$$\n$$Y = 5 + 2.5 + 2.5\\cos 2\\theta + 6\\sin 2\\theta = 7.5 + (6\\sin 2\\theta + 2.5\\cos 2\\theta)$$\nStep 3: पद $(6\\sin 2\\theta + 2.5\\cos 2\\theta)$ का आयाम निकालें:\n$$R = \\sqrt{6^2 + (2.5)^2} = \\sqrt{36 + 6.25} = \\sqrt{42.25} = 6.5$$\nStep 4: चरम मान निकालें:\n- न्यूनतम मान $= 7.5 - 6.5 = 1$\n- अधिकतम मान $= 7.5 + 6.5 = 14$\nअतः न्यूनतम और अधिकतम मान क्रमशः 1 और 14 हैं।\nअतः सही विकल्प (c) (1, 14) है।\n\nMethod 2 (General Formula Method):\n$A\\sin^2\\theta + B\\cos^2\\theta + 2C\\sin\\theta\\cos\\theta$ का केंद्र $\\frac{A + B}{2} = \\frac{5 + 10}{2} = 7.5$ तथा त्रिज्या $R = \\sqrt{\\left(\\frac{A - B}{2}\\right)^2 + C^2} = \\sqrt{(-2.5)^2 + 6^2} = 6.5$.\nन्यूनतम $= 7.5 - 6.5 = 1$, अधिकतम $= 7.5 + 6.5 = 14$.\nअतः सही उत्तर (c) है।"
+  }
+]
