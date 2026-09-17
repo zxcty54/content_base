@@ -1,0 +1,63 @@
+[
+  {
+    "qe": "If in a code language, DANCER is written as DGEPSF, then how PUBLIC will be written in the same language?",
+    "qh": "यदि किसी कूट भाषा में DANCER को DGEPSF लिखा जाता है, तो उसी कूट भाषा में PUBLIC को क्या लिखा जाएगा?",
+    "o": [
+      "(A) YSMQZJ",
+      "(B) XSMQDJ",
+      "(C) YSNQDJ",
+      "(D) XSNDDJ"
+    ],
+    "a": "D",
+    "e": "Method 1 (2-Letter Pair Cross Pattern Method):\nStep 1: 'DANCER' ko 2-2 letters ke pairs me baantein:\n- Pair 1 (D A) with +3: A(1)+3 = 4 (D), D(4)+3 = 7 (G) → 'DG'\n- Pair 2 (N C) with +2: C(3)+2 = 5 (E), N(14)+2 = 16 (P) → 'EP'\n- Pair 3 (E R) with +1: R(18)+1 = 19 (S), E(5)+1 = 6 (F) → 'SF'\nLogic: Har 2-letter pair ko cross karke kramashah +3, +2, +1 shift kiya gaya hai.\nStep 2: 'PUBLIC' par same pairs aur shift lagayein:\n- Pair 1 (P U) cross with +3:\n  $$U(21) + 3 = 24 (X), \\quad P(16) + 3 = 19 (S) \\implies \\text{'XS'}$$\n- Pair 2 (B L) cross with +2:\n  $$L(12) + 2 = 14 (N), \\quad B(2) + 2 = 4 (D) \\implies \\text{'ND'}$$\n- Pair 3 (I C) cross with +1:\n  $$C(3) + 1 = 4 (D), \\quad I(9) + 1 = 10 (J) \\implies \\text{'DJ'}$$\nCombined Code: XS + ND + DJ = XSNDDJ.\nCorrect option (D) XSNDDJ hai.\n\nMethod 2 (First Pair Cross Shortcut):\nU(21) + 3 = 24 (X), P(16) + 3 = 19 (S) → Shuruat 'XS' se hogi (Options A aur C eliminate). Middle pair L(12)+2 = 14 (N) aayega (Option B me 'M' hai, eliminate). Keval Option (D) bachta hai.\nSahi uttar (D) hai."
+  },
+  [
+  {
+    "qe": "If in a code language, VENTURE is written as CUZXQCQ, then how PAINTER will be written in the same language?",
+    "qh": "यदि किसी कूट भाषा में VENTURE को CUZXQCQ लिखा जाता है, तो उसी भाषा में PAINTER को क्या लिखा जाएगा?",
+    "o": [
+      "(A) YOYRLPD",
+      "(B) ZOYRLPD",
+      "(C) YOZRLPD",
+      "(D) ZOZRLPD"
+    ],
+    "a": "A",
+    "e": "Method 1 (Segmented Cross Pattern Shortcut):\nStep 1: 7-letter word ko (2 + 3 + 2) ke teen groups me baantein:\n- Group 1 (First 2 letters - V E): Cross shift with -2, -1:\n  $$E(5) - 2 = 3 (C), \\quad V(22) - 1 = 21 (U) \\implies \\text{'CU'}$$\n- Group 2 (Middle 3 letters - N T U): Reverse cross with +5, +4, +3:\n  $$U(21) + 5 = 26 (Z), \\quad T(20) + 4 = 24 (X), \\quad N(14) + 3 = 17 (Q) \\implies \\text{'ZXQ'}$$\n- Group 3 (Last 2 letters - R E): Cross shift with -2, -1:\n  $$E(5) - 2 = 3 (C), \\quad R(18) - 1 = 17 (Q) \\implies \\text{'CQ'}$$\nCombined Code: CUZXQCQ.\nStep 2: 'PAINTER' par same pattern lagayein:\n- Pehle 2 (P A): $A(27) - 2 = 25 (Y), \\; P(16) - 1 = 15 (O) \\implies \\text{'YO'}$\n- Middle 3 (I N T): $T(20) + 5 = 25 (Y), \\; N(14) + 4 = 18 (R), \\; I(9) + 3 = 12 (L) \\implies \\text{'YRL'}$\n- Aakhiri 2 (E R): $R(18) - 2 = 16 (P), \\; E(5) - 1 = 4 (D) \\implies \\text{'PD'}$\nFinal Code: YOYRLPD.\nCorrect option (A) YOYRLPD hai.\n\nMethod 2 (Option Elimination by First & 3rd Letter):\n- Pehla letter $A(27) - 2 = 25 (Y)$ aayega, isliye 'Z' se shuru hone wale Options (B) aur (D) eliminate ho gaye.\n- Teesra letter $T(20) + 5 = 25 (Y)$ hoga, Option (C) me teesra letter 'Z' diya hai. Keval Option (A) bachta hai.\nSahi uttar (A) hai."
+  },
+  {
+    "qe": "If in a code language, RAIL is written as KCTN, then how READ will be written in the same language?",
+    "qh": "यदि किसी कूट भाषा में RAIL को KCTN लिखा जाता है, तो उसी कूट भाषा में READ को क्या लिखा जाएगा?",
+    "o": [
+      "(A) BGTF",
+      "(B) CGTF",
+      "(C) BGTE",
+      "(D) CGTE"
+    ],
+    "a": "B",
+    "e": "Method 1 (3-Letter Cross + Direct Last Letter Method):\nStep 1: 'RAIL' ka cross structure dekhein:\n- Pehle 3 letters (R A I) ko reverse cross karke sabhi me +2 kiya gaya hai:\n  $$I(9) + 2 = 11 (K)$$\n  $$A(1) + 2 = 3 (C)$$\n  $$R(18) + 2 = 20 (T)$$\n- Chautha letter 'L' seedha +2 shift hota hai:\n  $$L(12) + 2 = 14 (N)$$\nCode ban gaya: K C T N.\nStep 2: 'READ' par same logic apply karein:\n- Pehle 3 letters (R E A) reverse cross with +2:\n  $$A(1) + 2 = 3 (C)$$\n  $$E(5) + 2 = 7 (G)$$\n  $$R(18) + 2 = 20 (T)$$\n- Aakhiri letter 'D' direct +2:\n  $$D(4) + 2 = 6 (F)$$\nCode: CGTF.\nCorrect option (B) CGTF hai.\n\nMethod 2 (First Letter Elimination Trick):\nPehla letter word ke 3rd letter se banega: $A(1) + 2 = 3 (C)$. Options (A) aur (C) 'B' se shuru ho rahe hain, isliye eliminate ho gaye. Last letter $D(4) + 2 = 6 (F)$ aayega, jisse Option (D) eliminate ho gaya.\nSahi uttar (B) hai."
+  },
+  {
+    "qe": "If in a code language, UPDATE is written as FRWCRY, then how BLENDY will be written in the same language?",
+    "qh": "यदि किसी कूट भाषा में UPDATE को FRWCRY लिखा जाता है, तो उसी भाषा में BLENDY को कैसे लिखा जाएगा?",
+    "o": [
+      "(A) GNDWCL",
+      "(B) HNDWCL",
+      "(C) GNDWBL",
+      "(D) HNDWBL"
+    ],
+    "a": "C",
+    "e": "Method 1 (Two Halves Reverse Cross (+2 / -2) Method):\nStep 1: 6-letter word ko do barabar hisson (3-3 letters) me baantein:\n- Pehla half (U P D) reverse cross with +2:\n  $$D(4) + 2 = 6 (F)$$\n  $$P(16) + 2 = 18 (R)$$\n  $$U(21) + 2 = 23 (W) \\implies \\text{'FRW'}$$\n- Doosra half (A T E) reverse cross with -2:\n  $$E(5) - 2 = 3 (C)$$\n  $$T(20) - 2 = 18 (R)$$\n  $$A(27) - 2 = 25 (Y) \\implies \\text{'CRY'}$$\nCombined: FRWCRY.\nStep 2: 'BLENDY' par apply karein:\n- First half (B L E) cross with +2:\n  $$E(5) + 2 = 7 (G)$$\n  $$L(12) + 2 = 14 (N)$$\n  $$B(2) + 2 = 4 (D) \\implies \\text{'GND'}$$\n- Second half (N D Y) cross with -2:\n  $$Y(25) - 2 = 23 (W)$$\n  $$D(4) - 2 = 2 (B)$$\n  $$N(14) - 2 = 12 (L) \\implies \\text{'WBL'}$$\nCode: GNDWBL.\nCorrect option (C) GNDWBL hai.\n\nMethod 2 (Fast Option Elimination):\n- Pehla letter: $E(5) + 2 = 7 (G)$, isliye Options (B) aur (D) seedhe eliminate ho gaye.\n- 5th letter: $D(4) - 2 = 2 (B)$ hona chahiye, Option (A) me 'C' diya hai, isliye (A) eliminate ho gaya.\nSahi uttar (C) hai."
+  },
+  {
+    "qe": "In a certain code language, EMPTY is written as NFOZU, then how KITES will be written in the same language?",
+    "qh": "एक निश्चित कूट भाषा में EMPTY को NFOZU लिखा जाता है, तो उसी कूट भाषा में KITES को कैसे लिखा जाएगा?",
+    "o": [
+      "(A) JLSTF",
+      "(B) JLUTF",
+      "(C) FTSLJ",
+      "(D) HJURD"
+    ],
+    "a": "A",
+    "e": "Method 1 (2-Letter Pair Cross & Center Shift Method):\nStep 1: 'EMPTY' ka structure analyze karein:\n- Pehle do letters (E M) cross with +1: $M(13)+1 = 14 (N), \\; E(5)+1 = 6 (F) \\implies \\text{'NF'}$\n- Middle letter P: $P(16) - 1 = 15 (O)$\n- Aakhiri do letters (T Y) cross with +1: $Y(25)+1 = 26 (Z), \\; T(20)+1 = 21 (U) \\implies \\text{'ZU'}$\nCombined Code: NFOZU.\nStep 2: 'KITES' par same logic lagayein:\n- Pehle do letters (K I) cross with +1:\n  $$I(9) + 1 = 10 (J), \\quad K(11) + 1 = 12 (L) \\implies \\text{'JL'}$$\n- Middle letter T: $T(20) - 1 = 19 (S)$\n- Aakhiri do letters (E S) cross with +1:\n  $$S(19) + 1 = 20 (T), \\quad E(5) + 1 = 6 (F) \\implies \\text{'TF'}$$\nCode: JLSTF.\nCorrect option (A) JLSTF hai.\n\nMethod 2 (Direct Inspection Shortcut):\n- Middle letter hamesha -1 ho raha hai: $T(20) - 1 = 19 (S)$.\n- Options (B), (C), (D) me middle letter 'S' nahi hai, keval Option (A) me middle letter 'S' hai.\nSahi uttar (A) hai."
+  }
+]
