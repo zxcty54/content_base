@@ -10,7 +10,7 @@
       "SSC CGL",
       "UPSC Prelims"
     ],
-    "total_cards": 69,
+    "total_cards": 72,
     "characters": {
       "aman": {
         "name": "Aman Sir",
@@ -32,7 +32,7 @@
         "level": 1,
         "progress": {
           "current": 1,
-          "total": 69
+          "total": 72
         },
         "intro_payload": {
           "title": "🏦 Banking and RBI Policies",
@@ -70,7 +70,7 @@
         "level": 1,
         "progress": {
           "current": 2,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -103,7 +103,7 @@
         "level": 1,
         "progress": {
           "current": 3,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -136,7 +136,7 @@
         "level": 1,
         "progress": {
           "current": 4,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -169,7 +169,7 @@
         "level": 1,
         "progress": {
           "current": 5,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Reserve Bank of India (RBI) ki establishment kab hui thi?",
@@ -207,7 +207,7 @@
         "level": 1,
         "progress": {
           "current": 6,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Kaun sa note RBI issue NAHI karta?",
@@ -245,7 +245,7 @@
         "level": 1,
         "progress": {
           "current": 7,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Bank ka primary function kya hai?",
@@ -283,7 +283,7 @@
         "level": 1,
         "progress": {
           "current": 8,
-          "total": 69
+          "total": 72
         },
         "milestone_payload": {
           "title": "🎯 Banking Basics Cleared!",
@@ -306,7 +306,7 @@
         "level": 2,
         "progress": {
           "current": 9,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -339,7 +339,7 @@
         "level": 2,
         "progress": {
           "current": 10,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -372,7 +372,7 @@
         "level": 2,
         "progress": {
           "current": 11,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -405,7 +405,7 @@
         "level": 2,
         "progress": {
           "current": 12,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -438,7 +438,7 @@
         "level": 2,
         "progress": {
           "current": 13,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -471,7 +471,7 @@
         "level": 2,
         "progress": {
           "current": 14,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "India mein major bank nationalization kab hua tha?",
@@ -509,7 +509,7 @@
         "level": 2,
         "progress": {
           "current": 15,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Regional Rural Banks (RRBs) kab establish hue the?",
@@ -547,7 +547,7 @@
         "level": 2,
         "progress": {
           "current": 16,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "RRBs mein Central Government ka ownership kitna hota hai?",
@@ -585,7 +585,7 @@
         "level": 2,
         "progress": {
           "current": 17,
-          "total": 69
+          "total": 72
         },
         "milestone_payload": {
           "title": "🏆 Banking Structure Mastered!",
@@ -608,7 +608,7 @@
         "level": 3,
         "progress": {
           "current": 18,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -634,6 +634,36 @@
         }
       },
       {
+      "card_id": "card_18b_mpc_inflation_targeting",
+      "card_slug": "card_18b_mpc_inflation_targeting",
+      "type": "chat",
+      "concept_id": "monetary_policy_committee_mpc",
+      "level": 3,
+      "progress": { "current": 19, "total": 72 },
+      "messages": [
+        {
+          "speaker": "raju",
+          "text": "Sir, kya Repo Rate ka faisla akele RBI Governor apne man se lete hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Pehle aisa hota tha, par 2016 ke baad nahi! Ab yeh faisla [[Monetary Policy Committee (MPC) | 6 sadasyon wali committee jo desh ke policy interest rates decide karti hai]] karti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Is committee mein kaun-kaun log hote hain Sir?"
+        },
+        {
+          "speaker": "aman",
+          "text": "⭐ UPSC aur BPSC ka favorite question: MPC mein total **6 members** hote hain—3 RBI se (Governor, Deputy Governor, aur 1 officer) aur 3 Central Government appoint karti hai. Governor ke paas barabari hone par 'Casting Vote' hota hai. Aur inka ek matra target hota hai: **Inflation ko 4% par rakhna ($\pm$ 2% tolerance band, yaani 2% se 6% ke beech)**!"
+        }
+      ],
+      "navigation": {
+        "next": "card_19_monetary_policy_tools",
+        "button_text": "Policy Tools Samjho ➔"
+      }
+    },
+      {
         "card_id": "card_19_monetary_policy_tools",
         "card_slug": "card_19_monetary_policy_tools",
         "type": "chat",
@@ -641,7 +671,7 @@
         "level": 3,
         "progress": {
           "current": 19,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -674,7 +704,7 @@
         "level": 3,
         "progress": {
           "current": 20,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -699,6 +729,36 @@
           "button_text": "CRR & SLR Detail ➔"
         }
       },
+     {
+      "card_id": "card_20b_sdf_standing_deposit_facility",
+      "card_slug": "card_20b_sdf_standing_deposit_facility",
+      "type": "chat",
+      "concept_id": "standing_deposit_facility_sdf",
+      "level": 3,
+      "progress": { "current": 22, "total": 72 },
+      "messages": [
+        {
+          "speaker": "raju",
+          "text": "Sir, Reverse Repo mein jab bank RBI ke paas paisa jama karte hain, toh kya RBI unhe koi security girvi deta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul sahi pakde! Reverse repo mein RBI ko government securities girvi rakhni padti thi. Par 2022 mein RBI ek naya tool laya: [[SDF (Standing Deposit Facility) | Aisa tool jisme RBI commercial banks se bina koi security girvi rakhe extra cash absorb kar leta hai]]."
+        },
+        {
+          "speaker": "raju",
+          "text": "Matlab bina security ke paisa jama? Phir Reverse Repo ka kya hua?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Ab market se extra paisa nikalne ke liye RBI Reverse Repo ki jagah **SDF** ka use karta hai! SDF ka rate hamesha Repo rate se 0.25% kam hota hai, jabki MSF (Marginal Standing Facility) 0.25% zyada hota hai. Yeh modern banking policy ka sabse latest trap hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_21_crr_slr",
+        "button_text": "CRR & SLR Detail ➔"
+      }
+    },
       {
         "card_id": "card_21_crr_slr",
         "card_slug": "card_21_crr_slr",
@@ -707,7 +767,7 @@
         "level": 3,
         "progress": {
           "current": 21,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -740,7 +800,7 @@
         "level": 3,
         "progress": {
           "current": 22,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Repo Rate kya hai?",
@@ -778,7 +838,7 @@
         "level": 3,
         "progress": {
           "current": 23,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "CRR (Cash Reserve Ratio) ke under banks ko RBI ke paas rakhe paisy par kya milta hai?",
@@ -816,7 +876,7 @@
         "level": 3,
         "progress": {
           "current": 24,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "SLR (Statutory Liquidity Ratio) ke under banks ko invest karna hota hai:",
@@ -854,7 +914,7 @@
         "level": 3,
         "progress": {
           "current": 25,
-          "total": 69
+          "total": 72
         },
         "milestone_payload": {
           "title": "💪 RBI Functions Conquered!",
@@ -877,7 +937,7 @@
         "level": 4,
         "progress": {
           "current": 26,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -910,7 +970,7 @@
         "level": 4,
         "progress": {
           "current": 27,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -943,7 +1003,7 @@
         "level": 4,
         "progress": {
           "current": 28,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -976,7 +1036,7 @@
         "level": 4,
         "progress": {
           "current": 29,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1009,7 +1069,7 @@
         "level": 4,
         "progress": {
           "current": 30,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Koi loan technically NPA kab declare hota hai?",
@@ -1047,7 +1107,7 @@
         "level": 4,
         "progress": {
           "current": 31,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Insolvency and Bankruptcy Code (IBC) kab pass hua tha?",
@@ -1085,7 +1145,7 @@
         "level": 4,
         "progress": {
           "current": 32,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Recent mergers ke baad India mein kitne Public Sector Banks hain (2023 tak)?",
@@ -1123,7 +1183,7 @@
         "level": 4,
         "progress": {
           "current": 33,
-          "total": 69
+          "total": 72
         },
         "milestone_payload": {
           "title": "🚀 Banking Reforms Mastered!",
@@ -1146,7 +1206,7 @@
         "level": 5,
         "progress": {
           "current": 34,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1179,7 +1239,7 @@
         "level": 5,
         "progress": {
           "current": 35,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1212,7 +1272,7 @@
         "level": 5,
         "progress": {
           "current": 36,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1245,7 +1305,7 @@
         "level": 5,
         "progress": {
           "current": 37,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1278,7 +1338,7 @@
         "level": 5,
         "progress": {
           "current": 38,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Pradhan Mantri Jan Dhan Yojana (PMJDY) kab launch hui thi?",
@@ -1316,7 +1376,7 @@
         "level": 5,
         "progress": {
           "current": 39,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Payment Banks mein per customer maximum kitni deposit limit hai?",
@@ -1354,7 +1414,7 @@
         "level": 5,
         "progress": {
           "current": 40,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "UPI ka full form kya hai?",
@@ -1392,7 +1452,7 @@
         "level": 5,
         "progress": {
           "current": 41,
-          "total": 69
+          "total": 72
         },
         "milestone_payload": {
           "title": "🌟 Financial Inclusion Pro!",
@@ -1415,7 +1475,7 @@
         "level": 6,
         "progress": {
           "current": 42,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1448,7 +1508,7 @@
         "level": 6,
         "progress": {
           "current": 43,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1481,7 +1541,7 @@
         "level": 6,
         "progress": {
           "current": 44,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1514,7 +1574,7 @@
         "level": 6,
         "progress": {
           "current": 45,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Pradhan Mantri Mudra Yojana mein 'Kishore' category ki loan limit kya hai?",
@@ -1552,7 +1612,7 @@
         "level": 6,
         "progress": {
           "current": 46,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "RBI Governor ka tenure kitna hota hai?",
@@ -1590,7 +1650,7 @@
         "level": 6,
         "progress": {
           "current": 47,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "RBI ke pehle Indian Governor kaun the?",
@@ -1628,7 +1688,7 @@
         "level": 6,
         "progress": {
           "current": 48,
-          "total": 69
+          "total": 72
         },
         "milestone_payload": {
           "title": "🔥 Current Affairs Champion!",
@@ -1651,7 +1711,7 @@
         "level": 7,
         "progress": {
           "current": 49,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1676,6 +1736,36 @@
           "button_text": "SHG Model ➔"
         }
       },
+    {
+      "card_id": "card_49b_bihar_two_rrbs",
+      "card_slug": "card_49b_bihar_two_rrbs",
+      "type": "chat",
+      "concept_id": "bihar_rrb_structure_dbgb_ubgb",
+      "level": 7,
+      "progress": { "current": 52, "total": 72 },
+      "messages": [
+        {
+          "speaker": "raju",
+          "text": "Sir, Bihar ke gaon mein jo Gramin Bank hote hain, kya poore Bihar mein ek hi Gramin Bank chalta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi Raju! Yahan sabse bada factual trap hai jahan 90% students galti karte hain. 2019 ke amalgamation ke baad Bihar mein **DO bade RRBs** hain:\n\n1️⃣ **Dakshin Bihar Gramin Bank (DBGB):** Iska headquarter **Patna** mein hai aur iska sponsor bank **PNB (Punjab National Bank)** hai.\n2️⃣ **Uttar Bihar Gramin Bank (UBGB):** Iska headquarter **Muzaffarpur** mein hai aur iska sponsor bank **Central Bank of India** hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Acha! Ganga ke dakshin mein alag bank aur uttar mein alag? Aur dono ke sponsor banks bhi alag hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Ekdum sahi! Purana 'Bihar Gramin Bank' ab exist nahi karta, wo Dakshin Bihar Gramin Bank mein merge ho chuka hai. ⭐ BPSC TRE aur BPSC CCE ka yeh pet question hai ki DBGB ka sponsor bank kaun hai—answer hai **PNB**, na ki SBI!"
+        }
+      ],
+      "navigation": {
+        "next": "card_50_bihar_shg_model",
+        "button_text": "JEEViKA Model Dekho ➔"
+      }
+    },
       {
         "card_id": "card_50_bihar_shg_model",
         "card_slug": "card_50_bihar_shg_model",
@@ -1684,7 +1774,7 @@
         "level": 7,
         "progress": {
           "current": 50,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1717,7 +1807,7 @@
         "level": 7,
         "progress": {
           "current": 51,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1750,7 +1840,7 @@
         "level": 7,
         "progress": {
           "current": 52,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "⭐ Bihar ka Regional Rural Bank (RRB) kaunsa hai?",
@@ -1788,7 +1878,7 @@
         "level": 7,
         "progress": {
           "current": 53,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "⭐ Bihar ka JEEViKA program kis international organization se supported hai?",
@@ -1826,7 +1916,7 @@
         "level": 7,
         "progress": {
           "current": 54,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "⭐ Bihar ka Credit-Deposit Ratio (CDR) national average se kya hai?",
@@ -1864,7 +1954,7 @@
         "level": 7,
         "progress": {
           "current": 55,
-          "total": 69
+          "total": 72
         },
         "milestone_payload": {
           "title": "⭐ Bihar Banking Expert!",
@@ -1887,7 +1977,7 @@
         "level": 7,
         "progress": {
           "current": 56,
-          "total": 69
+          "total": 72
         },
         "summary_payload": {
           "title": "⚡ Officer-Level Quick Revision",
@@ -1931,7 +2021,7 @@
         "level": 7,
         "progress": {
           "current": 57,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -1964,7 +2054,7 @@
         "level": 7,
         "progress": {
           "current": 58,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Consider the following statements about RBI:\n\n1. RBI was established in 1935 and nationalized in 1949.\n2. RBI issues all currency notes including ₹1 note.\n3. The tenure of RBI Governor is 3 years.\n4. C.D. Deshmukh was the first Governor of RBI.\n\nWhich of the above statements are correct?",
@@ -2002,7 +2092,7 @@
         "level": 7,
         "progress": {
           "current": 59,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Consider the following statements about Regional Rural Banks (RRBs):\n\n1. RRBs were established in 1975.\n2. Central Government holds 50% ownership in RRBs.\n3. RRBs can operate only in rural areas.\n4. The first RRB was Prathama Bank in Bihar.\n\nWhich statements are correct?",
@@ -2040,7 +2130,7 @@
         "level": 7,
         "progress": {
           "current": 60,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Assertion (A): Banks are required to maintain CRR with RBI.\n\nReason (R): CRR helps RBI control money supply in the economy.\n\nChoose the correct option:",
@@ -2078,7 +2168,7 @@
         "level": 7,
         "progress": {
           "current": 61,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "⭐ Consider the following about Bihar's banking:\n\n1. Bihar Gramin Bank is the RRB of Bihar.\n2. JEEViKA is supported by World Bank.\n3. Bihar's Credit-Deposit Ratio is higher than national average.\n4. Bihar has no Public Sector Banks.\n\nWhich are correct?",
@@ -2116,7 +2206,7 @@
         "level": 7,
         "progress": {
           "current": 62,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Consider the following about NPAs and Banking Reforms:\n\n1. A loan becomes NPA after 90 days of default.\n2. IBC (Insolvency and Bankruptcy Code) was enacted in 2016.\n3. NARCL is India's Bad Bank for NPA resolution.\n4. SARFAESI Act allows banks to auction property without court.\n\nHow many statements are correct?",
@@ -2154,7 +2244,7 @@
         "level": 7,
         "progress": {
           "current": 63,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Payment Banks ki kaunsi characteristic GALAT hai?",
@@ -2192,7 +2282,7 @@
         "level": 7,
         "progress": {
           "current": 64,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "Agar Repo Rate 6% hai aur Reverse Repo Rate 5.5% hai, to Repo Spread kya hai?",
@@ -2230,7 +2320,7 @@
         "level": 7,
         "progress": {
           "current": 65,
-          "total": 69
+          "total": 72
         },
         "quiz_payload": {
           "question": "CRR aur SLR mein kya fundamental difference hai?",
@@ -2268,7 +2358,7 @@
         "level": 7,
         "progress": {
           "current": 66,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -2301,7 +2391,7 @@
         "level": 7,
         "progress": {
           "current": 67,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -2334,7 +2424,7 @@
         "level": 7,
         "progress": {
           "current": 68,
-          "total": 69
+          "total": 72
         },
         "messages": [
           {
@@ -2371,7 +2461,7 @@
     "level": 7,
     "progress": {
       "current": 69,
-      "total": 69
+      "total": 72
     },
     "milestone_payload": {
       "title": "🏆 BANKING CHAMPION! 🏆",
