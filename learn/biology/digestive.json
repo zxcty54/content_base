@@ -132,6 +132,39 @@
       }
     },
     {
+      "card_id": "card_03b_gut_wall_layers",
+      "card_slug": "card_03b_gut_wall_layers",
+      "type": "chat",
+      "concept_id": "alimentary_canal_histology_layers",
+      "level": 1,
+      "progress": {
+        "current": 4,
+        "total": 63
+      },
+      "messages": [
+        {
+          "speaker": "raju",
+          "text": "Sir, yeh 9 metre lambi tube andar se kaise bani hoti hai? Kya iski deewar ek hi layer ki hoti hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi Raju! Oesophagus se lekar rectum tak poori tube ki deewar mein 4 basic layers hoti hain. Bahar se andar ka kram (Outer to Inner) exam mein pucha jaata hai:\n\n1️⃣ [[Serosa | Sabse bahari patli layer jo mesothelium se banti hai]]\n2️⃣ [[Muscularis | Smooth muscles ki layer - outer longitudinal aur inner circular]]\n3️⃣ [[Submucosa | Loose connective tissue jisme nerves, blood aur lymph vessels hote hain]]\n4️⃣ [[Mucosa | Sabse androni layer jo lumen ko line karti hai]]"
+        },
+        {
+          "speaker": "raju",
+          "text": "Outer to inner: Serosa → Muscularis → Submucosa → Mucosa! Isme koi exception ya special feature bhi hai sir?"
+        },
+        {
+          "speaker": "aman",
+          "text": "⭐ NEET aur BPSC ka favorite trap: Stomach ki muscularis mein ek extra oblique muscle layer hoti hai churn karne ke liye. Aur duodenum ke [[Brunner's Glands | Duodenum ki submucosa mein payi jaane wali glands jo alkaline mucus banati hain]] submucosa layer mein hoti hain, jabki baaki glands mucosa mein hoti hain!"
+        }
+      ],
+      "navigation": {
+        "next": "card_04_mouth_salivary",
+        "button_text": "Mouth aur Saliva dekho ➔"
+      }
+    },
+    {
       "card_id": "card_04_mouth_salivary",
       "card_slug": "card_04_mouth_salivary",
       "type": "chat",
@@ -648,6 +681,39 @@
       "navigation": {
         "next": "card_19_intestinal_enzymes",
         "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_18b_duct_system_sphincter_oddi",
+      "card_slug": "card_18b_duct_system_sphincter_oddi",
+      "type": "chat",
+      "concept_id": "biliary_duct_system_sphincter_oddi",
+      "level": 3,
+      "progress": {
+        "current": 20,
+        "total": 63
+      },
+      "messages": [
+        {
+          "speaker": "raju",
+          "text": "Sir, liver se bile aur pancreas se pancreatic juice duodenum mein alag-alag aate hain ya ek hi pipe se?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Yeh bohot technical aur high-yield point hai! Liver se aati hai Hepatic duct, aur Gallbladder se aati hai [[Cystic Duct | Gallbladder ki nali jo bile carry karti hai]]. Dono milkar banati hain Common Bile Duct."
+        },
+        {
+          "speaker": "raju",
+          "text": "Phir yeh Common Bile Duct seedhe duodenum mein khulti hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi! Common Bile Duct aage chalkar Pancreatic Duct ke saath judti hai aur banti hai [[Hepato-pancreatic Duct | Liver aur Pancreas ki combined nali jo duodenum mein khulti hai]]. Aur is nali ke darwaze par ek muscular valve hota hai jise [[Sphincter of Oddi | Hepato-pancreatic duct ki opening ko guard karne wala sphincter]] kehte hain. ⭐ NEET aur State PSC mein 'Sphincter of Oddi kahan hota hai' direct pucha gaya hai!"
+        }
+      ],
+      "navigation": {
+        "next": "card_19_intestinal_enzymes",
+        "button_text": "Intestinal Enzymes samjho ➔"
       }
     },
     {
@@ -1409,6 +1475,39 @@
       "navigation": {
         "next": "card_41_quiz16",
         "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_40b_pem_kwashiorkor_marasmus",
+      "card_slug": "card_40b_pem_kwashiorkor_marasmus",
+      "type": "chat",
+      "concept_id": "protein_energy_malnutrition_pem",
+      "level": 4,
+      "progress": {
+        "current": 43,
+        "total": 63
+      },
+      "messages": [
+        {
+          "speaker": "raju",
+          "text": "Sir, garib bacchon mein kuposhan (malnutrition) se pet phool jata hai aur hath-paon patle ho jaate hain. Yeh kis cheez ki kami se hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Ise medical term mein [[PEM (Protein Energy Malnutrition) | Khane mein protein aur calorie ki kami se hone wali bimari]] kehte hain. Iske do roop hote hain jisme examiner sabko confuse karta hai:\n\n1️⃣ **Kwashiorkor:** Yeh SIRF protein ki kami se hota hai (calorie milti rehti hai). Isme bache ke sharir mein soojan (edema) hoti hai aur pet bahar nikal aata hai (pot belly). Yeh aamtaur par 1 saal se bade bacchon mein hota hai.\n2️⃣ **Marasmus:** Yeh Protein AUR Calorie (energy) DONO ki kami se hota hai. Isme sharir sookh kar kanta ho jata hai, skin loose aur wrinkled ho jaati hai, par **edema (soojan) bilkul nahi hoti**! Yeh 1 saal se chhote shishuon mein hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Samajh gaya! Kwashiorkor = sirf protein ki kami + pet phoola (edema). Marasmus = protein aur calorie dono ki kami + no edema!"
+        },
+        {
+          "speaker": "aman",
+          "text": "Shabash! BSSC aur BPSC dono ka classic trap yehi hai ki wo 'edema' aur 'age limit' ko ulta-pulta karke statement de dete hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_41_quiz16",
+        "button_text": "Hormone aur Disorder Quiz ➔"
       }
     },
     {
