@@ -1,19 +1,19 @@
 {
   "month": "Oct 2026",
-  "generated_at": "2026-10-05 02:58:53",
-  "total_questions": 13,
-  "national_total": 12,
-  "bihar_total": 1,
+  "generated_at": "2026-10-06 05:35:52",
+  "total_questions": 21,
+  "national_total": 19,
+  "bihar_total": 2,
   "source_breakdown": {
     "all_current_affairs": {
-      "total_scanned": 10,
-      "mcqs_created": 6,
-      "total_dropped": 4
+      "total_scanned": 15,
+      "mcqs_created": 8,
+      "total_dropped": 7
     },
     "final_alerts_news": {
-      "total_scanned": 9,
-      "mcqs_created": 7,
-      "total_dropped": 2
+      "total_scanned": 20,
+      "mcqs_created": 13,
+      "total_dropped": 7
     }
   },
   "national_questions": [
@@ -304,6 +304,174 @@
       "exam_tag": "State PCS",
       "domain": "National",
       "id": "nat_q_012"
+    },
+    {
+      "source_hash": "9dc74d09",
+      "source_file": "all_current_affairs",
+      "qe": "Which Indian waterway was revived as an international cargo route linking Dibrugarh in Assam to Pangaon Port in Bangladesh?",
+      "qh": "कौन सा भारतीय जलमार्ग असम के दिब्रुगढ़ को बांग्लादेश के पंगाओन पोर्ट से जोड़ते हुए अंतरराष्ट्रीय माल मार्ग के रूप में पुनर्जीवित किया गया?",
+      "oe": [
+        "National Waterway‑2 (Brahmaputra)",
+        "National Waterway‑1 (Ganga)",
+        "National Waterway‑3 (West Coast)",
+        "National Waterway‑4 (East Coast)"
+      ],
+      "oh": [
+        "राष्ट्रीय जलमार्ग‑2 (ब्रह्मपुत्र)",
+        "राष्ट्रीय जलमार्ग‑1 (गंगा)",
+        "राष्ट्रीय जलमार्ग‑3 (पश्चिम तट)",
+        "राष्ट्रीय जलमार्ग‑4 (पूर्व तट)"
+      ],
+      "a": 0,
+      "e": "• Option A is Correct because the cargo vessel used the Brahmaputra (National Waterway‑2) to sail from Dibrugarh to Pangaon.\n• Option B is Incorrect; National Waterway‑1 runs along the Ganga, not the Brahmaputra.\n• Option C is Incorrect; National Waterway‑3 lies on the west‑coast of India.\n• Option D is Incorrect; National Waterway‑4 is on the east‑coast, unrelated to the Assam‑Bangladesh route.",
+      "category": "Infrastructure, Energy & Digital Projects",
+      "exam_tag": "BPSC / SSC CGL / State PCS",
+      "domain": "National",
+      "id": "nat_q_013"
+    },
+    {
+      "source_hash": "2efc13af",
+      "source_file": "final_alerts_news",
+      "qe": "What is the length of India's first free‑space quantum key distribution (QKD) link established between BISAG‑N and IIT Gandhinagar?",
+      "qh": "बीआईएसएजी‑एन और आईआईटी गांधीनगर के बीच स्थापित भारत का पहला फ्री‑स्पेस क्वांटम की वितरण (QKD) लिंक कितनी लंबाई का है?",
+      "oe": [
+        "3.2 km",
+        "4.5 km",
+        "5.56 km",
+        "7.0 km"
+      ],
+      "oh": [
+        "3.2 किमी",
+        "4.5 किमी",
+        "5.56 किमी",
+        "7.0 किमी"
+      ],
+      "a": 2,
+      "e": "• Option C is Correct because the link spans 5.56 km as reported.\n• Option A is Incorrect; 3.2 km is shorter than the actual length.\n• Option B is Incorrect; 4.5 km does not match the stated distance.\n• Option D is Incorrect; 7.0 km exceeds the reported length.",
+      "category": "Space, Science & Technology",
+      "exam_tag": "BPSC / SSC CGL / State PCS",
+      "domain": "National",
+      "id": "nat_q_014"
+    },
+    {
+      "source_hash": "71e2ec74",
+      "source_file": "final_alerts_news",
+      "qe": "Which Indian state is hosting the country's first AI Data Centre Park with a planned 100‑MW AI‑ready campus?",
+      "qh": "कौन सा भारतीय राज्य 100 मेगावॉट AI‑रेडी कैंपस के साथ देश का पहला AI डेटा सेंटर पार्क स्थापित कर रहा है?",
+      "oe": [
+        "Karnataka",
+        "Maharashtra",
+        "Gujarat",
+        "Chhattisgarh"
+      ],
+      "oh": [
+        "कर्नाटक",
+        "महाराष्ट्र",
+        "गुजरात",
+        "छत्तीसगढ़"
+      ],
+      "a": 3,
+      "e": "• Option D is Correct because the AI Data Centre Park is being set up in Chhattisgarh with a 100‑MW campus.\n• Option A is Incorrect; Karnataka has no mention of this specific AI park.\n• Option B is Incorrect; Maharashtra is not the announced location.\n• Option C is Incorrect; Gujarat is not cited for this project.",
+      "category": "Space, Science & Technology",
+      "exam_tag": "BPSC / SSC CGL / State PCS",
+      "domain": "National",
+      "id": "nat_q_015"
+    },
+    {
+      "source_hash": "a455fe92",
+      "source_file": "final_alerts_news",
+      "qe": "Under which ministry is the Pradhan Mantri Awas Yojana‑Gramin (PMAY‑G) scheme administered, under which Andhra Pradesh is piloting 3D‑printed rural houses?",
+      "qh": "अंडर किस मंत्रालय के तहत प्रधानमंत्री आवास योजना‑ग्रामीण (PMAY‑G) कार्यान्वित है, जिसके अंतर्गत आंध्र प्रदेश 3डी‑प्रिंटेड ग्रामीण घरों का पायलट चला रहा है?",
+      "oe": [
+        "Ministry of Rural Development",
+        "Ministry of Housing and Urban Affairs",
+        "Ministry of New and Renewable Energy",
+        "Ministry of Commerce"
+      ],
+      "oh": [
+        "ग्रामीन विकास मंत्रालय",
+        "शहरी मामलों एवं आवास मंत्रालय",
+        "नवीकरणीय ऊर्जा मंत्रालय",
+        "वाणिज्य मंत्रालय"
+      ],
+      "a": 0,
+      "e": "• Option A is Correct because PMAY‑G is a flagship rural housing scheme administered by the Ministry of Rural Development.\n• Option B is Incorrect because the Ministry of Housing and Urban Affairs handles the urban component (PMAY‑U).\n• Option C is Incorrect because the Ministry of New and Renewable Energy deals with renewable energy projects, not housing.\n• Option D is Incorrect because the Ministry of Commerce is unrelated to housing schemes.",
+      "category": "Space, Science & Technology",
+      "exam_tag": "BPSC",
+      "domain": "National",
+      "id": "nat_q_016"
+    },
+    {
+      "source_hash": "b1ab515d",
+      "source_file": "final_alerts_news",
+      "qe": "Which state’s port authority installed India’s first offshore wind turbine at V. O. Chidambaranar Port?",
+      "qh": "कौन से राज्य के पोर्ट अथॉरिटी ने वी. ओ. चिदंबरनर पोर्ट में भारत का पहला ऑफ़शोर विंड टरबाइन स्थापित किया?",
+      "oe": [
+        "Kerala",
+        "Tamil Nadu",
+        "Maharashtra",
+        "Gujarat"
+      ],
+      "oh": [
+        "केरल",
+        "तमिलनाडु",
+        "महाराष्ट्र",
+        "गुजरात"
+      ],
+      "a": 1,
+      "e": "• Option B is Correct because V. O. Chidambaranar Port is located in Thoothukudi, Tamil Nadu, and the Tamil Nadu government’s port authority installed the turbine.\n• Option A is Incorrect because Kerala does not host this port.\n• Option C is Incorrect because Maharashtra’s ports are on the western coast, not Thoothukudi.\n• Option D is Incorrect because Gujarat’s offshore wind projects are elsewhere.",
+      "category": "Environment, Climate & Sustainability",
+      "exam_tag": "BPSC",
+      "domain": "National",
+      "id": "nat_q_017"
+    },
+    {
+      "source_hash": "0cc17419",
+      "source_file": "final_alerts_news",
+      "qe": "Which ministry is the nodal agency for the construction of India’s first underwater road‑cum‑rail tunnel in Assam?",
+      "qh": "असम में भारत के पहले अंडरवॉटर रोड‑क्यूम‑रेल टनल के निर्माण के लिए कौन सा मंत्रालय मुख्य एजेंसी है?",
+      "oe": [
+        "Ministry of Railways",
+        "Ministry of Shipping",
+        "Ministry of Road Transport and Highways",
+        "Ministry of Home Affairs"
+      ],
+      "oh": [
+        "रेल मंत्रालय",
+        "शिपिंग मंत्रालय",
+        "राज्य परिवहन एवं राजमार्ग मंत्रालय",
+        "गृह मंत्रालय"
+      ],
+      "a": 2,
+      "e": "• Option C is Correct because the tunnel is a road‑rail project and the Ministry of Road Transport and Highways is the nodal agency for such infrastructure.\n• Option A is Incorrect because the Railways ministry handles rail‑only projects.\n• Option B is Incorrect because the Shipping ministry deals with maritime transport, not land tunnels.\n• Option D is Incorrect because the Home Affairs ministry is unrelated to civil infrastructure.",
+      "category": "Aviation & Transport",
+      "exam_tag": "BPSC",
+      "domain": "National",
+      "id": "nat_q_018"
+    },
+    {
+      "source_hash": "679f1c0e",
+      "source_file": "final_alerts_news",
+      "qe": "Which two institutions were linked in India’s first free‑space quantum key distribution (QKD) demonstration?",
+      "qh": "भारत के पहले फ्री‑स्पेस क्वांटम की‑डिस्ट्रिब्यूशन (QKD) प्रदर्शन में किन दो संस्थानों को जोड़ा गया था?",
+      "oe": [
+        "ISRO and DRDO",
+        "IIT Madras and IISc Bangalore",
+        "NIT Trichy and BARC",
+        "BISAG‑N and IIT Gandhinagar"
+      ],
+      "oh": [
+        "इसरो और डीआरडीओ",
+        "आईआईटी मद्रास और आईआईएससी बंगलौर",
+        "एनआईटी त्रिची और बीएआरसी",
+        "बीआईएसएजी‑एन और आईआईटी गांधीनगर"
+      ],
+      "a": 3,
+      "e": "• Option D is Correct because the 5.56 km free‑space QKD link was demonstrated between the BISAG‑N testbed and IIT Gandhinagar.\n• Option A is Incorrect; ISRO and DRDO collaborate on space and defence, not this QKD trial.\n• Option B is Incorrect; those institutes were not part of the demonstration.\n• Option C is Incorrect; NIT Trichy and BARC were not involved.",
+      "category": "Space, Science & Technology",
+      "exam_tag": "BPSC",
+      "domain": "National",
+      "id": "nat_q_019"
     }
   ],
   "bihar_questions": [
@@ -330,6 +498,30 @@
       "exam_tag": "BPSC / SSC CGL / State PCS",
       "domain": "Bihar",
       "id": "bih_q_001"
+    },
+    {
+      "source_hash": "60684920",
+      "source_file": "all_current_affairs",
+      "qe": "What is the repo rate currently maintained by the RBI's Monetary Policy Committee as mentioned in the recent policy review?",
+      "qh": "आरबीआई की मौद्रिक नीति समिति द्वारा हालिया समीक्षा में उल्लेखित मौजूदा रेपो दर क्या है?",
+      "oe": [
+        "4.75 percent",
+        "5.25 percent",
+        "6.00 percent",
+        "6.50 percent"
+      ],
+      "oh": [
+        "4.75 प्रतिशत",
+        "5.25 प्रतिशत",
+        "6.00 प्रतिशत",
+        "6.50 प्रतिशत"
+      ],
+      "a": 1,
+      "e": "• Option B is Correct because the article states that the repo rate stands at 5.25 percent.\n• Option A is Incorrect because 4.75 percent is not the rate mentioned.\n• Option C is Incorrect because 6.00 percent exceeds the cited figure.\n• Option D is Incorrect because 6.50 percent is also higher than the stated rate.",
+      "category": "National Economy, Union Budget & Banking",
+      "exam_tag": "BPSC / SSC CGL / State PCS",
+      "domain": "Bihar",
+      "id": "bih_q_002"
     }
   ]
 }
