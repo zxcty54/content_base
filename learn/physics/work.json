@@ -343,15 +343,15 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye to simple hai! Aur negative wala? 🤔"
+          "text": "Sir negative work ka example brake wala hai? Isme force aur displacement opposite direction mein hote hain?"
         },
         {
           "speaker": "aman",
-          "text": "Example 2 (Negative Work): Cycle chala rahe ho aur BRAKES laga diye! Ab friction force OPPOSITE direction mein (motion ko rok raha hai) ➔ θ=180°, cos 180°=-1 ➔ W = -ve 🛑"
+          "text": "Haan, brake lagne par kinetic friction aam taur par displacement ke opposite hoti hai, isliye friction ka work negative hota hai. Lekin yaad rakho: ye ek force ka work hai; net work mein engine, gravity ya other forces bhi include ho sakte hain, aur har friction setup mein work automatically negative nahi hota."
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... friction hamesha negative work karta hai kyunki wo motion ko oppose karta hai! 😮"
+          "text": "Samajh gaya—braking mein friction ka work negative, lekin net work aur different friction situations ko alag check karna hai."
         }
       ],
       "navigation": {
@@ -1687,7 +1687,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Perfect! Negative sign matlab friction ne negative work kiya (opposite to motion)। Car ki KE 200 kJ reduce हो गई - wo energy heat में convert (brakes गरम हो गए)! 🔥"
+          "text": "Idealised case mein braking/friction ka net work W_net = ΔKE = −200,000 J. Negative sign batata hai ki car ki kinetic energy kam hui; real vehicle mein air drag, rolling resistance and braking forces ka combined net work consider karna hota hai."
         },
         {
           "speaker": "raju",
@@ -1786,7 +1786,7 @@
         "total": 72
       },
       "quiz_payload": {
-        "question": "यदि किसी गतिशील वस्तु पर ऋणात्मक कार्य (negative work) किया जाए, तो:",
+        "question": "यदि किसी गतिशील वस्तु पर कुल (net) ऋणात्मक कार्य किया जाए, तो:",
         "options": [
           {
             "id": "A",
@@ -1806,7 +1806,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "✅ Work-Energy Theorem: W_net = ΔKE\n\nयदि W negative है (जैसे friction, braking force), तो:\nΔKE = negative ➔ KE_final < KE_initial ➔ Kinetic Energy घटती है ➔ Velocity घटती है ➔ वस्तु धीमी होती है!\n\n⭐ NEET/BPSC Concept: Negative work का मतलब है वस्तु की गति को oppose करना (slow down करना)। Example: Brakes, Air resistance, Friction - सभी negative work करते हैं!"
+        "explanation": "Work–Energy Theorem ke anusaar W_net = ΔKE. Agar total/net work negative hai, KE decrease hoti hai aur speed kam ho sakti hai (mass and direction conditions same). Kisi ek force ka negative work ho, to doosri forces us effect ko offset kar sakti hain; isliye “net” important hai."
       },
       "navigation": {
         "next": "card_54_theorem_milestone",
@@ -1894,7 +1894,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Pakka trap nahi hoga ab! 💪"
+          "text": "Ab is trap ko reason ke saath solve karunga. 💪"
         }
       ],
       "navigation": {
@@ -1956,7 +1956,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Usually YES, but Exception: Tum treadmill पर चल rahe ho। Treadmill belt पीछे जा रही है, tumhare feet आगे जा रहे हैं। Friction (between feet & belt) तुम्हें FORWARD push कर रहा hai! Friction ka work POSITIVE! 🏃‍♂️⚡"
+          "text": "Friction aksar relative sliding ko oppose karke negative work karta hai, but always nahi. Treadmill/rolling-wheel jaise cases mein static friction object par positive work kar sakta hai, ya contact point par work zero ho sakta hai. Direction and displacement of the point of application check karo."
         },
         {
           "speaker": "raju",
@@ -2070,7 +2070,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "✅ Assertion (A): सत्य है। जब हम वस्तु को ऊपर उठाते हैं, तो applied force और displacement दोनों upward (same direction, θ=0°) होते हैं। W = F × s × cos 0° = F × s (positive)।\n\n✅ Reason (R): सत्य है। Height बढ़ने से PE = mgh बढ़ती है। यह increase हमारे किए गए positive work के कारण ही होता है (W = ΔPE)।\n\n✅ R, A की CORRECT व्याख्या है क्योंकि positive work करने से ही PE बढ़ती है।\n\n⭐ BPSC/UPSC Prelims Pattern: Assertion-Reason questions में logical connection check करना crucial है!"
+        "explanation": "A broadly true hai in the ordinary lifting example: applied force and upward displacement same direction mein hone se applied work positive hota hai. R true hai: gravitational PE mgh badhti hai. Quasi-static lifting mein applied work ≈ ΔPE; acceleration/other losses ho to applied work ka poora amount sirf PE mein nahi jaata. Given ideal exam context mein R A ko explain karta hai."
       },
       "navigation": {
         "next": "card_62_trap_quiz_3",
@@ -2173,7 +2173,7 @@
           },
           {
             "topic": "Work-Energy Theorem",
-            "point": "W_net = ΔKE = ½m(v² - u²)। Net work = Change in KE। Negative work → KE decreases (braking)। Officer-level shortcut!"
+            "point": "W_net = ΔKE = ½m(v² - u²)। Net work = Change in KE। Net negative work → KE decreases (braking)। Officer-level shortcut!"
           },
           {
             "topic": "Circular Motion Work",
@@ -2201,7 +2201,7 @@
         "total": 72
       },
       "quiz_payload": {
-        "question": "निम्नलिखित कथनों पर विचार कीजिए:\n1. किसी वस्तु पर किया गया ऋणात्मक कार्य उसकी गतिज ऊर्जा को कम करता है।\n2. एक समान वृत्तीय गति में गुरुत्वाकर्षण बल सदैव कार्य करता है।\n3. Power का SI मात्रक Joule/second है।\n4. 1 kWh = 3.6 × 10⁶ J\n\nसही कथन हैं:",
+        "question": "निम्नलिखित कथनों पर विचार कीजिए:\n1. किसी वस्तु पर किया गया कुल/net ऋणात्मक कार्य उसकी गतिज ऊर्जा को कम करता है।\n2. एक समान वृत्तीय गति में गुरुत्वाकर्षण बल सदैव कार्य करता है।\n3. Power का SI मात्रक Joule/second है।\n4. 1 kWh = 3.6 × 10⁶ J\n\nसही कथन हैं:",
         "options": [
           {
             "id": "A",
@@ -2221,7 +2221,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "✅ Statement Analysis:\n\n1️⃣ सही है! Work-Energy Theorem: W = ΔKE। Negative work → ΔKE negative → KE कम होती है (braking example)।\n\n2️⃣ गलत है! Uniform circular motion में centripetal force (जो gravity provide कर सकती है, जैसे satellite) हमेशा motion के perpendicular होता है (θ=90°) → Work = 0। ⭐ BPSC Trap!\n\n3️⃣ सही है! Power P = W/t = Joule/second = Watt। 1 W = 1 J/s।\n\n4️⃣ सही है! 1 kWh = 1000 W × 3600 s = 3,600,000 J = 3.6 MJ।\n\nCorrect statements: 1, 3, 4 ➔ Option B ✅\n\n⭐ BPSC/UPSC Prelims Level Multi-Statement Question!"
+        "explanation": "✅ Statement Analysis:\n\n1️⃣ सही है! Work-Energy Theorem: W = ΔKE। Net negative work → ΔKE negative → KE कम होती है (braking example)।\n\n2️⃣ गलत है! Uniform circular motion में centripetal force (जो gravity provide कर सकती है, जैसे satellite) हमेशा motion के perpendicular होता है (θ=90°) → Work = 0। ⭐ BPSC Trap!\n\n3️⃣ सही है! Power P = W/t = Joule/second = Watt। 1 W = 1 J/s।\n\n4️⃣ सही है! 1 kWh = 1000 W × 3600 s = 3,600,000 J = 3.6 MJ।\n\nCorrect statements: 1, 3, 4 ➔ Option B ✅\n\n⭐ BPSC/UPSC Prelims Level Multi-Statement Question!"
       },
       "navigation": {
         "next": "card_66_final_quiz_2",

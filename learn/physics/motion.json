@@ -856,7 +856,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Brilliant question Raju! Agar velocity BADH rahi hai = POSITIVE ACCELERATION. Agar velocity GHAT rahi hai = NEGATIVE ACCELERATION (इसे RETARDATION या DECELERATION भी कहते हैं). Jaise brake लगाने पर!"
+          "text": "Velocity aur acceleration ka sign chosen positive direction par depend karta hai. Speed badhne par acceleration velocity ki direction mein component rakhta hai; speed ghat sakti hai jab acceleration velocity ke opposite ho. Negative acceleration ko automatically “speed decreasing” na samjho—negative sign coordinate convention batata hai."
         },
         {
           "speaker": "raju",
@@ -864,7 +864,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Perfect! Ek aur important point: अगर velocity CONSTANT hai (बदल नहीं रही), toh acceleration = ZERO! Uniform motion में acceleration zero होता है. ⭐ BPSC/Railway में ये बहुत पूछा जाता है!"
+          "text": "Ek aur important point: अगर velocity CONSTANT hai (बदल नहीं रही), toh acceleration = ZERO! Uniform motion में acceleration zero होता है. ⭐ BPSC/Railway में ये बहुत पूछा जाता है!"
         },
         {
           "speaker": "raju",
@@ -1394,7 +1394,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "VELOCITY-TIME GRAPH: Ye सबसे powerful है! TWO TRICKS: 1) Graph का SLOPE = ACCELERATION, 2) Graph के नीचे का AREA = DISTANCE COVERED! ⭐ NEET में ये दोनों बहुत पूछे जाते हैं!"
+          "text": "Velocity-time graph ka slope acceleration hota hai; graph ke neeche signed area displacement deta hai. Agar velocity poori interval mein positive ho, to area ka magnitude distance ke barabar ho sakta hai. Velocity negative ho to distance ke liye speed ka absolute-value area lena padega."
         },
         {
           "speaker": "raju",
@@ -1663,7 +1663,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Raju, bahut log 'CENTRIFUGAL FORCE' की बात करते हैं जो बाहर की ओर लगती है. Par सच्चाई ye hai ki CENTRIFUGAL FORCE एक PSEUDO FORCE (काल्पनिक बल) है - actually exist नहीं करती!"
+          "text": "Rotating frame mein bahar ki taraf centrifugal pseudo-force introduce kiya ja sakta hai; inertial frame mein real interaction force center ki taraf hota hai, aur body ki inertia tangential path continue karna chahti hai. Isliye “centrifugal force never exists” ko frame ke bina absolute na bolo."
         },
         {
           "speaker": "raju",
@@ -2006,7 +2006,7 @@
         "total": 72
       },
       "quiz_payload": {
-        "question": "⭐ BPSC Pattern: Free fall में किसी object का initial velocity (u) क्या होता है? (Q3/3)",
+        "question": "⭐ BPSC Pattern: यदि किसी object को rest से छोड़कर free fall कराया जाए, तो initial velocity (u) क्या होगी? (Q3/3)",
         "options": [
           {
             "id": "A",
@@ -2026,7 +2026,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "FREE FALL में object को rest से छोड़ा जाता है (dropped from rest), इसलिए initial velocity u = 0 (Zero) होती है। फिर gravity के कारण वह accelerate होता है (a = g). BPSC/SSC में यह बहुत पूछा जाता है!"
+        "explanation": "Is question mein object ko rest se release kiya gaya hai, isliye u = 0. General free fall mein initial velocity zero hona zaroori nahi; object ko upward/downward velocity ke saath bhi gravity-only motion diya ja sakta hai."
       },
       "navigation": {
         "next": "card_60_milestone_special",

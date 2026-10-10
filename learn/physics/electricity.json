@@ -445,7 +445,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Bilkul sahi thinking! POTENTIAL DIFFERENCE (V) = Work done (W) to move a unit charge from one point to another / Charge (Q). Formula: V = W/Q. Jitna zyada potential difference, utna zyada 'electrical pressure', utna zyada current flow hoga!"
+          "text": "Potential difference V = work done W per unit charge Q: V = W/Q. Fixed resistance and circuit conditions mein higher voltage generally higher current de sakta hai, but “voltage badha to current hamesha badhega” ko load/resistance context ke bina na bolo. Unit volt (V), named after Alessandro Volta."
         },
         {
           "speaker": "raju",
@@ -486,7 +486,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Haan! ⭐ India mein domestic supply = 220V AC (Alternating Current). Battery mein DC (Direct Current) hota hai. 220V matlab bahut high electrical pressure - isliye dangerous bhi hai! Mobile charger 220V ko 5V DC mein convert karta hai phone ke liye!"
+          "text": "India mein household AC supply ka nominal value 230 V (50 Hz) commonly specified hai; older textbooks/people 220 V shorthand bol sakte hain. Battery DC deti hai. Charger mains AC ko safe low-voltage DC mein convert karta hai—mains voltage dangerous hai."
         },
         {
           "speaker": "raju",
@@ -821,7 +821,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Perfect understanding! Isliye ghar mein high-power devices (heater, AC) kam resistance ke hote hain - zyada current kheenche. Low-power devices (LED bulb) zyada resistance. ⭐ Railway/SSC Application Question Favorite!"
+          "text": "Fixed voltage par resistance badhne se current kam hota hai. Lekin appliance ka power rating sirf “resistance” se define nahi hota: resistive heater ke liye P = V²/R, while motors/LED drivers mein power factor and electronics matter. LED low power isliye hai kyunki efficient design/current control use karti hai, simply “high resistance” ke karan nahi."
         },
         {
           "speaker": "raju",
@@ -1864,7 +1864,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Haan! Ye systematic hota hai - DOMESTIC ELECTRIC CIRCUIT. India mein supply 220V AC hoti hai (50 Hz frequency). Main supply meter se aati hai → MCB/Fuse box → har room ko parallel wiring mein distribute hoti hai!"
+          "text": "India mein household supply nominal 230 V AC, 50 Hz hoti hai. Main supply meter se MCB/fuse box aur phir rooms/appliances ko parallel branches mein distribute hoti hai; exact local installation standards electrician/electrical code ke anusaar follow karo."
         },
         {
           "speaker": "raju",
@@ -1889,7 +1889,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Teen wires hoti hain: (1) LIVE WIRE (RED/BROWN color) - HIGH potential (+220V), current yahan se aata hai. (2) NEUTRAL WIRE (BLACK/BLUE) - ZERO potential, current return path. (3) EARTH WIRE (GREEN/YELLOW) - Safety wire, metal body se connected, leakage current ko ground mein bhej deta hai!"
+          "text": "Teen conductors commonly hote hain: live/phase (brown/red), neutral (blue/black in older wiring) and earth (green-yellow). Live-neutral voltage nominal 230 V hota hai; earth safety path hai, normal load-current return path nahi. Wire colours installation standard/version ke anusaar verify karo."
         },
         {
           "speaker": "raju",
