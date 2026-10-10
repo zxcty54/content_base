@@ -1,8 +1,14 @@
-
 {
   "topic_id": "soils_indian_geography",
   "topic_title": "Soils in Indian Geography",
-  "target_exams": ["BPSC", "BPSC TRE", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims"],
+  "target_exams": [
+    "BPSC",
+    "BPSC TRE",
+    "BSSC",
+    "RRB NTPC",
+    "SSC CGL",
+    "UPSC Prelims"
+  ],
   "total_cards": 50,
   "characters": {
     "aman": {
@@ -30,7 +36,14 @@
       "intro_payload": {
         "title": "🌱 Soils in Indian Geography",
         "icon": "🏞️",
-        "target_exams": ["BPSC", "BPSC TRE", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims"],
+        "target_exams": [
+          "BPSC",
+          "BPSC TRE",
+          "BSSC",
+          "RRB NTPC",
+          "SSC CGL",
+          "UPSC Prelims"
+        ],
         "learning_outcomes": [
           "Understanding soil formation, profile, and components",
           "Classification of Indian soils: Alluvial, Black, Red, Laterite, Desert, Mountain",
@@ -193,10 +206,22 @@
       "quiz_payload": {
         "question": "Soil में mineral matter का लगभग कितना प्रतिशत होता है? (Q1/3)",
         "options": [
-          {"id": "A", "text": "लगभग 25%"},
-          {"id": "B", "text": "लगभग 45%"},
-          {"id": "C", "text": "लगभग 70%"},
-          {"id": "D", "text": "लगभग 5%"}
+          {
+            "id": "A",
+            "text": "लगभग 25%"
+          },
+          {
+            "id": "B",
+            "text": "लगभग 45%"
+          },
+          {
+            "id": "C",
+            "text": "लगभग 70%"
+          },
+          {
+            "id": "D",
+            "text": "लगभग 5%"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Soil में mineral matter (rocks के weathering से बने particles) लगभग 45% होता है। Organic matter 5%, Water 25%, Air 25% (ये average values हैं)। ⭐ SSC/Railway frequently पूछते हैं composition percentages!"
@@ -219,10 +244,22 @@
       "quiz_payload": {
         "question": "Soil formation में सबसे महत्वपूर्ण factors में से कौन सा नहीं है? (Q2/3)",
         "options": [
-          {"id": "A", "text": "Parent Rock"},
-          {"id": "B", "text": "Climate"},
-          {"id": "C", "text": "Human Population"},
-          {"id": "D", "text": "Time"}
+          {
+            "id": "A",
+            "text": "Parent Rock"
+          },
+          {
+            "id": "B",
+            "text": "Climate"
+          },
+          {
+            "id": "C",
+            "text": "Human Population"
+          },
+          {
+            "id": "D",
+            "text": "Time"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "⚠️ BPSC Trap! Soil formation के 5 प्राकृतिक factors हैं: Parent material, Climate, Organisms (plants/animals), Relief/Topography, Time (PCORT)। Human Population direct factor नहीं है (हालांकि humans soil को degrade कर सकते हैं)।"
@@ -245,10 +282,22 @@
       "quiz_payload": {
         "question": "Soil profile में कृषि के लिए सबसे महत्वपूर्ण horizon कौन सी है? (Q3/3)",
         "options": [
-          {"id": "A", "text": "O Horizon (Organic layer)"},
-          {"id": "B", "text": "A Horizon (Topsoil)"},
-          {"id": "C", "text": "B Horizon (Subsoil)"},
-          {"id": "D", "text": "C Horizon (Weathered rock)"}
+          {
+            "id": "A",
+            "text": "O Horizon (Organic layer)"
+          },
+          {
+            "id": "B",
+            "text": "A Horizon (Topsoil)"
+          },
+          {
+            "id": "C",
+            "text": "B Horizon (Subsoil)"
+          },
+          {
+            "id": "D",
+            "text": "C Horizon (Weathered rock)"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "A Horizon (Topsoil) कृषि के लिए सबसे महत्वपूर्ण है क्योंकि इसमें सबसे ज़्यादा organic matter, nutrients, और biological activity होती है। ⭐ NCERT Class 7 + BPSC favorite - Topsoil loss (erosion) से productivity घटती है!"
@@ -459,10 +508,22 @@
       "quiz_payload": {
         "question": "भारत में सबसे अधिक क्षेत्र पर पाई जाने वाली मिट्टी कौन सी है? (Q1/3)",
         "options": [
-          {"id": "A", "text": "Black Soil"},
-          {"id": "B", "text": "Alluvial Soil"},
-          {"id": "C", "text": "Red Soil"},
-          {"id": "D", "text": "Laterite Soil"}
+          {
+            "id": "A",
+            "text": "Black Soil"
+          },
+          {
+            "id": "B",
+            "text": "Alluvial Soil"
+          },
+          {
+            "id": "C",
+            "text": "Red Soil"
+          },
+          {
+            "id": "D",
+            "text": "Laterite Soil"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "ALLUVIAL SOIL भारत की लगभग 43% भूमि पर पाई जाती है - सबसे ज़्यादा! ⭐ NCERT Class 10 + BPSC/SSC/Railway frequent question। ये Indo-Gangetic Plains, Brahmaputra valley में mainly है। Black soil दूसरे नंबर पर (~15%)।"
@@ -485,10 +546,22 @@
       "quiz_payload": {
         "question": "Khadar और Bhangar में मुख्य अंतर क्या है? (Q2/3)",
         "options": [
-          {"id": "A", "text": "Khadar पुरानी alluvial है, Bhangar नई"},
-          {"id": "B", "text": "Khadar नई alluvial है (नदी के पास), Bhangar पुरानी (ऊँची ज़मीन)"},
-          {"id": "C", "text": "Khadar black soil है, Bhangar red"},
-          {"id": "D", "text": "दोनों में कोई अंतर नहीं"}
+          {
+            "id": "A",
+            "text": "Khadar पुरानी alluvial है, Bhangar नई"
+          },
+          {
+            "id": "B",
+            "text": "Khadar नई alluvial है (नदी के पास), Bhangar पुरानी (ऊँची ज़मीन)"
+          },
+          {
+            "id": "C",
+            "text": "Khadar black soil है, Bhangar red"
+          },
+          {
+            "id": "D",
+            "text": "दोनों में कोई अंतर नहीं"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "⚠️ SSC/BPSC Classic Trap! KHADAR = नई alluvial (नदी के किनारे, हर साल नई layer, ज़्यादा fertile)। BHANGAR = पुरानी alluvial (नदी से दूर ऊँची ज़मीन, कम fertile, kankar nodules मिलते हैं)। Age और location का difference है!"
@@ -511,10 +584,22 @@
       "quiz_payload": {
         "question": "Black soil की 'Self-ploughing' property किसके कारण होती है? (Q3/3)",
         "options": [
-          {"id": "A", "text": "High nitrogen content"},
-          {"id": "B", "text": "Expansion और contraction (गर्मी में crack, बरसात में swell)"},
-          {"id": "C", "text": "River deposits"},
-          {"id": "D", "text": "Very low clay content"}
+          {
+            "id": "A",
+            "text": "High nitrogen content"
+          },
+          {
+            "id": "B",
+            "text": "Expansion और contraction (गर्मी में crack, बरसात में swell)"
+          },
+          {
+            "id": "C",
+            "text": "River deposits"
+          },
+          {
+            "id": "D",
+            "text": "Very low clay content"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Black soil में high clay content (montmorillonite) होने से ये गर्मी में सूखकर crack करती है, बरसात में पानी सोखकर swell करती है। ये expansion-contraction cycle मिट्टी को naturally तोड़ देता है - इसे 'SELF-PLOUGHING' कहते हैं। ⭐ UPSC/BPSC favorite mechanism!"
@@ -725,10 +810,22 @@
       "quiz_payload": {
         "question": "Red soil का लाल रंग किसके कारण होता है? (Q1/3)",
         "options": [
-          {"id": "A", "text": "Nitrogen content"},
-          {"id": "B", "text": "Iron oxide (Fe₂O₃) की उपस्थिति"},
-          {"id": "C", "text": "High organic matter"},
-          {"id": "D", "text": "Calcium carbonate"}
+          {
+            "id": "A",
+            "text": "Nitrogen content"
+          },
+          {
+            "id": "B",
+            "text": "Iron oxide (Fe₂O₃) की उपस्थिति"
+          },
+          {
+            "id": "C",
+            "text": "High organic matter"
+          },
+          {
+            "id": "D",
+            "text": "Calcium carbonate"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Red soil का लाल रंग IRON OXIDE (Fe₂O₃) की उपस्थिति के कारण होता है - जैसे लोहे में ज़ंग। ⭐ NCERT Class 10 + BPSC/SSC frequently asked! जब hydrated (गीली) होती है तो yellow दिखती है।"
@@ -751,10 +848,22 @@
       "quiz_payload": {
         "question": "Laterite soil में nutrients की कमी का मुख्य कारण क्या है? (Q2/3)",
         "options": [
-          {"id": "A", "text": "कम वर्षा"},
-          {"id": "B", "text": "Leaching - भारी वर्षा से nutrients का बह जाना"},
-          {"id": "C", "text": "अत्यधिक ठंडा तापमान"},
-          {"id": "D", "text": "अधिक जुताई"}
+          {
+            "id": "A",
+            "text": "कम वर्षा"
+          },
+          {
+            "id": "B",
+            "text": "Leaching - भारी वर्षा से nutrients का बह जाना"
+          },
+          {
+            "id": "C",
+            "text": "अत्यधिक ठंडा तापमान"
+          },
+          {
+            "id": "D",
+            "text": "अधिक जुताई"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "⚠️ UPSC/BPSC Critical Concept! Laterite soil भारी वर्षा areas (>200 cm) में पाई जाती है। Heavy rainfall से LEACHING होती है - soluble nutrients (N, K, Ca) बह जाते हैं, केवल Iron और Aluminium oxides रह जाते हैं। इसीलिए ये soil कम fertile होती है!"
@@ -777,10 +886,22 @@
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सी soil-crop matching सही नहीं है? (Q3/3)",
         "options": [
-          {"id": "A", "text": "Alluvial Soil - Rice, Wheat"},
-          {"id": "B", "text": "Black Soil - Cotton"},
-          {"id": "C", "text": "Laterite Soil - Tea, Coffee"},
-          {"id": "D", "text": "Red Soil - Rice (paddy) की सबसे अच्छी पैदावार"}
+          {
+            "id": "A",
+            "text": "Alluvial Soil - Rice, Wheat"
+          },
+          {
+            "id": "B",
+            "text": "Black Soil - Cotton"
+          },
+          {
+            "id": "C",
+            "text": "Laterite Soil - Tea, Coffee"
+          },
+          {
+            "id": "D",
+            "text": "Red Soil - Rice (paddy) की सबसे अच्छी पैदावार"
+          }
         ],
         "correct_option_id": "D",
         "explanation": "⚠️ BPSC Trap! Red soil generally कम fertile है और Rice (जिसे ज़्यादा पानी और nutrients चाहिए) के लिए सबसे अच्छी नहीं है। Rice के लिए ALLUVIAL soil best है। Red soil में Millets, Groundnut, Potato अच्छे होते हैं। (A), (B), (C) सही matches हैं!"
@@ -958,10 +1079,22 @@
       "quiz_payload": {
         "question": "Bihar में मुख्यतः कौन सी soil पाई जाती है? (Q1/3)",
         "options": [
-          {"id": "A", "text": "Black Soil"},
-          {"id": "B", "text": "Red Soil"},
-          {"id": "C", "text": "Alluvial Soil"},
-          {"id": "D", "text": "Laterite Soil"}
+          {
+            "id": "A",
+            "text": "Black Soil"
+          },
+          {
+            "id": "B",
+            "text": "Red Soil"
+          },
+          {
+            "id": "C",
+            "text": "Alluvial Soil"
+          },
+          {
+            "id": "D",
+            "text": "Laterite Soil"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "⭐ BPSC TRE Critical! Bihar में लगभग 90%+ भूमि पर ALLUVIAL SOIL पाई जाती है - Ganga, Gandak, Kosi नदियों के deposits। North Bihar में sandy alluvial, Middle में clayey alluvial, South Bihar के कुछ hills में Red soil। Black, Laterite, Desert soil Bihar में नहीं!"
@@ -984,10 +1117,22 @@
       "quiz_payload": {
         "question": "Gully erosion का सबसे अच्छा उदाहरण कहाँ मिलता है? (Q2/3)",
         "options": [
-          {"id": "A", "text": "Chambal ravines (Madhya Pradesh/Uttar Pradesh)"},
-          {"id": "B", "text": "Thar Desert"},
-          {"id": "C", "text": "Kerala coast"},
-          {"id": "D", "text": "Punjab plains"}
+          {
+            "id": "A",
+            "text": "Chambal ravines (Madhya Pradesh/Uttar Pradesh)"
+          },
+          {
+            "id": "B",
+            "text": "Thar Desert"
+          },
+          {
+            "id": "C",
+            "text": "Kerala coast"
+          },
+          {
+            "id": "D",
+            "text": "Punjab plains"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "⭐ UPSC/SSC Classic Example! CHAMBAL RAVINES (MP/UP border) Gully erosion का सबसे प्रसिद्ध उदाहरण है - पानी के तेज़ बहाव से गहरी खाईयाँ (gullies) बन गई हैं। यहाँ 'बीहड़' (badlands) हैं जो कृषि के लिए अनुपयुक्त हो गए हैं।"
@@ -1010,10 +1155,22 @@
       "quiz_payload": {
         "question": "Contour ploughing किस प्रकार के erosion को रोकने में सहायक है? (Q3/3)",
         "options": [
-          {"id": "A", "text": "Wind erosion"},
-          {"id": "B", "text": "Water erosion (ढलान वाली भूमि पर)"},
-          {"id": "C", "text": "Chemical degradation"},
-          {"id": "D", "text": "Salinity"}
+          {
+            "id": "A",
+            "text": "Wind erosion"
+          },
+          {
+            "id": "B",
+            "text": "Water erosion (ढलान वाली भूमि पर)"
+          },
+          {
+            "id": "C",
+            "text": "Chemical degradation"
+          },
+          {
+            "id": "D",
+            "text": "Salinity"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Contour ploughing (ढलान के perpendicular जुताई) WATER EROSION को रोकती है। जब furrows (खाँचे) ढलान के across होती हैं, तो पानी सीधे नीचे नहीं बहता, रुक जाता है - topsoil नहीं बहती। ⭐ NCERT Class 10 + SSC favorite conservation method!"
@@ -1224,10 +1381,22 @@
       "quiz_payload": {
         "question": "Acidic soil को neutralize करने के लिए क्या मिलाया जाता है? (Q1/3)",
         "options": [
-          {"id": "A", "text": "Gypsum"},
-          {"id": "B", "text": "Lime (Calcium Carbonate)"},
-          {"id": "C", "text": "Sulphuric acid"},
-          {"id": "D", "text": "Sand"}
+          {
+            "id": "A",
+            "text": "Gypsum"
+          },
+          {
+            "id": "B",
+            "text": "Lime (Calcium Carbonate)"
+          },
+          {
+            "id": "C",
+            "text": "Sulphuric acid"
+          },
+          {
+            "id": "D",
+            "text": "Sand"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ BPSC/SSC Important! Acidic soil (pH < 7) को neutralize करने के लिए LIME (Calcium Carbonate - CaCO₃) मिलाया जाता है। ये pH बढ़ाता है। Alkaline soil के लिए GYPSUM (Calcium Sulphate) use होता है। Red और Laterite soils में lime application common है।"
@@ -1250,10 +1419,22 @@
       "quiz_payload": {
         "question": "NPK में 'P' किसके लिए खड़ा है और ये मुख्यतः किसकी growth में मदद करता है? (Q2/3)",
         "options": [
-          {"id": "A", "text": "Potassium - पत्तियों की growth"},
-          {"id": "B", "text": "Phosphorus - जड़ों और फूलों की growth"},
-          {"id": "C", "text": "Phosphate - तने की growth"},
-          {"id": "D", "text": "Protein - फलों की growth"}
+          {
+            "id": "A",
+            "text": "Potassium - पत्तियों की growth"
+          },
+          {
+            "id": "B",
+            "text": "Phosphorus - जड़ों और फूलों की growth"
+          },
+          {
+            "id": "C",
+            "text": "Phosphate - तने की growth"
+          },
+          {
+            "id": "D",
+            "text": "Protein - फलों की growth"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "NPK में P = PHOSPHORUS (फॉस्फोरस) है जो मुख्यतः ROOTS (जड़ों) और FLOWERS (फूलों) की growth में महत्वपूर्ण है। N = Nitrogen (पत्तियाँ), K = Potassium/Potash (overall health)। ⭐ SSC/Railway frequently asked - fertilizer composition!"
@@ -1276,10 +1457,22 @@
       "quiz_payload": {
         "question": "Soil Health Card Scheme कब launch की गई थी? (Q3/3)",
         "options": [
-          {"id": "A", "text": "2010"},
-          {"id": "B", "text": "2015"},
-          {"id": "C", "text": "2018"},
-          {"id": "D", "text": "2020"}
+          {
+            "id": "A",
+            "text": "2010"
+          },
+          {
+            "id": "B",
+            "text": "2015"
+          },
+          {
+            "id": "C",
+            "text": "2018"
+          },
+          {
+            "id": "D",
+            "text": "2020"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Soil Health Card Scheme **2015** में launch की गई थी। इसके तहत हर farmer को हर 2-3 साल में soil testing के बाद एक card मिलता है जिसमें soil की health status और fertilizer recommendations होती हैं। ⭐ BPSC/SSC Current Affairs + Scheme-based questions में important!"
@@ -1365,10 +1558,22 @@
       "quiz_payload": {
         "question": "⭐ BPSC MULTI-STATEMENT:\n\nनिम्नलिखित कथनों पर विचार करें:\n1. Alluvial soil भारत में सबसे अधिक क्षेत्र पर पाई जाती है।\n2. Black soil में 'self-ploughing' property high clay content के कारण होती है।\n3. Laterite soil उच्च वर्षा क्षेत्रों में leaching के कारण कम fertile होती है।\n\nसही कथन हैं:",
         "options": [
-          {"id": "A", "text": "केवल 1 और 2"},
-          {"id": "B", "text": "केवल 2 और 3"},
-          {"id": "C", "text": "केवल 1 और 3"},
-          {"id": "D", "text": "1, 2 और 3 सभी"}
+          {
+            "id": "A",
+            "text": "केवल 1 और 2"
+          },
+          {
+            "id": "B",
+            "text": "केवल 2 और 3"
+          },
+          {
+            "id": "C",
+            "text": "केवल 1 और 3"
+          },
+          {
+            "id": "D",
+            "text": "1, 2 और 3 सभी"
+          }
         ],
         "correct_option_id": "D",
         "explanation": "⭐ All three सही हैं! (1) Alluvial ~43% area cover करती है - maximum। (2) Black soil में montmorillonite clay की high content से expansion-contraction होता है → self-ploughing। (3) Laterite >200 cm rainfall areas में heavy leaching से soluble nutrients बह जाते हैं → low fertility। BPSC/UPSC pattern!"
@@ -1391,10 +1596,22 @@
       "quiz_payload": {
         "question": "⭐ UPSC ASSERTION-REASON:\n\nअभिकथन (A): Red soil का रंग लाल होता है।\n\nकारण (R): इसमें iron oxide (Fe₂O₃) की उपस्थिति होती है।\n\nसही विकल्प चुनें:",
         "options": [
-          {"id": "A", "text": "A और R दोनों सही हैं, और R, A की सही व्याख्या है"},
-          {"id": "B", "text": "A और R दोनों सही हैं, लेकिन R, A की व्याख्या नहीं है"},
-          {"id": "C", "text": "A सही है लेकिन R गलत है"},
-          {"id": "D", "text": "A गलत है लेकिन R सही है"}
+          {
+            "id": "A",
+            "text": "A और R दोनों सही हैं, और R, A की सही व्याख्या है"
+          },
+          {
+            "id": "B",
+            "text": "A और R दोनों सही हैं, लेकिन R, A की व्याख्या नहीं है"
+          },
+          {
+            "id": "C",
+            "text": "A सही है लेकिन R गलत है"
+          },
+          {
+            "id": "D",
+            "text": "A गलत है लेकिन R सही है"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "⭐ Perfect UPSC Pattern! (A) सही - Red soil लाल रंग की होती है। (R) भी सही - ये iron oxide (Fe₂O₃) के कारण है, exactly जैसे लोहे में ज़ंग। और R, A की सही व्याख्या है - iron oxide ही red color का कारण है। Answer: A!"
@@ -1417,10 +1634,22 @@
       "quiz_payload": {
         "question": "⭐ SSC/BPSC MATCHING:\n\nनिम्नलिखित में से कौन सा युग्म गलत है?",
         "options": [
-          {"id": "A", "text": "Khadar - नई alluvial soil"},
-          {"id": "B", "text": "Regur - Black soil"},
-          {"id": "C", "text": "Laterite - Desert areas में पाई जाने वाली soil"},
-          {"id": "D", "text": "Bhangar - पुरानी alluvial soil"}
+          {
+            "id": "A",
+            "text": "Khadar - नई alluvial soil"
+          },
+          {
+            "id": "B",
+            "text": "Regur - Black soil"
+          },
+          {
+            "id": "C",
+            "text": "Laterite - Desert areas में पाई जाने वाली soil"
+          },
+          {
+            "id": "D",
+            "text": "Bhangar - पुरानी alluvial soil"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "⚠️ Classic BPSC Trap! (C) गलत है - LATERITE soil heavy rainfall areas (>200 cm) में पाई जाती है, Desert में नहीं! Kerala, Karnataka coast, Western Ghats में मिलती है। Desert में ARID/SANDY soil होती है। (A), (B), (D) सभी सही matches हैं। Confusion trap!"
@@ -1443,10 +1672,22 @@
       "quiz_payload": {
         "question": "⭐ BPSC TRE SPECIFIC:\n\nबिहार के संदर्भ में निम्नलिखित कथनों पर विचार करें:\n1. बिहार में मुख्यतः Alluvial soil पाई जाती है।\n2. North Bihar में sandy alluvial और flood की समस्या ज़्यादा है।\n3. South Bihar के पहाड़ी क्षेत्रों में कुछ Red soil भी मिलती है।\n\nसही कथन हैं:",
         "options": [
-          {"id": "A", "text": "केवल 1"},
-          {"id": "B", "text": "केवल 1 और 2"},
-          {"id": "C", "text": "केवल 1 और 3"},
-          {"id": "D", "text": "1, 2 और 3 सभी"}
+          {
+            "id": "A",
+            "text": "केवल 1"
+          },
+          {
+            "id": "B",
+            "text": "केवल 1 और 2"
+          },
+          {
+            "id": "C",
+            "text": "केवल 1 और 3"
+          },
+          {
+            "id": "D",
+            "text": "1, 2 और 3 सभी"
+          }
         ],
         "correct_option_id": "D",
         "explanation": "⭐ BPSC TRE Critical! सभी तीनों कथन सही हैं। (1) Bihar की 90%+ भूमि Alluvial (Ganga belt)। (2) North Bihar (Champaran, Muzaffarpur, Kosi region) में sandy alluvial + recurring floods। (3) South Bihar (Gaya, Rohtas hills) में mixed/red soil भी मिलती है। Complete Bihar soil profile!"
@@ -1481,4 +1722,3 @@
     }
   ]
 }
-```

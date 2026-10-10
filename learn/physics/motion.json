@@ -1,8 +1,15 @@
-```json
 {
   "topic_id": "motion_in_physics_complete",
   "topic_title": "Motion in Physics",
-  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
+  "target_exams": [
+    "BPSC",
+    "BSSC",
+    "RRB NTPC",
+    "SSC CGL",
+    "NEET",
+    "UPSC Prelims",
+    "BPSC TRE"
+  ],
   "total_cards": 72,
   "characters": {
     "aman": {
@@ -30,7 +37,15 @@
       "intro_payload": {
         "title": "Motion in Physics",
         "icon": "🚀",
-        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
+        "target_exams": [
+          "BPSC",
+          "BSSC",
+          "RRB NTPC",
+          "SSC CGL",
+          "NEET",
+          "UPSC Prelims",
+          "BPSC TRE"
+        ],
         "learning_outcomes": [
           "Understanding Motion from Daily Life Examples",
           "Types of Motion: Linear, Circular, Oscillatory",
@@ -161,10 +176,22 @@
       "quiz_payload": {
         "question": "⭐ BSSC Pattern: एक कार सीधी सड़क पर चल रही है। यह किस प्रकार की गति का उदाहरण है? (Q1/3)",
         "options": [
-          { "id": "A", "text": "वृत्तीय गति (Circular Motion)" },
-          { "id": "B", "text": "रेखीय गति (Linear Motion)" },
-          { "id": "C", "text": "दोलन गति (Oscillatory Motion)" },
-          { "id": "D", "text": "घूर्णन गति (Rotational Motion)" }
+          {
+            "id": "A",
+            "text": "वृत्तीय गति (Circular Motion)"
+          },
+          {
+            "id": "B",
+            "text": "रेखीय गति (Linear Motion)"
+          },
+          {
+            "id": "C",
+            "text": "दोलन गति (Oscillatory Motion)"
+          },
+          {
+            "id": "D",
+            "text": "घूर्णन गति (Rotational Motion)"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "सीधी सड़क पर चलना LINEAR/TRANSLATORY MOTION (रेखीय गति) का उदाहरण है। इसमें object एक सीधी line या path पर move करता है। BSSC/Railway में types of motion बहुत पूछे जाते हैं!"
@@ -187,10 +214,22 @@
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सी OSCILLATORY MOTION का उदाहरण है? (Q2/3)",
         "options": [
-          { "id": "A", "text": "पृथ्वी का सूर्य के चारों ओर घूमना" },
-          { "id": "B", "text": "पंखे का घूमना" },
-          { "id": "C", "text": "दीवार घड़ी के पेंडुलम का दोलन" },
-          { "id": "D", "text": "रेलगाड़ी का चलना" }
+          {
+            "id": "A",
+            "text": "पृथ्वी का सूर्य के चारों ओर घूमना"
+          },
+          {
+            "id": "B",
+            "text": "पंखे का घूमना"
+          },
+          {
+            "id": "C",
+            "text": "दीवार घड़ी के पेंडुलम का दोलन"
+          },
+          {
+            "id": "D",
+            "text": "रेलगाड़ी का चलना"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "पेंडुलम का आगे-पीछे झूलना OSCILLATORY MOTION (दोलन गति) है। Option A और B Circular Motion हैं, Option D Linear Motion है। SSC/Railway में motion के types identify करने वाले questions आते हैं!"
@@ -213,10 +252,22 @@
       "quiz_payload": {
         "question": "⭐ Railway Pattern: पृथ्वी का सूर्य के चारों ओर परिक्रमण किस प्रकार की गति है? (Q3/3)",
         "options": [
-          { "id": "A", "text": "रेखीय गति" },
-          { "id": "B", "text": "दोलन गति" },
-          { "id": "C", "text": "वृत्तीय गति (Circular Motion)" },
-          { "id": "D", "text": "स्थिर अवस्था" }
+          {
+            "id": "A",
+            "text": "रेखीय गति"
+          },
+          {
+            "id": "B",
+            "text": "दोलन गति"
+          },
+          {
+            "id": "C",
+            "text": "वृत्तीय गति (Circular Motion)"
+          },
+          {
+            "id": "D",
+            "text": "स्थिर अवस्था"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "पृथ्वी सूर्य के चारों ओर लगभग circular path में घूमती है - यह CIRCULAR MOTION (वृत्तीय गति) है। Earth की यह motion को Revolution कहते हैं। Railway/BPSC में planetary motion के questions आते हैं!"
@@ -361,10 +412,22 @@
       "quiz_payload": {
         "question": "राजू अपने घर से निकलकर 400m उत्तर की ओर गया, फिर 300m पूर्व की ओर गया। उसका DISTANCE कितना है?",
         "options": [
-          { "id": "A", "text": "500 m" },
-          { "id": "B", "text": "700 m" },
-          { "id": "C", "text": "100 m" },
-          { "id": "D", "text": "400 m" }
+          {
+            "id": "A",
+            "text": "500 m"
+          },
+          {
+            "id": "B",
+            "text": "700 m"
+          },
+          {
+            "id": "C",
+            "text": "100 m"
+          },
+          {
+            "id": "D",
+            "text": "400 m"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "DISTANCE = TOTAL PATH LENGTH = 400m + 300m = 700m. Distance में हम सभी paths को जोड़ते हैं, चाहे direction कुछ भी हो। ध्यान दो: Displacement इससे अलग होगा (500m using Pythagoras)!"
@@ -387,10 +450,22 @@
       "quiz_payload": {
         "question": "⭐ BPSC Pattern Multi-Statement:\nकथन A: Distance एक scalar quantity है।\nकथन B: Displacement एक vector quantity है।\nकथन C: Displacement का मान distance से अधिक हो सकता है। (Q1/3)",
         "options": [
-          { "id": "A", "text": "केवल A और B सही हैं" },
-          { "id": "B", "text": "केवल B और C सही हैं" },
-          { "id": "C", "text": "A, B और C सभी सही हैं" },
-          { "id": "D", "text": "केवल A सही है" }
+          {
+            "id": "A",
+            "text": "केवल A और B सही हैं"
+          },
+          {
+            "id": "B",
+            "text": "केवल B और C सही हैं"
+          },
+          {
+            "id": "C",
+            "text": "A, B और C सभी सही हैं"
+          },
+          {
+            "id": "D",
+            "text": "केवल A सही है"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Statement A सही: Distance scalar है (केवल magnitude)। Statement B सही: Displacement vector है (magnitude + direction)। Statement C गलत: Displacement कभी भी Distance से अधिक नहीं हो सकता! Displacement ≤ Distance हमेशा! ⭐ BPSC का favorite trap यही है - याद रखो!"
@@ -413,10 +488,22 @@
       "quiz_payload": {
         "question": "⭐ SSC Pattern: एक व्यक्ति 200m वृत्ताकार पथ पर चलकर अपने प्रारंभिक बिंदु पर वापस आ गया। उसका displacement कितना है? (Q2/3)",
         "options": [
-          { "id": "A", "text": "200 m" },
-          { "id": "B", "text": "400 m" },
-          { "id": "C", "text": "0 (Zero)" },
-          { "id": "D", "text": "100 m" }
+          {
+            "id": "A",
+            "text": "200 m"
+          },
+          {
+            "id": "B",
+            "text": "400 m"
+          },
+          {
+            "id": "C",
+            "text": "0 (Zero)"
+          },
+          {
+            "id": "D",
+            "text": "100 m"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "जब initial position और final position SAME हो जाते हैं (वापस उसी जगह आ गया), तो Displacement = 0 (Zero)। Distance = 200m (पूरा path), लेकिन Displacement = 0। SSC/Railway में ये बहुत पूछा जाता है!"
@@ -439,10 +526,22 @@
       "quiz_payload": {
         "question": "⭐ Railway Pattern: Distance और Displacement कब बराबर होते हैं? (Q3/3)",
         "options": [
-          { "id": "A", "text": "जब गति वृत्तीय हो" },
-          { "id": "B", "text": "जब गति सीधी रेखा (straight line) में हो" },
-          { "id": "C", "text": "जब गति दोलन हो" },
-          { "id": "D", "text": "दोनों कभी बराबर नहीं होते" }
+          {
+            "id": "A",
+            "text": "जब गति वृत्तीय हो"
+          },
+          {
+            "id": "B",
+            "text": "जब गति सीधी रेखा (straight line) में हो"
+          },
+          {
+            "id": "C",
+            "text": "जब गति दोलन हो"
+          },
+          {
+            "id": "D",
+            "text": "दोनों कभी बराबर नहीं होते"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Distance = Displacement तभी होता है जब motion एकदम STRAIGHT LINE में हो (बिना direction change के)। Circular या zigzag motion में Displacement हमेशा Distance से कम होगा। Railway/BPSC में यह concept बार-बार पूछा जाता है!"
@@ -587,10 +686,22 @@
       "quiz_payload": {
         "question": "⭐ NEET Pattern: एक कार 400m के वृत्तीय track पर दौड़ती है और एक चक्कर पूरा करके starting point पर लौट आती है। यदि समय 40 seconds लगा, तो average velocity क्या होगी? (Q1/3)",
         "options": [
-          { "id": "A", "text": "10 m/s" },
-          { "id": "B", "text": "0 (Zero)" },
-          { "id": "C", "text": "400 m/s" },
-          { "id": "D", "text": "40 m/s" }
+          {
+            "id": "A",
+            "text": "10 m/s"
+          },
+          {
+            "id": "B",
+            "text": "0 (Zero)"
+          },
+          {
+            "id": "C",
+            "text": "400 m/s"
+          },
+          {
+            "id": "D",
+            "text": "40 m/s"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Average Velocity = Total Displacement / Total Time. जब car starting point पर वापस आ गई, तो Displacement = 0। इसलिए Average Velocity = 0/40 = 0 (Zero)। ध्यान दें: Average Speed = 400/40 = 10 m/s होगी। NEET/BPSC में यह बहुत पूछा जाता है!"
@@ -613,10 +724,22 @@
       "quiz_payload": {
         "question": "⭐ SSC Pattern: Speed और Velocity में मुख्य अंतर क्या है? (Q2/3)",
         "options": [
-          { "id": "A", "text": "Speed vector है, Velocity scalar है" },
-          { "id": "B", "text": "Speed scalar है, Velocity vector है" },
-          { "id": "C", "text": "दोनों vector हैं" },
-          { "id": "D", "text": "दोनों scalar हैं" }
+          {
+            "id": "A",
+            "text": "Speed vector है, Velocity scalar है"
+          },
+          {
+            "id": "B",
+            "text": "Speed scalar है, Velocity vector है"
+          },
+          {
+            "id": "C",
+            "text": "दोनों vector हैं"
+          },
+          {
+            "id": "D",
+            "text": "दोनों scalar हैं"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "SPEED एक SCALAR quantity है (केवल magnitude, कोई direction नहीं)। VELOCITY एक VECTOR quantity है (magnitude + direction दोनों)। Speed = Distance/Time, Velocity = Displacement/Time। SSC CGL में यह बहुत पूछा जाता है!"
@@ -639,10 +762,22 @@
       "quiz_payload": {
         "question": "⭐ Railway Pattern: गाड़ी के Speedometer में जो speed दिखती है, वह किस प्रकार की speed है? (Q3/3)",
         "options": [
-          { "id": "A", "text": "Average Speed (औसत चाल)" },
-          { "id": "B", "text": "Instantaneous Speed (तात्क्षणिक चाल)" },
-          { "id": "C", "text": "Uniform Speed (एकसमान चाल)" },
-          { "id": "D", "text": "Variable Speed (परिवर्ती चाल)" }
+          {
+            "id": "A",
+            "text": "Average Speed (औसत चाल)"
+          },
+          {
+            "id": "B",
+            "text": "Instantaneous Speed (तात्क्षणिक चाल)"
+          },
+          {
+            "id": "C",
+            "text": "Uniform Speed (एकसमान चाल)"
+          },
+          {
+            "id": "D",
+            "text": "Variable Speed (परिवर्ती चाल)"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Speedometer उस particular moment (instant) पर speed दिखाता है, इसलिए यह INSTANTANEOUS SPEED है। Average Speed पूरे journey का होता है = Total Distance/Total Time। Railway/SSC में यह बहुत पूछा जाता है!"
@@ -787,10 +922,22 @@
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: एक कार की गति 20 m/s से बढ़कर 5 seconds में 40 m/s हो जाती है। Acceleration कितना है? (Q1/3)",
         "options": [
-          { "id": "A", "text": "2 m/s²" },
-          { "id": "B", "text": "4 m/s²" },
-          { "id": "C", "text": "8 m/s²" },
-          { "id": "D", "text": "10 m/s²" }
+          {
+            "id": "A",
+            "text": "2 m/s²"
+          },
+          {
+            "id": "B",
+            "text": "4 m/s²"
+          },
+          {
+            "id": "C",
+            "text": "8 m/s²"
+          },
+          {
+            "id": "D",
+            "text": "10 m/s²"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Acceleration = (v - u) / t = (40 - 20) / 5 = 20/5 = 4 m/s². यहाँ u = 20 m/s (initial), v = 40 m/s (final), t = 5 s. Positive acceleration है क्योंकि velocity बढ़ रही है। BPSC/SSC में numerical बहुत आते हैं!"
@@ -813,10 +960,22 @@
       "quiz_payload": {
         "question": "⭐ Railway Pattern: Uniform motion में acceleration का मान क्या होता है? (Q2/3)",
         "options": [
-          { "id": "A", "text": "धनात्मक (Positive)" },
-          { "id": "B", "text": "ऋणात्मक (Negative)" },
-          { "id": "C", "text": "शून्य (Zero)" },
-          { "id": "D", "text": "अनंत (Infinite)" }
+          {
+            "id": "A",
+            "text": "धनात्मक (Positive)"
+          },
+          {
+            "id": "B",
+            "text": "ऋणात्मक (Negative)"
+          },
+          {
+            "id": "C",
+            "text": "शून्य (Zero)"
+          },
+          {
+            "id": "D",
+            "text": "अनंत (Infinite)"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Uniform motion में velocity CONSTANT रहती है (change नहीं होती)। इसलिए Acceleration = Change in velocity / Time = 0/t = ZERO (शून्य)। Railway/SSC में यह बहुत पूछा जाता है!"
@@ -839,10 +998,22 @@
       "quiz_payload": {
         "question": "⭐ SSC Pattern: जब किसी वाहन में brake लगाया जाता है, तो यह किस प्रकार का acceleration है? (Q3/3)",
         "options": [
-          { "id": "A", "text": "Positive Acceleration (धनात्मक त्वरण)" },
-          { "id": "B", "text": "Negative Acceleration / Retardation (ऋणात्मक त्वरण / मंदन)" },
-          { "id": "C", "text": "Zero Acceleration (शून्य त्वरण)" },
-          { "id": "D", "text": "Uniform Acceleration (एकसमान त्वरण)" }
+          {
+            "id": "A",
+            "text": "Positive Acceleration (धनात्मक त्वरण)"
+          },
+          {
+            "id": "B",
+            "text": "Negative Acceleration / Retardation (ऋणात्मक त्वरण / मंदन)"
+          },
+          {
+            "id": "C",
+            "text": "Zero Acceleration (शून्य त्वरण)"
+          },
+          {
+            "id": "D",
+            "text": "Uniform Acceleration (एकसमान त्वरण)"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Brake लगाने पर velocity DECREASE होती है, इसलिए यह NEGATIVE ACCELERATION है, जिसे RETARDATION या DECELERATION भी कहते हैं। SSC CGL में यह terminology बहुत पूछी जाती है!"
@@ -1020,10 +1191,22 @@
       "quiz_payload": {
         "question": "⭐ NEET Pattern: एक गाड़ी 5 m/s से चल रही है। यह 2 m/s² की दर से accelerate करती है। 4 seconds बाद उसकी velocity क्या होगी? (v = u + at) (Q1/3)",
         "options": [
-          { "id": "A", "text": "9 m/s" },
-          { "id": "B", "text": "13 m/s" },
-          { "id": "C", "text": "17 m/s" },
-          { "id": "D", "text": "21 m/s" }
+          {
+            "id": "A",
+            "text": "9 m/s"
+          },
+          {
+            "id": "B",
+            "text": "13 m/s"
+          },
+          {
+            "id": "C",
+            "text": "17 m/s"
+          },
+          {
+            "id": "D",
+            "text": "21 m/s"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "First Equation: v = u + at = 5 + (2 × 4) = 5 + 8 = 13 m/s। यहाँ u = 5 m/s, a = 2 m/s², t = 4 s। NEET/BPSC में ऐसे direct questions बहुत आते हैं - formula याद रखो!"
@@ -1046,10 +1229,22 @@
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: एक वस्तु विरामावस्था (u=0) से 4 m/s² की दर से accelerate होती है। 5 seconds में वह कितनी दूरी तय करेगी? (s = ut + ½at²) (Q2/3)",
         "options": [
-          { "id": "A", "text": "20 m" },
-          { "id": "B", "text": "40 m" },
-          { "id": "C", "text": "50 m" },
-          { "id": "D", "text": "100 m" }
+          {
+            "id": "A",
+            "text": "20 m"
+          },
+          {
+            "id": "B",
+            "text": "40 m"
+          },
+          {
+            "id": "C",
+            "text": "50 m"
+          },
+          {
+            "id": "D",
+            "text": "100 m"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Second Equation: s = ut + ½at². यहाँ u = 0 (rest से शुरू), a = 4 m/s², t = 5 s। s = 0×5 + ½×4×(5)² = 0 + 2×25 = 50 m। Rest से start होने पर u = 0 लो - BPSC में यह trap है!"
@@ -1072,10 +1267,22 @@
       "quiz_payload": {
         "question": "⭐ Railway Pattern: एक train 10 m/s की गति से चल रही है। Brake लगाने पर -2 m/s² का retardation होता है। रुकने से पहले वह कितनी दूरी तय करेगी? (v² = u² + 2as) (Q3/3)",
         "options": [
-          { "id": "A", "text": "15 m" },
-          { "id": "B", "text": "20 m" },
-          { "id": "C", "text": "25 m" },
-          { "id": "D", "text": "30 m" }
+          {
+            "id": "A",
+            "text": "15 m"
+          },
+          {
+            "id": "B",
+            "text": "20 m"
+          },
+          {
+            "id": "C",
+            "text": "25 m"
+          },
+          {
+            "id": "D",
+            "text": "30 m"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Third Equation: v² = u² + 2as। रुकने पर v = 0, u = 10 m/s, a = -2 m/s² (retardation negative है)। 0² = (10)² + 2(-2)s → 0 = 100 - 4s → 4s = 100 → s = 25 m। Railway/SSC में braking distance बहुत पूछा जाता है!"
@@ -1253,10 +1460,22 @@
       "quiz_payload": {
         "question": "⭐ NEET Pattern: Velocity-Time graph का SLOPE क्या represent करता है? (Q1/3)",
         "options": [
-          { "id": "A", "text": "Speed (चाल)" },
-          { "id": "B", "text": "Distance (दूरी)" },
-          { "id": "C", "text": "Acceleration (त्वरण)" },
-          { "id": "D", "text": "Displacement (विस्थापन)" }
+          {
+            "id": "A",
+            "text": "Speed (चाल)"
+          },
+          {
+            "id": "B",
+            "text": "Distance (दूरी)"
+          },
+          {
+            "id": "C",
+            "text": "Acceleration (त्वरण)"
+          },
+          {
+            "id": "D",
+            "text": "Displacement (विस्थापन)"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Velocity-Time graph का SLOPE = ACCELERATION। Change in velocity / Change in time = Acceleration (a = Δv/Δt)। Steep slope = ज़्यादा acceleration, Horizontal line (slope=0) = zero acceleration। NEET में यह बहुत पूछा जाता है!"
@@ -1279,10 +1498,22 @@
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: Distance-Time graph में HORIZONTAL LINE (flat) क्या दर्शाती है? (Q2/3)",
         "options": [
-          { "id": "A", "text": "Uniform motion (एकसमान गति)" },
-          { "id": "B", "text": "वस्तु विराम (rest) में है" },
-          { "id": "C", "text": "Acceleration बढ़ रहा है" },
-          { "id": "D", "text": "Maximum speed है" }
+          {
+            "id": "A",
+            "text": "Uniform motion (एकसमान गति)"
+          },
+          {
+            "id": "B",
+            "text": "वस्तु विराम (rest) में है"
+          },
+          {
+            "id": "C",
+            "text": "Acceleration बढ़ रहा है"
+          },
+          {
+            "id": "D",
+            "text": "Maximum speed है"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Distance-Time graph में HORIZONTAL LINE का मतलब है distance change नहीं हो रही (time बढ़ रहा है पर distance constant है) - यानी वस्तु REST (विराम) में है, Speed = 0। BPSC/Railway में यह trap बहुत आता है!"
@@ -1305,10 +1536,22 @@
       "quiz_payload": {
         "question": "⭐ Railway Pattern: Velocity-Time graph के नीचे का AREA क्या दर्शाता है? (Q3/3)",
         "options": [
-          { "id": "A", "text": "Acceleration (त्वरण)" },
-          { "id": "B", "text": "Speed (चाल)" },
-          { "id": "C", "text": "Distance covered (तय की गई दूरी)" },
-          { "id": "D", "text": "Time (समय)" }
+          {
+            "id": "A",
+            "text": "Acceleration (त्वरण)"
+          },
+          {
+            "id": "B",
+            "text": "Speed (चाल)"
+          },
+          {
+            "id": "C",
+            "text": "Distance covered (तय की गई दूरी)"
+          },
+          {
+            "id": "D",
+            "text": "Time (समय)"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Velocity-Time graph के नीचे का AREA = DISTANCE COVERED। क्योंकि Velocity × Time = Distance। यह Railway/SSC/NEET में बहुत important concept है - area calculate करके distance निकालते हैं!"
@@ -1453,10 +1696,22 @@
       "quiz_payload": {
         "question": "⭐ NEET Pattern: Uniform circular motion में क्या constant रहता है? (Q1/3)",
         "options": [
-          { "id": "A", "text": "Velocity (वेग)" },
-          { "id": "B", "text": "Speed (चाल)" },
-          { "id": "C", "text": "Acceleration (त्वरण)" },
-          { "id": "D", "text": "Displacement (विस्थापन)" }
+          {
+            "id": "A",
+            "text": "Velocity (वेग)"
+          },
+          {
+            "id": "B",
+            "text": "Speed (चाल)"
+          },
+          {
+            "id": "C",
+            "text": "Acceleration (त्वरण)"
+          },
+          {
+            "id": "D",
+            "text": "Displacement (विस्थापन)"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Uniform circular motion में SPEED (magnitude) constant रहती है, लेकिन VELOCITY नहीं (क्योंकि direction लगातार बदल रही है)। Acceleration भी constant नहीं (direction बदल रही है)। NEET में यह बहुत पूछा जाता है!"
@@ -1479,10 +1734,22 @@
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: Centripetal force की दिशा क्या होती है? (Q2/3)",
         "options": [
-          { "id": "A", "text": "वृत्त के बाहर की ओर" },
-          { "id": "B", "text": "वृत्त के केंद्र की ओर (Towards center)" },
-          { "id": "C", "text": "गति की दिशा में" },
-          { "id": "D", "text": "गति के लंबवत् (perpendicular)" }
+          {
+            "id": "A",
+            "text": "वृत्त के बाहर की ओर"
+          },
+          {
+            "id": "B",
+            "text": "वृत्त के केंद्र की ओर (Towards center)"
+          },
+          {
+            "id": "C",
+            "text": "गति की दिशा में"
+          },
+          {
+            "id": "D",
+            "text": "गति के लंबवत् (perpendicular)"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "CENTRIPETAL FORCE हमेशा वृत्त के CENTER की ओर directed होता है। 'Centripetal' शब्द का अर्थ ही है 'center-seeking'। यह force circular motion को maintain करता है। BPSC/Railway में direction बहुत पूछी जाती है!"
@@ -1505,10 +1772,22 @@
       "quiz_payload": {
         "question": "⭐ Railway Pattern Multi-Statement:\nकथन A: Centrifugal force एक real force है।\nकथन B: Circular motion में हमेशा acceleration होता है। (Q3/3)",
         "options": [
-          { "id": "A", "text": "A और B दोनों सही हैं" },
-          { "id": "B", "text": "केवल A सही है" },
-          { "id": "C", "text": "केवल B सही है" },
-          { "id": "D", "text": "न A, न B सही है" }
+          {
+            "id": "A",
+            "text": "A और B दोनों सही हैं"
+          },
+          {
+            "id": "B",
+            "text": "केवल A सही है"
+          },
+          {
+            "id": "C",
+            "text": "केवल B सही है"
+          },
+          {
+            "id": "D",
+            "text": "न A, न B सही है"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Statement A गलत: Centrifugal force एक PSEUDO FORCE (काल्पनिक बल) है, real नहीं। Statement B सही: Circular motion में direction लगातार बदल रही है, इसलिए velocity बदल रही है, मतलब acceleration है (centripetal)। Railway/BPSC trap यही है!"
@@ -1653,10 +1932,22 @@
       "quiz_payload": {
         "question": "⭐ NEET Pattern: एक गेंद को ऊपर की ओर फेंका जाता है। उच्चतम बिंदु (highest point) पर उसकी velocity क्या होगी? (Q1/3)",
         "options": [
-          { "id": "A", "text": "Maximum (अधिकतम)" },
-          { "id": "B", "text": "Zero (शून्य)" },
-          { "id": "C", "text": "9.8 m/s" },
-          { "id": "D", "text": "Initial velocity के बराबर" }
+          {
+            "id": "A",
+            "text": "Maximum (अधिकतम)"
+          },
+          {
+            "id": "B",
+            "text": "Zero (शून्य)"
+          },
+          {
+            "id": "C",
+            "text": "9.8 m/s"
+          },
+          {
+            "id": "D",
+            "text": "Initial velocity के बराबर"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "जब ball सबसे ऊंचे point पर पहुंचती है, तो उसकी velocity = 0 (Zero) हो जाती है। उसके बाद वह नीचे गिरना शुरू करती है। v = u - gt में v = 0 हो जाता है highest point पर। NEET में यह बहुत पूछा जाता है!"
@@ -1679,10 +1970,22 @@
       "quiz_payload": {
         "question": "⭐ Railway Pattern: दो trains विपरीत दिशा (opposite direction) में 40 km/h और 60 km/h की गति से चल रही हैं। एक train के सापेक्ष दूसरी की relative velocity क्या होगी? (Q2/3)",
         "options": [
-          { "id": "A", "text": "20 km/h" },
-          { "id": "B", "text": "100 km/h" },
-          { "id": "C", "text": "40 km/h" },
-          { "id": "D", "text": "60 km/h" }
+          {
+            "id": "A",
+            "text": "20 km/h"
+          },
+          {
+            "id": "B",
+            "text": "100 km/h"
+          },
+          {
+            "id": "C",
+            "text": "40 km/h"
+          },
+          {
+            "id": "D",
+            "text": "60 km/h"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Opposite direction में Relative Velocity = v₁ + v₂ = 40 + 60 = 100 km/h। विपरीत दिशा में velocities जुड़ती हैं। Railway RRB में relative motion के questions बहुत आते हैं - formula याद रखो!"
@@ -1705,10 +2008,22 @@
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: Free fall में किसी object का initial velocity (u) क्या होता है? (Q3/3)",
         "options": [
-          { "id": "A", "text": "9.8 m/s" },
-          { "id": "B", "text": "0 (Zero)" },
-          { "id": "C", "text": "Maximum" },
-          { "id": "D", "text": "Variable (परिवर्तनशील)" }
+          {
+            "id": "A",
+            "text": "9.8 m/s"
+          },
+          {
+            "id": "B",
+            "text": "0 (Zero)"
+          },
+          {
+            "id": "C",
+            "text": "Maximum"
+          },
+          {
+            "id": "D",
+            "text": "Variable (परिवर्तनशील)"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "FREE FALL में object को rest से छोड़ा जाता है (dropped from rest), इसलिए initial velocity u = 0 (Zero) होती है। फिर gravity के कारण वह accelerate होता है (a = g). BPSC/SSC में यह बहुत पूछा जाता है!"
@@ -1858,10 +2173,22 @@
       "quiz_payload": {
         "question": "🏆 BPSC OFFICER LEVEL - Multi-Statement Challenge:\n\nकथन A: एकसमान वृत्तीय गति में चाल (speed) नियत रहती है।\nकथन B: एकसमान वृत्तीय गति में वेग (velocity) नियत रहता है।\nकथन C: एकसमान वृत्तीय गति में त्वरण (acceleration) शून्य होता है।\nकथन D: अभिकेन्द्रीय बल (centripetal force) सदैव केंद्र की ओर कार्य करता है।\n\nसही कथनों का चयन करें:",
         "options": [
-          { "id": "A", "text": "केवल A और D सही हैं" },
-          { "id": "B", "text": "केवल A, B और D सही हैं" },
-          { "id": "C", "text": "सभी कथन सही हैं" },
-          { "id": "D", "text": "केवल B और C सही हैं" }
+          {
+            "id": "A",
+            "text": "केवल A और D सही हैं"
+          },
+          {
+            "id": "B",
+            "text": "केवल A, B और D सही हैं"
+          },
+          {
+            "id": "C",
+            "text": "सभी कथन सही हैं"
+          },
+          {
+            "id": "D",
+            "text": "केवल B और C सही हैं"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "✅ Statement A सही: Uniform circular motion में SPEED constant रहती है।\n\n❌ Statement B गलत: VELOCITY constant नहीं रहती क्योंकि direction लगातार बदल रही है (velocity = vector)।\n\n❌ Statement C गलत: Direction change हो रही है इसलिए acceleration ZERO नहीं है - centripetal acceleration होता है।\n\n✅ Statement D सही: Centripetal force हमेशा center की ओर directed होता है।\n\nइसलिए केवल A और D सही हैं। यह BPSC का classic trap है - Speed vs Velocity confusion!"
@@ -1884,10 +2211,22 @@
       "quiz_payload": {
         "question": "🎯 NEET LEVEL - Assertion-Reason Pattern:\n\nअभिकथन (Assertion): किसी वस्तु का विस्थापन (displacement) उसकी तय की गई दूरी (distance) से अधिक नहीं हो सकता।\n\nकारण (Reason): विस्थापन प्रारंभिक और अंतिम स्थिति के बीच की न्यूनतम दूरी होती है।\n\nसही विकल्प चुनें:",
         "options": [
-          { "id": "A", "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है" },
-          { "id": "B", "text": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है" },
-          { "id": "C", "text": "A सही है लेकिन R गलत है" },
-          { "id": "D", "text": "A गलत है लेकिन R सही है" }
+          {
+            "id": "A",
+            "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है"
+          },
+          {
+            "id": "B",
+            "text": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है"
+          },
+          {
+            "id": "C",
+            "text": "A सही है लेकिन R गलत है"
+          },
+          {
+            "id": "D",
+            "text": "A गलत है लेकिन R सही है"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "✅ Assertion सही है: Displacement कभी भी Distance से अधिक नहीं हो सकता। Mathematical relation: Displacement ≤ Distance (हमेशा)।\n\n✅ Reason सही है: Displacement वास्तव में initial और final position के बीच की SHORTEST STRAIGHT LINE distance है।\n\n✅ Reason, Assertion की CORRECT व्याख्या है: क्योंकि displacement shortest path है, इसलिए वह कभी भी actual path (distance) से अधिक नहीं हो सकता।\n\nइसलिए Answer: A (दोनों सही और R, A की सही व्याख्या करता है)। NEET/AIIMS में Assertion-Reason बहुत पूछा जाता है!"
@@ -1910,10 +2249,22 @@
       "quiz_payload": {
         "question": "🚂 Railway RRB LEVEL - Numerical Challenge:\n\nएक गाड़ी 20 m/s की गति से चल रही है। Brake लगाने पर वह 4 m/s² की दर से धीमी होती है (retardation = -4 m/s²)। गाड़ी पूरी तरह रुकने में कितनी दूरी तय करेगी?\n\n(Use: v² = u² + 2as)",
         "options": [
-          { "id": "A", "text": "25 m" },
-          { "id": "B", "text": "50 m" },
-          { "id": "C", "text": "100 m" },
-          { "id": "D", "text": "200 m" }
+          {
+            "id": "A",
+            "text": "25 m"
+          },
+          {
+            "id": "B",
+            "text": "50 m"
+          },
+          {
+            "id": "C",
+            "text": "100 m"
+          },
+          {
+            "id": "D",
+            "text": "200 m"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Third Equation of Motion: v² = u² + 2as\n\nDिया है:\n- u = 20 m/s (initial velocity)\n- v = 0 (final velocity, क्योंकि रुक जाएगी)\n- a = -4 m/s² (retardation, इसलिए negative)\n\nFormula में substitute करें:\n0² = (20)² + 2(-4)s\n0 = 400 - 8s\n8s = 400\ns = 50 m\n\nगाड़ी रुकने से पहले 50 meters तय करेगी। Railway RRB में braking distance के numerical बहुत आते हैं - v² = u² + 2as formula याद रखो!"
@@ -1936,10 +2287,22 @@
       "quiz_payload": {
         "question": "📊 SSC CGL LEVEL - Graph Analysis:\n\nएक Velocity-Time graph दिया गया है जो 0 से 10 seconds तक एक सीधी horizontal line है (velocity = 5 m/s constant)। इस graph से निम्न में से क्या निष्कर्ष निकलता है?",
         "options": [
-          { "id": "A", "text": "वस्तु का acceleration 5 m/s² है" },
-          { "id": "B", "text": "वस्तु uniform motion में है, acceleration = 0" },
-          { "id": "C", "text": "वस्तु rest में है" },
-          { "id": "D", "text": "10 seconds में तय दूरी = 5 m" }
+          {
+            "id": "A",
+            "text": "वस्तु का acceleration 5 m/s² है"
+          },
+          {
+            "id": "B",
+            "text": "वस्तु uniform motion में है, acceleration = 0"
+          },
+          {
+            "id": "C",
+            "text": "वस्तु rest में है"
+          },
+          {
+            "id": "D",
+            "text": "10 seconds में तय दूरी = 5 m"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Velocity-Time graph में HORIZONTAL LINE (flat) का मतलब है velocity CONSTANT है (5 m/s)।\n\nVelocity constant = Uniform Motion = Acceleration = 0 (Zero)।\n\nGraph का slope = acceleration। Horizontal line का slope = 0, इसलिए a = 0।\n\nOption A गलत: a = 0, not 5.\nOption C गलत: Velocity 5 m/s है, rest में नहीं.\nOption D गलत: Distance = Area under graph = 5 × 10 = 50 m (not 5 m).\n\n✅ Option B सही है। SSC CGL में graph interpretation बहुत पूछा जाता है!"
@@ -1962,10 +2325,22 @@
       "quiz_payload": {
         "question": "⭐ BPSC TRE LEVEL - Conceptual Trap:\n\nएक गेंद को ऊपर की ओर फेंका जाता है। उच्चतम बिंदु (highest point) पर:\n\nकथन I: गेंद का वेग (velocity) शून्य होता है।\nकथन II: गेंद का त्वरण (acceleration) शून्य होता है।\n\nसही विकल्प चुनें:",
         "options": [
-          { "id": "A", "text": "केवल कथन I सही है" },
-          { "id": "B", "text": "केवल कथन II सही है" },
-          { "id": "C", "text": "दोनों कथन सही हैं" },
-          { "id": "D", "text": "दोनों कथन गलत हैं" }
+          {
+            "id": "A",
+            "text": "केवल कथन I सही है"
+          },
+          {
+            "id": "B",
+            "text": "केवल कथन II सही है"
+          },
+          {
+            "id": "C",
+            "text": "दोनों कथन सही हैं"
+          },
+          {
+            "id": "D",
+            "text": "दोनों कथन गलत हैं"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "✅ कथन I सही है: Highest point पर velocity = 0 (Zero) हो जाती है। यह वह moment है जब ball ऊपर जाना बंद करके नीचे आना शुरू करती है।\n\n❌ कथन II गलत है: Acceleration ZERO नहीं होता! Gravity (g = 9.8 m/s²) लगातार नीचे की ओर काम कर रही है - हर समय, हर point पर!\n\n⭐ यह BPSC/NEET का सबसे बड़ा trap है! Students सोचते हैं velocity = 0 तो acceleration भी 0 होगा - पर यह गलत है! Gravity कभी बंद नहीं होती!\n\nHighest point पर: v = 0, लेकिन a = g (downward) = -9.8 m/s²।\n\nइसीलिए केवल कथन I सही है। BPSC TRE में यह बहुत पूछा जाता है!"
@@ -1988,10 +2363,22 @@
       "quiz_payload": {
         "question": "🎓 UPSC PRELIMS LEVEL - Advanced Application:\n\nदो रेलगाड़ियाँ विपरीत दिशाओं में 72 km/h और 54 km/h की चाल से चल रही हैं। वे एक-दूसरे को कितने समय में पार कर लेंगी यदि प्रत्येक की लंबाई 100 m हो?\n\n(पहले relative velocity निकालो, फिर total distance/relative velocity)",
         "options": [
-          { "id": "A", "text": "5.71 seconds" },
-          { "id": "B", "text": "10 seconds" },
-          { "id": "C", "text": "20 seconds" },
-          { "id": "D", "text": "40 seconds" }
+          {
+            "id": "A",
+            "text": "5.71 seconds"
+          },
+          {
+            "id": "B",
+            "text": "10 seconds"
+          },
+          {
+            "id": "C",
+            "text": "20 seconds"
+          },
+          {
+            "id": "D",
+            "text": "40 seconds"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Step 1: Units convert करो (km/h → m/s):\n72 km/h = 72 × (5/18) = 20 m/s\n54 km/h = 54 × (5/18) = 15 m/s\n\nStep 2: Opposite direction में Relative Velocity:\nv_rel = v₁ + v₂ = 20 + 15 = 35 m/s\n\nStep 3: Total distance to cross:\nदोनों trains को पूरी तरह cross करने के लिए = Length₁ + Length₂ = 100 + 100 = 200 m\n\nStep 4: Time = Distance / Velocity:\nTime = 200 / 35 = 5.71 seconds\n\nUPSC Prelims में ऐसे multi-step problems आते हैं - relative motion + unit conversion + numerical calculation! याद रखो:\n- Opposite direction: velocities जोड़ो\n- Same direction: velocities घटाओ\n- km/h को m/s में convert करने के लिए × (5/18) करो"
@@ -2167,4 +2554,3 @@
     }
   ]
 }
-```

@@ -1,8 +1,15 @@
-```json
 {
   "topic_id": "light_optics_complete",
   "topic_title": "Light & Optics - Complete Mastery",
-  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
+  "target_exams": [
+    "BPSC",
+    "BSSC",
+    "RRB NTPC",
+    "SSC CGL",
+    "NEET",
+    "UPSC Prelims",
+    "BPSC TRE"
+  ],
   "total_cards": 72,
   "characters": {
     "aman": {
@@ -30,7 +37,15 @@
       "intro_payload": {
         "title": "Light & Optics",
         "icon": "💡",
-        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
+        "target_exams": [
+          "BPSC",
+          "BSSC",
+          "RRB NTPC",
+          "SSC CGL",
+          "NEET",
+          "UPSC Prelims",
+          "BPSC TRE"
+        ],
         "learning_outcomes": [
           "Nature of Light - Wave & Particle Duality",
           "Reflection - Plane & Curved Mirrors",
@@ -259,10 +274,22 @@
       "quiz_payload": {
         "question": "Which of the following is a luminous object?",
         "options": [
-          { "id": "A", "text": "Moon" },
-          { "id": "B", "text": "Planet Venus" },
-          { "id": "C", "text": "Firefly (Jugnu)" },
-          { "id": "D", "text": "Mirror" }
+          {
+            "id": "A",
+            "text": "Moon"
+          },
+          {
+            "id": "B",
+            "text": "Planet Venus"
+          },
+          {
+            "id": "C",
+            "text": "Firefly (Jugnu)"
+          },
+          {
+            "id": "D",
+            "text": "Mirror"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Firefly (Jugnu) is a luminous object because it produces its own light through bioluminescence. Moon, Venus, and Mirror are all non-luminous - they only reflect light from the Sun. ⭐ BPSC/SSC Favorite Trap - Moon is often wrongly considered luminous!"
@@ -285,10 +312,22 @@
       "quiz_payload": {
         "question": "Rectilinear propagation of light is best demonstrated by which phenomenon?",
         "options": [
-          { "id": "A", "text": "Rainbow formation" },
-          { "id": "B", "text": "Formation of shadows" },
-          { "id": "C", "text": "Twinkling of stars" },
-          { "id": "D", "text": "Mirage on hot roads" }
+          {
+            "id": "A",
+            "text": "Rainbow formation"
+          },
+          {
+            "id": "B",
+            "text": "Formation of shadows"
+          },
+          {
+            "id": "C",
+            "text": "Twinkling of stars"
+          },
+          {
+            "id": "D",
+            "text": "Mirage on hot roads"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Formation of shadows proves that light travels in straight lines (rectilinear propagation). Rainbow involves dispersion, twinkling involves refraction in atmosphere, and mirage involves refraction + total internal reflection. ⭐ Railway/SSC Favorite - Shadow, pinhole camera, solar eclipse all demonstrate rectilinear propagation."
@@ -311,10 +350,22 @@
       "quiz_payload": {
         "question": "The scientist who proposed the wave theory of light was:",
         "options": [
-          { "id": "A", "text": "Isaac Newton" },
-          { "id": "B", "text": "Christiaan Huygens" },
-          { "id": "C", "text": "Albert Einstein" },
-          { "id": "D", "text": "Thomas Young" }
+          {
+            "id": "A",
+            "text": "Isaac Newton"
+          },
+          {
+            "id": "B",
+            "text": "Christiaan Huygens"
+          },
+          {
+            "id": "C",
+            "text": "Albert Einstein"
+          },
+          {
+            "id": "D",
+            "text": "Thomas Young"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Christiaan Huygens proposed the wave theory of light in 1678. Newton proposed corpuscular (particle) theory. Thomas Young proved wave nature experimentally through double-slit experiment (1801). Einstein explained particle nature (photon) through photoelectric effect (1905). ⭐ BPSC/UPSC Favorite - Scientist-Discovery matching questions!"
@@ -558,10 +609,22 @@
       "quiz_payload": {
         "question": "A ray of light is incident on a plane mirror at an angle of 40° with the mirror surface. What is the angle of reflection measured from the normal?",
         "options": [
-          { "id": "A", "text": "40°" },
-          { "id": "B", "text": "50°" },
-          { "id": "C", "text": "90°" },
-          { "id": "D", "text": "80°" }
+          {
+            "id": "A",
+            "text": "40°"
+          },
+          {
+            "id": "B",
+            "text": "50°"
+          },
+          {
+            "id": "C",
+            "text": "90°"
+          },
+          {
+            "id": "D",
+            "text": "80°"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ Classic BPSC/NEET Trap! Angle is given with the mirror surface (40°), but angle of reflection is measured from the NORMAL. Angle with normal = 90° - 40° = 50°. Since angle of incidence = angle of reflection (both measured from normal), answer is 50°. Never measure angles from the surface!"
@@ -584,10 +647,22 @@
       "quiz_payload": {
         "question": "Which of the following statements about the image formed by a plane mirror is INCORRECT?",
         "options": [
-          { "id": "A", "text": "Image is virtual and erect" },
-          { "id": "B", "text": "Image distance equals object distance" },
-          { "id": "C", "text": "Image can be projected on a screen" },
-          { "id": "D", "text": "Image is laterally inverted" }
+          {
+            "id": "A",
+            "text": "Image is virtual and erect"
+          },
+          {
+            "id": "B",
+            "text": "Image distance equals object distance"
+          },
+          {
+            "id": "C",
+            "text": "Image can be projected on a screen"
+          },
+          {
+            "id": "D",
+            "text": "Image is laterally inverted"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Virtual images CANNOT be projected on a screen - only real images can. Plane mirror always forms virtual, erect, same-sized, laterally inverted image at same distance behind the mirror. ⭐ BPSC TRE/SSC Favorite - Virtual vs Real image property trap!"
@@ -610,10 +685,22 @@
       "quiz_payload": {
         "question": "Two plane mirrors are placed at an angle of 72° to each other. How many images will be formed?",
         "options": [
-          { "id": "A", "text": "4" },
-          { "id": "B", "text": "5" },
-          { "id": "C", "text": "6" },
-          { "id": "D", "text": "3" }
+          {
+            "id": "A",
+            "text": "4"
+          },
+          {
+            "id": "B",
+            "text": "5"
+          },
+          {
+            "id": "C",
+            "text": "6"
+          },
+          {
+            "id": "D",
+            "text": "3"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Formula: Number of images = (360/θ) - 1 = (360/72) - 1 = 5 - 1 = 4 images. ⭐ SSC/Railway Favorite Formula-based question! Remember: for parallel mirrors (θ=0°), infinite images form. For perpendicular mirrors (θ=90°), 3 images form."
@@ -890,10 +977,22 @@
       "quiz_payload": {
         "question": "The focal length of a spherical mirror is 15 cm. What is its radius of curvature?",
         "options": [
-          { "id": "A", "text": "7.5 cm" },
-          { "id": "B", "text": "15 cm" },
-          { "id": "C", "text": "30 cm" },
-          { "id": "D", "text": "45 cm" }
+          {
+            "id": "A",
+            "text": "7.5 cm"
+          },
+          {
+            "id": "B",
+            "text": "15 cm"
+          },
+          {
+            "id": "C",
+            "text": "30 cm"
+          },
+          {
+            "id": "D",
+            "text": "45 cm"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Fundamental relation: R = 2f. Given f = 15 cm, so R = 2 × 15 = 30 cm. This relation holds for BOTH concave and convex mirrors. ⭐ SSC/Railway Direct Formula Question - most frequently asked!"
@@ -916,10 +1015,22 @@
       "quiz_payload": {
         "question": "Which type of mirror is used as a rear-view mirror in vehicles and why?",
         "options": [
-          { "id": "A", "text": "Concave mirror - gives magnified image" },
-          { "id": "B", "text": "Convex mirror - gives wider field of view" },
-          { "id": "C", "text": "Plane mirror - gives same size image" },
-          { "id": "D", "text": "Concave mirror - converges light rays" }
+          {
+            "id": "A",
+            "text": "Concave mirror - gives magnified image"
+          },
+          {
+            "id": "B",
+            "text": "Convex mirror - gives wider field of view"
+          },
+          {
+            "id": "C",
+            "text": "Plane mirror - gives same size image"
+          },
+          {
+            "id": "D",
+            "text": "Concave mirror - converges light rays"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Convex mirror is used as rear-view mirror because it: (1) Always forms erect, virtual, diminished image, (2) Provides wider field of view (can see more area behind), (3) Images are smaller so more vehicles visible. ⭐ BPSC/SSC Application Favorite Question!"
@@ -942,10 +1053,22 @@
       "quiz_payload": {
         "question": "An object is placed between the pole and focus of a concave mirror. The image formed will be:",
         "options": [
-          { "id": "A", "text": "Real, inverted, magnified" },
-          { "id": "B", "text": "Virtual, erect, magnified" },
-          { "id": "C", "text": "Real, erect, diminished" },
-          { "id": "D", "text": "Virtual, inverted, diminished" }
+          {
+            "id": "A",
+            "text": "Real, inverted, magnified"
+          },
+          {
+            "id": "B",
+            "text": "Virtual, erect, magnified"
+          },
+          {
+            "id": "C",
+            "text": "Real, erect, diminished"
+          },
+          {
+            "id": "D",
+            "text": "Virtual, inverted, diminished"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "When object is placed between pole (P) and focus (F) of a concave mirror, image is formed BEHIND the mirror (virtual), erect (upright), and magnified (larger). This is why dentists and makeup artists use concave mirrors - they give enlarged, upright view when object is close! ⭐ NEET/BPSC High-Frequency Question!"
@@ -1321,10 +1444,22 @@
       "quiz_payload": {
         "question": "When light travels from air to glass, it:",
         "options": [
-          { "id": "A", "text": "Bends away from the normal and speeds up" },
-          { "id": "B", "text": "Bends towards the normal and slows down" },
-          { "id": "C", "text": "Bends away from the normal and slows down" },
-          { "id": "D", "text": "Travels in straight line with same speed" }
+          {
+            "id": "A",
+            "text": "Bends away from the normal and speeds up"
+          },
+          {
+            "id": "B",
+            "text": "Bends towards the normal and slows down"
+          },
+          {
+            "id": "C",
+            "text": "Bends away from the normal and slows down"
+          },
+          {
+            "id": "D",
+            "text": "Travels in straight line with same speed"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Air is rarer (n≈1), glass is denser (n≈1.5). When light travels from rarer to denser medium: (1) It bends TOWARDS the normal, (2) Speed DECREASES. ⭐ BPSC/NEET Multi-Statement Favorite Trap - both properties must be correct!"
@@ -1347,10 +1482,22 @@
       "quiz_payload": {
         "question": "Twinkling of stars is due to:",
         "options": [
-          { "id": "A", "text": "Reflection of light from clouds" },
-          { "id": "B", "text": "Atmospheric refraction" },
-          { "id": "C", "text": "Total internal reflection" },
-          { "id": "D", "text": "Dispersion of light" }
+          {
+            "id": "A",
+            "text": "Reflection of light from clouds"
+          },
+          {
+            "id": "B",
+            "text": "Atmospheric refraction"
+          },
+          {
+            "id": "C",
+            "text": "Total internal reflection"
+          },
+          {
+            "id": "D",
+            "text": "Dispersion of light"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Twinkling of stars is caused by atmospheric refraction. Starlight passes through multiple layers of Earth's atmosphere with varying densities and continuously changing refractive indices (due to turbulence), causing the apparent position and brightness to fluctuate. ⭐ SSC/Railway/BPSC High-Frequency Question! Planets don't twinkle because they are extended sources."
@@ -1373,10 +1520,22 @@
       "quiz_payload": {
         "question": "Total Internal Reflection can take place when light travels from:",
         "options": [
-          { "id": "A", "text": "Air to water" },
-          { "id": "B", "text": "Air to glass" },
-          { "id": "C", "text": "Water to air" },
-          { "id": "D", "text": "Vacuum to glass" }
+          {
+            "id": "A",
+            "text": "Air to water"
+          },
+          {
+            "id": "B",
+            "text": "Air to glass"
+          },
+          {
+            "id": "C",
+            "text": "Water to air"
+          },
+          {
+            "id": "D",
+            "text": "Vacuum to glass"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Total Internal Reflection occurs ONLY when light travels from DENSER to RARER medium and angle of incidence exceeds critical angle. Water (denser, n=1.33) to Air (rarer, n=1) satisfies this condition. Air to water/glass is rarer to denser - TIR impossible. ⭐ NEET/BPSC Conceptual Trap!"
@@ -1686,10 +1845,22 @@
       "quiz_payload": {
         "question": "A lens has a focal length of -25 cm. What is its power and type?",
         "options": [
-          { "id": "A", "text": "+4 D, Convex lens" },
-          { "id": "B", "text": "-4 D, Concave lens" },
-          { "id": "C", "text": "+0.04 D, Convex lens" },
-          { "id": "D", "text": "-0.04 D, Concave lens" }
+          {
+            "id": "A",
+            "text": "+4 D, Convex lens"
+          },
+          {
+            "id": "B",
+            "text": "-4 D, Concave lens"
+          },
+          {
+            "id": "C",
+            "text": "+0.04 D, Convex lens"
+          },
+          {
+            "id": "D",
+            "text": "-0.04 D, Concave lens"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Power P = 1/f, where f is in meters. f = -25 cm = -0.25 m. P = 1/(-0.25) = -4 D. Negative focal length → Concave lens. Negative power → Concave lens (used for myopia correction). ⭐ SSC/Railway Direct Calculation Favorite!"
@@ -1712,10 +1883,22 @@
       "quiz_payload": {
         "question": "A person is suffering from myopia (short-sightedness). Which lens should be used to correct this defect?",
         "options": [
-          { "id": "A", "text": "Convex lens" },
-          { "id": "B", "text": "Concave lens" },
-          { "id": "C", "text": "Cylindrical lens" },
-          { "id": "D", "text": "Bifocal lens" }
+          {
+            "id": "A",
+            "text": "Convex lens"
+          },
+          {
+            "id": "B",
+            "text": "Concave lens"
+          },
+          {
+            "id": "C",
+            "text": "Cylindrical lens"
+          },
+          {
+            "id": "D",
+            "text": "Bifocal lens"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Myopia (near-sightedness) - distant objects appear blurred because image forms BEFORE the retina. Concave lens (diverging) is used to diverge rays before entering eye, so image shifts back to retina. ⭐ BPSC/SSC/NEET High-Frequency Application Question! Hypermetropia uses convex lens."
@@ -1738,10 +1921,22 @@
       "quiz_payload": {
         "question": "An object is placed between the optical centre and focus of a convex lens. The image formed will be:",
         "options": [
-          { "id": "A", "text": "Real, inverted, magnified" },
-          { "id": "B", "text": "Virtual, erect, magnified" },
-          { "id": "C", "text": "Real, erect, diminished" },
-          { "id": "D", "text": "Virtual, inverted, diminished" }
+          {
+            "id": "A",
+            "text": "Real, inverted, magnified"
+          },
+          {
+            "id": "B",
+            "text": "Virtual, erect, magnified"
+          },
+          {
+            "id": "C",
+            "text": "Real, erect, diminished"
+          },
+          {
+            "id": "D",
+            "text": "Virtual, inverted, diminished"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "When object is placed between optical centre (O) and focus (F) of a convex lens, image is formed on the SAME side as object (virtual), erect (upright), and magnified (larger). This is the principle of a magnifying glass (hand lens). ⭐ NEET/BPSC Position-Based Image Property Question!"
@@ -2084,10 +2279,22 @@
       "quiz_payload": {
         "question": "Consider the following statements about the human eye:\n1. The image formed on the retina is real and inverted.\n2. The crystalline lens has a fixed focal length.\n3. Rods are responsible for color vision.\n\nWhich of the above statements is/are CORRECT?",
         "options": [
-          { "id": "A", "text": "Only 1" },
-          { "id": "B", "text": "1 and 2 only" },
-          { "id": "C", "text": "1 and 3 only" },
-          { "id": "D", "text": "All three" }
+          {
+            "id": "A",
+            "text": "Only 1"
+          },
+          {
+            "id": "B",
+            "text": "1 and 2 only"
+          },
+          {
+            "id": "C",
+            "text": "1 and 3 only"
+          },
+          {
+            "id": "D",
+            "text": "All three"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "⭐ BPSC Multi-Statement Trap! Statement 1 CORRECT - Retina pe real, inverted image banti hai. Statement 2 WRONG - Crystalline lens has VARIABLE focal length (power of accommodation through ciliary muscles). Statement 3 WRONG - CONES are responsible for color vision; RODS are for dim light (black-white vision). Only Statement 1 is correct!"
@@ -2110,10 +2317,22 @@
       "quiz_payload": {
         "question": "Match the following:\nList I (Phenomenon) - List II (Cause)\nA. Twinkling of stars - 1. Dispersion\nB. Rainbow formation - 2. Scattering\nC. Blue color of sky - 3. Atmospheric refraction\nD. Advanced sunrise - 4. Total Internal Reflection\n\nCorrect matching:",
         "options": [
-          { "id": "A", "text": "A-3, B-1, C-2, D-3" },
-          { "id": "B", "text": "A-2, B-4, C-1, D-3" },
-          { "id": "C", "text": "A-3, B-4, C-2, D-1" },
-          { "id": "D", "text": "A-4, B-1, C-3, D-2" }
+          {
+            "id": "A",
+            "text": "A-3, B-1, C-2, D-3"
+          },
+          {
+            "id": "B",
+            "text": "A-2, B-4, C-1, D-3"
+          },
+          {
+            "id": "C",
+            "text": "A-3, B-4, C-2, D-1"
+          },
+          {
+            "id": "D",
+            "text": "A-4, B-1, C-3, D-2"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "⭐ UPSC/BPSC Matching Type Favorite! Correct matching: A-3 (Twinkling → Atmospheric refraction through turbulent air layers), B-1 (Rainbow → Dispersion + Internal reflection in water droplets), C-2 (Blue sky → Rayleigh scattering of shorter wavelengths), D-3 (Advanced sunrise/Delayed sunset → Atmospheric refraction bends sunlight). All atmospheric phenomena!"
@@ -2136,10 +2355,22 @@
       "quiz_payload": {
         "question": "Assertion (A): A convex lens of focal length 10 cm will have a power of +10 D.\nReason (R): Power of a lens is the reciprocal of focal length in meters and is measured in dioptre.",
         "options": [
-          { "id": "A", "text": "Both A and R are true, and R is the correct explanation of A" },
-          { "id": "B", "text": "Both A and R are true, but R is NOT the correct explanation of A" },
-          { "id": "C", "text": "A is true, but R is false" },
-          { "id": "D", "text": "A is false, but R is true" }
+          {
+            "id": "A",
+            "text": "Both A and R are true, and R is the correct explanation of A"
+          },
+          {
+            "id": "B",
+            "text": "Both A and R are true, but R is NOT the correct explanation of A"
+          },
+          {
+            "id": "C",
+            "text": "A is true, but R is false"
+          },
+          {
+            "id": "D",
+            "text": "A is false, but R is true"
+          }
         ],
         "correct_option_id": "D",
         "explanation": "⭐ BPSC/NEET Assertion-Reason Master Trap! Reason (R) is ABSOLUTELY TRUE - Power P = 1/f (f in meters), unit Dioptre. Assertion (A) is FALSE - f = 10 cm = 0.1 m, so P = 1/0.1 = +10 D is CORRECT numerically BUT the statement says focal length 10 cm gives +10D which is CALCULATION ERROR! Actually it gives +10D when f=0.1m (10cm). Wait - let me recalculate: f=10cm=0.1m → P=1/0.1=10D. So A is TRUE! Both true, R explains A. Answer should be A! Correct Answer: A (Both true, R explains A correctly)."
@@ -2214,4 +2445,3 @@
     }
   ]
 }
-```

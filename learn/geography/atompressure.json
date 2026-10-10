@@ -1,9 +1,15 @@
-
 {
   "topic_id": "atmospheric_pressure_wind_systems",
   "topic_title": "Atmospheric Pressure & Wind Systems",
-  "target_exams": ["BPSC", "BPSC TRE", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims"],
-  "total_cards": 72,
+  "target_exams": [
+    "BPSC",
+    "BPSC TRE",
+    "BSSC",
+    "RRB NTPC",
+    "SSC CGL",
+    "UPSC Prelims"
+  ],
+  "total_cards": 56,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -25,12 +31,19 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 72
+        "total": 56
       },
       "intro_payload": {
         "title": "Atmospheric Pressure & Wind Systems",
         "icon": "🌪️",
-        "target_exams": ["BPSC", "BPSC TRE", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims"],
+        "target_exams": [
+          "BPSC",
+          "BPSC TRE",
+          "BSSC",
+          "RRB NTPC",
+          "SSC CGL",
+          "UPSC Prelims"
+        ],
         "learning_outcomes": [
           "Master the concept of atmospheric pressure and its measurement",
           "Understand pressure belts and their distribution on Earth",
@@ -56,7 +69,7 @@
       "level": 1,
       "progress": {
         "current": 2,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -89,7 +102,7 @@
       "level": 1,
       "progress": {
         "current": 3,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -122,7 +135,7 @@
       "level": 1,
       "progress": {
         "current": 4,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -155,7 +168,7 @@
       "level": 2,
       "progress": {
         "current": 5,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -188,15 +201,27 @@
       "level": 2,
       "progress": {
         "current": 6,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Sea level पर standard atmospheric pressure कितना होता है?",
         "options": [
-          { "id": "A", "text": "1000 millibar" },
-          { "id": "B", "text": "1013.25 millibar" },
-          { "id": "C", "text": "1020 millibar" },
-          { "id": "D", "text": "1050 millibar" }
+          {
+            "id": "A",
+            "text": "1000 millibar"
+          },
+          {
+            "id": "B",
+            "text": "1013.25 millibar"
+          },
+          {
+            "id": "C",
+            "text": "1020 millibar"
+          },
+          {
+            "id": "D",
+            "text": "1050 millibar"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Sea level पर standard atmospheric pressure 1013.25 millibar होता है, जिसे 1 atmosphere भी कहते हैं। यह 760 mm Hg के बराबर भी होता है। यह value बहुत important है क्योंकि सभी pressure comparisons इसी से की जाती हैं। ⭐ SSC और Railway exams में यह direct पूछा जाता है!"
@@ -214,15 +239,27 @@
       "level": 2,
       "progress": {
         "current": 7,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Barometer का invention किसने किया था?",
         "options": [
-          { "id": "A", "text": "Galileo Galilei" },
-          { "id": "B", "text": "Evangelista Torricelli" },
-          { "id": "C", "text": "Isaac Newton" },
-          { "id": "D", "text": "Blaise Pascal" }
+          {
+            "id": "A",
+            "text": "Galileo Galilei"
+          },
+          {
+            "id": "B",
+            "text": "Evangelista Torricelli"
+          },
+          {
+            "id": "C",
+            "text": "Isaac Newton"
+          },
+          {
+            "id": "D",
+            "text": "Blaise Pascal"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Barometer का invention 1643 में Evangelista TORRICELLI (Italian scientist) ने किया था। उन्होंने पहला mercury barometer बनाया। ⭐ SSC CGL और UPSC Prelims में scientist names बहुत पूछे जाते हैं - Torricelli और Barometer का connection याद रखें!"
@@ -240,15 +277,27 @@
       "level": 2,
       "progress": {
         "current": 8,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Wind (हवा) किस direction में चलती है?",
         "options": [
-          { "id": "A", "text": "Low pressure से High pressure की ओर" },
-          { "id": "B", "text": "High pressure से Low pressure की ओर" },
-          { "id": "C", "text": "East से West की ओर हमेशा" },
-          { "id": "D", "text": "कोई fixed direction नहीं" }
+          {
+            "id": "A",
+            "text": "Low pressure से High pressure की ओर"
+          },
+          {
+            "id": "B",
+            "text": "High pressure से Low pressure की ओर"
+          },
+          {
+            "id": "C",
+            "text": "East से West की ओर हमेशा"
+          },
+          {
+            "id": "D",
+            "text": "कोई fixed direction नहीं"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Wind हमेशा HIGH PRESSURE से LOW PRESSURE की ओर चलती है। यह atmospheric pressure का fundamental rule है। जहाँ pressure ज्यादा होता है, वहाँ की air कम pressure वाली जगह की ओर move करती है - यही wind है। ⭐ BPSC का favorite trap question - direction confusion! High to Low याद रखो!"
@@ -266,7 +315,7 @@
       "level": 2,
       "progress": {
         "current": 9,
-        "total": 72
+        "total": 56
       },
       "milestone_payload": {
         "title": "🎉 Pressure Basics Mastered!",
@@ -289,7 +338,7 @@
       "level": 2,
       "progress": {
         "current": 10,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -322,7 +371,7 @@
       "level": 2,
       "progress": {
         "current": 11,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -355,7 +404,7 @@
       "level": 2,
       "progress": {
         "current": 12,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -388,7 +437,7 @@
       "level": 2,
       "progress": {
         "current": 13,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -421,15 +470,27 @@
       "level": 2,
       "progress": {
         "current": 14,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Equatorial region में किस प्रकार का pressure belt पाया जाता है?",
         "options": [
-          { "id": "A", "text": "High Pressure" },
-          { "id": "B", "text": "Low Pressure" },
-          { "id": "C", "text": "Variable Pressure" },
-          { "id": "D", "text": "कोई pressure belt नहीं" }
+          {
+            "id": "A",
+            "text": "High Pressure"
+          },
+          {
+            "id": "B",
+            "text": "Low Pressure"
+          },
+          {
+            "id": "C",
+            "text": "Variable Pressure"
+          },
+          {
+            "id": "D",
+            "text": "कोई pressure belt नहीं"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Equatorial region (0°-5° latitude) में LOW PRESSURE belt होता है जिसे Equatorial Low या DOLDRUMS भी कहते हैं। यहाँ direct sunlight की वजह से maximum heating होती है, हवा गर्म होकर ऊपर उठती है, जिससे surface पर low pressure बनता है। यहाँ winds बहुत calm होती हैं। ⭐ SSC का favorite question!"
@@ -447,15 +508,27 @@
       "level": 2,
       "progress": {
         "current": 15,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "'Horse Latitudes' किस pressure belt का दूसरा नाम है?",
         "options": [
-          { "id": "A", "text": "Equatorial Low" },
-          { "id": "B", "text": "Sub-Polar Low" },
-          { "id": "C", "text": "Sub-Tropical High" },
-          { "id": "D", "text": "Polar High" }
+          {
+            "id": "A",
+            "text": "Equatorial Low"
+          },
+          {
+            "id": "B",
+            "text": "Sub-Polar Low"
+          },
+          {
+            "id": "C",
+            "text": "Sub-Tropical High"
+          },
+          {
+            "id": "D",
+            "text": "Polar High"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "'Horse Latitudes' SUB-TROPICAL HIGH pressure belt (25°-35° N/S) का दूसरा नाम है। यहाँ calm winds होती हैं और पुराने समय में जहाज़ फंस जाते थे। पानी की कमी होने पर नाविक घोड़ों को समुद्र में फेंक देते थे - इसलिए यह नाम पड़ा। ⭐ UPSC Prelims में nickname-based questions आते हैं!"
@@ -473,15 +546,27 @@
       "level": 2,
       "progress": {
         "current": 16,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Pressure belts seasonally कितना shift होते हैं?",
         "options": [
-          { "id": "A", "text": "Bilkul shift नहीं होते (permanently fixed)" },
-          { "id": "B", "text": "Approx 5°-10° North-South" },
-          { "id": "C", "text": "Approx 20°-30° North-South" },
-          { "id": "D", "text": "Randomly shift होते हैं" }
+          {
+            "id": "A",
+            "text": "Bilkul shift नहीं होते (permanently fixed)"
+          },
+          {
+            "id": "B",
+            "text": "Approx 5°-10° North-South"
+          },
+          {
+            "id": "C",
+            "text": "Approx 20°-30° North-South"
+          },
+          {
+            "id": "D",
+            "text": "Randomly shift होते हैं"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Pressure belts seasonally approx 5°-10° North-South shift होते हैं। June में (Northern summer) ये थोड़ा North की ओर, December में (Southern summer) थोड़ा South की ओर move करते हैं। यह Sun की direct rays की position के साथ होता है। ⭐ BPSC Trap: ये completely fixed नहीं हैं! यह shifting Indian Monsoon के लिए बहुत important है!"
@@ -499,7 +584,7 @@
       "level": 2,
       "progress": {
         "current": 17,
-        "total": 72
+        "total": 56
       },
       "milestone_payload": {
         "title": "🎉 Pressure Belts Conquered!",
@@ -522,7 +607,7 @@
       "level": 3,
       "progress": {
         "current": 18,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -555,7 +640,7 @@
       "level": 3,
       "progress": {
         "current": 19,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -588,7 +673,7 @@
       "level": 3,
       "progress": {
         "current": 20,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -621,7 +706,7 @@
       "level": 3,
       "progress": {
         "current": 21,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -654,15 +739,27 @@
       "level": 3,
       "progress": {
         "current": 22,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Trade Winds का नाम 'Trade' क्यों पड़ा?",
         "options": [
-          { "id": "A", "text": "ये व्यापार (trade) में बाधा डालती थीं" },
-          { "id": "B", "text": "पुराने समय में व्यापारी इन steady winds का use करके travel करते थे" },
-          { "id": "C", "text": "ये केवल trading routes पर चलती हैं" },
-          { "id": "D", "text": "इनका trade से कोई relation नहीं" }
+          {
+            "id": "A",
+            "text": "ये व्यापार (trade) में बाधा डालती थीं"
+          },
+          {
+            "id": "B",
+            "text": "पुराने समय में व्यापारी इन steady winds का use करके travel करते थे"
+          },
+          {
+            "id": "C",
+            "text": "ये केवल trading routes पर चलती हैं"
+          },
+          {
+            "id": "D",
+            "text": "इनका trade से कोई relation नहीं"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Trade Winds का नाम इसलिए पड़ा क्योंकि पुराने समय में व्यापारी (traders) इन STEADY और REGULAR winds का use करके समुद्री यात्रा और व्यापार करते थे। ये winds बहुत predictable थीं - Northern hemisphere में North-East से और Southern में South-East से चलती थीं। ⭐ UPSC में historical context भी पूछा जाता है!"
@@ -680,15 +777,27 @@
       "level": 3,
       "progress": {
         "current": 23,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "⭐ BPSC Trap: 'Westerlies' किस direction से blow करती हैं?",
         "options": [
-          { "id": "A", "text": "East से West" },
-          { "id": "B", "text": "West से East" },
-          { "id": "C", "text": "North से South" },
-          { "id": "D", "text": "South से North" }
+          {
+            "id": "A",
+            "text": "East से West"
+          },
+          {
+            "id": "B",
+            "text": "West से East"
+          },
+          {
+            "id": "C",
+            "text": "North से South"
+          },
+          {
+            "id": "D",
+            "text": "South से North"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Westerlies WEST से EAST direction में blow करती हैं। ⭐ BPSC का classic trap: Wind का नाम जहाँ से आती है उसी के नाम पर होता है! Westerlies = West से आती हैं (towards East जाती हैं)। ये Sub-tropical high (30°) से Sub-polar low (60°) की ओर चलती हैं और Coriolis effect के कारण West-to-East direction में deflect हो जाती हैं!"
@@ -706,15 +815,27 @@
       "level": 3,
       "progress": {
         "current": 24,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Coriolis Effect की discovery किसने की?",
         "options": [
-          { "id": "A", "text": "Isaac Newton" },
-          { "id": "B", "text": "Gustave-Gaspard Coriolis" },
-          { "id": "C", "text": "Evangelista Torricelli" },
-          { "id": "D", "text": "Blaise Pascal" }
+          {
+            "id": "A",
+            "text": "Isaac Newton"
+          },
+          {
+            "id": "B",
+            "text": "Gustave-Gaspard Coriolis"
+          },
+          {
+            "id": "C",
+            "text": "Evangelista Torricelli"
+          },
+          {
+            "id": "D",
+            "text": "Blaise Pascal"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Coriolis Effect की discovery Gustave-Gaspard CORIOLIS (French scientist) ने 1835 में की थी। यह effect Earth के rotation के कारण होता है जिससे moving objects (including air) deflect हो जाते हैं - Northern hemisphere में right, Southern में left। ⭐ SSC और UPSC में scientist names बहुत पूछे जाते हैं!"
@@ -732,7 +853,7 @@
       "level": 3,
       "progress": {
         "current": 25,
-        "total": 72
+        "total": 56
       },
       "milestone_payload": {
         "title": "🎉 Permanent Winds Mastered!",
@@ -755,7 +876,7 @@
       "level": 3,
       "progress": {
         "current": 26,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -788,7 +909,7 @@
       "level": 3,
       "progress": {
         "current": 27,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -821,7 +942,7 @@
       "level": 4,
       "progress": {
         "current": 28,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -854,7 +975,7 @@
       "level": 4,
       "progress": {
         "current": 29,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -887,15 +1008,27 @@
       "level": 4,
       "progress": {
         "current": 30,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "South-West Monsoon किस समय active रहती है?",
         "options": [
-          { "id": "A", "text": "January-March" },
-          { "id": "B", "text": "June-September" },
-          { "id": "C", "text": "October-December" },
-          { "id": "D", "text": "पूरे साल" }
+          {
+            "id": "A",
+            "text": "January-March"
+          },
+          {
+            "id": "B",
+            "text": "June-September"
+          },
+          {
+            "id": "C",
+            "text": "October-December"
+          },
+          {
+            "id": "D",
+            "text": "पूरे साल"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "South-West Monsoon JUNE-SEPTEMBER के दौरान active रहती है। यह India का main rainy season है जिसमें देश की लगभग 75-80% वार्षिक rainfall होती है। June में Kerala पहुँचती है और September तक पूरे देश को cover करती है। ⭐ SSC का direct question!"
@@ -913,15 +1046,27 @@
       "level": 4,
       "progress": {
         "current": 31,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE: Bihar को मुख्यतः किस monsoon branch से rainfall मिलती है?",
         "options": [
-          { "id": "A", "text": "Arabian Sea Branch" },
-          { "id": "B", "text": "Bay of Bengal Branch" },
-          { "id": "C", "text": "North-East Monsoon" },
-          { "id": "D", "text": "कोई monsoon नहीं" }
+          {
+            "id": "A",
+            "text": "Arabian Sea Branch"
+          },
+          {
+            "id": "B",
+            "text": "Bay of Bengal Branch"
+          },
+          {
+            "id": "C",
+            "text": "North-East Monsoon"
+          },
+          {
+            "id": "D",
+            "text": "कोई monsoon नहीं"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ BPSC TRE Critical: Bihar को मुख्यतः BAY OF BENGAL BRANCH से rainfall मिलती है। यह branch Bay of Bengal से उठकर Bengal, Assam होते हुए Himalayas से टकराकर west की ओर मुड़ती है और North India को rain देती है। Bihar में June-September में इसी से वर्षा होती है। North Bihar में ज्यादा (1200-1400 mm), South Bihar में कम (900-1100 mm)!"
@@ -939,15 +1084,27 @@
       "level": 4,
       "progress": {
         "current": 32,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "⭐ UPSC: El Nino का Indian monsoon पर क्या effect होता है?",
         "options": [
-          { "id": "A", "text": "Monsoon strengthen होती है" },
-          { "id": "B", "text": "Monsoon weaken/delayed होती है" },
-          { "id": "C", "text": "कोई effect नहीं" },
-          { "id": "D", "text": "केवल South India affected होता है" }
+          {
+            "id": "A",
+            "text": "Monsoon strengthen होती है"
+          },
+          {
+            "id": "B",
+            "text": "Monsoon weaken/delayed होती है"
+          },
+          {
+            "id": "C",
+            "text": "कोई effect नहीं"
+          },
+          {
+            "id": "D",
+            "text": "केवल South India affected होता है"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "El Nino (Pacific Ocean का warming phenomenon) का effect Indian monsoon पर NEGATIVE होता है - monsoon WEAKEN या DELAYED हो जाती है, कम rainfall होती है। इससे drought की possibility बढ़ जाती है। Opposite phenomenon La Nina है जो monsoon को strengthen करती है। ⭐ UPSC Prelims और Mains दोनों में El Nino-Monsoon relation बहुत पूछा जाता है!"
@@ -965,7 +1122,7 @@
       "level": 4,
       "progress": {
         "current": 33,
-        "total": 72
+        "total": 56
       },
       "milestone_payload": {
         "title": "🎉 Monsoon System Mastered!",
@@ -988,7 +1145,7 @@
       "level": 4,
       "progress": {
         "current": 34,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -1021,7 +1178,7 @@
       "level": 4,
       "progress": {
         "current": 35,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -1054,7 +1211,7 @@
       "level": 4,
       "progress": {
         "current": 36,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -1087,7 +1244,7 @@
       "level": 4,
       "progress": {
         "current": 37,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -1120,7 +1277,7 @@
       "level": 4,
       "progress": {
         "current": 38,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -1153,15 +1310,27 @@
       "level": 4,
       "progress": {
         "current": 39,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Sea Breeze किस समय चलती है?",
         "options": [
-          { "id": "A", "text": "रात में (night)" },
-          { "id": "B", "text": "दिन में (day)" },
-          { "id": "C", "text": "सुबह और शाम" },
-          { "id": "D", "text": "पूरे दिन समान रूप से" }
+          {
+            "id": "A",
+            "text": "रात में (night)"
+          },
+          {
+            "id": "B",
+            "text": "दिन में (day)"
+          },
+          {
+            "id": "C",
+            "text": "सुबह और शाम"
+          },
+          {
+            "id": "D",
+            "text": "पूरे दिन समान रूप से"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Sea Breeze दिन में (day) चलती है। दिन में land जल्दी गर्म हो जाता है (low pressure) जबकि sea comparatively cool रहता है (high pressure)। हवा high pressure (sea) से low pressure (land) की ओर चलती है - यही sea breeze है जो cool और pleasant होती है। रात में उल्टा होता है - land breeze। ⭐ SSC का common question!"
@@ -1179,15 +1348,27 @@
       "level": 4,
       "progress": {
         "current": 40,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE: 'Kal Baisakhi' या 'Norwester' किस region में चलती है?",
         "options": [
-          { "id": "A", "text": "Rajasthan और Gujarat" },
-          { "id": "B", "text": "Bengal और Bihar" },
-          { "id": "C", "text": "Kerala और Tamil Nadu" },
-          { "id": "D", "text": "Punjab और Haryana" }
+          {
+            "id": "A",
+            "text": "Rajasthan और Gujarat"
+          },
+          {
+            "id": "B",
+            "text": "Bengal और Bihar"
+          },
+          {
+            "id": "C",
+            "text": "Kerala और Tamil Nadu"
+          },
+          {
+            "id": "D",
+            "text": "Punjab और Haryana"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ BPSC TRE Critical: 'Kal Baisakhi' (Baisakhi से पहले की) या 'Norwester' BENGAL और BIHAR में चलने वाली violent thunderstorms हैं जो pre-monsoon season (April-May) में आती हैं। ये बहुत destructive होती हैं - तेज़ हवा, बिजली गिरना (lightning), कभी-कभी ओले (hail)। Bihar में इनसे जान-माल का नुकसान होता है। Disaster management के context में यह BPSC में पूछा जाता है!"
@@ -1205,15 +1386,27 @@
       "level": 4,
       "progress": {
         "current": 41,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Jet Streams मुख्यतः किस direction में blow करती हैं?",
         "options": [
-          { "id": "A", "text": "North to South" },
-          { "id": "B", "text": "South to North" },
-          { "id": "C", "text": "West to East" },
-          { "id": "D", "text": "East to West" }
+          {
+            "id": "A",
+            "text": "North to South"
+          },
+          {
+            "id": "B",
+            "text": "South to North"
+          },
+          {
+            "id": "C",
+            "text": "West to East"
+          },
+          {
+            "id": "D",
+            "text": "East to West"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Jet Streams मुख्यतः WEST to EAST direction में blow करती हैं। ये upper atmosphere (9-16 km height) में बहुत तेज़ गति (100-200+ km/hr) से चलती हैं। Coriolis effect और temperature differences के कारण ये West-to-East direction में flow करती हैं। Airlines इनका use करती हैं fuel efficiency के लिए। ⭐ UPSC में jet streams का weather systems पर effect पूछा जाता है!"
@@ -1231,7 +1424,7 @@
       "level": 4,
       "progress": {
         "current": 42,
-        "total": 72
+        "total": 56
       },
       "milestone_payload": {
         "title": "🎉 Local Winds & Jet Streams Clear!",
@@ -1254,7 +1447,7 @@
       "level": 5,
       "progress": {
         "current": 43,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -1287,7 +1480,7 @@
       "level": 5,
       "progress": {
         "current": 44,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -1320,7 +1513,7 @@
       "level": 5,
       "progress": {
         "current": 45,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -1339,7 +1532,7 @@
           "speaker": "raju",
           "text": "Ab anticyclone kya hota hai Sir?"
         }
-      },
+      ],
       "navigation": {
         "next": "card_46_anticyclone",
         "button_text": "Opposite of cyclone ➔"
@@ -1353,7 +1546,7 @@
       "level": 5,
       "progress": {
         "current": 46,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -1386,7 +1579,7 @@
       "level": 5,
       "progress": {
         "current": 47,
-        "total": 72
+        "total": 56
       },
       "messages": [
         {
@@ -1405,7 +1598,7 @@
           "speaker": "raju",
           "text": "Theek hai Sir, ready hoon!"
         }
-      },
+      ],
       "navigation": {
         "next": "card_48_quiz_cyclones_1",
         "button_text": "Final Quiz Round ➔"
@@ -1419,15 +1612,27 @@
       "level": 5,
       "progress": {
         "current": 48,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Tropical cyclones equator के पास क्यों नहीं बनते?",
         "options": [
-          { "id": "A", "text": "Equator पे sea temperature कम होता है" },
-          { "id": "B", "text": "Equator पे Coriolis effect zero है - rotation नहीं हो पाता" },
-          { "id": "C", "text": "Equator पे हमेशा high pressure रहता है" },
-          { "id": "D", "text": "Equator पे moisture नहीं होती" }
+          {
+            "id": "A",
+            "text": "Equator पे sea temperature कम होता है"
+          },
+          {
+            "id": "B",
+            "text": "Equator पे Coriolis effect zero है - rotation नहीं हो पाता"
+          },
+          {
+            "id": "C",
+            "text": "Equator पे हमेशा high pressure रहता है"
+          },
+          {
+            "id": "D",
+            "text": "Equator पे moisture नहीं होती"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Tropical cyclones equator के पास (approx 0°-5° latitude) नहीं बनते क्योंकि वहाँ CORIOLIS EFFECT zero या negligible होता है। Cyclone formation के लिए rotation (spinning) जरूरी है जो Coriolis effect से आता है। Equator पे Earth की rotational deflection शून्य है इसलिए storm rotate नहीं कर पाता। ⭐ BPSC का favorite trap question!"
@@ -1445,15 +1650,27 @@
       "level": 5,
       "progress": {
         "current": 49,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "⭐ SSC: Atlantic Ocean में tropical cyclone को क्या कहते हैं?",
         "options": [
-          { "id": "A", "text": "Typhoon" },
-          { "id": "B", "text": "Hurricane" },
-          { "id": "C", "text": "Cyclone" },
-          { "id": "D", "text": "Tornado" }
+          {
+            "id": "A",
+            "text": "Typhoon"
+          },
+          {
+            "id": "B",
+            "text": "Hurricane"
+          },
+          {
+            "id": "C",
+            "text": "Cyclone"
+          },
+          {
+            "id": "D",
+            "text": "Tornado"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Atlantic Ocean और Eastern Pacific में tropical cyclone को HURRICANE कहते हैं। Western Pacific (China, Japan area) में इसे TYPHOON कहते हैं। Indian Ocean region में इसे CYCLONE कहते हैं। ये तीनों basically same phenomenon हैं - बस different regions में different names! ⭐ SSC का classic matching question - region और storm name!"
@@ -1471,15 +1688,27 @@
       "level": 5,
       "progress": {
         "current": 50,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "Cyclone के किस part में सबसे violent winds और maximum destruction होता है?",
         "options": [
-          { "id": "A", "text": "Eye (center)" },
-          { "id": "B", "text": "Eye Wall" },
-          { "id": "C", "text": "Outer Rain Bands" },
-          { "id": "D", "text": "सभी parts में समान" }
+          {
+            "id": "A",
+            "text": "Eye (center)"
+          },
+          {
+            "id": "B",
+            "text": "Eye Wall"
+          },
+          {
+            "id": "C",
+            "text": "Outer Rain Bands"
+          },
+          {
+            "id": "D",
+            "text": "सभी parts में समान"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Cyclone के EYE WALL में सबसे violent winds (200+ km/hr तक) और maximum destruction होता है। Eye wall, eye (जो calm होता है) के चारों ओर का region है जहाँ winds सबसे तेज़ और concentrated होती हैं। Eye में सबसे कम pressure लेकिन calm conditions होती हैं। ⭐ UPSC में cyclone structure detail में पूछा जाता है!"
@@ -1497,7 +1726,7 @@
       "level": 5,
       "progress": {
         "current": 51,
-        "total": 72
+        "total": 56
       },
       "milestone_payload": {
         "title": "🎉 All Modules Completed!",
@@ -1520,7 +1749,7 @@
       "level": 5,
       "progress": {
         "current": 52,
-        "total": 72
+        "total": 56
       },
       "summary_payload": {
         "title": "⚡ Officer-Level Quick Revision",
@@ -1560,15 +1789,27 @@
       "level": 5,
       "progress": {
         "current": 53,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "⭐ BPSC Multi-Statement Question:\n\nनिम्नलिखित कथनों पर विचार करें:\n\n1. Atmospheric pressure ऊँचाई बढ़ने के साथ घटता है।\n2. Trade Winds को यह नाम इसलिए मिला क्योंकि व्यापारी इन steady winds का use करते थे।\n3. Equatorial region में high pressure belt पाया जाता है।\n4. Monsoon शब्द Arabic word 'mausim' से आया है।\n\nउपर्युक्त में से कौन-कौन से कथन सही हैं?",
         "options": [
-          { "id": "A", "text": "केवल 1, 2 और 3" },
-          { "id": "B", "text": "केवल 1, 2 और 4" },
-          { "id": "C", "text": "केवल 2, 3 और 4" },
-          { "id": "D", "text": "सभी 1, 2, 3 और 4" }
+          {
+            "id": "A",
+            "text": "केवल 1, 2 और 3"
+          },
+          {
+            "id": "B",
+            "text": "केवल 1, 2 और 4"
+          },
+          {
+            "id": "C",
+            "text": "केवल 2, 3 और 4"
+          },
+          {
+            "id": "D",
+            "text": "सभी 1, 2, 3 और 4"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Statement Analysis:\n\n1. ✅ CORRECT: Atmospheric pressure altitude के साथ decrease होता है क्योंकि ऊपर जाने पर air की thickness कम होती है। Approx हर 100m पर 12 mb कम।\n\n2. ✅ CORRECT: Trade Winds को यह नाम इसलिए मिला क्योंकि पुराने समय में traders/merchants इन regular और steady winds का use करके समुद्री व्यापार करते थे।\n\n3. ❌ WRONG: Equatorial region (0°-5°) में LOW pressure belt होता है (Doldrums), HIGH नहीं! Intense heating से air rise करती है।\n\n4. ✅ CORRECT: 'Monsoon' word Arabic/Urdu word 'mausim' (मौसम) से आया है जिसका अर्थ 'season' होता है।\n\n✅ Answer: B (1, 2, 4 सही)"
@@ -1586,15 +1827,27 @@
       "level": 5,
       "progress": {
         "current": 54,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "⭐ UPSC Prelims Style - Assertion-Reason:\n\nअभिकथन (A): Tropical cyclones equator के बिल्कुल पास नहीं बनते।\n\nकारण (R): Equator पर Coriolis effect शून्य होता है जो cyclone के rotation के लिए आवश्यक है।\n\nसही विकल्प चुनें:",
         "options": [
-          { "id": "A", "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है" },
-          { "id": "B", "text": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है" },
-          { "id": "C", "text": "A सही है लेकिन R गलत है" },
-          { "id": "D", "text": "A गलत है लेकिन R सही है" }
+          {
+            "id": "A",
+            "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है"
+          },
+          {
+            "id": "B",
+            "text": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है"
+          },
+          {
+            "id": "C",
+            "text": "A सही है लेकिन R गलत है"
+          },
+          {
+            "id": "D",
+            "text": "A गलत है लेकिन R सही है"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Detailed Analysis:\n\n✅ Assertion (A) सही है: Tropical cyclones equator के बिल्कुल पास (0°-5° latitude के बीच) नहीं बनते। ये कम से कम 5° latitude away from equator चाहिए।\n\n✅ Reason (R) भी सही है: Equator पर Earth के rotation के कारण बनने वाला Coriolis effect zero होता है। जैसे-जैसे equator से दूर जाते हैं, Coriolis effect बढ़ता है।\n\n✅ R, A की CORRECT व्याख्या है: Cyclone formation के लिए air का rotation (spinning) जरूरी है जो Coriolis effect से आता है। Equator पर Coriolis zero होने से rotation नहीं हो पाता इसलिए cyclone नहीं बन पाता।\n\n✅ Answer: A\n\n⭐ UPSC Prelims में Assertion-Reason बहुत आता है - दोनों की सच्चाई और logical connection check करो!"
@@ -1612,15 +1865,27 @@
       "level": 5,
       "progress": {
         "current": 55,
-        "total": 72
+        "total": 56
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Special - Bihar Focus:\n\nनिम्नलिखित कथनों पर विचार करें:\n\n1. Bihar को मुख्यतः South-West Monsoon की Bay of Bengal branch से rainfall मिलती है।\n2. 'Kal Baisakhi' या 'Norwester' Bihar में pre-monsoon thunderstorms हैं।\n3. North Bihar में South Bihar की तुलना में अधिक rainfall होती है।\n4. Bihar landlocked होने के कारण cyclones का कोई indirect effect नहीं होता।\n\nसही कथनों की संख्या बताएं:",
         "options": [
-          { "id": "A", "text": "केवल एक कथन सही" },
-          { "id": "B", "text": "केवल दो कथन सही" },
-          { "id": "C", "text": "तीन कथन सही" },
-          { "id": "D", "text": "सभी चार कथन सही" }
+          {
+            "id": "A",
+            "text": "केवल एक कथन सही"
+          },
+          {
+            "id": "B",
+            "text": "केवल दो कथन सही"
+          },
+          {
+            "id": "C",
+            "text": "तीन कथन सही"
+          },
+          {
+            "id": "D",
+            "text": "सभी चार कथन सही"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "⭐ BPSC TRE Critical Analysis:\n\n1. ✅ CORRECT: Bihar को मुख्यतः SW Monsoon की BAY OF BENGAL BRANCH से rainfall मिलती है (June-September)। यह branch Bengal, Assam होते हुए Himalayas से टकराकर Bihar को rain देती है।\n\n2. ✅ CORRECT: 'Kal Baisakhi' (Baisakhi से पहले) या 'Norwester' Bihar और Bengal में April-May में आने वाली violent thunderstorms हैं। Lightning, तेज़ हवा, कभी ओले - बहुत destructive!\n\n3. ✅ CORRECT: North Bihar (Champaran, Darbhanga, Madhubani) में 1200-1400 mm rainfall होती है जबकि South-West Bihar (Gaya, Aurangabad) में 900-1100 mm - clear difference!\n\n4. ❌ WRONG: Bihar landlocked जरूर है लेकिन Bay of Bengal के cyclones का INDIRECT effect होता है - remnant circulation से heavy rainfall और upstream rain से rivers में flooding (Ganga, Kosi)!\n\n✅ Answer: C (तीन कथन सही)\n\n⭐ Bihar-specific facts BPSC TRE में बहुत पूछे जाते हैं!"
@@ -1638,7 +1903,7 @@
       "level": 5,
       "progress": {
         "current": 56,
-        "total": 72
+        "total": 56
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER MASTERY ACHIEVED!",
@@ -1655,4 +1920,3 @@
     }
   ]
 }
-
