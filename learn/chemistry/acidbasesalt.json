@@ -106,7 +106,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Healthy bhi hai aur acid bhi – dono sach hain! Acids ki kuch common properties yaad karo: 1) Taste – sour (khatta), 2) Litmus paper ko red karte hain, 3) Metals ke saath react karke Hydrogen gas nikalte hain, 4) Bases ko neutralize karte hain. Ye properties BPSC aur SSC mein directly poochhi jaati hain!"
+          "text": "Healthy bhi hai aur acid bhi – dono sach hain! Acids ki common properties yaad karo: 1) Taste generally sour hota hai (lab chemicals ko taste nahi karna), 2) blue litmus red karte hain, 3) kai reactive metals ke saath H₂ gas de sakte hain, aur 4) bases ko neutralize karte hain. Nitric acid aur concentrated H₂SO₄ jaise exceptions mein metal-acid reaction ko blindly apply mat karo. Ye properties BPSC aur SSC mein directly poochhi jaati hain!"
         },
         {
           "speaker": "raju",
@@ -114,7 +114,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul sahi! Aur ab base ki baat karte hain. Socho sabun se haath dhote waqt ek slippery, chikna feel aata hai – wo base ki property hai! Bases ka taste bitter (kadwa) hota hai. Lakshmi Mishtan Bhandar ki mithai nahi – pure base ka taste kadwa hota hai. NaOH (soap mein hota hai), Ca(OH)₂ – ye sab bases hain!"
+          "text": "Bilkul sahi! Aur ab base ki baat karte hain. Socho sabun se haath dhote waqt ek slippery, chikna feel aata hai – wo base ki property hai! Bases ka taste bitter (kadwa) hota hai. Lakshmi Mishtan Bhandar ki mithai nahi – pure base ka taste kadwa hota hai. NaOH se soap banane ki process hoti hai, lekin finished soap mein NaOH free form mein nahi hota. Ca(OH)₂ jaise hydroxides bases ke examples hain!"
         },
         {
           "speaker": "raju",
@@ -819,7 +819,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Ab ek important distinction – Strong Acid vs Weak Acid! Socho electric bulb ki brightness – agar kisi solution mein bulb jyada chamke to matlab zyada ions hain – matlab acid/base completely ionize ho gaya. Strong Acid paani mein COMPLETELY ionize hota hai – 100% H⁺ deta hai!"
+          "text": "Ab ek important distinction – Strong Acid vs Weak Acid! Socho electric bulb ki brightness – solution mein ions zyada honge to conductivity zyada ho sakti hai. Dilute aqueous solution mein strong acid ko **almost completely ionised** maana jata hai; school-level shortcut mein ise 100% H⁺ dena likhte hain, lekin concentration aur equilibrium ko ignore karke har situation mein exact 100% mat samjho."
         },
         {
           "speaker": "raju",
@@ -852,7 +852,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "HF weak acid isliye hai kyunki F (Fluorine) sabse electronegative element hai – H-F bond bahut strong hota hai aur easily nahi toot ta! Isliye HF water mein kam ionize hota hai. Ye NEET ka favorite exception question hai! Ab Strong Bases: NaOH, KOH, Ca(OH)₂, Ba(OH)₂, LiOH – ye sab strong bases hain jo completely ionize hote hain!"
+          "text": "HF weak acid ka main school-level reason strong H–F bond hai, isliye aqueous solution mein ionisation kam hota hai; hydration aur equilibrium bhi matter karte hain. Ye NEET ka favourite exception hai. Ab strong bases: NaOH, KOH, Ca(OH)₂, Ba(OH)₂ aur LiOH ko conventional list mein rakho; inke aqueous solutions mein dissociation ko nearly complete maana jata hai."
         },
         {
           "speaker": "raju",
@@ -860,11 +860,11 @@
         },
         {
           "speaker": "aman",
-          "text": "Weak Bases: NH₃ (Ammonia), NH₄OH (Ammonium Hydroxide), Cu(OH)₂, Fe(OH)₃ – ye partially ionize karte hain. Aur yaad karo – weak acid ya weak base ka matlab 'dangerous nahi' nahi hai! HF weak acid hai lekin extremely corrosive aur dangerous hai – glass tak tod sakta hai! Strength aur danger alag-alag concepts hain!"
+          "text": "Weak Bases: NH₃ (Ammonia), NH₄OH (Ammonium Hydroxide), Cu(OH)₂, Fe(OH)₃ – ye partially ionize karte hain. Aur yaad karo – weak acid ya weak base ka matlab 'dangerous nahi' nahi hai! HF weak acid hai lekin extremely corrosive aur dangerous hai – glass ko etch/corrode kar sakta hai! Strength aur danger alag-alag concepts hain!"
         },
         {
           "speaker": "raju",
-          "text": "HF glass tod sakta hai?? Weak acid hua lekin glass khaa gaya! Ye to seriously unexpected hai Sir!"
+          "text": "HF glass ko literally todta nahi, silica ke saath react karke glass ko etch/corrode kar sakta hai. Weak acid ka matlab harmless nahi hota — strength aur corrosive danger alag concepts hain, Sir!"
         }
       ],
       "navigation": {
@@ -954,7 +954,7 @@
         "total": 80
       },
       "quiz_payload": {
-        "question": "Assertion (A): HCl एक strong acid है।\nReason (R): HCl पानी में पूरी तरह (100%) ionize होकर H⁺ और Cl⁻ ions देता है। (Q2/3)",
+        "question": "Assertion (A): HCl एक strong acid है।\nReason (R): HCl पानी में dilute aqueous solution mein lagbhag poori tarah ionise hokar H⁺ और Cl⁻ ions देता है। (Q2/3)",
         "options": [
           {
             "id": "A",
@@ -974,7 +974,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "Assertion सही है – HCl एक strong acid है। Reason भी सही और सटीक explanation है – Strong acid की definition ही complete ionization है: HCl → H⁺ + Cl⁻ (100% in water)। Weak acids partially ionize होते हैं (reversible equilibrium)। R correctly A को explain करता है। BPSC Assertion-Reason format!"
+        "explanation": "Assertion sahi hai — HCl strong acid hai. Reason ko school-level language mein sahi maana jayega: dilute aqueous solution mein HCl ka ionisation essentially complete hota hai, H⁺/H₃O⁺ aur Cl⁻ ions bante hain. Scientific precision ke liye exact 100% ko har concentration par literal na samjho; strong/weak ka comparison ionisation extent par based hai. R, A ki intended explanation hai."
       },
       "navigation": {
         "next": "card_29_quiz_strongweak_3",
@@ -1063,7 +1063,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Exactly! Neutralization reaction: Acid + Base → Salt + Water. Ye always exothermic reaction hai – matlab heat release hoti hai! Example: HCl + NaOH → NaCl + H₂O. Yahan HCl acid hai, NaOH base hai, NaCl salt bana aur H₂O bana. NaCl – wo khane wala namak hai jo ghar mein hota hai!"
+          "text": "Exactly! Neutralization reaction ko school level par Acid + Base → Salt + Water likhte hain. Strong acid aur strong base ki neutralization exothermic hoti hai; weak acid/base mein ionisation ki heat bhi involved hoti hai, isliye 'always same heat' mat samjho. Example: HCl + NaOH → NaCl + H₂O. NaCl ghar ka common salt hai!"
         },
         {
           "speaker": "raju",
@@ -1829,7 +1829,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Ab kuch important reactions jo exam mein directly poochhe jaate hain! Na₂CO₃ + H₂O → 2NaOH + CO₂ – Washing Soda solution basic hoti hai. NaHCO₃ heating pe: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂ – isliye baking mein use hota hai! CaCO₃ + HCl → CaCl₂ + H₂O + CO₂ – limestone acid mein dissolve hota hai!"
+          "text": "Ab kuch important reactions jo exam mein directly poochhe jaate hain! Washing soda ka basic nature hydrolysis se aata hai: Na₂CO₃ + H₂O ⇌ NaHCO₃ + NaOH, aur ionic form CO₃²⁻ + H₂O ⇌ HCO₃⁻ + OH⁻ hota hai. NaHCO₃ heating par: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂ — isi se baking mein CO₂ milti hai. CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂ — limestone acid mein dissolve hota hai!"
         },
         {
           "speaker": "raju",
@@ -1837,7 +1837,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Exactly! Rainwater mein CO₂ milke H₂CO₃ banta hai (carbonic acid), ye limestone caves dissolve karti hai – isi se Stalactites aur Stalagmites banate hain! Aur ek important reaction: Na₂O₂ + H₂O → NaOH + H₂O₂ – ye submarine mein oxygen source ke liye use hota hai! UPSC aur BPSC mein ye fact aata hai!"
+          "text": "Exactly! Rainwater mein CO₂ milke H₂CO₃ banta hai (carbonic acid), ye limestone caves dissolve karti hai – isi se Stalactites aur Stalagmites banate hain! Aur oxygen-related reaction bhi note karo: 2Na₂O₂ + 2H₂O → 4NaOH + O₂. Sodium peroxide CO₂ absorb karke bhi oxygen de sakta hai: 2Na₂O₂ + 2CO₂ → 2Na₂CO₃ + O₂. Isi principle ki wajah se peroxide/superoxide compounds closed environments mein discuss kiye jaate hain; equation ko balance karke yaad karo."
         },
         {
           "speaker": "raju",

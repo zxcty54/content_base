@@ -1,0 +1,1842 @@
+{
+  "topic_id": "biomolecules_chemistry_complete",
+  "topic_title": "Biomolecules — Structure, Function & Exam Traps",
+  "target_exams": [
+    "BPSC",
+    "BSSC",
+    "RRB NTPC",
+    "SSC CGL",
+    "NEET",
+    "UPSC Prelims",
+    "BPSC TRE"
+  ],
+  "total_cards": 54,
+  "characters": {
+    "aman": {
+      "name": "Aman Sir",
+      "role": "teacher",
+      "avatar": "👨‍🏫"
+    },
+    "raju": {
+      "name": "Raju",
+      "role": "student (Class 8th Basic Learner)",
+      "avatar": "👦"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "chat",
+      "concept_id": "biomolecules_intro",
+      "level": 1,
+      "progress": {
+        "current": 1,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Aaj Biomolecules ko ratne ke bajay ek map se samjhenge. Living cell ke major chemical groups — carbohydrates, proteins, lipids, nucleic acids, enzymes aur vitamins — ko structure, function aur exam-trap ke saath connect karenge."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, kya biomolecule ka matlab har wo molecule hai jo body mein milta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Broadly biological system mein milne wale molecules ko biomolecules kehte hain. Kuch small molecules hote hain, jaise glucose, aur kuch macromolecules, jaise proteins aur nucleic acids. Pehle classification clear karenge, phir examples."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai Sir, pehle map bana leta hoon; phir har group ka difference poochunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_biomolecule_map",
+        "button_text": "Start the Biomolecule Map ➔"
+      }
+    },
+    {
+      "card_id": "card_02_biomolecule_map",
+      "card_slug": "card_02_biomolecule_map",
+      "type": "chat",
+      "concept_id": "biomolecule_classes",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Biomolecules ko do useful angles se dekho. **Micromolecules** chhote hote hain — water, salts, vitamins, glucose. **Macromolecules** bade molecules hote hain — proteins, polysaccharides aur nucleic acids. Lipids bade zaroor ho sakte hain, par usually true repeating-unit polymers nahi hote."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, to lipid ko protein jaisa polymer nahi bolna chahiye?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Protein amino acids ki chain aur nucleic acid nucleotides ki chain hota hai. Lipid ka common triglyceride glycerol aur fatty acids se banta hai, lekin uski structure regular repeating monomer chain jaisi nahi hoti."
+        },
+        {
+          "speaker": "raju",
+          "text": "Ye “large molecule” aur “true polymer” ka difference note kar raha hoon."
+        }
+      ],
+      "navigation": {
+        "next": "card_03_primary_secondary",
+        "button_text": "Primary vs Secondary Metabolites ➔"
+      }
+    },
+    {
+      "card_id": "card_03_primary_secondary",
+      "card_slug": "card_03_primary_secondary",
+      "type": "chat",
+      "concept_id": "primary_secondary_metabolites",
+      "level": 1,
+      "progress": {
+        "current": 3,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Primary metabolites growth aur normal metabolism ke liye directly important hote hain — amino acids, sugars, nucleotides, proteins. Secondary metabolites survival ya interaction mein help karte hain — alkaloids, pigments, essential oils, gums, rubber aur antibiotics jaise examples milte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Kya secondary ka matlab useless hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi. “Secondary” ka matlab basic growth ke liye universal requirement nahi, useless bilkul nahi. Plant ka nicotine defence mein help kar sakta hai, pigment pollinator ko attract kar sakta hai, aur antibiotic microbes ke against useful ho sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Samajh aa raha hai — primary core metabolism, secondary special role; ab quiz se check karte hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_04_quiz_biomolecule_class",
+        "button_text": "Check the Foundation ➔"
+      }
+    },
+    {
+      "card_id": "card_04_quiz_biomolecule_class",
+      "card_slug": "card_04_quiz_biomolecule_class",
+      "type": "quiz",
+      "concept_id": "biomolecule_classes",
+      "level": 1,
+      "progress": {
+        "current": 4,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which pair contains one true biological polymer and one molecule that is not usually treated as a true repeating-unit polymer?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Protein and triglyceride"
+          },
+          {
+            "id": "B",
+            "text": "Cellulose and glycogen"
+          },
+          {
+            "id": "C",
+            "text": "DNA and RNA"
+          },
+          {
+            "id": "D",
+            "text": "Starch and chitin"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Protein amino-acid residues ki chain hai, jabki triglyceride glycerol aur fatty acids se bana lipid hai aur regular repeating-unit polymer nahi maana jata. Cellulose, glycogen, DNA, RNA, starch aur chitin polymers hain."
+      },
+      "navigation": {
+        "next": "card_05_quiz_primary_metabolite",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_05_quiz_primary_metabolite",
+      "card_slug": "card_05_quiz_primary_metabolite",
+      "type": "quiz",
+      "concept_id": "primary_secondary_metabolites",
+      "level": 1,
+      "progress": {
+        "current": 5,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Assertion (A): Amino acids and glucose are commonly treated as primary metabolites. Reason (R): They participate directly in growth, energy or biosynthetic pathways.",
+        "options": [
+          {
+            "id": "A",
+            "text": "A aur R dono sahi hain aur R, A ki sahi explanation hai"
+          },
+          {
+            "id": "B",
+            "text": "A aur R dono sahi hain, par R sahi explanation nahi hai"
+          },
+          {
+            "id": "C",
+            "text": "A sahi hai, R galat hai"
+          },
+          {
+            "id": "D",
+            "text": "A galat hai, R sahi hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Primary metabolites normal growth, energy production aur biosynthesis se directly jude hote hain. Amino acids aur glucose is category ke common examples hain."
+      },
+      "navigation": {
+        "next": "card_06_quiz_biomolecule_exception",
+        "button_text": "Last Foundation Question ➔"
+      }
+    },
+    {
+      "card_id": "card_06_quiz_biomolecule_exception",
+      "card_slug": "card_06_quiz_biomolecule_exception",
+      "type": "quiz",
+      "concept_id": "biomolecule_classes",
+      "level": 1,
+      "progress": {
+        "current": 6,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which statement about lipids is the safest exam-level statement?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Every lipid is a true polymer of one repeating monomer"
+          },
+          {
+            "id": "B",
+            "text": "Triglycerides contain glycerol and fatty acids and lipids are generally hydrophobic"
+          },
+          {
+            "id": "C",
+            "text": "All lipids dissolve easily in water"
+          },
+          {
+            "id": "D",
+            "text": "Lipids are made only of amino acids"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Triglyceride glycerol plus three fatty acids se banta hai. Lipids generally water mein insoluble ya poorly soluble aur non-polar/hydrophobic nature ke hote hain; unhe automatically true polymers nahi bolna chahiye."
+      },
+      "navigation": {
+        "next": "card_07_milestone_foundation",
+        "button_text": "Complete Foundation ➔"
+      }
+    },
+    {
+      "card_id": "card_07_milestone_foundation",
+      "card_slug": "card_07_milestone_foundation",
+      "type": "milestone",
+      "concept_id": "biomolecule_foundation_complete",
+      "level": 1,
+      "progress": {
+        "current": 7,
+        "total": 54
+      },
+      "milestone_payload": {
+        "title": "Biomolecule Map Clear",
+        "badge_emoji": "🧪",
+        "completed_topic": "Classification, polymers and metabolites",
+        "xp_earned": 40,
+        "milestone_progress": "Module complete",
+        "motivational_quote": "Good start! Ab structure ko carbohydrate, protein aur enzyme examples se build karenge."
+      },
+      "navigation": {
+        "next": "card_08_carbohydrate_intro",
+        "button_text": "Start Carbohydrates ➔"
+      }
+    },
+    {
+      "card_id": "card_08_carbohydrate_intro",
+      "card_slug": "card_08_carbohydrate_intro",
+      "type": "chat",
+      "concept_id": "carbohydrate_basics",
+      "level": 1,
+      "progress": {
+        "current": 8,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Carbohydrates ko simple language mein sugars aur unke larger forms samjho. Monosaccharide ek single sugar unit hota hai. Glucose aldohexose hai — six carbon aur aldehyde group; fructose ketohexose hai — six carbon aur ketone group."
+        },
+        {
+          "speaker": "raju",
+          "text": "Glucose aur fructose dono C6H12O6 hain, phir alag kaise?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Same molecular formula but different arrangement/function ko isomerism se jod sakte ho. Glucose aur fructose dono hexose hain, lekin functional group alag hai. Isliye formula dekhkar structure identical mat maan lena."
+        },
+        {
+          "speaker": "raju",
+          "text": "Formula same ho sakta hai, structure alag — ye carbon chapter se bhi connect hua."
+        }
+      ],
+      "navigation": {
+        "next": "card_09_disaccharides",
+        "button_text": "Disaccharides and Bonds ➔"
+      }
+    },
+    {
+      "card_id": "card_09_disaccharides",
+      "card_slug": "card_09_disaccharides",
+      "type": "chat",
+      "concept_id": "disaccharides_glycosidic_bond",
+      "level": 1,
+      "progress": {
+        "current": 9,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Do monosaccharides condensation se judkar disaccharide bana sakte hain; water molecule nikalta hai aur **glycosidic bond** banta hai. Sucrose = glucose + fructose, lactose = glucose + galactose, maltose = glucose + glucose."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir sucrose ko table sugar bolte hain, aur lactose milk sugar?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Sucrose non-reducing sugar hai, jabki maltose aur lactose reducing sugars hain. Reducing property ko free anomeric carbon/reducing group se connect karke padho; sirf “sweet” hone se reducing decide nahi hota."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sucrose, lactose, maltose ke components aur reducing nature ko alag table mein likhunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_10_polysaccharides",
+        "button_text": "Polysaccharides and Functions ➔"
+      }
+    },
+    {
+      "card_id": "card_10_polysaccharides",
+      "card_slug": "card_10_polysaccharides",
+      "type": "chat",
+      "concept_id": "polysaccharides",
+      "level": 1,
+      "progress": {
+        "current": 10,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Polysaccharides long sugar chains hote hain. Starch plants ka storage carbohydrate, glycogen animals aur fungi ka storage form, cellulose plant cell wall ka structural polymer, aur chitin fungal cell wall aur arthropod exoskeleton mein milta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Hum starch digest kar lete hain, par cellulose kyun nahi?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Human digestive system mein cellulose ke beta-1,4 glycosidic bonds todne wala cellulase enzyme nahi hota. Ruminants ke gut microbes cellulose digestion mein help karte hain. Structure aur enzyme compatibility ko link karo."
+        },
+        {
+          "speaker": "raju",
+          "text": "Starch storage hai, cellulose support; bond orientation digestion ka trap ban sakta hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_11_quiz_carbohydrate",
+        "button_text": "Carbohydrate Application Quiz ➔"
+      }
+    },
+    {
+      "card_id": "card_11_quiz_carbohydrate",
+      "card_slug": "card_11_quiz_carbohydrate",
+      "type": "quiz",
+      "concept_id": "carbohydrate_basics",
+      "level": 1,
+      "progress": {
+        "current": 11,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which pair is correctly matched?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sucrose — glucose + galactose"
+          },
+          {
+            "id": "B",
+            "text": "Lactose — glucose + galactose"
+          },
+          {
+            "id": "C",
+            "text": "Maltose — glucose + fructose"
+          },
+          {
+            "id": "D",
+            "text": "Cellulose — animal storage carbohydrate"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Lactose milk sugar hai aur glucose + galactose se bana disaccharide hai. Sucrose glucose + fructose aur maltose glucose + glucose se banta hai. Cellulose plant structural polysaccharide hai."
+      },
+      "navigation": {
+        "next": "card_12_quiz_reducing_sugar",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_12_quiz_reducing_sugar",
+      "card_slug": "card_12_quiz_reducing_sugar",
+      "type": "quiz",
+      "concept_id": "reducing_nonreducing_sugars",
+      "level": 2,
+      "progress": {
+        "current": 12,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which carbohydrate is conventionally non-reducing because both anomeric carbons participate in the glycosidic bond?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Glucose"
+          },
+          {
+            "id": "B",
+            "text": "Maltose"
+          },
+          {
+            "id": "C",
+            "text": "Lactose"
+          },
+          {
+            "id": "D",
+            "text": "Sucrose"
+          }
+        ],
+        "correct_option_id": "D",
+        "explanation": "Sucrose mein glucose aur fructose ke anomeric carbons bond mein involved hote hain, isliye free reducing group nahi bachta aur sucrose non-reducing sugar maana jata hai."
+      },
+      "navigation": {
+        "next": "card_13_quiz_polysaccharide",
+        "button_text": "Last Carbohydrate Question ➔"
+      }
+    },
+    {
+      "card_id": "card_13_quiz_polysaccharide",
+      "card_slug": "card_13_quiz_polysaccharide",
+      "type": "quiz",
+      "concept_id": "polysaccharides",
+      "level": 2,
+      "progress": {
+        "current": 13,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "A plant cell wall, an animal storage granule and an arthropod exoskeleton are best matched respectively with:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cellulose, glycogen, chitin"
+          },
+          {
+            "id": "B",
+            "text": "Starch, cellulose, glycogen"
+          },
+          {
+            "id": "C",
+            "text": "Glycogen, starch, cellulose"
+          },
+          {
+            "id": "D",
+            "text": "Chitin, glycogen, starch"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Plant cell wall cellulose se, animal storage glycogen se, aur arthropod exoskeleton chitin se associated hai. Starch plant storage carbohydrate hai."
+      },
+      "navigation": {
+        "next": "card_14_milestone_carbohydrates",
+        "button_text": "Complete Carbohydrates ➔"
+      }
+    },
+    {
+      "card_id": "card_14_milestone_carbohydrates",
+      "card_slug": "card_14_milestone_carbohydrates",
+      "type": "milestone",
+      "concept_id": "carbohydrates_complete",
+      "level": 1,
+      "progress": {
+        "current": 14,
+        "total": 54
+      },
+      "milestone_payload": {
+        "title": "Carbohydrates Connected",
+        "badge_emoji": "🧪",
+        "completed_topic": "Monosaccharides, disaccharides, polysaccharides and reducing sugars",
+        "xp_earned": 40,
+        "milestone_progress": "Module complete",
+        "motivational_quote": "Good! Ab proteins ke level, bond aur denaturation ko step-by-step dekhenge."
+      },
+      "navigation": {
+        "next": "card_15_protein_intro",
+        "button_text": "Start Proteins ➔"
+      }
+    },
+    {
+      "card_id": "card_15_protein_intro",
+      "card_slug": "card_15_protein_intro",
+      "type": "chat",
+      "concept_id": "protein_basics",
+      "level": 1,
+      "progress": {
+        "current": 15,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Proteins amino acids ki polypeptide chains hain. Har amino acid mein generally amino group, carboxyl group, hydrogen aur variable R-group alpha carbon se jude hote hain. R-group amino acid ka character decide karta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, amino acid ka naam “amino” aur “acid” dono groups ki wajah se hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Do amino acids condensation reaction mein judte hain; carboxyl group aur amino group ke beech water nikalta hai aur **peptide bond** banta hai. Chain chhoti ho to peptide, lambi folded chain ko protein ke context mein padhte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Peptide bond ko amide linkage bhi bolte hain na?"
+        }
+      ],
+      "navigation": {
+        "next": "card_16_protein_structure",
+        "button_text": "Protein Structure Levels ➔"
+      }
+    },
+    {
+      "card_id": "card_16_protein_structure",
+      "card_slug": "card_16_protein_structure",
+      "type": "chat",
+      "concept_id": "protein_structure_levels",
+      "level": 2,
+      "progress": {
+        "current": 16,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Protein structure ke 4 levels yaad karo: primary = amino-acid sequence; secondary = alpha-helix/beta-sheet; tertiary = single chain ka 3D folding; quaternary = multiple polypeptide subunits ka arrangement, jaise haemoglobin."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sequence badal jaaye to sirf shape nahi, function bhi badal sakta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Sequence folding aur active site ko affect kar sakta hai. Bonds ko mix mat karo: peptide bond primary chain banata hai; hydrogen bonds secondary structure ko stabilize karte hain; disulfide bridges tertiary/quaternary stability mein help kar sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Primary se quaternary tak “sequence se multiple subunits” ka ladder bana raha hoon."
+        }
+      ],
+      "navigation": {
+        "next": "card_17_denaturation",
+        "button_text": "Denaturation and Protein Types ➔"
+      }
+    },
+    {
+      "card_id": "card_17_denaturation",
+      "card_slug": "card_17_denaturation",
+      "type": "chat",
+      "concept_id": "protein_denaturation",
+      "level": 2,
+      "progress": {
+        "current": 17,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Heat, extreme pH, organic solvents ya heavy-metal ions protein ki higher-order structure disturb kar sakte hain; ise **denaturation** kehte hain. Usually secondary, tertiary aur quaternary structure affect hoti hai, primary peptide sequence generally intact rehti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Isliye egg white heat par solid ho jata hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, egg proteins unfold aur aggregate hote hain. Denaturation ko hydrolysis mat samjho — hydrolysis peptide bonds tod sakta hai, denaturation mainly folding/shape badalta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Shape badalna aur chain todna alag processes hain; ye distinction important hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_18_quiz_protein_bond",
+        "button_text": "Protein Quiz 1 ➔"
+      }
+    },
+    {
+      "card_id": "card_18_quiz_protein_bond",
+      "card_slug": "card_18_quiz_protein_bond",
+      "type": "quiz",
+      "concept_id": "peptide_bond",
+      "level": 1,
+      "progress": {
+        "current": 18,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "A peptide bond is formed between the:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Two phosphate groups"
+          },
+          {
+            "id": "B",
+            "text": "Carboxyl group of one amino acid and amino group of another"
+          },
+          {
+            "id": "C",
+            "text": "Two fatty acids only"
+          },
+          {
+            "id": "D",
+            "text": "Sugar and nitrogenous base"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Condensation mein ek amino acid ka carboxyl group aur doosre ka amino group water eliminate karke peptide/amide bond banate hain."
+      },
+      "navigation": {
+        "next": "card_19_quiz_protein_structure",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_19_quiz_protein_structure",
+      "card_slug": "card_19_quiz_protein_structure",
+      "type": "quiz",
+      "concept_id": "protein_structure_levels",
+      "level": 2,
+      "progress": {
+        "current": 19,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which example best represents quaternary protein structure?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Amino-acid sequence of one chain"
+          },
+          {
+            "id": "B",
+            "text": "Alpha helix in a chain"
+          },
+          {
+            "id": "C",
+            "text": "3D folding of one polypeptide"
+          },
+          {
+            "id": "D",
+            "text": "Association of multiple polypeptide subunits"
+          }
+        ],
+        "correct_option_id": "D",
+        "explanation": "Quaternary structure multiple polypeptide chains/subunits ke association ko describe karti hai; haemoglobin iska common example hai."
+      },
+      "navigation": {
+        "next": "card_20_quiz_denaturation",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_20_quiz_denaturation",
+      "card_slug": "card_20_quiz_denaturation",
+      "type": "quiz",
+      "concept_id": "protein_denaturation",
+      "level": 2,
+      "progress": {
+        "current": 20,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which statement about denaturation is most accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It always breaks every peptide bond"
+          },
+          {
+            "id": "B",
+            "text": "It usually disrupts higher-order folding while the primary sequence may remain intact"
+          },
+          {
+            "id": "C",
+            "text": "It converts every protein into a carbohydrate"
+          },
+          {
+            "id": "D",
+            "text": "It increases the number of amino acids in the chain"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Denaturation mein protein ka native folding disturb hota hai. Primary amino-acid sequence generally intact reh sakti hai; complete hydrolysis alag process hai."
+      },
+      "navigation": {
+        "next": "card_21_milestone_proteins",
+        "button_text": "Complete Proteins ➔"
+      }
+    },
+    {
+      "card_id": "card_21_milestone_proteins",
+      "card_slug": "card_21_milestone_proteins",
+      "type": "milestone",
+      "concept_id": "proteins_complete",
+      "level": 1,
+      "progress": {
+        "current": 21,
+        "total": 54
+      },
+      "milestone_payload": {
+        "title": "Protein Structure Understood",
+        "badge_emoji": "🧪",
+        "completed_topic": "Amino acids, peptide bond, four structural levels and denaturation",
+        "xp_earned": 40,
+        "milestone_progress": "Module complete",
+        "motivational_quote": "Nice! Ab catalysts ko enzyme ke active site, cofactors aur inhibition se connect karenge."
+      },
+      "navigation": {
+        "next": "card_22_enzyme_intro",
+        "button_text": "Start Enzymes ➔"
+      }
+    },
+    {
+      "card_id": "card_22_enzyme_intro",
+      "card_slug": "card_22_enzyme_intro",
+      "type": "chat",
+      "concept_id": "enzyme_basics",
+      "level": 2,
+      "progress": {
+        "current": 22,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Enzymes mostly globular proteins hote hain jo biological catalysts ki tarah reaction ki activation energy kam karte hain. Reaction fast hoti hai, lekin enzyme equilibrium constant ya final equilibrium position ko normally change nahi karta."
+        },
+        {
+          "speaker": "raju",
+          "text": "Catalyst product ko force nahi karta, bas reaction tak pahunchne ka barrier kam karta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Enzyme substrate ke saath temporary enzyme-substrate complex banata hai aur alternate lower-energy pathway deta hai. Enzyme reaction ke end mein permanently consume nahi hota."
+        },
+        {
+          "speaker": "raju",
+          "text": "Toh enzyme ki quantity kam ho sakti hai, par substrate concentration aur conditions bhi matter karengi."
+        }
+      ],
+      "navigation": {
+        "next": "card_23_enzyme_terms",
+        "button_text": "Enzyme Terms ➔"
+      }
+    },
+    {
+      "card_id": "card_23_enzyme_terms",
+      "card_slug": "card_23_enzyme_terms",
+      "type": "chat",
+      "concept_id": "apoenzyme_holoenzyme_cofactor",
+      "level": 2,
+      "progress": {
+        "current": 23,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Protein part ko **apoenzyme** aur required non-protein helper ko **cofactor** kehte hain. Apoenzyme + cofactor = active **holoenzyme**. Cofactor inorganic ion ho sakta hai, organic coenzyme ho sakta hai, ya tightly bound prosthetic group."
+        },
+        {
+          "speaker": "raju",
+          "text": "Vitamin ka coenzyme se relation hai kya?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Kai vitamins ya unke derivatives coenzymes ke components ban sakte hain. NAD⁺, FAD aur coenzyme A jaise helpers electron/group transfer mein assist karte hain; har vitamin directly enzyme nahi hota."
+        },
+        {
+          "speaker": "raju",
+          "text": "Apoenzyme inactive protein part, holoenzyme active complete form — ab terms alag hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_24_enzyme_factors",
+        "button_text": "Factors and Inhibition ➔"
+      }
+    },
+    {
+      "card_id": "card_24_enzyme_factors",
+      "card_slug": "card_24_enzyme_factors",
+      "type": "chat",
+      "concept_id": "enzyme_factors_inhibition",
+      "level": 2,
+      "progress": {
+        "current": 24,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Enzyme activity temperature, pH, substrate concentration aur inhibitors se affect hoti hai. Temperature optimum tak rate badha sakta hai; bahut high temperature protein denature kar sakta hai. Har enzyme ka pH optimum same nahi hota."
+        },
+        {
+          "speaker": "raju",
+          "text": "Competitive inhibitor substrate ki seat par baithta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Competitive inhibitor active site ke liye compete karta hai; substrate badhane se effect kuch extent tak overcome ho sakta hai. Non-competitive inhibitor alag site par bind karke shape/activity badal sakta hai; sirf substrate badhana usually enough nahi hota."
+        },
+        {
+          "speaker": "raju",
+          "text": "Graph yaad rakhne ke saath “condition-specific” answer dunga, one-rule-for-all nahi."
+        }
+      ],
+      "navigation": {
+        "next": "card_25_quiz_enzyme_class",
+        "button_text": "Enzyme Quiz 1 ➔"
+      }
+    },
+    {
+      "card_id": "card_25_quiz_enzyme_class",
+      "card_slug": "card_25_quiz_enzyme_class",
+      "type": "quiz",
+      "concept_id": "enzyme_terms",
+      "level": 2,
+      "progress": {
+        "current": 25,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Apoenzyme plus its required cofactor is called:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Substrate"
+          },
+          {
+            "id": "B",
+            "text": "Holoenzyme"
+          },
+          {
+            "id": "C",
+            "text": "Inhibitor"
+          },
+          {
+            "id": "D",
+            "text": "Denatured protein"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Apoenzyme protein part aur cofactor helper milkar active holoenzyme banate hain."
+      },
+      "navigation": {
+        "next": "card_26_quiz_enzyme_factor",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_26_quiz_enzyme_factor",
+      "card_slug": "card_26_quiz_enzyme_factor",
+      "type": "quiz",
+      "concept_id": "enzyme_factors",
+      "level": 2,
+      "progress": {
+        "current": 26,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Why can a very high temperature reduce enzyme activity?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It permanently adds amino acids to the enzyme"
+          },
+          {
+            "id": "B",
+            "text": "It can disrupt the enzyme’s three-dimensional structure"
+          },
+          {
+            "id": "C",
+            "text": "It converts all substrates into vitamins"
+          },
+          {
+            "id": "D",
+            "text": "It removes all water from the cell instantly"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Excess heat non-covalent interactions disturb karke enzyme ko denature kar sakti hai; active-site shape badalne par activity girti hai."
+      },
+      "navigation": {
+        "next": "card_27_quiz_enzyme_inhibition",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_27_quiz_enzyme_inhibition",
+      "card_slug": "card_27_quiz_enzyme_inhibition",
+      "type": "quiz",
+      "concept_id": "enzyme_inhibition",
+      "level": 3,
+      "progress": {
+        "current": 27,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "A competitive inhibitor is most directly expected to:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bind the active site and compete with substrate"
+          },
+          {
+            "id": "B",
+            "text": "Destroy the enzyme’s peptide sequence immediately"
+          },
+          {
+            "id": "C",
+            "text": "Increase every enzyme’s optimum temperature"
+          },
+          {
+            "id": "D",
+            "text": "Convert into a lipid membrane"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Competitive inhibitor substrate ke active-site binding se compete karta hai. Substrate concentration badhane par competition ka effect kuch extent tak reduce ho sakta hai."
+      },
+      "navigation": {
+        "next": "card_28_milestone_enzymes",
+        "button_text": "Complete Enzymes ➔"
+      }
+    },
+    {
+      "card_id": "card_28_milestone_enzymes",
+      "card_slug": "card_28_milestone_enzymes",
+      "type": "milestone",
+      "concept_id": "enzymes_complete",
+      "level": 1,
+      "progress": {
+        "current": 28,
+        "total": 54
+      },
+      "milestone_payload": {
+        "title": "Enzyme Mechanism Clear",
+        "badge_emoji": "🧪",
+        "completed_topic": "Activation energy, cofactors, factors and inhibition",
+        "xp_earned": 40,
+        "milestone_progress": "Module complete",
+        "motivational_quote": "Excellent. Ab lipids ko storage, membrane aur hormone-related roles ke saath compare karenge."
+      },
+      "navigation": {
+        "next": "card_29_lipid_intro",
+        "button_text": "Start Lipids ➔"
+      }
+    },
+    {
+      "card_id": "card_29_lipid_intro",
+      "card_slug": "card_29_lipid_intro",
+      "type": "chat",
+      "concept_id": "lipid_basics",
+      "level": 1,
+      "progress": {
+        "current": 29,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Lipids mostly hydrophobic biomolecules hain. Triglyceride ek glycerol molecule aur teen fatty acids se banta hai; ester bonds form hote hain. Lipids energy storage mein useful hote hain, par membrane lipids ka role structural bhi hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Fat aur oil dono triglyceride ho sakte hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, fats room temperature par generally solid aur oils liquid hote hain; ye chain length aur unsaturation par depend karta hai, absolute rule nahi. Saturated fatty acid mein C=C nahi hota, unsaturated mein ek ya zyada double bond hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "C=C ki wajah se packing aur melting point change ho sakta hai — isliye oil liquid rehta hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_30_phospholipid_steroid",
+        "button_text": "Phospholipids and Steroids ➔"
+      }
+    },
+    {
+      "card_id": "card_30_phospholipid_steroid",
+      "card_slug": "card_30_phospholipid_steroid",
+      "type": "chat",
+      "concept_id": "phospholipids_steroids",
+      "level": 2,
+      "progress": {
+        "current": 30,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Phospholipid mein hydrophilic phosphate head aur hydrophobic fatty-acid tails hote hain; isi amphipathic nature se cell membrane bilayer banti hai. Steroids ka four-ring framework hota hai; cholesterol membrane ka component aur steroid hormones ka precursor hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Phospholipid ka head paani ki taraf aur tail paani se door?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is orientation se aqueous environment mein bilayer stable hoti hai. Cholesterol ko sirf “bad” mat samjho — amount aur context important hai; body mein membrane aur hormone synthesis mein role hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Membrane ke liye amphipathic design ka reason clear ho raha hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_31_lipid_comparison",
+        "button_text": "Lipid Comparison ➔"
+      }
+    },
+    {
+      "card_id": "card_31_lipid_comparison",
+      "card_slug": "card_31_lipid_comparison",
+      "type": "chat",
+      "concept_id": "saturated_unsaturated_lipids",
+      "level": 2,
+      "progress": {
+        "current": 31,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Cis double bonds fatty-acid chain mein bend la sakte hain, packing kam karte hain aur melting point reduce kar sakte hain. Hydrogenation unsaturation kam kar sakti hai; partial hydrogenation se trans fats banne ka concern hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Toh “unsaturated healthy” bhi blanket rule nahi, type aur amount matter karta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Nutrition advice ko simple chemistry slogan na banao. Exam ke liye saturated/unsaturated structure, cis-trans distinction aur hydrogenation ko alag rakho."
+        },
+        {
+          "speaker": "raju",
+          "text": "Structure se property aur health context tak link bana raha hoon."
+        }
+      ],
+      "navigation": {
+        "next": "card_32_quiz_lipid_structure",
+        "button_text": "Lipid Quiz 1 ➔"
+      }
+    },
+    {
+      "card_id": "card_32_quiz_lipid_structure",
+      "card_slug": "card_32_quiz_lipid_structure",
+      "type": "quiz",
+      "concept_id": "lipid_structure",
+      "level": 1,
+      "progress": {
+        "current": 32,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "A phospholipid is amphipathic because it has:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Only a non-polar hydrocarbon chain"
+          },
+          {
+            "id": "B",
+            "text": "A polar/hydrophilic head and non-polar/hydrophobic tails"
+          },
+          {
+            "id": "C",
+            "text": "Only amino-acid units"
+          },
+          {
+            "id": "D",
+            "text": "Only phosphate without fatty acids"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Phospholipid ka phosphate-containing head hydrophilic aur fatty-acid tails hydrophobic hote hain; isi se membrane bilayer possible hoti hai."
+      },
+      "navigation": {
+        "next": "card_33_quiz_lipid_saturation",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_33_quiz_lipid_saturation",
+      "card_slug": "card_33_quiz_lipid_saturation",
+      "type": "quiz",
+      "concept_id": "saturated_unsaturated_lipids",
+      "level": 2,
+      "progress": {
+        "current": 33,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which change generally lowers the melting point of a fatty-acid mixture?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Adding cis double bonds"
+          },
+          {
+            "id": "B",
+            "text": "Removing every carbon atom"
+          },
+          {
+            "id": "C",
+            "text": "Converting it into a protein"
+          },
+          {
+            "id": "D",
+            "text": "Adding peptide bonds"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Cis double bonds chain mein bends create karke packing reduce karte hain; many unsaturated oils therefore lower melting point dikhate hain."
+      },
+      "navigation": {
+        "next": "card_34_quiz_lipid_role",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_34_quiz_lipid_role",
+      "card_slug": "card_34_quiz_lipid_role",
+      "type": "quiz",
+      "concept_id": "lipid_functions",
+      "level": 2,
+      "progress": {
+        "current": 34,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which statement is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lipids have no structural role"
+          },
+          {
+            "id": "B",
+            "text": "Cholesterol can be a membrane component and steroid-hormone precursor"
+          },
+          {
+            "id": "C",
+            "text": "Every lipid dissolves readily in water"
+          },
+          {
+            "id": "D",
+            "text": "Triglyceride is made from three amino acids"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Cholesterol membrane structure aur steroid-hormone synthesis mein role play karta hai. Triglyceride glycerol aur fatty acids se banta hai."
+      },
+      "navigation": {
+        "next": "card_35_milestone_lipids",
+        "button_text": "Complete Lipids ➔"
+      }
+    },
+    {
+      "card_id": "card_35_milestone_lipids",
+      "card_slug": "card_35_milestone_lipids",
+      "type": "milestone",
+      "concept_id": "lipids_complete",
+      "level": 1,
+      "progress": {
+        "current": 35,
+        "total": 54
+      },
+      "milestone_payload": {
+        "title": "Lipids Compared",
+        "badge_emoji": "🧪",
+        "completed_topic": "Triglycerides, fatty acids, phospholipids and steroids",
+        "xp_earned": 40,
+        "milestone_progress": "Module complete",
+        "motivational_quote": "Good comparison. Ab DNA, RNA, nucleotides aur ATP ko ek sequence mein jodenge."
+      },
+      "navigation": {
+        "next": "card_36_nucleic_acid_intro",
+        "button_text": "Start Nucleic Acids ➔"
+      }
+    },
+    {
+      "card_id": "card_36_nucleic_acid_intro",
+      "card_slug": "card_36_nucleic_acid_intro",
+      "type": "chat",
+      "concept_id": "nucleic_acid_basics",
+      "level": 1,
+      "progress": {
+        "current": 36,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Nucleic acids genetic information aur protein synthesis se related biological polymers hain. Unke repeating units **nucleotides** hote hain. Nucleotide = pentose sugar + phosphate group + nitrogenous base; nucleoside mein phosphate nahi hota."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir nucleotide aur nucleoside ka difference ek phosphate ka hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, exam mein ye direct trap hai. DNA ke nucleotide mein deoxyribose, phosphate aur A/T/G/C base hota hai; RNA mein ribose, phosphate aur A/U/G/C base hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sugar ka 2-prime OH DNA-RNA difference ka core point hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_37_dna_rna",
+        "button_text": "DNA and RNA ➔"
+      }
+    },
+    {
+      "card_id": "card_37_dna_rna",
+      "card_slug": "card_37_dna_rna",
+      "type": "chat",
+      "concept_id": "dna_rna_structure",
+      "level": 2,
+      "progress": {
+        "current": 37,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "DNA usually double-stranded antiparallel helix hota hai. A aur T ke beech 2 hydrogen bonds, G aur C ke beech 3 hydrogen bonds. RNA usually single-stranded hota hai aur thymine ki jagah uracil use karta hai; RNA folded structures bhi bana sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "RNA hamesha single-stranded hota hai kya?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Usually single-stranded bolna safer hai; kuch viruses mein double-stranded RNA bhi mil sakta hai. mRNA message carry karta hai, tRNA amino acid laata hai, rRNA ribosome ka structural/catalytic part hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "DNA ko always double aur RNA ko always single bolna trap ho sakta hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_38_nucleotide_atp",
+        "button_text": "ATP and Bonds ➔"
+      }
+    },
+    {
+      "card_id": "card_38_nucleotide_atp",
+      "card_slug": "card_38_nucleotide_atp",
+      "type": "chat",
+      "concept_id": "nucleotide_atp_bonds",
+      "level": 2,
+      "progress": {
+        "current": 38,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Nucleotides phosphodiester bonds se chain banate hain. ATP mein adenine + ribose + teen phosphate groups hote hain; ATP ko cell ka immediate energy-transfer molecule kaha jata hai. Energy “bond tootne se magically” nahi, hydrolysis aur products ke stability difference se release hoti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "ATP ko energy currency bolte hain, lekin usko unlimited battery nahi samajhna hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. ATP continuously synthesize aur use hota hai. Nucleic acid backbone mein sugar-phosphate chain hoti hai; bases information pairing aur sequence provide karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Currency analogy helpful hai, par ATP ka cycle bhi yaad rakhunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_39_quiz_nucleotide",
+        "button_text": "Nucleic Acid Quiz 1 ➔"
+      }
+    },
+    {
+      "card_id": "card_39_quiz_nucleotide",
+      "card_slug": "card_39_quiz_nucleotide",
+      "type": "quiz",
+      "concept_id": "nucleotides",
+      "level": 2,
+      "progress": {
+        "current": 39,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "A nucleotide contains:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pentose sugar, phosphate and nitrogenous base"
+          },
+          {
+            "id": "B",
+            "text": "Only a nitrogenous base and amino acid"
+          },
+          {
+            "id": "C",
+            "text": "Glycerol and three fatty acids"
+          },
+          {
+            "id": "D",
+            "text": "Two peptide chains"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Nucleotide ke teen components pentose sugar, phosphate group aur nitrogenous base hain. Base + sugar only nucleoside hota hai."
+      },
+      "navigation": {
+        "next": "card_40_quiz_dna_rna",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_40_quiz_dna_rna",
+      "card_slug": "card_40_quiz_dna_rna",
+      "type": "quiz",
+      "concept_id": "dna_rna_structure",
+      "level": 2,
+      "progress": {
+        "current": 40,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which statement is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "DNA normally uses uracil instead of thymine"
+          },
+          {
+            "id": "B",
+            "text": "RNA always has two strands and never folds"
+          },
+          {
+            "id": "C",
+            "text": "DNA has deoxyribose while RNA has ribose"
+          },
+          {
+            "id": "D",
+            "text": "Both DNA and RNA use exactly the same four bases"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "DNA mein deoxyribose aur usually A,T,G,C; RNA mein ribose aur usually A,U,G,C hota hai. RNA folding aur exceptions ko context ke saath padho."
+      },
+      "navigation": {
+        "next": "card_41_quiz_base_pairing",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_41_quiz_base_pairing",
+      "card_slug": "card_41_quiz_base_pairing",
+      "type": "quiz",
+      "concept_id": "base_pairing",
+      "level": 2,
+      "progress": {
+        "current": 41,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "In a typical DNA double helix, which base-pairing statement is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A pairs with T through two hydrogen bonds"
+          },
+          {
+            "id": "B",
+            "text": "A pairs with C through three hydrogen bonds"
+          },
+          {
+            "id": "C",
+            "text": "G pairs with T through one hydrogen bond"
+          },
+          {
+            "id": "D",
+            "text": "U is the standard DNA partner of A"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "DNA mein A–T pair ke beech 2 aur G–C pair ke beech 3 hydrogen bonds hote hain. RNA mein A–U pairing common hai."
+      },
+      "navigation": {
+        "next": "card_42_milestone_nucleic_acids",
+        "button_text": "Complete Nucleic Acids ➔"
+      }
+    },
+    {
+      "card_id": "card_42_milestone_nucleic_acids",
+      "card_slug": "card_42_milestone_nucleic_acids",
+      "type": "milestone",
+      "concept_id": "nucleic_acids_complete",
+      "level": 1,
+      "progress": {
+        "current": 42,
+        "total": 54
+      },
+      "milestone_payload": {
+        "title": "Nucleic Acids Connected",
+        "badge_emoji": "🧪",
+        "completed_topic": "Nucleotides, DNA/RNA, base pairing and ATP",
+        "xp_earned": 40,
+        "milestone_progress": "Module complete",
+        "motivational_quote": "Good! Ab vitamins ko solubility, sources aur deficiency traps ke saath revise karenge."
+      },
+      "navigation": {
+        "next": "card_43_vitamins_intro",
+        "button_text": "Start Vitamins ➔"
+      }
+    },
+    {
+      "card_id": "card_43_vitamins_intro",
+      "card_slug": "card_43_vitamins_intro",
+      "type": "chat",
+      "concept_id": "vitamin_basics",
+      "level": 1,
+      "progress": {
+        "current": 43,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Vitamins organic micronutrients hain; body ko small amounts mein chahiye. Ye energy ke main fuel nahi, par enzymes/coenzymes, vision, immunity, clotting aur metabolism mein important roles ho sakte hain. Vitamins ko excess supplement samajhkar self-medicate nahi karna."
+        },
+        {
+          "speaker": "raju",
+          "text": "Vitamins energy nahi dete, par energy-release pathways ko support kar sakte hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Fat-soluble vitamins A, D, E, K body mein store ho sakte hain; water-soluble B-complex aur C generally regular intake maangte hain, though B12 ka reserve comparatively long-term ho sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Solubility se storage aur toxicity ka risk bhi connect karna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_44_fat_soluble_vitamins",
+        "button_text": "Fat-Soluble Vitamins ➔"
+      }
+    },
+    {
+      "card_id": "card_44_fat_soluble_vitamins",
+      "card_slug": "card_44_fat_soluble_vitamins",
+      "type": "chat",
+      "concept_id": "fat_soluble_vitamins",
+      "level": 2,
+      "progress": {
+        "current": 44,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Vitamin A vision aur epithelial health se linked hai; deficiency se night blindness ho sakti hai. Vitamin D calcium-phosphate balance aur bone mineralisation mein help karta hai; deficiency children mein rickets aur adults mein osteomalacia se linked hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Vitamin D ko sunlight se relation hai, par kya sunlight khud vitamin D hoti hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi. UVB skin mein precursor se vitamin D synthesis initiate karti hai, phir liver/kidney activation steps hote hain. Vitamin E antioxidant role se aur Vitamin K clotting-factor activation se associated hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "A-D-E-K ko fat-soluble mnemonic se yaad karunga, deficiency ko overgeneralize nahi karunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_45_water_soluble_vitamins",
+        "button_text": "Water-Soluble Vitamins ➔"
+      }
+    },
+    {
+      "card_id": "card_45_water_soluble_vitamins",
+      "card_slug": "card_45_water_soluble_vitamins",
+      "type": "chat",
+      "concept_id": "water_soluble_vitamins",
+      "level": 2,
+      "progress": {
+        "current": 45,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Vitamin B-complex ke alag members ke alag roles/deficiencies hote hain: B1 deficiency beri-beri, B3 deficiency pellagra, B12 deficiency megaloblastic/pernicious anaemia context, folate deficiency megaloblastic anaemia aur pregnancy mein neural-tube risk. Vitamin C deficiency scurvy se linked hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "B-complex ko ek single vitamin samajhna galat hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, B-complex group hai, ek molecule nahi. Water-soluble hone ka matlab “kabhi toxicity nahi” bhi nahi; high-dose supplements harmful ho sakte hain. Source aur clinical diagnosis ke bina deficiency label mat lagao."
+        },
+        {
+          "speaker": "raju",
+          "text": "Disease-name aur vitamin ko matching table mein practice karunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_46_quiz_vitamin_class",
+        "button_text": "Vitamin Quiz 1 ➔"
+      }
+    },
+    {
+      "card_id": "card_46_quiz_vitamin_class",
+      "card_slug": "card_46_quiz_vitamin_class",
+      "type": "quiz",
+      "concept_id": "vitamin_solubility",
+      "level": 1,
+      "progress": {
+        "current": 46,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which set contains only fat-soluble vitamins?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A, D, E, K"
+          },
+          {
+            "id": "B",
+            "text": "B1, B2, B12, C"
+          },
+          {
+            "id": "C",
+            "text": "C, folate, B6, B12"
+          },
+          {
+            "id": "D",
+            "text": "Only vitamin C and K"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "A, D, E aur K fat-soluble vitamins hain. B-complex aur C ko generally water-soluble group mein rakha jata hai."
+      },
+      "navigation": {
+        "next": "card_47_quiz_deficiency",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_47_quiz_deficiency",
+      "card_slug": "card_47_quiz_deficiency",
+      "type": "quiz",
+      "concept_id": "vitamin_deficiencies",
+      "level": 2,
+      "progress": {
+        "current": 47,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "A child with poor bone mineralisation and bowed legs is classically associated with deficiency of:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Vitamin D"
+          },
+          {
+            "id": "B",
+            "text": "Vitamin K"
+          },
+          {
+            "id": "C",
+            "text": "Vitamin B1"
+          },
+          {
+            "id": "D",
+            "text": "Vitamin C"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Vitamin D deficiency calcium/phosphate handling aur bone mineralisation ko affect karke children mein rickets se associated ho sakti hai. Clinical diagnosis doctor karta hai; exam association ko disease diagnosis na samjho."
+      },
+      "navigation": {
+        "next": "card_48_quiz_vitamin_trap",
+        "button_text": "Next Question ➔"
+      }
+    },
+    {
+      "card_id": "card_48_quiz_vitamin_trap",
+      "card_slug": "card_48_quiz_vitamin_trap",
+      "type": "quiz",
+      "concept_id": "vitamin_functions",
+      "level": 2,
+      "progress": {
+        "current": 48,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Which pairing is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Vitamin K — normal blood-clotting factor activation"
+          },
+          {
+            "id": "B",
+            "text": "Vitamin C — night blindness"
+          },
+          {
+            "id": "C",
+            "text": "Vitamin A — beri-beri"
+          },
+          {
+            "id": "D",
+            "text": "Vitamin B1 — rickets"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Vitamin K clotting-factor activation, Vitamin A vision, B1 beri-beri, C scurvy aur D rickets se associated exam pairings hain."
+      },
+      "navigation": {
+        "next": "card_49_milestone_vitamins",
+        "button_text": "Complete Vitamins ➔"
+      }
+    },
+    {
+      "card_id": "card_49_milestone_vitamins",
+      "card_slug": "card_49_milestone_vitamins",
+      "type": "milestone",
+      "concept_id": "vitamins_complete",
+      "level": 1,
+      "progress": {
+        "current": 49,
+        "total": 54
+      },
+      "milestone_payload": {
+        "title": "Vitamins Revised",
+        "badge_emoji": "🧪",
+        "completed_topic": "Solubility, functions and deficiency traps",
+        "xp_earned": 40,
+        "milestone_progress": "Module complete",
+        "motivational_quote": "Ab last revision mein groups compare karenge; Raju, answer se pehle reason bhi bolna."
+      },
+      "navigation": {
+        "next": "card_50_summary",
+        "button_text": "Final Synthesis ➔"
+      }
+    },
+    {
+      "card_id": "card_50_summary",
+      "card_slug": "card_50_summary",
+      "type": "summary",
+      "concept_id": "biomolecules_summary",
+      "level": 3,
+      "progress": {
+        "current": 50,
+        "total": 54
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "One-page map: carbohydrates = energy/storage/structure; proteins = amino-acid polymers and functions; enzymes = biological catalysts; lipids = hydrophobic storage/membrane/hormone-related molecules; nucleic acids = nucleotide polymers for information; vitamins = organic micronutrients with solubility-based exam traps."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main pehle category, phir building block, phir function aur exception check karunga — sirf example dekhkar answer nahi mark karunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_51_final_quiz_1",
+        "button_text": "Final Quiz 1 ➔"
+      }
+    },
+    {
+      "card_id": "card_51_final_quiz_1",
+      "card_slug": "card_51_final_quiz_1",
+      "type": "final_quiz",
+      "concept_id": "biomolecules_final_synthesis",
+      "level": 4,
+      "progress": {
+        "current": 51,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Consider the statements: 1. Cellulose is a plant structural polysaccharide. 2. Glycogen is a major animal storage polysaccharide. 3. Sucrose is conventionally a reducing sugar. Which is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1 and 2 only"
+          },
+          {
+            "id": "B",
+            "text": "2 and 3 only"
+          },
+          {
+            "id": "C",
+            "text": "1 and 3 only"
+          },
+          {
+            "id": "D",
+            "text": "1, 2 and 3"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Statements 1 and 2 are correct. Sucrose is conventionally non-reducing because both anomeric carbons are involved in its glycosidic bond."
+      },
+      "navigation": {
+        "next": "card_52_final_quiz_2",
+        "button_text": "Final Quiz 2 ➔"
+      }
+    },
+    {
+      "card_id": "card_52_final_quiz_2",
+      "card_slug": "card_52_final_quiz_2",
+      "type": "final_quiz",
+      "concept_id": "biomolecules_final_application",
+      "level": 4,
+      "progress": {
+        "current": 52,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Assertion (A): Enzymes can accelerate a reaction without changing its equilibrium constant. Reason (R): They provide an alternate pathway with lower activation energy.",
+        "options": [
+          {
+            "id": "A",
+            "text": "A aur R dono sahi hain aur R, A ki sahi explanation hai"
+          },
+          {
+            "id": "B",
+            "text": "A aur R dono sahi hain, par R explanation nahi hai"
+          },
+          {
+            "id": "C",
+            "text": "A sahi hai, R galat hai"
+          },
+          {
+            "id": "D",
+            "text": "A galat hai, R sahi hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Enzymes lower activation energy through an alternate pathway, so equilibrium is reached faster but the equilibrium constant/position is not changed by the catalyst."
+      },
+      "navigation": {
+        "next": "card_53_final_quiz_3",
+        "button_text": "Final Quiz 3 ➔"
+      }
+    },
+    {
+      "card_id": "card_53_final_quiz_3",
+      "card_slug": "card_53_final_quiz_3",
+      "type": "final_quiz",
+      "concept_id": "biomolecules_final_traps",
+      "level": 4,
+      "progress": {
+        "current": 53,
+        "total": 54
+      },
+      "quiz_payload": {
+        "question": "Match the following: (P) Vitamin D, (Q) DNA, (R) Phospholipid — with (1) base-paired information polymer, (2) amphipathic membrane molecule, (3) bone mineralisation role.",
+        "options": [
+          {
+            "id": "A",
+            "text": "P-3, Q-1, R-2"
+          },
+          {
+            "id": "B",
+            "text": "P-1, Q-2, R-3"
+          },
+          {
+            "id": "C",
+            "text": "P-2, Q-3, R-1"
+          },
+          {
+            "id": "D",
+            "text": "P-3, Q-2, R-1"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Vitamin D is linked with calcium/phosphate and bone mineralisation, DNA is a base-paired information polymer, and phospholipid is an amphipathic membrane molecule."
+      },
+      "navigation": {
+        "next": "card_54_final_milestone",
+        "button_text": "Complete Chapter ➔"
+      }
+    },
+    {
+      "card_id": "card_54_final_milestone",
+      "card_slug": "card_54_final_milestone",
+      "type": "milestone",
+      "concept_id": "biomolecules_complete",
+      "level": 1,
+      "progress": {
+        "current": 54,
+        "total": 54
+      },
+      "milestone_payload": {
+        "title": "Biomolecules Complete",
+        "badge_emoji": "🧪",
+        "completed_topic": "Carbohydrates, proteins, enzymes, lipids, nucleic acids and vitamins",
+        "xp_earned": 100,
+        "milestone_progress": "Module complete",
+        "motivational_quote": "Chapter complete! Ab revision mein weak pairings ko spaced practice se dobara check karna."
+      },
+      "navigation": {
+        "next": "course_completed",
+        "button_text": "Back to Chemistry Chapters ➔"
+      }
+    }
+  ]
+}
