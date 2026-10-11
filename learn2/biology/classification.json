@@ -1,0 +1,4345 @@
+{
+  "topic_id": "classification_biology",
+  "topic_title": "Biological Classification (Jeevon ka Vargikaran)",
+  "target_exams": [
+    "BPSC",
+    "BSSC",
+    "RRB NTPC",
+    "SSC CGL",
+    "NEET",
+    "UPSC Prelims"
+  ],
+  "total_cards": 127,
+  "characters": {
+    "aman": {
+      "name": "Aman Sir",
+      "role": "teacher",
+      "avatar": "👨‍🏫"
+    },
+    "raju": {
+      "name": "Raju",
+      "role": "student",
+      "avatar": "👦"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "card_001_intro",
+      "card_slug": "card_001_intro",
+      "type": "intro",
+      "concept_id": "classification_intro",
+      "level": 1,
+      "progress": {
+        "current": 1,
+        "total": 127
+      },
+      "intro_payload": {
+        "title": "🌿 Biological Classification (Jeevon ka Vargikaran)",
+        "icon": "🧬",
+        "target_exams": [
+          "BPSC",
+          "BSSC",
+          "RRB NTPC",
+          "SSC CGL",
+          "NEET",
+          "UPSC Prelims"
+        ],
+        "learning_outcomes": [
+          "Classification, taxonomy, systematics aur nomenclature ko bilkul basic se samjhenge",
+          "Taxonomic hierarchy, species concept, binomial nomenclature aur taxonomic aids karenge",
+          "Aristotle se Whittaker aur Woese tak classification systems ki timeline samjhenge",
+          "Monera, Protista, Fungi, Plantae aur Animalia ko features, examples aur exceptions ke saath padhenge",
+          "Plant groups, animal phyla aur chordate classes ke comparison questions solve karenge",
+          "Virus, viroid, prion, lichen, mycorrhiza aur exam ke name-traps ko alag se pakdenge",
+          "Direct MCQ, matching, assertion-reason aur multi-statement questions ke liye reason-based revision karenge",
+          "Har card mein ek chhota concept: pehle samajh, phir example, phir exam trap"
+        ]
+      },
+      "navigation": {
+        "next": "card_002_why_classify",
+        "button_text": "Aaram se Shuru Karein ➔"
+      }
+    },
+    {
+      "card_id": "card_002_why_classify",
+      "card_slug": "card_002_why_classify",
+      "type": "chat",
+      "concept_id": "need_for_classification",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Raju, aaj hum jaldi-jaldi facts nahi rattenge. Pehle samjhenge ki classification ki zaroorat hi kyon padi."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, agar bahut saare jeev hain to unhe pehchanne aur compare karne ke liye groups banana hoga, hai na?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Duniya mein bahut saari known species hain. Similar features wale organisms ko ek group mein rakhne se identification, study aur communication easy ho jata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Matlab classification biology ki ek organised filing system jaisa hai. Pehle group ka rule samjhenge, phir naam yaad karna easy hoga."
+        }
+      ],
+      "navigation": {
+        "next": "card_003_classification_terms",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_003_classification_terms",
+      "card_slug": "card_003_classification_terms",
+      "type": "chat",
+      "concept_id": "classification_taxonomy_systematics",
+      "level": 1,
+      "progress": {
+        "current": 3,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Teen words ko alag rakho. Classification ka matlab organisms ko similarities aur differences ke basis par groups mein rakhna."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, organisms ko pehchanne, naam dene aur groups mein rakhne wale kaam ko alag-alag naam kyon diye gaye hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Taxonomy mein identification, naming aur classification teenon aate hain. Systematics aur broad hai: taxonomy ke saath evolutionary relationship bhi study hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Toh simple line: taxonomy naam aur group banane ka kaam; systematics group ke saath relationship bhi dekhta hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_004_taxon_category",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_004_taxon_category",
+      "card_slug": "card_004_taxon_category",
+      "type": "chat",
+      "concept_id": "taxon_and_category",
+      "level": 1,
+      "progress": {
+        "current": 4,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Category ek rank ka naam hai, jaise Kingdom, Class ya Genus. Kisi rank par rakha actual jeevon ka group—**taxon**—us rank ka real group hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Example se samjhaiye Sir."
+        },
+        {
+          "speaker": "aman",
+          "text": "Kingdom ek category hai. Animalia us category ka taxon hai. Isi tarah Genus category hai aur Homo ek taxon hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, category = shelf ka label; taxon = us shelf par rakha actual box. Dono ko same nahi bolna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_005_hierarchy",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_005_hierarchy",
+      "card_slug": "card_005_hierarchy",
+      "type": "chat",
+      "concept_id": "taxonomic_hierarchy",
+      "level": 1,
+      "progress": {
+        "current": 5,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ab hierarchy ko upar se neeche padho: Kingdom → Phylum, plants mein Division → Class → Order → Family → Genus → Species."
+        },
+        {
+          "speaker": "raju",
+          "text": "Is order ko yaad rakhne ka simple tareeka hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "King Philip Came Over For Good Soup: K-P-C-O-F-G-S. Kingdom sabse broad aur Species sabse specific rank hoti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Aur plants ke liye Phylum ki jagah Division word mil sakta hai. Baaki sequence same rahega."
+        }
+      ],
+      "navigation": {
+        "next": "card_006_species_concept",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_006_species_concept",
+      "card_slug": "card_006_species_concept",
+      "type": "chat",
+      "concept_id": "species_definition",
+      "level": 1,
+      "progress": {
+        "current": 6,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Species ka simple matlab hai: ek jaise jeevon ka ek group. Is group ke do jeev aapas mein bachcha paida kar sakte hain—scientific language mein ise **interbreed** karna kehte hain—and unka bachcha bada hokar khud bhi bachcha paida kar sakta hai. Aise group ko species kehte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, matlab sirf do animals se bachcha aa jana enough nahi hai? Unka bachcha bhi aage bachcha paida kar sake, ye bhi dekhna hoga?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Agar bachcha bada hokar khud bachcha paida kar sakta hai, to is quality ko scientific language mein **fertile offspring** kehte hain. Yaani fertile ka simple matlab hai—khud aage bachche paida kar sakna."
+        },
+        {
+          "speaker": "raju",
+          "text": "Horse aur donkey ka example isi rule ko samjhane ke liye diya jata hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Horse aur donkey se mule paida ho sakta hai, lekin mule aam taur par khud bachcha paida nahi kar sakta. Isliye horse aur donkey ko same species nahi mante."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, agar koi jeev bina partner ke naye jeev banata ho, ya kisi jeev ke sirf bahut purane pathar bane avashesh mile hon, to kya ye rule seedha apply hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi. Ye rule mainly un jeevon par lagta hai jo male-female reproduction se bachche paida karte hain. Bina partner ke naye jeev banana **asexual reproduction** kehlata hai. Aur purane jeev ka pathar bana avashesh **fossil** kehlata hai. Aise jeevon ko scientists unki body, DNA (hereditary information rakhne wala molecule) aur purani species se sambandh dekhkar samajhte hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_007_binomial_nomenclature",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_007_binomial_nomenclature",
+      "card_slug": "card_007_binomial_nomenclature",
+      "type": "chat",
+      "concept_id": "binomial_nomenclature",
+      "level": 1,
+      "progress": {
+        "current": 7,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Scientific species name do words ka hota hai: Genus ka naam pehle, specific epithet doosre. Is system ko binomial nomenclature kehte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Homo sapiens mein Homo Genus hai aur sapiens specific epithet. Dono milkar poora species name banta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Genus ka first letter capital, specific epithet small. Print mein dono italic; handwriting mein dono words ko alag-alag underline karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Scientific name ko local language badalne se confusion nahi hoga, isliye Latinised form use hoti hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_008_nomenclature_rules",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_008_nomenclature_rules",
+      "card_slug": "card_008_nomenclature_rules",
+      "type": "chat",
+      "concept_id": "nomenclature_rules",
+      "level": 1,
+      "progress": {
+        "current": 8,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Naming ke teen exam rules yaad rakho. Pehla word Genus, capital letter. Doosra specific epithet, small letter. Teesra, dono words italic ya handwritten mein separately underlined."
+        },
+        {
+          "speaker": "raju",
+          "text": "Agar author ka naam bhi diya ho, jaise Mangifera indica L., to author ka L. bhi italic hoga?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi, author citation aam taur par italic nahi hoti. School exams mein mostly pehle do words ke capitalization aur italic rule par focus hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Aur genus akela bhi likh sakte hain, lekin species identify karne ke liye binomial complete name chahiye."
+        }
+      ],
+      "navigation": {
+        "next": "card_009_taxonomic_aids_intro",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_009_taxonomic_aids_intro",
+      "card_slug": "card_009_taxonomic_aids_intro",
+      "type": "chat",
+      "concept_id": "taxonomic_aids",
+      "level": 1,
+      "progress": {
+        "current": 9,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Classification sirf theory nahi. Organisms ko identify karne ke liye taxonomic aids use hote hain: herbarium (sukhe aur label kiye hue plant specimens ka collection), botanical garden, museum, zoological park, keys, manuals aur monographs."
+        },
+        {
+          "speaker": "raju",
+          "text": "In sab ka kaam thoda similar lag raha hai. Kya hum ek-ek karke karenge?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, abhi bas map samjho. Herbarium mein preserved plant specimens; museum mein preserved specimens; garden aur zoo mein living collections; key identification ke choices deta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai Sir, agle card mein har aid ka exact use karenge, taaki options mix na hon."
+        }
+      ],
+      "navigation": {
+        "next": "card_010_taxonomic_aids_details",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_010_taxonomic_aids_details",
+      "card_slug": "card_010_taxonomic_aids_details",
+      "type": "chat",
+      "concept_id": "taxonomic_aids_details",
+      "level": 1,
+      "progress": {
+        "current": 10,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Classification sirf theory nahi. Organisms ko identify karne ke liye taxonomic aids use hote hain: sukhe aur label kiye hue plant specimens ka collection—**herbarium**—botanical garden, museum, zoological park, keys, manuals aur monographs ke saath use hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Museum mein preserved plants aur animals dono ho sakte hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Museum mein jars mein preserved animals, stuffed specimens, skeletons ya herbarium sheets mil sakti hain. Zoological park mein living wild animals protected conditions mein dikhte hain. Kisi group ki detailed information wali book ko **monograph** kehte hain. Aur do contrasting choices dekar step-by-step identification karane wali key ko **dichotomous key** kehte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Aur manual ya monograph kisi group ki information book hoti hai. Key, especially dichotomous key, do contrasting choices ya couplets dekar step-by-step identification karati hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_011_guess_hierarchy",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_011_guess_hierarchy",
+      "card_slug": "card_011_guess_hierarchy",
+      "type": "guess",
+      "concept_id": "taxonomic_hierarchy_quiz",
+      "level": 1,
+      "progress": {
+        "current": 11,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Tiger ka scientific name Panthera tigris hai. Panthera kya represent karta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Species"
+          },
+          {
+            "id": "B",
+            "text": "Family"
+          },
+          {
+            "id": "C",
+            "text": "Genus"
+          },
+          {
+            "id": "D",
+            "text": "Order"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Binomial name mein pehla word Genus hota hai aur capital letter se likha jata hai. Panthera Genus hai; tigris specific epithet hai. Lion Panthera leo hai, isliye lion aur tiger same Genus but different species ke examples hain."
+      },
+      "navigation": {
+        "next": "card_012_foundation_quiz",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_012_foundation_quiz",
+      "card_slug": "card_012_foundation_quiz",
+      "type": "quiz",
+      "concept_id": "classification_basics_quiz",
+      "level": 1,
+      "progress": {
+        "current": 12,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Sabse broad se sabse specific taxonomic order kaunsa hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Species → Genus → Family → Order → Class → Kingdom"
+          },
+          {
+            "id": "B",
+            "text": "Kingdom → Phylum/Division → Class → Order → Family → Genus → Species"
+          },
+          {
+            "id": "C",
+            "text": "Kingdom → Class → Phylum → Order → Family → Genus → Species"
+          },
+          {
+            "id": "D",
+            "text": "Phylum → Kingdom → Class → Order → Family → Genus → Species"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Sahi sequence Kingdom → Phylum/Division → Class → Order → Family → Genus → Species hai. Trick: King Philip Came Over For Good Soup. Kingdom broadest rank hai aur Species most specific rank."
+      },
+      "navigation": {
+        "next": "card_013_milestone_foundation",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_013_milestone_foundation",
+      "card_slug": "card_013_milestone_foundation",
+      "type": "milestone",
+      "concept_id": "module_1_complete",
+      "level": 1,
+      "progress": {
+        "current": 13,
+        "total": 127
+      },
+      "milestone_payload": {
+        "title": "MODULE 1 COMPLETE! 🌱",
+        "badge_emoji": "🧭",
+        "completed_topic": "Classification ki language, hierarchy aur naming",
+        "xp_earned": 75,
+        "milestone_progress": "Module 1/10 Clear",
+        "motivational_quote": "Ab tumhe taxon, category, species, hierarchy aur scientific name ka base clear hai. Ab history aur kingdom systems ko bina confusion ke build karenge."
+      },
+      "navigation": {
+        "next": "card_014_classification_history_early",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_014_classification_history_early",
+      "card_slug": "card_014_classification_history_early",
+      "type": "chat",
+      "concept_id": "classification_history_early",
+      "level": 1,
+      "progress": {
+        "current": 14,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Classification ki history ko timeline ki tarah dekho. Aristotle ne animals ko broadly red blood present ya absent ke basis par groups mein rakha. Unhe Father of Zoology/Biology kaha jata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Plants ke liye early classification kisne ki thi?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Theophrastus ne plants ko herbs, shrubs aur trees mein study kiya; unhe Father of Botany kaha jata hai. Ye early systems simple visible characters par based the."
+        },
+        {
+          "speaker": "raju",
+          "text": "Matlab microscope aur cell knowledge se pehle classification mainly outer appearance par depend karti thi."
+        }
+      ],
+      "navigation": {
+        "next": "card_015_linnaeus_two_kingdom",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_015_linnaeus_two_kingdom",
+      "card_slug": "card_015_linnaeus_two_kingdom",
+      "type": "chat",
+      "concept_id": "linnaeus_two_kingdom",
+      "level": 1,
+      "progress": {
+        "current": 15,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Carolus Linnaeus ne 1758 ki Systema Naturae ki 10th edition mein binomial nomenclature ko standard form diya. Unhone two-kingdom system use kiya: Plantae aur Animalia."
+        },
+        {
+          "speaker": "raju",
+          "text": "Two kingdoms simple the, par bacteria aur fungi kahan gaye?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Yahi problem thi. Bacteria ko plants ke saath, fungi ko bhi plants ke saath rakhna padta tha; unicellular aur multicellular ka difference clear nahi hota tha; jis cell mein clear nucleus na ho use **prokaryote**, aur jis cell mein clear nucleus ho use **eukaryote** kehte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Toh system badla kyunki naye microscope-based facts purane boxes mein fit nahi ho rahe the."
+        }
+      ],
+      "navigation": {
+        "next": "card_016_haeckel_copeland",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_016_haeckel_copeland",
+      "card_slug": "card_016_haeckel_copeland",
+      "type": "chat",
+      "concept_id": "three_four_kingdom_history",
+      "level": 1,
+      "progress": {
+        "current": 16,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ernst Haeckel ne 1866 mein Protista naam ka third kingdom add kiya, mainly unicellular organisms ke liye. Isse plants aur animals ke beech ke organisms ko alag jagah mili."
+        },
+        {
+          "speaker": "raju",
+          "text": "Aur Four Kingdom system mein kya extra add hua?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Herbert Copeland ne 1956 mein Monera ko alag karke Four Kingdom system propose kiya: Monera, Protista, Plantae, Animalia. Prokaryotes ko eukaryotes se alag karna iska main point tha."
+        },
+        {
+          "speaker": "raju",
+          "text": "History ka rule: Haeckel = Protista, Copeland = Monera. Dono ko Whittaker se mix nahi karunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_017_whittaker_five_kingdom",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_017_whittaker_five_kingdom",
+      "card_slug": "card_017_whittaker_five_kingdom",
+      "type": "chat",
+      "concept_id": "whittaker_five_kingdom",
+      "level": 1,
+      "progress": {
+        "current": 17,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "R.H. Whittaker ne 1969 mein Five Kingdom system diya: Monera, Protista, Fungi, Plantae aur Animalia. Ismein Fungi ko Plantae se alag kingdom mila."
+        },
+        {
+          "speaker": "raju",
+          "text": "Fungi ko alag karne ka main reason chlorophyll absent aur nutrition ka difference tha?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Fungi non-green, absorptive heterotrophs hain; unki cell wall chitin ki hoti hai. Plants generally photosynthetic aur cellulose wall wale hote hain. Cell organisation bhi system ka important basis tha."
+        },
+        {
+          "speaker": "raju",
+          "text": "Whittaker 1969 = Five Kingdom, aur list ko M-P-F-P-A mnemonic se yaad kar sakta hoon: Monera, Protista, Fungi, Plantae, Animalia."
+        }
+      ],
+      "navigation": {
+        "next": "card_018_whittaker_criteria",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_018_whittaker_criteria",
+      "card_slug": "card_018_whittaker_criteria",
+      "type": "chat",
+      "concept_id": "five_kingdom_criteria",
+      "level": 1,
+      "progress": {
+        "current": 18,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Whittaker ne sirf appearance nahi dekhi. Main criteria the: cell structure, body organisation, mode of nutrition, reproduction aur evolutionary relationships."
+        },
+        {
+          "speaker": "raju",
+          "text": "Cell structure mein prokaryotic/eukaryotic aur body organisation mein unicellular/multicellular aayega?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Nutrition mein photosynthetic, absorptive ya ingestive; reproduction mein asexual/sexual patterns; aur phylogeny mein evolutionary relationship consider hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Agar statement mein sirf colour ya habitat ko sole criterion bola ho, to suspicious samajhna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_019_five_kingdom_map",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_019_five_kingdom_map",
+      "card_slug": "card_019_five_kingdom_map",
+      "type": "chat",
+      "concept_id": "five_kingdom_overview",
+      "level": 1,
+      "progress": {
+        "current": 19,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Five Kingdom ka one-line map banao. Monera: prokaryotic. Protista: mostly unicellular eukaryotic. Fungi: absorptive heterotroph. Plantae: multicellular photosynthetic. Animalia: multicellular ingestive heterotroph."
+        },
+        {
+          "speaker": "raju",
+          "text": "Kya ye one-line definitions har organism par bina exception ke apply hongi?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Ye exam-level broad features hain, absolute rules nahi. For example, Euglena mixotrophic hai, Mycoplasma ki wall absent hai, aur kuch plant-like protists alag systems mein differently place hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Toh question mein system ya context diya ho to wahi classification follow karna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_020_woese_domains",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_020_woese_domains",
+      "card_slug": "card_020_woese_domains",
+      "type": "chat",
+      "concept_id": "three_domain_system",
+      "level": 2,
+      "progress": {
+        "current": 20,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Carl Woese aur colleagues ne ribosomal RNA comparison ke basis par modern Three Domain system diya. Common exam timeline: proposal work 1977 se, formal three-domain publication 1990."
+        },
+        {
+          "speaker": "raju",
+          "text": "Teen domains kaun se hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bacteria, Archaea aur Eukarya. Domain Kingdom se upar ka rank hai. Bacteria aur Archaea dono prokaryotic hain, lekin unki molecular aur cell-membrane features alag hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Isliye archaea ko normal bacteria ke saath ek hi domain nahi diya gaya. rRNA evidence ko key clue yaad rakhunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_021_classification_timeline",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_021_classification_timeline",
+      "card_slug": "card_021_classification_timeline",
+      "type": "chat",
+      "concept_id": "classification_timeline",
+      "level": 2,
+      "progress": {
+        "current": 21,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Timeline ko ek baar dheere padho: Aristotle early classification; Linnaeus 1758 two kingdoms and binomial standard; Haeckel 1866 three kingdoms; Copeland 1956 four kingdoms; Whittaker 1969 five kingdoms; Woese 1990 three domains."
+        },
+        {
+          "speaker": "raju",
+          "text": "Six-kingdom system ka year kab likhna chahiye?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Many exam books Woese ke 1977 work ke baad six kingdoms batati hain: Eubacteria aur Archaebacteria ko alag karke. Agar option mein 1977 vs 1990 ho, question pooch raha hai six kingdoms ya three domains, dhyan se padho."
+        },
+        {
+          "speaker": "raju",
+          "text": "1977 = six-kingdom separation ka common exam reference; 1990 = three domains. Dono ko same answer nahi banana hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_022_kingdom_history_quiz",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_022_kingdom_history_quiz",
+      "card_slug": "card_022_kingdom_history_quiz",
+      "type": "quiz",
+      "concept_id": "kingdom_systems_quiz",
+      "level": 2,
+      "progress": {
+        "current": 22,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Five Kingdom system kis scientist ne aur kis year mein diya?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Haeckel – 1866"
+          },
+          {
+            "id": "B",
+            "text": "Copeland – 1956"
+          },
+          {
+            "id": "C",
+            "text": "R.H. Whittaker – 1969"
+          },
+          {
+            "id": "D",
+            "text": "Woese – 1990"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "R.H. Whittaker ne 1969 mein Five Kingdom system diya: Monera, Protista, Fungi, Plantae aur Animalia. Haeckel = Three Kingdom, Copeland = Four Kingdom, Woese = Three Domain system."
+      },
+      "navigation": {
+        "next": "card_023_criteria_statement_quiz",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_023_criteria_statement_quiz",
+      "card_slug": "card_023_criteria_statement_quiz",
+      "type": "quiz",
+      "concept_id": "five_kingdom_criteria_quiz",
+      "level": 2,
+      "progress": {
+        "current": 23,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Whittaker ke Five Kingdom system ke criteria mein kaunsa set sabse sahi hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sirf colour, size aur habitat"
+          },
+          {
+            "id": "B",
+            "text": "Cell structure, body organisation, nutrition, reproduction aur phylogeny"
+          },
+          {
+            "id": "C",
+            "text": "Sirf body weight aur life span"
+          },
+          {
+            "id": "D",
+            "text": "Sirf disease-causing ability"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Whittaker ne cellular organisation, body organisation, mode of nutrition, reproduction aur evolutionary/phylogenetic relationships ko consider kiya. Sirf habitat ya colour scientific kingdom criterion nahi hai."
+      },
+      "navigation": {
+        "next": "card_024_history_assertion",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_024_history_assertion",
+      "card_slug": "card_024_history_assertion",
+      "type": "final_quiz",
+      "concept_id": "classification_history_assertion",
+      "level": 2,
+      "progress": {
+        "current": 24,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Assertion: Fungi ko Plantae se alag kingdom mein rakhna useful tha. Reason: Fungi mein chlorophyll nahi hota, nutrition absorptive heterotrophic hota hai aur cell wall chitin ki hoti hai.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Assertion aur Reason dono sahi; Reason, Assertion ki sahi explanation hai"
+          },
+          {
+            "id": "B",
+            "text": "Dono sahi; Reason explanation nahi hai"
+          },
+          {
+            "id": "C",
+            "text": "Assertion sahi; Reason galat"
+          },
+          {
+            "id": "D",
+            "text": "Assertion galat; Reason sahi"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Dono statements sahi hain aur Reason direct comparison deta hai. Plants generally photosynthetic, cellulose-wall wale hote hain; fungi absorptive heterotrophs aur chitin-wall wale hote hain. Isi tarah ke assertion-reason mein dono parts ko independently check karo."
+      },
+      "navigation": {
+        "next": "card_025_milestone_kingdom_systems",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_025_milestone_kingdom_systems",
+      "card_slug": "card_025_milestone_kingdom_systems",
+      "type": "milestone",
+      "concept_id": "module_2_complete",
+      "level": 2,
+      "progress": {
+        "current": 25,
+        "total": 127
+      },
+      "milestone_payload": {
+        "title": "MODULE 2 COMPLETE! 🏛️",
+        "badge_emoji": "🏛️",
+        "completed_topic": "Classification systems: Two Kingdom se Three Domain tak",
+        "xp_earned": 90,
+        "milestone_progress": "Module 2/10 Clear",
+        "motivational_quote": "Ab history ratta nahi lag rahi; har system kis problem ko solve kar raha tha, ye samajh aa gaya. Ab Monera ko cell ke andar se dekhenge."
+      },
+      "navigation": {
+        "next": "card_026_monera_intro",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_026_monera_intro",
+      "card_slug": "card_026_monera_intro",
+      "type": "chat",
+      "concept_id": "monera_general",
+      "level": 2,
+      "progress": {
+        "current": 26,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Monera ko samajhne ka first rule: is kingdom ke organisms prokaryotic hote hain. Common examples bacteria, cyanobacteria aur archaea hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Prokaryotic ka simple matlab true nucleus nahi hota?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. DNA membrane-bound nucleus ke andar nahi, nucleoid region mein hota hai. Membrane-bound organelles jaise mitochondria aur chloroplast bhi absent hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Lekin cell membrane aur ribosomes to honge, warna cell ka basic kaam kaise chalega?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Prokaryote simple hota hai, cell-less nahi. Cell membrane, cytoplasm, ribosomes aur genetic material present hote hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_027_prokaryotic_cell",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_027_prokaryotic_cell",
+      "card_slug": "card_027_prokaryotic_cell",
+      "type": "chat",
+      "concept_id": "prokaryotic_cell_structure",
+      "level": 2,
+      "progress": {
+        "current": 27,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Bacterial cell mein nucleoid, plasmid, 70S ribosomes, cell membrane, cell wall aur kabhi capsule, pili ya flagellum mil sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Plasmid kya karta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Plasmid chhota circular extra DNA hota hai. Ismein antibiotic resistance jaise useful genes ho sakte hain aur ye bacteria ke beech transfer bhi ho sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "70S ribosome prokaryote ka exam clue hai; eukaryotic cytoplasm mein 80S hota hai, right?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, school-level comparison mein prokaryote = 70S aur eukaryotic cytoplasm = 80S yaad rakho. Mitochondria/chloroplast ke andar 70S ho sakta hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_028_bacterial_cell_wall",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_028_bacterial_cell_wall",
+      "card_slug": "card_028_bacterial_cell_wall",
+      "type": "chat",
+      "concept_id": "bacterial_cell_wall",
+      "level": 2,
+      "progress": {
+        "current": 28,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Most bacteria ki cell wall peptidoglycan, jise murein bhi kehte hain, se bani hoti hai. Plants mein cellulose aur fungi mein chitin hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Penicillin ka relation isi wall se hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Penicillin bacterial cell-wall synthesis ko block karta hai. Lekin Mycoplasma mein cell wall hi nahi hoti, isliye ye important exception hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Aur archaea ko bacteria bolne ki aadat se trap ho sakta hai; archaea ki wall mein peptidoglycan nahi hota."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Exam mein 'all Monera have peptidoglycan wall' galat statement ho sakta hai, kyunki archaea aur Mycoplasma exceptions hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_029_bacterial_shapes",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_029_bacterial_shapes",
+      "card_slug": "card_029_bacterial_shapes",
+      "type": "chat",
+      "concept_id": "bacterial_shapes",
+      "level": 2,
+      "progress": {
+        "current": 29,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Shape ke basis par common bacteria: Coccus = spherical, Bacillus = rod-shaped, Vibrio = comma-shaped, Spirillum = spiral-shaped."
+        },
+        {
+          "speaker": "raju",
+          "text": "Examples bhi yaad karne hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Staphylococcus coccus group ka example, E. coli bacillus, Vibrio cholerae comma-shaped aur Spirillum spiral example hai. Shape aur disease ko alag facts ki tarah padho."
+        },
+        {
+          "speaker": "raju",
+          "text": "Vibrio cholerae ko dekhkar comma shape yaad rahega, par har comma-shaped organism ko disease se define nahi karna."
+        }
+      ],
+      "navigation": {
+        "next": "card_030_bacterial_arrangements",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_030_bacterial_arrangements",
+      "card_slug": "card_030_bacterial_arrangements",
+      "type": "chat",
+      "concept_id": "bacterial_arrangements",
+      "level": 2,
+      "progress": {
+        "current": 30,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Arrangement shape se alag idea hai. Diplococci do cocci ke pair, streptococci chain, staphylococci grape-like clusters; bacilli bhi single, pair ya chain mein mil sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Toh coccus shape hai aur strepto/staphylo arrangement batate hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Exactly. Question mein 'chain of spherical cells' ho to streptococci; 'grape-like cluster' ho to staphylococci. Words ko todkar clue pakdo."
+        },
+        {
+          "speaker": "raju",
+          "text": "Shape aur arrangement ko ek hi category samajhna nahi hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_031_monera_nutrition",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_031_monera_nutrition",
+      "card_slug": "card_031_monera_nutrition",
+      "type": "chat",
+      "concept_id": "bacterial_nutrition",
+      "level": 2,
+      "progress": {
+        "current": 31,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Bacteria nutrition mein diverse hote hain. Autotrophic bacteria light se ya chemical oxidation se food bana sakte hain. Heterotrophic bacteria saprophytic, parasitic ya symbiotic ho sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Cyanobacteria photosynthetic autotroph hain, aur Lactobacillus heterotrophic example?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Kuch bacteria oxygen release karte hain, kuch anaerobic conditions mein rehte hain. Nutrition ko respiration se mix mat karo; food banana aur energy release alag processes hain. Dead organic matter ko todkar nutrients wapas environment mein lane wale bacteria ko **decomposer** kehte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Isliye 'all bacteria harmful' bhi galat hai; helpful, harmful aur decomposer sab ho sakte hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_032_monera_reproduction",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_032_monera_reproduction",
+      "card_slug": "card_032_monera_reproduction",
+      "type": "chat",
+      "concept_id": "bacterial_reproduction_gene_transfer",
+      "level": 2,
+      "progress": {
+        "current": 32,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Bacteria ka common reproduction binary fission hai: ek cell DNA copy karke do daughter cells banata hai. Suitable conditions mein ye bahut fast ho sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Conjugation reproduction hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Conjugation, transformation aur transduction genetic material transfer ke modes hain; inhe sexual reproduction kehna exact nahi. DNA ke information wale chhote hissa, yani **gene**, ka transfer variation aur antibiotic resistance spread karne mein role play kar sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Binary fission = multiplication; gene transfer = DNA exchange. Ye distinction question setter pooch sakta hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_033_cyanobacteria",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_033_cyanobacteria",
+      "card_slug": "card_033_cyanobacteria",
+      "type": "chat",
+      "concept_id": "cyanobacteria",
+      "level": 2,
+      "progress": {
+        "current": 33,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Cyanobacteria ko old books mein Blue-Green Algae kaha gaya, lekin ye true algae nahi; ye prokaryotic bacteria hain. Inmein chlorophyll a hota hai aur ye photosynthesis karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Nostoc aur Anabaena ka nitrogen fixation se connection hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Inke kuch cells heterocysts banate hain jahan atmospheric nitrogen fixation hota hai. Isliye rice fields aur biofertiliser questions mein Anabaena, Nostoc aur Azolla-Anabaena association aata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Blue-Green naam dekhkar ise Plantae ya algae mark nahi karna; pehle cell type dekho: prokaryote, so Monera."
+        }
+      ],
+      "navigation": {
+        "next": "card_034_archaea",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_034_archaea",
+      "card_slug": "card_034_archaea",
+      "type": "chat",
+      "concept_id": "archaebacteria",
+      "level": 2,
+      "progress": {
+        "current": 34,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Archaea prokaryotes hain, par unki cell membrane aur cell wall bacteria se distinct hoti hai. Inki wall mein peptidoglycan nahi hota."
+        },
+        {
+          "speaker": "raju",
+          "text": "Teen exam groups kaise yaad rahenge?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Halophiles high salt, thermoacidophiles hot and acidic places, aur methanogens oxygen-free marshes ya cattle rumen mein milte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Methanogens methane banate hain, isliye gobar gas/biogas plant se link hai."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Methanogens ko oxygen-free condition chahiye; unhe ordinary oxygen-loving bacteria samajhna galat hoga."
+        }
+      ],
+      "navigation": {
+        "next": "card_035_monera_importance",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_035_monera_importance",
+      "card_slug": "card_035_monera_importance",
+      "type": "chat",
+      "concept_id": "monera_economic_importance",
+      "level": 2,
+      "progress": {
+        "current": 35,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Helpful Monera ke examples: Lactobacillus milk ko curd banane mein, Rhizobium legume roots mein nitrogen fixation, aur methanogens biogas mein help karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Harmful examples disease bhi cause karte hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Vibrio cholerae cholera, Mycobacterium tuberculosis TB, Salmonella typhi typhoid aur Plasmodium malaria cause karta hai—but Plasmodium bacterium nahi, Protist hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Disease ka naam dekhkar kingdom guess nahi karna; causative organism ka type check karna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_036_monera_quiz_wall",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_036_monera_quiz_wall",
+      "card_slug": "card_036_monera_quiz_wall",
+      "type": "quiz",
+      "concept_id": "monera_quiz",
+      "level": 2,
+      "progress": {
+        "current": 36,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Most bacteria ki cell wall kis substance ki hoti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cellulose"
+          },
+          {
+            "id": "B",
+            "text": "Chitin"
+          },
+          {
+            "id": "C",
+            "text": "Peptidoglycan/Murein"
+          },
+          {
+            "id": "D",
+            "text": "Silica"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Most bacteria ki wall peptidoglycan ya murein ki hoti hai. Cellulose plants, chitin fungi aur silica diatoms ki wall mein hota hai. Mycoplasma wall-less exception hai aur archaea mein peptidoglycan absent hota hai."
+      },
+      "navigation": {
+        "next": "card_037_monera_quiz_cyanobacteria",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_037_monera_quiz_cyanobacteria",
+      "card_slug": "card_037_monera_quiz_cyanobacteria",
+      "type": "quiz",
+      "concept_id": "monera_quiz",
+      "level": 2,
+      "progress": {
+        "current": 37,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Cyanobacteria ke baare mein sahi combination chuniye.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Eukaryotic algae; chloroplast aur nucleus dono present"
+          },
+          {
+            "id": "B",
+            "text": "Prokaryotic photosynthetic bacteria; kuch forms nitrogen fixation karte hain"
+          },
+          {
+            "id": "C",
+            "text": "Fungi; sirf saprophytic nutrition"
+          },
+          {
+            "id": "D",
+            "text": "Animal cells; heterotrophic only"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Cyanobacteria Monera ke prokaryotes hain. Inmein membrane-bound chloroplast nahi hota, par photosynthetic pigments hote hain. Anabaena aur Nostoc jaise forms nitrogen fixation kar sakte hain."
+      },
+      "navigation": {
+        "next": "card_038_monera_quiz_archaea",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_038_monera_quiz_archaea",
+      "card_slug": "card_038_monera_quiz_archaea",
+      "type": "quiz",
+      "concept_id": "monera_quiz",
+      "level": 2,
+      "progress": {
+        "current": 38,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Methanogens ka best description kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Salt lakes mein salt-loving archaea"
+          },
+          {
+            "id": "B",
+            "text": "Hot acidic springs ke thermoacidophiles"
+          },
+          {
+            "id": "C",
+            "text": "Anaerobic conditions mein methane banane wale archaea"
+          },
+          {
+            "id": "D",
+            "text": "Cellulose-wall wale eukaryotes"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Methanogens oxygen-free habitats, cattle rumen aur marshy areas mein methane produce karte hain. Halophiles salt-loving aur thermoacidophiles hot acidic conditions ke examples hain. Methanogens biogas production se connected hain."
+      },
+      "navigation": {
+        "next": "card_039_milestone_monera",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_039_milestone_monera",
+      "card_slug": "card_039_milestone_monera",
+      "type": "milestone",
+      "concept_id": "module_3_complete",
+      "level": 2,
+      "progress": {
+        "current": 39,
+        "total": 127
+      },
+      "milestone_payload": {
+        "title": "MODULE 3 COMPLETE! 🦠",
+        "badge_emoji": "🦠",
+        "completed_topic": "Monera: bacteria, cyanobacteria, archaea aur exceptions",
+        "xp_earned": 110,
+        "milestone_progress": "Module 3/10 Clear",
+        "motivational_quote": "Ab Monera ko sirf bacteria ka box nahi, balki prokaryotic diversity ke roop mein samajh liya. Ab Protista ke eukaryotic one-cell world mein chalte hain."
+      },
+      "navigation": {
+        "next": "card_040_protista_intro",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_040_protista_intro",
+      "card_slug": "card_040_protista_intro",
+      "type": "chat",
+      "concept_id": "protista_general",
+      "level": 2,
+      "progress": {
+        "current": 40,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Protista mein mostly unicellular eukaryotes aate hain. Inmein true nucleus aur membrane-bound organelles hote hain, isliye ye Monera se clearly alag hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Mostly ka matlab kuch colonial ya simple multicellular forms bhi mil sakte hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, textbook descriptions mein 'mostly unicellular' safe phrase hai. Protists ka nutrition bhi diverse hai: autotrophic, heterotrophic ya mixotrophic."
+        },
+        {
+          "speaker": "raju",
+          "text": "Isliye Protista ko bridge kingdom kaha jata hai—plant-like, animal-like aur fungus-like groups milte hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_041_diatoms",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_041_diatoms",
+      "card_slug": "card_041_diatoms",
+      "type": "chat",
+      "concept_id": "chrysophytes_diatoms",
+      "level": 2,
+      "progress": {
+        "current": 41,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Chrysophytes mein diatoms aur golden algae aate hain. Diatoms ki cell wall silica ki do overlapping halves se bani hoti hai; is shell ko frustule bolte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Diatom shells jama hokar diatomaceous earth banti hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Diatomaceous earth filtration, polishing aur insulation mein use hoti hai. Diatoms aquatic food chains ke important producers hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Silica wall ka direct clue diatom hai; ise dinoflagellate ki wall se mix nahi karna."
+        }
+      ],
+      "navigation": {
+        "next": "card_042_dinoflagellates",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_042_dinoflagellates",
+      "card_slug": "card_042_dinoflagellates",
+      "type": "chat",
+      "concept_id": "dinoflagellates",
+      "level": 2,
+      "progress": {
+        "current": 42,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Dinoflagellates mostly marine protists hain. Inke do flagella ka arrangement spinning movement deta hai; kuch species cellulose plates wali hoti hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Red tide aur light emission isi group se linked hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, kuch dinoflagellate blooms red tide aur toxins se linked hote hain, aur kuch bioluminescent hote hain, jaise Noctiluca. Har dinoflagellate ko automatically toxic ya glowing mat bolo—'some' yaad rakho."
+        },
+        {
+          "speaker": "raju",
+          "text": "Exam mein bioluminescent marine protist ka common answer dinoflagellate hoga, aur red tide bloom ka clue bhi."
+        }
+      ],
+      "navigation": {
+        "next": "card_043_euglenoids",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_043_euglenoids",
+      "card_slug": "card_043_euglenoids",
+      "type": "chat",
+      "concept_id": "euglenoids_euglena",
+      "level": 2,
+      "progress": {
+        "current": 43,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Euglena mein chloroplast hota hai, isliye light mein photosynthesis kar sakti hai. Light na ho to organic food absorb karke heterotrophic mode dikha sakti hai—ise mixotrophic bolte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Iski cell wall cellulose wali nahi hoti?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi. Euglena ke bahar flexible protein-rich pellicle hoti hai. Eyespot light direction detect karta hai aur flagellum movement mein help karta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Plant-like chloroplast aur animal-like heterotrophy dono hone se ye classic 'misfit' example bana."
+        }
+      ],
+      "navigation": {
+        "next": "card_044_slime_moulds",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_044_slime_moulds",
+      "card_slug": "card_044_slime_moulds",
+      "type": "chat",
+      "concept_id": "slime_moulds",
+      "level": 2,
+      "progress": {
+        "current": 44,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Slime moulds fungus-like protists hain. Food ke liye decaying matter par saprophytic mode se grow karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Fungi-like hone ke baad bhi true fungi kyon nahi?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Inka vegetative stage multinucleate plasmodium jaisa move kar sakta hai, aur unfavourable condition mein fruiting bodies/spores banata hai. Cell organisation aur life cycle true fungi se different hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Naam mein mould hai, par kingdom decide karne ke liye structure aur life cycle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_045_protozoan_types",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_045_protozoan_types",
+      "card_slug": "card_045_protozoan_types",
+      "type": "chat",
+      "concept_id": "protozoan_groups",
+      "level": 2,
+      "progress": {
+        "current": 45,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Animal-like protists ko movement ke basis par yaad karo. Amoeboid pseudopodia use karte hain; flagellated flagella; ciliated cilia; sporozoans mein locomotory organelles absent ya reduced hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Examples: Amoeba, Trypanosoma, Paramecium, Plasmodium?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Amoeba amoeboid, Trypanosoma flagellated, Paramecium ciliated, Plasmodium sporozoan example hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Plasmodium ka malaria connection yaad rahega, par ye bacteria nahi—Protista hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_046_amoeba_paramecium",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_046_amoeba_paramecium",
+      "card_slug": "card_046_amoeba_paramecium",
+      "type": "chat",
+      "concept_id": "amoeba_paramecium",
+      "level": 2,
+      "progress": {
+        "current": 46,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Amoeba shape change karke pseudopodia se move aur food capture karta hai; food vacuoles digestion mein help karte hain. Paramecium cilia se move karta hai aur oral groove se food leta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Paramecium mein contractile vacuole ka role water balance hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, freshwater protists mein contractile vacuole excess water ko bahar nikalta hai. Paramecium mein macro-nucleus aur micro-nucleus jaise nuclear forms milte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Pseudopodia = Amoeba aur cilia = Paramecium—movement ke direct clues."
+        }
+      ],
+      "navigation": {
+        "next": "card_047_plasmodium",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_047_plasmodium",
+      "card_slug": "card_047_plasmodium",
+      "type": "chat",
+      "concept_id": "plasmodium_malaria",
+      "level": 2,
+      "progress": {
+        "current": 47,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Plasmodium ek sporozoan protist hai aur malaria cause karta hai. Female Anopheles mosquito iska vector hai; disease-causing organism ko vector se alag rakho."
+        },
+        {
+          "speaker": "raju",
+          "text": "P. falciparum aur P. vivax ke facts bhi exam mein aate hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. P. falciparum severe/cerebral malaria se strongly associated hai; P. vivax common tertian malaria ka textbook example hai. Basic classification question mein answer Protista rahega."
+        },
+        {
+          "speaker": "raju",
+          "text": "Mosquito vector Animalia ka hai, lekin Plasmodium Protista ka. Dono ko ek nahi karna."
+        }
+      ],
+      "navigation": {
+        "next": "card_048_protista_comparison",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_048_protista_comparison",
+      "card_slug": "card_048_protista_comparison",
+      "type": "chat",
+      "concept_id": "protista_comparison",
+      "level": 2,
+      "progress": {
+        "current": 48,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Protista ka quick comparison: diatom = silica frustule; dinoflagellate = two flagella, red tide/bioluminescence in some; Euglena = pellicle and mixotrophy; slime mould = plasmodium and spores; protozoa = animal-like movement."
+        },
+        {
+          "speaker": "raju",
+          "text": "Agar question mein wall material, movement ya nutrition diya ho to group identify kar sakta hoon."
+        },
+        {
+          "speaker": "aman",
+          "text": "Exactly. Ratne ke bajay clue padho. 'Silica' dekho to diatom; 'pellicle' to Euglena; 'pseudopodia' to Amoeba; 'malaria' to Plasmodium."
+        },
+        {
+          "speaker": "raju",
+          "text": "Aur red tide ko diatom nahi, usually dinoflagellate bloom se connect karna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_049_protista_quiz_1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_049_protista_quiz_1",
+      "card_slug": "card_049_protista_quiz_1",
+      "type": "quiz",
+      "concept_id": "protista_quiz",
+      "level": 2,
+      "progress": {
+        "current": 49,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Euglena ki sahi combination chuniye.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cellulose wall, only autotrophic"
+          },
+          {
+            "id": "B",
+            "text": "Pellicle, chloroplast, light mein autotrophic aur dark mein heterotrophic"
+          },
+          {
+            "id": "C",
+            "text": "Peptidoglycan wall, prokaryotic"
+          },
+          {
+            "id": "D",
+            "text": "Chitin wall, saprophytic fungus"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Euglena Protista ka eukaryote hai. Ismein flexible pellicle hoti hai, rigid cellulose cell wall nahi. Chloroplast ke kaaran photosynthesis aur darkness mein heterotrophic nutrition dono possible hain."
+      },
+      "navigation": {
+        "next": "card_050_protista_quiz_2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_050_protista_quiz_2",
+      "card_slug": "card_050_protista_quiz_2",
+      "type": "quiz",
+      "concept_id": "protista_quiz",
+      "level": 2,
+      "progress": {
+        "current": 50,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Silica ki overlapping cell wall/frustule kis mein hoti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Diatoms"
+          },
+          {
+            "id": "B",
+            "text": "Euglena"
+          },
+          {
+            "id": "C",
+            "text": "Amoeba"
+          },
+          {
+            "id": "D",
+            "text": "Slime mould"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Diatoms ki wall silica ki do overlapping halves se bani hoti hai, jise frustule kehte hain. Unke remains se diatomaceous earth ban sakti hai."
+      },
+      "navigation": {
+        "next": "card_051_protista_quiz_3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_051_protista_quiz_3",
+      "card_slug": "card_051_protista_quiz_3",
+      "type": "quiz",
+      "concept_id": "protista_quiz",
+      "level": 2,
+      "progress": {
+        "current": 51,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Malaria ka causative organism kis group mein aata hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Monera: bacterium"
+          },
+          {
+            "id": "B",
+            "text": "Protista: Plasmodium"
+          },
+          {
+            "id": "C",
+            "text": "Fungi: yeast"
+          },
+          {
+            "id": "D",
+            "text": "Animalia: helminth"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Plasmodium sporozoan protist hai. Female Anopheles mosquito vector hai. Vector aur causative organism alag cheezein hain—ye multi-statement questions mein common trap hai."
+      },
+      "navigation": {
+        "next": "card_052_milestone_protista",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_052_milestone_protista",
+      "card_slug": "card_052_milestone_protista",
+      "type": "milestone",
+      "concept_id": "module_4_complete",
+      "level": 2,
+      "progress": {
+        "current": 52,
+        "total": 127
+      },
+      "milestone_payload": {
+        "title": "MODULE 4 COMPLETE! 🌊",
+        "badge_emoji": "🌊",
+        "completed_topic": "Protista: diatoms, dinoflagellates, Euglena, slime moulds aur protozoa",
+        "xp_earned": 110,
+        "milestone_progress": "Module 4/10 Clear",
+        "motivational_quote": "Protista ka confusion ab clue-based ho gaya: silica, pellicle, red tide, pseudopodia aur malaria—har clue ka apna group hai."
+      },
+      "navigation": {
+        "next": "card_053_fungi_intro",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_053_fungi_intro",
+      "card_slug": "card_053_fungi_intro",
+      "type": "chat",
+      "concept_id": "fungi_general",
+      "level": 3,
+      "progress": {
+        "current": 53,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Fungi eukaryotic, non-green aur heterotrophic organisms hain. Ye food ko absorb karte hain; animals ki tarah food ko ingest nahi karte."
+        },
+        {
+          "speaker": "raju",
+          "text": "Inki cell wall plants jaisi hoti hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Rigid wall hoti hai, par material chitin hota hai, cellulose nahi. Fungi mein chlorophyll absent hota hai aur reserve food commonly glycogen aur oils hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Yeast ek single-celled fungus hai, lekin mushroom jaise forms multicellular filamentous hote hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Yeast important unicellular exception/example hai; baaki bahut se fungi hyphae se body banate hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_054_hyphae_mycelium",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_054_hyphae_mycelium",
+      "card_slug": "card_054_hyphae_mycelium",
+      "type": "chat",
+      "concept_id": "fungal_body",
+      "level": 3,
+      "progress": {
+        "current": 54,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Fungal thread ko hypha kehte hain. Bahut saari hyphae ka network mycelium hota hai—ye hi fungus ki main body hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Hyphae mein partitions bhi hote hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Kuch fungi mein septa hote hain, isliye septate hyphae. Kuch lower fungi mein septa absent hote hain; unhe coenocytic ya aseptate hyphae bolte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Coenocytic ka matlab ek continuous cytoplasm mein multiple nuclei, beech mein cross-walls nahi."
+        },
+        {
+          "speaker": "aman",
+          "text": "Sahi. Ye word especially Phycomycetes ke comparison mein yaad rakhna."
+        }
+      ],
+      "navigation": {
+        "next": "card_055_fungal_nutrition",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_055_fungal_nutrition",
+      "card_slug": "card_055_fungal_nutrition",
+      "type": "chat",
+      "concept_id": "fungal_nutrition",
+      "level": 3,
+      "progress": {
+        "current": 55,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Fungi saprophytic, parasitic ya symbiotic ho sakte hain. Saprophyte dead organic matter ko enzymes se break karke nutrients absorb karta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Puccinia jaise parasites living host se nutrients lete hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, Puccinia wheat rust ka example hai. Mycorrhiza mein fungus aur plant roots dono benefit lete hain—ye symbiosis hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Isliye fungi ko simply harmful bolna galat; decomposers aur useful partners bhi hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_056_fungi_reproduction",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_056_fungi_reproduction",
+      "card_slug": "card_056_fungi_reproduction",
+      "type": "chat",
+      "concept_id": "fungi_reproduction",
+      "level": 3,
+      "progress": {
+        "current": 56,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Asexual reproduction fragmentation, budding ya asexual spores se ho sakta hai. Yeast budding ka common example hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sexual reproduction ke terms ka order kya hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Basic sequence plasmogamy = cytoplasm fusion, uske baad dikaryotic stage; karyogamy = nuclei fusion; phir chromosome number aadha karne wala division—**meiosis**—se haploid spores ban sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Plasmogamy aur karyogamy same nahi. Pehle cytoplasm, baad mein nuclei fuse hote hain."
+        }
+      ],
+      "navigation": {
+        "next": "card_057_phycomycetes",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_057_phycomycetes",
+      "card_slug": "card_057_phycomycetes",
+      "type": "chat",
+      "concept_id": "phycomycetes",
+      "level": 3,
+      "progress": {
+        "current": 57,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Traditional exam classification mein Phycomycetes lower fungi hain. Hyphae generally aseptate/coenocytic; asexual spores zoospores ya aplanospores ho sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Rhizopus aur Mucor ke examples milte hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Rhizopus bread mould hai; sexual reproduction mein zygospore textbook clue hai. Albugo bhi is group ke examples mein diya ja sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Phycomycetes ko coenocytic hyphae aur zygospore se identify karunga, lekin question mein syllabus convention check karna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_058_ascomycetes",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_058_ascomycetes",
+      "card_slug": "card_058_ascomycetes",
+      "type": "chat",
+      "concept_id": "ascomycetes",
+      "level": 3,
+      "progress": {
+        "current": 58,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ascomycetes ko sac fungi bolte hain. Sexual spores ascus naam ke sac-like structure ke andar bante hain; usually ek ascus mein 8 ascospores ka exam fact diya jata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Asexual spores conidia hote hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, kai ascomycetes conidia banate hain. Examples: Saccharomyces yeast, Penicillium, Aspergillus, Neurospora, morels aur truffles."
+        },
+        {
+          "speaker": "raju",
+          "text": "Penicillin source Penicillium hai, aur yeast Ascomycetes mein—dono ko alag-alag example ke saath yaad karunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_059_basidiomycetes",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_059_basidiomycetes",
+      "card_slug": "card_059_basidiomycetes",
+      "type": "chat",
+      "concept_id": "basidiomycetes",
+      "level": 3,
+      "progress": {
+        "current": 59,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Basidiomycetes club fungi hain. Sexual spores basidium ke external surface par bante hain aur basidiospores kehlate hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Mushroom isi group mein aata hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, Agaricus mushroom, puffballs, bracket fungi, Puccinia wheat rust aur Ustilago smut common examples hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Mushroom ko plant samajhna galat; chitin wall aur absorptive nutrition ke kaaran Fungi."
+        }
+      ],
+      "navigation": {
+        "next": "card_060_deuteromycetes",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_060_deuteromycetes",
+      "card_slug": "card_060_deuteromycetes",
+      "type": "chat",
+      "concept_id": "deuteromycetes",
+      "level": 3,
+      "progress": {
+        "current": 60,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Deuteromycetes ko Fungi Imperfecti kaha gaya kyunki unmein sexual stage observe nahi hui thi. Isliye textbook classification mein ye asexual stage ke basis par group tha."
+        },
+        {
+          "speaker": "raju",
+          "text": "Iska matlab ye permanently sexless organisms nahi, sirf known sexual stage absent thi?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Jab sexual stage discover ho jaye, fungus ko appropriate class mein shift kiya ja sakta hai. Alternaria aur Colletotrichum common examples hain; Trichoderma ko bhi exam books mein diya jata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "'Sexual reproduction kabhi possible hi nahi' bolna too absolute hoga; safe line hai sexual stage not known/observed."
+        }
+      ],
+      "navigation": {
+        "next": "card_061_yeast",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_061_yeast",
+      "card_slug": "card_061_yeast",
+      "type": "chat",
+      "concept_id": "yeast",
+      "level": 3,
+      "progress": {
+        "current": 61,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Yeast Saccharomyces ek unicellular fungus hai, Ascomycetes group ka. Ye budding se reproduce karta hai aur sugar ko ferment karke alcohol aur carbon dioxide bana sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Isi liye bread dough phoolta hai aur brewing mein bhi use hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Bread mein CO2 dough ko rise karata hai. Exam trap: unicellular hone se yeast Monera ya Protista nahi ban jata; cell wall chitin aur fungal nutrition ise Fungi mein rakhte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Unicellular = automatically Monera, ye shortcut galat hai. Cell type aur characteristics dono dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_062_lichen_mycorrhiza",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_062_lichen_mycorrhiza",
+      "card_slug": "card_062_lichen_mycorrhiza",
+      "type": "chat",
+      "concept_id": "lichen_mycorrhiza",
+      "level": 3,
+      "progress": {
+        "current": 62,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Lichen ek single organism ya kingdom nahi; fungus aur alga/cyanobacterium ka mutualistic association hai. Fungus, mycobiont, shelter aur water deta hai; photosynthetic partner, phycobiont, food banata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Lichen pollution indicator kyon hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Lichens air pollution, especially sulphur dioxide, ke sensitive hote hain. Isliye polluted area mein lichen kam mil sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Mycorrhiza alag hai: fungus + plant roots. Plant ko phosphorus/water uptake mein help, fungus ko plant se sugars."
+        }
+      ],
+      "navigation": {
+        "next": "card_063_fungi_importance",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_063_fungi_importance",
+      "card_slug": "card_063_fungi_importance",
+      "type": "chat",
+      "concept_id": "fungi_economic_importance",
+      "level": 3,
+      "progress": {
+        "current": 63,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Fungi ke uses ko teen buckets mein padho. Food: mushroom, yeast. Medicine: Penicillin from Penicillium, Cyclosporin A from Trichoderma, statins from Monascus purpureus."
+        },
+        {
+          "speaker": "raju",
+          "text": "Harmful side mein plant diseases aur food spoilage?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Puccinia wheat rust, Ustilago smut aur kai fungi crop diseases cause karte hain. Saath hi fungi decomposers hain, isliye nutrient cycling mein essential hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Economic importance ka question positive aur negative dono examples se aa sakta hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_064_fungi_quiz_1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_064_fungi_quiz_1",
+      "card_slug": "card_064_fungi_quiz_1",
+      "type": "quiz",
+      "concept_id": "fungi_quiz",
+      "level": 3,
+      "progress": {
+        "current": 64,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Fungi Imperfecti/Deuteromycetes ko imperfect kyon kaha gaya?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cell wall absent hoti hai"
+          },
+          {
+            "id": "B",
+            "text": "Sexual stage observe nahi hui thi"
+          },
+          {
+            "id": "C",
+            "text": "Sab unicellular hote hain"
+          },
+          {
+            "id": "D",
+            "text": "Chlorophyll bahut zyada hota hai"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Deuteromycetes ek old practical group tha jisme sexual reproduction ki stage known/observed nahi thi. Sexual stage milne par fungus ko doosri class mein place kiya ja sakta hai. Isliye 'never possible' se better 'not observed/known' line hai."
+      },
+      "navigation": {
+        "next": "card_065_fungi_quiz_2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_065_fungi_quiz_2",
+      "card_slug": "card_065_fungi_quiz_2",
+      "type": "quiz",
+      "concept_id": "fungi_quiz",
+      "level": 3,
+      "progress": {
+        "current": 65,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Lichen ka correct partnership kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bacterium + virus"
+          },
+          {
+            "id": "B",
+            "text": "Fungus + alga/cyanobacterium"
+          },
+          {
+            "id": "C",
+            "text": "Two animals"
+          },
+          {
+            "id": "D",
+            "text": "Fungus + insect only"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Lichen mein fungus mycobiont aur photosynthetic alga/cyanobacterium phycobiont hota hai. Ye mutualism hai. Fungus plus plant roots ko mycorrhiza kehte hain, lichen nahi."
+      },
+      "navigation": {
+        "next": "card_066_fungi_quiz_3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_066_fungi_quiz_3",
+      "card_slug": "card_066_fungi_quiz_3",
+      "type": "quiz",
+      "concept_id": "fungi_quiz",
+      "level": 3,
+      "progress": {
+        "current": 66,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Traditional textbook classification mein ek ascus mein usually kitne ascospores bataye jaate hain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "2"
+          },
+          {
+            "id": "B",
+            "text": "4"
+          },
+          {
+            "id": "C",
+            "text": "8"
+          },
+          {
+            "id": "D",
+            "text": "32"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Ascomycetes ke sac-like ascus mein commonly 8 ascospores ka exam fact hai. Meiosis ke baad mitosis se 8 haploid spores ka explanation diya jata hai. Question mein 'usually' ko notice karo."
+      },
+      "navigation": {
+        "next": "card_067_milestone_fungi",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_067_milestone_fungi",
+      "card_slug": "card_067_milestone_fungi",
+      "type": "milestone",
+      "concept_id": "module_5_complete",
+      "level": 3,
+      "progress": {
+        "current": 67,
+        "total": 127
+      },
+      "milestone_payload": {
+        "title": "MODULE 5 COMPLETE! 🍄",
+        "badge_emoji": "🍄",
+        "completed_topic": "Fungi: body, nutrition, reproduction, classes aur symbiosis",
+        "xp_earned": 125,
+        "milestone_progress": "Module 5/10 Clear",
+        "motivational_quote": "Ab yeast, mushroom, lichen aur Penicillium kisi ek plant-box mein nahi ja rahe. Fungi ke structure aur nutrition se answer nikalna aa gaya."
+      },
+      "navigation": {
+        "next": "card_068_plantae_intro",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_068_plantae_intro",
+      "card_slug": "card_068_plantae_intro",
+      "type": "chat",
+      "concept_id": "plantae_general",
+      "level": 3,
+      "progress": {
+        "current": 68,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Plantae ke broad features: multicellular eukaryotic body, cellulose cell wall, chlorophyll-based photosynthesis aur mostly autotrophic nutrition. Reserve food generally starch hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Plant groups ko simple ladder mein kaise dekhen?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Traditional school-level plant ladder mein algae se bryophytes, pteridophytes, gymnosperms aur angiosperms tak complexity aur vascular/seed features badhte hain. Ye study sequence hai, har group ko same taxonomic rank ya perfect evolutionary line samajhna nahi."
+        },
+        {
+          "speaker": "raju",
+          "text": "Pehle algae ke major types, phir land plants step by step karenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_069_green_algae",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_069_green_algae",
+      "card_slug": "card_069_green_algae",
+      "type": "chat",
+      "concept_id": "chlorophyceae",
+      "level": 3,
+      "progress": {
+        "current": 69,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Green algae ya Chlorophyceae mein chlorophyll a aur b hote hain; reserve food starch hota hai. Examples Chlamydomonas, Volvox, Ulothrix, Spirogyra aur Chara hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Inki cell wall cellulose wali hoti hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Generally cellulose wall hoti hai. Chlamydomonas unicellular example, Volvox colonial aur Spirogyra filamentous example hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Chlamydomonas ko five-kingdom context mein Protista bhi kaha ja sakta hai, par traditional Plant Kingdom chapter mein Chlorophyceae ke under bhi discuss hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bahut important nuance. Question mein classification system dekho: Whittaker context mein unicellular eukaryotic forms ko Protista mein rakha ja sakta hai; traditional plant-group question mein algae ko Plantae/Thallophyta ke under discuss kiya jata hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_070_brown_algae",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_070_brown_algae",
+      "card_slug": "card_070_brown_algae",
+      "type": "chat",
+      "concept_id": "phaeophyceae",
+      "level": 3,
+      "progress": {
+        "current": 70,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Brown algae ya Phaeophyceae mein fucoxanthin brown colour deta hai. Reserve food laminarin aur mannitol; examples Ectocarpus, Fucus, Sargassum aur Laminaria."
+        },
+        {
+          "speaker": "raju",
+          "text": "Algin ka use bhi brown algae se hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, algin commercial thickener/stabiliser ke roop mein important hai. Brown algae mostly marine aur multicellular hoti hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Brown colour = fucoxanthin, reserve = laminarin/mannitol—ye pair direct MCQ ban sakta hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_071_red_algae",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_071_red_algae",
+      "card_slug": "card_071_red_algae",
+      "type": "chat",
+      "concept_id": "rhodophyceae",
+      "level": 3,
+      "progress": {
+        "current": 71,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Red algae ya Rhodophyceae mein phycoerythrin red colour deta hai. Reserve food floridean starch; examples Polysiphonia, Porphyra, Gelidium aur Gracilaria."
+        },
+        {
+          "speaker": "raju",
+          "text": "Agar-agar Gelidium aur Gracilaria se milta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Agar aur carrageenan red algae ke economic products hain. Red algae deeper water mein bhi grow kar sakti hain kyunki pigments available light use karne mein help karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Red = phycoerythrin, reserve = floridean starch, agar = Gelidium/Gracilaria."
+        }
+      ],
+      "navigation": {
+        "next": "card_072_bryophyta",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_072_bryophyta",
+      "card_slug": "card_072_bryophyta",
+      "type": "chat",
+      "concept_id": "bryophyta",
+      "level": 3,
+      "progress": {
+        "current": 72,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Bryophytes ko Amphibians of Plant Kingdom kehte hain. Ye land par grow karte hain, par sexual reproduction ke liye water required hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Inmein xylem aur phloem hote hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi. Bryophytes non-vascular, seedless plants hain. True roots ki jagah rhizoids anchorage aur absorption mein help karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Moss Funaria aur liverwort Marchantia examples; gametophyte main plant body hota hai aur sporophyte us par dependent hota hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_073_pteridophyta",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_073_pteridophyta",
+      "card_slug": "card_073_pteridophyta",
+      "type": "chat",
+      "concept_id": "pteridophyta",
+      "level": 3,
+      "progress": {
+        "current": 73,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Pteridophytes first vascular land plants ke roop mein padhe jaate hain. Inmein true roots, stem, leaves, xylem aur phloem hote hain, par seeds aur flowers nahi."
+        },
+        {
+          "speaker": "raju",
+          "text": "Fern, Selaginella aur Equisetum examples hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Ye vascular cryptogams hain aur spores se reproduce karte hain. Sporophyte independent aur dominant generation hoti hai. Selaginella aur Marsilea heterosporous examples hain; heterospory ko seed habit ki direction mein important step maana jata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Pteridophyta = vascular but seedless. Ye line bryophyta se difference clear karti hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_074_gymnosperms",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_074_gymnosperms",
+      "card_slug": "card_074_gymnosperms",
+      "type": "chat",
+      "concept_id": "gymnosperms",
+      "level": 3,
+      "progress": {
+        "current": 74,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Gymnosperm ka literal idea: gymnos = naked, sperma = seed. Ovules/seeds exposed hote hain, fruit ke andar enclosed nahi; true flowers bhi nahi hote."
+        },
+        {
+          "speaker": "raju",
+          "text": "Examples Pinus, Cycas, Ginkgo?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Gymnosperms vascular, seed-bearing aur heterosporous plants hain; cones/strobili reproductive structures mein important hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Naked seed ka matlab seed cover bilkul nahi, aisa nahi; fruit covering absent aur ovule exposed hota hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_075_angiosperms",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_075_angiosperms",
+      "card_slug": "card_075_angiosperms",
+      "type": "chat",
+      "concept_id": "angiosperms",
+      "level": 3,
+      "progress": {
+        "current": 75,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Angiosperms flowering plants hain. Ovules ovary ke andar hote hain, fertilisation ke baad seeds fruit ke andar enclosed ho jate hain. Double fertilisation inki key feature hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Monocot aur dicot isi group ke do broad types hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Monocot mein one cotyledon; dicot mein two cotyledons. Grasses, rice, wheat, maize monocot examples; pea, gram, mango, bean dicot examples."
+        },
+        {
+          "speaker": "raju",
+          "text": "Flower + enclosed seed + fruit = Angiosperm ka strong clue."
+        }
+      ],
+      "navigation": {
+        "next": "card_076_monocot_dicot",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_076_monocot_dicot",
+      "card_slug": "card_076_monocot_dicot",
+      "type": "chat",
+      "concept_id": "monocot_dicot",
+      "level": 3,
+      "progress": {
+        "current": 76,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Monocot-dicot table: cotyledon one vs two; venation parallel vs reticulate; root fibrous vs tap; vascular bundles scattered vs ring-like; floral parts usually 3 ke multiples vs 4/5 ke multiples."
+        },
+        {
+          "speaker": "raju",
+          "text": "Kya har plant ko sirf ek feature se identify karna safe hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi. Usually/commonly words important hain. Exam mein multiple features diye hon to combination dekho; ek exception se poori category reject mat karo."
+        },
+        {
+          "speaker": "raju",
+          "text": "Rice aur wheat = monocot; pea aur mango = dicot—examples se table recall karunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_077_alternation_generations",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_077_alternation_generations",
+      "card_slug": "card_077_alternation_generations",
+      "type": "chat",
+      "concept_id": "alternation_of_generations",
+      "level": 3,
+      "progress": {
+        "current": 77,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Plants mein life cycle mein haploid gametophyte aur diploid sporophyte generations alternate kar sakti hain. Gametophyte gametes banata hai; sporophyte spores banata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Bryophyte mein gametophyte dominant, pteridophyte aur seed plants mein sporophyte dominant?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, broad exam comparison mein ye line use hoti hai. Bryophyte sporophyte dependent hota hai; pteridophyte ka sporophyte independent hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Alternation of generations ko simple plant height ya age samajhna galat; ye haploid-diploid phases ka sequence hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_078_plantae_quiz_1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_078_plantae_quiz_1",
+      "card_slug": "card_078_plantae_quiz_1",
+      "type": "quiz",
+      "concept_id": "plantae_quiz",
+      "level": 3,
+      "progress": {
+        "current": 78,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Plant Kingdom ke first vascular, seedless plants kaun se hain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bryophyta"
+          },
+          {
+            "id": "B",
+            "text": "Pteridophyta"
+          },
+          {
+            "id": "C",
+            "text": "Gymnosperms"
+          },
+          {
+            "id": "D",
+            "text": "Angiosperms"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Pteridophyta ko first vascular cryptogams kaha jata hai. Inmein xylem-phloem hote hain, lekin seeds aur flowers absent hote hain. Bryophyta non-vascular hai."
+      },
+      "navigation": {
+        "next": "card_079_plantae_quiz_2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_079_plantae_quiz_2",
+      "card_slug": "card_079_plantae_quiz_2",
+      "type": "quiz",
+      "concept_id": "plantae_quiz",
+      "level": 3,
+      "progress": {
+        "current": 79,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Gymnosperm aur angiosperm ka correct difference kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Gymnosperm seedless, angiosperm seed-bearing"
+          },
+          {
+            "id": "B",
+            "text": "Gymnosperm naked seeds/no fruits; angiosperm seeds fruits ke andar"
+          },
+          {
+            "id": "C",
+            "text": "Gymnosperm prokaryotic, angiosperm eukaryotic"
+          },
+          {
+            "id": "D",
+            "text": "Gymnosperm mein flowers, angiosperm mein flowers nahi"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Gymnosperm mein seeds exposed/naked hote hain aur fruit covering nahi hoti. Angiosperm flowering plants hain jinke seeds ovary se bane fruit ke andar enclosed hote hain."
+      },
+      "navigation": {
+        "next": "card_080_plantae_quiz_3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_080_plantae_quiz_3",
+      "card_slug": "card_080_plantae_quiz_3",
+      "type": "quiz",
+      "concept_id": "plantae_quiz",
+      "level": 3,
+      "progress": {
+        "current": 80,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Bryophytes ko Amphibians of Plant Kingdom kyon kaha jata hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Land par rehte hue sexual reproduction ke liye water chahiye"
+          },
+          {
+            "id": "B",
+            "text": "Inmein seeds aur fruits hote hain"
+          },
+          {
+            "id": "C",
+            "text": "Ye heterotrophic animals hain"
+          },
+          {
+            "id": "D",
+            "text": "Inmein xylem-phloem bahut developed hote hain"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Bryophytes non-vascular land plants hain, par male gametes ko water ke through egg tak pahunchna hota hai. Isi dependence ke kaaran amphibian comparison diya jata hai."
+      },
+      "navigation": {
+        "next": "card_081_milestone_plantae",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_081_milestone_plantae",
+      "card_slug": "card_081_milestone_plantae",
+      "type": "milestone",
+      "concept_id": "module_6_complete",
+      "level": 3,
+      "progress": {
+        "current": 81,
+        "total": 127
+      },
+      "milestone_payload": {
+        "title": "MODULE 6 COMPLETE! 🌿",
+        "badge_emoji": "🌿",
+        "completed_topic": "Plantae: algae se angiosperms tak",
+        "xp_earned": 135,
+        "milestone_progress": "Module 6/10 Clear",
+        "motivational_quote": "Plant groups ka ladder ab clear hai: non-vascular bryophyte, vascular seedless pteridophyte, naked-seed gymnosperm, enclosed-seed angiosperm."
+      },
+      "navigation": {
+        "next": "card_082_animalia_intro",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_082_animalia_intro",
+      "card_slug": "card_082_animalia_intro",
+      "type": "chat",
+      "concept_id": "animalia_general",
+      "level": 3,
+      "progress": {
+        "current": 82,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Animalia se shuru karein. Animals ki body bahut saari chhoti living units se milkar bani hoti hai. Is feature ko **multicellular** kehte hain—dog, fish aur human iske examples hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Multicellular matlab body bahut saari cells se bani hoti hai, sir?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Animals ki cells mein ek clear control centre hota hai jise nucleus kehte hain; aisi cells ko **eukaryotic** kehte hain. Sponge jaise simple animals mein true tissues aur nervous system nahi hota, isliye broad feature ko absolute rule mat samjho."
+        },
+        {
+          "speaker": "raju",
+          "text": "Aur animals apna food plants ki tarah khud nahi banate?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Animals food ko body ke andar lekar digest karte hain; is tarah ka nutrition **ingestive heterotrophic** hota hai—simple meaning, food bahar se lena. Classification mein body organisation, symmetry, germ layers, body cavity aur segmentation jaise features compare kiye jaate hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Body-supporting rod wala feature bhi isi comparison mein aata hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Embryo/body ke support ke liye milne wali flexible rod ko **notochord** kehte hain. Notochord wale animals ko **chordates** kehte hain; humans mein embryo stage par notochord hota hai, baad mein uski jagah backbone develop hoti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Animal classification ke main bases ko examples ke saath compare karna hai, aur broad features ko exception samajhkar padhna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_083_animal_organization",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_083_animal_organization",
+      "card_slug": "card_083_animal_organization",
+      "type": "chat",
+      "concept_id": "animal_levels_organisation",
+      "level": 3,
+      "progress": {
+        "current": 83,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Organisation level ke examples: Porifera cellular level; Cnidaria aur Ctenophora tissue level; Platyhelminthes organ level; Annelida onwards organ-system level."
+        },
+        {
+          "speaker": "raju",
+          "text": "Organ level ka matlab organs present par complete organ systems nahi?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, exam-level distinction aise hi yaad karo. Platyhelminthes organ level, jabki Nematoda se organ-system level description milti hai; organ-system mein organs coordinated systems banate hain, jaise digestive/excretory systems."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sequence ko examples ke saath yaad karna hai, sirf definitions se nahi."
+        }
+      ],
+      "navigation": {
+        "next": "card_084_animal_symmetry",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_084_animal_symmetry",
+      "card_slug": "card_084_animal_symmetry",
+      "type": "chat",
+      "concept_id": "animal_symmetry",
+      "level": 3,
+      "progress": {
+        "current": 84,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Asymmetry mein body ko kisi plane se equal halves mein nahi baant sakte—adult sponges example. Radial symmetry mein multiple planes se similar halves—cnidarians, adult echinoderms."
+        },
+        {
+          "speaker": "raju",
+          "text": "Bilateral symmetry mein ek single plane se left-right halves milte hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Platyhelminthes se Chordata tak most animals bilateral hote hain. Echinoderm adult radial, par larva bilateral—ye common trap hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Adult word ko ignore nahi karna; starfish larva aur adult ki symmetry alag ho sakti hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_085_germ_layers_coelom",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_085_germ_layers_coelom",
+      "card_slug": "card_085_germ_layers_coelom",
+      "type": "chat",
+      "concept_id": "germ_layers_coelom",
+      "level": 3,
+      "progress": {
+        "current": 85,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Diploblastic animals mein ectoderm aur endoderm do germ layers; Cnidaria aur Ctenophora examples. Triploblastic mein mesoderm bhi hota hai, Platyhelminthes onwards."
+        },
+        {
+          "speaker": "raju",
+          "text": "Coelom body wall aur gut ke beech mesoderm-lined cavity hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Platyhelminthes acoelomate, Nematoda pseudocoelomate, aur Annelida onwards true coelomate groups common textbook sequence hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Acoelomate, pseudocoelomate, coelomate ko phylum sequence se link karna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_086_porifera_cnidaria",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_086_porifera_cnidaria",
+      "card_slug": "card_086_porifera_cnidaria",
+      "type": "chat",
+      "concept_id": "porifera_cnidaria",
+      "level": 3,
+      "progress": {
+        "current": 86,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Porifera sponges hain: body par pores, canal system, choanocytes, cellular level organisation; mostly marine. Spicules ya spongin skeleton support dete hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Cnidaria ka main clue cnidoblast ya nematocyst hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Cnidaria/Coelenterata diploblastic, radial, tissue-level animals hain; cnidoblast stinging cells prey capture aur defence mein help karte hain. Hydra, jellyfish, corals examples."
+        },
+        {
+          "speaker": "raju",
+          "text": "Jellyfish fish nahi, Cnidaria; coral bhi animal colony hai, plant nahi."
+        }
+      ],
+      "navigation": {
+        "next": "card_087_ctenophora_platy",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_087_ctenophora_platy",
+      "card_slug": "card_087_ctenophora_platy",
+      "type": "chat",
+      "concept_id": "ctenophora_platyhelminthes",
+      "level": 3,
+      "progress": {
+        "current": 87,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ctenophora marine comb jellies hain; eight comb plates/rows of cilia aur bioluminescence common clues. Platyhelminthes flatworms, triploblastic acoelomate animals hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Platyhelminthes mein flame cells excretion se linked hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Taenia tapeworm aur Fasciola liver fluke parasitic examples hain; Planaria free-living example. Body dorsoventrally flattened aur bilateral hoti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Comb plates = Ctenophora; flat body/flame cells = Platyhelminthes."
+        }
+      ],
+      "navigation": {
+        "next": "card_088_nematoda_annelida",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_088_nematoda_annelida",
+      "card_slug": "card_088_nematoda_annelida",
+      "type": "chat",
+      "concept_id": "nematoda_annelida",
+      "level": 3,
+      "progress": {
+        "current": 88,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Nematoda/Aschelminthes roundworms hain, pseudocoelomate, unsegmented aur complete digestive tract wale. Ascaris, Wuchereria aur Ancylostoma examples."
+        },
+        {
+          "speaker": "raju",
+          "text": "Annelida mein segmentation aur true coelom add hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Annelids segmented, true coelomate, organ-system level animals hain; closed circulation aur nephridia milte hain. Earthworm, leech, Nereis examples."
+        },
+        {
+          "speaker": "raju",
+          "text": "Round unsegmented = Nematoda; ring-like segmented = Annelida."
+        }
+      ],
+      "navigation": {
+        "next": "card_089_arthropoda",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_089_arthropoda",
+      "card_slug": "card_089_arthropoda",
+      "type": "chat",
+      "concept_id": "arthropoda",
+      "level": 3,
+      "progress": {
+        "current": 89,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Arthropoda Animalia ka largest phylum hai. Features: body ke bahar hard supporting cover—**chitinous exoskeleton**—, jointed appendages, segmented body aur generally aisa open circulatory system jisme blood vessels se bahar body cavity mein fluid bhi flow karta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Insects, spider, crab aur scorpion sab isi mein?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Insects, arachnids, crustaceans, centipedes/millipedes arthropod groups hain. Insect excretion mein Malpighian tubules common clue hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Largest phylum species number ke sense mein; body size ke sense mein nahi."
+        }
+      ],
+      "navigation": {
+        "next": "card_090_mollusca_echinodermata",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_090_mollusca_echinodermata",
+      "card_slug": "card_090_mollusca_echinodermata",
+      "type": "chat",
+      "concept_id": "mollusca_echinodermata",
+      "level": 3,
+      "progress": {
+        "current": 90,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Mollusca mein soft unsegmented body, mantle, muscular foot aur often shell hota hai. Pila, Unio, Octopus, Sepia examples; radula many molluscs mein feeding organ hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Echinodermata ka direct clue water vascular system aur tube feet?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Echinoderms exclusively marine, calcareous endoskeleton wale hote hain; adult radial symmetry, tube feet aur water vascular system. Starfish, sea urchin, sea cucumber examples."
+        },
+        {
+          "speaker": "raju",
+          "text": "Starfish naam mein fish hai, par phylum Echinodermata; naam nahi, features dekho."
+        }
+      ],
+      "navigation": {
+        "next": "card_091_hemichordata_summary",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_091_hemichordata_summary",
+      "card_slug": "card_091_hemichordata_summary",
+      "type": "chat",
+      "concept_id": "hemichordata_nonchordate",
+      "level": 3,
+      "progress": {
+        "current": 91,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Hemichordata mein proboscis, collar aur trunk body regions hote hain. Balanoglossus acorn worm example; stomochord ko true notochord (chordate embryo mein body ko support dene wali rod) nahi samajhna."
+        },
+        {
+          "speaker": "raju",
+          "text": "Toh non-chordate phyla ka quick order kaise revise karen?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Porifera pores; Cnidaria stinging cells; Ctenophora comb plates; Platy flat; Nematoda round; Annelida segmented; Arthropoda jointed legs; Mollusca soft body; Echinoderm water vascular; Hemichordata proboscis-collar-trunk."
+        },
+        {
+          "speaker": "raju",
+          "text": "Har phylum ka ek anchor feature aur ek example rakhunga; long list manageable ho gayi."
+        }
+      ],
+      "navigation": {
+        "next": "card_092_animalia_quiz_1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_092_animalia_quiz_1",
+      "card_slug": "card_092_animalia_quiz_1",
+      "type": "quiz",
+      "concept_id": "animalia_quiz",
+      "level": 3,
+      "progress": {
+        "current": 92,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Animal classification ke common bases kaunsa set hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Only body colour and habitat"
+          },
+          {
+            "id": "B",
+            "text": "Organisation, symmetry, germ layers, coelom, segmentation and notochord"
+          },
+          {
+            "id": "C",
+            "text": "Only food preference"
+          },
+          {
+            "id": "D",
+            "text": "Only life span"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Animal groups ko level of organisation, symmetry, germ layers, coelom, segmentation aur chordate mein notochord jaise characters se compare kiya jata hai. Colour ya habitat alone reliable taxonomic bases nahi hain."
+      },
+      "navigation": {
+        "next": "card_093_animalia_quiz_2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_093_animalia_quiz_2",
+      "card_slug": "card_093_animalia_quiz_2",
+      "type": "quiz",
+      "concept_id": "animalia_quiz",
+      "level": 3,
+      "progress": {
+        "current": 93,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Water vascular system aur tube feet kis phylum ke identifying features hain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Arthropoda"
+          },
+          {
+            "id": "B",
+            "text": "Mollusca"
+          },
+          {
+            "id": "C",
+            "text": "Echinodermata"
+          },
+          {
+            "id": "D",
+            "text": "Annelida"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Echinodermata ke members marine hote hain aur water vascular system ke hydraulic pressure se tube feet operate karte hain. Starfish fish nahi, echinoderm hai."
+      },
+      "navigation": {
+        "next": "card_094_animalia_quiz_3",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_094_animalia_quiz_3",
+      "card_slug": "card_094_animalia_quiz_3",
+      "type": "quiz",
+      "concept_id": "animalia_quiz",
+      "level": 3,
+      "progress": {
+        "current": 94,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Niche diye pairs mein kaunsa correct hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Porifera—jointed appendages"
+          },
+          {
+            "id": "B",
+            "text": "Cnidaria—cnidoblasts/nematocysts"
+          },
+          {
+            "id": "C",
+            "text": "Platyhelminthes—water vascular system"
+          },
+          {
+            "id": "D",
+            "text": "Arthropoda—soft body without exoskeleton"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Cnidarians ke stinging cells cnidoblasts ya nematocysts hote hain. Porifera pores/canal system, Platyhelminthes flat acoelomate body, Arthropoda chitin exoskeleton aur jointed appendages se identify hote hain."
+      },
+      "navigation": {
+        "next": "card_095_milestone_animalia",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_095_milestone_animalia",
+      "card_slug": "card_095_milestone_animalia",
+      "type": "milestone",
+      "concept_id": "module_7_complete",
+      "level": 3,
+      "progress": {
+        "current": 95,
+        "total": 127
+      },
+      "milestone_payload": {
+        "title": "MODULE 7 COMPLETE! 🐾",
+        "badge_emoji": "🐾",
+        "completed_topic": "Animalia: body plan aur non-chordate phyla",
+        "xp_earned": 140,
+        "milestone_progress": "Module 7/10 Clear",
+        "motivational_quote": "Animal phyla ko long list ki jagah anchor features se yaad karna aa gaya: pores, stinging cells, comb plates, jointed legs aur water vascular system."
+      },
+      "navigation": {
+        "next": "card_096_chordata_intro",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_096_chordata_intro",
+      "card_slug": "card_096_chordata_intro",
+      "type": "chat",
+      "concept_id": "chordata_features",
+      "level": 4,
+      "progress": {
+        "current": 96,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Chordata ki defining features: notochord, dorsal hollow nerve cord, pharyngeal gill slits aur post-anal tail—at least life cycle ke kisi stage par."
+        },
+        {
+          "speaker": "raju",
+          "text": "Kya adult human mein ye chaaron visible rehte hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi, chordate feature ka embryonic ya larval stage par hona enough ho sakta hai. Human embryo mein ye structures develop hote hain; adult form mein notochord vertebral column se replace ho jata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Dorsal hollow nerve cord ko ventral solid nerve cord se mix nahi karna."
+        }
+      ],
+      "navigation": {
+        "next": "card_097_protochordates",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_097_protochordates",
+      "card_slug": "card_097_protochordates",
+      "type": "chat",
+      "concept_id": "urochordata_cephalochordata",
+      "level": 4,
+      "progress": {
+        "current": 97,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Chordata ke non-vertebrate chordates ko protochordates bolte hain. Urochordata mein notochord mainly larval tail tak; adult tunicate mein reduce ho jata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Cephalochordata mein notochord head se tail tak poori life rehta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, Branchiostoma/Amphioxus iska example hai. Vertebrata mein vertebral column aur cranium develop hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Urochordata = larval tail clue; Cephalochordata = notochord throughout."
+        }
+      ],
+      "navigation": {
+        "next": "card_098_fishes",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_098_fishes",
+      "card_slug": "card_098_fishes",
+      "type": "chat",
+      "concept_id": "fish_classes",
+      "level": 4,
+      "progress": {
+        "current": 98,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Cyclostomata jawless fishes hain, jaise lamprey. Chondrichthyes cartilaginous fishes—shark, ray—mein placoid scales, multiple gill slits aur swim bladder absent hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Bony fishes ka clue operculum aur swim bladder hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, Osteichthyes mein bony endoskeleton, operculum aur commonly swim bladder milta hai. Rohu, catla aur seahorse examples hain. Chondrichthyes mein operculum aur swim bladder generally absent hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Flying fish naam se bird nahi; wings jaise fins wala fish hi hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_099_amphibians",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_099_amphibians",
+      "card_slug": "card_099_amphibians",
+      "type": "chat",
+      "concept_id": "amphibia",
+      "level": 4,
+      "progress": {
+        "current": 99,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Amphibians water aur land dono se linked hote hain. Skin moist aur generally scaleless; larva gills se, adult lungs aur skin se respiration kar sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Frog ka heart three-chambered aur fertilisation often external hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Typical textbook frog mein three-chambered heart aur external fertilisation milta hai. Eggs water mein; tadpole aquatic. Examples frog, toad, salamander, Ichthyophis."
+        },
+        {
+          "speaker": "raju",
+          "text": "Moist skin + aquatic larva + land adult = Amphibia ka recall pattern."
+        }
+      ],
+      "navigation": {
+        "next": "card_100_reptiles",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_100_reptiles",
+      "card_slug": "card_100_reptiles",
+      "type": "chat",
+      "concept_id": "reptilia",
+      "level": 4,
+      "progress": {
+        "current": 100,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Reptiles dry keratinised scales wale ectothermic vertebrates hain. Respiration lungs se, fertilisation internal, aur shelled amniotic eggs land adaptation mein help karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Crocodile ka heart exception hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, most reptiles ka heart three-chambered, crocodile ka four-chambered. Snakes, lizards, turtles, crocodiles aur tuatara examples."
+        },
+        {
+          "speaker": "raju",
+          "text": "Crocodile ko dekhkar 'all reptiles three-chambered' statement reject karna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_101_aves",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_101_aves",
+      "card_slug": "card_101_aves",
+      "type": "chat",
+      "concept_id": "aves",
+      "level": 4,
+      "progress": {
+        "current": 101,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Birds/Aves ki features: feathers, beak, forelimbs modified as wings, hollow/pneumatic bones, lungs with air sacs aur four-chambered heart."
+        },
+        {
+          "speaker": "raju",
+          "text": "Kya har bird fly karta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Nahi. Penguin, ostrich, emu jaise flightless birds bhi Aves hain. Flying ability classification ka sole criterion nahi."
+        },
+        {
+          "speaker": "raju",
+          "text": "Feathers aur beak bird clue hain; penguin bird hai, mammal nahi."
+        }
+      ],
+      "navigation": {
+        "next": "card_102_mammalia",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_102_mammalia",
+      "card_slug": "card_102_mammalia",
+      "type": "chat",
+      "concept_id": "mammalia",
+      "level": 4,
+      "progress": {
+        "current": 102,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Mammals ke strongest clues hair aur mammary glands hain. Diaphragm, external ear pinna mostly, lungs aur four-chambered heart bhi common features hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Bat aur whale dono mammals despite flying ya water living?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Bat only true flying mammal; whale aur dolphin aquatic mammals. Monotremes jaise platypus eggs lay karte hain, phir bhi mammal hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Mammal identify karne ke liye habitat nahi, hair/mammary glands aur vertebrate features dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_103_animal_name_traps",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_103_animal_name_traps",
+      "card_slug": "card_103_animal_name_traps",
+      "type": "chat",
+      "concept_id": "animal_name_traps",
+      "level": 4,
+      "progress": {
+        "current": 103,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Naam se confuse karne wale examples: starfish = Echinodermata; jellyfish = Cnidaria; silverfish = insect; cuttlefish aur octopus = Mollusca; seahorse aur flying fish = bony fishes."
+        },
+        {
+          "speaker": "raju",
+          "text": "Bat bird nahi, whale fish nahi, penguin mammal nahi?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Bat Mammalia, whale/dolphin Mammalia, penguin Aves. Classification body characters se hoti hai, common name se nahi."
+        },
+        {
+          "speaker": "raju",
+          "text": "Question mein 'fish' word dekhkar Fish class mark karna dangerous hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_104_chordate_comparison",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_104_chordate_comparison",
+      "card_slug": "card_104_chordate_comparison",
+      "type": "chat",
+      "concept_id": "vertebrate_comparison",
+      "level": 4,
+      "progress": {
+        "current": 104,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Vertebrate quick table: fish—gills; amphibian—moist skin and dual life; reptile—dry scales and amniotic egg; bird—feathers; mammal—hair and mammary glands."
+        },
+        {
+          "speaker": "raju",
+          "text": "Temperature regulation bhi compare hota hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Fish, amphibians aur reptiles generally ectothermic; birds aur mammals endothermic/warm-blooded. Har class ke exceptions ko syllabus ke context mein padho, basic MCQ ke liye ye pattern enough hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Class identify karte waqt ek strong feature + ek example confirm karunga."
+        }
+      ],
+      "navigation": {
+        "next": "card_105_chordata_quiz_1",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_105_chordata_quiz_1",
+      "card_slug": "card_105_chordata_quiz_1",
+      "type": "quiz",
+      "concept_id": "chordata_quiz",
+      "level": 4,
+      "progress": {
+        "current": 105,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Chordata ki defining characteristics ka correct set kaunsa hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Notochord, dorsal hollow nerve cord, pharyngeal gill slits, post-anal tail"
+          },
+          {
+            "id": "B",
+            "text": "Chitin exoskeleton, tube feet, water vascular system"
+          },
+          {
+            "id": "C",
+            "text": "Pores, choanocytes, spicules only"
+          },
+          {
+            "id": "D",
+            "text": "Cilia, comb plates, cnidoblasts"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Chordates mein notochord, dorsal hollow nerve cord, pharyngeal gill slits aur post-anal tail at least some life stage par milte hain. Baaki options non-chordate phyla ke clues hain."
+      },
+      "navigation": {
+        "next": "card_106_chordata_quiz_2",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_106_chordata_quiz_2",
+      "card_slug": "card_106_chordata_quiz_2",
+      "type": "quiz",
+      "concept_id": "chordata_quiz",
+      "level": 4,
+      "progress": {
+        "current": 106,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Niche diye statements mein sahi combination kaunsa hai? 1. Bat Mammalia hai. 2. Penguin Aves hai. 3. Starfish Pisces hai.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Only 1"
+          },
+          {
+            "id": "B",
+            "text": "Only 1 and 2"
+          },
+          {
+            "id": "C",
+            "text": "Only 2 and 3"
+          },
+          {
+            "id": "D",
+            "text": "1, 2 and 3"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "Bat mammal hai aur penguin flightless bird hote hue bhi Aves hai. Starfish Pisces nahi, Echinodermata hai. Common name ko scientific classification ka substitute mat banao."
+      },
+      "navigation": {
+        "next": "card_107_milestone_chordata",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_107_milestone_chordata",
+      "card_slug": "card_107_milestone_chordata",
+      "type": "milestone",
+      "concept_id": "module_8_complete",
+      "level": 4,
+      "progress": {
+        "current": 107,
+        "total": 127
+      },
+      "milestone_payload": {
+        "title": "MODULE 8 COMPLETE! 🐘",
+        "badge_emoji": "🐘",
+        "completed_topic": "Chordata: protochordates, fishes aur vertebrate classes",
+        "xp_earned": 145,
+        "milestone_progress": "Module 8/10 Clear",
+        "motivational_quote": "Ab Bat, Whale, Penguin, Starfish aur Flying Fish jaise name-traps features ke basis par solve honge. Sirf do modules aur: acellular forms aur final master revision."
+      },
+      "navigation": {
+        "next": "card_108_virus_history",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_108_virus_history",
+      "card_slug": "card_108_virus_history",
+      "type": "chat",
+      "concept_id": "virus_discovery_history",
+      "level": 4,
+      "progress": {
+        "current": 108,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Virus ko cell-based kingdoms mein fit karna mushkil hai kyunki ye acellular infectious agents hain. Dmitri Ivanovsky ne 1892 mein tobacco mosaic disease ke agent ko bacteria-retaining filter se pass hote dekha."
+        },
+        {
+          "speaker": "raju",
+          "text": "Beijerinck aur Stanley ka role bhi yaad rakhna hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Beijerinck ne virus ko living infectious fluid idea se describe kiya. W.M. Stanley ne 1935 mein Tobacco Mosaic Virus ko crystallise kiya—non-living behaviour ka clue."
+        },
+        {
+          "speaker": "raju",
+          "text": "Exam timeline: Ivanovsky 1892 discovery/filter, Beijerinck 1898 concept, Stanley 1935 crystallisation."
+        }
+      ],
+      "navigation": {
+        "next": "card_109_virus_structure",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_109_virus_structure",
+      "card_slug": "card_109_virus_structure",
+      "type": "chat",
+      "concept_id": "virus_structure",
+      "level": 4,
+      "progress": {
+        "current": 109,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Basic virus = nucleic acid genome plus protein coat capsid. Genome DNA ya RNA hota hai—school-level rule mein ek virion mein dono ko genetic material ke roop mein nahi mark karte."
+        },
+        {
+          "speaker": "raju",
+          "text": "Capsid kis cheez se bana aur uski units?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Capsid protein ka hota hai aur capsomeres naam ki subunits se bana hota hai. Kuch viruses ke bahar lipid envelope bhi hoti hai, jaise influenza, HIV aur coronavirus."
+        },
+        {
+          "speaker": "raju",
+          "text": "Virus mein cytoplasm, ribosome, mitochondria jaise organelles nahi; isliye independently metabolism ya reproduction nahi kar sakta."
+        }
+      ],
+      "navigation": {
+        "next": "card_110_virus_living_nonliving",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_110_virus_living_nonliving",
+      "card_slug": "card_110_virus_living_nonliving",
+      "type": "chat",
+      "concept_id": "virus_living_nonliving",
+      "level": 4,
+      "progress": {
+        "current": 110,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Host ke bahar virus inert/crystal-like ho sakta hai; apna metabolism nahi karta. Host cell ke andar nucleic acid replicate karwata hai aur new virions banwata hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Isliye virus ko living aur non-living ke border par bola jata hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, ye popular exam description hai. Virus obligate intracellular parasite hai—host cell ke machinery ke bina multiplication nahi."
+        },
+        {
+          "speaker": "raju",
+          "text": "'Virus grows like a cell' nahi; host machinery use karke replicate karta hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_111_virus_types_bacteriophage",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_111_virus_types_bacteriophage",
+      "card_slug": "card_111_virus_types_bacteriophage",
+      "type": "chat",
+      "concept_id": "virus_types_bacteriophage",
+      "level": 4,
+      "progress": {
+        "current": 111,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "DNA viruses ke examples bacteriophage T4, adenovirus, herpesvirus; RNA viruses ke examples TMV, influenza, poliovirus, HIV aur coronavirus diye jaate hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Bacteriophage ka matlab bacteria ko infect karne wala virus, not bacteria ka part?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. T4 bacteriophage bacteria, commonly E. coli, ko infect karta hai. Bacteriophage lytic cycle mein host cell lyse kar sakta hai; kuch phages lysogenic integration bhi karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "HIV retrovirus kyon?"
+        },
+        {
+          "speaker": "aman",
+          "text": "HIV RNA genome se DNA banane ke liye reverse transcriptase use karta hai, phir host genome ke saath integration hoti hai. RNA → DNA is the exam clue."
+        }
+      ],
+      "navigation": {
+        "next": "card_112_viroid",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_112_viroid",
+      "card_slug": "card_112_viroid",
+      "type": "chat",
+      "concept_id": "viroid",
+      "level": 4,
+      "progress": {
+        "current": 112,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Viroid virus se bhi simple infectious agent hai: small circular naked RNA, protein coat/capsid absent. T.O. Diener ne 1971 mein viroid discover kiya."
+        },
+        {
+          "speaker": "raju",
+          "text": "Viroid plants mein disease cause karta hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, Potato spindle tuber disease classic example hai. Viroid ko virus mat mark karna: virus mein capsid hota hai, viroid mein naked RNA only."
+        },
+        {
+          "speaker": "raju",
+          "text": "Nucleic acid only + no capsid = viroid ka direct clue."
+        }
+      ],
+      "navigation": {
+        "next": "card_113_prion",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_113_prion",
+      "card_slug": "card_113_prion",
+      "type": "chat",
+      "concept_id": "prion",
+      "level": 4,
+      "progress": {
+        "current": 113,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Prion infectious misfolded protein hai; ismein nucleic acid nahi hota. Stanley Prusiner ne prion concept par kaam kiya aur 1997 mein Nobel Prize mila."
+        },
+        {
+          "speaker": "raju",
+          "text": "Mad cow disease prion se hoti hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan, BSE—Bovine Spongiform Encephalopathy—prion disease hai. Scrapie aur human Creutzfeldt-Jakob disease bhi prion-related examples hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Protein only = prion; RNA only = viroid; RNA/DNA plus capsid = virus. Comparison ab samajh aa raha hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_114_virus_viroid_prion_table",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_114_virus_viroid_prion_table",
+      "card_slug": "card_114_virus_viroid_prion_table",
+      "type": "chat",
+      "concept_id": "virus_viroid_prion_comparison",
+      "level": 4,
+      "progress": {
+        "current": 114,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "One-line table: Virus = nucleic acid plus protein capsid; Viroid = naked RNA only; Prion = infectious misfolded protein only."
+        },
+        {
+          "speaker": "raju",
+          "text": "Virus host range aur disease kaise poochhe ja sakte hain?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Question structure, genetic material, scientist, disease ya host ke kisi bhi angle se aa sakta hai. Isliye four columns socho: material, coat, example, discoverer/year."
+        },
+        {
+          "speaker": "raju",
+          "text": "Virus—Ivanovsky/TMV; viroid—Diener/potato spindle tuber; prion—Prusiner/BSE. Ye matching set ban gaya."
+        }
+      ],
+      "navigation": {
+        "next": "card_115_special_associations",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_115_special_associations",
+      "card_slug": "card_115_special_associations",
+      "type": "chat",
+      "concept_id": "special_classification_cases",
+      "level": 4,
+      "progress": {
+        "current": 115,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Lichen ko kingdom mat mark karna; ye association hai. Mycorrhiza bhi association hai. Virus acellular hai; viroid aur prion aur bhi simple infectious forms hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Kya algae word bhi trap hai?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Haan. Blue-Green Algae modern sense mein cyanobacteria, yani Monera. Diatoms/dinoflagellate plant-like protists. Traditional plant classification mein algae Plantae/Thallophyta ke under discuss ho sakti hain—question ka framework dekho."
+        },
+        {
+          "speaker": "raju",
+          "text": "Framework padhe bina single-word answer dena risky hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_116_modern_systems",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_116_modern_systems",
+      "card_slug": "card_116_modern_systems",
+      "type": "chat",
+      "concept_id": "modern_classification_revision",
+      "level": 4,
+      "progress": {
+        "current": 116,
+        "total": 127
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Modern classification molecular data, especially rRNA, ko bhi use karti hai. Three Domains: Bacteria, Archaea, Eukarya. Eukarya ke andar protists, fungi, plants aur animals jaise kingdoms aa sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Six kingdoms aur three domains mein difference ek line mein?"
+        },
+        {
+          "speaker": "aman",
+          "text": "Kingdom system organisms ko kingdoms mein baantta hai; domain usse higher rank hai aur cellular/molecular deep differences ko show karta hai. Six-kingdom model Monera ko Eubacteria aur Archaebacteria mein split karta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Domain ko kingdom ka replacement nahi, higher classification level samajhna hai."
+        }
+      ],
+      "navigation": {
+        "next": "card_117_special_quiz",
+        "button_text": "Next Card ➔"
+      }
+    },
+    {
+      "card_id": "card_117_special_quiz",
+      "card_slug": "card_117_special_quiz",
+      "type": "quiz",
+      "concept_id": "special_cases_quiz",
+      "level": 4,
+      "progress": {
+        "current": 117,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Kaunsa pair sahi hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Viroid—protein only"
+          },
+          {
+            "id": "B",
+            "text": "Prion—naked RNA"
+          },
+          {
+            "id": "C",
+            "text": "Virus—nucleic acid plus protein capsid"
+          },
+          {
+            "id": "D",
+            "text": "Lichen—sixth kingdom"
+          }
+        ],
+        "correct_option_id": "C",
+        "explanation": "Virus mein nucleic acid genome aur protein capsid hota hai. Viroid naked RNA only; prion infectious protein only; lichen fungus aur alga/cyanobacterium ka association hai, koi separate kingdom nahi."
+      },
+      "navigation": {
+        "next": "card_118_milestone_special_cases",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_118_milestone_special_cases",
+      "card_slug": "card_118_milestone_special_cases",
+      "type": "milestone",
+      "concept_id": "module_9_complete",
+      "level": 4,
+      "progress": {
+        "current": 118,
+        "total": 127
+      },
+      "milestone_payload": {
+        "title": "MODULE 9 COMPLETE! 🧫",
+        "badge_emoji": "🧫",
+        "completed_topic": "Virus, viroid, prion, lichen aur modern classification",
+        "xp_earned": 150,
+        "milestone_progress": "Module 9/10 Clear",
+        "motivational_quote": "Acellular aur association wale special cases ab separate boxes mein hain. Ab final master revision mein setter ke mixed statements ko calmly todna hai."
+      },
+      "navigation": {
+        "next": "card_119_master_revision_table",
+        "button_text": "Start Next Module ➔"
+      }
+    },
+    {
+      "card_id": "card_119_master_revision_table",
+      "card_slug": "card_119_master_revision_table",
+      "type": "summary",
+      "concept_id": "master_revision_table",
+      "level": 5,
+      "progress": {
+        "current": 119,
+        "total": 127
+      },
+      "summary_payload": {
+        "title": "⚡ Master Revision: Ek Nazar Mein",
+        "revision_points": [
+          {
+            "topic": "Hierarchy",
+            "point": "Kingdom → Phylum/Division → Class → Order → Family → Genus → Species. K-P-C-O-F-G-S. Genus broad, Species specific."
+          },
+          {
+            "topic": "System timeline",
+            "point": "Linnaeus 1758—binomial/two kingdoms; Haeckel 1866—Protista; Copeland 1956—Monera; Whittaker 1969—Five Kingdom; Woese—rRNA based domains, 1977 work and 1990 formal Three Domain system."
+          },
+          {
+            "topic": "Cell wall clues",
+            "point": "Most bacteria—peptidoglycan; fungi—chitin; plants—cellulose; diatoms—silica; Mycoplasma—no wall; archaea—no peptidoglycan."
+          },
+          {
+            "topic": "Plant ladder",
+            "point": "Bryophyta—non-vascular, water for reproduction; Pteridophyta—first vascular, seedless; Gymnosperm—naked seeds; Angiosperm—flowers and enclosed seeds."
+          },
+          {
+            "topic": "Acellular clues",
+            "point": "Virus—DNA or RNA plus capsid; viroid—naked RNA; prion—misfolded protein. Virus kisi Five Kingdom mein fit nahi."
+          },
+          {
+            "topic": "Name traps",
+            "point": "Starfish echinoderm, jellyfish cnidarian, bat mammal, whale/dolphin mammals, penguin bird, flying fish fish, yeast fungus."
+          }
+        ]
+      },
+      "navigation": {
+        "next": "card_120_scientists_dates_revision",
+        "button_text": "Start Master Questions ➔"
+      }
+    },
+    {
+      "card_id": "card_120_scientists_dates_revision",
+      "card_slug": "card_120_scientists_dates_revision",
+      "type": "summary",
+      "concept_id": "scientists_dates_revision",
+      "level": 5,
+      "progress": {
+        "current": 120,
+        "total": 127
+      },
+      "summary_payload": {
+        "title": "📅 Scientists aur Dates: Confusion-Free List",
+        "revision_points": [
+          {
+            "topic": "Early and naming",
+            "point": "Aristotle—early animal classification/Father of Zoology; Theophrastus—Father of Botany; Linnaeus—1758, Systema Naturae 10th edition and binomial nomenclature standardisation."
+          },
+          {
+            "topic": "Kingdom systems",
+            "point": "Haeckel—1866 Three Kingdom; Copeland—1956 Four Kingdom; Whittaker—1969 Five Kingdom; Woese—rRNA based domains, formal Three Domain system 1990."
+          },
+          {
+            "topic": "Acellular forms",
+            "point": "Ivanovsky—1892 TMV filter evidence; Beijerinck—virus concept; W.M. Stanley—1935 TMV crystallisation; T.O. Diener—1971 viroid; Stanley Prusiner—prion work, Nobel 1997."
+          },
+          {
+            "topic": "Medicine and microbes",
+            "point": "Alexander Fleming—1928 penicillin discovery from Penicillium; Lactobacillus—curd; Rhizobium—nitrogen fixation; methanogens—biogas."
+          }
+        ]
+      },
+      "navigation": {
+        "next": "card_121_exam_traps_revision",
+        "button_text": "Continue Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_121_exam_traps_revision",
+      "card_slug": "card_121_exam_traps_revision",
+      "type": "summary",
+      "concept_id": "exam_traps_revision",
+      "level": 5,
+      "progress": {
+        "current": 121,
+        "total": 127
+      },
+      "summary_payload": {
+        "title": "🎯 Setter ke Favourite Traps",
+        "revision_points": [
+          {
+            "topic": "Do not use shortcut",
+            "point": "Unicellular ka matlab automatically Monera nahi. Pehle prokaryote/eukaryote dekho; yeast eukaryotic fungus hai, Euglena eukaryotic protist."
+          },
+          {
+            "topic": "Name is not identity",
+            "point": "Starfish fish nahi; jellyfish fish nahi; silverfish fish nahi; bat bird nahi; whale fish nahi; penguin mammal nahi."
+          },
+          {
+            "topic": "Algae context",
+            "point": "Cyanobacteria = prokaryotic Monera. Diatom/dinoflagellate = Protista. Traditional plant-group chapter mein algae Plantae/Thallophyta ke under discuss ho sakti hain; system named in question padho."
+          },
+          {
+            "topic": "Absolute words",
+            "point": "All, only, never, always jaise words ko check karo. Deuteromycetes mein sexual stage not observed; 'never possible' nahi. Dinoflagellates mein some bioluminescent/toxic; all nahi."
+          },
+          {
+            "topic": "Exceptions",
+            "point": "Mycoplasma wall-less; archaea no peptidoglycan; crocodile four-chambered among reptiles; penguin flightless but Aves; monotreme egg-laying but Mammalia."
+          }
+        ]
+      },
+      "navigation": {
+        "next": "card_122_master_statement_quiz",
+        "button_text": "Attempt Master Quiz ➔"
+      }
+    },
+    {
+      "card_id": "card_122_master_statement_quiz",
+      "card_slug": "card_122_master_statement_quiz",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_statement",
+      "level": 5,
+      "progress": {
+        "current": 122,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Statements dekhiye:\n1. Cyanobacteria prokaryotic hote hain.\n2. Yeast unicellular fungus hai.\n3. Mycoplasma mein cell wall absent hoti hai.\n4. Virus mein hamesha DNA aur RNA dono ek saath genome ke roop mein hote hain.\nSahi statements ka code chuniye.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Only 1 and 2"
+          },
+          {
+            "id": "B",
+            "text": "Only 1, 2 and 3"
+          },
+          {
+            "id": "C",
+            "text": "Only 2 and 4"
+          },
+          {
+            "id": "D",
+            "text": "All four"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "1 sahi: cyanobacteria Monera ke prokaryotes hain. 2 sahi: yeast Ascomycetes ka unicellular fungus hai. 3 sahi: Mycoplasma wall-less exception hai. 4 galat: school-level virus rule mein genome DNA ya RNA hota hai, dono nahi. Multi-statement question mein har line ko separately verify karo."
+      },
+      "navigation": {
+        "next": "card_123_master_matching_quiz",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_123_master_matching_quiz",
+      "card_slug": "card_123_master_matching_quiz",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_matching",
+      "level": 5,
+      "progress": {
+        "current": 123,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Scientist—contribution ka sahi matching chuniye.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Whittaker—Three Domain system"
+          },
+          {
+            "id": "B",
+            "text": "Diener—Viroid discovery"
+          },
+          {
+            "id": "C",
+            "text": "Prusiner—Penicillin discovery"
+          },
+          {
+            "id": "D",
+            "text": "Linnaeus—TMV crystallisation"
+          }
+        ],
+        "correct_option_id": "B",
+        "explanation": "T.O. Diener ne 1971 mein viroid discover kiya. Whittaker Five Kingdom, Woese Three Domain, Prusiner prion, Fleming penicillin, Stanley TMV crystallisation aur Linnaeus binomial nomenclature se linked hain."
+      },
+      "navigation": {
+        "next": "card_124_master_assertion_quiz",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_124_master_assertion_quiz",
+      "card_slug": "card_124_master_assertion_quiz",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_assertion",
+      "level": 5,
+      "progress": {
+        "current": 124,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Assertion: Starfish ko fish class mein nahi rakha jata. Reason: Starfish mein echinodermata ka water vascular system aur tube feet hote hain.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Assertion aur Reason dono sahi; Reason sahi explanation hai"
+          },
+          {
+            "id": "B",
+            "text": "Dono sahi; Reason explanation nahi"
+          },
+          {
+            "id": "C",
+            "text": "Assertion sahi; Reason galat"
+          },
+          {
+            "id": "D",
+            "text": "Assertion galat; Reason sahi"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Starfish Echinodermata ka member hai, Pisces ka nahi. Water vascular system aur tube feet uski pehchaan hain. Common name mein fish word hona classification proof nahi."
+      },
+      "navigation": {
+        "next": "card_125_master_case_quiz",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_125_master_case_quiz",
+      "card_slug": "card_125_master_case_quiz",
+      "type": "final_quiz",
+      "concept_id": "master_quiz_case",
+      "level": 5,
+      "progress": {
+        "current": 125,
+        "total": 127
+      },
+      "quiz_payload": {
+        "question": "Ek organism mein silica shell, aquatic habitat aur producer role hai. Sabse likely identity kya hogi?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Diatom"
+          },
+          {
+            "id": "B",
+            "text": "Euglena"
+          },
+          {
+            "id": "C",
+            "text": "Yeast"
+          },
+          {
+            "id": "D",
+            "text": "Plasmodium"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Silica shell/frustule aur aquatic producer clue diatom ka hai. Euglena mein pellicle aur mixotrophy; yeast fungus; Plasmodium malaria-causing sporozoan protist hai."
+      },
+      "navigation": {
+        "next": "card_126_last_minute_sheet",
+        "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_126_last_minute_sheet",
+      "card_slug": "card_126_last_minute_sheet",
+      "type": "summary",
+      "concept_id": "last_minute_sheet",
+      "level": 5,
+      "progress": {
+        "current": 126,
+        "total": 127
+      },
+      "summary_payload": {
+        "title": "📝 Last-Minute Answer Sheet",
+        "revision_points": [
+          {
+            "topic": "If question asks...",
+            "point": "First vascular plant—Pteridophyta. Amphibians of plant kingdom—Bryophyta. Largest animal phylum—Arthropoda. Water vascular system—Echinodermata. Chitin wall—Fungi."
+          },
+          {
+            "topic": "If question gives...",
+            "point": "Pellicle—Euglena; silica frustule—diatom; red tide—dinoflagellate bloom; heterocyst—cyanobacteria; methane—methanogen; cnidoblast—Cnidaria; comb plates—Ctenophora."
+          },
+          {
+            "topic": "If question compares...",
+            "point": "Virus/viroid/prion ko material + coat + disease + scientist se compare karo. Gymnosperm/angiosperm ko seed covering and flower/fruit se. Bryophyte/pteridophyte ko vascular tissue and seeds se."
+          },
+          {
+            "topic": "If statement is tricky...",
+            "point": "Absolute words circle karo, each statement ko fact se match karo, aur common name par depend mat karo. Context—Five Kingdom, traditional plant classification ya Three Domain—identify karo."
+          },
+          {
+            "topic": "Final habit",
+            "point": "Answer yaad na aaye to feature se reverse solve karo: cell type → wall → nutrition → reproduction → example. Isi chain se unfamiliar organism bhi classify ho sakta hai."
+          }
+        ]
+      },
+      "navigation": {
+        "next": "card_127_final_celebration",
+        "button_text": "Finish Chapter ➔"
+      }
+    },
+    {
+      "card_id": "card_127_final_celebration",
+      "card_slug": "card_127_final_celebration",
+      "type": "milestone",
+      "concept_id": "chapter_complete",
+      "level": 5,
+      "progress": {
+        "current": 127,
+        "total": 127
+      },
+      "milestone_payload": {
+        "title": "🏆 CHAPTER COMPLETE – BIOLOGICAL CLASSIFICATION! 🏆",
+        "badge_emoji": "🎖️🧬🌿",
+        "completed_topic": "Complete Biological Classification with concept clarity",
+        "xp_earned": 650,
+        "milestone_progress": "All 127 Cards Complete!",
+        "motivational_quote": "Ab tum sirf answers ratne wale student nahi, clues se answer nikalne wale learner ho. Classification ka question direct ho, statement-based ho ya name-trap—cell type, structure, nutrition aur relationship se solve karo. Aaram se padho, smartly revise karo, aur exam mein confidence ke saath attempt karo!"
+      },
+      "navigation": {
+        "next": null,
+        "button_text": "Continue to Next Chapter ➔"
+      }
+    }
+  ]
+}
