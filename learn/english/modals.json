@@ -190,7 +190,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Okay sir, ab main quiz ke liye taiyar hoon - ye 4 rules yaad ho gaye: base verb, no -s, no double modal, no 'to' (except special cases)!"
+          "text": "Okay Sir, quiz ke liye taiyar hoon—base verb, no -s, no double modal aur special cases wala 'to' rule examples se test karunga."
         }
       ],
       "navigation": {
@@ -1238,7 +1238,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha sir ab main quiz ke liye taiyar hoon - should=advice/mild expectation, ought to=same as should with 'to'!"
+          "text": "Achha Sir, quiz ke liye taiyar hoon—should ka advice/expectation aur ought to ka 'to' wala pattern examples se check karunga."
         }
       ],
       "navigation": {
@@ -2646,7 +2646,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ab main confident feel kar raha hoon, sab traps clear ho gaye hain!"
+          "text": "Sir, main traps ka difference samajh raha hoon; ab mixed error-spotting questions se apni understanding check karunga."
         },
         {
           "speaker": "aman",
@@ -2673,27 +2673,27 @@
         "total": 90
       },
       "quiz_payload": {
-        "question": "Error Detection (Q1/6): 'She must have completed the project by tomorrow evening.' Find the error segment.",
+        "question": "Error Detection (Q1/6): 'By tomorrow evening, she must have complete the project.' Find the error segment.",
         "options": [
           {
             "id": "A",
-            "text": "She must have"
+            "text": "By tomorrow evening"
           },
           {
             "id": "B",
-            "text": "completed the project"
+            "text": "she must have complete"
           },
           {
             "id": "C",
-            "text": "by tomorrow evening"
+            "text": "the project"
           },
           {
             "id": "D",
             "text": "No error"
           }
         ],
-        "correct_option_id": "C",
-        "explanation": "'Must have + V3' refers to PAST deduction, but 'tomorrow evening' is a future time reference - a logical contradiction. Correct: 'by yesterday evening' or use 'will have completed by tomorrow evening'."
+        "correct_option_id": "B",
+        "explanation": "Modal ‘must’ ke baad perfect form ‘have + V3’ hoti hai. ‘Complete’ ki jagah past participle ‘completed’ chahiye: ‘By tomorrow evening, she must have completed the project.’ Dhyan rahe, future deadline ke saath ‘must have completed’ obligation/required completion dikha sakta hai; ise automatically past deduction na samjho."
       },
       "navigation": {
         "next": "card_80_errorquiz2",
@@ -2787,27 +2787,27 @@
         "total": 90
       },
       "quiz_payload": {
-        "question": "Error Detection (Q4/6): 'He was so talented that he could win the state-level championship last year.' Find the error segment.",
+        "question": "Which form is clearest for a single, successful past achievement? 'Despite the injury, he ____ the state-level championship last year.'",
         "options": [
           {
             "id": "A",
-            "text": "He was so talented"
+            "text": "could win"
           },
           {
             "id": "B",
-            "text": "that he could win"
+            "text": "was able to win"
           },
           {
             "id": "C",
-            "text": "the state-level championship last year"
+            "text": "would win"
           },
           {
             "id": "D",
-            "text": "No error"
+            "text": "must win"
           }
         ],
         "correct_option_id": "B",
-        "explanation": "For a single, specific past achievement/success, 'was able to' is correct, not 'could'. Correct: 'that he was able to win'."
+        "explanation": "Formal exam convention mein ek specific, successfully completed past event ke liye ‘was able to win’ clearest hai. ‘Could’ general past ability/possibility ke liye common hai, lekin context ke bina actual one-time success ko less precise banata hai; ise universally ungrammatical na samjho."
       },
       "navigation": {
         "next": "card_83_errorquiz5",
@@ -3022,7 +3022,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "Statement 1 is false ('must' has no past form; 'had to' is used instead). Statement 2 is false ('was/were able to' is correct for single specific achievements, not 'could'). Statements 3 and 4 are correct."
+        "explanation": "Statement 1 false: ‘musted’ past form nahi; past obligation ke liye ‘had to’ use hota hai. Statement 2 false as an exam rule: a single completed achievement ke liye ‘was/were able to’ often clearest, though ‘could’ can be grammatical in some contexts. Statements 3 and 4 standard exam conventions ke hisaab se correct hain."
       },
       "navigation": {
         "next": "card_89_final_quiz3",

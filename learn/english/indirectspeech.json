@@ -349,7 +349,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Bilkul sahi guess tha! Yaad rakho ye pura rule: 1st person pronoun (I, we, my, our) badal ke REPORTING VERB ke SUBJECT jaisa ho jaata hai. 2nd person pronoun (you, your) badal ke REPORTING VERB ke OBJECT jaisa ho jaata hai. 3rd person pronoun (he, she, they) mein koi change NAHI hota."
+          "text": "Pronoun changes ko shortcut se samjho, lekin meaning/context final check karo: first-person pronouns reporting subject se, second-person pronouns usually reporting verb ke object/addressee se relate karte hain. Third-person pronoun aksar unchanged rehta hai, par reference clear karne ke liye context ke hisaab se change ho sakta hai."
         },
         {
           "speaker": "raju",
@@ -357,7 +357,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Dekho: Raju said, 'I am tired.' Yahan subject hai Raju, so 'I' badal ke 'he' ban jaayega → Raju said that he was tired."
+          "text": "Example: Raju said, ‘I am tired.’ Yahan reporting subject Raju hai, so ‘I’ → ‘he’: Raju said that he was tired. Pronoun ko mechanical formula se nahi, actual referent se match karo."
         },
         {
           "speaker": "raju",
@@ -394,7 +394,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir samajh gaya - 1st person = subject, 2nd person = object, 3rd person = no change!"
+          "text": "Shortcut yaad rakh sakte ho—first person reporting subject aur second person addressee se usually match karta hai—but third-person pronoun ko bhi context/reference ke hisaab se check karo; wo har situation mein automatically unchanged nahi hota."
         }
       ],
       "navigation": {
@@ -489,7 +489,7 @@
         "total": 98
       },
       "quiz_payload": {
-        "question": "Statement 1: 2nd person pronoun changes according to the OBJECT of the reporting verb. Statement 2: 3rd person pronoun never changes in indirect speech. Which is/are correct?",
+        "question": "Statement 1: 2nd-person pronoun usually changes according to the object of the reporting verb. Statement 2: 3rd-person pronouns normally retain their form, but reference/context can require a different pronoun. Which is/are correct?",
         "options": [
           {
             "id": "A",
@@ -509,7 +509,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Both rules are correct as per the standard Pronoun Change Rule of Narration."
+        "explanation": "Dono statements standard narration rule ko cautious wording mein sahi batate hain. Second-person reference listener/object ke hisaab se badalta hai. Third-person form usually same reh sakta hai, lekin reported context mein referent/point of view badle to pronoun choice ko blindly fixed na rakho."
       },
       "navigation": {
         "next": "card_15_milestone2",
@@ -630,7 +630,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Yaad rakh lunga sir - Past Perfect ka 'full stop' hi hai!"
+          "text": "Past Perfect ka 'full stop' wala idea samajh aa gaya Sir; examples se check karunga ki backshift kab rukta hai."
         }
       ],
       "navigation": {
@@ -651,7 +651,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Ab sabse important EXCEPTION suno - agar reported speech mein ek UNIVERSAL TRUTH ya HABITUAL FACT ho, jaise 'Sun rises in the East', to tense CHANGE NAHI hota, chahe reporting verb past mein ho!"
+          "text": "Important exception: reported speech mein universal truth ho aur ab bhi true ho, to past reporting verb ke baad bhi present tense retain kiya ja sakta hai: “The teacher said that the sun rises in the east.” Habitual facts mein tense choice context—fact ab bhi valid hai ya past habit thi—par depend kar sakti hai."
         },
         {
           "speaker": "raju",
@@ -659,7 +659,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul sahi! Example: The teacher said that the sun rises in the east. Yahi rule historical facts pe bhi lagta hai - jaise 'Mahatma Gandhi was born in 1869' - already fixed past fact hai, waise hi rahega."
+          "text": "Haan, universal truth ka present retain karna standard hai. Historical fact already past mein ho to uska form aksar same rehta hai, lekin ise “har habitual fact kabhi change nahi hota” jaisa absolute rule na samjho."
         },
         {
           "speaker": "raju",
@@ -740,7 +740,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "Universal truths never undergo tense backshift, regardless of the reporting verb's tense."
+        "explanation": "Is example mein present tense retain karna standard hai kyunki Earth ka revolution continuing scientific fact hai. Exam convention mein universal truth ko backshift nahi karte, lekin real usage mein tense choice context aur truth-value par depend kar sakti hai; ‘never’ ko mechanical rule na samjho."
       },
       "navigation": {
         "next": "card_22_quiz3_tense",
@@ -778,7 +778,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "Statement 2 is FALSE - universal truths never change tense. This exact trap is a BPSC favorite multi-statement question."
+        "explanation": "Statement 1 sahi—Past Perfect normally further backshift nahi hota. Statement 2 galat—universal truth ko exam convention mein present retain karte hain, lekin real context mein tense choice absolute ‘never’ rule nahi hai."
       },
       "navigation": {
         "next": "card_23_milestone3",
@@ -892,7 +892,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Place words bhi badalte hain: here→there, this→that, these→those, come→go. Example: He said, 'I will come here tomorrow.' → He said that he would go there the next day."
+          "text": "Place/direction words context ke hisaab se shift ho sakte hain: here→there, this→that, these→those, aur come→go kabhi-kabhi perspective change ki wajah se. Example: He said, ‘I will come here tomorrow.’ → He said that he would go there the next day, agar reporting point us jagah se alag ho."
         },
         {
           "speaker": "raju",
@@ -900,7 +900,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Kyunki jab hum kisi third person ko event report karte hain, hum us jagah se door hote hain (perspective badal jaata hai), isliye direction bhi badal jaata hai. Ye pure grammar logic hai."
+          "text": "Come/go speaker aur reporting point ke perspective par depend karte hain; speaker ke same place par report kar rahe ho to “come” retain bhi ho sakta hai. Isliye direction change automatic nahi."
         },
         {
           "speaker": "raju",
@@ -1103,7 +1103,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bahut achha sawal! Agar sentence mein pehle se hi 'could/would/should/might/ought to' use ho, to NO FURTHER CHANGE hota - wo already sabse peeche wale form hain."
+          "text": "Could, would, should, might aur ought to often unchanged rehte hain, kyunki inke past/conditional forms already available hain. Lekin meaning, sequence of tenses aur context ke hisaab se paraphrase possible hai; inhe “hamesha dead-end” na samjho."
         },
         {
           "speaker": "raju",
@@ -1136,11 +1136,11 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul sahi pakड़a! Example: He said, 'I must go now' → He said that he had to go then (simple past action report) - exam mein zyadatar 'had to' hi expected answer hota hai, jab tak sentence 'still true' na bataye."
+          "text": "‘Must’ ka conversion meaning par depend karta hai. Past obligation report karte hue ‘had to’ common hai: He said, ‘I must go’ → He said that he had to go. Agar obligation ab bhi valid ho, ‘must’ retain ho sakta hai. Exam answer ke liye context aur intended time-frame dekho, default ko universal mat banao."
         },
         {
           "speaker": "raju",
-          "text": "Achha, toh default answer 'had to' rakhna safe hai!"
+          "text": "Samajh gaya—must ko had to karne se pehle obligation ka time aur validity check karni hai."
         }
       ],
       "navigation": {
@@ -1255,7 +1255,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "For simple past reporting of an obligation, 'must' → 'had to' is the standard exam answer."
+        "explanation": "Past compulsion that is clearly over ke standard exam conversion mein ‘must’ → ‘had to’ hota hai. Agar obligation reporting time par bhi valid ho, to ‘must’ retain karna possible hai; context decide karta hai."
       },
       "navigation": {
         "next": "card_37_milestone5",
@@ -1376,7 +1376,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Okay sir, ab main assertive sentence bina galti confidently bana sakta hoon!"
+          "text": "Okay Sir, rule samajh aa gaya; ab assertive sentences practice karke galtiyan pakadunga."
         }
       ],
       "navigation": {
@@ -1924,7 +1924,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Okay sir, ab imperative sentence ka poora chart yaad ho gaya!"
+          "text": "Okay Sir, imperative chart ka pattern samajh aa gaya; ab positive, negative aur forbade wale examples practice karunga."
         }
       ],
       "navigation": {
@@ -2389,7 +2389,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Haan, dono chalte hain context ke hisaab se. Aur ek fixed formula yaad rakho - 'Suggest/Propose' verbs ke baad hamesha 'that + subject + should + base verb' pattern aata hai, chahe original sentence mein 'should' na bhi ho."
+          "text": "Haan, context ke hisaab se kai patterns chalte hain: suggest/propose + that-clause ('They suggested that we should leave' / 'They suggested that we leave'), suggest + gerund ('She suggested leaving early'), aur propose + gerund/that-clause. Competitive exams mein that + subject + should + base verb ek common safe pattern hai, universal compulsory rule nahi."
         },
         {
           "speaker": "raju",
@@ -2397,7 +2397,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul sahi example diya! He said, 'Why don't we start early?' → He suggested that they should start early. Ye ek fixed formula hai jo bahut baar directly poochha jaata hai. ⭐ BPSC TRE Favorite!"
+          "text": "Bilkul—‘Why don’t we start early?’ ka ek sahi indirect form ‘He suggested that they should start early’ hai. Lekin ‘He suggested starting early’ bhi grammatical hai; option ko context aur exam convention se test karna."
         },
         {
           "speaker": "raju",
@@ -2496,7 +2496,7 @@
         "total": 98
       },
       "quiz_payload": {
-        "question": "Statement 1: 'Suggest/Propose' always take the 'should' pattern in indirect speech. Statement 2: 'Let's' sentences take the reporting verb 'ordered'. Which is correct?",
+        "question": "Statement 1: In one standard indirect-speech pattern, suggest/propose can be followed by “that + subject + should + base verb”. Statement 2: “Let’s” sentences take the reporting verb “ordered”. Which is correct?",
         "options": [
           {
             "id": "A",
@@ -2516,7 +2516,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "Statement 2 is wrong - 'Let's' sentences use 'suggested/proposed', not 'ordered'."
+        "explanation": "Statement 1 sahi hai as one accepted pattern: ‘He suggested that they should play.’ Suggest/propose ke saath gerund or subjunctive patterns bhi milte hain, isliye ‘always’ avoid karo. Statement 2 galat—‘Let’s’ generally suggestion/proposal hota hai, command/order nahi."
       },
       "navigation": {
         "next": "card_74_milestone10",
@@ -2931,7 +2931,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir sab 6 traps yaad ho gaye - tense, pronoun, that-with-question, modal, punctuation, wrong-reporting-verb!"
+          "text": "Sir, 6 traps ka framework mil gaya—tense, pronoun, that-with-question, modal, punctuation aur reporting verb. Examples se inhe pakka karunga."
         },
         {
           "speaker": "aman",
@@ -3130,7 +3130,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "'will' must backshift to 'would' since the reporting verb 'said' is in the past tense."
+        "explanation": "Standard backshift exercise mein past ‘said’ ke baad future-in-the-past ke liye ‘would meet’ expected hai. Lekin agar future plan/reporting time par abhi valid ho, direct-style ‘will’ retain ho sakta hai; context ke bina ‘must always’ too absolute hai."
       },
       "navigation": {
         "next": "card_92_errorquiz6",
@@ -3269,7 +3269,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "A daily scheduled train timing is treated like a habitual fact, so no tense backshift occurs - R correctly explains A."
+        "explanation": "Given sentence ko current timetable/habit ke roop mein treat karne par present ‘leaves’ retain karna natural hai. Reported speech mein backshift mechanical nahi: still-valid schedules, universal facts aur current truths mein present retain ho sakta hai; otherwise “left”/backshift context par depend karega."
       },
       "navigation": {
         "next": "card_96_final_quiz2",

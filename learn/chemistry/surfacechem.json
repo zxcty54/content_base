@@ -156,11 +156,11 @@
         },
         {
           "speaker": "aman",
-          "text": "BPSC ka favorite trap suno — 'Silica gel' dono karta hai — surface pe bhi chipkaata hai aur thoda andar bhi jaata hai. Isko kehte hain 'Sorption'. Exam me agar silica gel ka naam aaye toh answer hoga Sorption, na ki sirf Adsorption! Ye 2019 BPSC ka direct trap tha!"
+          "text": "Silica gel ko exam books mein adsorbent ke roop mein diya jata hai: moisture uski porous surface par adsorb hoti hai. ‘Sorption’ adsorption aur absorption dono ke liye general umbrella term hai; kisi specific material ko bina context ke dono processes ka example mat samjho."
         },
         {
           "speaker": "raju",
-          "text": "Whoa! Ye to pakka confuse karta sir... Sorption = dono ek saath. Likh liya!"
+          "text": "Toh silica gel ka standard answer adsorption hai; sorption broader category ka word hai, automatic third answer nahi."
         }
       ],
       "navigation": {
@@ -256,11 +256,11 @@
         },
         {
           "speaker": "raju",
-          "text": "Ahhh! Toh Adsorption always exothermic hota hai? Ye pakka yaad rakhna hai!"
+          "text": "Adsorption aam taur par exothermic hota hai, kyunki surface binding par energy release hoti hai; isliye temperature badhne par physical adsorption usually kam hoti hai. Thermodynamic result process aur conditions par depend karta hai—“always” ko exam shortcut samjho, universal claim nahi."
         },
         {
           "speaker": "aman",
-          "text": "Haan! Adsorption is ALWAYS exothermic — kyunki jab molecule surface pe stick hota hai, uski freedom (entropy) kam hoti hai. Lekin energy release hoti hai — isliye ΔH negative (exothermic) aur ΔS bhi negative (entropy decreases). BPSC trap: Adsorption spontaneous kyun hai? Kyunki ΔG = ΔH - TΔS. Low temperature pe ΔH dominates aur ΔG negative rehta hai — isliye spontaneous!"
+          "text": "Physisorption ke case mein ΔH generally negative aur adsorption ke dauran ΔS often negative hota hai. Spontaneity ka condition ΔG = ΔH − TΔS se check hota hai; low-temperature range mein adsorption favourable ho sakta hai, lekin har temperature par ΔG negative kehna sahi nahi."
         },
         {
           "speaker": "raju",
@@ -293,7 +293,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Perfect question! Key difference table — Physisorption: Van der Waals, reversible, low enthalpy (20-40 kJ/mol), occurs at low temperature, multilayer possible. Chemisorption: Chemical bond, irreversible, HIGH enthalpy (40-400 kJ/mol), occurs at HIGH temperature, only monolayer. SSC CGL mein ye comparison direct aata hai!"
+          "text": "Comparison mein physisorption: weak van der Waals forces, low enthalpy, often reversible, multilayer possible. Chemisorption: chemical bond, higher enthalpy, specific aur desorption difficult; textbook tables ise often irreversible aur monolayer batati hain, lekin real systems mein reversibility/temperature dependence context par depend kar sakti hai."
         },
         {
           "speaker": "raju",
@@ -324,7 +324,7 @@
           },
           {
             "id": "B",
-            "text": "Ye reversible hota hai aur multilayer bana sakta hai"
+            "text": "Ye aam taur par difficult-to-reverse hota hai aur textbook model mein monolayer banata hai"
           },
           {
             "id": "C",
@@ -336,7 +336,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "Chemisorption IRREVERSIBLE hota hai (strong chemical bond ki wajah se) aur sirf MONOLAYER banta hai. Multilayer aur reversibility Physisorption ki property hai. Baaki sab options chemisorption ke liye correct hain. Ye BPSC 2018 mein exactly aisa hi question aaya tha!"
+        "explanation": "Exam-level comparison mein chemisorption strong chemical bond ke kaaran generally difficult to reverse aur monolayer hota hai; physisorption comparatively reversible aur multilayer ho sakta hai. Real surfaces par absolute “never reversible” rule na lagao."
       },
       "navigation": {
         "next": "card_10_quiz_adsorption_enthalpy",
@@ -374,7 +374,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Adsorption hamesha exothermic hota hai isliye ΔH negative. Jab adsorbate surface pe chipakta hai toh uski freedom of movement (entropy) kam hoti hai isliye ΔS bhi negative. Phir bhi adsorption spontaneous hota hai kyunki low temperature pe |ΔH| > |TΔS| isliye ΔG = ΔH - TΔS negative rehta hai. NEET aur BPSC dono mein ye thermodynamics angle bahut important hai!"
+        "explanation": "Exam-level idealized adsorption mein ΔH generally negative (exothermic) aur ΔS often negative maana jata hai, kyunki adsorbate ki translational freedom kam hoti hai. Actual sign/magnitude system par depend kar sakta hai; thermodynamic spontaneity ko ΔG = ΔH − TΔS aur given conditions se judge karo."
       },
       "navigation": {
         "next": "card_11_quiz_adsorbent_examples",
@@ -463,7 +463,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Freundlich formula: x/m = k × P^(1/n). Yahan — x = mass of gas adsorbed, m = mass of adsorbent, P = pressure, k aur n = constants (n > 1 hamesha). x/m ko 'extent of adsorption' kehte hain. Jab log scale lein toh: log(x/m) = log k + (1/n) log P — ye ek straight line deta hai. Slope = 1/n, Intercept = log k."
+          "text": "Freundlich formula: x/m = k × P^(1/n). Yahan x = mass of gas adsorbed, m = mass of adsorbent, P = pressure, k aur n = constants. Favourable adsorption ke common data range mein n > 1 (isliye 0 < 1/n < 1) milta hai, lekin ise har possible system ke liye “hamesha” na bolo."
         },
         {
           "speaker": "raju",
@@ -572,7 +572,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "Freundlich equation ka log form: log(x/m) = log k + (1/n)log P. Ye y = mx + c form mein hai. Isliye slope = 1/n aur y-intercept = log k. Dhyan raho — slope (1/n) hamesha 0 aur 1 ke beech hoti hai. Ye NEET 2019 aur SSC CGL 2020 mein aaya tha!"
+        "explanation": "Freundlich equation ka log form: log(x/m) = log k + (1/n)log P. Ye y = mx + c form mein hai; isliye slope = 1/n aur y-intercept = log k. Common favourable-adsorption range mein 0 < 1/n < 1 hota hai, par n>1 ko universal law na samjho."
       },
       "navigation": {
         "next": "card_17_quiz_langmuir",
@@ -691,7 +691,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Raju, tune kabhi socha — hydrogen aur oxygen dono room mein hain, fir bhi paani nahi banta automatically. Lekin thoda platinum powder daalo — BOOM — turant paani banta hai! Platinum ne reaction kiya? Nahi! Sirf speed badhaya! Isko kehte hain Catalysis. Aur platinum ek Catalyst hai."
+          "text": "Raju, tune kabhi socha—hydrogen aur oxygen room temperature par turant water kyon nahi banate? Platinum surface reaction ko bahut fast kar sakti hai. Platinum catalyst hai: reaction mechanism mein participate kar sakta hai, par overall cycle ke end tak regenerate hota hai; catalyst ki physical/surface state badal sakti hai."
         },
         {
           "speaker": "raju",
@@ -699,7 +699,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Catalyst reaction ki ACTIVATION ENERGY kam karta hai — ek alternative route provide karta hai jo easy hai. Soch — Patna se Delhi jaana hai. Direct highway pe ghanta lagta hai, lekin ek shortcut road se 30 minute mein pohunch jaao. Catalyst wo shortcut hai! Reaction ki speed badh jaati hai, lekin catalyst khud wapas aa jaata hai apni original form mein — consume nahi hota."
+          "text": "Catalyst reaction ki activation energy kam karne wala alternative pathway deta hai. Socho Patna se Delhi ke liye shortcut road—arrival fast hota hai, destination/equilibrium ka final rule nahi badalta. Catalyst intermediate bana sakta hai aur phir regenerate ho sakta hai; “bilkul react nahi karta” ko literal rule mat samjho."
         },
         {
           "speaker": "raju",
@@ -790,7 +790,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Bilkul Raju! Enzyme Catalysis — ye biological catalysis hai. Enzymes protein-based catalysts hote hain. Ye Lock and Key model pe kaam karte hain — enzyme ka active site ek specific substrate ke saath fit hota hai. Ye extremely specific hote hain — ek enzyme sirf ek ya kuch specific reactions catalyze karta hai."
+          "text": "Enzyme catalysis biological catalysis hai. Bahut se enzymes proteins hote hain, although kuch catalytic RNA (ribozymes) bhi hote hain. School-level Lock-and-Key model active-site specificity samjhata hai; modern induced-fit model mein active site substrate ke aane par adjust bhi kar sakta hai. Ek enzyme ki substrate/reaction specificity context par depend karti hai."
         },
         {
           "speaker": "raju",
@@ -798,7 +798,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Enzyme = Lock (active site ek specific shape hai), Substrate = Key (jo perfectly fit hoti hai). Jab key (substrate) lock (enzyme) mein fit hoti hai toh complex banta hai — phir product banta hai aur enzyme wapas free ho jaata hai. Examples: Zymase (glucose → ethanol + CO2), Invertase (sucrose → glucose + fructose), Diastase (starch → maltose). Enzyme efficiency bahut high hoti hai — ek enzyme ek second mein lakho reactions catalyze karta hai!"
+          "text": "Exam analogy mein enzyme = lock aur substrate = key. Complex banne ke baad product release hota hai aur enzyme catalytic cycle mein reuse ho sakta hai. Examples: zymase fermentation, invertase sucrose hydrolysis, diastase starch breakdown—lekin enzyme ko hamesha sirf ek hi reaction tak limit mat samjho."
         },
         {
           "speaker": "raju",
@@ -823,7 +823,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Haan, NEET ke liye important hain. Ab ek aur important concept — Promoters aur Catalytic Poisons. Promoter = wo substance jo catalyst ki efficiency BADHATA hai. Example: Haber process mein Fe catalyst ka promoter hai Molybdenum (Mo) ya Al2O3. Mo directly react nahi karta — sirf Fe ki activity enhance karta hai!"
+          "text": "Haan, NEET ke liye important. Promoter catalyst ki activity/selectivity improve kar sakta hai. Haber process mein finely divided Fe catalyst ke common promoters K₂O aur Al₂O₃ (saath mein CaO jaise promoters bhi mention hote hain) hain; Mo ko is standard example ka default answer na banao."
         },
         {
           "speaker": "raju",
@@ -1067,7 +1067,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul! Aur ye effect sirf colloids mein hota hai — solutions mein nahi. Isliye Tyndall Effect use karke pata lagaa sakte ho ki koi mixture solution hai ya colloid. Dispersing medium ko solvent jaisa samjho — jisme colloid particles phele hote hain. Particles ko 'Dispersed Phase' kehte hain aur medium ko 'Dispersion Medium' kehte hain."
+          "text": "Bilkul—school colloid chapter mein Tyndall effect colloids ko true solutions se distinguish karta hai. Strictly, sufficiently large particles in suspensions ya dust-laden gases bhi light scatter kar sakte hain; isliye “sirf colloids, kisi aur dispersion mein nahi” absolute claim mat banao. Milk mein fat droplets dispersed phase aur water dispersion medium hai."
         },
         {
           "speaker": "raju",
@@ -1955,7 +1955,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Cottrell Precipitator factory chimneys mein use hota hai — industrial pollution control ke liye. Isme smoke particles ko high voltage se electrically charged kiya jaata hai. Ye charged particles electrodes pe collect ho jaate hain aur chimney se saaf hawa nikaiti hai. Ye Electrophoresis principle pe kaam karta hai. Frederick Cottrell ne 1907 mein invent kiya. Hospital wali kidney dialysis mein semi-permeable membrane use hoti hai — alag concept!"
+        "explanation": "Cottrell electrostatic precipitator factory chimneys mein smoke/dust particles ko high voltage se charge karke oppositely charged collecting electrodes par deposit karta hai. Yeh electrostatic precipitation/particle charging principle hai; ise biological or colloidal electrophoresis ke exact synonym ke roop mein na padho."
       },
       "navigation": {
         "next": "card_58_quiz_applications_3",
@@ -2150,7 +2150,7 @@
         "total": 72
       },
       "quiz_payload": {
-        "question": "NEET Level Multi-Statement: Enzyme catalysis ke baare mein kaunse statements SAHI hain?\n(I) Enzymes protein-based biological catalysts hain.\n(II) Lock and Key model mein enzyme = key aur substrate = lock hai.\n(III) Zymase glucose ko ethanol aur CO2 mein convert karta hai.\n(IV) Enzyme ki efficiency (turnover number) bahut high hoti hai — ek second mein lakho reactions.",
+        "question": "NEET Level Multi-Statement: Enzyme catalysis ke baare mein kaunse statements SAHI hain?\n(I) Enzymes protein-based biological catalysts hain.\n(II) Lock and Key model mein enzyme = key aur substrate = lock hai.\n(III) Zymase glucose ko ethanol aur CO2 mein convert karta hai.\n(IV) Turnover number enzyme ki catalytic efficiency ko measure karta hai—ye per second converted substrate molecules ki sankhya batata hai.",
         "options": [
           {
             "id": "A",
@@ -2170,7 +2170,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "Statement I — SAHI: Enzymes biological protein catalysts hain. Statement II — GALAT: Lock and Key model mein ENZYME = LOCK (active site fixed shape), SUBSTRATE = KEY (jo fit hoti hai). Raju wala confusion yaad karo! Statement III — SAHI: Zymase enzyme glucose → ethanol + CO2 (fermentation). Invertase = sucrose → glucose + fructose. Diastase = starch → maltose. Statement IV — SAHI: Enzyme ki turnover number bahut high hoti hai — 1 second mein 10^6 reactions possible. Isliye answer A — I, III aur IV sahi hain!"
+        "explanation": "Exam-level statement mein enzymes ko biological protein catalysts kaha jaata hai, so I correct; rare ribozymes ko advanced exception ke roop mein yaad rakho. Lock-and-key model mein enzyme lock aur substrate key hota hai, so II false. Zymase fermentation mein glucose ko ethanol aur CO₂ mein convert karne wale enzyme system se linked hai, so III correct. Turnover number catalytic efficiency ko per-second reaction rate ke roop mein quantify karta hai, so IV correct."
       },
       "navigation": {
         "next": "card_64_final_quiz_4",
@@ -2226,7 +2226,7 @@
         "total": 72
       },
       "quiz_payload": {
-        "question": "BPSC 2022 Style — Freundlich Adsorption Isotherm ke baare mein kaunse statements SAHI hain?\n(I) Ye ek empirical isotherm hai — experimental data se derived.\n(II) Isotherm equation: x/m = k.P^(1/n) — yahan n > 1 hamesha.\n(III) Langmuir isotherm Freundlich se better hai kyunki ye high pressure pe bhi valid hai.\n(IV) Freundlich isotherm multilayer adsorption explain karta hai.",
+        "question": "BPSC 2022 Style — Freundlich Adsorption Isotherm ke baare mein kaunse statements SAHI hain?\n(I) Ye empirical isotherm hai—experimental data se derived.\n(II) Isotherm equation x/m = k.P^(1/n) hai; favourable adsorption ke common range mein 0 < 1/n < 1 milta hai.\n(III) Langmuir model high pressure par saturation/monolayer limit ko explain karta hai, jabki Freundlich empirical relation kuch range mein fail ho sakta hai.\n(IV) Freundlich equation ko har pressure range mein exact multilayer theory maana jata hai.",
         "options": [
           {
             "id": "A",
@@ -2246,7 +2246,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "Statement I — SAHI: Freundlich isotherm empirical hai (experimental observation based, no theory). Statement II — SAHI: x/m = k.P^(1/n) aur n > 1 hamesha (matlab 1/n < 1, yani 0 < 1/n < 1). Statement III — SAHI: Langmuir isotherm theoretical hai aur high pressure pe bhi valid — Freundlich high pressure pe fail ho jaata hai. Statement IV — GALAT: Freundlich isotherm multilayer explain nahi karta — wo sirf empirical relationship hai. Multilayer adsorption BET theory explain karta hai. Answer = A (I, II, III correct)!"
+        "explanation": "I, II aur III sahi hain: Freundlich empirical relation hai; equation aur common favourable range sahi hai; Langmuir saturation/monolayer limit model karta hai, jabki Freundlich limited range mein useful hai. IV galat hai—Freundlich equation ko har pressure range ki exact multilayer theory nahi maana jata."
       },
       "navigation": {
         "next": "card_66_final_quiz_6",
@@ -2302,7 +2302,7 @@
         "total": 72
       },
       "quiz_payload": {
-        "question": "Assertion-Reason (UPSC Prelims Style):\nAssertion (A): Adsorption ek spontaneous process hai jisme ΔG negative hota hai.\nReason (R): Adsorption mein ΔH negative (exothermic) aur ΔS negative (entropy decrease) dono hote hain — lekin low temperature pe ΔH > TΔS hota hai isliye ΔG negative rahta hai.",
+        "question": "Assertion-Reason (UPSC Prelims Style):\nAssertion (A): Adsorption ke favourable conditions mein forward process ke liye ΔG negative ho sakta hai.\nReason (R): Idealized adsorption mein ΔH generally negative aur ΔS often negative hote hain; isliye ΔG = ΔH − TΔS ko temperature ke saath check karna padta hai.",
         "options": [
           {
             "id": "A",
@@ -2314,7 +2314,7 @@
           },
           {
             "id": "C",
-            "text": "A sahi hai aur R sahi hai — R, A ki sahi explanation hai"
+            "text": "A sahi hai aur R sahi hai—R, A ki sahi explanation hai"
           },
           {
             "id": "D",
@@ -2322,7 +2322,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Assertion SAHI: Adsorption spontaneous hai — ΔG < 0. Reason SAHI aur correct explanation: ΔG = ΔH - TΔS. Adsorption mein ΔH negative (exothermic — energy release hoti hai jab molecule surface se bind hota hai) aur ΔS bhi negative (molecule ki freedom kam hoti hai jab surface se bind hota hai). Low temperature pe |ΔH| > |TΔS| — isliye ΔG negative rahta hai aur adsorption spontaneous hota hai. High temperature pe TΔS dominant ho jaata hai aur desorption hota hai!"
+        "explanation": "Favourable conditions mein adsorption ka forward process spontaneous ho sakta hai, jiske liye ΔG < 0 hota hai. Idealized model mein ΔH generally negative aur ΔS often negative hote hain, lekin negative ΔH/ΔS alone har temperature par spontaneity guarantee nahi karte; ΔG equation aur conditions check karni hoti hain. Isliye R, A ko appropriately qualify karke explain karta hai."
       },
       "navigation": {
         "next": "card_68_final_quiz_8",

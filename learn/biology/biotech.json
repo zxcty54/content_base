@@ -321,7 +321,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul sahi socha! DNA ko kaatne wali 'molecular scissors' [[Restriction Enzymes | DNA ko ek specific jagah par kaatne wale enzymes, jo bacteria mein paye jaate hain]] kehlate hain. Inhe sabse pehle 1963 mein scientists ne discover kiya - Werner Arber ne inke astitva ka suggestion diya."
+          "text": "Bilkul sahi socha! DNA ko kaatne wali 'molecular scissors' [[Restriction Enzymes | DNA ko ek specific jagah par kaatne wale enzymes, jo bacteria mein paye jaate hain]] kehlate hain. Restriction-modification system ko 1960s mein Werner Arber ke kaam ne samjhaya; pehla restriction endonuclease baad mein isolate/characterise hua. Isliye kisi ek scientist ya 1963 ko ‘first enzyme discovery’ ka fixed answer mat banao."
         },
         {
           "speaker": "raju",
@@ -346,7 +346,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "⭐ BPSC TRE Favorite (Scientist-Year trap): 3 scientists involved the:\n\n1️⃣ Werner Arber (1963) - Existence suggest kiya\n2️⃣ Hamilton Smith (1970) - Pehla restriction enzyme 'Hind II' isolate kiya\n3️⃣ Daniel Nathans - Ismein application dikhaya\n\nTeeno ko 1978 mein Nobel Prize mila!"
+          "text": "⭐ BPSC TRE Scientist-Year trap ko precise padho: restriction-modification system samajhne mein Werner Arber ka 1960s ka kaam important tha; Meselson-Yuan ne 1968 mein early restriction endonuclease isolate kiya; Hamilton Smith ne 1970 mein HindII ko characterise kiya; Daniel Nathans ne restriction enzymes ko DNA mapping/application mein use dikhaya. Arber, Smith aur Nathans ko 1978 Nobel Prize mila. “First discovery” ko ek hi naam/year se lock mat karo."
         },
         {
           "speaker": "raju",
@@ -354,7 +354,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul, isliye BPSC mein trap banaya jaata hai - 'Restriction enzyme ka discovery kisne kiya' puchte hain aur options mein confusion create karte hain. Yaad rakho: Arber = Suggested, Smith = First isolated (HindII), Nathans = Application, sab 1978 Nobel Prize joint winners!"
+          "text": "Haan Raju—confusion isi liye hoti hai kyunki discovery, isolation aur application alag milestones hain. Arber = system ka early work, Meselson-Yuan/Smith = enzyme isolation/characterisation milestones, Nathans = application; Nobel trio Arber-Smith-Nathans tha."
         },
         {
           "speaker": "raju",
@@ -412,7 +412,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Great question! Bacteria apne DNA ko [[Methylation | DNA par ek chemical (methyl group) chipka dena jisse woh protect ho jaye]] karke protect kar lete hain. Foreign DNA (jaise virus ka) methylated nahi hota, isliye enzyme sirf usko pehchan kar kaat deta hai."
+          "text": "Great question! Bacteria apne DNA ko [[Methylation | DNA par ek chemical (methyl group) chipka dena jisse woh protect ho jaye]] karke aksar protect karte hain. Restriction enzyme ka matching recognition site agar host DNA par protected ho, to enzyme usse nahi kaat-ta; unprotected foreign DNA ko kaat sakta hai. Har foreign DNA automatically unmethylated ho, aisa universal rule nahi."
         },
         {
           "speaker": "raju",
@@ -967,7 +967,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Toh antibiotic resistance ek 'proof' hai vector transfer ka! Genius trick hai yeh toh!"
+          "text": "Ohh! Antibiotic resistance transfer ka ek selection signal hai—par Sir, sirf resistance dekhkar recombinant gene ko final prove nahi kar sakte? Aur koi check bhi hota hai?"
         }
       ],
       "navigation": {
@@ -1033,7 +1033,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wahh! Yeh toh double-check system hai! Genius technique!"
+          "text": "Wah, marker gene ke andar insertion se screening easy ho gayi. Par mujhe ampR aur tetR ka order dobara check karna padega, mix ho sakta hai!"
         }
       ],
       "navigation": {
@@ -1232,7 +1232,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bacteria ko pehle [[Competent | Bacteria ki woh avastha jisme woh foreign DNA lene ke liye taiyar ho jaate hain]] banana padta hai. Isके लिए unhe Calcium chloride (CaCl2) ke saath treat karte hain, jisse cell wall mein chhote-chhote pores (poriyan) ban jaate hain."
+          "text": "Bacteria ko pehle competent banana padta hai. CaCl₂ treatment DNA aur cell surface ke charges ko shield karke membrane ko DNA uptake ke liye more permissive banata hai; uske baad cold incubation/heat shock jaise protocol steps transformation efficiency badhate hain. Isse literally cell wall mein visible pores banana na samjho."
         },
         {
           "speaker": "raju",
@@ -1257,7 +1257,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Universal Rule: Pehle bacteria ko DNA ke saath ice pe rakhte hain, phir achanak se 42°C pe kuch second ke liye rakhte hain - ise [[Heat Shock | Bacteria ko achanak temperature change dena jisse pores khul jaayein aur DNA andar chala jaaye]] kehte hain, phir turant wapas ice pe rakhte hain."
+          "text": "Standard CaCl₂ heat-shock transformation mein bacteria ko DNA ke saath ice par rakhkar kuch seconds ke liye lagbhag 42°C par le jaate hain, phir ice par rakhte hain. Is temporary treatment ko [[Heat Shock | Temperature shift se competent bacteria mein DNA uptake karane ki laboratory technique]] kehte hain—yeh transformation ka ek method hai, universal gene-delivery method nahi."
         },
         {
           "speaker": "raju",
@@ -1265,7 +1265,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul! Yeh temperature shock cell membrane ko temporarily permeable bana deta hai, aur DNA is 'window' se andar chala jaata hai. Isके बाद membrane wapas normal ho jaati hai, DNA ander lock ho jaata hai!"
+          "text": "CaCl₂ se cells competent banaye jaate hain aur heat pulse DNA uptake ki probability badhata hai; ise literal permanent “pores” ya DNA ke lock ho jaane ki tarah mat samjho. Recovery ke baad transformed cells ko select/test kiya jaata hai. Electroporation jaise alternatives bhi hote hain."
         },
         {
           "speaker": "raju",
@@ -1367,7 +1367,7 @@
           },
           {
             "id": "B",
-            "text": "To make the cell wall porous for easy DNA entry (make cells competent)"
+            "text": "To make bacterial cells more permeable/competent for DNA uptake"
           },
           {
             "id": "C",
@@ -1379,7 +1379,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "CaCl2 treatment makes the bacterial cell wall porous, preparing the cells to take up foreign DNA. This process of making cells ready to accept DNA is called making cells 'competent'. This is followed by heat shock treatment (42°C) to facilitate DNA entry."
+        "explanation": "CaCl₂ treatment DNA uptake ke liye bacterial surface/membrane ko more permissive banata hai aur cells ko competent banane mein help karta hai. Standard heat-shock protocol mein iske baad heat shock diya ja sakta hai; exact conditions organism aur protocol par depend karti hain."
       },
       "navigation": {
         "next": "card_41_quiz_transfer_q2",
@@ -1539,7 +1539,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Lytic enzymes use karte hain - jaise Lysozyme (bacteria ke liye), Cellulase (plant cells ke liye), Chitinase (fungal cells ke liye). Phir RNase aur Protease enzymes se RNA aur proteins ko remove karte hain, sirf pure DNA reh jaata hai."
+          "text": "Lysis ke baad sample ko saaf karne ke liye RNase RNA aur protease proteins ko reduce/remove karte hain; plant/fungal wall ke liye suitable lytic enzymes bhi use ho sakte hain. Isse **relatively purified DNA** milta hai—har preparation literally 100% pure nahi hoti."
         },
         {
           "speaker": "raju",
@@ -1741,7 +1741,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Poora process ab samajh aa raha hai! Practice karte hain Sir!"
+          "text": "Overall sequence samajh aa raha hai, lekin downstream ke steps practice karke pakka karunga. Quiz karte hain Sir!"
         }
       ],
       "navigation": {
@@ -2308,7 +2308,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Yahan hi twist hai! Lymphocytes hamesha zinda nahi rehte, isliye is treatment ko baar-baar dohrana padta hai. Permanent cure ke liye Bone Marrow cells (jo stem cells produce karte hain) mein ADA gene daalna hoga - jisse yeh naya trait next generation cells mein bhi transfer ho."
+          "text": "Yahan limitation samjho: mature lymphocytes ki life limited hoti hai, isliye benefit sustain karne ke liye treatment repeat ho sakta hai. Hematopoietic stem-cell gene therapy long-term correction de sakti hai kyunki stem cells naye blood-cell lineages banate hain; ise germline change ya automatically next generation mein trait transfer samajhna galat hoga."
         },
         {
           "speaker": "raju",
@@ -2548,7 +2548,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Genius mechanism hai yeh! Ab RNAi ke baare mein bhi jaanna hai!"
+          "text": "Mechanism samajh aa gaya—pehle gut conditions, phir receptor binding. Ab RNAi mein gene silence kaise hota hai, woh bhi dheere se bataiye."
         }
       ],
       "navigation": {
@@ -2940,7 +2940,7 @@
         "total": 95
       },
       "quiz_payload": {
-        "question": "Quiz 2/3: In India, which committee is responsible for approving the safety of GM organisms before commercial release?",
+        "question": "Quiz 2/3: In India, which committee is associated with biosafety assessment and environmental release decisions for genetically modified organisms?",
         "options": [
           {
             "id": "A",
@@ -2960,7 +2960,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "GEAC (Genetic Engineering Appraisal Committee, now called Genetic Engineering Approval Committee) is the regulatory body in India responsible for assessing the safety of GM organisms and approving their release for research or commercial purposes. ⭐ BPSC/UPSC Prelims Favorite factual question!"
+        "explanation": "GEAC ka current official expansion Genetic Engineering Appraisal Committee hai. Yeh GM organisms ke biosafety assessment aur environmental release/field-trial decisions ke regulatory framework ka hissa hai; purane NCERT/exam material mein “Approval Committee” expansion mil sakta hai. Food-safety approval ko har case mein GEAC ka sole function na samjhein—relevant sectoral authorities bhi role play karte hain."
       },
       "navigation": {
         "next": "card_85_quiz_final_module_q3",

@@ -548,7 +548,7 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) This house is / (B) more bigger than / (C) her's / (D) No error",
+        "question": "Find the error (SBI PO Style): (A) This house is / (B) bigger than / (C) her's / (D) No error",
         "options": [
           {
             "id": "A",
@@ -556,7 +556,7 @@
           },
           {
             "id": "B",
-            "text": "more bigger than"
+            "text": "bigger than"
           },
           {
             "id": "C",
@@ -568,7 +568,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Possessive Pronouns (mine, yours, his, hers, ours, theirs) mein KABHI apostrophe (') nahi lagta. 'Her's' galat hai, correct hoga 'hers'. (Bonus trap: 'more bigger' bhi galat hai but yahan bade error 'her's' ko highlight kiya gaya hai as per SBI PO pattern of picking the clearest violation)."
+        "explanation": "Possessive pronoun ‘hers’ mein apostrophe nahi lagta. Correct sentence: ‘This house is bigger than hers.’ Is revised item mein ek hi targeted error hai."
       },
       "navigation": {
         "next": "card_17_milestone2",
@@ -741,7 +741,7 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) My sister is / (B) much more intelligent / (C) than me / (D) No error",
+        "question": "Formal/exam usage mein error identify karein (informal English mein object form bhi sunne ko mil sakta hai): (A) My sister is / (B) much more intelligent / (C) than me / (D) No error",
         "options": [
           {
             "id": "A",
@@ -761,7 +761,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Hidden verb trick lagao: '...than I (am)'. Poora sentence 'than I am intelligent' banega, isliye Subjective 'I' sahi hai, 'me' nahi. Correct: 'than I'."
+        "explanation": "Traditional formal grammar/exam key mein comparison ko elliptical ‘than I am’ maana jaata hai, isliye ‘than I’ expected correction hai. Modern standard and conversational English mein ‘than me’ bhi bahut common/accepted hai; ise universal communication error na samjho."
       },
       "navigation": {
         "next": "card_23_quiz2",
@@ -837,7 +837,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Linking verb 'was' ke baad Subjective case aayega as per formal rule. Correct: 'it was he who had called'."
+        "explanation": "Traditional formal exam grammar mein linking verb ‘was’ ke baad subject form ‘he’ expected hai: ‘It was he who had called.’ Modern everyday English mein ‘It was him’ widely used/accepted hai, isliye yeh style/register distinction hai, meaning ka confusion nahi."
       },
       "navigation": {
         "next": "card_25_milestone3",
@@ -1010,15 +1010,15 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) The committee has / (B) submitted their / (C) final report to the board / (D) No error",
+        "question": "Formal exam convention ke hisaab se error identify karein: (A) The committee have / (B) submitted its / (C) final report to the board / (D) No error",
         "options": [
           {
             "id": "A",
-            "text": "The committee has"
+            "text": "The committee have"
           },
           {
             "id": "B",
-            "text": "submitted their"
+            "text": "submitted its"
           },
           {
             "id": "C",
@@ -1029,8 +1029,8 @@
             "text": "No error"
           }
         ],
-        "correct_option_id": "B",
-        "explanation": "'Committee' ek unified action (submitted one report) kar raha hai, isliye Collective Noun singular treat hoga. Correct: 'submitted its final report'."
+        "correct_option_id": "A",
+        "explanation": "Yahan committee ek unit ke roop mein one report submit kar rahi hai, aur formal exam convention mein singular verb ‘has’ expected hai: ‘The committee has submitted its final report.’ British English mein committee members individually act kar rahe hon to plural ‘have’ bhi mil sakta hai; context/register matter karta hai."
       },
       "navigation": {
         "next": "card_31_quiz2",
@@ -1048,7 +1048,7 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) Every student / (B) must bring / (C) their own laptop tomorrow / (D) No error",
+        "question": "Traditional formal-exam convention mein error identify karein: (A) Every student / (B) must bring / (C) their own laptop tomorrow / (D) No error",
         "options": [
           {
             "id": "A",
@@ -1068,7 +1068,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "'Every student' singular hai, isliye pronoun bhi singular aayega. Correct: 'his or her own laptop' / 'his own laptop' (traditional exam rule)."
+        "explanation": "Traditional exam key singular ‘Every student’ ke saath ‘his or her’ expect karti hai: ‘Every student must bring his or her own laptop.’ Modern standard English mein singular ‘they/their’ inclusive aur widely accepted hai, isliye ise real-world English mein automatically wrong na samjho."
       },
       "navigation": {
         "next": "card_32_quiz3",
@@ -1553,7 +1553,7 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) The two neighbouring countries / (B) have been fighting / (C) with one another for decades / (D) No error",
+        "question": "Traditional exam convention ke hisaab se error identify karein: (A) The two neighbouring countries / (B) have been fighting / (C) with one another for decades / (D) No error",
         "options": [
           {
             "id": "A",
@@ -1573,7 +1573,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "'Two countries' matlab sirf DO parties hain, isliye 'each other' aayega, na ki 'one another' (jo do se zyada ke liye hai). Correct: 'with each other for decades'."
+        "explanation": "Traditional grammar books each other ko two entities aur one another ko more than two entities ke liye prefer karti hain, isliye exam answer ‘with each other’ hai. Modern English mein dono expressions ka overlap hai aur ‘one another’ with two countries bhi grammatical milta hai."
       },
       "navigation": {
         "next": "card_47_quiz2",
@@ -1591,7 +1591,7 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) All the ten members of the club / (B) respect and / (C) trust each other completely / (D) No error",
+        "question": "Traditional exam convention ke hisaab se preferred form choose karein: (A) All the ten members of the club / (B) respect and / (C) trust each other completely / (D) No error",
         "options": [
           {
             "id": "A",
@@ -1607,11 +1607,11 @@
           },
           {
             "id": "D",
-            "text": "No error"
+            "text": "No error under modern standard usage"
           }
         ],
-        "correct_option_id": "C",
-        "explanation": "'Ten members' matlab do se zyada log hain, isliye 'one another' use hoga (strictly), na ki 'each other'. Correct: 'trust one another completely'."
+        "correct_option_id": "D",
+        "explanation": "Modern standard English mein ‘each other’ two se zyada members ke liye bhi grammatical hai, so sentence mein koi necessary error nahi. Traditional exam books often ‘one another’ prefer karti hain for more than two, but that is a style/convention preference, not an absolute grammar rule."
       },
       "navigation": {
         "next": "card_48_quiz3",
@@ -2091,7 +2091,7 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) Who did you / (B) invite to the / (C) farewell party yesterday / (D) No error",
+        "question": "Traditional formal/exam usage mein error identify karein: (A) Who did you / (B) invite to the / (C) farewell party yesterday / (D) No error",
         "options": [
           {
             "id": "A",
@@ -2111,7 +2111,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "Shortening trick: 'You invited (who/whom)' - 'You invited him' fit hota hai, isliye Objective 'WHOM' sahi hai, na ki 'Who'. Correct: 'Whom did you invite'."
+        "explanation": "Formal traditional grammar mein object ke liye ‘Whom did you invite?’ expected hai. Modern standard English mein ‘Who did you invite?’ extremely common and accepted hai, especially conversation mein; exam convention aur everyday usage ko separate rakho."
       },
       "navigation": {
         "next": "card_63_quiz2",
@@ -2360,7 +2360,7 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) The candidate / (B) who the company selected / (C) was interviewed by three panels / (D) No error",
+        "question": "Traditional formal/exam usage mein error identify karein: (A) The candidate / (B) who the company selected / (C) was interviewed by three panels / (D) No error",
         "options": [
           {
             "id": "A",
@@ -2380,7 +2380,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "Shortening trick: 'the company selected (who/whom)' - 'the company selected him' fit ho raha hai, isliye Objective 'WHOM' sahi hai. Correct: 'whom the company selected'."
+        "explanation": "Formal traditional grammar mein relative pronoun object position mein hai (‘the company selected him’), isliye ‘whom the company selected’ expected hai. Modern English mein object ‘who’ widely accepted hai."
       },
       "navigation": {
         "next": "card_71_quiz2",
@@ -2398,7 +2398,7 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) The Taj Mahal / (B) that is located in Agra / (C) attracts millions of tourists every year / (D) No error",
+        "question": "Formal exam punctuation/relative-clause convention ke hisaab se error identify karein: (A) The Taj Mahal / (B) that is located in Agra / (C) attracts millions of tourists every year / (D) No error",
         "options": [
           {
             "id": "A",
@@ -2418,7 +2418,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "'Taj Mahal' ek unique/specific proper noun hai jiske baare mein extra (non-essential) info di ja rahi hai, isliye comma ke saath 'WHICH' use hoga, 'that' nahi. Correct: 'which is located in Agra,'."
+        "explanation": "Unique proper name ke baad non-essential information ko commas ke saath ‘which’ se likhna formal exam-safe choice hai: ‘The Taj Mahal, which is located in Agra, attracts...’ ‘That’ restrictive clause mein possible ho sakta hai if the context identifies one among several, so rule ko absolute mat samjho."
       },
       "navigation": {
         "next": "card_72_quiz3",
@@ -2577,7 +2577,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Toh ek pattern se saari indefinite pronoun family ki singular rule yaad ho gayi!"
+          "text": "Achha! Pattern samajh aa gaya; ab indefinite-pronoun examples se singular verb rule practice karunga."
         }
       ],
       "navigation": {
@@ -2725,7 +2725,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Exam-safe traditional rule: 'None' = 'not one', isliye singular verb 'has' aur singular pronoun 'his' dono match karke aana chahiye for full grammatical consistency, jo option C mein hai."
+        "explanation": "Traditional/exam-safe option C ‘None of the students has completed his homework’ hai: ‘none’ ko ‘not one’ maana gaya hai aur generic masculine pronoun use kiya gaya hai. Modern English mein plural ‘have’ and singular they (‘None ... have completed their homework’) bhi widely accepted hain; question ne traditional preference specify ki hai."
       },
       "navigation": {
         "next": "card_81_milestone10",
@@ -2974,7 +2974,7 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) The train arrived late / (B) which upset all / (C) the passengers waiting at the station / (D) No error",
+        "question": "Choose the grammatically acceptable sentence: (A) The train arrived late / (B) which upset all / (C) the passengers waiting at the station / (D) No error",
         "options": [
           {
             "id": "A",
@@ -2993,8 +2993,8 @@
             "text": "No error"
           }
         ],
-        "correct_option_id": "B",
-        "explanation": "'Which' yahan pure clause 'the train arrived late' ko refer kar raha hai, na ki kisi specific noun ko - ye formal grammar mein broad/vague reference error maana jaata hai."
+        "correct_option_id": "D",
+        "explanation": "No error. Comma ke baad ‘which’ poore preceding clause ‘the train arrived late’ ko refer kar sakta hai: late arrival ne passengers ko upset kiya. Agar ambiguity avoid karni ho to ‘The train’s late arrival upset...’ likh sakte hain, but original sentence grammatical hai."
       },
       "navigation": {
         "next": "card_89_milestone11",
@@ -3167,7 +3167,7 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) One should always / (B) try to complete / (C) his duty honestly / (D) No error",
+        "question": "Traditional formal/exam usage mein error identify karein (modern singular they ko dhyan mein rakhkar): (A) One should always / (B) try to complete / (C) his duty honestly / (D) No error",
         "options": [
           {
             "id": "A",
@@ -3187,7 +3187,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Sentence 'One' se start hua hai, isliye consistency maintain karte hue 'his' ki jagah 'one's' aana chahiye. Correct: 'one's duty honestly'."
+        "explanation": "Traditional consistency rule mein pronoun ‘one’s’ hoga: ‘One should always try to complete one’s duty.’ Modern English generic ‘they/their’ bhi use karti hai, but mixing ‘one’ with ‘his’ formal exam mein avoid karaya jaata hai."
       },
       "navigation": {
         "next": "card_95_quiz2",
@@ -3205,27 +3205,27 @@
         "total": 100
       },
       "quiz_payload": {
-        "question": "Find the error (SBI PO Style): (A) Ramesh is one of / (B) the best students / (C) who has ever joined this college / (D) No error",
+        "question": "Choose the formal exam-safe completion: “Ramesh is one of the students who ___ topped the exam.”",
         "options": [
           {
             "id": "A",
-            "text": "Ramesh is one of"
+            "text": "has"
           },
           {
             "id": "B",
-            "text": "the best students"
+            "text": "have"
           },
           {
             "id": "C",
-            "text": "who has ever joined this college"
+            "text": "is"
           },
           {
             "id": "D",
-            "text": "No error"
+            "text": "was"
           }
         ],
-        "correct_option_id": "C",
-        "explanation": "'Who' yahan 'students' (plural) ko refer kar raha hai, isliye plural verb aayega. Correct: 'who have ever joined this college'."
+        "correct_option_id": "B",
+        "explanation": "Is group-reading sentence mein ‘who’ ka antecedent plural ‘students’ hai, isliye ‘have’ expected hai. Agar meaning sirf Ramesh ko identify karna ho, clearer rewrite hoga: ‘Ramesh is the one student who has topped the exam.’"
       },
       "navigation": {
         "next": "card_96_quiz3",
@@ -3364,7 +3364,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "Statement I is CORRECT: 'Neither' is always singular, so 'is correct' is right, not 'are correct'. Statement II is CORRECT: 'Each' is always singular, so verb should be 'has', not 'have' (also pronoun should be 'his', not 'their'). Statement III is INCORRECT: In 'one of the boys WHO...', the relative pronoun 'who' refers to 'boys' (plural), so the verb must be 'have', not 'has'. Hence only I and II are correct - Option B."
+        "explanation": "Statement I traditional formal agreement mein correct hai: ‘Neither ... is’. Statement II ka verb point correct hai: ‘Each ... has’; traditional exams pronoun ‘his/her’ prefer karte hain, while modern English singular ‘their’ bhi accept karti hai. Statement III incorrect hai under the usual group reading: ‘who’ refers to plural ‘boys’, so ‘have’ expected; singular meaning ho to sentence ko ‘the one boy who has...’ rewrite karna clearer hai."
       },
       "navigation": {
         "next": "card_100_trophy",

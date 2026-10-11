@@ -382,11 +382,11 @@
         },
         {
           "speaker": "aman",
-          "text": "⭐ BPSC Trap! Haan! Judicial office में District Judge, Additional District Judge, Sessions Judge जैसे पद आते हैं। तो कोई व्यक्ति जो 10 साल District Judge रहा है, वो High Court judge बन सकता है। लेकिन retired judges को नहीं बनाया जा सकता - in service होना चाहिए।"
+          "text": "Article 217(2) mein do routes hain: (1) India ke territory mein kam se kam 10 saal judicial office hold kiya ho, ya (2) ek ya adhik High Courts mein kam se kam 10 saal advocate raha ho. “Retired” hona by itself disqualification nahi; constitutional qualification satisfy karne wala experienced person appoint ho sakta hai."
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya! Judicial service या advocacy - दोनों routes हैं!"
+          "text": "Toh judicial-office aur advocacy alternatives hain, lekin “retired judge automatically ineligible” kehna sahi nahi. Actual eligibility aur appointment procedure alag steps hain."
         }
       ],
       "navigation": {
@@ -912,11 +912,11 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "⭐ BPSC & UPSC Gold! अब सबसे important - Writ Jurisdiction (Article 226)। High Court पाँच writs issue कर सकती है: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto। लेकिन यहाँ twist है - Supreme Court (Article 32) केवल Fundamental Rights के enforcement के लिए writs issue करती है, जबकि High Court (Article 226) किसी भी purpose के लिए - FR + any other legal right!"
+          "text": "⭐ BPSC & UPSC Gold! Writ Jurisdiction (Article 226) samjho: High Court paanch constitutional writs issue kar sakti hai—Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto. Article 226 ka text Fundamental Rights ke enforcement ke saath ‘any other purpose’ bhi allow karta hai, isliye scope Article 32 se wider hai; par writ remedy ordinarily public/statutory duty ya legal-right context mein hoti hai, har private contract dispute mein nahi."
         },
         {
           "speaker": "raju",
-          "text": "Matlab High Court की writ jurisdiction Supreme Court से ज्यादा wide hai? Ye तो उल्टा lag raha hai!"
+          "text": "Bilkul—Art 226 mein non-FR legal right ke enforcement ka route ho sakta hai. Jurisdiction ka ek aur exam trap: Article 226(2) ke tahat cause of action ka whole ya part kisi High Court territory mein arise ho to respondent authority bahar hone par bhi jurisdiction possible ho sakti hai. Article 32 Supreme Court mein FR enforcement ka guaranteed constitutional remedy hai; Article 136 SLP alag discretionary appellate route hai, ordinary Article 32 writ ka substitute nahi."
         },
         {
           "speaker": "aman",
@@ -1029,7 +1029,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "⭐ BPSC & UPSC Gold! यह बहुत important difference है। Article 226: High Court writs issue कर सकती है 'for enforcement of fundamental rights AND for any other purpose'। Article 32: Supreme Court writs केवल 'for enforcement of fundamental rights' के लिए। इसलिए HC की writ jurisdiction wider है।"
+        "explanation": "Article 226 High Court ko FR enforcement ke saath ‘any other purpose’ ke liye writ power deta hai, isliye Article 32 ki FR-focused writ jurisdiction se wider hai. Lekin Article 226(2) ka territorial cause-of-action rule aur writ remedy ki public-law limits bhi yaad rakho; ‘any purpose’ ka matlab har private dispute nahi. Article 32 FR enforcement ke liye Supreme Court ka constitutional remedy hai."
       },
       "navigation": {
         "next": "card_31_quiz_supervisory",
@@ -1148,7 +1148,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Raju, पाँचों writs की details समझते हैं - ये High Court का सबसे powerful weapon हैं। याद है Supreme Court वाले chapter में हमने writs सीखी थीं? वही 5 writs High Court भी issue करती है, बस scope थोड़ा अलग है।"
+          "text": "Writs ke names same hain, lekin Article 226 ke under High Court inhe FR protection ke saath other legal rights/public-law duties ke enforcement ke liye bhi issue kar sakti hai. Contractual matter mein writ tabhi suitable hoga jab public-law element, statutory duty ya exceptional ground ho—‘anything’ ya har private breach ko writ case na samjho."
         },
         {
           "speaker": "raju",
@@ -1278,27 +1278,27 @@
         "total": 72
       },
       "quiz_payload": {
-        "question": "Mandamus writ किस case में issue नहीं की जा सकती?",
+        "question": "Mandamus writ ka primary use kis cheez ko dictate karna nahi hai?",
         "options": [
           {
             "id": "A",
-            "text": "Public official अपनी legal duty नहीं कर रहा"
+            "text": "Public official ki clear legal duty perform karwana"
           },
           {
             "id": "B",
-            "text": "Public official discretionary power का उपयोग नहीं कर रहा"
+            "text": "Authority ko lawful discretion exercise/consider karne ko kehna"
           },
           {
             "id": "C",
-            "text": "Government appointment letter नहीं दे रही"
+            "text": "Court ka order implement karwana"
           },
           {
             "id": "D",
-            "text": "Pension release नहीं हो रहा"
+            "text": "Public duty ke arbitrary refusal ko challenge karna"
           }
         ],
         "correct_option_id": "B",
-        "explanation": "⭐ BPSC Pattern! Mandamus केवल 'legal duty' को enforce करने के लिए issue होती है। Discretionary powers के मामले में Mandamus issue नहीं की जा सकती क्योंकि discretion का मतलब ही है कि authority के पास choice है - वो compulsory duty नहीं है।"
+        "explanation": "Mandamus authority ko apni legal duty perform karne ya discretion ko genuinely consider karne ko compel kar sakti hai, lekin court aam taur par lawful discretion ka exact result dictate nahi karti. “Discretion ke matter mein mandamus kabhi nahi” overbroad shortcut hai."
       },
       "navigation": {
         "next": "card_39_quiz_writ_identification",
@@ -1450,7 +1450,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "District Judge बनने की qualifications (Article 233):\n\n1) भारत का नागरिक हो\n2) कम से कम 7 साल advocate रहा हो, या\n3) कम से कम 7 साल judicial service में रहा हो, या\n4) उस state में judicial service में हो और High Court द्वारा recommended हो\n\nDistrict Judge civil side का highest judicial officer होता है district level पर।"
+          "text": "District Judge ke direct-recruitment route mein Article 233(2) ke mutabik person Union/State service mein nahi hona chahiye, kam se kam 7 saal advocate ya pleader raha ho, aur High Court recommend kare. Serving judicial officers promotion/selection route se aa sakte hain; unke liye 7 saal advocacy ko direct-recruitment qualification ki tarah mechanically na lagao."
         },
         {
           "speaker": "raju",
@@ -1458,7 +1458,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Good question! District Judge civil cases देखते हैं, Sessions Judge criminal cases। लेकिन आजकल एक ही officer दोनों काम करता है - District & Sessions Judge। Civil jurisdiction में District Judge, criminal jurisdiction में Sessions Judge। Same person, different hats!"
+          "text": "District Judge civil side ka highest district-level judicial officer hota hai. Article 233(2) ka exact 7-year rule direct advocate/pleader candidate ke liye hai; serving judicial service se promotion alag route hai."
         },
         {
           "speaker": "raju",
@@ -1514,7 +1514,7 @@
         "total": 72
       },
       "quiz_payload": {
-        "question": "District Judge बनने के लिए कितने वर्षों की advocacy या judicial service का अनुभव चाहिए?",
+        "question": "Article 233(2) ke direct-recruitment route mein District Judge banne ke liye advocate/pleader ke roop mein minimum experience kitna hai?",
         "options": [
           {
             "id": "A",
@@ -1534,7 +1534,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "Article 233 के अनुसार District Judge बनने के लिए कम से कम 7 वर्ष advocate या judicial service में अनुभव होना चाहिए। यह High Court judge (10 years) और Supreme Court judge (10 years advocacy/5 years HC judge) से कम है।"
+        "explanation": "Article 233(2) direct advocate/pleader candidate ke liye kam se kam 7 saal ka practice experience aur High Court recommendation maangta hai. Serving judicial officers promotion/selection route se aa sakte hain; isliye question ko direct-recruitment route ke context mein padho."
       },
       "navigation": {
         "next": "card_46_quiz_subordinate_control",
@@ -1698,7 +1698,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Perfect! Vertical binding, horizontal persuasive!"
+          "text": "Vertical binding aur horizontal persuasive ka basic difference samajh aa raha hai; case/jurisdiction ke facts mein phir bhi check karunga."
         }
       ],
       "navigation": {
@@ -1846,7 +1846,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "⭐ BPSC Special! किसी High Court का decision उस राज्य की सभी subordinate courts के लिए binding होता है। दूसरी High Courts के लिए केवल persuasive है (मान सकते हैं, जरूरी नहीं)। Supreme Court का decision सभी courts के लिए binding है (Article 141)।"
+        "explanation": "Patna High Court ka binding precedent Bihar ki subordinate courts ko follow karna hota hai, jab tak Supreme Court/constitutional bench ka contrary binding law na ho. Other High Courts ke liye decision ordinarily persuasive hota hai, binding nahi; Article 141 ke tahat Supreme Court law all courts par binding hai."
       },
       "navigation": {
         "next": "card_55_milestone_court_of_record",
@@ -1955,7 +1955,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "⭐ Social Impact! PIL (Public Interest Litigation) - High Courts ने इसे बहुत develop किया है। Article 226 के तहत कोई भी व्यक्ति public interest में writ petition file कर सकता है। अपने rights के लिए नहीं, बल्कि समाज के गरीब/marginalized लोगों के rights के लिए।"
+          "text": "PIL (Public Interest Litigation) mein bona fide person/public-spirited group public injury ya marginalized persons ke rights ke liye court ka attention la sakta hai. Article 226 ke under High Court mein PILs develop hui hain, lekin standing, genuine public interest aur court ki procedural conditions apply hoti hain; personal publicity/private dispute ko PIL nahi bana sakte."
         },
         {
           "speaker": "raju",
@@ -2233,7 +2233,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "दोनों statements सही हैं और R, A की perfect व्याख्या करता है। HC की writ jurisdiction (Art 226) wider है क्योंकि यह FR + any other purpose के लिए है, जबकि SC की writ jurisdiction (Art 32) केवल FR के लिए। यह counterintuitive लगता है लेकिन constitutional fact है।"
+        "explanation": "Dono statements sahi hain aur Reason Assertion ko explain karta hai: Article 226 FR ke enforcement ke saath ‘any other purpose’ ke liye writ allow karta hai, jabki Article 32 ka text FR enforcement par focused hai. Saath hi Article 226(2) cause-of-action territorial rule aur writ remedy ki public-law limits ko ignore nahi karna chahiye."
       },
       "navigation": {
         "next": "card_66_final_quiz_3",

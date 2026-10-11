@@ -950,7 +950,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Lymphocytes (B-cells and T-cells) are responsible for producing antibodies and mediating immune responses."
+        "explanation": "B-lymphocytes activated hokar plasma cells banate hain aur antibodies secrete karte hain; T-lymphocytes mainly cell-mediated immunity, helper/regulatory/cytotoxic roles nibhate hain. Isliye “lymphocytes” broad family hai, lekin antibody production ka precise answer B cells hai."
       },
       "navigation": {
         "next": "card_28_quiz3",
@@ -1407,7 +1407,7 @@
         "total": 91
       },
       "quiz_payload": {
-        "question": "Which blood group is called the 'Universal Donor' and why? (Q2/3)",
+        "question": "ABO system mein universal donor ka textbook answer kaunsa blood group hai? (Rh factor ko alag se dhyan mein rakho)",
         "options": [
           {
             "id": "A",
@@ -1427,7 +1427,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "O blood group RBCs have no A or B antigens on their surface, so they can be given to any blood group without triggering an immune reaction."
+        "explanation": "ABO-only context mein group O ke RBCs par A/B antigens nahi hote, isliye ABO incompatibility ka risk sabse kam hota hai. Real transfusion practice mein universal RBC donor O negative maana jaata hai, kyunki Rh-D antigen bhi check karna padta hai; plasma compatibility alag hoti hai."
       },
       "navigation": {
         "next": "card_42_quiz3",
@@ -1445,27 +1445,27 @@
         "total": 91
       },
       "quiz_payload": {
-        "question": "Statement 1: AB blood group has both A and B antigens. Statement 2: AB blood group is called the universal donor. Which is correct? (Q3/3)",
+        "question": "ABO system ke context mein statements dekhiye: 1) AB group ke RBCs par A aur B dono antigens hote hain. 2) AB group ko universal donor kaha jaata hai. 3) Rh factor include karne par universal RBC recipient ka common textbook answer AB positive hai. Kaunsa set sahi hai?",
         "options": [
           {
             "id": "A",
-            "text": "Only Statement 1 is correct"
+            "text": "Sirf 1"
           },
           {
             "id": "B",
-            "text": "Only Statement 2 is correct"
+            "text": "1 aur 3"
           },
           {
             "id": "C",
-            "text": "Both are correct"
+            "text": "2 aur 3"
           },
           {
             "id": "D",
-            "text": "Both are incorrect"
+            "text": "1, 2 aur 3"
           }
         ],
-        "correct_option_id": "A",
-        "explanation": "Statement 1 is correct - AB has both antigens. Statement 2 is WRONG - AB is the universal RECIPIENT (no antibodies), not the donor. This is a classic BPSC trap."
+        "correct_option_id": "B",
+        "explanation": "Statement 1 sahi: AB RBCs par A aur B antigens hote hain. Statement 2 galat: ABO context mein O group donor side par hota hai; Rh include karne par O negative universal RBC donor ke roop mein diya jaata hai. Statement 3 common transfusion shorthand mein sahi: AB positive universal RBC recipient kaha jaata hai, subject to clinical cross-matching."
       },
       "navigation": {
         "next": "card_43_milestone6",

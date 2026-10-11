@@ -517,7 +517,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Bilkul sahi pattern hai! Ab teesra use suno - UNIQUE OBJECTS jinki duniya mein sirf EK hi copy hai: 'the Sun', 'the Moon', 'the Earth', 'the sky', 'the world', 'the universe'. Inko duplicate nahi kiya ja sakta, isliye hamesha 'the' lagta hai."
+          "text": "Standard exam English mein unique/one-of-a-kind references ke saath ‘the’ common hai: ‘the Sun’, ‘the Moon’, ‘the Earth’, ‘the sky’, ‘the world’, ‘the universe’. Context, proper-name style aur poetic usage mein article variation mil sakti hai, isliye “hamesha” ko exam shortcut samjho."
         },
         {
           "speaker": "raju",
@@ -1464,27 +1464,27 @@
         "total": 84
       },
       "quiz_payload": {
-        "question": "Choose the correct sentence:",
+        "question": "In the traditional British/Indian institutional-use convention, which sentence correctly contrasts patient status with a visit to the building?",
         "options": [
           {
             "id": "A",
-            "text": "My uncle is in hospital after the accident."
+            "text": "She is in hospital as a patient, but her brother is at the hospital as a visitor."
           },
           {
             "id": "B",
-            "text": "My uncle is in the hospital after the accident (as a patient)."
+            "text": "She is in the hospital as a patient, but her brother is at hospital as a visitor."
           },
           {
             "id": "C",
-            "text": "My uncle went to hospital to meet a friend who is a doctor there."
+            "text": "She is in a hospital as a patient, but her brother is at hospital as a visitor."
           },
           {
             "id": "D",
-            "text": "My uncle is in a hospital as a patient."
+            "text": "She is in hospital as a patient, but her brother is at a hospital as a visitor."
           }
         ],
         "correct_option_id": "A",
-        "explanation": "When 'in hospital' refers to being a PATIENT (purpose), NO article is used. Option D incorrectly uses 'a' instead of no article for this idiomatic usage."
+        "explanation": "Traditional British/Indian exam convention mein “in hospital” patient-purpose institutional use hai, while “at the hospital” building/location ko refer karta hai. American English mein “in the hospital” patient ke liye bhi common aur grammatical hai, aur “in a hospital” bhi context ke hisaab se possible hai; isliye dialect/context ko ignore karke “article ke saath kabhi nahi” mat bolo."
       },
       "navigation": {
         "next": "card_44_quiz3_institutions",
@@ -2376,7 +2376,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir sab 8 traps yaad ho gaye - A/An sound, institution purpose, superlative-the, musical instrument-the, extra article on abstract, number-of verb agreement, geography article+verb, the-adjective plural verb!"
+          "text": "Sir, 8 traps ki list mil gayi—ab error-spotting examples se check karke pakka karunga: sound, institution, superlative, musical instrument, abstract noun, number-of, geography aur the-adjective."
         },
         {
           "speaker": "aman",
@@ -2631,15 +2631,15 @@
         "total": 84
       },
       "quiz_payload": {
-        "question": "Error Detection (Q7/8): 'She got a M.A. degree from an university in Delhi last year.' Find the error segment.",
+        "question": "Error Detection (Q7/8): 'She got an M.A. degree from a university in Delhi last year.' Find the error segment.",
         "options": [
           {
             "id": "A",
-            "text": "She got a M.A. degree"
+            "text": "She got an M.A. degree"
           },
           {
             "id": "B",
-            "text": "from an university in Delhi"
+            "text": "from a university in Delhi"
           },
           {
             "id": "C",
@@ -2650,8 +2650,8 @@
             "text": "No error"
           }
         ],
-        "correct_option_id": "B",
-        "explanation": "'University' has a consonant sound (/yoo/), so it takes 'a', not 'an'. Correct: 'from a university in Delhi'. (Note: 'a M.A. degree' is correctly using 'a' + em-ay sound? Actually M.A. sounds like 'em-ay', a vowel sound, so it should be 'an M.A. degree' - but since only option B is flagged as the designated error here, the primary tested error is 'an university'.)"
+        "correct_option_id": "D",
+        "explanation": "No error. ‘M.A.’ is pronounced /em-ay/, so it takes ‘an’; ‘university’ begins with the consonant /yoo/ sound, so it takes ‘a’. Article choice follows pronunciation, not the written first letter."
       },
       "navigation": {
         "next": "card_78_errorquiz8",

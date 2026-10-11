@@ -837,11 +837,11 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Haan Raju, BPSC/SSC mein interjection-emotion matching bhi poocha jaata hai. Ab dekho — poora exclamatory sentence banane ke do main formula hote hain: 1) 'What' se shuru — jab NOUN par emphasis ho: 'What a beautiful flower!' 2) 'How' se shuru — jab ADJECTIVE/ADVERB par emphasis ho: 'How beautiful this flower is!' Dono ka structure thoड़ा alag hota hai, jo hum agle module mein detail se seekhenge."
+          "text": "BPSC/SSC mein common exclamatory patterns dekho: ‘What’ noun phrase par emphasis de sakta hai—‘What a beautiful flower!’; ‘How’ adjective/adverb par—‘How beautiful this flower is!’ Formal English mein ‘How beautiful a flower it is!’ bhi possible hai, isliye How ke saath article “kabhi nahi” wala shortcut incomplete hai."
         },
         {
           "speaker": "raju",
-          "text": "Achha, matlab 'What' noun ke liye aur 'How' adjective ke liye — but dono ke end mein exclamation mark hi aayega na sir?"
+          "text": "Samajh gaya—What a beautiful flower aur How beautiful the flower is common patterns hain, lekin How + adjective + a/an + singular noun bhi formal structure mein aa sakta hai?"
         }
       ],
       "navigation": {
@@ -994,7 +994,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Chahe emotion khushi ho, dukh ho ya aashcharya — Exclamatory sentence hamesha (!) se hi khatam hota hai, ye universal rule hai."
+        "explanation": "School/exam convention mein exclamatory sentence ke end par “!” expected hota hai. Real writing mein tone/style ke hisaab se punctuation vary kar sakti hai, but strong emotion ko mark karne ke liye exclamation mark safest choice hai."
       },
       "navigation": {
         "next": "card_32_milestone_m4",
@@ -1087,11 +1087,11 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Bilkul sahi soch rahe ho, ye exact trap SSC/BPSC mein aata hai. Ab 'How' wala formula dekho: Assertive: 'She sings very sweetly.' Exclamatory: 'How sweetly she sings!' Formula: How + Adjective/Adverb + Subject + Verb + ! Dhyan do — 'How' ke saath KABHI bhi article (a/an) nahi lagता, chahe noun ho bhi. Ye sabse common exam trap hai: log galti se 'How a beautiful flower!' likh dete hain, jo bilkul galat hai."
+          "text": "How-wala formula context ke hisaab se samjho: ‘She sings very sweetly’ → ‘How sweetly she sings!’; ‘The flower is beautiful’ → ‘How beautiful the flower is!’ Formal alternative ‘How beautiful a flower it is!’ bhi grammatical hai. Isliye How ke saath article ko automatic error na samjho; ‘How a beautiful flower!’ jaisa wrong order alag issue hai."
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Toh 'What' ke saath article aa sakta hai (singular noun ho toh), lekin 'How' ke saath kabhi nahi — ye main hamesha yaad rakhunga sir!"
+          "text": "Toh How ke baad adjective/adverb aata hai; article aaye to uska order aur noun phrase check karna hai, blanket ban nahi lagana?"
         }
       ],
       "navigation": {
@@ -1562,11 +1562,11 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Trap 2 - Verb Form: Imperative sentence mein VERB hamesha base form (V1) mein hoga, chahe subject 'you' hidden singular ho ya plural. Jaise 'Everybody stands up' — GALAT hai! Sahi hoga 'Everybody, stand up' ya simply 'Stand up.' — kyunki command dete waqt verb ke saath 's/es' kabhi nahi lagता."
+          "text": "Trap 2—Imperative aur declarative ko mix mat karo. Imperative command mein base verb aata hai: ‘Stand in a queue’ ya ‘Everybody, stand in a queue.’ Lekin ‘Everybody stands in a queue’ ek normal declarative sentence hai, isliye ‘stands’ wahan galat nahi. Hidden-you subject wale actual command mein hi s/es nahi lagta."
         },
         {
           "speaker": "raju",
-          "text": "Ohh sir, ye toh bilkul ulti galti hai jaha hum third person singular mein 's' lagana bhool nahi sakte — but yahaan lagana hi nahi hai!"
+          "text": "Achha, pehle sentence ka meaning dekho—statement hai ya command. Har ‘Everybody stands’ ko imperative samajhkar verb nahi badalna hai."
         }
       ],
       "navigation": {
@@ -1587,7 +1587,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Trap 3 - Word Order & Article: Exclamatory sentence mein galat word order ek common error hai. Jaise 'What beautiful a flower it is!' — GALAT! Sahi hoga 'What a beautiful flower it is!' (Article 'a' Adjective se PEHLE, aur noun se PEHLE). Aur yaad hai na — 'How' ke saath kabhi article nahi aata, agar kisi part mein 'How a beautiful...' dikhe, toh wahi galti wala part hoga!"
+          "text": "Trap 3—Exclamatory word order and article placement. ‘What beautiful a flower it is!’ galat hai; ‘What a beautiful flower it is!’ sahi hai. ‘How beautiful a flower it is!’ bhi formal English mein grammatical hai, jabki ‘How a beautiful flower it is!’ wrong order hai."
         },
         {
           "speaker": "raju",
@@ -1648,27 +1648,27 @@
         "total": 66
       },
       "quiz_payload": {
-        "question": "SBI PO Error Detection: 'Everybody stands (A)/ in a queue (B)/ and waits for their turn (C)/ No error (D)'",
+        "question": "SBI PO grammar check: Which sentence is correctly formed as an imperative?",
         "options": [
           {
             "id": "A",
-            "text": "A"
+            "text": "Everybody stands in a queue and waits for their turn."
           },
           {
             "id": "B",
-            "text": "B"
+            "text": "Everybody, stand in a queue and wait for your turn."
           },
           {
             "id": "C",
-            "text": "C"
+            "text": "Everybody, stands in a queue and waits for your turn."
           },
           {
             "id": "D",
-            "text": "D (No Error)"
+            "text": "Everybody standing in a queue and waiting for your turn."
           }
         ],
-        "correct_option_id": "A",
-        "explanation": "Part (A) mein galti hai — Imperative sentence mein verb hamesha base form (V1) mein hoga: 'Everybody stand in a queue and wait for their turn.' Sabse pehla error part (A) hai."
+        "correct_option_id": "B",
+        "explanation": "B sahi imperative hai: direct address ‘Everybody’ ke baad comma aur command verbs base form ‘stand/wait’ hain. A ek grammatical declarative sentence hai, imperative nahi; C mein unnecessary s/es hai; D mein finite verb nahi."
       },
       "navigation": {
         "next": "card_54_quiz3_m7",
@@ -1799,11 +1799,11 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Bilkul sahi samझा! Ek aur example: 'How (A)/ a wonderful performance (B)/ she gave last night (C)/ No error (D)' — dhyan do, 'How' ke saath 'a' article — ye hi toh humne seekha tha kabhi nahi aata! Toh galti part (B) mein hai, sahi hoga sirf 'wonderful performance'."
+          "text": "Ek aur example: ‘How (A)/ a wonderful performance (B)/ she gave last night (C)/ No error (D)’. Is word order mein error hai. Natural correction: ‘What a wonderful performance she gave last night!’; formal alternative ‘How wonderful a performance she gave last night!’ Ho sakta hai exam key What-pattern prefer kare, par How ke saath article ko universally forbidden na samjho."
         },
         {
           "speaker": "raju",
-          "text": "Yes sir! Ye wala toh main ab pakka pakड़ लूँगा — 'How' dekha, article dhundना shuru!"
+          "text": "Samajh gaya—How ke saath article ka order check karna hai; sirf article dekhkar automatic error mark nahi karna."
         }
       ],
       "navigation": {

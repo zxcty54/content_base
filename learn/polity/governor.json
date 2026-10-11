@@ -756,11 +756,11 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Ab dekho Governor kaise hatta hai. Wo khud Rashtrapati ko likhit mein resignation de sakta hai. Aur chunki wo 'Rashtrapati ki khushi tak' pad par hai, isliye Rashtrapati use kabhi bhi, bina koi karan bataye, hata sakte hain."
+          "text": "Governor President ko written resignation de sakta hai. Article 156 mein Governor ‘pleasure of the President’ par office hold karta hai, isliye fixed-term guarantee nahi hoti aur President removal kar sakte hain. Lekin B.P. Singhal ke baad is power ko arbitrary, mala fide ya irrelevant political reason par use nahi kiya ja sakta; judicial review possible hai. Government ko har case mein reasons public karna mandatory nahi, par challenge par relevant material examine ho sakta hai."
         },
         {
           "speaker": "raju",
-          "text": "Kya?? Bina karan bataye hata sakte hain? Ye to bahut unfair lag raha hai Governor ke liye!"
+          "text": "Yahi exam trap hai: Constitution mein impeachment jaisi removal procedure nahi, par iska matlab “President bina constitutional limits ke kabhi bhi manmaane tareeke se hata sakte hain” nahi. Pleasure power constitutional accountability aur B.P. Singhal judicial-review principle ke saath padho."
         },
         {
           "speaker": "aman",
@@ -793,7 +793,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab likha to kuch nahi hai, lekin ek 'invisible rule' hai ki manmaani nahi honi chahiye?"
+          "text": "SC ne kaha ki removal ke liye reasons Governor ko formally dena har case mein mandatory nahi, lekin decision arbitrary, mala fide, capricious ya irrelevant grounds par based nahi hona chahiye. Challenge hone par Court limited judicial review mein material/constitutional validity dekh sakta hai."
         },
         {
           "speaker": "aman",
@@ -896,27 +896,27 @@
         "total": 93
       },
       "quiz_payload": {
-        "question": "Kathan 1: Governor Rashtrapati ki khushi tak pad par rehta hai, isliye use kabhi bhi hataya ja sakta hai. Kathan 2: Constitution mein Governor ko hatane ke liye ek fix impeachment procedure di gayi hai jaise Rashtrapati ke liye hai. Sahi vikalp chunein:",
+        "question": "Kathan 1: Governor Constitution ke Article 156 ke tahat President ki pleasure par pad par rehta hai, lekin removal arbitrary nahi ho sakta. Kathan 2: Constitution mein Governor ko hatane ke liye President-impeachment jaisa fixed impeachment procedure diya gaya hai. Sahi vikalp chunein:",
         "options": [
           {
             "id": "A",
-            "text": "Kewal Kathan 1 sahi hai"
+            "text": "Kathan 1 sahi, Kathan 2 galat"
           },
           {
             "id": "B",
-            "text": "Kewal Kathan 2 sahi hai"
+            "text": "Kathan 1 galat, Kathan 2 sahi"
           },
           {
             "id": "C",
-            "text": "Dono sahi hain"
+            "text": "Dono sahi"
           },
           {
             "id": "D",
-            "text": "Dono galat hain"
+            "text": "Dono galat"
           }
         ],
         "correct_option_id": "A",
-        "explanation": "Kathan 1 sahi hai - doctrine of pleasure ke tahat Rashtrapati kabhi bhi Governor ko hata sakte hain. Kathan 2 galat hai - Governor ke liye koi impeachment procedure Constitution mein nahi di gayi, ye Rashtrapati (Article 61) se alag hai."
+        "explanation": "Kathan 1 sahi hai: Article 156 mein Governor President ki pleasure par hota hai, lekin Supreme Court ke B.P. Singhal principle ke mutabik removal arbitrary, mala fide ya sirf political change ke basis par nahi hona chahiye; limited judicial review possible hai. Kathan 2 galat—Governor ke liye President ke Article 61 jaisa impeachment procedure nahi hai."
       },
       "navigation": {
         "next": "card_27_quiz3_term_5years",
@@ -1880,7 +1880,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Raju, socho - agar koi emergency situation aa jaaye aur Vidhan Sabha ka session chal hi na raha ho, to kanoon kaise banega? Isi ke liye Article 213 mein Governor ko 'Ordinance' (अध्यादेश) jaari karne ki shakti di gayi hai."
+          "text": "Raju, socho—agar immediate action ki zaroorat ho aur State Legislature ka session us waqt aisa na ho ki Article 213 ka bar trigger ho, to temporary law kaise banega? Isi context mein Article 213 Governor ko Ordinance jaari karne ki power deta hai."
         },
         {
           "speaker": "raju",
@@ -1888,7 +1888,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul sahi socha! Ordinance ek temporary kanoon hai jo Governor tab jaari karta hai jab Vidhan Sabha (ya dono sadan, agar Vidhan Parishad hai) ka satra chal na raha ho, aur turant kanoon banane ki zaroorat ho. Isme kanoon jaisi hi taakat hoti hai."
+          "text": "Ordinance temporary law jaisa hota hai. Unicameral state mein Assembly ke session ke dauran nahi; bicameral state mein Constitution ka exact wording hai ki dono Houses ek saath session mein hon to Ordinance nahi. Isliye Council akeli sitting ho aur Assembly na ho, to “dono Houses in session” wali bar ko automatically “both Houses must be out” na padho. Aid and advice aur Article 213 ki conditions bhi zaroori hain."
         },
         {
           "speaker": "raju",
@@ -1921,7 +1921,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Nahi bilkul! Jab Vidhan Sabha wapas satra mein baithti hai, to Ordinance ko 6 hafte (weeks) ke andar Assembly ke saamne rakhna hi padta hai. Agar Assembly use pass nahi karti ya 6 hafte poore ho jaate hain, to Ordinance apne aap khatam ho jaata hai."
+          "text": "Legislature reassemble hone par Ordinance ko House/Houses ke saamne rakhna hota hai—unicameral state mein Assembly, bicameral state mein dono Houses. Reassembly ke chhe hafte baad, ya usse pehle disapproval/withdrawal par, Ordinance cease ho sakta hai. “Six weeks mein pass” exact rule nahi hai."
         },
         {
           "speaker": "raju",
@@ -1997,7 +1997,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "Article 213 - Governor ko Vidhan Sabha ka satra na chalne ki sthiti mein Ordinance jaari karne ki shakti deta hai, jo Article 123 (President ke liye) jaisi hi hai."
+        "explanation": "Article 213 Governor ko Ordinance power deta hai. Unicameral state mein Assembly session mein ho to is power ka normal constitutional window nahi; bicameral state mein exact text ‘both Houses ... in session’ kehta hai. Article 123 President ki analogous power hai."
       },
       "navigation": {
         "next": "card_59_quiz2_six_weeks_multistatement",
@@ -2015,7 +2015,7 @@
         "total": 93
       },
       "quiz_payload": {
-        "question": "Kathan 1: Governor ka Ordinance jaari karna ek discretionary power hai jo wo bina CM ki salah ke kar sakta hai. Kathan 2: Vidhan Sabha ke wapas satra shuru hone par Ordinance ko 6 hafte ke andar saamne rakhna zaroori hai. Sahi vikalp chunein:",
+        "question": "Kathan 1: Governor ka Ordinance jaari karna normally Council of Ministers ki aid and advice se hota hai, personal discretion se nahi. Kathan 2: Bicameral State Legislature ke reassembly ke baad Ordinance ko dono Houses ke saamne (unicameral state mein Assembly ke saamne) rakhna hota hai aur chhe hafte baad cease ho sakta hai. Sahi vikalp chunein:",
         "options": [
           {
             "id": "A",
@@ -2034,8 +2034,8 @@
             "text": "Dono galat hain"
           }
         ],
-        "correct_option_id": "B",
-        "explanation": "Kathan 1 galat hai - Ordinance CM ki Council of Ministers ki salah par hi jaari hota hai, ye discretionary power nahi hai. Kathan 2 sahi hai - 6 hafte ke andar Assembly ke saamne peश karna zaroori hai."
+        "correct_option_id": "C",
+        "explanation": "Dono kathan sahi hain. Governor normally Council of Ministers ki aid and advice par act karta hai. Ordinance ko applicable House/Houses ke saamne rakhna hota hai; reassembly ke chhe hafte baad, ya earlier disapproval/withdrawal par, ye cease ho sakta hai."
       },
       "navigation": {
         "next": "card_60_quiz3_ordinance_limitations",
@@ -2116,15 +2116,15 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Raju, socho koi vyakti ko court ne saza (punishment) di hai. Kya koi use maaf kar sakta hai? Article 161 mein likha hai - Governor ke paas kisi bhi rajya kanoon ke tahat di gayi saza ko maaf karne ya kam karne ki shakti hai."
+          "text": "Raju, socho kisi vyakti ko court ne sentence di hai. Article 161 ke tahat Governor State executive-power matters se judi sentence mein pardon, reprieve, respite, remission, suspension ya commutation de sakta hai—Council of Ministers ki aid/advice aur constitutional limits ke framework mein."
         },
         {
           "speaker": "raju",
-          "text": "Wow, Governor kisi ko jail se bhi bacha sakta hai? Ye to bahut badi power hai!"
+          "text": "Wow, Governor kisi sentence mein relief de sakta hai? Ye power constitutional conditions aur advice ke saath use hoti hai, automatic personal discretion nahi?"
         },
         {
           "speaker": "aman",
-          "text": "Haan, isme 5 tarah ke actions aate hain - Pardon (poori tarah maafi), Reprieve (saza ko temporary rokna), Respite (kam saza dena kisi khaas reason se, jaise pregnancy), Remission (saza ki avadhi kam karna, nature badle bina), aur Commutation (saza ke type ko badalna, jaise death ko life imprisonment mein badalna)."
+          "text": "Haan. Five terms ko alag rakho: Pardon (conviction/sentence ke effects ko poori tarah remove karna), Reprieve (execution ko temporary rokna), Respite (special circumstance mein lighter sentence), Remission (nature same, duration kam), Commutation (sentence ka nature/type badalna). Death sentence aur court-martial ke exceptions ko comparison card mein padhenge."
         },
         {
           "speaker": "raju",
@@ -2182,7 +2182,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Ab sabse important trap suno - Governor ki pardoning power, Rashtrapati ki Article 72 wali power se DO cheezon mein kam hai."
+          "text": "Pehla—Governor death sentence ko full pardon nahi de sakta; Article 161 ke under death sentence ko suspend, remit ya commute karne ki power ka distinction yaad rakho. Doosra—Governor court-martial punishment par Article 161 pardon power use nahi kar sakta; court-martial matters President ke Article 72 domain mein aate hain. Isliye “Governor death sentence ko kisi bhi form mein touch nahi kar sakta” galat shortcut hai."
         },
         {
           "speaker": "raju",
@@ -2190,11 +2190,11 @@
         },
         {
           "speaker": "aman",
-          "text": "Pehla - Governor kisi ko maut ki saza (death sentence) maaf nahi kar sakta, chahe wo saza rajya kanoon ke tahat hi kyun na di gayi ho. Sirf Rashtrapati hi death sentence maaf kar sakte hain. Doosra - Governor court martial (military court) dwara di gayi saza bhi maaf nahi kar sakta, ye bhi sirf Rashtrapati ka adhikar hai."
+          "text": "Governor court-martial punishment par Article 161 pardon power use nahi kar sakta. Death sentence ke case mein Governor full pardon nahi de sakta, lekin suspension, remission ya commutation possible powers hain; President Article 72 court-martial aur death-sentence full pardon dono cover karta hai."
         },
         {
           "speaker": "raju",
-          "text": "Achha! Matlab Governor 'chhoti' maafi de sakta hai lekin death sentence aur military cases mein bas Rashtrapati hi final hai! Ye to bahut important trap hai!"
+          "text": "Samajh gaya—“pardon” ko “har type ka mercy relief” nahi samjho: Governor court-martial par nahi, death sentence ka full pardon nahi; lekin death sentence ko suspend/remit/commute karne ka distinction yaad rakho."
         }
       ],
       "navigation": {
@@ -2347,7 +2347,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "Article 161 - Governor ko rajya ke kanoon ke tahat di gayi saza maaf karne, kam karne ya sthagit karne ki shakti deta hai (death sentence aur court martial ke alawa)."
+        "explanation": "Article 161 Governor ko State executive-power ke matters mein pardon, reprieve, respite, remission, suspension ya commutation ki power deta hai. Governor death sentence ko President ki tarah pardon nahi kar sakta; lekin death sentence ko suspend/remit/commute karne ki constitutional scope ko “har form mein power nahi” jaisa oversimplification na samjho. Court-martial sentences Article 161 ke scope mein nahi aate."
       },
       "navigation": {
         "next": "card_69_milestone8",
@@ -3136,7 +3136,7 @@
         "total": 93
       },
       "quiz_payload": {
-        "question": "Assertion (A): Governor ki pardoning power (Article 161), Rashtrapati ki pardoning power (Article 72) se sankuchit (narrower) hai.\nReason (R): Governor death sentence ya court martial dwara di gayi saza ko maaf nahi kar sakta, jabki Rashtrapati dono maamlon mein pardon de sakte hain.\nNiche diye gaye code se sahi uttar chunein:",
+        "question": "Assertion (A): Governor ki Article 161 power, President ki Article 72 power se narrower hai.\nReason (R): Governor court-martial sentence par Article 161 use nahi kar sakta aur death sentence ko President ki tarah pardon nahi kar sakta, although death sentence ke suspension/remission/commutation ko pardon se alag samjha jaata hai.\nNiche diye code se sahi uttar chunein:",
         "options": [
           {
             "id": "A",
@@ -3156,7 +3156,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "A sahi hai - Governor ki Article 161 wali power Rashtrapati ki Article 72 wali power se narrower hai. R bhi sahi hai aur A ki sahi vyakhya karta hai - kyunki exact wahi do limitations (death sentence aur court martial) hain jo Governor ki power ko Rashtrapati se kam banati hain. Ye BPSC ka classic Assertion-Reason pattern hai jo Governor aur President ki powers ke comparison par based hota hai."
+        "explanation": "A aur R dono sahi, aur R A ko explain karta hai. Article 72 expressly court-martial aur death-sentence contexts cover karta hai; Article 161 State executive-power matters tak limited hai. Exam mein “pardon” ko suspend/remit/commute se alag rakho—Governor death sentence ko pardon nahi kar sakta, par all forms of relief ko ek hi blanket rule na banao."
       },
       "navigation": {
         "next": "card_93_trophy",

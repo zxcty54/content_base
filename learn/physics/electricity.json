@@ -242,7 +242,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Simple rule: Jab tak specifically nahi bola jaye, hamesha CONVENTIONAL CURRENT direction use karo - POSITIVE terminal se NEGATIVE terminal! ⭐ NEET/SSC Standard Convention! Circuit diagrams mein bhi yahi direction assume karte hain."
+          "text": "Simple rule: Jab tak specifically nahi bola jaye, hamesha CONVENTIONAL CURRENT direction use karo - external circuit mein higher potential (positive terminal) se lower potential (negative terminal)! ⭐ NEET/SSC Standard Convention! Circuit diagrams mein bhi yahi direction assume karte hain."
         },
         {
           "speaker": "raju",
@@ -369,7 +369,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "Conventional current direction is from POSITIVE to NEGATIVE terminal (opposite to actual electron flow). This is the standard convention used in circuit analysis. ⭐ NEET/BPSC Conceptual Trap - Electron flow is negative to positive, but we use conventional current direction!"
+        "explanation": "External circuit mein conventional current ko higher potential/positive terminal se lower potential/negative terminal ki direction mein define kiya jaata hai. Metallic conductor mein electrons opposite direction (negative se positive) drift karte hain; source ke internal path ko is shortcut se mix na karo."
       },
       "navigation": {
         "next": "card_11_milestone_charge_current",
@@ -478,7 +478,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "1.5V battery matlab wo apne terminals ke beech 1.5 Volt ka potential difference maintain karti hai! Positive terminal HIGH potential, negative terminal LOW potential. Current hamesha high se low ki taraf flow karta hai (conventional direction)!"
+          "text": "1.5V battery matlab wo apne terminals ke beech 1.5 Volt ka potential difference maintain karti hai! Positive terminal HIGH potential, negative terminal LOW potential. Conventional current external circuit mein higher potential se lower potential ki taraf maana jaata hai (conventional direction)!"
         },
         {
           "speaker": "raju",
@@ -722,7 +722,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Chaar factors: (1) LENGTH of conductor - zyada lambi wire, zyada resistance (R ∝ L). (2) AREA of cross-section - mota wire, kam resistance (R ∝ 1/A). (3) MATERIAL - different materials different resistance (Resistivity ρ). (4) TEMPERATURE - generally temp badhne se resistance badhta hai!"
+          "text": "Chaar factors: (1) LENGTH—lambi wire, zyada resistance (R ∝ L); (2) AREA—mota wire, kam resistance (R ∝ 1/A); (3) MATERIAL—resistivity ρ alag hoti hai; (4) TEMPERATURE—metallic conductors mein aam taur par temperature badhne par resistance badhta hai, lekin semiconductors/thermistors mein trend alag ho sakta hai."
         },
         {
           "speaker": "raju",
@@ -1427,7 +1427,7 @@
           },
           {
             "id": "C",
-            "text": "34,84,800 J"
+            "text": "34,848,000 J"
           },
           {
             "id": "D",
@@ -1435,7 +1435,7 @@
           }
         ],
         "correct_option_id": "C",
-        "explanation": "H = V²t/R. V=220V, R=10Ω, t=2 hours=2×3600=7200 seconds. H = (220)²×7200/10 = 48400×7200/10 = 34,84,800 Joules. ⭐ Railway/SSC Calculation with time conversion trap! Always convert hours to seconds."
+        "explanation": "H = V²t/R. V = 220 V, R = 10 Ω, t = 2 hours = 7200 s. H = (220)² × 7200 / 10 = 48,400 × 720 = 34,848,000 J (3.4848 × 10⁷ J). Hours ko seconds mein convert karna zaroori hai."
       },
       "navigation": {
         "next": "card_43_quiz_heating_2",
@@ -1813,7 +1813,7 @@
           }
         ],
         "correct_option_id": "A",
-        "explanation": "⭐ NEET/BPSC Tricky Question! In series, current is same through both. Power dissipated P = I²R. From P = V²/R, higher wattage bulb has LOWER resistance (60W has less R than 40W). Since same current flows, P=I²R means higher R bulb (40W) dissipates more power and glows brighter! Common trap - students think 60W always brighter."
+        "explanation": "Exam model mein, same rated voltage aur approximately constant resistance assume karke: series mein current same hota hai, P=I²R. Rated P=V²/R se 40W bulb ka resistance 60W bulb se zyada hoga, isliye 40W zyada power dissipate karega aur brighter hoga. Real incandescent filaments ka resistance temperature ke saath badalta hai, isliye assumption yaad rakho."
       },
       "navigation": {
         "next": "card_54_milestone_power",
@@ -1996,7 +1996,7 @@
         },
         {
           "speaker": "aman",
-          "text": "PEHLE main switch OFF karo! Person ko directly touch mat karo (tumhe bhi shock lagega). Wooden stick ya dry cloth se push karke person ko wire se alag karo. Then medical help! ⭐ UPSC/BPSC First-Aid Knowledge!"
+          "text": "Sabse pehle supply ko safely isolate karo—main switch/MCB off karna tabhi jab tum bina risk ke kar sako—aur emergency medical help bulao. Person ko live wire ke contact mein directly touch mat karo; wet hands/metal objects/unsafe improvisation se bachho. Power isolate hone ke baad hi trained responder first aid/CPR de; severe shock mein medical assessment zaroori hai."
         },
         {
           "speaker": "raju",
@@ -2095,7 +2095,7 @@
         "total": 72
       },
       "quiz_payload": {
-        "question": "In India, the standard domestic AC supply voltage and frequency are:",
+        "question": "India mein standard domestic AC supply ka nominal voltage aur frequency aam taur par kya di jaati hai?",
         "options": [
           {
             "id": "A",
@@ -2115,7 +2115,7 @@
           }
         ],
         "correct_option_id": "B",
-        "explanation": "In India, domestic AC supply is 220 Volts at 50 Hz frequency. USA uses 110V, 60Hz. ⭐ BPSC TRE/SSC Standard Value - Frequently asked!"
+        "explanation": "India ka present nominal domestic supply 230 V, 50 Hz maana jaata hai (older school/exam books mein 220 V bhi mil sakta hai). Question ke source/convention ko check karo; frequency 50 Hz hai."
       },
       "navigation": {
         "next": "card_63_milestone_domestic",
@@ -2356,7 +2356,7 @@
         "options": [
           {
             "id": "A",
-            "text": "₹1,800"
+            "text": "₹1,620"
           },
           {
             "id": "B",
@@ -2371,8 +2371,8 @@
             "text": "₹4,500"
           }
         ],
-        "correct_option_id": "B",
-        "explanation": "⭐ SSC/Railway Complex Calculation! Daily energy: Bulbs = 2×100W×5h = 1000Wh = 1kWh. Iron = 1000W×2h = 2kWh. Heater = 2000W×3h = 6kWh. Total daily = 1+2+6 = 9 kWh. Monthly (30 days) = 9×30 = 270 kWh. Cost = 270×₹6 = ₹1,620... Wait! Let me recalculate: Daily = 9 units, Monthly = 270 units, Bill = 270×6 = ₹1,620. None matches! Error in options OR my calculation. Checking again: (200W×5h + 1000W×2h + 2000W×3h)×30 days = (1+2+6)×30 = 270 units × ₹6 = ₹1,620. Closest is A but let me verify once more. Actually if question means PER appliance monthly: Bulbs monthly = 2×100×5×30 = 30,000Wh = 30kWh = ₹180. Iron = 1×2×30 = 60kWh = ₹360. Heater = 2×3×30 = 180kWh = ₹1,080. Total = 180+360+1080 = ₹1,620. Still not matching options perfectly. Taking 450 units×6 = 2700 makes sense if total is 15 kWh daily = 450 monthly. Let me assume 2×100×5 + 1000×2 + 2000×3 = 1000+2000+6000 = 9000Wh per day. Per month 270kWh. With ₹10/unit would be 2700. At ₹6 = 1620. Option B (₹2,700) requires 450 units. Possible if 15 kWh/day. I'll go with mathematical answer based on standard calculation principles."
+        "correct_option_id": "A",
+        "explanation": "Daily energy: bulbs = 2 × 100 W × 5 h = 1 kWh; iron = 1000 W × 2 h = 2 kWh; heater = 2000 W × 3 h = 6 kWh. Total = 9 kWh/day. In 30 days = 270 kWh (units). Bill = 270 × ₹6 = ₹1,620, so option A."
       },
       "navigation": {
         "next": "card_70_final_summary_bullets",
