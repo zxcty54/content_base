@@ -1,14 +1,8 @@
+
 {
   "topic_id": "federal_system_polity",
   "topic_title": "Federal System in Indian Polity",
-  "target_exams": [
-    "BPSC",
-    "BPSC TRE",
-    "BSSC",
-    "RRB NTPC",
-    "SSC CGL",
-    "UPSC Prelims"
-  ],
+  "target_exams": ["BPSC", "BPSC TRE", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims"],
   "total_cards": 60,
   "characters": {
     "aman": {
@@ -36,14 +30,7 @@
       "intro_payload": {
         "title": "Federal System in Indian Polity",
         "icon": "🏛️",
-        "target_exams": [
-          "BPSC",
-          "BPSC TRE",
-          "BSSC",
-          "RRB NTPC",
-          "SSC CGL",
-          "UPSC Prelims"
-        ],
+        "target_exams": ["BPSC", "BPSC TRE", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims"],
         "learning_outcomes": [
           "Understanding Federal vs Unitary Systems",
           "Centre-State Relations & Power Distribution",
@@ -114,7 +101,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Yahi hai Federal (Centre aur States ke beech powers ka constitutional division) System ka concept! Power ko do levels me divide karte hain — Centre (Kendriya Sarkar) aur States (Rajya Sarkar). Dono apne apne kaam karte hain independently."
+          "text": "Yahi hai Federal System ka concept! Power ko do levels me divide karte hain — Centre (Kendriya Sarkar) aur States (Rajya Sarkar). Dono apne apne kaam karte hain independently."
         },
         {
           "speaker": "raju",
@@ -246,7 +233,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Teesra—Independent Judiciary, yani laws ki interpretation aur justice dene wali branch (Supreme Court), jo Centre-State disputes solve karti hai. Chautha—**Bicameral Legislature**, yani do Houses/Sadans wali law-making body (Rajya Sabha mein States ka representation). Paanchva—Rigid Constitution (amendment mushkil hai)."
+          "text": "Teesra — Independent Judiciary (Supreme Court) jo Centre-State disputes solve karti hai. Chautha — Bicameral Legislature (Rajya Sabha me States ka representation). Panchwa — Rigid Constitution (amendment mushkil hai)."
         },
         {
           "speaker": "raju",
@@ -304,19 +291,19 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Chautha — Integrated Judiciary (Supreme Court sabke liye — Centre aur States dono). Panchwa — Governor ki niyukti President karta hai, States nahi. Governor State ka constitutional head hota hai aur aam taur par Council of Ministers ki salah par kaam karta hai; kuch constitutional/discretionary situations mein uski bhoomika alag ho sakti hai. Isliye use seedhe 'Centre ka agent' kehna oversimplification hai."
+          "text": "Chautha — Integrated Judiciary (Supreme Court sabke liye — Centre aur States dono). Panchwa — Governor ki niyukti Centre karti hai, States nahi! Governor Centre ka agent jaisa kaam karta hai."
         },
         {
           "speaker": "raju",
-          "text": "Matlab Governor ko Centre appoint karta hai, par wo har matter mein Centre ke direct agent ki tarah kaam nahi karta?"
+          "text": "Matlab Governor State ke log nahi chunte?"
         },
         {
           "speaker": "aman",
-          "text": "Bilkul. Chhata — All India Services (IAS, IPS) — Centre aur States dono ke framework mein kaam karte hain. Saatva — Emergency provisions Centre ko States par zyada control de sakti hain, lekin federal system ko samajhne ke liye normal rule aur emergency exception alag rakhna zaroori hai."
+          "text": "Nahi! President appoint karta hai Governor ko. Chhata — All India Services (IAS, IPS) — Centre control karta hai par ye officers States me kaam karte hain. Saatva — Emergency Provisions — National Emergency me Centre puri power le leta hai!"
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya—appointment Centre se hoti hai, lekin Governor ki constitutional position ko ek-line label se nahi samajhna chahiye."
+          "text": "Wow! To Emergency me federal system khatam ho jata hai?"
         }
       ],
       "navigation": {
@@ -337,22 +324,10 @@
       "quiz_payload": {
         "question": "Which of the following is NOT a Unitary feature of the Indian Constitution?",
         "options": [
-          {
-            "id": "A",
-            "text": "Single Citizenship"
-          },
-          {
-            "id": "B",
-            "text": "Integrated Judiciary"
-          },
-          {
-            "id": "C",
-            "text": "Division of Powers through three lists"
-          },
-          {
-            "id": "D",
-            "text": "Governor appointed by President"
-          }
+          { "id": "A", "text": "Single Citizenship" },
+          { "id": "B", "text": "Integrated Judiciary" },
+          { "id": "C", "text": "Division of Powers through three lists" },
+          { "id": "D", "text": "Governor appointed by President" }
         ],
         "correct_option_id": "C",
         "explanation": "Division of Powers through Union List, State List, and Concurrent List is a FEDERAL feature. It ensures both Centre and States have defined powers. Single Citizenship, Integrated Judiciary, and Governor's appointment by President are Unitary features that strengthen the Centre. ⭐ BPSC/SSC Favorite: They often ask which feature makes India Federal vs Unitary!"
@@ -540,22 +515,10 @@
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: Which subject is in the State List? (Q1/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Defence"
-          },
-          {
-            "id": "B",
-            "text": "Agriculture"
-          },
-          {
-            "id": "C",
-            "text": "Currency"
-          },
-          {
-            "id": "D",
-            "text": "Foreign Affairs"
-          }
+          { "id": "A", "text": "Defence" },
+          { "id": "B", "text": "Agriculture" },
+          { "id": "C", "text": "Currency" },
+          { "id": "D", "text": "Foreign Affairs" }
         ],
         "correct_option_id": "B",
         "explanation": "Agriculture is in the State List (List II) because it is a local subject. Each state has different soil, climate, and cropping patterns, so states manage agriculture policies. Defence, Currency, and Foreign Affairs are in the Union List as they are of national importance and require uniformity across the country."
@@ -578,22 +541,10 @@
       "quiz_payload": {
         "question": "⭐ SSC CGL Pattern: Which of the following is in the Concurrent List? (Q2/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Police"
-          },
-          {
-            "id": "B",
-            "text": "Education"
-          },
-          {
-            "id": "C",
-            "text": "Railways"
-          },
-          {
-            "id": "D",
-            "text": "Public Health"
-          }
+          { "id": "A", "text": "Police" },
+          { "id": "B", "text": "Education" },
+          { "id": "C", "text": "Railways" },
+          { "id": "D", "text": "Public Health" }
         ],
         "correct_option_id": "B",
         "explanation": "Education is in the Concurrent List (List III), meaning both Centre and States can make laws on it. Originally, Education was in the State List, but the 42nd Amendment (1976) shifted it to the Concurrent List to ensure national standards. Police and Public Health are in the State List. Railways is in the Union List."
@@ -616,22 +567,10 @@
       "quiz_payload": {
         "question": "⭐ RRB NTPC Favorite: Residuary Powers in India are vested with: (Q3/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "State Government"
-          },
-          {
-            "id": "B",
-            "text": "Union Government (Parliament)"
-          },
-          {
-            "id": "C",
-            "text": "Both Centre and States equally"
-          },
-          {
-            "id": "D",
-            "text": "Supreme Court"
-          }
+          { "id": "A", "text": "State Government" },
+          { "id": "B", "text": "Union Government (Parliament)" },
+          { "id": "C", "text": "Both Centre and States equally" },
+          { "id": "D", "text": "Supreme Court" }
         ],
         "correct_option_id": "B",
         "explanation": "Residuary Powers (Article 248) are vested with the Union Government (Parliament). Any subject NOT mentioned in Union, State, or Concurrent List automatically belongs to the Centre. This is similar to Canada's model. In the USA, residuary powers belong to States. This difference is a UPSC/BPSC favorite trap question!"
@@ -809,7 +748,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Administrative Relations (Article 256-263): Centre States ko 'Directions' de sakta hai kaise administration chalani hai. Article 256 kehta hai — States apni executive (laws/policies ko implement karne wali branch) power aise use karein ki Central laws me koi baadha na aaye."
+          "text": "Administrative Relations (Article 256-263): Centre States ko 'Directions' de sakta hai kaise administration chalani hai. Article 256 kehta hai — States apni executive power aise use karein ki Central laws me koi baadha na aaye."
         },
         {
           "speaker": "raju",
@@ -908,7 +847,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Article 280: Finance Commission (specific official kaam ke liye banayi body) aam taur par har 5 saal ya President ke earlier reference par banti hai. 15th Finance Commission award period 2021–26 mein divisible-pool central taxes ka States’ share 41% recommend hua tha; ise timeless “currently” figure na banao—16th Finance Commission/next award period ke liye latest notification check karo."
+          "text": "Article 280: Finance Commission har 5 saal me banti hai. Ye recommend karti hai — Centre ko apne taxes me se kitna percentage States ko dena chahiye. Currently 41% Central taxes ka States ko jaata hai (15th Finance Commission)."
         },
         {
           "speaker": "raju",
@@ -949,7 +888,7 @@
         },
         {
           "speaker": "aman",
-          "text": "15th Finance Commission ka award period 2021–26 tha. 16th Finance Commission ka award period 2026–31 hai; current Chairman/recommendations jaise facts ko latest official report/notification ke saath revise karo. BPSC mein Commission number ko award period se match karna."
+          "text": "Theoretically haan, par practically usually recommendations accept hoti hain. Abhi 15th Finance Commission ki recommendations chal rahi hain (2021-2026). ⭐ BPSC me puuchte hain — current Finance Commission kaun sa hai, Chairman kaun hai!"
         },
         {
           "speaker": "raju",
@@ -974,7 +913,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Planning Commission (1950–2014) ek **Non-Constitutional body**, yani aisi body jo Constitution mein directly mention nahi thi, thi. Ye 5-year plans banati thi aur States ko Plan Grants deti thi. 2015 mein Planning Commission abolish karke NITI Aayog (National Institution for Transforming India) banaya gaya."
+          "text": "Planning Commission (1950-2014) ek Non-Constitutional body thi jo 5-year plans banati thi aur States ko Plan Grants deti thi. 2015 me Planning Commission abolish karke NITI Aayog (National Institution for Transforming India) banayi gayi."
         },
         {
           "speaker": "raju",
@@ -1007,22 +946,10 @@
       "quiz_payload": {
         "question": "⭐ BPSC 2023 Pattern: Under which Article can Rajya Sabha authorize Parliament to legislate on a State List subject in national interest? (Q1/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Article 249"
-          },
-          {
-            "id": "B",
-            "text": "Article 250"
-          },
-          {
-            "id": "C",
-            "text": "Article 252"
-          },
-          {
-            "id": "D",
-            "text": "Article 256"
-          }
+          { "id": "A", "text": "Article 249" },
+          { "id": "B", "text": "Article 250" },
+          { "id": "C", "text": "Article 252" },
+          { "id": "D", "text": "Article 256" }
         ],
         "correct_option_id": "A",
         "explanation": "Article 249 empowers Rajya Sabha to pass a resolution by 2/3 majority declaring that it is necessary in national interest for Parliament to make laws on a State List subject. This law remains in force for 1 year (extendable). Article 250 is for Emergency. Article 252 is when States themselves request. Article 256 is about Centre's directions to States."
@@ -1045,22 +972,10 @@
       "quiz_payload": {
         "question": "Which Article provides for Finance Commission? (Q2/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Article 270"
-          },
-          {
-            "id": "B",
-            "text": "Article 275"
-          },
-          {
-            "id": "C",
-            "text": "Article 280"
-          },
-          {
-            "id": "D",
-            "text": "Article 293"
-          }
+          { "id": "A", "text": "Article 270" },
+          { "id": "B", "text": "Article 275" },
+          { "id": "C", "text": "Article 280" },
+          { "id": "D", "text": "Article 293" }
         ],
         "correct_option_id": "C",
         "explanation": "Article 280 provides for the constitution of Finance Commission every 5 years to recommend distribution of tax revenues between Centre and States. Article 270 is about distribution of Income Tax. Article 275 is about Grants-in-Aid from Centre to States. Article 293 is about States' borrowing powers. ⭐ SSC CGL repeats this frequently!"
@@ -1083,22 +998,10 @@
       "quiz_payload": {
         "question": "⭐ RRB NTPC Favorite: All India Services (IAS, IPS, IFoS) are created under which Article? (Q3/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Article 310"
-          },
-          {
-            "id": "B",
-            "text": "Article 312"
-          },
-          {
-            "id": "C",
-            "text": "Article 315"
-          },
-          {
-            "id": "D",
-            "text": "Article 320"
-          }
+          { "id": "A", "text": "Article 310" },
+          { "id": "B", "text": "Article 312" },
+          { "id": "C", "text": "Article 315" },
+          { "id": "D", "text": "Article 320" }
         ],
         "correct_option_id": "B",
         "explanation": "Article 312 empowers Parliament to create new All India Services if Rajya Sabha passes a resolution by 2/3 majority. Currently, three All India Services exist: IAS (1946), IPS (1948), IFoS (1966). Article 310 is about tenure of civil servants. Article 315 is about Public Service Commissions. Article 320 is about functions of UPSC."
@@ -1177,7 +1080,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "National Emergency (Article 352) teen constitutional grounds par ho sakti hai: **war, external aggression, ya armed rebellion**. “External aggression” alag ground hai; threat wording se war ke saath duplicate mat samjho. Originally “internal disturbance” tha; 44th Amendment (1978) ne ise “armed rebellion” kiya."
+          "text": "National Emergency (Article 352) — President impose kar sakta hai teen grounds pe: War (external aggression), External Aggression (threat of attack), Armed Rebellion (internal armed revolt). Originally 'Internal Disturbance' tha, 44th Amendment (1978) ne isse 'Armed Rebellion' kar diya."
         },
         {
           "speaker": "raju",
@@ -1185,7 +1088,7 @@
         },
         {
           "speaker": "aman",
-          "text": "1975-77 me Emergency lagi thi 'Internal Disturbance' ke naam pe (Indira Gandhi government). Wo misuse hui thi — fundamental rights (Constitution se mile basic enforceable rights) suspend ho gaye the. Isliye 44th Amendment ne safeguards add kiye. Ab sirf 'Armed Rebellion' pe lag sakti hai, simple disturbance pe nahi."
+          "text": "1975-77 me Emergency lagi thi 'Internal Disturbance' ke naam pe (Indira Gandhi government). Wo misuse hui thi — fundamental rights suspend ho gaye the. Isliye 44th Amendment ne safeguards add kiye. Ab sirf 'Armed Rebellion' pe lag sakti hai, simple disturbance pe nahi."
         },
         {
           "speaker": "raju",
@@ -1210,7 +1113,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "National Emergency declare karne ke liye President ko Union Cabinet ki written recommendation chahiye. Parliament ka approval 1 month ke andar zaroori hai. Approval ke liye dono Houses mein special majority chahiye: House ki total membership ka majority **aur** present-and-voting members ka kam se kam two-thirds."
+          "text": "National Emergency declare karne ke liye: President ko Cabinet ki written recommendation chahiye (44th Amendment ne ye mandatory kiya). Parliament ka approval chahiye — 1 month ke andar. Approval ke liye special majority: Lok Sabha aur Rajya Sabha dono me 2/3 majority (present & voting)."
         },
         {
           "speaker": "raju",
@@ -1251,7 +1154,7 @@
         },
         {
           "speaker": "aman",
-          "text": "(3) Fundamental Rights par effect ground-specific hai: Article 358 mein Article 19 ki automatic suspension sirf war/external aggression wale Emergency ke dauran hoti hai; armed rebellion mein nahi. Article 359 ke order se specified FR enforce karne ke liye court move karne ka right suspend ho sakta hai, lekin Articles 20 aur 21 protected hain. (4) Financial directions aur (5) legislatures ka extension constitutional limits ke saath hota hai—Emergency khatam hone ke baad 6 months se aage election delay nahi."
+          "text": "(3) Fundamental Rights suspend ho sakte hain (Article 19 — freedom of speech, assembly, movement — automatically suspend). (4) Finance: States ko Centre se milne wale funds reduce ho sakte hain. (5) Lok Sabha aur State Assemblies ka tenure 1-1 saal extend ho sakta hai (Emergency khatam hone ke 6 months baad election hona chahiye)."
         },
         {
           "speaker": "raju",
@@ -1317,7 +1220,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Normally haan, par exceptional cases me 3 saal. Punjab me 1987-92 me 5 saal se zyada chali thi President's Rule (terrorism ki wajah se). ⭐ BPSC me puuchte hain — S.R. Bommai Case (1994): Supreme Court ne safeguards diye ki President's Rule arbitrarily nahi lagayi ja sakti, judicial review (court ka law/action ko Constitution ke against test karna) hoga!"
+          "text": "Normally haan, par exceptional cases me 3 saal. Punjab me 1987-92 me 5 saal se zyada chali thi President's Rule (terrorism ki wajah se). ⭐ BPSC me puuchte hain — S.R. Bommai Case (1994): Supreme Court ne safeguards diye ki President's Rule arbitrarily nahi lagayi ja sakti, judicial review hoga!"
         },
         {
           "speaker": "raju",
@@ -1355,10 +1258,6 @@
         {
           "speaker": "raju",
           "text": "Kya?? Judges ki salary bhi cut? Ye to bahut serious hai!"
-        },
-        {
-          "speaker": "aman",
-          "text": "Haan, Article 360 ke under Financial Emergency lagne par salaries reduce ki ja sakti hain, jisme Supreme Court aur High Court judges bhi include ho sakte hain. India mein ab tak Financial Emergency declare nahi hui."
         }
       ],
       "navigation": {
@@ -1379,22 +1278,10 @@
       "quiz_payload": {
         "question": "⭐ BPSC Favorite: The 44th Amendment changed the ground for National Emergency from 'Internal Disturbance' to: (Q1/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Internal Emergency"
-          },
-          {
-            "id": "B",
-            "text": "Armed Rebellion"
-          },
-          {
-            "id": "C",
-            "text": "Civil War"
-          },
-          {
-            "id": "D",
-            "text": "National Security Threat"
-          }
+          { "id": "A", "text": "Internal Emergency" },
+          { "id": "B", "text": "Armed Rebellion" },
+          { "id": "C", "text": "Civil War" },
+          { "id": "D", "text": "National Security Threat" }
         ],
         "correct_option_id": "B",
         "explanation": "The 44th Constitutional Amendment Act, 1978 replaced 'Internal Disturbance' with 'Armed Rebellion' as a ground for declaring National Emergency under Article 352. This change was made to prevent misuse of Emergency provisions like what happened during 1975-77 Emergency. The amendment made it harder to declare Emergency on vague grounds. ⭐ UPSC/BPSC repeatedly ask this!"
@@ -1415,27 +1302,15 @@
         "total": 60
       },
       "quiz_payload": {
-        "question": "President's Rule under Article 356 ki maximum constitutional duration, required extensions/conditions ke saath, kitni ho sakti hai? (Q2/3)",
+        "question": "Maximum duration of President's Rule in a state under normal circumstances (without National Emergency) is: (Q2/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "6 months"
-          },
-          {
-            "id": "B",
-            "text": "1 year"
-          },
-          {
-            "id": "C",
-            "text": "2 years"
-          },
-          {
-            "id": "D",
-            "text": "3 years"
-          }
+          { "id": "A", "text": "6 months" },
+          { "id": "B", "text": "1 year" },
+          { "id": "C", "text": "2 years" },
+          { "id": "D", "text": "3 years" }
         ],
         "correct_option_id": "D",
-        "explanation": "Article 356 ki proclamation Parliament approval ke baad six-month periods mein extend ho sakti hai aur maximum three years tak ja sakti hai. Second year ke baad continuation ke liye National Emergency in operation aur Election Commission ka certificate ki elections possible nahi, dono conditions chahiye. In conditions ke bina practical maximum one year hai."
+        "explanation": "President's Rule under Article 356 can be extended maximum up to 3 years, but the 3rd year requires two conditions: (1) National Emergency must be in operation in the whole country, (2) Election Commission must certify that elections cannot be held in that state. Without these conditions, practical maximum is usually 1 year. Initial proclamation is for 6 months, extendable by 6 months each time with Parliament approval."
       },
       "navigation": {
         "next": "card_43_quiz_emergency_3",
@@ -1455,22 +1330,10 @@
       "quiz_payload": {
         "question": "⭐ SSC CGL Pattern: Which Article of the Constitution deals with Financial Emergency? (Q3/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Article 352"
-          },
-          {
-            "id": "B",
-            "text": "Article 356"
-          },
-          {
-            "id": "C",
-            "text": "Article 360"
-          },
-          {
-            "id": "D",
-            "text": "Article 365"
-          }
+          { "id": "A", "text": "Article 352" },
+          { "id": "B", "text": "Article 356" },
+          { "id": "C", "text": "Article 360" },
+          { "id": "D", "text": "Article 365" }
         ],
         "correct_option_id": "C",
         "explanation": "Article 360 deals with Financial Emergency, which can be declared if the President is satisfied that the financial stability or credit of India or any part thereof is threatened. This type of emergency has NEVER been declared in India so far. Article 352 is for National Emergency. Article 356 is for President's Rule (State Emergency). Article 365 deals with failure of state to comply with Centre's directions."
@@ -1524,7 +1387,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Teen mechanisms hain: (1) Supreme Court ka Original Jurisdiction (Article 131)—direct SC mein states case kar sakti hain; Original Jurisdiction ka matlab case ko first instance mein directly sunne ki court power. (2) Inter-State Council (Article 263)—disputes discussion ke liye. (3) President/Parliament special cases mein intervene kar sakte hain."
+          "text": "Teen mechanisms hain: (1) Supreme Court ka Original Jurisdiction (Article 131) — direct SC me case kar sakte hain states. (2) Inter-State Council (Article 263) — disputes discussion ke liye. (3) President/Parliament intervene kar sakte hain special cases me."
         },
         {
           "speaker": "raju",
@@ -1549,7 +1412,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Article 131 mein Supreme Court ko States/Union ke beech kuch legal disputes par original jurisdiction milti hai. Lekin inter-State river-water disputes ke liye Article 262 aur Inter-State Water Disputes Act, 1956 ka special mechanism hai; Parliament law bana kar court jurisdiction ko exclude kar sakti hai."
+          "text": "Article 131 — Supreme Court ko Exclusive Original Jurisdiction hai inter-state disputes me. Matlab aise cases seedha Supreme Court me file hote hain, lower courts me nahi. Example: Kaveri Water Dispute (Karnataka vs Tamil Nadu), Krishna Water Dispute (Maharashtra vs Karnataka)."
         },
         {
           "speaker": "raju",
@@ -1557,7 +1420,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Water disputes mein tribunal mechanism apply hota hai; award final/binding framework ke subject hota hai. Isliye har State-v-State dispute ko automatically Article 131 ka ordinary Supreme Court case na samjho."
+          "text": "Sirf legal disputes. Water disputes ke liye alag mechanism hai — Inter-State Water Disputes Act (1956). President ek Tribunal bana deta hai jo decide karta hai. Tribunal ka decision final & binding hota hai. Example: Cauvery Water Disputes Tribunal."
         },
         {
           "speaker": "raju",
@@ -1681,22 +1544,10 @@
       "quiz_payload": {
         "question": "⭐ UPSC Prelims 2019: Which Article gives the Supreme Court exclusive original jurisdiction in disputes between Centre and States? (Q1/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Article 131"
-          },
-          {
-            "id": "B",
-            "text": "Article 132"
-          },
-          {
-            "id": "C",
-            "text": "Article 136"
-          },
-          {
-            "id": "D",
-            "text": "Article 143"
-          }
+          { "id": "A", "text": "Article 131" },
+          { "id": "B", "text": "Article 132" },
+          { "id": "C", "text": "Article 136" },
+          { "id": "D", "text": "Article 143" }
         ],
         "correct_option_id": "A",
         "explanation": "Article 131 provides the Supreme Court with exclusive original jurisdiction in disputes: (a) between Centre and States, (b) between Centre and any State(s) on one side and one or more States on the other, (c) between two or more States. Article 132 is about appellate jurisdiction in constitutional matters. Article 136 is about Special Leave Petition. Article 143 is about advisory jurisdiction."
@@ -1719,22 +1570,10 @@
       "quiz_payload": {
         "question": "Who is the Chairman of the Inter-State Council? (Q2/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "President of India"
-          },
-          {
-            "id": "B",
-            "text": "Prime Minister"
-          },
-          {
-            "id": "C",
-            "text": "Vice President"
-          },
-          {
-            "id": "D",
-            "text": "Chief Justice of India"
-          }
+          { "id": "A", "text": "President of India" },
+          { "id": "B", "text": "Prime Minister" },
+          { "id": "C", "text": "Vice President" },
+          { "id": "D", "text": "Chief Justice of India" }
         ],
         "correct_option_id": "B",
         "explanation": "The Prime Minister is the Chairman of the Inter-State Council (Article 263). The Council was established in 1990 based on the recommendations of the Sarkaria Commission (1983). It includes Chief Ministers of all states, Union Cabinet Ministers, and Administrators of Union Territories. It is a recommendatory body to discuss inter-governmental issues and promote Centre-State cooperation."
@@ -1755,27 +1594,15 @@
         "total": 60
       },
       "quiz_payload": {
-        "question": "Article 301 ki freedom par State Legislature dwara public interest mein reasonable restrictions kis Articles mein primarily dealt with hoti hain? (Q3/3)",
+        "question": "⭐ BPSC Pattern: Article 301 guarantees freedom of trade and commerce throughout India. Which Articles provide for reasonable restrictions? (Q3/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Article 302-303"
-          },
-          {
-            "id": "B",
-            "text": "Article 304-305"
-          },
-          {
-            "id": "C",
-            "text": "Article 310-311"
-          },
-          {
-            "id": "D",
-            "text": "Article 320-321"
-          }
+          { "id": "A", "text": "Article 302-303" },
+          { "id": "B", "text": "Article 304-305" },
+          { "id": "C", "text": "Article 310-311" },
+          { "id": "D", "text": "Article 320-321" }
         ],
-        "correct_option_id": "B",
-        "explanation": "Article 304(b) State Legislature ko public interest mein reasonable restrictions lagane ki power deta hai, subject to the constitutional conditions and Presidential sanction. Article 305 existing laws and State monopolies ko save karta hai. Article 302 Parliament ki restriction power se related hai; 303 discrimination/preference ko limit karta hai."
+        "correct_option_id": "A",
+        "explanation": "Article 301 declares freedom of trade, commerce, and intercourse throughout India. However, Articles 302 and 303 allow Parliament to impose reasonable restrictions in public interest. Article 302 empowers Parliament to impose restrictions, while Article 303 restricts Parliament from giving preferential treatment to any state. Article 304 deals with state restrictions on inter-state trade. ⭐ BPSC loves Article number-based questions!"
       },
       "navigation": {
         "next": "card_53_milestone_interstate",
@@ -1929,7 +1756,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Theek hai Sir! Federal system ka structure samajh aa raha hai; Centre-State examples se ise check karunga."
+          "text": "Perfect Sir! Ab samajh gaya poora federal system!"
         }
       ],
       "navigation": {
@@ -1990,22 +1817,10 @@
       "quiz_payload": {
         "question": "⭐ BPSC 2024 Officer Pattern (Multi-Statement): Consider the following statements about the Federal System in India:\n\n1. Article 1 describes India as a 'Federation of States'.\n2. Residuary powers are vested with the Union Parliament.\n3. In case of conflict between Central and State law on Concurrent List subjects, State law prevails if it received Presidential assent.\n4. The 44th Amendment changed the ground for National Emergency from 'Internal Disturbance' to 'Armed Rebellion'.\n\nHow many statements are correct?",
         "options": [
-          {
-            "id": "A",
-            "text": "Only one statement"
-          },
-          {
-            "id": "B",
-            "text": "Only two statements"
-          },
-          {
-            "id": "C",
-            "text": "Only three statements"
-          },
-          {
-            "id": "D",
-            "text": "All four statements"
-          }
+          { "id": "A", "text": "Only one statement" },
+          { "id": "B", "text": "Only two statements" },
+          { "id": "C", "text": "Only three statements" },
+          { "id": "D", "text": "All four statements" }
         ],
         "correct_option_id": "C",
         "explanation": "Statement Analysis:\n\n1. INCORRECT — Article 1 describes India as 'Union of States', NOT 'Federation of States'. This was deliberate to indicate states cannot secede.\n\n2. CORRECT — Article 248 vests residuary powers with Parliament. Subjects not in any of the three lists belong to Centre (e.g., Cyber laws).\n\n3. CORRECT — Article 254(2): If a State law on a Concurrent subject received Presidential assent and was made earlier than or repugnant to Central law, it can prevail in that state.\n\n4. CORRECT — 44th Amendment (1978) replaced 'Internal Disturbance' with 'Armed Rebellion' to prevent misuse like 1975 Emergency.\n\nAnswer: 3 statements correct (2, 3, 4). ⭐ Classic BPSC trap — testing Article 1 terminology and Article 254 exceptions!"
@@ -2040,3 +1855,4 @@
     }
   ]
 }
+

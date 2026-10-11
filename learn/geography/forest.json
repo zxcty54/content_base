@@ -1,14 +1,8 @@
+
 {
   "topic_id": "forests_indian_geography",
   "topic_title": "Forests in Indian Geography",
-  "target_exams": [
-    "BPSC",
-    "BPSC TRE",
-    "BSSC",
-    "RRB NTPC",
-    "SSC CGL",
-    "UPSC Prelims"
-  ],
+  "target_exams": ["BPSC", "BPSC TRE", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims"],
   "total_cards": 50,
   "characters": {
     "aman": {
@@ -36,14 +30,7 @@
       "intro_payload": {
         "title": "🌲 Forests in Indian Geography",
         "icon": "🌳",
-        "target_exams": [
-          "BPSC",
-          "BPSC TRE",
-          "BSSC",
-          "RRB NTPC",
-          "SSC CGL",
-          "UPSC Prelims"
-        ],
+        "target_exams": ["BPSC", "BPSC TRE", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims"],
         "learning_outcomes": [
           "Understanding forest types based on rainfall and climate",
           "Distribution of Tropical Evergreen, Deciduous, Thorn, and Montane forests",
@@ -115,7 +102,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul! Forests important hain: carbon store karte hain aur photosynthesis ke through oxygen release karte hain; soil erosion/runoff ko reduce karte hain, habitats aur livelihoods support karte hain. Rainfall par forests ka local influence ho sakta hai, lekin “jungle seedha baarish banata hai” ko universal one-way rule na samjho. India mein rainfall, temperature, soil aur altitude ke hisaab se forest types badalte hain."
+          "text": "बिल्कुल! इसीलिए India में अलग-अलग types के forests हैं - कहीं सदाबहार, कहीं पत्ते झड़ते हैं, कहीं काँटेदार। ये सब climate और rainfall पर depend करता है। चलो पहले देखते हैं India में कितनी बारिश कहाँ होती है।"
         },
         {
           "speaker": "raju",
@@ -140,7 +127,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "India ke forest types ko rainfall ke broad ranges se samajh sakte hain, exact hard boundaries se nahi: roughly >200 cm areas mein tropical evergreen; 100–200 cm mein deciduous; about 50–100 cm mein thorn/scrub; mountains mein altitude aur temperature ke saath montane zones. Local soil, seasonality aur human disturbance bhi vegetation ko affect karte hain."
+          "text": "Perfect समझ! India में हम forests को मुख्यतः rainfall के base पर classify करते हैं: (1) बहुत ज़्यादा बारिश (200 cm+) = Tropical Evergreen, (2) Medium बारिश (100-200 cm) = Deciduous, (3) कम बारिश (50-100 cm) = Thorn, (4) पहाड़ों पर altitude के हिसाब से = Montane।"
         },
         {
           "speaker": "raju",
@@ -177,11 +164,11 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab in forests mein saare ped ek hi season mein leafless nahi hote? Individual leaves to kabhi-kabhi replace hote rehte honge?"
+          "text": "Matlab Sir इनके पत्ते कभी नहीं झड़ते?"
         },
         {
           "speaker": "aman",
-          "text": "Bilkul. Evergreen ka matlab hai canopy saal bhar largely green rehti hai; har leaf kabhi nahi girti, aisa nahi. Different trees apne leaves alag samay par replace karte hain, isliye forest seasonal deciduous forest ki tarah ek saath leafless nahi dikhta. Tropical evergreen forests warm, humid aur generally very wet areas mein milte hain."
+          "text": "बिल्कुल सही! पूरे साल हरे रहते हैं, कोई specific season में पत्ते नहीं झड़ते। इनकी लकड़ी बहुत hard होती है - जैसे Ebony (आबनूस), Mahogany, Rosewood। ⭐ SSC Favorite: इन्हें 'Rainforests' भी कहते हैं।"
         },
         {
           "speaker": "raju",
@@ -239,22 +226,10 @@
       "quiz_payload": {
         "question": "Tropical Evergreen Forests के लिए न्यूनतम वार्षिक वर्षा कितनी होनी चाहिए? (Q1/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "100 cm"
-          },
-          {
-            "id": "B",
-            "text": "150 cm"
-          },
-          {
-            "id": "C",
-            "text": "200 cm"
-          },
-          {
-            "id": "D",
-            "text": "50 cm"
-          }
+          {"id": "A", "text": "100 cm"},
+          {"id": "B", "text": "150 cm"},
+          {"id": "C", "text": "200 cm"},
+          {"id": "D", "text": "50 cm"}
         ],
         "correct_option_id": "C",
         "explanation": "⭐ SSC/BPSC Favorite! Tropical Evergreen Forests के लिए कम से कम 200 cm (या उससे ज़्यादा) वार्षिक वर्षा चाहिए। इतनी ज़्यादा बारिश से ही पेड़ सदाबहार और घने रह पाते हैं। Western Ghats और Northeast में यही condition मिलती है।"
@@ -277,22 +252,10 @@
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा क्षेत्र Tropical Evergreen Forests के लिए प्रसिद्ध नहीं है? (Q2/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Western Ghats"
-          },
-          {
-            "id": "B",
-            "text": "Arunachal Pradesh"
-          },
-          {
-            "id": "C",
-            "text": "Thar Desert region"
-          },
-          {
-            "id": "D",
-            "text": "Andaman Islands"
-          }
+          {"id": "A", "text": "Western Ghats"},
+          {"id": "B", "text": "Arunachal Pradesh"},
+          {"id": "C", "text": "Thar Desert region"},
+          {"id": "D", "text": "Andaman Islands"}
         ],
         "correct_option_id": "C",
         "explanation": "⚠️ BPSC Trap! Thar Desert region में बहुत कम rainfall होती है (50 cm से भी कम), इसलिए वहाँ Evergreen forests नहीं हो सकते। वहाँ Thorn forests या scrub vegetation मिलता है। Western Ghats, Northeast, और Andaman-Nicobar में heavy rainfall है।"
@@ -315,22 +278,10 @@
       "quiz_payload": {
         "question": "Evergreen forests की कौन सी विशेषता सही है? (Q3/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "पेड़ गर्मियों में अपने पत्ते गिरा देते हैं"
-          },
-          {
-            "id": "B",
-            "text": "पेड़ों की लकड़ी soft होती है"
-          },
-          {
-            "id": "C",
-            "text": "पेड़ इतने घने होते हैं कि नीचे सूरज की रोशनी नहीं पहुँचती"
-          },
-          {
-            "id": "D",
-            "text": "यहाँ कम बारिश होती है"
-          }
+          {"id": "A", "text": "पेड़ गर्मियों में अपने पत्ते गिरा देते हैं"},
+          {"id": "B", "text": "पेड़ों की लकड़ी soft होती है"},
+          {"id": "C", "text": "पेड़ इतने घने होते हैं कि नीचे सूरज की रोशनी नहीं पहुँचती"},
+          {"id": "D", "text": "यहाँ कम बारिश होती है"}
         ],
         "correct_option_id": "C",
         "explanation": "⭐ NCERT Direct Concept! Evergreen forests में पेड़ इतने घने (dense canopy) होते हैं कि forest floor तक sunlight barely पहुँचती है। पत्ते पूरे साल रहते हैं (Option A गलत), लकड़ी hard होती है (Option B गलत), और बहुत ज़्यादा बारिश होती है (Option D गलत)।"
@@ -376,7 +327,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Ab India ka sabse bada forest type—TROPICAL DECIDUOUS FORESTS! Inhe 'MONSOON FORESTS' bhi kehte hain; monsoon ka matlab season ke saath direction badalne wali winds hai. 'Deciduous' ka matlab hai patte jhadne wale—ye garmiyon mein paani bachane ke liye patte gira dete hain."
+          "text": "अब आता है India का सबसे बड़ा forest type - TROPICAL DECIDUOUS FORESTS! इन्हें 'MONSOON FORESTS' भी कहते हैं। 'Deciduous' का मतलब है पत्ते झड़ने वाले - ये गर्मियों में अपने पत्ते गिरा देते हैं पानी बचाने के लिए।"
         },
         {
           "speaker": "raju",
@@ -384,7 +335,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul! Tropical deciduous/monsoon forests India mein area-wise major forest type hain. Broadly 100–200 cm seasonal rainfall regions mein milte hain; monsoon mein green aur dry season mein kai trees paani bachane ke liye leaves shed karte hain. Exact area share report, definition and year ke saath padho."
+          "text": "बिल्कुल! ये वहाँ होते हैं जहाँ moderate rainfall है - 100 से 200 cm के बीच। Monsoon में हरे-भरे, गर्मियों में सूखे। ⭐ BPSC/SSC Trap: ये India के सबसे बड़े area को cover करते हैं - लगभग 30% geographical area!"
         },
         {
           "speaker": "raju",
@@ -475,22 +426,10 @@
       "quiz_payload": {
         "question": "Tropical Deciduous Forests को 'Monsoon Forests' क्यों कहते हैं? (Q1/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "क्योंकि ये समुद्र के किनारे होते हैं"
-          },
-          {
-            "id": "B",
-            "text": "क्योंकि ये monsoon की बारिश पर निर्भर रहते हैं और मौसमी बदलाव दिखाते हैं"
-          },
-          {
-            "id": "C",
-            "text": "क्योंकि ये हमेशा गीले रहते हैं"
-          },
-          {
-            "id": "D",
-            "text": "क्योंकि ये रेगिस्तान में होते हैं"
-          }
+          {"id": "A", "text": "क्योंकि ये समुद्र के किनारे होते हैं"},
+          {"id": "B", "text": "क्योंकि ये monsoon की बारिश पर निर्भर रहते हैं और मौसमी बदलाव दिखाते हैं"},
+          {"id": "C", "text": "क्योंकि ये हमेशा गीले रहते हैं"},
+          {"id": "D", "text": "क्योंकि ये रेगिस्तान में होते हैं"}
         ],
         "correct_option_id": "B",
         "explanation": "⭐ NCERT Class 9 Direct! Deciduous forests को 'Monsoon Forests' इसलिए कहते हैं क्योंकि ये monsoon season की rainfall (100-200 cm) पर depend करते हैं। Monsoon में हरे-भरे होते हैं, dry season में पत्ते गिरा देते हैं - clear seasonal variation।"
@@ -513,22 +452,10 @@
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा पेड़ Deciduous Forests में प्रमुखता से पाया जाता है? (Q2/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Coconut"
-          },
-          {
-            "id": "B",
-            "text": "Teak और Sal"
-          },
-          {
-            "id": "C",
-            "text": "Pine और Deodar"
-          },
-          {
-            "id": "D",
-            "text": "Cactus"
-          }
+          {"id": "A", "text": "Coconut"},
+          {"id": "B", "text": "Teak और Sal"},
+          {"id": "C", "text": "Pine और Deodar"},
+          {"id": "D", "text": "Cactus"}
         ],
         "correct_option_id": "B",
         "explanation": "⭐ SSC/Railway Favorite! Deciduous forests में TEAK और SAL सबसे important commercial trees हैं। Coconut coastal areas में, Pine-Deodar montane/coniferous forests में, Cactus thorn forests/desert में पाए जाते हैं। Teak-Sal की लकड़ी बहुत valuable है।"
@@ -551,22 +478,10 @@
       "quiz_payload": {
         "question": "Bihar में कौन सा forest type मुख्यतः पाया जाता है? (Q3/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Tropical Evergreen"
-          },
-          {
-            "id": "B",
-            "text": "Dry Deciduous और कुछ Mixed forests"
-          },
-          {
-            "id": "C",
-            "text": "Alpine forests"
-          },
-          {
-            "id": "D",
-            "text": "Mangrove forests"
-          }
+          {"id": "A", "text": "Tropical Evergreen"},
+          {"id": "B", "text": "Dry Deciduous और कुछ Mixed forests"},
+          {"id": "C", "text": "Alpine forests"},
+          {"id": "D", "text": "Mangrove forests"}
         ],
         "correct_option_id": "B",
         "explanation": "⭐ BPSC TRE Critical! Bihar में मुख्यतः DRY DECIDUOUS forests पाए जाते हैं - South Bihar (Gaya, Rohtas, Kaimur) के पहाड़ी क्षेत्रों में। Valmiki Tiger Reserve में mixed deciduous। Bihar में rainfall moderate है (100-120 cm), इसलिए evergreen नहीं हो सकते।"
@@ -653,7 +568,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Thorn forests ka distribution: (1) Rajasthan—khaaskar semi-arid regions, (2) Gujarat ke kuch parts, (3) Western MP, (4) South-West Haryana, (5) South-West UP. ⭐ UPSC: Ye regions **Rain Shadow areas**, yani mountain ke leeward side ke relatively dry areas, bhi hain—Aravalli pahadon ke peeche."
+          "text": "Thorn forests का distribution: (1) Rajasthan - खासकर semi-arid regions, (2) Gujarat के कुछ parts, (3) Western MP, (4) South-West Haryana, (5) South-West UP। ⭐ UPSC: ये regions 'Rain Shadow' areas भी हैं - Aravalli पहाड़ों के पीछे।"
         },
         {
           "speaker": "raju",
@@ -686,7 +601,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Western Ghats ke eastern Deccan interior mein rain-shadow effect strong example hai. Rajasthan ki aridity ko sirf Aravalli rain shadow se explain nahi karna chahiye—Aravalli monsoon flow ke roughly parallel hai; distance from sea, weak moisture and regional circulation bhi important hain."
+          "text": "Perfect analogy! Exactly वैसे ही। Rajasthan भी Aravalli के rain shadow में आता है। ⭐ BPSC TRE: Bihar में ऐसी situation नहीं है क्योंकि कोई बड़ी mountain range नहीं है blocking करने के लिए।"
         },
         {
           "speaker": "raju",
@@ -711,22 +626,10 @@
       "quiz_payload": {
         "question": "Thorn Forests में पौधों में काँटे क्यों होते हैं? (Q1/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "जानवरों से बचाव के लिए"
-          },
-          {
-            "id": "B",
-            "text": "पानी की कमी में evaporation रोकने के लिए - पत्तियाँ काँटों में modified"
-          },
-          {
-            "id": "C",
-            "text": "सूरज की रोशनी absorb करने के लिए"
-          },
-          {
-            "id": "D",
-            "text": "कोई specific कारण नहीं"
-          }
+          {"id": "A", "text": "जानवरों से बचाव के लिए"},
+          {"id": "B", "text": "पानी की कमी में evaporation रोकने के लिए - पत्तियाँ काँटों में modified"},
+          {"id": "C", "text": "सूरज की रोशनी absorb करने के लिए"},
+          {"id": "D", "text": "कोई specific कारण नहीं"}
         ],
         "correct_option_id": "B",
         "explanation": "⭐ NCERT/NEET Important! Thorn forests (Xerophytic plants) में काँटे MODIFIED LEAVES हैं। कम rainfall वाले areas में पानी बचाने के लिए leaf surface area कम करना पड़ता है - इसलिए पत्तियाँ काँटों में बदल गईं। Transpiration/evaporation कम होता है।"
@@ -749,22 +652,10 @@
       "quiz_payload": {
         "question": "Rajasthan का State Tree कौन सा है? (Q2/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Sal"
-          },
-          {
-            "id": "B",
-            "text": "Teak"
-          },
-          {
-            "id": "C",
-            "text": "Khejri"
-          },
-          {
-            "id": "D",
-            "text": "Babool"
-          }
+          {"id": "A", "text": "Sal"},
+          {"id": "B", "text": "Teak"},
+          {"id": "C", "text": "Khejri"},
+          {"id": "D", "text": "Babool"}
         ],
         "correct_option_id": "C",
         "explanation": "⭐ SSC/Railway Classic! KHEJRI (Prosopis cineraria) Rajasthan का State Tree है। इसे 'Pride of Rajasthan' कहते हैं। 1730 में Amrita Devi Bishnoi और 363 लोगों ने Khejri trees को बचाने के लिए बलिदान दिया था - 'Khejarli Massacre'। यह thorn forests का important species है।"
@@ -787,22 +678,10 @@
       "quiz_payload": {
         "question": "'Rain Shadow' effect क्या है? (Q3/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "जब बारिश रात में होती है"
-          },
-          {
-            "id": "B",
-            "text": "पहाड़ों के leeward side पर कम बारिश होना क्योंकि windward side पर पहले ही हो चुकी"
-          },
-          {
-            "id": "C",
-            "text": "जब बादल पहाड़ों को छुपा देते हैं"
-          },
-          {
-            "id": "D",
-            "text": "जब बारिश पूरे साल होती है"
-          }
+          {"id": "A", "text": "जब बारिश रात में होती है"},
+          {"id": "B", "text": "पहाड़ों के leeward side पर कम बारिश होना क्योंकि windward side पर पहले ही हो चुकी"},
+          {"id": "C", "text": "जब बादल पहाड़ों को छुपा देते हैं"},
+          {"id": "D", "text": "जब बारिश पूरे साल होती है"}
         ],
         "correct_option_id": "B",
         "explanation": "⭐ UPSC/BPSC Geography Concept! Rain Shadow: मानसूनी हवाएँ पहाड़ की windward side (सामने) पर बारिश कर देती हैं। Leeward side (पीछे) तक dry हवा पहुँचती है - कम rainfall। Example: Western Ghats के पूर्व में Deccan interior, Aravalli के पीछे Rajasthan।"
@@ -947,22 +826,10 @@
       "quiz_payload": {
         "question": "Coniferous forests में पेड़ों की leaves needle-shaped क्यों होती हैं? (Q1/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "सूरज की रोशनी ज़्यादा absorb करने के लिए"
-          },
-          {
-            "id": "B",
-            "text": "Snow आसानी से slip off हो और water loss कम हो"
-          },
-          {
-            "id": "C",
-            "text": "जानवरों से बचाव के लिए"
-          },
-          {
-            "id": "D",
-            "text": "ज़्यादा oxygen produce करने के लिए"
-          }
+          {"id": "A", "text": "सूरज की रोशनी ज़्यादा absorb करने के लिए"},
+          {"id": "B", "text": "Snow आसानी से slip off हो और water loss कम हो"},
+          {"id": "C", "text": "जानवरों से बचाव के लिए"},
+          {"id": "D", "text": "ज़्यादा oxygen produce करने के लिए"}
         ],
         "correct_option_id": "B",
         "explanation": "⭐ NCERT/NEET Adaptation! Coniferous trees की needle-shaped leaves दो कारणों से होती हैं: (1) Snow आसानी से फिसल जाती है, branches का भार नहीं बढ़ता, (2) कम surface area से transpiration/water loss कम होता है ठंडे climate में। Adaptation for cold mountainous regions।"
@@ -985,22 +852,10 @@
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा पेड़ Coniferous Forests का नहीं है? (Q2/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Deodar (Cedar)"
-          },
-          {
-            "id": "B",
-            "text": "Pine"
-          },
-          {
-            "id": "C",
-            "text": "Teak"
-          },
-          {
-            "id": "D",
-            "text": "Fir"
-          }
+          {"id": "A", "text": "Deodar (Cedar)"},
+          {"id": "B", "text": "Pine"},
+          {"id": "C", "text": "Teak"},
+          {"id": "D", "text": "Fir"}
         ],
         "correct_option_id": "C",
         "explanation": "⚠️ BPSC/SSC Trap! TEAK एक Deciduous tree है जो tropical/sub-tropical regions में पाया जाता है, Coniferous forests में नहीं। Coniferous forests में Deodar, Pine, Fir, Spruce जैसे cone-bearing trees होते हैं। Teak को मत mix करो!"
@@ -1023,22 +878,10 @@
       "quiz_payload": {
         "question": "Himalayan region में लगभग किस altitude के बाद कोई vegetation नहीं पाई जाती? (Q3/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "1000 m"
-          },
-          {
-            "id": "B",
-            "text": "2000 m"
-          },
-          {
-            "id": "C",
-            "text": "3000 m"
-          },
-          {
-            "id": "D",
-            "text": "4500-5000 m (Snow line)"
-          }
+          {"id": "A", "text": "1000 m"},
+          {"id": "B", "text": "2000 m"},
+          {"id": "C", "text": "3000 m"},
+          {"id": "D", "text": "4500-5000 m (Snow line)"}
         ],
         "correct_option_id": "D",
         "explanation": "⭐ UPSC Geography! Himalayan region में लगभग 4500-5000 m altitude के बाद SNOW LINE शुरू हो जाती है - permanent snow cover। इतनी ऊँचाई पर extreme cold, कम oxygen, और ice के कारण कोई vegetation survive नहीं कर सकती। Alpine vegetation 3000-4500 m तक।"
@@ -1117,7 +960,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "India के major Mangrove areas: (1) SUNDARBANS - West Bengal (largest!), Ganga-Brahmaputra delta (river mouth par deposited sediments se bana triangular landform), famous for Royal Bengal Tiger, (2) Andaman-Nicobar, (3) Godavari-Krishna deltas (Andhra Pradesh), (4) Mahanadi delta (Odisha), (5) Gujarat coast। ⭐ UPSC: Sundarbans UNESCO World Heritage Site है।"
+          "text": "India के major Mangrove areas: (1) SUNDARBANS - West Bengal (largest!), Ganga-Brahmaputra delta, famous for Royal Bengal Tiger, (2) Andaman-Nicobar, (3) Godavari-Krishna deltas (Andhra Pradesh), (4) Mahanadi delta (Odisha), (5) Gujarat coast। ⭐ UPSC: Sundarbans UNESCO World Heritage Site है।"
         },
         {
           "speaker": "raju",
@@ -1183,22 +1026,10 @@
       "quiz_payload": {
         "question": "Mangrove forests में पाए जाने वाले 'Pneumatophores' क्या हैं? (Q1/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "एक प्रकार की मछली"
-          },
-          {
-            "id": "B",
-            "text": "Breathing roots जो कीचड़ के ऊपर oxygen लेने के लिए निकलती हैं"
-          },
-          {
-            "id": "C",
-            "text": "एक प्रकार का पक्षी"
-          },
-          {
-            "id": "D",
-            "text": "Flowers"
-          }
+          {"id": "A", "text": "एक प्रकार की मछली"},
+          {"id": "B", "text": "Breathing roots जो कीचड़ के ऊपर oxygen लेने के लिए निकलती हैं"},
+          {"id": "C", "text": "एक प्रकार का पक्षी"},
+          {"id": "D", "text": "Flowers"}
         ],
         "correct_option_id": "B",
         "explanation": "⭐ NCERT/NEET Important! Pneumatophores mangrove plants की विशेष BREATHING ROOTS हैं जो waterlogged, anaerobic (oxygen-lacking) कीचड़ से ऊपर निकलकर हवा से oxygen absorb करती हैं। ये adaptation है saline, marshy conditions में survive करने के लिए।"
@@ -1221,22 +1052,10 @@
       "quiz_payload": {
         "question": "भारत का सबसे बड़ा Mangrove forest कौन सा है? (Q2/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Godavari delta"
-          },
-          {
-            "id": "B",
-            "text": "Sundarbans (West Bengal)"
-          },
-          {
-            "id": "C",
-            "text": "Gujarat coast"
-          },
-          {
-            "id": "D",
-            "text": "Kerala backwaters"
-          }
+          {"id": "A", "text": "Godavari delta"},
+          {"id": "B", "text": "Sundarbans (West Bengal)"},
+          {"id": "C", "text": "Gujarat coast"},
+          {"id": "D", "text": "Kerala backwaters"}
         ],
         "correct_option_id": "B",
         "explanation": "⭐ SSC/BPSC Classic! SUNDARBANS (West Bengal) भारत का सबसे बड़ा mangrove forest है - Ganga-Brahmaputra delta में। यह UNESCO World Heritage Site है और Royal Bengal Tiger के लिए प्रसिद्ध है। 'Sundari' tree के नाम पर Sundarbans।"
@@ -1259,22 +1078,10 @@
       "quiz_payload": {
         "question": "Mangrove forests की ecological importance में क्या शामिल नहीं है? (Q3/3)",
         "options": [
-          {
-            "id": "A",
-            "text": "Coastal erosion से protection"
-          },
-          {
-            "id": "B",
-            "text": "Fish breeding के लिए nursery"
-          },
-          {
-            "id": "C",
-            "text": "Desert formation में मदद"
-          },
-          {
-            "id": "D",
-            "text": "Carbon sequestration"
-          }
+          {"id": "A", "text": "Coastal erosion से protection"},
+          {"id": "B", "text": "Fish breeding के लिए nursery"},
+          {"id": "C", "text": "Desert formation में मदद"},
+          {"id": "D", "text": "Carbon sequestration"}
         ],
         "correct_option_id": "C",
         "explanation": "⚠️ UPSC Trap! Mangroves DESERT FORMATION में मदद नहीं करते - ये coastal/delta regions में होते हैं। उनकी importance: (1) Coastal protection from waves/storms, (2) Fish nursery, (3) Carbon sink (CO₂ absorb), (4) Biodiversity। Desert से कोई relation नहीं!"
@@ -1320,15 +1127,15 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Forest-cover data ko report-year ke saath padho. ISFR 2021 mein India ka forest cover roughly 21–22% geographical area tha; newer Forest Survey editions aane par percentage revise ho sakta hai. National Forest Policy ka broad aspirational target 33% hai. Area-wise high forest-cover states mein Madhya Pradesh, Arunachal Pradesh aur Chhattisgarh commonly top group mein aate hain—ranking edition/definition se check karo."
+          "text": "अब important data देखते हैं। ⭐ SSC/BPSC Favorite: India का total geographical area का लगभग 21-22% (latest FSI report 2021) forest cover है। Ideal 33% होना चाहिए environmental balance के लिए। Top 3 states (area-wise): (1) Madhya Pradesh, (2) Arunachal Pradesh, (3) Chhattisgarh।"
         },
         {
           "speaker": "raju",
-          "text": "Sir percentage-wise kaun sabse zyada? Aur Bihar ka figure kis report year ka hai?"
+          "text": "Sir percentage-wise kaun sabse zyada?"
         },
         {
           "speaker": "aman",
-          "text": "Percentage-wise Mizoram, Arunachal Pradesh aur Meghalaya jaise Northeast states top group mein rahe hain; exact order aur percentage report-year/forest-cover definition par depend karte hain. Bihar ka roughly 7–8% figure bhi dated FSI estimate ke roop mein quote karo, permanent current number ki tarah nahi."
+          "text": "Good question! ⭐ UPSC Pattern: Percentage-wise (अपने कुल area का %): (1) Mizoram (~85%), (2) Arunachal Pradesh (~80%), (3) Meghalaya (~76%)। Northeast states top पर। ⭐ BPSC TRE: Bihar में लगभग 7-8% forest cover - बहुत कम national average से।"
         },
         {
           "speaker": "raju",
@@ -1386,7 +1193,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Forest conservation ke major steps: (1) Forest (Conservation) Act, 1980—2023 ke amendment/renaming ke baad Van (Sanrakshan Evam Samvardhan) Adhiniyam ke current text ko bhi refer karo; forest land diversion regulate hota hai. (2) National Forest Policy 1988 ka 33% aspirational target, (3) Joint Forest Management—local communities ko involve karna. Project Tiger (1973) aur Project Elephant bhi important conservation programmes hain."
+          "text": "Forest conservation के major steps: (1) FOREST CONSERVATION ACT 1980 - वन भूमि को non-forest use के लिए convert करना regulate, (2) NATIONAL FOREST POLICY 1988 - 33% forest cover का target, (3) Joint Forest Management (JFM) - local communities को involve। ⭐ UPSC: Project Tiger (1973), Project Elephant जैसे wildlife conservation।"
         },
         {
           "speaker": "raju",
@@ -1525,22 +1332,10 @@
       "quiz_payload": {
         "question": "⭐ BPSC MULTI-STATEMENT:\n\nनिम्नलिखित कथनों पर विचार करें:\n1. Tropical Evergreen forests को 200 cm से अधिक वर्षा चाहिए।\n2. Deciduous forests में पेड़ गर्मियों में पत्ते गिराते हैं पानी बचाने के लिए।\n3. Coniferous forests की leaves needle-shaped होती हैं snow easily slip off हो।\n4. Bihar में मुख्यतः Evergreen forests पाए जाते हैं।\n\nसही कथन हैं:",
         "options": [
-          {
-            "id": "A",
-            "text": "केवल 1, 2 और 3"
-          },
-          {
-            "id": "B",
-            "text": "केवल 1 और 4"
-          },
-          {
-            "id": "C",
-            "text": "केवल 2, 3 और 4"
-          },
-          {
-            "id": "D",
-            "text": "सभी 1, 2, 3 और 4"
-          }
+          {"id": "A", "text": "केवल 1, 2 और 3"},
+          {"id": "B", "text": "केवल 1 और 4"},
+          {"id": "C", "text": "केवल 2, 3 और 4"},
+          {"id": "D", "text": "सभी 1, 2, 3 और 4"}
         ],
         "correct_option_id": "A",
         "explanation": "⚠️ BPSC Classic Trap! कथन 1, 2, 3 सही हैं। कथन 4 गलत है - Bihar में Evergreen forests नहीं हैं क्योंकि rainfall काफी कम है (100-120 cm average)। Bihar में मुख्यतः DRY DECIDUOUS forests पाए जाते हैं (South Bihar hills, Valmiki Reserve)। Evergreen के लिए 200+ cm चाहिए।"
@@ -1563,22 +1358,10 @@
       "quiz_payload": {
         "question": "⭐ UPSC ASSERTION-REASON:\n\nअभिकथन (A): Mangrove forests coastal erosion से protection provide करते हैं।\n\nकारण (R): Mangroves की जड़ें soil को bind करती हैं और waves का impact कम करती हैं।\n\nसही विकल्प चुनें:",
         "options": [
-          {
-            "id": "A",
-            "text": "A और R दोनों सही हैं, और R, A की सही व्याख्या है"
-          },
-          {
-            "id": "B",
-            "text": "A और R दोनों सही हैं, पर R, A की व्याख्या नहीं"
-          },
-          {
-            "id": "C",
-            "text": "A सही है पर R गलत"
-          },
-          {
-            "id": "D",
-            "text": "A गलत है पर R सही"
-          }
+          {"id": "A", "text": "A और R दोनों सही हैं, और R, A की सही व्याख्या है"},
+          {"id": "B", "text": "A और R दोनों सही हैं, पर R, A की व्याख्या नहीं"},
+          {"id": "C", "text": "A सही है पर R गलत"},
+          {"id": "D", "text": "A गलत है पर R सही"}
         ],
         "correct_option_id": "A",
         "explanation": "⭐ Perfect UPSC Pattern! दोनों statements सही हैं और R, A का सही कारण है। Mangroves की dense root system (stilt roots, pneumatophores) soil को firmly bind करती है और incoming waves/storms का force absorb करती है। 2004 Tsunami में जहाँ mangroves थे वहाँ damage significantly कम था। Assertion-Reason दोनों correct + proper explanation।"
@@ -1601,22 +1384,10 @@
       "quiz_payload": {
         "question": "⭐ SSC/Railway MATCH THE FOLLOWING:\n\nForest Type और Rainfall Pattern में से कौन सा युग्म गलत है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Tropical Evergreen - 200+ cm"
-          },
-          {
-            "id": "B",
-            "text": "Moist Deciduous - 150-200 cm"
-          },
-          {
-            "id": "C",
-            "text": "Thorn Forests - 200+ cm"
-          },
-          {
-            "id": "D",
-            "text": "Dry Deciduous - 100-150 cm"
-          }
+          {"id": "A", "text": "Tropical Evergreen - 200+ cm"},
+          {"id": "B", "text": "Moist Deciduous - 150-200 cm"},
+          {"id": "C", "text": "Thorn Forests - 200+ cm"},
+          {"id": "D", "text": "Dry Deciduous - 100-150 cm"}
         ],
         "correct_option_id": "C",
         "explanation": "⚠️ SSC Trap! Option C गलत है। THORN FORESTS कम rainfall areas (50-100 cm) में पाए जाते हैं, 200+ cm में नहीं! 200+ cm rainfall में Tropical Evergreen होते हैं। Thorn forests xerophytic हैं - dry/semi-arid conditions के लिए adapted। Sahi matches: A, B, D correct हैं।"
@@ -1639,22 +1410,10 @@
       "quiz_payload": {
         "question": "⭐ BPSC TRE SPECIFIC:\n\nबिहार के संदर्भ में कथनों पर विचार करें:\n1. Bihar का forest cover लगभग 7-8% है जो national average से कम है।\n2. Valmiki Tiger Reserve Bihar का सबसे बड़ा protected forest area है।\n3. South Bihar के पहाड़ी इलाकों में dry deciduous vegetation मिलता है।\n\nसही कथन:",
         "options": [
-          {
-            "id": "A",
-            "text": "केवल 1"
-          },
-          {
-            "id": "B",
-            "text": "केवल 1 और 2"
-          },
-          {
-            "id": "C",
-            "text": "केवल 2 और 3"
-          },
-          {
-            "id": "D",
-            "text": "सभी 1, 2 और 3"
-          }
+          {"id": "A", "text": "केवल 1"},
+          {"id": "B", "text": "केवल 1 और 2"},
+          {"id": "C", "text": "केवल 2 और 3"},
+          {"id": "D", "text": "सभी 1, 2 और 3"}
         ],
         "correct_option_id": "D",
         "explanation": "⭐ BPSC TRE Critical - सभी तीनों सही! (1) Bihar में ~7-8% forest cover है जबकि national average 21-22%। (2) Valmiki Tiger Reserve (West Champaran) सबसे बड़ा protected area। (3) South Bihar (Gaya, Rohtas, Kaimur) के hills में dry deciduous + कुछ Sal patches। Bihar SCERT syllabus का direct part!"
@@ -1677,22 +1436,10 @@
       "quiz_payload": {
         "question": "⭐ UPSC/NEET INTEGRATED:\n\nकौन सा adaptation-environment match सही नहीं है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Pneumatophores (breathing roots) - Mangrove swamps"
-          },
-          {
-            "id": "B",
-            "text": "Needle-shaped leaves - Coniferous forests (cold mountains)"
-          },
-          {
-            "id": "C",
-            "text": "Leaves modified to thorns - Thorn forests (water scarcity)"
-          },
-          {
-            "id": "D",
-            "text": "Broad thick leaves - Desert vegetation"
-          }
+          {"id": "A", "text": "Pneumatophores (breathing roots) - Mangrove swamps"},
+          {"id": "B", "text": "Needle-shaped leaves - Coniferous forests (cold mountains)"},
+          {"id": "C", "text": "Leaves modified to thorns - Thorn forests (water scarcity)"},
+          {"id": "D", "text": "Broad thick leaves - Desert vegetation"}
         ],
         "correct_option_id": "D",
         "explanation": "⚠️ NEET/UPSC Combined Trap! Option D गलत है। DESERT vegetation में broad thick leaves नहीं होती - वहाँ reduced leaves या thorns होते हैं water loss कम करने के लिए (xerophytic)। Broad thick leaves tropical evergreen/moist regions में होती हैं। A, B, C सभी correct adaptations हैं - Pneumatophores (mangrove), needle leaves (coniferous), thorns (xerophytic)।"
@@ -1727,3 +1474,4 @@
     }
   ]
 }
+

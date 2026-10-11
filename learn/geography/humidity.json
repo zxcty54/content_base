@@ -1,15 +1,9 @@
+
 {
   "topic_id": "humidity_precipitation_geography",
   "topic_title": "Humidity and Precipitation",
-  "target_exams": [
-    "BPSC",
-    "BPSC TRE",
-    "BSSC",
-    "RRB NTPC",
-    "SSC CGL",
-    "UPSC Prelims"
-  ],
-  "total_cards": 53,
+  "target_exams": ["BPSC", "BPSC TRE", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims"],
+  "total_cards": 72,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,19 +25,12 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 53
+        "total": 72
       },
       "intro_payload": {
         "title": "Humidity and Precipitation",
         "icon": "🌧️",
-        "target_exams": [
-          "BPSC",
-          "BPSC TRE",
-          "BSSC",
-          "RRB NTPC",
-          "SSC CGL",
-          "UPSC Prelims"
-        ],
+        "target_exams": ["BPSC", "BPSC TRE", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims"],
         "learning_outcomes": [
           "Understanding water vapor and humidity concepts",
           "Mastering absolute vs relative humidity calculations",
@@ -70,7 +57,7 @@
       "level": 1,
       "progress": {
         "current": 2,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -103,7 +90,7 @@
       "level": 1,
       "progress": {
         "current": 3,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -116,7 +103,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Perfect observation! Desert mein LOW humidity (dry), coastal areas aur river basins mein HIGH humidity. ⭐ BPSC TRE Favorite: Bihar mein monsoon season—jab seasonal winds aati hain—mein humidity 80–90% tak pahunch jaati hai, especially North Bihar (Ganga belt). Ab humidity ko measure kaise karte hain—do tareeke hain."
+          "text": "Perfect observation! Desert mein LOW humidity (dry), coastal areas aur river basins mein HIGH humidity. ⭐ BPSC TRE Favorite: Bihar mein Monsoon season mein humidity 80-90% tak pahunch jaati hai, especially North Bihar (Ganga belt). Ab humidity ko measure kaise karte hain - do tareeke hain."
         },
         {
           "speaker": "raju",
@@ -136,7 +123,7 @@
       "level": 2,
       "progress": {
         "current": 4,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -149,7 +136,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul—100% RH ka matlab given temperature aur pressure par air saturated hai; thoda cooling ya extra vapour condensation start kara sakta hai. Temperature badhne par, agar actual vapour amount same rahe, relative humidity generally decrease hoti hai, kyunki saturation vapour pressure badhta hai. Actual weather mein moisture transfer/condensation bhi saath ho sakte hain."
+          "text": "Bilkul correct! 100% RH matlab air completely saturated hai - ab aur water vapour nahi le sakti. ⭐ SSC/Railway Exam Trap: Temperature badhne se RELATIVE humidity DECREASE hoti hai (kyunki garm hawa zyada water hold kar sakti hai), lekin absolute humidity same reh sakti hai! Yeh confusion bahut pucha jaata hai."
         },
         {
           "speaker": "raju",
@@ -169,7 +156,7 @@
       "level": 2,
       "progress": {
         "current": 5,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -187,10 +174,6 @@
         {
           "speaker": "raju",
           "text": "Dew point matlab saturation ka temperature?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Haan, dew point wahi temperature hai jahan air saturation tak pahunchti hai—yaani relative humidity 100% ho jaati hai aur condensation shuru ho sakti hai."
         }
       ],
       "navigation": {
@@ -206,27 +189,15 @@
       "level": 2,
       "progress": {
         "current": 6,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "Temperature INCREASE hone se Relative Humidity par kya asar hota hai (assuming water vapour amount same hai)?",
         "options": [
-          {
-            "id": "A",
-            "text": "Relative Humidity INCREASE hoti hai"
-          },
-          {
-            "id": "B",
-            "text": "Relative Humidity DECREASE hoti hai"
-          },
-          {
-            "id": "C",
-            "text": "Koi change nahi hota"
-          },
-          {
-            "id": "D",
-            "text": "Kabhi increase kabhi decrease"
-          }
+          { "id": "A", "text": "Relative Humidity INCREASE hoti hai" },
+          { "id": "B", "text": "Relative Humidity DECREASE hoti hai" },
+          { "id": "C", "text": "Koi change nahi hota" },
+          { "id": "D", "text": "Kabhi increase kabhi decrease" }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ SSC/Railway Trap Question! Temperature INCREASE hone se air ki water vapour holding CAPACITY badh jaati hai. Agar actual water vapour same rahe, toh ratio (actual/maximum) kam ho jaata hai, matlab RELATIVE HUMIDITY DECREASE hoti hai. Example: 30°C air, 50% RH → 40°C pe same water vapour ke saath ~30% RH. Yaad rakho: Warm air = More capacity = Lower RH (if vapour same)."
@@ -244,27 +215,15 @@
       "level": 2,
       "progress": {
         "current": 7,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "Dew Point kya hai?",
         "options": [
-          {
-            "id": "A",
-            "text": "Woh temperature jahan ice pighal jaaye"
-          },
-          {
-            "id": "B",
-            "text": "Woh temperature jahan air saturated ho jaaye (100% RH)"
-          },
-          {
-            "id": "C",
-            "text": "Subah ka sabse kam temperature"
-          },
-          {
-            "id": "D",
-            "text": "Jab barish hone wali ho"
-          }
+          { "id": "A", "text": "Woh temperature jahan ice pighal jaaye" },
+          { "id": "B", "text": "Woh temperature jahan air saturated ho jaaye (100% RH)" },
+          { "id": "C", "text": "Subah ka sabse kam temperature" },
+          { "id": "D", "text": "Jab barish hone wali ho" }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ UPSC/BPSC Definition: DEW POINT woh temperature hai jahan air apni current water vapour content ke saath SATURATED (100% RH) ho jaaye. Agar temperature dew point se neeche gire, toh extra water vapour CONDENSE hokar dew (os) ban jaata hai. Dew point High = High moisture, Low = Dry air. Example: Dew point 20°C hai aur raat ko temp 18°C - dew/fog banega!"
@@ -282,27 +241,15 @@
       "level": 2,
       "progress": {
         "current": 8,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE: Bihar mein Monsoon season mein average relative humidity kitni hoti hai?",
         "options": [
-          {
-            "id": "A",
-            "text": "30-40%"
-          },
-          {
-            "id": "B",
-            "text": "50-60%"
-          },
-          {
-            "id": "C",
-            "text": "80-90%"
-          },
-          {
-            "id": "D",
-            "text": "100% (hamesha saturated)"
-          }
+          { "id": "A", "text": "30-40%" },
+          { "id": "B", "text": "50-60%" },
+          { "id": "C", "text": "80-90%" },
+          { "id": "D", "text": "100% (hamesha saturated)" }
         ],
         "correct_option_id": "C",
         "explanation": "⭐ BPSC TRE Favorite: Bihar mein Monsoon season (June-September) mein relative humidity 80-90% tak pahunch jaati hai, especially North Bihar ke Ganga river basin areas (Patna, Muzaffarpur, Darbhanga). Yeh high humidity sticky uncomfortable weather create karti hai. Winter mein humidity 50-60% tak gir jaati hai. Coastal areas ke comparison mein थोड़ी कम लेकिन summer monsoon में बहुत high!"
@@ -320,7 +267,7 @@
       "level": 2,
       "progress": {
         "current": 9,
-        "total": 53
+        "total": 72
       },
       "milestone_payload": {
         "title": "🎉 Humidity Basics Mastered!",
@@ -343,7 +290,7 @@
       "level": 2,
       "progress": {
         "current": 10,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -356,7 +303,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Condensation ke liye air ko dew point tak cool karna ya saturation tak pahunchna important hai. Atmospheric dust, salt aur smoke particles hygroscopic condensation nuclei ki tarah droplets ko form karne mein help karte hain; real atmosphere mein nuclei common hote hain. “Pollution cloud ke liye zaroori/helpful” ko pollution ko beneficial samajhne ki galti na karo—excess pollution harmful hai."
+          "text": "Perfect examples! Condensation ke liye 3 cheezein zaroori hain: (1) Air ko dew point tak COOL karna, (2) NUCLEI chahiye - chote dust particles, salt crystals, smoke jinke around condensation ho - inko HYGROSCOPIC NUCLEI kehte hain, (3) SATURATION (100% RH). ⭐ SSC Trick: No nuclei = No condensation (pure air mein bhi cloud nahi ban sakta!)"
         },
         {
           "speaker": "raju",
@@ -376,7 +323,7 @@
       "level": 2,
       "progress": {
         "current": 11,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -389,7 +336,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Fog aur mist ko operationally visibility se distinguish kiya jata hai: fog mein visibility usually 1 km se kam hoti hai; mist mein visibility 1 km ya usse zyada, often 5 km tak, ho sakti hai. Exact reporting standard/region ke hisaab se threshold vary kar sakta hai."
+          "text": "⭐ BPSC Trap Question! Technically same hain, bas visibility ka difference: FOG = visibility < 1 km (bahut dense), MIST = visibility > 1 km (halka). ⭐ BPSC TRE: Bihar mein Winter (December-January) mein dense fog bahut common hai - North Bihar plains aur Ganga river basin mein. Visibility itni kam ki train/flight delays! Ab clouds kaise bante hain detail mein samajhte hain."
         },
         {
           "speaker": "raju",
@@ -409,7 +356,7 @@
       "level": 3,
       "progress": {
         "current": 12,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -442,7 +389,7 @@
       "level": 3,
       "progress": {
         "current": 13,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -475,7 +422,7 @@
       "level": 3,
       "progress": {
         "current": 14,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -488,15 +435,11 @@
         },
         {
           "speaker": "aman",
-          "text": "Clouds se short-term clues mil sakte hain, lekin ye fixed prediction rules nahi: cirrus kabhi approaching system ka signal de sakta hai, fair-weather cumulus stable conditions mein common hai, nimbostratus prolonged rain se associated hai, aur cumulonimbus thunderstorm risk batata hai. Bihar mein pre-monsoon Nor’wester thunderstorms cumulonimbus se linked ho sakte hain."
+          "text": "Bilkul! CIRRUS (high wispy) = weather change aa raha hai 24-48 hrs mein. CUMULUS (white fluffy) = good weather. Dark NIMBOSTRATUS = continuous rain. Towering CUMULONIMBUS = thunderstorm alert! ⭐ BPSC TRE: Bihar mein pre-monsoon (April-May) mein cumulonimbus clouds se Nor'wester/Kal-Baisakhi thunderstorms aati hain - bahut destructive!"
         },
         {
           "speaker": "raju",
           "text": "Ab jab cloud banta hai toh rain kaise hoti hai?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Cloud droplets grow karke heavy ho jaate hain; jab hawa unhe hold nahi kar paati, to precipitation ke roop mein rain girti hai. Ice-crystal aur coalescence processes is growth mein help karte hain."
         }
       ],
       "navigation": {
@@ -512,27 +455,15 @@
       "level": 3,
       "progress": {
         "current": 15,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "Condensation ke liye kaun si चीज़ absolutely necessary hai जो air mein present honi chahiye?",
         "options": [
-          {
-            "id": "A",
-            "text": "Oxygen"
-          },
-          {
-            "id": "B",
-            "text": "Hygroscopic Nuclei (dust, salt particles)"
-          },
-          {
-            "id": "C",
-            "text": "Carbon dioxide"
-          },
-          {
-            "id": "D",
-            "text": "Ozone"
-          }
+          { "id": "A", "text": "Oxygen" },
+          { "id": "B", "text": "Hygroscopic Nuclei (dust, salt particles)" },
+          { "id": "C", "text": "Carbon dioxide" },
+          { "id": "D", "text": "Ozone" }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ SSC/UPSC Important: Condensation ke liye HYGROSCOPIC NUCLEI (या condensation nuclei) absolutely necessary hain. Yeh chote particles hote hain (dust, salt crystals, smoke, pollen) jinके around water vapour condense hota hai. Pure air mein (nuclei ke bina) cloud formation नहीं हो सकता even if air saturated हो! Sea salt particles especially effective hain - isliye coastal areas mein cloud formation zyada. Industrial pollution bhi nuclei provide करता है (side effect!)."
@@ -550,27 +481,15 @@
       "level": 3,
       "progress": {
         "current": 16,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ Railway/SSC: कौन सी cloud thunderstorms aur lightning produce karti hai?",
         "options": [
-          {
-            "id": "A",
-            "text": "Cirrus"
-          },
-          {
-            "id": "B",
-            "text": "Stratus"
-          },
-          {
-            "id": "C",
-            "text": "Cumulus"
-          },
-          {
-            "id": "D",
-            "text": "Cumulonimbus"
-          }
+          { "id": "A", "text": "Cirrus" },
+          { "id": "B", "text": "Stratus" },
+          { "id": "C", "text": "Cumulus" },
+          { "id": "D", "text": "Cumulonimbus" }
         ],
         "correct_option_id": "D",
         "explanation": "CUMULONIMBUS cloud thunderstorms, lightning, heavy rain, hail produce karti hai. Yeh sabse powerful vertical development cloud hai (15+ km height tak). Top pe anvil (aeran) shape ban jaata hai. ⭐ Identification: Dark, towering, anvil-shaped top. ⭐ Mnemonic: \"NIMBUS = RAIN\" - Cumulonimbus aur Nimbostratus dono rain clouds hain but Cumulonimbus zyada violent! Regular fluffy white Cumulus fair weather cloud hai (confusion mat karna)!"
@@ -588,27 +507,15 @@
       "level": 3,
       "progress": {
         "current": 17,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE: Bihar mein pre-monsoon season (April-May) mein violent thunderstorms kis cloud type se aati hain?",
         "options": [
-          {
-            "id": "A",
-            "text": "Nimbostratus"
-          },
-          {
-            "id": "B",
-            "text": "Altostratus"
-          },
-          {
-            "id": "C",
-            "text": "Cumulonimbus"
-          },
-          {
-            "id": "D",
-            "text": "Cirrostratus"
-          }
+          { "id": "A", "text": "Nimbostratus" },
+          { "id": "B", "text": "Altostratus" },
+          { "id": "C", "text": "Cumulonimbus" },
+          { "id": "D", "text": "Cirrostratus" }
         ],
         "correct_option_id": "C",
         "explanation": "⭐ BPSC TRE Super Important: Bihar mein pre-monsoon season (April-May) mein CUMULONIMBUS clouds se violent thunderstorms आती हैं जिन्हें 'Kal-Baisakhi' या 'Nor'wester' कहते हैं। Yeh Northwestern direction से आती हैं, bohot destructive hoti hैं - तेज़ हवा, बिजली, कभी ओले भी! Patna, Muzaffarpur, North Bihar areas worst affected. Local naam 'Andhi-Toofan'. Farmers को काफी नुकसान होता है इस season में!"
@@ -626,7 +533,7 @@
       "level": 3,
       "progress": {
         "current": 18,
-        "total": 53
+        "total": 72
       },
       "milestone_payload": {
         "title": "☁️ Cloud Master Unlocked!",
@@ -649,7 +556,7 @@
       "level": 3,
       "progress": {
         "current": 19,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -682,7 +589,7 @@
       "level": 3,
       "progress": {
         "current": 20,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -715,7 +622,7 @@
       "level": 3,
       "progress": {
         "current": 21,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -734,7 +641,7 @@
           "speaker": "raju",
           "text": "Ab rainfall kitne type ki hoti hai mechanism ke hisab se?"
         }
-      ],
+      },
       "navigation": {
         "next": "card_22_rainfall_types_intro",
         "button_text": "3 Main Types ➔"
@@ -748,12 +655,12 @@
       "level": 4,
       "progress": {
         "current": 22,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
           "speaker": "aman",
-          "text": "Rainfall ko air rise karne ke mechanism ke basis par 3 types samjho: (1) CONVECTIONAL—surface heating se air rise (equatorial regions, afternoon thunderstorms), (2) OROGRAPHIC/RELIEF—land surface ki height aur shape ke kaaran mountains air ko rise karne par majboor karte hain (windward side rain, leeward dry), (3) CYCLONIC/FRONTAL—air masses collision, jahan warm air cold air ke upar rise karti hai. ⭐ UPSC regularly poochta hai: Indian monsoon konsi type hai?"
+          "text": "Rainfall ko air RISE karne ke mechanism ke basis par 3 types: (1) CONVECTIONAL - surface heating se air rise (equatorial regions, afternoon thunderstorms), (2) OROGRAPHIC/RELIEF - mountains force air to rise (windward side rain, leeward dry), (3) CYCLONIC/FRONTAL - air masses collision (warm air forced to rise over cold). ⭐ UPSC regularly पूछता है: Indian monsoon konsi type hai?"
         },
         {
           "speaker": "raju",
@@ -781,7 +688,7 @@
       "level": 4,
       "progress": {
         "current": 23,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -814,7 +721,7 @@
       "level": 4,
       "progress": {
         "current": 24,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -847,7 +754,7 @@
       "level": 4,
       "progress": {
         "current": 25,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -856,7 +763,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh is tarah ki rainfall ghoomti low-pressure hawa se related hai?"
+          "text": "Toh cyclonic matlab cyclone se thodi related hai?"
         },
         {
           "speaker": "aman",
@@ -865,10 +772,6 @@
         {
           "speaker": "raju",
           "text": "Monsoon toh India ke liye sabse important hai na?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Haan, India mein monsoon rainfall bahut important hai. Isme moisture-laden winds, low-pressure pattern, convergence aur mountains ki lifting milkar rain karwa sakte hain."
         }
       ],
       "navigation": {
@@ -884,27 +787,15 @@
       "level": 4,
       "progress": {
         "current": 26,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "RAIN SHADOW area kahan banta hai orographic rainfall mein?",
         "options": [
-          {
-            "id": "A",
-            "text": "Windward side (jahan se hawa aati hai)"
-          },
-          {
-            "id": "B",
-            "text": "Leeward side (mountain ke doosri taraf)"
-          },
-          {
-            "id": "C",
-            "text": "Mountain ke top par"
-          },
-          {
-            "id": "D",
-            "text": "Dono sides equally"
-          }
+          { "id": "A", "text": "Windward side (jahan se hawa aati hai)" },
+          { "id": "B", "text": "Leeward side (mountain ke doosri taraf)" },
+          { "id": "C", "text": "Mountain ke top par" },
+          { "id": "D", "text": "Dono sides equally" }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ UPSC/BPSC Important Concept: RAIN SHADOW area LEEWARD side (mountain ke doosri taraf, हवा जाने की तरफ) में बनता है। Windward side पे heavy rain होती है (moist air rises → condenses). जब air mountain cross करके leeward side पे descends, तो वो warm और dry हो जाती है - बहुत कम rain! Classic Example: Western Ghats - Windward (West - Mumbai 2400mm rain), Leeward (East - Pune 700mm). Deccan Plateau rain shadow में है!"
@@ -922,27 +813,15 @@
       "level": 4,
       "progress": {
         "current": 27,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ SSC/Railway: Equatorial regions mein daily afternoon thunderstorms किस प्रकार की rainfall हैं?",
         "options": [
-          {
-            "id": "A",
-            "text": "Orographic"
-          },
-          {
-            "id": "B",
-            "text": "Convectional"
-          },
-          {
-            "id": "C",
-            "text": "Cyclonic"
-          },
-          {
-            "id": "D",
-            "text": "Frontal"
-          }
+          { "id": "A", "text": "Orographic" },
+          { "id": "B", "text": "Convectional" },
+          { "id": "C", "text": "Cyclonic" },
+          { "id": "D", "text": "Frontal" }
         ],
         "correct_option_id": "B",
         "explanation": "Equatorial regions (Amazon, Congo basin) में daily afternoon thunderstorms CONVECTIONAL rainfall हैं। Direct intense sun heating → ground hot → air rises through convection → cumulonimbus clouds → heavy rain with thunder। Timing: Afternoon (maximum heating), Duration: 1-2 hours, Intensity: Very heavy but short. ⭐ Identification: Daily pattern, afternoon timing, localized area, thunder/lightning = Convectional! Mid-latitudes में cyclonic, mountains पे orographic!"
@@ -960,27 +839,15 @@
       "level": 4,
       "progress": {
         "current": 28,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ UPSC: Cherrapunji/Mawsynram (Meghalaya) world's wettest क्यों हैं?",
         "options": [
-          {
-            "id": "A",
-            "text": "Equatorial region में हैं (convectional rain)"
-          },
-          {
-            "id": "B",
-            "text": "Khasi Hills के WINDWARD side पर (orographic rain)"
-          },
-          {
-            "id": "C",
-            "text": "Cyclone prone area"
-          },
-          {
-            "id": "D",
-            "text": "समुद्र के बिल्कुल पास (sea effect)"
-          }
+          { "id": "A", "text": "Equatorial region में हैं (convectional rain)" },
+          { "id": "B", "text": "Khasi Hills के WINDWARD side पर (orographic rain)" },
+          { "id": "C", "text": "Cyclone prone area" },
+          { "id": "D", "text": "समुद्र के बिल्कुल पास (sea effect)" }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ UPSC Classic Question: Cherrapunji और Mawsynram (Meghalaya) OROGRAPHIC RAINFALL के perfect examples हैं। ये Khasi Hills के WINDWARD side (South slope) पे स्थित हैं। SW Monsoon winds Bay of Bengal से moisture लेकर आती हैं, Khasi Hills से टकराकर forced to rise → heavy rain! Annual rainfall ~11,000 mm! ⭐ Interesting: Shillong (same hills, leeward/North side) comparatively dry (~2000mm) - rain shadow effect! Geography का classic case study!"
@@ -998,7 +865,7 @@
       "level": 4,
       "progress": {
         "current": 29,
-        "total": 53
+        "total": 72
       },
       "milestone_payload": {
         "title": "🌧️ Precipitation Expert!",
@@ -1021,7 +888,7 @@
       "level": 4,
       "progress": {
         "current": 30,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -1040,7 +907,7 @@
           "speaker": "raju",
           "text": "SW monsoon kaise banta hai? Mechanism kya hai?"
         }
-      ],
+      },
       "navigation": {
         "next": "card_31_monsoon_mechanism",
         "button_text": "Mechanism detail ➔"
@@ -1054,7 +921,7 @@
       "level": 4,
       "progress": {
         "current": 31,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -1087,7 +954,7 @@
       "level": 5,
       "progress": {
         "current": 32,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -1120,12 +987,12 @@
       "level": 5,
       "progress": {
         "current": 33,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
           "speaker": "aman",
-          "text": "Monsoon UNPREDICTABLE hai—kabhi late arrival, kabhi early withdrawal, kabhi deficit (kam rain—drought), kabhi excess (zyada—floods). Major factor: EL NINO! Ye Pacific Ocean mein sea-surface temperature warming phenomenon hai—warm water Eastern Pacific mein jaane par India mein monsoon weak ho sakta hai. LA NINA iska opposite cooling phenomenon hai aur monsoon ko strong kar sakta hai."
+          "text": "Monsoon UNPREDICTABLE hai - yeh India की tragedy! Kabhi late arrival, kabhi early withdrawal, kabhi deficit (kam rain - drought), kabhi excess (zyada - floods). Major factor: EL NINO! Yeh Pacific Ocean mein sea surface temperature warming phenomenon hai - jब El Nino → warm water Eastern Pacific में → India पे monsoon WEAK (less rain - drought conditions!). LA NINA (opposite) → monsoon STRONG!"
         },
         {
           "speaker": "raju",
@@ -1139,7 +1006,7 @@
           "speaker": "raju",
           "text": "Toh monsoon failure agriculture ko barbad kar deti hai?"
         }
-      ],
+      },
       "navigation": {
         "next": "card_34_monsoon_importance",
         "button_text": "Bilkul! ➔"
@@ -1153,7 +1020,7 @@
       "level": 5,
       "progress": {
         "current": 34,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -1186,7 +1053,7 @@
       "level": 5,
       "progress": {
         "current": 35,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -1203,9 +1070,9 @@
         },
         {
           "speaker": "raju",
-          "text": "Theek hai Sir, taiyar hoon!"
+          "text": "Theek hai Sir, ready hoon!"
         }
-      ],
+      },
       "navigation": {
         "next": "card_36_quiz_monsoon_1",
         "button_text": "Monsoon Quiz ➔"
@@ -1219,27 +1086,15 @@
       "level": 5,
       "progress": {
         "current": 36,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ UPSC: EL NINO का Indian SW Monsoon पर क्या effect होता है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Monsoon strengthen होती है (heavy rainfall)"
-          },
-          {
-            "id": "B",
-            "text": "Monsoon weaken होती है (deficit rainfall/drought)"
-          },
-          {
-            "id": "C",
-            "text": "Monsoon पर कोई effect नहीं"
-          },
-          {
-            "id": "D",
-            "text": "Monsoon की direction change हो जाती है"
-          }
+          { "id": "A", "text": "Monsoon strengthen होती है (heavy rainfall)" },
+          { "id": "B", "text": "Monsoon weaken होती है (deficit rainfall/drought)" },
+          { "id": "C", "text": "Monsoon पर कोई effect नहीं" },
+          { "id": "D", "text": "Monsoon की direction change हो जाती है" }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ UPSC Regularly Asked: EL NINO (Pacific Ocean में sea surface warming) होने पर Indian SW Monsoon WEAKEN होती है - deficit rainfall, drought conditions risk! El Nino years: 2002, 2009, 2015 - India में drought. Mechanism: El Nino → Pacific mein convection shift → Indian Ocean circulation disturb → monsoon weak. Opposite: LA NINA (Pacific cooling) → Indian monsoon STRONG/excess rain! ⭐ Current Affairs: हर साल El Nino forecast important for agriculture planning!"
@@ -1257,27 +1112,15 @@
       "level": 5,
       "progress": {
         "current": 37,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE: Bihar को mainly किस monsoon branch से rainfall मिलती है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Arabian Sea Branch"
-          },
-          {
-            "id": "B",
-            "text": "Bay of Bengal Branch"
-          },
-          {
-            "id": "C",
-            "text": "Northeast Monsoon"
-          },
-          {
-            "id": "D",
-            "text": "Western Disturbances"
-          }
+          { "id": "A", "text": "Arabian Sea Branch" },
+          { "id": "B", "text": "Bay of Bengal Branch" },
+          { "id": "C", "text": "Northeast Monsoon" },
+          { "id": "D", "text": "Western Disturbances" }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ BPSC TRE Super Critical: Bihar को मुख्यतः BAY OF BENGAL BRANCH of SW Monsoon से rainfall मिलती है (June-September)। यह branch Bay of Bengal से moisture लेकर Bengal/Odisha होते हुए Himalayas से टकराकर deflect होती है → Indo-Gangetic plains (Bihar, UP) को rain! Arabian Sea branch mainly Western India (Mumbai, Goa, Western Ghats) को cover करती है। Bihar average: 1100-1200mm annual, mostly इसी branch से!"
@@ -1295,27 +1138,15 @@
       "level": 5,
       "progress": {
         "current": 38,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE: Bihar में drought aur flood prone areas कौन से हैं?",
         "options": [
-          {
-            "id": "A",
-            "text": "Flood: South Bihar, Drought: North Bihar"
-          },
-          {
-            "id": "B",
-            "text": "Flood: North Bihar (Ganga basin), Drought: South-West Bihar (plateau)"
-          },
-          {
-            "id": "C",
-            "text": "Pure Bihar में केवल flood problem"
-          },
-          {
-            "id": "D",
-            "text": "Pure Bihar में केवल drought problem"
-          }
+          { "id": "A", "text": "Flood: South Bihar, Drought: North Bihar" },
+          { "id": "B", "text": "Flood: North Bihar (Ganga basin), Drought: South-West Bihar (plateau)" },
+          { "id": "C", "text": "Pure Bihar में केवल flood problem" },
+          { "id": "D", "text": "Pure Bihar में केवल drought problem" }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ BPSC TRE Super Important Bihar Geography: Bihar में paradox - NORTH BIHAR (Ganga, Kosi, Gandak river basins - Champaran, Muzaffarpur, Darbhanga, Saharsa) FLOOD PRONE है (excess monsoon + Himalayan river overflow)। SOUTH-WEST BIHAR (Gaya, Aurangabad, Rohtas - Chota Nagpur plateau fringe) DROUGHT PRONE है (erratic/deficit rainfall, rain shadow effect partially)। यह dual challenge Bihar disaster management का major issue! Every monsoon season dono problems simultaneously!"
@@ -1333,7 +1164,7 @@
       "level": 5,
       "progress": {
         "current": 39,
-        "total": 53
+        "total": 72
       },
       "milestone_payload": {
         "title": "🌦️ Monsoon Master!",
@@ -1356,7 +1187,7 @@
       "level": 3,
       "progress": {
         "current": 40,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -1375,7 +1206,7 @@
           "speaker": "raju",
           "text": "Aur rain ko kaise measure karte hain?"
         }
-      ],
+      },
       "navigation": {
         "next": "card_41_rain_gauge",
         "button_text": "Rain Gauge ➔"
@@ -1389,7 +1220,7 @@
       "level": 3,
       "progress": {
         "current": 41,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -1402,13 +1233,13 @@
         },
         {
           "speaker": "aman",
-          "text": "Rainfall ko mm mein report karte hain: 1 mm rainfall ka matlab 1 litre water per square metre, agar uniformly spread ho. 50 mm = 50 litres/m². IMD intensity labels fixed “100/200 mm” shortcut nahi hain—official categories duration and range ke saath use hoti hain; 24-hour total aur short-duration intensity ko mix mat karo."
+          "text": "Matlab agar pure area पे uniformly rain ho, toh 50 mm (5 cm) depth tak paani भर जाएगा! 50mm = 50 litres/m². ⭐ BPSC TRE: Bihar mein average annual rainfall 1100-1200 mm (110-120 cm). Heavy rain = 100+ mm in 24 hours, Very heavy = 200+ mm! Modern: Automatic/Tipping Bucket Rain Gauges (electronic - real time data)!"
         },
         {
           "speaker": "raju",
           "text": "Cloud cover ko kaise measure karte hain?"
         }
-      ],
+      },
       "navigation": {
         "next": "card_42_cloud_measurement",
         "button_text": "Cloud Measurement ➔"
@@ -1422,7 +1253,7 @@
       "level": 3,
       "progress": {
         "current": 42,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -1441,7 +1272,7 @@
           "speaker": "raju",
           "text": "IMD kya karta hai exactly?"
         }
-      ],
+      },
       "navigation": {
         "next": "card_43_imd_role",
         "button_text": "IMD Important ➔"
@@ -1455,12 +1286,12 @@
       "level": 3,
       "progress": {
         "current": 43,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
           "speaker": "aman",
-          "text": "IMD (India Meteorological Department) Government of India ki agency hai, Ministry of Earth Sciences ke under. Functions: (1) Daily weather forecasts, (2) Monsoon onset/withdrawal/progress monitoring, (3) **Cyclone warnings**—cyclone yani low-pressure centre ke around ghoomti hawa ka system—(4) Agricultural advisories, (5) Aviation/Navy support, (6) Climate data collection. ⭐ UPSC: IMD established 1875, headquarters New Delhi, regional centres across India!"
+          "text": "IMD (India Meteorological Department) - Government of India agency under Ministry of Earth Sciences! Functions: (1) Daily weather forecasts (temperature, rain prediction), (2) Monsoon onset/withdrawal/progress monitoring, (3) Cyclone warnings (life-saving!), (4) Agricultural advisories, (5) Aviation/Navy support, (6) Climate data collection! ⭐ UPSC: IMD established 1875, Headquarter: New Delhi, Regional centers across India!"
         },
         {
           "speaker": "raju",
@@ -1474,7 +1305,7 @@
           "speaker": "raju",
           "text": "Bahut useful hai farmers के लिए!"
         }
-      ],
+      },
       "navigation": {
         "next": "card_44_quiz_measurement_1",
         "button_text": "Quiz Time ➔"
@@ -1488,27 +1319,15 @@
       "level": 3,
       "progress": {
         "current": 44,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "Humidity को measure करने वाला instrument कौन सा है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Barometer"
-          },
-          {
-            "id": "B",
-            "text": "Hygrometer"
-          },
-          {
-            "id": "C",
-            "text": "Anemometer"
-          },
-          {
-            "id": "D",
-            "text": "Thermometer"
-          }
+          { "id": "A", "text": "Barometer" },
+          { "id": "B", "text": "Hygrometer" },
+          { "id": "C", "text": "Anemometer" },
+          { "id": "D", "text": "Thermometer" }
         ],
         "correct_option_id": "B",
         "explanation": "HYGROMETER humidity measure करता है। Common types: (1) PSYCHROMETER (Wet & Dry Bulb Thermometer - do thermometers use करके relative humidity calculate), (2) HAIR HYGROMETER (human hair की hygroscopic property use करके mechanical movement measure)। ⭐ Confusion रोको: Barometer = atmospheric pressure, Anemometer = wind speed, Thermometer = temperature! SSC/Railway में instrument-measurement matching पूछा जाता है!"
@@ -1526,27 +1345,15 @@
       "level": 3,
       "progress": {
         "current": 45,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ SSC: Cloud cover किस unit में measure होता है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Percentage (%)"
-          },
-          {
-            "id": "B",
-            "text": "Oktas (0-8 scale)"
-          },
-          {
-            "id": "C",
-            "text": "Millimeters (mm)"
-          },
-          {
-            "id": "D",
-            "text": "Degrees (°)"
-          }
+          { "id": "A", "text": "Percentage (%)" },
+          { "id": "B", "text": "Oktas (0-8 scale)" },
+          { "id": "C", "text": "Millimeters (mm)" },
+          { "id": "D", "text": "Degrees (°)" }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ SSC/Railway Direct Question: Cloud cover OKTAS में measure होता है - यह 0 से 8 तक का scale है। 0 = Completely clear sky (no clouds), 4 = Half sky covered, 8 = Completely overcast (पूरा आकाश बादलों से ढका)। यह visual observation method है - weather observers sky का कितना portion cloudy है estimate करते हैं। Modern methods: Satellite imagery और Ceilometer (cloud height)!"
@@ -1564,27 +1371,15 @@
       "level": 3,
       "progress": {
         "current": 46,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ UPSC: IMD (India Meteorological Department) का headquarter कहाँ है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Mumbai"
-          },
-          {
-            "id": "B",
-            "text": "Kolkata"
-          },
-          {
-            "id": "C",
-            "text": "New Delhi"
-          },
-          {
-            "id": "D",
-            "text": "Pune"
-          }
+          { "id": "A", "text": "Mumbai" },
+          { "id": "B", "text": "Kolkata" },
+          { "id": "C", "text": "New Delhi" },
+          { "id": "D", "text": "Pune" }
         ],
         "correct_option_id": "C",
         "explanation": "⭐ UPSC Static GK: IMD (India Meteorological Department) का headquarter NEW DELHI में है। यह Ministry of Earth Sciences के अंतर्गत आता है। Establishment: 1875 (British era)। Functions: Weather forecasting, monsoon monitoring, cyclone warnings, climate data। Regional centers: Mumbai, Kolkata, Chennai, Nagpur आदि। Pune में IMD Training Institute है। ⭐ Current Affairs: IMD हाल ही में color-coded weather warnings system लाया है (Green-Yellow-Orange-Red)!"
@@ -1602,7 +1397,7 @@
       "level": 3,
       "progress": {
         "current": 47,
-        "total": 53
+        "total": 72
       },
       "milestone_payload": {
         "title": "📏 Measurement Expert!",
@@ -1625,7 +1420,7 @@
       "level": 5,
       "progress": {
         "current": 48,
-        "total": 53
+        "total": 72
       },
       "summary_payload": {
         "title": "⚡ Officer-Level Quick Revision",
@@ -1665,7 +1460,7 @@
       "level": 5,
       "progress": {
         "current": 49,
-        "total": 53
+        "total": 72
       },
       "messages": [
         {
@@ -1698,30 +1493,18 @@
       "level": 5,
       "progress": {
         "current": 50,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC Multi-Statement Question:\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n\n1. Temperature बढ़ने से Relative Humidity घटती है (यदि water vapour amount constant रहे)।\n2. Cumulonimbus clouds से thunderstorms, lightning और hail होती हैं।\n3. Orographic rainfall में leeward side पर rain shadow area बनता है।\n4. El Nino phenomenon Indian monsoon को strengthen करता है।\n\nउपरोक्त में से कौन-कौन से कथन सही हैं?",
         "options": [
-          {
-            "id": "A",
-            "text": "केवल 1, 2 और 3"
-          },
-          {
-            "id": "B",
-            "text": "केवल 2, 3 और 4"
-          },
-          {
-            "id": "C",
-            "text": "केवल 1, 2 और 4"
-          },
-          {
-            "id": "D",
-            "text": "सभी 1, 2, 3 और 4"
-          }
+          { "id": "A", "text": "केवल 1, 2 और 3" },
+          { "id": "B", "text": "केवल 2, 3 और 4" },
+          { "id": "C", "text": "केवल 1, 2 और 4" },
+          { "id": "D", "text": "सभी 1, 2, 3 और 4" }
         ],
         "correct_option_id": "A",
-        "explanation": "⭐ BPSC Analysis:\n\nStatement 1: ✅ CORRECT - Temperature increase → air की capacity बढ़ती है (warm air holds more moisture) → relative humidity = (actual/max)×100 decreases! यह SSC का classic trap है!\n\nStatement 2: ✅ CORRECT - Cumulonimbus = vertical development cloud, सबसे powerful! Thunderstorms, lightning, heavy rain, hail सब produce करता है। Top पर anvil shape.\n\nStatement 3: ✅ CORRECT - Orographic rain में windward side (जहाँ से hawa आती है) पर heavy rain, leeward side (mountain cross करके) पर rain shadow (dry)! Example: W.Ghats windward vs Deccan leeward.\n\nStatement 4: ❌ WRONG as a general exam statement—El Niño often weakens Indian summer monsoon and raises drought risk, while La Niña often supports a stronger monsoon. But the relationship is probabilistic, not an every-year guarantee.\n\n✅ Answer: A (केवल 1, 2, 3 सही)"
+        "explanation": "⭐ BPSC Analysis:\n\nStatement 1: ✅ CORRECT - Temperature increase → air की capacity बढ़ती है (warm air holds more moisture) → relative humidity = (actual/max)×100 decreases! यह SSC का classic trap है!\n\nStatement 2: ✅ CORRECT - Cumulonimbus = vertical development cloud, सबसे powerful! Thunderstorms, lightning, heavy rain, hail सब produce करता है। Top पर anvil shape.\n\nStatement 3: ✅ CORRECT - Orographic rain में windward side (जहाँ से hawa आती है) पर heavy rain, leeward side (mountain cross करके) पर rain shadow (dry)! Example: W.Ghats windward vs Deccan leeward.\n\nStatement 4: ❌ WRONG - El Nino monsoon को WEAKEN करता है (drought risk!), strengthen नहीं! La Nina strengthen करता है। यह UPSC का favorite trap!\n\n✅ Answer: A (केवल 1, 2, 3 सही)"
       },
       "navigation": {
         "next": "card_51_final_quiz_2",
@@ -1736,30 +1519,18 @@
       "level": 5,
       "progress": {
         "current": 51,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ UPSC Assertion-Reason Question:\n\nअभिकथन (Assertion): Cherrapunji और Mawsynram (Meghalaya) विश्व में सर्वाधिक वर्षा वाले स्थान हैं।\n\nकारण (Reason): ये स्थान Khasi Hills के windward slope पर स्थित हैं जहाँ SW monsoon winds Bay of Bengal से नमी लेकर आती हैं और orographic rainfall होती है।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए:",
         "options": [
-          {
-            "id": "A",
-            "text": "Assertion और Reason दोनों सही हैं और Reason, Assertion की सही व्याख्या है"
-          },
-          {
-            "id": "B",
-            "text": "Assertion और Reason दोनों सही हैं परन्तु Reason, Assertion की सही व्याख्या नहीं है"
-          },
-          {
-            "id": "C",
-            "text": "Assertion सही है परन्तु Reason गलत है"
-          },
-          {
-            "id": "D",
-            "text": "Assertion गलत है परन्तु Reason सही है"
-          }
+          { "id": "A", "text": "Assertion और Reason दोनों सही हैं और Reason, Assertion की सही व्याख्या है" },
+          { "id": "B", "text": "Assertion और Reason दोनों सही हैं परन्तु Reason, Assertion की सही व्याख्या नहीं है" },
+          { "id": "C", "text": "Assertion सही है परन्तु Reason गलत है" },
+          { "id": "D", "text": "Assertion गलत है परन्तु Reason सही है" }
         ],
         "correct_option_id": "A",
-        "explanation": "Mawsynram/Cherrapunji Meghalaya ke very wet Khasi Hills region mein hain aur commonly world’s wettest places ke examples diye jaate hain; exact rank/year rainfall metric par depend karta hai. Reason broadly sahi hai: Bay of Bengal branch ki moisture-laden winds Khasi Hills ke windward slopes par orographic uplift se heavy rain deti hain. Assertion ko unqualified permanent record na samjho, but given exam framing mein A best answer hai."
+        "explanation": "⭐ UPSC Classic Geography Question:\n\nAssertion Analysis: ✅ CORRECT - Cherrapunji (11,777 mm annual avg) और Mawsynram (11,871 mm - world's wettest!) Meghalaya में हैं, सर्वाधिक वर्षा!\n\nReason Analysis: ✅ CORRECT - ये दोनों Khasi Hills के WINDWARD SLOPE (South-facing slope) पर स्थित हैं। SW Monsoon winds Bay of Bengal से moisture-laden आती हैं, hills से टकराकर forced to rise → orographic rainfall! Perfect mechanism explanation!\n\nLogical Connection: ✅ YES - Reason CORRECTLY explains WHY Cherrapunji/Mawsynram को इतनी वर्षा! Windward + orographic lifting = extreme rainfall!\n\n⭐ Bonus: Shillong (same hills, leeward/North side) को कम rain (~2000mm) - rain shadow effect का proof!\n\n✅ Answer: A (दोनों सही, Reason सही व्याख्या)"
       },
       "navigation": {
         "next": "card_52_final_quiz_3",
@@ -1774,30 +1545,18 @@
       "level": 5,
       "progress": {
         "current": 52,
-        "total": 53
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Special (Bihar-Specific):\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n\n1. Bihar को मुख्यतः Bay of Bengal branch of SW monsoon से वर्षा मिलती है।\n2. North Bihar (Ganga basin) flood-prone है जबकि South-West Bihar drought-prone।\n3. Bihar में SW monsoon की औसत arrival mid-June (15-20 June) होती है।\n4. Winter में Western Disturbances Bihar में rabi crops के लिए लाभदायक occasional rain लाते हैं।\n\nउपरोक्त कथनों में से कितने सही हैं?",
         "options": [
-          {
-            "id": "A",
-            "text": "केवल एक"
-          },
-          {
-            "id": "B",
-            "text": "केवल दो"
-          },
-          {
-            "id": "C",
-            "text": "केवल तीन"
-          },
-          {
-            "id": "D",
-            "text": "सभी चार"
-          }
+          { "id": "A", "text": "केवल एक" },
+          { "id": "B", "text": "केवल दो" },
+          { "id": "C", "text": "केवल तीन" },
+          { "id": "D", "text": "सभी चार" }
         ],
         "correct_option_id": "D",
-        "explanation": "⭐ BPSC TRE Bihar Geography - All Correct!\n\nStatement 1: ✅ CORRECT - Bihar को मुख्यतः BAY OF BENGAL BRANCH से वर्षा (June-Sept)। Arabian Sea branch Western India cover करती है।\n\nStatement 2: ✅ CORRECT - यह Bihar की geographical paradox! NORTH Bihar (Champaran, Muzaffarpur, Darbhanga - Ganga, Kosi, Gandak basins) FLOOD-PRONE (excess monsoon + river overflow)। SOUTH-WEST Bihar (Gaya, Aurangabad - plateau fringe) DROUGHT-PRONE (deficit/erratic rainfall)। Disaster management का major challenge!\n\nStatement 3: ✅ broadly correct as an approximate climatological exam fact—Bihar arrival is usually around mid-June, but onset date varies by year and district; do not treat 15–20 June as an immutable date. Kerala onset is also officially declared based on criteria, not only a calendar date.\n\nStatement 4: ✅ CORRECT - NE Monsoon Bihar को नहीं affect करती (dry continental winds)। But WESTERN DISTURBANCES (extra-tropical cyclones from Mediterranean) winter (Jan-Feb-March) में occasional rain/hailstorms लाते हैं - rabi crops (wheat, gram) को beneficial!\n\n✅ Answer: D (सभी चार correct!)\n\n⭐ यह complete Bihar rainfall pattern है - BPSC TRE का gold question!"
+        "explanation": "⭐ BPSC TRE Bihar Geography - All Correct!\n\nStatement 1: ✅ CORRECT - Bihar को मुख्यतः BAY OF BENGAL BRANCH से वर्षा (June-Sept)। Arabian Sea branch Western India cover करती है।\n\nStatement 2: ✅ CORRECT - यह Bihar की geographical paradox! NORTH Bihar (Champaran, Muzaffarpur, Darbhanga - Ganga, Kosi, Gandak basins) FLOOD-PRONE (excess monsoon + river overflow)। SOUTH-WEST Bihar (Gaya, Aurangabad - plateau fringe) DROUGHT-PRONE (deficit/erratic rainfall)। Disaster management का major challenge!\n\nStatement 3: ✅ CORRECT - SW Monsoon Bihar में mid-JUNE (15-20 June approx) arrive। Kerala 1st June, progressive northward advance। Retreat Sept end onwards।\n\nStatement 4: ✅ CORRECT - NE Monsoon Bihar को नहीं affect करती (dry continental winds)। But WESTERN DISTURBANCES (extra-tropical cyclones from Mediterranean) winter (Jan-Feb-March) में occasional rain/hailstorms लाते हैं - rabi crops (wheat, gram) को beneficial!\n\n✅ Answer: D (सभी चार correct!)\n\n⭐ यह complete Bihar rainfall pattern है - BPSC TRE का gold question!"
       },
       "navigation": {
         "next": "card_53_completion_trophy",
@@ -1812,7 +1571,7 @@
       "level": 5,
       "progress": {
         "current": 53,
-        "total": 53
+        "total": 72
       },
       "milestone_payload": {
         "title": "🏆 HUMIDITY & PRECIPITATION MASTER!",
@@ -1829,3 +1588,4 @@
     }
   ]
 }
+

@@ -1,14 +1,8 @@
+
 {
   "topic_id": "drainage_indian_geography",
   "topic_title": "Drainage System of India",
-  "target_exams": [
-    "BPSC",
-    "BSSC",
-    "RRB NTPC",
-    "SSC CGL",
-    "UPSC Prelims",
-    "BPSC TRE"
-  ],
+  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims", "BPSC TRE"],
   "total_cards": 69,
   "characters": {
     "aman": {
@@ -37,14 +31,7 @@
         "title": "Drainage System of India",
         "subtitle": "Rivers, Patterns & Water Networks",
         "icon": "🌊",
-        "target_exams": [
-          "BPSC",
-          "BSSC",
-          "RRB NTPC",
-          "SSC CGL",
-          "UPSC Prelims",
-          "BPSC TRE"
-        ],
+        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "UPSC Prelims", "BPSC TRE"],
         "learning_outcomes": [
           "Drainage patterns और watershed concepts",
           "Himalayan river systems - Indus, Ganga, Brahmaputra",
@@ -109,7 +96,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Drainage ka matlab hai—paani ke bahne ka system. Jab baarish hoti hai to paani nadiyon ke through samudra tak pahunchta hai. Ek river aur uski tributaries se drain hone wale poore area ko **Drainage Basin** kehte hain; ise Catchment Area bhi bolte hain. Jaise Ganga Basin mein woh sab chhoti-badi nadiyan hain jo finally Ganga mein milti hain."
+          "text": "Drainage का मतलब है - पानी के बहने का system। जब बारिश होती है तो पानी नदियों के through समुद्र तक पहुँचता है। Drainage Basin (या Catchment Area) वो पूरा area है जहाँ से पानी collect होकर एक river में आता है। जैसे Ganga Basin में वो सब छोटी-बड़ी नदियाँ हैं जो finally Ganga में मिलती हैं।"
         },
         {
           "speaker": "raju",
@@ -142,7 +129,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Himalayan rivers generally young, deeply incised aur perennial hoti hain, kyunki rain plus snow/glacier melt flow support karte hain; plains mein meanders aur floodplains develop hote hain. Peninsular rivers generally older, more graded aur **monsoon-dependent**, yani seasonal winds par dependent, hoti hain. Lekin “all Himalayan perennial/all Peninsular seasonal” absolute rule nahi—Narmada, Tapi aur groundwater-fed reaches exceptions ho sakte hain. Delta aur estuary ka formation bhi slope, sediment, tides aur coast par depend karta hai."
+          "text": "Himalayan Rivers: (1) युवा, energetic - तेज़ बहाव (2) Perennial (साल भर पानी) - बर्फ पिघलता रहता है (3) Deep gorges बनाती हैं (4) Meandering - मैदानों में टेढ़ी-मेढ़ी (5) Delta बनाती हैं। Examples: Ganga, Indus, Brahmaputra। Peninsular Rivers: (1) पुरानी, stable (2) Seasonal - बारिश पर dependent (3) Fixed course (4) Straight flow ज्यादातर (5) Estuary बनाती हैं। Examples: Narmada, Tapi, Godavari, Krishna।"
         },
         {
           "speaker": "raju",
@@ -188,10 +175,6 @@
         {
           "speaker": "raju",
           "text": "DTR trick अच्छा है! Amarkantak से कौन-कौन सी rivers?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Amarkantak region se Narmada, Son aur Mahanadi nikalti hain. Isliye radial drainage ke example ke roop mein Amarkantak ko yaad rakho."
         }
       ],
       "navigation": {
@@ -212,22 +195,10 @@
       "quiz_payload": {
         "question": "Himalayan rivers और Peninsular rivers में मुख्य अंतर क्या है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Himalayan rivers seasonal हैं, Peninsular perennial"
-          },
-          {
-            "id": "B",
-            "text": "Himalayan rivers perennial हैं, Peninsular seasonal"
-          },
-          {
-            "id": "C",
-            "text": "दोनों perennial हैं"
-          },
-          {
-            "id": "D",
-            "text": "दोनों seasonal हैं"
-          }
+          { "id": "A", "text": "Himalayan rivers seasonal हैं, Peninsular perennial" },
+          { "id": "B", "text": "Himalayan rivers perennial हैं, Peninsular seasonal" },
+          { "id": "C", "text": "दोनों perennial हैं" },
+          { "id": "D", "text": "दोनों seasonal हैं" }
         ],
         "correct_option_id": "B",
         "explanation": "Himalayan rivers (Ganga, Indus, Brahmaputra) PERENNIAL हैं - साल भर बहती हैं क्योंकि Himalayan बर्फ लगातार पिघलता रहता है + बारिश भी मिलती है। Peninsular rivers (Godavari, Krishna, Mahanadi) ज्यादातर SEASONAL हैं - monsoon पर depend करती हैं। Exception: Narmada और Tapi भी थोड़ी perennial nature की हैं। BPSC/SSC में यह fundamental difference बार-बार पूछा जाता है।"
@@ -250,22 +221,10 @@
       "quiz_payload": {
         "question": "Narmada और Tapi rivers समुद्र में मिलते समय क्या बनाती हैं?",
         "options": [
-          {
-            "id": "A",
-            "text": "Delta (डेल्टा)"
-          },
-          {
-            "id": "B",
-            "text": "Estuary (ज्वारनदमुख)"
-          },
-          {
-            "id": "C",
-            "text": "Gorge (गॉर्ज)"
-          },
-          {
-            "id": "D",
-            "text": "Meander (विसर्प)"
-          }
+          { "id": "A", "text": "Delta (डेल्टा)" },
+          { "id": "B", "text": "Estuary (ज्वारनदमुख)" },
+          { "id": "C", "text": "Gorge (गॉर्ज)" },
+          { "id": "D", "text": "Meander (विसर्प)" }
         ],
         "correct_option_id": "B",
         "explanation": "Narmada और Tapi rivers ESTUARY बनाती हैं, delta नहीं। Estuary एक funnel-shaped mouth है जहाँ river तेज़ बहती है और tidal influence होता है, इसलिए sediment जम नहीं पाता। ⭐ BPSC/SSC Favorite Trap: बाकी बड़ी Peninsular rivers (Godavari, Krishna, Mahanadi, Kaveri) delta बनाती हैं। केवल Narmada-Tapi estuary बनाती हैं क्योंकि ये rift valleys से होकर बहती हैं और तेज़ speed से सीधे Arabian Sea में गिरती हैं।"
@@ -288,25 +247,13 @@
       "quiz_payload": {
         "question": "Amarkantak hills से कौन-कौन सी नदियाँ निकलती हैं?",
         "options": [
-          {
-            "id": "A",
-            "text": "Ganga, Yamuna"
-          },
-          {
-            "id": "B",
-            "text": "Narmada और Son"
-          },
-          {
-            "id": "C",
-            "text": "Godavari, Krishna"
-          },
-          {
-            "id": "D",
-            "text": "Indus, Sutlej"
-          }
+          { "id": "A", "text": "Ganga, Yamuna" },
+          { "id": "B", "text": "Narmada, Son, Mahanadi" },
+          { "id": "C", "text": "Godavari, Krishna" },
+          { "id": "D", "text": "Indus, Sutlej" }
         ],
         "correct_option_id": "B",
-        "explanation": "Amarkantak region se Narmada (westward) aur Son (north-eastward) originate hoti hain. Mahanadi ka source Sihawa region, Chhattisgarh mein hai, isliye option B correct hai. Amarkantak radial drainage ka important example hai, but three-major-rivers list mein Mahanadi include karna inaccurate hai."
+        "explanation": "Amarkantak hills (Madhya Pradesh-Chhattisgarh border) से तीन major rivers निकलती हैं: (1) Narmada - पश्चिम की ओर (2) Son - उत्तर-पूर्व की ओर (Ganga की tributary) (3) Mahanadi - पूर्व की ओर। यह Radial Drainage Pattern का perfect example है - एक central point से rivers चारों दिशा में। ⭐ SSC/Railway में Amarkantak-river matching frequently पूछा जाता है।"
       },
       "navigation": {
         "next": "card_09_milestone_basics",
@@ -390,7 +337,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Bilkul sahi! Sutlej Himachal Pradesh se hokar bahti hai, Bhakra-Nangal Dam isi par hai. Beas bhi Himachal se, Ravi Punjab (India) se, Jhelum aur Chenab J&K se. ⭐ SSC mein **tributary-state matching** aata hai—tributary yani main river mein milne wali chhoti river. Indus Water Treaty (1960) mein eastern rivers Ravi, Beas, Sutlej India ko aur western rivers Indus, Jhelum, Chenab Pakistan ko di gayi hain."
+          "text": "Bilkul sahi! Sutlej Himachal Pradesh से होकर बहती है, Bhakra-Nangal Dam इसी पर है (India का दूसरा सबसे ऊँचा dam)। Beas भी Himachal से। Ravi Punjab (India) से। Jhelum और Chenab J&K से। ⭐ SSC में tributary-state matching आता है। Indus Water Treaty (1960) - India और Pakistan के बीच - ये तीन eastern rivers (Ravi, Beas, Sutlej) India को, तीन western (Indus, Jhelum, Chenab) Pakistan को।"
         },
         {
           "speaker": "raju",
@@ -448,7 +395,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Ganga tributaries ko bank ke hisaab se samjho: left-bank/north-side examples Ghaghra, Gandak and Kosi; right-bank/south-side examples Yamuna, Son, Tamsa and Damodar. Yamuna ko left bank mein rakhna common trap hai—Yamuna south se aakar Prayagraj par Ganga mein milti hai. Bihar examples: Gandak, Kosi and Son."
+          "text": "Ganga की tributaries दो groups में: (1) LEFT BANK (North से आती हैं - Himalayan): Yamuna, Ramganga, Gandak, Ghaghra, Kosi। (2) RIGHT BANK (South से - Peninsular plateau): Son, Damodar। Left bank tributaries बड़ी और perennial हैं। Right bank छोटी और seasonal। ⭐ BPSC TRE Favorite - Bihar की नदियाँ: Gandak (Narayani), Kosi (Sorrow of Bihar), Son (Peninsula से आती है)।"
         },
         {
           "speaker": "raju",
@@ -481,7 +428,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Yamuna Ganga ki major and commonly cited largest/longest tributary hai; exact “largest” measure (length, basin, discharge) question ke wording par depend kar sakta hai. Yamunotri se nikal kar Delhi/UP se hote hue Prayagraj mein Ganga se milti hai. Chambal, Betwa and Ken iski important peninsular tributaries hain."
+          "text": "Yamuna - Ganga की सबसे बड़ी tributary, Yamunotri Glacier (Uttarakhand) से। Delhi से होकर बहती है, Prayagraj (Allahabad) में Ganga में मिलती है - इसे Triveni Sangam कहते हैं (Ganga + Yamuna + mythical Saraswati)। Uttarakhand में पाँच पवित्र Prayags हैं जहाँ नदियाँ मिलती हैं: (1) Vishnu Prayag - Alaknanda + Dhauliganga (2) Nand Prayag - Alaknanda + Nandakini (3) Karn Prayag - Alaknanda + Pindar (4) Rudra Prayag - Alaknanda + Mandakini (5) Dev Prayag - Bhagirathi + Alaknanda = GANGA starts!"
         },
         {
           "speaker": "raju",
@@ -514,7 +461,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "Brahmaputra ke naam region-wise badalte hain: Tibet mein Yarlung Tsangpo, Arunachal mein Siang/Dihang, Assam mein Brahmaputra, Bangladesh mein Jamuna. Namcha Barwa ke paas sharp bend ke baad India mein enter karti hai. Assam valley mein braided channels, heavy sediment and floods ke liye famous hai—“world’s largest braided river” ke bajay one of the major braided rivers bolo."
+          "text": "Brahmaputra - एक river, कई नाम! Tibet में Tsangpo (यहाँ से origin), Arunachal में Siang/Dihang, Assam में Brahmaputra, Bangladesh में Jamuna। यह भी Mansarovar के पास Chemayungdung glacier से निकलती है। खास बात: Tibet में EAST की तरफ बहती है, फिर Arunachal में U-turn लेकर WEST-then-SOUTH बहती है। India में length ~916 km लेकिन width बहुत ज्यादा - World's largest braided river!"
         },
         {
           "speaker": "raju",
@@ -559,11 +506,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Himalayan rivers ka main flow samajh aa gaya; tributaries ko quiz se check karte hain?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Bilkul, pehle concept samajh liya; ab tributary names ka recall quiz se check karte hain. Quiz se pehle yaad rakho: north-bank examples Subansiri, Kameng, Manas; south-bank examples Dibang, Lohit, Teesta diye gaye hain."
+          "text": "Himalayan rivers complete! Quiz time?"
         }
       ],
       "navigation": {
@@ -584,22 +527,10 @@
       "quiz_payload": {
         "question": "पाँच पंजाब नदियाँ (Indus की tributaries) कौन सी हैं?",
         "options": [
-          {
-            "id": "A",
-            "text": "Ganga, Yamuna, Saraswati, Gandak, Kosi"
-          },
-          {
-            "id": "B",
-            "text": "Jhelum, Chenab, Ravi, Beas, Sutlej"
-          },
-          {
-            "id": "C",
-            "text": "Narmada, Tapi, Son, Chambal, Betwa"
-          },
-          {
-            "id": "D",
-            "text": "Brahmaputra, Teesta, Manas, Subansiri, Kameng"
-          }
+          { "id": "A", "text": "Ganga, Yamuna, Saraswati, Gandak, Kosi" },
+          { "id": "B", "text": "Jhelum, Chenab, Ravi, Beas, Sutlej" },
+          { "id": "C", "text": "Narmada, Tapi, Son, Chambal, Betwa" },
+          { "id": "D", "text": "Brahmaputra, Teesta, Manas, Subansiri, Kameng" }
         ],
         "correct_option_id": "B",
         "explanation": "PUNJAB (पंजाब) का मतलब ही 'पाँच नदियों की भूमि' - ये पाँच नदियाँ हैं: Jhelum, Chenab, Ravi, Beas, Sutlej (सब Indus की tributaries)। Mnemonic: 'JC RoBS Indus'। ⭐ SSC/Railway में यह directly पूछा जाता है। Indus Water Treaty (1960) के according - Ravi, Beas, Sutlej (eastern) India को; Indus, Jhelum, Chenab (western) Pakistan को allocated हैं।"
@@ -622,22 +553,10 @@
       "quiz_payload": {
         "question": "Kosi नदी को 'Sorrow of Bihar' क्यों कहा जाता है?",
         "options": [
-          {
-            "id": "A",
-            "text": "क्योंकि यह सूख जाती है गर्मियों में"
-          },
-          {
-            "id": "B",
-            "text": "क्योंकि यह बहुत प्रदूषित है"
-          },
-          {
-            "id": "C",
-            "text": "क्योंकि यह बार-बार बाढ़ लाती है और अपना course बदलती है"
-          },
-          {
-            "id": "D",
-            "text": "क्योंकि इसमें मछली नहीं पाई जाती"
-          }
+          { "id": "A", "text": "क्योंकि यह सूख जाती है गर्मियों में" },
+          { "id": "B", "text": "क्योंकि यह बहुत प्रदूषित है" },
+          { "id": "C", "text": "क्योंकि यह बार-बार बाढ़ लाती है और अपना course बदलती है" },
+          { "id": "D", "text": "क्योंकि इसमें मछली नहीं पाई जाती" }
         ],
         "correct_option_id": "C",
         "explanation": "Kosi को 'Sorrow of Bihar' (बिहार का शोक) कहा जाता है क्योंकि यह बार-बार विनाशकारी बाढ़ लाती है और अपना course (मार्ग) frequently बदलती है। यह Nepal से निकलती है (Saptakoshi - 7 tributaries) और भारी silt load के कारण unstable है। ⭐ BPSC TRE Favorite Question - Bihar geography से। हर साल हजारों लोग इसकी बाढ़ से प्रभावित होते हैं।"
@@ -660,22 +579,10 @@
       "quiz_payload": {
         "question": "World का सबसे बड़ा delta कौन सा है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Nile Delta (मिस्र)"
-          },
-          {
-            "id": "B",
-            "text": "Mississippi Delta (USA)"
-          },
-          {
-            "id": "C",
-            "text": "Ganga-Brahmaputra Delta (Sundarbans)"
-          },
-          {
-            "id": "D",
-            "text": "Mekong Delta (Vietnam)"
-          }
+          { "id": "A", "text": "Nile Delta (मिस्र)" },
+          { "id": "B", "text": "Mississippi Delta (USA)" },
+          { "id": "C", "text": "Ganga-Brahmaputra Delta (Sundarbans)" },
+          { "id": "D", "text": "Mekong Delta (Vietnam)" }
         ],
         "correct_option_id": "C",
         "explanation": "Ganga-Brahmaputra-Meghna Delta (Sundarbans) दुनिया का सबसे बड़ा delta है - लगभग 10,000 sq km area। यह West Bengal (India) और Bangladesh में फैला हुआ है। यहाँ world का largest mangrove forest है और Royal Bengal Tigers का habitat है। ⭐ UPSC/SSC में 'Largest delta' + 'Largest mangrove' दोनों facts frequently पूछे जाते हैं।"
@@ -898,11 +805,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Peninsular rivers ka broad pattern samajh aa gaya; quiz se recall check karte hain?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Bilkul, ab Kaveri aur peninsular-river facts ka recall check karte hain. Kaveri east-flowing river hai aur Bay of Bengal mein girti hai."
+          "text": "Peninsular rivers complete! Quiz?"
         }
       ],
       "navigation": {
@@ -923,22 +826,10 @@
       "quiz_payload": {
         "question": "Peninsular India की सबसे लंबी नदी कौन सी है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Narmada"
-          },
-          {
-            "id": "B",
-            "text": "Godavari"
-          },
-          {
-            "id": "C",
-            "text": "Krishna"
-          },
-          {
-            "id": "D",
-            "text": "Kaveri"
-          }
+          { "id": "A", "text": "Narmada" },
+          { "id": "B", "text": "Godavari" },
+          { "id": "C", "text": "Krishna" },
+          { "id": "D", "text": "Kaveri" }
         ],
         "correct_option_id": "B",
         "explanation": "Godavari (~1465 km) Peninsular India की सबसे लंबी नदी है। इसे 'Dakshin Ganga' (South की Ganga) कहा जाता है। Basin area भी Peninsular में सबसे बड़ा है। Origin: Trimbakeshwar (Nashik, Maharashtra)। ⭐ BPSC/SSC Trap: Narmada सबसे लंबी WEST flowing Peninsular river है (~1312 km), लेकिन overall longest नहीं। Krishna second longest है (~1400 km)।"
@@ -961,22 +852,10 @@
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सी नदी Rift Valley से होकर बहती है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Godavari"
-          },
-          {
-            "id": "B",
-            "text": "Krishna"
-          },
-          {
-            "id": "C",
-            "text": "Narmada"
-          },
-          {
-            "id": "D",
-            "text": "Mahanadi"
-          }
+          { "id": "A", "text": "Godavari" },
+          { "id": "B", "text": "Krishna" },
+          { "id": "C", "text": "Narmada" },
+          { "id": "D", "text": "Mahanadi" }
         ],
         "correct_option_id": "C",
         "explanation": "Narmada (और Tapi) Rift Valley से होकर बहती हैं - Vindhya और Satpura ranges के बीच। Rift valley एक geological fault/crack है Earth की crust में। यही कारण है कि Narmada-Tapi West की तरफ (सीधी line में) बहती हैं जबकि बाकी सब Peninsular rivers East बहती हैं। ⭐ UPSC Classic Question - Narmada की unique geological feature।"
@@ -999,22 +878,10 @@
       "quiz_payload": {
         "question": "Hirakud Dam किस नदी पर बना है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Godavari"
-          },
-          {
-            "id": "B",
-            "text": "Krishna"
-          },
-          {
-            "id": "C",
-            "text": "Mahanadi"
-          },
-          {
-            "id": "D",
-            "text": "Kaveri"
-          }
+          { "id": "A", "text": "Godavari" },
+          { "id": "B", "text": "Krishna" },
+          { "id": "C", "text": "Mahanadi" },
+          { "id": "D", "text": "Kaveri" }
         ],
         "correct_option_id": "C",
         "explanation": "Hirakud Dam Mahanadi नदी पर Odisha में बना है। यह दुनिया के सबसे लंबे earthen (मिट्टी के) dams में से एक है। 1957 में बना था। Huge reservoir बनाता है। ⭐ SSC/Railway में dam-river matching frequently पूछी जाती है। याद रखें: Hirakud-Mahanadi (Odisha), Sardar Sarovar-Narmada (Gujarat), Nagarjuna Sagar-Krishna (Telangana)।"
@@ -1139,10 +1006,6 @@
         {
           "speaker": "raju",
           "text": "Bihar geography clear! Quiz time?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Bilkul, Bihar ke rivers, wetlands aur Kanwar Jheel wale facts par quiz karte hain."
         }
       ],
       "navigation": {
@@ -1163,22 +1026,10 @@
       "quiz_payload": {
         "question": "India की largest freshwater lake कौन सी है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Dal Lake (J&K)"
-          },
-          {
-            "id": "B",
-            "text": "Wular Lake (J&K)"
-          },
-          {
-            "id": "C",
-            "text": "Chilika Lake (Odisha)"
-          },
-          {
-            "id": "D",
-            "text": "Loktak Lake (Manipur)"
-          }
+          { "id": "A", "text": "Dal Lake (J&K)" },
+          { "id": "B", "text": "Wular Lake (J&K)" },
+          { "id": "C", "text": "Chilika Lake (Odisha)" },
+          { "id": "D", "text": "Loktak Lake (Manipur)" }
         ],
         "correct_option_id": "B",
         "explanation": "Wular Lake (Jammu & Kashmir) India की largest FRESHWATER lake है। Chilika largest coastal lagoon है (brackish water)। Dal Lake famous tourist spot है लेकिन size में छोटी है। ⭐ SSC/Railway Trap: 'Largest lake' vs 'Largest freshwater lake' vs 'Largest saltwater lake' - सब अलग हैं! Wular-Freshwater, Chilika-Coastal lagoon (brackish), Sambhar-Saltwater।"
@@ -1201,22 +1052,10 @@
       "quiz_payload": {
         "question": "Chilika Lake के बारे में कौन सा कथन सही है?",
         "options": [
-          {
-            "id": "A",
-            "text": "यह India की largest freshwater lake है"
-          },
-          {
-            "id": "B",
-            "text": "यह India की largest coastal lagoon है"
-          },
-          {
-            "id": "C",
-            "text": "यह saltwater lake है"
-          },
-          {
-            "id": "D",
-            "text": "यह Rajasthan में स्थित है"
-          }
+          { "id": "A", "text": "यह India की largest freshwater lake है" },
+          { "id": "B", "text": "यह India की largest coastal lagoon है" },
+          { "id": "C", "text": "यह saltwater lake है" },
+          { "id": "D", "text": "यह Rajasthan में स्थित है" }
         ],
         "correct_option_id": "B",
         "explanation": "Chilika Lake (Odisha) India की largest coastal lagoon है और Asia की भी सबसे बड़ी। यह brackish water lake है (समुद्र का पानी मिला होने से)। Famous for: migratory birds, Irrawaddy dolphins, Ramsar Site। ⭐ UPSC/BPSC में multiple facts एक साथ - 'largest coastal lagoon + Asia largest + Ramsar + Odisha + brackish + migratory birds'।"
@@ -1239,22 +1078,10 @@
       "quiz_payload": {
         "question": "⭐ BPSC TRE: Kanwar Jheel (Bihar) किस प्रकार की lake है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Volcanic lake"
-          },
-          {
-            "id": "B",
-            "text": "Glacial lake"
-          },
-          {
-            "id": "C",
-            "text": "Oxbow lake"
-          },
-          {
-            "id": "D",
-            "text": "Crater lake"
-          }
+          { "id": "A", "text": "Volcanic lake" },
+          { "id": "B", "text": "Glacial lake" },
+          { "id": "C", "text": "Oxbow lake" },
+          { "id": "D", "text": "Crater lake" }
         ],
         "correct_option_id": "C",
         "explanation": "Kanwar Jheel (Begusarai, Bihar) एक Oxbow lake है - Asia की largest freshwater oxbow lake। Oxbow lake तब बनती है जब meandering river का loop कट जाता है। यह Ramsar Site है (internationally important wetland)। Migratory birds का महत्वपूर्ण habitat। ⭐ BPSC TRE Favorite - Bihar geography से direct question। Ganga की old meander से बनी है।"
@@ -1300,7 +1127,7 @@
       "messages": [
         {
           "speaker": "aman",
-          "text": "India ki rivers ke kai urban stretches polluted hain. Main sources: (1) industrial waste, (2) untreated sewage, (3) agricultural runoff, (4) religious/solid-waste activities. Ganga ke Kanpur–Varanasi stretches aur Yamuna ke Delhi stretch mein serious pollution examples milte hain; “poori river har jagah equally polluted” ya “oxygen zero” jaisa absolute statement mat banao."
+          "text": "India की rivers बहुत polluted हो चुकी हैं। Main sources: (1) Industrial waste - factories सीधे नदियों में chemicals dump करते हैं (2) Sewage - cities का गंदा पानी बिना treatment (3) Agricultural runoff - pesticides, fertilizers (4) Religious activities - मूर्ति विसर्जन, flower waste। Ganga सबसे ज्यादा polluted - Kanpur (leather industry), Varanasi के पास worst condition। Yamuna Delhi के पास 'dead river' - oxygen zero!"
         },
         {
           "speaker": "raju",
@@ -1308,11 +1135,11 @@
         },
         {
           "speaker": "aman",
-          "text": "Government schemes: (1) Namami Gange Programme (2014) — sewage treatment aur river rejuvenation, (2) National River Conservation Plan, (3) STPs, (4) industrial effluent control. Ganga 2008 mein National River declare hui aur Ganges river dolphin National Aquatic Animal hai. 2017 mein Uttarakhand High Court ne Ganga-Yamuna ko legal person/“living entity” treat karne ka order diya tha, lekin Supreme Court ne us order par stay diya; ise “Ganga Act 2016 ne status diya” na likho."
+          "text": "Government schemes: (1) Namami Gange Programme (2014) - Ganga cleaning, ₹20,000+ crores। (2) National River Conservation Plan - बाकी rivers के लिए। (3) Sewage Treatment Plants (STPs) बनाना। (4) Industrial effluent control। लेकिन progress slow है। ⭐ UPSC Current Affairs: Ganga declared 'National River' (2008), Dolphin - National Aquatic Animal। Ganga Act 2016 - river को living entity का status!"
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya—pollution-control schemes aur legal judgments alag cheezein hain; 2017 ka HC order final all-India statutory status nahi tha."
+          "text": "Living entity! Legal protection!"
         }
       ],
       "navigation": {
@@ -1373,8 +1200,8 @@
           "text": "Controversial project! कितने links complete हुए?"
         },
         {
-          "text": "Abhi sirf planning stage में ज्यादातर। Ken-Betwa पहला है जो start हुआ। ⭐ UPSC/BPSC Essay/Mains topic: 'River interlinking - environmental vs developmental concern'। Supreme Court ने कई बार केंद्र को directions दिए हैं। Complex issue - science, politics, diplomacy सब involved! Feasibility studies still ongoing for most links।",
-          "speaker": "aman"
+          "sender": "aman",
+          "text": "Abhi sirf planning stage में ज्यादातर। Ken-Betwa पहला है जो start हुआ। ⭐ UPSC/BPSC Essay/Mains topic: 'River interlinking - environmental vs developmental concern'। Supreme Court ने कई बार केंद्र को directions दिए हैं। Complex issue - science, politics, diplomacy सब involved! Feasibility studies still ongoing for most links।"
         }
       ],
       "navigation": {
@@ -1395,22 +1222,10 @@
       "quiz_payload": {
         "question": "Namami Gange Programme का मुख्य उद्देश्य क्या है?",
         "options": [
-          {
-            "id": "A",
-            "text": "नई नहरें बनाना"
-          },
-          {
-            "id": "B",
-            "text": "Ganga river की सफाई और संरक्षण"
-          },
-          {
-            "id": "C",
-            "text": "नए dams बनाना"
-          },
-          {
-            "id": "D",
-            "text": "River interlinking"
-          }
+          { "id": "A", "text": "नई नहरें बनाना" },
+          { "id": "B", "text": "Ganga river की सफाई और संरक्षण" },
+          { "id": "C", "text": "नए dams बनाना" },
+          { "id": "D", "text": "River interlinking" }
         ],
         "correct_option_id": "B",
         "explanation": "Namami Gange Programme (2014 में launch) का मुख्य उद्देश्य Ganga river की सफाई (pollution control) और rejuvenation है। Budget: ₹20,000+ crores। Focus: sewage treatment plants, industrial effluent control, afforestation, public awareness। ⭐ SSC/Railway Current Affairs: Ganga - National River (2008), इस programme को Ministry of Jal Shakti implement कर रही है।"
@@ -1433,22 +1248,10 @@
       "quiz_payload": {
         "question": "⭐ BPSC TRE: Ahar-Pyne system किस राज्य की traditional irrigation system है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Rajasthan"
-          },
-          {
-            "id": "B",
-            "text": "Bihar"
-          },
-          {
-            "id": "C",
-            "text": "Punjab"
-          },
-          {
-            "id": "D",
-            "text": "Kerala"
-          }
+          { "id": "A", "text": "Rajasthan" },
+          { "id": "B", "text": "Bihar" },
+          { "id": "C", "text": "Punjab" },
+          { "id": "D", "text": "Kerala" }
         ],
         "correct_option_id": "B",
         "explanation": "Ahar-Pyne system Bihar (विशेषकर South Bihar) की traditional irrigation system है। Ahar = storage tank/reservoir, Pyne = channels जो पानी को खेतों तक ले जाती हैं। बाढ़ के excess water को capture करके बाद में use करते थे। ⭐ BPSC TRE में Bihar की traditional practices से questions। अब इस system को revive किया जा रहा है sustainable irrigation के लिए।"
@@ -1471,22 +1274,10 @@
       "quiz_payload": {
         "question": "Ken-Betwa Link Project किस scheme का हिस्सा है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Namami Gange"
-          },
-          {
-            "id": "B",
-            "text": "National River Conservation Plan"
-          },
-          {
-            "id": "C",
-            "text": "River Interlinking Project"
-          },
-          {
-            "id": "D",
-            "text": "Jal Jeevan Mission"
-          }
+          { "id": "A", "text": "Namami Gange" },
+          { "id": "B", "text": "National River Conservation Plan" },
+          { "id": "C", "text": "River Interlinking Project" },
+          { "id": "D", "text": "Jal Jeevan Mission" }
         ],
         "correct_option_id": "C",
         "explanation": "Ken-Betwa Link Project National River Interlinking Project का पहला link है जो execution stage में है। Ken river (surplus) से Betwa river (deficit) में पानी transfer करेगा - MP और UP के बीच। Panna Tiger Reserve area से होकर गुजरेगा। ⭐ UPSC Current Affairs: Environmental concerns vs irrigation benefits - debate topic। Supreme Court approval मिली है।"
@@ -1606,7 +1397,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Haan! Deltas mein alluvial soil, flat land aur good irrigation hoti hai—rice cultivation ke liye perfect. West-flowing rivers steep aur rocky areas se guzarti hain, isliye agriculture comparatively kam ho sakta hai. ⭐ BPSC/SSC Key Fact: Peninsular slope EASTWARD hai (Western Ghats ऊँचे, Eastern Ghats नीचे), isliye zyada rivers East flow karti hain. Narmada-Tapi rift valley ke through West-flowing exceptions hain. Bay of Bengal mein zyada freshwater plus sediment ki wajah se Arabian Sea ke comparison mein salinity low hoti hai!"
+          "text": "Haan! Deltas - alluvial soil, flat land, good irrigation - rice cultivation perfect। West flowing - steep, rocky, less agriculture। ⭐ BPSC/SSC Key Fact: Peninsular slope EASTWARD है (Western Ghats ऊंचे, Eastern Ghats नीचे), इसलिए ज्यादातर rivers East बहती हैं। केवल Narmada-Tapi exceptions (rift valley के through West)। Bay of Bengal में ज्यादा freshwater + sediment = low salinity compared to Arabian Sea!"
         },
         {
           "speaker": "raju",
@@ -1631,22 +1422,10 @@
       "quiz_payload": {
         "question": "Western Ghats किस प्रकार का watershed है?",
         "options": [
-          {
-            "id": "A",
-            "text": "यह केवल एक mountain range है, watershed नहीं"
-          },
-          {
-            "id": "B",
-            "text": "यह East और West flowing rivers को divide करता है"
-          },
-          {
-            "id": "C",
-            "text": "यह North और South rivers को divide करता है"
-          },
-          {
-            "id": "D",
-            "text": "यह केवल Karnataka में है"
-          }
+          { "id": "A", "text": "यह केवल एक mountain range है, watershed नहीं" },
+          { "id": "B", "text": "यह East और West flowing rivers को divide करता है" },
+          { "id": "C", "text": "यह North और South rivers को divide करता है" },
+          { "id": "D", "text": "यह केवल Karnataka में है" }
         ],
         "correct_option_id": "B",
         "explanation": "Western Ghats India का सबसे important watershed है जो East और West flowing rivers को divide करता है। Western side की नदियाँ (짧ी, swift) Arabian Sea में, Eastern side की (लंबी, gentle) Bay of Bengal में बहती हैं। यह entire West coast (Gujarat से Kerala तक) parallel में चलता है। ⭐ UPSC Geography: Western Ghats = UNESCO World Heritage Site (biodiversity hotspot भी)।"
@@ -1669,22 +1448,10 @@
       "quiz_payload": {
         "question": "Himalayan rivers 'perennial' क्यों हैं?",
         "options": [
-          {
-            "id": "A",
-            "text": "क्योंकि ये बहुत लंबी हैं"
-          },
-          {
-            "id": "B",
-            "text": "क्योंकि इनमें rain + snowmelt + glacier का पानी आता है"
-          },
-          {
-            "id": "C",
-            "text": "क्योंकि ये समुद्र में गिरती हैं"
-          },
-          {
-            "id": "D",
-            "text": "क्योंकि इनमें ज्यादा tributaries हैं"
-          }
+          { "id": "A", "text": "क्योंकि ये बहुत लंबी हैं" },
+          { "id": "B", "text": "क्योंकि इनमें rain + snowmelt + glacier का पानी आता है" },
+          { "id": "C", "text": "क्योंकि ये समुद्र में गिरती हैं" },
+          { "id": "D", "text": "क्योंकि इनमें ज्यादा tributaries हैं" }
         ],
         "correct_option_id": "B",
         "explanation": "Himalayan rivers perennial (साल भर बहने वाली) हैं क्योंकि इन्हें TRIPLE SOURCE से पानी मिलता है: (1) Monsoon rain (2) Spring/summer में snowmelt (3) Glacier melting। इसलिए ये कभी सूखती नहीं। Peninsular rivers mostly seasonal हैं - केवल rain dependent। ⭐ BPSC/SSC Fundamental Difference - हर साल पूछा जाता है।"
@@ -1707,22 +1474,10 @@
       "quiz_payload": {
         "question": "East flowing rivers deltas बनाती हैं लेकिन West flowing estuaries क्यों?",
         "options": [
-          {
-            "id": "A",
-            "text": "क्योंकि East rivers ज्यादा लंबी हैं"
-          },
-          {
-            "id": "B",
-            "text": "क्योंकि West rivers steep slope में तेज़ बहती हैं, sediment जम नहीं पाता"
-          },
-          {
-            "id": "C",
-            "text": "क्योंकि Arabian Sea में waves ज्यादा हैं"
-          },
-          {
-            "id": "D",
-            "text": "Option B और C दोनों सही"
-          }
+          { "id": "A", "text": "क्योंकि East rivers ज्यादा लंबी हैं" },
+          { "id": "B", "text": "क्योंकि West rivers steep slope में तेज़ बहती हैं, sediment जम नहीं पाता" },
+          { "id": "C", "text": "क्योंकि Arabian Sea में waves ज्यादा हैं" },
+          { "id": "D", "text": "Option B और C दोनों सही" }
         ],
         "correct_option_id": "D",
         "explanation": "West flowing rivers (Narmada, Tapi) estuaries बनाती हैं क्योंकि: (1) Steep gradient - तेज़ speed, sediment नहीं जमता (2) Rift valleys से होकर - straight, swift flow (3) Arabian Sea की strong tidal waves sediment को wash away कर देती हैं। East flowing rivers gentle slope पर धीरे बहती हैं, Bay of Bengal calm है, sediment जमकर deltas बनाते हैं। ⭐ UPSC/BPSC - Geomorphology concept।"
@@ -1809,7 +1564,7 @@
         },
         {
           "speaker": "aman",
-          "text": "Shared rivers mein treaties and basin cooperation important hain. Indus Waters Treaty 1960 ne wars ke bawajood framework diya, lekin “kabhi break nahi hui” jaise absolute claim ke bajay disputes, abeyance/interpretation and project disagreements ko current diplomatic context ke saath padho. Climate change, sediment, dams and data-sharing challenges remain."
+          "text": "Bahut! Indus Water Treaty - despite India-Pakistan wars, ye treaty kabhi break नहीं हुई (1960 से)। World Bank mediate करता है। But challenges: (1) China upper riparian - dams बना रहा Brahmaputra पर (2) Nepal hydropower - India को बिजली (3) Bangladesh - Ganga का पानी चाहिए। ⭐ UPSC Mains/Essay: 'Water diplomacy', 'Shared river management', 'Climate change impact on glaciers'।"
         },
         {
           "speaker": "raju",
@@ -1867,22 +1622,10 @@
       "quiz_payload": {
         "question": "Luni river की क्या विशेषता है?",
         "options": [
-          {
-            "id": "A",
-            "text": "यह India की सबसे लंबी river है"
-          },
-          {
-            "id": "B",
-            "text": "यह partly saline (खारी) हो जाती है"
-          },
-          {
-            "id": "C",
-            "text": "यह Himalayan river है"
-          },
-          {
-            "id": "D",
-            "text": "यह delta बनाती है"
-          }
+          { "id": "A", "text": "यह India की सबसे लंबी river है" },
+          { "id": "B", "text": "यह partly saline (खारी) हो जाती है" },
+          { "id": "C", "text": "यह Himalayan river है" },
+          { "id": "D", "text": "यह delta बनाती है" }
         ],
         "correct_option_id": "B",
         "explanation": "Luni river (Rajasthan) की unique विशेषता है कि यह partly saline हो जाती है - upper course में freshwater लेकिन lower में salt-rich soil से होकर बहने के कारण खारी हो जाती है। यह Rann of Kachchh में disappear हो जाती है (समुद्र तक नहीं पहुँचती)। ⭐ SSC Unique Geography Fact - Rajasthan की only major river जो Arabian Sea की तरफ बहती है।"
@@ -1905,22 +1648,10 @@
       "quiz_payload": {
         "question": "Indus Water Treaty (1960) के according, कौन सी नदियाँ India को allocated हैं?",
         "options": [
-          {
-            "id": "A",
-            "text": "Indus, Jhelum, Chenab"
-          },
-          {
-            "id": "B",
-            "text": "Ravi, Beas, Sutlej"
-          },
-          {
-            "id": "C",
-            "text": "सभी Indus tributaries India को"
-          },
-          {
-            "id": "D",
-            "text": "कोई भी नहीं, सब Pakistan को"
-          }
+          { "id": "A", "text": "Indus, Jhelum, Chenab" },
+          { "id": "B", "text": "Ravi, Beas, Sutlej" },
+          { "id": "C", "text": "सभी Indus tributaries India को" },
+          { "id": "D", "text": "कोई भी नहीं, सब Pakistan को" }
         ],
         "correct_option_id": "B",
         "explanation": "Indus Water Treaty (1960 - World Bank mediation) के according: EASTERN rivers (Ravi, Beas, Sutlej) India को, WESTERN rivers (Indus, Jhelum, Chenab) Pakistan को allocated हैं। यह treaty 60+ years से successful है despite wars। ⭐ UPSC/SSC Current Affairs - treaty की clauses, disputes (Kishanganga, Ratle projects) frequently पूछे जाते हैं।"
@@ -1943,22 +1674,10 @@
       "quiz_payload": {
         "question": "India में groundwater का सबसे बड़ा aquifer कहाँ है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Peninsular hard rocks"
-          },
-          {
-            "id": "B",
-            "text": "Ganga-Brahmaputra alluvial plains"
-          },
-          {
-            "id": "C",
-            "text": "Coastal areas"
-          },
-          {
-            "id": "D",
-            "text": "Himalayan regions"
-          }
+          { "id": "A", "text": "Peninsular hard rocks" },
+          { "id": "B", "text": "Ganga-Brahmaputra alluvial plains" },
+          { "id": "C", "text": "Coastal areas" },
+          { "id": "D", "text": "Himalayan regions" }
         ],
         "correct_option_id": "B",
         "explanation": "Ganga-Brahmaputra alluvial plains में India का सबसे बड़ा और सबसे productive aquifer है। Deep alluvial deposits huge groundwater store करते हैं। Peninsular hard rock aquifers limited और fragmented हैं। ⭐ BPSC/SSC Fact: लेकिन over-exploitation के कारण Punjab, Haryana, UP के parts में water table तेज़ी से गिर रही है - 'dark zones' declared।"
@@ -2056,22 +1775,10 @@
       "quiz_payload": {
         "question": "कथनों पर विचार करें:\n1. Narmada भारत की सबसे लंबी Peninsular river है।\n2. Narmada और Tapi दोनों rift valley से होकर बहती हैं।\n3. Narmada delta बनाती है Bay of Bengal में।\n\nसही कथन हैं:",
         "options": [
-          {
-            "id": "A",
-            "text": "केवल 1 और 2"
-          },
-          {
-            "id": "B",
-            "text": "केवल 2"
-          },
-          {
-            "id": "C",
-            "text": "केवल 1 और 3"
-          },
-          {
-            "id": "D",
-            "text": "सभी सही हैं"
-          }
+          { "id": "A", "text": "केवल 1 और 2" },
+          { "id": "B", "text": "केवल 2" },
+          { "id": "C", "text": "केवल 1 और 3" },
+          { "id": "D", "text": "सभी सही हैं" }
         ],
         "correct_option_id": "B",
         "explanation": "केवल कथन 2 सही है। कथन 1 गलत: Godavari (~1465 km) सबसे लंबी Peninsular river है, Narmada (~1312 km) सबसे लंबी WEST flowing Peninsular है। कथन 2 सही: दोनों rift valley (Vindhya-Satpura के बीच) से बहती हैं। कथन 3 गलत: Narmada ESTUARY बनाती है Arabian Sea में, delta नहीं। ⭐ BPSC Multi-statement Classic Trap!"
@@ -2094,22 +1801,10 @@
       "quiz_payload": {
         "question": "⭐ BPSC TRE: निम्नलिखित में match करें:\n\nList-I (River)          List-II (Feature)\nA. Kosi                    1. Son का tributary\nB. Gandak                2. Sorrow of Bihar\nC. Rihand                 3. Narayani नाम से Nepal में\nD. Ganga                 4. National River\n\nसही match:",
         "options": [
-          {
-            "id": "A",
-            "text": "A-2, B-3, C-1, D-4"
-          },
-          {
-            "id": "B",
-            "text": "A-3, B-2, C-4, D-1"
-          },
-          {
-            "id": "C",
-            "text": "A-1, B-4, C-3, D-2"
-          },
-          {
-            "id": "D",
-            "text": "A-4, B-1, C-2, D-3"
-          }
+          { "id": "A", "text": "A-2, B-3, C-1, D-4" },
+          { "id": "B", "text": "A-3, B-2, C-4, D-1" },
+          { "id": "C", "text": "A-1, B-4, C-3, D-2" },
+          { "id": "D", "text": "A-4, B-1, C-2, D-3" }
         ],
         "correct_option_id": "A",
         "explanation": "सही matching: A-2 (Kosi = Sorrow of Bihar, बार-बार बाढ़, course change), B-3 (Gandak को Nepal में Narayani कहते हैं), C-1 (Rihand, Son की tributary है, Rihand Dam प्रसिद्ध), D-4 (Ganga = National River, 2008 से)। ⭐ BPSC TRE में Bihar rivers की detailed knowledge - tributaries, alternative names, features - बहुत important है।"
@@ -2132,22 +1827,10 @@
       "quiz_payload": {
         "question": "Assertion (A): Himalayan rivers साल भर बहती हैं।\nReason (R): इन्हें केवल monsoon से पानी मिलता है।\n\nसही option चुनें:",
         "options": [
-          {
-            "id": "A",
-            "text": "A और R दोनों सही, R, A की सही व्याख्या है"
-          },
-          {
-            "id": "B",
-            "text": "A और R दोनों सही, R, A की सही व्याख्या नहीं"
-          },
-          {
-            "id": "C",
-            "text": "A सही, R गलत"
-          },
-          {
-            "id": "D",
-            "text": "A गलत, R सही"
-          }
+          { "id": "A", "text": "A और R दोनों सही, R, A की सही व्याख्या है" },
+          { "id": "B", "text": "A और R दोनों सही, R, A की सही व्याख्या नहीं" },
+          { "id": "C", "text": "A सही, R गलत" },
+          { "id": "D", "text": "A गलत, R सही" }
         ],
         "correct_option_id": "C",
         "explanation": "A सही है - Himalayan rivers perennial (साल भर बहने वाली) हैं। लेकिन R गलत है - इन्हें TRIPLE source से पानी मिलता है: (1) Monsoon rain (2) Snowmelt (spring/summer) (3) Glacier melting। इसीलिए ये साल भर बहती हैं। Peninsular rivers को केवल monsoon से पानी मिलता है, इसलिए ज्यादातर seasonal। ⭐ BPSC Assertion-Reason Pattern - reasoning skill test!"
@@ -2168,27 +1851,15 @@
         "total": 69
       },
       "quiz_payload": {
-        "question": "निम्नलिखित में से कौन सा समूह उन नदियों का है जो source से sea तक मुख्यतः भारत की सीमाओं के भीतर बहती हैं?",
+        "question": "निम्नलिखित में से कौन सी नदी अपने source से sea तक पूरी तरह India में ही बहती है?",
         "options": [
-          {
-            "id": "A",
-            "text": "Ganga और Brahmaputra"
-          },
-          {
-            "id": "B",
-            "text": "Indus और Ganga"
-          },
-          {
-            "id": "C",
-            "text": "Godavari, Krishna, Kaveri और Mahanadi"
-          },
-          {
-            "id": "D",
-            "text": "Brahmaputra और Indus"
-          }
+          { "id": "A", "text": "Ganga" },
+          { "id": "B", "text": "Brahmaputra" },
+          { "id": "C", "text": "Godavari" },
+          { "id": "D", "text": "Indus" }
         ],
         "correct_option_id": "C",
-        "explanation": "Godavari, Krishna, Kaveri and Mahanadi ke sources and mouths India mein hain. Ganga system Nepal/Bangladesh se connected hai, Brahmaputra Tibet/China and Bangladesh se, aur Indus Tibet/India/Pakistan se; wording ko “entirely within India” ke saath carefully padho."
+        "explanation": "Godavari पूरी तरह India में ही बहती है - origin (Trimbakeshwar, Maharashtra) से mouth (Bay of Bengal) तक। Ganga Nepal touch करती है, Brahmaputra Tibet और Bangladesh से होकर, Indus Tibet और Pakistan से। ⭐ SSC/Railway Trick Question - 'entirely within India' wording ध्यान से पढ़ें। बाकी बड़ी Peninsular rivers (Krishna, Kaveri, Mahanadi) भी पूरी India में हैं।"
       },
       "navigation": {
         "next": "card_64_final_quiz_q5",
@@ -2208,22 +1879,10 @@
       "quiz_payload": {
         "question": "Chilika Lake, Sambhar Lake, और Wular Lake को सही classify करें:",
         "options": [
-          {
-            "id": "A",
-            "text": "सभी freshwater lakes"
-          },
-          {
-            "id": "B",
-            "text": "सभी saltwater lakes"
-          },
-          {
-            "id": "C",
-            "text": "Chilika-brackish, Sambhar-saltwater, Wular-freshwater"
-          },
-          {
-            "id": "D",
-            "text": "Chilika-freshwater, Sambhar-brackish, Wular-saltwater"
-          }
+          { "id": "A", "text": "सभी freshwater lakes" },
+          { "id": "B", "text": "सभी saltwater lakes" },
+          { "id": "C", "text": "Chilika-brackish, Sambhar-saltwater, Wular-freshwater" },
+          { "id": "D", "text": "Chilika-freshwater, Sambhar-brackish, Wular-saltwater" }
         ],
         "correct_option_id": "C",
         "explanation": "Correct classification: Chilika (Odisha) - brackish water coastal lagoon (समुद्र का पानी मिला), largest coastal lagoon। Sambhar (Rajasthan) - saltwater lake (खारा), largest saltwater lake in India, salt production। Wular (J&K) - freshwater lake, largest freshwater। ⭐ UPSC/BPSC में lake classification + location + superlatives together पूछे जाते हैं - confusion trap!"
@@ -2246,22 +1905,10 @@
       "quiz_payload": {
         "question": "कथनों पर विचार करें:\n1. Western Ghats, East और West flowing rivers को divide करता है।\n2. अधिकतर Peninsular rivers East बहती हैं क्योंकि Peninsula का slope eastward है।\n3. West flowing rivers deltas बनाती हैं।\n\nसही कथन:",
         "options": [
-          {
-            "id": "A",
-            "text": "केवल 1 और 2"
-          },
-          {
-            "id": "B",
-            "text": "केवल 2 और 3"
-          },
-          {
-            "id": "C",
-            "text": "केवल 1 और 3"
-          },
-          {
-            "id": "D",
-            "text": "सभी सही"
-          }
+          { "id": "A", "text": "केवल 1 और 2" },
+          { "id": "B", "text": "केवल 2 और 3" },
+          { "id": "C", "text": "केवल 1 और 3" },
+          { "id": "D", "text": "सभी सही" }
         ],
         "correct_option_id": "A",
         "explanation": "केवल 1 और 2 सही। कथन 1 सही: Western Ghats major watershed - West side Arabian Sea, East side Bay of Bengal। कथन 2 सही: Peninsula का general slope eastward (Western Ghats ऊंचे, Eastern Ghats नीचे), इसलिए ज्यादातर rivers East बहती हैं। कथन 3 गलत: West flowing rivers (Narmada, Tapi) ESTUARIES बनाती हैं, deltas नहीं (steep slope, swift flow)। ⭐ BPSC Comprehensive Geography Question!"
@@ -2352,7 +1999,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye strategy useful lag rahi hai! Map practice करूँगा! 🗺️💯"
+          "text": "Perfect strategy! Map practice करूँगा! 🗺️💯"
         }
       ],
       "navigation": {
@@ -2385,3 +2032,4 @@
     }
   ]
 }
+
