@@ -3,46 +3,46 @@
     "qe": "Which of the following concentration terms does NOT change with a change in temperature?",
     "qh": "निम्नलिखित में से कौन सा सांद्रता पद तापमान बदलने पर नहीं बदलता है?",
     "o": [
-      "Molarity",
       "Molality",
       "Normality",
-      "Formality"
+      "Formality",
+      "Molarity"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Molality mass par aadharit hoti hai ($moles/kg$), jabki Molarity aur Normality volume par depend karti hain jo temperature badhne par expand hota hai."
   },
   {
     "qe": "What is the 'Coordination Number' of an atom in a Face-Centered Cubic (FCC) unit cell?",
     "qh": "एक फलक-केंद्रित घनीय (FCC) एकक कोष्ठिका में परमाणु की 'उपसहसंयोजन संख्या' (Coordination Number) क्या होती है?",
     "o": [
-      "6",
-      "8",
       "12",
-      "4"
+      "8",
+      "4",
+      "6"
     ],
-    "a": 2,
+    "a": 0,
     "e": "FCC crystal lattice me har atom apne plane ke 4, upar ke 4 aur niche ke 4 atoms ke direct contact me rehta hai, isliye CN = 12 hota hai."
   },
   {
     "qe": "Which gas law states that the solubility of a gas in a liquid is directly proportional to its partial pressure?",
     "qh": "कौन सा नियम बताता है कि किसी द्रव में गैस की विलेयता उसके आंशिक दाब के समानुपाती होती है?",
     "o": [
-      "Raoult's Law",
-      "Henry's Law",
       "Dalton's Law",
-      "Graham's Law"
+      "Graham's Law",
+      "Henry's Law",
+      "Raoult's Law"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Henry's Law ($p = K_H \\cdot x$) ke anusar gas ka pressure badhane par liquid me uski solubility badhti hai; yahi kaaran hai ki soda bottles high pressure par pack hoti hain."
   },
   {
     "qe": "Which stoichiometric defect in ionic solids causes a decrease in the density of the crystal?",
     "qh": "आयनिक ठोसों में कौन सा रससमीकरणमितीय दोष क्रिस्टल के घनत्व को कम कर देता है?",
     "o": [
-      "Frenkel Defect",
+      "Metal Excess Defect",
       "Schottky Defect",
-      "Interstitial Defect",
-      "Metal Excess Defect"
+      "Frenkel Defect",
+      "Interstitial Defect"
     ],
     "a": 1,
     "e": "Schottky defect me crystal lattice se barabar sankhya me cations aur anions gayab ho jaate hain, jisse volume same rehta hai par mass ghatne se density kam ho jaati hai."
@@ -51,12 +51,12 @@
     "qe": "Two solutions are said to be 'Isotonic' when they possess the same:",
     "qh": "दो विलयनों को 'समपरासारी' (Isotonic) तब कहा जाता है जब उनका समान होता है:",
     "o": [
-      "Molarity",
-      "Osmotic Pressure",
       "Boiling point",
-      "Vapor pressure"
+      "Vapor pressure",
+      "Molarity",
+      "Osmotic Pressure"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Isotonic solutions ka osmotic pressure ($\\pi_1 = \\pi_2$) samaan hota hai, isliye semi-permeable membrane ke aar-paar koi net solvent flow nahi hota."
   },
   {
@@ -64,45 +64,45 @@
     "qh": "किस अक्रिस्टलीय ठोस को वैज्ञानिक रूप से 'छद्म ठोस' या अतिशीतित द्रव (Supercooled Liquid) माना जाता है?",
     "o": [
       "Diamond",
-      "Glass",
       "NaCl",
+      "Glass",
       "Quartz"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Glass me regular long-range crystal structure nahi hota aur ye centuries me gravity ke under bohot dheere flow kar sakta hai, isliye ise supercooled liquid kehte hain."
   },
   {
     "qe": "What is the theoretical 'Van't Hoff Factor' (i) for a non-electrolyte solute like Glucose in aqueous solution?",
     "qh": "जलीय विलयन में ग्लूकोज जैसे गैर-विद्युतअपघट्य विलेय के लिए 'वैन हॉफ गुणांक' (i) का मान क्या होता है?",
     "o": [
+      "2",
       "0",
       "1",
-      "2",
       "0.5"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Glucose ($C_6H_{12}O_6$) solution me na to dissociate hota hai aur na associate, isliye particles ki sankhya same rehti hai aur $i = 1$ hota hai."
   },
   {
     "qe": "The 'F-centers' created in non-stoichiometric alkali halide crystals are primarily responsible for their:",
     "qh": "क्षार धातु हैलाइड क्रिस्टल में उत्पन्न 'F-केंद्र' (F-centers) मुख्य रूप से उनके किस गुण के लिए उत्तरदायी होते हैं?",
     "o": [
-      "Hardness",
       "Color",
+      "Radioactivity",
       "Ferromagnetism",
-      "Radioactivity"
+      "Hardness"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Anion vacancy me phanse hue unpaired electrons light energy absorb karke excite hote hain, jisse crystal me color paida hota hai (jaise NaCl ka peela rang)."
   },
   {
     "qe": "Colligative properties of a dilute solution depend exclusively on the:",
     "qh": "तनु विलयन के अणुसंख्य गुणधर्म (Colligative properties) केवल किस पर निर्भर करते हैं?",
     "o": [
-      "Chemical nature of solute",
+      "Viscosity of solution",
       "Number of solute particles",
       "Density of solvent",
-      "Viscosity of solution"
+      "Chemical nature of solute"
     ],
     "a": 1,
     "e": "Colligative properties (jaise osmotic pressure, boiling point elevation) solute ke chemical identity ya nature par nahi, sirf solution me particles ke count par depend karti hain."
@@ -111,10 +111,10 @@
     "qe": "What is the packing efficiency percentage of a 'Body-Centered Cubic' (BCC) crystal lattice?",
     "qh": "एक 'अंतःकेंद्रित घनीय' (BCC) क्रिस्टल जालक की संकुलन क्षमता (Packing Efficiency) कितने प्रतिशत होती है?",
     "o": [
-      "52.4%",
+      "100%",
       "68%",
       "74%",
-      "100%"
+      "52.4%"
     ],
     "a": 1,
     "e": "BCC unit cell me atoms dwara occupy kiya gaya total volume 68% hota hai aur baaki 32% khali void space hota hai."
@@ -125,8 +125,8 @@
     "o": [
       "Osmotic Pressure",
       "Relative lowering of vapor pressure",
-      "Elevation in boiling point",
-      "Depression in freezing point"
+      "Depression in freezing point",
+      "Elevation in boiling point"
     ],
     "a": 0,
     "e": "Biomolecules high temperatures par degrade ho jaate hain; Osmotic pressure room temperature par measure hota hai aur dilute solution par bhi significant magnitude deta hai."
@@ -135,12 +135,12 @@
     "qe": "Which of the following is a true 'Crystalline Solid' exhibiting long-range order and a sharp melting point?",
     "qh": "निम्नलिखित में से कौन सा एक वास्तविक 'क्रिस्टलीय ठोस' है जो दीर्घ-परासी व्यवस्था और तीक्ष्ण गलनांक प्रदर्शित करता है?",
     "o": [
-      "Rubber",
+      "Glass",
       "Plastic",
-      "Quartz",
-      "Glass"
+      "Rubber",
+      "Quartz"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Quartz ($SiO_2$) me regular tetrahedral long-range network hota hai aur iska melting point sharp hota hai, jabki glass amorphous hota hai."
   },
   {
@@ -148,11 +148,11 @@
     "qh": "ला-शातेलिए के सिद्धांत के अनुसार, जब घुलने की प्रक्रिया 'ऊष्माक्षेपी' हो और तापमान बढ़ाया जाए, तो विलेयता पर क्या प्रभाव पड़ता है?",
     "o": [
       "Increases",
-      "Decreases",
+      "Becomes infinite",
       "Remains unchanged",
-      "Becomes infinite"
+      "Decreases"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Exothermic process ($\\Delta H < 0$) me heat release hoti hai; temperature badhane par equilibrium backward shift hota hai, jisse solubility ghat jaati hai."
   },
   {
@@ -162,7 +162,7 @@
       "Schottky Defect only",
       "Frenkel Defect",
       "Metal Deficiency Defect",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "AgCl me $Ag^+$ cation ka size $Cl^-$ anion se kafi chhota hota hai, isliye $Ag^+$ ion apni normal site chhodkar interstitial void me chala jaata hai (Frenkel defect)."
@@ -171,24 +171,24 @@
     "qe": "What effect is observed on the 'Boiling Point' of water when a non-volatile solute like common salt is added?",
     "qh": "जब पानी में साधारण नमक जैसा अवाष्पशील विलेय मिलाया जाता है, तो इसके 'क्वथनांक' पर क्या प्रभाव पड़ता है?",
     "o": [
-      "Decreases",
       "Increases",
       "Remains unchanged",
+      "Decreases",
       "Becomes zero"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Non-volatile solute milane se solution ka vapor pressure ghat jaata hai; isliye atmospheric pressure match karne ke liye zyada heat deni padti hai (Elevation in Boiling Point)."
   },
   {
     "qe": "What is 'Bragg's Law' equation used for calculating interplanar spacing in X-ray crystallography?",
     "qh": "एक्स-रे क्रिस्टलोग्राफी में जालक तलों के बीच की दूरी की गणना के लिए 'ब्रैग का नियम' समीकरण क्या है?",
     "o": [
-      "$n\\lambda = 2d \\sin\\theta$",
-      "$PV = nRT$",
       "$E = mc^2$",
+      "$PV = nRT$",
+      "$n\\lambda = 2d \\sin\\theta$",
       "$\\lambda = h/mv$"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Bragg's equation $n\\lambda = 2d \\sin\\theta$ me $d$ crystal planes ke beech ka distance hai, $\\theta$ diffraction angle hai aur $\\lambda$ X-ray wavelength hai."
   },
   {
@@ -196,71 +196,71 @@
     "qh": "'हेनरी के नियम' के सूत्र में गैस की विलेयता दर्शाने के लिए किस सांद्रता इकाई का उपयोग किया जाता है?",
     "o": [
       "Molarity",
+      "Normality",
       "Mole Fraction",
-      "Molality",
-      "Normality"
+      "Molality"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Henry's law formulation me liquid solution ke andar dissolved gas ki solubility ko uske mole fraction ($x$) ke roop me express kiya jaata hai."
   },
   {
     "qe": "An extrinsic semiconductor prepared by doping Silicon (Group 14) with Phosphorus (Group 15) is classified as:",
     "qh": "सिलिकॉन (वर्ग 14) को फास्फोरस (वर्ग 15) के साथ डोप करके बनाया गया बाह्य अर्धचालक किस रूप में वर्गीकृत किया जाता है?",
     "o": [
-      "p-type semiconductor",
       "n-type semiconductor",
+      "p-type semiconductor",
       "Intrinsic semiconductor",
       "Superconductor"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Phosphorus pentavalent hota hai; 4 electrons silicon lattice ke saath covalent bond banate hain aur 5va electron conduction ke liye free rehta hai (negative charge carriers = n-type)."
   },
   {
     "qe": "Which thermodynamic criteria defines an 'Ideal Solution' obeying Raoult's Law at all concentrations?",
     "qh": "सभी सांद्रताओं पर राउल्ट के नियम का पालन करने वाले 'आदर्श विलयन' के लिए कौन सा ऊष्मागतिक मापदंड सही है?",
     "o": [
-      "$\\Delta H_{mix} = 0$ and $\\Delta V_{mix} = 0$",
       "$\\Delta H_{mix} > 0$ and $\\Delta V_{mix} > 0$",
+      "$\\Delta G_{mix} = 0$",
       "$\\Delta H_{mix} < 0$ and $\\Delta V_{mix} < 0$",
-      "$\\Delta G_{mix} = 0$"
+      "$\\Delta H_{mix} = 0$ and $\\Delta V_{mix} = 0$"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Ideal solution me solute-solute aur solvent-solvent molecular attractions solute-solvent attraction ke barabar hote hain, isliye mixing par na heat exchange hoti hai na volume change."
   },
   {
     "qe": "Adding Ethylene Glycol to an automobile radiator in sub-zero climates prevents freezing because it:",
     "qh": "सर्दियों में ऑटोमोबाइल रेडिएटर में एथिलीन ग्लाइकोल मिलाने से पानी जमने से बचता है क्योंकि यह:",
     "o": [
+      "Decomposes into gas",
       "Increases the freezing point",
-      "Depresses the freezing point of water",
       "Boils the water",
-      "Decomposes into gas"
+      "Depresses the freezing point of water"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Ethylene glycol non-volatile anti-freeze agent hai jo water ke freezing point ko significantly kam kar deta hai (Depression in Freezing Point)."
   },
   {
     "qe": "What type of solid crystal is 'Graphite' classified as based on its bonding?",
     "qh": "बंधन के आधार पर 'ग्रेफाइट' को किस प्रकार के ठोस क्रिस्टल के रूप में वर्गीकृत किया गया है?",
     "o": [
-      "Ionic solid",
       "Covalent Network solid",
       "Metallic solid",
+      "Ionic solid",
       "Molecular solid"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Graphite me carbon atoms $sp^2$ hybridized hokar covalent network 2D hexagonal layers banate hain, jo aapas me weak van der Waals forces se judi rehti hain."
   },
   {
     "qe": "What is the standard SI-derived unit of solution 'Molarity'?",
     "qh": "विलयन की 'मोलरता' (Molarity) की मानक इकाई क्या है?",
     "o": [
-      "mol/kg",
       "mol/L",
+      "mol/kg",
       "g/L",
       "mol/mol"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Molarity 1 liter solution me dissolved solute ke moles ki sankhya hoti hai, isliye iska unit $moles/liter$ ($mol/L$ ya $M$) hota hai."
   },
   {
@@ -268,11 +268,11 @@
     "qh": "जिंक ऑक्साइड ($ZnO$) कमरे के तापमान पर सफेद होता है लेकिन गर्म करने पर किस क्रिस्टल दोष के कारण पीला हो जाता है?",
     "o": [
       "Schottky Defect",
-      "Metal Excess Defect due to interstitial cations",
       "Frenkel Defect",
-      "Impurity Defect"
+      "Impurity Defect",
+      "Metal Excess Defect due to interstitial cations"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Heating par $ZnO$ oxygen loose karta hai ($ZnO \\to Zn^{2+} + 1/2 O_2 + 2e^-$); trapped interstitial electrons yellow color ke liye responsible hote hain."
   },
   {
@@ -280,83 +280,83 @@
     "qh": "पेयजल शुद्धिकरण संयंत्रों में 'रिवर्स ऑस्मोसिस' (RO) की प्रक्रिया कैसे संपन्न की जाती है?",
     "o": [
       "Pressure equal to atmospheric pressure",
-      "Hydrostatic pressure greater than the osmotic pressure on the concentrated solution side",
       "Negative suction pressure on pure water side",
+      "Hydrostatic pressure greater than the osmotic pressure on the concentrated solution side",
       "High electrical voltage"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Jab saline water par uske osmotic pressure se zyada bahari dabav lagaya jaata hai, to pure solvent semi-permeable membrane se hokar bahar nikal aata hai."
   },
   {
     "qe": "What is the total number of constituent atoms contained within a single 'Simple Cubic' (SC) unit cell?",
     "qh": "एक 'सरल घनीय' (Simple Cubic) एकक कोष्ठिका में कुल प्रभावी परमाणुओं की संख्या कितनी होती है?",
     "o": [
-      "1",
-      "2",
       "4",
-      "8"
+      "8",
+      "2",
+      "1"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Simple cubic unit cell ke 8 corners par atoms hote hain; har corner atom ka contribution $1/8$ hota hai, isliye total atoms = $8 \\times (1/8) = 1$."
   },
   {
     "qe": "Which of the following substances exhibits 'Paramagnetism' in solid state due to unpaired electron spins?",
     "qh": "अयुग्मित इलेक्ट्रॉन चक्रण के कारण निम्नलिखित में से कौन सा पदार्थ ठोस अवस्था में 'अनुचुंबकत्व' प्रदर्शित करता है?",
     "o": [
-      "$H_2O$",
-      "$NaCl$",
+      "$C_6H_6$",
       "$O_2$",
-      "$C_6H_6$"
+      "$NaCl$",
+      "$H_2O$"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Molecular orbital theory ke anusar solid/liquid oxygen ($O_2$) ke antibonding $\\pi^*$ orbitals me do unpaired electrons hote hain, jo ise paramagnetic banate hain."
   },
   {
     "qe": "An 'Azeotropic Mixture' is characterized by which physical property during distillation?",
     "qh": "आसवन के दौरान 'स्थिरक्वाथी मिश्रण' (Azeotropic Mixture) किस भौतिक गुण द्वारा पहचाना जाता है?",
     "o": [
-      "Boiling at a constant temperature with identical liquid and vapor compositions",
-      "Separating easily into pure components",
+      "Freezing at room temperature",
       "Having zero vapor pressure",
-      "Freezing at room temperature"
+      "Boiling at a constant temperature with identical liquid and vapor compositions",
+      "Separating easily into pure components"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Azeotrope ek constant-boiling liquid mixture hota hai jiska vapor phase composition liquid phase ke identical hota hai, isliye ise fractional distillation se alag nahi kiya ja sakta."
   },
   {
     "qe": "Which metallic crystal property allows pure metals to be beaten into thin sheets without shattering?",
     "qh": "धातुओं का कौन सा क्रिस्टलीय गुण उन्हें बिना टूटे पतली चादरों में पीटे जाने की अनुमति देता है?",
     "o": [
+      "Hydrogen bonds",
       "Rigid directional covalent bonds",
       "Non-directional metallic bonding with a delocalized electron sea",
-      "Ionic crystal lattice",
-      "Hydrogen bonds"
+      "Ionic crystal lattice"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Metallic lattice me positive ions ke layers free electron sea ke upar bina lattice fracture kiye aage slide kar sakti hain, jo malleability provide karta hai."
   },
   {
     "qe": "What is the calculated 'Molarity' of pure liquid water at 4°C (density = 1 g/mL)?",
     "qh": "4°C पर शुद्ध जल (घनत्व = 1 g/mL) की 'मोलरता' कितनी होती है?",
     "o": [
-      "1 M",
-      "18 M",
       "55.5 M",
-      "100 M"
+      "1 M",
+      "100 M",
+      "18 M"
     ],
-    "a": 2,
+    "a": 0,
     "e": "1 liter paani ka mass 1000g hota hai; water ka molar mass 18 g/mol hai, isliye $M = 1000 / 18 \\approx 55.55 \\text{ mol/L}$."
   },
   {
     "qe": "Which type of point defect alters neither the density nor the chemical stoichiometry of an ionic crystal?",
     "qh": "किस प्रकार का बिंदु दोष आयनिक क्रिस्टल के घनत्व और रासायनिक रससमीकरणमिति दोनों को नहीं बदलता है?",
     "o": [
-      "Frenkel Defect",
-      "Schottky Defect",
       "Metal Excess Defect",
-      "Metal Deficiency Defect"
+      "Metal Deficiency Defect",
+      "Frenkel Defect",
+      "Schottky Defect"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Frenkel defect me ion crystal se bahar nahi jaata, sirf apni jagah se hatkar interstitial site par chala jaata hai, isliye density aur stoichiometry dono same rehti hain."
   },
   {
@@ -364,47 +364,47 @@
     "qh": "प्रायोगिक अणुसंख्य गुणधर्म मापों से परिकलित 'असामान्य मोलर द्रव्यमान' का मुख्य कारण क्या होता है?",
     "o": [
       "Ideal gas deviations",
-      "Association or Dissociation of solute particles in the solvent",
       "Thermal expansion of glassware",
-      "Atmospheric humidity"
+      "Atmospheric humidity",
+      "Association or Dissociation of solute particles in the solvent"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Solute agar solution me toot jaye (dissociation) ya jud jaye (association, jaise acetic acid dimer), to particle count badal jaata hai aur molar mass abnormal calculate hota hai."
   },
   {
     "qe": "What is the percentage of unoccupied 'Void Space' in a Face-Centered Cubic (FCC) lattice?",
     "qh": "एक फलक-केंद्रित घनीय (FCC) जालक में अनावृत्त 'रिक्त स्थान' (Void Space) का प्रतिशत कितना होता है?",
     "o": [
-      "26%",
-      "32%",
+      "74%",
       "48%",
-      "74%"
+      "32%",
+      "26%"
     ],
-    "a": 0,
+    "a": 3,
     "e": "FCC unit cell ki packing efficiency 74% hoti hai, isliye khali void space $100 - 74 = 26\\%$ hota hai."
   },
   {
     "qe": "Which fundamental solution law states that $P_{solution} = P^0_{solvent} \\cdot X_{solvent}$ for non-volatile solutes?",
     "qh": "अवाष्पशील विलेय युक्त विलयनों के लिए कौन सा नियम बताता है कि $P_{solution} = P^0_{solvent} \\cdot X_{solvent}$?",
     "o": [
+      "Dalton's Law",
       "Henry's Law",
       "Raoult's Law",
-      "Graham's Law",
-      "Dalton's Law"
+      "Graham's Law"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Raoult's Law ke anusar kisi solution me volatile solvent ka partial vapor pressure pure solvent ke vapor pressure aur uske mole fraction ke gunanfal ke barabar hota hai."
   },
   {
     "qe": "Substances like Iron, Cobalt, and Nickel that retain strong permanent magnetization even after removing an external magnetic field are termed:",
     "qh": "लोहा, कोबाल्ट और निकेल जैसे पदार्थ जो बाहरी चुंबकीय क्षेत्र हटाने के बाद भी स्थायी चुंबकत्व बनाए रखते हैं, कहलाते हैं:",
     "o": [
-      "Paramagnetic",
-      "Ferromagnetic",
       "Diamagnetic",
-      "Antiferromagnetic"
+      "Paramagnetic",
+      "Antiferromagnetic",
+      "Ferromagnetic"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Ferromagnetic substances me magnetic domains magnetic field ki direction me permanently align ho jaate hain aur field hatane par bhi magnetized rehte hain."
   },
   {
@@ -423,36 +423,36 @@
     "qe": "What is the Bravais crystal structure classification of Rock Salt ($NaCl$)?",
     "qh": "रॉक साल्ट ($NaCl$) का ब्रेविस क्रिस्टल संरचना वर्गीकरण क्या है?",
     "o": [
+      "Hexagonal Close Packed",
       "Simple Cubic",
-      "Face-Centered Cubic (FCC)",
       "Body-Centered Cubic",
-      "Hexagonal Close Packed"
+      "Face-Centered Cubic (FCC)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "NaCl me $Cl^-$ ions FCC lattice banate hain aur $Na^+$ ions sabhi octahedral voids ko occupy karte hain, jisse coordination number 6:6 rehta hai."
   },
   {
     "qe": "The optical phenomenon of light scattering through colloidal dispersions that illuminates the beam path is the:",
     "qh": "कोलाइडल परिक्षेपण के माध्यम से प्रकाश के प्रकीर्णन की वह प्रकाशीय घटना जो किरण पथ को दृश्यमान बनाती है, कहलाती है:",
     "o": [
-      "Zeeman Effect",
       "Tyndall Effect",
+      "Zeeman Effect",
       "Stark Effect",
       "Raman Effect"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Colloidal particles ka size visible light ke wavelength ke comparable (1-1000 nm) hota hai, jisse light scatter hokar visible path banati hai (Tyndall effect)."
   },
   {
     "qe": "What physical process governs the spontaneous passage of solvent molecules across a semi-permeable membrane into a higher solute concentration?",
     "qh": "विलायक के अणुओं का अर्ध-पारगम्य झिल्ली के माध्यम से उच्च विलेय सांद्रता वाले क्षेत्र में स्वतः प्रवाह क्या कहलाता है?",
     "o": [
-      "Effusion",
       "Osmosis",
       "Dialysis",
+      "Effusion",
       "Electrophoresis"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Osmosis me solvent molecules chemical potential gradient ke mutabiq dilute solution se concentrated solution ki taraf SPM ke through move karte hain."
   },
   {
@@ -460,9 +460,9 @@
     "qh": "एक आद्य सरल घनीय (Primitive Simple Cubic) एकक कोष्ठिका की संकुलन दक्षता कितने प्रतिशत होती है?",
     "o": [
       "52.4%",
-      "68%",
       "74%",
-      "100%"
+      "100%",
+      "68%"
     ],
     "a": 0,
     "e": "Simple cubic cell me atoms sirf corners par aapas me touch karte hain ($a = 2r$), jisse iska packing fraction $\\pi/6 \\approx 52.4\\%$ aata hai."
@@ -472,9 +472,9 @@
     "qh": "कौन सा समीकरण तनु विलयन के परासरण दाब ($\\pi$) को उसकी मोलर सांद्रता (C) से संबंधित करता है?",
     "o": [
       "$\\pi = CRT$",
+      "$\\pi = nRT$",
       "$\\pi = P \\cdot V$",
-      "$\\pi = K_b \\cdot m$",
-      "$\\pi = nRT$"
+      "$\\pi = K_b \\cdot m$"
     ],
     "a": 0,
     "e": "Van't Hoff equation $\\pi = CRT$ (jahan $C = n/V$) gas law $PV = nRT$ ke bilkul analogous hoti hai."
@@ -484,11 +484,11 @@
     "qh": "क्रिस्टलीय ठोसों में विद्युत चालकता और अपवर्तनांक जैसे भौतिक गुणों का दिशा-निर्भर परिवर्तन क्या कहलाता है?",
     "o": [
       "Isotropy",
-      "Anisotropy",
+      "Amorphism",
       "Polymorphism",
-      "Amorphism"
+      "Anisotropy"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Crystalline solids me alag-alag axes ke along atomic arrangement alag hota hai, isliye mechanical aur optical properties direction-dependent (anisotropic) hoti hain."
   },
   {
@@ -496,11 +496,11 @@
     "qh": "पानी में पूरी तरह से वियोजित बेरियम क्लोराइड ($BaCl_2$) के लिए सैद्धांतिक वैन हॉफ कारक (i) का मान क्या है?",
     "o": [
       "1",
-      "2",
       "3",
+      "2",
       "4"
     ],
-    "a": 2,
+    "a": 1,
     "e": "$BaCl_2$ 100% ionize hone par 1 $Ba^{2+}$ ion aur 2 $Cl^-$ ions deta hai ($1 + 2 = 3$ particles), isliye $i = 3$ hota hai."
   },
   {
@@ -508,23 +508,23 @@
     "qh": "किस क्रिस्टल निकाय को मापदंड $a = b = c$ और $\\alpha = \\beta = \\gamma \\neq 90^\\circ$ द्वारा परिभाषित किया जाता है?",
     "o": [
       "Cubic",
-      "Rhombohedral (Trigonal)",
       "Triclinic",
-      "Hexagonal"
+      "Hexagonal",
+      "Rhombohedral (Trigonal)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Rhombohedral system me teeno axial sides barabar hoti hain par teeno interfacial angles 90 degree nahi hote (jaise Calcite crystal me)."
   },
   {
     "qe": "What is the kinetic 'Order of Reaction' when the rate of chemical transformation is completely independent of reactant concentration?",
     "qh": "जब रासायनिक रूपांतरण की दर अभिकारकों की सांद्रता से पूरी तरह स्वतंत्र होती है, तो गतिक 'अभिक्रिया की कोटि' क्या होती है?",
     "o": [
+      "Zero Order",
       "First Order",
       "Second Order",
-      "Zero Order",
       "Fractional Order"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Zero-order reactions (Rate = $k[A]^0 = k$) me concentration badalne par reaction rate constant rehti hai (jaise metal surface par $NH_3$ decomposition)."
   },
   {
@@ -543,9 +543,9 @@
     "qe": "A positive catalyst accelerates the rate of a chemical reaction primarily by:",
     "qh": "एक धनात्मक उत्प्रेरक मुख्य रूप से क्या करके रासायनिक अभिक्रिया की दर को बढ़ाता है?",
     "o": [
-      "Increasing collision frequency",
-      "Providing an alternative reaction mechanism with lower Activation Energy ($E_a$)",
       "Increasing total enthalpy change ($\\Delta H$)",
+      "Providing an alternative reaction mechanism with lower Activation Energy ($E_a$)",
+      "Increasing collision frequency",
       "Decreasing temperature"
     ],
     "a": 1,
@@ -557,8 +557,8 @@
     "o": [
       "Remain unchanged",
       "Double or triple",
-      "Decrease by half",
-      "Drop to zero"
+      "Drop to zero",
+      "Decrease by half"
     ],
     "a": 1,
     "e": "10°C temperature rise se threshold energy cross karne wale molecules ka fraction double ho jaata hai, jisse temperature coefficient $\\eta \\approx 2$ to $3$ hota hai."
@@ -567,46 +567,46 @@
     "qe": "The 'Molecularity' of an elementary chemical reaction represents the:",
     "qh": "एक प्राथमिक रासायनिक अभिक्रिया की 'आणविकता' (Molecularity) क्या दर्शाती है?",
     "o": [
-      "Total stoichiometric mass",
       "Number of reacting species that collide simultaneously in an elementary step",
-      "Order of reaction always",
-      "Fractional power of concentration"
+      "Fractional power of concentration",
+      "Total stoichiometric mass",
+      "Order of reaction always"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Molecularity ek theoretical concept hai jo single-step elementary collision me hissa lene wale molecules ka count hota hai; ye kabhi zero ya fractional nahi ho sakti."
   },
   {
     "qe": "What is the SI-derived unit of the 'Rate Constant' ($k$) for a first-order chemical reaction?",
     "qh": "प्रथम कोटि की रासायनिक अभिक्रिया के लिए 'वेग स्थिरांक' ($k$) की मानक इकाई क्या है?",
     "o": [
-      "mol L^-1 s^-1",
       "s^-1",
+      "L^2 mol^-2 s^-1",
       "L mol^-1 s^-1",
-      "L^2 mol^-2 s^-1"
+      "mol L^-1 s^-1"
     ],
-    "a": 1,
+    "a": 0,
     "e": "General formula $(\\text{mol/L})^{1-n} \\text{s}^{-1}$ me $n=1$ rakhne par unit time inverse yaani $s^{-1}$ (per second) banti hai."
   },
   {
     "qe": "What is the 'Threshold Energy' of a reacting molecular system defined as?",
     "qh": "अभिक्रियाशील आणविक निकाय की 'देहली ऊर्जा' (Threshold Energy) को कैसे परिभाषित किया जाता है?",
     "o": [
+      "Kinetic energy at absolute zero",
       "Minimum total energy that colliding molecules must possess to yield an effective chemical reaction",
       "Initial potential energy of reactants",
-      "Enthalpy of products",
-      "Kinetic energy at absolute zero"
+      "Enthalpy of products"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Threshold Energy reactant molecules ki initial energy aur extra required Activation Energy ka sum hoti hai ($E_{th} = E_{initial} + E_a$)."
   },
   {
     "qe": "What is the overall 'Order of Reaction' for a process governed by the differential rate equation: $\\text{Rate} = k[A]^1[B]^1$?",
     "qh": "अवकल दर समीकरण: $\\text{Rate} = k[A]^1[B]^1$ का पालन करने वाली प्रक्रिया के लिए समग्र 'अभिक्रिया की कोटि' क्या है?",
     "o": [
-      "1",
+      "0",
       "2",
-      "3",
-      "0"
+      "1",
+      "3"
     ],
     "a": 1,
     "e": "Rate law me concentration terms ke powers ka sum order of reaction hota hai ($1 + 1 = 2$, second order)."
@@ -615,36 +615,36 @@
     "qe": "What is the exponential form of the famous 'Arrhenius Equation' relating rate constant to temperature?",
     "qh": "वेग स्थिरांक को तापमान से संबंधित करने वाले प्रसिद्ध 'आरहेनियस समीकरण' का घातीय रूप क्या है?",
     "o": [
-      "$k = A e^{-E_a / RT}$",
-      "$k = A + E_a / RT$",
       "$k = E_a e^{-RT}$",
-      "$k = A \\ln(E_a / RT)$"
+      "$k = A e^{-E_a / RT}$",
+      "$k = A \\ln(E_a / RT)$",
+      "$k = A + E_a / RT$"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Arrhenius equation $k = A e^{-E_a / RT}$ me $A$ frequency pre-exponential factor hai, $E_a$ activation energy hai aur $T$ absolute temperature hai."
   },
   {
     "qe": "What is the formula for the 'Half-life' ($t_{1/2}$) of a zero-order chemical reaction?",
     "qh": "शून्य-कोटि की रासायनिक अभिक्रिया के 'अर्ध-आयुकाल' ($t_{1/2}$) का सूत्र क्या है?",
     "o": [
-      "$[A]_0 / 2k$",
-      "$0.693 / k$",
       "$1 / k[A]_0$",
+      "$0.693 / k$",
+      "$[A]_0 / 2k$",
       "$2k / [A]_0$"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Zero-order reaction me integrated rate equation $[A] = [A]_0 - kt$ se half-life $t_{1/2} = [A]_0 / 2k$ aati hai, jo initial concentration ke directly proportional hai."
   },
   {
     "qe": "The acid-catalyzed hydrolysis of cane sugar in vast excess water ($C_{12}H_{22}O_{11} + H_2O \\to C_6H_{12}O_6 + C_6H_{12}O_6$) is classified kinetically as a:",
     "qh": "अत्यधिक जल की उपस्थिति में गन्ने की चीनी का अम्ल-उत्प्रेरित जलअपघटन गतिक रूप से किस प्रकार वर्गीकृत किया जाता है?",
     "o": [
-      "Pure second order reaction",
-      "Pseudo-first-order reaction",
+      "Third order reaction",
       "Zero order reaction",
-      "Third order reaction"
+      "Pseudo-first-order reaction",
+      "Pure second order reaction"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Water excess me hone se uski concentration lagbhag constant rehti hai, isliye bimolecular reaction first-order kinetics follow karti hai (Pseudo-unimolecular reaction)."
   },
   {
@@ -652,47 +652,47 @@
     "qh": "ऊष्मागतिकी का कौन सा नियम कहता है कि स्वतः प्रक्रमों के दौरान एक विलगित निकाय की शुद्ध एन्ट्रॉपी हमेशा बढ़ती है?",
     "o": [
       "Zeroth Law",
-      "First Law",
       "Second Law",
+      "First Law",
       "Third Law"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Second Law of Thermodynamics kehta hai ki universe me sabhi natural spontaneous processes me overall entropy change hamesha positive hota hai ($\\Delta S_{total} > 0$)."
   },
   {
     "qe": "A thermodynamic 'Isolated System' is characterized by which boundary transfer conditions?",
     "qh": "एक ऊष्मागतिक 'विलगित निकाय' (Isolated System) किन सीमा स्थानांतरण स्थितियों द्वारा पहचाना जाता है?",
     "o": [
-      "Exchange of energy but not matter",
-      "Exchange of matter but not energy",
+      "Exchange of both matter and energy",
       "Exchange of neither energy nor matter with surroundings",
-      "Exchange of both matter and energy"
+      "Exchange of energy but not matter",
+      "Exchange of matter but not energy"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Isolated system (jaise ideal thermos flask) ki boundaries rigid aur adiabatic hoti hain, isliye surrounding ke saath na heat ja sakti hai na mass."
   },
   {
     "qe": "What is the mathematical formulation of the 'First Law of Thermodynamics' based on conservation of energy?",
     "qh": "ऊर्जा संरक्षण पर आधारित 'ऊष्मागतिकी के प्रथम नियम' का गणितीय सूत्र क्या है?",
     "o": [
-      "$\\Delta U = q + w$",
-      "$\\Delta G = \\Delta H - T\\Delta S$",
+      "$w = -P \\Delta V$",
       "$\\Delta H = q_p$",
-      "$w = -P \\Delta V$"
+      "$\\Delta G = \\Delta H - T\\Delta S$",
+      "$\\Delta U = q + w$"
     ],
-    "a": 0,
+    "a": 3,
     "e": "First Law states $\\Delta U = q + w$; system ki internal energy change usko di gayi heat ($q$) aur uspar kiye gaye work ($w$) ke sum ke barabar hoti hai."
   },
   {
     "qe": "For a chemical or physical change to occur spontaneously at constant temperature and pressure, the change in Gibbs Free Energy ($\\Delta G$) must be:",
     "qh": "स्थिर तापमान और दाब पर किसी रासायनिक या भौतिक परिवर्तन के स्वतः होने के लिए, गिब्स मुक्त ऊर्जा में परिवर्तन ($\\Delta G$) क्या होना चाहिए?",
     "o": [
-      "Strictly positive ($\\Delta G > 0$)",
       "Strictly negative ($\\Delta G < 0$)",
-      "Zero ($\\Delta G = 0$)",
-      "Undefined"
+      "Strictly positive ($\\Delta G > 0$)",
+      "Undefined",
+      "Zero ($\\Delta G = 0$)"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Spontaneous reaction ke liye useful work capacity decrease hoti hai, isliye Gibbs free energy change negative hona compulsory hai ($\\Delta G < 0$)."
   },
   {
@@ -700,11 +700,11 @@
     "qh": "ऊष्मागतिकी के तीसरे नियम के अनुसार, परम शून्य (0 K) तापमान पर एक शुद्ध, पूर्ण क्रिस्टलीय पदार्थ की एन्ट्रॉपी क्या होती है?",
     "o": [
       "Infinite",
+      "Negative",
       "Zero",
-      "One",
-      "Negative"
+      "One"
     ],
-    "a": 1,
+    "a": 2,
     "e": "0 K par thermal kinetic energy poori tarah cease ho jaati hai aur crystal perfect atomic order me rehta hai, isliye $S = 0$ hota hai."
   },
   {
@@ -712,21 +712,21 @@
     "qh": "एक 'समतापी' (Isothermal) ऊष्मागतिक प्रक्रम में, कौन सा अवस्था चर पूरी प्रक्रिया के दौरान स्थिर रहता है?",
     "o": [
       "Pressure ($P$)",
-      "Volume ($V$)",
       "Temperature ($T$)",
+      "Volume ($V$)",
       "Enthalpy ($H$)"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Isothermal process constant temperature par conduct hota hai ($\\Delta T = 0$), aur ideal gas ke liye internal energy change $\\Delta U = 0$ rehti hai."
   },
   {
     "qe": "Which of the following thermodynamic variables is classified as an 'Extensive Property'?",
     "qh": "निम्नलिखित में से किस ऊष्मागतिक चर को 'विस्तीर्ण गुण' (Extensive Property) के रूप में वर्गीकृत किया गया है?",
     "o": [
-      "Temperature",
+      "Density",
       "Pressure",
       "Mass / Enthalpy",
-      "Density"
+      "Temperature"
     ],
     "a": 2,
     "e": "Extensive properties (jaise Mass, Volume, Enthalpy, Heat Capacity) system me present matter ki quantity par depend karti hain."
@@ -735,21 +735,21 @@
     "qe": "The heat exchanged by a chemical reaction operating under 'Constant Pressure' conditions is precisely equal to:",
     "qh": "'स्थिर दाब' की परिस्थितियों में रासायनिक अभिक्रिया द्वारा विनिमय की गई ऊष्मा किसके बराबर होती है?",
     "o": [
-      "Change in Internal Energy ($\\Delta U$)",
-      "Change in Enthalpy ($\\Delta H$)",
       "Change in Gibbs Free Energy ($\\Delta G$)",
-      "Entropy change ($\\Delta S$)"
+      "Change in Internal Energy ($\\Delta U$)",
+      "Entropy change ($\\Delta S$)",
+      "Change in Enthalpy ($\\Delta H$)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Constant pressure par $q_p = \\Delta H$ hota hai, jabki constant volume par heat absorbed $q_v = \\Delta U$ ke barabar hoti hai."
   },
   {
     "qe": "In an 'Adiabatic' expansion or compression, the net heat flow ($q$) between system and surroundings is:",
     "qh": "एक 'रुद्धोष्म' (Adiabatic) प्रसार या संपीडन में, निकाय और परिवेश के बीच शुद्ध ऊष्मा प्रवाह ($q$) क्या होता है?",
     "o": [
-      "Maximum",
-      "Zero ($q = 0$)",
       "Equal to work done ($w$)",
+      "Zero ($q = 0$)",
+      "Maximum",
       "Infinite"
     ],
     "a": 1,
@@ -759,33 +759,33 @@
     "qe": "Which thermochemical law states that the total enthalpy change for a chemical reaction is identical whether it occurs in one step or multiple steps?",
     "qh": "कौन सा ऊष्मारसायनिक नियम बताता है कि किसी अभिक्रिया का कुल एन्थैल्पी परिवर्तन समान रहता है चाहे वह एक चरण में हो या कई चरणों में?",
     "o": [
-      "Raoult's Law",
-      "Hess's Law of Constant Heat Summation",
       "Henry's Law",
-      "Le-Chatelier's Principle"
+      "Le-Chatelier's Principle",
+      "Hess's Law of Constant Heat Summation",
+      "Raoult's Law"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Hess's Law isliye valid hai kyunki Enthalpy ek state function hai jo path par nahi, sirf initial reactants aur final products par depend karti hai."
   },
   {
     "qe": "Which of the following quantities is a 'State Function' rather than a path function?",
     "qh": "निम्नलिखित में से कौन सी राशि पथ फलन के बजाय एक 'अवस्था फलन' (State Function) है?",
     "o": [
-      "Work ($w$)",
-      "Heat ($q$)",
+      "Heat capacity",
       "Enthalpy ($H$)",
-      "Heat capacity"
+      "Heat ($q$)",
+      "Work ($w$)"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Enthalpy ($H$), Internal Energy ($U$), Entropy ($S$) aur Gibbs energy ($G$) state functions hain jo path par nirbhar nahi karte."
   },
   {
     "qe": "For any 'Exothermic' reaction releasing heat into the surroundings, the sign of the enthalpy change ($\\Delta H$) is:",
     "qh": "परिवेश में ऊष्मा मुक्त करने वाली किसी भी 'ऊष्माक्षेपी' (Exothermic) अभिक्रिया के लिए एन्थैल्पी परिवर्तन ($\\Delta H$) का चिन्ह क्या होता है?",
     "o": [
-      "Positive ($\\Delta H > 0$)",
-      "Negative ($\\Delta H < 0$)",
       "Zero",
+      "Negative ($\\Delta H < 0$)",
+      "Positive ($\\Delta H > 0$)",
       "Unpredictable"
     ],
     "a": 1,
@@ -795,22 +795,22 @@
     "qe": "Which thermodynamic law provides the fundamental conceptual definition of 'Temperature' via thermal equilibrium?",
     "qh": "कौन सा ऊष्मागतिक नियम तापीय संतुलन के माध्यम से 'तापमान' की मूलभूत वैचारिक परिभाषा प्रदान करता है?",
     "o": [
-      "Zeroth Law of Thermodynamics",
       "First Law",
       "Second Law",
+      "Zeroth Law of Thermodynamics",
       "Third Law"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Zeroth Law states: Agar body A aur B alag-alag body C ke sath thermal equilibrium me hain, to wo aapas me bhi equilibrium me hongi; yahi thermometry ka aadhar hai."
   },
   {
     "qe": "What parameter is measured directly inside a constant-volume 'Bomb Calorimeter'?",
     "qh": "स्थिर-आयतन 'बॉम्ब कैलोरीमीटर' के अंदर सीधे किस मान को मापा जाता है?",
     "o": [
-      "Enthalpy change of combustion ($\\Delta H$)",
-      "Internal energy change of combustion ($q_v = \\Delta U$)",
       "Gibbs Free Energy change ($\\Delta G$)",
-      "Entropy change ($\\Delta S$)"
+      "Internal energy change of combustion ($q_v = \\Delta U$)",
+      "Entropy change ($\\Delta S$)",
+      "Enthalpy change of combustion ($\\Delta H$)"
     ],
     "a": 1,
     "e": "Bomb calorimeter rigid steel vessel hota hai jahan volume constant rehta hai ($dV=0$); isliye measure hone wali heat internal energy change $\\Delta U$ hoti hai."
@@ -820,9 +820,9 @@
     "qh": "निम्नलिखित में से किस भौतिक चर को 'गहन गुण' (Intensive Property) के रूप में वर्गीकृत किया गया है?",
     "o": [
       "Volume",
-      "Enthalpy",
+      "Internal energy",
       "Density / Temperature",
-      "Internal energy"
+      "Enthalpy"
     ],
     "a": 2,
     "e": "Intensive properties (jaise Density, Temperature, Pressure, Refractive index) sample ke size ya mass par depend nahi karti hain."
@@ -831,22 +831,22 @@
     "qe": "What is the standard SI-derived unit of thermodynamic 'Entropy'?",
     "qh": "ऊष्मागतिक 'एन्ट्रॉपी' की मानक SI-व्युत्पन्न इकाई क्या है?",
     "o": [
+      "Watt per meter",
       "Joule",
       "Joule per Kelvin (J/K)",
-      "Watt per meter",
       "Pascal"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Entropy formula $dS = dq_{rev} / T$ hota hai; heat Joules me aur temperature Kelvin me hone se unit Joule per Kelvin ($J/K$ ya $J \\cdot K^{-1}$) banti hai."
   },
   {
     "qe": "For any complete 'Cyclic Process' returning to its initial state, the net change in internal energy ($\\Delta U$) is:",
     "qh": "अपनी प्रारंभिक अवस्था में लौटने वाले किसी भी पूर्ण 'चक्रीय प्रक्रम' के लिए, आंतरिक ऊर्जा में शुद्ध परिवर्तन ($\\Delta U$) क्या होता है?",
     "o": [
-      "Positive",
+      "Infinite",
       "Negative",
       "Zero",
-      "Infinite"
+      "Positive"
     ],
     "a": 2,
     "e": "Internal energy ek state function hai; system initial point par wapas aa jata hai, isliye cyclic integral $\\oint dU = 0$ hota hai."
@@ -855,12 +855,12 @@
     "qe": "What is the mechanical boundary work ($w$) performed during an 'Isochoric' thermodynamic process?",
     "qh": "एक 'समआयतनिक' (Isochoric) ऊष्मागतिक प्रक्रम के दौरान किया गया यांत्रिक सीमा कार्य ($w$) क्या होता है?",
     "o": [
-      "Maximum",
-      "Zero ($w = 0$)",
       "Negative",
-      "Infinite"
+      "Maximum",
+      "Infinite",
+      "Zero ($w = 0$)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Isochoric process me volume constant rehta hai ($dV = 0$); formula $w = -\\int P dV$ me $dV = 0$ hone se boundary expansion work zero hota hai."
   },
   {
@@ -868,9 +868,9 @@
     "qh": "अंतर्राष्ट्रीय परिपाटी के अनुसार, किसी शुद्ध रासायनिक तत्व की उसकी सबसे स्थिर संदर्भ अवस्था में 'मानक विरचन एन्थैल्पी' ($\\Delta H_f^\\circ$) क्या मानी जाती है?",
     "o": [
       "Positive",
-      "Negative",
+      "100 kJ/mol",
       "Zero",
-      "100 kJ/mol"
+      "Negative"
     ],
     "a": 2,
     "e": "Standard states me elements (jaise $O_{2(g)}, C_{(graphite)}, H_{2(g)}, Fe_{(s)}$) ki formation enthalpy ko benchmark reference ke roop me zero maana jaata hai."
@@ -879,12 +879,12 @@
     "qe": "What is the famous thermodynamic relationship between $C_p$ and $C_v$ for 1 mole of an ideal gas (Mayer's relation)?",
     "qh": "1 मोल आदर्श गैस के लिए $C_p$ और $C_v$ के बीच प्रसिद्ध ऊष्मागतिक संबंध (मेयर का संबंध) क्या है?",
     "o": [
-      "$C_p - C_v = R$",
       "$C_p + C_v = R$",
       "$C_p / C_v = R$",
-      "$C_p = C_v$"
+      "$C_p = C_v$",
+      "$C_p - C_v = R$"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Constant pressure par gas ko expansion work ($P\\Delta V = R\\Delta T$) bhi karna padta hai, isliye molar heat capacities ka difference universal gas constant $R$ ke barabar hota hai."
   },
   {
@@ -893,94 +893,94 @@
     "o": [
       "Low temperatures only",
       "High temperatures only",
-      "All temperatures",
-      "No temperature"
+      "No temperature",
+      "All temperatures"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Gibbs-Helmholtz equation $\\Delta G = \\Delta H - T\\Delta S$ me dono terms negative contribution dete hain, isliye $\\Delta G$ hamesha negative rahega chahe temperature kuch bhi ho."
   },
   {
     "qe": "What is the 'Lattice Enthalpy' of an ionic crystal lattice?",
     "qh": "एक आयनिक क्रिस्टल जालक की 'जालक एन्थैल्पी' (Lattice Enthalpy) क्या होती है?",
     "o": [
+      "Melting point energy",
       "Enthalpy change when 1 mole of an ionic compound is completely separated into its constituent gaseous ions",
       "Heat released on dissolving in water",
-      "Kinetic energy of ions",
-      "Melting point energy"
+      "Kinetic energy of ions"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Lattice enthalpy ionic bond strength ka measure hai jo 1 mole solid ionic crystal (jaise $NaCl$) ko isolated gaseous ions me todne ke liye required hoti hai."
   },
   {
     "qe": "What is the 'Gibbs-Helmholtz Equation' used to determine reaction spontaneity?",
     "qh": "अभिक्रिया की स्वतःप्रवर्तकता निर्धारित करने के लिए प्रयुक्त 'गिब्स-हेल्महोल्ट्ज़ समीकरण' कौन सा है?",
     "o": [
+      "$\\Delta U = q + w$",
       "$\\Delta G = \\Delta H - T\\Delta S$",
       "$PV = nRT$",
-      "$\\Delta U = q + w$",
       "$G = H + TS$"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Ye equation enthalpy change ($\\Delta H$), entropy change ($\\Delta S$) aur absolute temperature ($T$) ko relate karke net available energy ($\\Delta G$) predict karti hai."
   },
   {
     "qe": "For a reversible chemical reaction operating at dynamic 'Equilibrium', what is the value of $\\Delta G$?",
     "qh": "गतिक 'साम्यावस्था' पर कार्य करने वाली किसी उत्क्रमणीय रासायनिक अभिक्रिया के लिए $\\Delta G$ का मान क्या होता है?",
     "o": [
-      "Positive",
       "Negative",
       "Zero ($\\Delta G = 0$)",
+      "Positive",
       "Infinite"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Equilibrium par forward aur backward chemical potentials barabar ho jaate hain, isliye free energy change net zero hoti hai ($\\Delta G = 0$)."
   },
   {
     "qe": "Which equation relates the reaction enthalpy change ($\\Delta H$) to internal energy change ($\\Delta U$) for gaseous reactions?",
     "qh": "गैसीय अभिक्रियाओं के लिए एन्थैल्पी परिवर्तन ($\\Delta H$) को आंतरिक ऊर्जा परिवर्तन ($\\Delta U$) से कौन सा समीकरण जोड़ता है?",
     "o": [
-      "$\\Delta H = \\Delta U + \\Delta n_g RT$",
-      "$\\Delta H = \\Delta U - P\\Delta V$",
+      "$\\Delta H = nRT$",
       "$\\Delta H = \\Delta U / RT$",
-      "$\\Delta H = nRT$"
+      "$\\Delta H = \\Delta U - P\\Delta V$",
+      "$\\Delta H = \\Delta U + \\Delta n_g RT$"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Ideal gas substitution $P\\Delta V = \\Delta n_g RT$ karne par $\\Delta H = \\Delta U + \\Delta n_g RT$ banta hai, jahan $\\Delta n_g$ gaseous products aur reactants ke moles ka difference hai."
   },
   {
     "qe": "What is the theoretical thermal 'Efficiency' ($\\eta$) of a reversible Carnot heat engine working between absolute temperatures $T_1$ (source) and $T_2$ (sink)?",
     "qh": "परम तापमान $T_1$ (स्रोत) और $T_2$ (सिंक) के बीच कार्य करने वाले एक उत्क्रमणीय कार्नॉट इंजन की सैद्धांतिक 'दक्षता' ($\\eta$) क्या है?",
     "o": [
-      "$\\eta = 1 - T_2 / T_1$",
-      "$\\eta = T_2 / T_1$",
       "$\\eta = 1 + T_2 / T_1$",
-      "$\\eta = T_1 / (T_1 - T_2)$"
+      "$\\eta = T_1 / (T_1 - T_2)$",
+      "$\\eta = T_2 / T_1$",
+      "$\\eta = 1 - T_2 / T_1$"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Carnot efficiency formula $\\eta = 1 - T_{sink}/T_{source}$ batata hai ki bina $T_{sink} = 0 K$ hue kisi engine ki efficiency 100% nahi ho sakti."
   },
   {
     "qe": "What is the relationship between Enthalpy of Sublimation ($\\Delta H_{sub}$) and the enthalpies of fusion and vaporization?",
     "qh": "ऊर्ध्वपातन की एन्थैल्पी ($\\Delta H_{sub}$) और गलन व वाष्पीकरण की एन्थैल्पी के बीच क्या संबंध है?",
     "o": [
-      "$\\Delta H_{sub} = \\Delta H_{fus} + \\Delta H_{vap}$",
       "$\\Delta H_{sub} = \\Delta H_{fus} - \\Delta H_{vap}$",
       "$\\Delta H_{sub} = \\Delta H_{vap} - \\Delta H_{fus}$",
+      "$\\Delta H_{sub} = \\Delta H_{fus} + \\Delta H_{vap}$",
       "$\\Delta H_{sub} = \\Delta H_{fus} \\times \\Delta H_{vap}$"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Hess's Law ke mutabiq solid se direct gas banne ki total enthalpy solid se liquid (fusion) aur liquid se gas (vaporization) ke sum ke barabar hoti hai."
   },
   {
     "qe": "Which gas law asserts that at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure ($P_1V_1 = P_2V_2$)?",
     "qh": "कौन सा गैस नियम बताता है कि स्थिर तापमान पर, गैस के निश्चित द्रव्यमान का आयतन उसके दाब के व्युत्क्रमानुपाती होता है?",
     "o": [
-      "Charles's Law",
       "Boyle's Law",
       "Avogadro's Law",
-      "Gay-Lussac's Law"
+      "Gay-Lussac's Law",
+      "Charles's Law"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Boyle's Law states $P \\propto 1/V$ at constant $T$; isothermal compression se gas ka pressure volume ke inverse ratio me badhta hai."
   },
   {
@@ -989,8 +989,8 @@
     "o": [
       "0",
       "7",
-      "14",
-      "1"
+      "1",
+      "14"
     ],
     "a": 1,
     "e": "25°C par pure water me $[H^+] = [OH^-] = 10^{-7} \\text{ M}$ hota hai, isliye $pH = -\\log(10^{-7}) = 7$ hota hai."
@@ -999,12 +999,12 @@
     "qe": "Which chemical principle predicts that a dynamic equilibrium will shift in a direction that relieves any applied stress of concentration, temperature, or pressure?",
     "qh": "कौन सा रासायनिक सिद्धांत भविष्यवाणी करता है कि एक गतिक साम्यावस्था सांद्रता, तापमान या दाब के किसी भी आरोपित तनाव को कम करने की दिशा में विस्थापित होगी?",
     "o": [
-      "Heisenberg Uncertainty Principle",
-      "Le-Chatelier's Principle",
       "Pauli Exclusion Principle",
-      "Aufbau Principle"
+      "Heisenberg Uncertainty Principle",
+      "Aufbau Principle",
+      "Le-Chatelier's Principle"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Le-Chatelier's principle equilibrium par external changes ke effect ko counter karne ke liye equilibrium position ki shifting predict karta hai."
   },
   {
@@ -1012,11 +1012,11 @@
     "qh": "किस उत्क्रमणीय गैसीय अभिक्रिया के लिए साम्य स्थिरांक $K_p$ संख्यात्मक रूप से $K_c$ के बराबर होता है?",
     "o": [
       "$PCl_5 \\rightleftharpoons PCl_3 + Cl_2$",
-      "$H_2 + I_2 \\rightleftharpoons 2HI$",
+      "$2SO_2 + O_2 \\rightleftharpoons 2SO_3$",
       "$N_2 + 3H_2 \\rightleftharpoons 2NH_3$",
-      "$2SO_2 + O_2 \\rightleftharpoons 2SO_3$"
+      "$H_2 + I_2 \\rightleftharpoons 2HI$"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Formula $K_p = K_c(RT)^{\\Delta n_g}$ me jab $\\Delta n_g = 2 - (1 + 1) = 0$ hota hai, tab $(RT)^0 = 1$ hone se $K_p = K_c$ hota hai."
   },
   {
@@ -1024,33 +1024,33 @@
     "qh": "SI ऊर्जा इकाइयों ($J \\cdot K^{-1} \\cdot mol^{-1}$) में सार्वत्रिक गैस नियतांक (R) का संख्यात्मक मान क्या है?",
     "o": [
       "0.0821",
-      "8.314",
       "1.987",
-      "62.36"
+      "62.36",
+      "8.314"
     ],
-    "a": 1,
+    "a": 3,
     "e": "SI units ($P$ in Pascals, $V$ in $m^3$) me calculate karne par universal gas constant $R = 8.314 \\text{ J/(mol}\\cdot\\text{K)}$ hota hai."
   },
   {
     "qe": "Which gas law states that at constant pressure, the volume of a gas is directly proportional to its absolute Kelvin temperature ($V_1/T_1 = V_2/T_2$)?",
     "qh": "कौन सा गैस नियम बताता है कि स्थिर दाब पर, किसी गैस का आयतन उसके परम केल्विन तापमान के सीधे समानुपाती होता है?",
     "o": [
-      "Boyle's Law",
       "Charles's Law",
+      "Dalton's Law",
       "Graham's Law",
-      "Dalton's Law"
+      "Boyle's Law"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Charles's Law states $V \\propto T$ at constant $P$; heating karne par gas molecules ki kinetic energy badhti hai aur volume expand hota hai."
   },
   {
     "qe": "What is a 'Buffer Solution' defined as in aqueous analytical chemistry?",
     "qh": "जलीय विश्लेषणात्मक रसायन विज्ञान में 'बफर विलयन' (Buffer Solution) को किस रूप में परिभाषित किया गया है?",
     "o": [
-      "A solution with pH exactly equal to 0",
-      "A solution that resists drastic changes in its pH upon the addition of small amounts of acid or base",
       "A saturated salt brine",
-      "Pure distilled water"
+      "A solution that resists drastic changes in its pH upon the addition of small amounts of acid or base",
+      "Pure distilled water",
+      "A solution with pH exactly equal to 0"
     ],
     "a": 1,
     "e": "Buffer solutions weak acid aur uske conjugate salt (jaise $CH_3COOH + CH_3COONa$) se bante hain jo $H^+$ ya $OH^-$ ko neutralize karke pH stable rakhte hain."
@@ -1059,22 +1059,22 @@
     "qe": "According to Graham's Law of Effusion, which of the following gases will diffuse most rapidly under identical conditions?",
     "qh": "ग्राहम के विसरण नियम के अनुसार, समान परिस्थितियों में निम्नलिखित में से कौन सी गैस सबसे तेजी से विसरित होगी?",
     "o": [
+      "Hydrogen ($H_2$, MW = 2)",
       "Oxygen ($O_2$, MW = 32)",
       "Carbon Dioxide ($CO_2$, MW = 44)",
-      "Hydrogen ($H_2$, MW = 2)",
       "Nitrogen ($N_2$, MW = 28)"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Graham's law states $r \\propto 1/\\sqrt{M}$; Hydrogen ka molecular weight sabse kam (2 g/mol) hone ki wajah se iska diffusion rate sabse fast hota hai."
   },
   {
     "qe": "A chemical reaction has attained 'Dynamic Equilibrium' when the:",
     "qh": "एक रासायनिक अभिक्रिया ने 'गतिक साम्यावस्था' प्राप्त कर ली है जब:",
     "o": [
-      "Forward and reverse reactions cease completely",
+      "Temperature becomes 0 K",
       "Rate of forward reaction equals the rate of reverse reaction",
-      "Concentrations of reactants reach zero",
-      "Temperature becomes 0 K"
+      "Forward and reverse reactions cease completely",
+      "Concentrations of reactants reach zero"
     ],
     "a": 1,
     "e": "Dynamic equilibrium par reaction rukti nahi hai, dono opposing reactions identical speed se chalti rehti hain jisse net concentrations constant rehti hain."
@@ -1083,9 +1083,9 @@
     "qe": "Which gas law asserts that the total pressure of a non-reacting gas mixture equals the sum of the individual partial pressures?",
     "qh": "कौन सा गैस नियम बताता है कि अक्रियाशील गैस मिश्रण का कुल दाब व्यक्तिगत आंशिक दाबों के योग के बराबर होता है?",
     "o": [
-      "Boyle's Law",
-      "Dalton's Law of Partial Pressures",
       "Raoult's Law",
+      "Dalton's Law of Partial Pressures",
+      "Boyle's Law",
       "Charles's Law"
     ],
     "a": 1,
@@ -1096,23 +1096,23 @@
     "qh": "मानक 25°C पर जल के आयनिक गुणनफल ($K_w = [H^+][OH^-]$) का संख्यात्मक मान क्या होता है?",
     "o": [
       "10^-7",
-      "10^-14",
       "10^7",
-      "1.0"
+      "1.0",
+      "10^-14"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Pure water ke auto-ionization se $[H^+] = 10^{-7}$ aur $[OH^-] = 10^{-7}$ hote hain, isliye $K_w = 10^{-7} \\times 10^{-7} = 10^{-14}$."
   },
   {
     "qe": "Under what reaction conditions does Le-Chatelier's principle predict maximum ammonia yield in the Haber Process ($N_2 + 3H_2 \\rightleftharpoons 2NH_3 + \\text{Heat}$)?",
     "qh": "ला-शातेलिए के सिद्धांत के अनुसार हैबर प्रक्रम में अमोनिया की अधिकतम उपज किन परिस्थितियों में प्राप्त होती है?",
     "o": [
-      "Low pressure and high temperature",
       "High pressure and low optimum temperature",
+      "High volume and inert atmosphere",
       "Low pressure and catalyst absence",
-      "High volume and inert atmosphere"
+      "Low pressure and high temperature"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Forward reaction me 4 moles se 2 moles bante hain (fewer moles = favored by high pressure) aur process exothermic hai (favored by lower optimum temp ~450°C)."
   },
   {
@@ -1120,56 +1120,56 @@
     "qh": "एक विशुद्ध सैद्धांतिक आदर्श गैस के लिए 'संपीड्यता गुणांक' ($Z = PV/nRT$) का मान क्या होता है?",
     "o": [
       "0",
-      "1",
       "> 1 always",
+      "1",
       "< 1 always"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Ideal gas equation $PV = nRT$ follow karti hai, isliye compressibility factor $Z = PV/(nRT) = 1$ exact unity hota hai."
   },
   {
     "qe": "Which physical parameter is the ONLY factor that can alter the numerical value of an Equilibrium Constant (K)?",
     "qh": "कौन सा भौतिक मापदंड एकमात्र ऐसा कारक है जो साम्य स्थिरांक (K) के संख्यात्मक मान को बदल सकता है?",
     "o": [
-      "Concentration of reactants",
       "Total system pressure",
-      "Temperature",
-      "Addition of a catalyst"
+      "Concentration of reactants",
+      "Addition of a catalyst",
+      "Temperature"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Equilibrium constant $K$ concentration ya pressure badalne par nahi badalta, ye van 't Hoff isochore equation ke mutabiq solely Temperature par depend karta hai."
   },
   {
     "qe": "What is the 'Common Ion Effect' in aqueous electrolyte equilibrium?",
     "qh": "जलीय विद्युत-अपघट्य साम्य में 'समान आयन प्रभाव' (Common Ion Effect) क्या होता है?",
     "o": [
-      "Suppression of the degree of dissociation of a weak electrolyte by adding a strong electrolyte having a common ion",
-      "Increase in solubility of precipitates",
       "Generation of an electric current",
-      "Complete neutralisation"
+      "Increase in solubility of precipitates",
+      "Complete neutralisation",
+      "Suppression of the degree of dissociation of a weak electrolyte by adding a strong electrolyte having a common ion"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Weak acid (jaise $CH_3COOH$) me common acetate ion ($CH_3COONa$) milane par Le-Chatelier principle se weak electrolyte ka ionization suppress ho jaata hai."
   },
   {
     "qe": "What is the relationship between pH and pOH in any aqueous solution at 25°C?",
     "qh": "25°C पर किसी भी जलीय विलयन में pH और pOH के बीच क्या संबंध होता है?",
     "o": [
+      "pH / pOH = 1",
       "pH + pOH = 7",
-      "pH + pOH = 14",
       "pH - pOH = 14",
-      "pH / pOH = 1"
+      "pH + pOH = 14"
     ],
-    "a": 1,
+    "a": 3,
     "e": "$K_w = [H^+][OH^-] = 10^{-14}$ par negative logarithm lene se universal relation $pH + pOH = pK_w = 14$ nikalta hai."
   },
   {
     "qe": "What is the standard 'Molar Volume' occupied by exactly 1 mole of any ideal gas at STP (0°C and 1 atm)?",
     "qh": "STP (0°C और 1 atm) पर किसी भी आदर्श गैस के ठीक 1 मोल द्वारा घेरा गया मानक 'मोलर आयतन' कितना होता है?",
     "o": [
-      "11.2 L",
-      "22.4 L",
       "44.8 L",
+      "22.4 L",
+      "11.2 L",
       "1.0 L"
     ],
     "a": 1,
@@ -1179,60 +1179,60 @@
     "qe": "What is the effect of adding an 'Inert Gas' at CONSTANT VOLUME to a gaseous equilibrium system?",
     "qh": "एक गैसीय साम्यावस्था निकाय में स्थिर आयतन पर 'अक्रिय गैस' मिलाने का क्या प्रभाव होता है?",
     "o": [
-      "Shifts the equilibrium forward",
-      "Shifts the equilibrium backward",
+      "Increases the equilibrium constant",
       "Has no effect on the equilibrium position",
-      "Increases the equilibrium constant"
+      "Shifts the equilibrium forward",
+      "Shifts the equilibrium backward"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Constant volume par inert gas milane se total pressure badhta hai par reacting gases ke partial pressures aur molar concentrations unchanged rehte hain, isliye equilibrium shift nahi hota."
   },
   {
     "qe": "The Root Mean Square velocity ($v_{rms}$) of gas molecules is mathematically proportional to:",
     "qh": "गैस अणुओं का वर्ग माध्य मूल वेग ($v_{rms}$) गणितीय रूप से किसके समानुपाती होता है?",
     "o": [
-      "Absolute temperature ($T$)",
       "Square root of absolute temperature ($\\sqrt{T}$)",
-      "Inverse of temperature ($1/T$)",
-      "Pressure only"
+      "Absolute temperature ($T$)",
+      "Pressure only",
+      "Inverse of temperature ($1/T$)"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Kinetic theory formula $v_{rms} = \\sqrt{3RT/M}$ ke mutabiq molecular speed absolute temperature ke square root ke directly proportional hoti hai."
   },
   {
     "qe": "According to the Bronsted-Lowry acid-base theory, an 'Acid' is defined as a:",
     "qh": "ब्रोंस्टेड-लोरी अम्ल-क्षार सिद्धांत के अनुसार, एक 'अम्ल' को किस रूप में परिभाषित किया गया है?",
     "o": [
-      "Proton ($H^+$) donor",
-      "Proton ($H^+$) acceptor",
       "Electron pair donor",
-      "Hydroxide ($OH^-$) donor"
+      "Proton ($H^+$) acceptor",
+      "Hydroxide ($OH^-$) donor",
+      "Proton ($H^+$) donor"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Bronsted-Lowry concept kehta hai ki acid ek proton donor ($H^+$ release karne wali species) hota hai aur base ek proton acceptor hota hai."
   },
   {
     "qe": "What is the total translational 'Kinetic Energy' of 1 mole of an ideal gas at temperature T?",
     "qh": "तापमान T पर एक आदर्श गैस के 1 मोल की कुल स्थानांतरीय 'गतिज ऊर्जा' क्या होती है?",
     "o": [
-      "1/2 RT",
-      "3/2 RT",
+      "5/2 RT",
       "RT",
-      "5/2 RT"
+      "3/2 RT",
+      "1/2 RT"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Har translational degree of freedom ke liye $(1/2)RT$ energy aati hai; 3 spatial dimensions ke liye 1 mole ki average kinetic energy $E = 3/2 RT$ hoti hai."
   },
   {
     "qe": "What is the 'Conjugate Base' of the ammonium cation ($NH_4^+$)?",
     "qh": "अमोनियम धनायन ($NH_4^+$) का 'संयुग्मी क्षार' (Conjugate Base) क्या है?",
     "o": [
+      "Nitrogen ($N_2$)",
       "Ammonia ($NH_3$)",
       "Amide ion ($NH_2^-$)",
-      "Nitrogen ($N_2$)",
       "Hydrazine ($N_2H_4$)"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Kisi acid me se ek proton ($H^+$) remove karne par uska conjugate base milta hai: $NH_4^+ - H^+ \\to NH_3$."
   },
   {
@@ -1240,11 +1240,11 @@
     "qh": "25°C पर $[OH^-] = 10^{-4}$ M वाले एक प्रबल क्षारीय विलयन का परिकलित 'pH' मान क्या है?",
     "o": [
       "4",
-      "10",
       "14",
+      "10",
       "7"
     ],
-    "a": 1,
+    "a": 2,
     "e": "$pOH = -\\log[OH^-] = -\\log(10^{-4}) = 4$; isliye $pH = 14 - pOH = 14 - 4 = 10$."
   },
   {
@@ -1252,143 +1252,143 @@
     "qh": "आधुनिक इलेक्ट्रॉनिक सिद्धांत में 'ऑक्सीकरण' (Oxidation) को किस रूप में परिभाषित किया गया है?",
     "o": [
       "Gain of electrons",
-      "Loss of electrons",
       "Sharing of protons",
+      "Loss of electrons",
       "Addition of hydrogen"
     ],
-    "a": 1,
+    "a": 2,
     "e": "OIL RIG rule: Oxidation Is Loss of electrons (increase in oxidation state), jabki Reduction Is Gain of electrons."
   },
   {
     "qe": "What is the 'Oxidation Number' of Manganese in the Permanganate ion ($MnO_4^-$)?",
     "qh": "परमैंगनेट आयन ($MnO_4^-$) में मैंगनीज की 'ऑक्सीकरण संख्या' क्या है?",
     "o": [
-      "+2",
-      "+4",
       "+7",
-      "+6"
+      "+6",
+      "+4",
+      "+2"
     ],
-    "a": 2,
+    "a": 0,
     "e": "$x + 4(-2) = -1 \\implies x - 8 = -1 \\implies x = +7$. Permanganate me Manganese apni maximum +7 oxidation state me hota hai."
   },
   {
     "qe": "Which of the following physical characteristics is NOT a colligative property of dilute solutions?",
     "qh": "निम्नलिखित में से कौन सा भौतिक लक्षण तनु विलयनों का अणुसंख्य गुणधर्म नहीं है?",
     "o": [
-      "Osmotic pressure",
-      "Elevation in boiling point",
+      "Depression in freezing point",
       "Surface tension",
-      "Depression in freezing point"
+      "Osmotic pressure",
+      "Elevation in boiling point"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Surface tension aur viscosity pure liquids ke bulk intrinsic properties hote hain jo solute particle count par depend nahi karte."
   },
   {
     "qe": "Why is common rock salt (NaCl) scattered over snow-covered roadways in freezing winter climates?",
     "qh": "सर्दियों में बर्फीली सड़कों पर साधारण नमक (NaCl) क्यों छिड़का जाता है?",
     "o": [
-      "To increase tire traction physically",
-      "To cause a depression in the freezing point of water, melting the ice at sub-zero temperatures",
+      "To neutralize acid snow",
       "To absorb atmospheric moisture",
-      "To neutralize acid snow"
+      "To increase tire traction physically",
+      "To cause a depression in the freezing point of water, melting the ice at sub-zero temperatures"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Salt dissolve hokar freezing point ko 0°C se girakar -10°C se -15°C tak le jaata hai (Depression in Freezing Point), jisse barf ambient cold me pighal jaati hai."
   },
   {
     "qe": "What is the 'Oxidation State' of Carbon in Carbon Dioxide ($CO_2$)?",
     "qh": "कार्बन डाइऑक्साइड ($CO_2$) में कार्बन की 'ऑक्सीकरण अवस्था' क्या है?",
     "o": [
+      "0",
       "+2",
       "+4",
-      "-4",
-      "0"
+      "-4"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Oxygen ki electronegativity zyada hone se iska state -2 hota hai; $x + 2(-2) = 0 \\implies x = +4$."
   },
   {
     "qe": "A chemical reaction in which oxidation and reduction occur simultaneously across interacting species is called a:",
     "qh": "वह रासायनिक अभिक्रिया जिसमें भाग लेने वाली प्रजातियों के बीच ऑक्सीकरण और अपचयन एक साथ होते हैं, कहलाती है:",
     "o": [
-      "Precipitation reaction",
       "Redox reaction",
+      "Polymerization reaction",
       "Neutralization reaction",
-      "Polymerization reaction"
+      "Precipitation reaction"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Redox (Reduction-Oxidation) reaction me electrons ka donor reducing agent hota hai aur electron acceptor oxidizing agent hota hai."
   },
   {
     "qe": "What is the 'Oxidation Number' of Hydrogen in active metal hydrides like Sodium Hydride ($NaH$)?",
     "qh": "सोडियम हाइड्राइड ($NaH$) जैसे सक्रिय धातु हाइड्राइड में हाइड्रोजन की 'ऑक्सीकरण संख्या' क्या होती है?",
     "o": [
-      "+1",
       "-1",
       "0",
+      "+1",
       "+2"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Alkali metals ($Na$) zyada electropositive (+1) hote hain, isliye Hydrogen electron gain karke hydride ion ($H^-$) banata hai jahan iski state -1 hoti hai."
   },
   {
     "qe": "In the redox reaction $Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu$, which chemical entity undergoes 'Reduction'?",
     "qh": "रेडॉक्स अभिक्रिया $Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu$ में, किस रासायनिक स्पीशीज का 'अपचयन' (Reduction) होता है?",
     "o": [
-      "Zn",
       "Cu^2+ ion",
-      "Zn^2+ ion",
-      "Cu metal"
+      "Zn",
+      "Cu metal",
+      "Zn^2+ ion"
     ],
-    "a": 1,
+    "a": 0,
     "e": "$Cu^{2+}$ do electrons accept karke metallic copper ($Cu$) me reduce hota hai ($Cu^{2+} + 2e^- \\to Cu$), jabki $Zn$ oxidize hota hai."
   },
   {
     "qe": "What is the 'Oxidation Number' of Sulfur in Sulfuric Acid ($H_2SO_4$)?",
     "qh": "सल्फ्यूरिक एसिड ($H_2SO_4$) में सल्फर की 'ऑक्सीकरण संख्या' क्या है?",
     "o": [
-      "+4",
       "+6",
+      "+4",
       "-2",
       "+2"
     ],
-    "a": 1,
+    "a": 0,
     "e": "$2(+1) + x + 4(-2) = 0 \\implies 2 + x - 8 = 0 \\implies x = +6$."
   },
   {
     "qe": "What is the 'Oxidation State' of Chlorine in Perchloric Acid ($HClO_4$)?",
     "qh": "परक्लोरिक एसिड ($HClO_4$) में क्लोरीन की 'ऑक्सीकरण अवस्था' क्या है?",
     "o": [
-      "+1",
-      "+3",
+      "+7",
       "+5",
-      "+7"
+      "+1",
+      "+3"
     ],
-    "a": 3,
+    "a": 0,
     "e": "$+1 + x + 4(-2) = 0 \\implies 1 + x - 8 = 0 \\implies x = +7$."
   },
   {
     "qe": "A chemical reaction in which the same element simultaneously undergoes both oxidation and reduction is called a:",
     "qh": "वह रासायनिक अभिक्रिया जिसमें एक ही तत्व का एक साथ ऑक्सीकरण और अपचयन दोनों होता है, कहलाती है:",
     "o": [
-      "Disproportionation reaction",
-      "Neutralization reaction",
       "Displacement reaction",
+      "Neutralization reaction",
+      "Disproportionation reaction",
       "Combination reaction"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Disproportionation reaction me single reactant do alag oxidation states me convert hota hai (jaise $2H_2O_2 \\to 2H_2O + O_2$ me oxygen -1 se -2 aur 0 dono me jaata hai)."
   },
   {
     "qe": "According to the Lewis definition, what is a 'Lewis Base'?",
     "qh": "लुईस परिभाषा के अनुसार, एक 'लुईस क्षार' (Lewis Base) क्या होता है?",
     "o": [
+      "Electron pair acceptor",
       "Proton donor",
       "Electron pair donor",
-      "Electron pair acceptor",
       "Hydroxide ion generator"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Lewis concept kehta hai ki Lewis Base lone pair electron donor hota hai (jaise $:NH_3$), jabki Lewis Acid electron pair acceptor hota hai (jaise $BF_3$)."
   }
 ]

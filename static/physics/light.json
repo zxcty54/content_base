@@ -4,20 +4,20 @@
     "qh": "किसी गोलीय दर्पण की वृत्ताकार सीमा रेखा का प्रभावी व्यास (गोलाई का कुल आकार) क्या कहलाता है?",
     "o": [
       "Principal axis (मुख्य अक्ष)",
+      "Focal length (फोकस दूरी)",
       "Radius of curvature (वक्रता त्रिज्या)",
-      "Aperture (द्वारक)",
-      "Focal length (फोकस दूरी)"
+      "Aperture (द्वारक)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Spherical mirror ke reflecting surface ke circular border ka effective diameter uska Aperture kehlata hai. Yahi decide karta hai ki mirror ke andar kitni light enter karegi."
   },
   {
     "qe": "What happens to a ray of light that passes through the center of curvature of a concave mirror?",
     "qh": "अवतल दर्पण के वक्रता केंद्र (C) से होकर गुजरने वाली प्रकाश की किरण के साथ परावर्तन के बाद क्या होता है?",
     "o": [
-      "It passes through the focus (यह फोकस से होकर गुजरती है)",
       "It becomes parallel to the principal axis (यह मुख्य अक्ष के समानांतर हो जाती है)",
       "It gets absorbed completely (यह पूरी तरह अवशोषित हो जाती है)",
+      "It passes through the focus (यह फोकस से होकर गुजरती है)",
       "It retraces its path back along the same line (यह उसी मार्ग पर बिल्कुल वापस लौट जाती है)"
     ],
     "a": 3,
@@ -27,12 +27,12 @@
     "qe": "Where is the principal focus of a convex mirror located, and is it real or virtual?",
     "qh": "एक उत्तल दर्पण का मुख्य फोकस कहाँ स्थित होता है, और यह बिंदु वास्तविक होता है या आभासी?",
     "o": [
-      "Behind the mirror, Virtual (दर्पण के पीछे, आभासी)",
-      "In front of the mirror, Real (दर्पण के सामने, वास्तविक)",
+      "Changes position based on the object (वस्तु के आधार पर स्थान बदलता है)",
       "At the center of the mirror, Real (दर्पण के केंद्र पर, वास्तविक)",
-      "Changes position based on the object (वस्तु के आधार पर स्थान बदलता है)"
+      "Behind the mirror, Virtual (दर्पण के पीछे, आभासी)",
+      "In front of the mirror, Real (दर्पण के सामने, वास्तविक)"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Convex mirror me rays reflect hone ke baad diverge ho jaati hain aur mirror ke peeche aapas me milti hui lagti hain, isliye iska focus virtual hota hai aur mirror ke peeche banta hai."
   },
   {
@@ -40,20 +40,20 @@
     "qh": "हेडलाइट्स और सर्चलाइट्स में प्रकाश का शक्तिशाली समानांतर बीम प्राप्त करने के लिए बल्ब को कहाँ रखा जाता है?",
     "o": [
       "At the center of curvature (वक्रता केंद्र पर)",
-      "Between focus and pole (फोकस और ध्रुव के बीच)",
       "At the focus of the concave reflector (अवतल परावर्तक के फोकस पर)",
+      "Between focus and pole (फोकस और ध्रुव के बीच)",
       "Very close to the outer mirror edge (दर्पण के बाहरी किनारे के पास)"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Concave reflector ke focus par jab bulb rakhte hain, toh usse nikalne wali rays reflect hokar principal axis ke parallel ho jaati hain aur ek powerful seedha beam banati hain."
   },
   {
     "qe": "When an object is placed exactly at the principal focus of a concave mirror, the image is formed at:",
     "qh": "जब किसी वस्तु को अवतल दर्पण के ठीक मुख्य फोकस (F) पर रखा जाता है, तो उसका प्रतिबिंब कहाँ बनता है?",
     "o": [
-      "At the focus itself (खुद फोकस पर ही)",
-      "At the center of curvature (वक्रता केंद्र पर)",
       "Behind the mirror (दर्पण के पीछे)",
+      "At the center of curvature (वक्रता केंद्र पर)",
+      "At the focus itself (खुद फोकस पर ही)",
       "At infinity (अनंत पर)"
     ],
     "a": 3,
@@ -63,12 +63,12 @@
     "qe": "A magnification of -0.5 for an image formed by a mirror indicates that the image is:",
     "qh": "किसी दर्पण द्वारा बने प्रतिबिंब का आवर्धन यदि -0.5 है, तो यह क्या दर्शाता है?",
     "o": [
-      "Virtual, erect, and larger (आभासी, सीधा और बड़ा)",
       "Real, inverted, and diminished to half its size (वास्तविक, उल्टा और आकार में आधा यानी छोटा)",
+      "Real, erect, and magnified (वास्तविक, सीधा और बड़ा)",
       "Virtual, inverted, and same size (आभासी, उल्टा और समान आकार का)",
-      "Real, erect, and magnified (वास्तविक, सीधा और बड़ा)"
+      "Virtual, erect, and larger (आभासी, सीधा और बड़ा)"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Magnification me negative sign ka matlab image real aur ulti (inverted) hai, aur magnitude 0.5 hone ka matlab image ka size object ke size se aadha hai."
   },
   {
@@ -76,21 +76,21 @@
     "qh": "अपवर्तन के दौरान प्रकाश तरंग का कौन सा गुण बिल्कुल अपरिवर्तित (constant) रहता है, जबकि अन्य बदल जाते हैं?",
     "o": [
       "Frequency and color (आवृत्ति और रंग बदलते हैं)",
-      "Speed and wavelength (चाल और तरंगदैर्ध्य बदलती हैं, आवृत्ति स्थिर रहती है)",
+      "Amplitude and frequency both change (आयाम और आवृत्ति दोनों बदलते हैं)",
       "Only speed remains constant (केवल चाल स्थिर रहती है)",
-      "Amplitude and frequency both change (आयाम और आवृत्ति दोनों बदलते हैं)"
+      "Speed and wavelength (चाल और तरंगदैर्ध्य बदलती हैं, आवृत्ति स्थिर रहती है)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Frequency sirf light source par depend karti hai, isliye medium badalne par light ki speed aur wavelength badal jaate hain par frequency constant rehti hai."
   },
   {
     "qe": "Kerosene has a lower mass density than water but a higher refractive index. This means kerosene is optically:",
     "qh": "मिट्टी के तेल (Kerosene) का द्रव्यमान घनत्व पानी से कम है पर अपवर्तनांक अधिक है। इसका अर्थ है कि मिट्टी का तेल प्रकाशिक रूप से कैसा है?",
     "o": [
-      "Rarer than water (पानी से विरल है)",
       "Equally dense as water (पानी के बराबर घना है)",
+      "Opaque to all light rays (सभी प्रकाश किरणों के लिए अपारदर्शी है)",
       "Denser than water (पानी से सघन है)",
-      "Opaque to all light rays (सभी प्रकाश किरणों के लिए अपारदर्शी है)"
+      "Rarer than water (पानी से विरल है)"
     ],
     "a": 2,
     "e": "Mass density alag cheez hai aur optical density alag. Kerosene ka refractive index paani se zyada hai, iska matlab kerosene paani ke mukable optically denser hai."
@@ -101,10 +101,10 @@
     "o": [
       "It is measured in meters (इसे मीटर में मापा जाता है)",
       "It represents the power of a lens in Diopters (यह डायोप्टर में लेंस की क्षमता है)",
-      "It changes with the area of the surface (यह सतह के क्षेत्रफल के साथ बदलता है)",
-      "It is a pure dimensionless number with no units (यह एक मात्रक-हीन और शुद्ध संख्या है)"
+      "It is a pure dimensionless number with no units (यह एक मात्रक-हीन और शुद्ध संख्या है)",
+      "It changes with the area of the surface (यह सतह के क्षेत्रफल के साथ बदलता है)"
     ],
-    "a": 3,
+    "a": 2,
     "e": "Refractive index do speeds ka ratio hota hai (n = c / v). Units aapas me cancel ho jaati hain, isliye ye unitless aur dimensionless number hota hai."
   },
   {
@@ -123,9 +123,9 @@
     "qe": "A ray of light passing through the principal focus of a convex lens emerges, after refraction, as:",
     "qh": "एक उत्तल लेंस के मुख्य फोकस (F1) से होकर आने वाली प्रकाश की किरण अपवर्तन के बाद लेंस से कैसे बाहर निकलेगी?",
     "o": [
-      "Bending by 90 degrees towards normal (अभिलंब की ओर 90 डिग्री झुककर)",
-      "Parallel to the principal axis (मुख्य अक्ष के बिल्कुल समानांतर हो जाएगी)",
       "Turning back to the same focus (उसी फोकस पर वापस लौट जाएगी)",
+      "Parallel to the principal axis (मुख्य अक्ष के बिल्कुल समानांतर हो जाएगी)",
+      "Bending by 90 degrees towards normal (अभिलंब की ओर 90 डिग्री झुककर)",
       "Passing through the optical center (प्रकाशिक केंद्र से होकर जाएगी)"
     ],
     "a": 1,
@@ -135,46 +135,46 @@
     "qe": "According to the VMCL shortcode rule, a concave lens always forms an image that is:",
     "qh": "शॉर्टकट नियम 'VMCL' के अनुसार, एक अवतल लेंस (Concave Lens) द्वारा बना प्रतिबिंब हमेशा कैसा होता है?",
     "o": [
+      "Virtual, erect, and diminished (आभासी, सीधा और छोटा)",
       "Real, inverted, and magnified (वास्तविक, उल्टा और बड़ा)",
       "Real, inverted, and same size (वास्तविक, उल्टा और समान आकार का)",
-      "Virtual, erect, and diminished (आभासी, सीधा और छोटा)",
       "Virtual, inverted, and highly enlarged (आभासी, उल्टा और बहुत बड़ा)"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Concave lens ke samne object chahe jahan bhi rakhi ho, ye hamesha virtual, seedhi (erect) aur size me chhoti (diminished) image hi banata hai."
   },
   {
     "qe": "According to the Cartesian sign convention, the focal length of a convex lens is and that of a concave lens is:",
     "qh": "चिह्न परिपाटी के अनुसार, उत्तल लेंस की फोकस दूरी हमेशा कैसी और अवतल लेंस की फोकस दूरी हमेशा कैसी होती है?",
     "o": [
+      "Negative, Negative (दोनों ऋणात्मक)",
       "Positive, Negative (धनात्मक, ऋणात्मक)",
-      "Negative, Positive (ऋणात्मक, धनात्मक)",
       "Positive, Positive (दोनों धनात्मक)",
-      "Negative, Negative (दोनों ऋणात्मक)"
+      "Negative, Positive (ऋणात्मक, धनात्मक)"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Convex lens ka main focus light ki direction me (right side) hota hai isliye positive hota hai, jabki Concave lens ka focus left side banta hai isliye negative hota hai."
   },
   {
     "qe": "What is the correct mathematical expression for the thin lens formula?",
     "qh": "पतले लेंसों के लिए प्रयुक्त होने वाले लेंस सूत्र (Lens Formula) का सही गणितीय रूप क्या है?",
     "o": [
-      "1/f = 1/v + 1/u",
       "1/u - 1/v = 1/f",
-      "P = v - u",
-      "1/f = 1/v - 1/u"
+      "1/f = 1/v - 1/u",
+      "1/f = 1/v + 1/u",
+      "P = v - u"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Lens formula 1/f = 1/v - 1/u hota hai, jabki mirror formula me beech me plus sign (1/f = 1/v + 1/u) hota hai."
   },
   {
     "qe": "Where must an object be placed in front of a convex lens to obtain a real, inverted, and magnified image?",
     "qh": "एक उत्तल लेंस के सामने वस्तु को कहाँ रखा जाए ताकि उसका वास्तविक, उल्टा और वस्तु से बड़ा (magnified) प्रतिबिंब प्राप्त हो सके?",
     "o": [
-      "At infinity (अनंत पर)",
       "At the optical center O (प्रकाशिक केंद्र O के ऊपर)",
+      "Beyond 2F1 (2F1 से बहुत दूर)",
       "Between F1 and 2F1 (मुख्य फोकस F1 और 2F1 के बीच)",
-      "Beyond 2F1 (2F1 से बहुत दूर)"
+      "At infinity (अनंत पर)"
     ],
     "a": 2,
     "e": "Jab object ko F1 aur 2F1 ke beech rakhte hain, toh uski image 2F2 ke paar banti hai jo real, inverted aur size me magnified (badi) hoti hai."
@@ -183,48 +183,48 @@
     "qe": "A lens magnification of +0.75 indicates that the image is virtual, erect, and compared to the object:",
     "qh": "लेंस के आवर्धन का मान यदि धनात्मक +0.75 है, तो इसका अर्थ है कि प्रतिबिंब सीधा, आभासी और आकार में वस्तु से कैसा है?",
     "o": [
-      "Smaller / Diminished (छोटा है)",
+      "Formed at infinity (अनंत पर बना है)",
       "Larger (बड़ा है)",
-      "Of the exact same size (बिल्कुल समान आकार का है)",
-      "Formed at infinity (अनंत पर बना है)"
+      "Smaller / Diminished (छोटा है)",
+      "Of the exact same size (बिल्कुल समान आकार का है)"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Plus sign batata hai ki image seedhi (erect aur virtual) hai, aur 0.75 ka value 1 se chhota hone ki wajah se image ka size object se chhota (diminished) hai."
   },
   {
     "qe": "Glass has a refractive index of 1.5, and water has 1.33. Which medium slows down light more?",
     "qh": "कांच का अपवर्तनांक 1.5 है और पानी का 1.33 है। कौन सा माध्यम प्रकाश की चाल को अधिक धीमा करेगा?",
     "o": [
+      "Neither slows down light (कोई भी प्रकाश को धीमा नहीं करता)",
       "Water, because it is liquid (पानी, क्योंकि यह तरल है)",
       "Both slow down light equally (दोनों प्रकाश को समान रूप से धीमा करते हैं)",
-      "Glass, because it has a higher refractive index (कांच, क्योंकि इसका अपवर्तनांक अधिक है)",
-      "Neither slows down light (कोई भी प्रकाश को धीमा नहीं करता)"
+      "Glass, because it has a higher refractive index (कांच, क्योंकि इसका अपवर्तनांक अधिक है)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Refractive index jitna high hoga, us medium me light ki speed utni hi kam ho jayegi. Glass ka index 1.5 paani ke 1.33 se zyada hai, isliye glass light ko zyada slow karega."
   },
   {
     "qe": "What is the lateral perpendicular shift between the original path of an incident ray and the emergent ray from a glass slab called?",
     "qh": "कांच के स्लैब से निकलने वाली निर्गत किरण जब अपनी मूल रेखा से थोड़ी बगल में खिसक जाती है, तो इस खिसकाव दूरी को क्या कहते हैं?",
     "o": [
+      "Aperture bend (द्वारक झुकाव)",
       "Vertical shift (ऊर्ध्वाधर खिसकाव)",
-      "Lateral displacement (पार्श्विक विस्थापन)",
       "Dispersion angle (विक्षेपण कोण)",
-      "Aperture bend (द्वारक झुकाव)"
+      "Lateral displacement (पार्श्विक विस्थापन)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Glass slab se nikalne par light ray apne original path ke parallel shift ho jaati hai. In dono rays ke beech ki perpendicular doori ko Lateral displacement kehte hain."
   },
   {
     "qe": "A clear pool of water appears shallower than it actually is. Which phenomenon is responsible for this?",
     "qh": "साफ पानी से भरे किसी तालाब का तल ऊपर से देखने पर थोड़ा ऊपर उठा हुआ (कम गहरा) प्रतीत होता है। इसके लिए कौन सी घटना जिम्मेदार है?",
     "o": [
-      "Reflection of light (प्रकाश का परावर्तन)",
       "Scattering of light (प्रकाश का प्रकीर्णन)",
-      "Total internal reflection (पूर्ण आंतरिक परावर्तन)",
-      "Refraction of light (प्रकाश का अपवर्तन)"
+      "Refraction of light (प्रकाश का अपवर्तन)",
+      "Reflection of light (प्रकाश का परावर्तन)",
+      "Total internal reflection (पूर्ण आंतरिक परावर्तन)"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Paani ke bottom se aane wali light rays water se air me jaate waqt normal se door jhuk jaati hain. Is refraction ki wajah se hume paani ka floor thoda upar utha hua lagta hai."
   },
   {
@@ -232,8 +232,8 @@
     "qh": "यदि +5 D के उत्तल लेंस और -5 D के अवतल लेंस को आपस में मिला दिया जाए, तो यह पूरा सिस्टम किस तरह कार्य करेगा?",
     "o": [
       "A plain glass plate with zero net power (शून्य कुल क्षमता वाली समतल कांच की प्लेट की तरह)",
-      "A powerful magnifying glass (एक शक्तिशाली आवर्धक कांच की तरह)",
       "A high-power concave lens (एक उच्च क्षमता वाले अवतल लेंस की तरह)",
+      "A powerful magnifying glass (एक शक्तिशाली आवर्धक कांच की तरह)",
       "A perfect black body absorber (एक पूर्ण कृष्णिका अवशोषक की तरह)"
     ],
     "a": 0,
@@ -243,34 +243,34 @@
     "qe": "A ray of light traveling towards the center of a glass sphere passes without bending because it hits the surface at an angle of incidence equal to:",
     "qh": "कांच के एक गोले के केंद्र की दिशा में आने वाली प्रकाश किरण बिना मुड़े सीधी निकल जाती है क्योंकि यह सतह पर कितने आपतन कोण पर गिरती है?",
     "o": [
+      "0 degrees",
       "90 degrees",
       "45 degrees",
-      "0 degrees",
       "180 degrees"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Sphere ke center se aane wali line surface par radius banti hai jo normal hoti hai. Normal ke sath angle 0 degree hone ki wajah se ray bina kisi bending ke seedhi nikal jaati hai."
   },
   {
     "qe": "According to the sign convention, the height of an inverted image formed below the principal axis is taken as:",
     "qh": "चिह्न परिपाटी के अनुसार, मुख्य अक्ष के नीचे लंबवत लटकने वाले उल्टे (inverted) प्रतिबिंब की ऊंचाई का चिह्न क्या लिया जाता है?",
     "o": [
-      "Positive (धनात्मक)",
       "Negative (ऋणात्मक)",
+      "Positive (धनात्मक)",
       "Zero (शून्य)",
       "Depends on object height (वस्तु की ऊंचाई पर निर्भर करता है)"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Cartesian coordinate geometry ke hisab se principal axis ke neeche (-y axis ke along) maapi jaane wali saari heights negative li jaati hain."
   },
   {
     "qe": "Diamond has a very high refractive index of 2.42. This unique optical property means that the speed of light inside diamond is:",
     "qh": "हीरे का अपवर्तनांक 2.42 है जो पारदर्शी माध्यमों में सबसे अधिक है। इस उच्च अपवर्तनांक का अर्थ है कि हीरे के भीतर प्रकाश की चाल कैसी होगी?",
     "o": [
-      "Maximum among all substances (सभी पदार्थों में सबसे तेज होगी)",
+      "Zero (शून्य हो जाएगी)",
       "Equal to the speed in vacuum (वैक्यूम में चाल के बराबर होगी)",
       "Minimum / very slow compared to other media (अन्य माध्यमों की तुलना में न्यूनतम यानी बहुत धीमी होगी)",
-      "Zero (शून्य हो जाएगी)"
+      "Maximum among all substances (सभी पदार्थों में सबसे तेज होगी)"
     ],
     "a": 2,
     "e": "Formula n = c / v ke hisab se refractive index jitna zyada hoga speed utni kam hogi. Diamond ka index sabse zyada (2.42) hai, isliye isme light ki speed sabse kam hoti hai."
@@ -280,57 +280,57 @@
     "qh": "लेंस की दोनों गोलीय सतहों के वक्रता केंद्रों (C1 और C2) से होकर गुजरने वाली सीधी काल्पनिक रेखा क्या कहलाती है?",
     "o": [
       "Aperture line (द्वारक रेखा)",
-      "Principal axis (मुख्य अक्ष)",
       "Focal plane (फोकस तल)",
-      "Optical diameter (प्रकाशिक व्यास)"
+      "Optical diameter (प्रकाशिक व्यास)",
+      "Principal axis (मुख्य अक्ष)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Lens ke dono spherical curved surfaces ke centers of curvature (C1 aur C2) se guzarne wali imaginary seedhi line ko Principal Axis kehte hain."
   },
   {
     "qe": "If a lens magnification value is +0.5, what can be inferred about the nature of the lens?",
     "qh": "किसी लेंस के लिए आवर्धन का मान यदि +0.5 है, तो इससे लेंस की प्रकृति के बारे में क्या निष्कर्ष निकाला जा सकता है?",
     "o": [
-      "It is definitely a convex lens (यह निश्चित रूप से एक उत्तल लेंस है)",
-      "It is a plane glass window (यह एक समतल कांच की खिड़की है)",
       "It is definitely a concave lens (यह निश्चित रूप से एक अवतल लेंस है)",
-      "It is a combination of mirrors (यह दर्पणों का एक संयोजन है)"
+      "It is a plane glass window (यह एक समतल कांच की खिड़की है)",
+      "It is a combination of mirrors (यह दर्पणों का एक संयोजन है)",
+      "It is definitely a convex lens (यह निश्चित रूप से एक उत्तल लेंस है)"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Plus sign ka matlab image seedhi (erect) hai aur 0.5 ka matlab image chhoti hai. Lenses me seedhi aur chhoti image sirf aur sirf concave lens hi bana sakta hai."
   },
   {
     "qe": "What is the center of the hollow sphere of which a spherical mirror forms a part called?",
     "qh": "उस खोखले गोले के केंद्र को क्या कहा जाता है जिसका गोलीय दर्पण एक हिस्सा या टुकड़ा होता है?",
     "o": [
-      "Principal focus (मुख्य फोकस)",
       "Pole of mirror (दर्पण का ध्रुव)",
-      "Center of curvature (वक्रता केंद्र)",
-      "Aperture center (द्वारक केंद्र)"
+      "Aperture center (द्वारक केंद्र)",
+      "Principal focus (मुख्य फोकस)",
+      "Center of curvature (वक्रता केंद्र)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Golakar darpan jis hollow glass sphere ko kaat kar banaya jata hai, us poore sphere ke center ko Center of Curvature (C) kaha jata hai."
   },
   {
     "qe": "The path of light can be retraced if its direction of propagation is reversed. This property is governed by the:",
     "qh": "यदि प्रकाश की दिशा को पूरी तरह पलट दिया जाए, तो वह ठीक अपने पुराने मार्ग पर वापस लौट जाता है। यह किस सिद्धांत के अंतर्गत आता है?",
     "o": [
-      "Principle of Reversibility of light (प्रकाश की उत्क्रमणीयता का सिद्धांत)",
-      "Law of dispersion (विक्षेपण का नियम)",
       "Law of total absorption (पूर्ण अवशोषण का नियम)",
+      "Law of dispersion (विक्षेपण का नियम)",
+      "Principle of Reversibility of light (प्रकाश की उत्क्रमणीयता का सिद्धांत)",
       "Aperture reflection rule (द्वारक परावर्तन का नियम)"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Principle of Reversibility kehta hai ki agar kisi light ray ki direction reverse kar di jaye, toh wo bilkul usi geometry aur path ko follow karte hue wapas laut ti hai."
   },
   {
     "qe": "The constancy of the ratio sin(i) / sin(r) in Snell's law depends directly on which factors?",
     "qh": "स्नेल के नियम के अनुसार sin i / sin r का अनुपात स्थिर रहना मुख्य रूप से किन बातों पर निर्भर करता है?",
     "o": [
-      "Size of the object (वस्तु के आकार पर)",
+      "Continuous doubling of incidence angle (आपतन कोण को लगातार दोगुना करने पर)",
       "The room temperature and mirror paint (कमरे के तापमान और दर्पण के पेंट पर)",
       "A particular color of light and the given pair of media (प्रकाश के एक निश्चित रंग और माध्यमों के निश्चित जोड़े पर)",
-      "Continuous doubling of incidence angle (आपतन कोण को लगातार दोगुना करने पर)"
+      "Size of the object (वस्तु के आकार पर)"
     ],
     "a": 2,
     "e": "Snell's Law ke mutabiq ratio tabhi constant rehta hai jab media ka pair fixed ho aur aane wali light ka color (wavelength) specific aur constant ho."
@@ -339,10 +339,10 @@
     "qe": "In spherical mirrors, the distance between the principal focus (F) and the center of curvature (C) is equal to:",
     "qh": "गोलीय दर्पणों में, मुख्य फोकस (F) और वक्रता केंद्र (C) के बीच की दूरी किसके बराबर होती है?",
     "o": [
-      "Zero (शून्य के बराबर)",
+      "Changes with object placement (वस्तु के खिसकने के साथ बदलती है)",
       "The focal length (f) (दर्पण की मूल फोकस दूरी f के ठीक बराबर)",
-      "Double the radius (त्रिज्या के दोगुने के बराबर)",
-      "Changes with object placement (वस्तु के खिसकने के साथ बदलती है)"
+      "Zero (शून्य के बराबर)",
+      "Double the radius (त्रिज्या के दोगुने के बराबर)"
     ],
     "a": 1,
     "e": "Radius R = 2f hota hai aur Focus F theek pole aur center ke midpoint par hota hai, isliye F aur C ke beech ki doori bhi focal length (f) ke hi barabar hoti hai."
@@ -351,33 +351,33 @@
     "qe": "Light bends closest to the normal in a medium that has the:",
     "qh": "प्रकाश की किरण उस माध्यम में अभिलंब की ओर सबसे ज्यादा झुकती है जिसका अपवर्तनांक कैसा होता है?",
     "o": [
-      "Highest refractive index (सबसे अधिक अपवर्तनांक होता है)",
+      "Refractive index changes continuously (अपवर्तनांक लगातार बदलता रहता है)",
       "Lowest refractive index (सबसे कम अपवर्तनांक होता है)",
-      "Refractive index equal to 1 (अपवर्तनांक 1 के बराबर होता है)",
-      "Refractive index changes continuously (अपवर्तनांक लगातार बदलता रहता है)"
+      "Highest refractive index (सबसे अधिक अपवर्तनांक होता है)",
+      "Refractive index equal to 1 (अपवर्तनांक 1 के बराबर होता है)"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Refractive index jitna zyada hoga, medium utna hi optically dense hoga aur light ki speed utni hi kam ho jayegi, jisse ray normal ki taraf sabse zyada bend hogi."
   },
   {
     "qe": "For a rectangular glass slab, why is the angle of incidence exactly equal to the angle of emergence?",
     "qh": "एक आयताकार कांच के स्लैब के लिए, आपतन कोण और निर्गत कोण आपस में बिल्कुल बराबर क्यों होते हैं?",
     "o": [
-      "Because incidence angle is always 90 degrees",
-      "Because glass absorbs no light energy",
       "Because opposite parallel faces cause equal and opposite bending (विपरीत समानांतर फलकों के कारण समान और विपरीत झुकाव होता है)",
-      "The sum of angles is always 180 degrees"
+      "Because glass absorbs no light energy",
+      "The sum of angles is always 180 degrees",
+      "Because incidence angle is always 90 degrees"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Glass slab ke opposite faces parallel hote hain. Hawa se glass me aate waqt jitna bending hota hai, glass se hawa me nikalte waqt theek utna hi opposite bending hota hai."
   },
   {
     "qe": "As the focal length of a lens increases, its power to bend light rays:",
     "qh": "लेंस की क्षमता और उसकी फोकस दूरी में व्युत्क्रमानुपाती संबंध होता है। यदि किसी लेंस की फोकस दूरी लगातार बढ़ती जाए, तो उसकी क्षमता पर क्या प्रभाव पड़ेगा?",
     "o": [
+      "Becomes infinite instantly (तुरंत अनंत हो जाएगी)",
       "Increases (बढ़ने लगेगी)",
       "Remains physically unchanged (भौतिक रूप से अपरिवर्तित रहेगी)",
-      "Becomes infinite instantly (तुरंत अनंत हो जाएगी)",
       "Decreases / diminishes (लगातार घटने लगेगी)"
     ],
     "a": 3,
@@ -387,45 +387,45 @@
     "qe": "According to the Law of Reflection, the angle of incidence is always equal to the angle of reflection. This law applies to which type of surfaces?",
     "qh": "परावर्तन के नियम के अनुसार, आपतन कोण हमेशा परावर्तन कोण के बराबर होता है। यह नियम किस प्रकार की सतहों पर लागू होता है?",
     "o": [
-      "All spherical and rough reflecting surfaces (सभी गोलीय और खुरदरी परावर्तक सतहों पर)",
-      "Only plane mirrors (केवल समतल दर्पण पर)",
       "Only regular shiny steel plates (केवल चमकदार स्टील प्लेटों पर)",
-      "Only convex mirrors (केवल उत्तल दर्पण पर)"
+      "All spherical and rough reflecting surfaces (सभी गोलीय और खुरदरी परावर्तक सतहों पर)",
+      "Only convex mirrors (केवल उत्तल दर्पण पर)",
+      "Only plane mirrors (केवल समतल दर्पण पर)"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Reflection ka law angle i = angle r universal rule hai. Ye plane, concave, convex aur rough (khurduri) sabhi surfaces par barabar apply hota hai."
   },
   {
     "qe": "The incident ray, the reflected ray, and the normal at the point of incidence all lie in the same:",
     "qh": "आप्तित किरण, परावर्तित किरण और आपतन बिंदु पर खींचा गया अभिलंब तीनों हमेशा एक ही कहाँ स्थित होते हैं?",
     "o": [
-      "Horizontal line (क्षैतिज रेखा में)",
-      "Curved surface (वक्र सतह में)",
       "Plane (समतल या प्लेन में)",
-      "Aperture area (द्वारक क्षेत्र में)"
+      "Aperture area (द्वारक क्षेत्र में)",
+      "Curved surface (वक्र सतह में)",
+      "Horizontal line (क्षैतिज रेखा में)"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Reflection ke dusre niyam ke hisab se incident ray, reflected ray aur normal teeno hamesha ek hi geometrical plane me exist karte hain."
   },
   {
     "qe": "Which mirror is preferred as a rear-view mirror in vehicles due to its wide field of view?",
     "qh": "वाहनों में पीछे का बड़ा ट्रैफिक देखने के लिए किस दर्पण को प्राथमिकता दी जाती है?",
     "o": [
-      "Concave mirror (अवतल दर्पण)",
+      "Convex mirror (उत्तल दर्पण)",
       "Plane mirror (समतल दर्पण)",
       "Cylindrical mirror (बेलनाकार दर्पण)",
-      "Convex mirror (उत्तल दर्पण)"
+      "Concave mirror (अवतल दर्पण)"
     ],
-    "a": 3,
+    "a": 0,
     "e": "Convex mirror hamesha seedhi aur chhoti image banata hai, jis wajah se iska field of view bohot bada ho jata hai aur driver peeche ka kaafi lamba traffic cover kar pata hai."
   },
   {
     "qe": "Where should an object be placed in front of a concave mirror to obtain a real, inverted image of the exact same size?",
     "qh": "एक अवतल दर्पण के सामने किसी वस्तु को कहाँ रखा जाए ताकि उसका वास्तविक, उल्टा और वस्तु के बिल्कुल समान आकार का प्रतिबिंब प्राप्त हो?",
     "o": [
-      "At the principal focus (मुख्य फोकस पर)",
-      "At the center of curvature (वक्रता केंद्र पर)",
       "At infinity (अनंत पर)",
+      "At the center of curvature (वक्रता केंद्र पर)",
+      "At the principal focus (मुख्य फोकस पर)",
       "Between pole and focus (ध्रुव और फोकस के बीच)"
     ],
     "a": 1,
@@ -435,33 +435,33 @@
     "qe": "Why do dentists use a concave mirror to examine a patient's teeth?",
     "qh": "दंत चिकित्सक (Dentists) मरीज के दांतों की जांच करने के लिए अवतल दर्पण का उपयोग क्यों करते हैं?",
     "o": [
-      "To get an erect and magnified virtual image (सीधा और बड़ा आभासी प्रतिबिंब देखने के लिए)",
       "To get a smaller and inverted image (छोटा और उल्टा प्रतिबिंब देखने के लिए)",
-      "To decrease the intensity of light (प्रकाश की तीव्रता कम करने के लिए)",
-      "To view teeth through a parallel beam (दांतों को समानांतर बीम से देखने के लिए)"
+      "To get an erect and magnified virtual image (सीधा और बड़ा आभासी प्रतिबिंब देखने के लिए)",
+      "To view teeth through a parallel beam (दांतों को समानांतर बीम से देखने के लिए)",
+      "To decrease the intensity of light (प्रकाश की तीव्रता कम करने के लिए)"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Jab daant ko concave mirror ke pole aur focus ke beech (bohot paas) laya jata hai, toh mirror daant ki seedhi aur magnified (badi) virtual image dikhata hai."
   },
   {
     "qe": "Which mirror is used in solar furnaces to focus sunlight and produce high heat?",
     "qh": "सौर भट्टियों (Solar Furnaces) में सूर्य के प्रकाश को एक बिंदु पर केंद्रित करके अत्यधिक ऊष्मा उत्पन्न करने के लिए किसका उपयोग किया जाता है?",
     "o": [
-      "Convex mirror (उत्तल दर्पण)",
       "Plane mirror (समतल दर्पण)",
       "Concave mirror (अवतल दर्पण)",
-      "Bifocal lens (द्विफोकसी लेंस)"
+      "Bifocal lens (द्विफोकसी लेंस)",
+      "Convex mirror (उत्तल दर्पण)"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Concave mirror ek converging mirror hai. Ye door se aane wali parallel sunlight ko apne focus point par concentrate kar deta hai, jisse bohot high heat generate hoti hai."
   },
   {
     "qe": "If the magnification of a spherical mirror is positive (m = +3), what does it tell about the nature of the image?",
     "qh": "यदि किसी गोलीय दर्पण का आवर्धन धनात्मक (m = +3) है, तो यह प्रतिबिंब की प्रकृति के बारे में क्या बताता है?",
     "o": [
-      "Real and inverted (वास्तविक और उल्टा)",
-      "Real and diminished (वास्तविक और छोटा)",
       "Point-sized at focus (फोकस पर बिंदु आकार का)",
+      "Real and diminished (वास्तविक और छोटा)",
+      "Real and inverted (वास्तविक और उल्टा)",
       "Virtual and erect (आभासी और सीधा)"
     ],
     "a": 3,
@@ -471,36 +471,36 @@
     "qe": "According to the sign convention, the focal length of a concave mirror is always taken as:",
     "qh": "कार्तिकेय चिह्न परिपाटी के अनुसार, अवतल दर्पण की फोकस दूरी का चिह्न हमेशा क्या लिया जाता है?",
     "o": [
-      "Negative (ऋणात्मक)",
       "Positive (धनात्मक)",
       "Zero (शून्य)",
+      "Negative (ऋणात्मक)",
       "Depends on object distance (वस्तु की दूरी पर निर्भर करता है)"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Concave mirror ka focus mirror ke samne left side par hota hai. Light aane ke opposite direction me hone ki wajah se ye doori hamesha negative li jaati hai."
   },
   {
     "qe": "What is the primary cause of refraction when light travels from one medium to another?",
     "qh": "जब प्रकाश एक माध्यम से दूसरे माध्यम में जाता है, तो होने वाले अपवर्तन (refraction) का मुख्य कारण क्या है?",
     "o": [
-      "Change in color of light (प्रकाश का रंग बदल जाना)",
       "Change in the speed of light in different media (अलग-अलग माध्यमों में प्रकाश की चाल का भिन्न होना)",
+      "Change in color of light (प्रकाश का रंग बदल जाना)",
       "Absorption of light by the surface (सतह द्वारा प्रकाश का अवशोषण)",
       "Total internal reflection (पूर्ण आंतरिक परावर्तन)"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Alag-alag mediums me light ki speed change ho jaati hai. Isi speed me badlav aane ke karan light ray boundary par apne raste se bend (divert) ho jaati hai."
   },
   {
     "qe": "When a ray of light enters from an optically rarer medium to an optically denser medium obliquely, it bends:",
     "qh": "जब प्रकाश की किरण एक प्रकाशिक विरल माध्यम से सघन माध्यम में तिरछी प्रवेश करती है, तो यह किस ओर मुड़ती है?",
     "o": [
-      "Away from the normal (अभिलंब से दूर)",
       "Goes straight without any deviation (बिना किसी विचलन के सीधी निकलती है)",
-      "Towards the normal (अभिलंब की ओर)",
-      "Reflects back into the same medium (उसी माध्यम में वापस लौट जाती है)"
+      "Reflects back into the same medium (उसी माध्यम में वापस लौट जाती है)",
+      "Away from the normal (अभिलंब से दूर)",
+      "Towards the normal (अभिलंब की ओर)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Denser medium me jaate hi light ki speed kam ho jaati hai, jiske karan refracted ray interface par khinche gaye normal ki taraf bend ho jaati hai."
   },
   {
@@ -508,57 +508,57 @@
     "qh": "एक उत्तल लेंस (Convex Lens) को 'अभिसारी लेंस' क्यों कहा जाता है?",
     "o": [
       "Because it diverges light rays (क्योंकि यह प्रकाश किरणों को फैलाता है)",
-      "Because it converges parallel rays of light at a single point (क्योंकि यह मुख्य अक्ष के समानांतर आने वाली किरणों को एक बिंदु पर इकट्ठा करता है)",
       "Because it changes the wavelength of light (क्योंकि यह प्रकाश की तरंगदैर्ध्य बदलता है)",
+      "Because it converges parallel rays of light at a single point (क्योंकि यह मुख्य अक्ष के समानांतर आने वाली किरणों को एक बिंदु पर इकट्ठा करता है)",
       "Because it absorbs all frequencies (क्योंकि यह सभी आवृत्तियों को अवशोषित करता है)"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Convex lens apne upar aane wali saari parallel light rays ko refraction ke baad ek hi point (focus) par laakar mila deta hai, isliye ise converging lens bolte hain."
   },
   {
     "qe": "The power of a lens is inversely proportional to its focal length. What is the SI unit of power of a lens?",
     "qh": "लेंस की क्षमता उसकी फोकस दूरी के व्युत्क्रमानुपाती होती है। लेंस की क्षमता का एसआई (SI) मात्रक क्या है?",
     "o": [
-      "Watt (वाट)",
-      "Meter (मीटर)",
       "Diopter (डायोप्टर)",
-      "Joule (जूल)"
+      "Watt (वाट)",
+      "Joule (जूल)",
+      "Meter (मीटर)"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Lens ki power P = 1 / f (meters) hoti hai, aur iska international SI unit Diopter (D) hota hai."
   },
   {
     "qe": "Where should an object be placed in front of a convex lens to get a virtual and erect image?",
     "qh": "एक उत्तल लेंस के सामने वस्तु को कहाँ रखा जाए ताकि उसका आभासी और सीधा प्रतिबिंब प्राप्त हो सके?",
     "o": [
-      "Between infinity and 2F1 (अनंत और 2F1 के बीच)",
-      "Exactly at 2F1 (ठीक 2F1 पर)",
+      "Between focus F1 and optical center O (मुख्य फोकस F1 और प्रकाशिक केंद्र O के बीच)",
       "At focus F1 (फोकस F1 के ऊपर)",
-      "Between focus F1 and optical center O (मुख्य फोकस F1 और प्रकाशिक केंद्र O के बीच)"
+      "Exactly at 2F1 (ठीक 2F1 पर)",
+      "Between infinity and 2F1 (अनंत और 2F1 के बीच)"
     ],
-    "a": 3,
+    "a": 0,
     "e": "Jab object ko lens ke bohot paas yaani F1 aur O ke beech rakhte hain, toh rays aage divert hoti hain aur peeche extend karne par virtual aur seedhi image banati hain."
   },
   {
     "qe": "When a light ray travels from an optically denser medium to a rarer medium (e.g., glass to air), it bends:",
     "qh": "प्रकाश के अपवर्तन में जब कोई किरण किसी सघन माध्यम से विरल माध्यम में प्रवेश करती है, तो यह किस ओर मुड़ती है?",
     "o": [
+      "Turns back by 90 degrees",
       "Away from the normal (अभिलंब से दूर)",
       "Towards the normal (अभिलंब की ओर)",
-      "Goes straight without bending (बिना मुड़े सीधी निकल जाती है)",
-      "Turns back by 90 degrees"
+      "Goes straight without bending (बिना मुड़े सीधी निकल जाती है)"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Rarer medium me light ki speed badh jaati hai, is wajah se refracted ray boundary normal se door (away from normal) hat jaati hai."
   },
   {
     "qe": "What is the difference in sign in the magnification formula between a mirror and a lens?",
     "qh": "आवर्धन के सूत्र में दर्पण और लेंस के बीच मुख्य रूप से क्या अंतर होता है?",
     "o": [
-      "Both have the same formula m = v / u",
+      "Magnification cannot be calculated using distances in lenses",
       "Mirror has m = + v / u and Lens has m = - v / u",
       "Mirror has m = - v / u and Lens has m = + v / u",
-      "Magnification cannot be calculated using distances in lenses"
+      "Both have the same formula m = v / u"
     ],
     "a": 2,
     "e": "Mirror ke case me magnification formula m = -v / u hota hai, jabki Lens ke formula me minus nahi lagta aur formula m = +v / u hota hai."
@@ -567,12 +567,12 @@
     "qe": "What is the unique property of the optical center of a lens?",
     "qh": "किसी लेंस के 'प्रकाशिक केंद्र' (Optical Center, O) की सबसे मुख्य विशेषता क्या होती है?",
     "o": [
-      "It bends light by 90 degrees",
-      "It acts as a perfect reflector",
       "Only red light can pass through it",
-      "A ray of light passes through it without any deviation (यहाँ से गुजरने वाली प्रकाश की किरण बिना किसी विचलन के सीधी निकल जाती है)"
+      "A ray of light passes through it without any deviation (यहाँ से गुजरने वाली प्रकाश की किरण बिना किसी विचलन के सीधी निकल जाती है)",
+      "It acts as a perfect reflector",
+      "It bends light by 90 degrees"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Lens ke center point yaani Optical Center (O) se pass hone wali koi bhi ray bina kisi bend ya deviation ke bilkul seedhi nikal jaati hai."
   },
   {
@@ -581,8 +581,8 @@
     "o": [
       "Convex lens, Hypermetropia (उत्तल लेंस, दूर-दृष्टि दोष)",
       "Concave lens, Myopia (अवलत लेंस, निकट-दृष्टि दोष)",
-      "Plane glass, Presbyopia (समतल कांच, जरा-दूरदर्शिता)",
-      "Cylindrical lens, Astigmatism (बेलनाकार लेंस, अबिंदुकता)"
+      "Cylindrical lens, Astigmatism (बेलनाकार लेंस, अबिंदुकता)",
+      "Plane glass, Presbyopia (समतल कांच, जरा-दूरदर्शिता)"
     ],
     "a": 1,
     "e": "Minus power Concave lens ki hoti hai, aur concave lens ka use Myopia (paas ka dikhna par door ka na dikhna) ko correct karne ke liye chashme me kiya jata hai."
@@ -591,12 +591,12 @@
     "qe": "Why is the absolute refractive index of any medium always greater than 1?",
     "qh": "किसी भी पारदर्शी माध्यम का निरपेक्ष अपवर्तनांक हमेशा 1 से अधिक क्यों होता है?",
     "o": [
+      "Because speed of light in vacuum is always greater than the speed of light in any other medium (n = c / v > 1)",
       "Because speed of light is maximum in glass",
-      "Because refractive index depends on temperature",
       "Because light slows down in vacuum",
-      "Because speed of light in vacuum is always greater than the speed of light in any other medium (n = c / v > 1)"
+      "Because refractive index depends on temperature"
     ],
-    "a": 3,
+    "a": 0,
     "e": "Formula n = c / v hota hai. Light ki speed vacuum me (c) universe me maximum hai aur baaki kisi bhi medium me (v) usse kam hoti hai, isliye ratio hamesha 1 se bada aata hai."
   },
   {
@@ -604,33 +604,33 @@
     "qh": "एक आभासी प्रतिबिंब को कभी भी किस पर प्राप्त नहीं किया जा सकता है?",
     "o": [
       "Mirror surface (दर्पण की सतह पर)",
-      "Screen (परदे पर)",
       "Lens center (लेंस के केंद्र पर)",
-      "Camera sensor (कैमरा सेंसर पर)"
+      "Camera sensor (कैमरा सेंसर पर)",
+      "Screen (परदे पर)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Virtual image light rays ke actual cut hone se nahi banti balki banti hui lagti hai, isliye is image ko screen ya parde par display nahi kiya ja sakta."
   },
   {
     "qe": "When a ray of light falls normally on the surface of a transparent medium, what is the angle of refraction?",
     "qh": "जब प्रकाश की किरण किसी पारदर्शी माध्यम की सतह पर बिल्कुल लंबवत आकर गिरती है, तो अपवर्तन कोण कितना होगा?",
     "o": [
-      "90 degrees",
       "45 degrees",
       "180 degrees",
-      "0 degrees"
+      "0 degrees",
+      "90 degrees"
     ],
-    "a": 3,
+    "a": 2,
     "e": "Normal ke upar light girne se angle of incidence 0 degree ho jata hai. Snell's law ke mutabiq angle of refraction bhi 0 degree hota hai aur light seedhi nikal jaati hai."
   },
   {
     "qe": "The notation n21 represents the refractive index of medium 2 with respect to medium 1. In terms of speed, it is written as:",
     "qh": "सापेक्ष अपवर्तनांक n21 माध्यम 2 का माध्यम 1 के सापेक्ष अपवर्तनांक दर्शाता है। चाल के पदों में इसे कैसे लिखा जाता है?",
     "o": [
-      "v2 / v1",
+      "1 / (v1 * v2)",
       "v1 / v2",
-      "v1 * v2",
-      "1 / (v1 * v2)"
+      "v2 / v1",
+      "v1 * v2"
     ],
     "a": 1,
     "e": "Refractive index speed ke inversely proportional hota hai, isliye n21 = n2 / n1 = v1 / v2 (Medium 1 me speed / Medium 2 me speed) hota hai."
@@ -640,11 +640,11 @@
     "qh": "एक अवतल लेंस (Concave Lens) को 'अपसारी लेंस' क्यों कहा जाता है?",
     "o": [
       "Because it brings rays together (क्योंकि यह किरणों को पास लाता है)",
+      "Because it blocks all light",
       "Because it creates real images only (क्योंकि यह केवल वास्तविक प्रतिबिंब बनाता है)",
-      "Because it spreads out parallel rays of light after refraction (क्योंकि यह अपने ऊपर आने वाली समानांतर प्रकाश किरणों को बाहर की ओर फैला देता है)",
-      "Because it blocks all light"
+      "Because it spreads out parallel rays of light after refraction (क्योंकि यह अपने ऊपर आने वाली समानांतर प्रकाश किरणों को बाहर की ओर फैला देता है)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Concave lens beech me patla aur kinaron par mota hota hai. Ye aane wali parallel light rays ko refraction ke baad bahar ki taraf faila (diverge) deta hai."
   },
   {
@@ -664,9 +664,9 @@
     "qh": "लेंस में प्रकाशिक केंद्र को मूल बिंदु माना जाता है। आप्तित प्रकाश की दिशा में मापी गई दूरियों को क्या माना जाता है?",
     "o": [
       "Positive (धनात्मक)",
-      "Negative (ऋणात्मक)",
       "Zero (शून्य)",
-      "Infinite (अनंत)"
+      "Infinite (अनंत)",
+      "Negative (ऋणात्मक)"
     ],
     "a": 0,
     "e": "Sign convention ka universal rule hai ki light travel karne ki direction (left to right) me maapi jaane wali sabhi dooriyan positive maani jaati hain."
@@ -676,33 +676,33 @@
     "qh": "वह प्रतिबिंब जो प्रकाश किरणों के वास्तविक कटान से बनता है और परदे पर उतारा जा सकता है, क्या कहलाता है?",
     "o": [
       "Virtual image (आभासी प्रतिबिंब)",
-      "Real image (वास्तविक प्रतिबिंब)",
+      "Refracted beam",
       "Imaginary image (काल्पनिक प्रतिबिंब)",
-      "Refracted beam"
+      "Real image (वास्तविक प्रतिबिंब)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Jab light rays reflect ya refract hone ke baad sach me kisi ek point par milti hain, toh use Real Image kehte hain aur ise screen par capture kiya ja sakta hai."
   },
   {
     "qe": "If a spherical mirror forms an erect image which is larger than the object, the mirror must be:",
     "qh": "यदि कोई गोलीय दर्पण किसी वस्तु का सीधा और वस्तु से बड़ा प्रतिबिंब बनाता है, तो वह दर्पण अनिवार्य रूप से कैसा होगा?",
     "o": [
-      "Convex mirror (उत्तल दर्पण)",
-      "Plane mirror (समतल दर्पण)",
       "Concave mirror (अवतल दर्पण)",
-      "Parabolic lens"
+      "Parabolic lens",
+      "Plane mirror (समतल दर्पण)",
+      "Convex mirror (उत्तल दर्पण)"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Convex mirror hamesha chhota image banata hai aur plane mirror barabar size ka. Sirf Concave mirror hi object ko pole aur focus ke paas rakhne par seedhi aur magnified image deta hai."
   },
   {
     "qe": "When three lenses of powers +2 D, +1 D, and -1.5 D are placed in contact, the net power of the combination is:",
     "qh": "जब +2 D, +1 D और -1.5 D क्षमता वाले तीन लेंसों को आपस में सटाकर रखा जाता है, तो संयोजन की कुल क्षमता क्या होगी?",
     "o": [
+      "0 D",
       "+4.5 D",
-      "-1.5 D",
       "+1.5 D",
-      "0 D"
+      "-1.5 D"
     ],
     "a": 2,
     "e": "Lenses ko contact me rakhne par net power simple sum hoti hai: P = P1 + P2 + P3 = 2 + 1 + (-1.5) = +1.5 D."
@@ -711,36 +711,36 @@
     "qe": "Which part of the human eye is responsible for the maximum refraction of light rays entering the eye?",
     "qh": "मानव नेत्र का कौन सा भाग आंख में प्रवेश करने वाली प्रकाश की किरणों के अधिकतम अपवर्तन के लिए मुख्य रूप से जिम्मेदार होता है?",
     "o": [
-      "Crystalline Lens (क्रिस्टलीय लेंस)",
-      "Iris (आइरिस)",
       "Pupil (पुतली)",
-      "Outer surface of the Cornea (कॉर्निया की बाहरी सतह)"
+      "Iris (आइरिस)",
+      "Outer surface of the Cornea (कॉर्निया की बाहरी सतह)",
+      "Crystalline Lens (क्रिस्टलीय लेंस)"
     ],
-    "a": 3,
+    "a": 2,
     "e": "Aankh me enter karne wali light ka lagbhag 80% refraction bahar ki transparent layer Cornea par hi ho jata hai, eye lens bas bacha hua fine focusing karta hai."
   },
   {
     "qe": "What is the physical nature and approximate diameter of the human eye ball?",
     "qh": "मानव नेत्र गोलक (Eye Ball) की भौतिक प्रकृति और उसका अनुमानित व्यास लगभग कितना होता है?",
     "o": [
-      "Approximately spherical, 2.3 cm (लगभग गोलीय, 2.3 सेमी)",
       "Perfect cube, 5 cm",
       "Cylindrical, 1.5 cm",
-      "Completely flat, 3.2 cm"
+      "Completely flat, 3.2 cm",
+      "Approximately spherical, 2.3 cm (लगभग गोलीय, 2.3 सेमी)"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Insaan ki eyeball lagbhag golakar hoti hai aur iska diameter lagbhag 2.3 centimeter hota hai."
   },
   {
     "qe": "The dark, muscular diaphragm that controls the size of the pupil in the human eye is called:",
     "qh": "मानव आंख में पुतली के आकार को नियंत्रित करने वाले काले, पेशीय डायफ्राम को क्या कहा जाता है?",
     "o": [
-      "Cornea (कॉर्निया)",
       "Retina (रेटीना)",
       "Iris (आइरिस)",
+      "Cornea (कॉर्निया)",
       "Ciliary Muscles (पक्ष्माभी पेशियां)"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Iris aankh ka colored part hota hai jo shutter ki tarah kaam karta hai aur pupil ke size ko chhota ya bada karke roshni ko control karta hai."
   },
   {
@@ -759,36 +759,36 @@
     "qe": "What type of lens is present inside the human eye, and what type of image does it project on the retina?",
     "qh": "मानव नेत्र के भीतर किस प्रकार का प्राकृतिक लेंस उपस्थित होता है, और यह रेटीना पर किस प्रकार का प्रतिबिंब प्रक्षेपित करता है?",
     "o": [
-      "Convex lens, Real and inverted (उत्तल लेंस, वास्तविक और उल्टा)",
       "Concave lens, Virtual and erect (अवतल लेंस, आभासी और सीधा)",
       "Plano-concave lens, Real and erect",
+      "Convex lens, Real and inverted (उत्तल लेंस, वास्तविक और उल्टा)",
       "Cylindrical lens, Virtual and inverted"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Aankh me natural flexible convex lens hota hai jo light ko converge karke retina par real aur ulti (inverted) image project karta hai, jise brain seedha karke interpret karta hai."
   },
   {
     "qe": "The ability of the eye lens to adjust its focal length to view both nearby and distant objects clearly is known as:",
     "qh": "पास और दूर की दोनों वस्तुओं को स्पष्ट रूप से देखने के लिए नेत्र लेंस द्वारा अपनी फोकस दूरी को समायोजित करने की क्षमता को क्या कहा जाता है?",
     "o": [
-      "Refraction Power",
-      "Visual Dispersion",
+      "Power of Accommodation (समंजन क्षमता)",
       "Optical Resolution",
-      "Power of Accommodation (समंजन क्षमता)"
+      "Refraction Power",
+      "Visual Dispersion"
     ],
-    "a": 3,
+    "a": 0,
     "e": "Ciliary muscles ki help se eye lens ka apni focal length ko paas aur door ki cheezon ke hisab se adjust karne ki ability ko Power of Accommodation kehte hain."
   },
   {
     "qe": "When the ciliary muscles of the human eye are completely relaxed, how do the eye lens and its focal length change?",
     "qh": "जब मानव नेत्र की पक्ष्माभी पेशियां पूरी तरह शिथिल (Relaxed) अवस्था में होती हैं, तो नेत्र लेंस और उसकी फोकस दूरी पर क्या प्रभाव पड़ता है?",
     "o": [
-      "The lens becomes thick, and focal length decreases",
       "The lens becomes thin, and focal length increases to its maximum (लेंस पतला हो जाता है और फोकस दूरी अधिकतम हो जाती है)",
-      "The lens becomes completely flat with zero focal length",
-      "The lens detaches from the suspension ligaments"
+      "The lens becomes thick, and focal length decreases",
+      "The lens detaches from the suspension ligaments",
+      "The lens becomes completely flat with zero focal length"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Jab ciliary muscles relaxed hoti hain, toh lens khinch kar patla ho jata hai. Patla hone se focal length maximum badh jaati hai aur door ki cheezein saaf dikhti hain."
   },
   {
@@ -797,56 +797,56 @@
     "o": [
       "Ciliary muscles relax, making the lens thin",
       "The lens shifts forward physically without changing shape",
-      "Ciliary muscles contract, making the lens thicker and increasing its curvature (पक्ष्माभी पेशियां सुकड़ती हैं, जिससे लेंस मोटा हो जाता है और उसका कर्वेचर बढ़ जाता है)",
-      "The cornea flattens to reduce total bending"
+      "The cornea flattens to reduce total bending",
+      "Ciliary muscles contract, making the lens thicker and increasing its curvature (पक्ष्माभी पेशियां सुकड़ती हैं, जिससे लेंस मोटा हो जाता है और उसका कर्वेचर बढ़ जाता है)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Paas dekhne ke liye zyada power chahiye hoti hai. Ciliary muscles contract hokar lens ko compress karti hain jisse lens mota ho jata hai aur uski focal length kam ho jaati hai."
   },
   {
     "qe": "What is the standard value of the near point (least distance of distinct vision) for a young adult with normal vision?",
     "qh": "सामान्य दृष्टि वाले एक युवा वयस्क के लिए स्पष्ट दृष्टि की न्यूनतम दूरी का मानक मान कितना होता है?",
     "o": [
-      "10 cm",
       "50 cm",
-      "Infinite (अनंत)",
-      "25 cm"
+      "25 cm",
+      "10 cm",
+      "Infinite (अनंत)"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Bina kisi aakhon ke strain ke paas ki cheez ko saaf dekhne ki minimum doori 25 cm hoti hai, isko least distance of distinct vision bolte hain."
   },
   {
     "qe": "What is the position of the far point for a normal human eye?",
     "qh": "एक सामान्य और स्वस्थ मानव नेत्र के लिए दूर-बिंदु (Far Point) कहाँ स्थित होता है?",
     "o": [
+      "At 100 cm",
       "At 25 cm",
       "At Infinity (अनंत पर)",
-      "At 100 cm",
       "Depends on the size of the cornea"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Ek healthy human eye bina kisi strain ke bohot door tak (jaise chand aur taare) dekh sakti hai, isliye far point infinity hota hai."
   },
   {
     "qe": "The light-sensitive inner layer of the human eye that acts as a screen for image projection is called:",
     "qh": "मानव नेत्र की आंतरिक प्रकाश-संवेदी परत जो प्रतिबिंब प्रक्षेपण के लिए एक परदे की तरह कार्य करती है, क्या कहलाती है?",
     "o": [
-      "Retina (दृष्टिपटल या रेटीना)",
       "Sclera (श्वेतपटल)",
       "Choroid (रक्तकपटल)",
+      "Retina (दृष्टिपटल या रेटीना)",
       "Iris (आइरिस)"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Retina aankh ka parda hota hai jisme photoreceptor cells hote hain. Eye lens se refracted rays retina par real aur inverted image project karti hain."
   },
   {
     "qe": "Which cells on the retina are specialized for low-light vision, and which are responsible for color vision?",
     "qh": "रेटीना पर उपस्थित कौन सी कोशिकाएं कम रोशनी में देखने के लिए और कौन सी रंगीन दृष्टि के लिए विशिष्ट होती हैं?",
     "o": [
-      "Cones for low light, Rods for color",
+      "Optic nerve fiber cells only",
       "Both do the same function",
       "Rods for low light, Cones for color (छड़/रॉड्स मंद प्रकाश के लिए, शंकु/कोन्स रंग के लिए)",
-      "Optic nerve fiber cells only"
+      "Cones for low light, Rods for color"
     ],
     "a": 2,
     "e": "Rods cells dim light ya raat ke waqt dekhne ke liye sensitive hote hain, jabki Cones cells bright light aur alag-alag colors ki pehchan karte hain."
@@ -856,71 +856,71 @@
     "qh": "कॉर्निया और नेत्र लेंस के बीच उपस्थित जलीय द्रव को क्या कहते हैं, और लेंस व रेटीना के बीच के गाढ़े द्रव को क्या कहते हैं?",
     "o": [
       "Vitreous humor, Aqueous humor",
-      "Plasma, Cytoplasm",
+      "Aqueous humor, Vitreous humor (नेत्रोद/जलीय द्रव, काचाभ द्रव/कांच द्रव)",
       "Cerebrospinal fluid, Lymph",
-      "Aqueous humor, Vitreous humor (नेत्रोद/जलीय द्रव, काचाभ द्रव/कांच द्रव)"
+      "Plasma, Cytoplasm"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Cornea aur lens ke beech watery liquid Aqueous humor hota hai, aur lens aur retina ke beech eyeball ka structure banaye rakhne wala jelly jaisa Vitreous humor hota hai."
   },
   {
     "qe": "A person suffering from Myopia (near-sightedness) faces difficulty in viewing which objects, and where is the image formed?",
     "qh": "निकट-दृष्टि दोष (Myopia) से पीड़ित व्यक्ति को कहाँ की वस्तुएं देखने में कठिनाई होती है, और इस दोष में दूर की वस्तु का प्रतिबिंब कहाँ बनता है?",
     "o": [
+      "Distant objects, behind the retina",
       "Distant objects, in front of the retina (दूर की वस्तुएं, रेटीना के पहले/सामने)",
       "Nearby objects, behind the retina",
-      "Nearby objects, on the blind spot",
-      "Distant objects, behind the retina"
+      "Nearby objects, on the blind spot"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Myopia me paas ka toh saaf dikhta hai par door ka dhundhla dikhta hai, kyunki rays retina par pahuchne se pehle hi converge hokar image bana deti hain."
   },
   {
     "qe": "What are the two major causes responsible for the development of Myopia in human eye?",
     "qh": "मानव नेत्र में निकट-दृष्टि दोष (Myopia) के उत्पन्न होने के दो मुख्य संरचनात्मक कारण क्या हो सकते हैं?",
     "o": [
-      "Decrease in eye ball length and flattening of lens",
-      "Excessive curvature of the eye lens and elongation of the eye ball (नेत्र लेंस का अत्यधिक वक्र होना/मोटा होना और नेत्र गोलक का लंबा हो जाना)",
       "Opacification of the crystalline lens",
-      "Weakening of ciliary muscles only"
+      "Decrease in eye ball length and flattening of lens",
+      "Weakening of ciliary muscles only",
+      "Excessive curvature of the eye lens and elongation of the eye ball (नेत्र लेंस का अत्यधिक वक्र होना/मोटा होना और नेत्र गोलक का लंबा हो जाना)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Myopia ya toh eye lens ke zyada mota (high converging power) hone se hota hai, ya fir eyeball ka size lamba ho jaane se hota hai."
   },
   {
     "qe": "Which lens is used as a corrective measure for Myopia, and what type of power does it have?",
     "qh": "निकट-दृष्टि दोष (Myopia) के निवारण के लिए चश्मे में किस लेंस का उपयोग किया जाता है, और उसकी क्षमता का चिह्न क्या होता है?",
     "o": [
-      "Convex lens, Positive power",
-      "Bifocal lens, Neutral power",
       "Concave lens, Negative power (अवलत लेंस, ऋणात्मक क्षमता)",
-      "Cylindrical lens, Positive power"
+      "Bifocal lens, Neutral power",
+      "Cylindrical lens, Positive power",
+      "Convex lens, Positive power"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Myopia me rays retina se pehle hi cut jaati hain, isliye concave lens use karte hain jo rays ko thoda faila (diverge) deta hai taaki image theek retina par bane. Concave lens ki power negative hoti hai."
   },
   {
     "qe": "Hypermetropia (far-sightedness) causes inability to see nearby objects clearly. Where is the image projected in this defect?",
     "qh": "दीर्घ-दृष्टि दोष (Hypermetropia) के कारण पास की वस्तुएं धुंधली दिखती हैं। इस दोष में पास की वस्तु से आने वाली किरणों का प्रतिबिंब कहाँ बनता है?",
     "o": [
-      "In front of the retina",
-      "Directly on the iris surface",
+      "Behind the retina (रेटीना के पीछे)",
       "Inside the crystalline lens core",
-      "Behind the retina (रेटीना के पीछे)"
+      "In front of the retina",
+      "Directly on the iris surface"
     ],
-    "a": 3,
+    "a": 0,
     "e": "Hypermetropia me eye lens ki converging power kam ho jaati hai, is wajah se paas ki object se aane wali rays retina ke peeche jaakar focus hoti hain."
   },
   {
     "qe": "What are the structural causes that lead to Hypermetropia in the human eye?",
     "qh": "मानव नेत्र में दीर्घ-दृष्टि दोष (Hypermetropia) होने के पीछे कौन से संरचनात्मक कारण जिम्मेदार होते हैं?",
     "o": [
-      "Focal length of the eye lens is too long or the eye ball has become too small (नेत्र लेंस की फोकस दूरी का अत्यधिक बढ़ जाना या नेत्र गोलक का बहुत छोटा हो जाना)",
-      "Elongation of the eye ball and thick lens",
       "Liquefaction of the vitreous humor",
-      "Continuous blinking of the eyelids"
+      "Elongation of the eye ball and thick lens",
+      "Continuous blinking of the eyelids",
+      "Focal length of the eye lens is too long or the eye ball has become too small (नेत्र लेंस की फोकस दूरी का अत्यधिक बढ़ जाना या नेत्र गोलक का बहुत छोटा हो जाना)"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Ye defect tab hota hai jab ya toh eye lens bohot patla reh jaye (focal length badh jaye) ya fir eyeball ka size normal se chhota ho jaye."
   },
   {
@@ -928,32 +928,32 @@
     "qh": "दूर-दृष्टि दोष (Hypermetropia) को ठीक करने के लिए नेत्र विशेषज्ञ द्वारा चश्मे में किस लेंस की सलाह दी जाती है?",
     "o": [
       "Concave lens (अवलत लेंस)",
-      "Convex lens (उत्तल लेंस)",
+      "Bifocal plane plate",
       "Cylindrical lens (बेलनाकार लेंस)",
-      "Bifocal plane plate"
+      "Convex lens (उत्तल लेंस)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Hypermetropia theek karne ke liye Convex lens use karte hain. Ye rays ko pehle hi thoda converge kar deta hai taaki weak lens unhe theek retina par focus kar sake."
   },
   {
     "qe": "What is Presbyopia, and what is its primary biological reason during old age?",
     "qh": "जरा-दूरदर्शिता (Presbyopia) क्या है, और वृद्धावस्था के दौरान इसका मुख्य जैविक कारण क्या होता है?",
     "o": [
-      "Opacification of cornea due to calcium deposition",
-      "Elongation of the optic nerve cords",
       "Gradual weakening of ciliary muscles and diminishing flexibility of the eye lens (पक्ष्माभी पेशियों का धीरे-धीरे कमजोर होना और नेत्र लेंस के लचीलेपन में कमी आना)",
-      "Infection in the vitreous humor fluid"
+      "Elongation of the optic nerve cords",
+      "Infection in the vitreous humor fluid",
+      "Opacification of cornea due to calcium deposition"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Umar badhne ke sath ciliary muscles kamzor ho jaati hain aur eye lens ka flexibility khatam ho jata hai, jisse aankh paas ki cheezon par theek se focus nahi kar paati."
   },
   {
     "qe": "A person suffering from old-age presbyopia often needs bifocal lenses. What do the upper and lower parts of a bifocal lens consist of?",
     "qh": "जरा-दूरदर्शिता से पीड़ित वृद्ध व्यक्तियों को अक्सर द्विफोकसी (Bifocal) लेंस की आवश्यकता होती है। इस लेंस के ऊपरी और निचले भाग में क्रमशः क्या शामिल होता है?",
     "o": [
-      "Upper part is convex, lower part is concave",
-      "Both parts are made of concave lenses",
       "Both parts are made of flat glass screens",
+      "Both parts are made of concave lenses",
+      "Upper part is convex, lower part is concave",
       "Upper part is concave for distant vision, lower part is convex for near vision (ऊपरी भाग दूर की दृष्टि के लिए अवतल, और निचला भाग पास की दृष्टि के लिए उत्तल होता है)"
     ],
     "a": 3,
@@ -963,36 +963,36 @@
     "qe": "The medical condition in old age where the crystalline lens of the eye becomes milky and cloudy, causing blurred vision, is called:",
     "qh": "वृद्धावस्था की वह चिकित्सीय स्थिति जिसमें आंख का क्रिस्टलीय लेंस दूधिया और धुंधला हो जाता है जिससे दृष्टि बाधित होती है, क्या कहलाती है?",
     "o": [
-      "Cataract (मोतियाबिंद)",
-      "Presbyopia (जरा-दूरदर्शिता)",
       "Astigmatism (अबिंदुकता)",
+      "Presbyopia (जरा-दूरदर्शिता)",
+      "Cataract (मोतियाबिंद)",
       "Glaucoma (कांचबिंदु)"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Cataract (motiyabind) me crystalline lens milky aur cloudy ho jata hai jisse roshni pass nahi ho paati. Iska ilaaj surgery karke artificial lens lagana hota hai."
   },
   {
     "qe": "How many triangular and rectangular faces are present in a standard glass prism?",
     "qh": "एक मानक कांच के प्रिज्म (Glass Prism) में कुल कितने त्रिकोणीय और कितने आयताकार फलक उपस्थित होते हैं?",
     "o": [
-      "Three triangular, two rectangular",
-      "Two triangular, three rectangular (दो त्रिकोणीय और तीन आयताकार फलक)",
+      "Five rectangular faces only",
       "Four triangular, one rectangular",
-      "Five rectangular faces only"
+      "Three triangular, two rectangular",
+      "Two triangular, three rectangular (दो त्रिकोणीय और तीन आयताकार फलक)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Ek standard triangular prism me do triangular bases (faces) aur teen rectangular side faces hote hain, total 5 surfaces hoti hain."
   },
   {
     "qe": "The angle between the two lateral refracting faces of a prism is fundamentally known as:",
     "qh": "एक प्रिज्म की दो पार्श्व अपवर्तक सतहों के बीच बनने वाले आंतरिक कोण को मुख्य रूप से क्या कहा जाता है?",
     "o": [
-      "Angle of Incidence (आपतन कोण)",
       "Angle of Deviation (विचलन कोण)",
-      "Angle of the Prism (प्रिज्म कोण)",
-      "Angle of Emergence (निर्गत कोण)"
+      "Angle of Incidence (आपतन कोण)",
+      "Angle of Emergence (निर्गत कोण)",
+      "Angle of the Prism (प्रिज्म कोण)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Prism ke do refracting surfaces ke beech jo internal angle banta hai, use Angle of the Prism (A) kaha jata hai."
   },
   {
@@ -1000,32 +1000,32 @@
     "qh": "प्रिज्म की प्रकाश क्रिया में 'विचलन कोण' को किस प्रकार परिभाषित किया जाता है?",
     "o": [
       "The angle between the incident ray and the normal",
-      "The angle between the emergent ray and the normal",
+      "The angle between the extended incident ray and the emergent ray traced backwards (आपतित किरण के मूल मार्ग और निर्गत किरण को पीछे बढ़ाने पर उनके बीच बनने वाला कोण)",
       "The angle at the bottom base of the prism",
-      "The angle between the extended incident ray and the emergent ray traced backwards (आपतित किरण के मूल मार्ग और निर्गत किरण को पीछे बढ़ाने पर उनके बीच बनने वाला कोण)"
+      "The angle between the emergent ray and the normal"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Incident ray ko aage badhane par aur emergent ray ko peeche trace karne par jo angle banta hai, use Angle of Deviation bolte hain. Ye batata hai ki ray apne raste se kitni bhatki hai."
   },
   {
     "qe": "The phenomenon of splitting of white light into its component colors when passed through a refracting medium is called:",
     "qh": "जब श्वेत प्रकाश की किरण किसी अपवर्तक माध्यम से गुजरती है, तो उसका अपने विभिन्न अवयवी रंगों में विभाजित होना क्या कहलाता है?",
     "o": [
+      "Internal Reflection (आंतरिक परावर्तन)",
       "Dispersion of Light (प्रकाश का विक्षेपण या वर्ण-विक्षेपण)",
-      "Atmospheric Refraction (वायुमंडलीय अपवर्तन)",
       "Scattering of Light (प्रकाश का प्रकीर्णन)",
-      "Internal Reflection (आंतरिक परावर्तन)"
+      "Atmospheric Refraction (वायुमंडलीय अपवर्तन)"
     ],
-    "a": 0,
+    "a": 1,
     "e": "White light jab prism se guzar kar apne 7 constituent colors (VIBGYOR) me separate ho jaati hai, toh is optical process ko Dispersion kehte hain."
   },
   {
     "qe": "The band of the colored components of a light beam obtained on a screen after dispersion is scientifically termed as:",
     "qh": "वर्ण-विक्षेपण के बाद किसी परदे पर प्राप्त होने वाले प्रकाश के रंगीन घटकों के बैंड को वैज्ञानिक रूप से क्या कहा जाता है?",
     "o": [
-      "Prism Shadow",
-      "Spectrum (स्पेक्ट्रम या वर्णक्रम)",
       "Rainbow Ring",
+      "Spectrum (स्पेक्ट्रम या वर्णक्रम)",
+      "Prism Shadow",
       "Diffraction Grid"
     ],
     "a": 1,
@@ -1036,9 +1036,9 @@
     "qh": "जब श्वेत प्रकाश एक कांच के प्रिज्म से गुजरता है, तो किस रंग की किरण का विचलन सबसे अधिक और किस रंग का सबसे कम होता है?",
     "o": [
       "Red bends most, Violet bends least",
-      "Green bends most, Yellow bends least",
+      "All colors bend at the exact same angle",
       "Violet bends most, Red bends least (बैंगनी का विचलन सबसे अधिक, और लाल का विचलन सबसे कम होता है)",
-      "All colors bend at the exact same angle"
+      "Green bends most, Yellow bends least"
     ],
     "a": 2,
     "e": "Violet color ki wavelength sabse chhoti hoti hai aur glass me speed sabse kam hoti hai, isliye wo sabse zyada bend hota hai. Red color ki wavelength sabse lambi hone se wo sabse kam bend hota hai."
@@ -1047,9 +1047,9 @@
     "qe": "What is the primary scientific reason behind the phenomenon of dispersion of white light in a prism?",
     "qh": "श्वेत प्रकाश के प्रिज्म में से गुजरने पर होने वाले वर्ण-विक्षेपण का मुख्य वैज्ञानिक कारण क्या है?",
     "o": [
-      "The prism surface contains pre-existing colorful stains",
-      "Friction inside the glass filters out the white rays",
       "The light rays react chemically with the silicon molecules",
+      "Friction inside the glass filters out the white rays",
+      "The prism surface contains pre-existing colorful stains",
       "Different colors of light travel with different speeds in glass, leading to different angles of deviation (कांच के भीतर प्रकाश के अलग-अलग रंगों की चाल अलग-अलग होती है, जिससे उनका विचलन कोण भी भिन्न हो जाता है)"
     ],
     "a": 3,
@@ -1071,24 +1071,24 @@
     "qe": "A rainbow is a natural spectrum caused by the dispersion of sunlight. What components in nature act as tiny prisms to cause this?",
     "qh": "इंद्रधनुष सूर्य के प्रकाश के विक्षेपण के कारण बनने वाला एक प्राकृतिक स्पेक्ट्रम है। प्रकृति में उपस्थित कौन से घटक छोटे प्रिज्म की तरह कार्य करते हैं?",
     "o": [
-      "Dust particles floating in the desert",
-      "Tiny water droplets suspended in the atmosphere after rain (बारिश के बाद वायुमंडल में निलंबित पानी की छोटी-छोटी बूंदें)",
+      "Leaves of trees reflecting light at night",
       "Ice crystals inside the high polar mountains",
-      "Leaves of trees reflecting light at night"
+      "Tiny water droplets suspended in the atmosphere after rain (बारिश के बाद वायुमंडल में निलंबित पानी की छोटी-छोटी बूंदें)",
+      "Dust particles floating in the desert"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Baarish ke baad hawa me tairti hui paani ki nanhin boondein tiny prisms ki tarah kaam karti hain jo sunlight ko refract, disperse aur reflect karke rainbow banati hain."
   },
   {
     "qe": "What are the sequential optical phenomena that occur inside a water droplet during the formation of a rainbow?",
     "qh": "इंद्रधनुष के निर्माण के दौरान एक पानी की बूंद के भीतर क्रमिक रूप से कौन सी प्रकाशिक घटनाएं घटित होती हैं?",
     "o": [
-      "Only total absorption occurs",
       "Direct reflection without entering the droplet",
       "Refraction, Dispersion, Internal Reflection, and final Refraction (पहले सतह पर अपवर्तन व विक्षेपण, फिर आंतरिक परावर्तन, और अंत में पुनः अपवर्तन)",
-      "Scattering followed by diffraction only"
+      "Scattering followed by diffraction only",
+      "Only total absorption occurs"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Water droplet me pehle surface par Refraction aur Dispersion hota hai, fir drop ke andar pichhli wall se Internal Reflection hota hai, aur drop se bahar nikalte waqt dobara Refraction hota hai."
   },
   {
@@ -1096,32 +1096,32 @@
     "qh": "सूर्य की स्थिति के सापेक्ष इंद्रधनुष हमेशा आकाश में किस दिशा में दिखाई देता है?",
     "o": [
       "In the exact direction facing the Sun",
-      "At a right angle to the Sun only",
+      "In a direction always opposite to that of the Sun (हमेशा सूर्य की स्थिति के विपरीत दिशा में)",
       "Directly below the baseline horizon at noon",
-      "In a direction always opposite to that of the Sun (हमेशा सूर्य की स्थिति के विपरीत दिशा में)"
+      "At a right angle to the Sun only"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Rainbow dekhne ke liye viewer ki peeth sun ki taraf honi chahiye, yaani rainbow hamesha sun ki position ke theek opposite direction me samne banta hai."
   },
   {
     "qe": "What physical property of the Earth's atmosphere causes Atmospheric Refraction?",
     "qh": "पृथ्वी के वायुमंडल का कौन सा भौतिक गुण वायुमंडलीय अपवर्तन का मुख्य कारण बनता है?",
     "o": [
-      "The changing optical densities of different layers of air due to temperature and pressure variations (तापमान और दबाव में बदलाव के कारण हवा की विभिन्न परतों का बदलता प्रकाशिक घनत्व)",
-      "The static color of the upper air layers",
       "The magnetic field wrapping the globe",
-      "The gravitational pull on light photons"
+      "The changing optical densities of different layers of air due to temperature and pressure variations (तापमान और दबाव में बदलाव के कारण हवा की विभिन्न परतों का बदलता प्रकाशिक घनत्व)",
+      "The gravitational pull on light photons",
+      "The static color of the upper air layers"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Atmosphere ki hawa har jagah ek jaisi nahi hoti. Temperature aur pressure alag hone se hawa ki layers ki optical density continuously badalti rehti hai, jisse light ray lagataar bend hoti rehti hai."
   },
   {
     "qe": "Due to atmospheric refraction, the apparent position of a star appears slightly compared to its actual position:",
     "qh": "वायुमंडलीय अपवर्तन के कारण, किसी तारे की आभासी स्थिति उसकी वास्तविक स्थिति की तुलना में कैसी दिखाई देती है?",
     "o": [
-      "Slightly lower",
-      "Slightly higher (थोड़ी ऊपर की ओर उठी हुई)",
       "At the exact same coordinate fixed",
+      "Slightly higher (थोड़ी ऊपर की ओर उठी हुई)",
+      "Slightly lower",
       "Shifting continuously to the left side"
     ],
     "a": 1,
@@ -1131,21 +1131,21 @@
     "qe": "The phenomenon of early sunrise (advanced sunrise) and delayed sunset is caused by atmospheric refraction. What is the time difference for each?",
     "qh": "वायुमंडलीय अपवर्तन के कारण अग्रिम सूर्योदय और विलंबित सूर्यास्त की घटना होती है। प्रत्येक के लिए समय का अंतर कितना होता है?",
     "o": [
-      "10 minutes each",
       "5 minutes total only",
       "2 minutes each (2 मिनट प्रत्येक)",
-      "Depends on the moon cycle"
+      "Depends on the moon cycle",
+      "10 minutes each"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Atmospheric refraction ki wajah se suraj horizon ke upar aane se 2 minute pehle dikhne lagta hai aur sunset par horizon ke neeche jaane ke baad bhi 2 minute tak dikhta rehta hai."
   },
   {
     "qe": "Why do stars twinkle at night, while planets do not twinkle?",
     "qh": "रात में तारे टिमटिमाते हुए प्रतीत होते हैं, जबकि ग्रह नहीं टिमटिमाते। इसका मुख्य कारण क्या है?",
     "o": [
-      "Planets have their own massive constant battery lights",
       "Stars are covered by cosmic dust storms",
       "Planets reflect light only in vacuum space",
+      "Planets have their own massive constant battery lights",
       "Stars are distant point sources whose light pathways fluctuate, while planets are closer extended sources that average out the variation (तारे बहुत दूर बिंदु स्रोत हैं जिनकी रोशनी का मार्ग बदलता है, जबकि ग्रह पास होने के कारण विस्तृत स्रोत हैं जो इस प्रभाव को शून्य कर देते हैं)"
     ],
     "a": 3,
@@ -1156,8 +1156,8 @@
     "qh": "किसी माध्यम में निलंबित कोलाइडल कणों द्वारा प्रकाश की किरण का प्रकीर्णन होना वैज्ञानिक रूप से क्या कहलाता है?",
     "o": [
       "Tyndall Effect (टिंडल प्रभाव)",
-      "Newton Effect",
       "Prism Dispersion",
+      "Newton Effect",
       "Atmospheric Reflection"
     ],
     "a": 0,
@@ -1167,72 +1167,72 @@
     "qe": "The color of scattered light depends significantly on the size of the scattering particles. Very fine (small) particles scatter mainly:",
     "qh": "प्रकीर्णित प्रकाश का रंग प्रकीर्णन करने वाले कणों के आकार पर निर्भर करता है। वायुमंडल के अत्यंत सूक्ष्म कण मुख्य रूप से किस रंग को फैलाते हैं?",
     "o": [
-      "Red light",
-      "Blue light (नीले प्रकाश को)",
       "White light completely",
-      "Yellow light core"
+      "Yellow light core",
+      "Red light",
+      "Blue light (नीले प्रकाश को)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Rayleigh scattering ke mutabiq bohot chhote particles chhoti wavelength wali light ko zyada scatter karte hain. Blue light ki wavelength kam hoti hai, isliye fine particles blue light ko sabse zyada scatter karte hain."
   },
   {
     "qe": "Why does the clear sky appear blue during a bright sunny day?",
     "qh": "एक साफ धूप वाले दिन में आकाश का रंग नीला क्यों दिखाई देता है?",
     "o": [
-      "Due to the reflection of oceans on the sky dome",
-      "Because oxygen gas is naturally blue in liquid state",
       "Fine air molecules scatter shorter wavelengths of blue light more dominantly than red light (हवा के बारीक अणु लाल प्रकाश की तुलना में कम तरंगदैर्ध्य वाले नीले प्रकाश को अधिक तीव्रता से चारों ओर फैला देते हैं)",
+      "Because oxygen gas is naturally blue in liquid state",
+      "Due to the reflection of oceans on the sky dome",
       "Due to the presence of blue colored ozone shield"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Atmosphere ke fine air molecules choti wavelength wali blue light ko laal light ke mukable charo taraf bohot zyada scatter karte hain. Yahi bikhra hua neela rang hamari aakhon tak pahunchta hai."
   },
   {
     "qe": "If the Earth had no atmosphere, what would the sky look like to an observer, or to astronauts in deep space?",
     "qh": "यदि पृथ्वी पर कोई वायुमंडल न होता, तो किसी प्रेक्षक या अंतरिक्ष यात्रियों को आकाश किस रंग का दिखाई देता?",
     "o": [
+      "Dark / Black (काला या अंधकारमय)",
       "Bright white",
-      "Deep purple",
       "Light yellow",
-      "Dark / Black (काला या अंधकारमय)"
+      "Deep purple"
     ],
-    "a": 3,
+    "a": 0,
     "e": "Bina atmosphere ke light ko scatter karne ke liye koi particles nahi honge. Roshni scatter nahi hogi toh aakash bilkul kaala (dark) dikhai dega, jaise space me astronaut ko dikhta hai."
   },
   {
     "qe": "Why do danger signal lights installed on top of buildings and traffic poles use red color?",
     "qh": "भवनों के शीर्ष और ट्रैफिक सिग्नलों पर लगाए जाने वाले खतरे के संकेत हमेशा लाल रंग के क्यों होते हैं?",
     "o": [
-      "Red color has the longest wavelength and is least scattered by smoke or fog, making it visible from long distances (लाल रंग की तरंगदैर्ध्य सबसे अधिक होती है जिससे यह धुएं या कोहरे द्वारा सबसे कम प्रकीर्णित होता है और दूर से भी साफ दिखता है)",
       "Red light attracts bugs at night",
       "Red light travels faster than blue light in air vacuum",
+      "Red color has the longest wavelength and is least scattered by smoke or fog, making it visible from long distances (लाल रंग की तरंगदैर्ध्य सबसे अधिक होती है जिससे यह धुएं या कोहरे द्वारा सबसे कम प्रकीर्णित होता है और दूर से भी साफ दिखता है)",
       "It is cheaper to manufacture red filters"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Red light ki wavelength visible spectrum me sabse lambi hoti hai. Is wajah se dhuaan ya kohra ise scatter nahi kar pata aur ye bohot door se bhi seedha bina dhundhle hue saaf dikhai deta hai."
   },
   {
     "qe": "Why does the Sun appear reddish or crimson during sunrise and sunset?",
     "qh": "सूर्योदय और सूर्यास्त के समय सूर्य और उसके आस-पास का आकाश लाल क्यों प्रतीत होता है?",
     "o": [
+      "Due to the chemical reflection of volcanic dust clouds",
       "The Sun physically cools down at the horizon edge",
       "Light travels a longer distance through thick atmosphere, scattering away most blue light and leaving only red to reach our eyes (क्षितिज के पास प्रकाश को अधिक दूरी तय करनी पड़ती है, जिससे नीला प्रकाश रास्ते में ही बिखर जाता है और केवल कम प्रकीर्णित होने वाला लाल रंग हमारी आँखों तक पहुंचता है)",
-      "Due to the chemical reflection of volcanic dust clouds",
       "The moon's shadow shifts the spectrum core"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Horizon ke paas sunlight ko moti atmospheric layers se lambi doori travel karni padti hai. Is lambi journey me blue aur green light raste me scatter hokar nikal jaati hai, sirf lambi wavelength wali red light aakhon tak pahunchti hai."
   },
   {
     "qe": "At noon, why does the Sun appear white rather than reddish?",
     "qh": "दोपहर के समय सूर्य लाल दिखने के बजाय बिल्कुल श्वेत क्यों प्रतीत होता है?",
     "o": [
-      "Because the Sun stops emitting colors at noon",
-      "Due to high humidity levels absorbing the spectrum lines",
       "Light travels relatively shorter distance overhead, resulting in very little scattering of all colors (दोपहर में सूर्य ठीक सिर के ऊपर होता है जिससे प्रकाश को कम दूरी तय करनी पड़ती है और बहुत कम मात्रा में ही प्रकाश का प्रकीर्णन हो पाता है)",
-      "The Earth's speed slows down at noon core"
+      "The Earth's speed slows down at noon core",
+      "Because the Sun stops emitting colors at noon",
+      "Due to high humidity levels absorbing the spectrum lines"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Dopahar me suraj theek sir ke upar hota hai toh light ko kam distance travel karna padta hai. Scattering bohot kam hoti hai aur saare colors mix hokar ek sath aate hain, isliye suraj safed dikhta hai."
   },
   {
@@ -1240,11 +1240,11 @@
     "qh": "यदि वायुमंडल में धूल और पानी की बूंदों जैसे बड़े आकार के कण प्रचुर मात्रा में उपस्थित हों, तो प्रकीर्णित प्रकाश का रंग कैसा दिखाई देता है?",
     "o": [
       "Completely Blue",
-      "Dark Orange",
       "Invisible transparent beam",
-      "Completely White (पूर्णतः श्वेत)"
+      "Completely White (पूर्णतः श्वेत)",
+      "Dark Orange"
     ],
-    "a": 3,
+    "a": 2,
     "e": "Jab scattering particles ka size light ki wavelength se kafi bada hota hai, toh wo sabhi colors ko lagbhag barabar scatter karte hain, aur sabhi rang milkar white light banate hain (jaise baadal safed dikhte hain)."
   }
 ]

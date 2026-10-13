@@ -4,23 +4,23 @@
     "qh": "पानी के लिए 'वाष्पीकरण की गुप्त ऊष्मा' जूल/किग्रा में क्या है?",
     "o": [
       "$3.34 \\times 10^5$",
-      "$2.26 \\times 10^6$ | $2.26 \\times 10^6$",
       "$4.2 \\times 10^3$",
-      "None"
+      "$2.26 \\times 10^6$ | $2.26 \\times 10^6$",
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "100°C par 1 kg ubalte paani ko steam me convert karne ke liye lagbhag 540 cal/g yaani $2.26 \\times 10^6 J/kg$ energy lagti hai."
   },
   {
     "qe": "Which law states that 'Heat cannot flow from a colder body to a hotter body on its own'?",
     "qh": "कौन सा नियम कहता है कि 'ऊष्मा ठंडे से गर्म पिंड की ओर अपने आप नहीं बह सकती'?",
     "o": [
+      "None of these",
       "First Law",
-      "Clausius Statement of Second Law | द्वितीय नियम का क्लॉसियस कथन",
       "Zeroth Law",
-      "None"
+      "Clausius Statement of Second Law | द्वितीय नियम का क्लॉसियस कथन"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Clausius statement kehta hai ki bina external work kiye heat naturally cold body se hot body me flow nahi kar sakti."
   },
   {
@@ -28,33 +28,33 @@
     "qh": "'हेल्महोल्ट्ज़ मुक्त ऊर्जा' (A) को कैसे परिभाषित किया जाता है?",
     "o": [
       "$U + PV$",
-      "$U - TS$ | $U - TS$",
       "$H - TS$",
-      "None"
+      "None of these",
+      "$U - TS$ | $U - TS$"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Constant temperature aur volume par closed system se milne wala maximum reversible work Helmholtz energy $A = U - TS$ hota hai."
   },
   {
     "qe": "What is 'Gibbs Free Energy' (G) defined as?",
     "qh": "'गिब्स मुक्त ऊर्जा' (G) को कैसे परिभाषित किया जाता है?",
     "o": [
-      "$H - TS$ | $H - TS$",
-      "$U - TS$",
       "$U + PV$",
-      "None"
+      "$H - TS$ | $H - TS$",
+      "None of these",
+      "$U - TS$"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Constant pressure aur temperature par process ki spontaneity check karne ke liye Gibbs free energy $G = H - TS$ use hoti hai."
   },
   {
     "qe": "What is 'Enthalpy' (H) for a system?",
     "qh": "किसी निकाय के लिए 'एन्थैल्पी' (H) क्या है?",
     "o": [
-      "$U - PV$",
-      "$U + PV$ | $U + PV$",
       "$TS$",
-      "None"
+      "$U + PV$ | $U + PV$",
+      "None of these",
+      "$U - PV$"
     ],
     "a": 1,
     "e": "Enthalpy system ka total heat content hoti hai, jo internal energy aur expansion work ka sum ($H = U + PV$) hai."
@@ -63,48 +63,48 @@
     "qe": "In an 'Adiabatic Process', which of the following remains constant?",
     "qh": "'रुद्धोष्म प्रक्रिया' में निम्नलिखित में से क्या स्थिर रहता है?",
     "o": [
-      "Temperature",
-      "Pressure",
       "Total Heat (Q) | कुल ऊष्मा (Q=0)",
+      "Pressure",
+      "Temperature",
       "Volume"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Adiabatic system completely insulated hota hai, isliye surrounding ke sath heat exchange zero ($dQ = 0$) rehta hai."
   },
   {
     "qe": "What is the 'Thermal Conductivity' of a 'Perfect Insulator'?",
     "qh": "एक 'पूर्ण कुचालक' की 'तापीय चालकता' क्या होती है?",
     "o": [
-      "Infinite",
       "Zero | शून्य (Zero)",
-      "One",
-      "None"
+      "None of these",
+      "Infinite",
+      "One"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Ideal insulator se heat conduction bilkul nahi hota, isliye conductivity $k = 0$ hoti hai."
   },
   {
     "qe": "Which part of the 'Earth' acts as a giant 'Heat Sink'?",
     "qh": "'पृथ्वी' का कौन सा भाग एक विशाल 'हीट सिंक' के रूप में कार्य करता है?",
     "o": [
+      "Forests",
       "Deserts",
       "Oceans | महासागर (Oceans)",
-      "Mountains",
-      "Forests"
+      "Mountains"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Water ki high specific heat capacity ki wajah se oceans bina bada temp change show kiye solar heat absorb kar lete hain."
   },
   {
     "qe": "What is 'Seebeck Effect' related to?",
     "qh": "'सीबेक प्रभाव' (Seebeck Effect) किससे संबंधित है?",
     "o": [
+      "Gas laws",
       "Sound",
       "Thermoelectricity | तापीय विद्युत (Thermoelectricity)",
-      "Gas laws",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Do alag metals ke junctions par temperature difference hone par electric voltage generate hona Seebeck effect hai."
   },
   {
@@ -112,33 +112,33 @@
     "qh": "'तापमान' बढ़ने पर अधिकांश पदार्थों के 'घनत्व' का क्या होता है?",
     "o": [
       "Increases",
+      "None of these",
       "Decreases | घटता है",
-      "Stay same",
-      "None"
+      "Stay same"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Garam karne par volume phailta hai ($V$ badhta hai), isliye mass constant rehne par density ($M/V$) kam ho jati hai."
   },
   {
     "qe": "What is 'Absolute Humidity' measured in?",
     "qh": "'निरपेक्ष आर्द्रता' किसमें मापी जाती है?",
     "o": [
-      "Percentage",
       "$g/m^3$ | ग्राम प्रति घन मीटर ($g/m^3$)",
+      "None of these",
       "$kg/K$",
-      "None"
+      "Percentage"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Hawa ke per unit volume me actual water vapor ka mass Absolute Humidity ($g/m^3$) kehlata hai."
   },
   {
     "qe": "Which gas is used in a 'Gas Thermometer' for measuring extremely high temperatures?",
     "qh": "अत्यधिक उच्च तापमान मापने के लिए 'गैस थर्मामीटर' में किस गैस का उपयोग होता है?",
     "o": [
-      "Hydrogen",
+      "None of these",
       "Nitrogen | नाइट्रोजन (Nitrogen)",
-      "Helium",
-      "None"
+      "Hydrogen",
+      "Helium"
     ],
     "a": 1,
     "e": "Nitrogen gas high temperatures (~1500°C) par chemically stable rehti hai aur dissociate nahi hoti."
@@ -147,12 +147,12 @@
     "qe": "What is 'Sublimation' temperature of water at very low pressure?",
     "qh": "बहुत कम दाब पर पानी का 'ऊर्ध्वपातन' तापमान क्या होता है?",
     "o": [
-      "Below 0°C | 0°C से नीचे",
       "100°C",
-      "Room temp",
-      "None"
+      "None of these",
+      "Below 0°C | 0°C से नीचे",
+      "Room temp"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Triple point pressure (0.006 atm) se kam pressure par ice bina liquid bane 0°C ke niche direct vapor ban jati hai."
   },
   {
@@ -160,45 +160,45 @@
     "qh": "ऊष्मा संचरण गुणांक (Heat Transfer Coefficient) का 'SI मात्रक' क्या है?",
     "o": [
       "$W/m \\cdot K$",
-      "$W/m^2 \\cdot K$ | $W/m^2 \\cdot K$",
       "$J/kg$",
-      "None"
+      "$W/m^2 \\cdot K$ | $W/m^2 \\cdot K$",
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Formula $q = h A \\Delta T$ se heat transfer coefficient ki unit $W/(m^2 \\cdot K)$ derive hoti hai."
   },
   {
     "qe": "Why is 'Silver' the best thermal conductor?",
     "qh": "'चांदी' सबसे अच्छा तापीय चालक क्यों है?",
     "o": [
-      "High free electron density | उच्च मुक्त इलेक्ट्रॉन घनत्व",
       "It is white",
+      "None of these",
       "It is heavy",
-      "None"
+      "High free electron density | उच्च मुक्त इलेक्ट्रॉन घनत्व"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Silver me free conduction electrons ki density aur mobility sabhi metals se zyada hoti hai, jo heat ko instantly carry karti hai."
   },
   {
     "qe": "What is 'Calorie' to 'Joule' conversion factor?",
     "qh": "'कैलोरी' से 'जूल' रूपांतरण कारक क्या है?",
     "o": [
+      "None of these",
       "1 cal = 4.184 J | 4.184 जूल",
-      "1 cal = 1 J",
       "1 cal = 10 J",
-      "None"
+      "1 cal = 1 J"
     ],
-    "a": 0,
+    "a": 1,
     "e": "1 calorie energy lagbhag 4.184 Joules mechanical work ke barabar hoti hai."
   },
   {
     "qe": "What is 'Specific Heat' of Ice compared to liquid water?",
     "qh": "तरल पानी की तुलना में बर्फ की 'विशिष्ट ऊष्मा' क्या है?",
     "o": [
-      "Double",
-      "Half | लगभग आधी (0.5 cal/g°C)",
       "Equal",
-      "Zero"
+      "Half | लगभग आधी (0.5 cal/g°C)",
+      "Zero",
+      "Double"
     ],
     "a": 1,
     "e": "Ice ki specific heat ~0.5 cal/g°C hoti hai, jo liquid water (1 cal/g°C) ke mukable lagbhag aadhi hai."
@@ -207,152 +207,152 @@
     "qe": "What is the 'Critical Temperature' of Helium?",
     "qh": "हीलियम का 'क्रांतिक तापमान' क्या है?",
     "o": [
-      "5.2 K | 5.2 K",
-      "273 K",
       "0 K",
-      "None"
+      "None of these",
+      "5.2 K | 5.2 K",
+      "273 K"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Helium ka critical temperature lagbhag 5.2 K (-267.95°C) hota hai, jiske upar pressure se ise liquify nahi kiya ja sakta."
   },
   {
     "qe": "In which 'Cycle' is heat added at constant pressure?",
     "qh": "किस 'चक्र' (Cycle) में स्थिर दाब पर ऊष्मा जोड़ी जाती है?",
     "o": [
-      "Otto Cycle",
-      "Diesel Cycle | डीजल चक्र (Diesel Cycle)",
+      "None of these",
       "Carnot Cycle",
-      "None"
+      "Otto Cycle",
+      "Diesel Cycle | डीजल चक्र (Diesel Cycle)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Diesel engine me fuel spray hone par combustion constant pressure (isobaric process) par hota hai."
   },
   {
     "qe": "What is 'Stefan's Law' power proportional to if T is absolute temperature?",
     "qh": "यदि T परम तापमान है, तो 'स्टीफन का नियम' शक्ति किसके समानुपाती बताता है?",
     "o": [
-      "$T$",
-      "$T^2$",
+      "$T^3$",
       "$T^4$ | $T^4$",
-      "$T^3$"
+      "$T$",
+      "$T^2$"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Black body dwara radiated thermal energy absolute temperature ki fourth power ke directly proportional ($E \\propto T^4$) hoti hai."
   },
   {
     "qe": "What is the 'Thermal Expansion' of Pyrex glass compared to ordinary glass?",
     "qh": "साधारण कांच की तुलना में पायरेक्स कांच का 'तापीय प्रसार' क्या है?",
     "o": [
-      "Much lower | बहुत कम",
-      "Much higher",
+      "None of these",
       "Equal",
-      "None"
+      "Much higher",
+      "Much lower | बहुत कम"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Pyrex borosilicate glass garam karne par bohot kam phailta hai, isliye thermal shock se chatakta nahi hai."
   },
   {
     "qe": "What is 'Isentropic Process'?",
     "qh": "'आइसोएन्ट्रोपिक' प्रक्रिया क्या है?",
     "o": [
-      "Constant Pressure",
       "Constant Entropy | स्थिर एन्ट्रॉपी (Constant Entropy)",
-      "Constant Temp",
-      "None"
+      "Constant Pressure",
+      "None of these",
+      "Constant Temp"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Reversible adiabatic process me $dQ = 0$ hone se entropy constant rehti hai ($dS = 0$)."
   },
   {
     "qe": "What is 'Latent Heat' of fusion for Silver approximately?",
     "qh": "चांदी के पिघलने की 'गुप्त ऊष्मा' लगभग क्या है?",
     "o": [
-      "80 cal/g",
-      "25 cal/g | 25 cal/g",
       "540 cal/g",
-      "None"
+      "None of these",
+      "25 cal/g | 25 cal/g",
+      "80 cal/g"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Silver ka melting latent heat lagbhag 25 cal/g (approx 105 kJ/kg) hota hai, jo ice se kafi kam hai."
   },
   {
     "qe": "Which property of a gas remains constant in 'Boyle's Law'?",
     "qh": "'बॉयल के नियम' में गैस का कौन सा गुण स्थिर रहता है?",
     "o": [
-      "Pressure",
       "Volume",
       "Temperature | तापमान (Temperature)",
+      "Pressure",
       "All"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Boyle ke niyam me fixed mass of gas ka temperature constant ($T = \\text{const}$) rehta hai."
   },
   {
     "qe": "What is 'Heat' measured in 'BTU' (British Thermal Unit) equal to in calories?",
     "qh": "'BTU' में मापी गई 'ऊष्मा' कितनी कैलोरी के बराबर होती है?",
     "o": [
-      "100 cal",
       "252 cal | 252 कैलोरी",
+      "None of these",
       "1000 cal",
-      "None"
+      "100 cal"
     ],
-    "a": 1,
+    "a": 0,
     "e": "1 BTU heat lagbhag 252 calories (1055 Joules) ke barabar hoti hai."
   },
   {
     "qe": "What is 'Triple Point' of Nitrogen?",
     "qh": "नाइट्रोजन का 'त्रिक बिंदु' क्या है?",
     "o": [
-      "63 K | 63 K",
-      "273 K",
+      "None of these",
       "0 K",
-      "None"
+      "273 K",
+      "63 K | 63 K"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Nitrogen ke solid, liquid aur gas phases lagbhag 63.15 K (-210°C) par equilibrium me rehte hain."
   },
   {
     "qe": "What is 'Thermos Flask' designed to minimize?",
     "qh": "'थर्मस फ्लास्क' को किसे कम करने के लिए डिज़ाइन किया गया है?",
     "o": [
-      "Conduction",
       "Convection",
       "Radiation",
-      "All of these | उपरोक्त सभी"
+      "All of these | उपरोक्त सभी",
+      "Conduction"
     ],
-    "a": 3,
+    "a": 2,
     "e": "Vacuum conduction aur convection ko rokata hai, aur silver coating radiation loss ko minimize karti hai."
   },
   {
     "qe": "Which state of matter has the 'Lowest' thermal conductivity?",
     "qh": "पदार्थ की किस अवस्था में 'न्यूनतम' तापीय चालकता होती है?",
     "o": [
-      "Solid",
-      "Liquid",
+      "None of these",
       "Gas | गैस (Gas)",
-      "None"
+      "Liquid",
+      "Solid"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Gases me molecules bohot door hote hain, isliye inter-molecular heat collision rate sabse kam hota hai."
   },
   {
     "qe": "What is an 'Adiabatic Wall'?",
     "qh": "'रुद्धोष्म दीवार' (Adiabatic Wall) क्या है?",
     "o": [
-      "Allows heat",
       "Prevents heat transfer | ऊष्मा स्थानांतरण को रोकती है",
+      "None of these",
       "Transparent",
-      "None"
+      "Allows heat"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Adiabatic wall system aur surroundings ke beech kisi bhi prakar ke heat flow ko allow nahi karti ($dQ = 0$)."
   },
   {
     "qe": "What is the 'Internal Energy' change for a cyclic process?",
     "qh": "एक चक्रीय प्रक्रिया के लिए 'आंतरिक ऊर्जा' में परिवर्तन क्या है?",
     "o": [
-      "Positive",
       "Negative",
+      "Positive",
       "Zero | शून्य (Zero)",
       "Infinite"
     ],
@@ -363,34 +363,34 @@
     "qe": "Which thermodynamic law defines the concept of 'Internal Energy'?",
     "qh": "कौन सा ऊष्मागतिकी नियम 'आंतरिक ऊर्जा' की अवधारणा को परिभाषित करता है?",
     "o": [
-      "Zeroth Law",
-      "First Law | प्रथम नियम (First Law)",
       "Second Law",
-      "None"
+      "Zeroth Law",
+      "None of these",
+      "First Law | प्रथम नियम (First Law)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "First Law ($dQ = dU + dW$) energy conservation se internal energy ($dU$) ka mathematical proof deta hai."
   },
   {
     "qe": "What is 'Specific Heat Ratio' ($\\gamma$) for a rigid Diatomic gas?",
     "qh": "एक कठोर द्वि-परमाणुक गैस के लिए 'विशिष्ट ऊष्मा अनुपात' ($\\gamma$) क्या है?",
     "o": [
-      "1.67",
-      "1.4 | 1.4 (7/5)",
+      "None of these",
       "1.33",
-      "None"
+      "1.67",
+      "1.4 | 1.4 (7/5)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Rigid diatomic gas ke 5 degrees of freedom ($f=5$) hote hain, isliye ratio $\\gamma = 1 + 2/5 = 7/5 = 1.4$ hota hai."
   },
   {
     "qe": "What is 'Avogadro's Hypothesis' for gases at same T and P?",
     "qh": "समान T और P पर गैसों के लिए 'आवोगाद्रो की परिकल्पना' क्या है?",
     "o": [
-      "Equal mass",
-      "Equal molecules for equal volume | समान आयतन में अणुओं की संख्या समान",
       "Equal density",
-      "None"
+      "Equal molecules for equal volume | समान आयतन में अणुओं की संख्या समान",
+      "Equal mass",
+      "None of these"
     ],
     "a": 1,
     "e": "Saman temperature aur pressure par barabar volume wali gases me number of molecules barabar hote hain ($V \\propto n$)."
@@ -399,12 +399,12 @@
     "qe": "What is the unit of 'Stefan-Boltzmann' constant ($\\sigma$)?",
     "qh": "'स्टीफन-बोल्ट्जमैन' नियतांक का मात्रक क्या है?",
     "o": [
-      "$W/m^2 \\cdot K^4$ | $W/m^2 \\cdot K^4$",
       "$J/K$",
-      "$W/m \\cdot K$",
-      "None"
+      "$W/m^2 \\cdot K^4$ | $W/m^2 \\cdot K^4$",
+      "None of these",
+      "$W/m \\cdot K$"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Formula $E = \\sigma T^4$ se $\\sigma = E/T^4 = W/(m^2 \\cdot K^4)$ banta hai."
   },
   {
@@ -412,9 +412,9 @@
     "qh": "'बोलोमीटर' में किस सामग्री का उपयोग किया जाता है?",
     "o": [
       "Semiconductors | अर्धचालक",
-      "Mercury",
+      "None of these",
       "Water",
-      "None"
+      "Mercury"
     ],
     "a": 0,
     "e": "Semiconductor thermistors ya platinum strips heat padne par rapidly resistance change karte hain, jo radiation detect karta hai."
@@ -423,72 +423,72 @@
     "qe": "What is 'Joule-Thomson' effect used for primarily?",
     "qh": "'जूल-थॉमसन' प्रभाव का मुख्य रूप से उपयोग किसलिए किया जाता है?",
     "o": [
-      "Heating",
       "Cooling gases | गैसों को ठंडा करने के लिए",
       "Speeding up",
-      "None"
+      "None of these",
+      "Heating"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Gas ko throttle valve se expand karwake intermolecular forces ke against work karwaya jata hai, jisse cooling hoti hai."
   },
   {
     "qe": "What is 'Efficiency' of a heat engine in terms of $W$ and $Q_1$?",
     "qh": "$W$ और $Q_1$ के संदर्भ में ऊष्मा इंजन की 'दक्षता' क्या है?",
     "o": [
-      "$Q_1/W$",
       "$W/Q_1$ | $W/Q_1$",
-      "$W + Q_1$",
-      "None"
+      "$Q_1/W$",
+      "None of these",
+      "$W + Q_1$"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Heat engine ki efficiency output work divided by input absorbed heat yaani $\\eta = W/Q_1$ hoti hai."
   },
   {
     "qe": "Which state of matter is 'Plasma' associated with?",
     "qh": "'प्लाज्मा' पदार्थ की किस अवस्था से जुड़ा है?",
     "o": [
-      "First",
-      "Fourth | चौथी अवस्था (4th state)",
+      "None of these",
       "Third",
-      "None"
+      "Fourth | चौथी अवस्था (4th state)",
+      "First"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Extreme high temperatures par ionized gas aur free electrons se bani state ko matter ki 4th state ya Plasma bolte hain."
   },
   {
     "qe": "What is 'Critical Pressure' of Water?",
     "qh": "पानी का 'क्रांतिक दाब' क्या है?",
     "o": [
-      "1 atm",
-      "218 atm | 218 atm",
       "100 atm",
-      "None"
+      "None of these",
+      "1 atm",
+      "218 atm | 218 atm"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Water ke critical point (374°C) par liquid aur vapor ko distinguish karne ke liye required critical pressure lagbhag 218 atm hota hai."
   },
   {
     "qe": "What is 'Heat Capacity' of 1 gram of water?",
     "qh": "1 ग्राम पानी की 'ऊष्मीय क्षमता' क्या है?",
     "o": [
-      "1 cal/°C | 1 कैलोरी/°C",
       "80 cal/°C",
       "540 cal/°C",
-      "None"
+      "1 cal/°C | 1 कैलोरी/°C",
+      "None of these"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Heat capacity $C = m \\times s$; 1g paani aur specific heat 1 cal/g°C hone par iska value 1 cal/°C hota hai."
   },
   {
     "qe": "What is 'Absolute Zero' on the Fahrenheit scale?",
     "qh": "फारेनहाइट पैमाने पर 'परम शून्य' क्या है?",
     "o": [
-      "-459.67°F | -459.67°F",
-      "0°F",
+      "None of these",
       "-273°F",
-      "None"
+      "0°F",
+      "-459.67°F | -459.67°F"
     ],
-    "a": 0,
+    "a": 3,
     "e": "0 Kelvin (-273.15°C) ko Fahrenheit scale me convert karne par exact value -459.67°F aati hai."
   },
   {
@@ -496,11 +496,11 @@
     "qh": "'उच्च दाब' पर पानी के 'हिमांक' का क्या होता है?",
     "o": [
       "Increases",
+      "None of these",
       "Decreases | घटता है",
-      "Stay same",
-      "None"
+      "Stay same"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Paani jamne par phailta hai; pressure badhane se expansion mushkil hota hai isliye freezing point 0°C se niche gir jata hai."
   },
   {
@@ -509,8 +509,8 @@
     "o": [
       "Diesel",
       "Otto Cycle | ऑटो चक्र (Otto Cycle)",
-      "Both same",
-      "None"
+      "None of these",
+      "Both same"
     ],
     "a": 1,
     "e": "Same compression ratio par Otto cycle me constant volume heat addition ki wajah se efficiency Diesel cycle se zyada hoti hai."
@@ -519,22 +519,22 @@
     "qe": "What is 'Coefficient of Performance' (COP) for a refrigerator?",
     "qh": "एक रेफ्रिजरेटर के लिए 'निष्पादन गुणांक' (COP) क्या है?",
     "o": [
+      "None of these",
       "$Q_2/W$ | $Q_2/W$",
       "$W/Q_2$",
-      "$Q_1/Q_2$",
-      "None"
+      "$Q_1/Q_2$"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Refrigerator ka COP cold body se nikali gayi heat ($Q_2$) divided by mechanical work done ($W$) hota hai."
   },
   {
     "qe": "What is 'Black Body' absorptivity ($\\alpha$)?",
     "qh": "'कृष्ण पिंड' की अवशोषकता ($\\alpha$) क्या है?",
     "o": [
-      "0",
-      "1 | एक (1)",
       "0.5",
-      "None"
+      "1 | एक (1)",
+      "0",
+      "None of these"
     ],
     "a": 1,
     "e": "Ideal black body surface par padne wali 100% radiation energy ko bina reflect kiye absorb kar leti hai ($a = 1$)."
@@ -543,48 +543,48 @@
     "qe": "What is the relation between 'C' and 'K'?",
     "qh": "'C' और 'K' के बीच क्या संबंध है?",
     "o": [
+      "None of these",
       "$K = C + 273$ | $K = C + 273$",
       "$K = C - 273$",
-      "$C = K + 273$",
-      "None"
+      "$C = K + 273$"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Celsius temperature me 273.15 add karne par absolute Kelvin temperature milta hai ($K = C + 273$)."
   },
   {
     "qe": "Which material is used in 'Heat Shields' of spacecraft?",
     "qh": "अंतरिक्ष यान के 'हीट शील्ड' में किस सामग्री का उपयोग होता है?",
     "o": [
-      "Steel",
       "Ablative Ceramics | एब्लेटिव सिरेमिक",
-      "Gold",
-      "None"
+      "Steel",
+      "None of these",
+      "Gold"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Silica ceramic ablative tiles re-entry ke dauran heat absorb karke vaporize ho jati hain aur spacecraft ko bachati hain."
   },
   {
     "qe": "What is the 'Maximum Efficiency' of a heat engine dependent on?",
     "qh": "एक ऊष्मा इंजन की 'अधिकतम दक्षता' किस पर निर्भर करती है?",
     "o": [
-      "Fuel quality",
       "Temperature of source and sink | स्रोत और सिंक के तापमान पर",
-      "Size of engine",
-      "None"
+      "Fuel quality",
+      "None of these",
+      "Size of engine"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Carnot theorem ke anusar engine ki maximum efficiency sirf source aur sink ke absolute temperatures par depend karti hai ($1 - T_2/T_1$)."
   },
   {
     "qe": "What is 'Latent Heat' of sublimation?",
     "qh": "'ऊर्ध्वपातन' की गुप्त ऊष्मा क्या है?",
     "o": [
-      "Heat for solid to liquid",
-      "Sum of latent heat of fusion and vaporization | गलन और वाष्पीकरण की गुप्त ऊष्मा का योग",
       "Heat for liquid to gas",
-      "None"
+      "Heat for solid to liquid",
+      "None of these",
+      "Sum of latent heat of fusion and vaporization | गलन और वाष्पीकरण की गुप्त ऊष्मा का योग"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Solid se direct gas banne me required total latent heat fusion aur vaporization ke sum ke barabar hoti hai."
   },
   {
@@ -592,105 +592,105 @@
     "qh": "ऊष्मागतिकी का कौन सा नियम कहता है कि '0 K पर ठोसों की विशिष्ट ऊष्मा शून्य हो जाती है'?",
     "o": [
       "First Law",
+      "Zeroth Law",
       "Second Law",
-      "Third Law | तृतीय नियम (Third Law)",
-      "Zeroth Law"
+      "Third Law | तृतीय नियम (Third Law)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Third Law ke Nernst postulate ke anusar 0 K ke paas crystal lattice vibration ruk jati hai aur specific heat zero ho jati hai."
   },
   {
     "qe": "What is 'Psychrometer' used to measure?",
     "qh": "'साइक्रोमीटर' (Psychrometer) का उपयोग क्या मापने के लिए किया जाता है?",
     "o": [
-      "Atmospheric pressure",
-      "Relative Humidity | सापेक्ष आर्द्रता",
       "Wind speed",
-      "None"
+      "None of these",
+      "Atmospheric pressure",
+      "Relative Humidity | सापेक्ष आर्द्रता"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Dry-bulb aur wet-bulb thermometers ke temperature difference se Psychrometer relative humidity naapta hai."
   },
   {
     "qe": "What happens to the 'Internal Energy' of a gas during free expansion?",
     "qh": "मुक्त प्रसार (Free expansion) के दौरान गैस की 'आंतरिक ऊर्जा' का क्या होता है?",
     "o": [
-      "Increases",
+      "None of these",
       "Decreases",
-      "Remains constant | स्थिर रहती है",
-      "None"
+      "Increases",
+      "Remains constant | स्थिर रहती है"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Free expansion insulated vacuum me hota hai jahan $W=0$ aur $Q=0$ hone se internal energy constant rehti hai."
   },
   {
     "qe": "What is 'Emissivity' ($\\epsilon$) for a grey body?",
     "qh": "एक ग्रे बॉडी (Grey body) के लिए 'उत्सर्जकता' ($\\epsilon$) क्या होती है?",
     "o": [
-      "0",
-      "1",
       "Between 0 and 1 | 0 और 1 के बीच",
-      "Infinite"
+      "0",
+      "Infinite",
+      "1"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Grey body ki emissivity sabhi wavelengths par constant rehti hai aur iski value 0 aur 1 ke beech ($0 < \\epsilon < 1$) hoti hai."
   },
   {
     "qe": "What is the principle of 'Air Conditioning'?",
     "qh": "'एयर कंडीशनिंग' का सिद्धांत क्या है?",
     "o": [
-      "Evaporation and compression | वाष्पीकरण और संपीड़न",
+      "None of these",
       "Conduction",
       "Radiation",
-      "None"
+      "Evaporation and compression | वाष्पीकरण और संपीड़न"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Refrigerant low pressure evaporator par evaporate hokar room se heat sokhta hai aur compressor se compress hokar bahar reject karta hai."
   },
   {
     "qe": "Which gas is used for 'Cryogenic' cooling of superconductors?",
     "qh": "सुपरकंडक्टर्स की 'क्रायोजेनिक' कूलिंग के लिए किस गैस का उपयोग होता है?",
     "o": [
-      "Liquid Oxygen",
-      "Liquid Helium | तरल हीलियम",
+      "None of these",
       "Liquid Carbon Dioxide",
-      "None"
+      "Liquid Oxygen",
+      "Liquid Helium | तरल हीलियम"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Liquid Helium ka boiling point extremely low (4.2 K) hota hai, jo superconductors ko unke critical temperature ke niche rakhta hai."
   },
   {
     "qe": "What is 'Thermal Equilibrium'?",
     "qh": "'तापीय संतुलन' क्या है?",
     "o": [
-      "Same Pressure",
       "Same Temperature | समान तापमान",
       "Same Volume",
-      "None"
+      "None of these",
+      "Same Pressure"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Jab do physical bodies ke beech temperature barabar ho jaye aur net heat flow zero ho, to use Thermal Equilibrium kehte hain."
   },
   {
     "qe": "What is the value of 'Solar Constant' (S) approximately?",
     "qh": "'सौर नियतांक' (S) का मान लगभग कितना है?",
     "o": [
-      "1.36 kW/m² | 1.36 kW/m²",
       "10 kW/m²",
       "0.5 kW/m²",
-      "None"
+      "None of these",
+      "1.36 kW/m² | 1.36 kW/m²"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Earth ke atmosphere ke bahar perpendicular surface par solar radiation power lagbhag 1.36 kW/m² aati hai."
   },
   {
     "qe": "Which state of matter has 'Highest' specific heat?",
     "qh": "पदार्थ की किस अवस्था में 'उच्चतम' विशिष्ट ऊष्मा होती है?",
     "o": [
-      "Solid",
-      "Liquid (Water) | तरल (पानी)",
       "Gas",
-      "Plasma"
+      "Liquid (Water) | तरल (पानी)",
+      "Plasma",
+      "Solid"
     ],
     "a": 1,
     "e": "Liquid water ki specific heat capacity (1 cal/g°C ya 4186 J/kg·K) common padarthon me sabse zyada hoti hai."
@@ -699,12 +699,12 @@
     "qe": "What is 'Steady State' in heat conduction?",
     "qh": "ऊष्मा चालन में 'स्थिर अवस्था' (Steady State) क्या है?",
     "o": [
-      "Temp changes with time",
       "Temp does not change with time | तापमान समय के साथ नहीं बदलता",
+      "None of these",
       "Heat flow stops",
-      "None"
+      "Temp changes with time"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Jab conductor ke kisi bhi point ka temperature time ke sath constant ho jaye ($dT/dt = 0$), to use Steady State kehte hain."
   },
   {
@@ -712,11 +712,11 @@
     "qh": "केल्विन में पानी का 'त्रिक बिंदु' क्या है?",
     "o": [
       "273.15 K",
-      "273.16 K | 273.16 K",
       "373.15 K",
-      "None"
+      "None of these",
+      "273.16 K | 273.16 K"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Water ka triple point exactly 273.16 K (0.01°C) define kiya gaya hai jahan teeno phases coexist karte hain."
   },
   {
@@ -724,9 +724,9 @@
     "qh": "'समदाबी' प्रक्रिया में किया गया कार्य किसके बराबर होता है?",
     "o": [
       "$P \\cdot \\Delta V$ | $P \\cdot \\Delta V$",
+      "None of these",
       "$V \\cdot \\Delta P$",
-      "Zero",
-      "None"
+      "Zero"
     ],
     "a": 0,
     "e": "Constant pressure process me pressure bahar nikalne par work done formula $W = P \\Delta V$ banta hai."
@@ -735,12 +735,12 @@
     "qe": "What is 'Kinetic Theory of Gases' based on?",
     "qh": "'गैसों का अणुगति सिद्धांत' किस पर आधारित है?",
     "o": [
-      "Molecular motion | आणविक गति",
       "Atomic weight",
-      "Color of gas",
-      "None"
+      "Molecular motion | आणविक गति",
+      "None of these",
+      "Color of gas"
     ],
-    "a": 0,
+    "a": 1,
     "e": "KTG gas ke macroscopic pressure aur temperature ko microscopic molecules ke continuous random motion aur collisions se explain karta hai."
   },
   {
@@ -748,35 +748,35 @@
     "qh": "निर्वात में पानी के 'क्वथनांक' का क्या होता है?",
     "o": [
       "Increases",
-      "Decreases | घटता है",
       "Stay same",
-      "None"
+      "None of these",
+      "Decreases | घटता है"
     ],
-    "a": 1,
+    "a": 3,
     "e": "External pressure na hone ki wajah se room temperature par hi water ka vapor pressure match ho jata hai aur paani bina heat ke ubalne lagta hai."
   },
   {
     "qe": "Which material is used in 'Pyrometers' for non-contact measurement?",
     "qh": "गैर-संपर्क माप के लिए 'पाइरोमीटर' में किसका उपयोग होता है?",
     "o": [
+      "None of these",
       "Infrared sensors | अवरक्त सेंसर",
       "Mercury",
-      "Alcohol",
-      "None"
+      "Alcohol"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Pyrometers distance se aane wali thermal infrared radiation ko sensors par focus karke temperature calculate karte hain."
   },
   {
     "qe": "What is 'Specific Latent Heat' unit?",
     "qh": "'विशिष्ट गुप्त ऊष्मा' का मात्रक क्या है?",
     "o": [
-      "J/K",
-      "J/kg | जूल प्रति किग्रा (J/kg)",
       "Watt",
-      "None"
+      "None of these",
+      "J/K",
+      "J/kg | जूल प्रति किग्रा (J/kg)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Unit mass ke phase change ke liye required heat ($L = Q/m$) ka SI unit Joule per kilogram (J/kg) hota hai."
   },
   {
@@ -784,47 +784,47 @@
     "qh": "गैस में 'रुद्धोष्म संपीड़न' का क्या परिणाम होता है?",
     "o": [
       "Cooling",
-      "Heating | तापन (Heating)",
       "No change",
-      "None"
+      "None of these",
+      "Heating | तापन (Heating)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Gas par compression work hone se external work internal energy me convert hota hai ($dU = -dW$), jisse temperature badh jata hai."
   },
   {
     "qe": "What is 'Bimetallic Strip' used for?",
     "qh": "'द्वि-धात्विक पट्टी' (Bimetallic Strip) का उपयोग किसमें होता है?",
     "o": [
+      "Measuring sound",
       "Lighting",
       "Thermostats | थर्मोस्टैट्स",
-      "Measuring sound",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Do alag metals ke unequal thermal expansion se strip bend hokar automatic electrical circuit cut-off (thermostat) ka kaam karti hai."
   },
   {
     "qe": "Which law states that 'Total pressure of a gas mixture is sum of partial pressures'?",
     "qh": "कौन सा नियम कहता है कि 'गैस मिश्रण का कुल दाब आंशिक दाबों का योग होता है'?",
     "o": [
-      "Boyle's Law",
       "Dalton's Law | डॉल्टन का नियम",
+      "None of these",
       "Charles's Law",
-      "None"
+      "Boyle's Law"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Dalton ka niyam kehta hai ki non-reacting gases ke mixture ka total pressure un sabhi ke individual partial pressures ke sum ke barabar hota hai."
   },
   {
     "qe": "What is 'Critical Temperature' of Oxygen approximately?",
     "qh": "ऑक्सीजन का 'क्रांतिक तापमान' लगभग कितना है?",
     "o": [
-      "-118°C | -118°C",
-      "0°C",
+      "None of these",
       "100°C",
-      "None"
+      "-118°C | -118°C",
+      "0°C"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Oxygen ka critical temperature lagbhag -118.5°C (154.6 K) hota hai; iske upar pressure lagakar ise liquid nahi banaya ja sakta."
   },
   {
@@ -832,9 +832,9 @@
     "qh": "n मोल के 'समतापी' प्रसार में 'किया गया कार्य' क्या है?",
     "o": [
       "$nRT \\cdot ln(V_2/V_1)$ | $nRT \\cdot ln(V_2/V_1)$",
-      "$P \\cdot \\Delta V$",
       "$Zero$",
-      "None"
+      "None of these",
+      "$P \\cdot \\Delta V$"
     ],
     "a": 0,
     "e": "Ideal gas me isothermal expansion work integral $\\int P dV$ se solve hokar $W = nRT \\ln(V_2/V_1)$ banta hai."
@@ -843,22 +843,22 @@
     "qe": "What is 'Thermal Convection' primarily driven by?",
     "qh": "'तापीय संवहन' मुख्य रूप से किसके द्वारा संचालित होता है?",
     "o": [
-      "Molecular vibration",
       "Density differences | घनत्व में अंतर",
+      "Molecular vibration",
       "Radiation",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Temperature badhne se fluid expand hokar halka ho jata hai aur gravity ke under upar uthta hai, jo convection currents banata hai."
   },
   {
     "qe": "What is 'Regelation' primarily observed in?",
     "qh": "'पुनर्हिमायन' मुख्य रूप से किसमें देखा जाता है?",
     "o": [
-      "Wax",
+      "None of these",
       "Ice | बर्फ (Ice)",
-      "Iron",
-      "None"
+      "Wax",
+      "Iron"
     ],
     "a": 1,
     "e": "Dabav badhane se barf ka pighalna aur dabav hat-te hi wapas freeze ho jana Regelation kehlata hai."
@@ -868,33 +868,33 @@
     "qh": "0 K पर एक 'आदर्श क्रिस्टल' की 'एन्ट्रॉपी' क्या होती है?",
     "o": [
       "Infinite",
+      "None of these",
       "Zero | शून्य (Zero)",
-      "Maximum",
-      "None"
+      "Maximum"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Third Law of Thermodynamics ke mutabiq absolute zero (0 K) par perfect crystal ka atomic disorder zero hota hai."
   },
   {
     "qe": "Which property of water is used in 'Hot water bags'?",
     "qh": "'गर्म पानी की थैलियों' में पानी के किस गुण का उपयोग किया जाता है?",
     "o": [
-      "Low density",
       "High Specific Heat | उच्च विशिष्ट ऊष्मा",
-      "Transparent",
-      "None"
+      "Low density",
+      "None of these",
+      "Transparent"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Paani ki high specific heat capacity heat ko lambe samay tak store karke rakhti hai aur dheere-dheere release karti hai."
   },
   {
     "qe": "What is 'Absolute Humidity' independent of?",
     "qh": "'निरपेक्ष आर्द्रता' किससे स्वतंत्र होती है?",
     "o": [
-      "Temperature",
       "Volume | आयतन (Volume)",
       "Pressure",
-      "None"
+      "Temperature",
+      "None of these"
     ],
     "a": 3,
     "e": "Absolute Humidity mass of water vapor divided by volume ($m/V$) hoti hai, isliye ye volume aur temperature se direct change hoti hai (kisi se bhi independent nahi hoti)."
@@ -903,48 +903,48 @@
     "qe": "What is 'Coefficient of Performance' (COP) for a Heat Pump?",
     "qh": "हीट पंप के लिए 'निष्पादन गुणांक' (COP) क्या है?",
     "o": [
-      "$Q_H / W$ | $Q_H / W$",
       "$Q_L / W$",
-      "$W / Q_H$",
-      "None"
+      "$Q_H / W$ | $Q_H / W$",
+      "None of these",
+      "$W / Q_H$"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Heat pump ka COP desired heat delivery ($Q_H$) divided by input mechanical work ($W$) hota hai ($COP_{HP} = COP_R + 1$)."
   },
   {
     "qe": "What is 'Clausius inequality' related to?",
     "qh": "'क्लॉसियस असमानता' किससे संबंधित है?",
     "o": [
-      "Entropy | एन्ट्रॉपी (Entropy)",
       "Internal energy",
-      "Pressure",
-      "None"
+      "None of these",
+      "Entropy | एन्ट्रॉपी (Entropy)",
+      "Pressure"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Clausius cyclic integral $\\oint dQ/T \\le 0$ kisi cycle me entropy generation aur irreversibility ko relate karta hai."
   },
   {
     "qe": "What is 'Specific Volume'?",
     "qh": "'विशिष्ट आयतन' क्या है?",
     "o": [
-      "Mass/Volume",
       "Volume/Mass | आयतन प्रति इकाई द्रव्यमान",
-      "Density/Temp",
-      "None"
+      "Mass/Volume",
+      "None of these",
+      "Density/Temp"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Specific volume unit mass ka volume ($V/m$) hota hai, jo density ka reciprocal ($1/\\rho$) hai."
   },
   {
     "qe": "In which process is 'No Heat' exchanged?",
     "qh": "किस प्रक्रिया में 'कोई ऊष्मा' विनिमय नहीं होती?",
     "o": [
-      "Isothermal",
       "Adiabatic | रुद्धोष्म (Adiabatic)",
+      "None of these",
       "Isochoric",
-      "None"
+      "Isothermal"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Adiabatic process me system insulated hota hai, isliye surrounding ke sath heat exchange zero ($dQ = 0$) rehta hai."
   },
   {
@@ -953,8 +953,8 @@
     "o": [
       "Material",
       "Temperature Only | केवल तापमान पर",
-      "Size",
-      "None"
+      "None of these",
+      "Size"
     ],
     "a": 1,
     "e": "Ideal black body radiation ka wavelength emission curve kisi material par nahi, sirf absolute temperature par depend karta hai."
@@ -963,12 +963,12 @@
     "qe": "What is 'Joule-Thomson' coefficient for an ideal gas?",
     "qh": "एक आदर्श गैस के लिए 'जूल-थॉमसन' गुणांक क्या है?",
     "o": [
-      "Positive",
       "Zero | शून्य (Zero)",
-      "Negative",
-      "One"
+      "Positive",
+      "One",
+      "Negative"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Ideal gas me intermolecular attraction zero hone se throttling expansion par temperature change $\\mu_{JT} = 0$ hota hai."
   },
   {
@@ -977,8 +977,8 @@
     "o": [
       "$L / (kA)$ | $L / (kA)$",
       "$kA / L$",
-      "$Q / t$",
-      "None"
+      "None of these",
+      "$Q / t$"
     ],
     "a": 0,
     "e": "Ohm's law ke analog thermal resistance $R_h = \\Delta T / H = L / (kA)$ hota hai."
@@ -987,34 +987,34 @@
     "qe": "What happens to 'Viscosity' of gases with increase in 'Temperature'?",
     "qh": "'तापमान' बढ़ने पर गैसों की 'श्यानता' (Viscosity) का क्या होता है?",
     "o": [
+      "None of these",
       "Decreases",
-      "Increases | बढ़ती है (Increases)",
       "Stay same",
-      "None"
+      "Increases | बढ़ती है (Increases)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Gases me temperature badhne par molecules ki speed aur momentum transfer rate badhne se viscosity badhti hai."
   },
   {
     "qe": "What is 'Stefan's Law' constant ($\\sigma$) value?",
     "qh": "'स्टीफन नियम' नियतांक ($\\sigma$) का मान क्या है?",
     "o": [
-      "$5.67 \\times 10^{-8} W/m^2K^4$ | $5.67 \\times 10^{-8}$",
+      "None of these",
       "8.31",
       "6.62",
-      "None"
+      "$5.67 \\times 10^{-8} W/m^2K^4$ | $5.67 \\times 10^{-8}$"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Radiation power equation $E = \\sigma T^4$ me Stefan constant $\\sigma = 5.67 \\times 10^{-8} W/(m^2 \\cdot K^4)$ hota hai."
   },
   {
     "qe": "Which color is a 'Poor' absorber of heat?",
     "qh": "कौन सा रंग ऊष्मा का 'खराब' अवशोषक है?",
     "o": [
-      "Black",
+      "None of these",
       "White | सफेद (White)",
       "Dark Blue",
-      "None"
+      "Black"
     ],
     "a": 1,
     "e": "White surfaces radiation ko absorb karne ke bajay lagbhag poori tarah reflect kar deti hain."
@@ -1023,36 +1023,36 @@
     "qe": "What is 'Latent Heat' of vaporization of water approximately?",
     "qh": "पानी के वाष्पीकरण की 'गुप्त ऊष्मा' लगभग कितनी है?",
     "o": [
-      "80 cal/g",
-      "540 cal/g | 540 cal/g",
       "100 cal/g",
-      "None"
+      "80 cal/g",
+      "None of these",
+      "540 cal/g | 540 cal/g"
     ],
-    "a": 1,
+    "a": 3,
     "e": "100°C par 1 gram paani ko steam me badalne ke liye 540 calories latent heat required hoti hai."
   },
   {
     "qe": "What is 'Critical State' pressure for water?",
     "qh": "पानी के लिए 'क्रांतिक अवस्था' दाब क्या है?",
     "o": [
+      "100 bar",
       "1 bar",
       "221 bar | 221 bar",
-      "100 bar",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Water ka critical pressure lagbhag 220.6 se 221 bar (218 atm) hota hai jahan liquid aur steam ka meniscus disappear ho jata hai."
   },
   {
     "qe": "What is 'Freezing Mixture' usually composed of?",
     "qh": "'हिमकारी मिश्रण' (Freezing Mixture) आमतौर पर किससे बना होता है?",
     "o": [
+      "Dry Ice and Oil",
       "Ice and Water",
       "Ice and Salt | बर्फ और नमक",
-      "Dry Ice and Oil",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Ice me Salt milane par depression in freezing point hota hai jisse temperature -18°C se -21°C tak gir jata hai."
   },
   {
@@ -1060,11 +1060,11 @@
     "qh": "'उत्क्रमणीय' प्रक्रिया क्या है?",
     "o": [
       "Fast process",
+      "None of these",
       "Quasi-static and frictionless | अर्ध-स्थैतिक और घर्षण रहित",
-      "Explosive",
-      "None"
+      "Explosive"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Aisi idealized process jo extremely slow aur bina kisi energy dissipation ke reverse direction me laayi ja sake."
   },
   {
@@ -1073,8 +1073,8 @@
     "o": [
       "Heat Engines | ऊष्मा इंजन",
       "Refrigerators",
-      "Radiation",
-      "None"
+      "None of these",
+      "Radiation"
     ],
     "a": 0,
     "e": "Kelvin-Planck statement batata hai ki aisa cyclic heat engine banana impossible hai jo single reservoir se heat lekar use 100% work me badal de."
@@ -1085,8 +1085,8 @@
     "o": [
       "Pressure",
       "Temperature Only | केवल तापमान पर",
-      "Volume",
-      "None"
+      "None of these",
+      "Volume"
     ],
     "a": 1,
     "e": "Ideal gas me molecular attraction zero hone se internal energy volume ya pressure par nahi, sirf temperature par depend karti hai."
@@ -1098,7 +1098,7 @@
       "Bodies only emit when hot",
       "Bodies emit and absorb at all temperatures | पिंड सभी तापमानों पर उत्सर्जित और अवशोषित करते हैं",
       "No emission below 0°C",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "Prevost ke theory ke anusar absolute zero (0 K) se upar ka har object continuously heat radiate aur absorb karta rehta hai."
@@ -1107,24 +1107,24 @@
     "qe": "What is 'Stefan-Boltzmann' law formula?",
     "qh": "'स्टीफन-बोल्ट्जमैन' नियम का सूत्र क्या है?",
     "o": [
-      "$E = \\sigma T^4$ | $E = \\sigma T^4$",
       "$E = \\sigma T^2$",
       "$E = kT$",
-      "None"
+      "None of these",
+      "$E = \\sigma T^4$ | $E = \\sigma T^4$"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Black body radiation emission power per unit area absolute temperature ki fourth power ke directly proportional ($E = \\sigma T^4$) hoti hai."
   },
   {
     "qe": "Which instrument is used to measure 'Low' temperatures near absolute zero?",
     "qh": "परम शून्य के पास 'कम' तापमान मापने के लिए किसका उपयोग होता है?",
     "o": [
-      "Mercury Thermometer",
       "Magnetic Thermometer | चुंबकीय थर्मामीटर",
-      "Pyrometer",
-      "None"
+      "Mercury Thermometer",
+      "None of these",
+      "Pyrometer"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Magnetic thermometers paramagnetic salts par Curie's law use karke sub-Kelvin range ka temperature accurately naapte hain."
   },
   {
@@ -1132,21 +1132,21 @@
     "qh": "एक-परमाणुक गैस के लिए 'रुद्धोष्म सूचकांक' ($\\gamma$) क्या है?",
     "o": [
       "1.4",
-      "1.67 | 1.67",
       "1.33",
-      "None"
+      "None of these",
+      "1.67 | 1.67"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Monatomic gas ke 3 degrees of freedom hote hain, isliye ratio $\\gamma = C_p/C_v = 5/3 \\approx 1.67$ hota hai."
   },
   {
     "qe": "What is 'Conduction' primarily in?",
     "qh": "'चालन' मुख्य रूप से किसमें होता है?",
     "o": [
-      "Gases",
+      "Vacuum",
       "Solids | ठोसों में",
       "Liquids",
-      "Vacuum"
+      "Gases"
     ],
     "a": 1,
     "e": "Conduction me atoms ke lattice vibrations aur free electrons ke physical contact se heat transfer hota hai, jo solids me sabse zyada dominant hai."
@@ -1155,10 +1155,10 @@
     "qe": "What is 'Isothermal' elasticity of a gas?",
     "qh": "गैस की 'समतापी' प्रत्यास्थता क्या है?",
     "o": [
-      "Zero",
+      "Infinite",
       "Pressure (P) | दाब (P)",
-      "$\\gamma P$",
-      "Infinite"
+      "Zero",
+      "$\\gamma P$"
     ],
     "a": 1,
     "e": "Boyle's law $PV = \\text{const}$ ko differentiate karne par isothermal elasticity gas pressure ($P$) ke barabar nikal kar aati hai."
@@ -1168,59 +1168,59 @@
     "qh": "'समुद्र समीर' (Sea Breeze) किसके कारण चलती है?",
     "o": [
       "Conduction",
-      "Convection | संवहन (Convection)",
       "Radiation",
-      "None"
+      "Convection | संवहन (Convection)",
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Din me land paani se zyada garam hokar low pressure banata hai, jisse samundar se thandi hawa land ki taraf convective currents banakar chalti hai."
   },
   {
     "qe": "What is the 'Maximum Density' of water at?",
     "qh": "पानी का 'अधिकतम घनत्व' किस तापमान पर होता है?",
     "o": [
-      "0°C",
       "4°C | 4°C",
-      "100°C",
-      "None"
+      "None of these",
+      "0°C",
+      "100°C"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Anomalous expansion ke kaaran paani ka volume 4°C par minimum aur density maximum (1000 kg/m³) hoti hai."
   },
   {
     "qe": "Which law relates the 'Pressure' and 'Temperature' of a gas at constant volume?",
     "qh": "स्थिर आयतन पर गैस के 'दाब' और 'तापमान' के बीच कौन सा नियम संबंध बताता है?",
     "o": [
-      "Boyle's Law",
-      "Charles's Law",
       "Gay-Lussac's Law | गे-लुसाक का नियम",
-      "None"
+      "None of these",
+      "Charles's Law",
+      "Boyle's Law"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Gay-Lussac's law ke mutabiq constant volume par fixed mass of gas ka pressure uske absolute temperature ke directly proportional ($P \\propto T$) hota hai."
   },
   {
     "qe": "What is 'Bolometer' used to measure?",
     "qh": "'बोलोमीटर' का उपयोग क्या मापने के लिए किया जाता है?",
     "o": [
-      "Specific heat",
-      "Thermal radiation | तापीय विकिरण",
       "Latent heat",
-      "None"
+      "None of these",
+      "Specific heat",
+      "Thermal radiation | तापीय विकिरण"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Bolometer heat radiation absorb karke temperature-dependent resistance change se radiant heat energy ko measure karta hai."
   },
   {
     "qe": "What happens to the 'Melting Point' of wax when pressure is increased?",
     "qh": "दाब बढ़ाने पर मोम के 'गलनांक' पर क्या प्रभाव पड़ता है?",
     "o": [
+      "Stay same",
       "Decreases",
       "Increases | बढ़ता है",
-      "Stay same",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Wax melt hone par expand karti hai, isliye pressure badhane par iska melting point badh jata hai."
   },
   {
@@ -1228,9 +1228,9 @@
     "qh": "सैद्धांतिक रूप से 'परम शून्य' क्या है?",
     "o": [
       "Temperature where all motion stops | वह तापमान जहाँ सारी आणविक गति रुक जाती है",
+      "None of these",
       "Freezing point of water",
-      "Boiling point of liquid nitrogen",
-      "None"
+      "Boiling point of liquid nitrogen"
     ],
     "a": 0,
     "e": "0 Kelvin (-273.15°C) wo minimum theoretical temperature hai jahan molecules ka translational motion poori tarah cease ho jata hai."
@@ -1239,70 +1239,70 @@
     "qe": "Which mode of heat transfer does not require any 'Medium'?",
     "qh": "ऊष्मा संचरण की किस विधि में किसी 'माध्यम' की आवश्यकता नहीं होती?",
     "o": [
-      "Conduction",
       "Convection",
       "Radiation | विकिरण (Radiation)",
-      "None"
+      "Conduction",
+      "None of these"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Thermal Radiation electromagnetic waves ke form me travel karti hai, isliye ise flow hone ke liye kisi physical medium ki zaroorat nahi hoti."
   },
   {
     "qe": "What is 'Thermal Conductivity' of Silver compared to Wood?",
     "qh": "लकड़ी की तुलना में चांदी की 'तापीय चालकता' क्या है?",
     "o": [
-      "Very High | बहुत अधिक",
-      "Very Low",
       "Equal",
-      "Zero"
+      "Zero",
+      "Very High | बहुत अधिक",
+      "Very Low"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Silver metallic conductor hone ki wajah se heat ko bohot tezi se conduct karta hai, jabki wood ek organic insulator hai."
   },
   {
     "qe": "Why do 'Cloudy Nights' feel warmer than clear nights?",
     "qh": "'बादल वाली रातें' साफ रातों की तुलना में गर्म क्यों महसूस होती हैं?",
     "o": [
-      "Clouds produce heat",
       "Clouds reflect terrestrial radiation | बादल पार्थिव विकिरण को वापस परावर्तित करते हैं",
+      "None of these",
       "Wind stops",
-      "None"
+      "Clouds produce heat"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Clouds blanket ki tarah act karte hain jo Earth surface se nikalne wale infrared heat radiation ko space me jane se rok kar wapas reflect kar dete hain."
   },
   {
     "qe": "What is 'Clausius-Clapeyron' equation used to determine?",
     "qh": "'क्लॉसियस-क्लेपेरॉन' समीकरण का उपयोग क्या निर्धारित करने के लिए होता है?",
     "o": [
-      "Work done",
       "Variation of saturation pressure with temp | तापमान के साथ संतृप्ति दाब का परिवर्तन",
-      "Specific heat",
-      "None"
+      "None of these",
+      "Work done",
+      "Specific heat"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Ye equation latent heat aur volume change ko relate karke batati hai ki pressure ke sath boiling ya melting point kaise change hota hai."
   },
   {
     "qe": "What is the unit of 'Entropy' in SI?",
     "qh": "SI में 'एन्ट्रॉपी' का मात्रक क्या है?",
     "o": [
-      "Joule",
       "Joule/Kelvin | जूल प्रति केल्विन (J/K)",
-      "Watt",
-      "None"
+      "Joule",
+      "None of these",
+      "Watt"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Entropy formula $dS = dQ/T$ hota hai; heat energy Joules me aur temperature Kelvin me hone se iska SI unit J/K banta hai."
   },
   {
     "qe": "What is 'Triple Point' pressure of Water?",
     "qh": "पानी का 'त्रिक बिंदु' दाब क्या है?",
     "o": [
-      "1 atm",
+      "None of these",
       "611.65 Pa | 611.65 Pa (0.006 atm)",
-      "100 atm",
-      "None"
+      "1 atm",
+      "100 atm"
     ],
     "a": 1,
     "e": "Water ke triple point par ice, liquid water aur vapor coexist karte hain, jiska equilibrium pressure exactly 611.65 Pascals (0.006 atm) hota hai."
@@ -1311,12 +1311,12 @@
     "qe": "Which 'Law' defines the temperature scale?",
     "qh": "कौन सा 'नियम' तापमान के पैमाने को परिभाषित करता है?",
     "o": [
-      "First Law",
       "Second Law",
       "Zeroth Law | शून्यवाँ नियम (Zeroth Law)",
-      "None"
+      "None of these",
+      "First Law"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Zeroth Law of Thermodynamics thermal equilibrium ka concept deta hai jo temperature scale define karne aur thermometry ka aadhar hai."
   },
   {
@@ -1324,47 +1324,47 @@
     "qh": "एक त्रि-परमाणुक (रैखीय) गैस के लिए 'रुद्धोष्म सूचकांक' ($\\gamma$) क्या है?",
     "o": [
       "1.67",
-      "1.4 | 1.4",
       "1.33",
-      "None"
+      "None of these",
+      "1.4 | 1.4"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Linear triatomic gas (jaise CO2) ke rotational degrees of freedom diatomic jaise 2 hote hain ($f=5$), isliye iska ratio $\\gamma = 7/5 = 1.4$ hota hai."
   },
   {
     "qe": "What is 'Specific Heat' of a substance at its 'Boiling Point'?",
     "qh": "अपने 'क्वथनांक' पर किसी पदार्थ की 'विशिष्ट ऊष्मा' क्या होती है?",
     "o": [
-      "Zero",
       "Infinite | अनंत (Infinite)",
       "Constant",
-      "None"
+      "Zero",
+      "None of these"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Boiling point par phase change ke dauran heat lene par bhi temperature change nahi hota ($dT = 0$); formula $C = Q/(m dT)$ me specific heat infinite ho jati hai."
   },
   {
     "qe": "What is 'Mayer's relation' for 1 mole of gas?",
     "qh": "1 मोल गैस के लिए 'मेयर का संबंध' क्या है?",
     "o": [
-      "$C_p - C_v = R$ | $C_p - C_v = R$",
-      "$C_p + C_v = R$",
       "$C_p / C_v = R$",
-      "None"
+      "None of these",
+      "$C_p + C_v = R$",
+      "$C_p - C_v = R$ | $C_p - C_v = R$"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Constant pressure molar heat capacity aur constant volume molar heat capacity ka antar universal gas constant R ke barabar hota hai ($C_p - C_v = R$)."
   },
   {
     "qe": "Which instrument measures 'Solar Radiation' intensity?",
     "qh": "'सौर विकिरण' की तीव्रता कौन सा उपकरण मापता है?",
     "o": [
-      "Lactometer",
-      "Pyranometer | पायरानोमीटर",
       "Hygrometer",
-      "None"
+      "None of these",
+      "Pyranometer | पायरानोमीटर",
+      "Lactometer"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Pyranometer sky se surface par aane wali total solar irradiance flux density ($W/m^2$) ko measure karta hai."
   },
   {
@@ -1372,11 +1372,11 @@
     "qh": "गैसों में ऊष्मा का 'चालन' मुख्य रूप से किसके कारण होता है?",
     "o": [
       "Free electrons",
-      "Molecular collisions | आणविक टक्कर",
       "Radiation",
-      "None"
+      "None of these",
+      "Molecular collisions | आणविक टक्कर"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Gases me conduction high kinetic energy wale molecules ke low kinetic energy wale molecules ke sath elastic collisions se energy transfer ke zariye hota hai."
   },
   {
@@ -1386,7 +1386,7 @@
       "Real gases",
       "Ideal gases | आदर्श गैसें",
       "Liquids",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "Ideal gas molecules me koi intermolecular attraction nahi hota, isliye throttling expansion me koi internal work nahi hota aur Joule-Thomson effect zero hota hai."
@@ -1395,36 +1395,36 @@
     "qe": "What is 'Latent Heat' of ice in SI units (approx)?",
     "qh": "SI मात्रक में बर्फ की 'गुप्त ऊष्मा' (लगभग) क्या है?",
     "o": [
+      "None of these",
       "$2260 kJ/kg$",
       "$334 kJ/kg$ | $334 kJ/kg$",
-      "$4.2 kJ/kg$",
-      "None"
+      "$4.2 kJ/kg$"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Ice ki melting latent heat 80 cal/g hoti hai, jise SI unit me calculate karne par lagbhag 334 kJ/kg ($3.34 \\times 10^5 J/kg$) aati hai."
   },
   {
     "qe": "Why is 'Copper' used at the bottom of stainless steel pans?",
     "qh": "स्टेनलेस स्टील के बर्तनों के नीचे 'तांबे' का उपयोग क्यों किया जाता है?",
     "o": [
-      "Looks good",
-      "Better heat conductivity | बेहतर ऊष्मा चालकता",
+      "None of these",
       "Makes it heavy",
-      "None"
+      "Looks good",
+      "Better heat conductivity | बेहतर ऊष्मा चालकता"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Copper heat ka bohot achha conductor hai, isliye base me flame heat ko tezi se aur uniformly phaila kar khana jalne se bachata hai."
   },
   {
     "qe": "What is the relation between '$\\alpha$', '$\\beta$', and '$\\gamma$' for an isotropic solid?",
     "qh": "एक समदैशिक ठोस के लिए '$\\alpha$', '$\\beta$' और '$\\gamma$' में क्या संबंध है?",
     "o": [
-      "$1:2:3$ | $1:2:3$",
       "$3:2:1$",
       "$1:1:1$",
-      "None"
+      "$1:2:3$ | $1:2:3$",
+      "None of these"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Linear ($\\alpha$), area ($\\beta = 2\\alpha$) aur volume ($\\gamma = 3\\alpha$) expansion coefficients ka mutual ratio $\\alpha : \\beta : \\gamma = 1:2:3$ hota hai."
   },
   {
@@ -1432,9 +1432,9 @@
     "qh": "विकिरण का 'किरचॉफ का नियम' क्या है?",
     "o": [
       "Good absorbers are good emitters | अच्छे अवशोषक ही अच्छे उत्सर्जक होते हैं",
-      "Heat is energy",
       "Entropy increases",
-      "None"
+      "None of these",
+      "Heat is energy"
     ],
     "a": 0,
     "e": "Kirchhoff ke radiation niyam ke anusar diye gaye temperature aur wavelength par emissivity aur absorptivity ka anupat constant hota hai ($e_\\lambda = a_\\lambda$)."
@@ -1443,10 +1443,10 @@
     "qe": "What is 'Prevost Theory' related to?",
     "qh": "'प्रेवोस्ट सिद्धांत' किससे संबंधित है?",
     "o": [
-      "Conduction",
+      "None of these",
       "Heat exchange by radiation | विकिरण द्वारा ऊष्मा विनिमय",
-      "Gas laws",
-      "None"
+      "Conduction",
+      "Gas laws"
     ],
     "a": 1,
     "e": "Prevost theory kehta hai ki har object har temperature par continuously thermal radiation emit karta hai aur simultaneously surrounding se radiation absorb bhi karta hai."
@@ -1455,48 +1455,48 @@
     "qe": "What is 'Efficiency' of a heat engine rejecting all heat to sink?",
     "qh": "सिंक को सारी ऊष्मा छोड़ने वाले इंजन की 'दक्षता' क्या होगी?",
     "o": [
-      "100%",
-      "Zero | शून्य (Zero)",
       "50%",
-      "None"
+      "None of these",
+      "100%",
+      "Zero | शून्य (Zero)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Agar engine saari absorbed heat sink me dump kar de ($Q_2 = Q_1$), to work output zero hoga aur efficiency $\\eta = W/Q_1 = 0$ ho jayegi."
   },
   {
     "qe": "What is 'Isothermal' expansion work done for 1 mole?",
     "qh": "1 मोल के लिए 'समतापी' प्रसार में किया गया कार्य क्या है?",
     "o": [
-      "$RT \\ln(V_2/V_1)$ | $RT \\ln(V_2/V_1)$",
-      "$P \\Delta V$",
       "$C_v \\Delta T$",
-      "None"
+      "None of these",
+      "$RT \\ln(V_2/V_1)$ | $RT \\ln(V_2/V_1)$",
+      "$P \\Delta V$"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Ideal gas ke 1 mole ke liye isothermal work integral se $W = RT \\ln(V_2/V_1)$ ya $RT \\ln(P_1/P_2)$ nikalta hai."
   },
   {
     "qe": "Which state of matter has the 'Maximum' intermolecular space?",
     "qh": "पदार्थ की किस अवस्था में 'अधिकतम' अंतर-आणविक स्थान होता है?",
     "o": [
+      "Gas | गैस (Gas)",
       "Solid",
       "Liquid",
-      "Gas | गैस (Gas)",
-      "None"
+      "None of these"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Gas phase me intermolecular cohesive forces negligible hote hain, isliye molecules bohot door rehte hain aur empty space maximum hota hai."
   },
   {
     "qe": "What is the 'SI Unit' of the Stefan-Boltzmann constant?",
     "qh": "स्टीफन-बोल्ट्जमैन नियतांक का 'SI मात्रक' क्या है?",
     "o": [
-      "$W/m^2 K^4$ | $W/m^2 K^4$",
+      "None of these",
       "$J/K$",
       "$W/m K$",
-      "None"
+      "$W/m^2 K^4$ | $W/m^2 K^4$"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Stefan law $E = \\sigma T^4$ me radiant power per unit area ($W/m^2$) ko $T^4$ ($K^4$) se divide karne par SI unit $W/(m^2 \\cdot K^4)$ banti hai."
   },
   {
@@ -1504,11 +1504,11 @@
     "qh": "थर्मामीटर में 'पारे' का उपयोग क्यों किया जाता है?",
     "o": [
       "High expansion coefficient | उच्च प्रसार गुणांक",
-      "Doesn't stick to glass | कांच से नहीं चिपकता",
       "High boiling point | उच्च क्वथनांक",
-      "All of these | उपरोक्त सभी"
+      "All of these | उपरोक्त सभी",
+      "Doesn't stick to glass | कांच से नहीं चिपकता"
     ],
-    "a": 3,
+    "a": 2,
     "e": "Mercury kanch se chipakta nahi hai, uniform expansion deta hai, easily visible hota hai aur iska boiling point (357°C) kafi high hota hai."
   },
   {
@@ -1516,11 +1516,11 @@
     "qh": "परम शून्य पर गैस के अणु की 'गतिज ऊर्जा' क्या होती है?",
     "o": [
       "Maximum",
-      "Zero | शून्य (Zero)",
       "Constant",
-      "None"
+      "Zero | शून्य (Zero)",
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Classical thermodynamics me 0 Kelvin par molecules ka molecular motion poori tarah cease ho jata hai aur translational kinetic energy zero ho jati hai."
   },
   {
@@ -1530,7 +1530,7 @@
       "Oxygen",
       "Helium | हीलियम (Helium)",
       "Nitrogen",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "Helium gas ka boiling point (4.2 K) bohot low hota hai aur ye extremely low temperatures par bhi gas state me rehti hai, isliye cryogenic thermometry me use hoti hai."
@@ -1539,36 +1539,36 @@
     "qe": "What is 'Latent Heat of Vaporization' for water (approx)?",
     "qh": "पानी के वाष्पीकरण की 'गुप्त ऊष्मा' (लगभग) कितनी है?",
     "o": [
-      "80 cal/g",
-      "540 cal/g | 540 cal/g",
+      "None of these",
       "100 cal/g",
-      "None"
+      "540 cal/g | 540 cal/g",
+      "80 cal/g"
     ],
-    "a": 1,
+    "a": 2,
     "e": "100°C par 1 gram paani ko steam me convert karne ke liye lagbhag 540 calories latent heat required hoti hai."
   },
   {
     "qe": "What is 'Regelation' observed in ice primarily due to?",
     "qh": "बर्फ में 'पुनर्हिमायन' मुख्य रूप से किसके कारण देखा जाता है?",
     "o": [
+      "Chemical change",
       "Pressure change | दाब परिवर्तन",
       "Temp change",
-      "Chemical change",
-      "None"
+      "None of these"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Pressure badhane par barf ka melting point 0°C se niche gir kar pighalna aur pressure release hote hi wapas refreeze ho jana Regelation kehlata hai."
   },
   {
     "qe": "What is 'Coefficient of Linear Expansion' for Steel approximately?",
     "qh": "स्टील के लिए 'रैखीय प्रसार गुणांक' लगभग कितना है?",
     "o": [
-      "$1.2 \\times 10^{-5} /°C$ | $1.2 \\times 10^{-5} /°C$",
       "$2.4 \\times 10^{-5} /°C$",
       "Zero",
-      "None"
+      "$1.2 \\times 10^{-5} /°C$ | $1.2 \\times 10^{-5} /°C$",
+      "None of these"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Structural carbon steel ka coefficient of linear expansion lagbhag $1.2 \\times 10^{-5} \\text{ per °C}$ hota hai."
   },
   {
@@ -1576,9 +1576,9 @@
     "qh": "स्थिर आयतन पर एक-परमाणुक गैस की 'विशिष्ट ऊष्मा' क्या है?",
     "o": [
       "$3/2 R$ | $3/2 R$",
-      "$5/2 R$",
+      "None of these",
       "$R$",
-      "None"
+      "$5/2 R$"
     ],
     "a": 0,
     "e": "Monatomic gas ke 3 translational degrees of freedom ($f=3$) hote hain, isliye molar specific heat at constant volume $C_v = f/2 R = 3/2 R$ hoti hai."
@@ -1588,153 +1588,153 @@
     "qh": "कौन सी प्रक्रिया 'आइसोएन्ट्रोपिक' (Isentropic) होती है?",
     "o": [
       "Isothermal",
-      "Reversible Adiabatic | उत्क्रमणीय रुद्धोष्म",
       "Isobaric",
-      "None"
+      "None of these",
+      "Reversible Adiabatic | उत्क्रमणीय रुद्धोष्म"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Reversible adiabatic process me heat exchange $dQ = 0$ hota hai, isliye entropy change $dS = 0$ rehne ki wajah se ise Isentropic process bolte hain."
   },
   {
     "qe": "What is 'Wien's Constant' approximately?",
     "qh": "'वीन का नियतांक' लगभग कितना है?",
     "o": [
+      "None of these",
       "$0.29 cm \\cdot K$ | $0.29 cm \\cdot K$",
-      "8.31",
       "5.67",
-      "None"
+      "8.31"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Wien's law constant $b = \\lambda_{max} T$ ka value lagbhag $2.898 \\times 10^{-3} m\\cdot K$ yaani lagbhag $0.29 cm \\cdot K$ hota hai."
   },
   {
     "qe": "What is 'Efficiency' of a Carnot engine with sink at absolute zero?",
     "qh": "परम शून्य सिंक वाले कार्नॉट इंजन की 'दक्षता' क्या होगी?",
     "o": [
+      "100% | 100%",
       "0%",
       "50%",
-      "100% | 100%",
-      "None"
+      "None of these"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Carnot efficiency $\\eta = 1 - (T_2/T_1)$ me agar sink temperature $T_2 = 0 K$ ho jaye, to efficiency theoretically poori 1 yaani 100% ho jati hai."
   },
   {
     "qe": "Which color clothing is best for 'Winter'?",
     "qh": "'सर्दियों' के लिए कौन से रंग के कपड़े सबसे अच्छे होते हैं?",
     "o": [
-      "White",
-      "Dark/Black | गहरे/काले रंग के",
+      "None of these",
       "Yellow",
-      "None"
+      "White",
+      "Dark/Black | गहरे/काले रंग के"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Dark aur black colors solar radiation aur ambient heat waves ke best absorbers hote hain, isliye body ko winters me garam rakhte hain."
   },
   {
     "qe": "What is 'Relative Humidity' of saturated air?",
     "qh": "संतृप्त हवा की 'सापेक्ष आर्द्रता' क्या होती है?",
     "o": [
-      "0%",
-      "50%",
       "100% | 100%",
-      "None"
+      "50%",
+      "0%",
+      "None of these"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Jab hawa apni given temperature par maximum water vapor hold kar leti hai aur further moisture absorb nahi kar sakti, to Relative Humidity 100% hoti hai."
   },
   {
     "qe": "What is 'Thermodynamics' 1st Law a consequence of?",
     "qh": "ऊष्मागतिकी का प्रथम नियम किसका परिणाम है?",
     "o": [
-      "Mass conservation",
-      "Energy conservation | ऊर्जा संरक्षण",
+      "None of these",
       "Charge conservation",
-      "None"
+      "Energy conservation | ऊर्जा संरक्षण",
+      "Mass conservation"
     ],
-    "a": 1,
-    "e": "First Law ($\dQ = dU + dW$) thermal systems par applied Law of Conservation of Energy hai jo batata hai ki energy create ya destroy nahi ho sakti."
+    "a": 2,
+    "e": "First Law ($\\dQ = dU + dW$) thermal systems par applied Law of Conservation of Energy hai jo batata hai ki energy create ya destroy nahi ho sakti."
   },
   {
     "qe": "What is 'Dew Point' related to?",
     "qh": "'ओसांक' (Dew Point) किससे संबंधित है?",
     "o": [
-      "Pressure",
-      "Condensation | संघनन (Condensation)",
+      "None of these",
       "Boiling",
-      "None"
+      "Pressure",
+      "Condensation | संघनन (Condensation)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Dew point wo critical temperature hai jispar air thandi hokar moisture se saturate ho jati hai aur water vapor liquid droplets me condense hone lagta hai."
   },
   {
     "qe": "What happens to 'Thermal Conductivity' of metals with temp increase?",
     "qh": "तापमान बढ़ने पर धातुओं की 'तापीय चालकता' का क्या होता है?",
     "o": [
-      "Increases",
-      "Decreases | घटती है",
+      "None of these",
       "Stay same",
-      "None"
+      "Decreases | घटती है",
+      "Increases"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Temperature badhne par metal ke positive ions ka lattice vibration badh jata hai, jo free conduction electrons ke flow me scattering paida karke thermal conductivity kam kar deta hai."
   },
   {
     "qe": "What is 'Enthalpy' change at constant pressure equal to?",
     "qh": "स्थिर दाब पर 'एन्थैल्पी' में परिवर्तन किसके बराबर होता है?",
     "o": [
-      "Work done",
       "Heat exchanged | विनिमय की गई ऊष्मा",
+      "Work done",
       "Entropy",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Enthalpy definition $H = U + PV$ ko constant pressure par differentiate karne par $dH = dU + P dV = dQ_p$ milta hai, yaani enthalpy change heat exchanged ke barabar hota hai."
   },
   {
     "qe": "What is 'Avogadro's Number' value?",
     "qh": "'आवोगाद्रो संख्या' का मान क्या है?",
     "o": [
+      "None of these",
       "$6.022 \\times 10^{23}$ | $6.022 \\times 10^{23}$",
-      "$1.6 \\times 10^{-19}$",
       "$9.8$",
-      "None"
+      "$1.6 \\times 10^{-19}$"
     ],
-    "a": 0,
+    "a": 1,
     "e": "1 mole kisi bhi chemical substance me exact $6.022 \\times 10^{23}$ particles (atoms ya molecules) hote hain."
   },
   {
     "qe": "What is 'Specific Heat' of Water in cal/g°C?",
     "qh": "cal/g°C में पानी की 'विशिष्ट ऊष्मा' क्या है?",
     "o": [
-      "1 | 1",
       "0.5",
       "80",
-      "540"
+      "540",
+      "1 | 1"
     ],
-    "a": 0,
+    "a": 3,
     "e": "1 gram paani ka temperature 1°C badhane ke liye 1 calorie heat ki zaroorat hoti hai, isliye iska standard value 1 cal/g°C hota hai."
   },
   {
     "qe": "What does an 'Adiabatic Wall' prevent?",
     "qh": "'रुद्धोष्म दीवार' क्या रोकती है?",
     "o": [
-      "Matter flow",
       "Heat flow | ऊष्मा प्रवाह",
+      "Matter flow",
       "Both",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Adiabatic boundary system aur surroundings ke beech kisi bhi tarah ke thermal heat exchange ko completely block karti hai ($dQ = 0$)."
   },
   {
     "qe": "What is the 'Carnot Cycle' an idealization of?",
     "qh": "'कार्नॉट चक्र' किसका एक आदर्शीकरण है?",
     "o": [
-      "Gas stove",
-      "Heat engine | ऊष्मा इंजन",
       "Refrigerator",
-      "None"
+      "Heat engine | ऊष्मा इंजन",
+      "Gas stove",
+      "None of these"
     ],
     "a": 1,
     "e": "Carnot cycle theoretical physics me heat engine ka ek idealized reversible thermodynamic cycle hai jo maximum possible efficiency establish karta hai."
@@ -1743,12 +1743,12 @@
     "qe": "What happens to 'Relative Humidity' when temperature increases (at constant moisture)?",
     "qh": "(स्थिर नमी पर) तापमान बढ़ने पर 'सापेक्ष आर्द्रता' का क्या होता है?",
     "o": [
-      "Increases",
       "Decreases | घटती है",
       "Stay same",
-      "None"
+      "None of these",
+      "Increases"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Hawa garam hone par uski water-vapor holding capacity badh jati hai, isliye actual moisture same rehne par bhi Relative Humidity percentage drop ho jata hai."
   },
   {
@@ -1756,35 +1756,35 @@
     "qh": "वर्ग माध्य मूल चाल ($v_{rms}$) और तापमान (T) के बीच क्या संबंध है?",
     "o": [
       "$v_{rms} \\propto T$",
-      "$v_{rms} \\propto \\sqrt{T}$ | $v_{rms} \\propto \\sqrt{T}$",
       "$v_{rms} \\propto T^2$",
-      "None"
+      "$v_{rms} \\propto \\sqrt{T}$ | $v_{rms} \\propto \\sqrt{T}$",
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Formula $v_{rms} = \\sqrt{3RT/M}$ ke mutabiq gas molecules ki RMS speed absolute temperature ke square root ke directly proportional hoti hai."
   },
   {
     "qe": "Which molecular speed is the 'Highest' among these for a gas?",
     "qh": "गैस के लिए इनमें से कौन सी आणविक चाल 'सबसे अधिक' होती है?",
     "o": [
+      "RMS speed | वर्ग माध्य मूल चाल (RMS speed)",
       "Most Probable speed",
       "Average speed",
-      "RMS speed | वर्ग माध्य मूल चाल (RMS speed)",
       "All are equal"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Molecular speeds ka ratio $v_{mp} : v_{avg} : v_{rms} = \\sqrt{2} : \\sqrt{8/\\pi} : \\sqrt{3} \\approx 1 : 1.128 : 1.224$ hota hai, isliye RMS speed sabse zyada hoti hai."
   },
   {
     "qe": "What is 'Thermal Stress' developed in a rod prevented from expanding?",
     "qh": "प्रसार से रोकी गई छड़ में उत्पन्न 'तापीय प्रतिबल' (Thermal Stress) क्या है?",
     "o": [
-      "$Y \\alpha \\Delta T$ | $Y \\alpha \\Delta T$",
+      "None of these",
       "$\\alpha \\Delta T$",
-      "$Y / \\alpha \\Delta T$",
-      "None"
+      "$Y \\alpha \\Delta T$ | $Y \\alpha \\Delta T$",
+      "$Y / \\alpha \\Delta T$"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Agar rod ko rigid supports ke beech expand hone se roka jaye, to thermal strain $\\alpha \\Delta T$ hone par rod me Young's modulus ke sath thermal stress $Y \\alpha \\Delta T$ banta hai."
   },
   {
@@ -1794,7 +1794,7 @@
       "To save iron",
       "To allow for thermal expansion | तापीय प्रसार के लिए जगह देने हेतु",
       "To reduce noise",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "Summer season me heat ki wajah se steel rails me hone wale linear thermal expansion ke liye jagah di jaati hai taaki tracks bend ya buckle na hon."
@@ -1803,22 +1803,22 @@
     "qe": "What is the 'Mean Free Path' of a gas molecule inversely proportional to?",
     "qh": "गैस के अणु का 'माध्य मुक्त पथ' किसके व्युत्क्रमानुपाती होता है?",
     "o": [
-      "Temperature",
       "Density | घनत्व (Density)",
-      "Volume",
-      "None"
+      "Temperature",
+      "None of these",
+      "Volume"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Gas density jitni badhegi, molecules utne kareeb aayenge aur collisions zyada honge, jisse do collisions ke beech ka free path ghat jata hai ($\\lambda \\propto 1/\\rho$)."
   },
   {
     "qe": "What is 'Solar Energy' primarily produced by?",
     "qh": "'सौर ऊर्जा' मुख्य रूप से किसके द्वारा उत्पन्न होती है?",
     "o": [
-      "Nuclear Fission",
+      "Burning of gas",
       "Nuclear Fusion | नाभिकीय संलयन (Nuclear Fusion)",
-      "Chemical reaction",
-      "Burning of gas"
+      "Nuclear Fission",
+      "Chemical reaction"
     ],
     "a": 1,
     "e": "Suraj ke core me high temperature aur pressure par Hydrogen ke protons fuse hokar Helium banate hain (Proton-Proton chain nuclear fusion), jo massive energy release karta hai."
@@ -1829,8 +1829,8 @@
     "o": [
       "Isothermal",
       "Isobaric | समदाबी (Isobaric)",
-      "Adiabatic",
-      "None"
+      "None of these",
+      "Adiabatic"
     ],
     "a": 1,
     "e": "P-V indicator diagram par Isobaric process sabse upar horizontal line rehti hai, isliye same volume expansion ($V_1$ to $V_2$) ke liye curve ke niche ka area sabse bada hota hai."
@@ -1840,9 +1840,9 @@
     "qh": "'उत्सर्जन क्षमता' (Emissive Power) का मात्रक क्या है?",
     "o": [
       "$W/m^2$ | $W/m^2$",
-      "$J/K$",
       "$W/m K$",
-      "None"
+      "None of these",
+      "$J/K$"
     ],
     "a": 0,
     "e": "Emissive power radiant energy emitted per unit area per unit time hoti hai, isliye iska SI unit Joules/(sec·m²) yaani Watt per square meter ($W/m^2$) hota hai."
@@ -1851,10 +1851,10 @@
     "qe": "What happens to the 'Viscosity' of liquids with increase in 'Temperature'?",
     "qh": "'तापमान' बढ़ने पर द्रवों की 'श्यानता' (Viscosity) का क्या होता है?",
     "o": [
-      "Increases",
-      "Decreases | घटती है (Decreases)",
       "Stay same",
-      "None"
+      "Decreases | घटती है (Decreases)",
+      "Increases",
+      "None of these"
     ],
     "a": 1,
     "e": "Temperature badhne par liquid molecules ki kinetic energy intermolecular cohesive forces ko overcome kar leti hai, jisse liquid patla hokar kam viscous ho jata hai."
@@ -1866,7 +1866,7 @@
       "Free expansion",
       "Throttling process | थ्रॉटलिंग प्रक्रिया (Throttling process)",
       "Isothermal",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "Gas ko kisi porous plug, valve ya orifice se high pressure se low pressure me bina heat exchange ke pass karwane ko Throttling process kehte hain."
@@ -1875,9 +1875,9 @@
     "qe": "Which substance has 'Negative' coefficient of thermal expansion near 0°C to 4°C?",
     "qh": "0°C से 4°C के बीच किस पदार्थ का तापीय प्रसार गुणांक 'ऋणात्मक' होता है?",
     "o": [
-      "Iron",
-      "Water | पानी (Water)",
       "Mercury",
+      "Water | पानी (Water)",
+      "Iron",
       "Alcohol"
     ],
     "a": 1,
@@ -1887,24 +1887,24 @@
     "qe": "What is 'Radiation Pressure' exerted by sunlight on Earth approximately?",
     "qh": "पृथ्वी पर सूर्य के प्रकाश द्वारा डाला गया 'विकिरण दाब' लगभग कितना है?",
     "o": [
-      "$10^{-6} Pa$ | $10^{-6} Pa$",
-      "$100 Pa$",
       "1 atm",
-      "None"
+      "None of these",
+      "$10^{-6} Pa$ | $10^{-6} Pa$",
+      "$100 Pa$"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Sunlight dwara Earth par exert kiya gaya radiation pressure $P = S/c$ bohot tiny lagbhag $4.5 \\times 10^{-6} Pa$ (order of $10^{-6} Pa$) hota hai."
   },
   {
     "qe": "Which law states that 'Total Energy = Internal Energy + Work Done'?",
     "qh": "कौन सा नियम कहता है कि 'कुल ऊर्जा = आंतरिक ऊर्जा + किया गया कार्य'?",
     "o": [
-      "First Law of Thermodynamics | ऊष्मागतिकी का प्रथम नियम",
-      "Zeroth Law",
       "Second Law",
-      "None"
+      "None of these",
+      "Zeroth Law",
+      "First Law of Thermodynamics | ऊष्मागतिकी का प्रथम नियम"
     ],
-    "a": 0,
+    "a": 3,
     "e": "First Law of Thermodynamics equation $dQ = dU + dW$ energy conservation principle par based hai."
   },
   {
@@ -1912,9 +1912,9 @@
     "qh": "समान 'शिखर दाब' के लिए डीजल चक्र की 'दक्षता' ऑटो की तुलना में क्या होती है?",
     "o": [
       "Higher | उच्च (Higher)",
-      "Lower",
       "Equal",
-      "None"
+      "Lower",
+      "None of these"
     ],
     "a": 0,
     "e": "Same peak maximum pressure aur maximum temperature conditions me Diesel cycle ka heat rejection kam hone ki wajah se iski efficiency Otto cycle se zyada hoti hai."
@@ -1925,8 +1925,8 @@
     "o": [
       "0°F",
       "32°F | 32°F",
-      "100°F",
-      "212°F"
+      "212°F",
+      "100°F"
     ],
     "a": 1,
     "e": "1 atm standard pressure par pure ice ke melting point (0°C) ko Fahrenheit scale par 32°F define kiya gaya hai."
@@ -1935,24 +1935,24 @@
     "qe": "What is 'Steam Point' in Fahrenheit?",
     "qh": "फारेनहाइट में 'भाप का बिंदु' (Steam Point) क्या है?",
     "o": [
-      "100°F",
       "212°F | 212°F",
-      "373°F",
-      "None"
+      "100°F",
+      "None of these",
+      "373°F"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Standard atmospheric pressure par boiling water (100°C) ko Fahrenheit scale par 212°F define kiya gaya hai."
   },
   {
     "qe": "What is 'Absolute Scale' of temperature also called?",
     "qh": "तापमान के 'परम पैमाने' को और क्या कहा जाता है?",
     "o": [
-      "Celsius scale",
-      "Kelvin scale | केल्विन पैमाना (Kelvin scale)",
       "Rankine scale",
-      "None"
+      "None of these",
+      "Kelvin scale | केल्विन पैमाना (Kelvin scale)",
+      "Celsius scale"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Absolute thermodynamic zero (0 K) se shuru hone wale temperature measurement scale ko Kelvin Scale kaha jata hai."
   },
   {
@@ -1960,47 +1960,47 @@
     "qh": "'चार्ल्स के नियम' में कौन सी भौतिक राशि स्थिर रहती है?",
     "o": [
       "Temperature",
-      "Volume",
       "Pressure | दाब (Pressure)",
-      "None"
+      "None of these",
+      "Volume"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Charles ke niyam me gas ka pressure constant rakha jata hai, jisse volume absolute temperature ke directly proportional ($V \\propto T$) hota hai."
   },
   {
     "qe": "What is 'Thermal Diffusivity' unit?",
     "qh": "'तापीय विसरणशीलता' का मात्रक क्या है?",
     "o": [
-      "$m^2/s$ | $m^2/s$",
       "$m/s^2$",
-      "$J/kg$",
-      "None"
+      "$m^2/s$ | $m^2/s$",
+      "None of these",
+      "$J/kg$"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Thermal diffusivity $\\alpha = k/(\\rho c_p)$ ka physical dimension area per unit time hota hai, isliye iska SI unit $m^2/s$ hota hai."
   },
   {
     "qe": "What is 'Clausius Statement' related to?",
     "qh": "'क्लॉसियस कथन' किससे संबंधित है?",
     "o": [
-      "Heat engine",
-      "Refrigerator / Heat Pump | रेफ्रिजरेटर / हीट पंप",
       "Expansion",
-      "None"
+      "Heat engine",
+      "None of these",
+      "Refrigerator / Heat Pump | रेफ्रिजरेटर / हीट पंप"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Clausius statement refrigeration machines aur heat pumps ke limitation ko batata hai ki bina external work input ke cold se hot me heat transfer nahi ho sakti."
   },
   {
     "qe": "What is 'Entropy' change for an irreversible process in an isolated system?",
     "qh": "एक विलगित निकाय में अनुत्क्रमणीय प्रक्रिया के लिए 'एन्ट्रॉपी' परिवर्तन क्या होता है?",
     "o": [
+      "None of these",
       "Zero",
-      "Always positive | हमेशा धनात्मक (> 0)",
       "Negative",
-      "None"
+      "Always positive | हमेशा धनात्मक (> 0)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Second Law of Thermodynamics ke mutabiq isolated system me hone wali sabhi spontaneous irreversible processes me net entropy hamesha badhti hai ($\\Delta S > 0$)."
   },
   {
@@ -2008,9 +2008,9 @@
     "qh": "पदार्थ की कौन सी अवस्था ऊष्मा की 'सबसे खराब' चालक है?",
     "o": [
       "Solid",
-      "Liquid",
+      "Metal",
       "Gas | गैस (Gas)",
-      "Metal"
+      "Liquid"
     ],
     "a": 2,
     "e": "Gaseous state me molecules bohot door aur sparse hote hain, isliye inter-particle thermal energy transfer bohot slow hone ki wajah se gases worst heat conductors hain."
@@ -2022,7 +2022,7 @@
       "Zero",
       "Infinite | अनंत (Infinite)",
       "Constant",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "Isothermal process me temperature change zero hota hai ($dT = 0$), isliye specific heat formula $C = Q / (m \\cdot dT)$ me denominator zero hone se value infinite ho jati hai."
@@ -2031,24 +2031,24 @@
     "qe": "What is 'Specific Heat' of a gas in an adiabatic process?",
     "qh": "रुद्धोष्म प्रक्रिया में गैस की 'विशिष्ट ऊष्मा' क्या होती है?",
     "o": [
-      "Zero | शून्य (Zero)",
-      "Infinite",
       "Constant",
-      "None"
+      "None of these",
+      "Zero | शून्य (Zero)",
+      "Infinite"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Adiabatic process me heat transfer zero hota hai ($dQ = 0$), isliye formula $C = dQ / (m \\cdot dT)$ me numerator zero hone se specific heat zero aati hai."
   },
   {
     "qe": "What is the 'Gas Constant' (R) value in SI units?",
     "qh": "SI मात्रक में 'गैस नियतांक' (R) का मान क्या है?",
     "o": [
+      "2.0",
       "8.314 J/mol·K | 8.314 J/mol·K",
       "0.0821",
-      "2.0",
-      "None"
+      "None of these"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Universal Gas Constant $R$ ka standard SI value $8.314 \\text{ Joules per mole-Kelvin}$ hota hai."
   },
   {
@@ -2056,35 +2056,35 @@
     "qh": "खाद्य उद्योग में 'ऊर्ध्वपातन' प्रक्रिया का उपयोग किसलिए होता है?",
     "o": [
       "Cooking",
-      "Freeze drying | फ्रीज ड्राइंग (सुखाना)",
+      "None of these",
       "Boiling",
-      "None"
+      "Freeze drying | फ्रीज ड्राइंग (सुखाना)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Lyophilization (Freeze-drying) me packaged foods aur instant coffee me se paani ko freeze karke low-pressure vacuum me direct ice se vapor bana kar dehydrate kiya jata hai."
   },
   {
     "qe": "What is 'Stefan's Law' for a non-black body?",
     "qh": "एक गैर-कृष्ण पिंड के लिए 'स्टीफन का नियम' क्या है?",
     "o": [
+      "None of these",
       "$E = \\sigma T^4$",
       "$E = \\epsilon \\sigma T^4$ | $E = \\epsilon \\sigma T^4$",
-      "$E = kT$",
-      "None"
+      "$E = kT$"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Real surfaces ke liye blackbody equation me emissivity coefficient ($\\epsilon$) multiply kiya jata hai, jisse total power $E = \\epsilon \\sigma T^4$ ho jati hai."
   },
   {
     "qe": "What happens to the 'Speed of Sound' in air with increase in 'Temperature'?",
     "qh": "'तापमान' बढ़ने पर हवा में 'ध्वनि की चाल' का क्या होता है?",
     "o": [
-      "Increases | बढ़ती है",
       "Decreases",
       "Stay same",
-      "None"
+      "None of these",
+      "Increases | बढ़ती है"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Laplace formula $v = \\sqrt{\\gamma RT / M}$ ke mutabiq air me sound speed absolute temperature ke square root ke directly proportional hoti hai, isliye garam hawa me sound tez chalti hai."
   },
   {
@@ -2092,9 +2092,9 @@
     "qh": "कौन सा नियम बताता है कि 'गर्म हवा ऊपर क्यों उठती है'?",
     "o": [
       "Charles's Law | चार्ल्स का नियम (via density)",
-      "Boyle's Law",
       "Newton's Law",
-      "None"
+      "Boyle's Law",
+      "None of these"
     ],
     "a": 0,
     "e": "Charles's Law ke mutabiq heat hone par air ka volume expand hota hai, jisse density kam ho jati hai aur buoyant force ke kaaran garam hawa upar uthti hai."
@@ -2103,12 +2103,12 @@
     "qe": "What is 'Critical Temperature' of CO2?",
     "qh": "CO2 का 'क्रांतिक तापमान' क्या है?",
     "o": [
-      "31.1°C | 31.1°C",
       "100°C",
+      "None of these",
       "0°C",
-      "None"
+      "31.1°C | 31.1°C"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Carbon dioxide ka critical temperature 31.1°C (304.2 K) hota hai; isse upar chahe kitna bhi high pressure laga diya jaye, CO2 gas liquify nahi ho sakti."
   },
   {
@@ -2116,11 +2116,11 @@
     "qh": "'सापेक्ष आर्द्रता' मापने के लिए किस उपकरण का उपयोग होता है?",
     "o": [
       "Barometer",
-      "Hygrometer | हाइग्रोमीटर (Hygrometer)",
+      "None of these",
       "Thermometer",
-      "None"
+      "Hygrometer | हाइग्रोमीटर (Hygrometer)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Atmospheric air me present moisture percentage ya relative humidity ko measure karne ke liye Hygrometer (ya Psychrometer) ka use kiya jata hai."
   },
   {
@@ -2130,7 +2130,7 @@
       "Lower",
       "Much Higher | बहुत अधिक (540 vs 80 cal/g)",
       "Equal",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "Water ke boiling me saare hydrogen bonds tod kar gas molecules ko separate karne me 540 cal/g lagti hai, jabki ice melting me lattice loosen karne me sirf 80 cal/g lagti hai."
@@ -2139,36 +2139,36 @@
     "qe": "What is an 'Adiabatic Wall' usually made of?",
     "qh": "'रुद्धोष्म दीवार' आमतौर पर किसकी बनी होती है?",
     "o": [
-      "Copper",
-      "Asbestos/Wood/Insulator | अभ्रक/लकड़ी/कुचालक",
+      "None of these",
       "Steel",
-      "None"
+      "Asbestos/Wood/Insulator | अभ्रक/लकड़ी/कुचालक",
+      "Copper"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Heat transmission block karne ke liye adiabatic walls Asbestos, cork, glass wool ya wood jaise high-resistance insulating materials se banayi jaati hain."
   },
   {
     "qe": "What is 'Temperature Gradient'?",
     "qh": "'ताप प्रवणता' (Temperature Gradient) क्या है?",
     "o": [
+      "None of these",
       "Change in temp with time",
       "Change in temp with distance | दूरी के साथ तापमान में बदलाव ($dT/dx$)",
-      "Max temp",
-      "None"
+      "Max temp"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Heat flow ki direction me per unit length distance travel karne par jo temperature drop hota hai, use Temperature Gradient ($dT/dx$) kehte hain."
   },
   {
     "qe": "What is the SI unit of 'Temperature Gradient'?",
     "qh": "'ताप प्रवणता' का SI मात्रक क्या है?",
     "o": [
-      "$K/m$ | $K/m$",
       "$K \\cdot m$",
       "$J/m$",
-      "None"
+      "$K/m$ | $K/m$",
+      "None of these"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Temperature difference ($K$) ko distance ($m$) se divide karne par Temperature Gradient ka SI unit Kelvin per meter ($K/m$) banta hai."
   },
   {
@@ -2178,7 +2178,7 @@
       "Maximum",
       "Zero | शून्य (Zero)",
       "Constant",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "Free expansion insulated vacuum me hota hai jahan external opposing pressure $P_{ext} = 0$ hota hai, isliye work done $W = \\int P_{ext} dV = 0$ hota hai."
@@ -2187,60 +2187,60 @@
     "qe": "Which state of matter has 'Highest' thermal expansion coefficient?",
     "qh": "पदार्थ की किस अवस्था में 'उच्चतम' तापीय प्रसार गुणांक होता है?",
     "o": [
-      "Solid",
-      "Liquid",
       "Gas | गैस (Gas)",
-      "None"
+      "Liquid",
+      "Solid",
+      "None of these"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Gaseous phase me intermolecular attraction forces negligible hote hain, isliye thoda sa bhi temperature badhane par gas ka volume expansion solids aur liquids se kai guna zyada hota hai."
   },
   {
     "qe": "What is the unit of 'Boltzmann Constant'?",
     "qh": "'बोल्ट्जमान' नियतांक का मात्रक क्या है?",
     "o": [
-      "$J/K$ | जूल प्रति केल्विन ($J/K$)",
+      "None of these",
       "$J \\cdot K$",
-      "$W/m$",
-      "None"
+      "$J/K$ | जूल प्रति केल्विन ($J/K$)",
+      "$W/m$"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Boltzmann constant energy per molecule per Kelvin ($E \\sim k_B T$) measure karta hai, isliye iska standard SI unit Joule per Kelvin ($J/K$) hota hai."
   },
   {
     "qe": "What is the 'Ideal Gas' equation for n moles?",
     "qh": "n मोल के लिए 'आदर्श गैस' समीकरण क्या है?",
     "o": [
-      "$PV = RT$",
-      "$PV = nRT$ | $PV = nRT$",
       "$P/V = nRT$",
-      "None"
+      "None of these",
+      "$PV = nRT$ | $PV = nRT$",
+      "$PV = RT$"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Boyle, Charles aur Avogadro laws ko combine karke $n$ moles of ideal gas ke liye universal equation $PV = nRT$ banti hai."
   },
   {
     "qe": "What is 'Conduction' through 'Vacuum'?",
     "qh": "'निर्वात' के माध्यम से 'चालन' क्या होता है?",
     "o": [
-      "Fast",
-      "Slow",
       "Zero | शून्य (Not possible)",
-      "None"
+      "Slow",
+      "Fast",
+      "None of these"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Thermal conduction ke liye direct physical contact aur atomic collisions chahiye hote hain; vacuum me particles na hone se conduction rate bilkul zero hota hai."
   },
   {
     "qe": "What is 'Solar Radiation' speed?",
     "qh": "'सौर विकिरण' की चाल क्या है?",
     "o": [
-      "Speed of sound",
       "Speed of light | प्रकाश की चाल ($3 \\times 10^8 m/s$)",
-      "Speed of jet",
-      "None"
+      "Speed of sound",
+      "None of these",
+      "Speed of jet"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Solar radiation electromagnetic waves se bani hoti hai, isliye ye vacuum me light ki speed ($c \\approx 3 \\times 10^8 m/s$) se travel karti hai."
   },
   {
@@ -2248,11 +2248,11 @@
     "qh": "कैबिनेट को ठंडा करने के लिए 'रेफ्रिजरेशन' में किस प्रक्रिया का उपयोग होता है?",
     "o": [
       "Compression",
-      "Evaporation of refrigerant | रेफ्रिजरेंट का वाष्पीकरण",
+      "None of these",
       "Heating",
-      "None"
+      "Evaporation of refrigerant | रेफ्रिजरेंट का वाष्पीकरण"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Evaporator coils ke andar liquid refrigerant low pressure par boil/evaporate hota hai aur latent heat cabinet ke food items se kheench kar cooling paida karta hai."
   },
   {
@@ -2260,47 +2260,47 @@
     "qh": "CO2 का 'त्रिक बिंदु' दाब क्या है?",
     "o": [
       "1 atm",
-      "5.11 atm | 5.11 atm",
+      "None of these",
       "100 atm",
-      "None"
+      "5.11 atm | 5.11 atm"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Carbon dioxide ka triple point pressure 5.11 atm hota hai, jo standard 1 atm se kafi upar hai; isliye normal atmospheric pressure par dry ice bina liquid bane direct sublime ho jati hai."
   },
   {
     "qe": "Which law states 'Energy is equally distributed among degrees of freedom'?",
     "qh": "कौन सा नियम कहता है कि 'ऊर्जा स्वतंत्रता की कोटियों के बीच समान रूप से वितरित होती है'?",
     "o": [
-      "Law of Equipartition of Energy | ऊर्जा के सम-विभाजन का नियम",
-      "Newton's Law",
       "Ideal gas law",
-      "None"
+      "Newton's Law",
+      "Law of Equipartition of Energy | ऊर्जा के सम-विभाजन का नियम",
+      "None of these"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Equipartition theorem batata hai ki thermal equilibrium par kisi dynamic system ki har independent translational, rotational ya vibrational degree of freedom ke pas average $(1/2)k_B T$ energy hoti hai."
   },
   {
     "qe": "What is the 'Internal Energy' of 1 mole of monatomic gas?",
     "qh": "1 मोल एक-परमाणुक गैस की 'आंतरिक ऊर्जा' क्या है?",
     "o": [
-      "$RT$",
-      "$3/2 RT$ | $3/2 RT$",
+      "None of these",
       "$5/2 RT$",
-      "None"
+      "$3/2 RT$ | $3/2 RT$",
+      "$RT$"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Monatomic gas ke $f=3$ degrees of freedom hote hain, isliye 1 mole ke liye total internal energy $U = (3/2) N_A k_B T = 3/2 RT$ hoti hai."
   },
   {
     "qe": "What is 'Wien's Displacement Law' formula?",
     "qh": "'वीन का विस्थापन नियम' का सूत्र क्या है?",
     "o": [
-      "$\\lambda_{max} \\cdot T = b$ | $\\lambda_{max} \\cdot T = b$",
       "$\\lambda / T = b$",
       "$\\lambda + T = b$",
-      "None"
+      "$\\lambda_{max} \\cdot T = b$ | $\\lambda_{max} \\cdot T = b$",
+      "None of these"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Wien's law kehta hai ki blackbody radiation curve ka peak emission wavelength absolute temperature ke inversely proportional hota hai ($\\lambda_{max} \\cdot T = \\text{constant}$)."
   },
   {
@@ -2309,8 +2309,8 @@
     "o": [
       "Decreases",
       "Increases | बढ़ता है (Increases)",
-      "Stay same",
-      "None"
+      "None of these",
+      "Stay same"
     ],
     "a": 1,
     "e": "Water freezing par expand hota hai; isliye jab external pressure kam kiya jata hai to expansion asan ho jata hai aur freezing point 0°C se badh jata hai."
@@ -2319,46 +2319,46 @@
     "qe": "Which state of matter has 'No' definite shape but definite volume?",
     "qh": "पदार्थ की किस अवस्था का 'कोई' निश्चित आकार नहीं होता लेकिन आयतन निश्चित होता है?",
     "o": [
-      "Solid",
       "Liquid | द्रव (Liquid)",
-      "Gas",
-      "None"
+      "None of these",
+      "Solid",
+      "Gas"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Liquid state me molecules aapas me cohesive forces se jude rehkar fixed volume banaye rakhte hain, par unka flow container ki shape le leta hai."
   },
   {
     "qe": "What does the 'a' in Van der Waals equation $[P + a/V^2][V - b] = RT$ represent?",
     "qh": "वैन डर वाल्स समीकरण में 'a' क्या दर्शाता है?",
     "o": [
-      "Volume of molecules",
       "Intermolecular forces | अंतर-आणविक बल",
+      "Volume of molecules",
       "Temperature",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Van der Waals equation me parameter '$a$' real gas molecules ke beech lagne wale attractive intermolecular van der Waals forces ki strength ko represent karta hai."
   },
   {
     "qe": "What does the 'b' in Van der Waals equation represent?",
     "qh": "वैन डर वाल्स समीकरण में 'b' क्या दर्शाता है?",
     "o": [
+      "Mass",
       "Co-volume / Effective size | प्रभावी आकार (Co-volume)",
       "Pressure",
-      "Mass",
-      "None"
+      "None of these"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Parameter '$b$' co-volume ya effective incompressible volume hota hai jo gas molecules ke finite physical size ko represent karta hai ($b \\approx 4 \\times$ actual molecular volume)."
   },
   {
     "qe": "What is the 'Efficiency' of a heat engine that does 500J of work and absorbs 2000J of heat?",
     "qh": "एक इंजन की 'दक्षता' क्या होगी जो 500J कार्य करता है और 2000J ऊष्मा सोखता है?",
     "o": [
-      "20%",
+      "10%",
       "25% | 25%",
-      "50%",
-      "10%"
+      "20%",
+      "50%"
     ],
     "a": 1,
     "e": "Efficiency formula $\\eta = W / Q_{in} = 500 / 2000 = 0.25$ hota hai, jo percentage me badalne par exactly 25% aati hai."
@@ -2367,22 +2367,22 @@
     "qe": "What is the 'Temperature of Inversion' ($T_i$) in Joule-Thomson effect?",
     "qh": "जूल-थॉमसन प्रभाव में 'व्युत्क्रमण तापमान' ($T_i$) क्या है?",
     "o": [
-      "$T_i = 2a/Rb$ | $T_i = 2a/Rb$",
+      "None of these",
       "$T_i = a/Rb$",
       "$T_i = 0$",
-      "None"
+      "$T_i = 2a/Rb$ | $T_i = 2a/Rb$"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Van der Waals constants ke terms me Inversion temperature ka theoretical derivation $T_i = 2a / (Rb)$ hota hai; iske niche hi gas expansion par cool down hoti hai."
   },
   {
     "qe": "Which thermodynamic process is represented by the 'Area' of a P-V diagram?",
     "qh": "P-V आरेख का 'क्षेत्रफल' किस ऊष्मागतिक प्रक्रिया को दर्शाता है?",
     "o": [
-      "Heat Change",
       "Internal Energy",
+      "Heat Change",
       "Work Done | किया गया कार्य (Work Done)",
-      "None"
+      "None of these"
     ],
     "a": 2,
     "e": "Pressure-Volume graph par process curve ke niche ka definite integral area $\\int P dV$ system dwara kiye gaye mechanical work done ko represent karta hai."
@@ -2391,24 +2391,24 @@
     "qe": "What is a 'Heat Pump' primarily used for?",
     "qh": "'हीट पंप' का मुख्य उपयोग किसलिए होता है?",
     "o": [
-      "Cooling only",
-      "Heating a space | किसी स्थान को गर्म करने के लिए",
+      "None of these",
       "Speeding gas",
-      "None"
+      "Cooling only",
+      "Heating a space | किसी स्थान को गर्म करने के लिए"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Heat pump low-temperature outdoor environment se heat absorb karke work input ke through indoor living space ko garam karne ke liye design kiya jata hai."
   },
   {
     "qe": "What is the 'Boiling Point' of liquid Hydrogen approximately?",
     "qh": "तरल हाइड्रोजन का 'क्वथनांक' लगभग क्या है?",
     "o": [
-      "20 K | 20 K",
       "77 K",
+      "0 K",
       "273 K",
-      "0 K"
+      "20 K | 20 K"
     ],
-    "a": 0,
+    "a": 3,
     "e": "1 atm standard pressure par liquid hydrogen lagbhag 20.28 Kelvin (-252.87°C) par boil hoti hai, jise liquid rocket propellant systems me use karte hain."
   },
   {
@@ -2416,23 +2416,23 @@
     "qh": "द्वि-परमाणुक गैस के लिए स्थिर आयतन पर 'मोलर ऊष्मा क्षमता' ($C_v$) क्या है?",
     "o": [
       "$3/2 R$",
-      "$5/2 R$ | $5/2 R$",
       "$R$",
-      "None"
+      "$5/2 R$ | $5/2 R$",
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Room temperature par diatomic gas ke $f = 5$ degrees of freedom hone ki wajah se molar heat capacity at constant volume $C_v = 5/2 R$ hoti hai."
   },
   {
     "qe": "What is 'Adiabatic Lapse Rate' related to?",
     "qh": "'रुद्धोष्म ह्रास दर' (Adiabatic Lapse Rate) किससे संबंधित है?",
     "o": [
-      "Atmospheric temperature change with height | ऊंचाई के साथ वायुमंडलीय तापमान में बदलाव",
-      "Boiling",
       "Freezing",
-      "None"
+      "Boiling",
+      "None of these",
+      "Atmospheric temperature change with height | ऊंचाई के साथ वायुमंडलीय तापमान में बदलाव"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Meteorology me jab air parcel bina surrounding se heat exchange kiye atmosphere me upar uthta hai, to adiabatic expansion se per kilometer jo temperature drop hota hai use Adiabatic Lapse Rate kehte hain."
   },
   {
@@ -2440,35 +2440,35 @@
     "qh": "SI मात्रक में तांबे की 'तापीय चालकता' लगभग कितनी है?",
     "o": [
       "10",
-      "400 | 400 W/m·K",
       "0.1",
+      "400 | 400 W/m·K",
       "1000"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Pure Copper ki thermal conductivity silver ke baad sabhi commercial metals me highest hoti hai, jo lagbhag 385 se 400 W/(m·K) measure hoti hai."
   },
   {
     "qe": "What is 'Regelation' in ice used for in sports?",
     "qh": "खेलों में बर्फ में 'पुनर्हिमायन' का उपयोग किसलिए होता है?",
     "o": [
-      "Ice Skating | आइस स्केटिंग",
       "Hockey",
-      "Skiing",
-      "None"
+      "Ice Skating | आइस स्केटिंग",
+      "None of these",
+      "Skiing"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Ice skate ki patli blade ka high pressure barf ko melt karke thin lubricating water layer banata hai; blade aage badhte hi pressure hatne par paani wapas freeze ho jata hai."
   },
   {
     "qe": "What happens to the 'Pressure' of a gas in an 'Isochoric' heating?",
     "qh": "'सम-आयतनिक' तापन में गैस के 'दाब' का क्या होता है?",
     "o": [
-      "Decreases",
       "Increases | बढ़ता है (Increases)",
+      "Decreases",
       "Stay same",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Rigid container me volume constant ($V=\\text{const}$) hone par Gay-Lussac's law ($P \\propto T$) lagu hota hai, isliye heating se gas pressure linearly badhta hai."
   },
   {
@@ -2476,9 +2476,9 @@
     "qh": "$H_2O$ जैसी त्रि-परमाणुक (अ-रैखीय) गैस के लिए 'गामा' ($\\gamma$) का मान क्या है?",
     "o": [
       "1.67",
-      "1.4",
+      "1.1",
       "1.33 | 1.33 (4/3)",
-      "1.1"
+      "1.4"
     ],
     "a": 2,
     "e": "Nonlinear triatomic gas ke 3 translational aur 3 rotational degrees of freedom ($f=6$) hote hain, isliye $\\gamma = 1 + 2/6 = 4/3 \\approx 1.33$ nikalta hai."
@@ -2488,11 +2488,11 @@
     "qh": "'कृष्ण पिंड' विकिरण को अक्सर क्या कहा जाता है?",
     "o": [
       "Thermal Radiation",
-      "Cavity Radiation | कोटर विकिरण (Cavity Radiation)",
       "Solar Radiation",
-      "None"
+      "None of these",
+      "Cavity Radiation | कोटर विकिरण (Cavity Radiation)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Hollow enclosure ke small hole me radiation multiple internal reflections se poori tarah trap ho jati hai, isliye ideal blackbody radiation ko Cavity Radiation bhi kehte hain."
   }
 ]

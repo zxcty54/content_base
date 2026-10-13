@@ -3,12 +3,12 @@
     "qe": "Which of the following is often called the 'Barometer' of the Indian Economy?",
     "qh": "निम्नलिखित में से किसे अक्सर भारतीय अर्थव्यवस्था का 'बैरोमीटर' कहा जाता है?",
     "o": [
+      "Exchange Rate",
       "Repo Rate",
       "Sensex",
-      "GDP Growth Rate",
-      "Exchange Rate"
+      "GDP Growth Rate"
     ],
-    "a": 1,
+    "a": 2,
     "e": "The Sensex reflects market sentiment and economic health, acting as a barometer. / सेंसेक्स बाजार की धारणा और आर्थिक स्वास्थ्य को दर्शाता है।"
   },
   {
@@ -16,23 +16,23 @@
     "qh": "शेयर बाजारों के संदर्भ में 'आर्बिट्राज' (Arbitrage) क्या है?",
     "o": [
       "Buying at high price",
-      "Simultaneous purchase and sale to profit from price difference",
       "Illegal betting",
-      "Long-term investment"
+      "Long-term investment",
+      "Simultaneous purchase and sale to profit from price difference"
     ],
-    "a": 1,
+    "a": 3,
     "e": "It is buying an asset in one market and selling it in another at a higher price. / एक बाजार में खरीदकर दूसरे बाजार में ऊंचे दाम पर बेचकर लाभ कमाना।"
   },
   {
     "qe": "What is a 'Circuit Breaker' in stock trading?",
     "qh": "स्टॉक ट्रेडिंग में 'सर्किट ब्रेकर' क्या है?",
     "o": [
+      "Type of share",
       "Electricity failure",
-      "Automatic stop in trading when prices fluctuate beyond a limit",
       "Broker's commission",
-      "Type of share"
+      "Automatic stop in trading when prices fluctuate beyond a limit"
     ],
-    "a": 1,
+    "a": 3,
     "e": "It is a measure to stop panic selling or buying when a stock hits a specific limit. / जब कीमतें एक सीमा से बाहर जाती हैं, तो ट्रेडिंग को रोकने की स्वचालित प्रक्रिया।"
   },
   {
@@ -40,20 +40,20 @@
     "qh": "'पार्टिसिपेटरी नोट्स' (P-Notes) क्या हैं?",
     "o": [
       "Notes issued by RBI",
-      "Instruments used by foreign investors not registered with SEBI",
       "Corporate loan documents",
+      "Instruments used by foreign investors not registered with SEBI",
       "Currency notes"
     ],
-    "a": 1,
+    "a": 2,
     "e": "P-Notes allow foreign entities to invest in Indian markets without direct registration. / P-Notes विदेशी संस्थाओं को बिना रजिस्ट्रेशन भारतीय बाजार में निवेश की सुविधा देते हैं।"
   },
   {
     "qe": "What is the 'Face Value' of a share?",
     "qh": "शेयर का 'फेस वैल्यू' (Face Value) क्या है?",
     "o": [
-      "Market price",
-      "Price mentioned on the share certificate",
       "Average yearly price",
+      "Price mentioned on the share certificate",
+      "Market price",
       "Selling price"
     ],
     "a": 1,
@@ -75,48 +75,48 @@
     "qe": "What does 'LTV' stand for in lending?",
     "qh": "ऋण (Lending) के संदर्भ में 'LTV' का क्या अर्थ है?",
     "o": [
-      "Loan to Value",
-      "Long Term Value",
       "Late Tax Value",
-      "Lower Tier Volume"
+      "Long Term Value",
+      "Lower Tier Volume",
+      "Loan to Value"
     ],
-    "a": 0,
+    "a": 3,
     "e": "LTV is the ratio of a loan to the value of an asset purchased. / LTV खरीदे गए एसेट के मूल्य और दिए गए लोन का अनुपात है।"
   },
   {
     "qe": "What is an 'ETF'?",
     "qh": "'ETF' क्या है?",
     "o": [
-      "Easy Tax Fund",
       "Exchange Traded Fund",
+      "Equity Trust Fund",
       "Electronic Transfer Fund",
-      "Equity Trust Fund"
+      "Easy Tax Fund"
     ],
-    "a": 1,
+    "a": 0,
     "e": "An ETF is a type of investment fund that is traded on stock exchanges, much like stocks. / ETF एक निवेश फंड है जो स्टॉक एक्सचेंज पर शेयरों की तरह ट्रेड किया जाता है।"
   },
   {
     "qe": "What is a 'Commercial Bill' in the money market?",
     "qh": "मुद्रा बाजार में 'कमर्शियल बिल' (Commercial Bill) क्या है?",
     "o": [
-      "Government debt",
-      "A bill of exchange used to finance the working capital of firms",
       "Stock certificate",
-      "Tax invoice"
+      "Tax invoice",
+      "A bill of exchange used to finance the working capital of firms",
+      "Government debt"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Commercial bills are short-term, negotiable instruments used for financing the movement of goods. / कमर्शियल बिल माल की आवाजाही के वित्तपोषण के लिए उपयोग किए जाने वाले अल्पकालिक उपकरण हैं।"
   },
   {
     "qe": "What is the standard 'Settlement Cycle' for most equity shares in India?",
     "qh": "भारत में अधिकांश शेयरों के लिए 'सेटलमेंट साइकिल' (Settlement Cycle) क्या है?",
     "o": [
-      "T+1",
-      "T+2",
+      "T+10",
       "T+5",
-      "T+10"
+      "T+2",
+      "T+1"
     ],
-    "a": 0,
+    "a": 3,
     "e": "India has moved to a T+1 settlement cycle, meaning trades are cleared one business day after the transaction. / भारत में अब T+1 सेटलमेंट होता है, यानी व्यापार के एक दिन बाद पैसा/शेयर सेटल हो जाता है।"
   },
   {
@@ -124,21 +124,21 @@
     "qh": "शेयर बाजार की शर्तों में 'शॉर्ट सेलिंग' (Short Selling) क्या है?",
     "o": [
       "Selling shares you own",
-      "Selling borrowed shares in hope of buying them back cheaper",
       "Selling shares at a discount",
+      "Selling borrowed shares in hope of buying them back cheaper",
       "Selling shares within 5 minutes"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Short selling is when an investor borrows a security and sells it, expecting the price to fall. / इसमें निवेशक शेयर उधार लेकर बेचता है ताकि भाव गिरने पर उन्हें सस्ते में वापस खरीद सके।"
   },
   {
     "qe": "What is the 'Call Money' rate?",
     "qh": "'कॉल मनी' दर (Call Money Rate) क्या है?",
     "o": [
-      "Interest rate for long term loans",
+      "Fixed deposit rate",
       "Interest rate for inter-bank overnight lending",
-      "Rate of dividend",
-      "Fixed deposit rate"
+      "Interest rate for long term loans",
+      "Rate of dividend"
     ],
     "a": 1,
     "e": "The interest rate paid by banks for borrowing funds from each other for one day. / एक दिन के लिए बैंकों द्वारा आपस में लिए गए कर्ज पर दी जाने वाली ब्याज दर।"
@@ -147,21 +147,21 @@
     "qe": "Who is the primary regulator of Commodity Derivative Markets in India?",
     "qh": "भारत में कमोडिटी मार्केट (जैसे सोना, तेल) का नियामक कौन है?",
     "o": [
-      "RBI",
-      "FMC",
       "SEBI",
-      "Ministry of Agriculture"
+      "FMC",
+      "Ministry of Agriculture",
+      "RBI"
     ],
-    "a": 2,
+    "a": 0,
     "e": "FMC was merged with SEBI in 2015, so SEBI now regulates commodity derivatives. / 2015 में FMC का SEBI में विलय हो गया, अब SEBI ही इसे नियंत्रित करता है।"
   },
   {
     "qe": "What are 'Masala Bonds'?",
     "qh": "'मसाला बॉन्ड' (Masala Bonds) क्या हैं?",
     "o": [
-      "Bonds issued by food companies",
-      "Rupee-denominated bonds issued by Indian entities in foreign markets",
       "Bonds issued in Indian villages",
+      "Rupee-denominated bonds issued by Indian entities in foreign markets",
+      "Bonds issued by food companies",
       "High risk junk bonds"
     ],
     "a": 1,
@@ -171,10 +171,10 @@
     "qe": "What is 'Beta' in the context of stock volatility?",
     "qh": "स्टॉक की अस्थिरता के संदर्भ में 'बीटा' (Beta) क्या है?",
     "o": [
-      "Profit margin",
+      "Dividend yield",
       "Measure of a stock's sensitivity to market movements",
       "Total number of shares",
-      "Dividend yield"
+      "Profit margin"
     ],
     "a": 1,
     "e": "Beta measures how much a stock price moves compared to the overall market. / बीटा मापता है कि बाजार की तुलना में कोई शेयर कितना अधिक या कम घटता-बढ़ता है।"
@@ -183,10 +183,10 @@
     "qe": "Which of these is a 'Leading Indicator' of an economy?",
     "qh": "इनमें से कौन अर्थव्यवस्था का एक 'अग्रणी संकेतक' (Leading Indicator) है?",
     "o": [
-      "Unemployment rate",
-      "Stock Market Index",
       "GDP",
-      "Inflation"
+      "Stock Market Index",
+      "Inflation",
+      "Unemployment rate"
     ],
     "a": 1,
     "e": "The stock market often anticipates macroeconomic trends before they occur. / शेयर बाजार अक्सर आर्थिक बदलावों का पहले ही संकेत दे देता है।"
@@ -195,9 +195,9 @@
     "qe": "What is 'Liquidity' in financial terms?",
     "qh": "वित्तीय संदर्भ में 'लिक्विडिटी' (Liquidity) क्या है?",
     "o": [
-      "Amount of water in stock",
-      "Ease with which an asset can be converted into cash",
       "Company's debt ratio",
+      "Ease with which an asset can be converted into cash",
+      "Amount of water in stock",
       "Stock price growth"
     ],
     "a": 1,
@@ -207,10 +207,10 @@
     "qe": "What is 'Promoter's Stake' in a company?",
     "qh": "किसी कंपनी में 'प्रमोटर की हिस्सेदारी' (Promoter's Stake) क्या है?",
     "o": [
-      "Shares held by the general public",
-      "Shares held by the founders or controlling owners",
       "Shares held by foreign investors",
-      "Shares held by the government"
+      "Shares held by the founders or controlling owners",
+      "Shares held by the government",
+      "Shares held by the general public"
     ],
     "a": 1,
     "e": "Promoter's stake represents the percentage of shares held by those who control the firm. / प्रमोटर की हिस्सेदारी उन लोगों के पास होती है जिन्होंने कंपनी शुरू की या नियंत्रित करते हैं।"
@@ -219,12 +219,12 @@
     "qe": "What does 'T-plus-Zero' (T+0) settlement mean?",
     "qh": "'टी-प्लस-जीरो' (T+0) सेटलमेंट का क्या मतलब है?",
     "o": [
-      "Next day settlement",
       "Same day settlement",
       "Weekly settlement",
-      "No settlement"
+      "No settlement",
+      "Next day settlement"
     ],
-    "a": 1,
+    "a": 0,
     "e": "T+0 means the trade and transfer of funds/shares happen on the same day. / T+0 का मतलब है कि उसी दिन व्यापार और फंड का ट्रांसफर हो जाता है।"
   },
   {
@@ -243,10 +243,10 @@
     "qe": "Which exchange manages the 'Sensex' index?",
     "qh": "'सेंसेक्स' इंडेक्स का प्रबंधन कौन करता है?",
     "o": [
-      "NSE",
+      "RBI",
       "BSE (Bombay Stock Exchange)",
-      "SEBI",
-      "RBI"
+      "NSE",
+      "SEBI"
     ],
     "a": 1,
     "e": "Sensex is the benchmark index of the Bombay Stock Exchange (BSE). / सेंसेक्स बॉम्बे स्टॉक एक्सचेंज (BSE) का बेंचमार्क इंडेक्स है।"
@@ -255,24 +255,24 @@
     "qe": "What is 'Yield' in bond market terminology?",
     "qh": "बॉन्ड बाजार की शब्दावली में 'यील्ड' (Yield) क्या है?",
     "o": [
+      "Duration of bond",
       "Face value of bond",
-      "The return an investor realizes on a bond",
       "The tax on bond",
-      "Duration of bond"
+      "The return an investor realizes on a bond"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Yield is the effective interest rate an investor earns on a bond. / यील्ड वह प्रभावी ब्याज दर है जो एक निवेशक बॉन्ड पर कमाता है।"
   },
   {
     "qe": "What is an 'FPO' in the stock market?",
     "qh": "शेयर बाजार में 'FPO' क्या है?",
     "o": [
-      "First Public Offer",
-      "Follow-on Public Offer",
+      "Fixed Profit Offer",
       "Foreign Public Offer",
-      "Fixed Profit Offer"
+      "First Public Offer",
+      "Follow-on Public Offer"
     ],
-    "a": 1,
+    "a": 3,
     "e": "FPO is when an already listed company issues additional shares to the public. / जब पहले से लिस्टेड कंपनी जनता को और शेयर जारी करती है, तो उसे FPO कहते हैं।"
   },
   {
@@ -280,21 +280,21 @@
     "qh": "'डिपॉजिटरी' (जैसे NSDL/CDSL) का क्या कार्य है?",
     "o": [
       "Providing loans",
-      "Holding securities in electronic form",
+      "Setting interest rates",
       "Regulating RBI",
-      "Setting interest rates"
+      "Holding securities in electronic form"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Depositories hold stocks and bonds in digital dematerialized form. / डिपॉजिटरी निवेशकों के लिए डिजिटल रूप में शेयर और बॉन्ड रखते हैं।"
   },
   {
     "qe": "What is 'Proprietary Trading'?",
     "qh": "'प्रोपराइटी ट्रेडिंग' (Proprietary Trading) क्या है?",
     "o": [
-      "Trading for clients",
-      "A firm trading its own money for its own direct profit",
       "Illegal trading",
-      "Trading in government gold"
+      "A firm trading its own money for its own direct profit",
+      "Trading in government gold",
+      "Trading for clients"
     ],
     "a": 1,
     "e": "When a bank or brokerage trades using its own capital rather than client funds. / जब कोई वित्तीय फर्म अपने स्वयं के मुनाफे के लिए अपने पैसे से ट्रेड करती है।"
@@ -304,11 +304,11 @@
     "qh": "डेरिवेटिव्स में 'ओपन इंटरेस्ट' (Open Interest) क्या है?",
     "o": [
       "Total profit of the day",
+      "Interest rate on debt",
       "Total number of outstanding contracts not yet settled",
-      "Number of buyers in market",
-      "Interest rate on debt"
+      "Number of buyers in market"
     ],
-    "a": 1,
+    "a": 2,
     "e": "It represents the total number of derivative contracts that have not been settled or exercised. / यह उन अनुबंधों की कुल संख्या है जो अभी तक बंद या सेटल नहीं हुए हैं।"
   },
   {
@@ -316,11 +316,11 @@
     "qh": "'सॉवरेन रेटिंग' क्या है?",
     "o": [
       "Credit rating of a private company",
-      "Credit rating of a sovereign country or national government",
       "Rating of a commercial bank",
+      "Credit rating of a sovereign country or national government",
       "Gold purity rating"
     ],
-    "a": 1,
+    "a": 2,
     "e": "It evaluates the creditworthiness and probability of default of a national government. / यह किसी देश की सरकार के ऋण चुकाने की क्षमता का मूल्यांकन करता है।"
   },
   {
@@ -328,33 +328,33 @@
     "qh": "स्टॉक ट्रेडिंग में 'मार्केट लॉट' (Market Lot) क्या है?",
     "o": [
       "The maximum shares you can buy",
-      "The minimum standardized bundle of shares that can be traded",
+      "A type of broker",
       "Total shares in the company",
-      "A type of broker"
+      "The minimum standardized bundle of shares that can be traded"
     ],
-    "a": 1,
+    "a": 3,
     "e": "In F&O, shares are traded in predetermined bundles called market lots. / F&O में शेयर एक निश्चित मात्रा के बंडल में ट्रेड किए जाते हैं जिसे लॉट कहते हैं।"
   },
   {
     "qe": "What is the 'Dow Jones Industrial Average'?",
     "qh": "'डाओ जोन्स' (Dow Jones) इंडेक्स क्या है?",
     "o": [
-      "Indian index",
       "Japanese index",
       "US benchmark index tracking 30 prominent blue-chip companies",
+      "Indian index",
       "UK index"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Dow Jones is a prominent stock market index tracking 30 major public companies in the US. / डाओ जोन्स अमेरिका का एक प्रमुख और पुराना शेयर बाजार इंडेक्स है।"
   },
   {
     "qe": "What is a 'Lien' placed on shares?",
     "qh": "शेयरों पर 'लियन' (Lien) क्या है?",
     "o": [
-      "Selling shares in bulk",
+      "Voting on shares",
       "Legal claim to hold possession of shares until an underlying debt is repaid",
       "Gift of shares",
-      "Voting on shares"
+      "Selling shares in bulk"
     ],
     "a": 1,
     "e": "A lien gives the lender a legal right over pledged shares until debt satisfaction. / यदि आप कर्ज नहीं चुकाते, तो कर्जदाता का आपके शेयरों पर कानूनी दावा होता है।"
@@ -364,45 +364,45 @@
     "qh": "'प्रेफरेंस शेयर' (Preference Share) क्या है?",
     "o": [
       "Shares with no dividend",
-      "Shares that receive dividend priority over equity shares",
+      "Shares held only by founders",
       "Shares with superior voting rights",
-      "Shares held only by founders"
+      "Shares that receive dividend priority over equity shares"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Holders of preference shares receive dividends and asset distribution before ordinary equity holders. / प्रेफरेंस शेयरधारकों को सामान्य शेयरधारकों से पहले डिविडेंड मिलता है।"
   },
   {
     "qe": "What is 'Capital Gains Tax' (CGT)?",
     "qh": "'कैपिटल गेन्स टैक्स' (CGT) क्या है?",
     "o": [
-      "Tax on salary",
       "Tax on profit earned from selling capital assets like shares",
+      "Tax on salary",
       "Tax on company revenue",
       "Tax on bank interest"
     ],
-    "a": 1,
+    "a": 0,
     "e": "A tax levied on the net profit made from the sale of investments like equities or real estate. / शेयर या प्रॉपर्टी बेचने से होने वाले मुनाफे पर लगने वाला टैक्स।"
   },
   {
     "qe": "What does a company's 'Debt-to-Equity' ratio measure?",
     "qh": "'डेट-टू-इक्विटी' (Debt-to-Equity) अनुपात क्या है?",
     "o": [
+      "Loan to bank ratio",
       "Comparison of company's total debt to its total equity capital",
-      "Profit to tax ratio",
       "Salary to investment ratio",
-      "Loan to bank ratio"
+      "Profit to tax ratio"
     ],
-    "a": 0,
+    "a": 1,
     "e": "It indicates the relative proportion of shareholder equity and debt used to finance assets. / यह दिखाता है कि कंपनी अपने पैसे की तुलना में कितना कर्ज इस्तेमाल कर रही है।"
   },
   {
     "qe": "What does 'Haircut' mean when financial assets are pledged as collateral?",
     "qh": "वित्तीय बाजारों में 'हेयरकट' (Haircut) क्या है?",
     "o": [
-      "Salary deduction",
+      "Change in management",
       "Percentage reduction in the stated value of an asset when used as collateral",
       "Broker's profit",
-      "Change in management"
+      "Salary deduction"
     ],
     "a": 1,
     "e": "A haircut is the discount applied to the market value of collateral to account for price volatility. / जब किसी एसेट को गिरवी रखा जाता है, तो उसके मूल्य में की जाने वाली सुरक्षा कटौती।"
@@ -411,154 +411,154 @@
     "qe": "What are 'Junk Bonds'?",
     "qh": "'जंक बॉन्ड्स' (Junk Bonds) क्या हैं?",
     "o": [
+      "Government bonds",
       "Bonds with no value",
       "High-yield, high-risk bonds with sub-investment grade credit ratings",
-      "Government bonds",
       "Gold bonds"
     ],
-    "a": 1,
+    "a": 2,
     "e": "These bonds pay higher coupon yields to compensate investors for high credit default risk. / ये बॉन्ड अधिक रिटर्न देते हैं क्योंकि इनमें डिफ़ॉल्ट का जोखिम अधिक होता है।"
   },
   {
     "qe": "What is an 'NCD' (Non-Convertible Debenture)?",
     "qh": "'NCD' (नॉन-कन्वर्टिबल डिबेंचर) क्या है?",
     "o": [
-      "Debt that can be converted to shares",
-      "Fixed-income debt that cannot be converted into company equity shares",
+      "Gold deposit",
       "Short term bank loan",
-      "Gold deposit"
+      "Debt that can be converted to shares",
+      "Fixed-income debt that cannot be converted into company equity shares"
     ],
-    "a": 1,
+    "a": 3,
     "e": "NCDs are debt instruments used to raise long-term funds without equity dilution. / ये ऐसे ऋण उपकरण हैं जिन्हें इक्विटी या शेयरों में नहीं बदला जा सकता।"
   },
   {
     "qe": "What is the 'Price to Earnings' (P/E) ratio?",
     "qh": "'प्राइस टू अर्निंग' (P/E) अनुपात क्या है?",
     "o": [
+      "Total revenue to tax",
       "Profit to debt",
       "Current share price divided by earnings per share",
-      "Total revenue to tax",
       "Dividend to price"
     ],
-    "a": 1,
+    "a": 2,
     "e": "P/E ratio indicates how much investors are willing to pay per rupee of current earnings. / P/E अनुपात बताता है कि कंपनी की कमाई के अनुपात में उसका शेयर कितना महंगा या सस्ता है।"
   },
   {
     "qe": "Who is a 'Jobber' on a stock exchange floor?",
     "qh": "स्टॉक एक्सचेंज में 'जॉबर' (Jobber) कौन होता है?",
     "o": [
-      "A retail client",
       "A professional market maker who buys and sells securities on their own account",
       "A government official",
+      "A retail client",
       "A loan officer"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Jobbers are floor dealers who maintain two-way quotes and liquidity without acting directly for retail clients. / जॉबर वे डीलर होते हैं जो अपने नाम पर ट्रेड करते हैं और लिक्विडिटी बढ़ाते हैं।"
   },
   {
     "qe": "What is an 'Escrow Account'?",
     "qh": "'एस्क्रो अकाउंट' (Escrow Account) क्या है?",
     "o": [
-      "Personal savings account",
-      "A temporary account held by a neutral third party until contractual obligations are met",
       "A high-interest account",
-      "A fixed deposit"
+      "Personal savings account",
+      "A fixed deposit",
+      "A temporary account held by a neutral third party until contractual obligations are met"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Funds remain safely sequestered in an escrow account until transaction terms are verified. / सौदे की शर्तें पूरी होने तक पैसा तीसरे पक्ष के पास सुरक्षित रहता है।"
   },
   {
     "qe": "What is 'ASIC' in global financial regulation?",
     "qh": "वैश्विक नियामक के संदर्भ में 'ASIC' क्या है?",
     "o": [
-      "Indian regulator",
       "Australian Securities and Investments Commission",
+      "Indian regulator",
       "A type of stock",
       "Computer hardware"
     ],
-    "a": 1,
+    "a": 0,
     "e": "ASIC is Australia's independent statutory corporate regulator. / ASIC ऑस्ट्रेलिया का कॉर्पोरेट और वित्तीय नियामक है।"
   },
   {
     "qe": "What is the 'Book Building' process in an IPO?",
     "qh": "'बुक बिल्डिंग' (Book Building) प्रक्रिया क्या है?",
     "o": [
-      "Constructing a library",
-      "A price discovery mechanism where demand from investor bids determines offering price",
       "Writing a financial book",
-      "Audit of accounts"
+      "Audit of accounts",
+      "A price discovery mechanism where demand from investor bids determines offering price",
+      "Constructing a library"
     ],
-    "a": 1,
+    "a": 2,
     "e": "It is an efficient IPO mechanism to discover the equilibrium market-clearing price. / यह IPO के दौरान निवेशकों की बोलियों के आधार पर सही कीमत तय करने की तकनीक है।"
   },
   {
     "qe": "What is an 'Anchor Investor' in an Indian IPO?",
     "qh": "किसी IPO में 'एंकर निवेशक' (Anchor Investor) कौन है?",
     "o": [
-      "Small retail investor",
       "A Qualified Institutional Buyer applying for significant shares ahead of public issue opening",
-      "A dishonest investor",
-      "Government regulator"
+      "Government regulator",
+      "Small retail investor",
+      "A dishonest investor"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Anchor investors anchor confidence by committing large sums prior to public bidding. / एंकर निवेशक वे बड़े संस्थागत खरीदार होते हैं जो IPO खुलने से पहले बड़ी राशि निवेश करते हैं।"
   },
   {
     "qe": "What does 'Delisting' of a company mean?",
     "qh": "किसी कंपनी की 'डिलिस्टिंग' (Delisting) क्या है?",
     "o": [
-      "Starting a company",
       "Permanent removal of a company's listed securities from a stock exchange",
+      "Starting a company",
       "Selling shares to a bank",
       "Changing company name"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Delisting revokes the company's privilege of trading on public stock exchanges. / जब कोई कंपनी स्टॉक एक्सचेंज से अपने शेयरों का सार्वजनिक व्यापार बंद कर देती है।"
   },
   {
     "qe": "What is an 'Over-the-Counter' (OTC) market?",
     "qh": "'ओवर-द-काउंटर' (OTC) बाजार क्या है?",
     "o": [
+      "A type of tax",
       "Trading through an exchange",
       "Bilateral trading of financial instruments directly between parties without a centralized exchange",
-      "Trading in a physical shop",
-      "A type of tax"
+      "Trading in a physical shop"
     ],
-    "a": 1,
+    "a": 2,
     "e": "OTC markets involve decentralized, customized trades between institutions without formal exchange rules. / बिना किसी केंद्रीय एक्सचेंज के दो पक्षों के बीच सीधे होने वाला व्यापार।"
   },
   {
     "qe": "What is 'Slippage' in financial trading?",
     "qh": "ट्रेडिंग में 'स्लिपेज' (Slippage) क्या है?",
     "o": [
+      "Closing a trade early",
       "Losing money in a deal",
-      "Difference between the expected order price and the price at which the trade executes",
       "Software error",
-      "Closing a trade early"
+      "Difference between the expected order price and the price at which the trade executes"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Slippage occurs during fast market moves when execution latency changes execution price. / आर्डर डालने और उसके पूरा होने के बीच कीमत में आने वाला अंतर।"
   },
   {
     "qe": "What is a 'GDR' (Global Depository Receipt)?",
     "qh": "'GDR' क्या है?",
     "o": [
+      "Gold deposit record",
       "Government debt record",
       "Negotiable certificate issued by an international bank representing shares in a foreign corporation",
-      "Gold deposit record",
       "Type of tax"
     ],
-    "a": 1,
+    "a": 2,
     "e": "GDRs enable domestic corporations to issue equity across European and international bourses. / GDR कंपनियों को अंतरराष्ट्रीय बाजारों से पूंजी जुटाने की अनुमति देते हैं।"
   },
   {
     "qe": "What is 'Systematic Risk' in investment portfolio theory?",
     "qh": "'सिस्टमैटिक रिस्क' क्या है?",
     "o": [
-      "Risk limited to one company",
+      "Personal investment loss",
       "Macroeconomic market-wide risk that cannot be eliminated through diversification",
-      "Computer system failure",
-      "Personal investment loss"
+      "Risk limited to one company",
+      "Computer system failure"
     ],
     "a": 1,
     "e": "Systematic risk stems from macroeconomic shocks (like recessions or interest rate hikes) that hit all equities. / ऐसा व्यापक जोखिम जो पूरे बाजार को प्रभावित करता है और विविधीकरण से दूर नहीं होता।"
@@ -567,96 +567,96 @@
     "qe": "What is 'Hedging' in investment management?",
     "qh": "'हेजिंग' (Hedging) क्या है?",
     "o": [
-      "Maximizing profit",
       "Taking an offsetting derivative position to mitigate unfavorable price movements",
+      "Maximizing profit",
       "Buying only gold",
       "Lending money at high interest"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Hedging functions as insurance against adverse portfolio losses using options or futures. / निवेश में होने वाले नुकसान से बचने के लिए अपनाई गई सुरक्षात्मक रणनीति।"
   },
   {
     "qe": "What are 'Convertible Bonds'?",
     "qh": "'कन्वर्टिबल बॉन्ड्स' (Convertible Bonds) क्या हैं?",
     "o": [
-      "Bonds that can be converted into cash",
-      "Bonds that can be converted into a predetermined number of common equity shares",
       "Bonds that can be gifted",
-      "Fixed deposit receipts"
+      "Fixed deposit receipts",
+      "Bonds that can be converted into cash",
+      "Bonds that can be converted into a predetermined number of common equity shares"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Convertible bonds offer fixed coupon yield plus equity upside upon conversion. / ये बॉन्ड धारक को अपने कर्ज को कंपनी के शेयरों में बदलने का विकल्प देते हैं।"
   },
   {
     "qe": "What is 'Averaging Down' in equity investing?",
     "qh": "शेयर बाजार में 'एवरेजिंग' (Averaging) क्या है?",
     "o": [
-      "Selling at average price",
-      "Purchasing more shares as market price declines to lower aggregate cost per share",
       "Calculating total profit",
-      "Opening multiple accounts"
+      "Selling at average price",
+      "Opening multiple accounts",
+      "Purchasing more shares as market price declines to lower aggregate cost per share"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Averaging down reduces the break-even threshold by acquiring cheaper shares during price pullbacks. / कीमत गिरने पर और शेयर खरीदकर अपनी औसत लागत को कम करने की रणनीति।"
   },
   {
     "qe": "What is the 'Volatility Index' (VIX) commonly nicknamed?",
     "qh": "'VIX' को अक्सर क्या कहा जाता है?",
     "o": [
-      "Profit Meter",
       "Fear Index / Fear Gauge",
-      "Gold Meter",
-      "Growth Index"
+      "Growth Index",
+      "Profit Meter",
+      "Gold Meter"
     ],
-    "a": 1,
+    "a": 0,
     "e": "VIX measures implied market volatility, spiking when institutional fear and hedging demand surge. / VIX बाजार की अस्थिरता को मापता है; अधिक VIX का मतलब बाजार में डर अधिक है।"
   },
   {
     "qe": "What happens on the 'Ex-Dividend' date of a stock?",
     "qh": "'एक्स-डिविडेंड' (Ex-Dividend) तिथि क्या है?",
     "o": [
-      "Day the dividend is paid",
       "The cutoff date on or after which newly acquired shares do not carry rights to declared dividend",
+      "None of these",
       "Day company declares dividend",
-      "None"
+      "Day the dividend is paid"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Shares trade ex-dividend; buyers on or after this cutoff do not receive the dividend payout. / यदि आप इस तिथि को या उसके बाद शेयर खरीदते हैं, तो आपको घोषित डिविडेंड नहीं मिलेगा।"
   },
   {
     "qe": "What is an 'ADR' (American Depositary Receipt)?",
     "qh": "'ADR' क्या है?",
     "o": [
+      "A type of US bank loan",
       "Indian currency record",
       "A negotiable certificate issued by a US bank representing shares of a foreign company traded in the US",
-      "A type of US bank loan",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "ADRs allow international firms to list and trade dollar-denominated shares on US stock exchanges. / ADR गैर-अमेरिकी कंपनियों को अमेरिकी बाजारों में ट्रेड करने की अनुमति देते हैं।"
   },
   {
     "qe": "What does 'Mark-to-Market' (MTM) accounting entail in derivatives?",
     "qh": "'मार्क-टू-मार्केट' (MTM) क्या है?",
     "o": [
-      "Physical asset liquidation",
-      "Daily accounting adjustment valuing outstanding contracts at prevailing settlement prices",
       "Tax on selling",
-      "Profit booking"
+      "Profit booking",
+      "Physical asset liquidation",
+      "Daily accounting adjustment valuing outstanding contracts at prevailing settlement prices"
     ],
-    "a": 1,
+    "a": 3,
     "e": "MTM settles unrealized gains and losses daily, maintaining margin solvency. / वर्तमान बाजार दरों के आधार पर दैनिक लाभ या हानि को समायोजित करने की प्रक्रिया।"
   },
   {
     "qe": "What is 'Sweat Equity' in corporate law?",
     "qh": "'स्वेट इक्विटी' (Sweat Equity) क्या है?",
     "o": [
+      "Buying shares in summer",
       "Shares given to farmers",
       "Equity shares issued to employees or directors at a discount or for non-cash intellectual contribution",
-      "Buying shares in summer",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Sweat equity rewards key personnel for intellectual property creation and value addition. / कर्मचारियों या निदेशकों को उनके विशेष योगदान या बौद्धिक संपदा के बदले जारी शेयर।"
   },
   {
@@ -665,8 +665,8 @@
     "o": [
       "Spreading debt",
       "Yield differential between a corporate bond and a risk-free benchmark treasury of equal maturity",
-      "Credit card limit",
-      "None"
+      "None of these",
+      "Credit card limit"
     ],
     "a": 1,
     "e": "Credit spreads widen during recessions, reflecting elevated default risk premiums. / यह जोखिम मुक्त सरकारी बॉन्ड और जोखिम भरे कॉर्पोरेट बॉन्ड के बीच प्रतिफल का अंतर है।"
@@ -675,96 +675,96 @@
     "qe": "What is 'Price Discovery' in financial exchanges?",
     "qh": "'प्राइस डिस्कवरी' क्या है?",
     "o": [
-      "Finding historical prices",
-      "The dynamic process through which interactions of supply and demand set equilibrium market price",
       "Administrative price fixing",
-      "None"
+      "None of these",
+      "The dynamic process through which interactions of supply and demand set equilibrium market price",
+      "Finding historical prices"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Open order flow and bidding determine fair value in real time. / वह तंत्र जहां खरीदारों और विक्रेताओं की बातचीत से प्रतिभूति की वास्तविक बाजार कीमत तय होती है।"
   },
   {
     "qe": "What is a 'Dark Pool' in equity trading?",
     "qh": "ट्रेडिंग में 'डार्क पूल' (Dark Pool) क्या है?",
     "o": [
-      "Illegal black market",
       "Private alternative trading venue where institutional orders execute without pre-trade public display",
-      "After-hours retail trade",
-      "None"
+      "Illegal black market",
+      "None of these",
+      "After-hours retail trade"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Dark pools shield massive institutional orders from market impact and front-running. / यह बड़े संस्थागत निवेशकों को बिना सार्वजनिक घोषणा किए बड़े सौदे करने की सुविधा देता है।"
   },
   {
     "qe": "What is 'Naked Short Selling'?",
     "qh": "'नेकेड शॉर्ट सेलिंग' क्या है?",
     "o": [
-      "Normal short selling",
-      "Selling shares short without first borrowing them or ensuring borrow availability",
       "Selling shares at night",
-      "None"
+      "Normal short selling",
+      "None of these",
+      "Selling shares short without first borrowing them or ensuring borrow availability"
     ],
-    "a": 1,
+    "a": 3,
     "e": "It presents delivery failure risks and is restricted or banned by major regulators. / इसमें विक्रेता पहले शेयर उधार लिए बिना शॉर्ट सेलिंग करता है, जो प्रायः प्रतिबंधित है।"
   },
   {
     "qe": "What is a 'Wash Trade'?",
     "qh": "'वॉश ट्रेड' (Wash Trade) क्या है?",
     "o": [
-      "Account cleanup",
       "An illegal manipulative transaction where the buyer and seller are identical, creating misleading trade volume",
       "Selling at cost price",
-      "None"
+      "None of these",
+      "Account cleanup"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Wash trading artificially fabricates volume without actual beneficial ownership transfer. / बिना स्वामित्व बदले फर्जी लेन-देन करके बाजार में कृत्रिम वॉल्यूम पैदा करना।"
   },
   {
     "qe": "What is a 'Rights Issue'?",
     "qh": "'राइट्स इश्यू' क्या है?",
     "o": [
-      "Giving free bonus shares",
-      "Offering additional subscription shares to existing shareholders pro-rata at a discounted price",
       "Proxy voting right",
-      "None"
+      "None of these",
+      "Offering additional subscription shares to existing shareholders pro-rata at a discounted price",
+      "Giving free bonus shares"
     ],
-    "a": 1,
+    "a": 2,
     "e": "A rights issue enables existing equity holders to protect against dilution at attractive prices. / यह मौजूदा शेयरधारकों को रियायती मूल्य पर अतिरिक्त शेयर खरीदने का अधिकार देता है।"
   },
   {
     "qe": "What is 'Front Running' in capital markets?",
     "qh": "स्टॉक ट्रेडिंग में 'फ्रंट रनिंग' (Front Running) क्या है?",
     "o": [
-      "Winning market share",
-      "Illegal practice of trading ahead of a known upcoming large non-public client order",
       "Day trading at opening bell",
-      "None"
+      "None of these",
+      "Illegal practice of trading ahead of a known upcoming large non-public client order",
+      "Winning market share"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Brokers exploit advance order knowledge to profit personally, which is prohibited insider abuse. / क्लाइंट के बड़े ऑर्डर की जानकारी होने पर उससे पहले खुद ट्रेड करके अनुचित लाभ कमाना।"
   },
   {
     "qe": "What is 'Churning' in brokerage practices?",
     "qh": "ब्रोकर द्वारा 'चर्निंग' (Churning) क्या है?",
     "o": [
-      "Fund pooling",
       "Excessive, unauthorized buying and selling in a client's discretionary account to generate commissions",
+      "Fund pooling",
       "Account transfer",
       "Buying blue chips"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Churning violates fiduciary responsibility by trading solely to produce broker fees. / ब्रोकर द्वारा कमीशन कमाने के लिए क्लाइंट के खाते में अनावश्यक सौदे करना अनैतिक है।"
   },
   {
     "qe": "What is a 'Green Shoe Option' in an IPO prospectus?",
     "qh": "IPO में 'ग्रीन शू ऑप्शन' (Green Shoe Option) क्या है?",
     "o": [
+      "Footwear sector listing",
       "Renewable energy stock",
       "An over-allotment provision enabling underwriters to issue extra shares to stabilize post-listing prices",
-      "Footwear sector listing",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "The green shoe mechanism absorbs post-listing volatility and supports trading prices. / यह लिस्टिंग के बाद शेयर की कीमत को स्थिरता प्रदान करने वाला एक ओवर-अलॉटमेंट विकल्प है।"
   },
   {
@@ -772,81 +772,81 @@
     "qh": "'प्राइस रिगिंग' (Price Rigging) क्या है?",
     "o": [
       "Fair value assessment",
-      "Unlawful collusion to artificially inflate, suppress, or peg the market price of a security",
       "Discounting shares",
-      "None"
+      "Unlawful collusion to artificially inflate, suppress, or peg the market price of a security",
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Collusive cartels fix prices artificially, defrauding general market participants. / मिलीभगत करके किसी शेयर की कीमत को कृत्रिम रूप से बढ़ाना या घटाना गैरकानूनी है।"
   },
   {
     "qe": "What is a 'Credit Default Swap' (CDS)?",
     "qh": "'क्रेडिट डिफॉल्ट स्वैप' (CDS) क्या है?",
     "o": [
-      "Secured loan",
       "A derivative contract transferring credit exposure of fixed-income products between counterparties",
       "Currency trade",
-      "None"
+      "None of these",
+      "Secured loan"
     ],
-    "a": 1,
+    "a": 0,
     "e": "A CDS buyer pays premiums to transfer corporate debt default risks to a protection seller. / यह एक वित्तीय अनुबंध है जो ऋण के डिफ़ॉल्ट होने के जोखिम के खिलाफ बीमा की तरह काम करता है।"
   },
   {
     "qe": "What is a 'Fallen Angel' in the fixed-income market?",
     "qh": "बॉन्ड मार्केट में 'फॉलन एंजेल' (Fallen Angel) क्या है?",
     "o": [
+      "New government issue",
       "Defunct investment bank",
       "A bond that was originally investment grade but downgraded to junk status",
-      "New government issue",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Declining credit health pulls prime institutional bonds down into speculative high-yield territory. / ऐसे बॉन्ड जिनकी साख रेटिंग गिरकर 'इन्वेस्टमेंट ग्रेड' से 'जंक' हो जाती है।"
   },
   {
     "qe": "What is a 'Stop-Loss' order?",
     "qh": "'स्टॉप लॉस' (Stop Loss) ऑर्डर क्या है?",
     "o": [
-      "Unconditional buy order",
       "A conditional market order instructing broker execution when price drops to a designated stop price",
+      "Unconditional buy order",
       "Order freezing trading",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Stop loss triggers an exit to protect capital against deepening downward trends. / नुकसान को सीमित करने के लिए एक पूर्व-निर्धारित कीमत पर शेयर बेचने का ऑटोमैटिक ऑर्डर।"
   },
   {
     "qe": "What is a 'Liquidity Trap' in Keynesian economics?",
     "qh": "'लिक्विडिटी ट्रैप' (Liquidity Trap) क्या है?",
     "o": [
-      "Cash insolvency",
       "A condition where low or zero interest rates fail to induce investment or aggregate spending",
-      "Gold hoarding only",
-      "None"
+      "None of these",
+      "Cash insolvency",
+      "Gold hoarding only"
     ],
-    "a": 1,
+    "a": 0,
     "e": "When consumers and banks prefer hoarding cash rather than investing even at near-zero rates. / ऐसी स्थिति जहां अत्यधिक कम ब्याज दरों के बावजूद लोग खर्च या निवेश करने से कतराते हैं।"
   },
   {
     "qe": "What is a 'Dead Cat Bounce' in technical analysis?",
     "qh": "'डेड कैट बाउंस' (Dead Cat Bounce) क्या है?",
     "o": [
-      "Bull market breakout",
       "A brief, deceptive upward recovery in prices during a sustained severe bear downtrend",
       "Flash crash",
-      "None"
+      "Bull market breakout",
+      "None of these"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Temporary technical recoveries during sustained crashes often lure buyers prematurely. / भारी गिरावट के दौरान दिखने वाली क्षणिक और भ्रामक बढ़त, जिसके बाद गिरावट जारी रहती है।"
   },
   {
     "qe": "What is the 'Grey Market' in IPO terminology?",
     "qh": "IPO में 'ग्रे मार्केट' (Grey Market) क्या है?",
     "o": [
-      "Formal exchange bourse",
+      "None of these",
       "An unofficial, over-the-counter market trading IPO applications and shares before official listing",
-      "Bullion exchange",
-      "None"
+      "Formal exchange bourse",
+      "Bullion exchange"
     ],
     "a": 1,
     "e": "Grey market premiums (GMP) serve as unverified indicators of listing day momentum. / आधिकारिक लिस्टिंग से पहले IPO शेयरों का होने वाला अनौपचारिक समानांतर बाजार।"
@@ -855,22 +855,22 @@
     "qe": "What does 'Earnings Per Share' (EPS) represent?",
     "qh": "'अर्निंग पर शेयर' (EPS) क्या है?",
     "o": [
+      "None of these",
       "Total sales turnover",
       "Net corporate profit allocated to each outstanding common share",
-      "Dividend yield",
-      "None"
+      "Dividend yield"
     ],
-    "a": 1,
+    "a": 2,
     "e": "EPS divides net income available to common equity by weighted average shares outstanding. / कंपनी के शुद्ध मुनाफे में प्रति शेयर मिलने वाला हिस्सा।"
   },
   {
     "qe": "What is 'Window Dressing' in financial accounting?",
     "qh": "'विंडो ड्रेसिंग' (Window Dressing) क्या है?",
     "o": [
-      "Office decoration",
-      "Cosmetic, short-term accounting manipulations done to present favorable year-end reports",
       "New share purchases",
-      "None"
+      "Cosmetic, short-term accounting manipulations done to present favorable year-end reports",
+      "None of these",
+      "Office decoration"
     ],
     "a": 1,
     "e": "Managers manipulate year-end balance sheets superficially to impress creditors and shareholders. / वित्तीय विवरणों को वास्तविकता से बेहतर दिखाने के लिए की जाने वाली लीपापोती।"
@@ -880,11 +880,11 @@
     "qh": "'ग्रेशम का नियम' (Gresham's Law) क्या है?",
     "o": [
       "Buy low, sell high",
-      "Bad money drives out good money from circulation",
       "Lower taxes raise revenue",
-      "None"
+      "Bad money drives out good money from circulation",
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "When two currencies have equal legal value, undervalued good money gets hoarded and bad money circulates. / यदि दो मुद्राएं समान कानूनी मूल्य पर हों, तो 'बुरी मुद्रा अच्छी मुद्रा को चलन से बाहर कर देती है'।"
   },
   {
@@ -892,11 +892,11 @@
     "qh": "'कॉल ऑप्शन' (Call Option) क्या है?",
     "o": [
       "Mandatory delivery",
+      "None of these",
       "The right, but not the obligation, to buy an underlying asset at a strike price within a set period",
-      "Right to sell",
-      "None"
+      "Right to sell"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Call buyers speculate on upside gains while capping risk to the initial option premium. / यह खरीदार को पूर्व-निर्धारित कीमत पर शेयर खरीदने का अधिकार देता है, बाध्यता नहीं।"
   },
   {
@@ -904,93 +904,93 @@
     "qh": "'पुट ऑप्शन' (Put Option) क्या है?",
     "o": [
       "Obligation to buy",
-      "The right, but not the obligation, to sell an underlying asset at a set strike price",
       "Fixed yield guarantee",
-      "None"
+      "None of these",
+      "The right, but not the obligation, to sell an underlying asset at a set strike price"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Put buyers hedge against or profit from anticipated downward price drops. / यह धारक को पूर्व-निर्धारित कीमत पर शेयर बेचने का अधिकार देता है।"
   },
   {
     "qe": "What is a 'Naked Option' position?",
     "qh": "'नेकेड ऑप्शन' (Naked Option) क्या है?",
     "o": [
-      "Covered straddle",
       "Writing/selling an option without owning the underlying asset or an offsetting hedge",
-      "Night trade",
-      "None"
+      "Covered straddle",
+      "None of these",
+      "Night trade"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Naked option writing exposes the seller to theoretically unlimited market risk. / अंतर्निहित संपत्ति या सुरक्षात्मक हेज के बिना ऑप्शन बेचना, जिसमें असीमित जोखिम होता है।"
   },
   {
     "qe": "What are 'Blue Sky Laws' in United States jurisprudence?",
     "qh": "'ब्लू स्काई लॉ' (Blue Sky Laws) क्या हैं?",
     "o": [
-      "Meteorological treaties",
-      "State-level statutes regulating the offering and sale of securities to shield the public from fraud",
       "Aviation airspace rules",
-      "None"
+      "None of these",
+      "Meteorological treaties",
+      "State-level statutes regulating the offering and sale of securities to shield the public from fraud"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Enacted in US states, they mandate transparency and registration to curb fraudulent stock promotions. / निवेशकों को फर्जी प्रतिभूतियों और घोटालों से बचाने के लिए बनाए गए राज्य-स्तरीय कानून।"
   },
   {
     "qe": "What does an 'In-the-Money' (ITM) option mean?",
     "qh": "'इन-द-मनी' (ITM) ऑप्शन क्या है?",
     "o": [
-      "Losing position",
-      "An option contract possessing intrinsic value based on current spot price relative to strike price",
       "New expiration",
-      "None"
+      "None of these",
+      "An option contract possessing intrinsic value based on current spot price relative to strike price",
+      "Losing position"
     ],
-    "a": 1,
+    "a": 2,
     "e": "A call is ITM when spot exceeds strike; a put is ITM when strike exceeds spot. / वह ऑप्शन अनुबंध जिसका वर्तमान बाजार मूल्य के आधार पर वास्तविक आंतरिक मूल्य होता है।"
   },
   {
     "qe": "What does an 'Out-of-the-Money' (OTM) option mean?",
     "qh": "'आउट-ऑफ-द-मनी' (OTM) ऑप्शन क्या है?",
     "o": [
-      "Intrinsic value positive",
       "An option contract possessing zero intrinsic value, composed entirely of extrinsic time value",
+      "None of these",
       "Settled trade",
-      "None"
+      "Intrinsic value positive"
     ],
-    "a": 1,
+    "a": 0,
     "e": "An OTM option expires worthless if the spot price fails to cross the strike threshold before expiry. / वह ऑप्शन जिसका वर्तमान में कोई आंतरिक मूल्य नहीं होता और केवल समय मूल्य होता है।"
   },
   {
     "qe": "What is the 'Sharpe Ratio' used for in portfolio analysis?",
     "qh": "'शार्प रेशियो' (Sharpe Ratio) क्या है?",
     "o": [
-      "Debt metric",
       "A metric measuring excess investment return per unit of total risk (standard deviation)",
       "Dividend yield",
-      "None"
+      "None of these",
+      "Debt metric"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Higher Sharpe ratios demonstrate superior risk-adjusted portfolio efficiency. / यह दर्शाता है कि उठाए गए जोखिम की प्रत्येक इकाई के लिए कितना अतिरिक्त रिटर्न मिल रहा है।"
   },
   {
     "qe": "What does 'Tracking Error' measure in index mutual funds and ETFs?",
     "qh": "म्यूचुअल फंड में 'ट्रैकिंग एरर' (Tracking Error) क्या है?",
     "o": [
-      "Execution glitch",
-      "The standard deviation of excess return differences between an index fund and its benchmark",
       "Payment failure",
-      "None"
+      "None of these",
+      "The standard deviation of excess return differences between an index fund and its benchmark",
+      "Execution glitch"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Lower tracking error confirms precise replication of the benchmark index. / फंड के रिटर्न और उसके बेंचमार्क सूचकांक के रिटर्न के बीच का विचलन।"
   },
   {
     "qe": "What is a 'White Knight' during a hostile corporate takeover?",
     "qh": "'वाइट नाइट' (White Knight) क्या है?",
     "o": [
-      "Hostile corporate raider",
-      "A friendly acquirer that steps in to take over a target firm on better terms to block a hostile bidder",
       "Government liquidator",
-      "None"
+      "A friendly acquirer that steps in to take over a target firm on better terms to block a hostile bidder",
+      "Hostile corporate raider",
+      "None of these"
     ],
     "a": 1,
     "e": "White knights rescue target management from aggressive hostile takeover attempts. / एक मित्र कंपनी जो किसी फर्म को आक्रामक प्रतिद्वंद्वी के अनचाहे अधिग्रहण से बचाती है।"
@@ -1001,8 +1001,8 @@
     "o": [
       "Asset liquidation",
       "A shareholder rights plan designed to dilute acquirer equity and make hostile takeovers prohibitive",
-      "Factory shutdown",
-      "None"
+      "None of these",
+      "Factory shutdown"
     ],
     "a": 1,
     "e": "Target companies grant existing shareholders rights to buy discounted stock, heavily diluting hostile bidders. / कंपनी द्वारा खुद को जबरन अधिग्रहण से बचाने के लिए अपने शेयरों को कृत्रिम रूप से महंगा या अरुचिकर बनाना।"
@@ -1011,12 +1011,12 @@
     "qe": "What is a 'Basis Point' (BPS) in finance?",
     "qh": "'बेसिस पॉइंट' (BPS) क्या है?",
     "o": [
+      "None of these",
       "1.00% change",
       "0.01% (one-hundredth of a percentage point)",
-      "10.0% change",
-      "None"
+      "10.0% change"
     ],
-    "a": 1,
+    "a": 2,
     "e": "100 basis points equal 1 percentage point; 25 bps equals 0.25%. / वित्तीय दरों में होने वाले सूक्ष्म बदलावों की इकाई (100 BPS = 1%)।"
   },
   {
@@ -1026,7 +1026,7 @@
       "Daily liquidity",
       "The long-term capability of a business to satisfy its non-current financial liabilities",
       "Asset sale",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "Solvency gauges whether total assets exceed total liabilities over long operational horizons. / कंपनी की अपने दीर्घकालिक ऋणों और वित्तीय दायित्वों को चुकाने की क्षमता।"
@@ -1035,10 +1035,10 @@
     "qe": "Which organization regulates the 'Money Market' in India?",
     "qh": "भारत में 'मनी मार्केट' (मुद्रा बाजार) का नियामक कौन सा संगठन है?",
     "o": [
-      "SEBI",
+      "Ministry of Finance",
       "RBI",
-      "NABARD",
-      "Ministry of Finance"
+      "SEBI",
+      "NABARD"
     ],
     "a": 1,
     "e": "The Reserve Bank of India regulates short-term money market instruments. / RBI अल्पकालिक मुद्रा बाजार का संचालन और नियंत्रण करता है।"
@@ -1047,46 +1047,46 @@
     "qe": "What is the minimum denomination for issuing a 'Certificate of Deposit' (CD) in India?",
     "qh": "'सर्टिफिकेट ऑफ डिपॉजिट' (CD) कितनी न्यूनतम राशि के लिए जारी किया जा सकता है?",
     "o": [
-      "Rs 25,000",
-      "Rs 50,000",
       "Rs 1 Lakh",
-      "Rs 5 Lakh"
+      "Rs 5 Lakh",
+      "Rs 50,000",
+      "Rs 25,000"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Certificates of Deposit are issued in minimum denominations of Rs 1 Lakh and multiples thereof. / CD न्यूनतम 1 लाख रुपये और उसके गुणकों में जारी किए जाते हैं।"
   },
   {
     "qe": "Which money market paper is an unsecured promissory note issued by highly rated corporates?",
     "qh": "बड़े निगमों द्वारा जारी किए जाने वाले किस मनी मार्केट उपकरण को 'प्रॉमिसरी नोट' भी कहा जाता है?",
     "o": [
-      "Treasury Bill",
       "Commercial Paper",
       "Call Money",
-      "Certificate of Deposit"
+      "Certificate of Deposit",
+      "Treasury Bill"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Commercial Paper (CP) is an unsecured negotiable debt note used to finance operational working capital. / कमर्शियल पेपर एक असुरक्षित प्रॉमिसरी नोट है जिसे कंपनियां अल्पकालिक कार्यशील पूंजी के लिए जारी करती हैं।"
   },
   {
     "qe": "What is the maturity duration of 'Call Money' in interbank transactions?",
     "qh": "'कॉल मनी' की अधिकतम अवधि क्या है?",
     "o": [
-      "1 day (overnight)",
-      "7 days",
       "14 days",
-      "30 days"
+      "7 days",
+      "30 days",
+      "1 day (overnight)"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Call money is strictly for 1 day; notice money spans 2 to 14 days; term money spans over 14 days. / कॉल मनी 1 दिन (ओवरनाइट) के लिए होती है, जबकि 2 से 14 दिनों को नोटिस मनी कहते हैं।"
   },
   {
     "qe": "In India, Treasury Bills are issued exclusively by which authority?",
     "qh": "भारत में, ट्रेजरी बिल केवल __________ द्वारा जारी किए जाते हैं?",
     "o": [
-      "State Governments",
+      "Private Corporations",
       "Central Government",
       "Public Sector Banks",
-      "Private Corporations"
+      "State Governments"
     ],
     "a": 1,
     "e": "Only the Central Government issues T-Bills; State Governments issue State Development Loans (SDLs). / ट्रेजरी बिल केवल भारत की केंद्र सरकार द्वारा जारी किए जाते हैं।"
@@ -1095,9 +1095,9 @@
     "qe": "What is the minimum maturity period for 'Commercial Paper' in India?",
     "qh": "भारत में 'कमर्शियल पेपर' के लिए न्यूनतम परिपक्वता अवधि क्या है?",
     "o": [
-      "1 day",
-      "7 days",
       "15 days",
+      "7 days",
+      "1 day",
       "3 months"
     ],
     "a": 1,
@@ -1107,22 +1107,22 @@
     "qe": "What is 'Notice Money' in the interbank market?",
     "qh": "बैंकिंग क्षेत्र में 'नोटिस मनी' क्या है?",
     "o": [
+      "Loan for 1 month",
       "Loan for 1 day",
       "Interbank funds borrowed or lent for 2 to 14 days",
-      "Loan for 1 month",
       "Loan for farmers"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Uncollateralized interbank transactions spanning 2 to 14 days are called Notice Money. / 2 से 14 दिनों की अवधि के लिए बैंकों के आपसी ऋण को नोटिस मनी कहा जाता है।"
   },
   {
     "qe": "What is the minimum face value denomination of a standard Indian 'Treasury Bill'?",
     "qh": "ट्रेजरी बिल का अंकित मूल्य आमतौर पर किस राशि में जारी किया जाता है?",
     "o": [
-      "Rs 5,000",
       "Rs 10,000",
+      "Rs 1 Lakh",
       "Rs 25,000",
-      "Rs 1 Lakh"
+      "Rs 5,000"
     ],
     "a": 2,
     "e": "T-Bills are auctioned in minimum tranches of Rs 25,000 and multiples thereof. / ट्रेजरी बिल 25,000 रुपये और उसके गुणकों में जारी किए जाते हैं।"
@@ -1131,24 +1131,24 @@
     "qe": "Commercial Papers were officially introduced in the Indian financial system in which year?",
     "qh": "भारत में पहली बार कमर्शियल पेपर किस वर्ष शुरू किए गए थे?",
     "o": [
-      "1980",
       "1990",
       "1992",
-      "2000"
+      "2000",
+      "1980"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Commercial Paper was launched in India in 1990 following Vaghul Working Group recommendations. / वाघुल समिति की सिफारिश पर भारत में कमर्शियल पेपर 1990 में शुरू किए गए थे।"
   },
   {
     "qe": "Standard Indian sovereign Treasury Bills are issued with which of the following maturity tenors?",
     "qh": "भारत में 'ट्रेजरी बिल' की मानक परिपक्वता अवधियां क्या हैं?",
     "o": [
-      "30, 60, and 90 days",
-      "91, 182, and 364 days",
       "1, 2, and 5 years",
-      "14 days only"
+      "14 days only",
+      "30, 60, and 90 days",
+      "91, 182, and 364 days"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Regular T-bills are auctioned by RBI for 91-day, 182-day, and 364-day durations. / मानक ट्रेजरी बिल 91, 182 और 364 दिनों की अवधि के लिए जारी किए जाते हैं।"
   },
   {
@@ -1156,8 +1156,8 @@
     "qh": "ट्रेजरी बिल को 'जीरो कूपन बॉन्ड' क्यों कहा जाता है?",
     "o": [
       "They are issued at a discount and redeemed at full face value without periodic interest payments",
-      "They carry floating coupon rates",
       "They have perpetual maturities",
+      "They carry floating coupon rates",
       "They are unbacked by sovereign credit"
     ],
     "a": 0,
@@ -1167,33 +1167,33 @@
     "qe": "What does 'MIBOR' stand for in interbank pricing?",
     "qh": "'MIBOR' का पूर्ण रूप क्या है?",
     "o": [
-      "Mumbai Interbank Offered Rate",
-      "Money Interest Banking Order",
       "Market Index for Bank Operations",
-      "None"
+      "Money Interest Banking Order",
+      "None of these",
+      "Mumbai Interbank Offered Rate"
     ],
-    "a": 0,
+    "a": 3,
     "e": "MIBOR is the benchmark fixing for unsecured overnight interbank lending rates in Mumbai. / यह मुंबई में बैंकों द्वारा आपस में उधार लेने की मानक बेंचमार्क दर है।"
   },
   {
     "qe": "What is the maximum statutory maturity duration for all money market instruments?",
     "qh": "मुद्रा बाजार उन वित्तीय संपत्तियों का लेन-देन करता है जिनकी परिपक्वता अवधि होती है?",
     "o": [
-      "1 to 5 years",
-      "Up to 1 year (365 days)",
+      "No maturity limit",
       "More than 5 years",
-      "No maturity limit"
+      "Up to 1 year (365 days)",
+      "1 to 5 years"
     ],
-    "a": 1,
+    "a": 2,
     "e": "The money market deals strictly in debt securities maturing within 365 days. / मुद्रा बाजार के सभी उपकरणों की परिपक्वता अवधि 1 वर्ष (365 दिन) या उससे कम होती है।"
   },
   {
     "qe": "What is the primary operational effect when the RBI buys sovereign securities via Open Market Operations (OMOs)?",
     "qh": "जब RBI 'ओपन मार्केट' में प्रतिभूतियां खरीदता है तो क्या होता है?",
     "o": [
-      "Banking system liquidity decreases",
-      "Banking system liquidity increases",
       "Statutory Liquidity Ratio rises",
+      "Banking system liquidity increases",
+      "Banking system liquidity decreases",
       "Foreign exchange reserves fall"
     ],
     "a": 1,
@@ -1203,12 +1203,12 @@
     "qe": "What was the purpose of introducing the 'Market Stabilization Scheme' (MSS) in India?",
     "qh": "'मार्केट स्टेबलाइजेशन स्कीम' (MSS) क्या है?",
     "o": [
-      "Export promotion",
-      "Absorbing durable surplus rupee liquidity arising from heavy foreign exchange inflows",
       "Stock control",
-      "None"
+      "Export promotion",
+      "None of these",
+      "Absorbing durable surplus rupee liquidity arising from heavy foreign exchange inflows"
     ],
-    "a": 1,
+    "a": 3,
     "e": "MSS bonds were introduced in 2004 to sterilize liquidity without expanding normal government deficits. / विदेशी पूंजी प्रवाह से उत्पन्न अतिरिक्त तरलता को सोखने के लिए MSS बॉन्ड जारी किए जाते हैं।"
   },
   {
@@ -1217,8 +1217,8 @@
     "o": [
       "2004-05",
       "2011-12",
-      "2015-16",
-      "2020-21"
+      "2020-21",
+      "2015-16"
     ],
     "a": 1,
     "e": "The current WPI series uses 2011-12 as the benchmark base year. / थोक मूल्य सूचकांक की गणना के लिए वर्तमान आधार वर्ष 2011-12 है।"
@@ -1227,132 +1227,132 @@
     "qe": "Which interest rate is designated as the primary 'Policy Rate' by the Reserve Bank of India?",
     "qh": "भारत में किस दर को 'नीतिगत दर' (Policy Rate) कहा जाता है?",
     "o": [
+      "Statutory Liquidity Ratio",
       "Bank Rate",
-      "Repo Rate",
       "Cash Reserve Ratio",
-      "Statutory Liquidity Ratio"
+      "Repo Rate"
     ],
-    "a": 1,
+    "a": 3,
     "e": "The Repo Rate is the benchmark policy signaling rate adjusted by the Monetary Policy Committee. / रेपो रेट को RBI की मुख्य नीतिगत संकेत दर माना जाता है।"
   },
   {
     "qe": "How many total voting members constitute India's 'Monetary Policy Committee' (MPC)?",
     "qh": "'मौद्रिक नीति समिति' (MPC) में कितने सदस्य होते हैं?",
     "o": [
-      "3",
       "4",
       "6",
-      "10"
+      "10",
+      "3"
     ],
-    "a": 2,
+    "a": 1,
     "e": "The MPC has 6 members: the RBI Governor, two RBI officials, and three independent government nominees. / MPC में कुल 6 सदस्य होते हैं: 3 RBI से और 3 सरकार द्वारा मनोनीत।"
   },
   {
     "qe": "What is the 'Marginal Standing Facility' (MSF) rate in Indian monetary operations?",
     "qh": "'मार्जिनल स्टैंडिंग फैसिलिटी' (MSF) क्या है?",
     "o": [
+      "None of these",
       "Facility for agricultural priority loans",
       "A penal overnight lending window where banks can borrow from RBI by dipping into SLR reserves",
-      "Stock exchange trade limit",
-      "None"
+      "Stock exchange trade limit"
     ],
-    "a": 1,
+    "a": 2,
     "e": "MSF provides emergency overnight liquidity against a portion of banks' statutory SLR securities. / यह बैंकों के लिए आपातकालीन स्थिति में SLR कोटा से अतिरिक्त ओवरनाइट उधार लेने की खिड़की है।"
   },
   {
     "qe": "What is the maximum statutory transaction limit for an 'Immediate Payment Service' (IMPS) transfer?",
     "qh": "'IMPS' लेनदेन की अधिकतम सीमा क्या है?",
     "o": [
-      "Rs 1 Lakh",
       "Rs 2 Lakh",
-      "Rs 5 Lakh",
-      "No limit"
+      "No limit",
+      "Rs 1 Lakh",
+      "Rs 5 Lakh"
     ],
-    "a": 2,
+    "a": 3,
     "e": "The RBI raised the per-transaction IMPS limit from Rs 2 Lakh to Rs 5 Lakh in October 2021. / RBI ने IMPS के माध्यम से प्रति लेनदेन की अधिकतम सीमा बढ़ाकर 5 लाख रुपये कर दी है।"
   },
   {
     "qe": "What does 'Shadow Banking' refer to in financial economics?",
     "qh": "'शैडो बैंकिंग' क्या है?",
     "o": [
+      "None of these",
       "Illegal underground lending",
-      "Credit intermediation conducted by non-bank financial intermediaries (NBFCs) outside regular banking regulations",
       "After-hours cash clearing",
-      "None"
+      "Credit intermediation conducted by non-bank financial intermediaries (NBFCs) outside regular banking regulations"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Shadow banks include NBFCs and financial entities that channel credit without commercial banking charters. / गैर-बैंकिंग वित्तीय कंपनियों (NBFCs) द्वारा प्रदान की जाने वाली बैंक जैसी क्रेडिट सेवाएं।"
   },
   {
     "qe": "What is the consumer inflation target mandated to the RBI under the flexible inflation targeting framework?",
     "qh": "लचीले मुद्रास्फीति लक्ष्यीकरण ढांचे के तहत RBI के लिए 'मुद्रास्फीति लक्ष्य' क्या है?",
     "o": [
-      "2% flat",
       "4% with a tolerance band of +/- 2% (2% to 6%)",
-      "6% flat",
-      "8% ceiling"
+      "2% flat",
+      "8% ceiling",
+      "6% flat"
     ],
-    "a": 1,
+    "a": 0,
     "e": "The statutory inflation target for the MPC is 4% CPI headline inflation, with acceptable bounds of 2% to 6%. / केंद्र सरकार द्वारा RBI को 4% का मुद्रास्फीति लक्ष्य दिया गया है, जिसमें 2% से 6% का टॉलरेंस बैंड है।"
   },
   {
     "qe": "Which economic demographic group suffers the greatest loss during unexpected inflation?",
     "qh": "निम्नलिखित में से किसे 'अप्रत्याशित मुद्रास्फीति' से सबसे अधिक नुकसान होता है?",
     "o": [
-      "Borrowers / Debtors",
       "Creditors / Fixed-income earners and savers",
+      "Borrowers / Debtors",
       "Corporate equity owners",
       "Commodity merchants"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Inflation erodes real returns, meaning creditors are repaid with money holding reduced purchasing power. / ऋणदाताओं और निश्चित आय वाले वर्ग को नुकसान होता है क्योंकि उनके पैसे की वास्तविक क्रय शक्ति घट जाती है।"
   },
   {
     "qe": "What is the 'Base Effect' in calculating year-on-year inflation?",
     "qh": "मुद्रास्फीति की गणना में 'बेस इफेक्ट' (Base Effect) क्या है?",
     "o": [
-      "Impact of central bank discount changes",
-      "Distortion in current inflation rates caused by unusually high or low price indices in the corresponding prior year period",
       "Change in indirect tax structures",
-      "None"
+      "None of these",
+      "Impact of central bank discount changes",
+      "Distortion in current inflation rates caused by unusually high or low price indices in the corresponding prior year period"
     ],
-    "a": 1,
+    "a": 3,
     "e": "A low price base in the prior year artificially magnifies current percentage inflation readings, and vice versa. / पिछले वर्ष के तुलनात्मक आधार मूल्य के अत्यधिक कम या अधिक होने का चालू वर्ष की महंगाई दर पर प्रभाव।"
   },
   {
     "qe": "What is 'Shrinkflation'?",
     "qh": "'श्रिंकफ्लेशन' (Shrinkflation) क्या है?",
     "o": [
-      "A decline in nominal price tags",
       "Downsizing product quantity or volume while keeping the retail shelf price unchanged",
-      "A drop in GDP growth",
-      "None"
+      "None of these",
+      "A decline in nominal price tags",
+      "A drop in GDP growth"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Packaged consumer goods firms reduce pack weight while holding prices constant to mask cost inflation. / कीमत को समान रखते हुए किसी उत्पाद के आकार या मात्रा को घटा देना।"
   },
   {
     "qe": "What is 'Reflation' in monetary policy?",
     "qh": "'रिफ्लेशन' (Reflation) क्या है?",
     "o": [
-      "Hyperinflationary spiral",
       "Deliberate fiscal or monetary stimulus deployed to lift price levels and output out of deflationary slumps",
       "Compulsory price caps",
-      "None"
+      "Hyperinflationary spiral",
+      "None of these"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Reflationary policies use stimulus to bring depressed prices back up toward long-term trend targets. / अपस्फीति या मंदी के बाद अर्थव्यवस्था को पुनर्जीवित करने के लिए जानबूझकर मुद्रा आपूर्ति और मांग बढ़ाना।"
   },
   {
     "qe": "What does an 'Agglomeration Economy' represent?",
     "qh": "'एग्लोमरेशन इकोनॉमी' क्या है?",
     "o": [
-      "Productivity and cost advantages that businesses gain by clustering geographically near each other",
-      "Agrarian self-sufficiency",
       "Antitrust restructuring",
-      "None"
+      "None of these",
+      "Agrarian self-sufficiency",
+      "Productivity and cost advantages that businesses gain by clustering geographically near each other"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Industrial clustering lowers logistics costs, pools labor, and shares supplier ecosystems. / एक ही भौगोलिक क्षेत्र में संबंधित उद्योगों के समूहबद्ध होने से मिलने वाले आर्थिक लाभ।"
   },
   {
@@ -1360,57 +1360,57 @@
     "qh": "'चेक ट्रंकेशन सिस्टम' (CTS) क्या है?",
     "o": [
       "Discontinuing all cheques",
-      "Electronic image-based clearing system eliminating the physical transit of paper cheques",
       "Stopping cheque payments",
-      "None"
+      "None of these",
+      "Electronic image-based clearing system eliminating the physical transit of paper cheques"
     ],
-    "a": 1,
+    "a": 3,
     "e": "CTS captures electronic images and magnetic MICR data to clear cheques rapidly across branches. / भौतिक चेक को घुमाने के बजाय उसकी डिजिटल छवि और डेटा के माध्यम से तेज समाशोधन प्रक्रिया।"
   },
   {
     "qe": "What is the 'Real Interest Rate'?",
     "qh": "'वास्तविक ब्याज दर' (Real Interest Rate) क्या है?",
     "o": [
-      "Nominal interest rate minus the rate of inflation",
       "Prevailing bank repo rate",
-      "Interest rate on sovereign bullion",
-      "None"
+      "Nominal interest rate minus the rate of inflation",
+      "None of these",
+      "Interest rate on sovereign bullion"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Fisher equation: Real Rate = Nominal Rate - Inflation; it measures real growth in purchasing power. / नाममात्र ब्याज दर में से मुद्रास्फीति की दर को घटाने के बाद मिलने वाली वास्तविक प्रतिफल दर।"
   },
   {
     "qe": "What is the core distinction between 'Balance of Trade' (BoT) and 'Balance of Payments' (BoP)?",
     "qh": "'व्यापार संतुलन' (BoT) क्या है?",
     "o": [
-      "BoT includes capital transfers; BoP includes imports only",
-      "BoT accounts solely for merchandise (visible) goods exports and imports",
       "BoT tracks sovereign reserves exclusively",
-      "There is no difference"
+      "BoT includes capital transfers; BoP includes imports only",
+      "There is no difference",
+      "BoT accounts solely for merchandise (visible) goods exports and imports"
     ],
-    "a": 1,
+    "a": 3,
     "e": "BoT accounts exclusively for tangible merchandise goods, while BoP tracks all goods, services, transfers, and capital flows. / व्यापार संतुलन केवल दृश्य (भौतिक) वस्तुओं के आयात और निर्यात के अंतर को मापता है।"
   },
   {
     "qe": "What does 'Engel’s Law' state regarding consumer spending patterns?",
     "qh": "'एंजेल का नियम' किससे संबंधित है?",
     "o": [
-      "As household income rises, the proportion of income spent on food declines",
-      "Tax revenues peak at 50% flat rates",
       "Lower prices always reduce supply",
-      "Population grows geometrically"
+      "As household income rises, the proportion of income spent on food declines",
+      "Population grows geometrically",
+      "Tax revenues peak at 50% flat rates"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Engel's law demonstrates that food expenditure has an income elasticity of less than one as wealth increases. / जैसे-जैसे आय बढ़ती है, कुल आय में से भोजन पर खर्च होने वाला प्रतिशत अनुपात घटता जाता है।"
   },
   {
     "qe": "What is 'Invisible Trade' in international economics?",
     "qh": "'अदृश्य व्यापार' क्या है?",
     "o": [
-      "Smuggling of illicit contraband",
-      "Cross-border trade in intangible services (consulting, software, shipping, tourism)",
       "Unreported agricultural barters",
-      "None"
+      "Cross-border trade in intangible services (consulting, software, shipping, tourism)",
+      "None of these",
+      "Smuggling of illicit contraband"
     ],
     "a": 1,
     "e": "Invisibles include service transactions, financial transfers, and remittances that leave no physical customs trail. / सेवाओं (जैसे सॉफ्टवेयर, बैंकिंग, पर्यटन) और प्रेषणों के लेन-देन को अदृश्य व्यापार कहा जाता है।"
@@ -1419,10 +1419,10 @@
     "qe": "What is a 'Giffen Good' in consumer microeconomics?",
     "qh": "'गिफेन गुड' (Giffen Good) क्या है?",
     "o": [
-      "A high-status luxury asset",
+      "None of these",
       "A low-income non-luxury good whose consumption increases as its price increases, defying the law of demand",
       "A zero-price public amenity",
-      "None"
+      "A high-status luxury asset"
     ],
     "a": 1,
     "e": "Giffen goods are inferior staple foods where negative income effects heavily overpower substitution effects. / ऐसी निम्न-कोटि की वस्तुएं जिनकी कीमतें बढ़ने पर गरीब उपभोक्ता मजबूरी में इनकी खपत बढ़ा देते हैं।"
@@ -1431,12 +1431,12 @@
     "qe": "What is 'Opportunity Cost'?",
     "qh": "'अवसर लागत' (Opportunity Cost) क्या है?",
     "o": [
-      "Total explicit accounting expenditure",
-      "The value of the next best alternative forgone when a choice is made",
       "Marginal cost of transportation",
-      "None"
+      "None of these",
+      "Total explicit accounting expenditure",
+      "The value of the next best alternative forgone when a choice is made"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Opportunity cost quantifies the potential benefit surrendered by selecting one alternative over another. / किसी एक विकल्प को चुनने के कारण छोड़े गए दूसरे सबसे अच्छे विकल्प का मूल्य।"
   },
   {
@@ -1446,7 +1446,7 @@
       "Completely egalitarian wealth parity",
       "An economic state where no individual can be made better off without making at least one individual worse off",
       "Total state revenue maximization",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "A Pareto optimal allocation allows no further trade reallocations that help someone without causing harm to another. / ऐसी स्थिति जहां किसी एक व्यक्ति की स्थिति को बेहतर बनाने के लिए किसी अन्य की स्थिति को खराब करना अपरिहार्य हो।"
@@ -1455,24 +1455,24 @@
     "qe": "What is a 'Transfer Payment' in macroeconomic accounting?",
     "qh": "अर्थशास्त्र में 'हस्तांतरण भुगतान' (Transfer Payment) क्या है?",
     "o": [
+      "Interbank wire fee",
       "Payment for exported merchandise",
       "Unilateral redistribution of income by the government without corresponding production of goods or services",
-      "Interbank wire fee",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Transfer payments (like pensions, welfare grants, and scholarships) do not represent output and are excluded from GDP. / सरकार द्वारा बिना किसी सेवा या उत्पादन के बदले नागरिकों को दिया जाने वाला एकतरफा भुगतान।"
   },
   {
     "qe": "What empirical correlation is established by 'Okun’s Law'?",
     "qh": "'ओकुन का नियम' किससे संबंधित है?",
     "o": [
+      "None of these",
       "Inflation versus interest rates",
       "Relationship between unemployment rate changes and Gross Domestic Product (GDP) growth",
-      "Tariff rates versus foreign investment",
-      "None"
+      "Tariff rates versus foreign investment"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Okun's law predicts that for every percentage point unemployment rises above natural levels, GDP dips by roughly 2%. / यह बेरोजगारी दर में बदलाव और वास्तविक सकल घरेलू उत्पाद (GDP) की वृद्धि दर के संबंध को जोड़ता है।"
   },
   {
@@ -1481,8 +1481,8 @@
     "o": [
       "Pure decentralized market price competition",
       "A centralized planned economic system where production, resource allocation, and prices are determined by the state",
-      "An economy dominated exclusively by private banks",
-      "None"
+      "None of these",
+      "An economy dominated exclusively by private banks"
     ],
     "a": 1,
     "e": "In a command economy, state planners dictate what to produce, how to produce, and set official prices. / ऐसी व्यवस्था जहां क्या, कितना और किस कीमत पर उत्पादन करना है, यह पूरी तरह केंद्रीय सरकार तय करती है।"
@@ -1491,10 +1491,10 @@
     "qe": "What is an 'Externality' in microeconomic market failure analysis?",
     "qh": "अर्थशास्त्र में 'एक्सटर्नलिटीज' (बाहरी प्रभाव) क्या है?",
     "o": [
-      "Customs border checks",
+      "None of these",
       "A cost or benefit incurred by an uninvolved third party as an unintended consequence of economic activity",
-      "Export duties",
-      "None"
+      "Customs border checks",
+      "Export duties"
     ],
     "a": 1,
     "e": "Pollution is a negative externality; scientific research and immunization generate positive externalities. / किसी उत्पादन या उपभोग गतिविधि का वह प्रभाव जो बिना किसी कीमत के तीसरे पक्ष को भुगतना या प्राप्त होता है।"
@@ -1503,72 +1503,72 @@
     "qe": "What does 'Skewflation' mean in price analysis?",
     "qh": "'स्क्यूफ्लेशन' (Skewflation) क्या है?",
     "o": [
-      "Uniform deflation across all industrial sectors",
       "Skewed price inflation concentrated predominantly in one or a few specific commodity sectors while others remain stable",
       "Negative wage growth",
-      "None"
+      "None of these",
+      "Uniform deflation across all industrial sectors"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Skewflation describes episodic inflationary spikes restricted to narrow segments (like food items) while non-food sectors remain soft. / जब पूरी अर्थव्यवस्था में नहीं, बल्कि केवल कुछ चुनिंदा वस्तुओं (जैसे दालों या प्याज) में असामान्य महंगाई देखी जाती है।"
   },
   {
     "qe": "What does 'EBITDA' measure on a corporate financial statement?",
     "qh": "'EBITDA' का उपयोग किसके लिए किया जाता है?",
     "o": [
-      "Household tax assessment",
       "Earnings Before Interest, Taxes, Depreciation, and Amortization, evaluating core operational profitability",
+      "None of these",
       "Physical inventory value",
-      "None"
+      "Household tax assessment"
     ],
-    "a": 1,
+    "a": 0,
     "e": "EBITDA evaluates baseline cash operational earnings by stripping away capital structure, taxation, and non-cash write-offs. / यह कंपनी की परिचालन दक्षता को मापने वाला पैमाना है जो ब्याज, कर और मूल्यह्रास घटाने से पहले का लाभ दिखाता है।"
   },
   {
     "qe": "What is the 'Initial Margin' required in derivative contracts?",
     "qh": "ट्रेडिंग में 'इनिशियल मार्जिन' (Initial Margin) क्या है?",
     "o": [
-      "Broker's net profit",
-      "The upfront collateral deposit required by the clearing house to initiate and hold an open leveraged position",
       "Final exercise settlement",
-      "Stamp duty"
+      "Stamp duty",
+      "The upfront collateral deposit required by the clearing house to initiate and hold an open leveraged position",
+      "Broker's net profit"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Initial margin acts as a performance bond protecting the exchange against intraday counterparty default risk. / लेवरेज्ड पोजीशन खोलने के लिए एक्सचेंज या ब्रोकर के पास जमा की जाने वाली शुरुआती न्यूनतम जमानत राशि।"
   },
   {
     "qe": "Which Indian public sector organization provides 'Export Credit Insurance' against commercial and political payment risks?",
     "qh": "कौन सा संगठन भारतीय निर्यातकों को 'निर्यात ऋण बीमा' प्रदान करता है?",
     "o": [
+      "SIDBI",
       "RBI",
       "SEBI",
-      "ECGC (Export Credit Guarantee Corporation of India)",
-      "SIDBI"
+      "ECGC (Export Credit Guarantee Corporation of India)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "ECGC provides insurance covers to Indian exporters against non-payment by overseas buyers. / ECGC भारतीय निर्यातकों को विदेशी खरीदारों द्वारा भुगतान न किए जाने के जोखिमों से सुरक्षा प्रदान करता है।"
   },
   {
     "qe": "In a pure 'Floating' exchange rate regime, what determines the relative value of a currency?",
     "qh": "'बाजार निर्धारित' विनिमय दर प्रणाली में, मुद्रा का मूल्य किसके द्वारा तय किया जाता है?",
     "o": [
-      "Daily administrative fixing by the Ministry of Finance",
       "Unrestricted forces of foreign exchange market demand and supply",
-      "Statutory gold parity set by the IMF",
-      "State-owned commercial bank consensus"
+      "Daily administrative fixing by the Ministry of Finance",
+      "State-owned commercial bank consensus",
+      "Statutory gold parity set by the IMF"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Market clearing demand and supply for export receipts, import payments, and capital flows determine market exchange rates. / विदेशी मुद्रा बाजार में मांग और आपूर्ति की बाजार शक्तियां विनिमय दर तय करती हैं।"
   },
   {
     "qe": "Why does India operate a 'Managed Float' (Dirty Float) exchange rate regime?",
     "qh": "भारत 'मैनेज्ड फ्लोट' विनिमय दर प्रणाली का पालन क्यों करता है?",
     "o": [
+      "To eliminate the necessity for foreign exchange reserves",
       "To rigidly peg the rupee to gold bullion",
-      "To allow broad market determination while permitting RBI interventions to curb destabilizing volatility",
       "To bar foreign investors from holding rupees",
-      "To eliminate the necessity for foreign exchange reserves"
+      "To allow broad market determination while permitting RBI interventions to curb destabilizing volatility"
     ],
-    "a": 1,
+    "a": 3,
     "e": "The rupee floats freely, but RBI actively buys or sells dollars to smooth speculative volatility without setting fixed targets. / विनिमय दर बाजार द्वारा तय होती है, लेकिन अत्यधिक उतार-चढ़ाव को नियंत्रित करने के लिए RBI समय-समय पर हस्तक्षेप करता है।"
   },
   {
@@ -1576,117 +1576,117 @@
     "qh": "भारतीय विदेशी मुद्रा बाजार में अमेरिकी डॉलर की 'मांग' निम्नलिखित में से किसके कारण उत्पन्न होती है?",
     "o": [
       "Overseas tourists visiting domestic tourist centers",
-      "Domestic importers settling payments for foreign merchandise and energy",
       "Non-resident Indians wiring remittances home",
+      "Domestic importers settling payments for foreign merchandise and energy",
       "Foreign venture capitalists funding domestic startups"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Indian importers, outbound travelers, and outward investors must sell rupees to acquire dollars to pay overseas counterparties. / विदेशी वस्तुओं के आयातकों और विदेश यात्रा करने वाले नागरिकों को भुगतान के लिए डॉलर खरीदने की आवश्यकता होती है।"
   },
   {
     "qe": "Under the 'Liberalised Remittance Scheme' (LRS), what is the annual limit permitted to resident individuals by the RBI?",
     "qh": "'उदारीकृत प्रेषण योजना' (LRS) के तहत, भारतीय निवासी विशेष अनुमति के बिना सालाना कितनी राशि विदेश भेज सकते हैं?",
     "o": [
-      "$50,000",
-      "$100,000",
       "$250,000",
-      "$1,000,000"
+      "$50,000",
+      "$1,000,000",
+      "$100,000"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Resident individuals are allowed to remit up to $250,000 per financial year for permissible current and capital account transactions. / RBI द्वारा प्रत्येक वित्तीय वर्ष में निवासियों को 2,50,000 अमेरिकी डॉलर तक विदेश भेजने की छूट दी गई है।"
   },
   {
     "qe": "What does the 'Nominal Effective Exchange Rate' (NEER) track?",
     "qh": "'नाममात्र प्रभावी विनिमय दर' (NEER) का क्या महत्व है?",
     "o": [
-      "Domestic wholesale headline inflation rate",
       "The trade-weighted geometric average of bilateral exchange rates against a basket of currencies",
-      "The prime lending rate of commercial banks",
-      "Sovereign bond default spreads"
+      "Sovereign bond default spreads",
+      "Domestic wholesale headline inflation rate",
+      "The prime lending rate of commercial banks"
     ],
-    "a": 1,
+    "a": 0,
     "e": "NEER evaluates whether a currency is appreciating or depreciating against an entire basket of major trading partner currencies. / यह प्रमुख व्यापारिक साझेदारों की मुद्राओं की एक बास्केट के मुकाबले घरेलू मुद्रा का भारित औसत मूल्य दर्शाता है।"
   },
   {
     "qe": "What is the primary operational distinction between Foreign Direct Investment (FDI) and Foreign Portfolio Investment (FPI)?",
     "qh": "प्रत्यक्ष विदेशी निवेश (FDI) और विदेशी पोर्टफोलियो निवेश (FPI) के बीच प्राथमिक अंतर क्या है?",
     "o": [
-      "FDI is short-term speculation; FPI is long-term manufacturing",
       "FDI involves durable management interest and equity control; FPI involves passive financial asset trading",
+      "FPI permits direct operational control of corporate boards",
       "FDI is restricted solely to bullion holdings",
-      "FPI permits direct operational control of corporate boards"
+      "FDI is short-term speculation; FPI is long-term manufacturing"
     ],
-    "a": 1,
+    "a": 0,
     "e": "FDI involves building long-term controlling or significant strategic enterprise stakes (10%+), while FPI is passive portfolio allocation. / FDI दीर्घकालिक प्रबंधन और भौतिक संपत्तियों पर नियंत्रण से जुड़ा है, जबकि FPI शेयरों/बांडों में वित्तीय रिटर्न के लिए किया जाने वाला अल्पकालिक निवेश है।"
   },
   {
     "qe": "Under the 'Automatic Route' for FDI in India, when must the foreign investor file information with the regulatory authorities?",
     "qh": "किस मार्ग के तहत एक विदेशी निवेशक सरकार या आरबीआई की पूर्व स्वीकृति के बिना भारत में निवेश कर सकता है?",
     "o": [
+      "Only via municipal clearance",
       "Prior ministerial cabinet approval is mandatory",
-      "Post-facto reporting to the RBI after inward remittance without prior administrative approval",
       "Only through bilateral diplomatic treaties",
-      "Only via municipal clearance"
+      "Post-facto reporting to the RBI after inward remittance without prior administrative approval"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Under the Automatic Route, foreign investors need no prior government approval; they notify the RBI after funds arrive. / स्वचालित मार्ग के तहत अधिकांश क्षेत्रों में पूर्व सरकारी अनुमति के बिना प्रत्यक्ष विदेशी निवेश की अनुमति होती है।"
   },
   {
     "qe": "What is the illegal financial tax-evasion practice called 'Round Tripping'?",
     "qh": "विदेशी निवेश में 'राउंड ट्रिपिंग' (Round Tripping) शब्द का तात्पर्य किस प्रथा से है?",
     "o": [
-      "Bilateral tourism exchange programs",
-      "Routing untaxed domestic capital through offshore tax havens to re-enter the home economy disguised as foreign investment",
       "Circular intermodal container shipping",
-      "None"
+      "None of these",
+      "Routing untaxed domestic capital through offshore tax havens to re-enter the home economy disguised as foreign investment",
+      "Bilateral tourism exchange programs"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Round-tripping routes domestic untaxed black money through overseas tax havens to claim treaty exemptions when reinvested locally. / कर बचाने या काले धन को सफेद करने के लिए घरेलू धन को विदेशी टैक्स हेवन में भेजकर पुनः FDI के रूप में देश में लाना।"
   },
   {
     "qe": "Which component typically represents the largest portion of India's total External Debt profile?",
     "qh": "भारत के बाह्य ऋण का कौन सा घटक आमतौर पर सबसे बड़ा हिस्सा रखता है?",
     "o": [
+      "Multilateral concessionary assistance loans",
       "Short-term non-resident deposits",
       "External Commercial Borrowings (ECBs) by corporations",
-      "Multilateral concessionary assistance loans",
       "Sovereign IMF credit lines"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Commercial loans raised by domestic companies from international capital markets (ECBs) form the largest share of external debt. / भारतीय कंपनियों द्वारा विदेशी बाजारों से जुटाया गया वाणिज्यिक ऋण (ECBs) भारत के कुल बाह्य ऋण का सबसे बड़ा हिस्सा है।"
   },
   {
     "qe": "What maturity threshold defines 'Short-Term External Debt' in national debt accounting?",
     "qh": "बाह्य देनदारियों के संदर्भ में 'अल्पकालिक ऋण' की परिभाषा क्या है?",
     "o": [
-      "Maturity greater than 5 years",
-      "Original contractual maturity up to one year (365 days)",
       "Debt with floating rate coupons",
-      "Perpetual debt"
+      "Maturity greater than 5 years",
+      "Perpetual debt",
+      "Original contractual maturity up to one year (365 days)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "External debt with an original repayment maturity of 12 months or less is classified as short-term. / 1 वर्ष या उससे कम की मूल परिपक्वता अवधि वाली विदेशी देनदारियों को अल्पकालिक ऋण कहा जाता है।"
   },
   {
     "qe": "The macro-prudential 'Impossible Trinity' (Policy Trilemma) asserts that no country can simultaneously sustain which three?",
     "qh": "'इम्पॉसिबल ट्रिनिटी' (ट्रिलेमा) की अवधारणा बताती है कि किन तीन को एक साथ रखना असंभव है?",
     "o": [
-      "Balanced Budget, Low Taxation, and Welfare Spending",
-      "Fixed Exchange Rate, Free Capital Mobility, and Independent Monetary Policy",
       "High Growth, Low Inflation, and Low Unemployment",
-      "Universal Healthcare, Free Education, and Free Transit"
+      "Universal Healthcare, Free Education, and Free Transit",
+      "Balanced Budget, Low Taxation, and Welfare Spending",
+      "Fixed Exchange Rate, Free Capital Mobility, and Independent Monetary Policy"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Mundell-Fleming trilemma states that picking any two forces abandonment of the third (e.g., free capital + fixed peg loses rate autonomy). / कोई भी अर्थव्यवस्था निश्चित विनिमय दर, स्वतंत्र मौद्रिक नीति और पूंजी का खुला प्रवाह—इन तीनों को एक साथ हासिल नहीं कर सकती।"
   },
   {
     "qe": "What benchmark coverage does the 'Greenspan-Guidotti Rule' mandate for adequate foreign exchange reserves?",
     "qh": "'ग्रीनस्पैन-गुइडोटी नियम' सुझाव देता है कि किसी देश का भंडार किसके लिए पर्याप्त होना चाहिए?",
     "o": [
-      "Total agricultural subsidy requirements",
-      "Sufficient reserves to cover 100% of external debt payments maturing within the coming one year",
       "One decade of government payroll liabilities",
-      "None"
+      "Sufficient reserves to cover 100% of external debt payments maturing within the coming one year",
+      "Total agricultural subsidy requirements",
+      "None of these"
     ],
     "a": 1,
     "e": "The rule states that central bank reserves should match short-term external debt maturing within 12 months to prevent default panics. / यह नियम कहता है कि किसी देश का विदेशी मुद्रा भंडार अगले एक साल में परिपक्व होने वाले कुल विदेशी ऋण को चुकाने के लिए पर्याप्त होना चाहिए।"

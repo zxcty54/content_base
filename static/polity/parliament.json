@@ -3,10 +3,10 @@
     "qe": "Who presides over the 'Joint Sitting' of the two Houses of Parliament under Article 108?",
     "qh": "संसद के दोनों सदनों की 'संयुक्त बैठक' की अध्यक्षता कौन करता है?",
     "o": [
+      "The Union Prime Minister",
       "The President of India",
-      "The Vice-President of India",
       "The Speaker of the Lok Sabha",
-      "The Union Prime Minister"
+      "The Vice-President of India"
     ],
     "a": 2,
     "e": "Article 108 ke tehat jab Ordinary Bill par dono Houses me deadlock ho jaye, toh President Joint Sitting summon karta hai. Lekin Article 118(4) ke anusar iski adhyakshta Lok Sabha Speaker (ya unki absence me Deputy Speaker) karte hain. Rajya Sabha Chairman iski adhyakshta kabhi nahi karte."
@@ -16,21 +16,21 @@
     "qh": "'धन विधेयक' केवल कहाँ पेश किया जा सकता है?",
     "o": [
       "The Rajya Sabha exclusively",
-      "The Lok Sabha exclusively",
       "Either House of Parliament",
-      "Only in a Joint Sitting of both Houses"
+      "Only in a Joint Sitting of both Houses",
+      "The Lok Sabha exclusively"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Article 109 aur 117 ke mutabiq Money Bill sirf Lok Sabha me hi introduce ho sakta hai, aur wo bhi President ki prior recommendation ke baad. Rajya Sabha isme amendment propose kar sakti hai par force nahi kar sakti."
   },
   {
     "qe": "What is the constitutional 'Quorum' required to constitute a sitting of either House of Parliament under Article 100?",
     "qh": "संसद के किसी भी सदन की बैठक के लिए आवश्यक 'कोरम' क्या है?",
     "o": [
-      "One-fifth (1/5th) of the total members",
-      "One-tenth (1/10th) of the total number of members of the House",
       "One-third (1/3rd) of total members",
-      "Fixed at 50 members regardless of the House"
+      "One-tenth (1/10th) of the total number of members of the House",
+      "Fixed at 50 members regardless of the House",
+      "One-fifth (1/5th) of the total members"
     ],
     "a": 1,
     "e": "Article 100(3) specify karta hai ki Lok Sabha ya Rajya Sabha ki meeting valid hone ke liye us House ke total members ka kam se kam 1/10th (10%) presence hona anivarya hai (Speaker ya Chairman ko count karke)."
@@ -39,12 +39,12 @@
     "qe": "Why is the Rajya Sabha constitutionally referred to as a 'Permanent House' under Article 83?",
     "qh": "संसद के किस सदन को 'स्थायी सदन' कहा जाता है?",
     "o": [
+      "Because it exercises emergency financial veto powers",
       "Because its members have lifetime tenure",
       "Because it is not subject to dissolution, and one-third of its members retire every second year",
-      "Because it exercises emergency financial veto powers",
       "Because its decisions cannot be reviewed by the Supreme Court"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Article 83(1) ke mutabiq Rajya Sabha ek continuous permanent body hai jise dissolve nahi kiya ja sakta. Iske 1/3rd members har 2 saal me retire ho jaate hain aur individual members ka term 6 saal hota hai."
   },
   {
@@ -52,11 +52,11 @@
     "qh": "'लोक लेखा समिति' (PAC) में कितने सदस्य होते हैं?",
     "o": [
       "15 members from Lok Sabha only",
-      "22 members (15 from Lok Sabha and 7 from Rajya Sabha)",
+      "20 members (10 from LS and 10 from RS)",
       "30 members from Lok Sabha only",
-      "20 members (10 from LS and 10 from RS)"
+      "22 members (15 from Lok Sabha and 7 from Rajya Sabha)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "PAC 1921 me bani parliamentary financial watchdog hai. Isme total 22 members hote hain (15 Lok Sabha aur 7 Rajya Sabha se single transferable vote ke through elected). Ye CAG ki audit reports ko examine karti hai."
   },
   {
@@ -64,117 +64,117 @@
     "qh": "संसद में 'शून्य काल' किस समय शुरू होता है?",
     "o": [
       "At 11:00 AM at the start of sitting",
-      "Immediately after Question Hour at 12:00 Noon",
       "At 2:00 PM after lunch recess",
-      "During the last hour of business"
+      "During the last hour of business",
+      "Immediately after Question Hour at 12:00 Noon"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Question Hour (11 AM to 12 Noon) ke theek baad 12 baje Zero Hour shuru hota hai. Ye 1962 se shuru hui Indian parliamentary innovation hai jisme MPs bina advance notice ke urgent public issues utha sakte hain."
   },
   {
     "qe": "Under Article 312, which House of Parliament possesses the exclusive federal prerogative to initiate the creation of a new All-India Service?",
     "qh": "अनुच्छेद 312 राज्यसभा को क्या बनाने की विशेष शक्ति देता है?",
     "o": [
-      "Creation of new autonomous territorial zones",
       "Creation of one or more All-India Services through a two-thirds majority resolution",
       "Initiation of national emergency proclamations",
+      "Creation of new autonomous territorial zones",
       "Certification of union money bills"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Article 312 States ke federal interests ko protect karta hai. Agar Rajya Sabha 2/3rd present and voting majority se pass kare ki national interest me zaroori hai, tabhi Parliament law banakar nayi All-India Service (jaise IAS, IPS, IFoS) create kar sakti hai."
   },
   {
     "qe": "Who possesses the final, non-justiciable constitutional authority to certify whether a bill is a 'Money Bill' under Article 110?",
     "qh": "कौन तय करता है कि कोई विधेयक 'धन विधेयक' है या नहीं?",
     "o": [
-      "The President of India",
       "The Union Finance Minister",
       "The Speaker of the Lok Sabha",
+      "The President of India",
       "The Chief Justice of India"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Article 110(3) ke mutabiq agar koi doubt uthe ki koi bill Money Bill hai ya nahi, toh Lok Sabha Speaker ka certificate aakhri mana jata hai aur use Rajya Sabha, President ya kisi court me question nahi kiya ja sakta."
   },
   {
     "qe": "The Estimates Committee of Parliament draws its entire membership from which House?",
     "qh": "'प्राक्कलन समिति' किन सदस्यों से बनी होती है?",
     "o": [
-      "Both Houses of Parliament proportionally",
+      "Nominated technical financial experts only",
       "Exclusively from the Rajya Sabha",
-      "Exclusively from the Lok Sabha (30 members)",
-      "Nominated technical financial experts only"
+      "Both Houses of Parliament proportionally",
+      "Exclusively from the Lok Sabha (30 members)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Estimates Committee Parliament ki sabse badi financial standing committee hai. Isme 30 members hote hain aur ye sabhi sirf Lok Sabha se elected hote hain (Rajya Sabha ka koi representation nahi hota)."
   },
   {
     "qe": "Following the 104th Constitutional Amendment Act, what is the maximum number of directly elected seats in the Lok Sabha?",
     "qh": "लोकसभा में निर्वाचित सदस्यों की अधिकतम संख्या कितनी है?",
     "o": [
-      "530 members",
-      "543 members currently elected (550 maximum elective capacity)",
       "552 members",
-      "250 members"
+      "250 members",
+      "530 members",
+      "543 members currently elected (550 maximum elective capacity)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "104th Amendment Act 2020 ne 2 Anglo-Indian nomination quota ko abolish kar diya. Ab total maximum elective capacity 550 hai (530 States + 20 UTs) aur currently 543 constituencies par direct elections conduct kiye jaate hain."
   },
   {
     "qe": "What does a 'Lame Duck Session' signify in parliamentary convention?",
     "qh": "संसद का 'लेम डक' सत्र क्या है?",
     "o": [
-      "The special inaugural session of a newly formed parliament",
       "The last session of the outgoing Lok Sabha held after elections have taken place for the new Lok Sabha",
       "An unlisted midnight emergency sitting",
+      "The special inaugural session of a newly formed parliament",
       "A session without formal legislative business"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Outgoing Lok Sabha ke aakhri session ko Lame Duck Session kehte hain jo nayi Lok Sabha ke elect hone ke baad purane members ki aakhri sitting hoti hai. Wo outgoing MPs jo dobara elect nahi huye, unhe 'Lame Ducks' kaha jata hai."
   },
   {
     "qe": "Under Article 112, what constitutional term is used instead of the word 'Budget'?",
     "qh": "संविधान का अनुच्छेद 112 किससे संबंधित है और 'बजट' के लिए कौन सा शब्द प्रयोग करता है?",
     "o": [
-      "Annual Financial Statement",
       "Consolidated Expenditure Bill",
       "National Appropriation Act",
-      "Union Balance Ledger"
+      "Union Balance Ledger",
+      "Annual Financial Statement"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Constitution me 'Budget' word kahin use nahi hua hai. Article 112 ise 'Annual Financial Statement' kehta hai, jo aane wale financial year ke estimated receipts aur expenditures ka formal balance sheet hota hai."
   },
   {
     "qe": "Under Article 101(4), after how many consecutive days of unauthorized absence does an MP vacate their seat?",
     "qh": "एक सांसद अपनी सीट खो देता है यदि वह बिना अनुमति के कितने समय तक अनुपस्थित रहता है?",
     "o": [
-      "30 continuous days",
-      "60 consecutive days without permission of the House",
+      "6 calendar months",
       "90 days",
-      "6 calendar months"
+      "60 consecutive days without permission of the House",
+      "30 continuous days"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Article 101(4) ke anusar agar koi MP sadan ki permission ke bina lagatar 60 dino tak uski sabhi sittings me absent rehta hai, toh House uski seat ko vacant declare kar sakta hai (isme 4 din se zyada ke prorogation/adjournment ko count nahi kiya jata)."
   },
   {
     "qe": "Under Article 64, who acts as the ex-officio Chairman of the Council of States (Rajya Sabha)?",
     "qh": "राज्यसभा का 'पदेन सभापति' कौन होता है?",
     "o": [
-      "The President of India",
       "The Vice-President of India",
-      "The Chief Justice of India",
-      "An elected senior member of the House"
+      "An elected senior member of the House",
+      "The President of India",
+      "The Chief Justice of India"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Article 64 aur 89(1) mandate karte hain ki Bharat ke Vice-President apne office ki wajah se automatically Rajya Sabha ke ex-officio Chairman hote hain. Unhe salary Vice-President post ki nahi balki Rajya Sabha Chairman ke roop me milti hai."
   },
   {
     "qe": "When is 'Question Hour' conducted during the standard daily sittings of Parliament?",
     "qh": "'प्रश्नकाल' आमतौर पर कब आयोजित किया जाता है?",
     "o": [
+      "During the post-lunch legislative session",
       "During the final hour before adjournment",
-      "At 12:00 Noon during Zero Hour",
       "The very first hour of every parliamentary sitting (11:00 AM to 12:00 Noon)",
-      "During the post-lunch legislative session"
+      "At 12:00 Noon during Zero Hour"
     ],
     "a": 2,
     "e": "Parliament ki normal sitting ka pehla ghanta (11 AM to 12 Noon) Question Hour hota hai, jisme MPs central ministers se unke departments ke administration aur schemes par sawal puchte hain."
@@ -183,10 +183,10 @@
     "qe": "Which type of bill can originate in either House but cannot be referred to a Joint Sitting in case of deadlock?",
     "qh": "कौन सा विधेयक किसी भी सदन में शुरू हो सकता है लेकिन इसके लिए 'संयुक्त बैठक' का प्रावधान नहीं है?",
     "o": [
+      "State boundary reorganization bills",
       "Ordinary legislative bills",
-      "Financial Bill Category I",
       "Constitutional Amendment Bill under Article 368",
-      "State boundary reorganization bills"
+      "Financial Bill Category I"
     ],
     "a": 2,
     "e": "Constitutional Amendment Bill (Article 368) Lok Sabha ya Rajya Sabha kisi me bhi shuru ho sakta hai, par dono Houses ko ise alag-alag special majority se pass karna anivarya hai. Agar dono ke beech matbhed ho, toh bill lapse ho jata hai; Article 108 ke tehat Joint Sitting allowed nahi hai."
@@ -196,11 +196,11 @@
     "qh": "लोकसभा में 'सभापति तालिका' का नामांकन किसके द्वारा किया जाता है?",
     "o": [
       "The President of India",
+      "The Minister of Parliamentary Affairs",
       "The Prime Minister as Leader of the House",
-      "The Speaker of the Lok Sabha (not more than 10 members)",
-      "The Minister of Parliamentary Affairs"
+      "The Speaker of the Lok Sabha (not more than 10 members)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Rules of Procedure ke tehat Speaker members me se maximum 10 sadasyo ko Panel of Chairpersons me nominate karta hai. Jab Speaker aur Deputy Speaker dono absent hote hain, toh is panel ka koi member House ki proceedings chair karta hai."
   },
   {
@@ -208,9 +208,9 @@
     "qh": "अनुच्छेद 105 के तहत सांसदों को विशेषाधिकारों के संबंध में क्या सुरक्षा प्रदान की गई है?",
     "o": [
       "Absolute freedom of speech in Parliament, with immunity from court proceedings for anything said or any vote given in the House",
-      "Complete exemption from personal income taxation",
+      "Permanent diplomatic passports for private travels",
       "Immunity from criminal arrests under preventive detention statutes",
-      "Permanent diplomatic passports for private travels"
+      "Complete exemption from personal income taxation"
     ],
     "a": 0,
     "e": "Article 105(2) complete judicial immunity deta hai: kisi bhi MP dwara sadan me kahi gayi baat ya diye gaye vote par desh ke kisi bhi court me civil ya criminal proceedings nahi chal sakti."
@@ -219,10 +219,10 @@
     "qe": "What is the maximum sanctioned strength of the Rajya Sabha as laid down in Article 80?",
     "qh": "राज्यसभा की अधिकतम सदस्य संख्या कितनी है?",
     "o": [
-      "245 members",
+      "543 members",
       "250 members (238 representing States/UTs + 12 nominated by President)",
       "300 members",
-      "543 members"
+      "245 members"
     ],
     "a": 1,
     "e": "Article 80 ke mutabiq Rajya Sabha ki maximum strength 250 hai: 238 seats States aur Union Territories ke elected representatives ke liye hoti hain aur 12 members ko President Art, Literature, Science aur Social Service se nominate karta hai."
@@ -231,12 +231,12 @@
     "qe": "Which of the following bodies is an Executive Cabinet Committee rather than a Standing Parliamentary Committee?",
     "qh": "निम्नलिखित में से कौन सी एक संसदीय समिति नहीं बल्कि कार्यकारी कैबिनेट समिति है?",
     "o": [
-      "Public Accounts Committee",
+      "Committee on Public Undertakings",
       "Estimates Committee",
-      "Cabinet Committee on Economic Affairs (CCEA)",
-      "Committee on Public Undertakings"
+      "Public Accounts Committee",
+      "Cabinet Committee on Economic Affairs (CCEA)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "CCEA, Appointments Committee of the Cabinet (ACC) aur Cabinet Committee on Security (CCS) Central Government (Executive) ke internal administrative decision making groups hote hain, jabki PAC, Estimates aur COPU Parliamentary Committees hain."
   },
   {
@@ -245,8 +245,8 @@
     "o": [
       "The voluntary surrender of department grants",
       "Putting all undiscovered and remaining demands for grants to vote immediately on the final allotted day without further discussion",
-      "The complete rejection of the Finance Bill by the Speaker",
-      "The suspension of the session due to fiscal deficit"
+      "The suspension of the session due to fiscal deficit",
+      "The complete rejection of the Finance Bill by the Speaker"
     ],
     "a": 1,
     "e": "Budget discussion ke liye time limited hota hai. Allotted days khatam hone par Speaker remaining sabhi ministries ke demands for grants ko bina aage behes ke ek sath voting ke liye put kar deta hai, jise parliamentary Guillotine kaha jata hai."
@@ -256,59 +256,59 @@
     "qh": "'विशेषाधिकार प्रस्ताव' संसद में किसके खिलाफ लाया जा सकता है?",
     "o": [
       "The Chief Justice of India",
-      "A Minister who has committed a breach of privilege by withholding facts or giving wrong information",
+      "The Comptroller and Auditor General",
       "The President of India directly",
-      "The Comptroller and Auditor General"
+      "A Minister who has committed a breach of privilege by withholding facts or giving wrong information"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Jab koi Minister sadan ko misled karta hai, galat facts deta hai ya jankaari chupata hai, toh MPs House ke collective privilege breach ke base par us minister ke khilaaf Privilege Motion move karte hain."
   },
   {
     "qe": "Who functions as the 'Leader of the House' in the Rajya Sabha?",
     "qh": "राज्यसभा में 'सदन का नेता' कौन होता है?",
     "o": [
-      "The Vice-President of India",
-      "The Prime Minister (if a member of RS) or a Union Cabinet Minister nominated by the Prime Minister",
       "The Leader of Opposition in the House",
-      "The Deputy Chairman of Rajya Sabha"
+      "The Vice-President of India",
+      "The Deputy Chairman of Rajya Sabha",
+      "The Prime Minister (if a member of RS) or a Union Cabinet Minister nominated by the Prime Minister"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Rules of Procedure ke tehat agar Prime Minister khud Rajya Sabha ke MP hain toh wo Leader of the House hote hain; agar wo Lok Sabha ke MP hain, toh wo Rajya Sabha ke kisi senior Cabinet Minister ko ye responsibility designate karte hain."
   },
   {
     "qe": "What is the procedural difference between a 'Censure Motion' and a 'No-Confidence Motion'?",
     "qh": "'निंदा प्रस्ताव' और 'अविश्वास प्रस्ताव' में क्या प्रक्रियात्मक अंतर है?",
     "o": [
-      "Censure motion requires no reasons, while no-confidence motion requires detailed grounds",
       "Censure motion must state specific reasons/policies being censured against an individual minister or cabinet, and its passage does not mandate immediate resignation of the government",
       "Censure motion can be introduced only in the Rajya Sabha",
-      "Both motions lead to the automatic dissolution of Parliament"
+      "Both motions lead to the automatic dissolution of Parliament",
+      "Censure motion requires no reasons, while no-confidence motion requires detailed grounds"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Censure Motion kisi specific policy ya minister ke failure par reason bata kar laya jata hai aur iske pass hone par sarkar nahi girti. No-Confidence Motion poori Council of Ministers ke khilaaf bina reason bataye laya jata hai aur pass hone par government ko resign karna padta hai."
   },
   {
     "qe": "Under the Tenth Schedule (Anti-Defection Law), a Member of Parliament incurs disqualification if:",
     "qh": "10वीं अनुसूची के तहत एक सांसद को अयोग्य घोषित किया जा सकता है यदि:",
     "o": [
-      "He voluntarily gives up the membership of his political party",
-      "He votes or abstains from voting contrary to party whip without prior permission",
       "An independently elected member joins any political party after election",
-      "All of the above grounds"
+      "All of the above grounds",
+      "He votes or abstains from voting contrary to party whip without prior permission",
+      "He voluntarily gives up the membership of his political party"
     ],
-    "a": 3,
+    "a": 1,
     "e": "52nd Amendment (1985) ke tehat 10th Schedule me voluntary resignation from party, party whip ke against voting karna, independent MP ka party join karna, aur nominated member ka 6 months ke baad party join karna disqualification ke valid grounds hain."
   },
   {
     "qe": "What is the 'Rule of Lapse' in parliamentary financial administration?",
     "qh": "भारतीय संसद में 'व्यपगत का नियम' (Rule of Lapse) क्या है?",
     "o": [
+      "Ordinances expire within 30 days of presidential proclamation",
       "Bills pending in Rajya Sabha lapse automatically after 1 year",
       "Any unspent balance of the financial grant voted by Parliament lapses to the Consolidated Fund on the expiration of the financial year (March 31)",
-      "Speaker's executive ruling lapses when a new session begins",
-      "Ordinances expire within 30 days of presidential proclamation"
+      "Speaker's executive ruling lapses when a new session begins"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Rule of Lapse ka matlab hai ki 31 March (financial year end) tak jo grant kharch nahi hoti, wo expire ho jaati hai aur wapas Consolidated Fund me submit ho jaati hai. Isi wajah se ministries March me funds exhaust karne ke liye 'March Rush' karti hain."
   },
   {
@@ -316,68 +316,68 @@
     "qh": "दलबदल के अलावा सांसदों की अन्य अयोग्यताओं पर अंतिम निर्णय कौन लेता है?",
     "o": [
       "The Speaker of the Lok Sabha alone",
-      "The Supreme Court of India via direct writ",
       "The President of India, acting in accordance with the binding opinion of the Election Commission",
+      "The Supreme Court of India via direct writ",
       "The Prime Minister in Council"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Article 103 ke tehat Office of Profit, unsound mind ya citizenship loss jaise grounds par disqualification ka decision President karta hai. Lekin isme Election Commission of India (ECI) se opinion lena aur use maanna legally binding hota hai."
   },
   {
     "qe": "Which of the following bills does NOT require the prior recommendation of the President before being introduced in Parliament?",
     "qh": "इनमें से किस विधेयक को संसद में पेश करने से पहले राष्ट्रपति की पूर्व सिफारिश की आवश्यकता नहीं होती?",
     "o": [
-      "Money Bill under Article 117(1)",
-      "Financial Bill Category I",
       "Constitutional Amendment Bill under Article 368",
-      "Bill altering State boundaries under Article 3"
+      "Financial Bill Category I",
+      "Bill altering State boundaries under Article 3",
+      "Money Bill under Article 117(1)"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Constitutional Amendment Bill (Article 368) ke introduction ke liye President ki prior sanction ki zaroorat nahi hoti; ye MP ya Minister dwara directly kisi bhi House me table kiya ja sakta hai."
   },
   {
     "qe": "Under Article 266, how can money be withdrawn from the Consolidated Fund of India?",
     "qh": "अनुच्छेद 266 के तहत भारत की संचित निधि से धन कैसे निकाला जा सकता है?",
     "o": [
-      "By an executive notification of the Union Finance Minister",
       "Only under the authority of an Appropriation Act passed by Parliament under Article 114",
-      "Through a direct decree issued by the Comptroller and Auditor General",
-      "Through a resolution of the Public Accounts Committee"
+      "By an executive notification of the Union Finance Minister",
+      "Through a resolution of the Public Accounts Committee",
+      "Through a direct decree issued by the Comptroller and Auditor General"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Article 266(3) explicitly declare karta hai ki Parliament ke banaye kanoon (Appropriation Act under Art 114) ke bina Consolidated Fund of India se ek rupaya bhi withdraw nahi kiya ja sakta."
   },
   {
     "qe": "What is a 'Point of Order' in parliamentary procedure?",
     "qh": "संसद में 'औचित्य का प्रश्न' (Point of Order) क्या है?",
     "o": [
-      "A motion to initiate voting on a government bill",
       "An intervention raised by a member alleging that the proceedings of the House are violating its constitutional or procedural rules",
+      "A notice for moving an adjournment motion",
       "A formal request to extend the Question Hour",
-      "A notice for moving an adjournment motion"
+      "A motion to initiate voting on a government bill"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Jab sadan me chal rahi proceedings Rules of the House ya Constitution ke provisions ko violate karti hain, toh koi bhi MP Point of Order utha sakta hai. Ispe koi debate nahi hoti aur Presiding Officer ka ruling final hota hai."
   },
   {
     "qe": "Under Article 114, what is the core purpose of introducing an 'Appropriation Bill'?",
     "qh": "अनुच्छेद 114 के तहत 'विनियोग विधेयक' पेश करने का मुख्य उद्देश्य क्या है?",
     "o": [
+      "To adjust salaries of judicial magistrates",
       "To impose fresh corporate and personal taxes",
       "To provide the legal authorization for withdrawing money from the Consolidated Fund of India to meet voted demands for grants and charged expenditures",
-      "To borrow money from international financial institutions",
-      "To adjust salaries of judicial magistrates"
+      "To borrow money from international financial institutions"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Lok Sabha dwara Demands for Grants vote hone ke baad Article 114 ke tehat Appropriation Bill pass kiya jata hai. Ye bill sarkar ko Consolidated Fund se sanctioned expenditure nikalne ki legal authority deta hai."
   },
   {
     "qe": "Under Article 116, what is the constitutional mechanism of 'Vote on Account'?",
     "qh": "अनुच्छेद 116 के तहत 'लेखानुदान' (Vote on Account) का संवैधानिक तंत्र क्या है?",
     "o": [
-      "Voting on the complete annual financial statement",
-      "An advance grant made by the Lok Sabha to cover estimated expenditure for a part of the financial year pending the completion of the budget voting process",
       "A special overdraft granted by the Reserve Bank of India",
+      "An advance grant made by the Lok Sabha to cover estimated expenditure for a part of the financial year pending the completion of the budget voting process",
+      "Voting on the complete annual financial statement",
       "A loan sanctioned directly by the Comptroller and Auditor General"
     ],
     "a": 1,
@@ -388,33 +388,33 @@
     "qh": "राज्यसभा लोकसभा द्वारा भेजे गए धन विधेयक को अधिकतम कितने दिनों तक रोक सकती है?",
     "o": [
       "30 days",
-      "60 days",
       "14 calendar days",
-      "Until the conclusion of the ongoing session"
+      "Until the conclusion of the ongoing session",
+      "60 days"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Article 109(5) ke mutabiq Lok Sabha se pass hone ke baad Rajya Sabha ko Money Bill 14 days ke andar return karna hota hai. Agar 14 days me return na kiya jaye, toh wo automatically dono houses dwara passed maan liya jata hai."
   },
   {
     "qe": "How can the Speaker of the Lok Sabha be removed from office under Article 94?",
     "qh": "लोकसभा के अध्यक्ष को अनुच्छेद 94 के तहत कैसे हटाया जा सकता है?",
     "o": [
-      "By an order of the President of India on Cabinet advice",
       "By a resolution of the Lok Sabha passed by an effective majority of all the then members of the House, after giving 14 days notice",
-      "Through an impeachment address passed by two-thirds majority of both Houses",
-      "By the Supreme Court on an election petition"
+      "By an order of the President of India on Cabinet advice",
+      "By the Supreme Court on an election petition",
+      "Through an impeachment address passed by two-thirds majority of both Houses"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Speaker ko hatane ke liye 14 days ka advance notice dena padta hai aur Lok Sabha ke 'all the then members' ki majority (Effective Majority) se resolution pass hona anivarya hota hai. Resolution ke dauran Speaker preside nahi kar sakta."
   },
   {
     "qe": "Under Article 120, what is the constitutional provision regarding the language to be used in Parliament?",
     "qh": "अनुच्छेद 120 के तहत संसद में प्रयोग की जाने वाली भाषा के संबंध में क्या प्रावधान है?",
     "o": [
-      "Strictly Hindi in Devanagari script only",
+      "Exclusively English in all legislative draft bills",
       "Business shall be transacted in Hindi or in English, with the Presiding Officer empowered to permit a member to address the House in their mother tongue",
       "Any of the 22 languages listed in the Eighth Schedule without permission",
-      "Exclusively English in all legislative draft bills"
+      "Strictly Hindi in Devanagari script only"
     ],
     "a": 1,
     "e": "Article 120 ke tehat parliamentary business Hindi ya English me conduct hota hai. Lekin agar koi MP dono me expressive na ho, toh Speaker ya Chairman use apni mother tongue me House ko address karne ki permission de sakta hai."
@@ -423,70 +423,70 @@
     "qe": "How many members must stand in their seats to support an 'Adjournment Motion' in the Lok Sabha before it is admitted?",
     "qh": "लोकसभा में 'स्थगन प्रस्ताव' स्वीकार किए जाने से पहले कितने सदस्यों का समर्थन आवश्यक है?",
     "o": [
-      "25 members",
       "50 members",
       "100 members",
-      "One-tenth of the total house strength"
+      "One-tenth of the total house strength",
+      "25 members"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Adjournment motion sadan ke normal business ko suspend karke urgent public importance ke matter ko uthata hai. Ye government ke against censure element rakhta hai, isliye ise admit karne ke liye kam se kam 50 MPs ka support anivarya hai."
   },
   {
     "qe": "Which of the following bills does NOT lapse upon the dissolution of the Lok Sabha?",
     "qh": "लोकसभा के भंग होने पर कौन सा विधेयक समाप्त नहीं होता है?",
     "o": [
-      "A bill originated in and pending in the Lok Sabha",
-      "A bill passed by the Lok Sabha but pending in the Rajya Sabha",
+      "A bill returned by the President for reconsideration",
       "A bill originated and pending in the Rajya Sabha which has not been passed by the Lok Sabha",
-      "A bill returned by the President for reconsideration"
+      "A bill originated in and pending in the Lok Sabha",
+      "A bill passed by the Lok Sabha but pending in the Rajya Sabha"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Article 107(4) specify karta hai ki jo bill Rajya Sabha me introduce hua ho aur abhi wahi pending ho (Lok Sabha dwara pass nahi kiya gaya ho), wo Lok Sabha ke dissolve hone par lapse nahi hota."
   },
   {
     "qe": "Under Article 82, the readjustment of allocation of parliamentary seats and boundaries after every decennial census is enacted by:",
     "qh": "अनुच्छेद 82 के तहत प्रत्येक जनगणना के बाद सीटों और सीमाओं के पुनर्समायोजन को क्या कहा जाता है?",
     "o": [
+      "State-level panchayat adjustments",
       "A direct proclamation by the Chief Election Commissioner",
       "Delimitation enacted by Parliament by Law",
-      "A presidential decree on the advice of the Supreme Court",
-      "State-level panchayat adjustments"
+      "A presidential decree on the advice of the Supreme Court"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Article 82 ke tehat census ke baad Parliament Delimitation Act pass karti hai aur Delimitation Commission appoint hota hai. 84th Amendment 2001 ne seats ke total allocation ko 1971 census ke base par freeze kiya hua hai."
   },
   {
     "qe": "What does a 'Calling Attention Motion' achieve in the Indian parliamentary system?",
     "qh": "संसद में 'ध्यानाकर्षण प्रस्ताव' (Calling Attention Motion) का क्या कार्य होता है?",
     "o": [
-      "It demands the resignation of the Council of Ministers",
       "It allows a member to call the attention of a Minister to an urgent matter of public importance and seek an authoritative statement",
+      "It demands the resignation of the Council of Ministers",
       "It suspends the Question Hour indefinitely",
       "It refers a pending bill to a joint committee"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Calling Attention Motion 1954 se shuru hua Indian innovation hai. Isme Presiding Officer ki consent se koi MP urgent public matter par concerned Minister ka attention draw karta hai aur minister authoritative factual statement deta hai."
   },
   {
     "qe": "In which historic year was the Council of States (Rajya Sabha) first constituted?",
     "qh": "राज्यसभा का गठन पहली बार किस वर्ष किया गया था?",
     "o": [
-      "1950",
       "1951",
-      "1952 (April 1952)",
-      "1954"
+      "1950",
+      "1954",
+      "1952 (April 1952)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Council of States ka pehla formal constitution 3 April 1952 ko hua tha aur iski pehli sitting 13 May 1952 ko hui thi. 23 August 1954 ko Chairman ne announce kiya tha ki ise 'Rajya Sabha' ke naam se jana jayega."
   },
   {
     "qe": "What is the statutory composition of the Committee on Public Undertakings (COPU)?",
     "qh": "'सार्वजनिक उपक्रम समिति' (COPU) में कितने सदस्य होते हैं?",
     "o": [
-      "15 members from Lok Sabha only",
+      "10 members nominated by the President",
       "22 members (15 from Lok Sabha and 7 from Rajya Sabha)",
       "30 members from Lok Sabha only",
-      "10 members nominated by the President"
+      "15 members from Lok Sabha only"
     ],
     "a": 1,
     "e": "Krishna Menon Committee ki sifaarish par 1964 me sthapit COPU me 22 members hote hain (15 LS + 7 RS proportional representation se elected). Ye Public Sector Undertakings (PSUs) ke accounts aur CAG reports ki scrutiny karti hai."
@@ -495,10 +495,10 @@
     "qe": "Under the Lok Sabha Rules of Procedure, what is the minimum membership support required to admit a 'No-Confidence Motion'?",
     "qh": "लोकसभा में 'अविश्वास प्रस्ताव' स्वीकार करने के लिए कितने सदस्यों के समर्थन की आवश्यकता होती है?",
     "o": [
-      "10 members",
       "25 members",
+      "100 members",
       "50 members standing in their seats",
-      "100 members"
+      "10 members"
     ],
     "a": 2,
     "e": "Lok Sabha Rule 198 ke mutabiq No-Confidence Motion sirf Lok Sabha me hi laya ja sakta hai aur ise admit karne ke liye kam se kam 50 MPs ka support anivarya hai. Iske pass hone par Council of Ministers ko resign karna padta hai."
@@ -508,11 +508,11 @@
     "qh": "अनुच्छेद 100(1) के तहत पीठासीन अधिकारी के 'निर्णायक मत' (Casting Vote) का क्या महत्व है?",
     "o": [
       "The Speaker votes first on all constitutional amendment bills",
-      "The Speaker or Chairman does not vote in the first instance, but exercises a casting vote in the case of an equality of votes (tie)",
+      "The Speaker can cast a proxy vote on behalf of absent MPs",
       "The Speaker has two votes on financial bills",
-      "The Speaker can cast a proxy vote on behalf of absent MPs"
+      "The Speaker or Chairman does not vote in the first instance, but exercises a casting vote in the case of an equality of votes (tie)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Presiding officer neutral hota hai isliye wo first instance me vote nahi deta. Lekin jab 'Ayes' aur 'Noes' barabar ho jayein (50-50 tie), tab deadlock break karne ke liye wo casting vote use karta hai."
   },
   {
@@ -520,9 +520,9 @@
     "qh": "अनुच्छेद 98 के तहत संसद के दोनों सदनों के सचिवालयों को क्या सुरक्षा दी गई है?",
     "o": [
       "Each House of Parliament shall have a separate secretarial staff independent of the Executive",
-      "The secretarial staff is common and managed by the Ministry of Home Affairs",
       "All parliamentary clerks are appointed by the Union Public Service Commission",
-      "Secretaries are subordinate to the Prime Minister's Office"
+      "Secretaries are subordinate to the Prime Minister's Office",
+      "The secretarial staff is common and managed by the Ministry of Home Affairs"
     ],
     "a": 0,
     "e": "Article 98 mandate karta hai ki Lok Sabha aur Rajya Sabha dono ka apna separate, independent secretarial staff hoga jiske administrative rules Parliament banati hai taaki legislature bina executive pressure ke function kare."
@@ -531,22 +531,22 @@
     "qe": "Under Article 3, who holds the constitutional power to form new States and alter the areas, boundaries, or names of existing States?",
     "qh": "अनुच्छेद 3 के तहत नए राज्य बनाने या मौजूदा राज्यों की सीमाओं को बदलने की शक्ति किसके पास है?",
     "o": [
-      "The concerned State Legislative Assemblies by special resolution",
       "Parliament by Law (passed by a simple majority)",
       "The Supreme Court through territorial arbitration",
+      "The concerned State Legislative Assemblies by special resolution",
       "The Inter-State Council with presidential approval"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Article 3 Parliament ko power deta hai ki wo President ki prior recommendation aur concerned State Legislature se views maangne ke baad simple majority law se nayi states create kar sakti hai ya boundaries alter kar sakti hai (jaise 2000 me Bihar se Jharkhand banaya gaya)."
   },
   {
     "qe": "Under Article 87, when is the President constitutionally required to deliver an address to both Houses of Parliament assembled together?",
     "qh": "अनुच्छेद 87 के तहत राष्ट्रपति के लिए संसद के दोनों सदनों को एक साथ संबोधित करना कब अनिवार्य है?",
     "o": [
-      "At the commencement of every parliamentary sitting",
-      "At the commencement of the first session after each general election to the Lok Sabha and at the commencement of the first session of each year",
       "Only during joint sittings called to resolve legislative deadlocks",
-      "At the end of every fiscal financial quarter"
+      "At the commencement of the first session after each general election to the Lok Sabha and at the commencement of the first session of each year",
+      "At the end of every fiscal financial quarter",
+      "At the commencement of every parliamentary sitting"
     ],
     "a": 1,
     "e": "Article 87 ke tehat general elections ke baad ke pehle session aur har saal ke pehle session (Budget session) me President dono houses ko ek sath assemble karke government ki operational policies outline karte hain, jiske baad Motion of Thanks par voting hoti hai."
@@ -555,24 +555,24 @@
     "qe": "Article 122 of the Constitution explicitly places which barrier on the jurisdiction of courts regarding Parliament?",
     "qh": "संविधान का अनुच्छेद 122 संसद के संबंध में अदालतों के अधिकार क्षेत्र पर क्या रोक लगाता है?",
     "o": [
+      "Judges cannot cite parliamentary debates in judgments",
       "Courts cannot punish members of parliament for treason",
       "The validity of any proceedings in Parliament shall not be called in question in any court on the ground of any alleged irregularity of procedure",
-      "Courts cannot interpret legislation passed by Parliament",
-      "Judges cannot cite parliamentary debates in judgments"
+      "Courts cannot interpret legislation passed by Parliament"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Article 122 separation of powers maintain karta hai: parliamentary proceedings ke procedural irregularity par court inquiry nahi kar sakti aur House ke officers internal conduct ke liye courts ke jurisdiction me answerable nahi hote."
   },
   {
     "qe": "What is the procedure of 'Half-an-Hour Discussion' in parliamentary practice?",
     "qh": "संसदीय प्रक्रिया में 'आधे घंटे की चर्चा' क्या है?",
     "o": [
+      "A mandatory debate on foreign treaties",
       "A discussion dedicated to passing private member resolutions",
       "A discussion on a matter of sufficient public importance that has been the subject of a recent question (oral or written) needing further elucidation",
-      "A mandatory debate on foreign treaties",
       "A recess before the presentation of the Union Budget"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Jab Question Hour me kisi public importance ke sawal par diya gaya official jawab incomplete ya unsatisfactory lagta hai, toh MPs fact clarification ke liye Speaker ki permission se 30 minutes ki structured discussion karte hain."
   },
   {

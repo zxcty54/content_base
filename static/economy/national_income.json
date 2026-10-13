@@ -3,60 +3,60 @@
     "qe": "Which organization calculates National Income in India?",
     "qh": "भारत में राष्ट्रीय आय की गणना कौन सा संगठन करता है?",
     "o": [
-      "NITI Aayog",
-      "RBI",
       "National Statistical Office (NSO)",
-      "Finance Ministry"
+      "NITI Aayog",
+      "Finance Ministry",
+      "RBI"
     ],
-    "a": 2,
+    "a": 0,
     "e": "National Statistical Office (NSO) under MoSPI calculates National Income and GDP in India. / भारत में MoSPI के तहत NSO राष्ट्रीय आय और जीडीपी की गणना करता है।"
   },
   {
     "qe": "Which of the following is the most appropriate measure of a country's economic growth?",
     "qh": "किसी देश के आर्थिक विकास का सबसे उपयुक्त माप निम्नलिखित में से कौन सा है?",
     "o": [
-      "GDP",
-      "GNP",
       "Per Capita Real Income",
-      "National Income"
+      "GNP",
+      "National Income",
+      "GDP"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Per Capita Real Income accounts for both inflation and population growth, making it the best indicator. / प्रति व्यक्ति वास्तविक आय आर्थिक विकास का सबसे सटीक माप है।"
   },
   {
     "qe": "What is the formula for calculating 'NNP at Factor Cost'?",
     "qh": "'साधन लागत पर NNP' की गणना करने का सूत्र क्या है?",
     "o": [
-      "GNP - Depreciation",
       "NNP at Market Price - Indirect Taxes + Subsidies",
       "GDP + NFIA",
+      "GNP - Depreciation",
       "GNP + Subsidies"
     ],
-    "a": 1,
+    "a": 0,
     "e": "NNP at Factor Cost is also known as National Income. / साधन लागत पर NNP को ही वास्तविक 'राष्ट्रीय आय' कहा जाता है।"
   },
   {
     "qe": "The value of all final goods and services produced within the boundary of a country is called?",
     "qh": "किसी देश की सीमा के भीतर उत्पादित सभी अंतिम वस्तुओं और सेवाओं के मूल्य को क्या कहा जाता है?",
     "o": [
-      "GNP",
       "GDP",
       "NNP",
+      "GNP",
       "Net National Income"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Gross Domestic Product (GDP) focuses on production within the geographical boundary. / जीडीपी भौगोलिक सीमा के भीतर उत्पादन पर ध्यान केंद्रित करता है।"
   },
   {
     "qe": "What is 'Depreciation' in national income accounting?",
     "qh": "राष्ट्रीय आय लेखांकन में 'मूल्यह्रास' (Depreciation) क्या है?",
     "o": [
+      "None of these",
       "Increase in value of assets",
       "Loss of value of fixed capital due to wear and tear",
-      "Tax on income",
-      "None of these"
+      "Tax on income"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Depreciation is the reduction in value of fixed assets over time. / अचल संपत्तियों के घिसने या पुराने होने के कारण उनके मूल्य में होने वाली कमी।"
   },
   {
@@ -64,11 +64,11 @@
     "qh": "निम्नलिखित में से किसे राष्ट्रीय आय में शामिल नहीं किया जाता है?",
     "o": [
       "Salaries",
+      "Rent",
       "Profits",
-      "Transfer Payments (like Pension)",
-      "Rent"
+      "Transfer Payments (like Pension)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Transfer payments are excluded because they do not reflect current production. / हस्तांतरण भुगतान (जैसे पेंशन) को शामिल नहीं किया जाता क्योंकि इसके बदले कोई उत्पादन नहीं होता।"
   },
   {
@@ -77,8 +77,8 @@
     "o": [
       "National Finance India Association",
       "Net Factor Income from Abroad",
-      "New Foreign Investment Act",
-      "None of these"
+      "None of these",
+      "New Foreign Investment Act"
     ],
     "a": 1,
     "e": "GNP = GDP + NFIA. It is the difference between income earned by residents abroad and non-residents here. / निवासियों द्वारा विदेश से अर्जित आय और विदेशियों द्वारा यहाँ अर्जित आय का अंतर।"
@@ -87,10 +87,10 @@
     "qe": "When National Income is calculated at 'Constant Prices', it is called?",
     "qh": "जब राष्ट्रीय आय की गणना 'स्थिर कीमतों' पर की जाती है, तो उसे क्या कहा जाता है?",
     "o": [
-      "Nominal National Income",
-      "Real National Income",
       "Personal Income",
-      "Disposable Income"
+      "Real National Income",
+      "Disposable Income",
+      "Nominal National Income"
     ],
     "a": 1,
     "e": "Real National Income is calculated based on a base year to remove the effect of inflation. / मुद्रास्फीति के प्रभाव को हटाकर आधार वर्ष की कीमतों पर गणना की गई आय।"
@@ -99,10 +99,10 @@
     "qe": "What is 'Disposable Personal Income'?",
     "qh": "'प्रयोज्य व्यक्तिगत आय' (Disposable Personal Income) क्या है?",
     "o": [
-      "Total salary",
+      "Income before tax",
       "Personal Income minus Direct Taxes",
-      "GNP plus Subsidies",
-      "Income before tax"
+      "Total salary",
+      "GNP plus Subsidies"
     ],
     "a": 1,
     "e": "It is the amount left with individuals for spending after paying direct taxes. / प्रत्यक्ष करों के भुगतान के बाद व्यक्तियों के पास खर्च के लिए बची राशि।"
@@ -111,22 +111,22 @@
     "qe": "What is the 'Base Year' currently used by NSO for National Income accounting in India?",
     "qh": "भारत में राष्ट्रीय आय लेखांकन के लिए NSO द्वारा वर्तमान में किस 'आधार वर्ष' का उपयोग किया जा रहा है?",
     "o": [
+      "2020-21",
       "2004-05",
-      "2011-12",
       "2015-16",
-      "2020-21"
+      "2011-12"
     ],
-    "a": 1,
+    "a": 3,
     "e": "The base year was shifted from 2004-05 to 2011-12 in 2015. / 2015 में आधार वर्ष को 2004-05 से बदलकर 2011-12 कर दिया गया था।"
   },
   {
     "qe": "Which of the following methods is NOT used to calculate National Income?",
     "qh": "राष्ट्रीय आय की गणना के लिए निम्नलिखित में से किस पद्धति का उपयोग नहीं किया जाता है?",
     "o": [
+      "Expenditure Method",
       "Product Method",
-      "Income Method",
       "Investment Method",
-      "Expenditure Method"
+      "Income Method"
     ],
     "a": 2,
     "e": "The three standard methods are Product (Value Added), Income, and Expenditure. / तीन मानक विधियाँ उत्पाद, आय और व्यय विधि हैं।"
@@ -135,72 +135,72 @@
     "qe": "What is the 'GDP Deflator' used for?",
     "qh": "'जीडीपी डिफ्लेटर' (GDP Deflator) का उपयोग किसके लिए किया जाता है?",
     "o": [
-      "Measuring unemployment",
       "Measuring the general price level (inflation) in an economy",
       "Calculating tax revenue",
+      "Measuring unemployment",
       "None of these"
     ],
-    "a": 1,
+    "a": 0,
     "e": "It is the ratio of Nominal GDP to Real GDP and measures inflation. / यह नॉमिनल जीडीपी और रियल जीडीपी का अनुपात है और महंगाई को मापता है।"
   },
   {
     "qe": "What is 'Green GDP'?",
     "qh": "'ग्रीन जीडीपी' (Green GDP) क्या है?",
     "o": [
-      "GDP from agriculture",
       "GDP adjusted for environmental degradation and natural resource depletion",
-      "GDP of forest areas",
-      "None of these"
+      "None of these",
+      "GDP from agriculture",
+      "GDP of forest areas"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Green GDP accounts for the environmental costs of economic growth. / यह आर्थिक विकास के पर्यावरणीय नुकसान को घटाकर निकाली गई जीडीपी है।"
   },
   {
     "qe": "In the Expenditure Method, which of the following is included?",
     "qh": "व्यय विधि में निम्नलिखित में से किसे शामिल किया जाता है?",
     "o": [
-      "Consumption + Investment + Govt Spending + (Exports - Imports)",
       "Only Consumption",
       "Profit + Rent + Wages",
-      "GNP - NNP"
+      "GNP - NNP",
+      "Consumption + Investment + Govt Spending + (Exports - Imports)"
     ],
-    "a": 0,
+    "a": 3,
     "e": "The formula is C + I + G + (X - M). / व्यय विधि का सूत्र उपभोग + निवेश + सरकारी खर्च + शुद्ध निर्यात है।"
   },
   {
     "qe": "Which organizations provide the data and report for the 'Global Hunger Index'?",
     "qh": "'ग्लोबल हंगर इंडेक्स' के लिए रिपोर्ट और डेटा कौन से संगठन तैयार करते हैं?",
     "o": [
-      "World Bank and IMF",
-      "FAO and WHO",
       "Concern Worldwide and Welthungerhilfe",
-      "UNDP and UNICEF"
+      "World Bank and IMF",
+      "UNDP and UNICEF",
+      "FAO and WHO"
     ],
-    "a": 2,
+    "a": 0,
     "e": "It is jointly published by Concern Worldwide and Welthungerhilfe to track hunger globally. / यह कन्सर्न वर्ल्डवाइड और वेल्थुंगरहिल्फ़ द्वारा संयुक्त रूप से जारी किया जाता है।"
   },
   {
     "qe": "What is 'National Income' technically equal to?",
     "qh": "'राष्ट्रीय आय' वास्तव में किसके बराबर होती है?",
     "o": [
-      "GNP at Market Price",
       "NNP at Market Price",
-      "NNP at Factor Cost",
-      "GDP at Factor Cost"
+      "GNP at Market Price",
+      "GDP at Factor Cost",
+      "NNP at Factor Cost"
     ],
-    "a": 2,
+    "a": 3,
     "e": "National Income = NNP at Market Price - Indirect Taxes + Subsidies. / एनएनपी (साधन लागत पर) ही देश की वास्तविक राष्ट्रीय आय है।"
   },
   {
     "qe": "Who gave the 'Scientific Method' of estimating National Income in India for the first time?",
     "qh": "भारत में पहली बार राष्ट्रीय आय के अनुमान की 'वैज्ञानिक पद्धति' किसने दी थी?",
     "o": [
-      "Dadabhai Naoroji",
-      "V.K.R.V. Rao",
+      "D.R. Gadgil",
       "P.C. Mahalanobis",
-      "D.R. Gadgil"
+      "Dadabhai Naoroji",
+      "V.K.R.V. Rao"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Dr. V.K.R.V. Rao was the first to use a scientific basis for estimation in 1931-32. / डॉ. वी.के.आर.वी. राव ने 1931-32 में पहली बार वैज्ञानिक पद्धति का उपयोग किया था।"
   },
   {
@@ -210,7 +210,7 @@
       "Income earned by companies",
       "Total income received by individuals from all sources before direct taxes",
       "National Income + Depreciation",
-      "None"
+      "None of these"
     ],
     "a": 1,
     "e": "It includes wages, rents, and transfer payments received by households before paying direct taxes. / प्रत्यक्ष करों से पहले व्यक्तियों द्वारा सभी स्रोतों से प्राप्त कुल आय।"
@@ -220,21 +220,21 @@
     "qh": "निम्नलिखित में से कौन सा 'मध्यवर्ती वस्तु' (Intermediate Good) का उदाहरण है?",
     "o": [
       "A car sold to a consumer",
-      "Flour used by a baker to make bread",
       "A laptop used by a student",
+      "Flour used by a baker to make bread",
       "A house bought for living"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Intermediate goods are used as inputs in the production of final goods. / मध्यवर्ती वस्तुओं का उपयोग अंतिम वस्तुओं के उत्पादन में इनपुट के रूप में किया जाता है।"
   },
   {
     "qe": "What is 'Gross National Product' (GNP)?",
     "qh": "'सकल राष्ट्रीय उत्पाद' (GNP) क्या है?",
     "o": [
-      "GDP + Depreciation",
+      "Only domestic production",
       "GDP + Net Factor Income from Abroad",
       "GDP - Indirect Taxes",
-      "Only domestic production"
+      "GDP + Depreciation"
     ],
     "a": 1,
     "e": "GNP measures the value of goods/services produced by citizens of a country, regardless of location. / जीडीपी और विदेशों से प्राप्त शुद्ध साधन आय का योग।"
@@ -243,24 +243,24 @@
     "qe": "What is the difference between GDP and NDP?",
     "qh": "जीडीपी (GDP) और एनडीपी (NDP) के बीच क्या अंतर है?",
     "o": [
-      "Indirect Taxes",
       "Subsidies",
-      "Depreciation",
-      "Net Factor Income"
+      "Net Factor Income",
+      "Indirect Taxes",
+      "Depreciation"
     ],
-    "a": 2,
+    "a": 3,
     "e": "NDP = GDP - Depreciation. / जीडीपी में से मूल्यह्रास घटाने पर एनडीपी प्राप्त होता है।"
   },
   {
     "qe": "Which committee was appointed in 1949 under P.C. Mahalanobis to estimate National Income?",
     "qh": "1949 में राष्ट्रीय आय का अनुमान लगाने के लिए पी.सी. महालनोबिस की अध्यक्षता में किस समिति का गठन किया गया था?",
     "o": [
-      "NITI Aayog Committee",
-      "National Income Committee",
+      "Finance Commission",
       "Planning Commission",
-      "Finance Commission"
+      "NITI Aayog Committee",
+      "National Income Committee"
     ],
-    "a": 1,
+    "a": 3,
     "e": "The National Income Committee was appointed in 1949 to provide a base for estimating income. / 1949 में राष्ट्रीय आय समिति का गठन किया गया था।"
   },
   {
@@ -269,8 +269,8 @@
     "o": [
       "GDP at Factor Cost + Indirect Taxes - Subsidies",
       "GDP at Factor Cost - Depreciation",
-      "Only Agriculture GDP",
-      "None"
+      "None of these",
+      "Only Agriculture GDP"
     ],
     "a": 0,
     "e": "Market price includes the impact of taxes and subsidies. / साधन लागत पर जीडीपी + अप्रत्यक्ष कर - सब्सिडी।"
@@ -291,22 +291,22 @@
     "qe": "Which of the following is part of the 'Tertiary Sector' in National Income?",
     "qh": "राष्ट्रीय आय में निम्नलिखित में से कौन सा 'तृतीयक क्षेत्र' का हिस्सा है?",
     "o": [
-      "Fishing",
-      "Textile Manufacturing",
+      "Forestry",
       "Banking and Insurance",
-      "Forestry"
+      "Fishing",
+      "Textile Manufacturing"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Tertiary sector includes services like banking, transport, and education. / तृतीयक क्षेत्र में बैंकिंग और बीमा जैसी सेवाएं शामिल हैं।"
   },
   {
     "qe": "What is 'Transfer Earning'?",
     "qh": "'हस्तांतरण अर्जन' क्या है?",
     "o": [
-      "Profit from business",
-      "Minimum payment required to keep a factor in its current use",
       "Bonus from company",
-      "None"
+      "Minimum payment required to keep a factor in its current use",
+      "Profit from business",
+      "None of these"
     ],
     "a": 1,
     "e": "It is the opportunity cost of a factor of production. / किसी साधन को उसके वर्तमान उपयोग में बनाए रखने के लिए आवश्यक न्यूनतम भुगतान।"
@@ -315,48 +315,48 @@
     "qe": "What is 'GDP at Factor Cost'?",
     "qh": "'साधन लागत पर जीडीपी' क्या है?",
     "o": [
-      "GDP at Market Price minus Indirect Taxes plus Subsidies",
       "GDP plus Depreciation",
+      "GDP at Market Price minus Indirect Taxes plus Subsidies",
       "GNP minus NFIA",
       "Total Exports"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Factor cost is the actual cost of production without net indirect taxes. / यह करों को घटाकर और सब्सिडी को जोड़कर निकाला गया वास्तविक उत्पादन मूल्य है।"
   },
   {
     "qe": "Which component is included in the 'Income Method' of calculating National Income?",
     "qh": "राष्ट्रीय आय की गणना की 'आय पद्धति' में निम्नलिखित में से किसे शामिल किया जाता है?",
     "o": [
-      "Mixed Income of Self-employed",
       "Private Final Consumption Expenditure",
-      "Government Final Spending",
-      "Net Exports"
+      "Net Exports",
+      "Mixed Income of Self-employed",
+      "Government Final Spending"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Income method sums up Rent, Wages, Interest, and Profit, including mixed income. / आय पद्धति में किराया, मजदूरी, ब्याज और लाभ के साथ मिश्रित आय को जोड़ा जाता है।"
   },
   {
     "qe": "What is 'Consumption of Fixed Capital' in national accounting?",
     "qh": "'अचल पूंजी का उपभोग' क्या है?",
     "o": [
-      "Investment",
-      "Depreciation",
       "National Debt",
-      "Indirect Tax"
+      "Indirect Tax",
+      "Depreciation",
+      "Investment"
     ],
-    "a": 1,
+    "a": 2,
     "e": "In National Income terms, Depreciation is formally called 'Consumption of Fixed Capital'. / राष्ट्रीय आय की भाषा में मूल्यह्रास को ही अचल पूंजी का उपभोग कहा जाता है।"
   },
   {
     "qe": "If 'Net Factor Income from Abroad' is zero, then:",
     "qh": "यदि 'विदेशों से प्राप्त शुद्ध साधन आय' शून्य है, तो:",
     "o": [
-      "GDP > GNP",
-      "GDP < GNP",
+      "NDP = NNP at MP",
       "GDP = GNP",
-      "NDP = NNP at MP"
+      "GDP > GNP",
+      "GDP < GNP"
     ],
-    "a": 2,
+    "a": 1,
     "e": "When NFIA is zero, domestic production equals national production. / जब विदेशों से आय का लेन-देन बराबर हो, तो जीडीपी और जीएनपी बराबर होते हैं।"
   },
   {
@@ -365,8 +365,8 @@
     "o": [
       "Wealth",
       "National Income",
-      "Capital Stock",
-      "Money Supply"
+      "Money Supply",
+      "Capital Stock"
     ],
     "a": 1,
     "e": "Flow variables are measured over a period of time, like monthly or yearly income. / प्रवाह चर वे होते हैं जिन्हें एक समय अवधि (जैसे एक वर्ष) में मापा जाता है।"
@@ -376,23 +376,23 @@
     "qh": "जीडीपी में निम्नलिखित में से किसे शामिल नहीं किया जाता है?",
     "o": [
       "Production for self-consumption",
-      "Illegal activities (Black market)",
       "Services of a paid domestic maid",
-      "Government infrastructure spending"
+      "Government infrastructure spending",
+      "Illegal activities (Black market)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Illegal activities are excluded because their value cannot be accurately verified. / अवैध गतिविधियों को जीडीपी की गणना में शामिल नहीं किया जाता है।"
   },
   {
     "qe": "Which of the following is an example of 'Final Goods'?",
     "qh": "निम्नलिखित में से कौन सा 'अंतिम वस्तु' का उदाहरण है?",
     "o": [
-      "Sugar used by a sweet shop",
-      "Cotton used by a spinning mill",
       "Milk purchased by a household",
-      "Wood used by a carpenter"
+      "Wood used by a carpenter",
+      "Cotton used by a spinning mill",
+      "Sugar used by a sweet shop"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Final goods are those intended for final consumption by consumers or for capital investment. / अंतिम वस्तुएं वे होती हैं जो सीधे उपभोक्ताओं द्वारा उपयोग की जाती हैं।"
   },
   {
@@ -400,35 +400,35 @@
     "qh": "राष्ट्रीय आय लेखांकन में 'इन्वेंट्री' (स्टॉक) में बदलाव को किसमें शामिल किया जाता है?",
     "o": [
       "Consumption",
-      "Investment",
       "Government Spending",
+      "Investment",
       "Depreciation"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Change in stock (Closing - Opening stock) is treated as a component of Gross Investment. / स्टॉक में होने वाले बदलाव को निवेश का हिस्सा माना जाता है।"
   },
   {
     "qe": "What is 'National Disposable Income'?",
     "qh": "'राष्ट्रीय प्रयोज्य आय' (National Disposable Income) क्या है?",
     "o": [
-      "NNP at Market Price + Net Current Transfers from the rest of the world",
       "GDP + Subsidies",
-      "Personal Income - Taxes",
-      "None of these"
+      "None of these",
+      "NNP at Market Price + Net Current Transfers from the rest of the world",
+      "Personal Income - Taxes"
     ],
-    "a": 0,
+    "a": 2,
     "e": "It represents the maximum amount of goods and services the nation has at its disposal for spending and saving. / यह पूरे देश के लिए उपभोग के लिए उपलब्ध कुल राशि को दर्शाता है।"
   },
   {
     "qe": "Which sector is called the 'Engine of Growth' in the early stages of a developing economy?",
     "qh": "शुरुआती दौर में विकासशील अर्थव्यवस्था में किस क्षेत्र को 'विकास का इंजन' कहा जाता है?",
     "o": [
-      "Primary Sector",
-      "Secondary Sector",
+      "Foreign Sector",
       "Tertiary Sector",
-      "Foreign Sector"
+      "Primary Sector",
+      "Secondary Sector"
     ],
-    "a": 0,
+    "a": 2,
     "e": "In the early stages of development, the Primary (Agriculture) sector is the backbone of the economy. / विकास के शुरुआती चरणों में प्राथमिक क्षेत्र अर्थव्यवस्था की रीढ़ होता है।"
   },
   {
@@ -436,35 +436,35 @@
     "qh": "आय पद्धति के माध्यम से राष्ट्रीय आय में निम्नलिखित में से किसे शामिल नहीं किया जाता है?",
     "o": [
       "Rent",
-      "Wages",
       "Windfall Gains (like Lottery)",
-      "Interest"
+      "Interest",
+      "Wages"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Windfall gains like lottery winnings are excluded as they do not arise from productive activity. / लॉटरी जैसे अचानक होने वाले लाभ को शामिल नहीं किया जाता क्योंकि यह उत्पादन कार्य नहीं है।"
   },
   {
     "qe": "What is the relationship between 'Gross' and 'Net' values in national accounting?",
     "qh": "'सकल' (Gross) और 'शुद्ध' (Net) मानों के बीच क्या संबंध है?",
     "o": [
-      "Net = Gross + Taxes",
-      "Net = Gross - Depreciation",
       "Net = Gross + Subsidies",
-      "Net = Gross - NFIA"
+      "Net = Gross - NFIA",
+      "Net = Gross - Depreciation",
+      "Net = Gross + Taxes"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Gross value minus Depreciation always gives the Net value. / सकल मूल्य में से मूल्यह्रास घटाने पर शुद्ध मूल्य प्राप्त होता है।"
   },
   {
     "qe": "What constitutes 'Operating Surplus' in factor income calculation?",
     "qh": "'परिचालन अधिशेष' (Operating Surplus) क्या है?",
     "o": [
-      "Total sales revenue",
-      "Sum of Rent + Interest + Profit",
       "Wages of workers",
-      "None of these"
+      "None of these",
+      "Sum of Rent + Interest + Profit",
+      "Total sales revenue"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Operating surplus is the income from property and entrepreneurship in the income method. / आय पद्धति में संपत्ति और उद्यमिता से प्राप्त आय (किराया + ब्याज + लाभ) का योग।"
   },
   {
@@ -484,11 +484,11 @@
     "qh": "राष्ट्रीय आय में 'आरोपित किराया' (Imputed Rent) क्या है?",
     "o": [
       "Rent of a rented shop",
-      "Estimated rent of owner-occupied houses",
       "Rent paid directly to a landlord",
-      "Illegal rent"
+      "Illegal rent",
+      "Estimated rent of owner-occupied houses"
     ],
-    "a": 1,
+    "a": 3,
     "e": "The estimated rent of a house lived in by the owner is included in National Income. / स्वयं के रहने वाले मकान का अनुमानित किराया, जिसे राष्ट्रीय आय में शामिल किया जाता है।"
   },
   {
@@ -497,56 +497,56 @@
     "o": [
       "Agriculture",
       "Construction",
-      "Information Technology and Scientific Research",
-      "Fisheries"
+      "Fisheries",
+      "Information Technology and Scientific Research"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Quaternary sector is the knowledge-based part of the economy like R&D and specialized consulting. / ज्ञान आधारित सेवाएं जैसे अनुसंधान और विकास (R&D) इस क्षेत्र में आते हैं।"
   },
   {
     "qe": "In National Income accounting, 'Subsidies' are:",
     "qh": "राष्ट्रीय आय लेखांकन में 'सब्सिडी' क्या है?",
     "o": [
+      "None of these",
       "Indirect taxes",
       "Financial assistance from government to producers to keep market prices lower",
-      "Profits of public enterprises",
-      "None"
+      "Profits of public enterprises"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Subsidies are subtracted from Market Price to determine Factor Cost. / सरकार द्वारा उत्पादकों को दी जाने वाली वित्तीय सहायता जिससे कीमतें कम रहती हैं।"
   },
   {
     "qe": "What is 'Factor Income'?",
     "qh": "'साधन आय' (Factor Income) क्या है?",
     "o": [
-      "Income from gambling",
-      "Income earned by owners of factors of production for productive services",
+      "None of these",
       "Gift received from abroad",
-      "None"
+      "Income earned by owners of factors of production for productive services",
+      "Income from gambling"
     ],
-    "a": 1,
+    "a": 2,
     "e": "It includes Rent, Wages, Interest, and Profit. / उत्पादन के साधनों द्वारा उनकी सेवाओं के बदले अर्जित आय।"
   },
   {
     "qe": "Which of the following models describes the 'Circular Flow of Income' in an economy?",
     "qh": "निम्नलिखित में से कौन 'आय के चक्रीय प्रवाह' का वर्णन करता है?",
     "o": [
+      "Flow of tax collections to the treasury",
       "Flow of currency between RBI and commercial banks",
       "Flow of goods, services, and factor payments between Households and Firms",
-      "Flow of tax collections to the treasury",
-      "None"
+      "None of these"
     ],
-    "a": 1,
+    "a": 2,
     "e": "It shows how money, factor inputs, and goods move in a closed loop through economic sectors. / परिवारों और फर्मों के बीच वस्तुओं, सेवाओं और धन के निरंतर प्रवाह को दर्शाता है।"
   },
   {
     "qe": "Which of the following is a 'Stock' variable in economic analysis?",
     "qh": "निम्नलिखित में से कौन सा एक 'स्टॉक' (Stock) चर है?",
     "o": [
-      "Annual Income",
+      "Daily Interest",
       "National Wealth",
-      "Monthly Production",
-      "Daily Interest"
+      "Annual Income",
+      "Monthly Production"
     ],
     "a": 1,
     "e": "Stock variables are measured at a specific point in time (e.g., wealth or capital stock). / स्टॉक चर को समय के एक निश्चित बिंदु पर मापा जाता है।"
@@ -555,58 +555,58 @@
     "qe": "What is 'Mixed Income' in the income method?",
     "qh": "आय पद्धति में 'मिश्रित आय' (Mixed Income) क्या है?",
     "o": [
-      "Income of large corporations",
       "Combined income of self-employed individuals where labor and capital cannot be separated",
       "Foreign grant revenue",
-      "None"
+      "None of these",
+      "Income of large corporations"
     ],
-    "a": 1,
+    "a": 0,
     "e": "It refers to the income of unincorporated enterprises where labor and capital income cannot be separated. / स्व-नियोजित लोगों की आय जहाँ श्रम और पूंजी आय को अलग नहीं किया जा सकता।"
   },
   {
     "qe": "What is 'Gross Domestic Capital Formation' (GDCF)?",
     "qh": "'सकल घरेलू पूंजी निर्माण' (GDCF) क्या है?",
     "o": [
-      "Total Savings",
-      "Total addition to fixed assets and change in stock (Investment)",
       "Foreign exchange reserves",
-      "None"
+      "None of these",
+      "Total addition to fixed assets and change in stock (Investment)",
+      "Total Savings"
     ],
-    "a": 1,
+    "a": 2,
     "e": "It represents the addition to the physical stock of capital assets in an economy. / यह अर्थव्यवस्था में कुल निवेश और पूंजीगत संपत्तियों की वृद्धि को दर्शाता है।"
   },
   {
     "qe": "What is the formula for the 'GDP Deflator'?",
     "qh": "'जीडीपी डिफ्लेटर' का सूत्र क्या है?",
     "o": [
-      "(Real GDP / Nominal GDP) * 100",
       "(Nominal GDP / Real GDP) * 100",
+      "None of these",
       "GDP + Inflation",
-      "None"
+      "(Real GDP / Nominal GDP) * 100"
     ],
-    "a": 1,
+    "a": 0,
     "e": "It measures the change in prices of all goods and services produced domestically. / यह घरेलू रूप से उत्पादित सभी वस्तुओं और सेवाओं की कीमतों में बदलाव को मापता है।"
   },
   {
     "qe": "What is 'Intermediate Consumption'?",
     "qh": "'मध्यवर्ती खपत' (Intermediate Consumption) क्या है?",
     "o": [
-      "Expenditure on final goods",
-      "Value of goods and services used up as inputs in the production process",
       "Household bank savings",
-      "None"
+      "None of these",
+      "Expenditure on final goods",
+      "Value of goods and services used up as inputs in the production process"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Raw materials and secondary supplies used up during production are intermediate consumption. / उत्पादन प्रक्रिया में उपयोग की जाने वाली वस्तुओं और सेवाओं का मूल्य।"
   },
   {
     "qe": "What is the 'Economic Territory' of a country in national accounting?",
     "qh": "किसी देश का 'आर्थिक क्षेत्र' (Economic Territory) क्या है?",
     "o": [
-      "Only the geographic land boundary",
-      "Geographical territory plus ships, aircraft, and embassies abroad run by residents",
       "Only industrial zones",
-      "None"
+      "Geographical territory plus ships, aircraft, and embassies abroad run by residents",
+      "Only the geographic land boundary",
+      "None of these"
     ],
     "a": 1,
     "e": "It is the geographical territory administered by a government within which persons, goods, and capital circulate freely. / वह भौगोलिक क्षेत्र जिसमें व्यक्ति, वस्तु और पूंजी स्वतंत्र रूप से घूमते हैं।"
@@ -615,24 +615,24 @@
     "qe": "If 'GDP at Market Price' is 1000 and 'Net Indirect Taxes' is 200, what is 'GDP at Factor Cost'?",
     "qh": "यदि 'बाजार मूल्य पर जीडीपी' 1000 है और 'शुद्ध अप्रत्यक्ष कर' 200 है, तो 'साधन लागत पर जीडीपी' क्या होगी?",
     "o": [
-      "1200",
-      "800",
+      "500",
       "1000",
-      "500"
+      "1200",
+      "800"
     ],
-    "a": 1,
+    "a": 3,
     "e": "GDP at Factor Cost = GDP at Market Price - Net Indirect Taxes (1000 - 200 = 800). / साधन लागत = बाजार मूल्य - शुद्ध अप्रत्यक्ष कर (1000 - 200 = 800)।"
   },
   {
     "qe": "Who is considered the 'Father of National Income Accounting'?",
     "qh": "'राष्ट्रीय आय लेखांकन का जनक' किसे माना जाता है?",
     "o": [
-      "Adam Smith",
       "Simon Kuznets",
       "John Maynard Keynes",
-      "Alfred Marshall"
+      "Alfred Marshall",
+      "Adam Smith"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Simon Kuznets developed the standardized way of measuring national income and GDP. / साइमन कुज़नेट्स ने राष्ट्र की आय मापने का मानकीकृत तरीका विकसित किया।"
   },
   {
@@ -640,20 +640,20 @@
     "qh": "'राष्ट्रीय सांख्यिकी कार्यालय' (NSO) का मुख्यालय किस शहर में है?",
     "o": [
       "Mumbai",
-      "New Delhi",
       "Kolkata",
-      "Bengaluru"
+      "Bengaluru",
+      "New Delhi"
     ],
-    "a": 1,
+    "a": 3,
     "e": "NSO operates under the Ministry of Statistics and Programme Implementation in New Delhi. / NSO दिल्ली में सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय के तहत कार्य करता है।"
   },
   {
     "qe": "Which of the following is an example of an 'Indirect Tax'?",
     "qh": "निम्नलिखित में से कौन सा 'अप्रत्यक्ष कर' का उदाहरण है?",
     "o": [
-      "Income Tax",
-      "GST (Goods and Services Tax)",
       "Corporate Tax",
+      "GST (Goods and Services Tax)",
+      "Income Tax",
       "Wealth Tax"
     ],
     "a": 1,
@@ -663,12 +663,12 @@
     "qe": "What does the 'Consumer Price Index' (CPI) measure in India?",
     "qh": "'उपभोक्ता मूल्य सूचकांक' (CPI) का उपयोग क्या मापने के लिए किया जाता है?",
     "o": [
-      "Stock market movements",
       "Retail inflation faced by households",
-      "Wholesale factory prices",
-      "Export volumes"
+      "Export volumes",
+      "Stock market movements",
+      "Wholesale factory prices"
     ],
-    "a": 1,
+    "a": 0,
     "e": "CPI measures the weighted average of prices of a basket of retail consumer goods and services. / CPI उपभोक्ता वस्तुओं और सेवाओं की खुदरा कीमतों में औसत बदलाव को मापता है।"
   },
   {
@@ -676,9 +676,9 @@
     "qh": "'सकल मूल्य वर्धन' (GVA) और 'जीडीपी' (GDP) के बीच क्या संबंध है?",
     "o": [
       "GDP = GVA at basic prices + Product Taxes - Product Subsidies",
+      "None of these",
       "GDP = GVA - Net Indirect Taxes",
-      "GDP = GVA + Depreciation",
-      "None of these"
+      "GDP = GVA + Depreciation"
     ],
     "a": 0,
     "e": "GDP at market prices is calculated by adding net product taxes to GVA at basic prices. / जीडीपी बुनियादी कीमतों पर GVA में शुद्ध उत्पाद कर जोड़कर निकाली जाती है।"
@@ -687,36 +687,36 @@
     "qe": "The merger of which two statistical agencies formed the National Statistical Office (NSO) in 2019?",
     "qh": "किन संगठनों के विलय से राष्ट्रीय सांख्यिकी कार्यालय (NSO) का गठन हुआ?",
     "o": [
-      "NSSO and CSO",
-      "RBI and SBI",
+      "None of these",
       "Planning Commission and NITI Aayog",
-      "None of these"
+      "NSSO and CSO",
+      "RBI and SBI"
     ],
-    "a": 0,
+    "a": 2,
     "e": "NSO was formed by merging the National Sample Survey Office (NSSO) and the Central Statistics Office (CSO). / NSSO और CSO के विलय से NSO बना।"
   },
   {
     "qe": "Which of the following represents an activity in the 'Quinary Sector'?",
     "qh": "निम्नलिखित में से कौन सा 'पंचम क्षेत्र' (Quinary Sector) की गतिविधि का उदाहरण है?",
     "o": [
-      "Highest-level policy and strategic decision-making (CEOs / Senior government officials)",
-      "Agriculture and allied activities",
       "Primary school teaching",
-      "Automobile assembly"
+      "Automobile assembly",
+      "Highest-level policy and strategic decision-making (CEOs / Senior government officials)",
+      "Agriculture and allied activities"
     ],
-    "a": 0,
+    "a": 2,
     "e": "The quinary sector includes top executive decision-makers, senior government advisors, and research leaders. / इसमें उच्चतम स्तर के नीति निर्माता और शीर्ष निर्णय लेने वाले अधिकारी शामिल होते हैं।"
   },
   {
     "qe": "What is the sector that contributes the largest share (approx. 53-55%) to India's GDP?",
     "qh": "भारत की जीडीपी में वर्तमान में किस क्षेत्र का योगदान लगभग 53-55% है?",
     "o": [
-      "Primary Sector",
+      "Mining",
       "Secondary Sector",
-      "Tertiary (Service) Sector",
-      "Mining"
+      "Primary Sector",
+      "Tertiary (Service) Sector"
     ],
-    "a": 2,
+    "a": 3,
     "e": "The Service (Tertiary) sector is the largest contributor to India's Gross Value Added. / सेवा क्षेत्र भारतीय अर्थव्यवस्था में सबसे बड़ा योगदानकर्ता है।"
   },
   {
@@ -724,11 +724,11 @@
     "qh": "राष्ट्रीय आय गणना की किस पद्धति को 'औद्योगिक मूल पद्धति' भी कहा जाता है?",
     "o": [
       "Income Method",
+      "None of these",
       "Expenditure Method",
-      "Product (Value Added) Method",
-      "None of these"
+      "Product (Value Added) Method"
     ],
-    "a": 2,
+    "a": 3,
     "e": "It tracks the net value output added by each industrial sector to the economy. / यह कुल उत्पादन में प्रत्येक उद्योग के शुद्ध योगदान को मापता है।"
   },
   {
@@ -736,9 +736,9 @@
     "qh": "व्यय विधि के माध्यम से राष्ट्रीय आय में निम्नलिखित में से किसे शामिल नहीं किया जाता है?",
     "o": [
       "Gross Domestic Capital Formation",
-      "Government Final Consumption Expenditure",
+      "Net Exports",
       "Expenditure on purchase of second-hand goods",
-      "Net Exports"
+      "Government Final Consumption Expenditure"
     ],
     "a": 2,
     "e": "Second-hand goods are excluded because their value was counted during the year they were manufactured. / पुरानी वस्तुओं की खरीद को शामिल नहीं किया जाता क्योंकि उनकी गणना उत्पादन वर्ष में हो चुकी होती है।"
@@ -747,9 +747,9 @@
     "qe": "What is 'Compensation of Employees' in the Income Method?",
     "qh": "आय पद्धति में 'कर्मचारियों का पारिश्रमिक' क्या है?",
     "o": [
-      "Only cash wages",
-      "Wages and salaries in cash and kind, plus employer contributions to social security schemes",
       "Annual festival bonus only",
+      "Wages and salaries in cash and kind, plus employer contributions to social security schemes",
+      "Only cash wages",
       "None of these"
     ],
     "a": 1,
@@ -761,8 +761,8 @@
     "o": [
       "Amartya Sen",
       "Raj Krishna",
-      "Manmohan Singh",
-      "V.K.R.V. Rao"
+      "V.K.R.V. Rao",
+      "Manmohan Singh"
     ],
     "a": 1,
     "e": "Professor Raj Krishna coined the term to describe India's annual growth rate averaging around 3.5% between 1950 and 1980. / प्रोफेसर राज कृष्ण ने 1950-80 के दशक की धीमी विकास दर के लिए यह शब्द दिया था।"
@@ -771,12 +771,12 @@
     "qe": "Which major sector of the Indian economy maintained positive real growth during the COVID-19 pandemic lockdowns?",
     "qh": "कोविड-19 महामारी के दौरान भारतीय अर्थव्यवस्था के किस क्षेत्र ने सकारात्मक वृद्धि दिखाई?",
     "o": [
-      "Manufacturing",
-      "Services",
       "Agriculture and Allied",
-      "Civil Aviation"
+      "Manufacturing",
+      "Civil Aviation",
+      "Services"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Agriculture was the only major sector that achieved positive growth despite strict nationwide lockdowns. / महामारी के दौरान केवल कृषि क्षेत्र में ही सकारात्मक वृद्धि दर्ज की गई थी।"
   },
   {
@@ -784,83 +784,83 @@
     "qh": "भारत में 'थोक मूल्य सूचकांक' (WPI) के लिए डेटा कौन प्रदान करता है?",
     "o": [
       "NSO",
+      "NITI Aayog",
       "RBI",
-      "Office of the Economic Adviser (DPIIT)",
-      "NITI Aayog"
+      "Office of the Economic Adviser (DPIIT)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "The Office of Economic Adviser in the Ministry of Commerce releases the monthly WPI series. / वाणिज्य मंत्रालय के तहत आर्थिक सलाहकार कार्यालय WPI जारी करता है।"
   },
   {
     "qe": "What is the formula for calculating the 'Value of Output' in the product method?",
     "qh": "'उत्पादन का मूल्य' (Value of Output) का सूत्र क्या है?",
     "o": [
+      "Price * Production Cost",
       "Sales + Change in Stock",
       "Sales - Change in Stock",
-      "Price * Production Cost",
       "Total Profit"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Value of output equals total market sales plus additions to inventory stock during the year. / उत्पादन के मूल्य में कुल बिक्री और स्टॉक में बदलाव शामिल है।"
   },
   {
     "qe": "Which economist was the first to estimate India's National Income during the colonial era?",
     "qh": "भारत में राष्ट्रीय आय का अनुमान लगाने वाले पहले व्यक्ति कौन थे?",
     "o": [
-      "Dadabhai Naoroji",
       "P.C. Mahalanobis",
       "V.K.R.V. Rao",
-      "William Digby"
+      "William Digby",
+      "Dadabhai Naoroji"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Dadabhai Naoroji estimated a per capita income of Rs 20 for 1867-68 in his work on colonial exploitation. / दादाभाई नौरोजी ने पहली बार 1867-68 में राष्ट्रीय आय का अनुमान लगाया था।"
   },
   {
     "qe": "What is 'GVA at Basic Prices' formula?",
     "qh": "'बुनियादी कीमतों पर GVA' क्या है?",
     "o": [
-      "GVA at Factor Cost + Production Taxes - Production Subsidies",
-      "GDP at Market Price",
       "GNP minus Depreciation",
-      "None of these"
+      "None of these",
+      "GDP at Market Price",
+      "GVA at Factor Cost + Production Taxes - Production Subsidies"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Basic prices incorporate net production taxes (like stamp duties) but exclude net product taxes (like GST). / बुनियादी कीमतों में शुद्ध उत्पादन कर शामिल होते हैं, लेकिन उत्पाद कर नहीं।"
   },
   {
     "qe": "What three core dimensions form the basis of the 'Human Development Index' (HDI)?",
     "qh": "'मानव विकास सूचकांक' (HDI) की गणना किन तीन प्रमुख आयामों के आधार पर की जाती है?",
     "o": [
-      "Industrial growth, Exports, and Foreign Reserves",
       "Long and healthy life, Knowledge (education), and a decent standard of living (GNI per capita)",
+      "Industrial growth, Exports, and Foreign Reserves",
       "Population growth, Military strength, and Area",
       "Agricultural output, Inflation, and Tax collection"
     ],
-    "a": 1,
+    "a": 0,
     "e": "HDI assesses life expectancy at birth, mean/expected years of schooling, and GNI per capita in PPP terms. / HDI स्वास्थ्य, शिक्षा और प्रति व्यक्ति सकल राष्ट्रीय आय के आधार पर तैयार होता है।"
   },
   {
     "qe": "Who were the primary economists that formulated the Human Development Index (HDI) framework in 1990?",
     "qh": "मानव विकास सूचकांक (HDI) की अवधारणा विकसित करने वाले दो प्रमुख अर्थशास्त्री कौन थे?",
     "o": [
-      "Adam Smith and David Ricardo",
       "Mahbub ul Haq and Amartya Sen",
-      "John Maynard Keynes and Milton Friedman",
-      "Raghuram Rajan and Urjit Patel"
+      "Raghuram Rajan and Urjit Patel",
+      "Adam Smith and David Ricardo",
+      "John Maynard Keynes and Milton Friedman"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Pakistani economist Mahbub ul Haq designed the HDI with key contributions from Nobel laureate Amartya Sen. / HDI का निर्माण 1990 में महबूब उल हक और अमर्त्य सेन के सहयोग से हुआ था।"
   },
   {
     "qe": "What does a score of 1.0 represent on the Human Development Index (HDI)?",
     "qh": "मानव विकास सूचकांक (HDI) में '1' का स्कोर क्या दर्शाता है?",
     "o": [
-      "Lowest human development",
-      "Highest theoretical level of human development",
       "Median development",
-      "Zero economic activity"
+      "Zero economic activity",
+      "Highest theoretical level of human development",
+      "Lowest human development"
     ],
-    "a": 1,
+    "a": 2,
     "e": "HDI ranges between 0 and 1, where 1 indicates the maximum possible level of human achievement across indices. / HDI को 0 से 1 के पैमाने पर मापा जाता है, जहाँ 1 उच्चतम संभव स्तर दर्शाता है।"
   },
   {
@@ -879,10 +879,10 @@
     "qe": "What is the key difference between 'Product Taxes' and 'Production Taxes' in the GVA system?",
     "qh": "'उत्पाद कर' (Product Tax) और 'उत्पादन कर' (Production Tax) के बीच मुख्य अंतर क्या है?",
     "o": [
-      "Production taxes depend directly on output volume; product taxes do not",
-      "Product taxes are levied per unit of output (e.g., GST), whereas production taxes are paid regardless of output volume (e.g., land revenue)",
       "Production taxes are paid solely by consumers",
-      "There is no distinction in national accounts"
+      "Product taxes are levied per unit of output (e.g., GST), whereas production taxes are paid regardless of output volume (e.g., land revenue)",
+      "There is no distinction in national accounts",
+      "Production taxes depend directly on output volume; product taxes do not"
     ],
     "a": 1,
     "e": "Production taxes (e.g., land revenues, pollution cesses) apply independently of production volume, while product taxes (e.g., GST, excise) track units sold. / उत्पादन कर उत्पादन की मात्रा से स्वतंत्र होते हैं, जबकि उत्पाद कर प्रति यूनिट उत्पादन/बिक्री पर लगते हैं।"
@@ -891,12 +891,12 @@
     "qe": "How are precious 'Valuables' like gold and art treated in national accounts under revised series guidelines?",
     "qh": "संशोधित आर्थिक श्रृंखला में सोने और चांदी जैसी 'कीमती वस्तुओं' (Valuables) के साथ कैसा व्यवहार किया जाता है?",
     "o": [
-      "Classified as pure intermediate consumption",
       "Classified as capital formation and part of household physical savings",
-      "Treated as government consumption expenditure",
-      "Excluded completely from GDP"
+      "Excluded completely from GDP",
+      "Classified as pure intermediate consumption",
+      "Treated as government consumption expenditure"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Acquisitions of precious metals and gemstones are treated as gross capital formation and store of wealth. / कीमती धातुओं को अब केवल उपभोग के बजाय घरेलू बचत और पूंजी निर्माण का हिस्सा माना जाता है।"
   },
   {
@@ -905,8 +905,8 @@
     "o": [
       "Imposing building height limits in rural areas",
       "Legally fixing the maximum agricultural land area that an individual or family can hold",
-      "Raising the market price of farmland",
-      "Banning corporate farming"
+      "Banning corporate farming",
+      "Raising the market price of farmland"
     ],
     "a": 1,
     "e": "Land ceiling statutes set legal limits on ownership and redistributed surplus land to landless cultivators. / भूमि सीलिंग कानून जोत की अधिकतम सीमा तय करके अतिरिक्त भूमि को भूमिहीनों में बांटने के लिए बनाए गए थे।"

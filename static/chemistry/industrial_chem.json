@@ -3,22 +3,22 @@
     "qe": "Which plastic is used for making 'Disposable' syringes in hospitals?",
     "qh": "अस्पतालों में 'डिस्पोजेबल' सिरिंज बनाने के लिए किस प्लास्टिक का उपयोग किया जाता है?",
     "o": [
-      "PVC",
       "Polypropylene",
-      "Bakelite",
-      "Polyester"
+      "Polyester",
+      "PVC",
+      "Bakelite"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Polypropylene sterilization temperatures ko bina pighle jhel sakta hai aur inert chemical resistance deta hai."
   },
   {
     "qe": "What is 'ABS' plastic commonly used for?",
     "qh": "'ABS' प्लास्टिक का सामान्यतः किसमें उपयोग किया जाता है?",
     "o": [
-      "Bags",
-      "LEGO bricks and computer cases",
       "Clothing",
-      "Food wrapping"
+      "LEGO bricks and computer cases",
+      "Food wrapping",
+      "Bags"
     ],
     "a": 1,
     "e": "Acrylonitrile Butadiene Styrene (ABS) apni high impact resistance aur toughness ke liye LEGO toys aur laptop bodies me use hota hai."
@@ -27,22 +27,22 @@
     "qe": "Which chemical is used to 'Preserve' wooden furniture from termites?",
     "qh": "दीमक से लकड़ी के फर्नीचर को सुरक्षित रखने के लिए किस रसायन का उपयोग किया जाता है?",
     "o": [
-      "Paint",
-      "Coal Tar or Creosote Oil",
       "Water",
-      "Wax"
+      "Wax",
+      "Coal Tar or Creosote Oil",
+      "Paint"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Creosote oil aur coal tar distillates powerful antifungal aur antitermite wood preservative hote hain."
   },
   {
     "qe": "What is 'Gutta-percha'?",
     "qh": "'गट्टा-पर्चा' (Gutta-percha) क्या है?",
     "o": [
-      "Synthetic rubber",
+      "Fiber",
       "Natural isomer of rubber used for dental fillings",
-      "A type of glue",
-      "Fiber"
+      "Synthetic rubber",
+      "A type of glue"
     ],
     "a": 1,
     "e": "Ye natural rubber ka trans-polyisoprene isomer hai, jo hard aur rigid hone ke kaaran root canal fillings me use hota hai."
@@ -51,12 +51,12 @@
     "qe": "Which 'Detergent' is used for washing delicate woolens (Liquid detergent)?",
     "qh": "नाजुक ऊनी कपड़ों की धुलाई के लिए किस प्रकार के डिटर्जेंट का उपयोग किया जाता है?",
     "o": [
-      "Anionic detergent",
-      "Cationic detergent",
       "Non-ionic detergent",
-      "Soap"
+      "Cationic detergent",
+      "Soap",
+      "Anionic detergent"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Non-ionic detergents bina kisi ionic charge ke mild surfactants hote hain, jo sensitive woolen fibers ko damage nahi karte."
   },
   {
@@ -64,57 +64,57 @@
     "qh": "अधिकांश सिंथेटिक बहुलकों की 'रीढ़' (Backbone) किस तत्व की श्रृंखला होती है?",
     "o": [
       "Oxygen chain",
+      "Silicon chain",
       "Nitrogen chain",
-      "Carbon chain",
-      "Silicon chain"
+      "Carbon chain"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Carbon ki high catenation ability ki wajah se C-C covalent bonds sabhi standard plastics ka main skeleton banate hain."
   },
   {
     "qe": "Which chemical is used to 'Weight' silk and make it feel heavier?",
     "qh": "रेशम के कपड़े को भारी और घना महसूस कराने (वेटिंग) के लिए किस रसायन का उपयोग किया जाता है?",
     "o": [
-      "Sugar",
-      "Tin or Lead salts",
       "Starch",
-      "Salt"
+      "Sugar",
+      "Salt",
+      "Tin or Lead salts"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Silk processing me fabric ko heavy body dene ke liye stannic chloride (tin salts) ya lead compounds se soak karte hain."
   },
   {
     "qe": "What is 'Vulc-leather' (Vulcanized fiber)?",
     "qh": "'वल्क-लेदर' (वल्कनीकृत फाइबर) क्या है?",
     "o": [
-      "Animal skin",
-      "Paper treated with Zinc Chloride",
       "Plastic",
-      "Synthetic leather"
+      "Synthetic leather",
+      "Animal skin",
+      "Paper treated with Zinc Chloride"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Pure cellulose paper ko Zinc Chloride ($ZnCl_2$) solution se gelatinize karke tough sheet banayi jaati hai jo luggage aur electrical insulation me use hoti hai."
   },
   {
     "qe": "Which metal ion is 'Removed' when hard water is softened using a Zeolite?",
     "qh": "जिओलाइट विधि द्वारा कठोर जल को मृदु बनाते समय कौन से धातु आयन हटाए जाते हैं?",
     "o": [
-      "Sodium",
-      "Potassium",
       "Calcium",
-      "Chloride"
+      "Potassium",
+      "Chloride",
+      "Sodium"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Hydrated sodium aluminum silicate (Zeolite) water me moujood hardness-causing Calcium ($Ca^{2+}$) aur Magnesium ($Mg^{2+}$) ions ko replace karke Sodium release karta hai."
   },
   {
     "qe": "What is 'Epoxy Resin' used for?",
     "qh": "'एपॉक्सी रेजिन' का मुख्य उपयोग क्या है?",
     "o": [
-      "Making clothes",
+      "Cleaning",
       "Strong adhesives and coatings",
       "Fuel",
-      "Cleaning"
+      "Making clothes"
     ],
     "a": 1,
     "e": "Epoxy resins thermosetting polymers hote hain jo metal aur glass ko jodne ke liye heavy-duty adhesives (jaise Araldite) banate hain."
@@ -124,8 +124,8 @@
     "qh": "'रेनकोट' (बरसाती) बनाने के लिए किस बहुलक का उपयोग किया जाता है?",
     "o": [
       "PVC or Polyurethane-coated fabric",
-      "Cotton",
       "Wool",
+      "Cotton",
       "Silk"
     ],
     "a": 0,
@@ -135,10 +135,10 @@
     "qe": "What is 'Cellophane' made from?",
     "qh": "'सेलोफेन' (Cellophane) किससे बनता है?",
     "o": [
-      "Petroleum",
-      "Cellulose",
       "Protein",
-      "Starch"
+      "Cellulose",
+      "Starch",
+      "Petroleum"
     ],
     "a": 1,
     "e": "Wood pulp ke natural cellulose ko viscose process ke dwara thin, transparent regenerated film me cast karke Cellophane banaya jata hai."
@@ -147,10 +147,10 @@
     "qe": "Which chemical is added to 'Soap' to make it 'Transparent'?",
     "qh": "साबुन को 'पारदर्शी' (Transparent) बनाने के लिए उसमें क्या मिलाया जाता है?",
     "o": [
-      "Sugar",
-      "Glycerol or Ethanol",
       "Salt",
-      "Lime"
+      "Glycerol or Ethanol",
+      "Lime",
+      "Sugar"
     ],
     "a": 1,
     "e": "Soap ko ethanol me dissolve karke excess solvent evaporate karte hain aur glycerol add karte hain taaki crystals na banein aur soap clear rahe."
@@ -159,142 +159,142 @@
     "qe": "Which type of 'Glass' is used in making lenses for sunglasses because it absorbs Ultraviolet (UV) rays?",
     "qh": "धूप के चश्मों के लेंस बनाने में किस प्रकार के कांच का उपयोग किया जाता है क्योंकि यह पराबैंगनी किरणों को सोखता है?",
     "o": [
+      "Pyrex Glass",
       "Soda Glass",
       "Crookes Glass",
-      "Flint Glass",
-      "Pyrex Glass"
+      "Flint Glass"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Crookes glass me Cerium Oxide ($CeO_2$) hota hai, jo visible light ko aane deta hai par harmful UV rays ko cut-off kar deta hai."
   },
   {
     "qe": "What is the 'Main Constituent' of Safety Match head?",
     "qh": "माचिस की तीली के सिरे (हेड) पर मुख्य घटक क्या होता है?",
     "o": [
-      "Red Phosphorus",
       "Potassium Chlorate and Antimony Trisulfide",
+      "Red Phosphorus",
       "Sulfur",
       "White Phosphorus"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Matchstick head par Potassium Chlorate ($KClO_3$) oxidizing agent aur Antimony Trisulfide ($Sb_2S_3$) combustible fuel hota hai; Red Phosphorus box ki side par hota hai."
   },
   {
     "qe": "Which 'Dye' was the first synthetic dye ever discovered (by William Perkin)?",
     "qh": "विलियम पर्किन द्वारा खोजी गई दुनिया की पहली सिंथेटिक डाई कौन सी थी?",
     "o": [
+      "Methyl Orange",
       "Indigo",
       "Mauveine (Aniline Purple)",
-      "Alizarin",
-      "Methyl Orange"
+      "Alizarin"
     ],
-    "a": 1,
+    "a": 2,
     "e": "1856 me 18-year-old William Perkin ne quinine banate waqt accidentally Aniline se pehli synthetic purple dye Mauveine khoji thi."
   },
   {
     "qe": "What is 'Lead Crystal' glass used for?",
     "qh": "'लेड क्रिस्टल' कांच का उपयोग किसलिए किया जाता है?",
     "o": [
-      "Windows",
-      "Decorative decanters and high-quality glassware",
       "Lab beakers",
-      "Cooking pans"
+      "Cooking pans",
+      "Decorative decanters and high-quality glassware",
+      "Windows"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Lead Oxide ($PbO$) milane se glass ka refractive index aur density badh jati hai, jisse wo cut karne par heere jaisa chamakta hai."
   },
   {
     "qe": "Which chemical is used as a 'Developer' in black and white film processing?",
     "qh": "ब्लैक एंड व्हाइट फोटोग्राफी में 'डेवलपर' के रूप में किस रसायन का उपयोग किया जाता है?",
     "o": [
+      "Acetic Acid",
       "Sodium Thiosulfate",
       "Hydroquinone",
-      "Silver Nitrate",
-      "Acetic Acid"
+      "Silver Nitrate"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Hydroquinone exposed silver halide grains ko black metallic silver particles me chemically reduce karke image ko visible banata hai."
   },
   {
     "qe": "What is 'Graphene'?",
     "qh": "'ग्राफीन' (Graphene) क्या है?",
     "o": [
-      "A type of plastic",
       "A single layer of carbon atoms in a hexagonal lattice",
-      "A liquid fuel",
-      "A metal alloy"
+      "A type of plastic",
+      "A metal alloy",
+      "A liquid fuel"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Graphene carbon ka 2D allotrope hai, jo single-atom-thick honeycomb lattice me arranged hota hai aur steel se 200 guna strong hota hai."
   },
   {
     "qe": "Which substance is used to 'Clarify' muddy water in rural areas by coagulation?",
     "qh": "गंदले पानी को साफ करने के लिए स्कंदन (coagulation) हेतु किस पदार्थ का उपयोग किया जाता है?",
     "o": [
-      "Bleaching Powder",
-      "Alum (Phitkari)",
+      "Vinegar",
       "Common Salt",
-      "Vinegar"
+      "Bleaching Powder",
+      "Alum (Phitkari)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Potash Alum [$K_2SO_4 \\cdot Al_2(SO_4)_3 \\cdot 24H_2O$] clay particles ke negative charge ko neutralize karke heavy flocs banakar sediment kar deta hai."
   },
   {
     "qe": "What is 'Bakelite'?",
     "qh": "'बेकेलाइट' किस प्रकार का बहुलक है?",
     "o": [
-      "Thermoplastic",
       "Thermosetting Plastic",
       "Natural Rubber",
-      "Fiber"
+      "Fiber",
+      "Thermoplastic"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Phenol aur Formaldehyde ka cross-linked thermosetting polymer hai jo ek baar set hone ke baad heat dene par dobara pighalta nahi hai."
   },
   {
     "qe": "Which chemical is used to 'Preserve' milk samples for analytical laboratory testing?",
     "qh": "प्रयोगशाला परीक्षण के लिए दूध के नमूनों को संरक्षित करने हेतु किस रसायन का उपयोग किया जाता है?",
     "o": [
-      "Formaldehyde",
-      "Potassium Dichromate",
       "Sodium Chloride",
-      "Sugar"
+      "Sugar",
+      "Potassium Dichromate",
+      "Formaldehyde"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Potassium Dichromate ($K_2Cr_2O_7$) milk me bacterial souring aur fat degradation ko rok kar composite sample testing me use hota hai."
   },
   {
     "qe": "The 'Refractive Index' and brilliance of optical glass is increased by adding which metal oxide?",
     "qh": "ऑप्टिकल कांच का अपवर्तनांक और चमक बढ़ाने के लिए उसमें किस धातु का ऑक्साइड मिलाया जाता है?",
     "o": [
-      "Aluminum",
       "Lead",
-      "Sodium",
-      "Iron"
+      "Aluminum",
+      "Iron",
+      "Sodium"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Lead Monoxide ($PbO$) optical flint glass ka refractive index 1.7 tak badha deta hai, jisse prisms aur camera lenses bante hain."
   },
   {
     "qe": "Which 'Natural Dye' is extracted from the plant *Indigofera tinctoria*?",
     "qh": "पौधे *Indigofera tinctoria* से कौन सा प्रसिद्ध प्राकृतिक रंजक प्राप्त होता है?",
     "o": [
+      "Henna",
       "Saffron",
       "Indigo (Neel)",
-      "Turmeric",
-      "Henna"
+      "Turmeric"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Indigo (Neel) ek plant vat dye hai jiska historical production Champaran, Bihar me British colonial era ke doran bohot prominent tha."
   },
   {
     "qe": "What is Indian 'Waterproof' drafting ink made of?",
     "qh": "वाटरप्रूफ ड्राफ्टिंग स्याही (Indian Ink) मुख्य रूप से किससे बनती है?",
     "o": [
-      "Sugar and Water",
+      "Alcohol",
       "Carbon Black and Shellac in Alkali",
       "Pencil lead",
-      "Alcohol"
+      "Sugar and Water"
     ],
     "a": 1,
     "e": "Carbon lampblack ko alkaline shellac solution ke sath mix karte hain; dry hone par shellac water-insoluble protective layer banata hai."
@@ -303,10 +303,10 @@
     "qe": "Which gas is filled in traditional 'Incandescent' light bulbs to prevent tungsten evaporation?",
     "qh": "पारंपरिक बिजली के बल्बों में टंगस्टन फिलामेंट के वाष्पीकरण को रोकने के लिए कौन सी गैस भरी जाती है?",
     "o": [
-      "Oxygen",
       "Hydrogen",
+      "Chlorine",
       "Argon and Nitrogen mixture",
-      "Chlorine"
+      "Oxygen"
     ],
     "a": 2,
     "e": "Argon aur Nitrogen ka inert gas mixture filament ko oxidize hone se bachata hai aur high operating temperatures par evaporation slow karta hai."
@@ -315,45 +315,45 @@
     "qe": "What is 'Teflon' (PTFE) chemically?",
     "qh": "रासायनिक रूप से 'टेफ्लॉन' (PTFE) क्या है?",
     "o": [
-      "A polyamide",
       "A fluorocarbon polymer",
+      "A carbohydrate",
       "A polyester",
-      "A carbohydrate"
+      "A polyamide"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Polytetrafluoroethylene ($CF_2=CF_2$ ka polymer) ek fluorocarbon hai jisme extremely strong C-F bonds non-stick surface provide karte hain."
   },
   {
     "qe": "Which chemical is commercially used for 'Artificial fruit ripening' by releasing acetylene?",
     "qh": "कच्चे फलों को पकाने के लिए किस रसायन का उपयोग किया जाता है जो नमी से एसिटिलीन छोड़ता है?",
     "o": [
-      "Calcium Carbonate",
       "Ethylene Gas",
+      "Calcium Carbide",
       "Acetylene",
-      "Calcium Carbide"
+      "Calcium Carbonate"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Calcium Carbide ($CaC_2$) atmospheric moisture se react karke Acetylene gas ($C_2H_2$) banata hai jo natural ethylene ripening ko mimic karti hai."
   },
   {
     "qe": "What is 'Fullerene' (C60) commonly called due to its dome-like structure?",
     "qh": "कार्बन के C60 अपरूप को उसकी संरचना के कारण आमतौर पर क्या कहा जाता है?",
     "o": [
+      "Coke",
       "Diamond",
-      "Buckminsterfullerene (Buckyball)",
       "Graphite",
-      "Coke"
+      "Buckminsterfullerene (Buckyball)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Architect Buckminster Fuller ke geodesic domes jaisi soccer-ball shape hone ke kaaran C60 ko Buckyball kaha jata hai."
   },
   {
     "qe": "Which substance is used as a volatile 'Propellant' in aerosol deodorant sprays?",
     "qh": "एरोसोल स्प्रे और डियोड्रेंट में तरल को बाहर निकालने के लिए किस 'प्रणोदक' (Propellant) का उपयोग होता है?",
     "o": [
-      "Water",
-      "Liquefied Petroleum gases like Butane or Propane",
       "Alcohol only",
+      "Liquefied Petroleum gases like Butane or Propane",
+      "Water",
       "Oil"
     ],
     "a": 1,
@@ -363,9 +363,9 @@
     "qe": "What is 'Varnish' chemically?",
     "qh": "रासायनिक रूप से 'वार्निश' (Varnish) क्या है?",
     "o": [
-      "Paint with pigment",
-      "Solution of natural or synthetic resin in drying oil or volatile solvent",
       "Liquid plastic",
+      "Solution of natural or synthetic resin in drying oil or volatile solvent",
+      "Paint with pigment",
       "Wax"
     ],
     "a": 1,
@@ -375,21 +375,21 @@
     "qe": "Which membrane separation process is industrial standard for the desalination of seawater?",
     "qh": "समुद्री जल को मीठा (पीने योग्य) बनाने के लिए किस झिल्ली पृथक्करण प्रक्रिया का उपयोग किया जाता है?",
     "o": [
-      "Chlorine",
       "Reverse Osmosis (RO)",
       "Alum",
-      "Sedimentation"
+      "Sedimentation",
+      "Chlorine"
     ],
-    "a": 1,
+    "a": 0,
     "e": "High hydrostatic pressure lagakar saline water ko semi-permeable polyamide membrane ke aar-paar pass karwaya jata hai jisse dissolved salts filter ho jate hain."
   },
   {
     "qe": "What was 'Celluloid', the pioneer commercial plastic invented in 1870?",
     "qh": "1870 में विकसित पहला व्यावसायिक प्लास्टिक 'सेलुलॉइड' किनका मिश्रण था?",
     "o": [
-      "A metal alloy",
-      "Nitrocellulose plasticized with Camphor",
       "A natural fiber",
+      "Nitrocellulose plasticized with Camphor",
+      "A metal alloy",
       "A petroleum wax"
     ],
     "a": 1,
@@ -399,34 +399,34 @@
     "qe": "Which chemical is the opaque white base in paper correction fluids (white-out)?",
     "qh": "कागज़ पर स्याही छिपाने वाले करेक्शन फ्लूइड (व्हाइट-आउट) में मुख्य सफेद रंगद्रव्य क्या होता है?",
     "o": [
+      "Oxalic Acid",
       "Acetone",
       "Titanium Dioxide ($TiO_2$) in a fast-drying solvent",
-      "Water",
-      "Oxalic Acid"
+      "Water"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Titanium Dioxide ($TiO_2$) high opacity aur whiteness deta hai jo quick-evaporating solvent ke sath surface par dry coating bana deta hai."
   },
   {
     "qe": "What is the primary industrial function of 'Zeolite' (Permutit)?",
     "qh": "उद्योगों में 'जिओलाइट' (परम्यूटिट) का प्राथमिक कार्य क्या है?",
     "o": [
-      "Making fertilizer",
       "Softening permanent hardness of water via ion exchange",
+      "Making paper",
       "Refining gold",
-      "Making paper"
+      "Making fertilizer"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Sodium Zeolite water me moujood scale-forming $Ca^{2+}$ aur $Mg^{2+}$ ions ko trap karke equivalent $Na^+$ ions release karta hai."
   },
   {
     "qe": "Which chemical salt is known in photography as 'Hypo'?",
     "qh": "फोटोग्राफी में 'हाइपो' के नाम से किस रासायनिक लवण को जाना जाता है?",
     "o": [
-      "Sodium Chloride",
+      "Sodium Carbonate",
       "Sodium Thiosulfate ($Na_2S_2O_3 \\cdot 5H_2O$)",
-      "Sodium Hydroxide",
-      "Sodium Carbonate"
+      "Sodium Chloride",
+      "Sodium Hydroxide"
     ],
     "a": 1,
     "e": "Sodium Thiosulfate unexposed light-sensitive silver halides ko soluble complex bana kar dissolve kar deta hai, jisse image permanent fix hoti hai."
@@ -435,9 +435,9 @@
     "qe": "What distinguishes 'Enamel' paint from ordinary water-based paints?",
     "qh": "'इनेमल' पेंट साधारण पानी वाले पेंट से किस प्रकार भिन्न है?",
     "o": [
-      "Water-based wash",
-      "Oil-resin base drying to a hard, glossy, and weather-resistant surface",
       "Liquid clay",
+      "Oil-resin base drying to a hard, glossy, and weather-resistant surface",
+      "Water-based wash",
       "Whitewash chalk"
     ],
     "a": 1,
@@ -447,10 +447,10 @@
     "qe": "Which gases are recycled and reacted in the 'Solvay Process' to synthesize Sodium Carbonate?",
     "qh": "सोडियम कार्बोनेट बनाने की 'सोल्वे प्रक्रिया' में किन गैसों का चक्रण होता है?",
     "o": [
-      "Oxygen and Nitrogen",
-      "Carbon Dioxide and Ammonia",
       "Hydrogen and Chlorine",
-      "Sulfur Dioxide"
+      "Carbon Dioxide and Ammonia",
+      "Sulfur Dioxide",
+      "Oxygen and Nitrogen"
     ],
     "a": 1,
     "e": "Brine ($NaCl$) me Ammonia ($NH_3$) aur Carbon Dioxide ($CO_2$) pass karke sodium bicarbonate precipitate banaya jata hai jise heat karke soda ash banti hai."
@@ -459,24 +459,24 @@
     "qe": "What is the single cyclic monomer used to manufacture 'Nylon 6'?",
     "qh": "'नायलॉन 6' का निर्माण किस एकल चक्रीय एकलक से किया जाता है?",
     "o": [
-      "Ethene",
-      "Caprolactam",
+      "Vinyl Chloride",
       "Styrene",
-      "Vinyl Chloride"
+      "Caprolactam",
+      "Ethene"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Nylon 6,6 me do monomers hote hain, jabki Nylon 6 single 7-membered cyclic ring compound Caprolactam ke ring-opening polymerization se banta hai."
   },
   {
     "qe": "Which strong oxidizing gas is used to kill bacteria and disinfect treated wastewater without leaving chemical trihalomethanes?",
     "qh": "अपशिष्ट जल उपचार में बिना कोई जहरीला अवशेष छोड़े जीवाणुओं को मारने के लिए किस गैस का उपयोग होता है?",
     "o": [
-      "Ozone ($O_3$)",
       "Methane",
+      "Ozone ($O_3$)",
       "Carbon Monoxide",
       "Hydrogen"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Ozone ($O_3$) powerful disinfectant hai jo cell membranes ko lyse karke wapas harmless Oxygen ($O_2$) me decompose ho jati hai."
   },
   {
@@ -484,11 +484,11 @@
     "qh": "ऑप्टिकल डिस्क (CD/DVD) और बुलेटप्रूफ ग्लास बनाने के लिए किस मजबूत पारदर्शी बहुलक का उपयोग किया जाता है?",
     "o": [
       "Polyester",
-      "Polycarbonate (Lexan)",
       "PVC",
+      "Polycarbonate (Lexan)",
       "Polyethylene"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Polycarbonate high optical clarity aur extreme impact strength provide karta hai jo bullet strikes aur compact discs dono me zaroori hai."
   },
   {
@@ -496,11 +496,11 @@
     "qh": "'कृत्रिम वर्षा' (क्लाउड सीडिंग) कराने के लिए बादलों पर किस रसायन का छिड़काव किया जाता है?",
     "o": [
       "Silver Nitrate",
-      "Silver Iodide ($AgI$)",
+      "Potassium Permanganate",
       "Copper Sulfate",
-      "Potassium Permanganate"
+      "Silver Iodide ($AgI$)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Silver Iodide ($AgI$) ka crystal structure hexagonal ice jaisa hota hai, jo supercooled cloud droplets ke liye artificial freezing nuclei ka kaam karta hai."
   },
   {
@@ -508,45 +508,45 @@
     "qh": "रासायनिक रूप से 'सफेद थोथा' (White Vitriol) क्या है?",
     "o": [
       "$FeSO_4 \\cdot 7H_2O$",
+      "$MgSO_4 \\cdot 7H_2O$",
       "$ZnSO_4 \\cdot 7H_2O$ (Zinc Sulfate Heptahydrate)",
-      "$CuSO_4 \\cdot 5H_2O$",
-      "$MgSO_4 \\cdot 7H_2O$"
+      "$CuSO_4 \\cdot 5H_2O$"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Zinc Sulfate Heptahydrate ($ZnSO_4 \\cdot 7H_2O$) ko White Vitriol kehte hain, jo rayon manufacturing aur ophthalmic eye lotions me use hota hai."
   },
   {
     "qe": "Which class of chemical additives is blended into polyurethane foam in car seats and furniture to retard flame spread?",
     "qh": "फर्नीचर के फोम में आग को तेजी से फैलने से रोकने के लिए कौन से 'फ्लेम रिटार्डेंट' रसायन मिलाए जाते हैं?",
     "o": [
-      "Brominated / Organophosphate flame retardants",
       "Alcohol",
       "Methane",
-      "Gasoline"
+      "Gasoline",
+      "Brominated / Organophosphate flame retardants"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Brominated compounds combustion reaction ke free radical chain reaction ko quench karke polymer foam me flame ignition slow kar dete hain."
   },
   {
     "qe": "What is traditional 'Distemper' paint formulated with?",
     "qh": "पारंपरिक 'डिस्टेंपर' पेंट मुख्य रूप से किससे तैयार किया जाता है?",
     "o": [
-      "Oil paint",
       "Chalk powder (whiting), water, and animal glue / casein binder",
       "Metallic paint",
+      "Oil paint",
       "Pure varnish"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Distemper water-based paint hai jisme chalk powder base aur animal glue/casein binder hota hai jo interior plaster walls par lagta hai."
   },
   {
     "qe": "What metallic film is deposited on flat glass sheets to produce modern household mirrors?",
     "qh": "आधुनिक घरेलू दर्पणों के पीछे परावर्तक सतह बनाने के लिए किस धातु की पतली परत चढ़ाई जाती है?",
     "o": [
-      "Mercury",
+      "Zinc",
       "Silver or Aluminum",
-      "Lead",
-      "Zinc"
+      "Mercury",
+      "Lead"
     ],
     "a": 1,
     "e": "Chemical silver reduction ya vacuum thermal evaporation se pure Aluminum/Silver ki uniform thin film glass ke peeche deposit ki jaati hai."
@@ -555,24 +555,24 @@
     "qe": "What is 'Biodiesel' chemically produced from vegetable oils?",
     "qh": "वनस्पति तेलों से बनने वाला 'बायोडीजल' रासायनिक रूप से क्या होता है?",
     "o": [
-      "Straight alkane hydrocarbons",
-      "Fatty Acid Methyl Esters (FAME)",
       "Pure ethanol",
-      "Petroleum ether"
+      "Petroleum ether",
+      "Fatty Acid Methyl Esters (FAME)",
+      "Straight alkane hydrocarbons"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Vegetable oils (triglycerides) ko methanol ke sath transesterification karwaya jata hai jisse glycerol alag hokar Fatty Acid Methyl Esters (Biodiesel) bante hain."
   },
   {
     "qe": "Which chemical salt softens hard water by precipitating calcium as insoluble calcium carbonate?",
     "qh": "कौन सा लवण कठोर जल के कैल्शियम को अघुलनशील कार्बोनेट के रूप में अवक्षेपित करके जल को मृदु बनाता है?",
     "o": [
+      "Vinegar",
       "Sodium Carbonate (Washing Soda)",
       "Sodium Chloride",
-      "Vinegar",
       "Bleaching Powder"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Washing soda ($Na_2CO_3$) soluble $Ca^{2+}$ ions ke sath react karke insoluble $CaCO_3$ precipitate bana deta hai jisse water soft ho jata hai."
   },
   {
@@ -581,8 +581,8 @@
     "o": [
       "Hydrochloric acid",
       "Potassium Hydrogen Tartrate (Cream of Tartar) or Tartaric Acid",
-      "Sulfuric acid",
-      "Nitric acid"
+      "Nitric acid",
+      "Sulfuric acid"
     ],
     "a": 1,
     "e": "Baking powder me Sodium Bicarbonate ke sath dry Tartaric acid hota hai, jo moisture milte hi neutralize hokar $CO_2$ nikaalta hai bina bitter taste chhode."
@@ -591,12 +591,12 @@
     "qe": "What is the primary chlorinated organic solvent used in modern commercial 'Dry Cleaning'?",
     "qh": "आधुनिक 'ड्राई क्लीनिंग' में उपयोग किया जाने वाला मुख्य अजलीय विलायक कौन सा है?",
     "o": [
-      "Water",
-      "Tetrachloroethylene (Perchloroethylene / Perc)",
       "Methanol",
-      "Vinegar"
+      "Vinegar",
+      "Water",
+      "Tetrachloroethylene (Perchloroethylene / Perc)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Perchloroethylene ($C_2Cl_4$) non-polar solvent hai jo wool aur silk fabrics ko bina shrink kiye unke greasy stains ko dissolve kar leta hai."
   },
   {
@@ -604,23 +604,23 @@
     "qh": "'फ्लिंट ग्लास' (Flint Glass) की मुख्य विशेषता क्या है?",
     "o": [
       "High chemical inertness",
-      "High refractive index and high optical dispersion (contains lead)",
       "Extremely low melting point",
+      "High refractive index and high optical dispersion (contains lead)",
       "Green color"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Lead silicate aur potassium silicate se bana Flint glass optical lenses aur achromatic prisms me light bending ke liye use hota hai."
   },
   {
     "qe": "What is the aqueous pH nature of pure 'Washing Soda' ($Na_2CO_3$) in water?",
     "qh": "जल में 'धावन सोडा' ($Na_2CO_3$) के विलयन की प्रकृति कैसी होती है?",
     "o": [
-      "Acidic",
-      "Alkaline (Basic)",
       "Neutral",
-      "Amphoteric"
+      "Acidic",
+      "Amphoteric",
+      "Alkaline (Basic)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Washing soda strong base ($NaOH$) aur weak acid ($H_2CO_3$) ka salt hai; salt hydrolysis ke kaaran iska solution alkaline ($pH > 7$) hota hai."
   },
   {
@@ -628,21 +628,21 @@
     "qh": "जीवविज्ञान प्रयोगशालाओं में नमूनों को संरक्षित करने वाला 'फॉर्मेलिन' क्या है?",
     "o": [
       "100% pure formaldehyde gas",
-      "37-40% aqueous solution of Formaldehyde (with methanol stabilizer)",
+      "Benzene mix",
       "Acetone solution",
-      "Benzene mix"
+      "37-40% aqueous solution of Formaldehyde (with methanol stabilizer)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Formalin tissue proteins ke amino groups ko cross-link karke unhe stiff banata hai aur microbial decay ko permanently freeze kar deta hai."
   },
   {
     "qe": "Why are complexing phosphate 'Builders' like Sodium Tripolyphosphate (STPP) added to synthetic laundry detergents?",
     "qh": "लॉन्ड्री डिटर्जेंट में सोडियम ट्राइपोलीफॉस्फेट (STPP) जैसे 'बिल्डर्स' क्यों मिलाए जाते हैं?",
     "o": [
-      "To add fragrance",
-      "To chelate hard water $Ca^{2+}$ and $Mg^{2+}$ ions and prevent surfactant inactivation",
       "To whiten fabric with dye",
-      "To increase density"
+      "To chelate hard water $Ca^{2+}$ and $Mg^{2+}$ ions and prevent surfactant inactivation",
+      "To increase density",
+      "To add fragrance"
     ],
     "a": 1,
     "e": "Builders hard water minerals ko sequester/bind kar lete hain taaki detergent surfactants apna cleaning foam banaye rakhein."
@@ -651,12 +651,12 @@
     "qe": "What is 'Glass' technically defined as in physical chemistry?",
     "qh": "भौतिक रसायन में 'कांच' को तकनीकी रूप से क्या माना जाता है?",
     "o": [
-      "Crystalline solid",
       "Supercooled Liquid (Amorphous Solid)",
-      "Cross-linked polymer",
-      "Ionic compound"
+      "Crystalline solid",
+      "Ionic compound",
+      "Cross-linked polymer"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Molten silicates ko bina crystallization ka samay diye rapidly thanda karne par supercooled liquid banta hai jisme short-range atomic order hota hai."
   },
   {
@@ -675,10 +675,10 @@
     "qe": "What is the primary organic raw material consumed in the commercial 'Saponification' of soap?",
     "qh": "साबुन के औद्योगिक 'साबुनीकरण' में प्राथमिक कच्चा माल क्या होता है?",
     "o": [
-      "Petroleum mineral oil",
-      "Triglycerides (Vegetable oils like palm/coconut or animal tallow)",
       "Coal tar",
-      "Polyethylene"
+      "Triglycerides (Vegetable oils like palm/coconut or animal tallow)",
+      "Polyethylene",
+      "Petroleum mineral oil"
     ],
     "a": 1,
     "e": "Long-chain fatty acids ke glyceryl esters (triglycerides) ko caustic alkali ($NaOH$ ya $KOH$) ke sath boil karke fatty acid salts (soap) banaye jaate hain."
@@ -687,24 +687,24 @@
     "qe": "What is 'Water Glass' chemically?",
     "qh": "रासायनिक रूप से 'वाटर ग्लास' (Water Glass) क्या है?",
     "o": [
-      "Calcium Silicate",
       "Sodium Silicate ($Na_2SiO_3$)",
       "Magnesium Silicate",
-      "Lead Silicate"
+      "Lead Silicate",
+      "Calcium Silicate"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Sodium Silicate paani me dissolve ho jata hai; is viscous solution ko cardboard cartons ke glue aur fireproofing sealant me use karte hain."
   },
   {
     "qe": "What specific dissolved salts cause 'Permanent Hardness' in municipal and ground water?",
     "qh": "जल में 'स्थायी कठोरता' किन विशिष्ट लवणों के घुले होने के कारण होती है?",
     "o": [
+      "Nitrates of iron",
       "Bicarbonates of sodium",
-      "Chlorides and Sulfates of Calcium and Magnesium ($CaCl_2, CaSO_4, MgCl_2, MgSO_4$)",
       "Carbonates of potassium",
-      "Nitrates of iron"
+      "Chlorides and Sulfates of Calcium and Magnesium ($CaCl_2, CaSO_4, MgCl_2, MgSO_4$)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Bicarbonates boil karne se nikal jate hain (temporary hardness), par sulfates aur chlorides ko sirf chemical precipitation ya ion exchange se hataya ja sakta hai."
   },
   {
@@ -712,44 +712,44 @@
     "qh": "गर्मी सहन करने वाले प्रयोगशाला उपकरणों और बेकिंग बर्तनों के लिए किस कांच का उपयोग किया जाता है?",
     "o": [
       "Soda-lime glass",
-      "Borosilicate Glass (Pyrex)",
       "Lead crystal glass",
+      "Borosilicate Glass (Pyrex)",
       "Safety laminated glass"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Borosilicate glass me $B_2O_3$ hota hai jiska thermal expansion coefficient normal glass se ek-tihaai hota hai, isliye thermal shock par tootta nahi."
   },
   {
     "qe": "What are the three principal oxide compounds constituting 'Portland Cement' clinker?",
     "qh": "'पोर्टलैंड सीमेंट' के क्लिंकर में मुख्य रूप से कौन से तीन ऑक्साइड होते हैं?",
     "o": [
-      "Lime ($CaO$), Silica ($SiO_2$), and Alumina ($Al_2O_3$)",
+      "Lead, Zinc, and Tin",
       "Iron, Carbon, and Sulfur",
-      "Sodium oxide, Potash, and Magnesia",
-      "Lead, Zinc, and Tin"
+      "Lime ($CaO$), Silica ($SiO_2$), and Alumina ($Al_2O_3$)",
+      "Sodium oxide, Potash, and Magnesia"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Raw cement me lagbhag 60-67% Lime ($CaO$), 17-25% Silica ($SiO_2$) aur 3-8% Alumina ($Al_2O_3$) chemical silicates banate hain."
   },
   {
     "qe": "What is 'Soft Soap' formulated with instead of Sodium Hydroxide?",
     "qh": "कठोर साबुन के स्थान पर 'मुलायम साबुन' (Soft Soap) बनाने में किसका उपयोग किया जाता है?",
     "o": [
-      "Ammonium Hydroxide",
-      "Potassium Hydroxide ($KOH$)",
+      "Magnesium Carbonate",
       "Calcium Hydroxide",
-      "Magnesium Carbonate"
+      "Ammonium Hydroxide",
+      "Potassium Hydroxide ($KOH$)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Potassium fatty acid salts ($KOH$ se bane) Sodium salts ke muqable paani me zyada soluble aur soft hote hain, jo shaving creams aur liquid soaps banate hain."
   },
   {
     "qe": "What chemical compound is used as a dry powder in Type BC / ABC commercial fire extinguishers?",
     "qh": "सूखे रासायनिक अग्निशामक यंत्रों में पाउडर के रूप में किस रसायन का उपयोग किया जाता है?",
     "o": [
-      "Calcium Chloride",
-      "Sodium Bicarbonate / Potassium Bicarbonate (or Monoammonium Phosphate)",
       "Copper Sulfate",
+      "Sodium Bicarbonate / Potassium Bicarbonate (or Monoammonium Phosphate)",
+      "Calcium Chloride",
       "Lead Nitrate"
     ],
     "a": 1,
@@ -759,48 +759,48 @@
     "qe": "What composite structure prevents automotive 'Safety Glass' (windshield) from shattering into sharp daggers upon impact?",
     "qh": "वाहनों के विंडशील्ड वाले 'सुरक्षा कांच' को टूटने पर बिखरने से बचाने के लिए क्या संरचना बनाई जाती है?",
     "o": [
-      "Tempered wire mesh",
       "Two layers of annealed glass bonded with an intermediate Polyvinyl Butyral (PVB) plastic interlayer",
-      "Boron coating",
-      "Lead sheet"
+      "Lead sheet",
+      "Tempered wire mesh",
+      "Boron coating"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Laminated safety glass me do glass sheets ke beech tough PVB film hoti hai jo fracture hone par bhi kanch ke pieces ko chipkaaye rakhti hai."
   },
   {
     "qe": "What thermal manufacturing process is termed the 'Annealing' of glass?",
     "qh": "कांच के निर्माण में 'एनीलिंग' (Annealing) की प्रक्रिया क्या है?",
     "o": [
-      "Melting raw sand",
       "Controlled slow cooling inside a lehr oven to relieve internal structural stresses",
       "Etching glass with acid",
-      "Polishing glass edges"
+      "Polishing glass edges",
+      "Melting raw sand"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Molded glass ko dheere-dheere lehr oven me cool kiya jata hai taaki surface aur core ke cooling rate difference se internal strain aur brittleness na bache."
   },
   {
     "qe": "What is the industrial role of a 'Mordant' in traditional textile fabric dyeing?",
     "qh": "वस्त्र रंगाई में 'रंगबंधक' (Mordant) की औद्योगिक भूमिका क्या होती है?",
     "o": [
-      "To wash away color",
-      "A polyvalent metal ion complexing with both fiber and dye molecules to permanently fix the color",
       "To bleach raw cloth",
-      "To stiffen fabric"
+      "To stiffen fabric",
+      "To wash away color",
+      "A polyvalent metal ion complexing with both fiber and dye molecules to permanently fix the color"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Alum ya chrome jaise mordants dye molecule aur cotton/wool fibers ke beech coordination complex lake banakar color ko wash-fast banate hain."
   },
   {
     "qe": "Which heavy mineral acid is designated the 'King of Chemicals' due to its ubiquitous role across global chemical industries?",
     "qh": "व्यापक औद्योगिक उपयोग के कारण किस खनिज अम्ल को 'रसायनों का राजा' कहा जाता है?",
     "o": [
+      "Phosphoric Acid",
       "Nitric Acid",
       "Sulfuric Acid ($H_2SO_4$)",
-      "Hydrochloric Acid",
-      "Phosphoric Acid"
+      "Hydrochloric Acid"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Sulfuric acid fertilizer, petroleum, explosives aur battery manufacturing ka backbone hai; kisi desh ka $H_2SO_4$ consumption uski industrial capacity darshata hai."
   },
   {
@@ -808,21 +808,21 @@
     "qh": "1867 में अल्फ्रेड नोबेल ने तरल नाइट्रोग्लिसरीन को एक अक्रिय पदार्थ में सोखकर किस विस्फोटक का आविष्कार किया था?",
     "o": [
       "Gunpowder",
+      "Gun cotton",
       "Dynamite (Nitroglycerin absorbed into Kieselguhr diatomaceous earth)",
-      "TNT",
-      "Gun cotton"
+      "TNT"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Pure nitroglycerin shock-sensitive hone se bohot khatarnak tha; Nobel ne ise Kieselguhr porous earth me soak karke safe-handling solid Dynamite banaya."
   },
   {
     "qe": "What is the chemical composition of commercial 'Bleaching Powder'?",
     "qh": "व्यावसायिक 'ब्लीचिंग पाउडर' का रासायनिक संघटन क्या है?",
     "o": [
-      "Calcium Carbonate",
+      "Potassium Chlorate",
       "Calcium Oxychloride / Hypochlorite complex ($CaOCl_2$)",
       "Sodium Chloride",
-      "Potassium Chlorate"
+      "Calcium Carbonate"
     ],
     "a": 1,
     "e": "Slaked lime par Chlorine gas pass karne se Calcium Oxychloride ($CaOCl_2$) banta hai jo available chlorine release karke bleaching aur disinfection karta hai."
@@ -833,8 +833,8 @@
     "o": [
       "Ammonium Sulfate",
       "Urea ($NH_2CONH_2$)",
-      "Potassium Nitrate",
-      "Single Superphosphate"
+      "Single Superphosphate",
+      "Potassium Nitrate"
     ],
     "a": 1,
     "e": "Urea ($NH_2CONH_2$) me 46% nitrogen hoti hai, jo soil me urease enzyme ke zariye hydrolyze hokar plants ke liye ammonium ion banati hai."
@@ -843,12 +843,12 @@
     "qe": "What is natural 'Talc' mineral pulverized into talcum powder chemically?",
     "qh": "टैल्कम पाउडर बनाने में प्रयुक्त प्राकृतिक 'टैल्क' (Talc) रासायनिक रूप से क्या है?",
     "o": [
-      "Calcium Carbonate",
-      "Hydrated Magnesium Silicate [$Mg_3Si_4O_{10}(OH)_2$]",
+      "Zinc Stearate",
       "Aluminum Oxide",
-      "Zinc Stearate"
+      "Calcium Carbonate",
+      "Hydrated Magnesium Silicate [$Mg_3Si_4O_{10}(OH)_2$]"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Talc Mohs hardness scale par sabse soft mineral (hardness = 1) hai jo hydrated magnesium silicate sheets se bana hota hai."
   },
   {
@@ -856,11 +856,11 @@
     "qh": "नाटकों और फिल्मों में कृत्रिम धुआँ (सफेद कोहरा) उत्पन्न करने के लिए किसका उपयोग किया जाता है?",
     "o": [
       "Burning sulfur",
-      "Solid Carbon Dioxide (Dry Ice) in warm water or atomized Glycol vapor",
       "Chlorine gas",
+      "Solid Carbon Dioxide (Dry Ice) in warm water or atomized Glycol vapor",
       "Wood sawdust"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Warm water me Dry Ice daalne par dense gaseous $CO_2$ aur condensed water vapor ka floor-hugging thick white fog banta hai."
   },
   {
@@ -868,35 +868,35 @@
     "qh": "स्टार्च (मंड) की उपस्थिति का परीक्षण करने के लिए किस अभिकर्मक का उपयोग किया जाता है जो गहरा नीला-काला रंग देता है?",
     "o": [
       "Fehling's solution",
-      "Lugol's Iodine solution ($I_2 / KI$)",
       "Biuret reagent",
+      "Lugol's Iodine solution ($I_2 / KI$)",
       "Benedict's solution"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Iodine molecules starch ke amylose polymer ke helical coils ke andar trap hokar characteristic deep blue-black charge-transfer complex banate hain."
   },
   {
     "qe": "What chemical friction composition lines the striking strip on the exterior of a safety matchbox?",
     "qh": "सुरक्षा माचिस की डिब्बी के दोनों किनारों पर रगड़ने वाली सतह किसकी बनी होती है?",
     "o": [
-      "White phosphorus and sulfur",
-      "Red Phosphorus, powdered glass abrasive, and glue binder",
+      "Potassium chlorate",
       "Antimony trisulfide only",
-      "Potassium chlorate"
+      "White phosphorus and sulfur",
+      "Red Phosphorus, powdered glass abrasive, and glue binder"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Striker par Red Phosphorus aur ground glass hota hai; friction se thoda red phosphorus friction heat se white phosphorus me convert hokar spark generate karta hai."
   },
   {
     "qe": "Which flammable gas is burned alongside pure Oxygen in metal cutting and oxy-fuel welding torches?",
     "qh": "धातुओं की वेल्डिंग और कटाई में ऑक्सीजन के साथ किस ज्वलनशील गैस का उपयोग किया जाता है?",
     "o": [
-      "Methane",
-      "Acetylene (Ethyne, $C_2H_2$)",
       "Propane",
-      "Carbon Monoxide"
+      "Carbon Monoxide",
+      "Acetylene (Ethyne, $C_2H_2$)",
+      "Methane"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Ethyne ($C_2H_2$) oxygen ke sath combustion par over 3100°C temperature flame banata hai jo structural steel ko melt karne ke liye required hai."
   },
   {
@@ -904,83 +904,83 @@
     "qh": "घरेलू एलपीजी में गैस रिसाव की पहचान के लिए दुर्गंधयुक्त किस सल्फर यौगिक को मिलाया जाता है?",
     "o": [
       "Methyl alcohol",
-      "Ethyl Mercaptan (Ethanethiol, $C_2H_5SH$)",
       "Carbon Disulfide",
-      "Hydrogen Sulfide"
+      "Hydrogen Sulfide",
+      "Ethyl Mercaptan (Ethanethiol, $C_2H_5SH$)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "LPG (Propane/Butane) completely odorless hoti hai; minute leakages ko detect karne ke liye strong rotting-cabbage odor wala Ethanethiol add kiya jata hai."
   },
   {
     "qe": "What is culinary culinary 'Vinegar' chemically?",
     "qh": "घरेलू 'सिरका' (Vinegar) रासायनिक रूप से क्या होता है?",
     "o": [
-      "100% pure glacial ethanoic acid",
       "A 5% to 8% dilute aqueous solution of Acetic Acid ($CH_3COOH$)",
-      "Citric acid extract",
-      "Lactic acid"
+      "Lactic acid",
+      "100% pure glacial ethanoic acid",
+      "Citric acid extract"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Vinegar diluted acetic acid hota hai jo sugar ya fruit juices ke fermentation se banta hai aur pickling me preservative ka kaam karta hai."
   },
   {
     "qe": "What is the primary industrial application of 'Heavy Water' ($D_2O$)?",
     "qh": "'भारी जल' ($D_2O$) का मुख्य औद्योगिक उपयोग क्या है?",
     "o": [
-      "Drinking water mineral supplement",
       "Neutron Moderator and Coolant in nuclear fission reactors (PHWR)",
-      "Textile bleaching",
-      "Agricultural fertilizer"
+      "Agricultural fertilizer",
+      "Drinking water mineral supplement",
+      "Textile bleaching"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Deuterium Oxide ($D_2O$) fission se nikalne wale high-speed fast neutrons ko unhe absorb kiye bina thermal speeds tak slow-down karta hai."
   },
   {
     "qe": "What is 'Plaster of Paris' (POP) chemically?",
     "qh": "रासायनिक रूप से 'प्लास्टर ऑफ पेरिस' (POP) क्या है?",
     "o": [
-      "$CaSO_4 \\cdot 2H_2O$ (Gypsum)",
-      "Calcium Sulfate Hemihydrate ($CaSO_4 \\cdot 1/2 H_2O$)",
       "Calcium Carbonate",
-      "Calcium Oxide"
+      "$CaSO_4 \\cdot 2H_2O$ (Gypsum)",
+      "Calcium Oxide",
+      "Calcium Sulfate Hemihydrate ($CaSO_4 \\cdot 1/2 H_2O$)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Gypsum ko 373 K par heat karne par wo partial dehydration se Calcium Sulfate Hemihydrate ($CaSO_4 \\cdot 1/2H_2O$) banata hai jo paani milate hi wapas hard ho jata hai."
   },
   {
     "qe": "What property of a liquid fuel is measured by its 'Flash Point'?",
     "qh": "किसी तरल ईंधन का 'फ्लैश पॉइंट' (Flash Point) क्या दर्शाता है?",
     "o": [
-      "The temperature where spontaneous self-ignition occurs without spark",
-      "The lowest temperature at which liquid vaporizes to form an ignitable mixture with air near the surface",
+      "The boiling point of the fuel",
       "The temperature where the fuel freezes",
-      "The boiling point of the fuel"
+      "The lowest temperature at which liquid vaporizes to form an ignitable mixture with air near the surface",
+      "The temperature where spontaneous self-ignition occurs without spark"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Flash point wo minimum temperature hai jispar ignition source aane par vapor ek pal ke liye flash hokar ignite hoti hai (petroleum safety handling metric)."
   },
   {
     "qe": "What is the primary phosphatic chemical fertilizer manufactured by acidulating mineral rock phosphate with sulfuric acid?",
     "qh": "रॉक फॉस्फेट की सल्फ्यूरिक एसिड से अभिक्रिया कराकर बनाया जाने वाला प्राथमिक फॉस्फेटिक उर्वरक कौन सा है?",
     "o": [
-      "Urea",
-      "Single Superphosphate of Lime [SSP / $Ca(H_2PO_4)_2 \\cdot H_2O + CaSO_4$]",
       "Muriate of Potash",
-      "Ammonium Nitrate"
+      "Ammonium Nitrate",
+      "Single Superphosphate of Lime [SSP / $Ca(H_2PO_4)_2 \\cdot H_2O + CaSO_4$]",
+      "Urea"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Insoluble rock phosphate ($Ca_3(PO_4)_2$) ko sulfuric acid se react karwake water-soluble monocalcium phosphate banaya jata hai jise plants absorb kar sakein."
   },
   {
     "qe": "Which organic dicarboxylic acid is used in dry cleaning and laundry to bleach and solubilize insoluble iron rust stains?",
     "qh": "कपड़ों से लोहे के जंग के दाग हटाने के लिए किस कार्बनिक अम्ल का उपयोग किया जाता है?",
     "o": [
-      "Acetic acid",
       "Oxalic Acid [$(COOH)_2$]",
+      "Acetic acid",
       "Formic acid",
       "Malic acid"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Oxalic acid insoluble iron(III) oxide ko water-soluble iron-oxalate chelate coordination complex me badal kar stain ko wash away kar deta hai."
   },
   {
@@ -989,20 +989,20 @@
     "o": [
       "Helium",
       "Neon",
-      "Xenon ($Xe$)",
-      "Radon"
+      "Radon",
+      "Xenon ($Xe$)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Xenon discharge tubes electric arc pass hone par daylight jaisi high-intensity white light spectrum flash karti hain."
   },
   {
     "qe": "What is the ultra-hard synthetic abrasive ceramic known industrially as 'Carborundum'?",
     "qh": "उद्योगों में अपघर्षक (Abrasive) के रूप में प्रयुक्त 'कार्बोरंडम' क्या है?",
     "o": [
-      "Calcium Carbide",
-      "Silicon Carbide ($SiC$)",
       "Boron Nitride",
-      "Tungsten Carbide"
+      "Silicon Carbide ($SiC$)",
+      "Tungsten Carbide",
+      "Calcium Carbide"
     ],
     "a": 1,
     "e": "Silicon Carbide ($SiC$) diamond-like 3D covalent network structure rakhta hai, isliye grinding wheels aur cutting tools me abrasive ki tarah use hota hai."
@@ -1011,12 +1011,12 @@
     "qe": "What is 'Bordeaux Mixture' traditionally sprayed in vineyards and orchards composed of?",
     "qh": "कृषि में बागवानी फसलों पर छिड़का जाने वाला 'बोर्डो मिश्रण' (Bordeaux Mixture) किन रसायनों का मिश्रण है?",
     "o": [
-      "Lead arsenate and sulfur",
       "Copper Sulfate ($CuSO_4$) and Slaked Lime [$Ca(OH)_2$] in water",
       "Zinc oxide and salt",
+      "Lead arsenate and sulfur",
       "Potassium permanganate"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Copper sulfate aur lime ka alkaline suspension plant leaves par copper hydroxide film banakar downy mildew aur fungal blights ko destroy karta hai."
   },
   {
@@ -1024,69 +1024,69 @@
     "qh": "कंप्रेस्ड नेचुरल गैस (CNG) में मुख्य रूप से कौन सी हाइड्रोकार्बन गैस होती है?",
     "o": [
       "Ethane",
-      "Methane ($CH_4$, approx 85-95%)",
+      "Butane",
       "Propane",
-      "Butane"
+      "Methane ($CH_4$, approx 85-95%)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "CNG me 85-95% compressed Methane ($CH_4$) gas hoti hai jo petrol aur diesel ke muqable kam particulate matter chhodti hai."
   },
   {
     "qe": "Which transparent metal oxide coating is standard on smartphone capacitive touchscreens as a transparent conductor?",
     "qh": "स्मार्टफोन की टचस्क्रीन पर पारदर्शी विद्युत चालक के रूप में किस धातु ऑक्साइड का उपयोग किया जाता है?",
     "o": [
-      "Aluminum Oxide",
-      "Indium Tin Oxide (ITO / $In_2O_3 - SnO_2$)",
+      "Zinc Ferrite",
       "Titanium Dioxide",
-      "Zinc Ferrite"
+      "Aluminum Oxide",
+      "Indium Tin Oxide (ITO / $In_2O_3 - SnO_2$)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Indium Tin Oxide (ITO) optical visible light ke liye transparent hota hai aur electrical conductivity provide karke touch capacitance detect karta hai."
   },
   {
     "qe": "Which synthetic chemical explosive is designated RDX (Research Department Explosive / Cyclonite)?",
     "qh": "सैन्य विस्फोटक 'RDX' का रासायनिक नाम क्या है?",
     "o": [
-      "Trinitrotoluene",
       "Cyclotrimethylenetrinitramine (Hexogen / $C_3H_6N_6O_6$)",
+      "Trinitrotoluene",
       "Pentaerythritol tetranitrate",
       "Lead azide"
     ],
-    "a": 1,
+    "a": 0,
     "e": "RDX ek heterocyclic nitroamine explosive hai jo TNT se kafi zyada velocity of detonation aur shattering power (brisance) rakhta hai."
   },
   {
     "qe": "What is 'Turpentine Oil' added to exterior oil-based paints for?",
     "qh": "ऑयल-बेस्ड पेंट में 'तारपीन का तेल' (Turpentine Oil) किस उद्देश्य से मिलाया जाता है?",
     "o": [
+      "As a fireproofing agent",
       "As a color pigment",
-      "As a Paint Thinner and volatile solvent to reduce viscosity for brushing",
       "To make paint water-soluble",
-      "As a fireproofing agent"
+      "As a Paint Thinner and volatile solvent to reduce viscosity for brushing"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Pine trees se distilled turpentine viscous resin-oil base ko thin karta hai taaki brush stroke smooth lage aur solvent evaporate hokar paint dry ho sake."
   },
   {
     "qe": "What is 'Bagasse' obtained as a solid byproduct in sugar mills utilized for?",
     "qh": "चीनी मिलों से निकलने वाली गन्ने की खोई (Bagasse) का मुख्य उपयोग क्या है?",
     "o": [
-      "Edible molasses substitute",
       "Boiler biofuel for power co-generation and raw pulp for Paper/Cardboard",
-      "Concrete hardening",
-      "Fertilizer directly"
+      "Edible molasses substitute",
+      "Fertilizer directly",
+      "Concrete hardening"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Crushed sugarcane ka fibrous dry residue (Bagasse) mill boilers me thermal fuel aur high-cellulose packaging paper pulp banane me use hota hai."
   },
   {
     "qe": "What is the deep blue inorganic coordination pigment 'Prussian Blue' chemically?",
     "qh": "गहरे नीले रंग का अकार्बनिक वर्णक 'प्रशियन ब्लू' (Prussian Blue) रासायनिक रूप से क्या है?",
     "o": [
-      "Cobalt blue silicate",
+      "Ultramarine",
       "Ferric Ferrocyanide [$Fe_4[Fe(CN)_6]_3$]",
-      "Copper carbonate",
-      "Ultramarine"
+      "Cobalt blue silicate",
+      "Copper carbonate"
     ],
     "a": 1,
     "e": "Iron(III) salt aur potassium ferrocyanide ke reaction se insoluble coordination pigment Ferric Ferrocyanide banta hai jo architectural blueprints me use hota tha."
@@ -1095,36 +1095,36 @@
     "qe": "What is the commercial blasting explosive 'ANFO' widely used in open-cast coal mining?",
     "qh": "कोयला खदानों में उपयोग किया जाने वाला व्यावसायिक विस्फोटक 'ANFO' क्या है?",
     "o": [
-      "Pure nitroglycerin gel",
       "Ammonium Nitrate Fuel Oil (approx 94% ammonium nitrate + 6% fuel oil)",
+      "Pure nitroglycerin gel",
       "Acidified nitric fuel",
       "Gunpowder pellets"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Porous prilled Ammonium Nitrate fertilizer pellets me 6% fuel oil mix karne par ek bohot economical aur shock-stable blasting agent banta hai."
   },
   {
     "qe": "What is industrial 'Red Lead' (Sindoor / Minium) primarily used for in civil construction?",
     "qh": "भारी निर्माण और जहाजों में 'रेड लेड' (सिंदूर / $Pb_3O_4$) का प्राथमिक औद्योगिक उपयोग क्या है?",
     "o": [
-      "Glass mirror silvering",
       "Anti-corrosive primer paint to protect structural iron and steel from rusting",
+      "Cement stabilizer",
       "Floor disinfectant",
-      "Cement stabilizer"
+      "Glass mirror silvering"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Lead tetroxide ($Pb_3O_4$) steel ke surface par protective passivating lead-iron oxide film bana kar marine corrosion aur rust ko rokti hai."
   },
   {
     "qe": "What is 'Gunpowder' (Black Powder) formulated from?",
     "qh": "पारंपरिक 'बारूद' (Gunpowder / Black Powder) किनका मिश्रण होता है?",
     "o": [
-      "TNT and sulfur",
       "Potassium Nitrate (Saltpeter, 75%), Charcoal (15%), and Sulfur (10%)",
-      "Nitroglycerin and clay",
-      "Lead azide"
+      "TNT and sulfur",
+      "Lead azide",
+      "Nitroglycerin and clay"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Potassium Nitrate ($KNO_3$) oxidizing agent hota hai jabki Charcoal aur Sulfur combustible fuels hote hain jo ignition par rapidly expanding gases banate hain."
   },
   {
@@ -1132,69 +1132,69 @@
     "qh": "आधुनिक पेंट्स और टूथपेस्ट में 'टाइटेनियम डाइऑक्साइड' ($TiO_2$) का उपयोग किस रूप में किया जाता है?",
     "o": [
       "Anticorrosive solvent",
-      "High refractive index opaque White Pigment",
       "Black pigment",
+      "High refractive index opaque White Pigment",
       "Fungicide"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Titanium Dioxide ($TiO_2$) rutile crystal form me extremely high refractive index (2.7) deta hai jo maximum hiding power aur whiteness provide karta hai."
   },
   {
     "qe": "What is the chemical identity of 'Liquid Nitroglycerin' when stabilized with porous adsorbents for safety?",
     "qh": "तरल नाइट्रोग्लिसरीन को जब सुरक्षित हैंडलिंग के लिए स्थिर किया जाता है, तो क्या बनता है?",
     "o": [
-      "Gun cotton",
       "Dynamite",
+      "Gun cotton",
       "TNT",
       "Plastic explosive"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Glycerol trinitrate ek shock-sensitive liquid hai jo porous silica/diatomite me absorb hone par safe solid Dynamite stick banta hai."
   },
   {
     "qe": "What green inorganic oxide pigment is celebrated in ceramic glazes and industrial coatings for its exceptional UV and heat stability?",
     "qh": "पेंट्स और सिरेमिक में अत्यधिक स्थिर हरे रंग के लिए किस धातु ऑक्साइड वर्णक का उपयोग किया जाता है?",
     "o": [
-      "Copper carbonate",
-      "Chromium(III) Oxide (Chrome Green / $Cr_2O_3$)",
       "Iron sulfide",
-      "Nickel oxide"
+      "Nickel oxide",
+      "Chromium(III) Oxide (Chrome Green / $Cr_2O_3$)",
+      "Copper carbonate"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Chromium(III) Oxide ($Cr_2O_3$) chemical attacks aur high furnace temperatures par bhi bilkul degrade nahi hota aur permanent green tint deta hai."
   },
   {
     "qe": "Why can liquid elemental Mercury ($Hg$) be safely stored and shipped in industrial Iron/Steel flasks?",
     "qh": "तरल पारे (Mercury) को लोहे या स्टील के बर्तनों में सुरक्षित रूप से क्यों रखा जाता है?",
     "o": [
+      "Iron is liquid-tight only",
       "Mercury rusts other metals immediately",
-      "Mercury does not form an amalgam with Iron",
       "Iron absorbs mercury vapors",
-      "Iron is liquid-tight only"
+      "Mercury does not form an amalgam with Iron"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Mercury lagbhag sabhi metals (Gold, Silver, Zinc, Sodium) ke sath amalgam banata hai, par Iron ($Fe$) ke sath amalgamate nahi karta."
   },
   {
     "qe": "Which metal salt gives a brilliant vivid 'Blue' emission color to fireworks pyrotechnic displays?",
     "qh": "आतिशबाजी और पटाखों में चमकदार 'नीला रंग' उत्पन्न करने के लिए किस धातु के यौगिक का उपयोग किया जाता है?",
     "o": [
+      "Sodium (Yellow)",
       "Strontium (Red)",
-      "Copper compounds (e.g., Copper Chloride)",
       "Barium (Green)",
-      "Sodium (Yellow)"
+      "Copper compounds (e.g., Copper Chloride)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Copper Chloride flame me emit hokar specific wavelength photons chhodta hai jo blue light dete hain; Strontium red aur Barium green color deta hai."
   },
   {
     "qe": "Which mineral acid is the ONLY chemical capable of dissolving silicon dioxide, making it standard for 'Etching Glass'?",
     "qh": "कांच पर नक्काशी (Etching) करने और उसे फ्रॉस्टेड बनाने के लिए किस एकमात्र अम्ल का उपयोग किया जाता है?",
     "o": [
-      "Hydrochloric Acid",
+      "Nitric Acid",
       "Hydrofluoric Acid ($HF$)",
-      "Sulfuric Acid",
-      "Nitric Acid"
+      "Hydrochloric Acid",
+      "Sulfuric Acid"
     ],
     "a": 1,
     "e": "Hydrofluoric acid glass ke silica ($SiO_2$) ke sath react karke volatile Silicon Tetrafluoride ($SiF_4$) banata hai jo glass surface ko dissolve/corrode karta hai."
@@ -1203,24 +1203,24 @@
     "qe": "What colorimetric redox reaction occurs inside traffic police Breathalyzers when alcohol vapor is exhaled into it?",
     "qh": "ट्रैफिक पुलिस द्वारा प्रयुक्त ब्रीथलाइज़र में श्वास की अल्कोहल किस रसायन को नारंगी से हरे रंग में बदल देती है?",
     "o": [
-      "Reduction of acidified Potassium Dichromate (Orange $Cr^{6+}$ to Green $Cr^{3+}$)",
-      "Oxidation of copper sulfate",
       "Neutralization of phenol",
-      "Precipitation of silver chloride"
+      "Precipitation of silver chloride",
+      "Oxidation of copper sulfate",
+      "Reduction of acidified Potassium Dichromate (Orange $Cr^{6+}$ to Green $Cr^{3+}$)"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Exhaled ethanol vapor acidic Potassium Dichromate ($K_2Cr_2O_7$) ko oxidize karti hai aur orange hexavalent chromium green trivalent chromium me reduce ho jata hai."
   },
   {
     "qe": "What toxic chemical gas leak from the Union Carbide pesticide factory precipitated the 1984 Bhopal Gas Tragedy?",
     "qh": "1984 की भोपाल गैस त्रासदी में यूनियन कार्बाइड की कीटनाशक फैक्ट्री से किस जहरीली गैस का रिसाव हुआ था?",
     "o": [
+      "Hydrogen Cyanide",
       "Phosgene",
       "Methyl Isocyanate (MIC / $CH_3NCO$)",
-      "Hydrogen Cyanide",
       "Carbon Monoxide"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Sevin (Carbaryl) pesticide banane ke intermediate Methyl Isocyanate (MIC) tank me paani ghusne se violent exothermic reaction hui aur deadly gas leak hui."
   },
   {
@@ -1228,11 +1228,11 @@
     "qh": "'टेरी-कॉट' (Tery-cot) कपड़ा किन रेशों का एक लोकप्रिय मिश्रण है?",
     "o": [
       "Silk and Wool",
-      "Terylene (Polyester) and Cotton",
+      "Rayon and Wool",
       "Nylon and Silk",
-      "Rayon and Wool"
+      "Terylene (Polyester) and Cotton"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Terylene (Dacron polyester) ki wrinkle resistance aur durability ko natural Cotton ki breathable moisture-absorption comfort ke sath blend kiya jata hai."
   }
 ]

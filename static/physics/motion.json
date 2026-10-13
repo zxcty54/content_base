@@ -3,48 +3,48 @@
     "qe": "The 'Universal Law of Gravitation' was given by:",
     "qh": "'गुरुत्वाकर्षण का सार्वत्रिक नियम' किसके द्वारा दिया गया था?",
     "o": [
-      "Galileo",
-      "Kepler",
       "Newton (न्यूटन)",
+      "Kepler",
+      "Galileo",
       "Copernicus"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Universal Law of Gravitation Sir Isaac Newton ne 1687 me diya tha, jiske mutabiq universe ka har mass dusre mass ko attract karta hai."
   },
   {
     "qe": "What is the 'Escape Velocity' from the Moon's surface?",
     "qh": "चंद्रमा की सतह से 'पलायन वेग' क्या है?",
     "o": [
-      "2.38 km/s",
-      "11.2 km/s",
+      "1.6 km/s",
       "5.0 km/s",
-      "1.6 km/s"
+      "11.2 km/s",
+      "2.38 km/s"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Moon par gravitational pull kam hone ke karan escape velocity lagbhag 2.38 km/s hoti hai, jo Earth ki escape velocity (11.2 km/s) se kaafi kam hai."
   },
   {
     "qe": "According to Newton's Universal Law of Gravitation, the gravitational force of attraction acts between any two masses in the universe along which geometric path?",
     "qh": "न्यूटन के गुरुत्वाकर्षण के सार्वभौमिक नियम के अनुसार, दो द्रव्यमानों के बीच गुरुत्वाकर्षण बल किस मार्ग के अनुदिश कार्य करता है?",
     "o": [
-      "Along a curved trajectory determined by the smaller mass",
+      "Along the line joining the centers of the two objects",
       "Strictly horizontal to the surface plane",
       "Symmetrically opposite to the rotation axis",
-      "Along the line joining the centers of the two objects"
+      "Along a curved trajectory determined by the smaller mass"
     ],
-    "a": 3,
+    "a": 0,
     "e": "Newtonian gravity ek central force hai, iska matlab do bodies ke beech lagne wala gravitational force hamesha unke centers ko jodne wali seedhi line ke along lagta hai."
   },
   {
     "qe": "Object A attracts Object B with a gravitational force F. According to Newton's third law of motion, with what force does Object B simultaneously attract Object A?",
     "qh": "वस्तु A, वस्तु B को गुरुत्वाकर्षण बल F से आकर्षित करती है। न्यूटन के तीसरे नियम के अनुसार, वस्तु B उसी क्षण वस्तु A को कितने बल से आकर्षित करती है?",
     "o": [
-      "With a force proportional to the surface area of B",
       "With an equal and opposite force F",
-      "With a significantly smaller force because A is larger",
-      "With zero force as only the larger mass pulls"
+      "With zero force as only the larger mass pulls",
+      "With a force proportional to the surface area of B",
+      "With a significantly smaller force because A is larger"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Newton's third law ke hisab se action aur reaction hamesha equal aur opposite hote hain. Isliye Object B bhi Object A par theek barabar magnitude ka force (F) opposite direction me lagayega."
   },
   {
@@ -53,8 +53,8 @@
     "o": [
       "N m kg^-1",
       "N m^2 kg^-2",
-      "N m^-2 kg^2",
-      "m s^-2"
+      "m s^-2",
+      "N m^-2 kg^2"
     ],
     "a": 1,
     "e": "Formula F = G * m1 * m2 / d^2 se G = F * d^2 / (m1 * m2) banta hai, jiska unit Newton * meter^2 / kg^2 yaani N m^2 kg^-2 nikal kar aata hai."
@@ -63,46 +63,46 @@
     "qe": "Why do we not visibly feel or observe the gravitational force of attraction between ordinary everyday objects like two people sitting in a room?",
     "qh": "हम किसी कमरे में बैठे दो व्यक्तियों के बीच गुरुत्वाकर्षण बल को प्रत्यक्ष रूप से क्यों महसूस नहीं कर पाते हैं?",
     "o": [
-      "Because ordinary objects do not contain mass",
       "Because the force exists only in the presence of fluids",
       "Because the value of G is extremely small, making the force negligible for small masses",
-      "Because atmospheric pressure cancels out the gravitation field"
+      "Because atmospheric pressure cancels out the gravitation field",
+      "Because ordinary objects do not contain mass"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Universal constant G ka value bohot chhota (6.67 x 10^-11 N m^2/kg^2) hota hai. Normal masses ke liye calculated gravitational force itna kam hota hai ki friction ke aage pata hi nahi chalta."
   },
   {
     "qe": "According to the Inverse Square Law of gravitation, if the distance 'd' between two masses is doubled, the force becomes:",
     "qh": "यदि दो द्रव्यमानों के बीच की दूरी 'd' को दोगुना कर दिया जाए, तो गुरुत्वाकर्षण बल कितना हो जाएगा?",
     "o": [
-      "Doubled (2F)",
-      "Four times (4F)",
       "One-fourth (F/4)",
-      "Remains completely unchanged"
+      "Remains completely unchanged",
+      "Four times (4F)",
+      "Doubled (2F)"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Gravitational force distance ke square ke inversely proportional (F proportional to 1/d^2) hota hai. Doori double (2d) karne par force (1/2^2) yaani 1/4th (F/4) reh jata hai."
   },
   {
     "qe": "What happens to the gravitational force between two masses if the distance between their centers is reduced to exactly half?",
     "qh": "यदि दो द्रव्यमानों के बीच की दूरी को घटाकर आधा कर दिया जाए, तो उनके बीच गुरुत्वाकर्षण बल पर क्या प्रभाव पड़ेगा?",
     "o": [
-      "It increases to four times (4F)",
       "It decreases to half (F/2)",
       "It decreases to one-fourth (F/4)",
+      "It increases to four times (4F)",
       "It remains absolutely the same"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Doori aadhi (d/2) karne par denominator me (1/2)^2 = 1/4 aayega, jisse force 4 guna badhkar 4F ho jata hai."
   },
   {
     "qe": "What is the primary role of the centripetal force in maintaining the orbit of the Moon around the Earth?",
     "qh": "पृथ्वी के चारों ओर चंद्रमा की कक्षा में अभिकेंद्र बल (Centripetal Force) का मुख्य कार्य क्या है?",
     "o": [
-      "It increases the mass of the Moon continuously",
+      "It slows down the rotation of the Earth's axis",
       "It pushes the Moon into outer space away from Earth",
       "It continuously changes the direction of motion of the Moon, keeping it in a circular path",
-      "It slows down the rotation of the Earth's axis"
+      "It increases the mass of the Moon continuously"
     ],
     "a": 2,
     "e": "Moon ki speed almost constant rehti hai par circular orbit me har second direction badalni padti hai. Direction continuously modne ke liye centripetal force zaroori hota hai."
@@ -111,36 +111,36 @@
     "qe": "In the case of the Moon revolving around the Earth, which actual physical force provides the required centripetal force?",
     "qh": "पृथ्वी के चक्कर लगाने वाले चंद्रमा के मामले में, कौन सा वास्तविक बल आवश्यक अभिकेंद्र बल प्रदान करता है?",
     "o": [
+      "The gravitational force of attraction between the Earth and the Moon",
       "Magnetic repulsion of the polar grids",
       "Atmospheric friction of free space",
-      "The gravitational force of attraction between the Earth and the Moon",
       "Electrostatic force of ionized particles"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Centripetal force koi alag force nahi hota; yahan Earth aur Moon ke beech ka mutual gravitational pull hi centripetal force provide karta hai."
   },
   {
     "qe": "If the gravitational force between the Earth and the Moon suddenly vanished into zero, how would the Moon theoretically move?",
     "qh": "यदि पृथ्वी और चंद्रमा के बीच का गुरुत्वाकर्षण बल अचानक शून्य हो जाए, तो चंद्रमा सैद्धांतिक रूप से कैसे गति करेगा?",
     "o": [
-      "It would fall straight to the center of the Earth",
       "It would fly off along a straight line tangent to its circular orbit",
-      "It would stop moving instantly and stay frozen",
-      "It would start moving in a smaller spiral counter-clockwise"
+      "It would start moving in a smaller spiral counter-clockwise",
+      "It would fall straight to the center of the Earth",
+      "It would stop moving instantly and stay frozen"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Inertia ke niyam ke hisab se centripetal force hat-te hi Moon orbit ke us specific point par tangent ke along bilkul seedhi line me space me nikal jayega."
   },
   {
     "qe": "Why is the acceleration of the Earth toward the Moon imperceptible even though both exert equal gravitational force on each other?",
     "qh": "चंद्रमा द्वारा लगाए गए समान बल के बावजूद पृथ्वी का चंद्रमा की ओर त्वरण नगण्य क्यों होता है?",
     "o": [
-      "Because the Moon does not exert any force on the Earth",
-      "Because Earth is protected by its magnetic field",
       "Because the velocity of Earth is absolute in vacuum",
-      "Because the mass of the Earth is extremely large compared to the Moon (a = F/M)"
+      "Because the mass of the Earth is extremely large compared to the Moon (a = F/M)",
+      "Because the Moon does not exert any force on the Earth",
+      "Because Earth is protected by its magnetic field"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Force dono par same lagta hai, par acceleration a = F/m hota hai. Earth ka mass Moon se lagbhag 81 guna zyada hai, isliye Earth ka acceleration itna kam hota hai ki detect nahi hota."
   },
   {
@@ -148,23 +148,23 @@
     "qh": "किसी वस्तु के 'द्रव्यमान' (Mass) और उसके 'भार' (Weight) के बीच वैज्ञानिक अंतर क्या है?",
     "o": [
       "Mass changes with location, Weight remains constant",
-      "Mass is the quantity of matter and stays constant everywhere, while Weight is the gravitational force acting on it (W = mg)",
+      "Mass is measured in Newtons and Weight in Kilograms",
       "Both are vector quantities measuring coordinates",
-      "Mass is measured in Newtons and Weight in Kilograms"
+      "Mass is the quantity of matter and stays constant everywhere, while Weight is the gravitational force acting on it (W = mg)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Mass matter ka inherent amount hai jo universe me kabhi nahi badalta (scalar, kg). Weight wo gravitational pull hai (W = mg) jo g ki value ke hisab se badalta rehta hai (vector, N)."
   },
   {
     "qe": "Where is the acceleration due to gravity (g) maximum and minimum on the surface of the Earth?",
     "qh": "पृथ्वी की सतह पर गुरुत्वीय त्वरण (g) का मान कहाँ अधिकतम और कहाँ न्यूनतम होता है?",
     "o": [
-      "Maximum at the equator, minimum at the poles",
-      "Zero everywhere on the surface plane",
+      "Depends strictly on ocean tides",
       "Maximum at the poles and minimum at the equator",
-      "Depends strictly on ocean tides"
+      "Zero everywhere on the surface plane",
+      "Maximum at the equator, minimum at the poles"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Earth poles par thodi chapti (flattened) hai, isliye poles par center se distance (radius) kam hone ki wajah se g maximum hota hai aur equator par radius badi hone se g minimum hota hai."
   },
   {
@@ -172,33 +172,33 @@
     "qh": "यदि कोई व्यापारी ध्रुवों पर स्प्रिंग बैलेंस से तौलकर सोना खरीदे और भूमध्य रेखा पर बेचे, तो उसे क्या परिणाम मिलेगा?",
     "o": [
       "He will gain a huge profit",
-      "He will experience a loss because the measured weight decreases at the equator",
+      "The spring balance will not function",
       "There will be no change since mass is absolute",
-      "The spring balance will not function"
+      "He will experience a loss because the measured weight decreases at the equator"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Spring balance mass nahi balki weight (mg) measure karta hai. Equator par g ki value kam hone ki wajah se gold ka measured weight kam aayega aur trader ko loss hoga."
   },
   {
     "qe": "How does the acceleration due to gravity (g) change as one moves deep inside a mine or high up into the atmosphere?",
     "qh": "पृथ्वी की सतह से ऊपर जाने पर या खदान में गहराई में जाने पर गुरुत्वीय त्वरण (g) के मान में क्या परिवर्तन होता है?",
     "o": [
-      "It increases in both cases",
-      "It increases going up and decreases going down",
       "It decreases in both cases",
-      "It remains absolutely constant at 9.8 m/s^2"
+      "It remains absolutely constant at 9.8 m/s^2",
+      "It increases in both cases",
+      "It increases going up and decreases going down"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Earth ki surface par g maximum hota hai. Chahe aap surface se upar height par jayein ya andar depth me jayein, dono hi cases me g ka value ghat-ta (decrease hota) hai."
   },
   {
     "qe": "What is the theoretical value of acceleration due to gravity (g) at the absolute center of the Earth?",
     "qh": "पृथ्वी के बिल्कुल केंद्र (Center of Earth) पर गुरुत्वीय त्वरण (g) का मान कितना होता है?",
     "o": [
-      "9.8 m/s^2",
+      "-9.8 m/s^2",
       "Zero",
-      "Infinite",
-      "-9.8 m/s^2"
+      "9.8 m/s^2",
+      "Infinite"
     ],
     "a": 1,
     "e": "Earth ke center par charo taraf ka mass barabar gravitational pull lagata hai jo aapas me cancel ho jata hai, isliye center par g = 0 hota hai."
@@ -207,12 +207,12 @@
     "qe": "If an object has a mass of 60 kg on Earth, what will be its mass and weight on the Moon? (Assume g_earth = 10 m/s^2)",
     "qh": "यदि किसी वस्तु का द्रव्यमान पृथ्वी पर 60 kg है, तो चंद्रमा की सतह पर उसका द्रव्यमान और भार क्रमशः कितना होगा? (g_earth = 10 m/s^2)",
     "o": [
-      "10 kg and 100 N",
       "60 kg and 600 N",
-      "10 kg and 600 N",
-      "60 kg and 100 N"
+      "10 kg and 100 N",
+      "60 kg and 100 N",
+      "10 kg and 600 N"
     ],
-    "a": 3,
+    "a": 2,
     "e": "Mass hamesha constant rehta hai isliye Moon par bhi 60 kg rahega. Moon par g 1/6th hota hai, toh weight W = 60 * (10 / 6) = 100 N hoga."
   },
   {
@@ -231,10 +231,10 @@
     "qe": "Why does a flat sheet of paper fall slower than the same paper crumpled into a tight ball in a normal room with air?",
     "qh": "हवा वाले कमरे में कागज की समतल शीट उसी कागज की मोड़ी हुई गेंद की तुलना में धीमी क्यों गिरती है?",
     "o": [
-      "Because crumpling increases the mass of the paper",
       "Because the crumpled ball gains extra gravitational force",
+      "Because flat shapes are repelled by magnetic forces",
       "Because the flat sheet has a larger surface area and experiences greater air resistance",
-      "Because flat shapes are repelled by magnetic forces"
+      "Because crumpling increases the mass of the paper"
     ],
     "a": 2,
     "e": "Flat sheet ka surface area bada hone ki wajah se uspar upward air resistance drag bohot zyada lagta hai, jabki crumpled ball par air drag kam lagta hai."
@@ -243,120 +243,120 @@
     "qe": "In physics, what is the core distinction between 'Thrust' and 'Pressure'?",
     "qh": "भौतिकी में 'प्रणोद' (Thrust) और 'दाब' (Pressure) के बीच मुख्य अंतर क्या है?",
     "o": [
-      "Thrust is scalar and Pressure is vector",
-      "Thrust is the total perpendicular force acting on a surface, while Pressure is thrust per unit area (P = F/A)",
       "Both measure identical parameters with the same units",
-      "Pressure does not depend on contact surface area"
+      "Thrust is scalar and Pressure is vector",
+      "Pressure does not depend on contact surface area",
+      "Thrust is the total perpendicular force acting on a surface, while Pressure is thrust per unit area (P = F/A)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Kisi surface par lagne wale total normal (perpendicular) force ko Thrust bolte hain (unit: N). Jab is force ko area se divide karte hain (P = F/A), toh use Pressure bolte hain (unit: Pa)."
   },
   {
     "qe": "Why does a person sink deep into loose sand while standing on feet, but does not sink much when lying down?",
     "qh": "रेत पर पैरों के बल खड़े होने पर व्यक्ति उसमें धंस जाता है, लेकिन लेटने पर नहीं धंसता। क्यों?",
     "o": [
-      "Because body mass decreases when lying down",
-      "Because standing concentrates weight on a smaller area creating higher pressure (P = F/A)",
       "Because loose sand absorbs horizontal force only",
-      "Because gravity decreases in a horizontal posture"
+      "Because body mass decreases when lying down",
+      "Because gravity decreases in a horizontal posture",
+      "Because standing concentrates weight on a smaller area creating higher pressure (P = F/A)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Weight (force) dono case me same hai. Khade hone par feet ka area chhota hone se pressure (P = F/A) high banta hai jisse pair dhans jaate hain, jabki letne par area badhne se pressure bohot kam ho jata hai."
   },
   {
     "qe": "Why are cutting tools like knives, needles, and nails manufactured with extremely sharp edges or pointed ends?",
     "qh": "चाकू, सुई और कील को अत्यंत नुकीला या धारदार क्यों बनाया जाता है?",
     "o": [
-      "To maximize the contact area",
-      "To change the chemical properties of materials",
       "To reduce the contact area so that a small force generates very high pressure (P = F/A)",
+      "To change the chemical properties of materials",
+      "To maximize the contact area",
       "To absorb internal mechanical stress"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Sharp edges area (A) ko bohot chhota kar deti hain. Area kam hone ki wajah se normal hath ka force bhi bohot high pressure generate karta hai, jisse cheezein aasaani se cut jaati hain."
   },
   {
     "qe": "How does the hydrostatic pressure inside a static liquid fundamentally vary with depth?",
     "qh": "एक स्थिर द्रव के भीतर द्रवस्थैतिक दाब गहराई के साथ किस प्रकार बदलता है?",
     "o": [
-      "It decreases continuously with depth",
-      "It increases continuously with depth due to the increasing weight of the liquid column above (P = rho*g*h)",
       "It remains constant regardless of depth",
-      "It drops to zero at the bottom center"
+      "It drops to zero at the bottom center",
+      "It decreases continuously with depth",
+      "It increases continuously with depth due to the increasing weight of the liquid column above (P = rho*g*h)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Liquid me jaise-jaise गहराई (h) badhti hai, upar ke liquid column ka weight badhta jata hai. Isliye hydrostatic pressure formula P = rho * g * h ke hisab se depth ke sath linearly badhta hai."
   },
   {
     "qe": "What did Archimedes' Principle discover regarding the magnitude of buoyant force (upthrust) acting on a submerged body?",
     "qh": "आर्कमीडीज के सिद्धांत के अनुसार किसी डूबे हुए पिंड पर लगने वाले उत्प्लावन बल का मान किसके बराबर होता है?",
     "o": [
-      "It is equal to the total mass of the object",
-      "It is equal to the weight of the fluid displaced by the immersed body",
       "It depends solely on the color of the liquid",
-      "It is always zero inside closed vessels"
+      "It is always zero inside closed vessels",
+      "It is equal to the total mass of the object",
+      "It is equal to the weight of the fluid displaced by the immersed body"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Archimedes' Principle ke mutabiq jab koi body partially ya completely fluid me doobti hai, toh uspar lagne wala upward buoyant force us body dwara displace kiye gaye fluid ke weight ke barabar hota hai."
   },
   {
     "qe": "Why is it much easier for a human to float and swim in sea water compared to fresh river water?",
     "qh": "ताजे नदी के पानी की तुलना में समुद्र के खारे पानी में तैरना आसान क्यों होता है?",
     "o": [
-      "Because sea water has zero gravity",
-      "Because sea water contains dissolved salts making it denser, exerting a greater buoyant upthrust",
       "Because sea waves push the swimmer forward",
-      "Because salt reduces human body mass"
+      "Because salt reduces human body mass",
+      "Because sea water contains dissolved salts making it denser, exerting a greater buoyant upthrust",
+      "Because sea water has zero gravity"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Sea water me dissolved salts hone ke karan uski density fresh water se zyada hoti hai. Archimedes principle ke hisab se denser liquid zyada buoyant upthrust lagata hai, jisse tairna aasan ho jata hai."
   },
   {
     "qe": "An iron nail sinks immediately in water, but a massive ship made of iron floats effortlessly. Why?",
     "qh": "लोहे की कील पानी में डूब जाती है, लेकिन लोहे का बना विशाल जहाज तैरता है। क्यों?",
     "o": [
-      "Because the ship alters the mass of iron",
-      "Because water molecules attract nails more than ships",
       "Because the ship travels faster than the nail",
-      "Because the ship is hollow and encloses air, displacing a weight of water equal to its total weight"
+      "Because the ship is hollow and encloses air, displacing a weight of water equal to its total weight",
+      "Because water molecules attract nails more than ships",
+      "Because the ship alters the mass of iron"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Solid nail ka volume kam hota hai isliye wo apne weight se kam paani displace kar pati hai aur doob jaati hai. Ship hollow hoti hai aur uska shape aisa hota hai ki wo apne poore weight ke barabar paani displace karke aasaani se float karti hai."
   },
   {
     "qe": "What is the primary scientific criterion that determines whether a solid object will float or sink in a fluid?",
     "qh": "यह तय करने का मुख्य वैज्ञानिक नियम क्या है कि कोई ठोस वस्तु द्रव में तैरेगी या डूबेगी?",
     "o": [
+      "The depth of the liquid container",
       "The total mass of the object alone",
       "Comparison of the object's density with the fluid's density",
-      "The depth of the liquid container",
       "The shape and color profile of the object"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Agar object ki density fluid ki density se zyada hai (rho_obj > rho_fluid) toh wo doob jayegi. Agar object ki density fluid se kam hai toh wo float karegi."
   },
   {
     "qe": "An object whose density is exactly equal to the density of the liquid is placed completely inside that liquid. What will happen to it?",
     "qh": "यदि किसी वस्तु का घनत्व द्रव के घनत्व के ठीक बराबर हो और उसे द्रव में डुबोया जाए, तो क्या होगा?",
     "o": [
-      "It will pop out of the liquid surface",
-      "It will sink to the bottom immediately",
       "It will remain suspended at whatever depth it is placed within the liquid",
-      "It will start spinning at high speed"
+      "It will sink to the bottom immediately",
+      "It will start spinning at high speed",
+      "It will pop out of the liquid surface"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Jab density barabar hoti hai, toh downward weight aur upward buoyant force bilkul balance ho jaate hain. Object ko liquid me jis depth par bhi chhodenge, wo wahi suspended (taharta hua) reh jayega."
   },
   {
     "qe": "Under what strict kinematic condition are average speed and the magnitude of average velocity completely identical?",
     "qh": "किस गतिज स्थिति में औसत चाल और औसत वेग का परिमाण बिल्कुल समान होता है?",
     "o": [
-      "When the object moves in a uniform circular loop",
-      "When the object moves strictly in a straight line without changing its direction",
       "When acceleration is permanently perpendicular to velocity",
-      "When total displacement at the end of the trip is zero"
+      "When the object moves in a uniform circular loop",
+      "When total displacement at the end of the trip is zero",
+      "When the object moves strictly in a straight line without changing its direction"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Average speed = total distance / time aur average velocity = displacement / time. Distance aur displacement tabhi barabar hote hain jab body bina mude ek seedhi straight line me travel kare."
   },
   {
@@ -365,8 +365,8 @@
     "o": [
       "Because over an infinitesimally small time interval (delta_t -> 0), the object cannot change direction, making path length equal displacement",
       "Because acceleration drops to zero instantaneously",
-      "Because path length contracts in motion",
-      "Because instantaneous speed is a vector quantity"
+      "Because instantaneous speed is a vector quantity",
+      "Because path length contracts in motion"
     ],
     "a": 0,
     "e": "Jab time interval delta_t lagbhag zero ke barabar hota hai, us pal direction change hona impossible hai. Isliye infinitesimally short distance aur displacement magnitude barabar ho jaate hain."
@@ -375,60 +375,60 @@
     "qe": "What physical quantity is represented by the slope of a Distance-Time Graph?",
     "qh": "दूरी-समय ग्राफ की ढाल (Slope) क्या प्रदर्शित करती है?",
     "o": [
-      "Acceleration",
-      "Speed",
       "Force",
-      "Displacement"
+      "Displacement",
+      "Speed",
+      "Acceleration"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Distance-Time graph ka slope delta_s / delta_t hota hai, jo distance covered per unit time yaani Speed ko represent karta hai."
   },
   {
     "qe": "If a distance-time graph is a straight line parallel to the time axis, what does it signify?",
     "qh": "यदि दूरी-समय ग्राफ समय अक्ष के समानांतर एक क्षैतिज रेखा है, तो इसका क्या अर्थ है?",
     "o": [
+      "The object is at rest",
       "The object is moving with constant acceleration",
       "The object is moving with infinite speed",
-      "The object is at rest",
       "The object is in circular motion"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Time axis ke parallel line ka matlab time badh raha hai par distance ki position change nahi ho rahi, yaani object rest (sthir) condition me hai."
   },
   {
     "qe": "What physical quantity is determined by the slope of a Velocity-Time Graph?",
     "qh": "वेग-समय ग्राफ की ढाल (Slope) से हमें कौन सी राशि प्राप्त होती है?",
     "o": [
-      "Displacement",
       "Speed",
+      "Acceleration",
       "Impulse",
-      "Acceleration"
+      "Displacement"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Velocity-Time graph ka slope delta_v / delta_t hota hai, jo rate of change of velocity yaani Acceleration ko show karta hai."
   },
   {
     "qe": "What physical quantity is represented by the total area enclosed under a Velocity-Time graph?",
     "qh": "वेग-समय ग्राफ के नीचे का कुल क्षेत्रफल क्या दर्शाता है?",
     "o": [
-      "Displacement or Distance traveled",
       "Instantaneous acceleration",
       "Rate of change of momentum",
+      "Displacement or Distance traveled",
       "Average speed squared"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Velocity aur time ka product (v * t) displacement hota hai. Isliye v-t graph ke neeche ka integrated area displacement (ya distance) deta hai."
   },
   {
     "qe": "Why are the standard equations of motion (v = u + at, s = ut + 1/2at^2) inapplicable to uniform circular motion?",
     "qh": "गति के मानक समीकरण एकसमान वृत्तीय गति पर लागू क्यों नहीं होते हैं?",
     "o": [
+      "Because speed is variable",
       "Because circular motion occurs only in vacuum",
       "Because acceleration magnitude is changing",
-      "Because in circular motion, the direction of acceleration continuously changes, violating the constant vector requirement",
-      "Because speed is variable"
+      "Because in circular motion, the direction of acceleration continuously changes, violating the constant vector requirement"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Kinematic equations tabhi valid hoti hain jab acceleration vector (magnitude aur direction dono) constant ho. Circular motion me acceleration hamesha center ki taraf point karta hai, isliye direction har pal badal rahi hoti hai."
   },
   {
@@ -436,59 +436,59 @@
     "qh": "परिमाण और दिशा के अलावा, किसी राशि को सदिश होने के लिए कौन सी तीसरी अनिवार्य शर्त पूरी करनी होती है?",
     "o": [
       "It must be independent of measurement units",
-      "It must obey the Triangle Law or Parallelogram Law of vector addition",
       "It must be conserved in all collisions",
-      "It must remain positive in all reference frames"
+      "It must remain positive in all reference frames",
+      "It must obey the Triangle Law or Parallelogram Law of vector addition"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Kewal magnitude aur direction hona kaafi nahi hai. Quantity ko vector addition ke laws (triangle ya parallelogram law) ko obey karna zaroori hai. Jaise Electric Current me direction hoti hai par wo scalarly add hota hai, isliye scalar hai."
   },
   {
     "qe": "When a projectile is launched into the air at an angle theta to the horizontal, what happens to its horizontal velocity component during flight (ignoring air drag)?",
     "qh": "प्रक्षेप्य गति में उड़ान के दौरान क्षैतिज वेग घटक (Horizontal Velocity) पर क्या प्रभाव पड़ता है?",
     "o": [
-      "It increases due to gravity",
       "It continuously drops to zero at the peak",
       "It remains completely constant throughout the flight",
+      "It increases due to gravity",
       "It reverses direction symmetrically"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Gravity sirf vertically downward act karti hai ($a_y = -g$). Horizontal direction me koi force ya acceleration nahi hota ($a_x = 0$), isliye horizontal velocity $v_x = v_0 \\cos\\theta$ poori flight me constant rehti hai."
   },
   {
     "qe": "At the highest point (apex) of a projectile's trajectory, what are the values of its velocity and acceleration?",
     "qh": "प्रक्षेप्य के उच्चतम बिंदु पर इसके वेग और त्वरण का मान क्या होता है?",
     "o": [
-      "Both velocity and acceleration are zero",
       "Velocity is horizontal (v0 cos theta) and acceleration is downward (g)",
       "Velocity is zero and acceleration is g",
+      "Both velocity and acceleration are zero",
       "Velocity is vertical and acceleration is zero"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Peak par vertical velocity component $v_y = 0$ ho jata hai par horizontal velocity $v_0 \\cos\\theta$ bani rehti hai. Downward gravity acceleration $g$ har pal lagta rehta hai."
   },
   {
     "qe": "At what launch angle theta does a projectile achieve its absolute maximum horizontal range for a given initial speed?",
     "qh": "किसी निश्चित प्रारंभिक गति के लिए प्रक्षेप्य का क्षैतिज परास किस प्रक्षेप कोण पर अधिकतम होता है?",
     "o": [
-      "30 degrees",
       "45 degrees",
       "60 degrees",
-      "90 degrees"
+      "90 degrees",
+      "30 degrees"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Range ka formula $R = (v_0^2 \\sin 2\\theta) / g$ hota hai. Range maximum tab hogi jab $\\sin 2\\theta = 1$ ho, yaani $2\\theta = 90^\\circ \\implies \\theta = 45^\\circ$."
   },
   {
     "qe": "Newton's first law of motion equates a body at rest with a body in uniform linear motion. What parameter is zero in both states?",
     "qh": "न्यूटन का पहला नियम विराम अवस्था और एकसमान रेखीय गति को समतुल्य मानता है। दोनों अवस्थाओं में क्या शून्य होता है?",
     "o": [
-      "Net external force (and therefore acceleration)",
-      "Instantaneous velocity",
       "Total kinetic energy",
-      "Linear momentum"
+      "Linear momentum",
+      "Net external force (and therefore acceleration)",
+      "Instantaneous velocity"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Rest ($v=0$) aur uniform linear motion ($v=\\text{constant}$) dono me hi acceleration $a = 0$ hota hai, jiska matlab body par lagne wala net external force bilkul zero hai."
   },
   {
@@ -496,47 +496,47 @@
     "qh": "क्रिकेटर कैच पकड़ते समय अपने हाथों को पीछे क्यों खींचता है?",
     "o": [
       "To decrease the ball's mass",
-      "To increase the impact time duration, thereby reducing the rate of change of momentum and impact force",
       "To prevent the ball from bouncing due to gravity",
+      "To increase the impact time duration, thereby reducing the rate of change of momentum and impact force",
       "To maintain zero momentum throughout"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Newton's second law ($F = \\Delta p / \\Delta t$) ke according haath peeche khinchne se stopping time interval $\\Delta t$ badh jata hai. Time badhne se force of impact kam ho jata hai aur chot nahi lagti."
   },
   {
     "qe": "A passenger standing in a stationary bus falls backward when the bus suddenly accelerates forward. This experience is explained by:",
     "qh": "स्थिर बस के अचानक चलने पर खड़ा यात्री पीछे की ओर गिरता है। इसका कारण क्या है?",
     "o": [
-      "Inertia of rest of the upper body",
       "Action-reaction cancellation",
+      "Sudden increase in body weight",
       "Gravitational attraction of the rear engine",
-      "Sudden increase in body weight"
+      "Inertia of rest of the upper body"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Bus ke floor ke sath pair friction ke chalte aage nikal jaate hain, lekin body ka upari hissa inertia of rest ki wajah se apni purani position par rehna chahta hai, isliye relative backward jerk lagta hai."
   },
   {
     "qe": "Why do action and reaction forces mentioned in Newton's Third Law never cancel each other out?",
     "qh": "न्यूटन के तीसरे नियम के क्रिया और प्रतिक्रिया बल एक-दूसरे को कभी निरस्त क्यों नहीं करते?",
     "o": [
-      "Because they act at different times",
-      "Because they are not equal in magnitude",
+      "Because one is real and the other is imaginary",
       "Because they act on two different bodies simultaneously",
-      "Because one is real and the other is imaginary"
+      "Because they are not equal in magnitude",
+      "Because they act at different times"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Forces tabhi cancel hoti hain jab wo ek hi single body par lagein. Action aur reaction hamesha do alag-alag bodies par lagte hain ($F_{AB} = -F_{BA}$), isliye wo cancel nahi ho sakte."
   },
   {
     "qe": "All macro-mechanical contact forces such as friction, normal reaction, and tension in a string microscopically originate from:",
     "qh": "घर्षण, अभिलंब बल और तनाव जैसे संपर्क बल सूक्ष्म स्तर पर किस मूल बल से उत्पन्न होते हैं?",
     "o": [
-      "Gravitational forces",
-      "Electromagnetic forces between atomic electrons and nuclei",
       "Strong nuclear forces",
-      "Weak decay interactions"
+      "Gravitational forces",
+      "Weak decay interactions",
+      "Electromagnetic forces between atomic electrons and nuclei"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Microscopic level par sabhi materials atoms aur electrons se bane hote hain. Jab do surfaces contact me aati hain, toh unke electron clouds ke beech hone wala electromagnetic repulsion hi friction aur normal reaction banta hai."
   },
   {
@@ -544,11 +544,11 @@
     "qh": "स्थैतिक घर्षण का अधिकतम मान (सीमांत घर्षण) संपर्क क्षेत्रफल पर किस प्रकार निर्भर करता है?",
     "o": [
       "Directly proportional to contact area",
-      "Inversely proportional to contact area",
       "Independent of the macroscopic contact area",
+      "Inversely proportional to contact area",
       "Proportional to area squared"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Friction ka empirical law hai ki limiting static friction ($f_s = \\mu_s N$) sirf normal reaction aur surface material nature par depend karta hai, macroscopic contact area par depend nahi karta."
   },
   {
@@ -556,9 +556,9 @@
     "qh": "जब कोई वस्तु फिसलने लगती है, तो घर्षण बल पर क्या प्रभाव पड़ता है?",
     "o": [
       "It drops slightly from maximum static friction to a nearly constant kinetic friction (f_k < f_s_max)",
+      "It points perpendicular to the surface",
       "It increases exponentially with speed",
-      "It immediately drops to absolute zero",
-      "It points perpendicular to the surface"
+      "It immediately drops to absolute zero"
     ],
     "a": 0,
     "e": "Motion start hone ke baad static friction kinetic friction me convert ho jata hai. Kinetic friction coefficient $\\mu_k$ static friction coefficient $\\mu_s$ se thoda kam hota hai, isliye resistance thoda ghat jata hai."
@@ -567,12 +567,12 @@
     "qe": "What physical force provides the necessary centripetal force for a car making a turn on a flat, unbanked circular road?",
     "qh": "समतल क्षैतिज सड़क पर मोड़ लेते समय कार को आवश्यक अभिकेंद्र बल कौन प्रदान करता है?",
     "o": [
-      "The normal reaction from the road",
       "The downward weight of the vehicle",
       "Static friction between the tyres and the road surface",
+      "The normal reaction from the road",
       "The air drag against the windshield"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Level curved road par koi banking angle nahi hota, isliye car ko skid hone se rokne aur center ki taraf turn karane wala centripetal force tyres aur road ke beech ka static friction provide karta hai."
   },
   {
@@ -591,22 +591,22 @@
     "qe": "Why can a fluid at rest not sustain any shear stress?",
     "qh": "विराम अवस्था में कोई तरल अपरूपण प्रतिबल (Shear Stress) क्यों सहन नहीं कर सकता?",
     "o": [
-      "Because it would flow immediately under any non-zero tangential force",
-      "Because fluid density drops to zero under shear",
       "Because fluids do not have mass",
+      "Because fluid density drops to zero under shear",
+      "Because it would flow immediately under any non-zero tangential force",
       "Because atmospheric pressure cancels all fluid forces"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Fluids ki property hoti hai ki wo static tangential force withstand nahi kar sakte. Agar thoda sa bhi parallel/shear force lagaya jaye, toh fluid ke layers flow hone lagte hain."
   },
   {
     "qe": "Pascal's law for a fluid at rest states that pressure is identical at all points that are:",
     "qh": "पास्कल के नियम के अनुसार एक स्थिर द्रव के भीतर दाब उन सभी बिंदुओं पर समान होता है जो:",
     "o": [
-      "Aligned vertically along the gravity axis",
+      "In contact with the atmosphere",
       "Located at the exact same horizontal level",
-      "Near the center of the vessel only",
-      "In contact with the atmosphere"
+      "Aligned vertically along the gravity axis",
+      "Near the center of the vessel only"
     ],
     "a": 1,
     "e": "Static fluid me same horizontal level par har point par hydrostatic pressure bilkul barabar hota hai, chahe container ka shape kaisa bhi ho."
@@ -615,12 +615,12 @@
     "qe": "The 'Hydrostatic Paradox' shows that three vessels of different shapes filled with water to the same height have the same base pressure. This happens because:",
     "qh": "अलग-अलग आकार के बर्तनों में समान ऊंचाई तक पानी भरने पर तली पर दाब समान होता है। क्यों?",
     "o": [
+      "Water changes its density with shape",
       "Atmospheric pressure becomes zero",
-      "Liquid pressure at the base depends strictly on fluid column height and density, not on vessel shape (P = rho*g*h)",
       "Surface tension pulls all vessels equally",
-      "Water changes its density with shape"
+      "Liquid pressure at the base depends strictly on fluid column height and density, not on vessel shape (P = rho*g*h)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Hydrostatic pressure sirf liquid density ($\\rho$), gravity ($g$) aur vertical height ($h$) par depend karta hai. Container ka shape ya usme kitna total paani hai, isse base pressure par koi farak nahi padta."
   },
   {
@@ -628,35 +628,35 @@
     "qh": "तरल प्रवाह में सांतत्य समीकरण ($A_1 v_1 = A_2 v_2$) किस संरक्षण नियम का गणितीय रूप है?",
     "o": [
       "Conservation of Energy",
-      "Conservation of Linear Momentum",
       "Conservation of Mass",
+      "Conservation of Linear Momentum",
       "Conservation of Angular Momentum"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Incompressible fluid ke steady flow me jitna mass pipe ke ek end se enter karega, utna hi mass doosre end se bahar aayega. Isliye equation of continuity seedhe Conservation of Mass ko represent karti hai."
   },
   {
     "qe": "According to Bernoulli's principle and continuity, how does an airplane wing (aerofoil) generate upward dynamic lift?",
     "qh": "हवाई जहाज का पंख (Aerofoil) ऊपर की ओर लिफ्ट कैसे उत्पन्न करता है?",
     "o": [
-      "By blocking Earth's gravity photons",
-      "By causing air streamlines to crowd together on top, creating higher speed and lower pressure above the wing than below it",
       "By ejecting compressed air downward",
-      "By heating the air below the wing"
+      "By blocking Earth's gravity photons",
+      "By heating the air below the wing",
+      "By causing air streamlines to crowd together on top, creating higher speed and lower pressure above the wing than below it"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Aerofoil shape ki wajah se upar hawa ki speed tez ho jaati hai. Bernoulli theorem ke mutabiq jahan speed zyada hoti hai wahan pressure drop ho jata hai, jisse neeche ka high pressure wing ko upar lift karta hai."
   },
   {
     "qe": "According to Stokes' Law, the viscous drag force F acting on a spherical object of radius 'a' moving with speed 'v' in a fluid of viscosity 'eta' is:",
     "qh": "स्टोक्स के नियम के अनुसार श्यान माध्यम में गतिमान गोले पर लगने वाला श्यान बल क्या होता है?",
     "o": [
-      "F = 6 * pi * eta * a * v",
       "F = 4/3 * pi * eta * a^2",
-      "F = 2 * pi * eta * a * v^2",
-      "F = eta * a / v"
+      "F = 6 * pi * eta * a * v",
+      "F = eta * a / v",
+      "F = 2 * pi * eta * a * v^2"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Stokes' law formula $F = 6\\pi\\eta a v$ hota hai, jo batata hai ki viscous drag fluid viscosity, sphere radius aur speed ke directly proportional hai."
   },
   {
@@ -664,57 +664,57 @@
     "qh": "जब गिरती हुई बारिश की बूंद अपना 'सीमांत वेग' (Terminal Velocity) प्राप्त कर लेती है, तो उस पर कुल बल कितना होता है?",
     "o": [
       "Equal to its weight",
-      "Infinite",
       "Zero, because upward viscous drag plus buoyancy balances downward gravity",
-      "Dependent on wind direction"
+      "Dependent on wind direction",
+      "Infinite"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Terminal velocity aane par downward weight ko upward viscous force aur buoyant force milkar perfectly balance kar dete hain, jisse net external force zero ho jata hai aur acceleration ruk jata hai."
   },
   {
     "qe": "Why do free liquid drops and soap bubbles naturally assume a spherical shape in the absence of gravity?",
     "qh": "गुरुत्वाकर्षण की अनुपस्थिति में द्रव की बूंदें और साबुन के बुलबुले गोलाकार क्यों होते हैं?",
     "o": [
-      "Because a sphere has the least surface area for a given volume, minimizing surface potential energy",
-      "Because atmospheric pressure compresses them into spheres",
       "Because viscosity forces circular motion",
-      "Because water molecules repel air"
+      "Because water molecules repel air",
+      "Because a sphere has the least surface area for a given volume, minimizing surface potential energy",
+      "Because atmospheric pressure compresses them into spheres"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Surface tension ki wajah se liquids apni free surface energy minimize karna chahte hain. Diye gaye volume ke liye sphere ka surface area sabse kam hota hai, isliye drops gol ho jaati hain."
   },
   {
     "qe": "How does the excess pressure inside a spherical soap bubble compare to that inside a liquid drop of the same radius r?",
     "qh": "समान त्रिज्या r के साबुन के बुलबुले के अंदर का अतिरिक्त दाब द्रव की बूंद की तुलना में कितना होता है?",
     "o": [
+      "Twice as much (4S/r vs 2S/r) because a bubble has two free surfaces",
       "Exactly identical (2S/r)",
       "Half of the liquid drop",
-      "Twice as much (4S/r vs 2S/r) because a bubble has two free surfaces",
       "Four times as much"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Liquid drop me sirf 1 liquid-air surface hota hai ($P = 2S/r$), jabki soap bubble me andar aur bahar 2 free surfaces hote hain, isliye excess pressure double ($P = 4S/r$) hota hai."
   },
   {
     "qe": "Why does adding soaps or detergents to water improve its cleaning and wetting ability?",
     "qh": "पानी में साबुन या डिटर्जेंट मिलाने से कपड़ों की सफाई बेहतर क्यों होती है?",
     "o": [
-      "By increasing water density",
       "By decreasing the surface tension and contact angle of water, allowing it to penetrate narrow fabric pores",
+      "By increasing water density",
       "By converting water into a gel",
       "By increasing the water viscosity"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Detergents surface tension aur contact angle ko kam kar dete hain. Surface tension kam hone se paani kapde ke baarik reshon me aasaani se spread aur penetrate hokar mail nikal pata hai."
   },
   {
     "qe": "What instrument installed in automobiles records the total cumulative distance traveled by the vehicle?",
     "qh": "वाहनों में तय की गई कुल दूरी को मापने वाला यंत्र कौन सा है?",
     "o": [
-      "Speedometer",
       "Accelerometer",
+      "Tachometer",
       "Odometer",
-      "Tachometer"
+      "Speedometer"
     ],
     "a": 2,
     "e": "Vehicles me total distance travel measure karne ke liye Odometer laga hota hai, jabki current instantaneous speed measure karne ke liye Speedometer hota hai."
@@ -723,36 +723,36 @@
     "qe": "A particle moves along a circular path of radius r. What is the magnitude of its net displacement after completing a quarter (1/4) of the circle?",
     "qh": "त्रिज्या r वाले वृत्ताकार पथ का एक-चौथाई (1/4) चक्कर लगाने के बाद विस्थापन का परिमाण क्या होगा?",
     "o": [
-      "pi * r / 2",
       "2r",
-      "Zero",
-      "sqrt(2) * r"
+      "pi * r / 2",
+      "sqrt(2) * r",
+      "Zero"
     ],
-    "a": 3,
+    "a": 2,
     "e": "Quarter circle par initial aur final points center par 90 degree ka angle banate hain. Pythagoras theorem se shortest straight distance $\\sqrt{r^2 + r^2} = \\sqrt{2}r$ hoga."
   },
   {
     "qe": "A body is thrown vertically upward with initial velocity u. What is its velocity and acceleration at the peak of its flight?",
     "qh": "सीधे ऊपर फेंकी गई वस्तु के उच्चतम बिंदु पर वेग और त्वरण क्या होता है?",
     "o": [
-      "Velocity is zero, acceleration is g downward",
-      "Both velocity and acceleration are zero",
+      "Velocity is zero, acceleration is zero",
       "Velocity is u, acceleration is zero",
-      "Velocity is zero, acceleration is zero"
+      "Both velocity and acceleration are zero",
+      "Velocity is zero, acceleration is g downward"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Highest point par velocity ek pal ke liye zero ($v = 0$) ho jaati hai, par Earth ka downward gravitational acceleration ($g = 9.8\\text{ m/s}^2$) lagataar act karta rehta hai."
   },
   {
     "qe": "Can an object have a constant speed and still experience acceleration?",
     "qh": "क्या किसी वस्तु की चाल नियत होते हुए भी उसमें त्वरण हो सकता है?",
     "o": [
+      "No, it violates physics principles",
       "No, constant speed always means zero acceleration",
       "Yes, as seen in Uniform Circular Motion where changing direction changes velocity",
-      "Yes, but only in complete vacuum",
-      "No, it violates physics principles"
+      "Yes, but only in complete vacuum"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Haan, Uniform Circular Motion me speed constant rehti hai par circle ke har point par direction badalne se velocity change hoti hai, jisse centripetal acceleration produce hota hai."
   }
 ]

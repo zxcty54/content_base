@@ -3,46 +3,46 @@
     "qe": "What is the 'SI Unit' of Magnetic Flux?",
     "qh": "चुंबकीय फ्लक्स (Magnetic Flux) का 'SI मात्रक' क्या है?",
     "o": [
-      "Tesla",
       "Henry",
-      "Weber",
-      "Coulomb"
+      "Coulomb",
+      "Tesla",
+      "Weber"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Magnetic flux ka SI unit Weber (Wb) hota hai, jabki Tesla magnetic field ya flux density ka unit hota hai."
   },
   {
     "qe": "What is the 'CGS unit' of Magnetic Flux?",
     "qh": "चुंबकीय फ्लक्स की 'CGS इकाई' क्या है?",
     "o": [
-      "Maxwell",
-      "Weber",
       "Gauss",
-      "Tesla"
+      "Tesla",
+      "Weber",
+      "Maxwell"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Magnetic flux ka CGS unit Maxwell hota hai, aur 1 Weber = 10^8 Maxwell ke barabar hota hai."
   },
   {
     "qe": "What is the value of 'Earth's Magnetic Field' approx at the surface?",
     "qh": "पृथ्वी की सतह पर 'चुंबकीय क्षेत्र' का अनुमानित मान क्या है?",
     "o": [
-      "1 Tesla",
       "100 Tesla",
-      "Zero",
-      "0.3 to 0.6 Gauss"
+      "0.3 to 0.6 Gauss",
+      "1 Tesla",
+      "Zero"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Earth ki surface par magnetic field bohot weak hoti hai, lagbhag 0.3 se 0.6 Gauss (yaani lagbhag 10^-4 Tesla)."
   },
   {
     "qe": "Which material is used for the 'Core' of high-frequency transformers?",
     "qh": "उच्च आवृत्ति वाले ट्रांसफार्मर के 'कोर' के लिए किस सामग्री का उपयोग होता है?",
     "o": [
-      "Soft Iron",
-      "Ferrites",
       "Steel",
-      "Copper"
+      "Ferrites",
+      "Copper",
+      "Soft Iron"
     ],
     "a": 1,
     "e": "High-frequency transformers me Ferrites use karte hain kyunki inki electrical resistivity bohot zyada hoti hai, jisse eddy current losses bohot kam ho jaate hain."
@@ -52,23 +52,23 @@
     "qh": "एक कुंडली का 'स्व-प्रेरकत्व' क्या होगा यदि 2A करंट पर फ्लक्स 5 वेबर है?",
     "o": [
       "10 Henry",
-      "2.5 Henry",
+      "0.4 Henry",
       "50 Henry",
-      "0.4 Henry"
+      "2.5 Henry"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Formula Phi = L * I hota hai. Isliye L = Phi / I = 5 / 2 = 2.5 Henry nikal kar aayega."
   },
   {
     "qe": "What happens to the 'Permeability' of a magnetic material when it is heated?",
     "qh": "गर्म करने पर पदार्थ की 'पारगम्यता' का क्या होता है?",
     "o": [
-      "Increases",
-      "Remains same",
       "Decreases",
+      "Remains same",
+      "Increases",
       "Becomes zero instantly"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Heat badhane par thermal agitation (vibrations) atomic dipoles ka alignment bigad deta hai, isliye magnetic permeability kam ho jaati hai."
   },
   {
@@ -76,31 +76,31 @@
     "qh": "वृत्ताकार करंट लूप के कारण चुंबकीय क्षेत्र की दिशा कौन सा 'नियम' देता है?",
     "o": [
       "Lenz's Law",
+      "Faraday's Law",
       "Right-hand Palm Rule / Thumb Rule",
-      "Ohm's Law",
-      "Faraday's Law"
+      "Ohm's Law"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Right-hand rule ke hisab se agar fingers current ke raste par curl karein, toh thumb loop ke center par magnetic field ki direction batata hai."
   },
   {
     "qe": "What is a 'Neutral Point' in a magnetic field?",
     "qh": "चुंबकीय क्षेत्र में 'उदासीन बिंदु' (Neutral Point) क्या है?",
     "o": [
-      "Point of maximum field",
-      "Point where resultant magnetic field is zero",
+      "Center of core",
       "North pole coordinate",
-      "Center of core"
+      "Point of maximum field",
+      "Point where resultant magnetic field is zero"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Neutral point wo sthan hota hai jahan bar magnet ki external field Earth ke horizontal component ko bilkul cancel kar deti hai, jisse net field zero ho jati hai."
   },
   {
     "qe": "Which device primarily operates on the principle of 'Mutual Induction'?",
     "qh": "कौन सा उपकरण 'अन्योन्य प्रेरण' (Mutual Induction) का उपयोग करता है?",
     "o": [
-      "Electric Motor",
       "Battery",
+      "Electric Motor",
       "Incandescent Bulb",
       "Transformer"
     ],
@@ -112,8 +112,8 @@
     "qh": "वृत्ताकार कुंडली के अक्ष पर किसी दूर स्थित बिंदु पर 'चुंबकीय क्षेत्र' किसके समानुपाती होता है?",
     "o": [
       "1/r^3",
-      "1/r",
       "1/r^2",
+      "1/r",
       "r^2"
     ],
     "a": 0,
@@ -123,22 +123,22 @@
     "qe": "What is the 'Magnetic Susceptibility' (chi) for 'Superconductors'?",
     "qh": "'अतिचालकों' (Superconductors) के लिए 'चुंबकीय प्रवृत्ति' क्या है?",
     "o": [
-      "1",
       "0",
       "-1",
-      "Infinite"
+      "Infinite",
+      "1"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Superconductors perfect diamagnetism exhibit karte hain (Meissner effect), jiske karan inki magnetic susceptibility chi = -1 hoti hai."
   },
   {
     "qe": "Which instrument uses a suspended magnet to measure the horizontal component of Earth's field?",
     "qh": "पृथ्वी के क्षेत्र को मापने के लिए कौन सा उपकरण 'लटके हुए चुंबक' का उपयोग करता है?",
     "o": [
-      "Dip circle",
+      "Galvanometer",
       "Vibration Magnetometer",
       "Ammeter",
-      "Galvanometer"
+      "Dip circle"
     ],
     "a": 1,
     "e": "Vibration Magnetometer me suspended magnet ke oscillation time period ko measure karke Earth ki horizontal magnetic field (B_H) calculate ki jaati hai."
@@ -147,36 +147,36 @@
     "qe": "The total 'Magnetic Induction' (B) is related to 'H' and 'I' by which relation?",
     "qh": "'B', 'H' और 'I' में क्या संबंध है?",
     "o": [
-      "B = mu_0 * (H + I)",
       "B = H / I",
       "B = H - I",
-      "B = mu_0 * (H - I)"
+      "B = mu_0 * (H - I)",
+      "B = mu_0 * (H + I)"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Material ke andar total magnetic induction applied field aur material ke induced magnetization ka sum hota hai: B = mu_0 * (H + I)."
   },
   {
     "qe": "What is the unit Weber in terms of Volt and Second?",
     "qh": "वोल्ट-सेकंड के संदर्भ में 'फ्लक्स' की इकाई वेबर क्या है?",
     "o": [
-      "1 Weber = 1 V/s",
-      "1 Weber = 1 s/V",
       "1 Weber = 1 V-s",
-      "1 Weber = 1 V/s^2"
+      "1 Weber = 1 V/s",
+      "1 Weber = 1 V/s^2",
+      "1 Weber = 1 s/V"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Faraday law e = dPhi/dt se flux Phi = e * t banta hai, isliye 1 Weber = 1 Volt-second hota hai."
   },
   {
     "qe": "How does the 'Coercivity' of 'Steel' compare to that of 'Soft Iron'?",
     "qh": "'नरम लोहे' की तुलना में 'स्टील' की 'निग्राहिता' क्या है?",
     "o": [
-      "Much Lower",
       "Much Higher",
       "Equal",
+      "Much Lower",
       "Zero"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Steel ki coercivity soft iron se kaafi zyada hoti hai, yaani ise demagnetize karne ke liye strong reverse field chahiye hoti hai. Isliye ye permanent magnet banane ke liye best hai."
   },
   {
@@ -184,35 +184,35 @@
     "qh": "'युग्मित इलेक्ट्रॉनों' के कारण कौन सा 'पदार्थ' चुंबकीय गुण दिखाता है?",
     "o": [
       "Paramagnetic",
-      "Ferromagnetic",
       "Diamagnetic",
-      "Antiferromagnetic"
+      "Antiferromagnetic",
+      "Ferromagnetic"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Diamagnetic materials me electrons paired hote hain jisse net dipole moment zero ho jata hai, aur external field lagane par Lenz's law ki wajah se opposing weak magnetism show hota hai."
   },
   {
     "qe": "What is the 'Angle of Declination' used for in navigation?",
     "qh": "नेविगेशन में 'दिकपात कोण' का उपयोग किसलिए होता है?",
     "o": [
-      "Measuring ocean depth",
       "Correcting compass to find True Geographic North",
       "Measuring magnetic dip angle",
-      "Calculating ship speed"
+      "Calculating ship speed",
+      "Measuring ocean depth"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Compass needle magnetic north ki taraf point karti hai, isliye geographic (true) north pata karne ke liye declination angle ka correction lagana padta hai."
   },
   {
     "qe": "What happens when a ferromagnetic substance is heated beyond its 'Curie Point'?",
     "qh": "यदि चुंबक को उसके 'क्यूरी बिंदु' से आगे गर्म किया जाए तो क्या होगा?",
     "o": [
-      "It becomes paramagnetic",
       "Magnetism increases significantly",
-      "It transforms into a superconductor",
-      "It becomes diamagnetic"
+      "It becomes diamagnetic",
+      "It becomes paramagnetic",
+      "It transforms into a superconductor"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Curie temperature ke upar thermal energy magnetic domains ko tod deti hai, jisse ferromagnetic material simple paramagnetic substance me convert ho jata hai."
   },
   {
@@ -220,69 +220,69 @@
     "qh": "'चुंबकीय परिरक्षण' किस पर आधारित है?",
     "o": [
       "Magnetic reflection",
+      "Total absorption of charge",
       "High permeability of enclosing materials",
-      "Perfect electrostatic insulation",
-      "Total absorption of charge"
+      "Perfect electrostatic insulation"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Mu-metal ya soft iron jaise high permeability wale substances magnetic field lines ko apne andar se guzarne ka easy path dete hain, jisse andar rakha instrument shielded rehta hai."
   },
   {
     "qe": "If a dip circle needle points vertically at 90 degrees, where is the apparatus located?",
     "qh": "'नति वृत्त' चुंबकीय मध्याह्न में सेट है और सुई 90° दिखाती है। यह कहाँ स्थित है?",
     "o": [
+      "Magnetic Pole",
       "Magnetic Equator",
-      "45 degree Latitude",
       "Tropic of Cancer",
-      "Magnetic Pole"
+      "45 degree Latitude"
     ],
-    "a": 3,
+    "a": 0,
     "e": "Earth ke magnetic poles par field bilkul vertical hoti hai aur horizontal component zero hota hai, isliye dip needle 90 degree par khadi ho jaati hai."
   },
   {
     "qe": "What is the 'Intensity of Magnetization' (I or M) for a perfect vacuum?",
     "qh": "निर्वात के लिए 'चुंबकन की तीव्रता' क्या है?",
     "o": [
-      "Zero",
       "Infinite",
-      "1",
-      "-1"
+      "-1",
+      "Zero",
+      "1"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Magnetization per unit volume tabhi hota hai jab matter me atomic dipoles hon. Vacuum me koi atoms nahi hote, isliye I = 0 hota hai."
   },
   {
     "qe": "What is the defining ratio for 'Magnetic Permeability' (mu)?",
     "qh": "'चुंबकीय पारगम्यता' किसका अनुपात है?",
     "o": [
-      "H / B",
       "B * H",
       "B / H",
-      "1 / (B * H)"
+      "1 / (B * H)",
+      "H / B"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Magnetic permeability mu = B / H hota hai, jo magnetic induction aur magnetizing field strength ka ratio hai."
   },
   {
     "qe": "What is the 'Magnetic Susceptibility' (chi) of a Diamagnetic substance?",
     "qh": "एक प्रति-चुंबकीय पदार्थ की 'चुंबकीय प्रवृत्ति' (chi) क्या होती है?",
     "o": [
-      "Large and Positive",
-      "Small and Negative",
+      "Zero",
       "Small and Positive",
-      "Zero"
+      "Small and Negative",
+      "Large and Positive"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Diamagnetic materials external field ke opposite weakly magnetize hote hain, isliye inki susceptibility choti aur negative (-1 <= chi < 0) hoti hai."
   },
   {
     "qe": "Which of the following substances is weakly repelled by a strong magnetic field?",
     "qh": "कौन सा पदार्थ एक शक्तिशाली चुंबकीय क्षेत्र द्वारा थोड़ा प्रतिकर्षित होता है?",
     "o": [
+      "Nickel",
       "Iron",
-      "Aluminium",
       "Water",
-      "Nickel"
+      "Aluminium"
     ],
     "a": 2,
     "e": "Water, Bismuth, aur Copper diamagnetic hote hain, isliye ye magnetic field ke stronger parts se weaker parts ki taraf repel hote hain."
@@ -291,132 +291,132 @@
     "qe": "What is the mathematical relation between 'Relative Permeability' (mu_r) and Susceptibility (chi)?",
     "qh": "सापेक्ष पारगम्यता (mu_r) और प्रवृत्ति (chi) के बीच क्या संबंध है?",
     "o": [
-      "mu_r = 1 - chi",
+      "mu_r = 1 / chi",
       "mu_r = chi / mu_0",
-      "mu_r = 1 + chi",
-      "mu_r = 1 / chi"
+      "mu_r = 1 - chi",
+      "mu_r = 1 + chi"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Formula B = mu_0 * (H + M) se derive karne par mu_r = 1 + chi relation nikal kar aata hai."
   },
   {
     "qe": "Which physical phenomenon is utilized in the 'Magnetic Braking' systems of modern high-speed trains?",
     "qh": "उच्च गति वाली ट्रेनों की 'चुंबकीय ब्रेकिंग' में किस घटना का उपयोग होता है?",
     "o": [
-      "Self Induction",
-      "Mutual Induction",
       "Peltier Effect",
-      "Eddy Currents"
+      "Eddy Currents",
+      "Mutual Induction",
+      "Self Induction"
     ],
-    "a": 3,
+    "a": 1,
     "e": "Metal wheels ya tracks me produce hone wali Eddy currents motion ka virodh karti hain (Lenz's law), jisse bina kisi mechanical wear-and-tear ke train smooth rukti hai."
   },
   {
     "qe": "Why does a transformer require an alternating current (AC) to operate rather than direct current (DC)?",
     "qh": "ट्रांसफार्मर केवल AC के साथ ही क्यों काम करता है, DC के साथ क्यों नहीं?",
     "o": [
-      "DC destroys the winding insulation immediately",
-      "Transformers require continuously changing magnetic flux to induce voltage",
       "AC decreases the coil resistance to absolute zero",
-      "DC voltage cannot flow through copper wire"
+      "DC voltage cannot flow through copper wire",
+      "DC destroys the winding insulation immediately",
+      "Transformers require continuously changing magnetic flux to induce voltage"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Faraday law ke mutabiq voltage induce karne ke liye dPhi/dt (changing flux) zaroori hai. Constant DC me flux steady rehta hai, isliye secondary coil me koi voltage induce nahi hota."
   },
   {
     "qe": "Which fundamental law determines the 'Polarity' and direction of an induced EMF?",
     "qh": "प्रेरित EMF की 'ध्रुवता' (Polarity) जानने के लिए किस नियम का उपयोग होता है?",
     "o": [
-      "Lenz's Law",
-      "Ampere's Circuital Law",
       "Coulomb's Law",
-      "Biot-Savart Law"
+      "Biot-Savart Law",
+      "Ampere's Circuital Law",
+      "Lenz's Law"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Lenz's Law batata hai ki induced current ki direction aisi hoti hai ki wo usi flux change ka virodh kare jisne use produce kiya hai."
   },
   {
     "qe": "What is the CGS unit of 'Magnetic Field Strength' (H)?",
     "qh": "CGS में 'चुंबकीय क्षेत्र तीव्रता' (H) की इकाई क्या है?",
     "o": [
+      "Maxwell",
       "Gauss",
       "Tesla",
-      "Oersted",
-      "Maxwell"
+      "Oersted"
     ],
-    "a": 2,
+    "a": 3,
     "e": "CGS system me B ki unit Gauss hoti hai, jabki H (magnetizing force) ki unit Oersted hoti hai."
   },
   {
     "qe": "Which material is used in magnetic recording tapes for data storage?",
     "qh": "रिकॉर्डिंग के लिए 'चुंबकीय टेप' में किस पदार्थ का उपयोग होता है?",
     "o": [
-      "Aluminium",
-      "Chromium Dioxide (CrO_2)",
       "Pure Copper",
-      "Silicon"
+      "Silicon",
+      "Aluminium",
+      "Chromium Dioxide (CrO_2)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Magnetic tapes me Chromium Dioxide (CrO_2) ya gamma-Fe2O3 ke ferromagnetic particles use hote hain jo data ko stable magnetization ke form me store karte hain."
   },
   {
     "qe": "What is the angle of dip at the 'Magnetic Equator'?",
     "qh": "पृथ्वी की 'चुंबकीय भूमध्य रेखा' पर नति कोण (Angle of Dip) क्या होता है?",
     "o": [
-      "0 degrees",
-      "45 degrees",
       "90 degrees",
+      "45 degrees",
+      "0 degrees",
       "180 degrees"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Magnetic equator par Earth ki magnetic field completely horizontal hoti hai (vertical component zero), isliye angle of dip 0 degree hota hai."
   },
   {
     "qe": "What is the primary function of 'Lamination' in a transformer's iron core?",
     "qh": "ट्रांसफार्मर कोर में 'लैमिनेशन' का मुख्य कार्य क्या है?",
     "o": [
+      "To minimize eddy current energy loss",
       "To reduce core weight",
-      "To increase secondary voltage",
       "To prevent copper corrosion",
-      "To minimize eddy current energy loss"
+      "To increase secondary voltage"
     ],
-    "a": 3,
+    "a": 0,
     "e": "Core ko patli-patli insulated sheets me baantne se continuous current loops toot jaate hain, jisse Eddy current heat losses kaafi kam ho jaate hain."
   },
   {
     "qe": "What is the 'SI Unit' of Magnetic Permeability (mu)?",
     "qh": "चुंबकीय पारगम्यता (mu) की 'SI इकाई' क्या है?",
     "o": [
+      "Henry / second",
       "Tesla-meter / Ampere (or Henry/meter)",
-      "Tesla / Ampere",
       "Weber / meter",
-      "Henry / second"
+      "Tesla / Ampere"
     ],
-    "a": 0,
+    "a": 1,
     "e": "Magnetic permeability ka SI unit Tesla-meter per Ampere (T-m/A) ya Henry per meter (H/m) hota hai."
   },
   {
     "qe": "What is the SI unit of 'Mutual Inductance'?",
     "qh": "'अन्योन्य प्रेरकत्व' (Mutual Inductance) की SI इकाई क्या है?",
     "o": [
-      "Weber",
-      "Tesla",
       "Henry",
-      "Ohm"
+      "Ohm",
+      "Weber",
+      "Tesla"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Self Inductance aur Mutual Inductance dono ka SI unit Henry (H) hota hai."
   },
   {
     "qe": "Why is the core of a Moving Coil Galvanometer made of Soft Iron?",
     "qh": "'मूविंग कॉइल गैल्वेनोमीटर' का कोर आमतौर पर नरम लोहे का क्यों बना होता है?",
     "o": [
-      "To make the field radial and strongly concentrated",
+      "To stop the pointer by mechanical friction",
       "To reduce the device cost",
-      "To make the coil completely non-magnetic",
-      "To stop the pointer by mechanical friction"
+      "To make the field radial and strongly concentrated",
+      "To make the coil completely non-magnetic"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Cylindrical soft iron core magnetic field lines ko attract karke field ko strong aur perfectly radial banata hai, jisse deflection current ke directly proportional rehta hai."
   },
   {
@@ -425,8 +425,8 @@
     "o": [
       "It drops to zero",
       "It increases proportionally",
-      "It remains unchanged",
-      "It halves"
+      "It halves",
+      "It remains unchanged"
     ],
     "a": 1,
     "e": "Faraday's law ke according induced EMF magnetic flux ke badlav ki speed (dPhi/dt) ke directly proportional hota hai, isliye magnet tez aayega toh EMF badhega."
@@ -435,12 +435,12 @@
     "qe": "Which material is widely used to make extremely strong 'Permanent Magnets' for headphones and hard drives?",
     "qh": "हेडफोन और आधुनिक उपकरणों के लिए 'स्थायी चुंबक' बनाने में किस मजबूत सामग्री का उपयोग होता है?",
     "o": [
-      "Soft Iron",
       "Pure Copper",
       "Neodymium (NdFeB)",
-      "Aluminium"
+      "Aluminium",
+      "Soft Iron"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Neodymium rare-earth magnets bohot high coercivity aur high retentivity rakhte hain, isliye ye compact aur powerful permanent magnets banane me use hote hain."
   },
   {
@@ -448,9 +448,9 @@
     "qh": "'चुंबकीय हिस्टेरेसिस' लूप की चौड़ाई मुख्य रूप से किससे संबंधित है?",
     "o": [
       "Coercivity",
-      "Retentivity",
+      "Electrical Resistance",
       "Permeability",
-      "Electrical Resistance"
+      "Retentivity"
     ],
     "a": 0,
     "e": "Hysteresis loop ki horizontal width material ki coercivity ko represent karti hai; jitni zyada coercivity hogi, loop utna hi chauda hoga."
@@ -459,34 +459,34 @@
     "qe": "What is the 'Trajectory' of a charged particle entering a uniform magnetic field at an acute angle (theta < 90)?",
     "qh": "यदि कोई आवेश 90° से कम कोण पर चुंबकीय क्षेत्र में प्रवेश करे, तो उसका 'पथ' क्या होगा?",
     "o": [
-      "Perfect Circle",
+      "Helical / Spiral",
       "Straight line",
-      "Parabolic curve",
-      "Helical / Spiral"
+      "Perfect Circle",
+      "Parabolic curve"
     ],
-    "a": 3,
+    "a": 0,
     "e": "Field ke perpendicular velocity component circular motion deta hai aur parallel component linear motion deta hai, dono milkar helical (spiral) path banate hain."
   },
   {
     "qe": "Which component in fluorescent tubelights operates on the principle of 'Self Induction' to strike an arc?",
     "qh": "ट्यूबलाइट में कौन सा उपकरण 'स्व-प्रेरण' (Self Induction) के सिद्धांत पर कार्य करता है?",
     "o": [
-      "Starter capacitor",
       "Choke Coil",
       "Step-up transformer",
-      "Rectifier diode"
+      "Rectifier diode",
+      "Starter capacitor"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Choke coil starting ke time self-induction se high voltage kick generate karta hai taaki gas ionize ho sake, aur baad me steady current maintain karta hai."
   },
   {
     "qe": "How does the 'Retentivity' of Steel compare to that of Soft Iron?",
     "qh": "नरम लोहे की तुलना में स्टील की 'धारणशीलता' (Retentivity) क्या होती है?",
     "o": [
-      "Higher",
+      "Zero",
       "Lower",
       "Equal",
-      "Zero"
+      "Higher"
     ],
     "a": 1,
     "e": "Soft iron field hatne par steel ke mukable zyada magnetic induction retain karta hai, isliye soft iron ki retentivity steel se zyada (aur steel ki lower) hoti hai."
@@ -495,58 +495,58 @@
     "qe": "What is an 'Aclinic Line' on a geomagnetic map?",
     "qh": "'एक्लिनिक रेखा' (Aclinic Line) किसे जोड़ती है?",
     "o": [
-      "Points of equal magnetic declination",
       "Points of zero magnetic dip (Magnetic Equator)",
+      "Points of equal magnetic declination",
       "Points of maximum magnetic dip",
       "Points of equal magnetic horizontal intensity"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Aclinic line Earth ke un sabhi points ko connect karti hai jahan angle of dip zero hota hai. Is line ko Magnetic Equator bhi kehte hain."
   },
   {
     "qe": "What is an 'Isogonic Line' on a magnetic map?",
     "qh": "'आइसोगोनिक रेखा' (Isogonic Line) क्या दर्शाती है?",
     "o": [
-      "Line joining places of equal magnetic dip",
-      "Line joining places of equal magnetic declination",
+      "Line joining geographic poles",
       "Line of zero magnetic field",
-      "Line joining geographic poles"
+      "Line joining places of equal magnetic dip",
+      "Line joining places of equal magnetic declination"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Isogonic line Earth ke un sthano ko connect karti hai jahan magnetic declination ka angle bilkul ek saman (equal) hota hai."
   },
   {
     "qe": "What is an 'Agonic Line' on a geomagnetic chart?",
     "qh": "'एगोनिक रेखा' (Agonic Line) क्या है?",
     "o": [
-      "Line joining places of zero magnetic dip",
       "Line joining places of zero magnetic declination",
       "Line of infinite magnetic intensity",
-      "Line where compass points straight down"
+      "Line where compass points straight down",
+      "Line joining places of zero magnetic dip"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Agonic line aisi isogonic line hoti hai jo un jagahon ko jodti hai jahan magnetic declination zero degree hota hai (yaani true north aur magnetic north ek hi line me hote hain)."
   },
   {
     "qe": "What is an 'Isoclinic Line' on a geomagnetic chart?",
     "qh": "'आइसोक्लिनिक रेखा' (Isoclinic Line) क्या है?",
     "o": [
-      "Line connecting places of equal magnetic dip",
+      "Line connecting magnetic poles",
       "Line connecting places of equal magnetic declination",
-      "Line of equal atmospheric pressure",
-      "Line connecting magnetic poles"
+      "Line connecting places of equal magnetic dip",
+      "Line of equal atmospheric pressure"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Isoclinic line Earth ke un sabhi sthano ko aapas me jodti hai jahan magnetic inclination (dip angle) ka value bilkul saman hota hai."
   },
   {
     "qe": "What happens to the 'Self Inductance' of a long solenoid if a Soft Iron Core is inserted inside it?",
     "qh": "यदि परिनालिका में 'नरम लोहे का कोर' डाला जाए, तो उसके 'स्व-प्रेरकत्व' का क्या होगा?",
     "o": [
+      "Drops to zero",
       "Decreases",
-      "Remains strictly identical",
       "Increases significantly",
-      "Drops to zero"
+      "Remains strictly identical"
     ],
     "a": 2,
     "e": "Formula L = mu_r * mu_0 * n^2 * A * l hota hai. Soft iron ki relative permeability (mu_r) bohot zyada hone ke karan coil ka inductance hazaro guna badh jata hai."
@@ -555,10 +555,10 @@
     "qe": "What is the 'Magnetic Field' at the exact center of a flat circular loop of radius R carrying current I?",
     "qh": "R त्रिज्या वाले वृत्ताकार धारावाही लूप के केंद्र पर 'चुंबकीय क्षेत्र' क्या होता है?",
     "o": [
-      "mu_0 * I / (2 * pi * R)",
-      "mu_0 * I / (2 * R)",
       "Zero",
-      "mu_0 * I / (4 * R)"
+      "mu_0 * I / (2 * R)",
+      "mu_0 * I / (4 * R)",
+      "mu_0 * I / (2 * pi * R)"
     ],
     "a": 1,
     "e": "Biot-Savart law ke hisab se circular current loop ke center par magnetic field B = (mu_0 * I) / (2 * R) hoti hai."
@@ -567,72 +567,72 @@
     "qe": "What is the SI unit of 'Intensity of Magnetization' (M)?",
     "qh": "चुंबकन की तीव्रता (M) की SI इकाई क्या है?",
     "o": [
-      "Tesla",
       "Weber / meter",
-      "Ampere / meter",
-      "Henry / meter"
+      "Henry / meter",
+      "Tesla",
+      "Ampere / meter"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Intensity of magnetization magnetic moment per unit volume hota hai (A-m^2 / m^3 = Ampere/meter)."
   },
   {
     "qe": "The total energy loss per cycle due to 'Magnetic Hysteresis' in a core material is proportional to:",
     "qh": "'हिस्टेरेसिस हानि' मुख्य रूप से किसके समानुपाती होती है?",
     "o": [
+      "Current phase angle only",
       "Area of the B-H hysteresis loop",
       "Coil length divided by diameter",
-      "Air temperature surrounding the transformer",
-      "Current phase angle only"
+      "Air temperature surrounding the transformer"
     ],
-    "a": 0,
+    "a": 1,
     "e": "B-H loop ka total enclosed area per unit volume per cycle waste hone wali thermal energy loss ko represent karta hai."
   },
   {
     "qe": "What is the value of the 'Permeability of Free Space' (mu_0)?",
     "qh": "मुक्त आकाश की चुंबकीय पारगम्यता (mu_0) का सटीक मान क्या है?",
     "o": [
-      "8.85 * 10^-12 F/m",
+      "1.6 * 10^-19 C",
       "9 * 10^9 N-m^2/C^2",
-      "4 * pi * 10^-7 T-m/A",
-      "1.6 * 10^-19 C"
+      "8.85 * 10^-12 F/m",
+      "4 * pi * 10^-7 T-m/A"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Free space ki magnetic permeability mu_0 = 4 * pi * 10^-7 Tesla-meter per Ampere hoti hai."
   },
   {
     "qe": "What is the full form of 'MRI' in diagnostic medicine?",
     "qh": "चिकित्सा विज्ञान में 'MRI' का पूर्ण रूप क्या है?",
     "o": [
-      "Magnetic Radio Imaging",
-      "Medical Resonance Imaging",
       "Magnetic Resonance Imaging",
-      "Macroscopic Radiation Identification"
+      "Macroscopic Radiation Identification",
+      "Medical Resonance Imaging",
+      "Magnetic Radio Imaging"
     ],
-    "a": 2,
+    "a": 0,
     "e": "MRI ka full form Magnetic Resonance Imaging hota hai, jo strong magnetic fields aur radio waves ke through body organs ke hydrogen nuclei ko map karta hai."
   },
   {
     "qe": "What is the SI unit of 'Magnetic Dipole Moment' (m)?",
     "qh": "चुंबकीय द्विध्रुव आघूर्ण की SI इकाई क्या है?",
     "o": [
-      "Ampere-meter",
       "Ampere-meter^2 (or Joule/Tesla)",
       "Tesla / meter",
-      "Weber / meter^2"
+      "Weber / meter^2",
+      "Ampere-meter"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Formula m = I * A hota hai, isliye iska SI unit Ampere * meter^2 (A-m^2) ya Joule per Tesla (J/T) hota hai."
   },
   {
     "qe": "How does the 'Self Inductance' of a circular coil vary with its number of turns (N)?",
     "qh": "कुंडली का 'स्व-प्रेरकत्व' फेरों की संख्या (N) के साथ कैसे बदलता है?",
     "o": [
-      "Proportional to N",
-      "Proportional to 1/N",
       "Proportional to N^2",
+      "Proportional to 1/N",
+      "Proportional to N",
       "Independent of N"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Inductance turns ke square ke proportional hota hai (L proportional to N^2), kyunki har turn ka field aur linkage dono N par depend karte hain."
   },
   {
@@ -640,47 +640,47 @@
     "qh": "'लेंज का नियम' किस मौलिक संरक्षण नियम पर आधारित है?",
     "o": [
       "Conservation of Electric Charge",
-      "Conservation of Energy",
+      "Conservation of Angular Momentum",
       "Conservation of Linear Momentum",
-      "Conservation of Angular Momentum"
+      "Conservation of Energy"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Lenz's law conservation of energy ka result hai. Agar induced current oppose na kare, toh bina mechanical work kiye extra electrical energy banne lagegi jo physics me impossible hai."
   },
   {
     "qe": "Which rule is deployed to determine the 'Direction of Magnetic Force' on a moving positive charge in a field?",
     "qh": "गतिमान धनावेश पर 'चुंबकीय बल की दिशा' जानने के लिए किस नियम का उपयोग होता है?",
     "o": [
-      "Fleming's Left-hand Rule",
-      "Fleming's Right-hand Rule",
       "Right-hand Thumb Rule",
-      "Ampere's Swimming Rule"
+      "Ampere's Swimming Rule",
+      "Fleming's Left-hand Rule",
+      "Fleming's Right-hand Rule"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Fleming's Left Hand Rule motors aur moving charges par lagne wale force ki direction batata hai (Thumb = Force, Index = Field, Middle = Velocity/Current)."
   },
   {
     "qe": "How does the total intensity of Earth's magnetic field change as one travels from the Equator to the Poles?",
     "qh": "भूमध्य रेखा से ध्रुवों की ओर जाने पर पृथ्वी के चुंबकीय क्षेत्र की कुल तीव्रता पर क्या प्रभाव पड़ता है?",
     "o": [
-      "Decreases continuously",
-      "Remains strictly constant",
       "Increases gradually",
+      "Remains strictly constant",
+      "Decreases continuously",
       "Drops to zero at 45 degrees"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Earth ke poles par field lines zyada dense hoti hain, isliye total magnetic field equator ke comparison me poles par lagbhag double ho jaati hai."
   },
   {
     "qe": "Which device uses 'Eddy Currents' to produce electromagnetic damping in measurement meters?",
     "qh": "मापक मीटरों में सुई को तेजी से स्थिर करने (Damping) के लिए कौन सा उपकरण भंवर धाराओं का उपयोग करता है?",
     "o": [
-      "Dead-beat Galvanometer",
       "Step-up Transformer",
+      "Dynamo Armature",
       "Induction Furnace",
-      "Dynamo Armature"
+      "Dead-beat Galvanometer"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Galvanometer ki metallic coil frame me banne wali Eddy currents motion ka virodh karke needle ke oscillations ko instantly rok deti hain."
   },
   {
@@ -688,44 +688,44 @@
     "qh": "एक 'स्टेप-अप ट्रांसफार्मर' में वोल्टेज बढ़ने पर कौन सी राशि घटती है?",
     "o": [
       "Frequency",
+      "Magnetic flux density",
       "Electric Current",
-      "Power factor",
-      "Magnetic flux density"
+      "Power factor"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Energy conservation (Power = V * I) ke hisab se agar secondary voltage badhta hai, toh secondary current proportional amount me kam ho jata hai."
   },
   {
     "qe": "What is the 'Magnetic Declination' at a specific location on Earth?",
     "qh": "किसी स्थान पर 'चुंबकीय दिकपात' (Magnetic Declination) क्या होता है?",
     "o": [
+      "Curie transition temperature",
       "Angle of the field relative to horizontal",
       "Angle between the Magnetic Meridian and Geographic Meridian",
-      "Curie transition temperature",
       "Strength of horizontal field component"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Geographic North aur Magnetic North ke beech banne wale horizontal angle ko Magnetic Declination kehte hain."
   },
   {
     "qe": "What is 'Ampere's Circuital Law' mathematical expression?",
     "qh": "'एम्पीयर के परिपथीय नियम' का समाकलन सूत्र क्या है?",
     "o": [
-      "oint B * dl = mu_0 * I_enclosed",
       "Phi = B * A * cos(theta)",
+      "oint E * dl = -dPhi/dt",
       "F = q * (v x B)",
-      "oint E * dl = -dPhi/dt"
+      "oint B * dl = mu_0 * I_enclosed"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Ampere's law kehta hai ki kisi closed loop ke around magnetic field ka line integral us loop se ghiri total current ka mu_0 guna hota hai."
   },
   {
     "qe": "How is a moving coil galvanometer converted into a Voltmeter?",
     "qh": "एक गैल्वेनोमीटर को वोल्टमीटर में कैसे बदला जाता है?",
     "o": [
-      "By connecting a low resistance shunt in parallel",
-      "By connecting a high resistance multiplier in series",
       "By removing the soft iron core",
+      "By connecting a high resistance multiplier in series",
+      "By connecting a low resistance shunt in parallel",
       "By connecting an inductor in parallel"
     ],
     "a": 1,
@@ -735,12 +735,12 @@
     "qe": "How is a moving coil galvanometer converted into an Ammeter?",
     "qh": "एक गैल्वेनोमीटर को एमीटर में कैसे बदला जाता है?",
     "o": [
-      "By connecting a low resistance shunt in parallel",
-      "By connecting a high resistance in series",
       "By replacing the permanent magnets",
-      "By cooling the coil to critical temperature"
+      "By cooling the coil to critical temperature",
+      "By connecting a low resistance shunt in parallel",
+      "By connecting a high resistance in series"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Galvanometer ke sath parallel me bohot low resistance (shunt) connect karne se maximum current shunt se nikal jata hai aur wo ammeter ban jata hai."
   },
   {
@@ -749,8 +749,8 @@
     "o": [
       "Measuring heat capacity of metals",
       "Determining the sign and density of charge carriers in a semiconductor",
-      "Creating permanent ferromagnets",
-      "Eliminating transformer eddy currents"
+      "Eliminating transformer eddy currents",
+      "Creating permanent ferromagnets"
     ],
     "a": 1,
     "e": "Hall Effect me magnetic field ke presence me transverse voltage produce hota hai, jisse charge carriers ka sign (electrons ya holes) aur carrier density measure hoti hai."
@@ -759,9 +759,9 @@
     "qe": "A 'Tangent Galvanometer' operates on which basic magnetic principle?",
     "qh": "'टेंजेंट गैल्वेनोमीटर' किस सिद्धांत पर कार्य करता है?",
     "o": [
-      "Faraday's induction law",
-      "Tangent Law (B = B_H * tan(theta))",
       "Meissner expulsion effect",
+      "Tangent Law (B = B_H * tan(theta))",
+      "Faraday's induction law",
       "Hysteresis saturation"
     ],
     "a": 1,
@@ -771,12 +771,12 @@
     "qe": "The 'Geodynamo Effect' that generates Earth's magnetic field is caused by:",
     "qh": "पृथ्वी के चुंबकत्व का 'डायनेमो प्रभाव' किसके कारण उत्पन्न होता है?",
     "o": [
+      "Solar radiation charging the atmosphere",
       "Static charges trapped in the crust",
       "Convective motion of molten conducting iron in the liquid outer core",
-      "Solar radiation charging the atmosphere",
       "Gravitational pull of the Moon"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Earth ke liquid outer core me molten iron aur nickel ki convective circulation electric currents banati hai, jo Earth ka primary magnetic field create karti hai."
   },
   {
@@ -795,33 +795,33 @@
     "qe": "What is the angle of dip at a location where Earth's horizontal and vertical components are equal (B_H = B_V)?",
     "qh": "उस स्थान पर नति कोण क्या होगा जहाँ पृथ्वी के क्षैतिज और लंबवत घटक बराबर हैं?",
     "o": [
-      "0 degrees",
-      "30 degrees",
+      "90 degrees",
       "45 degrees",
-      "90 degrees"
+      "0 degrees",
+      "30 degrees"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Formula tan(theta) = B_V / B_H hota hai. Jab B_V = B_H ho, toh tan(theta) = 1 ho jata hai, jisse dip angle theta = 45 degree banta hai."
   },
   {
     "qe": "What is 'Bohr Magneton' (mu_B)?",
     "qh": "'बोहर मैग्नेटन' (mu_B) क्या है?",
     "o": [
-      "Magnetic moment associated with an electron's orbital motion in the first Bohr orbit",
       "Total magnetic charge of a magnetic pole",
+      "Maximum flux through a hydrogen atom",
       "Permeability of an atomic nucleus",
-      "Maximum flux through a hydrogen atom"
+      "Magnetic moment associated with an electron's orbital motion in the first Bohr orbit"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Bohr Magneton (mu_B = e*h / 4*pi*m) atom ke andar electron ke orbital motion ka natural fundamental magnetic dipole moment unit hota hai."
   },
   {
     "qe": "What happens if a bar magnet is cut transversely into two equal halves?",
     "qh": "यदि एक छड़ चुंबक को लंबाई के लंबवत दो टुकड़ों में काटा जाए, तो क्या होगा?",
     "o": [
-      "Magnetic poles disappear completely",
-      "Two complete separate magnets are formed, each with North and South poles",
       "One piece becomes pure North pole and the other pure South pole",
+      "Two complete separate magnets are formed, each with North and South poles",
+      "Magnetic poles disappear completely",
       "Only the cut ends retain magnetism"
     ],
     "a": 1,
@@ -831,70 +831,70 @@
     "qe": "What is the 'Magnetic Energy Density' stored in a vacuum region containing magnetic field B?",
     "qh": "B चुंबकीय क्षेत्र वाले निर्वात में संचित 'चुंबकीय ऊर्जा घनत्व' क्या है?",
     "o": [
-      "B^2 / (2 * mu_0)",
       "1/2 * mu_0 * B^2",
       "B / mu_0",
-      "B^2 * mu_0"
+      "B^2 * mu_0",
+      "B^2 / (2 * mu_0)"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Magnetic field me per unit volume store hone wali energy density ka formula u_B = B^2 / (2 * mu_0) hota hai."
   },
   {
     "qe": "What is 'Barkhausen Effect' in ferromagnetic materials?",
     "qh": "'बरखौसेन प्रभाव' (Barkhausen Effect) क्या दर्शाता है?",
     "o": [
-      "Continuous smooth magnetization curve",
       "Step-wise discontinuous jumps in magnetization due to domain wall motion",
       "Complete demagnetization at absolute zero",
-      "Creation of electric sparks by magnetic fields"
+      "Creation of electric sparks by magnetic fields",
+      "Continuous smooth magnetization curve"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Jab ferromagnetic material magnetize hota hai, toh domains achanak jump karke align hote hain. In stepwise jerky jumps ko Barkhausen effect bolte hain jo domains ke existence ka proof hai."
   },
   {
     "qe": "What is the full form of 'SQUID' used in ultrasensitive magnetic measurements?",
     "qh": "अत्यधिक संवेदनशील चुंबकीय मापन में 'SQUID' का पूर्ण रूप क्या है?",
     "o": [
-      "Superconducting Quantum Interference Device",
       "Standard Quantum Induction Detector",
-      "Superconducting Quick Ion Diode",
-      "Static Quasi Interference Device"
+      "Static Quasi Interference Device",
+      "Superconducting Quantum Interference Device",
+      "Superconducting Quick Ion Diode"
     ],
-    "a": 0,
+    "a": 2,
     "e": "SQUID ka full form Superconducting Quantum Interference Device hota hai, jo Josephson effect ka use karke 10^-15 Tesla tak ke extremely weak fields ko detect kar sakta hai."
   },
   {
     "qe": "Why can two magnetic field lines never cross or intersect each other?",
     "qh": "दो चुंबकीय क्षेत्र रेखाएं कभी भी एक-दूसरे को क्यों नहीं काटती हैं?",
     "o": [
-      "Because magnetic flux density becomes infinite at intersection",
-      "Because the compass needle would have to point in two different directions at the same point, which is impossible",
+      "Because lines are always parallel to the conductor",
       "Because the material core would melt due to short circuit",
-      "Because lines are always parallel to the conductor"
+      "Because the compass needle would have to point in two different directions at the same point, which is impossible",
+      "Because magnetic flux density becomes infinite at intersection"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Field line par khincha gaya tangent net magnetic field ki unique direction batata hai. Agar do lines intersect karein toh ek hi point par do directions ho jayengi jo physically impossible hai."
   },
   {
     "qe": "The directional convention for magnetic field lines states that they run:",
     "qh": "चुंबकीय क्षेत्र रेखाओं की दिशा के नियम के अनुसार वे कैसे गमन करती हैं?",
     "o": [
-      "From North to South outside, and South to North inside the magnet",
       "From South to North outside, and North to South inside the magnet",
-      "Radially outward from the center in all directions",
-      "Exclusively from East to West"
+      "Exclusively from East to West",
+      "From North to South outside, and South to North inside the magnet",
+      "Radially outward from the center in all directions"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Magnet ke bahar field lines North pole se nikal kar South pole me enter karti hain, aur continuous closed loop banane ke liye magnet ke andar South se North ki taraf jaati hain."
   },
   {
     "qe": "Under what orientation is a magnetic dipole (moment m) in a uniform field B in its most 'Stable Equilibrium'?",
     "qh": "एक समान क्षेत्र B में चुंबकीय द्विध्रुव किस स्थिति में सबसे 'स्थिर संतुलन' (Stable Equilibrium) में होता है?",
     "o": [
+      "When theta = 45 degrees",
       "When theta = 180 degrees (anti-parallel)",
-      "When theta = 90 degrees (perpendicular)",
       "When theta = 0 degrees (parallel to field)",
-      "When theta = 45 degrees"
+      "When theta = 90 degrees (perpendicular)"
     ],
     "a": 2,
     "e": "Potential energy U = -m * B * cos(theta) hoti hai. Jab theta = 0 degree hota hai, tab potential energy minimum (-mB) hoti hai jo most stable state ko represent karti hai."
@@ -903,21 +903,21 @@
     "qe": "Why does a bulk sample of paramagnetic material exhibit zero net magnetization in the absence of an external field?",
     "qh": "बाहरी क्षेत्र की अनुपस्थिति में अनुचुंबकीय पदार्थ शून्य नेट चुंबकन क्यों दिखाता है?",
     "o": [
-      "Because it possesses no internal atomic magnetic moments",
       "Because random thermal motion randomizes the orientation of individual dipoles",
-      "Because paired electrons completely eliminate atomic spin",
-      "Because the material's permeability is zero at room temperature"
+      "Because the material's permeability is zero at room temperature",
+      "Because it possesses no internal atomic magnetic moments",
+      "Because paired electrons completely eliminate atomic spin"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Individual atoms me permanent dipole moment hota hai, par thermal agitation (heat) un sabhi dipoles ko random directions me bhatka deti hai jisse bulk average zero ho jata hai."
   },
   {
     "qe": "What happens to the magnetic field pattern of a circular current loop as you move from its perimeter to its absolute center?",
     "qh": "वृत्ताकार लूप के किनारे से केंद्र की ओर बढ़ने पर चुंबकीय क्षेत्र रेखाएं कैसी दिखने लगती हैं?",
     "o": [
-      "They form spiral coils around the perimeter",
-      "The concentric circular arcs flatten out and appear as parallel straight lines at the center",
       "They intersect at 45 degree angles",
+      "The concentric circular arcs flatten out and appear as parallel straight lines at the center",
+      "They form spiral coils around the perimeter",
       "They decay to zero magnitude at the center"
     ],
     "a": 1,
