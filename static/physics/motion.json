@@ -9,7 +9,7 @@
       "Copernicus"
     ],
     "a": 0,
-    "e": "Universal Law of Gravitation Sir Isaac Newton ne 1687 me diya tha, jiske mutabiq universe ka har mass dusre mass ko attract karta hai."
+    "e": "Concept: 'Universal Law of Gravitation' kehta hai ki brahmand ka har koi vastu doosri vastu ko apni taraf kheenchti hai, aur ye force dono ke mass ke gunanfal ke samanupati (directly proportional) aur unke beech ki doori ke varg ke vipreet (inversely proportional) hoti hai: F = G*m1*m2/r^2. Is niyam ko Sir Isaac Newton ne apni book 'Principia' (1687) me diya tha - isliye unhe 'gravity ka janak' bhi kehte hain. Kepler ne planet ke path ka niyam diya, Galileo ne gati ke experiment kiye. Exam point: 'Universal law of gravitation = Newton'."
   },
   {
     "qe": "What is the 'Escape Velocity' from the Moon's surface?",
@@ -21,7 +21,7 @@
       "2.38 km/s"
     ],
     "a": 3,
-    "e": "Moon par gravitational pull kam hone ke karan escape velocity lagbhag 2.38 km/s hoti hai, jo Earth ki escape velocity (11.2 km/s) se kaafi kam hai."
+    "e": "Concept: Escape velocity = sqrt(2*g*R) hoti hai - jitna chhota grah ya chandrama hoga aur jitni kam uski gravity, utni kam escape velocity. Chandrama par g ki value lagbhag 1.6 m/s^2 hai aur radius chhota hai, isliye wahan escape velocity lagbhag 2.38 km/s hai (Prithvi ki 11.2 km/s se bahut kam). Isi wajah se chandrama se rocket bhejna aasan hai - kam fuel me kaam chal jata hai. Exam point: 'Moon ki escape velocity = 2.38 km/s (Earth = 11.2 km/s)'."
   },
   {
     "qe": "According to Newton's Universal Law of Gravitation, the gravitational force of attraction acts between any two masses in the universe along which geometric path?",
@@ -33,7 +33,7 @@
       "Along a curved trajectory determined by the smaller mass"
     ],
     "a": 0,
-    "e": "Newtonian gravity ek central force hai, iska matlab do bodies ke beech lagne wala gravitational force hamesha unke centers ko jodne wali seedhi line ke along lagta hai."
+    "e": "Concept: Do vastuon ke beech lagne wala gravitation force hamesha unke KENDRA (centre of mass) ko mila-ne wali seedhi REKHA ke along hota hai - yaani force ya to ek doosre ki taraf hota hai ya door, kisi tirche kone par nahi. Isi kaaran Earth apne kendra ki taraf sab kuch kheenchti hai. Force 'line joining the centers' ke along hone ke kaaran hi motion ka calculation simple ho jata hai. Horizontal ya axis ke around wale options galat hain. Exam point: 'Gravitation force = dono objects ke kendron ko milane wali line ke along'."
   },
   {
     "qe": "Object A attracts Object B with a gravitational force F. According to Newton's third law of motion, with what force does Object B simultaneously attract Object A?",
@@ -45,7 +45,7 @@
       "With a significantly smaller force because A is larger"
     ],
     "a": 0,
-    "e": "Newton's third law ke hisab se action aur reaction hamesha equal aur opposite hote hain. Isliye Object B bhi Object A par theek barabar magnitude ka force (F) opposite direction me lagayega."
+    "e": "Concept: Newton ka teesra niyam: 'Har kriya (action) ke barabar aur vipreet pratikriya (reaction) hoti hai'. Isliye agar A, B ko F force se kheenchta hai, to B bhi A ko theek utne hi F force se kheenchta hai - balki wahi ek force hai jo dono par ulti disha me lagta hai. Isse chahe badi vastu ho ya chhoti, force ka magnitude hamesha barabar hota hai. Farq sirf acceleration me aata hai (chhoti vastu tez hil ti hai). Exam point: 'Action = -Reaction (barabar aur ulta force)'."
   },
   {
     "qe": "What is the correct derived SI unit for the Universal Gravitational Constant (G)?",
@@ -57,7 +57,7 @@
       "N m^-2 kg^2"
     ],
     "a": 1,
-    "e": "Formula F = G * m1 * m2 / d^2 se G = F * d^2 / (m1 * m2) banta hai, jiska unit Newton * meter^2 / kg^2 yaani N m^2 kg^-2 nikal kar aata hai."
+    "e": "Concept: Gravitation ka formula F = G*m1*m2/r^2 hai. Isse G ka unit nikalne ke liye G = F*r^2/(m1*m2) lagao: F ka unit newton (N), r^2 ka m^2, aur mass ka kg*kg - isliye G ka unit N m^2 kg^-2 banta hai, aur iski value 6.67 x 10^-11 N m^2 kg^-2 hoti hai. Ye value bahut hi chhoti hai, isliye aam chhoti vastuon me gravity ka asar mehsoos nahi hota. Exam point: 'G = 6.67 x 10^-11 N m^2 kg^-2'."
   },
   {
     "qe": "Why do we not visibly feel or observe the gravitational force of attraction between ordinary everyday objects like two people sitting in a room?",
@@ -69,7 +69,7 @@
       "Because ordinary objects do not contain mass"
     ],
     "a": 1,
-    "e": "Universal constant G ka value bohot chhota (6.67 x 10^-11 N m^2/kg^2) hota hai. Normal masses ke liye calculated gravitational force itna kam hota hai ki friction ke aage pata hi nahi chalta."
+    "e": "Concept: Gravitation force hamesha maujood hoti hai, par uski value G (6.67 x 10^-11) aur mass ke gunanfal par nirbhar karti hai. Do aam logon ka mass lagbhag 60-70 kg hota hai, jisse force sirf math-bhaar (10^-7 N) banta hai - ye itna kamzor hai ki koi bhi khinchav mehsoos nahi hota. Jabki Earth ka mass 6 x 10^24 kg hai, isliye uski gravity saaf mehsoos hoti hai. Isliye 'aam vastu me force kam dikhne' ka kaaran G ki chhoti value hai, hawa ya pressure nahi. Exam point: 'G bahut chhota hai, isliye chhoti mass par gravitation force negligible'."
   },
   {
     "qe": "According to the Inverse Square Law of gravitation, if the distance 'd' between two masses is doubled, the force becomes:",
@@ -81,7 +81,7 @@
       "Doubled (2F)"
     ],
     "a": 0,
-    "e": "Gravitational force distance ke square ke inversely proportional (F proportional to 1/d^2) hota hai. Doori double (2d) karne par force (1/2^2) yaani 1/4th (F/4) reh jata hai."
+    "e": "Concept: 'Inverse Square Law' kehta hai force doori ke varg (square) ke ulta hota hai: F ~ 1/r^2. Isliye doori 'd' se '2d' (dugni) karne par force (1/2)^2 = 1/4 ho jata hai. Ye niyam gravity ke saath-saath light, sound aur Coulomb force me bhi lagta hai. Sawal me doori badhne wale cases aate hain, isliye 'dugni doori = chauthai force' yaad rakhein. Exam point: 'Doori dugni = force chauthai (F/4)'."
   },
   {
     "qe": "What happens to the gravitational force between two masses if the distance between their centers is reduced to exactly half?",
@@ -93,7 +93,7 @@
       "It remains absolutely the same"
     ],
     "a": 2,
-    "e": "Doori aadhi (d/2) karne par denominator me (1/2)^2 = 1/4 aayega, jisse force 4 guna badhkar 4F ho jata hai."
+    "e": "Concept: Inverse square law: F ~ 1/r^2. Agar doori AADHI (r/2) ho jaye, to naya force = G m1 m2/(r/2)^2 = 4 * (G m1 m2/r^2) = 4F. Yaani doori aadhi karne par gravitation force CHAAR guna badh jata hai. Isi sambandh se pata chalta hai ki doori kam karne par gravity ka asar bahut tez badhta hai. Doosre options me aadha ya same rehna galat hai. Exam point: 'Doori aadhi = force 4 guna'."
   },
   {
     "qe": "What is the primary role of the centripetal force in maintaining the orbit of the Moon around the Earth?",
@@ -105,7 +105,7 @@
       "It increases the mass of the Moon continuously"
     ],
     "a": 2,
-    "e": "Moon ki speed almost constant rehti hai par circular orbit me har second direction badalni padti hai. Direction continuously modne ke liye centripetal force zaroori hota hai."
+    "e": "Concept: Chandrama jab Earth ke around gol (circular) path me ghoomta hai, to uski CHAAL (speed) lagbhag same rehti hai par disha har pal badalti rehti hai. Disha badalne ke liye ek force chahiye jo hamesha center (Earth) ki taraf ho - isi ko 'centripetal force' (kendra-dishi bal) kehte hain. Ye force sirf disha badalta hai, speed nahi. Iske bina chandrama seedha bhaag jayega. Isliye iska kaam 'direction change kar ke circular path me rakhna' hai. Exam point: 'Centripetal force = disha lagatar badal kar circular path banaye rakhna'."
   },
   {
     "qe": "In the case of the Moon revolving around the Earth, which actual physical force provides the required centripetal force?",
@@ -117,7 +117,7 @@
       "Electrostatic force of ionized particles"
     ],
     "a": 0,
-    "e": "Centripetal force koi alag force nahi hota; yahan Earth aur Moon ke beech ka mutual gravitational pull hi centripetal force provide karta hai."
+    "e": "Concept: Chandrama ko gol path me rakhne wala centripetal force koi alag se force nahi, balki Earth aur Chandrama ke beech ka GRAVITATION FORCE hi hai. Yahi khinchav chandrama ko seedha bhaagne se rokta hai aur usse Earth ki parikrama (orbit) me bandhe rakhta hai. Isi kisam ke sambandh ko Newton ne 'Kepler ki parkrama' se joda tha. Magnetic repulsion, atmospheric friction ya electrostatic force iska kaaran nahi. Exam point: 'Moon ka centripetal force = Earth-Moon gravitation force'."
   },
   {
     "qe": "If the gravitational force between the Earth and the Moon suddenly vanished into zero, how would the Moon theoretically move?",
@@ -129,7 +129,7 @@
       "It would stop moving instantly and stay frozen"
     ],
     "a": 0,
-    "e": "Inertia ke niyam ke hisab se centripetal force hat-te hi Moon orbit ke us specific point par tangent ke along bilkul seedhi line me space me nikal jayega."
+    "e": "Concept: Circular motion me vastu ke velocity ki disha hamesha path ke TANGENT (sparsh rekha) ke along hoti hai, aur usse kendra ki taraf kheenchne wala force (centripetal) hi use mudata hai. Agar ye force achanak zero ho jaye, to mudane wala koi kaaran nahi bachega - matlab vastu apni usi disha me SEEDHI (straight line me) bhaag jayegi, jis disha me wo us samay jaa rahi thi. Ye Newton ke first law (inertia) ka seedha udaharan hai. Exam point: 'Gravity hat gayi to vastu tangent ke along seedhi bhaagegi (inertia se)'."
   },
   {
     "qe": "Why is the acceleration of the Earth toward the Moon imperceptible even though both exert equal gravitational force on each other?",
@@ -141,7 +141,7 @@
       "Because Earth is protected by its magnetic field"
     ],
     "a": 1,
-    "e": "Force dono par same lagta hai, par acceleration a = F/m hota hai. Earth ka mass Moon se lagbhag 81 guna zyada hai, isliye Earth ka acceleration itna kam hota hai ki detect nahi hota."
+    "e": "Concept: Earth aur Chandrama ek doosre par barabar gravitation force lagate hain (Newton ka teesra niyam), par acceleration = force / mass hota hai. Earth ka mass 6 x 10^24 kg hai - bahut bada - isliye usi force se uski acceleration (a = F/M) itni chhoti (lagbhag 3.3 x 10^-5 m/s^2) hoti hai ki dikhai nahi deti. Chandrama ka mass chhota hai, isliye wo zyada tej acceleration ke saath ghoomta dikhta hai. Exam point: 'Earth ka mass bahut bada, isliye same force se uska acceleration bahut kam'."
   },
   {
     "qe": "What is the scientific distinction between the 'Mass' of an object and its 'Weight'?",
@@ -153,7 +153,7 @@
       "Mass is the quantity of matter and stays constant everywhere, while Weight is the gravitational force acting on it (W = mg)"
     ],
     "a": 3,
-    "e": "Mass matter ka inherent amount hai jo universe me kabhi nahi badalta (scalar, kg). Weight wo gravitational pull hai (W = mg) jo g ki value ke hisab se badalta rehta hai (vector, N)."
+    "e": "Concept: 'Mass' vastu me pada padarth (matter) ki maatra hai, jo har jagah sama rehti hai - Earth par ho ya chand par ya space station me, mass nahi badalta aur iska SI unit kilogram (kg) hai. 'Weight' wo force hai jo gravity vastu par lagata hai: W = m*g; isliye weight jagah ke saath badalta hai (chand par g kam hone se weight kam ho jata hai). Weight force hai isliye newton (N) me naapa jata hai, mass kg me. Isi kaaran dukan par saman 'weight' se bechta hua dihkta hai, par asal me mass hota hai. Exam point: 'Mass constant (kg) hai, Weight jagah se badalta hai (N)'."
   },
   {
     "qe": "Where is the acceleration due to gravity (g) maximum and minimum on the surface of the Earth?",
@@ -165,7 +165,7 @@
       "Maximum at the equator, minimum at the poles"
     ],
     "a": 1,
-    "e": "Earth poles par thodi chapti (flattened) hai, isliye poles par center se distance (radius) kam hone ki wajah se g maximum hota hai aur equator par radius badi hone se g minimum hota hai."
+    "e": "Concept: Prithvi ki shakal gol nahi balki dhruvon par thodi CHAPTI (oblate) hai - poles par radius kam aur equator par radius zyada hota hai. g = GM/R^2 hone ke kaaran radius badhne se g kam ho jati hai. Isliye poles par (radius kam) g ki value maximum (lagbhag 9.83 m/s^2) hoti hai, aur equator par (radius zyada + dharti ka ghumna bhi) g minimum (lagbhag 9.78 m/s^2) hoti hai. Exam point: 'g maximum = poles par, minimum = equator par'."
   },
   {
     "qe": "If a trader buys gold by weight at the Earth's poles and sells it at the equator using a spring balance, what will be the result?",
@@ -177,7 +177,7 @@
       "He will experience a loss because the measured weight decreases at the equator"
     ],
     "a": 3,
-    "e": "Spring balance mass nahi balki weight (mg) measure karta hai. Equator par g ki value kam hone ki wajah se gold ka measured weight kam aayega aur trader ko loss hoga."
+    "e": "Concept: Halki cheez (jaise soona) 'weight' (W = mg) se tolte hain, aur g ki value poles par sabse zyada aur equator par sabse kam hoti hai. Isliye jo dukandar poles par weight se soona kharidta hai, wo zyada mass kharid leta hai (kam mass se zyada weight milta hai). Lekin equator par wo usi weight par kam mass dega. Is wajah se usko nuksan hoga. Mass same rehta, weight badalta hai - isliye spring balance par farq dikhta hai. Exam point: 'Poles par kharido, equator par becho = nuksaan (weight farq ke kaaran)'."
   },
   {
     "qe": "How does the acceleration due to gravity (g) change as one moves deep inside a mine or high up into the atmosphere?",
@@ -189,7 +189,7 @@
       "It increases going up and decreases going down"
     ],
     "a": 0,
-    "e": "Earth ki surface par g maximum hota hai. Chahe aap surface se upar height par jayein ya andar depth me jayein, dono hi cases me g ka value ghat-ta (decrease hota) hai."
+    "e": "Concept: g ki value formula g = GM/R^2 se aati hai, jisme R dharti ke kendra se doori hai. Dharti ki satah se neeche khadaan (mine) me jaane par aapke upar wali mitti ka hissa kaam karta hai aur andar ke hisse ka gravitation cancel ho jata hai - isliye g ghatti hai. Satah se upar (pahad ya vimaan ki unchai) jaane par doori R badh jaati hai, isliye g wahan bhi ghatti hai. Yaani dono taraf g badhti nahi, ghatti hai. Exam point: 'Neeche (mine) aur upar (atmosphere) dono me g ghatti hai'."
   },
   {
     "qe": "What is the theoretical value of acceleration due to gravity (g) at the absolute center of the Earth?",
@@ -201,7 +201,7 @@
       "Infinite"
     ],
     "a": 1,
-    "e": "Earth ke center par charo taraf ka mass barabar gravitational pull lagata hai jo aapas me cancel ho jata hai, isliye center par g = 0 hota hai."
+    "e": "Concept: Dharti ko ek thaali (shell) jaisa maan lein jo kendron ke around gol hai. Gauss ke the m, kisi gol ke andar wale bindu par bahar ke hisse ka gravitation static bhi nahi hota aur andar ke saare hisson ka force cancel ho jata hai. Bilkul kendra (centre) par dharti ka poora mass chaaron taraf barabar fails jata hai, isliye net force ZERO hota hai. Isliye kendra par g = 0 hota hai (kuch log sochte hain infinite). Exam point: 'Dharti ke kendra par g = zero'."
   },
   {
     "qe": "If an object has a mass of 60 kg on Earth, what will be its mass and weight on the Moon? (Assume g_earth = 10 m/s^2)",
@@ -213,7 +213,7 @@
       "10 kg and 600 N"
     ],
     "a": 2,
-    "e": "Mass hamesha constant rehta hai isliye Moon par bhi 60 kg rahega. Moon par g 1/6th hota hai, toh weight W = 60 * (10 / 6) = 100 N hoga."
+    "e": "Concept: Weight W = mass * g hota hai. Mass ek jagah se doosri jagah NAHI badalta, isliye chand par bhi mass 60 kg hi rahega. Chand par g lagbhag 1.67 m/s^2 hoti hai, isliye weight = 60 * 1.67 = 100 N (lagbhag). Dharti par isi vastu ka weight 60 * 10 = 600 N hota. Isliye ek hi mass ka weight Earth aur Moon par alag hota hai. Exam point: 'Mass sab jagah same; Moon par weight lagbhag 1/6 ho jata hai'."
   },
   {
     "qe": "If a heavy iron hammer and a light bird feather are dropped simultaneously in a complete vacuum chamber, what will be observed?",
@@ -225,7 +225,7 @@
       "Both will stop moving in vacuum"
     ],
     "a": 1,
-    "e": "Vacuum me air resistance zero hota hai. Acceleration due to gravity (g) object ke mass par depend nahi karta, isliye dono ek sath same speed se zameen par girenge."
+    "e": "Concept: Normal hawa me patla kagaz dheere girta hai kyunki air resistance use rokta hai; par vacuum (khaali jagah) me hawa hi nahi hoti, isliye koi resistance nahi hota. Garaj (gravitation) sabhi vastuon ko ek hi acceleration g (9.8 m/s^2) deti hai - chahe wo bhaari hathoda ho ya halka paankh. Isliye vacuum me dono ek saath neeche pahunchte hain (Apollo 15 me chand par fekar ye experiment dikhaya gaya tha). Exam point: 'Vacuum me sab vastu same speed se girte hain (g independent of mass)'."
   },
   {
     "qe": "Why does a flat sheet of paper fall slower than the same paper crumpled into a tight ball in a normal room with air?",
@@ -237,7 +237,7 @@
       "Because crumpling increases the mass of the paper"
     ],
     "a": 2,
-    "e": "Flat sheet ka surface area bada hone ki wajah se uspar upward air resistance drag bohot zyada lagta hai, jabki crumpled ball par air drag kam lagta hai."
+    "e": "Concept: Kagaz ke patte (ki sheet) ka surface area bada hota hai, isliye niche girte waqt use hawa ka bahut zyada pratirodh (air resistance/drag) lagta hai - jo uski gati ko kaafi kam kar deta hai. Wahi kagaz jab tight ball ban jata hai, to uska area bahut kam ho jata hai, isliye air resistance kam lagta hai aur wo tez girta hai. Isse saabit hota hai ki g sab par same hai; sirf hawa ka asar area par nirbhar karta hai. Exam point: 'Flat paper dheere girta hai = bada area = zyada air resistance'."
   },
   {
     "qe": "In physics, what is the core distinction between 'Thrust' and 'Pressure'?",
@@ -249,7 +249,7 @@
       "Thrust is the total perpendicular force acting on a surface, while Pressure is thrust per unit area (P = F/A)"
     ],
     "a": 3,
-    "e": "Kisi surface par lagne wale total normal (perpendicular) force ko Thrust bolte hain (unit: N). Jab is force ko area se divide karte hain (P = F/A), toh use Pressure bolte hain (unit: Pa)."
+    "e": "Concept: 'Thrust' wo poora force batata hai jo kisi satah par uske lambavat (perpendicular) lagta hai (unit newton); alag-alag angle par lagne wale force ka sirf lambavat hissa thrust kehlata hai. 'Pressure' = thrust / area (P = F/A) hota hai - matlab ek hi force chhote area par zyada pressure deta hai. Isliye pressure ka unit N/m^2 (pascal) hai jo thrust se alag hai. Dono scalar hain; area ka pressure par seedha asar hota hai. Exam point: 'Thrust = total force; Pressure = thrust per unit area (P = F/A)'."
   },
   {
     "qe": "Why does a person sink deep into loose sand while standing on feet, but does not sink much when lying down?",
@@ -261,7 +261,7 @@
       "Because standing concentrates weight on a smaller area creating higher pressure (P = F/A)"
     ],
     "a": 3,
-    "e": "Weight (force) dono case me same hai. Khade hone par feet ka area chhota hone se pressure (P = F/A) high banta hai jisse pair dhans jaate hain, jabki letne par area badhne se pressure bohot kam ho jata hai."
+    "e": "Concept: Admi khade hone par uske pairon ka area bahut chhota hota hai, isliye pura wajan (thrust) chhote area par padta hai aur pressure P = F/A bahut zyada banta hai - isliye pair ret (sand) me dhas jaate hain. Letne (lying) par pura sharir satah par fail jata hai, area bahut badh jata hai, isliye pressure kam ho jata hai aur admi kam dhas ta hai. Yahan mass ya gravity nahi badalte, sirf 'area' badalta hai - yahi P = F/A ka asar hai. Exam point: 'Chhota area = zyada pressure (khade hone par ret me dhansna)'."
   },
   {
     "qe": "Why are cutting tools like knives, needles, and nails manufactured with extremely sharp edges or pointed ends?",
@@ -273,7 +273,7 @@
       "To absorb internal mechanical stress"
     ],
     "a": 0,
-    "e": "Sharp edges area (A) ko bohot chhota kar deti hain. Area kam hone ki wajah se normal hath ka force bhi bohot high pressure generate karta hai, jisse cheezein aasaani se cut jaati hain."
+    "e": "Concept: Pressure ka formula P = F/A hai. Agar contact area (A) bahut chhota kar diya jaye, to usi chhote force F se bhi bahut bada pressure paida hota hai - isliye chaku ki dhaar, sui ki nok aur keel ke sire ko bahut tez (pointed) banate hain. Isi tarah motor gaari ke 'pin' nok wale hote hain taaki kam force me bhi dhas jaye. Area maximize karne se pressure kam hota (joote ki sole, trekking shoes) - ye ulta concept hai. Exam point: 'Sharp edge = chhota area = zyada pressure (kam force me kaam)'."
   },
   {
     "qe": "How does the hydrostatic pressure inside a static liquid fundamentally vary with depth?",
@@ -285,7 +285,7 @@
       "It increases continuously with depth due to the increasing weight of the liquid column above (P = rho*g*h)"
     ],
     "a": 3,
-    "e": "Liquid me jaise-jaise गहराई (h) badhti hai, upar ke liquid column ka weight badhta jata hai. Isliye hydrostatic pressure formula P = rho * g * h ke hisab se depth ke sath linearly badhta hai."
+    "e": "Concept: Drav (liquid) ke andar pressure uske Upar wale column ke wazan se aata hai: P = rho * g * h, jahan rho density, g gravity aur h depth hai. Jaise-jaise gehrai (h) badhti hai, upar wale drav ka column bhaari hota jata hai - isliye pressure bhi lagatar BADHTA jata hai. Isi wajah se band (dam) ki deewar niche moti banai jaati hai aur gehre samudra me pressure itna zyada hota hai. Exam point: 'Gehrai badhne par hydrostatic pressure badhta hai (P = rho g h)'."
   },
   {
     "qe": "What did Archimedes' Principle discover regarding the magnitude of buoyant force (upthrust) acting on a submerged body?",
@@ -297,7 +297,7 @@
       "It is equal to the weight of the fluid displaced by the immersed body"
     ],
     "a": 3,
-    "e": "Archimedes' Principle ke mutabiq jab koi body partially ya completely fluid me doobti hai, toh uspar lagne wala upward buoyant force us body dwara displace kiye gaye fluid ke weight ke barabar hota hai."
+    "e": "Concept: Archimedes ka sidhant: jab koi vastu drav (fluid) me poori ya aadhi dubi rehti hai, to use Opar ki taraf ek dhakka (buoyant force/upthrust) milta hai. Us dhakke ka magnitude bilkul us drav ke wazan ke barabar hota hai jo vastu ne hata diya (displaced kiya). Isliye nasht vastu ka volume jitna paani hatega, utna upthrust milega. Yad rahe: upward thrust = displaced fluid ka weight, vastu ke mass ya rang se iska koi matlab nahi. Exam point: 'Buoyant force = hata diye gaye drav ka bhaar (Archimedes)'."
   },
   {
     "qe": "Why is it much easier for a human to float and swim in sea water compared to fresh river water?",
@@ -309,7 +309,7 @@
       "Because sea water has zero gravity"
     ],
     "a": 2,
-    "e": "Sea water me dissolved salts hone ke karan uski density fresh water se zyada hoti hai. Archimedes principle ke hisab se denser liquid zyada buoyant upthrust lagata hai, jisse tairna aasan ho jata hai."
+    "e": "Concept: Samudra ke paani me namak (salt) ghula hota hai, isliye uski density nadi ke mithay paani se zyada hoti hai (lagbhag 1.03 vs 1.0 g/cm3). Buoyant upthrust displaced fluid ke weight par nirbhar karta hai, isliye ghana samudri paani zyada upthrust deta hai aur adam aasani se tair leta hai. Isi kaaran Dead Sea me tairna aur bhi aasan hai (wahan namak bahut zyada hai). Samundri lehren aage push karti hain - iska upthrust se koi lena-dena nahi. Exam point: 'Samudra ka paani ghana = zyada upthrust = tairna aasan'."
   },
   {
     "qe": "An iron nail sinks immediately in water, but a massive ship made of iron floats effortlessly. Why?",
@@ -321,7 +321,7 @@
       "Because the ship alters the mass of iron"
     ],
     "a": 1,
-    "e": "Solid nail ka volume kam hota hai isliye wo apne weight se kam paani displace kar pati hai aur doob jaati hai. Ship hollow hoti hai aur uska shape aisa hota hai ki wo apne poore weight ke barabar paani displace karke aasaani se float karti hai."
+    "e": "Concept: Loha ka ghanatv paani se zyada hota hai, isliye thos keelake jaisa loha doob jata hai. Lekin jahaj ko khaali (hollow) banate hain aur uske andar hawa bhari jati hai - isse jahaj ka average density paani se kam ho jati hai aur wo itna paani (volume) hata deta hai jiska WAZAN uske poore wazan ke barabar hota hai. Archimedes ke sidhant se upthrust = displaced water ka wazan hone ke kaaran jahaj tairta rehta hai. Exam point: 'Jahaj isliye tairta hai kyunki khaali (air-filled) hokar bahut paani hata deta hai'."
   },
   {
     "qe": "What is the primary scientific criterion that determines whether a solid object will float or sink in a fluid?",
@@ -333,7 +333,7 @@
       "The shape and color profile of the object"
     ],
     "a": 2,
-    "e": "Agar object ki density fluid ki density se zyada hai (rho_obj > rho_fluid) toh wo doob jayegi. Agar object ki density fluid se kam hai toh wo float karegi."
+    "e": "Concept: Koi bhi padaarth drav me tair-ega ya doobega, ye uske Ghanatv (density = mass/volume) par nirbhar karta hai. Agar vastu ki density drav se kam hai to wo tair-egi (ice in water), barabar hai to latki rahegi, aur zyada hai to doobegi (loha in water). Vastu ka shape, rang ya container ki gehrai is faisle par asar nahi karti - sirf density ka comparison matter karta hai. Exam point: 'Float/sink = vastu ki density vs drav ki density'."
   },
   {
     "qe": "An object whose density is exactly equal to the density of the liquid is placed completely inside that liquid. What will happen to it?",
@@ -345,7 +345,7 @@
       "It will pop out of the liquid surface"
     ],
     "a": 0,
-    "e": "Jab density barabar hoti hai, toh downward weight aur upward buoyant force bilkul balance ho jaate hain. Object ko liquid me jis depth par bhi chhodenge, wo wahi suspended (taharta hua) reh jayega."
+    "e": "Concept: Archimedes ke sidhant ke hisaab se upthrust us drav ke WAZAN ke barabar hota hai jo vidhu ne hata diya. Agar vastu ki density drav ki density ke bilkul BARABAR ho, to upthrust vastu ke poore wazan ko theek sambhal leta hai - na zyada, na kam. Isliye vastu kahin bhi (kisi bhi gehrai par) apni jagah tik kar latki (suspend) rehti hai; na doobti na oopar aati. Ye density comparison wali rule ka khaas kase hai. Exam point: 'Density barabbar = vastu drav me latki rehti hai (suspend)'."
   },
   {
     "qe": "Under what strict kinematic condition are average speed and the magnitude of average velocity completely identical?",
@@ -357,7 +357,7 @@
       "When the object moves strictly in a straight line without changing its direction"
     ],
     "a": 3,
-    "e": "Average speed = total distance / time aur average velocity = displacement / time. Distance aur displacement tabhi barabar hote hain jab body bina mude ek seedhi straight line me travel kare."
+    "e": "Concept: 'Average speed' = total path length / total time hota hai (scalar). 'Average velocity' ka magnitude = net displacement / total time. Path length aur displacement tab hi barabar hote hain jab vastu bilkul seedhi line me bina disha badle chale - kyunki tab har kadam disha me hi hota hai. Circular ya mudte-mudte raaste me displacement chhota (ya vakra) hota hai, isliye dono alag ho jate hain. Exam point: 'Speed = velocity tab jab straight line me bina direction badle chale'."
   },
   {
     "qe": "Why does instantaneous speed always equal the magnitude of instantaneous velocity at any precise moment?",
@@ -369,7 +369,7 @@
       "Because path length contracts in motion"
     ],
     "a": 0,
-    "e": "Jab time interval delta_t lagbhag zero ke barabar hota hai, us pal direction change hona impossible hai. Isliye infinitesimally short distance aur displacement magnitude barabar ho jaate hain."
+    "e": "Concept: Jab samay ka antaraal bahut chhota (delta t lagbhag zero) ho jaye, to utne chhote samay me vastu ki disha badalne ka mauka hi nahi hota - us pal ka chhota-sa path bhi lagbhag seedhi line hi hota hai. Isliye ek akshan (instant) par path length = displacement ka magnitude, aur isliye instantaneous speed = |instantaneous velocity|. Ye property sirf 'instant' ke liye sach hai, average ke liye nahi. Exam point: 'Instant par speed = velocity ka magnitude (kyunki delta t -> 0)'."
   },
   {
     "qe": "What physical quantity is represented by the slope of a Distance-Time Graph?",
@@ -381,7 +381,7 @@
       "Acceleration"
     ],
     "a": 2,
-    "e": "Distance-Time graph ka slope delta_s / delta_t hota hai, jo distance covered per unit time yaani Speed ko represent karta hai."
+    "e": "Concept: Distance-time graph me x-aksh par samay aur y-aksh par doori hoti hai. Slope = (doori me badlav)/(samay me badlav) = speed. Isliye jitni tezi se graph chadhta hai (steep), utni zyada speed. Force, displacement ya acceleration graph ke slope se nahi milte - wo doosre concepts hain. Exam me seedha 'dt graph ka slope = speed' yaad rakho. Exam point: 'Distance-Time graph ka slope = speed'."
   },
   {
     "qe": "If a distance-time graph is a straight line parallel to the time axis, what does it signify?",
@@ -393,7 +393,7 @@
       "The object is in circular motion"
     ],
     "a": 0,
-    "e": "Time axis ke parallel line ka matlab time badh raha hai par distance ki position change nahi ho rahi, yaani object rest (sthir) condition me hai."
+    "e": "Concept: Agar distance-time graph ek seedhi rekha hai jo time-axis ke SAMANTAR (horizontal) chalti hai, to y-aksh (doori) me koi badlav nahi ho raha - samay bit raha hai par doori wahi ki wahi hai. Matlab vastu apni jagah pe hi khadi hai - 'at rest'. Infinite speed ka matlab hota graph uchhal (vertical) jaye; constant acceleration wala case distance-time graph me curve deta hai. Exam point: 'Distance-Time graph horizontal = vastu viraam (rest) me hai'."
   },
   {
     "qe": "What physical quantity is determined by the slope of a Velocity-Time Graph?",
@@ -405,7 +405,7 @@
       "Displacement"
     ],
     "a": 1,
-    "e": "Velocity-Time graph ka slope delta_v / delta_t hota hai, jo rate of change of velocity yaani Acceleration ko show karta hai."
+    "e": "Concept: Velocity-time graph me y-aksh par velocity hoti hai aur x-aksh par samay. Slope = (velocity me badlav)/(samay) = acceleration. Isliye graph jitna tez chadhta ya girta hai, utni zyada acceleration. Zero slope (horizontal line) ka matlab uniform velocity (acceleration zero). Exam point: 'Velocity-Time graph ka slope = acceleration'."
   },
   {
     "qe": "What physical quantity is represented by the total area enclosed under a Velocity-Time graph?",
@@ -417,7 +417,7 @@
       "Average speed squared"
     ],
     "a": 2,
-    "e": "Velocity aur time ka product (v * t) displacement hota hai. Isliye v-t graph ke neeche ka integrated area displacement (ya distance) deta hai."
+    "e": "Concept: Velocity-time graph ke neeche ka area nikalne ka matlab hai 'velocity * samay', jo displacement ke barabar hota hai (kyunki displacement = mean velocity * time). Isi kaaran agar graph curve ho to area alag-alag chhote rectangles/trapeziums me todkar jodte hain. Average speed squared ya momentum rate ka isse koi sambandh nahi - area hamesha distance ya displacement deta hai. Exam point: 'v-t graph ke neeche ka area = doori (displacement)'."
   },
   {
     "qe": "Why are the standard equations of motion (v = u + at, s = ut + 1/2at^2) inapplicable to uniform circular motion?",
@@ -429,7 +429,7 @@
       "Because in circular motion, the direction of acceleration continuously changes, violating the constant vector requirement"
     ],
     "a": 3,
-    "e": "Kinematic equations tabhi valid hoti hain jab acceleration vector (magnitude aur direction dono) constant ho. Circular motion me acceleration hamesha center ki taraf point karta hai, isliye direction har pal badal rahi hoti hai."
+    "e": "Concept: Gati ke samikaran (equations of motion) sirf tab lagte hain jab acceleration CONSTANT ho - matlab uski magnitude aur DISHA dono fixed ho. Uniform circular motion me chaal constant rehti hai par acceleration ki DISHA har pal badalti rehti hai (hamesha kendra ki taraf), isliye ye samikaran vahan nahi lag sakte. Speed variable na hone par bhi ye equations fail hoti hain kyunki direction badal raha hai. Exam point: 'Circular motion me acceleration ki direction badalti hai, isliye equations of motion lagu nahi'."
   },
   {
     "qe": "Besides having both magnitude and direction, what third mandatory mathematical condition must a physical quantity satisfy to be a vector?",
@@ -441,7 +441,7 @@
       "It must obey the Triangle Law or Parallelogram Law of vector addition"
     ],
     "a": 3,
-    "e": "Kewal magnitude aur direction hona kaafi nahi hai. Quantity ko vector addition ke laws (triangle ya parallelogram law) ko obey karna zaroori hai. Jaise Electric Current me direction hoti hai par wo scalarly add hota hai, isliye scalar hai."
+    "e": "Concept: Vector sirf wo nahi jo magnitude aur direction rakhta ho - usko vector addition ke niyam bhi follow karne padte hain: triangle law ya parallelogram law. Ye do niyam batate hain ki do vectors ko kaise jodkar resultant nikala jaye. Temperature, energy jaisi cheezein direction ke saath bhi vector nahi hoti kyunki unka addition aisa nahi hota. Exam point: 'Vector = magnitude + direction + triangle/parallelogram law ka palan'."
   },
   {
     "qe": "When a projectile is launched into the air at an angle theta to the horizontal, what happens to its horizontal velocity component during flight (ignoring air drag)?",
@@ -453,7 +453,7 @@
       "It reverses direction symmetrically"
     ],
     "a": 1,
-    "e": "Gravity sirf vertically downward act karti hai ($a_y = -g$). Horizontal direction me koi force ya acceleration nahi hota ($a_x = 0$), isliye horizontal velocity $v_x = v_0 \\cos\\theta$ poori flight me constant rehti hai."
+    "e": "Concept: Projectile me hawa ka resistance na ho to horizontal direction me koi force nahi lagta (gravity sirf niche ki taraf lagti hai). Isliye horizontal velocity ka koi aksh (component) badalne ka kaaran nahi - wo shuru se aakhir tak bilkul constant rehta hai (v0 cos theta). Sirf vertical component upar jaate hue ghatta hai aur niche aate hue badhta hai. Exam point: 'Projectile ki horizontal velocity constant; vertical velocity badalti hai'."
   },
   {
     "qe": "At the highest point (apex) of a projectile's trajectory, what are the values of its velocity and acceleration?",
@@ -465,7 +465,7 @@
       "Velocity is vertical and acceleration is zero"
     ],
     "a": 0,
-    "e": "Peak par vertical velocity component $v_y = 0$ ho jata hai par horizontal velocity $v_0 \\cos\\theta$ bani rehti hai. Downward gravity acceleration $g$ har pal lagta rehta hai."
+    "e": "Concept: Projectile ke sabse unche bindu (apex) par uska vertical velocity lagbhag ZERO ho jata hai (kyunki wo upar se niche mudne wala hai), par horizontal velocity (v0 cos theta) abhi bhi maujood rehti hai - isliye apex par net velocity horizontal hoti hai. Gravity hamesha kaam karti hai, isliye acceleration wahan bhi 'g' hi hoti hai, niche ki taraf (hawa ke bina). Isliye apex par velocity horizontal + acceleration g downward - dono saath. Exam point: 'Apex par: velocity horizontal, acceleration g (downward)'."
   },
   {
     "qe": "At what launch angle theta does a projectile achieve its absolute maximum horizontal range for a given initial speed?",
@@ -477,7 +477,7 @@
       "30 degrees"
     ],
     "a": 0,
-    "e": "Range ka formula $R = (v_0^2 \\sin 2\\theta) / g$ hota hai. Range maximum tab hogi jab $\\sin 2\\theta = 1$ ho, yaani $2\\theta = 90^\\circ \\implies \\theta = 45^\\circ$."
+    "e": "Concept: Projectile ki range ka formula R = v^2 * sin(2*theta) / g hota hai. Isme sin(2*theta) ki value maximum 1 hoti hai jab 2*theta = 90 degree, yaani theta = 45 degree. Isliye 45 degree par sabse door tak projectile jaata hai. Kuch aur angle (jaise 30 ya 60) par sin(2theta) ki value kam ho jaati hai, isliye range kam hoti hai; 90 degree par to seedha upar hi jayega. Exam point: 'Maximum range = 45 degree launch angle par'."
   },
   {
     "qe": "Newton's first law of motion equates a body at rest with a body in uniform linear motion. What parameter is zero in both states?",
@@ -489,7 +489,7 @@
       "Instantaneous velocity"
     ],
     "a": 2,
-    "e": "Rest ($v=0$) aur uniform linear motion ($v=\\text{constant}$) dono me hi acceleration $a = 0$ hota hai, jiska matlab body par lagne wala net external force bilkul zero hai."
+    "e": "Concept: Newton ka pehla niyam kehta hai ki agar kisi vastu par koi net bahari force na lage, to wo apni halat nahi badalti - ya to viraam (rest) me rahegi ya ek seedhi line me ek jaisi chaal (uniform velocity) se chalti rahegi. Dono halaton me common baat: net external force = zero, aur isliye accelerator bhi zero. Velocity zero nahi hoti (moving body ki velocity to hai), kinetic energy bhi zero nahi hoti. Exam point: 'Rest + uniform motion dono me net external force zero'."
   },
   {
     "qe": "A seasoned cricketer draws his hands backward while catching a fast cricket ball. What is the scientific purpose of this technique?",
@@ -501,7 +501,7 @@
       "To maintain zero momentum throughout"
     ],
     "a": 2,
-    "e": "Newton's second law ($F = \\Delta p / \\Delta t$) ke according haath peeche khinchne se stopping time interval $\\Delta t$ badh jata hai. Time badhne se force of impact kam ho jata hai aur chot nahi lagti."
+    "e": "Concept: Cricket ball ko pakadte waqt hands ko peeche kheenchna galti nahi, takneek hai. Iska kaam hai 'impact time' (ball ke rukne ka samay) ko badhana. Impulse = force * time = momentum me badlav, aur momentum ka badlav fixed hota hai - isliye samay (t) badha dene par force (F) kam ho jata hai (F = delta p / t). Isi liye haath peeche khinchkar pakadne par chot kam lagti hai. Ball ka mass nahi badalta. Exam point: 'Hands peeche kheencho = time badhao = force kam karo (impulse)'."
   },
   {
     "qe": "A passenger standing in a stationary bus falls backward when the bus suddenly accelerates forward. This experience is explained by:",
@@ -513,7 +513,7 @@
       "Inertia of rest of the upper body"
     ],
     "a": 3,
-    "e": "Bus ke floor ke sath pair friction ke chalte aage nikal jaate hain, lekin body ka upari hissa inertia of rest ki wajah se apni purani position par rehna chahta hai, isliye relative backward jerk lagta hai."
+    "e": "Concept: Jab bus achanak aage chalti hai, to bus ke saath-saath admi ke PAON aage badh jate hain, par uska upari sharir (sar, dhad) purane sthaan par hi viraam (rest) me rehna chahta hai - isi ko 'inertia of rest' kehte hain. Isi kaaran admi Peechhe girta hai. Ulta case: chalte hue bus ke achanak rokne par admi aage girta hai (inertia of motion). Ye Newton ka pehla niyam (inertia) ka roz ka udaharan hai. Exam point: 'Bus chalne par peeche girna = inertia of rest'."
   },
   {
     "qe": "Why do action and reaction forces mentioned in Newton's Third Law never cancel each other out?",
@@ -525,7 +525,7 @@
       "Because they act at different times"
     ],
     "a": 1,
-    "e": "Forces tabhi cancel hoti hain jab wo ek hi single body par lagein. Action aur reaction hamesha do alag-alag bodies par lagte hain ($F_{AB} = -F_{BA}$), isliye wo cancel nahi ho sakte."
+    "e": "Concept: Newton ka teesra niyam kehta hai action aur reaction barabar aur ulte hote hain. Par ye dono forces ALAG-ALAG vastuon par lagte hain - jaise aap deewar ko dhakeltein hain (deewar par force) aur deewar aapko dhakelti hai (aap par force). Ek hi vastu par nahi lagne ke kaaran se ye ek doosre ko cancel nahi karte; isliye kesi bhi sanshy me dono ki magnitude barabar rehne par bhi motion ho jaati hai. Exam point: 'Action-reaction cancel nahi hote kyunki wo alag-alag bodies par lagte hain'."
   },
   {
     "qe": "All macro-mechanical contact forces such as friction, normal reaction, and tension in a string microscopically originate from:",
@@ -537,7 +537,7 @@
       "Electromagnetic forces between atomic electrons and nuclei"
     ],
     "a": 3,
-    "e": "Microscopic level par sabhi materials atoms aur electrons se bane hote hain. Jab do surfaces contact me aati hain, toh unke electron clouds ke beech hone wala electromagnetic repulsion hi friction aur normal reaction banta hai."
+    "e": "Concept: Roz marra ke sampark bal (contact forces) - friction (ghisav), normal reaction (satah ka dhakka), tension (rassi ka khinchav) - asal me kya hain? Ye sab parmanuon ke electron aur nucleus ke beech lagne wale vidyut-chumbakiya (electromagnetic) balon ka net parinaam hain. Jab do satahen pass aati hain to electron clouds ek doosre ko dhakelte hain - yahi makroskopik bal ban jata hai. Strong/weak nuclear force sirf nucleus ke andar kaam karta hai. Exam point: 'Contact forces ka mool kaaran = electromagnetic force'."
   },
   {
     "qe": "How does the limiting value of static friction (f_s_max) depend on the macroscopic area of contact between two dry surfaces?",
@@ -549,7 +549,7 @@
       "Proportional to area squared"
     ],
     "a": 1,
-    "e": "Friction ka empirical law hai ki limiting static friction ($f_s = \\mu_s N$) sirf normal reaction aur surface material nature par depend karta hai, macroscopic contact area par depend nahi karta."
+    "e": "Concept: Sthir gharsh (static friction) ka maximum value f_s_max = mu_s * N hota hai, jahan N normal reaction hai. N bahut kam had tak contact area par nirbhar karta hai (sateh ke actual micro-sampark ka asar alag baat hai), isliye AAM macroscopic area ghatane-badhaane se f_s_max nahi badalta - ye asal me independent hota hai. Isi wajah se choti/badi sole wali chappal ka friction lagbhag same rehta hai (jab tak material same hai). Exam point: 'Static friction ka max value macroscopic contact area par nirbhar nahi'."
   },
   {
     "qe": "When an object starts sliding relative to a surface, what happens to the frictional force at the interface?",
@@ -561,7 +561,7 @@
       "It immediately drops to absolute zero"
     ],
     "a": 0,
-    "e": "Motion start hone ke baad static friction kinetic friction me convert ho jata hai. Kinetic friction coefficient $\\mu_k$ static friction coefficient $\\mu_s$ se thoda kam hota hai, isliye resistance thoda ghat jata hai."
+    "e": "Concept: Jab koi vastu satah par sarkna (slide) shuru karti hai, to gharsh bal (friction) thoda kam ho jata hai. Iska kaaran ye hai ki sliding ke dauran satahon ke chhote-sateh jod tut-te rehte hain (isliye jitna static me bandhne ka mauka deta hai, utna kinetic me nahi milta). Isliye kinetic friction f_k < f_s_max hota hai, par ye kisi bhi speed ke saath badhta nahi - lagbhag constant rehta hai. Exam point: 'Sliding shuru hone par: f_k < f_s(max), lagbhag constant'."
   },
   {
     "qe": "What physical force provides the necessary centripetal force for a car making a turn on a flat, unbanked circular road?",
@@ -573,7 +573,7 @@
       "The air drag against the windshield"
     ],
     "a": 1,
-    "e": "Level curved road par koi banking angle nahi hota, isliye car ko skid hone se rokne aur center ki taraf turn karane wala centripetal force tyres aur road ke beech ka static friction provide karta hai."
+    "e": "Concept: Gaari jab samtal (flat) sadak par mod (turn) leti hai, to use kendra ki taraf centripetal force chahiye. Samtal sadak par iski koi bahari jhukav nahi hoti, isliye ye force TYRE aur sadak ke beech ka sthir gharsh (static friction) hi deta hai - jo tyre ko kisne se rokta hai aur gaari mudti hai. Agar sadak ice jaisi slippery ho to friction nahi milega aur gaari seedhi fisal jayegi. Weight aur normal reaction vertical hain, woh centripetal nahi de sakte. Exam point: 'Flat road par turn ka centripetal force = static friction (tyre-road)'."
   },
   {
     "qe": "The maximum safe speed for a car negotiating a curve of radius R on a level road with friction coefficient mu_s is v_max = sqrt(mu_s * R * g). What does this imply about vehicle mass?",
@@ -585,7 +585,7 @@
       "Safe speed is directly proportional to mass"
     ],
     "a": 2,
-    "e": "Formula $v_{\\max} = \\sqrt{\\mu_s R g}$ me mass ($m$) ka koi term nahi hai. Iska matlab ek cycle ho ya bhari truck, level road par skid hone ki limit mass par depend nahi karti."
+    "e": "Concept: Safe speed ka formula v_max = sqrt(mu_s * R * g) hota hai - isme vehicle ka MASS nahi aata! Isliye is curve par koi bhi gaari (hal ki car ya bhaari truck) ek hi maximum speed tak safely mud sakti hai. Ye samajhna zaroori hai kyunki sab sochte hain bhaari gaari dheere mudegi - asal me farq sirf friction (tyre), curve ka radius aur g se padta hai. Heavy trucks aksar high centre of gravity ke kaaran palat jate hain - wo alag concept hai. Exam point: 'v_max mass par nirbhar nahi (mu_s, R, g par nirbhar)'."
   },
   {
     "qe": "Why can a fluid at rest not sustain any shear stress?",
@@ -597,7 +597,7 @@
       "Because atmospheric pressure cancels all fluid forces"
     ],
     "a": 2,
-    "e": "Fluids ki property hoti hai ki wo static tangential force withstand nahi kar sakte. Agar thoda sa bhi parallel/shear force lagaya jaye, toh fluid ke layers flow hone lagte hain."
+    "e": "Concept: 'Shear stress' (kapoti tanav) wo hota hai jab kisi satah ke along tangentially (sparshatmak) khinchav lagaya jaye. Fluid (drav) ki khaas baat hai ki wo apni shakal aasani se badal deta hai - agar us par thoda-sa bhi tan-janya force lagaya jaye to uski paraton me sliding shuru ho jaati hai aur wo behne lagta hai. Isliye viraam (rest) me pada drav kisi bhi shear stress ko sah nahi kar sakta. Solids shear stress ko sambhal sakte hain, fluids nahi. Exam point: 'Fluid viraam me shear stress nahi sambhal sakta - turant behta hai'."
   },
   {
     "qe": "Pascal's law for a fluid at rest states that pressure is identical at all points that are:",
@@ -609,7 +609,7 @@
       "Near the center of the vessel only"
     ],
     "a": 1,
-    "e": "Static fluid me same horizontal level par har point par hydrostatic pressure bilkul barabar hota hai, chahe container ka shape kaisa bhi ho."
+    "e": "Concept: Pascal ka niyam viraam (rest) me pade drav ke liye kehta hai ki ek hi horizontal (samtal) level par harek bindu par pressure ek jaisa hota hai - kyunki usi level ke neeche wali drav ki unchai (depth) same hoti hai. Isi wajah se paani ke auro me (jinke aakar alag hain) ek hi unchai ke saare binduon par pressure same hota hai. Iske alawa kisi bhi band bindu par lagaya gaya pressure poore drav me barabar fail jata hai (hydraulic press ka aadhaar). Exam point: 'Same horizontal level = same pressure (Pascal ka niyam)'."
   },
   {
     "qe": "The 'Hydrostatic Paradox' shows that three vessels of different shapes filled with water to the same height have the same base pressure. This happens because:",
@@ -621,7 +621,7 @@
       "Liquid pressure at the base depends strictly on fluid column height and density, not on vessel shape (P = rho*g*h)"
     ],
     "a": 3,
-    "e": "Hydrostatic pressure sirf liquid density ($\\rho$), gravity ($g$) aur vertical height ($h$) par depend karta hai. Container ka shape ya usme kitna total paani hai, isse base pressure par koi farak nahi padta."
+    "e": "Concept: 'Hydrostatic Paradox' ek dilchasp ghatna hai: alag-alag shakal ke bartan (patla, chaura, tircha) ek hi unchai (height) tak paani se bharein, to sabke tal par pressure barabar hoga - chahe paani ki maatra alag ho. Iska raaz hai formula P = rho * g * h: pressure sirf drav ki unchai aur density par nirbhar karta hai, bartan ke aakar (shape) par nahi. Isliye koi bhi aakaar ho, saman unchai = saman base pressure. Exam point: 'P = rho g h - base pressure shape par nirbhar nahi (hydrostatic paradox)'."
   },
   {
     "qe": "The Equation of Continuity (A1 * v1 = A2 * v2) in fluid dynamics is a mathematical statement of which conservation law?",
@@ -633,7 +633,7 @@
       "Conservation of Angular Momentum"
     ],
     "a": 1,
-    "e": "Incompressible fluid ke steady flow me jitna mass pipe ke ek end se enter karega, utna hi mass doosre end se bahar aayega. Isliye equation of continuity seedhe Conservation of Mass ko represent karti hai."
+    "e": "Concept: 'Equation of Continuity' kehta hai ki ek hi nali me guzarne wale drav ke liye A1 * v1 = A2 * v2 hona chahiye - matlab jahan nali patli (A kam) wahan speed (v) zyada, aur jahan moti wahan kam. Iska mool aadhaar ye hai ki drav na kahin banta hai na khatam hota hai (incompressible flow me) - jo andar ja raha hai wo bahar aana hi hai, isliye ye asal me Mass ka sanrakshan hai. Energy ka niyam Bernoulli me aata hai. Exam point: 'A1v1 = A2v2 = mass conservation (continuity)'."
   },
   {
     "qe": "According to Bernoulli's principle and continuity, how does an airplane wing (aerofoil) generate upward dynamic lift?",
@@ -645,7 +645,7 @@
       "By causing air streamlines to crowd together on top, creating higher speed and lower pressure above the wing than below it"
     ],
     "a": 3,
-    "e": "Aerofoil shape ki wajah se upar hawa ki speed tez ho jaati hai. Bernoulli theorem ke mutabiq jahan speed zyada hoti hai wahan pressure drop ho jata hai, jisse neeche ka high pressure wing ko upar lift karta hai."
+    "e": "Concept: Aeroplane ka pankh (aerofoil) aisa bana hota hai ki upar ki satah thodi ubhari hoti hai. Hawa upar ke raaste me patli jagah se guzarti hai, isliye streamlines wahan kareeb-kareeb (crowd) ho jaati hain, hawa ki speed badh jaati hai. Bernoulli ke siddhant se jahan speed zyada wahan pressure kam hota hai - isliye pankh ke upar kam pressure aur neeche zyada pressurebanta hai, aur ye pressure ka farq pankh ko upar dhakel deta hai (dynamic lift). Exam point: 'Lift = upar speed zyada = pressure kam (Bernoulli)'."
   },
   {
     "qe": "According to Stokes' Law, the viscous drag force F acting on a spherical object of radius 'a' moving with speed 'v' in a fluid of viscosity 'eta' is:",
@@ -657,7 +657,7 @@
       "F = 2 * pi * eta * a * v^2"
     ],
     "a": 1,
-    "e": "Stokes' law formula $F = 6\\pi\\eta a v$ hota hai, jo batata hai ki viscous drag fluid viscosity, sphere radius aur speed ke directly proportional hai."
+    "e": "Concept: Stokes' law ballnay shakal (spherical object) ke liye viscous drag (gharsh bal) ka formula deta hai: F = 6 * pi * eta * a * v, jahan eta drav ki viscosity (ghunchapan), a gola ka radius aur v uski speed hai. Iska matlab: jitna bada (radius), utni zyada speed, utna zyada drag force lagta hai. Ye formula viscosity naapne ke experiments me bahut kaam aata hai. Samanya se 6*pi ko miss na karo - a^2 ya v^2 wale options galat hain. Exam point: 'Stokes law: F = 6 pi eta a v'."
   },
   {
     "qe": "When a falling raindrop achieves its constant 'terminal velocity', the net force acting on it is:",
@@ -669,7 +669,7 @@
       "Infinite"
     ],
     "a": 1,
-    "e": "Terminal velocity aane par downward weight ko upward viscous force aur buoyant force milkar perfectly balance kar dete hain, jisse net external force zero ho jata hai aur acceleration ruk jata hai."
+    "e": "Concept: Barish ki boond girti hai to shuru me uski speed badhti hai, par jaise speed badhti hai viscous drag (Stokes force) bhi badhta hai. Ek khaas speed par drag + upthrust mil kar boond ke wazan ko theek balance kar deta hai - iske baad net force ZERO ho jata hai. Isliye acceleration zero ho jaati hai aur boond constant speed se girti rehti hai - isi speedko 'terminal velocity' kehte hain. Zero net force ka matlab rukna nahi, bas speed na badalna hai. Exam point: 'Terminal velocity par net force = zero (drag+buoyancy = weight)'."
   },
   {
     "qe": "Why do free liquid drops and soap bubbles naturally assume a spherical shape in the absence of gravity?",
@@ -681,7 +681,7 @@
       "Because atmospheric pressure compresses them into spheres"
     ],
     "a": 2,
-    "e": "Surface tension ki wajah se liquids apni free surface energy minimize karna chahte hain. Diye gaye volume ke liye sphere ka surface area sabse kam hota hai, isliye drops gol ho jaati hain."
+    "e": "Concept: Drav ki boond (ya sabun ka bubbles) ke andar aur bahar ke molekul ek doosre ko kheenchte hain, isliye surface par ek 'khinchav' (surface tension) banta hai. Har system aisi halat me jaana chahta hai jisme uski surface energy kam se kam ho - aur kisi diye gaye volume ke liye SAABSE KAM surface area gol (sphere) ka hi hota hai (matematik ka niyam). Isliye hawa me tairti boond aur bubbles gol shakal me ho jaate hain. Exam point: 'Boond/bubble gol isliye = diye volume ke liye sphere ka area sabse kam'."
   },
   {
     "qe": "How does the excess pressure inside a spherical soap bubble compare to that inside a liquid drop of the same radius r?",
@@ -693,7 +693,7 @@
       "Four times as much"
     ],
     "a": 0,
-    "e": "Liquid drop me sirf 1 liquid-air surface hota hai ($P = 2S/r$), jabki soap bubble me andar aur bahar 2 free surfaces hote hain, isliye excess pressure double ($P = 4S/r$) hota hai."
+    "e": "Concept: Liquid drop me sirf ek bahari free surface hoti hai, isliye uske andar aur bahar ke pressure ka farq (excess pressure) = 2S/r hota hai. Soap bubble me hawa ki ek patli parat hoti hai jiske DO free surfaces hote hain (andar aur bahar), isliye usme excess pressure 2S/r ka dugna, yaani 4S/r ho jata hai. Isi kaaran ek hi radius ke liye bubble ke andar zyada pressure lagta hai aur use phulane me zyada kaam lagna hai. Exam point: 'Soap bubble = 4S/r (do surfaces); liquid drop = 2S/r'."
   },
   {
     "qe": "Why does adding soaps or detergents to water improve its cleaning and wetting ability?",
@@ -705,7 +705,7 @@
       "By increasing the water viscosity"
     ],
     "a": 0,
-    "e": "Detergents surface tension aur contact angle ko kam kar dete hain. Surface tension kam hone se paani kapde ke baarik reshon me aasaani se spread aur penetrate hokar mail nikal pata hai."
+    "e": "Concept: Paani ki surface tension ki wajah se uske anu ek doosre ko kheenchte rehte hain aur kapde ke chhote chedon me ghusne se katrate hain (contact angle bada hota hai). Sabun/detergent add karne par uske anu paani ke surface tension ko kam kar dete hain aur usme 'wetting' ki kshamta badh jati hai - paani aasani se kapde ke reshe ke andar pahunchta hai, mail ko dho kar nikal jata hai. Density ya viscosity badhane ka iska koi lena-dena nahi. Exam point: 'Detergent = surface tension kam = wetting badhega'."
   },
   {
     "qe": "What instrument installed in automobiles records the total cumulative distance traveled by the vehicle?",
@@ -717,7 +717,7 @@
       "Speedometer"
     ],
     "a": 2,
-    "e": "Vehicles me total distance travel measure karne ke liye Odometer laga hota hai, jabki current instantaneous speed measure karne ke liye Speedometer hota hai."
+    "e": "Concept: Gaadi me lage us yantra ko 'Odometer' kehte hain jo chakkar-rotation gin kar kul chali hui doori (kilometre me) dikhata hai - ise reset nahi kiya jata, ye cumulative hota hai. 'Speedometer' usi time par chalti hui speed batata hai, 'tachometer' engine ke RPM (ghoomne ki raftaar) batata hai. Isliye distance record karne wala instrument odometer hai. Exam point: 'Total doori = Odometer; turant speed = Speedometer'."
   },
   {
     "qe": "A particle moves along a circular path of radius r. What is the magnitude of its net displacement after completing a quarter (1/4) of the circle?",
@@ -729,7 +729,7 @@
       "Zero"
     ],
     "a": 2,
-    "e": "Quarter circle par initial aur final points center par 90 degree ka angle banate hain. Pythagoras theorem se shortest straight distance $\\sqrt{r^2 + r^2} = \\sqrt{2}r$ hoga."
+    "e": "Concept: Circular path par chalne wale kan ke 'displacement' ka matlab hai shurua (initial) aur antim (final) binduon ke beech ki seedhi doori. Chauthai (1/4) chakkar chalne par wo 90 degree ghoom jata hai - yaani centre par uska kona 90 degree ban jata hai. Ab radius r ke do perpendicular dhanchon (jaise x aur y aksh) se bane triangle ka hypotenuse = sqrt(r^2 + r^2) = r * sqrt(2). Charged particle ke path ka total path-length alag hoga (pi*r/2) par displacement r*sqrt(2) hi hai. Exam point: 'Quarter circle chalne par displacement = r * sqrt(2)'."
   },
   {
     "qe": "A body is thrown vertically upward with initial velocity u. What is its velocity and acceleration at the peak of its flight?",
@@ -741,7 +741,7 @@
       "Velocity is zero, acceleration is g downward"
     ],
     "a": 3,
-    "e": "Highest point par velocity ek pal ke liye zero ($v = 0$) ho jaati hai, par Earth ka downward gravitational acceleration ($g = 9.8\\text{ m/s}^2$) lagataar act karta rehta hai."
+    "e": "Concept: Jab koi vastu seedha upar phenka jata hai, to gravity uska virodh karti hai - isliye upar jaate hue uski speed ghatti jati hai. Sabse unche bindu (peak) par uska speed/velocity theek ZERO ho jata hai (us pal wo na upar, na niche jaa raha hota). Par gravity wahan bhi utni hi lagti hai - acceleration 'g' (lagbhag 9.8 m/s^2) niche ki taraf. Isliye peak par 'velocity zero, acceleration g (downward)' - in dono ko mix karne wali common galti se bachna hai. Exam point: 'Highest point par velocity 0, acceleration g (niche)'."
   },
   {
     "qe": "Can an object have a constant speed and still experience acceleration?",
@@ -753,6 +753,6 @@
       "Yes, but only in complete vacuum"
     ],
     "a": 2,
-    "e": "Haan, Uniform Circular Motion me speed constant rehti hai par circle ke har point par direction badalne se velocity change hoti hai, jisse centripetal acceleration produce hota hai."
+    "e": "Concept: 'Acceleration' velocity ke badlav ki dar hai - aur velocity ek VECTOR hai (magnitude + disha). Isliye agar koi vastu gol raste par constant chaal (speed) se bhi chal rahi ho, to bhi uski DISHA har pal badal rahi hai, matlab velocity badal rahi hai, aur isliye acceleration hai (centripetal). Isliye circular motion me constant speed ke saath bhi acceleration maujood rehti hai. Constant velocity (dishe aur raftaar dono same) hone par hi acceleration zero hoti hai. Exam point: 'Constant speed + changing direction = acceleration (uniform circular motion)'."
   }
 ]
