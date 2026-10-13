@@ -9,7 +9,7 @@
       "Weber"
     ],
     "a": 3,
-    "e": "Magnetic flux ka SI unit Weber (Wb) hota hai, jabki Tesla magnetic field ya flux density ka unit hota hai."
+    "e": "Concept: Magnetic flux (chumbakiya pravah) batata hai ki kisi satah se kitni magnetic field lines guzarti hain; iska formula phi = B * A * cos(theta) hai. Iska SI unit 'weber' (Wb) hai, jo tesla * square metre ke barabar hota hai (1 Wb = 1 T m^2). Tesla field (B) ka unit hai, henry inductance ka, coulomb charge ka - sab alag cheezein hain. Exam point: 'Magnetic flux ka SI unit = weber (Wb)'."
   },
   {
     "qe": "What is the 'CGS unit' of Magnetic Flux?",
@@ -21,7 +21,7 @@
       "Maxwell"
     ],
     "a": 3,
-    "e": "Magnetic flux ka CGS unit Maxwell hota hai, aur 1 Weber = 10^8 Maxwell ke barabar hota hai."
+    "e": "Concept: CGS system me magnetic flux ka unit 'maxwell' (Mx) hota hai - ye purana metric system hai jo ab waigyanik papers me kam use hota hai. Conversion yaad rakho: 1 weber = 10^8 maxwell, isliye maxwell bahut chhota unit hai. Gauss CGS me magnetic field (B) ka unit hai (1 tesla = 10^4 gauss). Exam point: 'CGS flux = maxwell; 1 Wb = 10^8 Mx'."
   },
   {
     "qe": "What is the value of 'Earth's Magnetic Field' approx at the surface?",
@@ -33,7 +33,7 @@
       "Zero"
     ],
     "a": 1,
-    "e": "Earth ki surface par magnetic field bohot weak hoti hai, lagbhag 0.3 se 0.6 Gauss (yaani lagbhag 10^-4 Tesla)."
+    "e": "Concept: Prithvi khud ek bada chumbak hai. Uske surface par magnetic field ki value bahut kam hoti hai - lagbhag 0.3 se 0.6 gauss (ya 30-60 microtesla). Iske muqable ek chhota fridge magnet bhi lagbhag 100 gauss ka field deta hai, isliye Earth ka field bahut kamzor hai. Phir bhi yahi field compass ko ghumata hai aur cosmic radiation se bachata hai. 1 tesla ya 100 tesla wale options engineering magnets ke liye hote hain. Exam point: 'Earth ka magnetic field ~0.3-0.6 gauss (bahut kamzor)'."
   },
   {
     "qe": "Which material is used for the 'Core' of high-frequency transformers?",
@@ -45,7 +45,7 @@
       "Soft Iron"
     ],
     "a": 1,
-    "e": "High-frequency transformers me Ferrites use karte hain kyunki inki electrical resistivity bohot zyada hoti hai, jisse eddy current losses bohot kam ho jaate hain."
+    "e": "Concept: Transformer ka core aisa material ka hona chahiye jisme magnetise aur demagnetise karna aasan ho aur jisme energy loss kam ho. High-frequency (radio, switching supply) ke liye 'ferrite' (iron oxide + nikel/zinc jaise metals ka ceramic mix) use karte hain kyunki iski electrical resistance bahut zyada hoti hai, isliye eddy currents se hone wala loss (jo frequency badhne par badhta hai) bahut kam ho jata hai. Copper winding ka hota hai, core ka nahi. Exam point: 'High frequency transformer core = ferrite (kam eddy loss)'."
   },
   {
     "qe": "What is the 'Self Inductance' of a coil if a current of 2A produces a flux of 5 Weber?",
@@ -57,7 +57,7 @@
       "2.5 Henry"
     ],
     "a": 3,
-    "e": "Formula Phi = L * I hota hai. Isliye L = Phi / I = 5 / 2 = 2.5 Henry nikal kar aayega."
+    "e": "Concept: Self inductance ka formula L = phi / I hota hai, jahan phi flux hai aur I current. Yahan flux 5 weber aur current 2 ampere diya hai, isliye L = 5 / 2 = 2.5 henry. Iska matlab hai ki har 1 ampere current ke liye 2.5 weber flux ban raha hai. Formula seedha lagta hai - sirf flux ko current se divide karna hai. Exam point: 'L = flux/current = 5/2 = 2.5 H'."
   },
   {
     "qe": "What happens to the 'Permeability' of a magnetic material when it is heated?",
@@ -69,7 +69,7 @@
       "Becomes zero instantly"
     ],
     "a": 0,
-    "e": "Heat badhane par thermal agitation (vibrations) atomic dipoles ka alignment bigad deta hai, isliye magnetic permeability kam ho jaati hai."
+    "e": "Concept: Permeability batata hai ki koi material magnetic field ko kitni aasani se andar jaane deta hai. Jab material ko garam karte hain, to uske andar ke atoms/magnetic domains ki tharmal (thermal) harkat badh jaati hai, jisse wo aligned domains bikharte hain - isliye material ka magnetise hona mushkil ho jata hai aur permeability ghat jati hai. Bahut zyada garam karne par Curie point ke baad ferromagnetic material paramagnetic ban jata hai. Exam point: 'Garmi badhne par permeability ghatti hai (domains random ho jaate hain)'."
   },
   {
     "qe": "Which 'Rule' gives the direction of magnetic field due to a circular current loop?",
@@ -81,7 +81,7 @@
       "Ohm's Law"
     ],
     "a": 2,
-    "e": "Right-hand rule ke hisab se agar fingers current ke raste par curl karein, toh thumb loop ke center par magnetic field ki direction batata hai."
+    "e": "Concept: Circular loop me current behti hai to uske around magnetic field banta hai, jiske kendron ki field loop ke center par perpendicular (aane-jaane wali direction me) hoti hai. Iski direction nikalne ka aasan tarika hai right-hand rule/thumb rule: dayen haath ki ungliyan current ki disha me ghumaayein, phir angutha (thumb) field ki direction batata hai. Lenz/Faraday induced EMF ke niyam hain, Ohm current ke liye. Exam point: 'Circular loop ke field ki direction = right-hand/thumb rule'."
   },
   {
     "qe": "What is a 'Neutral Point' in a magnetic field?",
@@ -93,7 +93,7 @@
       "Point where resultant magnetic field is zero"
     ],
     "a": 3,
-    "e": "Neutral point wo sthan hota hai jahan bar magnet ki external field Earth ke horizontal component ko bilkul cancel kar deti hai, jisse net field zero ho jati hai."
+    "e": "Concept: 'Neutral point' wo bindu hota hai jahan do magnetic fields (jaise Earth ka field aur kisi magnet ka field) ek doosre ko bilkul cancel kar dete hain - matlab wahan net (resultant) magnetic field zero ho jata hai. Aise bindu par compass ki sui kisi khaas disha me tikti nahi, azaad rehti hai. Ye maximum field ka bindu nahi, ulta sabse kam (zero) field ka bindu hota hai. Exam point: 'Neutral point = jahan net magnetic field zero'."
   },
   {
     "qe": "Which device primarily operates on the principle of 'Mutual Induction'?",
@@ -105,7 +105,7 @@
       "Transformer"
     ],
     "a": 3,
-    "e": "Transformer mutual induction par kaam karta hai, jisme primary coil ka badalta hua magnetic flux secondary coil me voltage induce karta hai."
+    "e": "Concept: Mutual induction ka matlab hai do coils ek doosre ke paas hain - ek coil me current badalne par uske flux me badlav hota hai, jo doosri coil me voltage (EMF) paida kar deta hai. Transformer isi principle par chalta hai: primary coil ka badalta current secondary me voltage banata hai. Battery to DC deti hai, motor me force lagta hai, bulb me heat-light banti hai - unme mutual induction mukhya nahi. Exam point: 'Transformer = mutual induction par kaam karta hai'."
   },
   {
     "qe": "The 'Magnetic Field' at a far point on the axis of a circular current loop is proportional to:",
@@ -117,7 +117,7 @@
       "r^2"
     ],
     "a": 0,
-    "e": "Circular coil ke axis par kaafi doori (x >> R) par magnetic field magnetic dipole ki tarah behave karti hai aur 1/r^3 ke inverse cube law ko follow karti hai."
+    "e": "Concept: Circular current loop ke kendra se door (aane wale axis par) magnetic field ka formula B = mu_0 * 2*pi*N*I*R^2 / (2*(R^2+x^2)^{3/2}) jaisa hota hai. Jab doori x loop ke radius se bahut badi ho (far point), to x^3 hi sabse bada factor ban jata hai - isliye field lagbhag 1/r^3 ke anupat ghatta hai (kyunki body ka effect dipole jaisa ho jata hai). Isi kaaran door jaane par loop ka field bahut tezi se kam ho jata hai. Exam point: 'Far point par loop ka field ~1/r^3 (dipole behaviour)'."
   },
   {
     "qe": "What is the 'Magnetic Susceptibility' (chi) for 'Superconductors'?",
@@ -129,7 +129,7 @@
       "1"
     ],
     "a": 1,
-    "e": "Superconductors perfect diamagnetism exhibit karte hain (Meissner effect), jiske karan inki magnetic susceptibility chi = -1 hoti hai."
+    "e": "Concept: Magnetic susceptibility (chi) batati hai ki material field me kitna magnetise hota hai. Superconductor ek aisA padaarth hai jisme resistance zero ho jaati hai aur wo magnetic field ko apne andar se poora bahar dhakel deta hai (Meissner effect) - ise perfect diamagnet kehte hain. Isliye uski susceptibility theek -1 hoti hai (poora repulsion). Ferromagnet ki chi bahut badi positive hoti hai, paramagnet ki chhoti positive, aur vacuum ki 0. Exam point: 'Superconductor: chi = -1 (perfect diamagnet, Meissner effect)'."
   },
   {
     "qe": "Which instrument uses a suspended magnet to measure the horizontal component of Earth's field?",
@@ -141,7 +141,7 @@
       "Dip circle"
     ],
     "a": 1,
-    "e": "Vibration Magnetometer me suspended magnet ke oscillation time period ko measure karke Earth ki horizontal magnetic field (B_H) calculate ki jaati hai."
+    "e": "Concept: 'Vibration magnetometer' me ek chhota magnet (bar magnet) kisi taar se latka kar apni swabhavik disha me dolaai (vibration) karta hai. Uske vibration ke aavartkaal (time period) se Earth ke magnetic field ka horizontal component (B_H) nikala jata hai - formula T = 2*pi*sqrt(I/(m*B_H)). Galvanometer current naapta hai, ammeter bhi, aur dip circle dip angle naapta hai. Exam point: 'Horizontal component naapne ka yantra = vibration magnetometer'."
   },
   {
     "qe": "The total 'Magnetic Induction' (B) is related to 'H' and 'I' by which relation?",
@@ -153,7 +153,7 @@
       "B = mu_0 * (H + I)"
     ],
     "a": 3,
-    "e": "Material ke andar total magnetic induction applied field aur material ke induced magnetization ka sum hota hai: B = mu_0 * (H + I)."
+    "e": "Concept: Magnetic induction (B) kisi bindu par asli field hai jo material ke andar banta hai; H applied magnetic field (bahari field strength) hai aur I (ya M) material ki magnetisation hai (kitna magnetise hua). Unka sambandh B = mu_0 * (H + I) hota hai, jahan mu_0 free space ki permeability hai. Isi kaaran jab material magnetise hota hai (I bada), to andar ka net field B bhi badh jata hai. Minus ya divide wale options dimensional galtiyan hain. Exam point: 'B = mu_0 (H + I)'."
   },
   {
     "qe": "What is the unit Weber in terms of Volt and Second?",
@@ -165,7 +165,7 @@
       "1 Weber = 1 s/V"
     ],
     "a": 0,
-    "e": "Faraday law e = dPhi/dt se flux Phi = e * t banta hai, isliye 1 Weber = 1 Volt-second hota hai."
+    "e": "Concept: Faraday ke niyam se induced EMF = -d(phi)/dt, yaani flux ke ek second me hone wale badlav ka matlab voltage. Isliye 1 weber flux ka 1 second me badlav 1 volt ka EMF banata hai - iska matlab 1 weber = 1 volt x 1 second (V-s). V/s ya s/V wale options dimensional galtiyan hain kyunki wo flux ke nahi, kisi aur cheez ke units hain. Exam point: '1 Wb = 1 V-s (Faraday ke niyam se)'."
   },
   {
     "qe": "How does the 'Coercivity' of 'Steel' compare to that of 'Soft Iron'?",
@@ -177,7 +177,7 @@
       "Zero"
     ],
     "a": 0,
-    "e": "Steel ki coercivity soft iron se kaafi zyada hoti hai, yaani ise demagnetize karne ke liye strong reverse field chahiye hoti hai. Isliye ye permanent magnet banane ke liye best hai."
+    "e": "Concept: Coercivity batati hai ki material ka magnetism hatane ke liye kitna ulta field (H) lagana padta hai - yaani magnet ko demagnetise karna kitna mushkil hai. 'Steel' (carbon wala iron) ki coercivity bahut zyada hoti hai, isi liye wo permanent magnet banane ke liye behtar hai (magnetism tikta hai). 'Soft iron' ki coercivity bahut kam hoti hai, isliye wo electromagnet/transformer core ke liye accha hai (aasani se magnetise-demagnetise ho jata hai). Exam point: 'Steel ki coercivity soft iron se bahut zyada (permanent magnet ke liye steel)'."
   },
   {
     "qe": "Which class of substances shows magnetic properties primarily due to paired electrons cancelling each other's spin?",
@@ -189,7 +189,7 @@
       "Ferromagnetic"
     ],
     "a": 1,
-    "e": "Diamagnetic materials me electrons paired hote hain jisse net dipole moment zero ho jata hai, aur external field lagane par Lenz's law ki wajah se opposing weak magnetism show hota hai."
+    "e": "Concept: Magnetic material ka behaviour uske electrons ke spin (ghoomne) se tay hota hai. Diamagnetic material me saare electron pairs aise hote hain jinke spins ulti dirham me hote hain aur ek doosre ko cancel kar dete hain - isliye material ke andar net magnetic moment bacha hi nahi. Isi kaaran diamagnetic materials (paani, bismuth, soona) bahari field se halka-sa repelled hote hain. Paramagnetic me kuch unpaired electrons hote hain; ferromagnetic me bade aligned domains. Exam point: 'Pair electrons ka spin cancel = diamagnetic'."
   },
   {
     "qe": "What is the 'Angle of Declination' used for in navigation?",
@@ -201,7 +201,7 @@
       "Measuring ocean depth"
     ],
     "a": 0,
-    "e": "Compass needle magnetic north ki taraf point karti hai, isliye geographic (true) north pata karne ke liye declination angle ka correction lagana padta hai."
+    "e": "Concept: Magnetic declination wo kon hai jo magnetic north (compass ki sui) aur true geographic north ke beech hota hai. Ye har jagah alag hota hai aur samay ke saath badalta bhi hai, isliye navigation (jaise jahaz, vimaan, survey) me is value ko map ke saath jodkar (correct karke) asli uttar dhoondha jata hai. Dip angle (jahan sui jhukti hai) aur field strength alag cheezein hain. Exam point: 'Declination = magnetic north aur true north ke beech ka angle (compass correction)'."
   },
   {
     "qe": "What happens when a ferromagnetic substance is heated beyond its 'Curie Point'?",
@@ -213,7 +213,7 @@
       "It transforms into a superconductor"
     ],
     "a": 2,
-    "e": "Curie temperature ke upar thermal energy magnetic domains ko tod deti hai, jisse ferromagnetic material simple paramagnetic substance me convert ho jata hai."
+    "e": "Concept: Ferromagnetic material (lohe, nikal, cobalt) me magnetik domains hote hain jo ek hi disha me aligned hote hain aur bahut strong magnetism dete hain. Jab material ko uske Curie point (loha ke liye lagbhag 770 degree C) se zyada garam karte hain to thermal energy domains ko random kar deti hai - aligned dhancha toot jata hai aur material se ferromagnetism chala jata hai. Uske baad material sirf paramagnetic bacha rehta hai (kamzor attraction, field ke saath align hone ki koshish). Exam point: 'Curie point ke baad ferromagnet -> paramagnetic'."
   },
   {
     "qe": "On which physical property is 'Magnetic Shielding' based?",
@@ -225,7 +225,7 @@
       "Perfect electrostatic insulation"
     ],
     "a": 2,
-    "e": "Mu-metal ya soft iron jaise high permeability wale substances magnetic field lines ko apne andar se guzarne ka easy path dete hain, jisse andar rakha instrument shielded rehta hai."
+    "e": "Concept: Magnetic shielding ka matlab hai kisi cheez ko bahari magnetic field se bachana. Iske liye us cheez ko aise material se lapet/ghereys dete hain jiski permeability bahut zyada ho (jaise mu-metal, soft iron) - field ki lines high-permeability material ke andar se guzar jati hain aur andar wali cheez tak nahi pahunchti (jaise paani ko nali se mod dena). Isliye MRI room, sensitive instruments aur watches ke andar yahi technique use hoti hai. Reflection ya charge absorption iska kaaran nahi. Exam point: 'Magnetic shielding = high permeability enclosure'."
   },
   {
     "qe": "If a dip circle needle points vertically at 90 degrees, where is the apparatus located?",
@@ -237,7 +237,7 @@
       "45 degree Latitude"
     ],
     "a": 0,
-    "e": "Earth ke magnetic poles par field bilkul vertical hoti hai aur horizontal component zero hota hai, isliye dip needle 90 degree par khadi ho jaati hai."
+    "e": "Concept: Dip circle (jhookne wali sui) batati hai ki Earth ka field kitna neeche ki taraf hai. Magnetic equator par field bilkul horizontal hota hai, isliye sui 0 degree par rehti hai. Magnetic pole par field poori tarah vertical (neeche ki taraf) hota hai, isliye sui 90 degree par khadi ho jati hai (vertical point down). Isliye '90 degree par vertical' ka matlab hai hum magnetic pole par hain. Exam point: 'Dip 90 degree = Magnetic pole; dip 0 degree = Magnetic equator'."
   },
   {
     "qe": "What is the 'Intensity of Magnetization' (I or M) for a perfect vacuum?",
@@ -249,7 +249,7 @@
       "1"
     ],
     "a": 2,
-    "e": "Magnetization per unit volume tabhi hota hai jab matter me atomic dipoles hon. Vacuum me koi atoms nahi hote, isliye I = 0 hota hai."
+    "e": "Concept: Intensity of magnetization (M ya I) batati hai ki kisi material ke ek unit volume me kitna magnetic moment paida hua. Vacuum (khaali jagah) me koi atom/domain hi nahi hote, isliye wahan magnetise hone wala koi padarth nahi hai - M = zero. Hawa bhi lagbhag zero deti hai. 1 ya -1 wale values kisi khaas material ke liye hoti hain (superconductor -1), par vacuum ke liye 0 hai. Exam point: 'Vacuum me intensity of magnetization M = 0'."
   },
   {
     "qe": "What is the defining ratio for 'Magnetic Permeability' (mu)?",
@@ -261,7 +261,7 @@
       "H / B"
     ],
     "a": 1,
-    "e": "Magnetic permeability mu = B / H hota hai, jo magnetic induction aur magnetizing field strength ka ratio hai."
+    "e": "Concept: Magnetic permeability (mu) batati hai ki koi material bahari magnetic field (H) ke badle apne andar kitna net field (B) banta hai. Iski definition hai mu = B / H (in units, mu = B/H with B the magnetic induction). Isse pata chalta hai ki material field ko kitna strong karta hai: vacuum ke liye mu = mu_0 (4*pi*10^-7), soft iron ke liye mu_0 se kai guna zyada. B*H ya H/B wale options definition se mel nahi khte. Exam point: 'Permeability mu = B / H'."
   },
   {
     "qe": "What is the 'Magnetic Susceptibility' (chi) of a Diamagnetic substance?",
@@ -273,7 +273,7 @@
       "Large and Positive"
     ],
     "a": 2,
-    "e": "Diamagnetic materials external field ke opposite weakly magnetize hote hain, isliye inki susceptibility choti aur negative (-1 <= chi < 0) hoti hai."
+    "e": "Concept: Diamagnetic materials (paani, bismuth, taamba-tajja soona, organic compounds) bahari magnetic field se halke se PRATIKOOL (repel) hote hain. Iska kaaran ye hai ki field ke andar unme ulti (opposite) magnetization paida ho jati hai, isliye susceptibility (chi) ki value chhoti aur NEGATIVE (-) hoti hai - jaise paani ki lagbhag -9 x 10^-6. Paramagnetic materials me chi chhoti positive hoti hai, ferromagnetic me bahut badi positive. Exam point: 'Diamagnetic ki susceptibility = chhoti, negative'."
   },
   {
     "qe": "Which of the following substances is weakly repelled by a strong magnetic field?",
@@ -285,7 +285,7 @@
       "Aluminium"
     ],
     "a": 2,
-    "e": "Water, Bismuth, aur Copper diamagnetic hote hain, isliye ye magnetic field ke stronger parts se weaker parts ki taraf repel hote hain."
+    "e": "Concept: Diamagnetic materials (jaise paani, bismuth, soona) magnetic field se halke se PRATIKOOL (repel) hote hain - chahe bahut strong field ho, repulsion bahut kamzor hi hota hai. Iron aur nikal ferromagnetic hain (bahut tez attracted), aluminium paramagnetic hai (halka attracted, par repel nahi). Isliye diye gaye options me sirf 'paani' hi diamagnetic hai aur field se repelled hoga. Exam point: 'Weakly repelled by magnet = diamagnetic (udaharan: paani, bismuth)'."
   },
   {
     "qe": "What is the mathematical relation between 'Relative Permeability' (mu_r) and Susceptibility (chi)?",
@@ -297,7 +297,7 @@
       "mu_r = 1 + chi"
     ],
     "a": 3,
-    "e": "Formula B = mu_0 * (H + M) se derive karne par mu_r = 1 + chi relation nikal kar aata hai."
+    "e": "Concept: Relative permeability (mu_r) batati hai ki material ki permeability vacuum se kitni guna zyada hai, aur susceptibility (chi) batati hai ki material kitna magnetise hota hai. Dono me seedha sambandh hai: mu_r = 1 + chi. Kyun? Kyunki net field = applied field + material ke magnetisation ka hissa. Isliye soft iron ke liye chi = 999 ho to mu_r = 1000; diamagnetic me chi negative hone ke kaaran mu_r 1 se kam ho jaata hai. Exam point: 'mu_r = 1 + chi (yaad rakhein ye formula)'."
   },
   {
     "qe": "Which physical phenomenon is utilized in the 'Magnetic Braking' systems of modern high-speed trains?",
@@ -309,7 +309,7 @@
       "Self Induction"
     ],
     "a": 1,
-    "e": "Metal wheels ya tracks me produce hone wali Eddy currents motion ka virodh karti hain (Lenz's law), jisse bina kisi mechanical wear-and-tear ke train smooth rukti hai."
+    "e": "Concept: Magnetic braking me train ke chassis par strong magnets aur patari ke paas metal (disk/rail) hote hain. Jab train chalti hai to badalta magnetic flux uss metal me chakradaar (circular) currents paida karta hai - inhe 'eddy currents' kehte hain. Lenz ke niyam ke kaaran ye currents aisi force lagate hain jo motion ka virodh karti hai, isliye train bina ghisaav (friction) bina tez ho jaati hai. Ye system ghisay ke brake se kam wear karta hai. Exam point: 'Magnetic braking = eddy currents (Lenz ka virodh)'."
   },
   {
     "qe": "Why does a transformer require an alternating current (AC) to operate rather than direct current (DC)?",
@@ -321,7 +321,7 @@
       "Transformers require continuously changing magnetic flux to induce voltage"
     ],
     "a": 3,
-    "e": "Faraday law ke mutabiq voltage induce karne ke liye dPhi/dt (changing flux) zaroori hai. Constant DC me flux steady rehta hai, isliye secondary coil me koi voltage induce nahi hota."
+    "e": "Concept: Transformer ka kaam mutual induction par chalta hai - primary me badalta hua current secondary me voltage paida karta hai. Iske liye magnetic flux ka LAGATAR BADALNA zaroori hai. AC (alternating current) har second apni disha/maatra badalta hai, isliye flux bhi badalta rehta hai aur EMF paida hota hai. DC (direct current) constant rehta hai, flux constant, isliye induction zero - transformer kaam nahi karta (aur winding jal sakti hai). Exam point: 'Transformer ko AC chahiye kyunki flux ka badalna zaroori hai'."
   },
   {
     "qe": "Which fundamental law determines the 'Polarity' and direction of an induced EMF?",
@@ -333,7 +333,7 @@
       "Lenz's Law"
     ],
     "a": 3,
-    "e": "Lenz's Law batata hai ki induced current ki direction aisi hoti hai ki wo usi flux change ka virodh kare jisne use produce kiya hai."
+    "e": "Concept: Jab coil me flux ka badlav kisi bhi kaaran se hota hai, to usme EMF paida hota hai - aur us EMF ki POLARITY/direction nikalne ke liye Lenz's law use karte hain: induced emf/current hamesha aisa hota hai jo us badlav ka virodh kare. Isse minus sign aata hai (Faraday+Lenz). Coulomb charge ke force ke liye, Biot-Savart field ki magnitude ke liye, Ampere law bhi field ke liye hai - direction/polarity ke liye Lenz hi hai. Exam point: 'Induced EMF ki direction/polarity = Lenz's law'."
   },
   {
     "qe": "What is the CGS unit of 'Magnetic Field Strength' (H)?",
@@ -345,7 +345,7 @@
       "Oersted"
     ],
     "a": 3,
-    "e": "CGS system me B ki unit Gauss hoti hai, jabki H (magnetizing force) ki unit Oersted hoti hai."
+    "e": "Concept: Magnetic field strength (H) ko CGS system me 'oersted' (Oe) me naapa jata hai. Aaj kal SI unit ampere per metre (A/m) zyada use hota hai; conversion: 1 oersted = 79.6 A/m (lagbhag 80). Gauss CGS me B (flux density) ka unit hai, maxwell flux ka, aur tesla SI me B ka. Isliye H ke liye sahi jawab oersted hai. Exam point: 'CGS me H ka unit = oersted (SI: A/m)'."
   },
   {
     "qe": "Which material is used in magnetic recording tapes for data storage?",
@@ -357,7 +357,7 @@
       "Chromium Dioxide (CrO_2)"
     ],
     "a": 3,
-    "e": "Magnetic tapes me Chromium Dioxide (CrO_2) ya gamma-Fe2O3 ke ferromagnetic particles use hote hain jo data ko stable magnetization ke form me store karte hain."
+    "e": "Concept: Purani magnetic recording media (cassette tape, floppy, hard disk) me data store karne ke liye chhoti magnetizable particles ki coating hoti thi. Chromium dioxide (CrO_2) aisa hi padarth hai jiski fine magnetic particles tapes par lagai jaati hain - ye field ke hisaab se magnetise hokar 0/1 (digital data) ko store karta hai. Copper, aluminium non-magnetic hain aur silicon electronics me hota hai, tape ke liye nahi. Exam point: 'Recording tape me = chromium dioxide (CrO_2) jaise ferromagnetic particles'."
   },
   {
     "qe": "What is the angle of dip at the 'Magnetic Equator'?",
@@ -369,7 +369,7 @@
       "180 degrees"
     ],
     "a": 2,
-    "e": "Magnetic equator par Earth ki magnetic field completely horizontal hoti hai (vertical component zero), isliye angle of dip 0 degree hota hai."
+    "e": "Concept: Magnetic equator par Earth ka magnetic field bilkul horizontal (kshatij) hota hai - wahan usko neeche khinche wali vertical component hoti hi nahi. Isliye dip circle ki sui wahan 0 degree par leti rehti hai (koi jhukav nahi). Magnetic poles par ulta hota hai - 90 degree vertical. Isliye 'dip = 0' ka seedha matlab 'magnetic equator' hai. Ye ek common exam sawal hai. Exam point: 'Magnetic equator par dip angle = 0 degree'."
   },
   {
     "qe": "What is the primary function of 'Lamination' in a transformer's iron core?",
@@ -381,7 +381,7 @@
       "To increase secondary voltage"
     ],
     "a": 0,
-    "e": "Core ko patli-patli insulated sheets me baantne se continuous current loops toot jaate hain, jisse Eddy current heat losses kaafi kam ho jaate hain."
+    "e": "Concept: Transformer ke core me jab badalta hua flux hota hai to core khud bhi chhote-chhote circles me currents (eddy currents) paida kar deta hai, jinse heat banti hai - yahi energy loss ka bada kaaran hai. Isko kam karne ke liye core ko patli-patli sheeton (laminations) me kaat kar ek doosre se insulate karke rakha jata hai; har sheet alag hone ke kaaran badi eddy current circuits nahi ban paati. Isliye lamination ka mukhya kaam eddy current loss kam karna hai. Exam point: 'Lamination = eddy current loss kam karne ke liye'."
   },
   {
     "qe": "What is the 'SI Unit' of Magnetic Permeability (mu)?",
@@ -393,7 +393,7 @@
       "Tesla / Ampere"
     ],
     "a": 1,
-    "e": "Magnetic permeability ka SI unit Tesla-meter per Ampere (T-m/A) ya Henry per meter (H/m) hota hai."
+    "e": "Concept: Permeability (mu) ka SI unit nikalne ke liye B = mu * H lagao: B tesla me, H ampere per metre me - isliye mu ka unit tesla-metre/ampere (T m/A) hota hai, jo henry per metre (H/m) ke barabar hai. mu_0 ki value 4*pi*10^-7 T m/A hai. Henry second ya weber/metre jaise units dimensions ke hisaab se match nahi karte. Exam point: 'Permeability ka SI unit = T m/A = henry/metre'."
   },
   {
     "qe": "What is the SI unit of 'Mutual Inductance'?",
@@ -405,7 +405,7 @@
       "Tesla"
     ],
     "a": 0,
-    "e": "Self Inductance aur Mutual Inductance dono ka SI unit Henry (H) hota hai."
+    "e": "Concept: Mutual inductance batati hai ki ek coil me current ke badalne se doosri coil me kitna EMF paida hota hai. Iska SI unit henry (H) hai - wahi unit self inductance ka bhi hota hai (kyunki dono ka sambandh flux/current se hai). 1 henry = 1 weber/ampere = 1 V-s/A. Ohm resistance ka unit hai, tesla field ka, weber flux ka - sab alag hain. Exam point: 'Mutual inductance ka SI unit = henry (H)'."
   },
   {
     "qe": "Why is the core of a Moving Coil Galvanometer made of Soft Iron?",
@@ -417,7 +417,7 @@
       "To make the coil completely non-magnetic"
     ],
     "a": 2,
-    "e": "Cylindrical soft iron core magnetic field lines ko attract karke field ko strong aur perfectly radial banata hai, jisse deflection current ke directly proportional rehta hai."
+    "e": "Concept: Moving coil galvanometer me coil charon taraf se magnet ke poles ke beech hoti hai. Agar core khaali (hawa) ho to field lines scatter ho jaati hain aur coil ke different positions par field ki value badalti hai - isse reading galat aati hai. Soft iron core dalne se field lines uske andar se guzarti hain aur coil jagah par lagbhag radial (kendriya) aur tez concentrated field milti hai - isliye torque har position par barabar lagta hai aur scale linear ho jata hai. Exam point: 'Soft iron core = radial + strong field banane ke liye'."
   },
   {
     "qe": "What happens to the 'Induced EMF' in a coil if the speed of an approaching magnet is doubled?",
@@ -429,7 +429,7 @@
       "It remains unchanged"
     ],
     "a": 1,
-    "e": "Faraday's law ke according induced EMF magnetic flux ke badlav ki speed (dPhi/dt) ke directly proportional hota hai, isliye magnet tez aayega toh EMF badhega."
+    "e": "Concept: Faraday ke niyam se induced EMF = -d(flux)/dt hota hai. Agar magnet ko coil ke paas zyada tez (double speed) se ghumate/laate hain, to flux bhi utni hi tez badalta hai aur induced EMF bhi lagbhag utna hi gunna (proportional) ho jata hai. Isi kaaran cycle dynamo ki roshni tez chalane par badh jaati hai, aur power plant ki turbine ka speed matter karta hai. EMF do guna hone par current bhi badh jata hai. Exam point: 'Chumbak ki speed dugni = induced EMF lagbhag dugna'."
   },
   {
     "qe": "Which material is widely used to make extremely strong 'Permanent Magnets' for headphones and hard drives?",
@@ -441,7 +441,7 @@
       "Soft Iron"
     ],
     "a": 1,
-    "e": "Neodymium rare-earth magnets bohot high coercivity aur high retentivity rakhte hain, isliye ye compact aur powerful permanent magnets banane me use hote hain."
+    "e": "Concept: Bahut strong permanent magnet banane ke liye aisa material chahiye jiski retentivity (magnetism pakde rakhne ki kshamta) aur coercivity (demagnetise hona mushkil) dono zyada ho. 'Neodymium' (Nd2Fe14B) mishran aaj ki sabse strong permanent magnet material hai - iska magnetic strength iron/steel se kai guna zyada hota hai, isliye headphones, speakers, hard disk motors aur MRI me use hota hai. Pure copper/aluminium non-magnetic hain aur soft iron temporary magnet ke liye hota hai. Exam point: 'Sabse strong permanent magnet = neodymium (NdFeB)'."
   },
   {
     "qe": "The width of a material's 'Hysteresis Loop' is a direct measure of its:",
@@ -453,7 +453,7 @@
       "Retentivity"
     ],
     "a": 0,
-    "e": "Hysteresis loop ki horizontal width material ki coercivity ko represent karti hai; jitni zyada coercivity hogi, loop utna hi chauda hoga."
+    "e": "Concept: Hysteresis loop B (field) aur H (magnetising field) ke beech ka chakkar dikhata hai. Loop ki CHAURAI (width) batati hai ki material ko ek baar magnetise karke demagnetise karne me kitna ulta field lagta hai - yaani coercivity. Jitni wide loop, utna zyada H ko palatna padta hai (permanent magnet ke liye accha), par utni zyada energy loss bhi hoti hai (transformer ke liye bura). Isliye core me narrow loop wala soft iron lagate hain. Exam point: 'Hysteresis loop ki width = coercivity'."
   },
   {
     "qe": "What is the 'Trajectory' of a charged particle entering a uniform magnetic field at an acute angle (theta < 90)?",
@@ -465,7 +465,7 @@
       "Parabolic curve"
     ],
     "a": 0,
-    "e": "Field ke perpendicular velocity component circular motion deta hai aur parallel component linear motion deta hai, dono milkar helical (spiral) path banate hain."
+    "e": "Concept: Koi charged particle agar magnetic field me theek perpendicular (90 degree) se ghusay to wo circle banata hai; agar bilkul parallel (0 degree) ghusay to seedha nikal jata hai. Jab akut angle (0 se 90 ke beech) par ghusay, to speed ke do hisse ban jate hain - ek field ke saath (jitna seedha chalke aage badhega) aur ek field ke perpendicular (jitna ghumayega). Isi do movements ke milne se particle ka path spiral (helical) ban jata hai - jaise spring ki shakal. Exam point: 'Angle par ghusay = helical/spiral path; 90 degree = circle'."
   },
   {
     "qe": "Which component in fluorescent tubelights operates on the principle of 'Self Induction' to strike an arc?",
@@ -477,7 +477,7 @@
       "Starter capacitor"
     ],
     "a": 0,
-    "e": "Choke coil starting ke time self-induction se high voltage kick generate karta hai taaki gas ionize ho sake, aur baad me steady current maintain karta hai."
+    "e": "Concept: Fluorescent tubelight ko jalane ke liye ek badi voltage chahiye hoti hai jo gas me arc (bijli ki kirnein) shuru kare. 'Choke coil' ek inductor hai jo self induction ka faisla karta hai: jab circuit ka current badalta hai to wo uske badlav ka virodh karke bahut zyada voltage (L di/dt) paida kar deta hai, jo tube me arc start karne ke liye kaafi hoti hai. Arc chalu hone ke baad choke current ko limit me rakhta hai. Isliye choke self induction ka udaharan hai. Exam point: 'Tubelight/choke coil = self induction se high voltage'."
   },
   {
     "qe": "How does the 'Retentivity' of Steel compare to that of Soft Iron?",
@@ -489,7 +489,7 @@
       "Higher"
     ],
     "a": 1,
-    "e": "Soft iron field hatne par steel ke mukable zyada magnetic induction retain karta hai, isliye soft iron ki retentivity steel se zyada (aur steel ki lower) hoti hai."
+    "e": "Concept: 'Retentivity' batati hai ki magnet hatane ke baad material me kitni magnetism bachi rehti hai. Steel (carbon mix wala loha) ki retentivity soft iron se zyada hoti hai - isliye steel ka magnet bana kar rakha jaye to wo apna magnetpan lambe samay tak rakh sakta hai (permanent magnet). Soft iron ki retentivity kam hoti hai, isliye wo electromagnets aur transformer core me aata hai jahan field band karte hi magnetism khatam ho jaana chahiye. Exam point: 'Steel ki retentivity soft iron se zyada (permanent magnet ke liye)'."
   },
   {
     "qe": "What is an 'Aclinic Line' on a geomagnetic map?",
@@ -501,7 +501,7 @@
       "Points of equal magnetic horizontal intensity"
     ],
     "a": 0,
-    "e": "Aclinic line Earth ke un sabhi points ko connect karti hai jahan angle of dip zero hota hai. Is line ko Magnetic Equator bhi kehte hain."
+    "e": "Concept: Earth ka magnetic field ki disha har jagah ek jaisi nahi hoti - kuch jagah poori tarah horizontal hoti hai aur kuch par vertical jhukav hota hai. Is jhukav ko dip kehte hain. 'Aclinic line' wo imaginary line hai jahan dip angle bilkul ZERO rehta hai - yaani magnetic equator wali line. Iske ulta 'isoclinic' wahan join karti hai jahan dip ki value same ho. Declination (north se angle) alag line se dikhai jaati hai (isogonic/agonic). Exam point: 'Aclinic line = zero dip (magnetic equator)'."
   },
   {
     "qe": "What is an 'Isogonic Line' on a magnetic map?",
@@ -513,7 +513,7 @@
       "Line joining places of equal magnetic declination"
     ],
     "a": 3,
-    "e": "Isogonic line Earth ke un sthano ko connect karti hai jahan magnetic declination ka angle bilkul ek saman (equal) hota hai."
+    "e": "Concept: Compass ki sui magnetic north dikhati hai, par asli (geographic) uttar thoda alag hota hai - ye farq har sthan par badalta hai. Is lok me aise saare sthanon ko jodne wali line jo SAMAN declination rakhte hain, unhe 'isogonic lines' kehte hain. Aaj ke maps par isi lines se pata chalta hai ki aapke ilake me compass ko kitna degree adjust karna hai. 'Agonic line' wo hoti hai jahan declination zero ho. Exam point: 'Isogonic line = equal declination wale sthan (magnetic maps par)'."
   },
   {
     "qe": "What is an 'Agonic Line' on a geomagnetic chart?",
@@ -525,7 +525,7 @@
       "Line joining places of zero magnetic dip"
     ],
     "a": 0,
-    "e": "Agonic line aisi isogonic line hoti hai jo un jagahon ko jodti hai jahan magnetic declination zero degree hota hai (yaani true north aur magnetic north ek hi line me hote hain)."
+    "e": "Concept: Declination batati hai ki magnetic north asli (geographic) north se kitna degree door hai. Kuch lines par ye declination bilkul ZERO hoti hai - matlab wahan compass ki sui theek asli uttar hi dikhati hai. Aise sthanon ko jodne wali line ko 'agonic line' (ya zero declination line) kehte hain. Iske alawa isogonic (equal declination) aur isoclinic (equal dip), aclinic (zero dip) lines hoti hain. Exam point: 'Agonic line = jahan declination zero ho'."
   },
   {
     "qe": "What is an 'Isoclinic Line' on a geomagnetic chart?",
@@ -537,7 +537,7 @@
       "Line of equal atmospheric pressure"
     ],
     "a": 2,
-    "e": "Isoclinic line Earth ke un sabhi sthano ko aapas me jodti hai jahan magnetic inclination (dip angle) ka value bilkul saman hota hai."
+    "e": "Concept: Earth ke magnetic field ka ek hissa horizontal (B_H) hota hai aur ek vertical (B_V). 'Isoclinic' lines wo lines hain jo un saare sthanon ko jodti hain jahan DIP angle (kisi v shukanj ki value) ek jaisa ho - yaani jahan field ka jhukav barabar hai. 'Aclinic' zero dip wali line hai, 'isogonic' equal declination wali, aur 'agonic' zero declination wali. Ye teeno shabd (isogonic, isoclinic, aclinic, agonic) paper me aksar aapas me mix kar diye jate hain. Exam point: 'Isoclinic line = equal magnetic dip wale sthan'."
   },
   {
     "qe": "What happens to the 'Self Inductance' of a long solenoid if a Soft Iron Core is inserted inside it?",
@@ -549,7 +549,7 @@
       "Remains strictly identical"
     ],
     "a": 2,
-    "e": "Formula L = mu_r * mu_0 * n^2 * A * l hota hai. Soft iron ki relative permeability (mu_r) bohot zyada hone ke karan coil ka inductance hazaro guna badh jata hai."
+    "e": "Concept: Solenoid ek cylindrical coil hai; uski self inductance L = mu_0 * mu_r * N^2 * A / l hoti hai (yaan formula me mu_r aata hai). Khaali (air) core me mu_r lagbhag 1 hota hai. Jab bade permeability wala soft iron core andar daal dete hain, to mu_r hazaar guna badh jata hai - isliye L (self inductance) kai guna badh jaati hai. Isi kaaran electromagnet aur transformer me iron core dalte hain. Exam point: 'Soft iron core dalne par self inductance bahut badh jati hai (mu_r ke kaaran)'."
   },
   {
     "qe": "What is the 'Magnetic Field' at the exact center of a flat circular loop of radius R carrying current I?",
@@ -561,7 +561,7 @@
       "mu_0 * I / (2 * pi * R)"
     ],
     "a": 1,
-    "e": "Biot-Savart law ke hisab se circular current loop ke center par magnetic field B = (mu_0 * I) / (2 * R) hoti hai."
+    "e": "Concept: Circular loop ke centre par magnetic field ka formula B = mu_0 * I / (2R) hota hai, jahan I current aur R loop ka radius hai. Dhyan do: radius badhne par field ghatta hai (ulta sambandh). Ye value loop ke centre par maximum hoti hai; kinaare se door jaane par ghat-ti jaati hai. 2*pi*R wala denominator lambi straight wire ke liye hota hai, isliye wo option galat hai. Exam point: 'Loop ke centre par B = mu_0 I / (2R)'."
   },
   {
     "qe": "What is the SI unit of 'Intensity of Magnetization' (M)?",
@@ -573,7 +573,7 @@
       "Ampere / meter"
     ],
     "a": 3,
-    "e": "Intensity of magnetization magnetic moment per unit volume hota hai (A-m^2 / m^3 = Ampere/meter)."
+    "e": "Concept: Intensity of magnetization (M) batati hai ki kisi padarth ke ek kub-mikta volume me kitna magnetic moment paida hua hai - maglab M = (total magnetic moment) / volume. Magnetic moment ka unit A m^2 hai aur volume ka m^3 - isliye M ka unit ampere per metre (A/m) banta hai. Yahi unit magnetic field strength H ka bhi hota hai. Henry/meter permeability ka unit hai, tesla B ka. Exam point: 'Intensity of magnetization M ka SI unit = A/m'."
   },
   {
     "qe": "The total energy loss per cycle due to 'Magnetic Hysteresis' in a core material is proportional to:",
@@ -585,7 +585,7 @@
       "Air temperature surrounding the transformer"
     ],
     "a": 1,
-    "e": "B-H loop ka total enclosed area per unit volume per cycle waste hone wali thermal energy loss ko represent karta hai."
+    "e": "Concept: Hysteresis loss wo energy hai jo ek cycle me material ko magnetise-demagnetise karne me heat ke roop me kharch ho jaati hai. Iska sabse bada raaz ye hai ki ye loss B-H loop ke kshetrfal (area) ke barabar hoti hai - jitna bada loop, utni zyada loss. Isi liye transformer aur motor ke core me narrow loop wala soft iron (silicon steel) use karte hain, aur permanent magnet ke liye wide loop wala steel. Exam point: 'Hysteresis loss per cycle = B-H loop ka area'."
   },
   {
     "qe": "What is the value of the 'Permeability of Free Space' (mu_0)?",
@@ -597,7 +597,7 @@
       "4 * pi * 10^-7 T-m/A"
     ],
     "a": 3,
-    "e": "Free space ki magnetic permeability mu_0 = 4 * pi * 10^-7 Tesla-meter per Ampere hoti hai."
+    "e": "Concept: mu_0 ko 'permeability of free space' kehte hain - ye vacuum/hawa me magnetic field aur magnetising field ka sambandh batane wala fixed constant hai: mu_0 = 4 * pi * 10^-7 T m/A (lagbhag 1.257 x 10^-6). Ye ek fundamental constant hai jo Ampere's law jaise formulas me aata hai. Diye gaye doosre options doosre constants hain: 1.6*10^-19 electron ka charge, 9*10^9 Coulomb's constant, 8.85*10^-12 permittivity of free space (epsilon_0). Exam point: 'mu_0 = 4 pi x 10^-7 T m/A'."
   },
   {
     "qe": "What is the full form of 'MRI' in diagnostic medicine?",
@@ -609,7 +609,7 @@
       "Magnetic Radio Imaging"
     ],
     "a": 0,
-    "e": "MRI ka full form Magnetic Resonance Imaging hota hai, jo strong magnetic fields aur radio waves ke through body organs ke hydrogen nuclei ko map karta hai."
+    "e": "Concept: MRI ek medical imaging technique hai jiska poora naam 'Magnetic Resonance Imaging' hai. Isme bahut strong magnetic field aur radio waves se body ke andar ke hydrogen atoms (paani) ki sthiti ki taraf se image banti hai - isliye ye X-ray ki tarah radiation nahi deta aur soft tissues (dimaag, jod) ko bahut saaf dikhata hai. Isi kaaran naam me 'magnetic' aur 'resonance' dono hain. Exam point: 'MRI = Magnetic Resonance Imaging'."
   },
   {
     "qe": "What is the SI unit of 'Magnetic Dipole Moment' (m)?",
@@ -621,7 +621,7 @@
       "Ampere-meter"
     ],
     "a": 0,
-    "e": "Formula m = I * A hota hai, isliye iska SI unit Ampere * meter^2 (A-m^2) ya Joule per Tesla (J/T) hota hai."
+    "e": "Concept: Magnetic dipole moment (m) batata hai ki koi chhota magnet/current loop kitna strong hai. Iska SI unit ampere-metre^2 (A m^2) hai; kuch kitabon me ise joule per tesla (J/T) bhi likha jata hai kyunki torque ka formula tau = m * B * sin(theta) se energy/field ka ratio nikalta hai. Tesla/metre ya weber/metre units dimensional roop se galat hain. Exam point: 'Magnetic dipole moment = A m^2 (ya J/T)'."
   },
   {
     "qe": "How does the 'Self Inductance' of a circular coil vary with its number of turns (N)?",
@@ -633,7 +633,7 @@
       "Independent of N"
     ],
     "a": 0,
-    "e": "Inductance turns ke square ke proportional hota hai (L proportional to N^2), kyunki har turn ka field aur linkage dono N par depend karte hain."
+    "e": "Concept: Kisi coil ki self inductance L = mu_0 * mu_r * N^2 * A / l hoti hai - formula me turns (N) ka SQUARE aata hai, kyunki (1) zyada turns ka matlab zyada flux har turn me, aur (2) wahi flux saare turns me link hota hai, dono effect multiply ho jate hain. Isliye turns dugna karne par inductance lagbhag 4 guna badh jati hai. Isi wajah se chhoti coil par hazaaron turns lagakar zyada inductance milti hai. Exam point: 'Self inductance ~ N^2 (turns ka square)'."
   },
   {
     "qe": "Lenz's Law of electromagnetic induction is a direct mathematical consequence of which universal law?",
@@ -645,7 +645,7 @@
       "Conservation of Energy"
     ],
     "a": 3,
-    "e": "Lenz's law conservation of energy ka result hai. Agar induced current oppose na kare, toh bina mechanical work kiye extra electrical energy banne lagegi jo physics me impossible hai."
+    "e": "Concept: Lenz ka niyam kehta hai ki induced current hamesha us badlav ka virodh karta hai jo use paida karta hai. Iske bina energy ka sanrakshan (conservation) toot jata - jaise agar induced current madad karta, to bina energy diye hi current badhta chala jata (perpetual motion jaisa). Isi kaaran Lenz ka niyam bhi asal me 'energy conservation' ka hi ek roop hai. Angular/linear momentum aur charge conservation alag niyam hain. Exam point: 'Lenz ka niyam = energy conservation ka parinaam'."
   },
   {
     "qe": "Which rule is deployed to determine the 'Direction of Magnetic Force' on a moving positive charge in a field?",
@@ -657,7 +657,7 @@
       "Fleming's Right-hand Rule"
     ],
     "a": 2,
-    "e": "Fleming's Left Hand Rule motors aur moving charges par lagne wale force ki direction batata hai (Thumb = Force, Index = Field, Middle = Velocity/Current)."
+    "e": "Concept: Magnetic field me chalte hue charge par lagne wali force F = q (v x B) hoti hai. Iski disha dhoondhne ke liye Fleming's Left-hand rule use karte hain: left haath ki tarjani (forefinger) field ki disha me, madhyama (middle finger) current (ya positive charge ki chal) ki disha me rakhein - to angutha (thumb) force ki disha batata hai. Fleming's right-hand rule induced current ke liye hota hai (generator). Exam point: 'Charge par magnetic force = Fleming's left-hand rule (motor)'."
   },
   {
     "qe": "How does the total intensity of Earth's magnetic field change as one travels from the Equator to the Poles?",
@@ -669,7 +669,7 @@
       "Drops to zero at 45 degrees"
     ],
     "a": 0,
-    "e": "Earth ke poles par field lines zyada dense hoti hain, isliye total magnetic field equator ke comparison me poles par lagbhag double ho jaati hai."
+    "e": "Concept: Earth ka total magnetic field equator par sabse kam (lagbhag 0.3 gauss) hota hai aur poles ke qareeb sabse zyada (lagbhag 0.6-0.7 gauss). Isliye safar karte waqt equator se poles ki taraf jaane par field ki tivrata dheere-dheere BADHTI hai. Iski wajah ye hai ki field lines poles par ek jagah par sikud (converge) jati hain, jisse flux density badh jati hai. Exam point: 'Equator se pole jaane par Earth ka field badhta hai'."
   },
   {
     "qe": "Which device uses 'Eddy Currents' to produce electromagnetic damping in measurement meters?",
@@ -681,7 +681,7 @@
       "Dead-beat Galvanometer"
     ],
     "a": 3,
-    "e": "Galvanometer ki metallic coil frame me banne wali Eddy currents motion ka virodh karke needle ke oscillations ko instantly rok deti hain."
+    "e": "Concept: Galvanometer me sui tezi se hilne ke baad jaldi ruk jaye (warna reading lene me der lagti hai) - iske liye 'eddy current damping' use hoti hai: coil ke saath ek halki aluminium plate lagi hoti hai jo magnet ke beech ghoomti hai. Plate me badalta flux eddy currents paida karta hai aur Lenz ke niyam se wo ghumav ka virodh karte hain - isse sui hilti nahi aur foran ruk jaati hai (dead-beat). Induction furnace eddy current se heat banata hai, damping ke liye nahi. Exam point: 'Dead-beat galvanometer = eddy current (electromagnetic) damping'."
   },
   {
     "qe": "In a 'Step-up Transformer', which electrical quantity decreases when voltage increases?",
@@ -693,7 +693,7 @@
       "Power factor"
     ],
     "a": 2,
-    "e": "Energy conservation (Power = V * I) ke hisab se agar secondary voltage badhta hai, toh secondary current proportional amount me kam ho jata hai."
+    "e": "Concept: Transformer (ideal) me power ka sambandh P = V * I hota hai aur power lagbhag constant rehti hai. Isliye step-up transformer voltage ko badhata hai to current utne hi anupat ghat jata hai (V badha to I ghata). Isi wajah se high-voltage transmission lines me current kam hota hai aur wire me heat loss (I^2 R) bhi kam hoti hai. Frequency aur power factor nahi badalte. Exam point: 'Step-up transformer: voltage upar, current neeche'."
   },
   {
     "qe": "What is the 'Magnetic Declination' at a specific location on Earth?",
@@ -705,7 +705,7 @@
       "Strength of horizontal field component"
     ],
     "a": 2,
-    "e": "Geographic North aur Magnetic North ke beech banne wale horizontal angle ko Magnetic Declination kehte hain."
+    "e": "Concept: Prithvi ke do 'north' hain - ek asli (geographic) north pole aur ek magnetic north jahan compass ki sui jhuk kar dikhati hai. Magnetic declination wo angle hai jo magnetic meridian (magnetic north ki taraf dikhne wali line) aur geographic meridian (asli north wali line) ke beech hota hai - yahi angle map me 'declination' ke roop me milta hai. Angle of dip (jhukav) alag cheez hai, aur Curie temperature magnet material se juda concept hai. Exam point: 'Declination = magnetic meridian aur geographic meridian ke beech ka kon'."
   },
   {
     "qe": "What is 'Ampere's Circuital Law' mathematical expression?",
@@ -717,7 +717,7 @@
       "oint B * dl = mu_0 * I_enclosed"
     ],
     "a": 3,
-    "e": "Ampere's law kehta hai ki kisi closed loop ke around magnetic field ka line integral us loop se ghiri total current ka mu_0 guna hota hai."
+    "e": "Concept: Ampere's circuital law kehta hai ki kisi band (closed) loop ke chaaron taraf magnetic field (B) ka line integral us loop ke andar wale net current (I_enclosed) ke mu_0 guna ke barabar hota hai: closed integral B * dl = mu_0 * I. Isliye ise seedhe-geometric symmetry me field nikalne ke liye use karte hain (jaise solenoid aur toroid me). Doosre options Faraday ka niyam (E * dl) aur Lorentz force ke formulas hain. Exam point: 'oint B dl = mu_0 I (Ampere circuital law)'."
   },
   {
     "qe": "How is a moving coil galvanometer converted into a Voltmeter?",
@@ -729,7 +729,7 @@
       "By connecting an inductor in parallel"
     ],
     "a": 1,
-    "e": "Galvanometer ke sath series me bohot high resistance (multiplier) connect karne se wo high voltage measure karne ke kabil voltmeter ban jata hai."
+    "e": "Concept: Galvanometer bahut kam current par poora scale deflect karta hai, isliye usse voltmeter banane ke liye uske SAATH (series me) ek badi 'multiplier' resistance jod dete hain. Isse zyada voltage ka bada hissa us resistance par gir jata hai aur galvanometer ke through bahut kam current guzarta hai - isliye wo bade voltages naap sakta hai. Ammeter ke liye ulta hota hai: parallel me kam resistance (shunt) jodte hain. Exam point: 'Voltmeter = galvanometer + high resistance series me'."
   },
   {
     "qe": "How is a moving coil galvanometer converted into an Ammeter?",
@@ -741,7 +741,7 @@
       "By connecting a high resistance in series"
     ],
     "a": 2,
-    "e": "Galvanometer ke sath parallel me bohot low resistance (shunt) connect karne se maximum current shunt se nikal jata hai aur wo ammeter ban jata hai."
+    "e": "Concept: Galvanometer sirf milli-ampere jitna kam current naap sakta hai. Isse ammeter banane ke liye uske SAMANTAR (parallel) me ek bahut kam resistance ki 'shunt' tar jod dete hain. Zyada current ka bada hissa shunt se guzar jata hai aur galvanometer ke through bahut kam current jaata hai - isse device bade current bhi safely naap leta hai. Voltmeter ke liye ulta (series me high resistance) lagate hain. Exam point: 'Ammeter = galvanometer + low resistance shunt parallel me'."
   },
   {
     "qe": "What is the 'Hall Effect' primarily utilized for?",
@@ -753,7 +753,7 @@
       "Creating permanent ferromagnets"
     ],
     "a": 1,
-    "e": "Hall Effect me magnetic field ke presence me transverse voltage produce hota hai, jisse charge carriers ka sign (electrons ya holes) aur carrier density measure hoti hai."
+    "e": "Concept: Hall effect me jab current-carrying conductor/ik-patal ko magnetic field me rakha jata hai, to charge carriers par lagne wali force ke kaaran conductor ke kinaron par chhoti-si voltage (Hall voltage) paida ho jati hai. Us voltage ka sign is baat se tay hota hai ki carriers positive hain ya negative, aur uski value se carrier ki sankhya/ghantav (density) nikalti hai. Isi wajah se Hall effect semiconductor research aur sensor me bahut use hota hai. Heat capacity ya transformer se iska koi sambandh nahi. Exam point: 'Hall effect = charge carriers ka sign aur density pata karna'."
   },
   {
     "qe": "A 'Tangent Galvanometer' operates on which basic magnetic principle?",
@@ -765,7 +765,7 @@
       "Hysteresis saturation"
     ],
     "a": 1,
-    "e": "Tangent law ke mutabiq jab needle do mutually perpendicular fields (coil field aur Earth ki B_H) ke beech hoti hai, toh deflection B = B_H * tan(theta) relation deta hai."
+    "e": "Concept: Tangent galvanometer ek chhoti compass-sui ki madad se current naapta hai. Uske coil ka field (B) aur Earth ka horizontal component (B_H) ek doosre se 90 degree par hote hain, aur sui tritiya (resultant) field ki disha me tikti hai. Isi se 'tangent law' banta hai: B = B_H * tan(theta) - isliye deflection angle (theta) se current ka andaza hota hai. Faraday/Lenz induction aur hysteresis magnetization ke principles hain, tangent law hi is yantra ka aadhaar hai. Exam point: 'Tangent galvanometer = B = B_H tan(theta)  ka niyam'."
   },
   {
     "qe": "The 'Geodynamo Effect' that generates Earth's magnetic field is caused by:",
@@ -777,7 +777,7 @@
       "Gravitational pull of the Moon"
     ],
     "a": 2,
-    "e": "Earth ke liquid outer core me molten iron aur nickel ki convective circulation electric currents banati hai, jo Earth ka primary magnetic field create karti hai."
+    "e": "Concept: Prithvi ka magnetic field hamare planet ke bahar se nahi, balki andar se paida hota hai - core (kendra) me pighla hua loha (iron) hai jo bahut garam hone par bhi pressure ke karad liquid rehta hai. Is liquid iron ki conval (convection) gati aur ghoomti dharti (rotation) mil kar giant electric currents ki tarah kaam karti hai, jo magnetic field paida karte hain - isi ko 'geodynamo' kehte hain. Sooraj ki radiation ya moon ki gravity iska kaaran nahi. Exam point: 'Geodynamo = core ke pighle lohe ki convection + rotation'."
   },
   {
     "qe": "What does Gauss's Law for Magnetism (oint B * dA = 0) physically imply?",
@@ -789,7 +789,7 @@
       "Induced EMF is independent of flux"
     ],
     "a": 0,
-    "e": "Kissi bhi closed surface ka net magnetic flux hamesha zero hota hai, jiska matlab hai ki magnetic field lines continuous loops banati hain aur isolated magnetic monopoles exist nahi karte."
+    "e": "Concept: Gauss's law for magnetism kehta hai ki kisi bhi band satah se nikle wale kul magnetic flux ka jod ZERO hota hai (closed integral B*dA = 0). Iska matlab: jitni field lines kisi box me ghusi, utni hi bahar gayi - yaani kahin field lines shuru ya khatam nahi hoti, wo band loops banati hain. Isi se saabit hota hai ki akele uttar ya akele dakshin dhruv (magnetic monopole) prakruti me nahi milte - har chumbak me dono dhruv hote hain. Exam point: 'Gauss law for magnetism = monopole exist nahi karte'."
   },
   {
     "qe": "What is the angle of dip at a location where Earth's horizontal and vertical components are equal (B_H = B_V)?",
@@ -801,7 +801,7 @@
       "30 degrees"
     ],
     "a": 1,
-    "e": "Formula tan(theta) = B_V / B_H hota hai. Jab B_V = B_H ho, toh tan(theta) = 1 ho jata hai, jisse dip angle theta = 45 degree banta hai."
+    "e": "Concept: Kisi sthan par total Earth field ke do hisse hote hain: horizontal (B_H) aur vertical (B_V), aur dip angle theta aisa hota hai ki tan(theta) = B_V / B_H. Agar dono components barabar ho (B_V = B_H), to tan(theta) = 1, isliye theta = 45 degree. Ye koi bhi aisa sthan hoga jahan field lagbhag 45 degree jhuka hua hai - na pure equator (0 degree) na pure pole (90 degree). Exam point: 'B_V = B_H hone par dip = 45 degree'."
   },
   {
     "qe": "What is 'Bohr Magneton' (mu_B)?",
@@ -813,7 +813,7 @@
       "Magnetic moment associated with an electron's orbital motion in the first Bohr orbit"
     ],
     "a": 3,
-    "e": "Bohr Magneton (mu_B = e*h / 4*pi*m) atom ke andar electron ke orbital motion ka natural fundamental magnetic dipole moment unit hota hai."
+    "e": "Concept: Electron apne nucleus ke around ghoomta (orbit karta) hai, aur ghoomta hua charge ek chhota current loop jaisa magnetic moment paida karta hai. Hydrogen jaisa electron pehli Bohr orbit me ho to uske is orbital motion wale moment ki fixed value ko 'Bohr magneton' kehte hain: mu_B = 9.27 x 10^-24 A m^2 (ya J/T). Ye atom ki magnetism naapne ka sabse chhota standard unit hai. Permeability ya flux se iska alag matlab hai. Exam point: 'Bohr magneton = electron ke orbital motion ka magnetic moment (9.27 x 10^-24 J/T)'."
   },
   {
     "qe": "What happens if a bar magnet is cut transversely into two equal halves?",
@@ -825,7 +825,7 @@
       "Only the cut ends retain magnetism"
     ],
     "a": 1,
-    "e": "Monopoles exist nahi karte, isliye jab magnet ko kaat te hain toh har tukda apna naya North aur South pole generate karke complete magnet ban jata hai."
+    "e": "Concept: Bar magnet ke andar chhote-chhote magnetic domains bankar ek saath aligned hote hain. Jab magnet ko beech se kaat kar do hisse kar dete hain, to har hisse ke andar nayi pole pair banane padti hai - ye physics ka bunyadi niyam hai (magnetic monopole exist nahi karta). Isliye dono tukde poore alag chumbak ban jate hain, har ek me apna North aur South pole. Isi tarah aur tukde karne par bhi har hissa pura chumbak hi rehta hai. Exam point: 'Magnet kaatne par do poore magnets bante hain (N aur S dono)'."
   },
   {
     "qe": "What is the 'Magnetic Energy Density' stored in a vacuum region containing magnetic field B?",
@@ -837,7 +837,7 @@
       "B^2 / (2 * mu_0)"
     ],
     "a": 3,
-    "e": "Magnetic field me per unit volume store hone wali energy density ka formula u_B = B^2 / (2 * mu_0) hota hai."
+    "e": "Concept: Magnetic field me energy store hoti hai - har unit volume me utni energy jitni field ki tivrata ki square se bandhi hoti hai. Energy density ka formula B^2 / (2 * mu_0) hota hai, jahan B field aur mu_0 free space permeability hai. Ye formula capacitor ke liye (1/2 epsilon_0 E^2) ka magnetic judwaan hai. B^2*mu_0 ya B/mu_0 units ke hisaab se match nahi karte. Exam point: 'Magnetic energy density = B^2 / (2 mu_0)'."
   },
   {
     "qe": "What is 'Barkhausen Effect' in ferromagnetic materials?",
@@ -849,7 +849,7 @@
       "Continuous smooth magnetization curve"
     ],
     "a": 0,
-    "e": "Jab ferromagnetic material magnetize hota hai, toh domains achanak jump karke align hote hain. In stepwise jerky jumps ko Barkhausen effect bolte hain jo domains ke existence ka proof hai."
+    "e": "Concept: Ferromagnetic material me magnetization ek dum seedhi line me nahi badalti - jab bahari field badhaya jata hai to andar ke domains jhatke-jhatke (jumps) me align hote hain. Har jhatke par material ki magnetization me thoda achanak badlaav aata hai. Agar ise ek amplifier+speaker se suno to chhote click/awaz sunai deti hain - isi phenomenon ko 'Barkhausen effect' kehte hain. Isse domain structure samajhne me madad milti hai. Exam point: 'Barkhausen effect = magnetization me step-wise jumps (domain wall motion)'."
   },
   {
     "qe": "What is the full form of 'SQUID' used in ultrasensitive magnetic measurements?",
@@ -861,7 +861,7 @@
       "Superconducting Quick Ion Diode"
     ],
     "a": 2,
-    "e": "SQUID ka full form Superconducting Quantum Interference Device hota hai, jo Josephson effect ka use karke 10^-15 Tesla tak ke extremely weak fields ko detect kar sakta hai."
+    "e": "Concept: SQUID ek bahut hi sensitive magnetic detector hai jo superconductors aur Josephson junctions ki madad se kaam karta hai - ye Earth ke field se lakhon guna chhote magnetic signals tak pakad leta hai. Iska poora naam 'Superconducting Quantum Interference Device' hai. Iska istemal brain waves (MEG), heart (MCG), geology aur material testing me hota hai. Naam me 'superconducting' aur 'quantum interference' hi asli shabd hain - baaki options me galat words hain. Exam point: 'SQUID = Superconducting Quantum Interference Device'."
   },
   {
     "qe": "Why can two magnetic field lines never cross or intersect each other?",
@@ -873,7 +873,7 @@
       "Because magnetic flux density becomes infinite at intersection"
     ],
     "a": 2,
-    "e": "Field line par khincha gaya tangent net magnetic field ki unique direction batata hai. Agar do lines intersect karein toh ek hi point par do directions ho jayengi jo physically impossible hai."
+    "e": "Concept: Magnetic field line ek kalpana hai - har bindu par field ki disha batati hai (aur wahan rakha compass usi disha me tikta hai). Agar do lines ek bindu par katein, to us bindu par field ki do alag dishaen ho jayengi - matlab compass ko ek hi samay me do dishaon me dikhana padta, jo asambhav hai. Isliye field lines kabhi cross nahi karti; wo hamesha closed loops me rehti hain (bina magnet ke bahar N se S aur andar S se N). Exam point: 'Field lines kabhi cross nahi karti (ek bindu par ek hi field disha)'."
   },
   {
     "qe": "The directional convention for magnetic field lines states that they run:",
@@ -885,7 +885,7 @@
       "Radially outward from the center in all directions"
     ],
     "a": 2,
-    "e": "Magnet ke bahar field lines North pole se nikal kar South pole me enter karti hain, aur continuous closed loop banane ke liye magnet ke andar South se North ki taraf jaati hain."
+    "e": "Concept: Chumbak ke bahar field lines uttar (North) se nikal kar dakshin (South) ki taraf jaati hain - yahi bahari convention hai (isliye compass ki sui N ki taraf khinchti hai). Chumbak ke ANDAR (material ke andar) field lines South se North ki taraf chalti hain, jisse poora path ek band loop banta hai. Isi kaaran field lines hamesha closed loops hoti hain aur Gauss's law for magnetism me net flux zero hota hai. Exam point: 'Bahar: N se S; andar: S se N'."
   },
   {
     "qe": "Under what orientation is a magnetic dipole (moment m) in a uniform field B in its most 'Stable Equilibrium'?",
@@ -897,7 +897,7 @@
       "When theta = 90 degrees (perpendicular)"
     ],
     "a": 2,
-    "e": "Potential energy U = -m * B * cos(theta) hoti hai. Jab theta = 0 degree hota hai, tab potential energy minimum (-mB) hoti hai jo most stable state ko represent karti hai."
+    "e": "Concept: Magnetic dipole (chhota magnet) par uniform field me torque lagta hai: tau = m * B * sin(theta), jahan theta, dipole aur field ke beech ka kon hai. Ye torque dipole ko field ke saath align karne ki koshish karta hai. Isliye jab theta = 0 (yaani dipole field ke samantar) ho, torque ZERO ho jata hai - ye sabse sthir (stable) equilibrium hota hai. theta = 180 degree par torque zero to hota hai par wo unstable equilibrium hai (chhota-sa dhakka lagte hi palat jayega). Exam point: 'Stable equilibrium: theta = 0 (field ke samantar)'."
   },
   {
     "qe": "Why does a bulk sample of paramagnetic material exhibit zero net magnetization in the absence of an external field?",
@@ -909,7 +909,7 @@
       "Because paired electrons completely eliminate atomic spin"
     ],
     "a": 0,
-    "e": "Individual atoms me permanent dipole moment hota hai, par thermal agitation (heat) un sabhi dipoles ko random directions me bhatka deti hai jisse bulk average zero ho jata hai."
+    "e": "Concept: Paramagnetic material ke har atom me chhote-chhote magnetic moments hote hain, par bahari field na hone par ye moments kisi ek disha me aligned nahi rehte - material ke andar ki heat (thermal) energy unhe hila-ti rehti hai aur unki directions tadka (random) ho jaati hain. Random directions ka net jod zero hota hai, isliye bina field ke net magnetization zero dikhti hai. Field lagane par moments uske saath align hone ki koshish karte hain (weak attraction). Exam point: 'Bina field ke paramagnet zero net magnetization: thermal randomness (random orientation)'."
   },
   {
     "qe": "What happens to the magnetic field pattern of a circular current loop as you move from its perimeter to its absolute center?",
@@ -921,7 +921,7 @@
       "They decay to zero magnitude at the center"
     ],
     "a": 1,
-    "e": "Wire ke paas field lines concentric circles hoti hain, par center ki taraf aate-aate in circles ka curvature itna bada ho jata hai ki center par wo bilkul seedhi straight lines jaisi dikhti hain."
+    "e": "Concept: Kisi current loop ke field lines centre ke andar ki taraf dekhne ke liye - loop ke bahar wo band (circular) lines ke roop me dikh-ti hain, par loop ke bilkul centre par field ki disha loop ke tekhat (perpendicular) hoti hai. Isi kaaran centre ke aas-paas ke chhote hisse me wo circular lines ek doosre se mil kar seedhi parallel lines ki tarah dikhne lagti hain. Yahi wajah hai ki loop ke centre par field lagbhag straight (aksheeya) ho jata hai. Exam point: 'Loop ke centre par field lines seedhi-parallel dikhti hain'."
   },
   {
     "qe": "What is the magnetic field inside a long, tightly wound current-carrying Solenoid?",
@@ -933,6 +933,6 @@
       "Radially outward from the center"
     ],
     "a": 1,
-    "e": "Solenoid ke andar field lines parallel straight lines hoti hain, jiska matlab hai ki internal magnetic field har point par ek samaan (uniform) aur axis ke parallel hoti hai."
+    "e": "Concept: Solenoid ek lambi coil hai jisme ek hi disha me bahut saare turns hote hain. Uske andar har turn ka field kisi ek disha me jodta jata hai, par bahar ke field lines fail kar kamzor ho jati hain. Isi kaaran solenoid ke ANDAR (madhya me) field lagbhag poori tarah ek-jaisi (uniform) hoti hai aur mukhy aksh (axis) ke samantar hoti hai. Bahar ki taraf field bilkul kam (lagbhag zero) hoti hai. Isi wajah se solenoid ka istemal uniform field banane aur electromagnet me hota hai. Exam point: 'Solenoid ke andar field: uniform + axis ke samantar'."
   }
 ]
