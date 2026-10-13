@@ -3,36 +3,36 @@
     "qe": "Which of the following is the smallest particle of an element that retains its chemical identity and participates in chemical reactions?",
     "qh": "किसी तत्व का वह सूक्ष्मतम कण कौन सा है जो रासायनिक अभिक्रियाओं में भाग लेता है और अपनी रासायनिक पहचान बनाए रखता है?",
     "o": [
-      "Molecule",
       "Atom (Paramaanu)",
+      "Nucleon",
       "Quark",
-      "Nucleon"
+      "Molecule"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Dalton ke mutabiq Atom kisi element ka sabse chhota particle hai jo chemical reaction me hissa leta hai; subatomic particles hote zaroor hain par wo element ki chemical identity represent nahi karte."
   },
   {
     "qe": "Who discovered the subatomic, negatively charged 'Electron' in 1897 through Cathode Ray Tube (CRT) experiments?",
     "qh": "1897 में कैथोड किरण नलिका (CRT) प्रयोगों के माध्यम से ऋणावेशित 'इलेक्ट्रॉन' की खोज किसने की थी?",
     "o": [
-      "Ernest Rutherford",
       "J.J. Thomson",
+      "Ernest Rutherford",
       "James Chadwick",
       "Eugen Goldstein"
     ],
-    "a": 1,
+    "a": 0,
     "e": "J.J. Thomson ne cathode ray discharge tube me negative particles discover kiye jinhe George Stoney ne 'Electron' naam diya; Thomson ne electron ka charge-to-mass (e/m) ratio bhi nikala."
   },
   {
     "qe": "The central, dense 'Nucleus' of an atom discovered by Rutherford consists of which subatomic nucleons?",
     "qh": "परमाणु के केंद्रीय नाभिक (Nucleus) में कौन से उप-परमाण्विक कण (न्यूक्लिऑन) पाए जाते हैं?",
     "o": [
+      "Positrons only",
       "Electrons and Protons",
       "Protons and Neutrons (Nucleons)",
-      "Electrons and Neutrons",
-      "Positrons only"
+      "Electrons and Neutrons"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Atom ke center me positively charged dense nucleus hota hai jisme Protons aur Neutrons (dono ko milakar Nucleons bolte hain) rehte hain, jabki electrons chaaron taraf orbits me ghoomte hain."
   },
   {
@@ -41,8 +41,8 @@
     "o": [
       "-1.6 x 10^-19 C",
       "+1.602 x 10^-19 C (Mass: 1.672 x 10^-27 kg)",
-      "Zero charge (Neutral)",
-      "+3.2 x 10^-19 C"
+      "+3.2 x 10^-19 C",
+      "Zero charge (Neutral)"
     ],
     "a": 1,
     "e": "Proton par positive charge (+1.6 x 10^-19 Coulomb) hota hai aur iska mass lagbhag 1 amu hota hai, jo electron ke mass se 1,837 guna heavy hota hai."
@@ -51,12 +51,12 @@
     "qe": "Who proposed the first scientific 'Atomic Theory' in 1803 postulating that matter is composed of indivisible atoms?",
     "qh": "1803 में सर्वप्रथम वैज्ञानिक 'परमाणु सिद्धांत' का प्रतिपादन किसने किया था जिसमें परमाणुओं को अविभाज्य बताया गया था?",
     "o": [
-      "Amedeo Avogadro",
       "John Dalton",
-      "Antoine Lavoisier",
-      "Niels Bohr"
+      "Niels Bohr",
+      "Amedeo Avogadro",
+      "Antoine Lavoisier"
     ],
-    "a": 1,
+    "a": 0,
     "e": "John Dalton ne Law of Conservation of Mass aur Constant Proportions ke aadhar par Atomic Theory di thi ki matter indestructible aur indivisible chote atoms se bana hai."
   },
   {
@@ -64,23 +64,23 @@
     "qh": "किसी परमाणु की 'द्रव्यमान संख्या' (Mass Number - A) किसे दर्शाती है?",
     "o": [
       "Total number of planetary electrons",
-      "Total number of protons only (Atomic Number Z)",
       "Total sum of Protons and Neutrons (Nucleons: A = Z + N)",
-      "Number of valence electrons"
+      "Number of valence electrons",
+      "Total number of protons only (Atomic Number Z)"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Mass Number (A) nucleus ke andar baithe Protons aur Neutrons ka total sum hota hai (A = Z + N); electron ka mass itna kam hota hai ki use atomic mass me count nahi karte."
   },
   {
     "qe": "Nuclides of the same chemical element sharing an identical Atomic Number (Z) but differing in Mass Number (A) are termed:",
     "qh": "एक ही तत्व के वे परमाणु जिनका परमाणु क्रमांक (Z) समान लेकिन द्रव्यमान संख्या (A) भिन्न होती है, क्या कहलाते हैं?",
     "o": [
-      "Isobars",
-      "Isotopes (Samsthaanik)",
       "Isotones",
-      "Isodiaphers"
+      "Isodiaphers",
+      "Isobars",
+      "Isotopes (Samsthaanik)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Isotopes me protons aur electrons barabar hote hain (isliye chemical properties same hoti hain), par unme neutrons ki sankhya alag-alag hoti hai (jaise Carbon-12 aur Carbon-14)."
   },
   {
@@ -113,8 +113,8 @@
     "o": [
       "Planetary energy subshells",
       "The tiny, dense, positively charged Atomic Nucleus",
-      "Electrons in raisins",
-      "Wave nature of matter"
+      "Wave nature of matter",
+      "Electrons in raisins"
     ],
     "a": 1,
     "e": "Rutherford ne dekha ki 20,000 me se 1 alpha particle 180° par wapas takra kar lauta, jisse prove hua ki atom ka poora positive charge center me ek tiny dense Nucleus me concentrated hai."
@@ -123,10 +123,10 @@
     "qe": "According to the Bohr-Bury scheme, what is the maximum electron capacity of any principal shell with quantum index 'n'?",
     "qh": "बोर-बरी योजना के अनुसार किसी भी मुख्य कोश (Shell) में इलेक्ट्रॉनों की अधिकतम संख्या किस सूत्र से ज्ञात की जाती है?",
     "o": [
-      "2n",
+      "4n + 2",
       "2n^2 (e.g., K=2, L=8, M=18, N=32)",
-      "n^2",
-      "4n + 2"
+      "2n",
+      "n^2"
     ],
     "a": 1,
     "e": "Formula 2n^2 hota hai: K-shell (n=1) me 2(1)^2 = 2; L-shell (n=2) me 2(2)^2 = 8; M-shell (n=3) me 18; aur N-shell (n=4) me maximum 32 electrons aa sakte hain."
@@ -135,36 +135,36 @@
     "qe": "The thermodynamic phase transition where a solid converts directly into the gaseous vapor phase without melting into a liquid is:",
     "qh": "ठोस पदार्थ का बिना द्रव में बदले सीधे वाष्प (गैस) में परिवर्तित हो जाने की प्रक्रिया क्या कहलाती है?",
     "o": [
-      "Evaporation",
       "Condensation",
       "Sublimation (Urdhwapaatan)",
+      "Evaporation",
       "Deposition"
     ],
-    "a": 2,
+    "a": 1,
     "e": "Sublimation me garam karne par solid direct gas ban jata hai; jaise Camphor (Kapoor), Dry Ice (Solid CO2), Ammonium Chloride (Naushadar) aur Naphthalene balls."
   },
   {
     "qe": "Which high-energy state of matter comprises superheated, quasi-neutral, freely moving ionized gases and stripped electrons?",
     "qh": "तारों और सूर्य में पाई जाने वाली अत्यधिक गर्म आयनित गैस और मुक्त इलेक्ट्रॉनों से युक्त 'पदार्थ की चौथी अवस्था' कौन सी है?",
     "o": [
-      "Gas",
       "Plasma",
-      "Bose-Einstein Condensate (BEC)",
-      "Fermionic condensate"
+      "Gas",
+      "Fermionic condensate",
+      "Bose-Einstein Condensate (BEC)"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Plasma matter ki 4th state hai jisme extreme heat ki wajah se atoms toot kar positive ions aur free electrons ka ionized soup ban jate hain (jaise Sun, Stars aur Neon signs me)."
   },
   {
     "qe": "Atoms of different chemical elements that share the same Mass Number (A) but possess different Atomic Numbers (Z) are:",
     "qh": "भिन्न-भिन्न तत्वों के वे परमाणु जिनके परमाणु क्रमांक भिन्न परंतु द्रव्यमान संख्या समान होती है, क्या कहलाते हैं?",
     "o": [
+      "Isotones",
       "Isotopes",
       "Isobars (Sam-bhaarik)",
-      "Isotones",
       "Isomers"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Isobars alag-alag elements hote hain jinka total mass same hota hai; jaise Argon (18Ar40), Potassium (19K40) aur Calcium (20Ca40) teeno ka mass 40 hai par atomic number alag hai."
   },
   {
@@ -173,8 +173,8 @@
     "o": [
       "Energy and wavelength",
       "Exact Position (Δx) and Linear Momentum (Δp) of an electron: Δx · Δp ≥ h / (4π)",
-      "Mass and velocity",
-      "Charge and spin"
+      "Charge and spin",
+      "Mass and velocity"
     ],
     "a": 1,
     "e": "Heisenberg ne bataya ki electron jaise tiny wave-like particle ki exact position aur exact momentum (speed) ek sath 100% accuracy se measure karna physics ke laws ke mutabiq impossible hai."
@@ -185,56 +185,56 @@
     "o": [
       "-1 charge (single electron)",
       "0 charge (electromagnetic photon)",
-      "+2 charge (doubly ionized Helium nucleus: He2+ with 2 protons and 2 neutrons)",
-      "+1 charge"
+      "+1 charge",
+      "+2 charge (doubly ionized Helium nucleus: He2+ with 2 protons and 2 neutrons)"
     ],
-    "a": 2,
+    "a": 3,
     "e": "Alpha particle actually ek Helium nucleus (He2+) hota hai jisme 2 protons aur 2 neutrons hote hain; ispar +2 unit positive charge aur 4 amu mass hota hai."
   },
   {
     "qe": "Which orbital quantum number primarily defines the average spatial size and principal energy level of an electron shell?",
     "qh": "कौन सी मुख्य क्वांटम संख्या (Principal Quantum Number - n) कक्षक के औसत आकार और मुख्य ऊर्जा स्तर को निर्धारित करती है?",
     "o": [
-      "Principal Quantum Number (n)",
+      "Spin Quantum Number (ms)",
       "Azimuthal Quantum Number (l)",
       "Magnetic Quantum Number (ml)",
-      "Spin Quantum Number (ms)"
+      "Principal Quantum Number (n)"
     ],
-    "a": 0,
+    "a": 3,
     "e": "Principal quantum number (n = 1, 2, 3...) electron ke main shell ka size aur energy level decide karta hai; jaise-jaise n badhta hai, orbital ka aakaar bada hota jata hai."
   },
   {
     "qe": "Which quantum number dictates the three-dimensional geometric shape (s=spherical, p=dumbbell, d=double-dumbbell) of an atomic subshell?",
     "qh": "द्विगंशी क्वांटम संख्या (Azimuthal Quantum Number - l) कक्षक के किस गुण को निर्धारित करती है?",
     "o": [
+      "Clockwise electron spin",
       "Total shell electron capacity only",
-      "Three-dimensional spatial shape and orbital angular momentum (l = 0 to n-1)",
       "Direction of axial magnetic vector",
-      "Clockwise electron spin"
+      "Three-dimensional spatial shape and orbital angular momentum (l = 0 to n-1)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Azimuthal quantum number (l) subshell ki 3D shape batata hai: l=0 (s-orbital, spherical), l=1 (p-orbital, dumbbell), l=2 (d-orbital, double-dumbbell) aur l=3 (f-orbital, complex leaf)."
   },
   {
     "qe": "What is the physical significance of the Magnetic Quantum Number (ml) when atoms are placed in external magnetic fields?",
     "qh": "चुंबकीय क्वांटम संख्या (Magnetic Quantum Number - ml) कक्षक के किस लक्षण को दर्शाती है?",
     "o": [
-      "Total energy eigenvalues",
       "Spatial orientation of orbitals along three-dimensional coordinate axes (ml = -l to +l)",
-      "Nuclear fusion threshold",
-      "Linear velocity"
+      "Linear velocity",
+      "Total energy eigenvalues",
+      "Nuclear fusion threshold"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Magnetic quantum number (ml) space me orbital ke orientation (direction) ko batata hai; ye explain karta hai ki p-subshell ke 3 orbitals px, py aur pz axes par kaise situated hain (Zeeman Effect)."
   },
   {
     "qe": "Pauli's Exclusion Principle states that no two electrons in the same atom can possess the identical set of four quantum numbers, meaning:",
     "qh": "पाउली के अपवर्जन सिद्धांत (Pauli's Exclusion Principle) का मुख्य निष्कर्ष क्या है?",
     "o": [
-      "Electrons always fill the highest energy orbitals first",
+      "All electrons repel the nucleus",
       "An individual orbital can hold a maximum of two electrons, and they must have anti-parallel (opposite) spins (+1/2 and -1/2)",
-      "Orbitals must remain completely degenerate",
-      "All electrons repel the nucleus"
+      "Electrons always fill the highest energy orbitals first",
+      "Orbitals must remain completely degenerate"
     ],
     "a": 1,
     "e": "Pauli ne kaha ki ek atom me do electrons ke chaaron quantum numbers same nahi ho sakte; isliye ek single orbital me maximum 2 electrons hi aa sakte hain aur unka spin ulta (+1/2 aur -1/2) hona chahiye."
@@ -243,46 +243,46 @@
     "qe": "The Aufbau Principle ($(n+l)$ rule) dictates that incoming ground-state electrons sequentially occupy orbitals in order of:",
     "qh": "आफबाऊ सिद्धांत (Aufbau Principle) के अनुसार इलेक्ट्रॉन कक्षकों में किस क्रम में प्रवेश करते हैं?",
     "o": [
-      "Decreasing orbital size",
       "Increasing orbital energy levels: lower (n+l) values fill first before higher ones",
+      "Random probability matrix",
       "Alphabetical subshell sequence",
-      "Random probability matrix"
+      "Decreasing orbital size"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Aufbau German word hai jiska matlab 'construction' hai; electrons pehle sabse kam energy wale (n+l) orbital me ghuste hain; isliye 4s (4+0=4) pehle bharta hai aur 3d (3+2=5) baad me."
   },
   {
     "qe": "Hund's Rule of Maximum Multiplicity establishes that when filling degenerate orbitals of equal energy (like px, py, pz):",
     "qh": "हुंड के अधिकतम बहुलता के नियम (Hund's Rule) के अनुसार समान ऊर्जा वाले कक्षकों में इलेक्ट्रॉनों का युग्मन (Pairing) कब शुरू होता है?",
     "o": [
-      "Electrons pair up immediately in the first orbital",
-      "Each degenerate orbital is singly occupied with parallel spins before any pairing occurs",
       "Electrons drop into the nucleus",
-      "Only spin-down electrons enter"
+      "Electrons pair up immediately in the first orbital",
+      "Only spin-down electrons enter",
+      "Each degenerate orbital is singly occupied with parallel spins before any pairing occurs"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Hund's rule kehta hai ki barabar energy wale degenerate orbitals (jaise 3 p-orbitals) me pehle sabhi me 1-1 electron parallel spin ke sath jayega, uske baad hi pairing shuru hogi taaki repulsion kam ho."
   },
   {
     "qe": "Why do ground-state Chromium (Z=24) and Copper (Z=29) atoms show anomalous configurations ($Cr: [Ar] 3d^5 4s^1$ and $Cu: [Ar] 3d^{10} 4s^1$)?",
     "qh": "क्रोमियम ($Z=24$) और कॉपर ($Z=29$) के इलेक्ट्रॉनिक विन्यास में 4s कक्षक से एक इलेक्ट्रॉन 3d कक्षक में क्यों चला जाता है?",
     "o": [
-      "To escape relativistic mass effects",
       "Exactly half-filled ($3d^5$) and fully-filled ($3d^{10}$) d-subshells exhibit extra stability due to structural symmetry and high exchange energy",
       "Because the 4s orbital collapses into the nucleus",
+      "To escape relativistic mass effects",
       "Due to loss of nuclear charge"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Cr aur Cu me 4s se ek electron 3d me chala jata hai kyunki exactly half-filled (3d5) aur completely filled (3d10) subshells bohot symmetric aur extra stable hote hain high exchange energy ki wajah se."
   },
   {
     "qe": "What is the formula to calculate the total number of Radial Nodes and Angular Nodes in an atomic wave function?",
     "qh": "किसी कक्षक में रेडियल नोड्स (Radial Nodes) और कोणीय नोड्स (Angular Nodes) ज्ञात करने का सही सूत्र क्या है?",
     "o": [
-      "Radial nodes = n, Angular nodes = l",
-      "Radial nodes = (n - l - 1), Angular nodes = l, Total nodes = (n - 1)",
       "Radial nodes = l, Angular nodes = n - 1",
-      "Radial nodes = 2l + 1, Angular nodes = n"
+      "Radial nodes = (n - l - 1), Angular nodes = l, Total nodes = (n - 1)",
+      "Radial nodes = 2l + 1, Angular nodes = n",
+      "Radial nodes = n, Angular nodes = l"
     ],
     "a": 1,
     "e": "Node wo jagah hai jahan electron milne ki probability zero hoti hai: Angular nodes hamesha l ke barabar hote hain, Radial nodes = (n - l - 1) hote hain, aur Total nodes = (n - 1) hote hain."
@@ -291,24 +291,24 @@
     "qe": "How many total, radial, and angular nodes are present in a 3p atomic orbital?",
     "qh": "एक 3p कक्षक (3p orbital) में कुल नोड्स, रेडियल नोड्स और कोणीय नोड्स की संख्या क्रमशः कितनी होती है?",
     "o": [
+      "Total = 1, Radial = 0, Angular = 1",
       "Total = 3, Radial = 2, Angular = 1",
-      "Total = 2, Radial = 1, Angular = 1 (Since n=3, l=1)",
       "Total = 2, Radial = 2, Angular = 0",
-      "Total = 1, Radial = 0, Angular = 1"
+      "Total = 2, Radial = 1, Angular = 1 (Since n=3, l=1)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "3p orbital ke liye n=3 aur l=1 hota hai. Angular nodes = l = 1; Radial nodes = n - l - 1 = 3 - 1 - 1 = 1; Total nodes = n - 1 = 3 - 1 = 2 hote hain."
   },
   {
     "qe": "Nuclides belonging to different chemical elements possessing the EXACT same number of Neutrons (A - Z) are:",
     "qh": "भिन्न-भिन्न तत्वों के वे परमाणु जिनमें न्यूट्रॉनों की संख्या (A - Z) बिल्कुल समान होती है, क्या कहलाते हैं?",
     "o": [
+      "Isotones (Sam-neutronic)",
       "Isotopes",
       "Isobars",
-      "Isotones (Sam-neutronic)",
       "Isomers"
     ],
-    "a": 2,
+    "a": 0,
     "e": "Isotones me Neutrons barabar hote hain; jaise Silicon (14Si30, 30-14=16 neutrons), Phosphorus (15P31, 31-15=16 neutrons) aur Sulfur (16S32, 32-16=16 neutrons)."
   },
   {
@@ -316,33 +316,33 @@
     "qh": "परमाणु भौतिकी में 'आइसोडायफर्स' (Isodiaphers) किन्हें कहा जाता है?",
     "o": [
       "Atoms with equal mass numbers",
+      "Molecules with mirror symmetry",
       "Nuclides possessing the identical difference between neutrons and protons: (N - Z) or (A - 2Z)",
-      "Atoms with the same nuclear charge",
-      "Molecules with mirror symmetry"
+      "Atoms with the same nuclear charge"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Isodiaphers wo nuclides hote hain jinme neutrons aur protons ka farq (N - Z) barabar hota hai; jaise Uranium-238 (146 - 92 = 54) aur Thorium-234 (144 - 90 = 54)."
   },
   {
     "qe": "Species (atoms, ions, or molecules) that possess the exact same total number of electrons are classified as:",
     "qh": "वे परमाणु या आयन जिनमें इलेक्ट्रॉनों की कुल संख्या बिल्कुल समान होती है, क्या कहलाते हैं?",
     "o": [
-      "Isotopes",
-      "Isoelectronic Species (e.g., N3-, O2-, F-, Ne, Na+, Mg2+, Al3+ all have 10 electrons)",
       "Isobars",
-      "Isotones"
+      "Isotopes",
+      "Isotones",
+      "Isoelectronic Species (e.g., N3-, O2-, F-, Ne, Na+, Mg2+, Al3+ all have 10 electrons)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Isoelectronic species me electrons barabar hote hain; jaise Na+ (11-1=10), Mg2+ (12-2=10), F- (9+1=10) aur Neon gas (10) sabhi ke paas 10 electrons hote hain."
   },
   {
     "qe": "Why are transition metal ions like $Fe^{3+}$ ($3d^5$, 5 unpaired electrons) strongly Paramagnetic while $Zn^{2+}$ ($3d^{10}$) is Diamagnetic?",
     "qh": "Fe3+ आयन चुंबकीय क्षेत्र में आकर्षित (अनुचुंबकीय) क्यों होता है जबकि Zn2+ आयन प्रतिकर्षित (प्रतिचुंबकीय) होता है?",
     "o": [
-      "Fe3+ has higher nuclear mass",
-      "Paramagnetism is produced by unpaired electrons possessing net magnetic moments, whereas diamagnetic species have all electrons paired up",
       "Zn2+ has no d-orbitals",
-      "Fe3+ expels alpha particles"
+      "Paramagnetism is produced by unpaired electrons possessing net magnetic moments, whereas diamagnetic species have all electrons paired up",
+      "Fe3+ expels alpha particles",
+      "Fe3+ has higher nuclear mass"
     ],
     "a": 1,
     "e": "Fe3+ (3d5) me 5 unpaired electrons hote hain jo magnetic field me attract hote hain (Paramagnetic); jabki Zn2+ (3d10) me sabhi electrons paired hote hain jo magnetic field se repel hote hain (Diamagnetic)."
@@ -351,9 +351,9 @@
     "qe": "The 'Spin-Only' magnetic moment (μ) of a transition metal ion is calculated in Bohr Magnetons (BM) using which formula?",
     "qh": "अयुग्मित इलेक्ट्रॉनों (n) वाले किसी संक्रमण धातु आयन का चुंबकीय आघूर्ण (Magnetic Moment - μ) किस सूत्र से निकाला जाता है?",
     "o": [
-      "μ = n(n + 1)",
-      "μ = √[n(n + 2)] Bohr Magnetons (BM)",
       "μ = √(n + 2)",
+      "μ = √[n(n + 2)] Bohr Magnetons (BM)",
+      "μ = n(n + 1)",
       "μ = 2n + 1"
     ],
     "a": 1,
@@ -363,48 +363,48 @@
     "qe": "Which spectral emission line series of atomic hydrogen falls in the human Visible light spectrum?",
     "qh": "हाइड्रोजन परमाणु के उत्सर्जन स्पेक्ट्रम की कौन सी श्रेणी दृश्य प्रकाश (Visible Light) क्षेत्र में पड़ती है?",
     "o": [
-      "Lyman series (Ultraviolet)",
-      "Balmer Series (Transitions down to n=2)",
+      "Brackett series (Infrared)",
       "Paschen series (Infrared)",
-      "Brackett series (Infrared)"
+      "Balmer Series (Transitions down to n=2)",
+      "Lyman series (Ultraviolet)"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Lyman series Ultraviolet me hoti hai, Paschen aur Brackett Infrared me hoti hain; sirf Balmer series (higher shells se n=2 par jump) visible light me aati hai jise hum aankho se dekh sakte hain."
   },
   {
     "qe": "Which synthetic radioisotope of Cobalt emitting high-energy penetrating Gamma rays is deployed in oncology radiotherapy?",
     "qh": "कैंसर के इलाज और ट्यूमर को नष्ट करने के लिए कोबाल्ट के किस रेडियोधर्मी समस्थानिक (Gamma Emitter) का उपयोग किया जाता है?",
     "o": [
+      "Cobalt-59",
       "Cobalt-57",
       "Cobalt-60 (60Co)",
-      "Cobalt-59",
       "Cobalt-58"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Cobalt-60 radioactive isotope high-energy Gamma rays chhodta hai, jo targeted cancer cells ke DNA ko destroy karke tumors ko shrink karne me use hota hai."
   },
   {
     "qe": "The radioactive cosmogenic isotope Carbon-14 (half-life approx 5,730 years) is deployed in radiocarbon dating to determine the age of:",
     "qh": "कार्बन-14 रेडियोधर्मी डेटिंग (अर्धायु 5,730 वर्ष) का उपयोग किसकी आयु निर्धारित करने के लिए किया जाता है?",
     "o": [
-      "Igneous volcanic mountain rocks",
       "Dead organic archaeological remains (wood, bones, fossils, textiles)",
+      "Igneous volcanic mountain rocks",
       "Ocean floor water salinity",
       "Planetary meteorites"
     ],
-    "a": 1,
+    "a": 0,
     "e": "C-14 dating zinda rehte waqt li gayi carbon ke decay se organic cheezon (lakdi, haddiyan, purane fossils) ki age nikaalti hai; jabki non-living rocks ke liye Uranium-Lead dating use hoti hai."
   },
   {
     "qe": "What substance is chemically formulated as 'Heavy Water' ($D_2O$), used as a neutron moderator and coolant in nuclear fission reactors?",
     "qh": "परमाणु रिएक्टरों में न्यूट्रॉनों की गति को धीमा करने वाले मंदक (Moderator) के रूप में प्रयुक्त 'भारी जल' का सूत्र क्या है?",
     "o": [
-      "Hydrogen peroxide (H2O2)",
-      "Deuterium Oxide (D2O / 2H2O)",
+      "Distilled rainwater",
       "Tritium oxide (T2O)",
-      "Distilled rainwater"
+      "Hydrogen peroxide (H2O2)",
+      "Deuterium Oxide (D2O / 2H2O)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Bhaari jal Deuterium Oxide (D2O) hota hai jo hydrogen ke heavy isotope Deuterium se banta hai; ye nuclear reactor me fast neutrons ko absorb kiye bina unki speed slow karta hai."
   },
   {
@@ -412,95 +412,95 @@
     "qh": "परमाणु भट्टी में विखंडन की श्रृंखला अभिक्रिया को नियंत्रित करने के लिए न्यूट्रॉन अवशोषक छड़ें किसकी बनी होती हैं?",
     "o": [
       "Enriched Uranium and Thorium",
-      "Cadmium (Cd) and Boron (B)",
+      "Lead and Copper",
       "Graphite and Heavy water",
-      "Lead and Copper"
+      "Cadmium (Cd) and Boron (B)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "Cadmium aur Boron control rods thermal neutrons ko bohot tezi se absorb kar leti hain; in rods ko reactor core me andar daal kar fission reaction ko slow ya emergency shut down kiya jata hai."
   },
   {
     "qe": "Which naturally occurring isotope of Uranium is fissile and undergoes controlled nuclear chain reaction in nuclear power stations?",
     "qh": "परमाणु ऊर्जा संयंत्रों में विद्युत उत्पादन के लिए प्रयुक्त होने वाला यूरेनियम का मुख्य विखंडनीय समस्थानिक कौन सा है?",
     "o": [
-      "Uranium-238 (99.3% natural abundance)",
-      "Uranium-235 (approx 0.7% natural abundance)",
       "Uranium-234",
-      "Uranium-239"
+      "Uranium-239",
+      "Uranium-235 (approx 0.7% natural abundance)",
+      "Uranium-238 (99.3% natural abundance)"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Natural uranium me 99.3% U-238 hota hai jo direct fissile nahi hai; sirf U-235 (0.7%) hi slow thermal neutrons se chain reaction karke energy paida kar sakta hai."
   },
   {
     "qe": "What is an electron's de Broglie wavelength (λ = h / mv) primarily dependent upon?",
     "qh": "डी ब्रोगली के अनुसार किसी गतिशील इलेक्ट्रॉन की पदार्थ-तरंगदैर्ध्य (λ) किस पर निर्भर करती है?",
     "o": [
-      "Planck's constant divided by its Linear Momentum (p = mv)",
-      "Its total nuclear electrostatic potential",
       "Ambient atmospheric barometric pressure",
+      "Its total nuclear electrostatic potential",
+      "Planck's constant divided by its Linear Momentum (p = mv)",
       "Magnetic spin orientation exclusively"
     ],
-    "a": 0,
+    "a": 2,
     "e": "Louis de Broglie ne matter-wave concept diya: λ = h / p yaani λ = h / mv; kisi particle ka mass jitna chhota hoga (jaise electron), uski wave nature utni hi prominent hogi (TEM microscope foundation)."
   },
   {
     "qe": "Why do inner-shell core electrons cause a 'Shielding Effect' (Screening Effect), lowering the effective nuclear charge ($Z_{eff}$) felt by valence electrons?",
     "qh": "आंतरिक कोश के इलेक्ट्रॉन बाहरी वैलेंस इलेक्ट्रॉनों पर नाभिक के आकर्षण को कम क्यों कर देते हैं (परिरक्षण प्रभाव / Screening Effect)?",
     "o": [
-      "Inner electrons accelerate nuclear fusion",
-      "Inner core electrons repel outer valence electrons electrostatically, partially canceling the positive nuclear pull ($Z_{eff} = Z - σ$)",
+      "Inner shells contain no mass",
       "Inner electrons absorb all incoming visible photons",
-      "Inner shells contain no mass"
+      "Inner core electrons repel outer valence electrons electrostatically, partially canceling the positive nuclear pull ($Z_{eff} = Z - σ$)",
+      "Inner electrons accelerate nuclear fusion"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Inner electrons nucleus ke chaaron taraf negative screen bana lete hain jo bahar ke valence electrons ko repel karti hai, isliye outer electrons par poora positive charge nahi lag pata (Zeff = Z - σ)."
   },
   {
-    "qe": "According to the Einstein Photoelectric Equation ($hν = \u03a6 + KE_{max}$), what happens if the incident light frequency falls below the 'Threshold Frequency' ($ν_0$)?",
+    "qe": "According to the Einstein Photoelectric Equation ($hν = Φ + KE_{max}$), what happens if the incident light frequency falls below the 'Threshold Frequency' ($ν_0$)?",
     "qh": "प्रकाश-विद्युत प्रभाव (Photoelectric Effect) में यदि आपतित प्रकाश की आवृत्ति देहली आवृत्ति (Threshold Frequency - ν0) से कम हो तो क्या होगा?",
     "o": [
-      "Electrons are emitted with zero velocity",
-      "No photoelectrons are ejected from the metal surface, regardless of how high the light intensity or duration is",
+      "X-rays are generated instead",
       "The metal melts immediately",
-      "X-rays are generated instead"
+      "No photoelectrons are ejected from the metal surface, regardless of how high the light intensity or duration is",
+      "Electrons are emitted with zero velocity"
     ],
-    "a": 1,
+    "a": 2,
     "e": "Agar light ki frequency threshold frequency (ν0) se kam hai, to photon ke paas metal ke work function (Φ = hν0) ko todne ki minimum energy hi nahi hoti; chahe kitni bhi tez light daalo, ek bhi electron nahi niklega."
   },
   {
     "qe": "Why is the 1s orbital mathematically and geometrically considered 'Isotropic' and non-directional?",
     "qh": "1s परमाणु कक्षक को गैर-दिशात्मक और पूरी तरह से गोलाकार (Spherical) क्यों माना जाता है?",
     "o": [
-      "It possesses multiple planar angular nodes",
-      "Its Azimuthal quantum number is zero ($l=0$), making its wave function dependent solely on radial distance (r) and independent of angular coordinates (θ, φ)",
       "It collapses under gravity",
-      "It spins in both directions simultaneously"
+      "It possesses multiple planar angular nodes",
+      "It spins in both directions simultaneously",
+      "Its Azimuthal quantum number is zero ($l=0$), making its wave function dependent solely on radial distance (r) and independent of angular coordinates (θ, φ)"
     ],
-    "a": 1,
+    "a": 3,
     "e": "s-orbital ke liye l=0 hota hai, isliye iska wave function angle (direction) par depend nahi karta; nucleus se kisi bhi direction me jao, electron milne ki probability har taraf barabar gol (spherical) rehti hai."
   },
   {
     "qe": "Which noble gas element possesses only 2 electrons filling its outermost valence shell, completely lacking a full octet yet remaining chemically inert?",
     "qh": "वह कौन सी एकमात्र अक्रिय गैस (Noble Gas) है जिसके बाह्यतम कोश में 8 के बजाय केवल 2 इलेक्ट्रॉन (डुप्लेट) होते हैं?",
     "o": [
-      "Neon (Ne)",
       "Helium (He: 1s^2)",
-      "Argon (Ar)",
-      "Krypton (Kr)"
+      "Neon (Ne)",
+      "Krypton (Kr)",
+      "Argon (Ar)"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Helium (Z=2) ke paas sirf 1st shell (K-shell) hoti hai jo 2 electrons se hi 100% full ho jati hai (duplet rule); isliye bina octet ke bhi ye completely inert gas hai."
   },
   {
     "qe": "What is the radioactive, carcinogenic noble gas released from deep soil and rock uranium decay that accumulates in basements?",
     "qh": "मिट्टी और चट्टानों में यूरेनियम के क्षय से रिसने वाली कौन सी भारी रेडियोधर्मी अक्रिय गैस फेफड़ों के कैंसर का कारण बन सकती है?",
     "o": [
-      "Argon",
       "Radon (222Rn)",
       "Krypton",
-      "Xenon"
+      "Xenon",
+      "Argon"
     ],
-    "a": 1,
+    "a": 0,
     "e": "Radon (Rn) ek radioactive noble gas hai jo zameen ke andar uranium decay se banti hai; unventilated band kamro me jama hokar saans ke sath lungs me alpha radiation damage karti hai."
   }
 ]
