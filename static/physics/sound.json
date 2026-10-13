@@ -4,48 +4,48 @@
     "qh": "ध्वनि की 'गुणता' को और किस नाम से जाना जाता है?",
     "o": [
       "Pitch",
+      "Intensity",
       "Timbre",
-      "Loudness",
-      "Intensity"
+      "Loudness"
     ],
-    "a": 1,
-    "e": "Sound ki Quality ko Timbre bhi kehte hain. Yahi wo property hai jisse hum same pitch aur loudness wali do alag-alag musical instruments ki aawaz me antar pehchan paate hain."
+    "a": 2,
+    "e": "Concept: Dhwani (sound) ki teen khaas khoobiyaan hoti hain - pitch (sur, jo frequency se tay hota hai), loudness (kitni tez, jo amplitude se) aur quality/timbre (awaaz ki shakal/pehchan). 'Timbre' wahi cheez hai jisse ek hi sur me bajaya gaya bansuri aur star ki awaaz alag lagti hai - dono ka basic frequency same ho sakta hai par unke overtones (sahayak frequencies) alag hone se alag 'rang' aata hai. Isliye quality = timbre. Exam point: 'Sound ki quality = timbre'."
   },
   {
     "qe": "What is the unit of 'Sound Absorption' used in architectural acoustics?",
     "qh": "वास्तुकला ध्वनि विज्ञान में 'ध्वनि अवशोषण' की इकाई क्या है?",
     "o": [
-      "Decibel",
       "Sabine",
       "Hertz",
+      "Decibel",
       "Phon"
     ],
-    "a": 1,
-    "e": "Acoustics me sound absorption ka unit Sabine hota hai, jo Wallace Clement Sabine ke naam par rakha gaya hai. 1 open window (1 sq. meter) ko ideal absorber yaani 1 Sabine mana jata hai."
+    "a": 0,
+    "e": "Concept: Kisi kamre me dhwani (sound) kitni absorb hoti hai, uske liye ek standard unit hota hai 'sabine' (square metre sabine). Ye concept Wallace Sabine ne banaya tha, aur room ke reverberation time (goonj ke kitni der rehne ke samay) ko control karne me use hota hai. Hertz frequency ka unit hai, decibel loudness ka, aur phon loudness ka doosra paimana hai. Isliye architectural acoustics me absorption ka unit sabine hai. Exam point: 'Sound absorption ka unit = sabine'."
   },
   {
     "qe": "Which physical properties change when a sound wave travels from air into water?",
     "qh": "हवा से पानी में जाने पर ध्वनि का कौन सा कारक बदलता है?",
     "o": [
-      "Frequency only",
-      "Wavelength and Velocity",
+      "Only Amplitude",
       "Frequency and Wavelength",
-      "Only Amplitude"
+      "Frequency only",
+      "Wavelength and Velocity"
     ],
-    "a": 1,
-    "e": "Frequency sirf sound source par depend karti hai isliye medium badalne par constant rehti hai, lekin water me aane par sound ki speed aur wavelength dono badh jaate hain."
+    "a": 3,
+    "e": "Concept: Dhwani jab hawa se paani me jaati hai to uski speed badalti hai (hawa me lagbhag 343 m/s, paani me lagbhag 1480 m/s). Speed badalne par wavelength bhi badal jaati hai (wavelength = speed/frequency), kyunki FREQUENCY source ki property hai aur medium badalne par nahi badalti. Amplitude sirf loudness se juda hai aur wo bhi medium ke hisaab se thoda badal sakta hai par basic change nahi hota. Isliye medium badalne par 'wavelength + velocity' dono badalte hain. Exam point: 'Medium badalne par speed aur wavelength badalte hain, frequency nahi'."
   },
   {
     "qe": "What is the mathematical relation for frequencies in a pipe closed at one end?",
     "qh": "'बंद' ऑर्गन पाइप में आवृत्तियों (Harmonics) का संबंध क्या होता है?",
     "o": [
       "Only odd harmonics: f_n = (2n - 1) * f_1",
-      "All integer harmonics: f_n = n * f_1",
       "Only even harmonics: f_n = 2n * f_1",
-      "Logarithmic multiples"
+      "Logarithmic multiples",
+      "All integer harmonics: f_n = n * f_1"
     ],
     "a": 0,
-    "e": "Closed organ pipe me closed end par node aur open end par antinode banta hai, isliye isme sirf odd harmonics (1:3:5:7...) hi bante hain."
+    "e": "Concept: Ek sire par bandh (closed) pipe me doosre sire par khaula hote hain, isliye usme ek node aur ek antinode banta hai. Es structure me sirf odd harmonics (f1, 3f1, 5f1, 7f1...) hi paida ho sakte hain - even harmonics (2f1, 4f1) nahi bante, isliye formula f_n = (2n - 1) * f1 hota hai (n = 1, 2, 3...). Open pipe me dono sire kholte hain, wahan saare harmonics (1:2:3:4...) milte hain. Exam point: 'Closed pipe = sirf odd harmonics; open pipe = saare harmonics'."
   },
   {
     "qe": "The speed of sound in Hydrogen is approximately how many times faster than in Oxygen at the same temperature?",
@@ -57,7 +57,7 @@
       "16 times"
     ],
     "a": 1,
-    "e": "Formula v = sqrt(gamma * R * T / M) hota hai. Oxygen ka molecular mass Hydrogen se 16 guna zyada hai, isliye Hydrogen me sound ki speed 4 guna zyada hogi."
+    "e": "Concept: Kisi gas me dhwani ki speed ka formula v = sqrt(gamma * P / rho) hai. Jab tapman (temperature) same ho, to speed lagbhag us gas ke molecular mass ke vargmul ke vipreet hoti hai: v ~ 1/sqrt(M). Hydrogen (H2) ka molecular mass 2 hai aur Oxygen (O2) ka 32 - matlab ratio 16, aur uska square root 4. Isliye hydrogen me dhwani ki speed oxygen se lagbhag 4 guni hoti hai. Halki gas = tez awaaz. Exam point: 'H2 me sound O2 se lagbhag 4 guna tez (v ~ 1/sqrt(M))'."
   },
   {
     "qe": "What is an 'Anechoic Chamber' (Dead Room) in architectural acoustics?",
@@ -65,239 +65,239 @@
     "o": [
       "A room designed for maximum echo",
       "A room with zero reverberation where sound reflections are completely absorbed",
-      "A room with extreme background noise",
-      "A vacuum chamber where sound cannot propagate"
+      "A vacuum chamber where sound cannot propagate",
+      "A room with extreme background noise"
     ],
     "a": 1,
-    "e": "Anechoic chamber aisi jagah hoti hai jiski deewaron par special absorbing wedges lage hote hain taaki reflection bilkul na ho aur reverberation time zero ho jaye."
+    "e": "Concept: 'Anechoic chamber' (dead room) aisa kamra hota hai jiske deewaron aur chhat par aisi khaas trapeziy (wedge) wali acoustics lagai jaati hai jo dhwani ko poora sookh (absorb) leti hai - wahan lagbhag zero reverberation (goonj) hoti hai. Iske andar koi echo nahi sunai deta, isliye ise 'dead room' bhi kehte hain. Aise kamre sound recording, acoustics testing aur scientific experiments me use hote hain. Exam point: 'Anechoic chamber = zero reverberation (dead room)'."
   },
   {
     "qe": "What is the biological function of the 'Stapedius' muscle in the human ear?",
     "qh": "कान में 'स्टैपिडियस' मांसपेशी की क्या भूमिका है?",
     "o": [
+      "To amplify soft sounds",
       "To produce ear wax",
       "To protect the inner ear from sudden extremely loud noises",
-      "To vibrate the eardrum faster",
-      "To amplify soft sounds"
+      "To vibrate the eardrum faster"
     ],
-    "a": 1,
-    "e": "Stapedius body ki sabse choti muscle hoti hai. Jab achanak bohot tez aawaz aati hai, toh ye stapes bone ke movement ko dampen karke inner ear ko damage hone se bachati hai."
+    "a": 2,
+    "e": "Concept: Kaan ke andar do chhoti peshiyan hoti hain - tensor tympani aur STAPEDIUS. Stapedius sabse chhoti peshi hai jo stapes (kaskn) haddi se judi hoti hai. Jab bahut tez aanchak (sudden loud) awaaz aati hai, to ye peshi turant sikud kar stapes ko pakad leti hai jisse kaan ke andar jane wali awaaz ka asar kam ho jata hai - yani inner ear ko tez awaaz se bachati hai (acoustic reflex). Isi wajah se achanak se itni zyada chot se bach jate hain. Exam point: 'Stapedius muscle = inner ear ko tez awaaz se bachati hai'."
   },
   {
     "qe": "What causes the prolonged 'Rolling' sound of thunder during lightning?",
     "qh": "बादलों की गड़गड़ाहट (Rolling of Thunder) की लंबी आवाज का मुख्य कारण क्या है?",
     "o": [
       "Single specular reflection from the ground",
-      "Continuous Doppler shift of lightning",
+      "Complete acoustic absorption",
       "Multiple successive reflections from clouds and ground surfaces at varying distances",
-      "Complete acoustic absorption"
+      "Continuous Doppler shift of lightning"
     ],
     "a": 2,
-    "e": "Bijli ki aawaz alag-alag unchai par clouds, hills aur zameen se baar-baar reflect hokar alag-alag time par hamare kaano tak pahunchti hai, jisse aawaz lambi khinchti hai."
+    "e": "Concept: Bijli chamakti hai to ek hi jhatke me badi awaaz paida hoti hai, par hum use 'gadgadati (rolling) awaaz' ki tarah sunte hain. Iska kaaran ye hai ki dhwani ki kiranein badlon (clouds) aur zameen se lagatar multiple reflections (aavartan) karti rehti hain - kuch hisse seedha aate hain, kuch door se reflect hokar hote hain, isliye awaaz lambi der tak milti rehti hai. Ek hi baar ki reflection se ye lambi goonj nahi ban sakti. Exam point: 'Thunder ki rolling awaaz = clouds aur ground se successive reflections'."
   },
   {
     "qe": "What is the maximum 'Beat Frequency' that the human ear can distinctly perceive as separate beats?",
     "qh": "मानव कान 'विस्पंद आवृत्ति' की किस सीमा तक स्पष्ट अंतर कर सकता है?",
     "o": [
-      "Up to 10 Hz",
       "Up to 50 Hz",
       "Up to 100 Hz",
-      "Up to 200 Hz"
+      "Up to 200 Hz",
+      "Up to 10 Hz"
     ],
-    "a": 0,
-    "e": "Human ear ki persistence of hearing (0.1 second) hoti hai, isliye jab beat frequency 10 Hz se zyada ho jaati hai toh alag-alag beats aapas me merge ho jaate hain."
+    "a": 3,
+    "e": "Concept: Jab do dhwani ki frequency thodi-thodi alag hoti hai, to unke mel se awaaz ka aana-jana (loud kam-zyada) hota hai - ise beat (spandan) kehte hain. Insaan ka dimaag ek second me sirf lagbhag 10 se kam beats ko alag-alag (fark) me sun sakta hai; isse zyada tez beats mil kar ek hi sar (roughness) jaisi awaaz ban jaate hain. Isliye distinct beats ki maximum frequency lagbhag 10 Hz hoti hai. 50 ya 100 Hz par kaan unhe alag-beat nahi, ek gadgadahat me sunta hai. Exam point: 'Beats distinct sunai denge: lagbhag 10 Hz tak'."
   },
   {
     "qe": "What is the spatial distance between a consecutive displacement Node and Antinode in a standing wave?",
     "qh": "एक स्थिर तरंग में क्रमागत नोड और प्रस्पंद के बीच की दूरी क्या होती है?",
     "o": [
-      "lambda",
-      "lambda / 2",
       "lambda / 4",
+      "lambda / 2",
+      "lambda",
       "2 * lambda"
     ],
-    "a": 2,
-    "e": "Do consecutive nodes ke beech ki doori lambda/2 hoti hai, aur node aur theek agle antinode ke beech ki doori ek chauthai wavelength yaani lambda/4 hoti hai."
+    "a": 0,
+    "e": "Concept: Standing (khadi) wave me jahan displacement hamesha zero rehta hai us bindu ko 'node' kehte hain, aur jahan displacement sabse zyada hota hai use 'antinode' kehte hain. Do lagatar node ke beech ki doori lambda/2 hoti hai, aur kisi node ke bilkul aas-paas antinode aata hai - dono ke beech ki doori lambda/4 hoti hai. Yahi lagbhag har standing wave problem me use hota hai. Exam point: 'Node se antinode ki doori = lambda/4 (node se node = lambda/2)'."
   },
   {
     "qe": "At a displacement Node in a stationary sound wave, what is the status of pressure variation?",
     "qh": "विस्थापन के 'नोड' (Node) पर ध्वनि तरंग में दाब परिवर्तन की स्थिति क्या होती है?",
     "o": [
-      "Pressure variation is Zero",
       "Pressure variation is Maximum (Pressure Antinode)",
       "Pressure variation is Constant and Negative",
+      "Pressure variation is Zero",
       "Pressure variation is Indeterminate"
     ],
-    "a": 1,
-    "e": "Displacement aur pressure waves aapas me 90 degree out of phase hoti hain. Jahan displacement zero (node) hota hai, wahan particles ke aapas me dabne ki wajah se pressure variation maximum hota hai."
+    "a": 0,
+    "e": "Concept: Khadi (standing) sound wave me ek dilchasp baat hoti hai: jahan kano ka displacement MAXIMUM hota hai (displacement antinode), wahan pressure variation lagbhag zero hota hai, aur jahan kano ka displacement zero (node) hota hai wahan pressure variation (dabav ka utar-chadhav) MAXIMUM hota hai. Iska kaaran ye hai ki kano ke ek jagah jama hone se aur khinchne se dabav paida hota hai. Isliye displacement node = pressure antinode. Exam point: 'Displacement node par pressure variation maximum hota hai'."
   },
   {
     "qe": "Why are sound decibel levels calculated using a logarithmic scale instead of a linear scale?",
     "qh": "ध्वनि तीव्रता मापन में 'लघुगणकीय' (Logarithmic) पैमाने का उपयोग क्यों किया जाता है?",
     "o": [
       "To simplify complex electrical units",
+      "Because sound waves are transverse",
       "Because the human ear perceives loudness logarithmically across an enormous intensity range (10^-12 to 1 W/m^2)",
-      "Because decibel is directly proportional to wave velocity",
-      "Because sound waves are transverse"
+      "Because decibel is directly proportional to wave velocity"
     ],
-    "a": 1,
-    "e": "Insaan ke kaan 10^-12 W/m^2 (hearing threshold) se lekar 1 W/m^2 (pain threshold) tak ka 10^12 guna bada range sun sakte hain. Is huge scale ko manageable numbers (0 se 120 dB) me compress karne ke liye log scale use karte hain."
+    "a": 2,
+    "e": "Concept: Dimaag (kann) dhwani ki tivrata (intensity) ko seedhe-saadha nahi, balki lagbhag logarithm ke hisaab se mehsoos karta hai - ye insaan ke sunayi dene ki khaas baat hai. Sunai dene wala range bahut bada hai: lagbhag 10^-12 W/m^2 (sunna ki deheri) se 1 W/m^2 tak - yani billion (10^12) ka ra... itne bade range ko aasan numbers me likhne ke liye decibel (logarithmic) scale use karte hain; har +10 dB ka matlab intensity 10 guna. Exam point: 'Decibel logarithmic isliye = kaan logarithmically mehsoos karta hai (bada range)'."
   },
   {
     "qe": "What is 'End Correction' in the acoustics of organ pipes?",
     "qh": "एक ऑर्गन पाइप में 'अंत्य संशोधन' (End Correction) क्या होता है?",
     "o": [
-      "The physical thickness of the metal boundary",
       "The extra distance beyond the physical open end where the actual antinode forms",
       "The resonance error caused by temperature",
+      "The physical thickness of the metal boundary",
       "The radius contraction of sound waves"
     ],
-    "a": 1,
-    "e": "Open pipe ke sire par hawa ke particles ko aage nikalne ke liye thoda space milta hai, isliye antinode pipe ke physical edge se thoda sa bahar (approx 0.6 * radius) banta hai. Ise End Correction kehte hain."
+    "a": 0,
+    "e": "Concept: Orgel pipe ki physics me jab hawa ka column khaas lambai ka hota hai to khula (open) sishe par tatvar (resistance) ke kaaran kabhi-kabhi asli antinode pipe ke bahar thoda door banta hai. Is 'thodi extra doori' ko hi 'end correction' kehte hain, jo pipe ke radius ka lagbhag 0.6 guna hota hai. Isse effective length thodi badh jaati hai, isliye resonance ki asli frequency calculation me ye jod lena padta hai. Exam point: 'End correction = pipe ke khule sire ke bahar extra doori jahan actual antinode banta hai (radius ka ~0.6 guna)'."
   },
   {
     "qe": "What happens to the speed of sound in an ideal gas if the pressure is doubled while keeping the temperature constant?",
     "qh": "स्थिर तापमान पर 'दाब' दोगुना करने पर गैस में ध्वनि की चाल पर क्या प्रभाव पड़ता है?",
     "o": [
       "It doubles",
-      "It halves",
       "It remains completely unchanged",
-      "It increases by sqrt(2)"
+      "It increases by sqrt(2)",
+      "It halves"
     ],
-    "a": 2,
-    "e": "Formula v = sqrt(gamma * P / rho) hota hai. Constant temperature par Boyle's law se pressure badhane par density bhi usi proportion me badh jaati hai, jisse P/rho constant rehta hai aur speed change nahi hoti."
+    "a": 1,
+    "e": "Concept: Ideal gas me dhwani ki speed ka formula v = sqrt(gamma * P / rho) hota hai. Agar tapman (temperature) same rakhte hue pressure double kar diya jaye, to gas ka density (rho) bhi lagbhag double ho jata hai (PV = nRT se) - isliye P/rho ki value SAME rehti hai. Isliye speed par koi asar nahi padta. Speed badalne ke liye temperature ya gas badalna padta hai (v ~ sqrt(T)). Exam point: 'Tapman constant, pressure double = sound ki speed me koi badlav nahi'."
   },
   {
     "qe": "Why does sound travel faster in moist (humid) air than in dry air?",
     "qh": "नम हवा में ध्वनि की चाल शुष्क हवा की तुलना में अधिक क्यों होती है?",
     "o": [
-      "Moist air has higher elasticity than dry air",
       "Water vapor lowers the effective density of air",
       "Moist air causes sound waves to become transverse",
-      "Humidity increases the gravitational force"
+      "Humidity increases the gravitational force",
+      "Moist air has higher elasticity than dry air"
     ],
-    "a": 1,
-    "e": "Water vapor (molecular mass 18) dry air ke Nitrogen aur Oxygen (mass 28-32) se halka hota hai. Humidity aane se overall air density kam ho jaati hai, aur density kam hone par sound speed badh jaati hai."
+    "a": 0,
+    "e": "Concept: Nami (humid) hawa me paani ki bhaap (water vapour) hoti hai. Water vapour ke molecules (18) hawa ke mukhya gases - nitrogen (28) aur oxygen (32) - se HALKE hote hain. Halke molecules daalne se hawa ka average molecular mass kam ho jata hai, isliye density kam, aur formula v = sqrt(gamma P/rho) ke hisaab se speed thodi badh jati hai. Isliye nami wale mausam me awaaz thodi tez aur door tak jaati hai. Exam point: 'Nami me sound tez: water vapour se hawa ki density kam hoti hai'."
   },
   {
     "qe": "Why is the diffraction of sound waves much more noticeable in everyday life than the diffraction of light waves?",
     "qh": "दैनिक जीवन में ध्वनि का विवर्तन प्रकाश की तुलना में अधिक स्पष्ट क्यों होता है?",
     "o": [
+      "Because light cannot undergo reflection",
       "Because sound travels much slower than light",
-      "Because sound wavelength is on the scale of meters, comparable to common openings like doors and windows",
       "Because sound is a longitudinal pressure wave",
-      "Because light cannot undergo reflection"
+      "Because sound wavelength is on the scale of meters, comparable to common openings like doors and windows"
     ],
-    "a": 1,
-    "e": "Diffraction tabhi prominent hota hai jab obstacle ka size wavelength ke barabar ho. Audible sound ki wavelength meters me hoti hai jo darwazo aur deewaron ke barabar hai, isliye sound aasaani se corners se mud kar sunai deti hai."
+    "a": 3,
+    "e": "Concept: Kisi bhi wave ka 'diffraction' (kinaron par mudna) tab zyada dikhta hai jab uski wavelength un rukavaton/khidkiyon (obstacles/openings) ke aakaar ke lagbhag barabar ho. Dhwani ki wavelength kuch metres (jase 343 m/s par 20 Hz = 17 m, 1 kHz = 0.34 m) hoti hai - jo bahut, darwazon aur khidkiyon ke size jaisi hi hai, isliye awaz unke peeche bhi saaf sunai deti hai. Light ki wavelength bahut chhoti (nanometre) hai, isliye use diffraction ke liye bahut bade naqshon wali openings chahiye. Exam point: 'Sound ka diffraction zyada dikhta hai kyunki uski wavelength openings jitni (metres me) hoti hai'."
   },
   {
     "qe": "Noise-cancelling headphones eliminate ambient background noise primarily using which wave principle?",
     "qh": "नॉइज़ कैंसिलिंग हेडफ़ोन में किस सिद्धांत का उपयोग किया जाता है?",
     "o": [
       "Total Internal Reflection",
-      "Acoustic Resonance",
       "Destructive Interference",
-      "Doppler Frequency Dilation"
+      "Doppler Frequency Dilation",
+      "Acoustic Resonance"
     ],
-    "a": 2,
-    "e": "Headphone ke microphones ambient noise ko capture karte hain aur theek 180 degree out-of-phase wave produce karte hain. Dono waves milkar Destructive Interference karti hain aur noise cancel ho jati hai."
+    "a": 1,
+    "e": "Concept: Noise-cancelling headphones me ek microphone bahari shor (noise) ki wave pakadta hai, phir headphone usi wave ki 'ulti' (opposite phase) nakli copy paida karta hai. Jab dono waves kaan tak pahunchti hain, to unke shikhar (crest) aur ghadde (trough) ek doosre ko kaat dete hain - isi ko 'destructive interference' kehte hain, aur awaaz dab (kam) ho jati hai. Yahi asli principle hai; reflection ya resonance isme nahi hai. Exam point: 'Noise cancellation = destructive interference'."
   },
   {
     "qe": "What is the biological function of the 'Eustachian Tube' connecting the middle ear to the nasopharynx?",
     "qh": "कान की 'यूस्टेशियन ट्यूब' का मुख्य कार्य क्या है?",
     "o": [
+      "To carry nerve impulses directly to the brain",
       "To drain ear wax into the throat",
-      "To equalize air pressure on both sides of the eardrum (tympanic membrane)",
       "To amplify high-frequency sound waves",
-      "To carry nerve impulses directly to the brain"
+      "To equalize air pressure on both sides of the eardrum (tympanic membrane)"
     ],
-    "a": 1,
-    "e": "Eustachian tube middle ear ko throat se connect karti hai taaki atmospheric pressure change hone par eardrum ke dono taraf ka pressure equal bana rahe aur parda fatne se bache."
+    "a": 3,
+    "e": "Concept: Kaan ke madhya hisse (middle ear) aur gale ke baad-wale hisse (nasopharynx) ke beech ek patli nali hoti hai - 'Eustachian tube'. Iska kaam ye hai ki kaan ke andar aur bahar ke hawa ke dbaab (pressure) ko barabar rakhe, taaki tympanic membrane (kaskn parda) theek se kampan kar sake. Isliye jab aap vimaan me ya pahad par jate hain, to ye tube khul kar pressure ko santulit karti hai (kabhi-kabhi nigal ya jamhai se ye theek hota hai). Exam point: 'Eustachian tube = kaan ke dono taraf hawai dbaab barabar karna'."
   },
   {
     "qe": "Which specialized organ inside the cochlea contains hair cells that convert mechanical fluid vibrations into electrical nerve impulses?",
     "qh": "आंतरिक कान का कौन सा अंग कंपनों को तंत्रिका आवेगों में बदलने के लिए जिम्मेदार है?",
     "o": [
+      "Incus",
       "Organ of Corti",
       "Semicircular canals",
-      "Tympanic cavity",
-      "Incus"
+      "Tympanic cavity"
     ],
-    "a": 0,
-    "e": "Organ of Corti cochlea ke basilar membrane par sthit hota hai. Iske upar microscopic hair cells hote hain jo perilymph/endolymph fluid ke movement se bend hokar electrical nerve signals generate karte hain."
+    "a": 1,
+    "e": "Concept: Cochlea (ghongi jaisi andar ki sanrachna) ke andar 'Organ of Corti' hota hai - ek aisi panapti jisme hazaaron baal-ko-shikayak (hair cells) hote hain. Drav (fluid) ke kampan se ye hair cells mudte hain aur usi harkat ko vidyut sanket (nerve impulse) me badal kar auditory nerve ke through dimaag tak bhejte hain. Incus ek haddi hai, semicircular canals santulan ke liye hain, aur tympanic cavity kaan ka khaali hissa hai. Exam point: 'Vibrations ko nerve impulse me badalna = Organ of Corti (hair cells, cochlea)'."
   },
   {
     "qe": "Which part of the human inner ear is dedicated to maintaining physical body balance and equilibrium rather than hearing?",
     "qh": "कान का कौन सा भाग सुनने के बजाय शरीर का संतुलन बनाए रखने के लिए जिम्मेदार है?",
     "o": [
-      "Cochlea",
+      "Eustachian tube",
       "Semicircular canals and Vestibular system",
-      "Ossicular chain",
-      "Eustachian tube"
+      "Cochlea",
+      "Ossicular chain"
     ],
     "a": 1,
-    "e": "Semicircular canals aur vestibular system me fluid aur calcium crystals hote hain jo head rotation, tilt aur gravity ko detect karke brain ko balance maintain karne me help karte hain."
+    "e": "Concept: Inner ear me do alag system hote hain - cochlea sunne (hearing) ke liye aur 'semicircular canals' + vestibule (vestibular system) sharir ka santulan (balance) banaye rakhne ke liye. Semicircular canals me teen gol tubes hote hain jisme drav aur hair cells hain; sir ghumane ya jhukne par drav halta hai aur hair cells dimaag ko position batate hain - isi se hum gira nahi karte. Isliye balance ka hissa semicircular canals wala system hai. Exam point: 'Body balance = semicircular canals (vestibular system)'."
   },
   {
     "qe": "What mechanical advantage do the middle ear ossicles (Malleus, Incus, Stapes) provide during sound transmission?",
     "qh": "मध्य कान की तीन हड्डियाँ ध्वनि संचरण में क्या यांत्रिक लाभ प्रदान करती हैं?",
     "o": [
-      "They convert sound into transverse waves",
-      "They act as a lever system to amplify sound pressure by approximately 20 times to overcome fluid impedance",
+      "They maintain vacuum inside the ear canal",
       "They filter out harmful high frequencies",
-      "They maintain vacuum inside the ear canal"
+      "They act as a lever system to amplify sound pressure by approximately 20 times to overcome fluid impedance",
+      "They convert sound into transverse waves"
     ],
-    "a": 1,
-    "e": "Air se cochlea ke liquid me sound transfer karne ke liye high force chahiye hota hai. Ear ossicles lever action aur eardrum se oval window ke area ratio ka use karke pressure ko lagbhag 20-22 guna amplify kar dete hain."
+    "a": 2,
+    "e": "Concept: Madhya kaan (middle ear) me teen chhoti haddiyan hoti hain - malleus (hathodi), incus (erhal) aur stapes (kaskn/haddi). Ye ek lever (udhhar) ki tarah kaam karti hain aur kaan ke parde ke kampan ka dabav lagbhag 20 guna badha deti hain. Isse dhwani hawa (kam ghane) se cochlea ke andar ke drav (zyada ghane) me jaane par bhi halki nahi padti - is impedance mismatch ko paar karne ka kaam yahi amplification karti hai. Isliye kaan ki saruvat me haddiyan itni zaroori hain. Exam point: 'Ossicles = lever system; sound pressure lagbhag 20x badhati hain'."
   },
   {
     "qe": "What is 'Cavitation', which allows ultrasonic sound cleaners to clean delicate surgical instruments and jewelry?",
     "qh": "पराश्रव्य सफाई में 'कैविटेशन' (Cavitation) प्रभाव क्या होता है?",
     "o": [
-      "Thermal expansion of the metal substrate",
       "Formation and violent collapse of microscopic vapor bubbles in a liquid producing intense localized shock waves",
-      "Chemical oxidation of contaminants",
-      "Electrostatic repulsion of dust particles"
+      "Electrostatic repulsion of dust particles",
+      "Thermal expansion of the metal substrate",
+      "Chemical oxidation of contaminants"
     ],
-    "a": 1,
-    "e": "Ultrasound liquid me alternating high aur low pressure banata hai. Low pressure par micro-bubbles bante hain aur high pressure par itni tezi se implode hote hain ki unke shockwaves se baarik gandagi chhoot jaati hai."
+    "a": 0,
+    "e": "Concept: Ultrasonic cleaner me drav (paani+solution) me bahut tez frequency (ultrasound) ke kampan paida kiye jate hain. Isse drav me chhote-chhote bhaap ke bulbule (vapour bubbles) bante hain aur turant tezi se fat jaate hain - us jhatke se aas-paas bahut tez tivr (shock) dabav paida hota hai. Yehi process 'cavitation' hai, jisse gandaai (mail) haddi-ched se alag ho jati hai. Isliye ye kirati (kankal), zevar aur jewellery ki safai me use hota hai. Exam point: 'Cavitation = bubbles ka banna aur phatna; isse intense shock wave (ultrasonic cleaning)'."
   },
   {
     "qe": "What is the 'Doppler Effect' in sound waves?",
     "qh": "ध्वनि में 'डॉप्लर प्रभाव' मुख्य रूप से क्या दर्शाता है?",
     "o": [
-      "The change in speed of sound in different media",
       "The apparent shift in perceived frequency due to relative motion between the source and observer",
       "The decay of sound intensity over distance",
+      "The change in speed of sound in different media",
       "The transformation of longitudinal waves into transverse waves"
     ],
-    "a": 1,
-    "e": "Jab sound source aur observer ke beech relative motion hota hai, toh waves compress ya stretch hoti hain, jisse sunne wale ko frequency badli hui (paas aane par shrill aur door jaane par grave) lagti hai."
+    "a": 0,
+    "e": "Concept: Doppler effect me agar source aur sun-ne wala ek doosre ke qareeb aate hain to sunai dene wali frequency badh jati hai (tez sound) aur door jaate hain to ghat jati hai. Ye isliye hota hai ki wave ke ek sire par source qareeb aata ya door jaata hai to waves compress ya khinch jate hain. Isi se ambulance ki siren ka sound badalta hai, police radar, dhoop (radar) aur taare ki speed naapna hota hai. Ye frequency me 'badlav' hai, intensity ya speed me nahi. Exam point: 'Doppler = source/observer ki relative motion se frequency ka apparent badlav'."
   },
   {
     "qe": "What is a 'Sonic Boom' created by supersonic aircraft?",
     "qh": "सुपरसोनिक विमानों द्वारा उत्पन्न 'सोनिक बूम' क्या होता है?",
     "o": [
-      "An engine explosion sound heard at takeoff",
-      "A high-pressure constructive shock wave cone produced when an object travels faster than the speed of sound",
       "The continuous humming of ultrasonic turbines",
+      "A high-pressure constructive shock wave cone produced when an object travels faster than the speed of sound",
+      "An engine explosion sound heard at takeoff",
       "A resonance peak between the fuselage and air"
     ],
     "a": 1,
-    "e": "Jab koi plane sound speed (Mach 1) se tez chalta hai, toh aage nikalne wali sound waves aapas me overlap hokar ek continuous high-energy shock wave cone banati hain jo zameen par dhamake jaisi sunai deti hai."
+    "e": "Concept: Jab koi viman (aircraft) dhwani ki speed (Mach 1) se tez udta hai, to wo hawa me dabav ki waves ko bigaad deta hai aur aisi shock waves ka cone (shanku) banata hai. Ye cone jab kisi jagah se guzarta hai, to wahan achanak bahut zyada dabav paida hota hai aur ek tez 'dhamaka' jaisi awaaz sunai deti hai - isi ko 'sonic boom' kehte hain. Ye engine ke phatne ya resonance ki awaaz nahi, balki object ke Mach se tez chalne ka parinaam hai. Exam point: 'Sonic boom = supersonic object ka shock wave cone'."
   },
   {
     "qe": "Why can sound waves in gases and liquids NOT be polarized?",
     "qh": "हवा या पानी में ध्वनि तरंगों का ध्रुवीकरण (Polarization) क्यों नहीं किया जा सकता?",
     "o": [
-      "Because sound travels too slowly",
-      "Because sound in fluid media is strictly longitudinal, where particle oscillations are parallel to the direction of propagation",
       "Because sound waves lack sufficient energy",
-      "Because sound is easily absorbed by polarizers"
+      "Because sound is easily absorbed by polarizers",
+      "Because sound travels too slowly",
+      "Because sound in fluid media is strictly longitudinal, where particle oscillations are parallel to the direction of propagation"
     ],
-    "a": 1,
-    "e": "Polarization sirf un waves ka ho sakta hai jinke vibrations propagation ke perpendicular (transverse) hon. Fluids me sound pressure waves hoti hain jahan particles parallel vibrate karte hain, isliye inka polarization impossible hai."
+    "a": 3,
+    "e": "Concept: Polarization (dhruvikaran) ka matlab hai wave ki oscillations ko ek hi samtal me seemit karna - ye sirf TRANSVERSE waves me hota hai, kyunki unme kampan wave ki disha ke lambavat hota hai. Drav (fluid) me sound wave 'longitudinal' hoti hai - kano ka kampan dhwani ki disha ke saath-saath aage-peeche hota hai, isliye usme alag-alag samvatal choose karne ka koi tarika hi nahi. Solids me shear (transverse) sound wave ho sakti hai, par gases/liquids me nahi. Exam point: 'Fluids me sound longitudinal hoti hai, isliye polarize nahi ho sakti'."
   },
   {
     "qe": "How did Laplace correct Newton's theoretical calculation for the speed of sound in a gas?",
@@ -305,23 +305,23 @@
     "o": [
       "He assumed the compressions and rarefactions occur adiabatically, introducing gamma into the formula: v = sqrt(gamma * P / rho)",
       "He proved the process is strictly isothermal at all frequencies",
-      "He accounted for the gravitational pull on gas atoms",
-      "He assumed gas particles behave as incompressible spheres"
+      "He assumed gas particles behave as incompressible spheres",
+      "He accounted for the gravitational pull on gas atoms"
     ],
     "a": 0,
-    "e": "Newton ne compression aur rarefaction ko isothermal mana tha. Laplace ne bataya ki sound vibrations itni tezi se hote hain ki heat transfer ka time nahi milta, yaani process adiabatic hota hai ($v = \\sqrt{\\gamma P / \\rho}$)."
+    "e": "Concept: Newton ne dhwani ki speed ka formula v = sqrt(P/rho) diya tha, par uski value experiment se thodi kam aati thi. Iska kaaran unhone nahi samjha tha ki compression-rarefaction (khinchav-dabav) itni tezi se hoti hai ki hawa ko garmi nikalne ka samay hi nahi milta. Laplace ne 1816 me correct kiya: ye process 'adiabatic' (bina heat exchange) hota hai, isliye formula me gamma (Cp/Cv) aata hai: v = sqrt(gamma * P / rho), jisse se value lagbhag 332 m/s ki sahi aati hai. Exam point: 'Laplace correction: adiabatic process + gamma (v = sqrt(gamma P/rho))'."
   },
   {
     "qe": "If the tension (T) in a stretched string of a musical instrument is quadrupled, how does its fundamental frequency change?",
     "qh": "यदि एक तनी हुई डोरी का तनाव 4 गुना कर दिया जाए, तो उसकी मूल आवृत्ति पर क्या प्रभाव पड़ेगा?",
     "o": [
-      "It quadruples",
-      "It doubles",
+      "It remains unchanged",
       "It halves",
-      "It remains unchanged"
+      "It quadruples",
+      "It doubles"
     ],
-    "a": 1,
-    "e": "Transverse string me frequency formula f = (1 / 2L) * sqrt(T / m) hota hai. Tension T ko 4 guna karne par sqrt(4) = 2 aayega, isliye frequency theek double ho jayegi."
+    "a": 3,
+    "e": "Concept: Stretched string me dhwani ki fundamental frequency ka formula f = (1/2L) * sqrt(T/m) hota hai, jahan T tension hai aur m linear density (mass per unit length). Iska matlab frequency tension ke vargmul ke anupati (proportional) hai - tension CHAR guna karne par sqrt(4) = 2, matlab frequency DOUBLE ho jaati hai. Isi kaaran instrument ki taar ko kassna ya dheela karna se uski aawaz badal jati hai. Exam point: 'Tension 4x = frequency 2x (f ~ sqrt(T))'."
   },
   {
     "qe": "How does the fundamental frequency of a vibrating string depend on its mass per unit length (linear density, m)?",
@@ -333,67 +333,67 @@
       "Independent of m"
     ],
     "a": 2,
-    "e": "Formula ke mutabiq frequency linear density ke square root ke inversely proportional hoti hai. Yahi reason hai ki musical instruments me bhari (moti) taar low bass sounds produce karti hain."
+    "e": "Concept: String ki frequency ka formula f = (1/2L) * sqrt(T/m) hota hai, jisme m 'linear density' (per unit length mass) hai. Kyunki frequency m ke vargmul ke vipreet hai (f ~ 1/sqrt(m)), moti/bhaari string (zyada m) ki awaaz dheemi hoti hai aur patli/halki string tez. Isi kaaran guitar ki patli taar zyada tez awaaz deti hai. Direct ya Vipaksh (1/m) wale options galat hain kyunki asambandh square root wala hai. Exam point: 'f ~ 1/sqrt(m) (string ki motai/linear density ke ulta)'."
   },
   {
     "qe": "What happens to the natural frequency of a Tuning Fork if its prongs are slightly loaded with wax?",
     "qh": "यदि किसी स्वरित्र द्विभुज (Tuning Fork) की भुजाओं पर मोम लगा दिया जाए, तो उसकी आवृत्ति का क्या होगा?",
     "o": [
-      "It increases",
+      "It remains identical",
       "It drops or decreases",
       "It becomes zero",
-      "It remains identical"
+      "It increases"
     ],
     "a": 1,
-    "e": "Wax lagane se prongs ka effective mass badh jata hai. Mass badhne par inertia badhta hai aur vibration slow ho jata hai, isliye tuning fork ki frequency ghat jaati hai."
+    "e": "Concept: Tuning fork ki natural frequency uski banawat (shape, mass) aur elasticity se tay hoti hai. Agar uske prongs (do daaliyon) par thoda mom (wax) laga dein, to unka effective mass badh jata hai. Zyada mass wale kampak ki frequency kam ho jati hai - isliye tuning fork ki frequency GHAT jati hai (awaaz dheemi ho jati hai). Isi tarah prongs halke karne se ulta hota hai. Exam point: 'Wax lagane par tuning fork ki frequency ghat jati hai (mass badhne se)'."
   },
   {
     "qe": "What happens to the natural frequency of a Tuning Fork if its prongs are gently filed down?",
     "qh": "यदि स्वरित्र द्विभुज की भुजाओं को हल्का सा घिस (file) दिया जाए, तो आवृत्ति पर क्या प्रभाव पड़ेगा?",
     "o": [
-      "It increases",
+      "It alternates randomly",
       "It decreases",
-      "It stays constant",
-      "It alternates randomly"
+      "It increases",
+      "It stays constant"
     ],
-    "a": 0,
-    "e": "Prongs ko file karne se unka mass kam ho jata hai. Mass kam hone ki wajah se prongs tezi se vibrate karne lagte hain aur frequency badh jaati hai."
+    "a": 2,
+    "e": "Concept: Tuning fork me prongs jitne patle/halke honge, wo utni tez frequency par kampan karenge. Agar prongs ko gently ragad (fill) kar unka mass kam kar dein, to unka kam-mass hone ke kaaran natural frequency BADH jati hai (awaaz tez ho jati hai). Yad rahe: mass badhane se frequency ghatti hai aur mass ghatane se badhti hai - yahi baat tuning fork ke wax/grinding wale sawal me aati hai. Exam point: 'Prongs filing = mass kam = frequency badh jati hai'."
   },
   {
     "qe": "Why are soldiers ordered to break step while marching across a suspension bridge?",
     "qh": "सैनिकों को सस्पेंशन ब्रिज पार करते समय ताल मिलाकर कदम न बढ़ाने का आदेश क्यों दिया जाता है?",
     "o": [
       "To prevent fatigue and marching delays",
-      "To avoid mechanical resonance where the marching frequency matches the bridge's natural frequency, causing dangerous oscillations",
+      "To prevent acoustic sound reflections from the river",
       "To decrease the static weight exerted on the bridge floor",
-      "To prevent acoustic sound reflections from the river"
+      "To avoid mechanical resonance where the marching frequency matches the bridge's natural frequency, causing dangerous oscillations"
     ],
-    "a": 1,
-    "e": "Agar sabhi soldiers ke march karne ki frequency bridge ki natural frequency se match ho gayi, toh mechanical resonance ki wajah se bridge ke oscillations ka amplitude dangerously badh sakta hai aur pul toot sakta hai."
+    "a": 3,
+    "e": "Concept: Har cheez ka ek apna 'natural frequency' (swabhavik dolaran dar) hota hai. Agar sainik pul par ek hi chaal me pair patkte hain aur wo thap ka rhythm pul ki natural frequency se match ho jaye, to kampan (oscillation) bahut tez badhta jata hai (resonance ka khatra) aur pul tak sakta hai - aisa ak bar Tacoma Narrows bridge ke saath hua tha. Isliye sainik pul par 'break step' (ek saath qadam nahi) chalte hain taaki frequency match na ho. Exam point: 'Break step = resonance (natural frequency match) se bachne ke liye'."
   },
   {
     "qe": "Two musical notes have frequencies of 256 Hz and 260 Hz played simultaneously. What is the Beat Period?",
     "qh": "यदि 256 Hz और 260 Hz के दो स्वर एक साथ बजाए जाएं, तो 'विस्पंद काल' (Beat Period) क्या होगा?",
     "o": [
+      "0.5 seconds",
       "4 seconds",
       "0.25 seconds",
-      "1 second",
-      "0.5 seconds"
+      "1 second"
     ],
-    "a": 1,
-    "e": "Beat frequency f_beat = |260 - 256| = 4 Hz hoti hai. Beat period T_beat = 1 / f_beat = 1 / 4 = 0.25 seconds nikal kar aayega."
+    "a": 2,
+    "e": "Concept: Do waves ki frequency 256 Hz aur 260 Hz hain, isliye beat frequency (pratyek second me kitni baar loud-dheemi hui) = 260 - 256 = 4 Hz. 'Beat period' matlab ek beat ke do shikhar ke beech ka samay = 1 / beat frequency = 1/4 = 0.25 second. Yad rako: sawal 'frequency' poochh raha hai ya 'period'? Frequency 4 Hz, period 0.25 s - dono ka fark exam me jaanch lein. Exam point: 'Beat freq = 4 Hz, isliye beat period = 1/4 = 0.25 s'."
   },
   {
     "qe": "What is the ratio of frequencies of all harmonics in an open organ pipe (both ends open)?",
     "qh": "'खुले ऑर्गन पाइप' में विभिन्न हारमोनिक्स की आवृत्तियों का अनुपात क्या होता है?",
     "o": [
+      "1 : 4 : 9 : 16 ...",
       "1 : 3 : 5 : 7 ...",
-      "1 : 2 : 3 : 4 ...",
       "2 : 4 : 6 : 8 ...",
-      "1 : 4 : 9 : 16 ..."
+      "1 : 2 : 3 : 4 ..."
     ],
-    "a": 1,
-    "e": "Dono ends open hone ki wajah se open organ pipe me even aur odd dono tarah ke harmonics bante hain ($f, 2f, 3f, 4f...$), isliye inka ratio 1:2:3:4 hota hai."
+    "a": 3,
+    "e": "Concept: Open pipe (dono sire khule) me dono sire par antinode bante hain aur beech me node. Isliye uski fundamental frequency f1 = v/2L hoti hai, aur uski saari harmonics paida ho sakti hain. Iska matlab frequencies ka ratio f1 : f2 : f3 : ... = 1 : 2 : 3 : 4 hoga - yaani saare integer multiples. Closed pipe me sirf odd (1:3:5:7) aate hain - dono ko mix na karein. Exam point: 'Open pipe harmonics = 1 : 2 : 3 : 4 ... (saare)'."
   },
   {
     "qe": "If sound intensity increases by a factor of 100, by how many decibels (dB) does the sound intensity level rise?",
@@ -401,22 +401,22 @@
     "o": [
       "10 dB",
       "20 dB",
-      "100 dB",
-      "2 dB"
+      "2 dB",
+      "100 dB"
     ],
     "a": 1,
-    "e": "Decibel increase formula Delta_L = 10 * log10(I2 / I1) hota hai. log10(100) = 2, isliye level me 10 * 2 = 20 dB ki badhotari hogi."
+    "e": "Concept: Decibel scale logarithmic hai, isliye intensity (I) me badlav ka asar dB me aise nikalta hai: dB = 10 * log10(I2/I1). Yahan I2/I1 = 100 (100 guna badhi intensity), aur log10(100) = 2, isliye badlav = 10 * 2 = 20 dB. Yad rakho: intensity 10 guna badhne par +10 dB, 100 guna badhne par +20 dB, 1000 guna badhne par +30 dB. 100 dB wala option intensity ko seedha dB samajhne ki galti hai. Exam point: 'Intensity 100 guna = +20 dB (10 log10 formula)'."
   },
   {
     "qe": "How is the pitch of a sound wave distinguished from its loudness?",
     "qh": "ध्वनि की पिच (तीखापन) और प्रबलता (Loudness) में क्या अंतर है?",
     "o": [
+      "Pitch is measurable in watts, while loudness has no unit",
       "Pitch depends on amplitude, while loudness depends on frequency",
       "Pitch is determined by frequency, while loudness is determined by amplitude and intensity",
-      "Both are governed strictly by wave velocity",
-      "Pitch is measurable in watts, while loudness has no unit"
+      "Both are governed strictly by wave velocity"
     ],
-    "a": 1,
-    "e": "Pitch ka relation frequency se hota hai (high frequency = shrill sound jaise mosquito/female voice). Loudness ka relation amplitude aur energy se hota hai (large amplitude = loud sound jaise lion's roar)."
+    "a": 2,
+    "e": "Concept: Dhwani ki do bunyadi khoobiyaan hain - Pitch (sur) jo uski FREQUENCY se tay hota hai; jitni tez frequency, utna hi odha (shrill) sur. Loudness (dhoom) uski AMPLITUDE aur intensity se tay hota hai; zyada amplitude = zyada tez awaaz. Isliye pitch-up (frequency) aur volume-up (amplitude) alag cheezein hain - ek hi sur ko dheere ya zyada tez bajaya ja sakta hai. Exam point: 'Pitch = frequency; Loudness = amplitude/intensity'."
   }
 ]
