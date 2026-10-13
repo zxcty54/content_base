@@ -9,7 +9,7 @@
       "None of these"
     ],
     "a": 2,
-    "e": "100°C par 1 kg ubalte paani ko steam me convert karne ke liye lagbhag 540 cal/g yaani $2.26 \\times 10^6 J/kg$ energy lagti hai."
+    "e": "Paani ki latent heat of vaporization lagbhag 2.26 x 10^6 joule per kilogram hoti hai - yani 1 kg paani ko 100 degree C par poori tarah bhaap banane ke liye itni urja chahiye hoti hai (bina tapman badhaye). Ye urja paani ke anuon ke beech ke hydrogen bandhan todne mein kharch hoti hai, isliye bhaap banti hai jabki tapman wahi rehta hai. Isi karan paseena (sweat) bhaap ban kar shareer se bahut adhik urja le jaata hai aur humein thanda rakhta hai. 2.26 x 10^3 ya 4.2 x 10^3 jaise aankde yahan sahi nahi hain (4.18 x 10^3 joule/kg/K to paani ki specific heat hai). Exam point: paani ki latent heat of vaporization = 2.26 x 10^6 J/kg; bhaap banane ke liye yahi urja chahiye (isliye paseena thanda karta hai)."
   },
   {
     "qe": "Which law states that 'Heat cannot flow from a colder body to a hotter body on its own'?",
@@ -21,7 +21,7 @@
       "Clausius Statement of Second Law | द्वितीय नियम का क्लॉसियस कथन"
     ],
     "a": 3,
-    "e": "Clausius statement kehta hai ki bina external work kiye heat naturally cold body se hot body me flow nahi kar sakti."
+    "e": "Clausius ke anusar doosre niyam ka kathan ye hai ki garmi apne aap (bina bahari kaam ke) thande padarth se garam padarth ki or nahi ja sakti - kyunki ye kriya shuruaati avastha mein hi wapas nahi lautti, isliye ye anutkramya (irreversible) hai. Isi baat se hi refrigerator ya heat pump ka mahatva pata chalta hai: unhe garmi ko thande se garam ki or bhejne ke liye bahar se kaam (compressor ki urja) lagana padta hai. Kelvin-Planck kathan ka sambandh heat engine se hai, par yahi baat 'garmi khud ulti disha mein nahi jaati' ke roop samajhna aasaan hai. Exam point: garmi ka apne aap thande se garam ki or na jaana = Clausius statement of second law; isliye fridge chalaane ke liye kaam (bijli) lagti hai."
   },
   {
     "qe": "What is 'Helmholtz Free Energy' (A) defined as?",
@@ -33,7 +33,7 @@
       "$U - TS$ | $U - TS$"
     ],
     "a": 3,
-    "e": "Constant temperature aur volume par closed system se milne wala maximum reversible work Helmholtz energy $A = U - TS$ hota hai."
+    "e": "Helmholtz free energy (A) ko A = U - TS se likha jaata hai, jahan U aantarik urja, T paramm tapman aur S entropy hai. Ise 'Helmholtz function' ya 'work function' bhi kehte hain kyunki ye batata hai ki sthir tapman-tapman (T) aur aayatan (V) par tantra se kitna kaam nikal sakta hai. Iske ulat Gibbs free energy (G = H - TS) sthir dabav ke liye hoti hai; isliye prashn mein A = U - TS hi sahi jod hai. Enthalpy (H = U + PV) tatha G = H - TS alag state functions hain, unka Helmholtz se seedha matlab nahi. Exam point: Helmholtz free energy A = U - TS hoti hai; ye constant T aur V par upyog hoti hai (isliye ise work function kehte hain)."
   },
   {
     "qe": "What is 'Gibbs Free Energy' (G) defined as?",
@@ -45,7 +45,7 @@
       "$U - TS$"
     ],
     "a": 1,
-    "e": "Constant pressure aur temperature par process ki spontaneity check karne ke liye Gibbs free energy $G = H - TS$ use hoti hai."
+    "e": "Gibbs free energy (G) ka matlab G = H - TS hota hai - yani enthalpy (H) mein se tapman (T) aur entropy (S) ke gunaank ko ghata diya jaata hai. Ye wahi raashi hai jo sthir dabav tatha sthir tapman par kriya ki svatah-gati (spontaneity) batati hai: agar G ka badlav rin ho to kriya khud chalti hai. Isliye rasayanik abhikarmakon ke nirnay mein yahi samikaran sabse adhik istemal hoti hai. A = U - TS Helmholtz free energy hai aur H = U + PV enthalpy hai, isliye wo dono is paribhasha ke nahi hain. Exam point: Gibbs free energy G = H - TS hota hai; iska rin (negative) hona kriya ke svatah hone ka sanket hai."
   },
   {
     "qe": "What is 'Enthalpy' (H) for a system?",
@@ -57,7 +57,7 @@
       "$U - PV$"
     ],
     "a": 1,
-    "e": "Enthalpy system ka total heat content hoti hai, jo internal energy aur expansion work ka sum ($H = U + PV$) hai."
+    "e": "Enthalpy (H) ko H = U + PV ke roop mein paribhashit kiya jaata hai, jahan U aantarik urja, P dabav aur V aayatan hai. Iska matlab ye hai ki sthir dabav par kisi tantra ki kul urja mein us dabav-volume wale hisse ko bhi jod diya jaata hai - isliye jab kriya sthir dabav par hoti hai to heat ka seedha maap enthalpy ka badlav hi ban jaata hai (qh = Delta H). Isi karan rasayanik kriyaon ka 'heat' aam taur par enthalpy se likha jaata hai. A = U - TS, G = H - TS ya U + TS aise roop enthalpy ke nahi hain, isliye wo vikalp yahan sahi nahi. Exam point: enthalpy H = U + PV hoti hai; sthir dabav par heat ka badlav hi enthalpy ka badlav hota hai."
   },
   {
     "qe": "In an 'Adiabatic Process', which of the following remains constant?",
@@ -69,7 +69,7 @@
       "Volume"
     ],
     "a": 0,
-    "e": "Adiabatic system completely insulated hota hai, isliye surrounding ke sath heat exchange zero ($dQ = 0$) rehta hai."
+    "e": "Adiabatic process ki khaas baat hai ki usme tantra tatha charon-aur ke beech garmi ka aadan-pradan bilkul nahi hota, isliye kul heat Q = 0 ho jaati hai (yani sthir rehti hai). Aise process mein aantarik urja mein badlav kaam ke barabar hota hai (Delta U = w) - isliye gas ko jaldi dabane par tapman badh jaata hai aur failne par ghat jaata hai. Isi karan diesel engine mein hawa ko achaanak dabakar jalane ke liye itna garam kiya jaata hai. Tapman ya aayatan sthir nahi rehta (wo isothermal/tapman tatha isochoric ke liye hota hai), isliye wo vikalp yahan sahi nahi. Exam point: adiabatic process mein heat exchange Q = 0 hota hai; usme Delta U = w hota hai aur tapman badalta hai."
   },
   {
     "qe": "What is the 'Thermal Conductivity' of a 'Perfect Insulator'?",
@@ -81,7 +81,7 @@
       "One"
     ],
     "a": 0,
-    "e": "Ideal insulator se heat conduction bilkul nahi hota, isliye conductivity $k = 0$ hoti hai."
+    "e": "Thermal conductivity (ushma chaalakta) batati hai ki koi padarth garmi ko kitni aasaani se aage jane deta hai; perfect insulator (aadarsh non-conductor) wo hota hai jo garmi ko bilkul aage nahi jane deta, isliye uski thermal conductivity ka maan shunya (zero) hota hai. Isi tarah perfect conductor ki conductivity anant (infinite) maani jaati hai. Vyavhar mein thermos flask, bhusa, hara-bhara aur tharmocol aise insulators hain jinki conductivity bahut kam hoti hai. 1, 100 ya infinite jaise aankde adhesive insulator ke liye sahi nahi hain. Exam point: perfect insulator ki thermal conductivity shunya (0) hoti hai; perfect conductor ki infinite maani jaati hai."
   },
   {
     "qe": "Which part of the 'Earth' acts as a giant 'Heat Sink'?",
@@ -93,7 +93,7 @@
       "Mountains"
     ],
     "a": 2,
-    "e": "Water ki high specific heat capacity ki wajah se oceans bina bada temp change show kiye solar heat absorb kar lete hain."
+    "e": "Samudr (oceans) dharti ke sabse bade 'heat sink' ka kaam karte hain - paani ki specific heat bahut adhik hone ke karan ye dhoop ki bahut si garmi sokh lete hain aur dheere-dheere chhodte hain, isliye samudri kinare ke shehar (jaise Mumbai, Chennai) ke tapman mein utna utar-chadhav nahi hota. Yahi karan hai ki samudr vaayumandal ka tapman tatha monsoon nirbhar karte hain. Vaayumandal tatha bhoomi ka heat capacity kam hota hai, isliye wo itna garmi nahi rokti; aise hi dhruviy (polar) barf bhi pighal kar urja leti hai par wo bhaari bhandar samudra hi hai. Exam point: dharti ka sabse bada heat sink = samudr (oceans), kyunki paani ki specific heat adhik hone se wo bahut garmi sokh lete hain."
   },
   {
     "qe": "What is 'Seebeck Effect' related to?",
@@ -105,7 +105,7 @@
       "None of these"
     ],
     "a": 2,
-    "e": "Do alag metals ke junctions par temperature difference hone par electric voltage generate hona Seebeck effect hai."
+    "e": "Seebeck effect batata hai ki yadi do alag-alag dhaatuon (ya ek dhaatu ke do siron) ke sire jodkar unke siron ke beech tapman ka antar rakha jaaye to paripath (circuit) mein vidyut pravah (current) paida ho jaata hai - isi kriya ko tapa-vidyut (thermoelectricity) kehte hain. Isi siddhant par thermocouple kaam karta hai, jisse bhattiyon ka tapman maapa jaata hai (jaise iron-constantan thermocouple). Iske ulat Peltier effect ulti kriya hai (vidyut se thanda-garam karna) aur Joule effect vidyut se garmi paida karna hai. Exam point: Seebeck effect tapa-vidyut (thermoelectricity) se juda hai - tapman ke antar se vidyut paida hoti hai (thermocouple ka aadhaar)."
   },
   {
     "qe": "What happens to 'Density' of most substances when 'Temperature' increases?",
@@ -117,7 +117,7 @@
       "Stay same"
     ],
     "a": 2,
-    "e": "Garam karne par volume phailta hai ($V$ badhta hai), isliye mass constant rehne par density ($M/V$) kam ho jati hai."
+    "e": "Adhiktar padarthon ka ghantva (density) tapman badhne par ghat jaata hai, kyunki garm hone se anuon ki gati tatha unke beech ki doori badh jaati hai, isliye wahi dravyaman bade aayatan mein phail jaata hai. Yahi karan hai ki garam hawa upar uthti hai aur garam dinon mein taar (bijli ki lines) lambe ho jaate hain. Paani ek apavaad (exception) hai - wo 4 degree C tak garm hone par sikudta hai aur 4 degree C par sabse ghana hota hai. Isliye 'badhta hai', 'same rehta hai' ya 'pehle shunya phir negative' wale kathan adhiktar padarthon ke liye sahi nahi. Exam point: tapman badhne par adhiktar padarthon ka ghanatva ghatta hai (anuo ki doori badhne se); paani 4 degree C par sabse ghana hota hai."
   },
   {
     "qe": "What is 'Absolute Humidity' measured in?",
@@ -129,7 +129,7 @@
       "Percentage"
     ],
     "a": 0,
-    "e": "Hawa ke per unit volume me actual water vapor ka mass Absolute Humidity ($g/m^3$) kehlata hai."
+    "e": "Absolute humidity (nirapeksh aadrata) batati hai ki hawa ke ek ghane metre mein kitne gram jal-vashp (water vapour) maujud hai, isliye iska matrak gram per cubic metre (g/m3) hota hai. Iske ulat relative humidity batati hai ki hawa mein kitni bhaap bhar chuki hai (pratishat mein) - ye tapman par bhi nirbhar karti hai. Isi karan garmi mein relative humidity ghat jaati hai par absolute humidity ka aankda sirf paani ki matara batata hai. g/kg (specific humidity) tatha percent (relative humidity) alag raashiyan hain, isliye wo vikalp yahan sahi jod nahi hain. Exam point: absolute humidity ka matrak g/m3 hota hai (hawa ke per ghan metre jal-vashp ke gram), jabki relative humidity pratishat mein hoti hai."
   },
   {
     "qe": "Which gas is used in a 'Gas Thermometer' for measuring extremely high temperatures?",
@@ -141,7 +141,7 @@
       "Helium"
     ],
     "a": 1,
-    "e": "Nitrogen gas high temperatures (~1500°C) par chemically stable rehti hai aur dissociate nahi hoti."
+    "e": "Gas thermometer mein nitrogen gas ka istemal atyant uchch tapman (bahut zyada degree) maapne ke liye hota hai, kyunki nitrogen nishkriya (inert) hai, usi karan uchch tapman par bhi wo kriya nahi karti aur thermodynamic tapman-paimane ke lagbhag ideal gas ki tarah vyavhaar karti hai. Isi liye constant-volume nitrogen thermometer ko standard tapa-maap ka aadhaar maana jaata hai. Oxygen uchch tapman par dhaatuon se kriya kar sakti hai, hydrogen khud gapak (explosive) hai aur CO2 uchch tapman par toot sakti hai - isliye wo vikalp theek nahi. Exam point: uchch tapman maapne wale gas thermometer mein nitrogen gas istemal hoti hai, kyunki wo inert aur ideal gas ke sabse nazdeek hoti hai."
   },
   {
     "qe": "What is 'Sublimation' temperature of water at very low pressure?",
@@ -153,7 +153,7 @@
       "Room temp"
     ],
     "a": 2,
-    "e": "Triple point pressure (0.006 atm) se kam pressure par ice bina liquid bane 0°C ke niche direct vapor ban jati hai."
+    "e": "Paani ka sublimation (bina pighle seedha bhaap banana) aam dabav par nahi hota, par bahut kam dabav (vacuum) par ye shuniya (0 degree C) se kam tapman par bhi ho jaata hai - kyunki dabav bahut kam hone se paani ka pighalna skip ho jaata hai aur barf seedha bhaap ban jaati hai. Isi karan freeze-drying (lyophilisation) mein khana sukhane ke liye bahut kam dabav istemal kiya jaata hai. Yeh kriya svabhavik vaatavaran mein Himalaya jaise uchch sthalon tatha jala (frost) mein bhi dikhti hai. 100 degree C ya 0 degree C (seedha) aise aankde is khaas avastha ke liye sahi nahi hain. Exam point: bahut kam dabav par paani 0 degree C se kam tapman par bhi sublimation karta hai - isliye freeze-drying sambhav hota hai."
   },
   {
     "qe": "What is the 'SI Unit' of the Heat Transfer Coefficient?",
@@ -165,7 +165,7 @@
       "None of these"
     ],
     "a": 2,
-    "e": "Formula $q = h A \\Delta T$ se heat transfer coefficient ki unit $W/(m^2 \\cdot K)$ derive hoti hai."
+    "e": "Heat transfer coefficient (ye film coefficient) batata hai ki ek square metre satah ke aar-paar per kelvin tapman-antar par kitni urja prati second jaati hai, isliye iska SI matrak watt per square metre per kelvin (W/m2.K) hota hai. Ise tatha thermal conductivity (k) ko milao na: k ka matrak W/m.K hota hai aur wo padarth ka gun batata hai, jabki heat transfer coefficient satah ke aas-paas ke pravah (convection) ka asar batata hai. Isi liye heat exchanger aur condenser ke design mein iska istemal hota hai. J/kg.K (specific heat ka matrak) ya W/m.K (conductivity ka matrak) yahan sahi nahi hain. Exam point: heat transfer coefficient ka SI matrak W/m2.K hota hai; ye satah se convection dwara hone wali heat transfer ko batata hai."
   },
   {
     "qe": "Why is 'Silver' the best thermal conductor?",
@@ -177,7 +177,7 @@
       "High free electron density | उच्च मुक्त इलेक्ट्रॉन घनत्व"
     ],
     "a": 3,
-    "e": "Silver me free conduction electrons ki density aur mobility sabhi metals se zyada hoti hai, jo heat ko instantly carry karti hai."
+    "e": "Chandi (silver) sabse achha vidyut tatha garmi ki chaalak isliye hoti hai kyunki uske atom ke bahari kosh mein bahut adhik mukta electron (free electron density lagbhag 5.86 x 10^28 per cubic metre) hote hain - ye electron ushma (heat) ko ek sira se doosre sire tak tezi se pahuncha dete hain. Isi karan sabse achhe chaalak mein silver ke baad copper aur gold aate hain, aur mobile electron ke karan ye chamakdar bhi dikhte hain. Uranium ya plastic ke electron bandh hote hain isliye wo kamzor chaalak hote hain, aur 'adhik ghantva' hi chaalakta ka kaaran nahi hota (sisa ghana hota hai par kharab chaalak hai). Exam point: silver sabse achha garmi ka chaalak hai kyunki usme mukta electron ka ghanatva sabse adhik hota hai."
   },
   {
     "qe": "What is 'Calorie' to 'Joule' conversion factor?",
@@ -189,7 +189,7 @@
       "1 cal = 1 J"
     ],
     "a": 1,
-    "e": "1 calorie energy lagbhag 4.184 Joules mechanical work ke barabar hoti hai."
+    "e": "Kalori (calorie) tatha joule dono ushma (heat) ke maap hain; ek calorie wo urja hai jo 1 gram paani ka tapman 1 degree C badhane ke liye chahiye, aur vaigyanik map ke anusaar 1 cal = 4.184 joule hota hai. Isi karan khaane ki urja 'kaalori' aur SI energy 'joule' mein badalne ke liye 4.184 ka gunaank lagta hai. 4.184, 4.2 ya 1 ka seedha sambandh yaad rakhna zaroori hai, kyunki 1 kilocalorie (khaane wali) lagbhag 4184 joule hoti hai. 1 J, 0.24 J ya 100 J aise aankde is badlav ke nahi hain. Exam point: 1 calorie = 4.184 joule; yahi khaane wali energy (kcal = 4184 J) ka aadhaar hai."
   },
   {
     "qe": "What is 'Specific Heat' of Ice compared to liquid water?",
@@ -201,7 +201,7 @@
       "Double"
     ],
     "a": 1,
-    "e": "Ice ki specific heat ~0.5 cal/g°C hoti hai, jo liquid water (1 cal/g°C) ke mukable lagbhag aadhi hai."
+    "e": "Barf (ice) ki specific heat lagbhag 0.5 cal/g per degree C hoti hai, jo drav paani ki 1 cal/g per degree C se lagbhag aadhi hai - yani barf ko garam karne mein paani ke muqable kam urja lagti hai. Yahi karan hai ki barf ka tapman tezi se badhta hai jab tak wo pighalti nahi (isliye barf jaldi pighal jaati hai par pighalne mein urja zyada lagti hai). Usi tarah barf ki latent heat 80 cal/g hoti hai. Thos padarthon ki specific heat aam taur par drav se kam hoti hai, isliye 'barabar', 'dugni' ya 'chau-guni' wale kathan yahan sahi nahi. Exam point: barf ki specific heat drav paani ki lagbhag aadhi (0.5 cal/g degree C) hoti hai; isliye barf ka tapman jaldi badalta hai."
   },
   {
     "qe": "What is the 'Critical Temperature' of Helium?",
@@ -213,7 +213,7 @@
       "273 K"
     ],
     "a": 2,
-    "e": "Helium ka critical temperature lagbhag 5.2 K (-267.95°C) hota hai, jiske upar pressure se ise liquify nahi kiya ja sakta."
+    "e": "Helium ki critical temperature 5.2 kelvin hoti hai - is tapman se neeche hi ise dabav dwara drav (liquid) banaya ja sakta hai; isse upar chahe kitna hi dabav lagaya jaaye, helium drav nahi banegi. Yahi karan hai ki helium 'permanent gas' kaha jaata hai (purane samay mein ise drava nahi kiya ja sakta tha). Isi karan helium ko cryogenic (atyant thande) cooling mein istemal karte hain, aur 4.2 K par ye drav tatha 2.17 K se neeche 'superfluid' (bina shuniyata ka pravah) ban jaati hai. Nitrogen ki critical temperature 126 K hoti hai, isliye wo aasaani se drav hoti hai. Exam point: helium ki critical temperature lagbhag 5.2 K hoti hai - isi liye helium ko permanent gas kehte hain aur ye cryogenic cooling mein kaam aati hai."
   },
   {
     "qe": "In which 'Cycle' is heat added at constant pressure?",
@@ -225,7 +225,7 @@
       "Diesel Cycle | डीजल चक्र (Diesel Cycle)"
     ],
     "a": 3,
-    "e": "Diesel engine me fuel spray hone par combustion constant pressure (isobaric process) par hota hai."
+    "e": "Diesel cycle mein heat ka aaropan (addition) sthir dabav (constant pressure) par hota hai - engine ke silencer mein pehle hawa ko dabav se garam kiya jaata hai, phir diesel ka chhidkav hota hai jo sthir dabav par jal jaata hai. Iske ulat Otto (petrol) cycle mein heat ka aaropan sthir aayatan par hota hai; isi karan diesel engine ki efficiency same compression ratio par Otto se kam par compression ratio zyada hone se banti hai. Carnot cycle mein to heat isothermal process mein aaropit hoti hai, aur Rankine cycle bhaap engine ke liye hota hai. Exam point: jis cycle mein heat sthir dabav par di jaati hai = Diesel cycle; Otto cycle mein heat sthir aayatan par di jaati hai."
   },
   {
     "qe": "What is 'Stefan's Law' power proportional to if T is absolute temperature?",
@@ -237,7 +237,7 @@
       "$T^2$"
     ],
     "a": 1,
-    "e": "Black body dwara radiated thermal energy absolute temperature ki fourth power ke directly proportional ($E \\propto T^4$) hoti hai."
+    "e": "Stefan ka niyam kehta hai ki kisi kala padarth (black body) dwara chhodi gayi urja par second uske paramm tapman ki chauthi ghat (T^4) ke samanupati hoti hai - yani tapman dugna karne par nikalti urja solaha (16) guna ho jaati hai. Isi niyam se suraj ka tapman tatha bulb ki garmi ka hisaab lagaya jaata hai (E = sigma x T^4 ke roop mein, sigma Stefan-Boltzmann constant hai). T, T^2 ya T^3 wale sambandh galti hain, kyunki ashrit urja ka bhinnaj (temperature dependence) chauthi ghat wala hi hota hai. Exam point: Stefan ka niyam - chhodi gayi urja paramm tapman ki T^4 ke samanupati hoti hai (tapman dugna to urja 16 guna)."
   },
   {
     "qe": "What is the 'Thermal Expansion' of Pyrex glass compared to ordinary glass?",
@@ -249,7 +249,7 @@
       "Much lower | बहुत कम"
     ],
     "a": 3,
-    "e": "Pyrex borosilicate glass garam karne par bohot kam phailta hai, isliye thermal shock se chatakta nahi hai."
+    "e": "Pyrex glass ka thermal expansion (ushma-pasaar) aam glass se bahut kam hota hai kyunki usmein boron oxide (B2O3) ki matara adhik hoti hai - isliye garam hone par wo kam failta hai. Isi karan Pyrex ke patan (vessels) ko achaanak garam ya thanda karne par wo tootte nahi, jabki aam glass mein tapman ka jhatka lagne par darar (crack) aa jaati hai. Isi liye laboratory ke patan, ovenware tatha tube-light ke kaanch mein pyrex jaisa kaanch istemal hota hai. 'Bahut adhik', 'same' ya 'shunya' wale kathan glass ke liye sahi nahi hain. Exam point: Pyrex glass ka thermal expansion aam glass se bahut kam hota hai (boron oxide ke karan) - isliye wo tapman ke jhatke se nahi tootta."
   },
   {
     "qe": "What is 'Isentropic Process'?",
@@ -261,7 +261,7 @@
       "Constant Temp"
     ],
     "a": 0,
-    "e": "Reversible adiabatic process me $dQ = 0$ hone se entropy constant rehti hai ($dS = 0$)."
+    "e": "Isentropic process wo hai jismein tantra ki entropy (S) sthir rehti hai; adiabatic tatha utkramya (reversible) process mein kyunki heat ka aadan-pradan nahi hota aur koi ashuddhi paida nahi hoti, isliye Delta S = 0 ho jaata hai - aise process ko hi isentropic kehte hain. Isliye adiabatic reversible process ka doosra naam isentropic process hai (jisse bhaap turbine aur compressor ka aadarsh ganit hota hai). Isenthalpic (sthir enthalpy) ya isothermal (sthir tapman) alag process hain, isliye wo vikalp isparibhasha ke nahi hain. Exam point: isentropic process mein entropy sthir rehti hai; ye adiabatic reversible process ka hi naam hai (Delta S = 0)."
   },
   {
     "qe": "What is 'Latent Heat' of fusion for Silver approximately?",
@@ -273,7 +273,7 @@
       "80 cal/g"
     ],
     "a": 2,
-    "e": "Silver ka melting latent heat lagbhag 25 cal/g (approx 105 kJ/kg) hota hai, jo ice se kafi kam hai."
+    "e": "Chandi (silver) ki latent heat of fusion lagbhag 25 cal/g (yani 105 joule per gram) hoti hai - itni urja chahiye 1 gram chandi ko uske galaank (961 degree C) par pighlane ke liye. Sone ki 15 cal/g aur sise ki 6 cal/g hoti hai; in aankdon se pata chalta hai ki dhaatuon ki fusion heat aam taur par kam hoti hai (paani ki 80 cal/g ki tulna mein). Isliye dhaatu ko pighlane ke liye jitni urja chahiye, wo uske bandhan (lattice enthalpy) par nirbhar karti hai. 80, 540 ya 1000 jaise aankde chandi ke liye sahi nahi hain. Exam point: chandi ki latent heat of fusion lagbhag 25 cal/g hoti hai - dhaatuon mein ye aankda paani ki 80 cal/g se kam hota hai."
   },
   {
     "qe": "Which property of a gas remains constant in 'Boyle's Law'?",
@@ -285,7 +285,7 @@
       "All"
     ],
     "a": 1,
-    "e": "Boyle ke niyam me fixed mass of gas ka temperature constant ($T = \\text{const}$) rehta hai."
+    "e": "Boyle's law kehta hai ki sthir tapman (temperature) par gas ki nishchit matara ka aayatan (volume) dabav ke vyutkram (inverse) anupat hota hai, isliye P1V1 = P2V2 hota hai. Isliye is niyam mein jo cheez sthir rehti hai wo tapman hi hai; dabav tatha aayatan dono ek doosre ke saath badalte hain. Charles ke niyam mein dabav sthir rehta hai aur aayatan-tapman ka sambandh hota hai. Isliye 'dabav', 'aayatan' ya 'gas ke mol' ko is niyam mein sthir maanna galat hota hai. Exam point: Boyle's law mein tapman sthir rehta hai (dabav-guna-aayatan bhi sthir); aayatan tatha dabav ek doosre ke vyutkram badalte hain."
   },
   {
     "qe": "What is 'Heat' measured in 'BTU' (British Thermal Unit) equal to in calories?",
@@ -297,7 +297,7 @@
       "100 cal"
     ],
     "a": 0,
-    "e": "1 BTU heat lagbhag 252 calories (1055 Joules) ke barabar hoti hai."
+    "e": "British Thermal Unit (BTU) ushma ka angrezi maap hai; ek BTU wo urja hai jo 1 pound paani ka tapman 1 degree Fahrenheit badhane ke liye chahiye, aur ye lagbhag 252 calorie (yani 1055 joule) ke barabar hota hai. Isi karan air-conditioner tatha heater ka cooling/heating capacity aaj bhi BTU per hour mein likhi jaati hai (jaise 1 ton AC lagbhag 12000 BTU/hour hota hai). 1000, 4184 ya 100 jaise aankde BTU ke nahi hain - khaas kar 1000 calorie lagbhag 1 khaane wali kaalori hoti hai. Exam point: 1 BTU lagbhag 252 calorie (1055 joule) ke barabar hota hai; AC ki cooling capacity aaj bhi BTU/hour mein likhi jaati hai."
   },
   {
     "qe": "What is 'Triple Point' of Nitrogen?",
@@ -309,7 +309,7 @@
       "63 K | 63 K"
     ],
     "a": 3,
-    "e": "Nitrogen ke solid, liquid aur gas phases lagbhag 63.15 K (-210°C) par equilibrium me rehte hain."
+    "e": "Nitrogen ka triple point 63 kelvin (aur 12.5 kPa dabav) hota hai - yani is tapman-dabav par thos, drav tatha gas teeno avasthaayein ek saath sthir rehti hain. Isi karan nitrogen ke phase diagram mein yahi nishchit bindu hota hai jisse pata chalta hai ki kis paristhiti mein drav nitrogen banta hai (tatha kaun se tapman par wo seedha gas banta hai). Paani ka triple point 273.16 K (0.01 degree C) hota hai, isliye nitrogen ke liye aise aankde theek nahi. Exam point: nitrogen ka triple point lagbhag 63 K hota hai; is tapman-dabav par nitrogen ki teeno avasthaayein (thos, drav, gas) ek saath rehti hain."
   },
   {
     "qe": "What is 'Thermos Flask' designed to minimize?",
@@ -321,7 +321,7 @@
       "Conduction"
     ],
     "a": 2,
-    "e": "Vacuum conduction aur convection ko rokata hai, aur silver coating radiation loss ko minimize karti hai."
+    "e": "Thermos flask (vacuum flask) teen tarikon se garmi ke pravah ko rokta hai: sabse andar chandi-chadhi deewar (silver coating) radiation ko wapas paravartit kar deti hai, do deewaron ke beech ka khaali (vacuum) bhaag conduction aur convection ko rok deta hai, aur dhakkan (cap) upar se garmi ke bahav ko rokta hai. Isiliye ismein garam paani ghanton garam rehta hai - yani ye conduction, convection tatha radiation teeno ko ghatane ke liye design kiya jaata hai. Sirf ek hi reet (ek mechanism) rokna iska maksad nahi hai, isliye 'all of these' wala jod sahi hai. Exam point: thermos flask garmi ke teeno rasto (conduction, convection, radiation) ko rokta hai - isliye garam cheez ghanton garam rehti hai."
   },
   {
     "qe": "Which state of matter has the 'Lowest' thermal conductivity?",
@@ -333,7 +333,7 @@
       "Solid"
     ],
     "a": 1,
-    "e": "Gases me molecules bohot door hote hain, isliye inter-molecular heat collision rate sabse kam hota hai."
+    "e": "Gases ki thermal conductivity sabse kam hoti hai kyunki gas ke anu ek doosre se bahut door hote hain tatha unke beech bandhan durbal hota hai, isliye garmi ek anu se doosre tak pahunchani mushkil hoti hai (udaharan: hawa insulators ki tarah kaam karti hai - double-wall windows, bhusa, tharmocol). Thos padarthon mein anu paas hote hain isliye conductivity zyada hoti hai (dhaatu sabse adhik, kyunki unmein mukta electron bhi hote hain). Isi tarah drav ki conductivity gas se adhik par dhaatu se kam hoti hai. Exam point: sabse kam thermal conductivity wali avastha = gas, kyunki uske anu door-door hote hain - isliye hawa/foam insulation ka kaam karte hain."
   },
   {
     "qe": "What is an 'Adiabatic Wall'?",
@@ -345,7 +345,7 @@
       "Allows heat"
     ],
     "a": 0,
-    "e": "Adiabatic wall system aur surroundings ke beech kisi bhi prakar ke heat flow ko allow nahi karti ($dQ = 0$)."
+    "e": "Adiabatic wall wo seema (boundary) hoti hai jo tantra tatha charon-aur ke beech garmi (heat) ke pravah ko rok deti hai - isliye aisi seema ke asar mein koi heat exchange nahi hota aur process adiabatic ban jaata hai. Iske ulat diathermic wall garmi ko aasaani se jane deti hai (jaise dhaatu ki deewar). Vacuum flask ki deewar, bhusa tatha tharmocol isse ke udaharan hain. Isliye 'garmi ko rokna' hi iski paribhasha hai, na ki garmi ka aasaani se jaana ya tapman ka barabar hona. Exam point: adiabatic wall garmi ke sthanantaran ko rok deti hai, jisse koi heat exchange nahi hota (diathermic wall usi aasan reet se jaane deti hai)."
   },
   {
     "qe": "What is the 'Internal Energy' change for a cyclic process?",
@@ -357,7 +357,7 @@
       "Infinite"
     ],
     "a": 2,
-    "e": "Internal energy ek state function hai; system initial point par lout aane se net change $\\Delta U = 0$ hota hai."
+    "e": "Cyclic process mein tantra ghoom-phir kar wapas apni shuruaati avastha mein aa jaata hai; kyunki aantarik urja (U) ek state function hai, shuruaati tatha antim avastha ek hone ke karan usme badlav zero hota hai - Delta U = 0. Isi karan aise process mein net heat tatha net kaam ek doosre ke barabar hote hain (q = -w), aur yahi heat engine ke chakr (cycle) ka aadhaar hai. Net entropy ka badlav bhi shunya hota hai, par taps (temperature) tatha dabav badalte rehte hain. Isliye 'shunya' hi sahi uttar hai; adhik ya kam koi aankda sahih nahi. Exam point: cyclic process mein aantarik urja ka badlav Delta U = 0 hota hai (state function hone ke karan); net heat = net kaam."
   },
   {
     "qe": "Which thermodynamic law defines the concept of 'Internal Energy'?",
@@ -369,7 +369,7 @@
       "First Law | प्रथम नियम (First Law)"
     ],
     "a": 3,
-    "e": "First Law ($dQ = dU + dW$) energy conservation se internal energy ($dU$) ka mathematical proof deta hai."
+    "e": "First law of thermodynamics urja sanrakshan ka niyam hai, jo batata hai ki tantra par di gai heat tatha uspar kiye gae kaam se tantra ki aantarik urja (U) badalti hai (Delta U = q + w). Isliye 'internal energy' ki dhaarna isi niyam se banti hai - ye batata hai ki urja na paida hoti hai na nasht, sirf roop badalti hai. Zeroth law tapman ki paribhasha deta hai, second law entropy (va asthirta) tatha third law paramm shunya par entropy batata hai. Exam point: aantarik urja (internal energy) ki dhaarna first law of thermodynamics se banti hai, jo urja sanrakshan (Delta U = q + w) par tika hai."
   },
   {
     "qe": "What is 'Specific Heat Ratio' ($\\gamma$) for a rigid Diatomic gas?",
@@ -381,7 +381,7 @@
       "1.4 | 1.4 (7/5)"
     ],
     "a": 3,
-    "e": "Rigid diatomic gas ke 5 degrees of freedom ($f=5$) hote hain, isliye ratio $\\gamma = 1 + 2/5 = 7/5 = 1.4$ hota hai."
+    "e": "Rigid diatomic gas (jaise H2, N2, O2) mein do atom ek akshar par judte hain, isliye uske swatantrata ki koti (degrees of freedom) 5 hoti hain (3 sthanantaran + 2 ghoornan); isse Cv = 5R/2 aur Cp = 7R/2 nikalta hai, isliye gamma = Cp/Cv = 7/5 = 1.4 hota hai. Isi karan dwiparmaanvik gas ke liye gamma ka aankda 1.4 hi yaad rakha jaata hai (monoatomic ke liye 1.67 aur bahuparmaanvik ke liye 1.33 hota hai). 1.67 ya 1.33 wale aankde isliye yahan sahi nahi hain. Exam point: rigid diatomic gas ka specific heat ratio gamma = 1.4 (7/5) hota hai, kyunki uske 5 degrees of freedom hote hain."
   },
   {
     "qe": "What is 'Avogadro's Hypothesis' for gases at same T and P?",
@@ -393,7 +393,7 @@
       "None of these"
     ],
     "a": 1,
-    "e": "Saman temperature aur pressure par barabar volume wali gases me number of molecules barabar hote hain ($V \\propto n$)."
+    "e": "Avogadro ki parikalpana kehti hai ki samaan tapman tatha dabav par sabhi gases ke barabar aayatan mein anuon (molecules) ki sankhya bhi barabar hoti hai - isliye 1 mol gas ka aayatan (STP par 22.4 L) sabhi gases ke liye ek hi hota hai. Isi parikalpana se gas ke aayatan se uske anuon ki ginti nikaali jaati hai, bina ye jaane ki kaun si gas hai. Isiliye 'barabar dravyaman' ya 'barabar ghanatva' wale kathan yahan sahi nahi hain, kyunki gas ke bhaar alag-alag ho sakte hain. Exam point: Avogadro ki parikalpana - samaan T aur P par barabar aayatan wali gases mein anuon ki sankhya barabar hoti hai (isliye 22.4 L sabhi gases ke liye ek mol)."
   },
   {
     "qe": "What is the unit of 'Stefan-Boltzmann' constant ($\\sigma$)?",
@@ -405,7 +405,7 @@
       "$W/m \\cdot K$"
     ],
     "a": 1,
-    "e": "Formula $E = \\sigma T^4$ se $\\sigma = E/T^4 = W/(m^2 \\cdot K^4)$ banta hai."
+    "e": "Stefan-Boltzmann constant (sigma) ka vishleshan chhodi gayi urja per unit kshetrafal per kelvin ki chauthi ghat ke roop mein hota hai, isliye iska SI matrak watt per square metre per K^4 (W/m2.K4) hota hai. Iski sankhya lagbhag 5.67 x 10^-8 W/m2.K4 hoti hai. Isi karan E = sigma x T^4 likhne par maan sahi aata hai; iska matrak W/m.K ya J/kg.K nahi ho sakta (wo thermal conductivity tatha specific heat ke hain). Dhyan rakhein: sigma ka matrak samajhna prashn mein aksar poochha jaata hai. Exam point: Stefan-Boltzmann constant ka matrak W/m2.K4 hota hai (sankhya lagbhag 5.67 x 10^-8), kyunki ye urja per area per T^4 batata hai."
   },
   {
     "qe": "Which material is used in 'Bolometers'?",
@@ -417,7 +417,7 @@
       "Mercury"
     ],
     "a": 0,
-    "e": "Semiconductor thermistors ya platinum strips heat padne par rapidly resistance change karte hain, jo radiation detect karta hai."
+    "e": "Bolometer ek atyant sanvedansheel (sensitive) yantra hai jo vaikiran (radiation) ki urja maap kar tapman ka antar bataata hai; iske andar aisi patli parat lagai jaati hai jiski vidyut-pratirodhakta (resistance) tapman ke saath badalti hai - aur yahi gun semiconductor (jaise thermistor) wale padarthon mein bahut tez hota hai, isliye bolometer mein semiconductor istemal hota hai. Iske ulat tamba-nickel jaisi dhaatuen kam sanvedansheel hoti hain aur ceramic ya plastic radiation ko maapne mein itne upyukt nahi hote. Isliye bolometer mein semiconductor ka sahi jod hai. Exam point: bolometer mein semiconductor (thermistor) wali parat istemal hoti hai, kyunki unka resistance tapman ke saath tezi se badalta hai."
   },
   {
     "qe": "What is 'Joule-Thomson' effect used for primarily?",
@@ -429,7 +429,7 @@
       "Heating"
     ],
     "a": 0,
-    "e": "Gas ko throttle valve se expand karwake intermolecular forces ke against work karwaya jata hai, jisse cooling hoti hai."
+    "e": "Joule-Thomson effect kehta hai ki jab gas ko ek chhidra (pinhole) ya valve se guzara jaata hai to wo fail kar tapman badal leti hai - kuchh gases is prakshep mein thandi ho jaati hain (jaise hydrogen-nitrogen neeche khaas tapman par), isliye iska sabse bada upyog gas ko thanda karna (liquefaction) hai. Isi siddhant par Linde ki vidhi dwara hawa se nitrogen tatha oxygen alag ki jaati hai. Isliye 'cooling gases' hi iska mukhya upyog hai. Dak-ticket, bijli paida karna ya tapman maapna iska seedha maksad nahi hain. Exam point: Joule-Thomson effect ka upyog mukhya roop se gases ko thanda karne (liquefaction) ke liye hota hai, kyunki chhidra se guzarne par gas ka tapman badal jaata hai."
   },
   {
     "qe": "What is 'Efficiency' of a heat engine in terms of $W$ and $Q_1$?",
@@ -441,7 +441,7 @@
       "$W + Q_1$"
     ],
     "a": 0,
-    "e": "Heat engine ki efficiency output work divided by input absorbed heat yaani $\\eta = W/Q_1$ hoti hai."
+    "e": "Heat engine ki efficiency batati hai ki di gai heat ka kitna hissa kaam mein badla - agar engine ko Q1 heat mili tatha usne W kaam kiya, to efficiency = W/Q1 hoti hai (tatha Q1 - Q2 = W hone ke karan ye (Q1 - Q2)/Q1 bhi likha jaata hai). Isliye efficiency ka sahi roop W/Q1 hai; ye hamesha 1 se kam hota hai kyunki Q2 heat sink ko dena zaroori hai. Q1/W, W x Q1 ya Q2/W jaise roop ganit ke hisab se sahi nahi (Q2/W refrigerator ka COP hota hai, efficiency nahi). Exam point: heat engine ki efficiency = W/Q1 hoti hai (kiye gae kaam tatha di gai heat ka anupat); ye hamesha 1 se kam hoti hai."
   },
   {
     "qe": "Which state of matter is 'Plasma' associated with?",
@@ -453,7 +453,7 @@
       "First"
     ],
     "a": 2,
-    "e": "Extreme high temperatures par ionized gas aur free electrons se bani state ko matter ki 4th state ya Plasma bolte hain."
+    "e": "Plasma ko padarth ki chauthi avastha (fourth state) kaha jaata hai - ismein gas ke zyada garam hone par electron atom se alag ho jaate hain, isliye dhanaveshi ion tatha rinaveshi electron ka mishran banta hai. Suraj tatha taare, bijli ki chamak (lightning), aur neon sign tube mein yahi avastha hoti hai. Thos, drav tatha gas ke baad ye chauthi avastha maani jaati hai, jabki Bose-Einstein condensate ko kabhi paanchvin avastha kaha jaata hai. Isliye 'chauthi' hi is prashn ka sahi jod hai, kyunki plasma ki bahut khaas pehchaan uski aavyoshit urja hai. Exam point: plasma padarth ki chauthi avastha hai - ismein garam gas ke atom toot kar ion tatha electron ban jaate hain (Suraj, lightning, neon tube)."
   },
   {
     "qe": "What is 'Critical Pressure' of Water?",
@@ -465,7 +465,7 @@
       "218 atm | 218 atm"
     ],
     "a": 3,
-    "e": "Water ke critical point (374°C) par liquid aur vapor ko distinguish karne ke liye required critical pressure lagbhag 218 atm hota hai."
+    "e": "Paani ka critical pressure lagbhag 218 atmosphere hota hai - is dabav tatha critical temperature (374 degree C) se upar paani ki drav tatha gas avastha alag-alag nahi rehti, ek hi 'supercritical fluid' bana rehta hai. Isi karan paani ko is dabav se kam par hi bhaap banaya ja sakta hai, aur bhaap turbine mein 100-250 atm tak kaam hota hai. 1 atm (saadharan dabav) ya 100 atm jaise aankde critical pressure nahi hain, kyunki 1 atm to samundar-tal ka dabav hai. Exam point: paani ka critical pressure lagbhag 218 atm hota hai (critical temperature 374 degree C ke saath); isse upar drav-gas ka bhed khatm ho jaata hai."
   },
   {
     "qe": "What is 'Heat Capacity' of 1 gram of water?",
@@ -477,7 +477,7 @@
       "None of these"
     ],
     "a": 2,
-    "e": "Heat capacity $C = m \\times s$; 1g paani aur specific heat 1 cal/g°C hone par iska value 1 cal/°C hota hai."
+    "e": "1 gram paani ki heat capacity 1 calorie per degree C hoti hai (yani ushe 1 degree garam karne ke liye 1 calorie chahiye). Yahi paribhasha hi calorie ki hai, isliye paani ki specific heat sabse sugam (convenient) maani jaati hai aur usi se anya padarthon ki tulna hoti hai (jaise dhaatuon ki specific heat 0.1 se 0.2 cal/g degree C hoti hai). Isliye 4.18, 80 ya 540 (latent heat ke aankde) is specific heat ke nahi hain. Exam point: 1 gram paani ki heat capacity = 1 cal/degree C hoti hai; yahi calorie ki paribhasha ka aadhaar hai."
   },
   {
     "qe": "What is 'Absolute Zero' on the Fahrenheit scale?",
@@ -489,7 +489,7 @@
       "-459.67°F | -459.67°F"
     ],
     "a": 3,
-    "e": "0 Kelvin (-273.15°C) ko Fahrenheit scale me convert karne par exact value -459.67°F aati hai."
+    "e": "Paramm shunya (absolute zero) wo nyoonatam tapman hai jahan anuon ki gati lagbhag ruk jaati hai; Celsius scale par ye -273.15 degree C hai, aur Fahrenheit scale par -459.67 degree F hota hai. Yahi karan hai ki Kelvin scale (jisme 0 K = -273.15 C) scientific kaam ke liye istemal hoti hai. 0 F, -273 F ya -100 F jaise aankde paramma shunya ke nahi hain (0 F to namak-baraf ke mishran ka tapman hai). Exam point: absolute zero Fahrenheit scale par -459.67 degree F hota hai (Celsius mein -273.15 C tatha Kelvin mein 0 K); is tapman par anuon ki gati lagbhag ruk jaati hai."
   },
   {
     "qe": "What happens to the 'Freezing Point' of water under 'High Pressure'?",
@@ -501,7 +501,7 @@
       "Stay same"
     ],
     "a": 2,
-    "e": "Paani jamne par phailta hai; pressure badhane se expansion mushkil hota hai isliye freezing point 0°C se niche gir jata hai."
+    "e": "Adhik dabav (high pressure) barf ke galaank ko ghatata hai - isliye barf pighalne ka tapman 0 degree C se neeche chala jaata hai. Iska kaaran ye hai ki barf ka aayatan paani se adhik hota hai, isliye dabav badhane par Le-Chatelier ke anusar wahi disha badhti hai jismein aayatan ghatta hai - yani barf pighalna. Isi karan patin (skating) khelne wale pattay ke neeche ka dabav barf ko pighla kar chikni parat banata hai, aur glaciers ke neeche bhi ye asar dikhta hai. 'Badhta hai' ya 'same rehta hai' wale kathan paani ke liye galat hain (baaki padarthon jaise wax mein ulta hota hai). Exam point: adhik dabav par paani ka freezing point ghatta hai - isliye barf dabav mein pighal jaati hai (skating isi kaaran aasaan hoti hai)."
   },
   {
     "qe": "Which cycle is more efficient, Otto or Diesel, for the same compression ratio?",
@@ -513,7 +513,7 @@
       "Both same"
     ],
     "a": 1,
-    "e": "Same compression ratio par Otto cycle me constant volume heat addition ki wajah se efficiency Diesel cycle se zyada hoti hai."
+    "e": "Samaanya compression ratio par Otto (petrol) cycle ki efficiency Diesel cycle se adhik hoti hai, kyunki Otto cycle mein heat constant volume par milti hai (isliye tapman tatha dabav dono badh kar urja ka upyog behtar hota hai), jabki Diesel cycle mein heat constant pressure par milti hai (jismein aayatan badhne se thodi urja kharch hoti hai). Dhyan rakhein: vyavhar mein diesel engine ka compression ratio bahut adhik (14-22) hota hai, isliye wo petrol se adhik efficient dikhta hai - par tulna saman ratio par karte hain to Otto aage nikalta hai. Carnot aur Rankine cycles alag vishay hain. Exam point: samaan compression ratio par Otto cycle ki efficiency Diesel se adhik hoti hai, jabki vyavhar mein diesel adhik compression ratio ke karan behtar efficient hota hai."
   },
   {
     "qe": "What is 'Coefficient of Performance' (COP) for a refrigerator?",
@@ -525,7 +525,7 @@
       "$Q_1/Q_2$"
     ],
     "a": 1,
-    "e": "Refrigerator ka COP cold body se nikali gayi heat ($Q_2$) divided by mechanical work done ($W$) hota hai."
+    "e": "Refrigerator ka coefficient of performance (COP) batata hai ki thande bhandar (cold reservoir) se nikali gai heat Q2 tatha us me lagne wale kaam W ka anupat kitna hai, isliye COP = Q2/W hota hai. Achhe refrigerator mein ye maan 1 se kaafi adhik ho sakta hai (jaise 4 ya 5), kyunki kaam ke badle bahut adhik heat transfer hoti hai. Iska ulta roop W/Q2, Q1/W ya Q2 x W nahi hota; Q1/W hota to wo heat pump ke COP ke roop mein aata hai. Exam point: refrigerator ka COP = Q2/W hota hai (thande bhandar se nikali gai heat tatha lagaye gae kaam ka anupat), jo 1 se adhik bhi ho sakta hai."
   },
   {
     "qe": "What is 'Black Body' absorptivity ($\\alpha$)?",
@@ -537,7 +537,7 @@
       "None of these"
     ],
     "a": 1,
-    "e": "Ideal black body surface par padne wali 100% radiation energy ko bina reflect kiye absorb kar leti hai ($a = 1$)."
+    "e": "Black body (kala padarth) wo aadarsh padarth hota hai jo apne upar padne wali poori urja ko sokh leta hai - isliye uski absorptivity (alpha) 1 maani jaati hai aur reflectivity 0 hoti hai; usi tarah uski emissivity bhi 1 hoti hai. Isi karan kala padarth apne tapman ke hisaab se sabse adhik urja chhodta hai, aur iski radiation ka vitaran (distribution) Planck ke niyam se nikalta hai. Kisi bhi vyavharik satah ke liye alpha 0 se 1 ke beech hota hai (grey body ke liye bhi), isliye 0, 100 ya infinite jaise aankde black body ke nahi hain. Exam point: black body ki absorptivity alpha = 1 hoti hai (poori urja sokh leta hai) - isi karan uski emissivity bhi 1 hoti hai."
   },
   {
     "qe": "What is the relation between 'C' and 'K'?",
@@ -549,7 +549,7 @@
       "$C = K + 273$"
     ],
     "a": 1,
-    "e": "Celsius temperature me 273.15 add karne par absolute Kelvin temperature milta hai ($K = C + 273$)."
+    "e": "Celsius tatha Kelvin scale ka sambandh K = C + 273 (theek se C + 273.15) hai - yani Celsius ke aankde mein 273 jodne par paramm (absolute) tapman kelvin mein mil jaata hai. Ye sambandh isliye zaroori hai ki sabhi gas tatha thermodynamics ke sutra kelvin mein hi sahi baithte hain; Celsius mein negative aankde (jaise -20 C) se ganit galat ho jaata hai. Isliye K = C + 273 hi sahi roop hai. C + 273/5 ya K = C - 273 jaise roop galat hain (C/5 ka sambandh Fahrenheit ke badlav mein aata hai). Exam point: Celsius se Kelvin jaane ka sambandh K = C + 273 hota hai; isliye 0 degree C = 273 K tatha 27 degree C = 300 K hota hai."
   },
   {
     "qe": "Which material is used in 'Heat Shields' of spacecraft?",
@@ -561,7 +561,7 @@
       "Gold"
     ],
     "a": 0,
-    "e": "Silica ceramic ablative tiles re-entry ke dauran heat absorb karke vaporize ho jati hain aur spacecraft ko bachati hain."
+    "e": "Spacecraft ke heat shield (ushma dhaal) mein ablative ceramic (lupatatmak siramik) istemal hota hai - jab vaayumandal mein tez raftar se aane wale yantra ki satah bahut garam ho jaati hai, to ye ceramic parat pighal-tatha-vasheebhoot (melt aur vapour) hokar urja apne saath le jaati hai. Isse yantra ke andar ka hissa thanda rehta hai (Apollo tatha mangal yaanon mein yahi tarika istemal hua). Saadharan dhaatu ya plastic itni garmi sah nahi paate, isliye wo vikalp yahan sahi nahi hain. Exam point: spacecraft ke heat shield mein ablative ceramics istemal hote hain, jo pighal-vashpeekaran hokar urja apne saath le jaate hain aur yantra ko bachaate hain."
   },
   {
     "qe": "What is the 'Maximum Efficiency' of a heat engine dependent on?",
@@ -573,7 +573,7 @@
       "Size of engine"
     ],
     "a": 0,
-    "e": "Carnot theorem ke anusar engine ki maximum efficiency sirf source aur sink ke absolute temperatures par depend karti hai ($1 - T_2/T_1$)."
+    "e": "Kisi bhi heat engine ki adhiktam (maximum) efficiency sirf uske source (garam bhandar) tatha sink (thande bhandar) ke paramm tapman par nirbhar karti hai - Carnot ke anusar eta = 1 - T2/T1, jahan T kelvin mein hai. Isliye engine ke fuel, aakaar ya kaam karne wale padarth se ye seema nahi badalti. Isi karan 100% efficiency ke liye sink ka tapman 0 K hona zaroori hai, jo sambhav nahi - isliye prakritik engine ki efficiency hamesha 1 se kam hoti hai. Exam point: heat engine ki maximum efficiency source tatha sink ke tapman par nirbhar karti hai (eta = 1 - T2/T1); fuel ya engine ke design se ye seema nahi badalti."
   },
   {
     "qe": "What is 'Latent Heat' of sublimation?",
@@ -585,7 +585,7 @@
       "Sum of latent heat of fusion and vaporization | गलन और वाष्पीकरण की गुप्त ऊष्मा का योग"
     ],
     "a": 3,
-    "e": "Solid se direct gas banne me required total latent heat fusion aur vaporization ke sum ke barabar hoti hai."
+    "e": "Sublimation ki latent heat wo urja hai jo 1 kg thos padarth ko seedha bhaap (gas) banane ke liye chahiye hoti hai; kyunki thos padarth pehle pighal kar drav banta hai aur phir bhaap, isliye kul urja fusion tatha vaporization ki latent heat ke jod ke barabar hi hoti hai - L(sub) = L(fus) + L(vap). Isliye ice ke liye 80 + 540 = 620 cal/g hoti hai. Iska gar (product) ya antar lena ganit ke hisaab se galat hai, kyunki enthalpy state function hone ke karan path se nahi badalti. Exam point: sublimation ki latent heat = fusion ki latent heat + vaporization ki latent heat (dono ka jod); jaise barf ke liye 80 + 540 = 620 cal/g."
   },
   {
     "qe": "Which law of thermodynamics states that 'Specific heat of solids reaches zero at 0 K'?",
@@ -597,7 +597,7 @@
       "Third Law | तृतीय नियम (Third Law)"
     ],
     "a": 3,
-    "e": "Third Law ke Nernst postulate ke anusar 0 K ke paas crystal lattice vibration ruk jati hai aur specific heat zero ho jati hai."
+    "e": "Third law of thermodynamics kehta hai ki jab tapman paramm shunya (0 K) ke bahut nazdeek pahunchta hai to shudha sphaiktik (crystalline) padarth ki entropy tatha uski specific heat dono shunya ki or badh jaati hain - yahi kathan is prashn ka sahi jod hai. Ye niyam bataata hai ki 0 K par entropy ko zero maan kar hisaab kiya ja sakta hai (absolute entropy). Zeroth law tapman ki paribhasha deta hai, first law urja sanrakshan tatha second law entropy ki disha batata hai, isliye wo is khaas kathan ke nahi hain. Exam point: yahi third law of thermodynamics hai - 0 K par shuddh crystalline padarth ki entropy (tatha uski specific heat) shunya ho jaati hai."
   },
   {
     "qe": "What is 'Psychrometer' used to measure?",
@@ -609,7 +609,7 @@
       "Relative Humidity | सापेक्ष आर्द्रता"
     ],
     "a": 3,
-    "e": "Dry-bulb aur wet-bulb thermometers ke temperature difference se Psychrometer relative humidity naapta hai."
+    "e": "Psychrometer (ya hygrometer) ek yantra hai jismein do thermometer lagte hain - ek sookha (dry bulb) tatha doosra geele kapde mein lipta (wet bulb); geele bulb se paani ke vashpeekaran se tapman thoda ghat jaata hai aur dono thermometer ke aankdon ke antar se hawa ki aadrata (humidity) nikaali jaati hai. Isliye ye sapeksh aadrata (relative humidity) maapne ka saadharan yantra hai, jo mausam-vigyaan tatha eendhan (fuel) adhyayan mein kaam aata hai. Tapman, vayu-dabav ya vrishti ka maap alag yantron se hota hai, isliye wo vikalp yahan sahi jod nahi hain. Exam point: psychrometer (hygrometer) sapeksh aadrata (relative humidity) maapta hai - do thermometer ke aankdon ke antar se ye nikalta hai."
   },
   {
     "qe": "What happens to the 'Internal Energy' of a gas during free expansion?",
@@ -621,7 +621,7 @@
       "Remains constant | स्थिर रहती है"
     ],
     "a": 3,
-    "e": "Free expansion insulated vacuum me hota hai jahan $W=0$ aur $Q=0$ hone se internal energy constant rehti hai."
+    "e": "Gas ke mukta prasaar (free expansion) mein gas khaali jagah mein fail jaati hai bina kisi dabav ke virodh kaam kiye (w = 0) aur bina heat liye (q = 0 bhi, kyunki ise maloom bina kiya jaata hai) - isliye first law ke anusar Delta U = q + w = 0 hota hai, isliye aantarik urja wahi (sthir) rehti hai. Isi karan aadarsh gas ke free expansion mein tapman bhi nahi badalta (Joule ka prayog). Isliye ye kathan sahi hai ki aantarik urja sthir rehti hai, jabki aayatan badh jaata hai tatha gas thandi nahi hoti. Exam point: gas ke free expansion mein koi kaam ya heat exchange nahi hota, isliye aantarik urja (Delta U = 0) sthir rehti hai."
   },
   {
     "qe": "What is 'Emissivity' ($\\epsilon$) for a grey body?",
@@ -633,7 +633,7 @@
       "1"
     ],
     "a": 0,
-    "e": "Grey body ki emissivity sabhi wavelengths par constant rehti hai aur iski value 0 aur 1 ke beech ($0 < \\epsilon < 1$) hoti hai."
+    "e": "Grey body (bhoora padarth) wo vastavik padarth hota hai jiska absorptivity sabhi tarangdairdhya (wavelength) ke liye ek hi maan rakhta hai (par 1 se kam), isliye uski emissivity bhi 0 se 1 ke beech hi hoti hai - yani ye black body jitni urja nahi chhodta par bilkul shunya bhi nahi. Isi karan vyavharik padarthon ke radiation ka hisaab lagane mein ye epsi ke gunaank ka istemal hota hai (E = e x sigma x T^4). Shuniyata wale wikalp (0 ya 1 se bahar) galat hain, kyunki shudh black body ki emissivity 1 hoti hai. Exam point: grey body ki emissivity 0 se 1 ke beech hoti hai - ye poori tarah kala padarth nahi hota, isliye ye black body se kam urja chhodta hai."
   },
   {
     "qe": "What is the principle of 'Air Conditioning'?",
@@ -645,7 +645,7 @@
       "Evaporation and compression | वाष्पीकरण और संपीड़न"
     ],
     "a": 3,
-    "e": "Refrigerant low pressure evaporator par evaporate hokar room se heat sokhta hai aur compressor se compress hokar bahar reject karta hai."
+    "e": "Air conditioner ka siddhant vashpeekaran (evaporation) tatha sampaedan (compression) ke chakra (vapour-compression cycle) par tika hai - ismein coolant (refrigerant) kam dabav par kamre ki garmi sokh kar bhaap banta hai, phir compressor se dabav-barhakar bahar (condenser) mein garmi chhod kar drav ban jaata hai - is chakra ke dauraan kamre ki garmi bahar nikal jaati hai. Isi karan AC kamre ko thanda karta hai tatha bahar garam hawa chhodta hai. Iska sambandh keval rang ya ghantva se nahi hai. Exam point: air conditioning ka siddhant coolant ke vashpeekaran tatha sampaedan ke chakra par tika hai, jisse kamre ki garmi bahar nikal jaati hai."
   },
   {
     "qe": "Which gas is used for 'Cryogenic' cooling of superconductors?",
@@ -657,7 +657,7 @@
       "Liquid Helium | तरल हीलियम"
     ],
     "a": 3,
-    "e": "Liquid Helium ka boiling point extremely low (4.2 K) hota hai, jo superconductors ko unke critical temperature ke niche rakhta hai."
+    "e": "Superconductors ko uske critical temperature (aam taur par -196 degree C se bahut neeche) tak laane ke liye cryogenic cooling ki zaroorat hoti hai, aur uske liye liquid helium (kvathank 4.2 K) istemal kiya jaata hai - kyunki yahi drav itna thanda ho sakta hai jahan niyamit vidyut-parirodhak shunya ho jaata hai (MRI machine ke magnet isi tarah thande kiye jaate hain). Liquid nitrogen (77 K) bhi thanda karta hai par taamba-oxide jaise high-temperature superconductors ke liye hi upyukt hai. Isliye aam superconductors ke liye liquid helium hi sahi jod hai. Exam point: superconductors ki cryogenic cooling ke liye liquid helium (4.2 K) istemal hoti hai - isse param-nimn tapman par resistance shunya ho jaata hai."
   },
   {
     "qe": "What is 'Thermal Equilibrium'?",
@@ -669,7 +669,7 @@
       "Same Pressure"
     ],
     "a": 0,
-    "e": "Jab do physical bodies ke beech temperature barabar ho jaye aur net heat flow zero ho, to use Thermal Equilibrium kehte hain."
+    "e": "Thermal equilibrium (taap-santulan) wo avastha hai jab do vastuein jo garmi ka aadan-pradan kar sakti hain, ek hi tapman par aa jaati hain - uske baad garmi ka net bahav ruk jaata hai (chaahe dono ke andar garmi bani reh sakti hai). Inhi ke aadhaar par zeroth law of thermodynamics bana hai (jisse thermometer kaam karta hai) tatha tapman ki dhaarna banti hai. Isliye 'same temperature' hi sahi jod hai; aayatan ya dabav ka barabar hona is avastha ke liye aavashyak nahi hai. Exam point: thermal equilibrium ka matlab do (ya adhik) vastuein ek hi tapman par aa jaana - uske baad garmi ka net pravah shunya ho jaata hai."
   },
   {
     "qe": "What is the value of 'Solar Constant' (S) approximately?",
@@ -681,7 +681,7 @@
       "1.36 kW/m² | 1.36 kW/m²"
     ],
     "a": 3,
-    "e": "Earth ke atmosphere ke bahar perpendicular surface par solar radiation power lagbhag 1.36 kW/m² aati hai."
+    "e": "Solar constant (S) ko solar constant kehte hain kyunki ye dharti ke vaayumandal ke bahari hisse par ek second mein per square metre aane wali suraj ki urja batata hai, jo lagbhag 1.36 kW/m2 (yani 1360 W/m2) hoti hai. Isi aankde se solar panel ki kshamta tatha dharti ka urja-santulan nikala jaata hai. Isi tarah suraj ka kul urja 3.8 x 10^26 W maana jaata hai. Isse kam ya adhik maan (jaise 100 W/m2) solar constant nahi hain, kyunki yahi vaayumandal ke bahari sire par maapi gai ek sthir sankhya hai. Exam point: solar constant ka maan lagbhag 1.36 kW/m2 hota hai - ye dharti ke vaayumandal ke bahari hisse par per second per square metre milne wali surya-urja hai."
   },
   {
     "qe": "Which state of matter has 'Highest' specific heat?",
@@ -693,7 +693,7 @@
       "Solid"
     ],
     "a": 1,
-    "e": "Liquid water ki specific heat capacity (1 cal/g°C ya 4186 J/kg·K) common padarthon me sabse zyada hoti hai."
+    "e": "Padarth ki avastha ke hisaab se specific heat sabse adhik drav paani mein hoti hai (1 cal/g degree C); isliye paani itni aasaani se garam ya thanda nahi hota aur samudr vaayumandal ke tapman ko santulit rakhte hain, tatha shareer ka sara jeev-ras (body fluids) isi gun ka fayda uthaata hai. Dhaatuon ki specific heat bahut kam hoti hai (isliye lohe ka taava jaldi garam ho jaata hai) aur gases ki bhi kam hoti hai (tatha thos mein bhi alag-alag). Isliye 'thos' ya 'gas' ka specific heat sabse adhik nahi hota. Exam point: sabse adhik specific heat drav (paani) mein hoti hai (1 cal/g degree C) - isliye paani heat ko zyada der tak rok kar rakhta hai."
   },
   {
     "qe": "What is 'Steady State' in heat conduction?",
@@ -705,7 +705,7 @@
       "Temp changes with time"
     ],
     "a": 0,
-    "e": "Jab conductor ke kisi bhi point ka temperature time ke sath constant ho jaye ($dT/dt = 0$), to use Steady State kehte hain."
+    "e": "Steady state (sthir awastha) mein garmi ke bahav (conduction) ke dauraan har bindu ka tapman samay ke saath nahi badalta - yani ek hi jagah ka tapman sthir rehta hai, chaahe ek sire se doosre sire tak tapman ka antar tatha pravah lagataar chalta rahe. Isi karan is awastha mein garmi ka pravah ki gati sthir hoti hai, jise Fourier ke niyam se nikaala jaata hai. 'Tapman sthir hona' hi iski paribhasha hai, na ki tapman ka barabar hona ya tapman ka samay ke saath badhna. Exam point: steady state mein har bindu ka tapman samay ke saath sthir rehta hai (badalta nahi), halanki garmi ka pravah chalta rehta hai."
   },
   {
     "qe": "What is the 'Triple Point' of Water in Kelvin?",
@@ -717,7 +717,7 @@
       "273.16 K | 273.16 K"
     ],
     "a": 3,
-    "e": "Water ka triple point exactly 273.16 K (0.01°C) define kiya gaya hai jahan teeno phases coexist karte hain."
+    "e": "Triple point (tribindu) wo nishchit tapman-dabav hai jahan kisi padarth ki thos, drav tatha gas teeno avasthaayein ek saath sthir rehti hain; paani ka triple point 273.16 K (yani 0.01 degree C) tatha 611.2 Pa dabav par hota hai. Isi karan Kelvin scale ko paani ke triple point ko 273.16 K maan kar paribhashit kiya gaya tha, isliye ye aankda science mein bahut mahatvapooran hai. 273.15, 373 ya 100 jaise aankde is aankde se alag hain (373 K paani ka kvathank hai). Exam point: paani ka triple point 273.16 K (0.01 degree C) hota hai - yahi Kelvin scale ki paribhasha ka aadhaar maana jaata hai."
   },
   {
     "qe": "In an 'Isobaric' process, work done is equal to:",
