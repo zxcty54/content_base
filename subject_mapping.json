@@ -12,7 +12,11 @@
     "Non-Constitutional Bodies": "Niti_NDC_HRC_CIC_SIC_CVC_lokpal.json",
     "Emergency Provisions": "emergency.json",
     "Federal System & Relations": "federal.json",
-    "Special Cat. (SC/ST/OBC)": "SC_ST_BC.json"
+    "Special Cat. (SC/ST/OBC)": "SC_ST_BC.json",
+    "Citizenship (Art 5-11)": "citizenship.json",
+    "Union & Its Territory": "union_territory.json",
+    "Elections, Parties & Anti-Defection": "elections_parties.json",
+    "Official Language": "official_language.json"
   },
   "history_mapping": {
     "1857 Revolt": "1857_revolt.json",
@@ -27,7 +31,9 @@
     "Sur Dynasaty": "sur_dynasty.json",
     "Akbar & Rajputs": "akbar_rajput.json",
     "Babur": "babur_humayun.json",
-    "Beginning of Struggle": "strugglebegin.json"
+    "Beginning of Struggle": "strugglebegin.json",
+    "Art & Culture": "culture.json",
+    "Post-Independence India": "post_independence.json"
   },
   "geo_mapping": {
     "Soils, Forests, Dams & Agri": "soil_forest_dams_agri.json",
@@ -36,7 +42,9 @@
     "Drainage, Climate & Disaster": "drainage_climate_disaster.json",
     "States & Union Territories": "states_ut.json",
     "Physical Geography": "Physicalgeo.json",
-    "Resources & Industries": "resources.json"
+    "Resources & Industries": "resources.json",
+    "Minerals & Energy Resources": "minerals_energy.json",
+    "World Geography": "world_geography.json"
   },
   "eco_mapping": {
     "Public Finance & Deficit": "public_finance_fiscal_deficit.json",
@@ -46,7 +54,9 @@
     "Industry & Infrastructure": "Industry.json",
     "Banking & RBI Policies": "banking.json",
     "Sectors, GDP & National Income": "Sectors_GDP_NI.json",
-    "Agri & Land Reforms": "Agriculture_landreforms.json"
+    "Agri & Land Reforms": "Agriculture_landreforms.json",
+    "Poverty & Employment": "poverty_employment.json",
+    "Foreign Trade & Balance of Payments": "foreign_trade_bop.json"
   },
   "phy_mapping": {
     "Light & Optics": "optics.json",
@@ -55,7 +65,10 @@
     "Force & Gravity": "force_gravity.json",
     "Motion": "motions.json",
     "Work, Energy & Power": "work_energy_power.json",
-    "Waves": "waves.json"
+    "Waves": "waves.json",
+    "Units, Measurement & Instruments": "units_measurement.json",
+    "Modern Physics & Nuclear Energy": "modern_physics.json",
+    "Electronics & Semiconductors": "electronics.json"
   },
   "bio_mapping": {
     "Botany": "botany.json",
@@ -69,7 +82,9 @@
     "Health & Diseases": "health.json",
     "Inheritance": "inheritance.json",
     "Ecosystem": "ecosystem.json",
-    "Biotech": "biotech.json"
+    "Biotech": "biotech.json",
+    "Skeletal & Muscular System": "skeletal_muscular.json",
+    "Nutrition, Vitamins & Deficiency Diseases": "nutrition_vitamins.json"
   },
   "chem_mapping": {
     "Metals & Ores": "metals_compounds.json",
@@ -84,7 +99,9 @@
     "Electrochemistry": "electrochem.json",
     "Polymers": "polymer.json",
     "Chemistry in Everyday Life": "cheminlife.json",
-    "Biomolecules": "biomolecules.json"
+    "Biomolecules": "biomolecules.json",
+    "Mole Concept & Chemical Reactions": "mole_concept.json",
+    "Separation Techniques": "separation_techniques.json"
   },
   "aptitude_mapping": {
     "📊 Percentage": {
@@ -102,21 +119,21 @@
       "Percentage Miscellaneous": "maths/percentage/misc.json"
     },
     "🏷️ Profit & Loss": {
-      "Basic Formulas": "maths/profit_loss/formula.json",
-      "Type 1: Basic Concept": "maths/profit_loss/type1.json",
-      "Type 2: Difference SP & CP": "maths/profit_loss/type2differencespcp.json",
-      "Type 3: SP Equal to CP": "maths/profit_loss/type3spequalcp.json",
-      "Profit & Loss on SP": "maths/profit_loss/profitlossonsp.json",
-      "Profit Equal to Loss": "maths/profit_loss/profitequalloss.json",
-      "Profit/Loss Equal SP/CP": "maths/profit_loss/profitlossequalspcp.json",
-      "CP is Same": "maths/profit_loss/cpissame.json",
-      "SP is Same": "maths/profit_loss/spissame.json",
-      "Two Articles Concept": "maths/profit_loss/twoarticles.json",
-      "Dishonest Dealer": "maths/profit_loss/dishonestdealer.json",
-      "Number of Articles": "maths/profit_loss/numberofartile.json",
-      "Alligation Method": "maths/profit_loss/alligation.json",
-      "Charminar Concept": "maths/profit_loss/charminar.json",
-      "Miscellaneous": "maths/profit_loss/misc.json"
+      "Basic Formulas": "maths/profitloss/formula.json",
+      "Type 1: Basic Concept": "maths/profitloss/type1.json",
+      "Type 2: Difference SP & CP": "maths/profitloss/type2differencespcp.json",
+      "Type 3: SP Equal to CP": "maths/profitloss/type3spequalcp.json",
+      "Profit & Loss on SP": "maths/profitloss/profitlossonsp.json",
+      "Profit Equal to Loss": "maths/profitloss/profitequalloss.json",
+      "Profit/Loss Equal SP/CP": "maths/profitloss/profitlossequalspcp.json",
+      "CP is Same": "maths/profitloss/cpissame.json",
+      "SP is Same": "maths/profitloss/spissame.json",
+      "Two Articles Concept": "maths/profitloss/twoarticles.json",
+      "Dishonest Dealer": "maths/profitloss/dishonestdealer.json",
+      "Number of Articles": "maths/profitloss/numberofartile.json",
+      "Alligation Method": "maths/profitloss/alligation.json",
+      "Charminar Concept": "maths/profitloss/charminar.json",
+      "Miscellaneous": "maths/profitloss/misc.json"
     },
     "🏷️ Discount": {
       "Basic Concepts": "maths/discount/basic.json",
@@ -128,31 +145,31 @@
       "Discount Miscellaneous": "maths/discount/misc.json"
     },
     "📈 Simple Interest": {
-      "Basic Concept": "maths/simple_interest/basic.json",
-      "Rate of Interest": "maths/simple_interest/rateofinterest.json",
-      "Rate Higher / Lower": "maths/simple_interest/ratehigherlower.json",
-      "Principal & Amount Ratio": "maths/simple_interest/principleamountratio.json",
-      "N-Times Concept": "maths/simple_interest/nooftime.json",
-      "Equal SI Cases": "maths/simple_interest/equalsi.json",
-      "Total SI Concept": "maths/simple_interest/totalsi.json",
-      "Alligation Method": "maths/simple_interest/alligation.json",
-      "Average Method": "maths/simple_interest/average.json",
-      "Installments": "maths/simple_interest/installment.json",
-      "SI Miscellaneous": "maths/simple_interest/misc.json"
+      "Basic Concept": "maths/simpleinterest/basic.json",
+      "Rate of Interest": "maths/simpleinterest/rateofinterest.json",
+      "Rate Higher / Lower": "maths/simpleinterest/ratehigherlower.json",
+      "Principal & Amount Ratio": "maths/simpleinterest/principleamountratio.json",
+      "N-Times Concept": "maths/simpleinterest/nooftime.json",
+      "Equal SI Cases": "maths/simpleinterest/equalsi.json",
+      "Total SI Concept": "maths/simpleinterest/totalsi.json",
+      "Alligation Method": "maths/simpleinterest/alligation.json",
+      "Average Method": "maths/simpleinterest/average.json",
+      "Installments": "maths/simpleinterest/installment.json",
+      "SI Miscellaneous": "maths/simpleinterest/misc.json"
     },
     "📉 Compound Interest": {
-      "Basic Concepts": "maths/compound_interest/basic.json",
-      "Successive Method": "maths/compound_interest/successive.json",
-      "Time in Fraction": "maths/compound_interest/timeinfraction.json",
-      "Quarterly & Half-Yearly": "maths/compound_interest/quaterlytime.json",
-      "Find Rate": "maths/compound_interest/findrate.json",
-      "Find Time": "maths/compound_interest/findtime.json",
-      "Sum Becomes N-Times": "maths/compound_interest/ntimes.json",
-      "CI & SI Combined": "maths/compound_interest/ciandsi.json",
-      "CI - SI Difference": "maths/compound_interest/cisidifference.json",
-      "Installments": "maths/compound_interest/installment.json",
-      "Type 6 Advanced": "maths/compound_interest/type6.json",
-      "CI Miscellaneous": "maths/compound_interest/misc.json"
+      "Basic Concepts": "maths/compoundinterest/basic.json",
+      "Successive Method": "maths/compoundinterest/successive.json",
+      "Time in Fraction": "maths/compoundinterest/timeinfraction.json",
+      "Quarterly & Half-Yearly": "maths/compoundinterest/quaterlytime.json",
+      "Find Rate": "maths/compoundinterest/findrate.json",
+      "Find Time": "maths/compoundinterest/findtime.json",
+      "Sum Becomes N-Times": "maths/compoundinterest/ntimes.json",
+      "CI & SI Combined": "maths/compoundinterest/ciandsi.json",
+      "CI - SI Difference": "maths/compoundinterest/cisidifference.json",
+      "Installments": "maths/compoundinterest/installment.json",
+      "Type 6 Advanced": "maths/compoundinterest/type6.json",
+      "CI Miscellaneous": "maths/compoundinterest/misc.json"
     },
     "⏱️ Time & Work": {
       "Two Variables": "maths/timeandwork/twovariable.json",
@@ -348,6 +365,11 @@
     "🧠 Nervous System": "static/biology/nervous.json",
     "🚼 Reproduction System": "static/biology/reproduction.json",
     "🫁 Respiratory System": "static/biology/respiratory.json",
+    "🐾 Animal Kingdom": "static/biology/animal_kingdom.json",
+    "🐟 Vertebrate Classes": "static/biology/animal_kingdom2.json",
+    "🌿 Scientific Names": "static/biology/scientific_names.json",
+    "🔬 Biology Basics & Discoveries": "static/biology/bio_basics.json",
+    "🐝 Applied Biology": "static/biology/applied_bio.json",
     "📦 Biology Mix Set 1": "static/biology/misc.json",
     "📦 Biology Mix Set 2": "static/biology/misc2.json"
   },
@@ -385,5 +407,20 @@
     "🚀 Govt Schemes & Initiatives": "static/economy/schemes.json",
     "🔥 Most Important Economy MCQs": "static/economy/mostimp.json",
     "📦 Economy Miscellaneous": "static/economy/misc.json"
+  },
+  "bihar_special_mapping": {
+    "Ancient & Medieval Bihar - Magadha, Pataliputra, Palas & Sufis": "bihar_special/history/bihar_history_ancient_medieval.json",
+    "European Companies & the Dutch in Bihar (1759-1782)": "bihar_special/history/bihar_history_dutch_europeans.json",
+    "Modern Bihar - 1857, the Freedom Movement & Reform Movements": "bihar_special/history/bihar_history_1857_freedom_reform.json",
+    "Patna District - City, Settlement, Land & Survey (18th-19th Century)": "bihar_special/history/bihar_history_patna_modern.json",
+    "Castes, Tribes & Languages of Bihar & the Patna District": "bihar_special/society/bihar_society_castes_tribes.json",
+    "Religion, Folk Beliefs & Songs of the Patna District": "bihar_special/society/bihar_society_religion_folk.json",
+    "Census, Population, Village Officials, Education & Rural Life": "bihar_special/society/bihar_society_census_population.json",
+    "Bihar Physical Geography, Rivers, Soils, Districts & Wildlife": "bihar_special/geography/bihar_geography_physical_features.json",
+    "Minerals, Rocks & the Survey Tracts of South Bihar": "bihar_special/geography/bihar_geography_resources_survey.json",
+    "Art, Culture, Crafts & Heritage of Bihar": "bihar_special/art_culture/bihar_art_culture_heritage.json",
+    "Bihar Economy, Industry, Transport & the Dutch Cession": "bihar_special/economy/bihar_economy_industry_transport.json",
+    "Bihar Polity, Governance & State Reorganisation": "bihar_special/polity/bihar_polity_governance.json",
+    "Bihar Personalities, Writers & Reformers": "bihar_special/general/bihar_personalities.json"
   }
 }
