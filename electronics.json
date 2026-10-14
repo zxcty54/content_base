@@ -1,0 +1,116 @@
+[
+  {
+    "p_id": "gs_phy_el_01",
+    "qe": "A 'n-type' semiconductor is obtained by doping silicon with which type of impurity, and what are the majority charge carriers?",
+    "qh": "सिलिकॉन को किस प्रकार की अशुद्धि मिलाकर 'n-प्रकार' अर्धचालक बनाया जाता है, तथा उसमें बहुसंख्यक आवेश वाहक कौन होते हैं?",
+    "oe": [
+      "Trivalent impurity such as boron; holes",
+      "Pentavalent impurity such as phosphorus; electrons",
+      "Trivalent impurity such as phosphorus; electrons",
+      "Pentavalent impurity such as boron; holes"
+    ],
+    "oh": [
+      "भोरॉन जैसी त्रिसंयोजी अशुद्धि; कोटर (holes)",
+      "फॉस्फोरस जैसी पंचसंयोजी अशुद्धि; इलेक्ट्रॉन",
+      "फॉस्फोरस जैसी त्रिसंयोजी अशुद्धि; इलेक्ट्रॉन",
+      "भोरॉन जैसी पंचसंयोजी अशुद्धि; कोटर"
+    ],
+    "a": 1,
+    "e": "Shuddh silicon me chaaron taraf se chaar electron bandhe hote hain. Jab usme paanch mukhya electron wali panchsanyoji ashuddhi (pentavalent impurity) - jaise phosphorus, arsenic ya antimony - daali jaati hai, to char electron bandhan me lag jaate hain aur paanchwa electron muzt reh jaata hai. Yahi muzt electron vidyut pravah karate hain, isliye aise ardhchalak ko n-type kehte hain (n = negative, kyunki vaahak electron negative hote hain) aur bahusankhyak vaahak electron hote hain. Iske ulta, jab trisanyoji ashuddhi (boron, aluminium, indium) daali jaati hai, to ek electron ki kami se ek khaali sthan ya 'kota' (hole) banta hai; use p-type kehte hain aur bahusankhyak vaahak kota hote hain. Isliye 'trisanyoji boron tatha electron' ya 'panchsanyoji boron tatha kota' jaisi jodiyaan galat hain, kyunki ashuddhi ka prakar tatha vaahak dono ulta ho jaate hain. Exam point: n-type = panchsanyoji ashuddhi (phosphorus), bahusankhyak vaahak electron; p-type = trisanyoji ashuddhi (boron), bahusankhyak vaahak kota."
+  },
+  {
+    "p_id": "gs_phy_el_02",
+    "qe": "A p-n junction diode allows current to flow:",
+    "qh": "p-n संधि डायोड धारा को बहने देता है -",
+    "oe": [
+      "In both directions equally",
+      "Mainly in forward bias, i.e. when p is connected to the positive terminal and n to the negative terminal",
+      "Only when connected to an alternating source",
+      "Only when both p and n are connected to the positive terminal"
+    ],
+    "oh": [
+      "दोनों दिशाओं में समान रूप से",
+      "मुख्यतः अग्र अभिनति में, अर्थात् p को धन टर्मिनल तथा n को ऋण टर्मिनल से जोड़ने पर",
+      "केवल प्रत्यावर्ती स्रोत से जोड़ने पर",
+      "केवल जब p तथा n दोनों धन टर्मिनल से जुड़े हों"
+    ],
+    "a": 1,
+    "e": "p-n junction diode ek adhichalak yantra hai jisme p-type tatha n-type ardhchalak jode jaate hain. Jab p-side ko positive tatha n-side ko negative terminal se joda jaata hai (ise agra abhinati ya forward bias kehte hain), to junction ke paas ka roka hat jaata hai aur dhara aasani se bahti hai; ise diode ka 'on' state kehte hain. Ulta connection karne par yaani ulta abhinati (reverse bias) me junction ki abrodhak parat chaudi ho jaati hai aur dhara na ke barabar rehti hai - ise 'off' state kehte hain; keval bahut kam 'leakej' dhara bahti hai. Isi khabhiyat ke karan diode ka upyog rectify - action me hota hai, jisse AC ko DC me badla jaata hai; anya prayogon me woh khata ke bina tarang ka 'pata lagane' (detector) ka kaam bhi karta hai. Isliye 'dono disha me samaan' ya 'dono terminal positive' wale vikalp galat hain. Exam point: diode = ek-tarfa dvara (forward bias me chalu, reverse bias me bandh); iska upyog rectifier me AC se DC banane ke liye hota hai."
+  },
+  {
+    "p_id": "gs_phy_el_03",
+    "qe": "A light emitting diode (LED) works on the principle that it:",
+    "qh": "प्रकाश उत्सर्जक डायोड (LED) किस सिद्धांत पर कार्य करता है?",
+    "oe": [
+      "Converts light into electrical energy when reverse biased",
+      "Converts electrical energy into light when a current is passed through it in forward bias",
+      "Works as a variable resistor whose resistance changes with light",
+      "Stores charge like a capacitor and releases light on discharge"
+    ],
+    "oh": [
+      "उलटी अभिनति में प्रकाश को विद्युत ऊर्जा में बदलता है",
+      "अग्र अभिनति में धारा प्रवाहित करने पर विद्युत ऊर्जा को प्रकाश में बदलता है",
+      "प्रकाश के साथ प्रतिरोध बदलने वाले परिवर्ती प्रतिरोधक की तरह काम करता है",
+      "संधारित्र की तरह आवेश संचित करके विसर्जन पर प्रकाश देता है"
+    ],
+    "a": 1,
+    "e": "LED ek vishesh prakar ka p-n junction diode hai jisme kuchh aise padarth (jaise gallium arsenic phosfide) ka istemal hota hai jo agra abhinati (forward bias) me ek electron tatha ek kota ke milan par urja ko prakash ke roop me bahar nikalte hain. Isi karan LED vidyut urja ko prakash urja me badalta hai tatha bijli ki khapat bahut kam karta hai, isliye ghar-gar me bulb, traffic signal tatha torches me LED ka upyog badh gaya hai. Prashn me 'light into electrical energy' (prakash se bijli) wala vikalp ulta hai - woh khoobi LED ke ulta 'solar cell' ki hoti hai (photovoltaic effect). Photo-diode ya LDR ka kaam prakash ke hisaab se dhara ya pratirodh badalna hota hai, isliye teesa vikalp unke liye sahi hai, LED ke liye nahi. LED kisi aavesh ko sanchit karke nahi rakhta, isliye capacitor jaisa vyavahar nahi karta. Exam point: LED = agra abhinati me vidyut urja ka prakash me rupantaran (electroluminescence); solar cell = prakash se bijli; LDR/photo-diode = prakash se pratirodh/dhara badalna (yahi jodiyaan prashn me baar-baar poochhi jaati hain)."
+  },
+  {
+    "p_id": "gs_phy_el_04",
+    "qe": "The transistor, which revolutionised electronics, was invented in 1947 at Bell Laboratories by:",
+    "qh": "इलेक्ट्रॉनिकी में क्रांति लाने वाले ट्रांजिस्टर का आविष्कार 1947 में बेल प्रयोगशाला में किसने किया?",
+    "oe": [
+      "John Bardeen, Walter Brattain and William Shockley",
+      "Michael Faraday and James Clerk Maxwell",
+      "Guglielmo Marconi and Karl Ferdinand Braun",
+      "Alexander Graham Bell and Thomas Edison"
+    ],
+    "oh": [
+      "जॉन बार्डीन, वाल्टर ब्रैटन तथा विलियम शॉक्ले",
+      "माइकल फैराडे तथा जेम्स क्लर्क मैक्सवेल",
+      "गुग्लिएल्मो मार्कोनी तथा कार्ल फर्डिनेंड ब्राउन",
+      "अलेक्जेंडर ग्राहम बेल तथा थॉमस एडिसन"
+    ],
+    "a": 0,
+    "e": "Transistor ka aavishkar 1947 me America ki Bell Laboratories me hua; John Bardeen, Walter Brattain tatha William Shockley ne milkar yeh kaam kiya, isliye teenon ko 1956 ka Physics ka Nobel Puraskar mila. Transistor ek ardhchalak (semiconductor) yantra hai jo chhoti si dhara se badi dhara ko niyantrit karta hai; isne bade aur bhaari valve (vacuum tube) ki jagah li, jisse radio, TV, computer tatha mobile phone jaisi chhoti aur sasti yantra-kranti sambhav hui. Michael Faraday tatha James Clerk Maxwell ke naam vidyut-chumbakiya prerna aur vidyut-chumbakiya tarangon ke siddhanton se jude hain, transistor se nahi. Marconi tatha Braun ka naam radio sanchar se juda hai (Braun ko 1909 me Nobel mila). Alexander Graham Bell ne telephone banaya aur Thomas Edison ne bulb-bijli ke kshetra me kaam kiya; inme se kisi ne transistor nahi banaya. Exam point: transistor = 1947, Bell Labs, John Bardeen, Walter Brattain tatha William Shockley (Nobel 1956)."
+  },
+  {
+    "p_id": "gs_phy_el_05",
+    "qe": "In a semiconductor, when the temperature is increased, its electrical resistance generally:",
+    "qh": "अर्धचालक में तापमान बढ़ाने पर उसका विद्युत प्रतिरोध सामान्यतः -",
+    "oe": [
+      "Increases, as in metals",
+      "Decreases, because more charge carriers are generated",
+      "Remains exactly constant",
+      "Becomes zero suddenly at room temperature"
+    ],
+    "oh": [
+      "धातुओं की तरह बढ़ जाता है",
+      "घट जाता है, क्योंकि अधिक आवेश वाहक उत्पन्न होते हैं",
+      "बिल्कुल अपरिवर्तित रहता है",
+      "कमरे के तापमान पर अचानक शून्य हो जाता है"
+    ],
+    "a": 1,
+    "e": "Dhatu (metal) tatha ardhchalak (semiconductor) me tapaman ka prabhav ulta hota hai. Dhatu me tapaman badhne par aayan (ions) ki kaampan badhti hai, jisse electron ka rasta rokta hai aur pratirodh badh jaata hai - isliye bulb ka taar (filament) garam hokar zyada pratirodh deta hai. Ardhchalak me ulta hota hai: tapaman badhne par zyada electron-kota jode (electron-hole pairs) bante hain, yaani aavesh vaahak badh jaate hain, isliye pratirodh ghat jaata hai tatha dhara badh jaati hai. Yahi karan hai ki ardhchalak ka tapaman-gunank (temperature coefficient) rin (negative) hota hai; isi gun se thermistor jaise yantra tapaman naapne me kaam aate hain. 'Dhatuon ki tarah badhta hai', 'sada sthir', ya 'kamre ke tapaman par shunya' - yeh teeno kathan semiconductor ke vyavahar se mel nahi khaate. Exam point: dhatu = tapaman badhne par pratirodh badhta hai (positive coefficient); ardhchalak = tapaman badhne par pratirodh ghatta hai (negative coefficient), kyunki vaahak badh jaate hain."
+  },
+  {
+    "p_id": "gs_phy_el_06",
+    "qe": "Which of the following is an intrinsic (pure) semiconductor?",
+    "qh": "निम्नलिखित में से कौन-सा आंतरिक (शुद्ध) अर्धचालक है?",
+    "oe": [
+      "Silicon doped with phosphorus",
+      "Pure silicon and pure germanium",
+      "Silicon doped with boron",
+      "Copper and aluminium"
+    ],
+    "oh": [
+      "फॉस्फोरस मिलाया हुआ सिलिकॉन",
+      "शुद्ध सिलिकॉन तथा शुद्ध जरमेनियम",
+      "बोरॉन मिलाया हुआ सिलिकॉन",
+      "ताँबा तथा एल्यूमिनियम"
+    ],
+    "a": 1,
+    "e": "Ardhchalak do tarah ke hote hain - antarik (intrinsic) yaani shuddh, tatha bahya (extrinsic) yaani ashuddhi-milaya hua. Antrik ardhchalak me koi bahari ashuddhi nahi hoti; usme vaahak electron tatha kota dono barabar sankhya me hote hain aur unka nirman keval tapaman ke karan hota hai. Shuddh silicon tatha shuddh germanium is ke prasiddh udaharan hain. Jab silicon me phosphorus (panchsanyoji) milaya jaata hai to woh n-type ban jaata hai, aur boron (trisanyoji) milane par p-type - isliye dono 'doped' ya bahya ardhchalak hain, antrik nahi. Tamba (copper) tatha aluminium achhe chalak (conductor) hain; unme vidyut aasani se bahti hai, isliye woh ardhchalak nahi hain. Isliye is prashn ka sahi jawab shuddh silicon tatha shuddh germanium hai. Exam point: antrik (intrinsic) ardhchalak = shuddh silicon ya germanium; n-type = panchsanyoji ashuddhi; p-type = trisanyoji ashuddhi; tamba tatha aluminium chalak hain."
+  }
+]

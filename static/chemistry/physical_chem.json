@@ -3,121 +3,121 @@
     "qe": "Which of the following concentration terms does NOT change with a change in temperature?",
     "qh": "निम्नलिखित में से कौन सा सांद्रता पद तापमान बदलने पर नहीं बदलता है?",
     "o": [
-      "Molarity",
       "Molality",
       "Normality",
-      "Formality"
+      "Formality",
+      "Molarity"
     ],
-    "a": 1,
-    "e": "Molality mass par aadharit hoti hai ($moles/kg$), jabki Molarity aur Normality volume par depend karti hain jo temperature badhne par expand hota hai."
+    "a": 0,
+    "e": "Molality (mol/kg solvent) mass par aadharit hoti hai, aur dravyaman (mass) tapman ke saath nahi badalta, isliye molality temperature badalne par bhi waisi hi rehti hai. Molarity (mol/L) aur normality volume par aadharit hote hain, aur drav ka aayatan (volume) garam karne par fail jaata hai, isliye tapman badalne par molality ke alawa molarity aur normality badal jaate hain. Mole fraction bhi mass-ratio jaisa hota hai par paribhasha mein yahi sthir rah sakta hai. Exam point: temperature se na badalne wala concentration term = molality, kyunki ye solvent ke mass par tika hai, volume par nahi."
   },
   {
     "qe": "What is the 'Coordination Number' of an atom in a Face-Centered Cubic (FCC) unit cell?",
     "qh": "एक फलक-केंद्रित घनीय (FCC) एकक कोष्ठिका में परमाणु की 'उपसहसंयोजन संख्या' (Coordination Number) क्या होती है?",
     "o": [
-      "6",
-      "8",
       "12",
-      "4"
+      "8",
+      "4",
+      "6"
     ],
-    "a": 2,
-    "e": "FCC crystal lattice me har atom apne plane ke 4, upar ke 4 aur niche ke 4 atoms ke direct contact me rehta hai, isliye CN = 12 hota hai."
+    "a": 0,
+    "e": "FCC (face-centred cubic) lattice mein har corner atom 8 cells mein baanta jaata hai aur har face atom 2 cells mein, isliye ek cell ke hisse mein 4 atom aate hain; har atom ke sabse nazdeek 12 padosi (6 face ke aur 6 apne hi plane ke) hote hain, isliye coordination number 12 hai. 8 aur 6 to simple cubic aur BCC ke liye hote hain. Yaad rakhein: packing efficiency 74% ke saath FCC sabse ghana (densest) arrangement hai (ccp/hcp jaisa). Exam point: FCC ka coordination number 12 aur per-cell atom 4 hote hain (packing efficiency 74 percent)."
   },
   {
     "qe": "Which gas law states that the solubility of a gas in a liquid is directly proportional to its partial pressure?",
     "qh": "कौन सा नियम बताता है कि किसी द्रव में गैस की विलेयता उसके आंशिक दाब के समानुपाती होती है?",
     "o": [
-      "Raoult's Law",
-      "Henry's Law",
       "Dalton's Law",
-      "Graham's Law"
+      "Graham's Law",
+      "Henry's Law",
+      "Raoult's Law"
     ],
-    "a": 1,
-    "e": "Henry's Law ($p = K_H \\cdot x$) ke anusar gas ka pressure badhane par liquid me uski solubility badhti hai; yahi kaaran hai ki soda bottles high pressure par pack hoti hain."
+    "a": 2,
+    "e": "Henry's Law kehta hai ki gas ka vilayata (solubility) uske aanshik dabav (partial pressure) ke samanupati hoti hai, yaani p = KH.x; isi karan soda ki bottle mein zyada CO2 dabav par zyada gas ghulti hai aur cap kholte hi dabav girne se gas nikal jaati hai. Boyle, Charles aur Graham ke niyam gas ke aayatan-tapman ya bahav (diffusion) se jude hain, vilayata se nahi. Exam point: gas ki drvata uske partial pressure ke samanupati hoti hai = Henry's Law, aur uski constant KH tapman badhne par ghata hai."
   },
   {
     "qe": "Which stoichiometric defect in ionic solids causes a decrease in the density of the crystal?",
     "qh": "आयनिक ठोसों में कौन सा रससमीकरणमितीय दोष क्रिस्टल के घनत्व को कम कर देता है?",
     "o": [
-      "Frenkel Defect",
+      "Metal Excess Defect",
       "Schottky Defect",
-      "Interstitial Defect",
-      "Metal Excess Defect"
+      "Frenkel Defect",
+      "Interstitial Defect"
     ],
     "a": 1,
-    "e": "Schottky defect me crystal lattice se barabar sankhya me cations aur anions gayab ho jaate hain, jisse volume same rehta hai par mass ghatne se density kam ho jaati hai."
+    "e": "Schottky defect mein dhanayan (cation) aur rinayan (anion) dono barabar sankhya mein lattice chhod dete hain, isliye cell ka aayatan wahi rehta hai par andar ke ion kam ho jaate hain - natija: ghanatva (density) ghat jaata hai. Frenkel defect mein koi ion apni jagah se hat kar interstitial sthaan mein chala jaata hai, jisse ionon ki ginti wahi rehti hai aur ghanatva bhi nahi girta. Metal excess defect ion ki adhikta batata hai. Exam point: density ghatane wala stoichiometric defect = Schottky defect (cation aur anion dono gayab), jo zyada coordination number wale ionic solids mein hota hai."
   },
   {
     "qe": "Two solutions are said to be 'Isotonic' when they possess the same:",
     "qh": "दो विलयनों को 'समपरासारी' (Isotonic) तब कहा जाता है जब उनका समान होता है:",
     "o": [
-      "Molarity",
-      "Osmotic Pressure",
       "Boiling point",
-      "Vapor pressure"
+      "Vapor pressure",
+      "Molarity",
+      "Osmotic Pressure"
     ],
-    "a": 1,
-    "e": "Isotonic solutions ka osmotic pressure ($\\pi_1 = \\pi_2$) samaan hota hai, isliye semi-permeable membrane ke aar-paar koi net solvent flow nahi hota."
+    "a": 3,
+    "e": "Isotonic solutions wo hote hain jinmein samaan molar concentration ke kaaran samaan parasarjan dabav (osmotic pressure) ho - dono taraf solution ka star (level) isliye nahi badalta, kyunki paani ka net bahav dono or barabar hai. Isi gun se khoon-plasma (normal saline, 0.9%) jaise isotonic solutions intravenous (IV) drip ke liye banaye jaate hain. Ghanatva (density), shudhta (viscosity) ya rang (colour) isotonic hone ki shart nahi hain - Ye vikalp yahan sahi nahi hain. Exam point: isotonic solutions = samaan osmotic pressure wale, jo solution ke samaan molar concentration se milta hai."
   },
   {
     "qe": "Which amorphous solid is scientifically categorized as a 'Pseudo Solid' or Supercooled Liquid?",
     "qh": "किस अक्रिस्टलीय ठोस को वैज्ञानिक रूप से 'छद्म ठोस' या अतिशीतित द्रव (Supercooled Liquid) माना जाता है?",
     "o": [
       "Diamond",
-      "Glass",
       "NaCl",
+      "Glass",
       "Quartz"
     ],
-    "a": 1,
-    "e": "Glass me regular long-range crystal structure nahi hota aur ye centuries me gravity ke under bohot dheere flow kar sakta hai, isliye ise supercooled liquid kehte hain."
+    "a": 2,
+    "e": "Kaanch (glass) ek amorphus (anakristaleeya) thos hai jiska aantarik dhancha niyamit lattice ki jagah vikrit (irregular) hota hai, isliye ushe thanda karne par bhi padarth waisa hi rehta hai jaise drav mein tha - isi liye ise 'pseudo solid' ya atishit (supercooled) drav kehte hain. Quartz/SiO2 ka crystalline roop alag hai, graphite covalant network solid hai aur iodine molecular solid hai - Ye vikalp galat hain. Dhyan rakhein: amorphus solids isotropic hote hain (sab disha mein samaan gun) aur unka galaank (melting point) sharp nahi hota. Exam point: kaanch = pseudo solid/supercooled liquid (amorphus, isotropic), kyunki iska dhancha atishit drav jaisa bikhra hua hota hai."
   },
   {
     "qe": "What is the theoretical 'Van't Hoff Factor' (i) for a non-electrolyte solute like Glucose in aqueous solution?",
     "qh": "जलीय विलयन में ग्लूकोज जैसे गैर-विद्युतअपघट्य विलेय के लिए 'वैन हॉफ गुणांक' (i) का मान क्या होता है?",
     "o": [
+      "2",
       "0",
       "1",
-      "2",
       "0.5"
     ],
-    "a": 1,
-    "e": "Glucose ($C_6H_{12}O_6$) solution me na to dissociate hota hai aur na associate, isliye particles ki sankhya same rehti hai aur $i = 1$ hota hai."
+    "a": 2,
+    "e": "Van't Hoff factor (i) batata hai ki solute ghulne par kitne kan (particles) banate hain; glucose jaise non-electrolyte se na dissociate hota hai na associate, isliye ek molecule se ek hi kan banta hai aur i = 1 hota hai. NaCl ke liye i = 2, BaCl2 ke liye 3 aur benzoic acid jaise associate karne wale ke liye i < 1 hota hai - isliye 1 ke alawa anya maan galat hain. Exam point: non-electrolyte (glucose/urea) ka Van't Hoff factor i = 1 hota hai, kyunki ye na ionon mein tootta hai na judta hai."
   },
   {
     "qe": "The 'F-centers' created in non-stoichiometric alkali halide crystals are primarily responsible for their:",
     "qh": "क्षार धातु हैलाइड क्रिस्टल में उत्पन्न 'F-केंद्र' (F-centers) मुख्य रूप से उनके किस गुण के लिए उत्तरदायी होते हैं?",
     "o": [
-      "Hardness",
       "Color",
+      "Radioactivity",
       "Ferromagnetism",
-      "Radioactivity"
+      "Hardness"
     ],
-    "a": 1,
-    "e": "Anion vacancy me phanse hue unpaired electrons light energy absorb karke excite hote hain, jisse crystal me color paida hota hai (jaise NaCl ka peela rang)."
+    "a": 0,
+    "e": "F-centre (Farbzentrum) wo khaali jagah hoti hai jahan anion ke jaane ke baad electron fas (trapped) ho jaata hai; ye electron roshni ki khaas tarangdairdhya (wavelength) ko sokh (absorb) leta hai, isliye crystal rangeen dikhta hai - NaCl ka peela, KCl ka jamuni-baingani (violet) rang isi karan hota hai. Iska Vidyut chaalakta (conductivity), ghanatva (density) ya kathorta (hardness) se seedha sambandh nahi hai - Ye vikalp galat hain. Exam point: F-centre = anion ki jagah fas electron, jo light sokh kar kristal ko rang deta hai (metal excess defect ka udaharan)."
   },
   {
     "qe": "Colligative properties of a dilute solution depend exclusively on the:",
     "qh": "तनु विलयन के अणुसंख्य गुणधर्म (Colligative properties) केवल किस पर निर्भर करते हैं?",
     "o": [
-      "Chemical nature of solute",
+      "Viscosity of solution",
       "Number of solute particles",
       "Density of solvent",
-      "Viscosity of solution"
+      "Chemical nature of solute"
     ],
     "a": 1,
-    "e": "Colligative properties (jaise osmotic pressure, boiling point elevation) solute ke chemical identity ya nature par nahi, sirf solution me particles ke count par depend karti hain."
+    "e": "Colligative properties (vapour dabav ka girna, kvathank (boiling point) badhna, hiamank (freezing point) girna, osmotic pressure) sirf ghule hue kanon (solute particles) ki sankhya par nirbhar karte hain - solute ka aakaar, mass ya rasayanik swabhav koi farq nahi daalta. Isi liye ek mol glucose ka asar ek mol NaCl ke asar se alag hota hai (kyunki NaCl do ion deta hai). 'Solute ka prakar', 'solute ka aakaar' ya 'solvent ki matara' - ye properties ka aadhaar nahi hain. Exam point: colligative properties sirf solute kanon ki sankhya par nirbhar hoti hain, unke prakar ya aakaar par nahi."
   },
   {
     "qe": "What is the packing efficiency percentage of a 'Body-Centered Cubic' (BCC) crystal lattice?",
     "qh": "एक 'अंतःकेंद्रित घनीय' (BCC) क्रिस्टल जालक की संकुलन क्षमता (Packing Efficiency) कितने प्रतिशत होती है?",
     "o": [
-      "52.4%",
+      "100%",
       "68%",
       "74%",
-      "100%"
+      "52.4%"
     ],
     "a": 1,
-    "e": "BCC unit cell me atoms dwara occupy kiya gaya total volume 68% hota hai aur baaki 32% khali void space hota hai."
+    "e": "BCC lattice mein atom cell ke 8 konon (corners) par aur ek pura atom beech (body centre) mein hota hai, isliye per cell 2 atom bante hain aur packing efficiency 68% milti hai. Yahi karan hai ki BCC dhancha FCC (74%) se kam ghana hota hai; alpha-iron, chromium aur tungsten BCC ke udaharan hain. 52.4% simple cubic ka, 74% FCC/HCP ka aur 34% diamond-cubic ka hota hai - isliye ye aankde galat hain. Exam point: BCC ki packing efficiency 68% aur coordination number 8 hota hai; FCC ki 74% aur simple cubic ki 52.4% hoti hai."
   },
   {
     "qe": "Which colligative property is most suitable for determining the precise molar mass of biomolecules like Proteins and Polymers?",
@@ -125,35 +125,35 @@
     "o": [
       "Osmotic Pressure",
       "Relative lowering of vapor pressure",
-      "Elevation in boiling point",
-      "Depression in freezing point"
+      "Depression in freezing point",
+      "Elevation in boiling point"
     ],
     "a": 0,
-    "e": "Biomolecules high temperatures par degrade ho jaate hain; Osmotic pressure room temperature par measure hota hai aur dilute solution par bhi significant magnitude deta hai."
+    "e": "Osmotic pressure (parasarjan dabav) ki khaas baat hai ki ise bahut tanu (dilute) ghulaimaan mein bhi theek se maapa ja sakta hai, aur kyunki ye bada number deta hai (C, RT se guna hone ke karan), biomolecules jaise protein aur polymer ki molar mass bas isi vidhi se nikalti hai. Vapour dabav ka girna, kvathank badaut aur hiamank avana (depression) kam matara ke liye kaam karte hain, isliye wo precision nahi dete. Exam point: protein aur polymer jaise bade molecules ki molar mass osmotic pressure vidhi se nikalti hai, kyunki ye bahut tanu ghulaimaan mein bhi theek maapa ja sakta hai."
   },
   {
     "qe": "Which of the following is a true 'Crystalline Solid' exhibiting long-range order and a sharp melting point?",
     "qh": "निम्नलिखित में से कौन सा एक वास्तविक 'क्रिस्टलीय ठोस' है जो दीर्घ-परासी व्यवस्था और तीक्ष्ण गलनांक प्रदर्शित करता है?",
     "o": [
-      "Rubber",
+      "Glass",
       "Plastic",
-      "Quartz",
-      "Glass"
+      "Rubber",
+      "Quartz"
     ],
-    "a": 2,
-    "e": "Quartz ($SiO_2$) me regular tetrahedral long-range network hota hai aur iska melting point sharp hota hai, jabki glass amorphous hota hai."
+    "a": 3,
+    "e": "Quartz (SiO2) ka dhancha har jagah niyamit (long-range order) hota hai aur ushe garam karne par nishchit galaank (sharp melting point) par pighalta hai - yahi crystalline solid ki pehchaan hai. Kaanch (glass) ek amorphus solid hai jiska galaank nishchit nahi, rubber aur plastic jaise padarth bhi amorphus hote hain; plastic/bakelite polymer ke amorphus hisse hote hain. Yaad rakhein: crystalline solids anisotropic (disha ke hisaab se gun badalna) aur amorphus isotropic hote hain. Exam point: quartz ek sachcha crystalline solid hai - long-range order aur sharp melting point ke saath, isliye vidyut aur rashmiyan (optic) ke gun disha par nirbhar karte hain."
   },
   {
     "qe": "According to Le-Chatelier's principle, what happens to the solubility of a gas or solid when dissolution is 'Exothermic' and temperature is increased?",
     "qh": "ला-शातेलिए के सिद्धांत के अनुसार, जब घुलने की प्रक्रिया 'ऊष्माक्षेपी' हो और तापमान बढ़ाया जाए, तो विलेयता पर क्या प्रभाव पड़ता है?",
     "o": [
       "Increases",
-      "Decreases",
+      "Becomes infinite",
       "Remains unchanged",
-      "Becomes infinite"
+      "Decreases"
     ],
-    "a": 1,
-    "e": "Exothermic process ($\\Delta H < 0$) me heat release hoti hai; temperature badhane par equilibrium backward shift hota hai, jisse solubility ghat jaati hai."
+    "a": 3,
+    "e": "Le-Chatelier's principle kehta hai ki parkriya (equilibrium) par pade badlav ka asar us badlav ko hataane ki disha mein hota hai; jahan vivahani (dissolution) uchchashmik (exothermic, garmi deti hai) ho, wahan tapman badhane par agyakarm (equilibrium) peeche (left) khisak jaata hai, isliye vilayata (solubility) ghat jaati hai. Isi karan NaOH ya H2SO4 ko paani mein milane se ghulansheelta garmi par kam pad jaati hai, jabki endothermic (garmi lene wale) padarth jaise KNO3 ki vilayata garam paani mein badhti hai. 'Badhati hai', 'same rehti hai' ya 'ghulna band' - in teeno ka koi adhaar nahi. Exam point: exothermic dissolution mein tapman badhane par solubility ghat jaati hai; endothermic mein badhti hai (Le-Chatelier's principle)."
   },
   {
     "qe": "Which type of crystal defect is prominently displayed by 'Silver Chloride' (AgCl) crystals?",
@@ -162,250 +162,250 @@
       "Schottky Defect only",
       "Frenkel Defect",
       "Metal Deficiency Defect",
-      "None"
+      "None of these"
     ],
     "a": 1,
-    "e": "AgCl me $Ag^+$ cation ka size $Cl^-$ anion se kafi chhota hota hai, isliye $Ag^+$ ion apni normal site chhodkar interstitial void me chala jaata hai (Frenkel defect)."
+    "e": "Frenkel defect mein chhota dhanayan (cation) apni jagah chhod kar interstitial (beech ki khaali) jagah mein chala jaata hai; isse ionon ki kul sankhya nahi girti, isliye ghanatva (density) aur stoichiometry wahi rehti hai, par lattice mein vikriti ke karan AgCl, AgBr aur ZnS ki vidyut chaalakta badh jaati hai. Isi liye ye defect zyada polarization wale chhote cation-large anion jode mein dikhta hai (AgCl isi ka udaharan hai). Schottky defect ghanatva ghatata hai aur metal excess defect rang deta hai - isliye wo sahi jod nahi. Exam point: AgCl mein dikhne wala defect = Frenkel defect (cation interstitial mein), jisse density nahi girti par conductivity badhti hai."
   },
   {
     "qe": "What effect is observed on the 'Boiling Point' of water when a non-volatile solute like common salt is added?",
     "qh": "जब पानी में साधारण नमक जैसा अवाष्पशील विलेय मिलाया जाता है, तो इसके 'क्वथनांक' पर क्या प्रभाव पड़ता है?",
     "o": [
-      "Decreases",
       "Increases",
       "Remains unchanged",
+      "Decreases",
       "Becomes zero"
     ],
-    "a": 1,
-    "e": "Non-volatile solute milane se solution ka vapor pressure ghat jaata hai; isliye atmospheric pressure match karne ke liye zyada heat deni padti hai (Elevation in Boiling Point)."
+    "a": 0,
+    "e": "Non-volatile solute (jaise namak) paani ki satah par solute kanon ki upasthiti se vapour dabav ghatata hai (Raoult's Law), isliye drav ko bhaap banne ke liye zyada tapman chahiye - natija: kvathank (boiling point) badh jaata hai. Isi karan paani mein namak daalne se bhaap 100 degree C se upar par banti hai aur pasta jaldi pakaana aasaan hota hai; yahi principle anti-freeze aur 'sea water ka ublna' jaisi ghatnaon mein dikhta hai. Vapour dabav badhna ya hiamank badhna (freezing point upar jaana) galat hai kyunki non-volatile solute vapour dabav aur freezing point dono ghatata hai. Exam point: non-volatile solute daalne par boiling point badhta hai aur freezing point girta hai, kyunki solute vapour dabav ghatata hai."
   },
   {
     "qe": "What is 'Bragg's Law' equation used for calculating interplanar spacing in X-ray crystallography?",
     "qh": "एक्स-रे क्रिस्टलोग्राफी में जालक तलों के बीच की दूरी की गणना के लिए 'ब्रैग का नियम' समीकरण क्या है?",
     "o": [
-      "$n\\lambda = 2d \\sin\\theta$",
-      "$PV = nRT$",
       "$E = mc^2$",
+      "$PV = nRT$",
+      "$n\\lambda = 2d \\sin\\theta$",
       "$\\lambda = h/mv$"
     ],
-    "a": 0,
-    "e": "Bragg's equation $n\\lambda = 2d \\sin\\theta$ me $d$ crystal planes ke beech ka distance hai, $\\theta$ diffraction angle hai aur $\\lambda$ X-ray wavelength hai."
+    "a": 2,
+    "e": "Bragg ki samikaran n*(lambda) = 2d sin(theta) X-ray ke kristal par vivartan (diffraction) se kristal ki antar-satah doori (interplanar spacing, d) nikaalne ke liye istemal hoti hai; theta paravartan-kon aur n vivartan ki koti (order) batata hai. Isi vidhi se NaCl, DNA ke dhanche aur protein kristalon ki banavat khuli. Beer-Lambert, Maxwell-Boltzmann aur Nernst ki samikaranein alag vishyon ki hain - Ye vikalp is prashn ke sahi jod nahi hain. Exam point: d nikaalne ke liye Bragg's law n(lambda) = 2d sin(theta) istemal hoti hai; ye X-ray diffraction ka mukhya aadhaar hai."
   },
   {
     "qe": "Which concentration unit is mathematically employed in 'Henry's Law' formulation ($p = K_H \\cdot x$)?",
     "qh": "'हेनरी के नियम' के सूत्र में गैस की विलेयता दर्शाने के लिए किस सांद्रता इकाई का उपयोग किया जाता है?",
     "o": [
       "Molarity",
+      "Normality",
       "Mole Fraction",
-      "Molality",
-      "Normality"
+      "Molality"
     ],
-    "a": 1,
-    "e": "Henry's law formulation me liquid solution ke andar dissolved gas ki solubility ko uske mole fraction ($x$) ke roop me express kiya jaata hai."
+    "a": 2,
+    "e": "Henry's Law p = KH.x mein x mole fraction (mol ka hissa) hota hai, kyunki gas ki vilayata (solubility) drav mein uske mole-anupat ke roop mein vyakt hoti hai aur KH vilayata-kshirk (constant) dabav ke matrak mein hota hai. Molarity (mol/L) tapman ke saath badal jaati hai aur molality bhi maap se jude hone ke karan is samikaran mein sahi nahi baithti; percentage ke roop mein ghulansheelta likhne se gas ke dabav se seedha sambandh nahi banta. Isi liye hal-sambandhi ganit (problem solving) mein mole fraction hi istemal hota hai. Exam point: Henry's Law p = KH.x mein x = mole fraction; KH ka matrak dabav ka hota hai aur ye tapman badhne par badhta hai."
   },
   {
     "qe": "An extrinsic semiconductor prepared by doping Silicon (Group 14) with Phosphorus (Group 15) is classified as:",
     "qh": "सिलिकॉन (वर्ग 14) को फास्फोरस (वर्ग 15) के साथ डोप करके बनाया गया बाह्य अर्धचालक किस रूप में वर्गीकृत किया जाता है?",
     "o": [
-      "p-type semiconductor",
       "n-type semiconductor",
+      "p-type semiconductor",
       "Intrinsic semiconductor",
       "Superconductor"
     ],
-    "a": 1,
-    "e": "Phosphorus pentavalent hota hai; 4 electrons silicon lattice ke saath covalent bond banate hain aur 5va electron conduction ke liye free rehta hai (negative charge carriers = n-type)."
+    "a": 0,
+    "e": "Silicon (Group 14) ko phosphorus (Group 15) se dope karne par ek extra electron milta hai jo dhaanayan (negative charge ke le jaane wale electron) ki sankhya badhaata hai, isliye ye n-type (negative) semiconductor banta hai. Boron (Group 13) se doping karne par electron ki kami (hole) badhti hai aur p-type semiconductor banta hai. Yaad rakhein: doping se semiconductor ki chaalakta badhti hai aur p-n junction diode ka aadhaar yahi hai. Exam point: Group 15 element (phosphorus) se dope kiya silicon n-type semiconductor hota hai (electron bahul); Group 13 se dope karne par p-type banta hai."
   },
   {
     "qe": "Which thermodynamic criteria defines an 'Ideal Solution' obeying Raoult's Law at all concentrations?",
     "qh": "सभी सांद्रताओं पर राउल्ट के नियम का पालन करने वाले 'आदर्श विलयन' के लिए कौन सा ऊष्मागतिक मापदंड सही है?",
     "o": [
-      "$\\Delta H_{mix} = 0$ and $\\Delta V_{mix} = 0$",
       "$\\Delta H_{mix} > 0$ and $\\Delta V_{mix} > 0$",
+      "$\\Delta G_{mix} = 0$",
       "$\\Delta H_{mix} < 0$ and $\\Delta V_{mix} < 0$",
-      "$\\Delta G_{mix} = 0$"
+      "$\\Delta H_{mix} = 0$ and $\\Delta V_{mix} = 0$"
     ],
-    "a": 0,
-    "e": "Ideal solution me solute-solute aur solvent-solvent molecular attractions solute-solvent attraction ke barabar hote hain, isliye mixing par na heat exchange hoti hai na volume change."
+    "a": 3,
+    "e": "Ideal solution ki paribhasha yahi hai ki usmein Raoult's Law har concentration par lagu ho, jiske liye milane par enthalpy (Delta H mix) aur aayatan (Delta V mix) dono shunya hone chahiye - yaani A-A aur B-B ke aakarshan (interaction) A-B ke barabar ho. Benzene aur toluene ka ghulaimaan iska udaharan hai. Ghanatva (density) badalna, taap badalna ya visergi (entropy) shunya hona aavashyak nahi. Exam point: ideal solution ki pehchaan = Raoult's Law har concentration par + Delta H mix aur Delta V mix dono shunya."
   },
   {
     "qe": "Adding Ethylene Glycol to an automobile radiator in sub-zero climates prevents freezing because it:",
     "qh": "सर्दियों में ऑटोमोबाइल रेडिएटर में एथिलीन ग्लाइकोल मिलाने से पानी जमने से बचता है क्योंकि यह:",
     "o": [
+      "Decomposes into gas",
       "Increases the freezing point",
-      "Depresses the freezing point of water",
       "Boils the water",
-      "Decomposes into gas"
+      "Depresses the freezing point of water"
     ],
-    "a": 1,
-    "e": "Ethylene glycol non-volatile anti-freeze agent hai jo water ke freezing point ko significantly kam kar deta hai (Depression in Freezing Point)."
+    "a": 3,
+    "e": "Ethylene glycol (anti-freeze) paani ke hiamank (freezing point) ko gira deta hai, isliye paina (coolant) -35 degree C tak jama nahi hota aur radiator-engine barf se surakshit rehta hai; yahi kriya hiamank avana (freezing point depression) kehlati hai jo ghule hue kanon ki sankhya par nirbhar karti hai. Boiling point ki jagah freezing point par asar hota hai, vapour dabav badhne se hiamank badhta nahi aur garam karna jaroori nahi hota. Exam point: automobile radiator mein ethylene glycol freezing point giraata hai (hiamank avana) aur sath hi boiling point badha kar engine ko surakshit rakhta hai."
   },
   {
     "qe": "What type of solid crystal is 'Graphite' classified as based on its bonding?",
     "qh": "बंधन के आधार पर 'ग्रेफाइट' को किस प्रकार के ठोस क्रिस्टल के रूप में वर्गीकृत किया गया है?",
     "o": [
-      "Ionic solid",
       "Covalent Network solid",
       "Metallic solid",
+      "Ionic solid",
       "Molecular solid"
     ],
-    "a": 1,
-    "e": "Graphite me carbon atoms $sp^2$ hybridized hokar covalent network 2D hexagonal layers banate hain, jo aapas me weak van der Waals forces se judi rehti hain."
+    "a": 0,
+    "e": "Graphite mein har carbon atom sp2-sanyojit (hybridised) hokar teen carbon ke saath mazbut covalant bond banata hai aur uski vaibhavkari paratein (layers) weak van der Waals bal se judti hain, isliye ye covalant network solid hai (parat ke andar covalant bond, paraton ke beech durbal bond). Isi karan graphite narm, chipchipa aur vidyut-chaalak hota hai, jabki heera ka teen-aayami covalant dhancha hai. Metallic, ionic aur molecular - ye teeno graphite ke prakar nahi hain (metallic bond dhaatuon mein hota hai). Exam point: graphite covalant network solid hai - paraton mein covalant bond aur paraton ke beech durbal van der Waals aakarshan, isliye ye khuskhusa (soft) aur vidyut-chaalak hai."
   },
   {
     "qe": "What is the standard SI-derived unit of solution 'Molarity'?",
     "qh": "विलयन की 'मोलरता' (Molarity) की मानक इकाई क्या है?",
     "o": [
-      "mol/kg",
       "mol/L",
+      "mol/kg",
       "g/L",
       "mol/mol"
     ],
-    "a": 1,
-    "e": "Molarity 1 liter solution me dissolved solute ke moles ki sankhya hoti hai, isliye iska unit $moles/liter$ ($mol/L$ ya $M$) hota hai."
+    "a": 0,
+    "e": "Molarity ki paribhasha 'ghule hue padarth ke mol / ghulaimaan ka litre' hai, isliye iska vyavharik matrak mol/L (ya mol/dm3) hai. Isi karan laboratory mein 'M' wali bottle 1 mol/L dikhaati hai. Mol/kg molality (m) ka matrak hai, mol/m3 SI ka roop hai par aam rasayan vigyaan mein mol/L aur iske chhote hisse (mmol/L) zyada istemal hote hain; gram/L matrak nahi hota kyunki molarity mol ki ginti par tika hai. Exam point: molarity ka matrak mol/L (ya mol/dm3) hai; molality ka matrak mol/kg hota hai - dono alag concentration terms hain."
   },
   {
     "qe": "Zinc Oxide ($ZnO$) is white at room temperature but turns yellow on heating due to which crystal defect?",
     "qh": "जिंक ऑक्साइड ($ZnO$) कमरे के तापमान पर सफेद होता है लेकिन गर्म करने पर किस क्रिस्टल दोष के कारण पीला हो जाता है?",
     "o": [
       "Schottky Defect",
-      "Metal Excess Defect due to interstitial cations",
       "Frenkel Defect",
-      "Impurity Defect"
+      "Impurity Defect",
+      "Metal Excess Defect due to interstitial cations"
     ],
-    "a": 1,
-    "e": "Heating par $ZnO$ oxygen loose karta hai ($ZnO \\to Zn^{2+} + 1/2 O_2 + 2e^-$); trapped interstitial electrons yellow color ke liye responsible hote hain."
+    "a": 3,
+    "e": "ZnO ko garam karne par uske lattice se thoda oxygen nikal jaata hai aur zinc ke ion beech (interstitial) jagah mein aa jaate hain, sath hi electron fas jaate hain - is metal excess defect ke F-centre light sokh lete hain aur padarth peela dikhne lagta hai; thanda karne par wahi safed ho jaata hai. Frenkel defect mein density nahi girti par rang nahi aata, Schottky defect density ghatata hai aur substitutional impurity defects anya khaniz mein dikhte hain - isliye wo sahi nahi. Exam point: ZnO ka garam par peela hona aur thanda par safed hona = metal excess defect (interstitial cation + fas electron)."
   },
   {
     "qe": "In municipal drinking water purification plants, 'Reverse Osmosis' (RO) is achieved by applying:",
     "qh": "पेयजल शुद्धिकरण संयंत्रों में 'रिवर्स ऑस्मोसिस' (RO) की प्रक्रिया कैसे संपन्न की जाती है?",
     "o": [
       "Pressure equal to atmospheric pressure",
-      "Hydrostatic pressure greater than the osmotic pressure on the concentrated solution side",
       "Negative suction pressure on pure water side",
+      "Hydrostatic pressure greater than the osmotic pressure on the concentrated solution side",
       "High electrical voltage"
     ],
-    "a": 1,
-    "e": "Jab saline water par uske osmotic pressure se zyada bahari dabav lagaya jaata hai, to pure solvent semi-permeable membrane se hokar bahar nikal aata hai."
+    "a": 2,
+    "e": "Reverse osmosis mein khare paani ki taraf se osmotic pressure se badhkar hydrostatic dabav lagaya jaata hai, jisse paani shudh (fresh) taraf ulta (reverse) bhaagta hai aur namak peeche reh jaata hai - isi vidhi se samundar ka paani meetha kiya jaata hai aur RO purifiers ghar mein kaam karte hain. Kam dabav lagane par paani ulta nahi jayega (osMosis jaise hi chalega), paani garam karna ya namak milaana is kriya ka hissa nahi hai. Exam point: RO mein concentrated (namak wale) taraf se osmotic pressure se adhik hydrostatic dabav lagaya jaata hai, tabhi paani shudh taraf ulta bahata hai."
   },
   {
     "qe": "What is the total number of constituent atoms contained within a single 'Simple Cubic' (SC) unit cell?",
     "qh": "एक 'सरल घनीय' (Simple Cubic) एकक कोष्ठिका में कुल प्रभावी परमाणुओं की संख्या कितनी होती है?",
     "o": [
-      "1",
-      "2",
       "4",
-      "8"
+      "8",
+      "2",
+      "1"
     ],
-    "a": 0,
-    "e": "Simple cubic unit cell ke 8 corners par atoms hote hain; har corner atom ka contribution $1/8$ hota hai, isliye total atoms = $8 \\times (1/8) = 1$."
+    "a": 3,
+    "e": "Simple cubic (SC) lattice mein atom sirf aath konon (corners) par hote hain aur har corner atom 8 cell mein baanta jaata hai, isliye 8 x 1/8 = 1 atom per cell milta hai; isi karan SC ki packing efficiency sirf 52.4% hoti hai aur ye sabse kami ghana dhancha hai (polonium iska udaharan). 2 atom BCC ka, 4 atom FCC ka aur 6 atom HCP ka hota hai - isliye wo aankde sahi nahi. Exam point: simple cubic cell mein kul 1 atom hota hai (8 x 1/8), packing efficiency 52.4% aur coordination number 6."
   },
   {
     "qe": "Which of the following substances exhibits 'Paramagnetism' in solid state due to unpaired electron spins?",
     "qh": "अयुग्मित इलेक्ट्रॉन चक्रण के कारण निम्नलिखित में से कौन सा पदार्थ ठोस अवस्था में 'अनुचुंबकत्व' प्रदर्शित करता है?",
     "o": [
-      "$H_2O$",
-      "$NaCl$",
+      "$C_6H_6$",
       "$O_2$",
-      "$C_6H_6$"
+      "$NaCl$",
+      "$H_2O$"
     ],
-    "a": 2,
-    "e": "Molecular orbital theory ke anusar solid/liquid oxygen ($O_2$) ke antibonding $\\pi^*$ orbitals me do unpaired electrons hote hain, jo ise paramagnetic banate hain."
+    "a": 1,
+    "e": "Molecular oxygen (O2) ke antibonding (prati-bandhan) molecular orbital mein do ayugm (unpaired) electron hote hain, isliye uske prabal chumbakiya aaghoornan (magnetic moment) ke karan ye drav/thus avastha mein paramagnetic hota hai; isi karan drav oxygen chumbak ke paas chipak jaata hai. N2, CO2 aur H2O mein sab electron yugm (paired) mein hote hain, isliye wo diamagnetic (prati-chumbakiya) hain. Exam point: O2 paramagnetic hai kyunki uske pi-antibonding orbital mein do unpaired electron hote hain; baaki teeno vikalp ke molecules diamagnetic hain."
   },
   {
     "qe": "An 'Azeotropic Mixture' is characterized by which physical property during distillation?",
     "qh": "आसवन के दौरान 'स्थिरक्वाथी मिश्रण' (Azeotropic Mixture) किस भौतिक गुण द्वारा पहचाना जाता है?",
     "o": [
-      "Boiling at a constant temperature with identical liquid and vapor compositions",
-      "Separating easily into pure components",
+      "Freezing at room temperature",
       "Having zero vapor pressure",
-      "Freezing at room temperature"
+      "Boiling at a constant temperature with identical liquid and vapor compositions",
+      "Separating easily into pure components"
     ],
-    "a": 0,
-    "e": "Azeotrope ek constant-boiling liquid mixture hota hai jiska vapor phase composition liquid phase ke identical hota hai, isliye ise fractional distillation se alag nahi kiya ja sakta."
+    "a": 2,
+    "e": "Azeotrope (azeotropic mixture) wo mishran hota hai jo ek nishchit tapman par ubharta hai aur uske bhaap (vapour) aur drav (liquid) dono ki sanracna ek hi rehti hai - isliye sadharan aasavan (distillation) se unhe alag nahi kiya ja sakta. Ethanol-paani ka 95% azeotrope isi karan banta hai aur ise alag karne ke liye khaas vidhiyaan (jaise benzene daal kar) apnani padti hain. 'Alag tapman par ubhalna' ya 'alag sanracna' azeotrope ki pehchaan nahi hai, balki ulta hai. Exam point: azeotropic mishran sthir tapman par bhaap udta hai aur bhaap-liquid ki sanracna samaan rehti hai, isliye distillation se alag nahi hota."
   },
   {
     "qe": "Which metallic crystal property allows pure metals to be beaten into thin sheets without shattering?",
     "qh": "धातुओं का कौन सा क्रिस्टलीय गुण उन्हें बिना टूटे पतली चादरों में पीटे जाने की अनुमति देता है?",
     "o": [
+      "Hydrogen bonds",
       "Rigid directional covalent bonds",
       "Non-directional metallic bonding with a delocalized electron sea",
-      "Ionic crystal lattice",
-      "Hydrogen bonds"
+      "Ionic crystal lattice"
     ],
-    "a": 1,
-    "e": "Metallic lattice me positive ions ke layers free electron sea ke upar bina lattice fracture kiye aage slide kar sakti hain, jo malleability provide karta hai."
+    "a": 2,
+    "e": "Metallic bonding mein dhaatu ke valence electron poore lattice mein phail jaate hain (electron sea) aur ye bandhan disha-nirpeksh (non-directional) hota hai, isliye dhaatu par dabav daalne par paratein ek doosre ke upar khisak (slide) jaati hain bina bond toote - yahi lachilapan (malleability) deta hai. Ionic solid dabav se tute (brittle) hote hain kyunki unhe samaan aavesh wale ionon ke paas aa jaane se vikarshan (repulsion) hota hai; covalent network aur molecular solid bhi bhole (brittle) hote hain. Exam point: dhaatuon ko peeta (beaten) ja sakta hai kyunki unke bandhan disha-nirpeksh metallic bond + electron sea se bante hain, jo parat khisakne deta hai."
   },
   {
     "qe": "What is the calculated 'Molarity' of pure liquid water at 4°C (density = 1 g/mL)?",
     "qh": "4°C पर शुद्ध जल (घनत्व = 1 g/mL) की 'मोलरता' कितनी होती है?",
     "o": [
-      "1 M",
-      "18 M",
       "55.5 M",
-      "100 M"
+      "1 M",
+      "100 M",
+      "18 M"
     ],
-    "a": 2,
-    "e": "1 liter paani ka mass 1000g hota hai; water ka molar mass 18 g/mol hai, isliye $M = 1000 / 18 \\approx 55.55 \\text{ mol/L}$."
+    "a": 0,
+    "e": "4 degree C par paani ka ghantva (density) 1 g/mL hota hai, isliye 1 litre paani ka dravyaman 1000 g = 18 g/mol se bhaag dene par lagbhag 55.5 mol nikalta hai - yani shudh paani ki molarity 55.5 M hai. Ye aankda isliye mahatvapooran hai ki bahut tanu ghulaimaan mein paani ki molarity kareeb sthir rehti hai, jisse pseudo-first-order jaisi vidhiyaan banti hain. 18, 1 ya 100 aankde shudh paani ki molarity nahi hain (18 uski mol mass hai, 1 uski ghanatva). Exam point: 4 degree C par shudh paani ki molarity lagbhag 55.5 M hoti hai, kyunki 1 L mein 1000 g paani ke 55.5 mol hote hain."
   },
   {
     "qe": "Which type of point defect alters neither the density nor the chemical stoichiometry of an ionic crystal?",
     "qh": "किस प्रकार का बिंदु दोष आयनिक क्रिस्टल के घनत्व और रासायनिक रससमीकरणमिति दोनों को नहीं बदलता है?",
     "o": [
-      "Frenkel Defect",
-      "Schottky Defect",
       "Metal Excess Defect",
-      "Metal Deficiency Defect"
+      "Metal Deficiency Defect",
+      "Frenkel Defect",
+      "Schottky Defect"
     ],
-    "a": 0,
-    "e": "Frenkel defect me ion crystal se bahar nahi jaata, sirf apni jagah se hatkar interstitial site par chala jaata hai, isliye density aur stoichiometry dono same rehti hain."
+    "a": 2,
+    "e": "Frenkel defect mein ion apni jagah se hat kar beech (interstitial) jagah mein baith jaata hai, isliye ionon ki kul sankhya, ghanatva (density) aur rasayanik anupat (stoichiometry) teeno nahi badalte - sirf lattice mein vikriti aa jaati hai. Schottky defect mein ionon ki sankhya ghatne se ghanatva girta hai aur metal excess/impurity defect rang ya chaalakta badal dete hain. Dhyan rakhein: Frenkel defect zyada polarization wale jode (AgCl, ZnS) mein dekha jaata hai. Exam point: Frenkel defect ghanatva aur stoichiometry dono ko nahi badalta, kyunki ion sirf apni jagah se interstitial jagah mein jaata hai."
   },
   {
     "qe": "What causes the 'Abnormal Molar Mass' calculated from experimental colligative property measurements?",
     "qh": "प्रायोगिक अणुसंख्य गुणधर्म मापों से परिकलित 'असामान्य मोलर द्रव्यमान' का मुख्य कारण क्या होता है?",
     "o": [
       "Ideal gas deviations",
-      "Association or Dissociation of solute particles in the solvent",
       "Thermal expansion of glassware",
-      "Atmospheric humidity"
+      "Atmospheric humidity",
+      "Association or Dissociation of solute particles in the solvent"
     ],
-    "a": 1,
-    "e": "Solute agar solution me toot jaye (dissociation) ya jud jaye (association, jaise acetic acid dimer), to particle count badal jaata hai aur molar mass abnormal calculate hota hai."
+    "a": 3,
+    "e": "Colligative property (jaise hiamank avana ya osmotic pressure) siddhant roop mein solute kanon ki ginti par tiki hoti hai; par jab solute associate (judta) ya dissociate (tootta) hai to kanon ki asli sankhya badal jaati hai, isliye ganit se nikli molar mass 'asaadharan' (abnormal) aati hai. Udaharan: benzoic acid benzene mein dimer banata hai (molar mass lagbhag dugni dikhti hai) aur NaCl paani mein do ion deta hai (kali molar mass kam dikhti hai). Tapman, dabav ya bekar (impurity) is abnormal molar mass ke mukhya karan nahi hain. Exam point: abnormal molar mass ka karan solute kanon ka association ya dissociation hai, jise Van't Hoff factor i se sahi kiya jaata hai."
   },
   {
     "qe": "What is the percentage of unoccupied 'Void Space' in a Face-Centered Cubic (FCC) lattice?",
     "qh": "एक फलक-केंद्रित घनीय (FCC) जालक में अनावृत्त 'रिक्त स्थान' (Void Space) का प्रतिशत कितना होता है?",
     "o": [
-      "26%",
-      "32%",
+      "74%",
       "48%",
-      "74%"
+      "32%",
+      "26%"
     ],
-    "a": 0,
-    "e": "FCC unit cell ki packing efficiency 74% hoti hai, isliye khali void space $100 - 74 = 26\\%$ hota hai."
+    "a": 3,
+    "e": "FCC lattice mein atom total aayatan ka 74% bhar dete hain, isliye khaali (unoccupied) jagah 100 - 74 = 26% bachti hai - yahi void space kehlata hai. Isi khaali jagah mein chhote atoms ghul kar (interstitial) alloy banate hain, jaise steel mein carbon. 32%, 48% aur 52.4% aankde FCC ke void space se nahi milte (52.4% to simple cubic ki packing efficiency hai). Exam point: FCC lattice mein atom 74% jagah bharte hain, isliye void space 26% rehti hai, jismein chhote atoms (interstitial) baithe hain."
   },
   {
     "qe": "Which fundamental solution law states that $P_{solution} = P^0_{solvent} \\cdot X_{solvent}$ for non-volatile solutes?",
     "qh": "अवाष्पशील विलेय युक्त विलयनों के लिए कौन सा नियम बताता है कि $P_{solution} = P^0_{solvent} \\cdot X_{solvent}$?",
     "o": [
+      "Dalton's Law",
       "Henry's Law",
       "Raoult's Law",
-      "Graham's Law",
-      "Dalton's Law"
+      "Graham's Law"
     ],
-    "a": 1,
-    "e": "Raoult's Law ke anusar kisi solution me volatile solvent ka partial vapor pressure pure solvent ke vapor pressure aur uske mole fraction ke gunanfal ke barabar hota hai."
+    "a": 2,
+    "e": "Raoult's Law ka matlab hai ki ghulaimaan ka bhaap-dabav (vapour pressure) shudh solvent ke bhaap-dabav aur uske mole fraction ka guna hota hai, yaani P = P0.x(solvent); ye baat non-volatile solute wale tanu ghulaimaan ke liye nibhtati hai. Isi niyam se hiamank avana, kvathank badaut aur osmotic pressure nikalte hain. Henry ki samikaran gas ki vilayata ke liye hai, Dalton ki aanshik dabav jodne ke liye aur Charles ki gas ke aayatan-tapman ke liye - Ye vikalp galat hain. Exam point: P sol = P0 solvent x X solvent non-volatile solute wale tanu ghulaimaan ke liye Raoult's Law hai."
   },
   {
     "qe": "Substances like Iron, Cobalt, and Nickel that retain strong permanent magnetization even after removing an external magnetic field are termed:",
     "qh": "लोहा, कोबाल्ट और निकेल जैसे पदार्थ जो बाहरी चुंबकीय क्षेत्र हटाने के बाद भी स्थायी चुंबकत्व बनाए रखते हैं, कहलाते हैं:",
     "o": [
-      "Paramagnetic",
-      "Ferromagnetic",
       "Diamagnetic",
-      "Antiferromagnetic"
+      "Paramagnetic",
+      "Antiferromagnetic",
+      "Ferromagnetic"
     ],
-    "a": 1,
-    "e": "Ferromagnetic substances me magnetic domains magnetic field ki direction me permanently align ho jaate hain aur field hatane par bhi magnetized rehte hain."
+    "a": 3,
+    "e": "Iron, cobalt aur nickel ke atmaon mein ayugm (unpaired) electron ke bahut se qism (domains) hote hain jo ek hi disha mein sanrekhit (aligned) rehte hain; isliye bahari chumbakiya kshetra (magnetic field) hataane ke baad bhi ye apni chumbakta banaaye rakhte hain - aise padarth ferromagnetic kehlate hain. Paramagnetic padarth halka aakarshit hote hain par chumbak hataate hi apni chumbakta kho dete hain (Al, Na), aur diamagnetic padarth (Bi, Cu) chumbak se dhakel diye jaate hain. Exam point: Fe, Co, Ni ko ferromagnetic kehte hain kyunki ye bahari magnetic field hataane ke baad bhi sthayi chumbakta rakhte hain (domain alignment)."
   },
   {
     "qe": "Which solution concentration measure is independent of ambient temperature variations?",
@@ -417,115 +417,115 @@
       "Formality"
     ],
     "a": 2,
-    "e": "Molality solvent ke mass ($kg$) par aadharit hoti hai ($m = \\text{moles of solute} / \\text{kg of solvent}$); mass temperature badalne par change nahi hota."
+    "e": "Molality mol/kg(solvent) ke roop mein likhi jaati hai - ismein solvent ka dravyaman (mass) aata hai, aur mass tapman badalne par nahi badalta, isliye molality hi tapman-nirpeksh concentration term hai. Molarity, normality ya formality volume par tike hone ke karan garam-thanda hone par badalte hain (volume tapman ke saath fail-sikud jaati hai). Isi karan accurate kaam ke liye molality chuni jaati hai. Exam point: temperature se svatantra (independent) concentration term = molality (mol/kg solvent), kyunki ye mass par tika hai aur mass tapman se nahi badalta."
   },
   {
     "qe": "What is the Bravais crystal structure classification of Rock Salt ($NaCl$)?",
     "qh": "रॉक साल्ट ($NaCl$) का ब्रेविस क्रिस्टल संरचना वर्गीकरण क्या है?",
     "o": [
+      "Hexagonal Close Packed",
       "Simple Cubic",
-      "Face-Centered Cubic (FCC)",
       "Body-Centered Cubic",
-      "Hexagonal Close Packed"
+      "Face-Centered Cubic (FCC)"
     ],
-    "a": 1,
-    "e": "NaCl me $Cl^-$ ions FCC lattice banate hain aur $Na^+$ ions sabhi octahedral voids ko occupy karte hain, jisse coordination number 6:6 rehta hai."
+    "a": 3,
+    "e": "Rock salt (NaCl) mein har Na+ ion 6 Cl- ionon se ghera hota hai aur har Cl- ion 6 Na+ ionon se - yani har ion 6 paidoshiyon (neighbours) ke saath face-centred arrangement banata hai, isliye unit cell FCC (4 formula units) hota hai. Iske ulat CsCl BCC-type hota hai. Simple cubic, HCP ya orthorhombic NaCl ka dhancha nahi hain (orthorhombic BaSO4 jaisa hota hai) - Inhe sahi nahi maana jaata. Exam point: NaCl ka kristal dhancha FCC (face-centred cubic, coordination 6:6) hota hai. Yaad rakhein: isi liye NaCl ke liye per-cell 4 formula units hote hain."
   },
   {
     "qe": "The optical phenomenon of light scattering through colloidal dispersions that illuminates the beam path is the:",
     "qh": "कोलाइडल परिक्षेपण के माध्यम से प्रकाश के प्रकीर्णन की वह प्रकाशीय घटना जो किरण पथ को दृश्यमान बनाती है, कहलाती है:",
     "o": [
-      "Zeeman Effect",
       "Tyndall Effect",
+      "Zeeman Effect",
       "Stark Effect",
       "Raman Effect"
     ],
-    "a": 1,
-    "e": "Colloidal particles ka size visible light ke wavelength ke comparable (1-1000 nm) hota hai, jisse light scatter hokar visible path banati hai (Tyndall effect)."
+    "a": 0,
+    "e": "Tyndall effect light ke chhote kanon se bhinn-bhinn dishaon mein bikherne (scattering) se banta hai; colloid ke kan (1-1000 nm) light ki tarangdairdhya ke barabar hote hain, isliye beam ka maarg roshan dikhta hai (jaise dhoop mein dhool ya doodh mein light ki lakeer). Sachcha ghulaimaan (solution) mein kan bahut chhote hone ke karan scattering nahi hota aur suspension mein kan bade hone se light ruk hi jaati hai. Exam point: colloid mein light ki sek (path) chamakna = Tyndall effect, jo colloidal kanon ke light-scattering se hota hai (koloid aur solution mein bhed karne ki vidhi)."
   },
   {
     "qe": "What physical process governs the spontaneous passage of solvent molecules across a semi-permeable membrane into a higher solute concentration?",
     "qh": "विलायक के अणुओं का अर्ध-पारगम्य झिल्ली के माध्यम से उच्च विलेय सांद्रता वाले क्षेत्र में स्वतः प्रवाह क्या कहलाता है?",
     "o": [
-      "Effusion",
       "Osmosis",
       "Dialysis",
+      "Effusion",
       "Electrophoresis"
     ],
-    "a": 1,
-    "e": "Osmosis me solvent molecules chemical potential gradient ke mutabiq dilute solution se concentrated solution ki taraf SPM ke through move karte hain."
+    "a": 0,
+    "e": "Osmosis mein solvent ke ang (molecules) kam concentration wale hisse se zyada concentration wale hisse ki taraf ardha-paariparshvik (semi-permeable) jhili ke aar-paar khud-ba-khud (spontaneous) jaate hain, jisse doosri taraf ka parasarjan dabav (osmotic pressure) badhta hai. Isi kriya se paudhon mein paani jar se patton tak pahunchta hai aur koshikaayein (cells) sobat (swell) hote hain. Diffusion do ghulansheel padarthon ka aapas mein milna hai, evaporeshan (evaporation) bhaap banna hai aur filtration jhili se chhan-na hai - Ye vikalp galat hain. Exam point: ardha-paariparshvik jhili ke aar-paar solvent ka spontaneous pravah = osmosis, jisse santulit avastha par osmotic pressure milta hai."
   },
   {
     "qe": "What is the packing efficiency percentage of a simple primitive cubic unit cell?",
     "qh": "एक आद्य सरल घनीय (Primitive Simple Cubic) एकक कोष्ठिका की संकुलन दक्षता कितने प्रतिशत होती है?",
     "o": [
       "52.4%",
-      "68%",
       "74%",
-      "100%"
+      "100%",
+      "68%"
     ],
     "a": 0,
-    "e": "Simple cubic cell me atoms sirf corners par aapas me touch karte hain ($a = 2r$), jisse iska packing fraction $\\pi/6 \\approx 52.4\\%$ aata hai."
+    "e": "Simple primitive (SC) unit cell mein atom sirf konon (corners) par hote hain aur har atom ka sirf 1/8 hissa cell ke andar padta hai, isliye atom kul 1 banta hai aur atom ghere hue khaali bhag (void) ke karan packing efficiency sirf 52.4% hoti hai - yani ye sabse kami ghana (loosely packed) dhancha hai. BCC (68%) aur FCC (74%) isse ghana hote hain; 47.6% aur 74% diye aankde SC se nahi milte (47.6% SC ka void bhag hai, packing nahi). Exam point: simple cubic ki packing efficiency 52.4% (void 47.6%) hoti hai, aur iska coordination number 6 hai."
   },
   {
     "qe": "Which equation relates the osmotic pressure ($\\pi$) of a dilute solution to its molar concentration (C)?",
     "qh": "कौन सा समीकरण तनु विलयन के परासरण दाब ($\\pi$) को उसकी मोलर सांद्रता (C) से संबंधित करता है?",
     "o": [
       "$\\pi = CRT$",
+      "$\\pi = nRT$",
       "$\\pi = P \\cdot V$",
-      "$\\pi = K_b \\cdot m$",
-      "$\\pi = nRT$"
+      "$\\pi = K_b \\cdot m$"
     ],
     "a": 0,
-    "e": "Van't Hoff equation $\\pi = CRT$ (jahan $C = n/V$) gas law $PV = nRT$ ke bilkul analogous hoti hai."
+    "e": "Osmotic pressure (pi) tanu ghulaimaan ke liye ideal gas samikaran jaisa vyavhaar karti hai, isliye iska sambandh pi = CRT hai - jahan C molar concentration (mol/L) aur T paramm tapman (kelvin) hota hai. Isi samikaran se protein jaise bade molecules ki molar mass nikalte hain (n/V = pi/RT ka istemal). pi = nRT gas ke liye hai, pi = kH.p Henry's Law hai aur pi = mKf hiamank avana ka sutra hai - Ye vikalp galat hain. Exam point: tanu ghulaimaan ke osmotic pressure ka sutra pi = CRT hai (C = molarity, T = kelvin temperature); isi se molar mass nikalte hain."
   },
   {
     "qe": "The direction-dependent variation of physical properties like electrical conductivity and refractive index in crystalline solids is called:",
     "qh": "क्रिस्टलीय ठोसों में विद्युत चालकता और अपवर्तनांक जैसे भौतिक गुणों का दिशा-निर्भर परिवर्तन क्या कहलाता है?",
     "o": [
       "Isotropy",
-      "Anisotropy",
+      "Amorphism",
       "Polymorphism",
-      "Amorphism"
+      "Anisotropy"
     ],
-    "a": 1,
-    "e": "Crystalline solids me alag-alag axes ke along atomic arrangement alag hota hai, isliye mechanical aur optical properties direction-dependent (anisotropic) hoti hain."
+    "a": 3,
+    "e": "Anisotropy ka matlab hai ki kristal (crystalline solid) ke gun - jaise vidyut-chaalakta, roshni ka apvartan-ank (refractive index) ya yantrikiya kathorta - disha badalne par badal jaate hain, kyunki unka aantarik dhancha ek hi disha mein niyamit (ordered) hota hai. Isi karan mica patli parat mein alag aur moti disha mein alag vyavhaar karta hai. Isktropi (isotropy) amorphus padarthon ka gun hai, paramagnetism electron ke spin se aur bimbhbav (diffraction) X-ray ke saath hota hai - Ye vikalp sahi nahi hain. Exam point: crystalline solids mein gunon ka disha ke saath badalna = anisotropy; amorphus solids isotropic hote hain."
   },
   {
     "qe": "What is the theoretical Van't Hoff factor (i) for fully dissociated Barium Chloride ($BaCl_2$) in water?",
     "qh": "पानी में पूरी तरह से वियोजित बेरियम क्लोराइड ($BaCl_2$) के लिए सैद्धांतिक वैन हॉफ कारक (i) का मान क्या है?",
     "o": [
       "1",
-      "2",
       "3",
+      "2",
       "4"
     ],
-    "a": 2,
-    "e": "$BaCl_2$ 100% ionize hone par 1 $Ba^{2+}$ ion aur 2 $Cl^-$ ions deta hai ($1 + 2 = 3$ particles), isliye $i = 3$ hota hai."
+    "a": 1,
+    "e": "Barium chloride (BaCl2) paani mein ghul kar ek barium ion (Ba2+) aur do chloride ion (2Cl-) deta hai, yani ek formula unit se teen kan (particles) bante hain, isliye Van't Hoff factor i = 3 hota hai. Isi hisaab se iska prabhavi colligative asar (jaise hiamank avana) apne mol ke hisaab se teen guna zyada hota hai. NaCl ke liye i = 2, glucose ke liye i = 1 hota hai; 4 to aise ion dene wale lavan (jaise AlCl3 series ya K4[Fe(CN)6]) ke liye hota hai. Exam point: BaCl2 ka Van't Hoff factor i = 3, kyunki ek formula unit se 3 ion (1 Ba2+ aur 2 Cl-) bante hain."
   },
   {
     "qe": "Which crystal system is defined by parameters $a = b = c$ and $\\alpha = \\beta = \\gamma \\neq 90^\\circ$?",
     "qh": "किस क्रिस्टल निकाय को मापदंड $a = b = c$ और $\\alpha = \\beta = \\gamma \\neq 90^\\circ$ द्वारा परिभाषित किया जाता है?",
     "o": [
       "Cubic",
-      "Rhombohedral (Trigonal)",
       "Triclinic",
-      "Hexagonal"
+      "Hexagonal",
+      "Rhombohedral (Trigonal)"
     ],
-    "a": 1,
-    "e": "Rhombohedral system me teeno axial sides barabar hoti hain par teeno interfacial angles 90 degree nahi hote (jaise Calcite crystal me)."
+    "a": 3,
+    "e": "Ye parameters (a = b = c aur teen kon barabar par 90 degree se alag) rhombohidral (trigonal) kristal tantra ko darshate hain, jaise calcite (CaCO3) mein dikhta hai. Iske ulta: cubic mein teeno kon 90 degree hote hain, tetragonal mein a = b nahi lekin c alag, aur hexagonal mein do kon 90 aur ek 120 degree hota hai. Isi tarah parameters se hi kristal tantra (crystal system) ki pehchaan hoti hai. Exam point: a = b = c par kon barabar aur 90 degree se alag = rhombohidral (trigonal) system; cubic mein teeno kon 90 degree hone chahiye."
   },
   {
     "qe": "What is the kinetic 'Order of Reaction' when the rate of chemical transformation is completely independent of reactant concentration?",
     "qh": "जब रासायनिक रूपांतरण की दर अभिकारकों की सांद्रता से पूरी तरह स्वतंत्र होती है, तो गतिक 'अभिक्रिया की कोटि' क्या होती है?",
     "o": [
+      "Zero Order",
       "First Order",
       "Second Order",
-      "Zero Order",
       "Fractional Order"
     ],
-    "a": 2,
-    "e": "Zero-order reactions (Rate = $k[A]^0 = k$) me concentration badalne par reaction rate constant rehti hai (jaise metal surface par $NH_3$ decomposition)."
+    "a": 0,
+    "e": "Jab parkriya ki gati (rate) reactant ki sandrata (concentration) par bilkul nirbhar nahi karti, to gati samikaran rate = k hoti hai - yani concentration ki ghat (power) shunya hai, isliye ye zero order reaction kehlati hai. Aise kriyaon mein concentration ghatne par bhi rate wahi rehti hai (jaise kuchh satah-ubhrne wali ya enzyme/light wali kriyaayein); iska gati-kshirk (rate constant) k ka matrak mol/L/s hota hai. First, second ya fractional order mein rate concentration par nirbhar hoti hai - isliye wo sahi nahi. Exam point: concentration se independent rate = zero order reaction (rate = k), jiska rate constant gati ke barabar hota hai."
   },
   {
     "qe": "What is the mathematical equation for the 'Half-life' ($t_{1/2}$) of a first-order chemical reaction?",
@@ -537,19 +537,19 @@
       "$t_{1/2} = 2.303 / k$"
     ],
     "a": 0,
-    "e": "First-order reaction me half-life initial reactant concentration se bilkul independent hoti hai aur iska formula $t_{1/2} = \\ln(2)/k = 0.693/k$ hota hai."
+    "e": "First-order kriya ke liye rate = k[A] hota hai, aur ise samghatit (integrate) karne par ln[A] = ln[A]0 - kt milta hai; jab [A] = [A]0/2 rakhein to t1/2 = 0.693/k nikalta hai - isliye diya gaya sutra first order ke liye sahi hai. Dhyan dijiye ki first-order kriya ka adha-aayu (half-life) shuruaati concentration par nirbhar nahi karta (sthir hota hai), yahi radioaktiv kshetra (decay) ki pehchaan hai. Zero-order ke liye [A]0/2k, second-order ke liye 1/(k[A]0) hota hai; 2.303/k galat hai. Exam point: first-order reaction ki half-life t1/2 = 0.693/k hoti hai, jo shuruaati concentration se svatantra (sthir) rehti hai."
   },
   {
     "qe": "A positive catalyst accelerates the rate of a chemical reaction primarily by:",
     "qh": "एक धनात्मक उत्प्रेरक मुख्य रूप से क्या करके रासायनिक अभिक्रिया की दर को बढ़ाता है?",
     "o": [
-      "Increasing collision frequency",
-      "Providing an alternative reaction mechanism with lower Activation Energy ($E_a$)",
       "Increasing total enthalpy change ($\\Delta H$)",
+      "Providing an alternative reaction mechanism with lower Activation Energy ($E_a$)",
+      "Increasing collision frequency",
       "Decreasing temperature"
     ],
     "a": 1,
-    "e": "Catalyst reactant molecules ko ek lower activation energy ($E_a$) wala alternate transition pathway deta hai, jisse fraction of effective collisions badh jaata hai."
+    "e": "Uttaprerak (catalyst) kriya ka maarg (mechanism) badal deta hai aur ek aisa antar mukhya pad (intermediate) banata hai jiska sanchitkaran urja (activation energy, Ea) kam hota hai - kam Ea se adhik anu (molecules) kriya kar paate hain, isliye gati (rate) badh jaati hai. Catalist kriya ke agyakarm (equilibrium) constant ko nahi badalta, sirf us tak jaldi pahunchata hai; iska rasayanik sangathan (composition) kriya ke baad wahi rehta hai. Isi karan positive catalyst dono dishaon (forward aur backward) ko barabar tez karta hai. Exam point: positive catalyst kam activation energy wala vikalpik maarg (alternative mechanism) deta hai, isliye rate badhti hai par equilibrium constant nahi badalta."
   },
   {
     "qe": "According to Arrhenius kinetics, raising the reaction temperature by 10°C typically causes the reaction rate to:",
@@ -557,335 +557,335 @@
     "o": [
       "Remain unchanged",
       "Double or triple",
-      "Decrease by half",
-      "Drop to zero"
+      "Drop to zero",
+      "Decrease by half"
     ],
     "a": 1,
-    "e": "10°C temperature rise se threshold energy cross karne wale molecules ka fraction double ho jaata hai, jisse temperature coefficient $\\eta \\approx 2$ to $3$ hota hai."
+    "e": "Arrhenius ke anusar tapman badhane par anuon ki ausat gatisheel urja nahi, balki un anuon ki sankhya badhti hai jinmein sanchitkaran urja (threshold/activation energy) ya usse zyada urja hoti hai - isliye sankhyaatmak sambandh (rule of thumb) ke anusar har 10 degree C badhane par gati lagbhag 2 se 3 guna ho jaati hai (yaani double ya triple). Ye asar rate constant k = A.e^(-Ea/RT) mein tapman T ke har badlav se dikhta hai; refrigeration isi karan khana kharab hone se bachaata hai (rate kam karta hai). Exam point: tapman 10 degree C badhane par rate lagbhag 2 se 3 guna badhti hai, kyunki activation energy se adhik urja wale anuon ki sankhya badh jaati hai."
   },
   {
     "qe": "The 'Molecularity' of an elementary chemical reaction represents the:",
     "qh": "एक प्राथमिक रासायनिक अभिक्रिया की 'आणविकता' (Molecularity) क्या दर्शाती है?",
     "o": [
-      "Total stoichiometric mass",
       "Number of reacting species that collide simultaneously in an elementary step",
-      "Order of reaction always",
-      "Fractional power of concentration"
+      "Fractional power of concentration",
+      "Total stoichiometric mass",
+      "Order of reaction always"
     ],
-    "a": 1,
-    "e": "Molecularity ek theoretical concept hai jo single-step elementary collision me hissa lene wale molecules ka count hota hai; ye kabhi zero ya fractional nahi ho sakti."
+    "a": 0,
+    "e": "Molecularity (anu-sankhya) kriya ke ek mool (elementary) pad mein ek saath takraane wale kriya-karak kanon (reacting species) ki sankhya batati hai - jaise A + B -> C mein molecularity 2 hoti hai. Dhyan rakhein: molecularity sirf elementary step ke liye hoti hai, aur iske ulat order (gati-ghat) padarth ke prabhav se nikalti hai jo multiple steps wali kriya mein molecularity se mel nahi kha sakti. Katal (catalyst) ki matara, urja ya aayatan iski paribhasha mein nahi aate - Ye vikalp galat hain. Exam point: molecularity = elementary step mein ek saath takrane wale species ki sankhya (1, 2, 3), jo sirf elementary steps ke liye hoti hai."
   },
   {
     "qe": "What is the SI-derived unit of the 'Rate Constant' ($k$) for a first-order chemical reaction?",
     "qh": "प्रथम कोटि की रासायनिक अभिक्रिया के लिए 'वेग स्थिरांक' ($k$) की मानक इकाई क्या है?",
     "o": [
-      "mol L^-1 s^-1",
       "s^-1",
+      "L^2 mol^-2 s^-1",
       "L mol^-1 s^-1",
-      "L^2 mol^-2 s^-1"
+      "mol L^-1 s^-1"
     ],
-    "a": 1,
-    "e": "General formula $(\\text{mol/L})^{1-n} \\text{s}^{-1}$ me $n=1$ rakhne par unit time inverse yaani $s^{-1}$ (per second) banti hai."
+    "a": 0,
+    "e": "Rate law rate = k[A] se hi rate constant k = rate/[A] nikalta hai; iska matrak mol L^-1 s^-1 ko mol L^-1 se bhaag dene par s^-1 (per second) aata hai - yahi first-order rate constant ka SI matrak hai. Zero-order ke liye matrak mol/L/s, second-order ke liye L/mol/s hota hai; mol/L ya L/mol rate constant ke matrak nahi hain (ye concentration ke matrak hain). Isi tarah k ka matrak dekh kar kriya ka order pehchana ja sakta hai. Exam point: first-order kriya ke rate constant k ka matrak s^-1 (per second) hota hai; zero-order ka mol/L/s aur second-order ka L/mol/s hota hai."
   },
   {
     "qe": "What is the 'Threshold Energy' of a reacting molecular system defined as?",
     "qh": "अभिक्रियाशील आणविक निकाय की 'देहली ऊर्जा' (Threshold Energy) को कैसे परिभाषित किया जाता है?",
     "o": [
+      "Kinetic energy at absolute zero",
       "Minimum total energy that colliding molecules must possess to yield an effective chemical reaction",
       "Initial potential energy of reactants",
-      "Enthalpy of products",
-      "Kinetic energy at absolute zero"
+      "Enthalpy of products"
     ],
-    "a": 0,
-    "e": "Threshold Energy reactant molecules ki initial energy aur extra required Activation Energy ka sum hoti hai ($E_{th} = E_{initial} + E_a$)."
+    "a": 1,
+    "e": "Threshold energy ko aise samjhein: takraane wale anuon ko kriya karne ke liye ek nyoonatam kul urja chahiye hoti hai; is sthir avastha (reactant) ki urja se upar ki jo adhiktam urja wali avastha se guzarna padta hai, wahi threshold energy hai, aur iska antar activation energy (Ea) kehlata hai. Isi liye kam Ea wali kriya jaldi hoti hai aur catalyst aisa maarg deta hai jahan adhik anu is urja tak pahunch jaayein. Iski paribhasha katal (catalyst) ki matara, agyakarm constant ya mole fraction se nahi judi. Exam point: threshold energy = kriya karne ke liye anuon ko chahiye nyoonatam urja; reactant ki urja aur is threshold ke beech ka antar activation energy hota hai."
   },
   {
     "qe": "What is the overall 'Order of Reaction' for a process governed by the differential rate equation: $\\text{Rate} = k[A]^1[B]^1$?",
     "qh": "अवकल दर समीकरण: $\\text{Rate} = k[A]^1[B]^1$ का पालन करने वाली प्रक्रिया के लिए समग्र 'अभिक्रिया की कोटि' क्या है?",
     "o": [
-      "1",
+      "0",
       "2",
-      "3",
-      "0"
+      "1",
+      "3"
     ],
     "a": 1,
-    "e": "Rate law me concentration terms ke powers ka sum order of reaction hota hai ($1 + 1 = 2$, second order)."
+    "e": "Order of reaction gati samikaran mein sabhi reactant ki ghat (powers) ka yog hota hai, isliye rate = k[A]^1[B]^1 mein gati-ghat ka yog 1 + 1 = 2 hota hai - yani ye second-order kriya hai (kisi bhi ek reactant ke hisaab se pehla order). Yahi paribhasha rate = k[A]^2 wali kriya ke liye bhi 2 hi order deti hai, isliye order nikalne ke liye samikaran mein ghat gunna zaroori hai. Order ko rate = k[A]^0[B]^1 jaise aankadon se 1 ya 3 nahi kaha ja sakta. Exam point: rate = k[A]^1[B]^1 mein overall order = 1 + 1 = 2 (second-order reaction)."
   },
   {
     "qe": "What is the exponential form of the famous 'Arrhenius Equation' relating rate constant to temperature?",
     "qh": "वेग स्थिरांक को तापमान से संबंधित करने वाले प्रसिद्ध 'आरहेनियस समीकरण' का घातीय रूप क्या है?",
     "o": [
-      "$k = A e^{-E_a / RT}$",
-      "$k = A + E_a / RT$",
       "$k = E_a e^{-RT}$",
-      "$k = A \\ln(E_a / RT)$"
+      "$k = A e^{-E_a / RT}$",
+      "$k = A \\ln(E_a / RT)$",
+      "$k = A + E_a / RT$"
     ],
-    "a": 0,
-    "e": "Arrhenius equation $k = A e^{-E_a / RT}$ me $A$ frequency pre-exponential factor hai, $E_a$ activation energy hai aur $T$ absolute temperature hai."
+    "a": 1,
+    "e": "Arrhenius samikaran batati hai ki rate constant k tapman par kaise nirbhar karta hai - iska exponential roop k = A e^(-Ea/RT) hai, jahan A aavritti gunaank (frequency factor) aur Ea sanchitkaran urja hai; ye batati hai ki tapman badhane par k tezi se badhta hai. Log roop mein ln k = ln A - Ea/RT likha jaata hai jise graph se Ea nikalne ke liye istemal karte hain. k = A/T, k = RT/Ea aur k = Ea/RT ye roop nahi hain (ye ganit ke hisaab se galat hain). Exam point: Arrhenius samikaran ka exponential roop k = A e^(-Ea/RT) hai; isi se tapman ke saath rate constant ka badlav nikalta hai."
   },
   {
     "qe": "What is the formula for the 'Half-life' ($t_{1/2}$) of a zero-order chemical reaction?",
     "qh": "शून्य-कोटि की रासायनिक अभिक्रिया के 'अर्ध-आयुकाल' ($t_{1/2}$) का सूत्र क्या है?",
     "o": [
-      "$[A]_0 / 2k$",
-      "$0.693 / k$",
       "$1 / k[A]_0$",
+      "$0.693 / k$",
+      "$[A]_0 / 2k$",
       "$2k / [A]_0$"
     ],
-    "a": 0,
-    "e": "Zero-order reaction me integrated rate equation $[A] = [A]_0 - kt$ se half-life $t_{1/2} = [A]_0 / 2k$ aati hai, jo initial concentration ke directly proportional hai."
+    "a": 2,
+    "e": "Zero-order kriya mein rate = k hoti hai, aur uska samghatit (integrated) roop [A] = [A]0 - kt hota hai; aadhi concentration par ye t1/2 = [A]0/2k deta hai, isliye zero-order ki adha-aayu shuruaati concentration ke samanupati hoti hai. Iska matlab hai ki jaisi-jaisi concentration ghatti hai, adha-aayu chhoti hone ke bajaye wahi-stir rehti hai - samikaran yahi batata hai. 0.693/k first-order ki half-life hai, isliye wo vikalp galat hai. Exam point: zero-order reaction ki half-life t1/2 = [A]0/2k hoti hai, jo shuruaati concentration ke samanupati badalti hai."
   },
   {
     "qe": "The acid-catalyzed hydrolysis of cane sugar in vast excess water ($C_{12}H_{22}O_{11} + H_2O \\to C_6H_{12}O_6 + C_6H_{12}O_6$) is classified kinetically as a:",
     "qh": "अत्यधिक जल की उपस्थिति में गन्ने की चीनी का अम्ल-उत्प्रेरित जलअपघटन गतिक रूप से किस प्रकार वर्गीकृत किया जाता है?",
     "o": [
-      "Pure second order reaction",
-      "Pseudo-first-order reaction",
+      "Third order reaction",
       "Zero order reaction",
-      "Third order reaction"
+      "Pseudo-first-order reaction",
+      "Pure second order reaction"
     ],
-    "a": 1,
-    "e": "Water excess me hone se uski concentration lagbhag constant rehti hai, isliye bimolecular reaction first-order kinetics follow karti hai (Pseudo-unimolecular reaction)."
+    "a": 2,
+    "e": "Ganne ki chini ka hydrolysis (inversion) mein paani ki matara vast mein adhik hoti hai, isliye uski concentration vyavharik roop se sthir maani jaati hai aur uski ghat (power) rate samikaran se hat jaati hai - natija: rate sirf chini (sucrose) ki concentration par nirbhar karta hai, isliye ye pehla order jaisa dikhta hai. Aisee kriya ko pseudo-first-order (mITHya pehla order) kehte hain, kyunki asli order 2 hai par vyavharik order 1 milta hai. Zero, second ya fractional order iska sahi naam nahi. Exam point: bahut adhik paani mein chini ka acid-catalysed hydrolysis pseudo-first-order kriya hai, kyunki paani ki sthir concentration ke karan rate sirf sucrose par nirbhar karta hai."
   },
   {
     "qe": "Which thermodynamic law states that the net entropy of an isolated system always increases during spontaneous processes?",
     "qh": "ऊष्मागतिकी का कौन सा नियम कहता है कि स्वतः प्रक्रमों के दौरान एक विलगित निकाय की शुद्ध एन्ट्रॉपी हमेशा बढ़ती है?",
     "o": [
       "Zeroth Law",
-      "First Law",
       "Second Law",
+      "First Law",
       "Third Law"
     ],
-    "a": 2,
-    "e": "Second Law of Thermodynamics kehta hai ki universe me sabhi natural spontaneous processes me overall entropy change hamesha positive hota hai ($\\Delta S_{total} > 0$)."
+    "a": 1,
+    "e": "Second law of thermodynamics kehta hai ki kisi viyukt (isolated) tantra ka kul entropi spontaneous kriyaon mein badhta hi rehta hai, isliye kriya ki svatah-disha (spontaneity) entropi badlav se pehchani jaati hai. Isi niyam se heat engine ki seema (Carnot cycle) aur 'entropy of universe always increases' jaisa kathan banta hai. First law urja sanrakshan batata hai, third law paramm shunya par entropi batata hai aur zeroth law tapman-santulan ka hai - Ye vikalp galat hain. Exam point: isolated system mein spontaneous process ke liye total entropy badhta hai (Delta S > 0) - yahi second law of thermodynamics hai."
   },
   {
     "qe": "A thermodynamic 'Isolated System' is characterized by which boundary transfer conditions?",
     "qh": "एक ऊष्मागतिक 'विलगित निकाय' (Isolated System) किन सीमा स्थानांतरण स्थितियों द्वारा पहचाना जाता है?",
     "o": [
-      "Exchange of energy but not matter",
-      "Exchange of matter but not energy",
+      "Exchange of both matter and energy",
       "Exchange of neither energy nor matter with surroundings",
-      "Exchange of both matter and energy"
+      "Exchange of energy but not matter",
+      "Exchange of matter but not energy"
     ],
-    "a": 2,
-    "e": "Isolated system (jaise ideal thermos flask) ki boundaries rigid aur adiabatic hoti hain, isliye surrounding ke saath na heat ja sakti hai na mass."
+    "a": 1,
+    "e": "Isolated system mein seema (boundary) aisi hoti hai ki na urja (heat/work ke roop mein) bahar jaati hai aur na padarth (mass) badla ja sakta hai - jaise ek acchhi tarah badhi (insulated) flask. Isi karan aise tantra ka kul urja aur kul mass niyamit rehta hai aur entropi hi badhti hai. Closed system mein urja ka aadan-pradan hota hai par mass nahi; open system mein dono ka; isliye ye teeno vikalp isolated system ki paribhasha nahi hain. Exam point: isolated system mein na urja na padarth ka aadan-pradan hota hai (jaise thermos flask); closed mein sirf urja, open mein dono badalte hain."
   },
   {
     "qe": "What is the mathematical formulation of the 'First Law of Thermodynamics' based on conservation of energy?",
     "qh": "ऊर्जा संरक्षण पर आधारित 'ऊष्मागतिकी के प्रथम नियम' का गणितीय सूत्र क्या है?",
     "o": [
-      "$\\Delta U = q + w$",
-      "$\\Delta G = \\Delta H - T\\Delta S$",
+      "$w = -P \\Delta V$",
       "$\\Delta H = q_p$",
-      "$w = -P \\Delta V$"
+      "$\\Delta G = \\Delta H - T\\Delta S$",
+      "$\\Delta U = q + w$"
     ],
-    "a": 0,
-    "e": "First Law states $\\Delta U = q + w$; system ki internal energy change usko di gayi heat ($q$) aur uspar kiye gaye work ($w$) ke sum ke barabar hoti hai."
+    "a": 3,
+    "e": "First law of thermodynamics urja sanrakshan ka niyam hai - agar tantra par heat q di jaaye aur uspar kaam w kiya jaaye, to uski aantarik urja (internal energy) mein jitna badlav hoga wo un dono ka jod hoga, isliye Delta U = q + w likha jaata hai. Iska matlab hai ki urja na paida hoti hai na nasht hoti hai, sirf roop badalti hai (aaj-kal w = -P.Delta V ke saath ye samikaran padhai jaati hai). Delta U = q - w (agar kaam tantra dwara kiya gaye), Delta H = qp ya Delta S = qrev/T - ye anya sambandh hain, Ye vikalp galat hain. Exam point: first law ka roop Delta U = q + w hai (tantra par di gai heat aur kiye gaye kaam ka jod aantarik urja badalta hai)."
   },
   {
     "qe": "For a chemical or physical change to occur spontaneously at constant temperature and pressure, the change in Gibbs Free Energy ($\\Delta G$) must be:",
     "qh": "स्थिर तापमान और दाब पर किसी रासायनिक या भौतिक परिवर्तन के स्वतः होने के लिए, गिब्स मुक्त ऊर्जा में परिवर्तन ($\\Delta G$) क्या होना चाहिए?",
     "o": [
-      "Strictly positive ($\\Delta G > 0$)",
       "Strictly negative ($\\Delta G < 0$)",
-      "Zero ($\\Delta G = 0$)",
-      "Undefined"
+      "Strictly positive ($\\Delta G > 0$)",
+      "Undefined",
+      "Zero ($\\Delta G = 0$)"
     ],
-    "a": 1,
-    "e": "Spontaneous reaction ke liye useful work capacity decrease hoti hai, isliye Gibbs free energy change negative hona compulsory hai ($\\Delta G < 0$)."
+    "a": 0,
+    "e": "Gibbs free energy ka badlav (Delta G = Delta H - T.Delta S) batata hai ki sthir tapman aur dabav par kriya khud-ba-khud hogi ya nahi; spontaneous hone ke liye Delta G rin (negative) hona zaroori hai, kyunki tab tantra ki free energy ghat kar kaam karne layak urja chhodti hai. Delta G = 0 par agyakarm (equilibrium) hota hai, aur Delta G dhan (positive) hone par kriya ulti disha mein spontaneous hoti hai (ya bahar se urja chahiye). Isi niyam se pighalna, ghulna aur rasayanik abhikarmak ki disha batate hain. Exam point: sthir tapman-dabav par spontaneous kriya ke liye Delta G < 0 (strictly negative) hona chahiye; Delta G = 0 ka matlab equilibrium."
   },
   {
     "qe": "According to the Third Law of Thermodynamics, the entropy of a pure, perfectly crystalline substance at absolute zero (0 K) is:",
     "qh": "ऊष्मागतिकी के तीसरे नियम के अनुसार, परम शून्य (0 K) तापमान पर एक शुद्ध, पूर्ण क्रिस्टलीय पदार्थ की एन्ट्रॉपी क्या होती है?",
     "o": [
       "Infinite",
+      "Negative",
       "Zero",
-      "One",
-      "Negative"
+      "One"
     ],
-    "a": 1,
-    "e": "0 K par thermal kinetic energy poori tarah cease ho jaati hai aur crystal perfect atomic order me rehta hai, isliye $S = 0$ hota hai."
+    "a": 2,
+    "e": "Third law of thermodynamics kehta hai ki kisi shudh, pura tarah kristaleeya (perfectly crystalline) padarth ki entropi paramm shunya (0 K) par shunya hoti hai, kyunki us tapman par anuon ka vaigyanik vikalp (microstates) ek hi ho jaata hai (W = 1, isliye S = k ln W = 0). Agar kristal mein vikriti (defect) ya ashuddhi (impurity) ho to uski residual entropy thodi bachi reh sakti hai. 1, 100 ya infinite - in aankdon ka koi adhaar nahi hai, kyunki entropy 0 K par nyoonatam hoti hai. Exam point: 0 K par shudh perfect crystalline padarth ki entropy zero maani jaati hai (W = 1); vikriti ho to residual entropy bach sakti hai."
   },
   {
     "qe": "In an 'Isothermal' thermodynamic process, which state variable remains constant throughout?",
     "qh": "एक 'समतापी' (Isothermal) ऊष्मागतिक प्रक्रम में, कौन सा अवस्था चर पूरी प्रक्रिया के दौरान स्थिर रहता है?",
     "o": [
       "Pressure ($P$)",
-      "Volume ($V$)",
       "Temperature ($T$)",
+      "Volume ($V$)",
       "Enthalpy ($H$)"
     ],
-    "a": 2,
-    "e": "Isothermal process constant temperature par conduct hota hai ($\\Delta T = 0$), aur ideal gas ke liye internal energy change $\\Delta U = 0$ rehti hai."
+    "a": 1,
+    "e": "Isothermal process mein tapman (T) sthir rehta hai, isliye aantarik urja mein badlav (ideal gas ke liye Delta U = 0) hota hai aur di gai poori heat kaam mein badal jaati hai (q = -w). Isi karan compression-expansion aise dheere ya udhan-paatt (thermostat) mein kiya jaata hai ki tapman na badle. Isolated process mein q = 0 hota hai, adiabatic mein heat ka aadan-pradan nahi hota, aur isobaric mein dabav sthir rehta hai - Ye vikalp galat hain. Exam point: isothermal process mein tapman T sthir rehta hai (aantarik urja wahi, di gai heat kaam mein badal jaati hai); adiabatic mein q = 0 hota hai."
   },
   {
     "qe": "Which of the following thermodynamic variables is classified as an 'Extensive Property'?",
     "qh": "निम्नलिखित में से किस ऊष्मागतिक चर को 'विस्तीर्ण गुण' (Extensive Property) के रूप में वर्गीकृत किया गया है?",
     "o": [
-      "Temperature",
+      "Density",
       "Pressure",
       "Mass / Enthalpy",
-      "Density"
+      "Temperature"
     ],
     "a": 2,
-    "e": "Extensive properties (jaise Mass, Volume, Enthalpy, Heat Capacity) system me present matter ki quantity par depend karti hain."
+    "e": "Extensive properties wo hote hain jo padarth ki matara (amount) par nirbhar karte hain - dravyaman (mass), enthalpy, aayatan aur aantarik urja (internal energy) aise hi hain, kyunki padarth dugna karne par ye bhi dugne ho jaate hain. Intensive properties (jaise ghanatva, tapman, molal concentration, viscosity) matara se nahi badalte, isliye wo kabhi extensive nahi hote. Isi karan thermodynamics mein har property ko either extensive ya intensive ke roop mein baanta jaata hai, aur extensive ko matara se bhaag denek par intensive milta hai (mass/volume = density). Exam point: extensive property padarth ki matara par nirbhar karti hai (mass, enthalpy, volume), jabki intensive (density, temperature) matara se svatantra rehti hai."
   },
   {
     "qe": "The heat exchanged by a chemical reaction operating under 'Constant Pressure' conditions is precisely equal to:",
     "qh": "'स्थिर दाब' की परिस्थितियों में रासायनिक अभिक्रिया द्वारा विनिमय की गई ऊष्मा किसके बराबर होती है?",
     "o": [
-      "Change in Internal Energy ($\\Delta U$)",
-      "Change in Enthalpy ($\\Delta H$)",
       "Change in Gibbs Free Energy ($\\Delta G$)",
-      "Entropy change ($\\Delta S$)"
+      "Change in Internal Energy ($\\Delta U$)",
+      "Entropy change ($\\Delta S$)",
+      "Change in Enthalpy ($\\Delta H$)"
     ],
-    "a": 1,
-    "e": "Constant pressure par $q_p = \\Delta H$ hota hai, jabki constant volume par heat absorbed $q_v = \\Delta U$ ke barabar hoti hai."
+    "a": 3,
+    "e": "Sthir dabav (constant pressure) par hone wali kriya mein di gai ya li gai heat seedhe enthalpy change (Delta H) ke barabar hoti hai, kyunki tab kaam (w = -P x Delta V) bhi usi dabav ke saath judta hai aur qp = Delta U + P.Delta V = Delta H likha jaata hai. Isi karan laboratory mein beaker/kholi (open vessel) mein ki gai kriyaon ka heat enthalpy se hi maapa jaata hai. Constant volume wali kriya mein heat aantarik urja (Delta U) ke barabar hoti hai - isliye 'Delta U', 'kaam' ya 'entropy' wale vikalp sahi nahi hain. Exam point: constant pressure par heat = Delta H (enthalpy change), aur constant volume par heat = Delta U."
   },
   {
     "qe": "In an 'Adiabatic' expansion or compression, the net heat flow ($q$) between system and surroundings is:",
     "qh": "एक 'रुद्धोष्म' (Adiabatic) प्रसार या संपीडन में, निकाय और परिवेश के बीच शुद्ध ऊष्मा प्रवाह ($q$) क्या होता है?",
     "o": [
-      "Maximum",
-      "Zero ($q = 0$)",
       "Equal to work done ($w$)",
+      "Zero ($q = 0$)",
+      "Maximum",
       "Infinite"
     ],
     "a": 1,
-    "e": "Adiabatic walls thermally insulating hoti hain, isliye $q = 0$ hota hai aur boundary work internal energy change se hota hai ($w = \\Delta U$)."
+    "e": "Adiabatic process ki paribhasha hi yahi hai ki tantra (system) aur charon-aur (surroundings) ke beech koi heat ka aadan-pradan nahi hota, isliye q = 0 hota hai; aise process mein kaam karne par tantra ki aantarik urja se hi urja li jaati hai (Delta U = w), jisse gas ke thanda ya garam hone ka asar dikhta hai. Isi karan cycle pump ki nali garam ho jaati hai - hawa ko jaldi dabane par heat bahar nahi ja paati aur tapman badh jaata hai. Heat ka zero hona q = 0 se hota hai, charon-aur ka tapman barabar (isothermal) hona alag baat hai; isliye 'infinite', 'barabar' ya 'negative' wale vikalp galat hain. Exam point: adiabatic process mein heat exchange q = 0 hota hai aur aantarik urja badlav kaam ke barabar (Delta U = w) hota hai."
   },
   {
     "qe": "Which thermochemical law states that the total enthalpy change for a chemical reaction is identical whether it occurs in one step or multiple steps?",
     "qh": "कौन सा ऊष्मारसायनिक नियम बताता है कि किसी अभिक्रिया का कुल एन्थैल्पी परिवर्तन समान रहता है चाहे वह एक चरण में हो या कई चरणों में?",
     "o": [
-      "Raoult's Law",
-      "Hess's Law of Constant Heat Summation",
       "Henry's Law",
-      "Le-Chatelier's Principle"
+      "Le-Chatelier's Principle",
+      "Hess's Law of Constant Heat Summation",
+      "Raoult's Law"
     ],
-    "a": 1,
-    "e": "Hess's Law isliye valid hai kyunki Enthalpy ek state function hai jo path par nahi, sirf initial reactants aur final products par depend karti hai."
+    "a": 2,
+    "e": "Hess's Law of Constant Heat Summation kehta hai ki kriya ka total enthalpy badlav sirf shuruaati aur antim avastha par nirbhar karta hai - chahe kriya ek pad mein ho ya kai padon mein, kul heat ek hi milega; kyunki enthalpy ek state function hai, uska maarg (path) se koi lena-dena nahi. Isi niyam se aise reactions ka enthalpy nikalte hain jise seedha maapna mushkil hota hai (jaise carbon se CO banna) - kai reactions ko jod-ghata kar. Thermodynamics ke first law se ye alag baat hai, kyunki Hess ka niyam enthalpy ke state function hone par tika hai. Exam point: Hess's law - kriya ka enthalpy badlav path par nahi, sirf initial aur final state par nirbhar karta hai (isliye reactions ka enthalpy joda/ghataya ja sakta hai)."
   },
   {
     "qe": "Which of the following quantities is a 'State Function' rather than a path function?",
     "qh": "निम्नलिखित में से कौन सी राशि पथ फलन के बजाय एक 'अवस्था फलन' (State Function) है?",
     "o": [
-      "Work ($w$)",
-      "Heat ($q$)",
+      "Heat capacity",
       "Enthalpy ($H$)",
-      "Heat capacity"
+      "Heat ($q$)",
+      "Work ($w$)"
     ],
-    "a": 2,
-    "e": "Enthalpy ($H$), Internal Energy ($U$), Entropy ($S$) aur Gibbs energy ($G$) state functions hain jo path par nirbhar nahi karte."
+    "a": 1,
+    "e": "State function wo hoti hai jo keval tantra ki avastha (tapman, dabav, matara) par nirbhar karti hai, aur uski value maarg (path) se badalti nahi - enthalpy (H), aantarik urja (U), entropy (S) aur Gibbs urja (G) sab state functions hain. Isi liye kisi cyclic process mein state function ka badlav shunya hota hai, jabki heat (q) aur kaam (w) path functions hote hain - unki value is baat par nirbhar karti hai ki kriya kis tarah (reversible ya irreversible) ki gayi. Entropy aur Gibbs urja dono state functions hain, isliye 'kaam' jaise maarg-par-nirbhar vikalp galat hain. Exam point: enthalpy ek state function hai (path-independent), jabki heat aur kaam path functions hain."
   },
   {
     "qe": "For any 'Exothermic' reaction releasing heat into the surroundings, the sign of the enthalpy change ($\\Delta H$) is:",
     "qh": "परिवेश में ऊष्मा मुक्त करने वाली किसी भी 'ऊष्माक्षेपी' (Exothermic) अभिक्रिया के लिए एन्थैल्पी परिवर्तन ($\\Delta H$) का चिन्ह क्या होता है?",
     "o": [
-      "Positive ($\\Delta H > 0$)",
-      "Negative ($\\Delta H < 0$)",
       "Zero",
+      "Negative ($\\Delta H < 0$)",
+      "Positive ($\\Delta H > 0$)",
       "Unpredictable"
     ],
     "a": 1,
-    "e": "Exothermic reaction me products ki enthalpy reactants se kam hoti hai ($H_P < H_R$), isliye $\\Delta H = H_P - H_R$ negative hota hai."
+    "e": "Chinh-paripaati (sign convention) ke anusar tantra dwara heat chhodna ya kaam lena rin (negative) maana jaata hai; isliye jab kriya garmi chhodti hai (utssarji, exothermic), uske liye Delta H ka maan rin hota hai. Isi karan jalne ki kriyaayein (jaise methane ka jalna) Delta H = -ve ke saath likhi jaati hain. Garmi lene wali kriya (endothermic) mein Delta H dhan (positive) hota hai. Isliye 'positive', 'zero' ya 'jinme ka urja barabar' wale vikalp is prashn ke liye sahi nahi hain. Exam point: exothermic reaction mein heat bahar nikalti hai, isliye Delta H < 0 (negative) hota hai; endothermic mein Delta H > 0."
   },
   {
     "qe": "Which thermodynamic law provides the fundamental conceptual definition of 'Temperature' via thermal equilibrium?",
     "qh": "कौन सा ऊष्मागतिक नियम तापीय संतुलन के माध्यम से 'तापमान' की मूलभूत वैचारिक परिभाषा प्रदान करता है?",
     "o": [
-      "Zeroth Law of Thermodynamics",
       "First Law",
       "Second Law",
+      "Zeroth Law of Thermodynamics",
       "Third Law"
     ],
-    "a": 0,
-    "e": "Zeroth Law states: Agar body A aur B alag-alag body C ke sath thermal equilibrium me hain, to wo aapas me bhi equilibrium me hongi; yahi thermometry ka aadhar hai."
+    "a": 2,
+    "e": "Zeroth law of thermodynamics kehta hai ki agar do tantra kisi teesre tantra ke saath alag-alag thermal santulan (equilibrium) mein hon, to wo aapas mein bhi thermal santulan mein honge - isi kathan se tapa ka (temperature) ki dhaarna (concept) banti hai, kyunki tamapman wahi gun hai jo thermal santulan tay karta hai. Isi liye thermometer kaam karta hai: wo apna tapman vastu ke tapman ke barabar kar leta hai. First law urja sanrakshan, second law entropy aur third law paramm shunya par entropy ke baare mein batate hain, na ki tapman ki paribhasha dete hain. Exam point: tapman ki mool dhaarna (concept) zeroth law se aati hai, jo thermal santulan ki transitivity batata hai (A = C aur B = C to A = B)."
   },
   {
     "qe": "What parameter is measured directly inside a constant-volume 'Bomb Calorimeter'?",
     "qh": "स्थिर-आयतन 'बॉम्ब कैलोरीमीटर' के अंदर सीधे किस मान को मापा जाता है?",
     "o": [
-      "Enthalpy change of combustion ($\\Delta H$)",
-      "Internal energy change of combustion ($q_v = \\Delta U$)",
       "Gibbs Free Energy change ($\\Delta G$)",
-      "Entropy change ($\\Delta S$)"
+      "Internal energy change of combustion ($q_v = \\Delta U$)",
+      "Entropy change ($\\Delta S$)",
+      "Enthalpy change of combustion ($\\Delta H$)"
     ],
     "a": 1,
-    "e": "Bomb calorimeter rigid steel vessel hota hai jahan volume constant rehta hai ($dV=0$); isliye measure hone wali heat internal energy change $\\Delta U$ hoti hai."
+    "e": "Bomb calorimeter ek sthiri aayatan (constant volume) wala yantra hai, isliye usme koi pressure-volume kaam (w = -P.Delta V = 0) nahi hota; tab pehla niyam bataata hai ki maapi gayi heat qv = Delta U, yaani aantarik urja ka badlav hoti hai. Isi karan bomb calorimeter se khane-padarthon ke 'calorific value' (urja) nikalne mein Delta U milta hai. Constant pressure par (jaise beaker mein) maapi heat enthalpy (Delta H) hoti hai, entropy ya Gibbs urja nahi. Exam point: bomb calorimeter constant volume par chalta hai, isliye usme maapi heat internal energy change (qv = Delta U) ko darshata hai; Delta H ke liye phir Delta H = Delta U + Delta ngRT lagana padta hai."
   },
   {
     "qe": "Which of the following physical variables is classified as an 'Intensive Property'?",
     "qh": "निम्नलिखित में से किस भौतिक चर को 'गहन गुण' (Intensive Property) के रूप में वर्गीकृत किया गया है?",
     "o": [
       "Volume",
-      "Enthalpy",
+      "Internal energy",
       "Density / Temperature",
-      "Internal energy"
+      "Enthalpy"
     ],
     "a": 2,
-    "e": "Intensive properties (jaise Density, Temperature, Pressure, Refractive index) sample ke size ya mass par depend nahi karti hain."
+    "e": "Intensive properties padarth ki matara (amount) par nirbhar nahi karti - ghanatva (density), tapman, dabav aur molal concentration aise hi hain, kyunki padarth ko dugna karne par bhi ye nahi badalte. Extensive properties (mass, volume, enthalpy) matara ke saath badalte hain. Isi karan intensive/temperature jaisi properties vastu ki pehchaan (identity) batane ke liye zyada kaam aati hain (jaise ghantva se shuddhata jaanchna). Isliye 'mass', 'enthalpy' aur 'aayatan' wale vikalp intensive nahi hain. Exam point: intensive property matara se svatantra hoti hai (density, temperature, pressure), extensive (mass, volume, enthalpy) matara ke saath badalti hai."
   },
   {
     "qe": "What is the standard SI-derived unit of thermodynamic 'Entropy'?",
     "qh": "ऊष्मागतिक 'एन्ट्रॉपी' की मानक SI-व्युत्पन्न इकाई क्या है?",
     "o": [
+      "Watt per meter",
       "Joule",
       "Joule per Kelvin (J/K)",
-      "Watt per meter",
       "Pascal"
     ],
-    "a": 1,
-    "e": "Entropy formula $dS = dq_{rev} / T$ hota hai; heat Joules me aur temperature Kelvin me hone se unit Joule per Kelvin ($J/K$ ya $J \\cdot K^{-1}$) banti hai."
+    "a": 2,
+    "e": "Entropy (S) urja (Joule) aur tapa ka (Kelvin) ka anupat hai, isliye uski SI ikai J/K (joule per kelvin) hoti hai - yahi vikalp sahi hai. Entropy ko 'vikshepank (disorder) ka maap' bhi kehte hain, isliye badge ya ghantva ke saath uski ikai badalti hai (J/K/mol molar entropy ke liye hota hai). J/s watt (power) ki ikai hai, J/mol enthalpy ka hissa aur J/K/mol molar entropy ka roop hai - in teeno ka sahi jod entropy ki simple ikai nahi hai. Exam point: entropy ki SI ikai J/K (joule per kelvin) hoti hai, kyunki S = q(rev)/T; iska dhan (positive) hona vikshepank ki taraf ishara karta hai."
   },
   {
     "qe": "For any complete 'Cyclic Process' returning to its initial state, the net change in internal energy ($\\Delta U$) is:",
     "qh": "अपनी प्रारंभिक अवस्था में लौटने वाले किसी भी पूर्ण 'चक्रीय प्रक्रम' के लिए, आंतरिक ऊर्जा में शुद्ध परिवर्तन ($\\Delta U$) क्या होता है?",
     "o": [
-      "Positive",
+      "Infinite",
       "Negative",
       "Zero",
-      "Infinite"
+      "Positive"
     ],
     "a": 2,
-    "e": "Internal energy ek state function hai; system initial point par wapas aa jata hai, isliye cyclic integral $\\oint dU = 0$ hota hai."
+    "e": "Cyclic process mein tantra ghoom-phir kar wapas apni shuruaati avastha mein aa jaata hai, aur kyunki aantarik urja (U) ek state function hai, shuruaati aur antim avastha ek hone par Delta U = 0 hota hai - ye thermodynamics ka mahatvapooran tathya hai. Isiliye cyclic process mein Delta U = 0 hone se q = -w nikalta hai, yaani net heat kaam ke barabar hoti hai (isi par heat engine ka ganit tika hai). Isliye 'negative', 'maximum' ya 'infinite' wale vikalp galat hain. Exam point: cyclic process mein aantarik urja ka kul badlav Delta U = 0 hota hai, kyunki initial aur final state ek hi hai; isliye net heat = net kaam."
   },
   {
     "qe": "What is the mechanical boundary work ($w$) performed during an 'Isochoric' thermodynamic process?",
     "qh": "एक 'समआयतनिक' (Isochoric) ऊष्मागतिक प्रक्रम के दौरान किया गया यांत्रिक सीमा कार्य ($w$) क्या होता है?",
     "o": [
-      "Maximum",
-      "Zero ($w = 0$)",
       "Negative",
-      "Infinite"
+      "Maximum",
+      "Infinite",
+      "Zero ($w = 0$)"
     ],
-    "a": 1,
-    "e": "Isochoric process me volume constant rehta hai ($dV = 0$); formula $w = -\\int P dV$ me $dV = 0$ hone se boundary expansion work zero hota hai."
+    "a": 3,
+    "e": "Isochoric (constant volume) process mein aayatan nahi badalta, isliye kaam ka sutra w = -P x Delta V mein Delta V = 0 rakhne par kaam shunya (w = 0) aata hai - yahi karan hai ki bandh bartan (rigid vessel) mein kriya karne par koi pressure-volume kaam nahi hota. Tab pehla niyam se DeltaU = q milta hai, isliye constant volume wali heat seedhe internal energy ka maap banti hai (bomb calorimetry ka aadhaar). Pressure-volume kaam ke ilawa anya kaam (bijli, surface) ho to baat alag hoti hai. Exam point: isochoric process mein boundary work w = 0 hota hai (Delta V = 0), isliye usme DeltaU = q hota hai."
   },
   {
     "qe": "By international convention, what is the 'Standard Enthalpy of Formation' ($\\Delta H_f^\\circ$) of a pure chemical element in its most stable reference state?",
     "qh": "अंतर्राष्ट्रीय परिपाटी के अनुसार, किसी शुद्ध रासायनिक तत्व की उसकी सबसे स्थिर संदर्भ अवस्था में 'मानक विरचन एन्थैल्पी' ($\\Delta H_f^\\circ$) क्या मानी जाती है?",
     "o": [
       "Positive",
-      "Negative",
+      "100 kJ/mol",
       "Zero",
-      "100 kJ/mol"
+      "Negative"
     ],
     "a": 2,
-    "e": "Standard states me elements (jaise $O_{2(g)}, C_{(graphite)}, H_{2(g)}, Fe_{(s)}$) ki formation enthalpy ko benchmark reference ke roop me zero maana jaata hai."
+    "e": "Kisi element ka standard enthalpy of formation (Delta Hf degree) hamesha shunya maana jaata hai jab wo apni sabse sthir (most stable) reference avastha mein ho - jaise O2 gas, H2 gas, N2 gas, graphite roop ka carbon, rhombic sulfur aur drav (liquid) bromine. Kyunki ye avastha hi 'shunya ka aadhaar' (reference) hai, kisi bhi aise element ko banane ke liye koi enthalpy lagti hi nahi. Iske ulat, oxygen ka ozone roop ya carbon ka diamond roop sthir nahi hain, isliye unka Delta Hf shunya nahi hota. Exam point: sabse sthir reference avastha wale element ka standard enthalpy of formation zero hota hai (O2, H2, N2, graphite, rhombic S, liquid Br2)."
   },
   {
     "qe": "What is the famous thermodynamic relationship between $C_p$ and $C_v$ for 1 mole of an ideal gas (Mayer's relation)?",
     "qh": "1 मोल आदर्श गैस के लिए $C_p$ और $C_v$ के बीच प्रसिद्ध ऊष्मागतिक संबंध (मेयर का संबंध) क्या है?",
     "o": [
-      "$C_p - C_v = R$",
       "$C_p + C_v = R$",
       "$C_p / C_v = R$",
-      "$C_p = C_v$"
+      "$C_p = C_v$",
+      "$C_p - C_v = R$"
     ],
-    "a": 0,
-    "e": "Constant pressure par gas ko expansion work ($P\\Delta V = R\\Delta T$) bhi karna padta hai, isliye molar heat capacities ka difference universal gas constant $R$ ke barabar hota hai."
+    "a": 3,
+    "e": "Vastavik gas ke liye tapman badhane par agar dabav sthir rakha jaaye to gas failti hai, isliye ek mol ko 1 degree garam karne ke liye zyada heat chahiye - isi karan Cp (constant pressure par heat capacity) Cv (constant volume) se bada hota hai; inka antar 1 mol ideal gas ke liye universal gas constant R ke barabar hota hai, yaani Cp - Cv = R - yehi Mayer's relation hai. Ye mool sambandh batata hai ki heat ka thoda hissa dabav ke viruddh kaam mein chala jaata hai. Cp + Cv = R, Cp/Cv = R ya Cp - Cv = 2R aise sambandh nahi hain, isliye wo vikalp sahi nahi hain. Exam point: 1 mol ideal gas ke liye Mayer's relation Cp - Cv = R hota hai (constant pressure par kaam karne ke karan Cp bada hota hai)."
   },
   {
     "qe": "If a reaction has a negative enthalpy change ($\\Delta H < 0$) and a positive entropy change ($\\Delta S > 0$), it is spontaneous at:",
@@ -893,95 +893,95 @@
     "o": [
       "Low temperatures only",
       "High temperatures only",
-      "All temperatures",
-      "No temperature"
+      "No temperature",
+      "All temperatures"
     ],
-    "a": 2,
-    "e": "Gibbs-Helmholtz equation $\\Delta G = \\Delta H - T\\Delta S$ me dono terms negative contribution dete hain, isliye $\\Delta G$ hamesha negative rahega chahe temperature kuch bhi ho."
+    "a": 3,
+    "e": "Gibbs urja ka samikaran Delta G = Delta H - T x Delta S hai; yadi Delta H rin (negative, heat chhodne wali) ho aur Delta S dhan (positive, vikshepank badhane wali) ho, to T ka koi bhi dhan maan ho, Delta H se ghatane wala pada -T x Delta S hamesha negative rahega - isliye aisi kriya har tapman par spontaneous hogi. Udaharan: aisa jalna aur H2O2 ka tootna. Iske ulat Delta H > 0 aur Delta S < 0 wali kriya kabhi spontaneous nahi hoti, aur dono ek hi chinh ke ho to tapman par disha nirbhar hoti hai. Exam point: Delta H < 0 aur Delta S > 0 hone par kriya sabhi tapman par spontaneous hoti hai (Delta G hamesha negative)."
   },
   {
     "qe": "What is the 'Lattice Enthalpy' of an ionic crystal lattice?",
     "qh": "एक आयनिक क्रिस्टल जालक की 'जालक एन्थैल्पी' (Lattice Enthalpy) क्या होती है?",
     "o": [
+      "Melting point energy",
       "Enthalpy change when 1 mole of an ionic compound is completely separated into its constituent gaseous ions",
       "Heat released on dissolving in water",
-      "Kinetic energy of ions",
-      "Melting point energy"
+      "Kinetic energy of ions"
     ],
-    "a": 0,
-    "e": "Lattice enthalpy ionic bond strength ka measure hai jo 1 mole solid ionic crystal (jaise $NaCl$) ko isolated gaseous ions me todne ke liye required hoti hai."
+    "a": 1,
+    "e": "Lattice enthalpy wo enthalpy badlav hai jab ek mol aaynik (ionic) thos padarth ko poori tarah todkar uske gaisiye (gaseous) ionon mein alag kar diya jaaye - ye hamesha dhan (positive) hota hai kyunki bond todne mein urja lagti hai. Ionic thos ki sthirta (stability) isi lattice enthalpy par nirbhar karti hai; jitni chhoti ion ki size aur jitna bada aavesh (charge), utni zyada lattice enthalpy hoti hai (NaCl se MgO zyada). Vapourization (bhaap banna), atomization (anu todkar atom) ya hydration (paani mein ghulna) alag padarth hain - Ye vikalp galat hain. Exam point: lattice enthalpy = 1 mol aaynik thos ko gaseous ionon mein todne ke liye li gayi urja (hamesha positive), jo ionic compound ki mazbuti darshata hai."
   },
   {
     "qe": "What is the 'Gibbs-Helmholtz Equation' used to determine reaction spontaneity?",
     "qh": "अभिक्रिया की स्वतःप्रवर्तकता निर्धारित करने के लिए प्रयुक्त 'गिब्स-हेल्महोल्ट्ज़ समीकरण' कौन सा है?",
     "o": [
+      "$\\Delta U = q + w$",
       "$\\Delta G = \\Delta H - T\\Delta S$",
       "$PV = nRT$",
-      "$\\Delta U = q + w$",
       "$G = H + TS$"
     ],
-    "a": 0,
-    "e": "Ye equation enthalpy change ($\\Delta H$), entropy change ($\\Delta S$) aur absolute temperature ($T$) ko relate karke net available energy ($\\Delta G$) predict karti hai."
+    "a": 1,
+    "e": "Gibbs-Helmholtz samikaran batati hai ki kriya ki svatah-gati (spontaneity) enthalpy badlav (Delta H) aur entropy badlav (Delta S) dono se milkar tapman ke saath tay hoti hai - jab Delta G rin ho to kriya khud-ba-khud chalti hai. Isi samikaran se agyakarm (equilibrium) tapman nikalte hain (jahan Delta G = 0, T = Delta H/Delta S). First law (urja sanrakshan), gas samikaran (PV = nRT) aur Hess ka niyam alag vishay hain, isliye inhe sahi nahi kaha ja sakta. Exam point: kriya ki spontaneity ka nirnay Gibbs-Helmholtz samikaran se hota hai; Delta G rin (negative) hone par kriya khud-ba-khud chalti hai."
   },
   {
     "qe": "For a reversible chemical reaction operating at dynamic 'Equilibrium', what is the value of $\\Delta G$?",
     "qh": "गतिक 'साम्यावस्था' पर कार्य करने वाली किसी उत्क्रमणीय रासायनिक अभिक्रिया के लिए $\\Delta G$ का मान क्या होता है?",
     "o": [
-      "Positive",
       "Negative",
       "Zero ($\\Delta G = 0$)",
+      "Positive",
       "Infinite"
     ],
-    "a": 2,
-    "e": "Equilibrium par forward aur backward chemical potentials barabar ho jaate hain, isliye free energy change net zero hoti hai ($\\Delta G = 0$)."
+    "a": 1,
+    "e": "Agyakarm (equilibrium) par aage ki kriya (forward) aur peeche ki kriya (reverse) dono ki gati barabar hoti rehti hai, isliye tantra ki Gibbs urja apne nyoonatam par pahunch jaati hai aur usme koi aur badlav nahi hota - yani Delta G = 0 hota hai. Yahi karan hai ki equilibrium par Delta G shunya hone se kriya na aage badhti hai na peeche hat ti hai, halanki dono kriyaayein andar-andar chalti rehti hain (dynamic equilibrium). Iska sambandh agyakarm constant se Delta G degree = -RT lnK se banta hai, isliye 'negative', 'positive' ya 'infinite' jaise maan yahan lagu nahi hote. Exam point: dynamic equilibrium par Gibbs free energy ka badlav Delta G = 0 hota hai, kyunki forward aur reverse gatiyan barabar hokar tantra nyoonatam urja avastha mein hota hai."
   },
   {
     "qe": "Which equation relates the reaction enthalpy change ($\\Delta H$) to internal energy change ($\\Delta U$) for gaseous reactions?",
     "qh": "गैसीय अभिक्रियाओं के लिए एन्थैल्पी परिवर्तन ($\\Delta H$) को आंतरिक ऊर्जा परिवर्तन ($\\Delta U$) से कौन सा समीकरण जोड़ता है?",
     "o": [
-      "$\\Delta H = \\Delta U + \\Delta n_g RT$",
-      "$\\Delta H = \\Delta U - P\\Delta V$",
+      "$\\Delta H = nRT$",
       "$\\Delta H = \\Delta U / RT$",
-      "$\\Delta H = nRT$"
+      "$\\Delta H = \\Delta U - P\\Delta V$",
+      "$\\Delta H = \\Delta U + \\Delta n_g RT$"
     ],
-    "a": 0,
-    "e": "Ideal gas substitution $P\\Delta V = \\Delta n_g RT$ karne par $\\Delta H = \\Delta U + \\Delta n_g RT$ banta hai, jahan $\\Delta n_g$ gaseous products aur reactants ke moles ka difference hai."
+    "a": 3,
+    "e": "Gaisiy kriyaon mein dabav-volume kaam hone ke karan enthalpy aur aantarik urja barabar nahi hote; unka sambandh Delta H = Delta U + Delta ng x R x T hota hai, jahan ng kriya samikaran mein gaseous moles ka antar (products - reactants) batata hai. Aisa hai kyunki Delta H = Delta U + Delta(PV), aur ideal gas ke liye P.Delta V = Delta ngRT. Agar ng shunya ho (jaise H2 + I2 se 2HI), to Delta H aur Delta U barabar ho jaate hain. Delta U + Delta T, Delta U / RT ya Delta U ko R se bhaag dena - ye teeno ganit se match nahi karte. Exam point: gaseous reaction mein Delta H = Delta U + Delta ngRT, jahan ng products aur reactants ke gaseous moles ka antar hai; ng = 0 ho to Delta H = Delta U."
   },
   {
     "qe": "What is the theoretical thermal 'Efficiency' ($\\eta$) of a reversible Carnot heat engine working between absolute temperatures $T_1$ (source) and $T_2$ (sink)?",
     "qh": "परम तापमान $T_1$ (स्रोत) और $T_2$ (सिंक) के बीच कार्य करने वाले एक उत्क्रमणीय कार्नॉट इंजन की सैद्धांतिक 'दक्षता' ($\\eta$) क्या है?",
     "o": [
-      "$\\eta = 1 - T_2 / T_1$",
-      "$\\eta = T_2 / T_1$",
       "$\\eta = 1 + T_2 / T_1$",
-      "$\\eta = T_1 / (T_1 - T_2)$"
+      "$\\eta = T_1 / (T_1 - T_2)$",
+      "$\\eta = T_2 / T_1$",
+      "$\\eta = 1 - T_2 / T_1$"
     ],
-    "a": 0,
-    "e": "Carnot efficiency formula $\\eta = 1 - T_{sink}/T_{source}$ batata hai ki bina $T_{sink} = 0 K$ hue kisi engine ki efficiency 100% nahi ho sakti."
+    "a": 3,
+    "e": "Carnot ke ulat-kramy (reversible) engine ki efficiency sirf source aur sink ke paramm tapman (absolute temperature) par nirbhar karti hai, aur uski seema (limit) eta = 1 - T2/T1 hoti hai, jahan T1 source ka tapman aur T2 sink ka tapman (kelvin mein) hai. Isi karan 100% efficiencyna to sirf tab milti hai jab sink 0 kelvin ho - jo sambhav nahi, isliye prakritik engine ki efficiency hamesha 1 se kam hoti hai. Efficiency ka sutra T1/T2, T2/T1 ya (T1 - T2)/(T1 x T2) ke roop mein nahi hota, Ye vikalp galat hain. Exam point: Carnot engine ki efficiency eta = 1 - T2/T1 (kelvin mein tapman), jo batati hai ki do tapman ke beech kitna kaam mila sakta hai."
   },
   {
     "qe": "What is the relationship between Enthalpy of Sublimation ($\\Delta H_{sub}$) and the enthalpies of fusion and vaporization?",
     "qh": "ऊर्ध्वपातन की एन्थैल्पी ($\\Delta H_{sub}$) और गलन व वाष्पीकरण की एन्थैल्पी के बीच क्या संबंध है?",
     "o": [
-      "$\\Delta H_{sub} = \\Delta H_{fus} + \\Delta H_{vap}$",
       "$\\Delta H_{sub} = \\Delta H_{fus} - \\Delta H_{vap}$",
       "$\\Delta H_{sub} = \\Delta H_{vap} - \\Delta H_{fus}$",
+      "$\\Delta H_{sub} = \\Delta H_{fus} + \\Delta H_{vap}$",
       "$\\Delta H_{sub} = \\Delta H_{fus} \\times \\Delta H_{vap}$"
     ],
-    "a": 0,
-    "e": "Hess's Law ke mutabiq solid se direct gas banne ki total enthalpy solid se liquid (fusion) aur liquid se gas (vaporization) ke sum ke barabar hoti hai."
+    "a": 2,
+    "e": "Practyahar se bhaap (vaporization) aur pighalne (fusion) ka ashay yahi hai ki aap thos (solid) ko seedha gas mein badal dein, jo do padon mein bhi ho sakta hai: pehle pighalna (Delta Hfus) aur phir ubhalna (Delta Hvap) - kyunki enthalpy state function hai, dono ka jod sublimation enthalpy deta hai, isliye Delta Hsub = Delta Hfus + Delta Hvap. Isi tarah seedha jalna (jaise camphor, naphthalene ka udna) isi vidhi se hota hai aur thos ko bina pigle bhaap banane mein utni hi urja chahiye. Iska ulta sambandh (ghatana ya bhaag dena) ganit ke hisaab se galat hai. Exam point: Delta Hsub = Delta Hfus + Delta Hvap; kyunki sublimation fusion aur vaporization dono ka jod (sum) hota hai."
   },
   {
     "qe": "Which gas law asserts that at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure ($P_1V_1 = P_2V_2$)?",
     "qh": "कौन सा गैस नियम बताता है कि स्थिर तापमान पर, गैस के निश्चित द्रव्यमान का आयतन उसके दाब के व्युत्क्रमानुपाती होता है?",
     "o": [
-      "Charles's Law",
       "Boyle's Law",
       "Avogadro's Law",
-      "Gay-Lussac's Law"
+      "Gay-Lussac's Law",
+      "Charles's Law"
     ],
-    "a": 1,
-    "e": "Boyle's Law states $P \\propto 1/V$ at constant $T$; isothermal compression se gas ka pressure volume ke inverse ratio me badhta hai."
+    "a": 0,
+    "e": "Boyle's law kehta hai ki sthir tapman par gas ki nishchit matara (fixed mass) ka aayatan dabav ke vyutkram (inversely) samanupati hota hai, isliye PV ka gunaank sthir rehta hai aur P1V1 = P2V2 likha jaata hai - yahi 'isotherm' ka aadhaar hai. Isi karan jab hum syringe ko dabate hain to aayatan ghatta hai aur dabav badhta hai. Charles (V/T), Gay-Lussac (P/T), Avogadro (V/n) aur Dalton (aanshik dabav) alag niyam hain, isliye ye sahi nahi hain. Exam point: Boyle's law = sthir temperature par P1V1 = P2V2 (aayatan dabav ka ulta), isliye gas kholne par dabav girne se aayatan badhta hai."
   },
   {
     "qe": "What is the exact neutral 'pH' of pure water at standard room temperature (25°C)?",
@@ -989,406 +989,406 @@
     "o": [
       "0",
       "7",
-      "14",
-      "1"
+      "1",
+      "14"
     ],
     "a": 1,
-    "e": "25°C par pure water me $[H^+] = [OH^-] = 10^{-7} \\text{ M}$ hota hai, isliye $pH = -\\log(10^{-7}) = 7$ hota hai."
+    "e": "25 degree C par shudh paani mein hydrogen ion aur hydroxide ion ki sandrata (concentration) barabar (10^-7 M) hoti hai, isliye pH = -log[H+] lagane par 7 milta hai - yahi 'neutral' pH hai. Ise ionic product of water Kw = [H+][OH-] = 10^-14 se samjha ja sakta hai, aur kyunki paani mein [H+] = [OH-] hoti hai, pH = pOH = 7 nikalta hai. Ye maan sirf 25 degree C ke liye hai - tapman badhne par Kw badhta hai aur neutral pH 7 se thoda kam ho jaata hai. Isliye 6, 7.5 ya 14 jaise aankde yahan sahi nahi baithte. Exam point: 25 degree C par shudh paani ka pH 7 hota hai (neutral), kyunki [H+] = 10^-7 M aur Kw = 10^-14."
   },
   {
     "qe": "Which chemical principle predicts that a dynamic equilibrium will shift in a direction that relieves any applied stress of concentration, temperature, or pressure?",
     "qh": "कौन सा रासायनिक सिद्धांत भविष्यवाणी करता है कि एक गतिक साम्यावस्था सांद्रता, तापमान या दाब के किसी भी आरोपित तनाव को कम करने की दिशा में विस्थापित होगी?",
     "o": [
-      "Heisenberg Uncertainty Principle",
-      "Le-Chatelier's Principle",
       "Pauli Exclusion Principle",
-      "Aufbau Principle"
+      "Heisenberg Uncertainty Principle",
+      "Aufbau Principle",
+      "Le-Chatelier's Principle"
     ],
-    "a": 1,
-    "e": "Le-Chatelier's principle equilibrium par external changes ke effect ko counter karne ke liye equilibrium position ki shifting predict karta hai."
+    "a": 3,
+    "e": "Le-Chatelier's principle batata hai ki agar agyakarm (equilibrium) par sandrata, dabav ya tapman ka 'dabav' (stress) daala jaaye to agyakarm us disha mein khisak jaata hai jo us dabav ko kam kare - isi liye ek santulit kriya ke aage-peeche ka asar khud hi set ho jaata hai. Udaharan: dabav badhane par kam gaseous moles wali disha mein agyakarm chalta hai; tapman badhane par uttarjahi (endothermic) disha badhti hai. Henry, Hess aur Avogadro ke niyam alag vishayon ke hain, Ye vikalp galat hain. Exam point: equilibrium par stress (concentration, temperature, pressure) padne par us disha mein khisak jaata hai jo us stress ko kam kare - yahi Le-Chatelier's principle hai."
   },
   {
     "qe": "For which reversible gaseous reaction is the equilibrium constant $K_p$ numerically equal to $K_c$?",
     "qh": "किस उत्क्रमणीय गैसीय अभिक्रिया के लिए साम्य स्थिरांक $K_p$ संख्यात्मक रूप से $K_c$ के बराबर होता है?",
     "o": [
       "$PCl_5 \\rightleftharpoons PCl_3 + Cl_2$",
-      "$H_2 + I_2 \\rightleftharpoons 2HI$",
+      "$2SO_2 + O_2 \\rightleftharpoons 2SO_3$",
       "$N_2 + 3H_2 \\rightleftharpoons 2NH_3$",
-      "$2SO_2 + O_2 \\rightleftharpoons 2SO_3$"
+      "$H_2 + I_2 \\rightleftharpoons 2HI$"
     ],
-    "a": 1,
-    "e": "Formula $K_p = K_c(RT)^{\\Delta n_g}$ me jab $\\Delta n_g = 2 - (1 + 1) = 0$ hota hai, tab $(RT)^0 = 1$ hone se $K_p = K_c$ hota hai."
+    "a": 3,
+    "e": "Agyakarm constant Kp = Kc x (RT)^ng hota hai, jahan ng ka matlab products aur reactants ke gaseous moles ke farq se hai; isliye Kp tabhi Kc ke barabar hoga jab ng shunya ho. Reaction H2 + I2 2HI mein dono aur do gaseous moles hain, isliye ng = 2 - 2 = 0 aur Kp = Kc ho jaata hai. Baaki reactions mein ng shunya nahi hota (N2 + 3H2 se 2NH3 mein ng = -2; PCl5 se PCl3 + Cl2 mein ng = +1), isliye unme Kp aur Kc alag hote hain, aur 'ng ka koi asar nahi' bhi galat hai. Exam point: Kp = Kc tab hota hai jab ng = 0; udaharan H2 + I2 2HI (dono taraf 2 gaseous moles)."
   },
   {
     "qe": "What is the numerical value of the Universal Gas Constant (R) in SI energy units ($J \\cdot K^{-1} \\cdot mol^{-1}$)?",
     "qh": "SI ऊर्जा इकाइयों ($J \\cdot K^{-1} \\cdot mol^{-1}$) में सार्वत्रिक गैस नियतांक (R) का संख्यात्मक मान क्या है?",
     "o": [
       "0.0821",
-      "8.314",
       "1.987",
-      "62.36"
+      "62.36",
+      "8.314"
     ],
-    "a": 1,
-    "e": "SI units ($P$ in Pascals, $V$ in $m^3$) me calculate karne par universal gas constant $R = 8.314 \\text{ J/(mol}\\cdot\\text{K)}$ hota hai."
+    "a": 3,
+    "e": "Universal gas constant R ka SI matrak J/K/mol hota hai aur uski value 8.314 J K^-1 mol^-1 hoti hai, kyunki PV = nRT se R = PV/nT aur 1 mol ke liye 1 atm, 1 L aur 273 K ke aankde isi value dete hain. Iska doosra vyavharik roop 0.0821 L atm K^-1 mol^-1 hai (dabav atm aur aayatan litre mein hone par) aur 2 cal K^-1 mol^-1 urja cal mein hone par. 8.314 ki jagah 0.0821, 0.0821 ya 1.987 likhna prashn ke matrak ke anusar galat hai, isliye sahi jod SI urja ikai (Joule) wala hi hai. Exam point: R = 8.314 J K^-1 mol^-1 (SI), 0.0821 L atm K^-1 mol^-1 (dabav atm aur aayatan litre mein)."
   },
   {
     "qe": "Which gas law states that at constant pressure, the volume of a gas is directly proportional to its absolute Kelvin temperature ($V_1/T_1 = V_2/T_2$)?",
     "qh": "कौन सा गैस नियम बताता है कि स्थिर दाब पर, किसी गैस का आयतन उसके परम केल्विन तापमान के सीधे समानुपाती होता है?",
     "o": [
-      "Boyle's Law",
       "Charles's Law",
+      "Dalton's Law",
       "Graham's Law",
-      "Dalton's Law"
+      "Boyle's Law"
     ],
-    "a": 1,
-    "e": "Charles's Law states $V \\propto T$ at constant $P$; heating karne par gas molecules ki kinetic energy badhti hai aur volume expand hota hai."
+    "a": 0,
+    "e": "Charles's law kehta hai ki sthir dabav par gas ka aayatan uske paramm tapman (absolute temperature, kelvin mein) ke samanupati hota hai, isliye V/T = sthir aur V1/T1 = V2/T2 hota hai - yahi '+100 degree C par 0 degree C se dugna aayatan' jaisi ghatnayein samjhata hai. Dhyan rakhein: ye sambandh kelvin mein hota hai, celsius mein nahi, isliye tapman ko 273 jodkar badalna padta hai. Boyle (PV), Gay-Lussac (P/T) aur Avogadro (V/n) alag niyam hain - isliye ye theek nahi hain. Exam point: Charles's law = constant pressure par V/T sthir (V1/T1 = V2/T2), aur tapman hamesha kelvin mein lena chahiye."
   },
   {
     "qe": "What is a 'Buffer Solution' defined as in aqueous analytical chemistry?",
     "qh": "जलीय विश्लेषणात्मक रसायन विज्ञान में 'बफर विलयन' (Buffer Solution) को किस रूप में परिभाषित किया गया है?",
     "o": [
-      "A solution with pH exactly equal to 0",
-      "A solution that resists drastic changes in its pH upon the addition of small amounts of acid or base",
       "A saturated salt brine",
-      "Pure distilled water"
+      "A solution that resists drastic changes in its pH upon the addition of small amounts of acid or base",
+      "Pure distilled water",
+      "A solution with pH exactly equal to 0"
     ],
     "a": 1,
-    "e": "Buffer solutions weak acid aur uske conjugate salt (jaise $CH_3COOH + CH_3COONa$) se bante hain jo $H^+$ ya $OH^-$ ko neutralize karke pH stable rakhte hain."
+    "e": "Buffer solution wo hota hai jismein thoda acid ya thoda base daalne par, ya tanu (dilute) karne par bhi pH ka bahut kam badlav hota hai - kyunki ismein ek durbal acid aur uske lavan (ya durbal base aur uske lavan) ka mishrit joda hota hai jo dono taraf ke ionon ko san santulit kar leta hai. Udaharan: acetic acid + sodium acetate (acidic buffer, pH ~4.7) aur ammonium hydroxide + ammonium chloride (basic buffer). Acidic buffer pH 7 se kam aur basic buffer 7 se upar rakhta hai, isliye 'pH ko bilkul nahi badalne deta' ya 'sirf base ko rokta hai' type bhaav galat hai. Exam point: buffer solution thoda acid/base daalne par pH ko lagbhag sthir rakhta hai (durbal acid-base aur unke lavan ka mishran), jaise khoon ka pH 7.4 aur acetic acid-sodium acetate buffer."
   },
   {
     "qe": "According to Graham's Law of Effusion, which of the following gases will diffuse most rapidly under identical conditions?",
     "qh": "ग्राहम के विसरण नियम के अनुसार, समान परिस्थितियों में निम्नलिखित में से कौन सी गैस सबसे तेजी से विसरित होगी?",
     "o": [
+      "Hydrogen ($H_2$, MW = 2)",
       "Oxygen ($O_2$, MW = 32)",
       "Carbon Dioxide ($CO_2$, MW = 44)",
-      "Hydrogen ($H_2$, MW = 2)",
       "Nitrogen ($N_2$, MW = 28)"
     ],
-    "a": 2,
-    "e": "Graham's law states $r \\propto 1/\\sqrt{M}$; Hydrogen ka molecular weight sabse kam (2 g/mol) hone ki wajah se iska diffusion rate sabse fast hota hai."
+    "a": 0,
+    "e": "Graham's law kehta hai ki sthir paristhitiyon mein gas ka bahav-ya (effusion/diffusion) uske mol-bhaar (molecular weight) ke vargmul ka vyutkram hota hai; isliye sabse halki gas sabse tez failti hai - hydrogen (H2) ka mol bhar 2 hai jo sabse kam hai, isliye ye sabse tez failti hai. Isi karan helium (MW 4) se bhari balloon jaldi sikud jaate hain aur H2 gas ka pata lagane ke liye lepton jaisa test hota hai. CO2 (44), O2 (32) aur N2 (28) bhaari hone ke karan dheeme failte hain, Ye vikalp galat hain. Exam point: Graham's law - gas ka bahav uske mol bhar ke vargmul ke vyutkram hota hai; sabse halki gas (H2, MW 2) sabse tez diffuse hoti hai."
   },
   {
     "qe": "A chemical reaction has attained 'Dynamic Equilibrium' when the:",
     "qh": "एक रासायनिक अभिक्रिया ने 'गतिक साम्यावस्था' प्राप्त कर ली है जब:",
     "o": [
-      "Forward and reverse reactions cease completely",
+      "Temperature becomes 0 K",
       "Rate of forward reaction equals the rate of reverse reaction",
-      "Concentrations of reactants reach zero",
-      "Temperature becomes 0 K"
+      "Forward and reverse reactions cease completely",
+      "Concentrations of reactants reach zero"
     ],
     "a": 1,
-    "e": "Dynamic equilibrium par reaction rukti nahi hai, dono opposing reactions identical speed se chalti rehti hain jisse net concentrations constant rehti hain."
+    "e": "Dynamic equilibrium mein kriya ruk jaisi nahi hoti - andar aage aur peeche dono kriyaayein chalti rehti hain, bas unki gatiyan barabar ho jaati hain, isliye sandrata (concentration) sthir dikhti hai; kyunki rates barabar hain, koi net badlav nahi hota. Isi karan aise agyakarm ka constant K nikalta hai (K = forward rate constant / reverse rate constant). Sandrata ka zero hona ya kriya ka dobara na hona iske ulta hai (ek hi disha wali kriya mein equilibrium nahi ban sakta). Exam point: dynamic equilibrium par forward aur reverse dono kriyaon ki gatiyan barabar hoti hain, isliye sandrata sthir rehti hai aur net badlav zero hota hai."
   },
   {
     "qe": "Which gas law asserts that the total pressure of a non-reacting gas mixture equals the sum of the individual partial pressures?",
     "qh": "कौन सा गैस नियम बताता है कि अक्रियाशील गैस मिश्रण का कुल दाब व्यक्तिगत आंशिक दाबों के योग के बराबर होता है?",
     "o": [
-      "Boyle's Law",
-      "Dalton's Law of Partial Pressures",
       "Raoult's Law",
+      "Dalton's Law of Partial Pressures",
+      "Boyle's Law",
       "Charles's Law"
     ],
     "a": 1,
-    "e": "Dalton's Law states $P_{total} = p_1 + p_2 + p_3 + ...$; har gas container ki walls par independent partial pressure exert karti hai."
+    "e": "Dalton's law of partial pressures kehta hai ki paraspar kriya na karne wali gasen jab ek bartan mein mila di jaati hain to mishran ka kul dabav unke alag-alag aanshik dabavon (partial pressures) ke jod ke barabar hota hai, isliye P(total) = P1 + P2 + P3... hota hai. Har gas ka aanshik dabav uske mole fraction aur kul dabav ka guna hota hai (Pi = xi x P total). Isi niyam se water vapour pressure ko ghatakar shushk gas ka aayatan nikalte hain. Boyle, Charles aur Graham ke niyam alag baatein batate hain, isliye wo sahi nahi. Exam point: Dalton's law - non-reacting gases ke mishran ka total pressure uske partial pressures ka jod hota hai (Pi = xi x P total)."
   },
   {
     "qe": "What is the numerical value of the ionic product of water ($K_w = [H^+][OH^-]$) at standard 25°C?",
     "qh": "मानक 25°C पर जल के आयनिक गुणनफल ($K_w = [H^+][OH^-]$) का संख्यात्मक मान क्या होता है?",
     "o": [
       "10^-7",
-      "10^-14",
       "10^7",
-      "1.0"
+      "1.0",
+      "10^-14"
     ],
-    "a": 1,
-    "e": "Pure water ke auto-ionization se $[H^+] = 10^{-7}$ aur $[OH^-] = 10^{-7}$ hote hain, isliye $K_w = 10^{-7} \\times 10^{-7} = 10^{-14}$."
+    "a": 3,
+    "e": "25 degree C par shudh paani mein H+ aur OH- ions ki sandrata ka gunaank (ionic product, Kw) 10^-14 hota hai; kyunki paani ki khud ki (self) ionization ke karan [H+] = [OH-] = 10^-7 M hoti hai, isliye in dono ka gunaank 10^-7 x 10^-7 = 10^-14 banta hai. Yahi sambandh pH + pOH = 14 nahi, balki pKw = 14 deta hai. Ye maan tapman par nirbhar karta hai - garam paani mein Kw badh jaata hai aur pKw 14 se kam ho jaata hai. 10^-7, 10^-12 ya 10^-10 aise value nahi hain. Exam point: 25 degree C par ionic product of water Kw = [H+][OH-] = 10^-14 (aur pKw = 14); garam paani mein Kw thoda badh jaata hai."
   },
   {
     "qe": "Under what reaction conditions does Le-Chatelier's principle predict maximum ammonia yield in the Haber Process ($N_2 + 3H_2 \\rightleftharpoons 2NH_3 + \\text{Heat}$)?",
     "qh": "ला-शातेलिए के सिद्धांत के अनुसार हैबर प्रक्रम में अमोनिया की अधिकतम उपज किन परिस्थितियों में प्राप्त होती है?",
     "o": [
-      "Low pressure and high temperature",
       "High pressure and low optimum temperature",
+      "High volume and inert atmosphere",
       "Low pressure and catalyst absence",
-      "High volume and inert atmosphere"
+      "Low pressure and high temperature"
     ],
-    "a": 1,
-    "e": "Forward reaction me 4 moles se 2 moles bante hain (fewer moles = favored by high pressure) aur process exothermic hai (favored by lower optimum temp ~450°C)."
+    "a": 0,
+    "e": "Haber process N2 + 3H2 2NH3 + heat mein aage ki disha mein gaseous moles kam (4 se 2) hote hain aur heat bhi nikalati hai, isliye Le-Chatelier's principle ke anusar high pressure aage ki disha ko badhata hai aur low temperature bhi anukool hoti hai. Par bahut kam tapman par gati (rate) bahut dheemi ho jaati hai, isliye vyavhar mein 'optimum' tapman (lagbhag 700 K) par kaam kiya jaata hai aur iron catalyst lagaya jaata hai. Sirf low pressure, high temperature wale vikalp ulta asar karenge (yield ghatega), aur catalyst se yield ka sthir santulan nahi badalta. Exam point: Haber process mein NH3 ka maximum yield high pressure aur low (optimum) temperature par milta hai; catalyst sirf gati badhata hai, yield nahi."
   },
   {
     "qe": "What is the value of the 'Compressibility Factor' ($Z = PV/nRT$) for a purely theoretical Ideal Gas?",
     "qh": "एक विशुद्ध सैद्धांतिक आदर्श गैस के लिए 'संपीड्यता गुणांक' ($Z = PV/nRT$) का मान क्या होता है?",
     "o": [
       "0",
-      "1",
       "> 1 always",
+      "1",
       "< 1 always"
     ],
-    "a": 1,
-    "e": "Ideal gas equation $PV = nRT$ follow karti hai, isliye compressibility factor $Z = PV/(nRT) = 1$ exact unity hota hai."
+    "a": 2,
+    "e": "Compressibility factor Z = PV/nRT batata hai ki vastavik gas ideal gas (Z = 1) se kitna alag hai; purely theoretical ideal gas ke liye, jisme anuon ke beech na aakarshan hota hai aur unka aayatan bhi shunya mana jaata hai, Z ki value exactly 1 hoti hai. Vastavik gasen kam dabav par Z < 1 (aakarshan ke karan) aur zyada dabav par Z > 1 (aayatan ke karan) dikhati hain, isliye Z ka ideal maan 0, -1 ya infinite nahi ho sakta. Isi karan Z se inter-atomic force aur aayatan ka pata lagta hai. Exam point: ideal gas ke liye compressibility factor Z = 1 hota hai; vastavik gasen Z deviating ke saath ideal se hat ti hain (van der Waals correction)."
   },
   {
     "qe": "Which physical parameter is the ONLY factor that can alter the numerical value of an Equilibrium Constant (K)?",
     "qh": "कौन सा भौतिक मापदंड एकमात्र ऐसा कारक है जो साम्य स्थिरांक (K) के संख्यात्मक मान को बदल सकता है?",
     "o": [
-      "Concentration of reactants",
       "Total system pressure",
-      "Temperature",
-      "Addition of a catalyst"
+      "Concentration of reactants",
+      "Addition of a catalyst",
+      "Temperature"
     ],
-    "a": 2,
-    "e": "Equilibrium constant $K$ concentration ya pressure badalne par nahi badalta, ye van 't Hoff isochore equation ke mutabiq solely Temperature par depend karta hai."
+    "a": 3,
+    "e": "Agyakarm constant (K) ka maan sirf ek hi chiz badal sakti hai - temperature; kyunki K forward aur reverse rate constants ka anupat hota hai aur dono rate constants temperature par nirbhar karte hain, isliye tapman badalne par K ka maan badal jaata hai. Sandrata, dabav, volume ya catalyst badalne se agyakarm khisak to sakta hai par K ka maan wahi rehta hai (Q badalta hai, K nahi). Isi liye catalyst ke upasthiti mein bhi K ka value na hai na ghata hai. Exam point: equilibrium constant K ka maan sirf temperature badalne par badalta hai; concentration, pressure aur catalyst se K par koi asar nahi hota."
   },
   {
     "qe": "What is the 'Common Ion Effect' in aqueous electrolyte equilibrium?",
     "qh": "जलीय विद्युत-अपघट्य साम्य में 'समान आयन प्रभाव' (Common Ion Effect) क्या होता है?",
     "o": [
-      "Suppression of the degree of dissociation of a weak electrolyte by adding a strong electrolyte having a common ion",
-      "Increase in solubility of precipitates",
       "Generation of an electric current",
-      "Complete neutralisation"
+      "Increase in solubility of precipitates",
+      "Complete neutralisation",
+      "Suppression of the degree of dissociation of a weak electrolyte by adding a strong electrolyte having a common ion"
     ],
-    "a": 0,
-    "e": "Weak acid (jaise $CH_3COOH$) me common acetate ion ($CH_3COONa$) milane par Le-Chatelier principle se weak electrolyte ka ionization suppress ho jaata hai."
+    "a": 3,
+    "e": "Common ion effect kehta hai ki yadi ek durbal vidyutapghatak (weak electrolyte) ke ghulaimaan mein wahi ion dene wala koi mazbut vidyutapghatak (strong electrolyte) mila diya jaaye, to durbal vidyutapghatak ka apghatan (dissociation) ghat jaata hai - kyunki Le-Chatelier's principle ke anusar adhik ion hone par agyakarm peeche (undissociated) disha mein khisak jaata hai. Isi karan acetic acid mein sodium acetate daalne par H+ ki sandrata ghat jaati hai aur pH badh jaata hai (buffer ka aadhaar). Sandrata badhana, pH girana ya rang badalna iske parinaam nahi hain, inhe is prashn mein sahi nahi maana jaata. Exam point: common ion effect = saman ion wala strong electrolyte daalne par weak electrolyte ka dissociation aur ionisation ghat jaata hai (jaise H2S + HCl se S2- kam hota hai)."
   },
   {
     "qe": "What is the relationship between pH and pOH in any aqueous solution at 25°C?",
     "qh": "25°C पर किसी भी जलीय विलयन में pH और pOH के बीच क्या संबंध होता है?",
     "o": [
+      "pH / pOH = 1",
       "pH + pOH = 7",
-      "pH + pOH = 14",
       "pH - pOH = 14",
-      "pH / pOH = 1"
+      "pH + pOH = 14"
     ],
-    "a": 1,
-    "e": "$K_w = [H^+][OH^-] = 10^{-14}$ par negative logarithm lene se universal relation $pH + pOH = pK_w = 14$ nikalta hai."
+    "a": 3,
+    "e": "Paani mein H+ aur OH- ki sandrata ka gunaank Kw = 10^-14 hota hai, isliye uske rin-log (negative log) lete hi pKw = 14 milta hai - matlab pH aur pOH ka jod hamesha 14 hoga (25 degree C par). Udaharan: agar pH 4 hai to pOH 10 hoga aur agar pH 10 hai to pOH 4. Dhyan rakhein: ye jod sirf 25 degree C par 14 hota hai; doosre tapman par Kw badalne se ye jod badal jaata hai (phir bhi pH + pOH = pKw). pH x pOH = 14, pH - pOH = 14 ya pH = pOH jaise sambandh galat hain. Exam point: 25 degree C par kisi bhi jaliya ghulaimaan mein pH + pOH = 14 (yaani pH + pOH = pKw) hota hai."
   },
   {
     "qe": "What is the standard 'Molar Volume' occupied by exactly 1 mole of any ideal gas at STP (0°C and 1 atm)?",
     "qh": "STP (0°C और 1 atm) पर किसी भी आदर्श गैस के ठीक 1 मोल द्वारा घेरा गया मानक 'मोलर आयतन' कितना होता है?",
     "o": [
-      "11.2 L",
-      "22.4 L",
       "44.8 L",
+      "22.4 L",
+      "11.2 L",
       "1.0 L"
     ],
     "a": 1,
-    "e": "Avogadro's hypothesis aur ideal gas law $V = nRT/P$ se 1 mole gas standard 1 atm aur 273.15 K par exactly 22.414 liters space occupy karti hai."
+    "e": "STP (0 degree C yaani 273.15 K aur 1 atm dabav) par 1 mol kisi bhi ideal gas ka aayatan 22.4 L hota hai, kyunki V = nRT/P = (1 x 0.0821 x 273)/1 = 22.4 L nikalta hai - isi karan ise 'gram molar volume' bhi kehte hain aur isse mol se litre mein badalna aasaan hota hai. Dhyan rakhein: NTP/SATP (1 bar, 25 degree C) par ye maan 24.8 L ho jaata hai, isliye 22.4 L sirf STP ke liye hai. 11.2, 44.8 (do mol) aur 24.4 aankde STP ke liye galat hain. Exam point: STP (0 degree C, 1 atm) par 1 mol ideal gas ka molar volume 22.4 L hota hai; 1 mol ke aadha mol ke liye 11.2 L."
   },
   {
     "qe": "What is the effect of adding an 'Inert Gas' at CONSTANT VOLUME to a gaseous equilibrium system?",
     "qh": "एक गैसीय साम्यावस्था निकाय में स्थिर आयतन पर 'अक्रिय गैस' मिलाने का क्या प्रभाव होता है?",
     "o": [
-      "Shifts the equilibrium forward",
-      "Shifts the equilibrium backward",
+      "Increases the equilibrium constant",
       "Has no effect on the equilibrium position",
-      "Increases the equilibrium constant"
+      "Shifts the equilibrium forward",
+      "Shifts the equilibrium backward"
     ],
-    "a": 2,
-    "e": "Constant volume par inert gas milane se total pressure badhta hai par reacting gases ke partial pressures aur molar concentrations unchanged rehte hain, isliye equilibrium shift nahi hota."
+    "a": 1,
+    "e": "Agyakarm par inert (nishtkriya) gas milane se jab aayatan sthir rahe, tab kisi bhi gas ka aanshik dabav (partial pressure) nahi badalta - kyunki kul dabav bhi badh jaata hai par ngRT wala sambandh wahi rehta hai (aayatan sthir hai), isliye agyakarm ki disha par koi asar nahi padta. Iske ulat, sthir dabav par inert gas milane se aayatan badhta hai (samikaran kamzoor pad jaata hai) aur ng wali disha mein agyakarm khisak jaata hai. Isliye 'aage badhta hai', 'peeche badhta hai' ya 'K badal jaata hai' wale vikalp galat hain. Exam point: sthir volume par inert gas milane se aanshik dabav aur K nahi badalte, isliye equilibrium par koi asar nahi hota."
   },
   {
     "qe": "The Root Mean Square velocity ($v_{rms}$) of gas molecules is mathematically proportional to:",
     "qh": "गैस अणुओं का वर्ग माध्य मूल वेग ($v_{rms}$) गणितीय रूप से किसके समानुपाती होता है?",
     "o": [
-      "Absolute temperature ($T$)",
       "Square root of absolute temperature ($\\sqrt{T}$)",
-      "Inverse of temperature ($1/T$)",
-      "Pressure only"
+      "Absolute temperature ($T$)",
+      "Pressure only",
+      "Inverse of temperature ($1/T$)"
     ],
-    "a": 1,
-    "e": "Kinetic theory formula $v_{rms} = \\sqrt{3RT/M}$ ke mutabiq molecular speed absolute temperature ke square root ke directly proportional hoti hai."
+    "a": 0,
+    "e": "Kinetic theory ke anusar gas ke anuon ki root mean square speed (vrms) ka sutra vrms = sqrt(3RT/M) hai, isliye tapman badhane par ye gati vargmul-tapman (sqrt T) ke anupat badhti hai, yaani tapman 4 guna karne par gati sirf 2 guna badhti hai. Dhyan rakhein: vrms, average speed aur most probable speed teeno sqrt T ke samanupati hote hain, isliye 300 K se 1200 K jaane par gati dugni hogi. R x T, T x T ya log T wale sambandh galat hain. Exam point: vrms proportional to sqrt(T/M) - gati tapman ke vargmul aur mol-bhaar ke vyutkram vargmul par nirbhar karti hai."
   },
   {
     "qe": "According to the Bronsted-Lowry acid-base theory, an 'Acid' is defined as a:",
     "qh": "ब्रोंस्टेड-लोरी अम्ल-क्षार सिद्धांत के अनुसार, एक 'अम्ल' को किस रूप में परिभाषित किया गया है?",
     "o": [
-      "Proton ($H^+$) donor",
-      "Proton ($H^+$) acceptor",
       "Electron pair donor",
-      "Hydroxide ($OH^-$) donor"
+      "Proton ($H^+$) acceptor",
+      "Hydroxide ($OH^-$) donor",
+      "Proton ($H^+$) donor"
     ],
-    "a": 0,
-    "e": "Bronsted-Lowry concept kehta hai ki acid ek proton donor ($H^+$ release karne wali species) hota hai aur base ek proton acceptor hota hai."
+    "a": 3,
+    "e": "Bronsted-Lowry theory acid-base ko proton (H+ ion) ke aadan-pradan se batati hai: acid wo hai jo proton (H+) deta hai aur base wo jo proton leta hai; isliye HCl paani mein H+ dekar hydronium ion banata hai. Isi paribhasha se sandrata-acid (conjugate acid-base) ke jode bante hain (jaise NH4+ ka joda NH3 hai). Lewis theory electron-pair wali hai, Arrhenius theory sirf jaliya H+/OH- wali hai - isliye 'electron acceptor', 'hydrogen de' ya 'neutralize' wale vikalp is theory ke naam hain hi nahi. Exam point: Bronsted-Lowry ke anusar acid = proton (H+) donor aur base = proton acceptor; ye paribhasha sandrata (conjugate) ke jode banaati hai."
   },
   {
     "qe": "What is the total translational 'Kinetic Energy' of 1 mole of an ideal gas at temperature T?",
     "qh": "तापमान T पर एक आदर्श गैस के 1 मोल की कुल स्थानांतरीय 'गतिज ऊर्जा' क्या होती है?",
     "o": [
-      "1/2 RT",
-      "3/2 RT",
+      "5/2 RT",
       "RT",
-      "5/2 RT"
+      "3/2 RT",
+      "1/2 RT"
     ],
-    "a": 1,
-    "e": "Har translational degree of freedom ke liye $(1/2)RT$ energy aati hai; 3 spatial dimensions ke liye 1 mole ki average kinetic energy $E = 3/2 RT$ hoti hai."
+    "a": 2,
+    "e": "Anuon ki sirf translational (sthaniy) gati ko dekhte hue kinetic theory bataati hai ki ek molecule ki ausat gati urja (3/2)kT hoti hai; isliye 1 mol ke liye (N anu, N x k = R) ye (3/2)RT ho jaati hai. Isi karan kisi bhi matra mein amu ki urja gas ke tapman se seedha judi hoti hai (KE proportional to T) aur tapman hi ausat kinetic energy ka maap ban jaata hai. (3/2)kT, RT, ya (5/2)RT wale aankde thos padarth ya anya swatantrata-koti (degrees of freedom) ke liye hote hain, isliye mole ke liye sahi nahi. Exam point: 1 mol ideal gas ki kul translational kinetic energy = (3/2)RT hoti hai (per molecule (3/2)kT), kyunki usme teen degrees of freedom hote hain."
   },
   {
     "qe": "What is the 'Conjugate Base' of the ammonium cation ($NH_4^+$)?",
     "qh": "अमोनियम धनायन ($NH_4^+$) का 'संयुग्मी क्षार' (Conjugate Base) क्या है?",
     "o": [
+      "Nitrogen ($N_2$)",
       "Ammonia ($NH_3$)",
       "Amide ion ($NH_2^-$)",
-      "Nitrogen ($N_2$)",
       "Hydrazine ($N_2H_4$)"
     ],
-    "a": 0,
-    "e": "Kisi acid me se ek proton ($H^+$) remove karne par uska conjugate base milta hai: $NH_4^+ - H^+ \\to NH_3$."
+    "a": 1,
+    "e": "Nh4+ (ammonium) ion ek proton (H+) chhodkar apna sandrata (conjugate) base bana leta hai; jab usme se H+ nikalta hai to NH3 bachta hai, isliye ammonium ka conjugate base ammonia (NH3) hai. Ulta NH3 proton lekar NH4+ bana leta hai, isliye NH3 ammonium ka conjugate acid hota hai. Ammonium hydroxide ya ammonium nitrate aise jode nahi hain kyunki unmein NH4+ ka koi proton-adan-pradan sambandh nahi dikhta. Exam point: NH4+ ka conjugate base NH3 hai (ek proton kam); aur NH3 ka conjugate acid NH4+ hota hai - ye Bronsted acid-base joda hai."
   },
   {
     "qe": "What is the calculated 'pH' of a strong basic solution with $[OH^-] = 10^{-4}$ M at 25°C?",
     "qh": "25°C पर $[OH^-] = 10^{-4}$ M वाले एक प्रबल क्षारीय विलयन का परिकलित 'pH' मान क्या है?",
     "o": [
       "4",
-      "10",
       "14",
+      "10",
       "7"
     ],
-    "a": 1,
-    "e": "$pOH = -\\log[OH^-] = -\\log(10^{-4}) = 4$; isliye $pH = 14 - pOH = 14 - 4 = 10$."
+    "a": 2,
+    "e": "pOH = -log[OH-] = -log(10^-4) = 4 hota hai, aur 25 degree C par pH + pOH = 14 hone ke karan pH = 14 - 4 = 10 nikalta hai - isliye ye ghulaimaan kshariya (basic) hai (pH 7 se adhik). Isi tarah pOH nikal kar pH ka hisaab lagana weak/strong base ke liye aam vidhi hai (strong base mein [OH-] seedha diya hota hai). pH 4 to us acid wale ghulaimaan ka hota hai jismein [H+] = 10^-4 M ho, pH 6 aur 14 aise aankde nahi milte. Exam point: [OH-] = 10^-4 M wale ghulaimaan ka pOH 4 aur pH 10 hota hai (pH + pOH = 14)."
   },
   {
     "qe": "In modern electronic theory, what is 'Oxidation' defined as?",
     "qh": "आधुनिक इलेक्ट्रॉनिक सिद्धांत में 'ऑक्सीकरण' (Oxidation) को किस रूप में परिभाषित किया गया है?",
     "o": [
       "Gain of electrons",
-      "Loss of electrons",
       "Sharing of protons",
+      "Loss of electrons",
       "Addition of hydrogen"
     ],
-    "a": 1,
-    "e": "OIL RIG rule: Oxidation Is Loss of electrons (increase in oxidation state), jabki Reduction Is Gain of electrons."
+    "a": 2,
+    "e": "Aadhunik paribhasha ke anusar oxidation wo kriya hai jismein koi padarth electron khota hai (aur uski oxidation number badh jaati hai) - ise yaad rakhne ke liye 'OIL RIG' (Oxidation Is Loss, Reduction Is Gain) ka sahara lete hain. Udaharan: Zn Zn2+ + 2e-, yahan zinc ne electron khoye isliye oxidise hua. Electron praapti (gain), proton ka aadan-pradan ya hydrogen ka nikalna - ye teeno paribhashaayein oxidation ki nahi (reduction ya acid-base ki hain), isliye inhe sahi nahi maana jaata. Exam point: oxidation = electron ka tyag (loss) aur oxidation number badhna; reduction = electron ka labh (gain) aur oxidation number ghatega."
   },
   {
     "qe": "What is the 'Oxidation Number' of Manganese in the Permanganate ion ($MnO_4^-$)?",
     "qh": "परमैंगनेट आयन ($MnO_4^-$) में मैंगनीज की 'ऑक्सीकरण संख्या' क्या है?",
     "o": [
-      "+2",
-      "+4",
       "+7",
-      "+6"
+      "+6",
+      "+4",
+      "+2"
     ],
-    "a": 2,
-    "e": "$x + 4(-2) = -1 \\implies x - 8 = -1 \\implies x = +7$. Permanganate me Manganese apni maximum +7 oxidation state me hota hai."
+    "a": 0,
+    "e": "MnO4- ion mein oxygen ka oxidation number -2 hota hai (4 oxygen ke liye -8), aur ion ka kul aavesh -1 hai, isliye x + (-8) = -1 se x = +7 nikalta hai - yaani manganese ka oxidation number +7 hai. Yahi karan hai ki permanganate ek prabal oxidising agent hai (Mn7+ se Mn2+ tak jaata hai, rang baingani se rang-heen). Saadhaaran galti '4' ya '6' likhna hai (oxygen ke -2 ko bhoolna), aur +2 Mn2+ ka hota hai. Exam point: MnO4- mein Mn ka oxidation number = +7; isi karan permanganate prabal oxidising agent hai."
   },
   {
     "qe": "Which of the following physical characteristics is NOT a colligative property of dilute solutions?",
     "qh": "निम्नलिखित में से कौन सा भौतिक लक्षण तनु विलयनों का अणुसंख्य गुणधर्म नहीं है?",
     "o": [
-      "Osmotic pressure",
-      "Elevation in boiling point",
+      "Depression in freezing point",
       "Surface tension",
-      "Depression in freezing point"
+      "Osmotic pressure",
+      "Elevation in boiling point"
     ],
-    "a": 2,
-    "e": "Surface tension aur viscosity pure liquids ke bulk intrinsic properties hote hain jo solute particle count par depend nahi karte."
+    "a": 1,
+    "e": "Colligative properties (vapour pressure ka apchaalan, kvathank badaut, hiamank avana aur osmotic pressure) sirf ghule hue kanon ki sankhya par nirbhar hoti hain, islye uska aadhaar 'kan ki ginti' hai. Satah tanav (surface tension) ek aantarikmukhi (interfacial) gun hai jo kanon ki sankhya ke bajaye padarth ke rasayanik swabhav aur tapman par nirbhar karta hai, isliye ye colligative property nahi hai. Isi tarah viscosity, refractive index aur rang bhi colligative nahi hote. Exam point: colligative properties char hi hain (relative lowering of vapour pressure, elevation of boiling point, depression of freezing point, osmotic pressure); surface tension inmein nahi hai."
   },
   {
     "qe": "Why is common rock salt (NaCl) scattered over snow-covered roadways in freezing winter climates?",
     "qh": "सर्दियों में बर्फीली सड़कों पर साधारण नमक (NaCl) क्यों छिड़का जाता है?",
     "o": [
-      "To increase tire traction physically",
-      "To cause a depression in the freezing point of water, melting the ice at sub-zero temperatures",
+      "To neutralize acid snow",
       "To absorb atmospheric moisture",
-      "To neutralize acid snow"
+      "To increase tire traction physically",
+      "To cause a depression in the freezing point of water, melting the ice at sub-zero temperatures"
     ],
-    "a": 1,
-    "e": "Salt dissolve hokar freezing point ko 0°C se girakar -10°C se -15°C tak le jaata hai (Depression in Freezing Point), jisse barf ambient cold me pighal jaati hai."
+    "a": 3,
+    "e": "Sadak par namak (NaCl) bikherne se paani ke hiamank (freezing point) mein avana (depression) hota hai, kyunki ghule hue kan (Na+ aur Cl-) paani ke ice banne ka amal rok dete hain - isliye 0 degree C se kam tapman par bhi barf pighal jaati hai aur sadak par phisalna kam hota hai. Yahi hiamank avana colligative property ka vyavharik udaharan hai (NaCl jaise ion dene wale padarth ka asar dugna hota hai). Boiling point badhna, freezing point badhna ya garmi badhana is kriya ka sahi kaaran nahi hain. Exam point: sadak par namak dalne se freezing point girta hai (freezing point depression), isliye barf kam tapman par bhi pighal kar girti hai."
   },
   {
     "qe": "What is the 'Oxidation State' of Carbon in Carbon Dioxide ($CO_2$)?",
     "qh": "कार्बन डाइऑक्साइड ($CO_2$) में कार्बन की 'ऑक्सीकरण अवस्था' क्या है?",
     "o": [
+      "0",
       "+2",
       "+4",
-      "-4",
-      "0"
+      "-4"
     ],
-    "a": 1,
-    "e": "Oxygen ki electronegativity zyada hone se iska state -2 hota hai; $x + 2(-2) = 0 \\implies x = +4$."
+    "a": 2,
+    "e": "CO2 mein oxygen ka oxidation number -2 hota hai, aur molecule vidyut-udasheeni (neutral) hai, isliye x + 2(-2) = 0 se x = +4 nikalta hai - matlab carbon ka oxidation state +4 hai. Isi karan CO2 mein carbon apni sabse uchch (highest) oxidation avastha mein hai, isliye ye aage oxidise nahi hota (jalne ka final product banta hai) par carbon jaise reducing agent bana deta hai. 2, -2 ya 4+ (chinh galat) wale vikalp ganit se match nahi karte (oxygen chhupe aavesh ko bhoolna aam galti hai). Exam point: CO2 mein carbon ka oxidation number +4 hai (x + 2(-2) = 0), jo carbon ki sabse uchch oxidation avastha hai."
   },
   {
     "qe": "A chemical reaction in which oxidation and reduction occur simultaneously across interacting species is called a:",
     "qh": "वह रासायनिक अभिक्रिया जिसमें भाग लेने वाली प्रजातियों के बीच ऑक्सीकरण और अपचयन एक साथ होते हैं, कहलाती है:",
     "o": [
-      "Precipitation reaction",
       "Redox reaction",
+      "Polymerization reaction",
       "Neutralization reaction",
-      "Polymerization reaction"
+      "Precipitation reaction"
     ],
-    "a": 1,
-    "e": "Redox (Reduction-Oxidation) reaction me electrons ka donor reducing agent hota hai aur electron acceptor oxidizing agent hota hai."
+    "a": 0,
+    "e": "Aisi kriya jismein ek padarth oxidise (electron kho) aur doosra padarth reduce (electron pa) ho, use redox (reduction-oxidation) reaction kehte hain - dono kriyaayein ek saath hoti hain, kyunki electron koi khota hai to koi paata hai. Udaharan: Zn + Cu2+ Zn2+ + Cu, yahan zinc oxidise aur copper reduce hua. Isi tarah battery ka discharge aur shvasan (respiration) bhi redox kriyaayein hain, jabki acid-base ya vishleshan (precipitation) kriyaayein redox nahi (unme electron ka aadan-pradan nahi hota). Exam point: oxidation aur reduction ek saath hone wali kriya = redox reaction (electron ka aadan-pradan), jaise Zn + Cu2+ Zn2+ + Cu."
   },
   {
     "qe": "What is the 'Oxidation Number' of Hydrogen in active metal hydrides like Sodium Hydride ($NaH$)?",
     "qh": "सोडियम हाइड्राइड ($NaH$) जैसे सक्रिय धातु हाइड्राइड में हाइड्रोजन की 'ऑक्सीकरण संख्या' क्या होती है?",
     "o": [
-      "+1",
       "-1",
       "0",
+      "+1",
       "+2"
     ],
-    "a": 1,
-    "e": "Alkali metals ($Na$) zyada electropositive (+1) hote hain, isliye Hydrogen electron gain karke hydride ion ($H^-$) banata hai jahan iski state -1 hoti hai."
+    "a": 0,
+    "e": "Active metal hydrides jaise NaH mein sodium ka oxidation number +1 hota hai, aur hydride ion (H-) ka -1 hota hai, kyunki active dhaatu hydrogen se zyada vidyut-dhanatmak (electropositive) hoti hai aur electron de deti hai; isliye NaH mein hydrogen ka oxidation number -1 hai. Dhyan rakhein ki non-metal hydrides (HCl ya H2O) mein hydrogen +1 hota hai, aur aise hydride ion se H2 gas bhi banti hai (paani ke saath kriya kar ke). 0, +1 ya -2 wale vikalp is prashn ke liye galat hain. Exam point: active metal hydrides (NaH, CaH2, LiAlH4) mein hydrogen ka oxidation number -1 hota hai (hydride ion), jabki HCl/H2O mein +1."
   },
   {
     "qe": "In the redox reaction $Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu$, which chemical entity undergoes 'Reduction'?",
     "qh": "रेडॉक्स अभिक्रिया $Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu$ में, किस रासायनिक स्पीशीज का 'अपचयन' (Reduction) होता है?",
     "o": [
-      "Zn",
       "Cu^2+ ion",
-      "Zn^2+ ion",
-      "Cu metal"
+      "Zn",
+      "Cu metal",
+      "Zn^2+ ion"
     ],
-    "a": 1,
-    "e": "$Cu^{2+}$ do electrons accept karke metallic copper ($Cu$) me reduce hota hai ($Cu^{2+} + 2e^- \\to Cu$), jabki $Zn$ oxidize hota hai."
+    "a": 0,
+    "e": "Zn + Cu2+ Zn2+ + Cu mein copper ion (Cu2+) electron praapt karke dhaatu copper (Cu) ban jaata hai, isliye Cu2+ reduce hua aur uski oxidation avastha +2 se 0 par aa gayi. Ulta zinc (Zn) electron kho kar Zn2+ ban jaata hai, isliye zinc oxidise hua - yahi karan hai ki zinc ki plate patli hoti jaati hai. 'Reduction' ka matlab electron praapti aur oxidation number ghatega hai, isliye Zn, Zn2+ aur Cu wale vikalp sahi nahi hain (Zn oxidise hota hai, Cu banta hai). Exam point: Zn + Cu2+ Zn2+ + Cu mein Cu2+ reduce (electron praapt karke) Cu banta hai; zinc oxidise hokar Zn2+ banta hai (redox reaction)."
   },
   {
     "qe": "What is the 'Oxidation Number' of Sulfur in Sulfuric Acid ($H_2SO_4$)?",
     "qh": "सल्फ्यूरिक एसिड ($H_2SO_4$) में सल्फर की 'ऑक्सीकरण संख्या' क्या है?",
     "o": [
-      "+4",
       "+6",
+      "+4",
       "-2",
       "+2"
     ],
-    "a": 1,
-    "e": "$2(+1) + x + 4(-2) = 0 \\implies 2 + x - 8 = 0 \\implies x = +6$."
+    "a": 0,
+    "e": "H2SO4 mein hydrogen +1 (2 x 1 = +2) aur oxygen -2 (4 x -2 = -8) hota hai; molecule vidyut-udasheeni hone ke karan 2 + x - 8 = 0 se x = +6 nikalta hai - yaani sulfuric acid mein sulfur ka oxidation number +6 hai, jo uski uchch (highest) oxidation avastha hai. Isi karan garam aur gaadha H2SO4 prabal oxidising agent banta hai (sulfur ko SO2 tak laata hai). +4 SO2 mein, -2 sulfide mein hota hai, aur 4/3 (thiosulfate) anya roop hain, isliye wo vikalp sahi jod nahi. Exam point: H2SO4 mein sulfur ka oxidation number = +6 (2(+1) + x + 4(-2) = 0), isliye ye sulfur ki uchch avastha hai."
   },
   {
     "qe": "What is the 'Oxidation State' of Chlorine in Perchloric Acid ($HClO_4$)?",
     "qh": "परक्लोरिक एसिड ($HClO_4$) में क्लोरीन की 'ऑक्सीकरण अवस्था' क्या है?",
     "o": [
-      "+1",
-      "+3",
+      "+7",
       "+5",
-      "+7"
+      "+1",
+      "+3"
     ],
-    "a": 3,
-    "e": "$+1 + x + 4(-2) = 0 \\implies 1 + x - 8 = 0 \\implies x = +7$."
+    "a": 0,
+    "e": "HClO4 mein hydrogen +1 aur oxygen -2 hota hai; isliye 1 + x + 4(-2) = 0 se x = +7 milta hai - matlab perchloric acid mein chlorine apni sabse uchch oxidation avastha (+7) mein hai, isliye ye sabse prabal oxyacid hai (chlorine yahan pura oxidise ho chuka hai). Isi karan HClO4 (perchloric acid) prabal oxidising aur 'super acid' jaisa vyavhaar karta hai. HClO (x = +1, hypochlorous), HClO2 (+3) aur HClO3 (+5) kam oxidised roop hain, isliye wo vikalp is prashn ke sahi jod nahi. Exam point: HClO4 mein chlorine ka oxidation state = +7 (1 + x + 4(-2) = 0), jo chlorine ki sabse uchch avastha hai."
   },
   {
     "qe": "A chemical reaction in which the same element simultaneously undergoes both oxidation and reduction is called a:",
     "qh": "वह रासायनिक अभिक्रिया जिसमें एक ही तत्व का एक साथ ऑक्सीकरण और अपचयन दोनों होता है, कहलाती है:",
     "o": [
-      "Disproportionation reaction",
-      "Neutralization reaction",
       "Displacement reaction",
+      "Neutralization reaction",
+      "Disproportionation reaction",
       "Combination reaction"
     ],
-    "a": 0,
-    "e": "Disproportionation reaction me single reactant do alag oxidation states me convert hota hai (jaise $2H_2O_2 \\to 2H_2O + O_2$ me oxygen -1 se -2 aur 0 dono me jaata hai)."
+    "a": 2,
+    "e": "Aisi kriya jismein ek hi element ek saath oxidise (electron kho) aur reduce (electron pa) ho, use disproportionation (viyojan) reaction kehte hain; jaise 2H2O2 2H2O + O2 mein oxygen ek anu mein oxidise hota hai (O2) aur doosre anu mein reduce hota hai (H2O), aur 2Cu+ Cu2+ + Cu bhi isi prakar ki hai. Isliye is kriya mein ek hi padarth apne aap ko oxidise aur reduce karta hai. Sandrata-acid base, vishleshan (precipitation) aur utpreran (catalysis) is paribhasha se jude nahi - Ye vikalp galat hain. Exam point: ek hi element ka ek saath oxidation aur reduction = disproportionation reaction (udaharan 2H2O2 2H2O + O2)."
   },
   {
     "qe": "According to the Lewis definition, what is a 'Lewis Base'?",
     "qh": "लुईस परिभाषा के अनुसार, एक 'लुईस क्षार' (Lewis Base) क्या होता है?",
     "o": [
+      "Electron pair acceptor",
       "Proton donor",
       "Electron pair donor",
-      "Electron pair acceptor",
       "Hydroxide ion generator"
     ],
-    "a": 1,
-    "e": "Lewis concept kehta hai ki Lewis Base lone pair electron donor hota hai (jaise $:NH_3$), jabki Lewis Acid electron pair acceptor hota hai (jaise $BF_3$)."
+    "a": 2,
+    "e": "Lewis ki paribhasha acid-base ko electron-jode (electron pair) ke aadan-pradan se batati hai: Lewis base wo hai jo electron joda daan (donate) karti hai (isliye usme ekant joda/ lone pair hota hai) aur Lewis acid wo jo electron joda leti hai. Isi karan NH3 H+ ko apna lone pair de kar NH4+ banata hai, isliye ammonia Lewis base hai; BF3 jaisi electron-deficient species Lewis acid hoti hai. Proton dene wale ko Bronsted acid kehte hain, OH- dene wale ko Arrhenius base - isliye ye vikalp Lewis ki paribhasha nahi hain. Exam point: Lewis base = electron pair donor (lone pair), jaise NH3, H2O aur F-; Lewis acid electron pair acceptor hota hai (BF3, AlCl3)."
   }
 ]
