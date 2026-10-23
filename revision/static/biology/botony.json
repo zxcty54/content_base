@@ -1,1214 +1,890 @@
 [
   {
-    "qe": "Which 'Plant Hormone' is known as the 'Stress Hormone' of plants?",
-    "qh": "",
+    "qe": "Which 'Plant Hormone' is known as the 'Stress Hormone' or 'Anti-Transpirant'?",
+    "qh": "किस पादप हार्मोन को 'तनाव हार्मोन' या 'वाष्पोत्सर्जन रोधी' कहा जाता है?",
     "o": [
+      "Auxin",
       "Ethylene",
       "Gibberellin",
-      "Auxin",
       "Abscisic Acid (ABA)"
     ],
     "a": 3,
-    "e": "ABA closes stomata during water stress and promotes seed dormancy."
+    "e": "Concept: Phytohormones (plant hormones) plants me growth aur development ko control karte hain. ABA ko 'stress hormone' kehte hain - jab mitti me paani kam hota hai to ABA guard cells par kaam karke stomata band kar deta hai, jisse transpiration ruk jati hai aur plant paani bacha leta hai. Yahi ABA beej me dormancy (soi avastha) laata hai, taaki sahi mausam aane par hi ankurpan ho. Baaki teen growth badhane wale hain: Auxin cell elongation aur phototropism karta hai, Gibberellin stem elongation (bolting) aur seed germination karata hai, Ethylene gas fruit ripening aur patta jhadna karta hai. Exam point: ABA hi mukhya growth-inhibitor hormone hai, aur iska ulta kaam karne wala hormone Cytokinin hai jo budhapa (senescence) rokta hai."
   },
   {
-    "qe": "Which hormone is a 'Gas' and is responsible for the 'Ripening of Fruits'?",
-    "qh": "",
+    "qe": "Which plant hormone is a gas and is primarily responsible for the ripening of fruits?",
+    "qh": "कौन सा पादप हार्मोन एक गैस है और मुख्य रूप से फलों को पकाने के लिए जिम्मेदार है?",
     "o": [
-      "Auxin",
       "Ethylene",
-      "ABA",
-      "Cytokinin"
+      "Cytokinin",
+      "Auxin",
+      "ABA"
     ],
-    "a": 1,
-    "e": "Ethylene is unique because it acts as a gaseous hormone to ripen fruits like bananas and mangoes."
+    "a": 0,
+    "e": "Concept: Baaki hormones solid ya liquid form me hote hain, par Ethylene ek gaseous hormone hai, isliye ye hawa ke through padosi falon tak bhi pahunch jata hai. Iska main kaam fruit ripening (pakna), leaf abscission (patta jhadna) aur senescence (budhapa) hai. Isi wajah se ek paka kela doosre kacche kelon ko jaldi paka deta hai, aur mandi me banana, mango, kinnow ki artificial ripening ethylene ya ethephon se hoti hai. Baaki teen hormones yahan kaam nahi karte: Cytokinin cell division karta hai, Auxin cell elongation, aur ABA stress/dormancy - teeno ripening se alag hain. Exam point: 'Gaseous hormone = Ethylene' aur 'Ripening hormone = Ethylene'."
   },
   {
     "qe": "The 'Apical Dominance' (growth of the tip) in plants is caused by which hormone?",
-    "qh": "",
+    "qh": "पौधों में 'शीर्ष प्रभाविता' (शीर्ष की वृद्धि) किस हार्मोन के कारण होती है?",
+    "o": [
+      "Ethylene",
+      "Cytokinin",
+      "Gibberellin",
+      "Auxin"
+    ],
+    "a": 3,
+    "e": "Concept: Apical Dominance ka matlab hai stem ke tip (shikhar) se growth sabse tez hoti hai aur neeche ke lateral buds soye rehte hain. Iska kaaran Auxin hai - tip par bana auxin neeche aakar lateral buds ko dabakar rok deta hai. Isliye jab tip kaat dete hain (pruning/decapitation) to side ke buds jaag jate hain aur plant jhaadi jaisa phailta hai; chai ke baag me isi liye pruning hoti hai. Baaki teen iska kaaran nahi hain: Ethylene ripening/budhapa karta hai, Cytokinin lateral bud ki dormancy todta hai (ulta kaam), aur Gibberellin stem elongation karta hai. Exam point: 'Apical dominance = Auxin' aur 'Tip hatao = branching badhegi'."
+  },
+  {
+    "qe": "Which hormones are commonly used to produce 'Seedless Fruits' (Parthenocarpy)?",
+    "qh": "बीज रहित फल (पार्थेनोकार्पी) उत्पन्न करने के लिए किन हार्मोनों का उपयोग किया जाता है?",
+    "o": [
+      "ABA",
+      "Cytokinin",
+      "Auxins and Gibberellins",
+      "Ethylene"
+    ],
+    "a": 2,
+    "e": "Concept: Parthenocarpy ka matlab bina fertilization fal banna - aise fal me beej nahi hote, isliye banana, seedless grapes aur seedless watermelon isi technique se bante hain. Ye kaam Auxin aur Gibberellin (GA) hormone ke spray/injection se hota hai, kyunki dono ovary ko fal banne ke liye ubhar dete hain (ovary badh jata hai, par ovule fertilize nahi hote). ABA aur Cytokinin parthenocarpy nahi karte, aur Ethylene sirf fal pakata hai, banana nahi karata. Confusion point: 'Parthenogenesis' (bina fertilization embryo) se ise alag samjho. Exam point: 'Parthenocarpy = seedless fruit, hormones = Auxin + Gibberellin'."
+  },
+  {
+    "qe": "The 'Bolting' effect (sudden elongation of internodes prior to flowering) is caused by:",
+    "qh": "पौधों में 'बोल्टिंग' प्रभाव (तने का अचानक लंबा होना) किसके कारण होता है?",
     "o": [
       "Cytokinin",
       "Auxin",
       "Gibberellin",
       "Ethylene"
     ],
-    "a": 1,
-    "e": "Auxins produced at the tip inhibit the growth of lateral buds, making the plant grow taller."
-  },
-  {
-    "qe": "Which hormone is used to produce 'Seedless Fruits' (Parthenocarpy)?",
-    "qh": "",
-    "o": [
-      "Auxins and Gibberellins",
-      "Cytokinin",
-      "Ethylene",
-      "ABA"
-    ],
-    "a": 0,
-    "e": "Applying these hormones can induce fruit formation without fertilization, resulting in seedless varieties."
-  },
-  {
-    "qe": "The 'Bolting' effect (sudden elongation of stems) is caused by:",
-    "qh": "",
-    "o": [
-      "Ethylene",
-      "Cytokinin",
-      "Gibberellin",
-      "Auxin"
-    ],
     "a": 2,
-    "e": "Gibberellins promote cell elongation and are used to increase the size of grapes and sugarcane."
+    "e": "Concept: Bolting ka matlab hai flowering se pehle stem ka achanak lamba ho jana - ye cabbage, sugar beet jaise biennial plants me hota hai, jahan flowering stem tez badhkar patte wala head tod deta hai, isse crop kharab ho jata hai. Ye effect Gibberellin (GA) ki wajah se hota hai, jo internode ko lamba karta hai aur seed ki dormancy bhi todta hai. Baaki teen ka direct kaaran nahi hain: Cytokinin cell division karta hai, Auxin cell elongation ka alag pattern deta hai, aur Ethylene ripening/budhapa karta hai. Exam point: GA3 ko 'foolish seedling hormone' bhi kehte hain - zyada GA se plant bekarar hokar tedha-lamba ho jata hai."
   },
   {
-    "qe": "Which hormone promotes 'Cell Division' and delays leaf aging (senescence)?",
-    "qh": "",
+    "qe": "Which hormone promotes cell division and delays leaf senescence (aging)?",
+    "qh": "कौन सा हार्मोन कोशिका विभाजन को बढ़ावा देता है और पत्तियों के बुढ़ापे को रोकता है?",
     "o": [
+      "Cytokinin",
       "ABA",
       "Ethylene",
-      "Cytokinin",
       "Auxin"
     ],
-    "a": 2,
-    "e": "Cytokinins are often used in tissue culture to stimulate plant growth and keep leaves green."
+    "a": 0,
+    "e": "Concept: Cytokinin (zeatin) cell division (cytokinesis) badhata hai - isi se iska naam bana hai. Ye budhapa (senescence) rokta hai aur patton ko der tak hara rakhta hai (Richmond-Lang effect). Iska source wahan hota hai jahan tez cell division chalta hai, jaise young buds, coconut milk aur corn kernel. Baaki teen alag kaam karte hain: ABA dormancy aur budhapa badhata hai, Ethylene budhapa aur patta jhadna badhata hai, aur Auxin ka main kaam elongation aur apical dominance hai. Exam point: 'Cytokinin = cell division' aur 'Cytokinin = anti-aging hormone' - ye do jodiyan yaad rakho."
   },
   {
-    "qe": "Which plant tissue is responsible for the transport of 'Water and Minerals' from roots to leaves?",
-    "qh": "",
+    "qe": "Which plant tissue is responsible for the transport of water and minerals from roots to leaves?",
+    "qh": "जड़ों से पत्तियों तक जल और खनिजों के परिवहन के लिए कौन सा ऊतक जिम्मेदार है?",
     "o": [
-      "Collenchyma",
-      "Parenchyma",
-      "Phloem",
-      "Xylem"
-    ],
-    "a": 3,
-    "e": "Xylem acts as the 'plumbing' system of the plant, moving water upward through tracheids and vessels."
-  },
-  {
-    "qe": "Which tissue is known as the 'Food-conducting' tissue in plants?",
-    "qh": "",
-    "o": [
-      "Phloem",
       "Xylem",
-      "Epidermis",
-      "Sclerenchyma"
+      "Parenchyma",
+      "Collenchyma",
+      "Phloem"
     ],
     "a": 0,
-    "e": "Phloem transports glucose and nutrients from the leaves (source) to the rest of the plant (sink)."
+    "e": "Concept: Xylem plant ka paani aur mineral transport system hai - ye roots se paani kheechkar patton tak pahunchata hai (upward, unidirectional flow). Isme tracheids aur vessels naam ke conduits hote hain; ye cells mature hone par mar jate hain aur khaali pipes ban jate hain, isliye transpiration pull kaam kar pata hai. Baaki teen paani/mineral transport nahi karte: Phloem khana bhejta hai, Parenchyma storage karta hai, aur Collenchyma flexible support deta hai. Exam point: 'Xylem = paani + minerals, roots se leaves tak' aur 'Xylem mature hone par dead ho jata hai'."
   },
   {
-    "qe": "What is the primary site of 'Photosynthesis' in a plant cell?",
-    "qh": "",
+    "qe": "Which tissue acts as the primary food-conducting channel in vascular plants?",
+    "qh": "पौधों में भोजन का संवहन करने वाला मुख्य ऊतक कौन सा है?",
     "o": [
-      "Nucleus",
-      "Chloroplast",
-      "Vacuole",
-      "Mitochondria"
+      "Phloem",
+      "Sclerenchyma",
+      "Xylem",
+      "Epidermis"
     ],
-    "a": 1,
-    "e": "Chloroplasts contain chlorophyll which captures solar energy to produce glucose."
+    "a": 0,
+    "e": "Concept: Phloem khana (food) bhejne wali tissue hai - ye patton me bane sucrose ko source se sink (roots, buds, fruits) tak le jati hai; sucrose upar ya neeche dono taraf ja sakta hai, isliye phloem transport bidirectional hota hai. Iske char parts hain: Sieve tubes, Companion cells, Phloem parenchyma aur Phloem fibres. Baaki teen ye kaam nahi karte: Xylem paani/minerals le jata hai, Sclerenchyma lignified dead support hai, aur Epidermis bahari suraksha kavach hai. Exam point: 'Xylem = dead at maturity, Phloem = living at maturity' - ye pair har exam me poochha jata hai."
   },
   {
-    "qe": "Which gas is 'Released' as a byproduct during photosynthesis?",
-    "qh": "",
+    "qe": "What is the primary site of photosynthesis and chlorophyll storage in a plant cell?",
+    "qh": "पादप कोशिका में प्रकाश संश्लेषण और क्लोरोफिल का मुख्य स्थल कौन सा है?",
     "o": [
-      "Methane",
-      "Nitrogen",
-      "Oxygen",
-      "Carbon Dioxide"
+      "Mitochondria",
+      "Vacuole",
+      "Chloroplast",
+      "Nucleus"
     ],
     "a": 2,
-    "e": "Plants take in CO2 and release Oxygen ($O_2$) during the light-dependent reactions."
+    "e": "Concept: Chloroplast plant cell ka woh organelle hai jo photosynthesis karta hai. Iske double membrane ke andar Thylakoid ka stack (jise Grana kehte hain) hota hai, jisme hara chlorophyll hota hai, aur beech me Stroma hota hai jahan CO2 se shakkar banti hai. Chlorophyll bhi yahin store hota hai, isliye patte hare dikhte hain. Baaki teen photosynthesis ka site nahi hain: Mitochondria respiration se ATP banata hai, Vacuole paani/ras aur turgor hold karta hai, aur Nucleus me koi pigment store nahi hota. Exam point: 'Light reaction = Grana/Thylakoid' aur 'Dark reaction (Calvin) = Stroma'."
   },
   {
-    "qe": "The 'Meristematic' tissues in plants are characterized by:",
-    "qh": "",
+    "qe": "Which gas is released as a byproduct during the light reactions of photosynthesis?",
+    "qh": "प्रकाश संश्लेषण की प्रकाश अभिक्रिया के दौरान कौन सी गैस उप-उत्पाद के रूप में निकलती है?",
     "o": [
+      "Carbon Dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Methane"
+    ],
+    "a": 1,
+    "e": "Concept: Photosynthesis me paani (H2O) ka photolysis hota hai - light ki energy se paani tootkar Hydrogen aur Oxygen deta hai. Hydrogen ATP/NADPH banane me lagta hai, aur Oxygen gas byproduct ke roop me bahar nikal jati hai. Isotope experiments (H2-18O wala paani) se sabit hua ki nikli Oxygen paani se aati hai, CO2 se nahi. Baaki teen yahan byproduct nahi hain: Carbon Dioxide photosynthesis me khaan (input) hai, aur Nitrogen/Methane is process me bante hi nahi. Exam point: 'Photosynthesis ka byproduct = O2' aur 'O2 ka source = H2O ka photolysis'."
+  },
+  {
+    "qe": "Meristematic tissues in plants are characterized by:",
+    "qh": "पादपों में विभज्योतक (Meristematic) ऊतक की मुख्य विशेषता क्या है?",
+    "o": [
+      "Permanent fixed shape",
+      "Large centralized vacuoles",
       "Dead cells",
-      "Large vacuoles",
-      "Permanent shape",
       "Cells that divide continuously"
     ],
     "a": 3,
-    "e": "Meristems are found at the tips of roots and shoots, allowing the plant to grow in length and girth."
+    "e": "Concept: Meristematic tissue plant ka badhne wala hissa hai - iske cells lagatar divide (mitosis) karte rehte hain. Isliye inme fixed shape nahi hoti, cell wall patli hoti hai, cytoplasm ghani hoti hai aur vacuole na ke barabar chhoti hoti hai. Ye teen tarah ki hoti hai: Apical (tips, height ke liye), Lateral/Vascular cambium (girth ke liye) aur Intercalary (grass ke nodes par). Baaki teen meristem nahi hain: jinke cells shape pakad chuke (permanent tissue), jahan badi vacuole ho gayi, ya jo mar chuke (dead cells) - wo sab permanent tissue kehlate hain. Exam point: 'Lagatar dividing cells = meristem'."
   },
   {
-    "qe": "Which plant hormone is primarily responsible for 'Fruit Ripening'?",
-    "qh": "",
+    "qe": "What is 'Transpiration' in plants?",
+    "qh": "पौधों में 'वाष्पोत्सर्जन' (Transpiration) क्या है?",
     "o": [
-      "Cytokinin",
-      "Auxin",
-      "Ethylene",
-      "Gibberellin"
+      "Absorption of water by roots",
+      "Loss of water vapor from aerial surfaces (leaves)",
+      "Translocation of carbohydrates",
+      "Secondary thickening of roots"
     ],
-    "a": 2,
-    "e": "Ethylene is a gaseous hormone that triggers the ripening process in fruits like bananas and mangoes."
+    "a": 1,
+    "e": "Concept: Transpiration plant ke hawaai hisson (mukhya rup se patton) se jal-vap (water vapour) ke roop me paani udne ki process hai - ye zyadatar stomata ke through hoti hai. Plant jo paani mitti se leta hai, usme se 90-95% transpiration me ud jata hai. Ye faaydemand bhi hai: transpiration pull se paani upar pahunchta hai, patte thande rehte hain (cooling) aur minerals ka distribution hota hai. Baaki teen alag process hain: roots ka paani lena absorption, carbohydrates ka transport translocation, aur root ka motaap aana secondary growth. Exam point: Transpiration ko 'necessary evil' (zaroori par nuksaan wala) kehte hain."
   },
   {
-    "qe": "What is 'Transpiration'?",
-    "qh": "",
+    "qe": "The microscopic pores on leaf epidermis that mediate gas exchange and transpiration are called:",
+    "qh": "पत्तियों की सतह पर गैसीय विनिमय और वाष्पोत्सर्जन के लिए पाए जाने वाले सूक्ष्म छिद्र कहलाते हैं:",
     "o": [
-      "Absorption of water",
-      "Movement of food",
-      "Growth of roots",
-      "Loss of water vapor from the surface of leaves"
-    ],
-    "a": 3,
-    "e": "Transpiration creates a 'suction pull' that helps draw water up from the roots to the top of the plant."
-  },
-  {
-    "qe": "The pores on the surface of leaves through which gas exchange occurs are called:",
-    "qh": "",
-    "o": [
-      "Cuticle",
-      "Lenticels",
       "Stomata",
-      "Xylem"
-    ],
-    "a": 2,
-    "e": "Stomata are guarded by 'Guard Cells' which open or close the pore to regulate water loss."
-  },
-  {
-    "qe": "Which metal is present at the center of the 'Chlorophyll' molecule?",
-    "qh": "",
-    "o": [
-      "Magnesium",
-      "Zinc",
-      "Calcium",
-      "Iron"
+      "Hydathodes",
+      "Lenticels",
+      "Cuticles"
     ],
     "a": 0,
-    "e": "Magnesium ($Mg$) is the central atom of chlorophyll, similar to how Iron is at the center of Hemoglobin."
+    "e": "Concept: Stomata patton ki epidermis par paye jane wale chhote chhed (pores) hain, jinme do guard cells hoti hain - ye gas exchange (CO2 andar, O2 bahar) aur transpiration dono ko regulate karte hain. Paani zyada hone par guard cells phool kar pore kholte hain, aur sukhepan me sikudkar band kar dete hain. Baaki teen alag hain: Hydathodes se guttation hoti hai (paani ki boond), Lenticels chhaal (periderm) ke pores hain jahan se gas exchange hota hai, aur Cuticle patti par mome (wax) ki parat hoti hai jo paani udne se rokti hai. Exam point: 'Stomata = guard cells = gas exchange + transpiration'."
   },
   {
-    "qe": "What is the main function of 'Sclerenchyma' tissue?",
-    "qh": "",
+    "qe": "Which divalent metal ion is held at the center of the porphyrin ring of chlorophyll?",
+    "qh": "क्लोरोफिल अणु के केंद्र में कौन सा धातु आयन मौजूद होता है?",
     "o": [
+      "Calcium",
+      "Iron",
+      "Zinc",
+      "Magnesium"
+    ],
+    "a": 3,
+    "e": "Concept: Chlorophyll ka porphyrin ring ek dabbe (tetrapyrrole) jaisa structure hota hai, jiske beech me ek Magnesium (Mg) ion baitha hota hai - yahi metal ion light energy pakadne me madad karta hai. Isliye Mg ki kami wale paudhon ke patte peele (chlorosis) pad jate hain. Baaki teen yahan central ion nahi hain: Iron (Fe) chlorophyll banane wale enzyme ke liye zaroori hai par ring ke andar nahi baithta (ye sabse bada confusion point hai), aur Calcium/Zinc ka chlorophyll se koi direct rishta nahi. Exam point: 'Chlorophyll ka central metal = Mg', 'Mg ki kami = chlorosis'."
+  },
+  {
+    "qe": "What is the primary function of Sclerenchyma tissue?",
+    "qh": "दृढ़ोतक (Sclerenchyma) ऊतक का मुख्य कार्य क्या है?",
+    "o": [
+      "Providing mechanical strength and rigidity",
       "Photosynthesis",
-      "Providing mechanical strength and stiffness",
-      "Storing food",
-      "Transporting water"
+      "Nutrient absorption",
+      "Water storage"
     ],
-    "a": 1,
-    "e": "Sclerenchyma consists of dead cells with thickened walls (lignin) and makes up parts like the husk of a coconut."
+    "a": 0,
+    "e": "Concept: Sclerenchyma ek dead permanent tissue hai jiske cells lignified hote hain - ye paudhe ko kathor (mechanical strength aur rigidity) banati hai, paani ya gas transport nahi karti. Iske do roop hote hain: Fibres (jute, flax, coconut coir) aur Sclereids (pear ke grit wale stone cells). Baaki teen ye kaam nahi karte: Photosynthesis Chlorenchyma karta hai, nutrient absorption root-hairs karte hain, aur paani ka storage Parenchyma karta hai. Exam point: 'Lignified + dead + strength = Sclerenchyma' - jute aur coconut coir iske jeevan examples hain."
   },
   {
-    "qe": "The 'Light Reaction' of photosynthesis takes place in the:",
-    "qh": "",
+    "qe": "The light-dependent reaction of photosynthesis occurs specifically in the:",
+    "qh": "प्रकाश संश्लेषण की प्रकाश अभिक्रिया विशेष रूप से कहाँ होती है?",
     "o": [
+      "Cytosol",
+      "Mitochondrial matrix",
       "Stroma",
-      "Grana (Thylakoids)",
-      "Cell Wall",
-      "Cytoplasm"
+      "Grana (Thylakoids)"
     ],
-    "a": 1,
-    "e": "Grana are stacks of thylakoids where sunlight is converted into chemical energy (ATP//NADPH)."
+    "a": 3,
+    "e": "Concept: Photosynthesis ka light reaction chloroplast ke Thylakoid (Grana) par hota hai - yahan paani ka photolysis hota hai, Oxygen nikalti hai aur ATP + NADPH banti hai. Ye ATP/NADPH phir Stroma me chalne wale Calvin cycle (dark reaction) me shakkar banane ke liye use hoti hai. Baaki teen options site nahi hain: Cytosol cell ka liquid hissa hai, Mitochondrial matrix respiration se juda hai, aur Stroma dark reaction ka site hai (light reaction ka nahi). Exam point: 'Light reaction = Grana/Thylakoid' aur 'Dark reaction = Stroma' - ye jodi har exam me aati hai."
   },
   {
-    "qe": "Which plant tissue makes the plant 'Girth' (width) increase?",
-    "qh": "",
+    "qe": "Which lateral meristem is responsible for secondary growth (increase in stem girth/thickness)?",
+    "qh": "तने की मोटाई (द्वितीयक वृद्धि) बढ़ाने के लिए कौन सा पार्श्व विभज्योतक जिम्मेदार है?",
     "o": [
       "Apical Meristem",
-      "Parenchyma",
-      "Lateral Meristem (Cambium)",
+      "Ground Parenchyma",
+      "Vascular Cambium",
       "Intercalary Meristem"
     ],
     "a": 2,
-    "e": "Lateral meristems are responsible for secondary growth, which makes trees thicker over time."
+    "e": "Concept: Vascular Cambium ek lateral meristem hai jo stem me ring (chakra) ki tarah rehti hai - ye har saal andar ki taraf Xylem aur bahar ki taraf Phloem banati hai, jisse ped mota (girth) hota hai. Isi wajah se woody ped me saal ke chakra (annual rings) bante hain, jisse ped ki umar pata chalti hai (dendrochronology). Baaki teen motaap nahi badhate: Apical Meristem tips par hota hai jo height badhata hai, Ground Parenchyma me koi dividing cambium nahi hota, aur Intercalary Meristem grass ke base par hota hai. Exam point: 'Height = Apical meristem, Girth = Lateral/Vascular cambium'."
   },
   {
-    "qe": "What is 'Phototropism'?",
-    "qh": "",
+    "qe": "The bending of plant stems toward light (Phototropism) is primarily driven by:",
+    "qh": "प्रकाश की ओर तने का मुड़ना (प्रकाशानुवर्तन) मुख्य रूप से किसके कारण होता है?",
     "o": [
-      "Growth towards gravity",
-      "Response to touch",
-      "Growth towards water",
-      "Growth towards light"
+      "Rapid loss of water via stomata",
+      "Gibberellin breakdown under light",
+      "Auxin migrating to the shaded side",
+      "Inhibition of cell division by Cytokinins"
     ],
-    "a": 3,
-    "e": "Auxins accumulate on the shaded side of the stem, causing it to bend toward the light source."
+    "a": 2,
+    "e": "Concept: Phototropism matlab paudhe ka roshni ki taraf jhukna. Iska mechanism ye hai: stem ke tip se Auxin roshni se bachkar shade wali side me chala jata hai; wahan auxin ki zyada concentration se us taraf ke cells lamba ho jate hain, isliye stem roshni ki taraf mud jata hai. Baaki teen yahan kaam nahi karte: paani ka loss (water loss) aur Gibberellin ka tootna (breakdown) phototropism me nahi hota, aur Cytokinin cell division se juda hai. Exam point: 'Phototropism = Auxin ka shaded side me shift = light ki taraf bend' - Darwin ke experiments isi par based hain."
   },
   {
-    "qe": "Which of the following is a 'C4' plant (highly efficient in hot climates)?",
-    "qh": "",
+    "qe": "Which of the following plants possesses the specialized C4 pathway (Kranz anatomy)?",
+    "qh": "निम्नलिखित में से किस पौधे में C4 मार्ग (क्रैंज़ शारीरिकी) पाई जाती है?",
     "o": [
-      "Maize (Corn)",
       "Wheat",
+      "Maize",
       "Rice",
       "Potato"
     ],
-    "a": 0,
-    "e": "C4 plants like Maize and Sugarcane have a specialized anatomy (Kranz anatomy) to minimize water loss."
+    "a": 1,
+    "e": "Concept: C4 pathway (Hatch-Slack) un paudhon me hoti hai jo garmi aur tez roshni me bhi achhi growth karte hain, kyunki inme Kranz Anatomy hoti hai - vascular bundles ke around do ring wali special arrangement, jo CO2 ko zyada concentration me rakhti hai aur photorespiration rok deti hai. Aise paudhon me pehla product 4-carbon (oxaloacetate) hota hai aur enzyme PEP carboxylase kaam karta hai. Maize (makka), Sugarcane, Sorghum aur Amaranth C4 plants hain; Wheat, Rice aur Potato C3 plants hain (pehla product 3-PGA, enzyme RuBisCO). Exam point: 'C4 = Maize/Sugarcane/Sorghum + Kranz anatomy', 'C3 = Wheat/Rice/Potato'."
   },
   {
-    "qe": "The 'Hardness' of fruits like pears is due to the presence of:",
-    "qh": "",
+    "qe": "The gritty texture and hardness of pear pulp is caused by:",
+    "qh": "नाशपाती के गूदे का कड़ापन और खुरदरापन किसके कारण होता है?",
     "o": [
+      "Collenchyma",
       "Chlorenchyma",
-      "Sclereids",
-      "Parenchyma",
+      "Sclereids (Stone cells)",
       "Aerenchyma"
     ],
-    "a": 1,
-    "e": "Sclereids are a type of sclerenchyma cell that provides a gritty texture and strength."
+    "a": 2,
+    "e": "Concept: Pear ke gude (pulp) me jo kankad jaisi kathor feeling hoti hai, wo Sclereids (stone cells / grit cells) ki wajah se hoti hai - ye Sclerenchyma ke chhote, lignified, dead cells hain jinme sirf ek chhoti khokhli jaga (lumen) hoti hai. Baaki teen ye texture nahi banate: Collenchyma flexible support deta hai (corners par pectin), Chlorenchyma me chlorophyll hoti hai (photosynthesis), aur Aerenchyma me hawa bhare air chambers hote hain (aquatic plants ki buoyancy). Exam point: 'Pear ka gritty texture = Sclereids/Stone cells' - ye Sclerenchyma ka famous example hai."
   },
   {
     "qe": "What is 'Guttation'?",
-    "qh": "",
+    "qh": "'बिंदुस्राव' (Guttation) क्या है?",
     "o": [
-      "Wilting of plants",
-      "Loss of water in liquid form from the margins of leaves",
-      "Loss of water through stomata",
-      "Absorption of minerals"
-    ],
-    "a": 1,
-    "e": "Guttation occurs through specialized pores called 'Hydathodes' during periods of high humidity and root pressure."
-  },
-  {
-    "qe": "Which tissue provides 'Buoyancy' to aquatic plants (Hydrophytes)?",
-    "qh": "",
-    "o": [
-      "Collenchyma",
-      "Aerenchyma",
-      "Xylem",
-      "Sclerenchyma"
-    ],
-    "a": 1,
-    "e": "Aerenchyma is a type of parenchyma with large air cavities that help plants float on water."
-  },
-  {
-    "qe": "The 'Calvin Cycle' (Dark Reaction) takes place in the:",
-    "qh": "",
-    "o": [
-      "Grana",
-      "Mitochondria",
-      "Stroma",
-      "Nucleus"
+      "Sap flow through lenticels",
+      "Vapor loss through open stomata",
+      "Exudation of liquid water droplets from leaf margins",
+      "Pollen discharge during anthesis"
     ],
     "a": 2,
-    "e": "In the stroma, $CO_2$ is fixed into sugar using the energy (ATP) generated in the light reaction."
+    "e": "Concept: Guttation paudhon me paani ki boond (liquid droplets) nikalne ki kriya hai, jo subah patton ke kinare (margins) par dikhti hai - ye Hydathodes naam ke khaas chhedon se hoti hai. Ye tab hota hai jab root pressure tez ho aur transpiration slow ho (raat ya subah ki humidity), isliye paani vapour banne ki jagah liquid form me bahar aa jata hai. Baaki teen alag hain: Lenticels se sap flow nahi hota (wo bark ke gas-exchange pores hain), vapour loss open stomata se transpiration kehlata hai, aur anthesis (phool khilna) me pollen discharge hota hai. Exam point: 'Boond = Guttation (hydathodes)', 'Vapour = Transpiration (stomata)'."
   },
   {
-    "qe": "Which part of the plant is scientifically known as the 'Kitchen of the Plant'?",
-    "qh": "",
+    "qe": "Which parenchymatous tissue provides buoyancy to hydrophytes (aquatic plants)?",
+    "qh": "जलीय पौधों (Hydrophytes) को तैरने में कौन सा ऊतक मदद करता है?",
     "o": [
-      "Leaf",
-      "Flower",
-      "Stem",
-      "Root"
+      "Storage parenchyma",
+      "Sclerenchyma",
+      "Aerenchyma",
+      "Collenchyma"
+    ],
+    "a": 2,
+    "e": "Concept: Aerenchyma ek vishesh type ki parenchyma hai jiske cells ke beech badi khaali jaga (air chambers) hoti hain - ye hawa store karke plant ko buoyancy (tairne ki shakti) deti hai aur oxygen bhi supply karti hai. Isi wajah se Lotus aur Water Hyacinth (Eichhornia) jaise hydrophytes paani me tairte rehte hain. Baaki teen ye kaam nahi karte: Storage parenchyma sirf khana store karta hai, Sclerenchyma kathor support deta hai, aur Collenchyma flexible support - inme kisi me air chambers nahi hote. Exam point: 'Hydrophyte + buoyancy + air chambers = Aerenchyma'."
+  },
+  {
+    "qe": "The dark reaction (Calvin Cycle) of photosynthesis takes place in the:",
+    "qh": "प्रकाश संश्लेषण की अप्रकाशीय अभिक्रिया (केल्विन चक्र) कहाँ होती है?",
+    "o": [
+      "Outer chloroplast membrane",
+      "Peroxisome",
+      "Stroma",
+      "Thylakoid lumen"
+    ],
+    "a": 2,
+    "e": "Concept: Calvin cycle (dark reaction) ka site Stroma hai - ye chloroplast ka gel jaisa bhar-poora hissa hai jo grana ke bahar hota hai. Yahan RuBisCO enzyme CO2 pakadta hai aur light reaction se aayi ATP + NADPH ki energy se usko shakkar me badalta hai; pehla stable product 3-PGA hota hai, isliye ise C3 cycle kehte hain. Baaki teen site nahi hain: Outer chloroplast membrane, Peroxisome (photorespiration se juda organelle) aur Thylakoid lumen (jahan light reaction hota hai). Exam point: 'Stroma = dark reaction', 'Grana = light reaction' - ye jodi har exam me aati hai."
+  },
+  {
+    "qe": "Downward root growth in response to Earth's gravitational field is called:",
+    "qh": "गुरुत्वाकर्षण के प्रभाव में जड़ों की नीचे की ओर वृद्धि क्या कहलाती है?",
+    "o": [
+      "Positive geotropism",
+      "Negative phototropism",
+      "Chemotropism",
+      "Thigmonasty"
     ],
     "a": 0,
-    "e": "Leaves are the primary organs for photosynthesis where food is prepared."
+    "e": "Concept: Geotropism (gravitropism) paudhe ka gravity ke prati response hai. Root hamesha zameen ke andar (gravity ki taraf) badhta hai, isliye ye Positive Geotropism hai; stem aur roots ka ulta upar ki taraf badhna Negative Geotropism kehlata hai. Baaki teen gravity ke response nahi hain: Chemotropism chemical ke prati (jaise pollen tube ka ovule ki taraf badhna), Thigmonasty touch ka non-directional response, aur Negative phototropism roshni se door badhna hai. Exam point: 'Root = positive geotropism, Stem = negative geotropism'."
   },
   {
-    "qe": "What is 'Geotropism'?",
-    "qh": "",
+    "qe": "Which floral organ develops into the botanical 'fruit' following fertilization?",
+    "qh": "निषेचन के बाद फूल का कौन सा भाग 'फल' में विकसित होता है?",
     "o": [
-      "Response to light",
-      "Response to gravity",
-      "Response to magnetism",
-      "Response to chemicals"
-    ],
-    "a": 1,
-    "e": "Roots show positive geotropism (grow down), while shoots show negative geotropism (grow up)."
-  },
-  {
-    "qe": "Which part of the flower develops into a 'Fruit' after fertilization?",
-    "qh": "",
-    "o": [
-      "Petal",
-      "Stamen",
       "Ovary",
-      "Ovule"
+      "Ovule",
+      "Carpel style",
+      "Receptacle"
     ],
-    "a": 2,
-    "e": "The ovary ripens into the fruit, while the ovules inside become the seeds."
+    "a": 0,
+    "e": "Concept: Fertilization (nishchitkaran) ke baad phool ka Ovary badhkar Fruit ban jata hai, aur Ovary ki deewar Pericarp kehlati hai; fruit ke andar beej (seeds) ovule se bante hain. Isliye sach kahain to fruit = ripened ovary aur seed = ripened ovule. Baaki teen fruit nahi banate: Ovule se seed banta hai, Style ek nali hai (pollen tube ka rasta) jo fruit nahi banti, aur Receptacle (thalamus) se kuch falon me extra juicy hissa banta hai jaise apple (pseudocarp). Exam point: 'Ovary se Fruit, Ovule se Seed' - ye conversion table yaad rakho."
   },
   {
-    "qe": "What is 'Double Fertilization' a characteristic of?",
-    "qh": "",
+    "qe": "Double fertilization is a diagnostic characteristic of which plant group?",
+    "qh": "'दोहरा निषेचन' किस पादप समूह का विशिष्ट लक्षण है?",
     "o": [
       "Gymnosperms",
-      "Angiosperms (Flowering plants)",
-      "Algae",
-      "Bryophytes"
+      "Bryophytes",
+      "Pteridophytes",
+      "Angiosperms"
     ],
-    "a": 1,
-    "e": "In angiosperms, one male gamete fuses with the egg, and another fuses with the polar nuclei to form the endosperm."
+    "a": 3,
+    "e": "Concept: Double fertilization ek khaas process hai jo sirf Angiosperms (phool wale beej paudhe) me hoti hai - isme do fertilization ek saath hoti hain: (1) ek male gamete egg se milkar 2n zygote banata hai (syngamy), (2) doosra male gamete do polar nuclei se milkar 3n Primary Endosperm Nucleus (PEN) banata hai (triple fusion). Yahi 3n endosperm bacche ke liye khana banata hai. Baaki teen groups me triple fusion nahi hota: Gymnosperms, Bryophytes aur Pteridophytes. Exam point: 'Double fertilization + triple fusion = sirf Angiosperms me'."
   },
   {
-    "qe": "The 'Sticky' part of the carpel that receives pollen grains is called:",
-    "qh": "",
+    "qe": "The receptive surface of the carpel adapted to capture pollen grains is the:",
+    "qh": "परागकणों को ग्रहण करने वाला स्त्रीकेसर का चिपचिपा भाग क्या कहलाता है?",
     "o": [
-      "Anther",
-      "Filament",
       "Stigma",
-      "Style"
+      "Style",
+      "Filament",
+      "Anther"
     ],
-    "a": 2,
-    "e": "The stigma is specially designed to capture and hold pollen during pollination."
+    "a": 0,
+    "e": "Concept: Phool ka mada ang Carpel (pistil) hai, aur uske tip par Stigma hota hai - ye chikna, chipchipa receptive surface hai jahan pollen grains land karte hain aur pollen tube ugna shuru karta hai. Baaki teen receive karne wale surface nahi hain: Style ek nali hai jisse pollen tube neeche ovule tak jata hai, Filament stamens (nara ang) ka danda hai, aur Anther me pollen banti hai (pollen receive nahi hoti). Exam point: 'Receptive surface = Stigma' - jab bhi sawal me 'pollen capture' ya 'receptive surface' aaye to answer Stigma hi hota hai."
   },
   {
-    "qe": "Which bacterium lives in the 'Root Nodules' of leguminous plants to fix Nitrogen?",
-    "qh": "",
+    "qe": "Which symbiotic bacteria live inside leguminous root nodules to fix atmospheric nitrogen?",
+    "qh": "दलहनी फसलों की जड़ों में वायुमंडलीय नाइट्रोजन स्थिरीकरण करने वाला जीवाणु कौन सा है?",
     "o": [
-      "Lactobacillus",
-      "Streptococcus",
-      "E. coli",
+      "Azotobacter",
+      "Clostridium",
+      "Nitrosomonas",
       "Rhizobium"
     ],
     "a": 3,
-    "e": "Rhizobium converts atmospheric nitrogen into ammonia, which the plant can use for growth."
+    "e": "Concept: Rhizobium ek symbiotic bacterium hai jo legumes (daal wale paudhe - chana, moong, pea) ki jado me bane root nodules me rehta hai. Ye hawa ki Nitrogen (N2) ko ammonia me badalta hai (biological nitrogen fixation) aur badle me plant se khana (carbohydrate) leta hai - ye classic mutualism hai. Baaki teen root nodule ke partner nahi hain: Azotobacter aur Clostridium free-living (mitti me mukta) nitrogen fixers hain, aur Nitrosomonas nitrifying bacteria hai (ammonia ko nitrite me badalta hai). Exam point: 'Legume + root nodule = Rhizobium' - ye kaam nitrogenase enzyme karta hai."
   },
   {
-    "qe": "What is 'Hydroponics'?",
-    "qh": "",
+    "qe": "The technique of cultivating plants in soilless, mineral-rich nutrient solutions is known as:",
+    "qh": "बिना मिट्टी के पोषक घोल में पौधे उगाने की तकनीक को क्या कहा जाता है?",
     "o": [
-      "Growing plants in sand",
-      "Growing plants in a soil-less nutrient solution",
-      "Growing plants in water",
-      "Growing plants without sunlight"
+      "Aeroponics",
+      "Hydroponics",
+      "Tissue culture",
+      "Aquaponics"
     ],
     "a": 1,
-    "e": "Hydroponics is a technique of growing plants where all essential minerals are provided in a water-based solution."
+    "e": "Concept: Hydroponics (soilless culture) me paudhe ko mitti ke bina sirf paani me ghule hue mineral nutrients (jaise Hoagland solution) me ugaya jata hai - isse pata chala ki mitti sirf sahara (support) hai aur asli zaroorat nutrients ki hai. Baaki teen alag techniques hain: Aeroponics me jade hawa me latki hoti hain aur mist se nutrients milte hain, Tissue culture me ek chhote hisse se naya paudha banate hain, aur Aquaponics me machhli aur paudhe ek saath paale jate hain. Exam point: 'Mitti ke bina nutrient solution = Hydroponics'."
   },
   {
-    "qe": "Which part of the 'Seed' provides food to the developing embryo?",
-    "qh": "",
+    "qe": "Which seed tissue provides nutritive support to the developing embryo in angiosperms?",
+    "qh": "आवृतबीजी पौधों में विकासशील भ्रूण को पोषण कौन प्रदान करता है?",
     "o": [
+      "Hypocotyl",
       "Radicle",
       "Endosperm",
-      "Plumule",
-      "Seed coat"
+      "Testa"
     ],
-    "a": 1,
-    "e": "The endosperm is a nutrient-rich tissue that supports the plant until it can perform photosynthesis."
+    "a": 2,
+    "e": "Concept: Endosperm bacche (embryo) ke liye khana store karne wali tissue hai - angiosperms me ye triple fusion se banti hai, isliye ye triploid (3n) hoti hai aur isme starch, protein aur tel (oil) bhare rehte hain (jaise nariyal ka albumen aur gahu ka atta). Baaki teen ye kaam nahi karte: Hypocotyl aur Radicle khud embryo ke hisse hain (khana nahi banate), aur Testa beej ka bahari chhilka (seed coat) hai. Exam point: 'Embryo ka khana = Endosperm (3n)' aur 'Endosperm = double fertilization ka product'."
   },
   {
-    "qe": "What is 'Anemophily'?",
-    "qh": "",
+    "qe": "Wind-mediated pollination is technically referred to as:",
+    "qh": "हवा द्वारा होने वाले परागण को क्या कहा जाता है?",
     "o": [
-      "Pollination by insects",
-      "Pollination by wind",
-      "Pollination by birds",
-      "Pollination by water"
+      "Ornithophily",
+      "Entomophily",
+      "Hydrophily",
+      "Anemophily"
     ],
-    "a": 1,
-    "e": "Wind-pollinated flowers (like grass and maize) usually have light pollen and large, feathery stigmas."
+    "a": 3,
+    "e": "Concept: Anemophily matlab hawa (wind) ke zariye pollination. Aise paudhon me phool chhote, halke rang wale aur bina khushbu/nectar ke hote hain, kyunki inse kisi pollinator ko akarshit karne ki zaroorat nahi hoti - ye sirf badi matra me, halke aur sookhe pollen banate hain, aur unka stigma pankh jaisa (feathery) hota hai taaki udti pollen pakad sake. Maize, grasses, coconut aur pine iske examples hain. Baaki teen alag agents hain: Ornithophily (pakshi), Entomophily (keede) aur Hydrophily (paani). Exam point: 'Wind = Anemophily = light dry pollen + feathery stigma'."
   },
   {
-    "qe": "The movement of 'Water' through the xylem is primarily driven by:",
-    "qh": "",
-    "o": [
-      "Gravity",
-      "Transpiration Pull",
-      "Photosynthesis",
-      "Active Transport"
-    ],
-    "a": 1,
-    "e": "As water evaporates from the leaves, it creates a negative pressure that 'pulls' water up from the roots."
-  },
-  {
-    "qe": "Which mineral is essential for the 'Opening and Closing' of Stomata?",
-    "qh": "",
+    "qe": "Which inorganic ion directly regulates the turgor mechanisms behind stomatal opening and closing?",
+    "qh": "रंध्रों (Stomata) के खुलने और बंद होने को कौन सा खनिज आयन नियंत्रित करता है?",
     "o": [
       "Potassium (K+)",
+      "Magnesium",
       "Iron",
+      "Chloride"
+    ],
+    "a": 0,
+    "e": "Concept: Stomata ke khulne-band hone ka engine guard cells ka turgor hai, aur ye turgor mukhya rup se Potassium (K+) ion ke aane-jaane se banta hai. Jab K+ guard cells ke andar jata hai to paani andar aa jata hai, cells phool jate hain (turgid) aur pore khul jata hai; K+ nikal jaye to paani kam, cells shithil aur stomata band. Baaki teen iske switch nahi hain: Chloride (Cl-) K+ ka saathi ion hai, Magnesium chlorophyll me hota hai, aur Iron enzymes me - dono stomata ka direct switch nahi hain. Exam point: 'Stomata open/close = K+ ion + turgor'."
+  },
+  {
+    "qe": "Insectivorous plants like the Venus flytrap and Pitcher plant evolved carnivory to compensate for poor soil levels of:",
+    "qh": "कीटभक्षी पौधे मिट्टी में किस तत्व की कमी को पूरा करने के लिए कीड़ों को पकड़ते हैं?",
+    "o": [
       "Phosphorus",
-      "Calcium"
-    ],
-    "a": 0,
-    "e": "The movement of Potassium ions into guard cells causes them to swell and open the stomatal pore."
-  },
-  {
-    "qe": "What is 'Parthenocarpy'?",
-    "qh": "",
-    "o": [
-      "Pollination by bats",
-      "Formation of seed without fruit",
-      "Formation of fruit without fertilization",
-      "Death of a plant"
+      "Potassium",
+      "Nitrogen",
+      "Magnesium"
     ],
     "a": 2,
-    "e": "Parthenocarpic fruits, like seedless bananas and grapes, develop without the need for pollen."
+    "e": "Concept: Keetbhakshi (carnivorous) paudhe jaise Venus Flytrap aur Pitcher Plant aisi mitti me ugte hain jahan Nitrogen ki kami hoti hai (acidic, waterlogged bogs) - isliye ye keede-patangon ko pakadkar unse protein ka nitrogen lete hain. Nitrogen protein, chlorophyll aur nucleic acid ka bada hissa hai, isliye uski kami sabse badi problem banti hai. Baaki teen bhi zaroori hain par inse keedakhori nahi judi: Phosphorus, Potassium aur Magnesium. Exam point: 'Carnivorous plants = nitrogen-poor soil' - Pitcher Plant = Nepenthes, Venus Flytrap = Dionaea."
   },
   {
-    "qe": "The 'Venus Flytrap' is an example of a:",
-    "qh": "",
+    "qe": "Cork (phellem) tissue in mature bark is impervious to water and gases because of deposits of:",
+    "qh": "छाल के कॉर्क ऊतक में कौन सा पदार्थ जमा होने से वह जल और गैसों के लिए अभेद्य हो जाता है?",
     "o": [
-      "Symbiotic plant",
-      "Saprophytic plant",
-      "Insectivorous plant",
-      "Parasitic plant"
+      "Lignin",
+      "Hemicellulose",
+      "Pectin",
+      "Suberin"
     ],
-    "a": 2,
-    "e": "These plants grow in nitrogen-poor soil and catch insects to fulfill their nitrogen requirements."
+    "a": 3,
+    "e": "Concept: Cork (phellem) ek suraksha kavach hai jo chhaal (periderm) me banta hai - iske cells ke walls me mome (wax) wala padarth Suberin jama ho jata hai, jo paani aur gases ko rok deta hai. Isi khaas bandobast se cork ke andar paani aur gases ka guzar nahi hota; isliye cork (Quercus suber) ka bottle-cork bhi halka, compressible aur waterproof hota hai. Baaki teen ye kaam nahi karte: Lignin xylem me rigidity deta hai, Pectin cells ke beech ka jodne wala padarth hai, aur Hemicellulose wall ka saathi material hai - koi bhi impervious nahi banata. Exam point: 'Waterproof cork = Suberin'."
   },
   {
-    "qe": "Which tissue makes up the 'Bark' of a tree?",
-    "qh": "",
+    "qe": "The directional growth or coiling of climbing tendrils in response to physical contact is:",
+    "qh": "स्पर्श के संपर्क में आने पर पौधों के प्रतान (Tendrils) का लिपटना क्या कहलाता है?",
     "o": [
-      "Cork (Phellem)",
-      "Endodermis",
-      "Pith",
-      "Xylem"
-    ],
-    "a": 0,
-    "e": "Cork cells are dead at maturity and are filled with suberin, making them waterproof and protective."
-  },
-  {
-    "qe": "What is 'Thigmotropism'?",
-    "qh": "",
-    "o": [
-      "Response to light",
-      "Response to touch (contact)",
-      "Response to water",
-      "Response to gravity"
+      "Geotropism",
+      "Thigmotropism",
+      "Nastic movement",
+      "Chemotropism"
     ],
     "a": 1,
-    "e": "Tendrils of climbing plants (like money plants or peas) show thigmotropism when they coil around a support."
+    "e": "Concept: Thigmotropism ek directional growth movement hai jo touch (sparsh) ke response me hota hai - climbing tendrils kisi sahare ko chhuote hi uske chaaron taraf ghoom kar chipak jati hain (jaise pea, money plant ki tendrils). Ye directional hai, isliye ise nastic movement (jaise Mimosa pudica ka non-directional fold) nahi keh sakte. Baaki teen iske kaaran nahi hain: Geotropism gravity ka response hai, Nastic movement non-directional hota hai, aur Chemotropism chemical ka response hai. Exam point: 'Touch = Thigmotropism (directional)', 'Nastic = non-directional' - dono me farq ek classic trap hai."
   },
   {
-    "qe": "The 'Red Color' of a tomato is due to which pigment?",
-    "qh": "",
+    "qe": "Which commercial compound is widely used to release acetylene for artificial fruit ripening?",
+    "qh": "फलों को कृत्रिम रूप से पकाने के लिए एसिटिलीन गैस छोड़ने वाला कौन सा रसायन उपयोग किया जाता है?",
     "o": [
-      "Chlorophyll",
+      "Ammonium nitrate",
+      "Calcium carbide",
+      "Sodium carbonate",
+      "Potassium chlorate"
+    ],
+    "a": 1,
+    "e": "Concept: Calcium Carbide (CaC2) paani ke sampark me aate hi Acetylene gas banata hai: CaC2 + H2O = C2H2 + Ca(OH)2. Acetylene ka structure Ethylene jaisa hone ki wajah se ye falon ko bahar se paka deta hai, isliye mandi me kacche aam ya kelon ki ripening ke liye ise bahut use kiya jata hai. Par isse bane fal me arsenic/phosphorus ki impurity aane ki sambhavna hoti hai, isliye ye banned/regulated hai - standard alternative Ethephon (ethylene source) hai. Baaki teen ripening agents nahi hain: Ammonium nitrate, Sodium carbonate aur Potassium chlorate. Exam point: 'Artificial ripening = Calcium carbide (acetylene) ya Ethephon'."
+  },
+  {
+    "qe": "The deep red pigmentation of ripe tomatoes and watermelons is due to:",
+    "qh": "पके टमाटर और तरबूज का गहरा लाल रंग किस वर्णक के कारण होता है?",
+    "o": [
+      "Anthocyanin",
+      "Carotene",
       "Lycopene",
-      "Beta-carotene",
-      "Anthocyanin"
-    ],
-    "a": 1,
-    "e": "Lycopene is a carotenoid pigment found in red fruits like tomatoes and watermelons."
-  },
-  {
-    "qe": "Which part of the plant is responsible for 'Vegetative Propagation' in Ginger?",
-    "qh": "",
-    "o": [
-      "Leaf",
-      "Root",
-      "Rhizome (Stem)",
-      "Bulb"
+      "Betalain"
     ],
     "a": 2,
-    "e": "A rhizome is an underground modified stem that can grow into a new plant."
+    "e": "Concept: Tomato aur Tarbooz ka gehra laal (deep red) rang Lycopene naam ke carotenoid pigment ki wajah se hota hai. Ye fat-soluble carotenoid hai jo pakne ke saath badhta hai, isliye kacche tamatar hare aur bake hue laal hote hain. Baaki teen alag rang dete hain: Anthocyanin paani me ghulne wala pigment hai jo blue/violet (baingan, jamun) rang deta hai, Carotene gajar ka naranja, aur Betalain chukandar (beetroot) ka laal rang. Exam point: 'Tomato/Watermelon ka laal = Lycopene', 'Gajar ka naranja = Carotene'."
   },
   {
-    "qe": "What is 'Photoperiodism'?",
-    "qh": "",
+    "qe": "Ginger and Turmeric reproduce vegetatively through which modified plant structure?",
+    "qh": "अदरक और हल्दी किस प्रकार के रूपांतरित संरचना द्वारा कायिक प्रवर्धन करते हैं?",
     "o": [
-      "Response of plants to the relative lengths of day and night",
-      "Reaction to light intensity",
-      "Photosynthesis speed",
-      "Bending towards light"
-    ],
-    "a": 0,
-    "e": "This determines when a plant will flower (Short-day vs. Long-day plants)."
-  },
-  {
-    "qe": "The 'Pulvinus' is a specialized structure at the base of the leaf in:",
-    "qh": "",
-    "o": [
-      "Wheat",
-      "Mango",
-      "Rose",
-      "Touch-me-not (Mimosa pudica)"
+      "Corm",
+      "Bulbil",
+      "Root tuber",
+      "Rhizome (Underground stem)"
     ],
     "a": 3,
-    "e": "The pulvinus handles the rapid movement of water to close the leaves when touched."
+    "e": "Concept: Ginger (adrak) aur Turmeric (haldi) Rhizome se failte hain - Rhizome zameen ke andar paidal mota stem hota hai, jispe nodes, internodes aur aankhein (buds) hoti hain; isliye iske har tukde se naya paudha uga sakta hai. Baaki teen alag structures hain: Corm (arbi/Colocasia) rhizome jaisa dikhta hai par gol aur solid hota hai, Bulbil (Agave) hawa me banta hai, aur Root tuber (shakarkandi) ek moti hui jad hai (stem nahi). Exam point: 'Ginger, Turmeric, Banana = Rhizome' - ye ek modified underground stem hai."
   },
   {
-    "qe": "Which of the following is a 'Parasitic' plant?",
-    "qh": "",
+    "qe": "The physiological response of plants to relative day and night lengths is termed:",
+    "qh": "दिन और रात की सापेक्ष लंबाई के प्रति पौधों की प्रतिक्रिया को क्या कहते हैं?",
     "o": [
-      "Mushroom",
-      "Lichen",
-      "Pitcher plant",
-      "Cuscuta (Amarbel)"
+      "Vernalization",
+      "Heliotropism",
+      "Phototropism",
+      "Photoperiodism"
     ],
     "a": 3,
-    "e": "Cuscuta lacks chlorophyll and draws all its nutrition from the host plant."
+    "e": "Concept: Photoperiodism paudhon ka din-raat ki lambai (day-night length) ke prati response hai - isi se flowering ka timing decide hota hai. Short-day plants (rice, soybean, cotton) ko lambi raat chahiye tab phool aata hai, long-day plants (wheat, spinach, radish) ko lamba din, aur day-neutral plants (tomato) isse unaffected rehte hain. Ye signal phool me 'Florigen' ke roop me jata hai. Baaki teen alag hain: Vernalization thand se flowering hai (din ki lambai se nahi), Heliotropism sooraj ki direction follow karna, aur Phototropism light ki taraf mudna hai. Exam point: 'Day-length = Photoperiodism', 'Cold = Vernalization'."
   },
   {
-    "qe": "Which tissue is responsible for the 'Secondary Growth' (increase in thickness) of a tree trunk?",
-    "qh": "",
+    "qe": "Rapid folding of Mimosa pudica leaves upon tactile stimulation is mediated by turgor shifts in the:",
+    "qh": "छुईमुई (Mimosa pudica) में पत्तियों का स्पर्श से अचानक सिकुड़ना किस आधार अंग द्वारा होता है?",
     "o": [
-      "Apical Meristem",
-      "Endodermis",
-      "Parenchyma",
-      "Vascular Cambium"
+      "Leaf blade",
+      "Pulvinus",
+      "Stipule",
+      "Petiole sheath"
     ],
-    "a": 3,
-    "e": "Vascular cambium is a lateral meristem that produces secondary xylem (wood) and secondary phloem."
+    "a": 1,
+    "e": "Concept: Mimosa pudica (Chhui-mui) ke patte chhune par turant band ho jate hain - ye kisi motor ki tarah nahi, balki patte ke Pulvinus (phoola hua base) me turgor pressure badalne se hota hai. Touch ka signal pulvinus ke cells me paani ka flow badal deta hai, jisse patti mud (fold) jati hai; kuch minutes me paani wapas aane par patta phir khul jata hai. Baaki teen is fold ke engine nahi hain: Leaf blade, Stipule aur Petiole sheath. Exam point: 'Mimosa pudica ka rapid fold = Pulvinus me turgor change' - ye ek nastic movement hai."
   },
   {
-    "qe": "The 'Annual Rings' seen in a cross-section of a tree trunk are used to estimate its age. These rings are made of:",
-    "qh": "",
+    "qe": "Which of the following is a non-photosynthetic parasitic angiosperm?",
+    "qh": "निम्नलिखित में से कौन सा एक गैर-प्रकाश संश्लेषक परजीवी आवृतबीजी पौधा है?",
     "o": [
-      "Secondary Xylem",
-      "Primary Phloem",
-      "Cortex",
-      "Pith"
+      "Utricularia",
+      "Cuscuta (Amarbel)",
+      "Nepenthes",
+      "Dionaea"
     ],
-    "a": 0,
-    "e": "Each year, the cambium produces a layer of spring wood and autumn wood, which together form one annual ring."
+    "a": 1,
+    "e": "Concept: Cuscuta (Amarbel) ek total stem parasite hai jo chlorophyll nahi banata - ye doosre paudhon ke stem par chadh kar haustoria (chuste roots) daalta hai aur poora khana-mineral unse khinch leta hai, isliye ise 'non-photosynthetic parasite' kehte hain. Iske patte scale jaise chhote hote hain. Baaki teen parasites nahi hain: Utricularia (Bladderwort), Nepenthes (Pitcher Plant) aur Dionaea (Venus Flytrap) keede-bhakshi hain, par ye teeno chlorophyll rakhte hain aur photosynthesis bhi karte hain. Exam point: 'Amarbel/Cuscuta = stem parasite', 'Pitcher plant = keede-bhakshi, parasite nahi'."
   },
   {
-    "qe": "What is the science of determining the age of a tree by counting its rings called?",
-    "qh": "",
+    "qe": "The scientific discipline of estimating historical climate and tree age via annual xylem rings is:",
+    "qh": "वार्षिक वलयों की गणना करके वृक्ष की आयु और प्राचीन जलवायु निर्धारित करने का विज्ञान है:",
     "o": [
-      "Paleontology",
-      "Dendrochronology",
+      "Phenology",
       "Pomology",
-      "Horticulture"
+      "Palynology",
+      "Dendrochronology"
     ],
-    "a": 1,
-    "e": "Dendrochronology uses tree rings to study past climates and the age of the tree."
+    "a": 3,
+    "e": "Concept: Dendrochronology ped ki umar aur purane climate ka pata lagane ki vigyaan hai - har saal ped ke andar xylem (lakdi) ki ek nayi ring (annual ring) banti hai. Achhi baarish wale saal me ring moti aur kharab saal me patli banti hai, isliye ring ki chaurai aur number gin kar ped ki umar aur climate history pata chalti hai - itihas me ye bahut kaam aata hai. Baaki teen alag fields hain: Phenology seasonal events ki timing, Pomology fal ki study, aur Palynology pollen grains ki study. Exam point: 'Umar/climate = Dendrochronology' (dendron = tree, chronos = time)."
   },
   {
-    "qe": "In a large tree, the central, dark-colored, non-functional part of the wood is called:",
-    "qh": "",
+    "qe": "In mature tree trunks, the dense, dark-colored, physiologically inactive central core of wood is the:",
+    "qh": "पेड़ों के तने के केंद्र में स्थित गहरा, कठोर और निष्क्रिय लकड़ी का भाग क्या कहलाता है?",
     "o": [
-      "Softwood",
       "Heartwood (Duramen)",
-      "Sapwood",
-      "Bark"
-    ],
-    "a": 1,
-    "e": "Heartwood is filled with resins and tannins, making it resistant to decay and very strong."
-  },
-  {
-    "qe": "Which part of the 'Wood' is responsible for the conduction of water in a 50-year-old tree?",
-    "qh": "",
-    "o": [
-      "Pith",
-      "Heartwood",
+      "Periderm",
       "Sapwood (Alburnum)",
-      "Cork"
-    ],
-    "a": 2,
-    "e": "Sapwood is the younger, outer layer of secondary xylem that actively transports water and minerals."
-  },
-  {
-    "qe": "The 'Kranz Anatomy' is a characteristic feature of which type of plants?",
-    "qh": "",
-    "o": [
-      "C4 Plants (e.g., Maize, Sugarcane)",
-      "CAM Plants",
-      "Hydrophytes",
-      "C3 Plants"
+      "Phelloderm"
     ],
     "a": 0,
-    "e": "Kranz anatomy involves a wreath-like arrangement of bundle sheath cells that helps the plant avoid photorespiration."
+    "e": "Concept: Ped ke tane me lakdi do hisson me bant jati hai. Heartwood (Duramen) beech (central) ka wo hissa hai jo gehre rang ka, bhara hua aur non-conducting hota hai - iske cells mar chuke hote hain, isliye ye sirf kathor support deta hai, koi conduction nahi karta. Baaki teen alag hain: Sapwood (Alburnum) bahar wali halki-coloured lakdi hai jo paani aur minerals conduct karti hai, Periderm bahari chhaal ki layer hai, aur Phelloderm periderm ke andar ki parat hai. Exam point: 'Dark, central, inactive = Heartwood', 'Light, bahari, conducting = Sapwood'."
   },
   {
-    "qe": "Which enzyme is the most abundant protein on Earth and is used in the Calvin Cycle?",
-    "qh": "",
+    "qe": "Which enzyme represents the most abundant protein on Earth, responsible for carbon fixation?",
+    "qh": "कार्बन स्थिरीकरण के लिए जिम्मेदार पृथ्वी पर सबसे प्रचुर मात्रा में पाया जाने वाला एंजाइम कौन सा है?",
     "o": [
-      "Pepsin",
-      "DNA Polymerase",
       "RuBisCO",
-      "Amylase"
-    ],
-    "a": 2,
-    "e": "RuBisCO fixes carbon dioxide into organic molecules during photosynthesis."
-  },
-  {
-    "qe": "What is the main function of 'Phloem Companion Cells'?",
-    "qh": "",
-    "o": [
-      "Water storage",
-      "Loading and unloading of sugar into sieve tubes",
-      "Providing rigid support",
-      "Photosynthesis"
-    ],
-    "a": 1,
-    "e": "Companion cells are closely associated with sieve tube elements and manage their metabolic activities."
-  },
-  {
-    "qe": "Which of the following is a 'Short-Day Plant' (flowers only when days are short)?",
-    "qh": "",
-    "o": [
-      "Radish",
-      "Spinach",
-      "Soybean//Rice",
-      "Wheat"
-    ],
-    "a": 2,
-    "e": "Short-day plants require a long period of darkness to trigger flowering."
-  },
-  {
-    "qe": "The 'Velamen' tissue, used for absorbing moisture from the air, is found in the roots of:",
-    "qh": "",
-    "o": [
-      "Wheat",
-      "Banyan",
-      "Orchids (Epiphytes)",
-      "Mango"
-    ],
-    "a": 2,
-    "e": "Orchids have hanging aerial roots with velamen to suck water vapor from a humid atmosphere."
-  },
-  {
-    "qe": "What is 'Photolysis' of water?",
-    "qh": "",
-    "o": [
-      "Splitting of water using light energy in Photosystem II",
-      "Boiling of water",
-      "Formation of water from gas",
-      "Absorption of water by roots"
+      "PEP Carboxylase",
+      "Nitrogenase",
+      "ATP Synthase"
     ],
     "a": 0,
-    "e": "This process releases electrons, protons, and oxygen as a byproduct of photosynthesis."
+    "e": "Concept: RuBisCO (Ribulose-1,5-bisphosphate carboxylase/oxygenase) duniya ka sabse zyada maatra me milne wala protein aur enzyme hai - ye Calvin cycle me CO2 pakadkar shakkar banane wale pehle step (carboxylation) ko catalyse karta hai, isliye ise carbon fixation ka mukhya engine kehte hain. Par isi enzyme ki ek badi kamzori hai: garmi aur kam CO2 me ye O2 ko bhi pakad leta hai, jisse photorespiration hota hai (C3 plants ki kamzori). Baaki teen alag enzymes hain: PEP Carboxylase (C4 plants ka pehla enzyme), Nitrogenase (N-fixation) aur ATP Synthase (energy). Exam point: 'Duniya ka sabse abundant enzyme = RuBisCO'."
   },
   {
-    "qe": "Which plant group is known as the 'Amphibians of the Plant Kingdom'?",
-    "qh": "",
+    "qe": "What is the primary function of phloem Companion Cells?",
+    "qh": "फ्लोएम में पाई जाने वाली सह-कोशिकाओं (Companion Cells) का मुख्य कार्य क्या है?",
     "o": [
-      "Pteridophyta",
-      "Bryophyta (Mosses)",
-      "Thallophyta",
-      "Gymnosperms"
+      "Osmotic loading and unloading of sugars into sieve tubes",
+      "Water storage",
+      "Mechanical protection",
+      "Lignin biosynthesis"
     ],
-    "a": 1,
-    "e": "Bryophytes live on land but require water for sexual reproduction (sperm must swim to the egg)."
+    "a": 0,
+    "e": "Concept: Phloem me do khaas cells hote hain: Sieve tubes (khana bhejne wali naliyan) aur unke saath chipke Companion Cells. Sieve tubes mature hone par apna nucleus kho deti hain, isliye unka poora control Companion Cells karte hain - ye osmotically sugar ko sieve tubes me load/unload karte hain, jisse translocation pressure bana rehta hai aur khana dhaata rehta hai. Baaki teen unke kaam nahi hain: Water storage, mechanical protection aur lignin biosynthesis (lignin to xylem/sclerenchyma me banta hai). Exam point: 'Companion cell = sieve tube ka control-room (loading/unloading)'."
   },
   {
-    "qe": "The 'Sago' (Sabudana) is obtained from which plant?",
-    "qh": "",
+    "qe": "The hygroscopic tissue 'Velamen', capable of absorbing water vapor directly from ambient air, is found in:",
+    "qh": "हवा से नमी सोखने वाला विशेष 'वेलामेन' ऊतक किसकी वायवीय जड़ों में पाया जाता है?",
     "o": [
-      "Wheat",
+      "Mangroves",
+      "Conifers",
+      "Epiphytic Orchids",
+      "Parasites"
+    ],
+    "a": 2,
+    "e": "Concept: Velamen ek multi-layered dead epidermis hoti hai jo hawa me latki epiphytic orchids ki aerial roots par chadhi hoti hai. Iske khali (empty) cells aur pores ki wajah se ye hawa ki nami (water vapour/drops) ko sponge ki tarah sokh (absorb) leti hai, isliye orchid mitti ke bina ped par latka hokar bhi zinda rehta hai; iske ilawa ye roots ko dhoop se bachata hai aur paani zyada der hold karta hai. Baaki teen me ye feature nahi hai: Mangroves me pneumatophores, Conifers me needle patte, aur Parasites me haustoria hote hain. Exam point: 'Velamen = epiphytic orchid ki aerial root ka water-absorbing kavach'."
+  },
+  {
+    "qe": "Why are Bryophytes referred to as the 'Amphibians of the Plant Kingdom'?",
+    "qh": "ब्रायोफाइटा को 'पादप जगत का उभयचर' क्यों कहा जाता है?",
+    "o": [
+      "They live on land but require free water for sexual fertilization",
+      "They bear true roots and seeds",
+      "They lack chloroplasts",
+      "They only live underwater"
+    ],
+    "a": 0,
+    "e": "Concept: Bryophytes (moss, liverwort, hornwort) ko 'Amphibians of the Plant Kingdom' kaha jata hai, kyunki inki zindagi do jagah chalti hai - ye zameen par ugte hain, par fertilization ke liye male gamete (antherozoid) ko paani ki ek film chahiye hoti hai, tab hi wo egg tak tairkar pahunchta hai. Yaani paani ke bina sexual reproduction possible nahi. Baaki teen wajahein galat hain: inme true roots aur seeds nahi hote, inme chloroplast hote hain (photosynthesis karte hain) aur ye sirf paani ke andar nahi rehte. Exam point: 'Bryophyta = amphibians of plant kingdom'."
+  },
+  {
+    "qe": "Commercial edible 'Sago' (Sabudana) is traditionally extracted from the stem pith of which gymnosperm?",
+    "qh": "व्यावसायिक साबूदाना मुख्य रूप से किस जिम्नोस्पर्म के तने से प्राप्त किया जाता है?",
+    "o": [
       "Pinus",
       "Cycas",
-      "Rice"
+      "Ephedra",
+      "Ginkgo"
     ],
-    "a": 2,
-    "e": "Sago is a starch extracted from the pith of the Cycas plant, which is a Gymnosperm."
+    "a": 1,
+    "e": "Concept: Sago (Sabudana) Cycas naam ke gymnosperm ke tane (stem) ke pith se nikalta hai - isliye Cycas ko 'Sago Palm' bhi kehte hain (dikhne me palm jaisa par hai gymnosperm). Iske stem se starch nikalkar dhokar sabudana banaya jata hai. Baaki teen iske source nahi hain: Pinus se timber aur resin milta hai, Ephedra se ephedrine (cold medicine), aur Ginkgo ek 'living fossil' hai. Exam point: 'Sabudana = Cycas stem pith' - ye ek bahut common confusing question hai."
   },
   {
-    "qe": "Which plant tissue has 'Pectin' deposits at the corners of its cells to provide flexibility?",
-    "qh": "",
+    "qe": "Which plant tissue possesses uneven, pectin-thickened cell corners to allow flexible mechanical support?",
+    "qh": "कोशिकाओं के कोनों पर पेक्टिन जमा होने से पौधों को लचीलापन प्रदान करने वाला ऊतक कौन सा है?",
     "o": [
-      "Collenchyma",
       "Sclerenchyma",
       "Parenchyma",
-      "Xylem"
-    ],
-    "a": 0,
-    "e": "Collenchyma allows young stems and leaves to bend without breaking."
-  },
-  {
-    "qe": "What is 'Vernalization'?",
-    "qh": "",
-    "o": [
-      "Response to touch",
-      "Growth towards light",
-      "Seed dispersal by wind",
-      "Induction of flowering by exposure to prolonged cold"
+      "Aerenchyma",
+      "Collenchyma"
     ],
     "a": 3,
-    "e": "Many plants in temperate climates require a cold winter period before they can flower in the spring."
+    "e": "Concept: Collenchyma ek living support tissue hai jisme cell wall ke corners (kone) par pectin aur cellulose jama hote hain - wall ki motai barabar nahi hoti (uneven thickening). Isliye ye paudhe ko flexibility ke saath support deti hai aur tedha (bend) hone par wapas seedha ho jata hai; ye badhti stem aur petiole (patte ke dand) me hoti hai. Baaki teen alag hain: Sclerenchyma ke cells mar chuke aur lignified hote hain (rigid, flexible nahi), Parenchyma me sirf patli uniform wall, aur Aerenchyma me air chambers hote hain. Exam point: 'Pectin + corners + living + flexible = Collenchyma'."
   },
   {
-    "qe": "Which part of the plant is modified to form the 'Spines' in a Cactus?",
-    "qh": "",
+    "qe": "The promotion of flowering by prolonged exposure to cold temperatures is called:",
+    "qh": "कम तापमान (ठंड) के संपर्क में लाकर पौधों में पुष्पन को प्रेरित करने की प्रक्रिया कहलाती है:",
     "o": [
-      "Flower",
-      "Leaves",
+      "Stratification",
+      "Vernalization",
+      "Etiolation",
+      "Scarification"
+    ],
+    "a": 1,
+    "e": "Concept: Vernalization matlab thand (cold) ka exposure dekar flowering ko badhava dena. Biennial crops jaise winter wheat, sugar beet, cabbage aur radish ko flowering ke liye pehle thandi ki avastha (vernalization) se guzarna padta hai, warna wo vegetatively hi badhte rehte hain; isi wajah se winter aur spring faslon me farq hota hai. Baaki teen alag terms hain: Stratification beej ke treatment ko kehte hain, Etiolation andhere me badhne ko (safed patte nikalna), aur Scarification beej ke kathor chhilke ko todne ko. Exam point: 'Thand se phool = Vernalization', 'Din ki lambai se phool = Photoperiodism'."
+  },
+  {
+    "qe": "The spines of cacti represent anatomical modifications of which organ?",
+    "qh": "कैक्टस (नागफनी) के कांटे किस अंग का रूपांतरित रूप हैं?",
+    "o": [
+      "Inflorescence",
       "Stem",
-      "Root"
-    ],
-    "a": 1,
-    "e": "Cactus leaves are modified into spines to reduce water loss (transpiration) and protect against animals."
-  },
-  {
-    "qe": "The 'Pneumatophores' (Respiratory roots) are found in:",
-    "qh": "",
-    "o": [
-      "Aquatic plants",
-      "Desert plants",
-      "Mangrove plants (e.g., Rhizophora)",
-      "Climbing plants"
-    ],
-    "a": 2,
-    "e": "Mangroves grow in salty, oxygen-poor marshes; pneumatophores grow upward to 'breathe' air."
-  },
-  {
-    "qe": "Which plant hormone is also known as the 'Anti-Transpirant'?",
-    "qh": "",
-    "o": [
-      "Abscisic Acid (ABA)",
-      "Cytokinin",
-      "Gibberellin",
-      "Auxin"
-    ],
-    "a": 0,
-    "e": "ABA closes the stomata during drought to prevent the plant from wilting."
-  },
-  {
-    "qe": "What is the function of 'Inulin' in plants like Dahlia?",
-    "qh": "",
-    "o": [
-      "Protection",
-      "Photosynthesis",
-      "Storage of Carbohydrates (Fructans) in roots",
-      "Transport of water"
-    ],
-    "a": 2,
-    "e": "Inulin is a storage polysaccharide often found in the roots or tubers of some plants."
-  },
-  {
-    "qe": "Which chemical is found in the 'Cell Wall' of fungi, making it different from plants?",
-    "qh": "",
-    "o": [
-      "Cellulose",
-      "Lignin",
-      "Chitin",
-      "Pectin"
-    ],
-    "a": 2,
-    "e": "While plants use cellulose, fungi use chitin (the same material found in insect shells) for their cell walls."
-  },
-  {
-    "qe": "Which part of the 'Clove' (Laung) is used as a spice?",
-    "qh": "",
-    "o": [
-      "Seed",
-      "Bark",
-      "Dried Flower Bud",
-      "Fruit"
-    ],
-    "a": 2,
-    "e": "Cloves are the aromatic, dried flower buds of the Syzygium aromaticum tree."
-  },
-  {
-    "qe": "The 'Saffron' (Kesar) of commerce is obtained from which part of the Crocus plant?",
-    "qh": "",
-    "o": [
-      "Stigma and Style",
-      "Petals",
-      "Anthers",
-      "Roots"
-    ],
-    "a": 0,
-    "e": "Saffron is the most expensive spice in the world, made from the dried stigmas of the Crocus flower."
-  },
-  {
-    "qe": "Which disease in Sugarcane is characterized by red streaks in the stem and a sour smell?",
-    "qh": "",
-    "o": [
-      "Citrus Canker",
-      "Late Blight",
-      "Red Rot",
-      "Black Rust"
-    ],
-    "a": 2,
-    "e": "Red Rot is caused by the fungus Colletotrichum falcatum and is a major threat to sugarcane crops in Bihar."
-  },
-  {
-    "qe": "The 'Citrus Canker' disease, which affects lemon and orange trees, is caused by:",
-    "qh": "",
-    "o": [
-      "Fungus",
-      "Nematode",
-      "Virus",
-      "Bacteria (Xanthomonas)"
-    ],
-    "a": 3,
-    "e": "It causes lesions on the leaves, stems, and fruit of citrus trees."
-  },
-  {
-    "qe": "Which part of the 'Cinnamon' (Dalchini) tree is used as a spice?",
-    "qh": "",
-    "o": [
-      "Fruit",
-      "Leaf",
-      "Inner Bark",
+      "Leaves",
       "Root"
     ],
     "a": 2,
-    "e": "Cinnamon is harvested by peeling the inner bark of the Cinnamomum tree."
+    "e": "Concept: Cactus ke kaante (spines) morphologically patte (leaves) ka roopantaran hain - roshni aur paani ki kami ke chalte patte chhote hokar sakht kaante ban gaye, jisse transpiration ghat gayi aur jaanwaron se suraksha mili. Cactus me photosynthesis ka kaam hara stem (phylloclade) karta hai, kyunki patte ab kaante hain. Baaki teen se kaante nahi bante: Inflorescence, Stem aur Root - ye trap hai. Exam point: 'Cactus ke kaante = modified leaves', 'Cactus me photosynthesis = stem'; isi tarah pea ki tendril = leaf modification aur lemon ka kaanta = stem modification."
   },
   {
-    "qe": "What is the 'Edible Part' of an Apple?",
-    "qh": "",
+    "qe": "Pneumatophores (negatively geotropic breathing roots) are typical adaptations of:",
+    "qh": "श्वसन जड़ें (न्यूमेटोफोर) किन पौधों में पाई जाती हैं?",
     "o": [
-      "Ovary",
-      "Fleshy Thalamus",
-      "Pericarp",
-      "Endosperm"
+      "Alpine flora",
+      "Mangroves (Rhizophora)",
+      "Xerophytes",
+      "Mesophytes"
     ],
     "a": 1,
-    "e": "Apple is a 'False Fruit' because the edible part develops from the thalamus, not the ovary."
+    "e": "Concept: Pneumatophores (breathing roots) mangrove paudhon (Rhizophora, Avicennia - Sundarbans) ki wo jadein hain jo ulta (upward) aakash ki taraf badhti hain (negatively geotropic). Mangrove ki mitti paani bhare aur oxygen-less hoti hai, isliye ye roots mitti se bahar nikal aati hain aur inki lenticels se plant ko oxygen milta hai; isliye inhe breathing roots kehte hain. Baaki teen aise nahi karte: Alpine flora thand ke liye, Xerophytes paani bachane ke liye (spines, thick cuticle), aur Mesophytes normal mitti ke liye adapted hote hain. Exam point: 'Mangrove + breathing roots = Pneumatophores'."
   },
   {
-    "qe": "The 'Late Blight of Potato', which caused the Irish Famine, is caused by:",
-    "qh": "",
+    "qe": "Unlike plant cell walls made of cellulose, fungal cell walls are structured with:",
+    "qh": "पादप कोशिका भित्ति (सेलुलोज) के विपरीत, कवकों की कोशिका भित्ति किससे बनी होती है?",
     "o": [
-      "Algae",
-      "Virus",
-      "Bacteria",
-      "Fungus (Phytophthora)"
-    ],
-    "a": 3,
-    "e": "Phytophthora infestans is a water mold that can destroy entire potato crops in wet weather."
-  },
-  {
-    "qe": "Which plant is known as the 'Terror of Bengal' because it clogs waterways?",
-    "qh": "",
-    "o": [
-      "Water Hyacinth (Eichhornia)",
-      "Pistia",
-      "Hydrilla",
-      "Lotus"
-    ],
-    "a": 0,
-    "e": "It is an invasive species that depletes oxygen from the water, killing fish."
-  },
-  {
-    "qe": "The 'Quinine' drug used for treating Malaria is obtained from the bark of which tree?",
-    "qh": "",
-    "o": [
-      "Eucalyptus",
-      "Neem",
-      "Cinchona",
-      "Teak"
-    ],
-    "a": 2,
-    "e": "Cinchona bark was the first effective treatment for malaria."
-  },
-  {
-    "qe": "Which part of the 'Turmeric' (Haldi) plant is used in cooking?",
-    "qh": "",
-    "o": [
-      "Underground Stem (Rhizome)",
-      "Fruit",
-      "Root",
-      "Leaf"
-    ],
-    "a": 0,
-    "e": "Turmeric is a rhizome, just like ginger."
-  },
-  {
-    "qe": "What is 'Epiphytic' growth?",
-    "qh": "",
-    "o": [
-      "Parasitic plants",
-      "Plants growing in water",
-      "Desert plants",
-      "Plants growing on other plants for support but not for nutrition"
-    ],
-    "a": 3,
-    "e": "Orchids are common epiphytes that use trees for height to reach sunlight."
-  },
-  {
-    "qe": "Which hormone is responsible for the 'Sleep movements' of leaves in pulses?",
-    "qh": "",
-    "o": [
-      "Cytokinin",
-      "Ethylene",
-      "Auxin",
-      "Abscisic Acid (ABA)"
-    ],
-    "a": 3,
-    "e": "ABA and Turgor pressure changes in the pulvinus cause leaves to fold at night."
-  },
-  {
-    "qe": "The 'Coffee' bean is which part of the plant?",
-    "qh": "",
-    "o": [
-      "Fruit",
-      "Seed",
-      "Bark",
-      "Leaf"
-    ],
-    "a": 1,
-    "e": "Coffee beans are the processed seeds found inside the 'cherry' fruit of the Coffea plant."
-  },
-  {
-    "qe": "Which plant tissue is called the 'Wood' of the tree?",
-    "qh": "",
-    "o": [
-      "Phloem",
-      "Primary Xylem",
-      "Cortex",
-      "Secondary Xylem"
-    ],
-    "a": 3,
-    "e": "Wood is essentially a massive accumulation of secondary xylem produced by the vascular cambium."
-  },
-  {
-    "qe": "What is 'Hydrotropism'?",
-    "qh": "",
-    "o": [
-      "Growth towards gravity",
-      "Growth towards chemicals",
-      "Growth towards water",
-      "Growth towards light"
-    ],
-    "a": 2,
-    "e": "Plant roots show positive hydrotropism as they grow toward moist soil areas."
-  },
-  {
-    "qe": "Which pigment gives the 'Purple' or 'Blue' color to many flowers and fruits?",
-    "qh": "",
-    "o": [
-      "Chlorophyll",
-      "Xanthophyll",
-      "Anthocyanin",
-      "Carotene"
-    ],
-    "a": 2,
-    "e": "Anthocyanins are water-soluble vacuolar pigments that change color based on pH."
-  },
-  {
-    "qe": "The 'Vascular Bundles' in Monocot stems are usually:",
-    "qh": "",
-    "o": [
-      "Absent",
-      "Arranged in a ring",
-      "Only found in roots",
-      "Scattered in the ground tissue"
-    ],
-    "a": 3,
-    "e": "Unlike dicots where they form a ring, monocot bundles (like in maize) are scattered."
-  },
-  {
-    "qe": "Which part of the 'Onion' is edible?",
-    "qh": "",
-    "o": [
-      "Fruit",
-      "Root",
-      "Flower",
-      "Fleshy Scale Leaves (Bulb)"
-    ],
-    "a": 3,
-    "e": "The onion is a modified underground shoot where the leaves store food."
-  },
-  {
-    "qe": "What is 'Vivipary' in plants?",
-    "qh": "",
-    "o": [
-      "Seeds falling on the ground",
-      "Seeds germinating while still attached to the parent plant",
-      "Asexual reproduction",
-      "Death of seeds"
-    ],
-    "a": 1,
-    "e": "Common in mangroves (Rhizophora), this allows the seedling to drop into the mud and take root immediately."
-  },
-  {
-    "qe": "Which of the following is an 'Oil-yielding' plant?",
-    "qh": "",
-    "o": [
-      "Mustard",
-      "Sugarcane",
-      "Potato",
-      "Wheat"
-    ],
-    "a": 0,
-    "e": "Mustard seeds are rich in oils used for cooking and medicinal purposes."
-  },
-  {
-    "qe": "What is the function of 'Lenticels'?",
-    "qh": "",
-    "o": [
-      "Photosynthesis",
-      "Seed dispersal",
-      "Gaseous exchange in woody stems",
-      "Water absorption"
-    ],
-    "a": 2,
-    "e": "Lenticels are small pores in the bark that allow oxygen to reach the living tissues of the stem."
-  },
-  {
-    "qe": "Which sugar is specifically found in 'Fruits'?",
-    "qh": "'फलों' में मुख्य रूप से कौन सी शर्करा पाई जाती है?",
-    "o": [
-      "Sucrose",
-      "Lactose",
-      "Fructose | फ्रुक्टोज़",
-      "Glucose"
-    ],
-    "a": 2,
-    "e": "Fructose is often called fruit sugar as it is naturally found in fruits and honey. / फ्रुक्टोज़ को अक्सर फल शर्करा कहा जाता है क्योंकि यह प्राकृतिक रूप से फलों और शहद में पाया जाता है।"
-  },
-  {
-    "qe": "Which organelle provides green color and helps in making food in plants?",
-    "qh": "पौधों में कौन सा अंगक हरा रंग प्रदान करता है और भोजन बनाने में मदद करता है?",
-    "o": [
-      "Leucoplast",
-      "Chloroplast | क्लोरोप्लास्ट",
-      "Chromoplast",
-      "Golgi Body"
-    ],
-    "a": 1,
-    "e": "Chloroplasts contain chlorophyll for photosynthesis. / क्लोरोप्लास्ट में प्रकाश संश्लेषण के लिए क्लोरोफिल होता है।"
-  },
-  {
-    "qe": "Which substance in plant cell walls is used to make paper?",
-    "qh": "पादप कोशिका भित्ति में कौन सा पदार्थ कागज बनाने के लिए उपयोग किया जाता है?",
-    "o": [
-      "Starch",
-      "Protein",
-      "Cellulose | सेलुलोज",
-      "Fat"
-    ],
-    "a": 2,
-    "e": "Cellulose is a fibrous carbohydrate found in plants that is the main ingredient of paper. / सेलुलोज पौधों में पाया जाने वाला एक रेशेदार कार्बोहाइड्रेट है जो कागज का मुख्य घटक है।"
-  },
-  {
-    "qe": "What are 'Plastids' responsible for in plants?",
-    "qh": "पौधों में 'लवक' (Plastids) किसके लिए जिम्मेदार होते हैं?",
-    "o": [
-      "Nervous system",
-      "Movement",
-      "Hearing",
-      "Food making and storage | भोजन बनाना और संचय"
-    ],
-    "a": 3,
-    "e": "Plastids like Chloroplasts help in photosynthesis and food storage. / क्लोरोप्लास्ट जैसे लवक प्रकाश संश्लेषण और भोजन संचय में मदद करते हैं।"
-  },
-  {
-    "qe": "Which plastid gives green color to the leaves?",
-    "qh": "कौन सा लवक पत्तियों को हरा रंग देता है?",
-    "o": [
-      "Chromoplast",
-      "Chloroplast | क्लोरोप्लास्ट",
-      "Centrosome",
-      "Leucoplast"
-    ],
-    "a": 1,
-    "e": "Chloroplast contains chlorophyll, which absorbs sunlight and gives green color. / क्लोरोप्लास्ट में क्लोरोफिल होता है, जो सूर्य के प्रकाश को सोखता है और हरा रंग देता है।"
-  },
-  {
-    "qe": "Which protective layer is found only in plant cells and not in animal cells?",
-    "qh": "कौन सी सुरक्षात्मक परत केवल पादप कोशिकाओं में पाई जाती है, जंतु कोशिकाओं में नहीं?",
-    "o": [
-      "Cell Membrane",
-      "Cell Wall | कोशिका भित्ति",
-      "Nucleus",
-      "Cytoplasm"
-    ],
-    "a": 1,
-    "e": "Plant cells have an outer cell wall for extra safety, while animals only have a cell membrane. / पादप कोशिकाओं में अतिरिक्त सुरक्षा के लिए कोशिका भित्ति होती है, जबकि जंतुओं में केवल कोशिका झिल्ली होती है।"
-  },
-  {
-    "qe": "What is the cell wall of plants primarily made of?",
-    "qh": "पेड़-पौधों की कोशिका भित्ति मुख्य रूप से किसकी बनी होती है?",
-    "o": [
-      "Protein",
-      "Lipids",
-      "Chitin",
-      "Cellulose | सेलुलोज"
-    ],
-    "a": 3,
-    "e": "Cellulose is a complex carbohydrate that provides structural strength to plants. / सेलुलोज एक जटिल कार्बोहाइड्रेट है जो पौधों को संरचनात्मक मजबूती प्रदान करता है।"
-  },
-  {
-    "qe": "The currency notes and paper are made from which biological substance?",
-    "qh": "नोट और कागज किस जैविक पदार्थ से बने होते हैं?",
-    "o": [
-      "Starch",
-      "Glycogen",
-      "Cellulose | सेलुलोज",
+      "Peptidoglycan",
+      "Keratin",
+      "Pectin",
       "Chitin"
     ],
+    "a": 3,
+    "e": "Concept: Plants ki cell wall cellulose se banti hai, par Fungi (kavak) ki cell wall me Chitin hota hai (kuch fungi me cellulose/chitosan bhi). Chitin ek nitrogen-yukt polysaccharide hai jo keedo ke exoskeleton me bhi hota hai, isliye fungi ko plant kingdom se alag rakhne wala ye ek bada biochemical saboot hai. Baaki teen alag jagah hote hain: Peptidoglycan (murein) bacteria ki cell wall me, Keratin baal-nakhon me, aur Pectin paudhon ke cells ke beech me. Exam point: 'Plant wall = Cellulose, Fungal wall = Chitin, Bacterial wall = Peptidoglycan'."
+  },
+  {
+    "qe": "The commercial culinary spice 'Clove' (Laung) represents which anatomical organ?",
+    "qh": "मसाले के रूप में प्रयुक्त होने वाली 'लौंग' पौधे का कौन सा भाग है?",
+    "o": [
+      "Aromatic bark",
+      "Seed kernel",
+      "Dried fruit",
+      "Unopened dried flower bud"
+    ],
+    "a": 3,
+    "e": "Concept: Laung (Clove) asal me bina khila hua sookha phool ka kali (unopened dried flower bud) hai - isliye ise phool khilne se pehle todkar sukhaya jata hai. Ye Syzygium aromaticum (Myrtaceae) se milta hai aur isme tel eugenol hota hai, jo dant-dard me use hota hai. Baaki teen doosre masale hain: Aromatic bark = cinnamon/dalchini, Seed kernel = jaiphal/nutmeg, aur Dried fruit = jeera/dhaniya. Exam point: 'Clove = unopened flower bud', 'Cinnamon = inner bark', 'Nutmeg = seed' - ye chart yaad rakho."
+  },
+  {
+    "qe": "Saffron (Kesar) is harvested from which specific floral parts of the Crocus flower?",
+    "qh": "व्यावसायिक केसर पौधे के फूल के किस भाग से प्राप्त किया जाता है?",
+    "o": [
+      "Anther pollen sacs",
+      "Petals and sepals",
+      "Stigma and style",
+      "Ovary wall"
+    ],
     "a": 2,
-    "e": "Paper and cotton clothes are made from cellulose derived from plant cell walls. / कागज और सूती कपड़े पादप कोशिका भित्ति से प्राप्त सेलुलोज से बने होते हैं।"
+    "e": "Concept: Kesar (Saffron) Crocus sativus ke phool ke Stigma aur Style se nikalta hai, aur ye duniya ka sabse mehenga masala hai - ek kilo kesar ke liye lakhon phoolon ke stigma haath se todne padte hain. Iska rang crocin aur khushbu safranal se aati hai; India me mukhya paidaish Kashmir (Pampore) me hoti hai. Baaki teen se kesar nahi nikalta: Anther pollen sacs (ye keela/peela hissa hai), Petals aur sepals, aur Ovary wall. Exam point: 'Saffron = stigma + style of Crocus', 'Kesar = duniya ka sabse mahanga masala'."
   },
   {
-    "qe": "Which organelle is responsible for photosynthesis in plants?",
-    "qh": "पौधों में प्रकाश संश्लेषण के लिए कौन सा अंगक जिम्मेदार है?",
+    "qe": "The destructive 'Red Rot' disease in sugarcane stems is caused by which pathogen?",
+    "qh": "गन्ने में तने का 'लाल सड़न' (Red Rot) रोग किस रोगज़नक़ के कारण होता है?",
     "o": [
-      "Lysosome",
-      "Leucoplast",
-      "Chromoplast",
-      "Chloroplast | क्लोरोप्लास्ट"
-    ],
-    "a": 3,
-    "e": "Chloroplast contains chlorophyll which helps plants make their own food. / क्लोरोप्लास्ट में क्लोरोफिल होता है जो पौधों को अपना भोजन बनाने में मदद करता है।"
-  },
-  {
-    "qe": "What is the collective term for Chloroplast, Chromoplast, and Leucoplast?",
-    "qh": "क्लोरोप्लास्ट, क्रोमोप्लास्ट और ल्यूकोप्लास्ट के लिए सामूहिक शब्द क्या है?",
-    "o": [
-      "Ribosomes",
-      "Mitochondria",
-      "Vacuoles",
-      "Plastids | लवक"
-    ],
-    "a": 3,
-    "e": "Plastids are organelles found in plant cells that help in food making and storage. / लवक पादप कोशिकाओं में पाए जाने वाले अंगक हैं जो भोजन बनाने और संचय में मदद करते हैं।"
-  },
-  {
-    "qe": "Which plastid is responsible for storing food in roots and seeds?",
-    "qh": "कौन सा लवक जड़ों और बीजों में भोजन संचय के लिए जिम्मेदार है?",
-    "o": [
-      "Centrosome",
-      "Chloroplast",
-      "Chromoplast",
-      "Leucoplast | ल्यूकोप्लास्ट"
-    ],
-    "a": 3,
-    "e": "Leucoplast is colorless and stores starch, fats, and proteins. / ल्यूकोप्लास्ट रंगहीन होता है और स्टार्च, वसा और प्रोटीन का संचय करता है।"
-  },
-  {
-    "qe": "Which plastid gives 'Red' color to tomatoes and 'Orange' to carrots?",
-    "qh": "कौन सा लवक टमाटर को 'लाल' और गाजर को 'नारंगी' रंग देता है?",
-    "o": [
-      "Leucoplast",
-      "Chromoplast | क्रोमोप्लास्ट",
-      "Chloroplast",
-      "Ribosome"
+      "Puccinia graminis",
+      "Colletotrichum falcatum (Fungus)",
+      "Phytophthora infestans",
+      "Xanthomonas citri"
     ],
     "a": 1,
-    "e": "Chromoplast provides various colors to fruits and flowers. / क्रोमोप्लास्ट फलों और फूलों को विभिन्न रंग प्रदान करता है।"
+    "e": "Concept: Sugarcane ki khatarnak bimari Red Rot ek fungus - Colletotrichum falcatum - se hoti hai; isme cane ka guda laal hokar sad jata hai aur sharbat me sharab jaisi gandh aane lagti hai. Baaki teen alag bimariyan karte hain: Puccinia graminis gahu ka rust (khandwa), Phytophthora infestans aalu ka late blight, aur Xanthomonas citri citrus canker (bacteria) - isliye inhe red rot ka kaaran nahi keh sakte. Exam point: 'Sugarcane Red Rot = fungus (Colletotrichum falcatum)'."
   },
   {
-    "qe": "Which plastid is known as the 'Kitchen of the cell'?",
-    "qh": "किस लवक को 'कोशिका का रसोईघर' कहा जाता है?",
+    "qe": "Citrus canker disease affecting lime and orange foliage is caused by a:",
+    "qh": "नींबू और संतरे में होने वाला 'सिट्रस कैंकर' रोग किसके कारण होता है?",
     "o": [
-      "Chromoplast",
-      "Leucoplast",
-      "Chloroplast | क्लोरोप्लास्ट",
-      "Nucleus"
+      "Virus",
+      "Bacterium (Xanthomonas)",
+      "Viroid",
+      "Fungus"
     ],
-    "a": 2,
-    "e": "Food is synthesized here through photosynthesis. / यहाँ प्रकाश संश्लेषण के माध्यम से भोजन का संश्लेषण होता है।"
+    "a": 1,
+    "e": "Concept: Citrus canker nimbu-santre ke patte aur fal par ubhre hue (raised) bhoore-laal dhabbe paida karta hai, jo ek bacterium - Xanthomonas citri (X. axonopodis) - se hota hai. Ye rog hawa, paani aur upkaran se failta hai, aur fal ki quality gira deta hai; aajkal iska ilaaj antibiotic spray se hota hai. Baaki teen doosre rog karte hain: Virus se mosaic/patta murna, Viroid se potato spindle tuber, aur Fungus se rust/blight/smut jaise rog - par canker bacterial hai. Exam point: 'Citrus canker = Bacteria (Xanthomonas)', 'Citrus greening = bacteria (HLB)', 'Tristeza = virus'."
   },
   {
-    "qe": "Cotton (रुई) is almost pure form of ____.",
-    "qh": "कपास (रुई) लगभग किसका शुद्ध रूप है?",
+    "qe": "The spice Cinnamon (Dalchini) is harvested from which tree component?",
+    "qh": "दालचीनी मसाले के रूप में पेड़ के किस भाग से प्राप्त की जाती है?",
     "o": [
-      "Fat",
-      "Starch",
-      "Cellulose | सेलुलोज",
-      "Protein"
+      "Dried inner bark",
+      "Root epidermis",
+      "Seed endosperm",
+      "Fleshy fruit coat"
     ],
-    "a": 2,
-    "e": "Cotton fibers are nearly 90% cellulose. / कपास के रेशे लगभग 90% सेलुलोज होते हैं।"
+    "a": 0,
+    "e": "Concept: Dalchini (Cinnamon) Cinnamomum zeylanicum (C. verum) ped ki sabse andar ki chhaal (dried inner bark) hai - ise kaat kar, andar ki chhaal alag karke sookha kar roll (quills) banaye jate hain. Iska swad aur khushbu tel cinnamaldehyde se aati hai. Baaki teen se ye masala nahi milta: Root epidermis, Seed endosperm aur Fleshy fruit coat - ye sirf options bharne ke liye hain. Exam point: 'Dalchini = inner bark', 'Tejpatta = leaf', 'Laung = flower bud', 'Jaiphal = seed', 'Kali mirch = fruit' - ye masala-chart aksar poochha jata hai."
   },
   {
-    "qe": "Which plastid contains no pigment?",
-    "qh": "किस लवक में कोई वर्णक (रंग) नहीं होता है?",
+    "qe": "The primary edible flesh of an apple fruit develops from the:",
+    "qh": "सेब का मुख्य खाने योग्य भाग किससे विकसित होता है?",
     "o": [
-      "Chromoplast",
-      "Chloroplast",
-      "None",
-      "Leucoplast | ल्यूकोप्लास्ट"
+      "Endosperm",
+      "Fleshy Thalamus (Receptacle)",
+      "Pericarp wall",
+      "Seed integument"
+    ],
+    "a": 1,
+    "e": "Concept: Seb (Apple) ka juicy, khane wala hissa asal me Fleshy Thalamus (Receptacle) se banta hai, ovary (asli fal) se nahi - isliye apple ko false fruit (pseudocarp) kehte hain; uska beech wala asli hissa (core) ovary se hi banta hai. Baaki teen apple ki flesh nahi banate: Endosperm, Pericarp wall aur Seed integument. Isi tarah cashew aur strawberry bhi false fruits hain (receptacle se), jabki aam, santra aur tamatar asli (true) fruits hain jo ovary se bante hain. Exam point: 'Apple/Strawberry/Cashew = false fruit (receptacle se)'."
+  },
+  {
+    "qe": "Late blight of potato, the causal pathogen behind the historic Great Irish Famine, is:",
+    "qh": "आलू का 'अंगमारी' (Late Blight) रोग, जिसके कारण आयरिश अकाल पड़ा था, किसके द्वारा होता है?",
+    "o": [
+      "Phytophthora infestans (Oomycete/Fungus)",
+      "Claviceps purpurea",
+      "Ustilago maydis",
+      "Tobacco mosaic virus"
+    ],
+    "a": 0,
+    "e": "Concept: Aalu ka 'late blight' rog Phytophthora infestans se hota hai - ye ek oomycete (paani-kavak, pehle ise fungus me gina jata tha) hai jo thande aur namee bhare mausam me patton aur kandon ko jala deta hai. 1845-47 me Ireland me isi rog se aalu ki fasal nasht hui aur Great Irish Famine aayi, jisme laakhon log mare; isliye ye history ka sabse famous plant disease hai. Baaki teen alag bimariyan karte hain: Claviceps purpurea (ergot), Ustilago maydis (makke ka smut) aur Tobacco mosaic virus (TMV). Exam point: 'Irish Famine (1845) = Phytophthora infestans = Potato late blight'."
+  },
+  {
+    "qe": "Eichhornia crassipes (Water Hyacinth) is nicknamed the 'Terror of Bengal' because it:",
+    "qh": "जलकुंभी को 'बंगाल का आतंक' क्यों कहा जाता है?",
+    "o": [
+      "Releases airborne pathogenic spores",
+      "Poisons drinking water with cyanotoxins",
+      "Infects paddy crops with leaf rot",
+      "Multiplies prolifically, depletes aquatic dissolved oxygen, and suffocates fish"
     ],
     "a": 3,
-    "e": "Leucoplasts are non-pigmented plastids used for storage. / ल्यूकोप्लास्ट गैर-वर्णकित लवक हैं जिनका उपयोग भंडारण के लिए किया जाता है।"
+    "e": "Concept: Water Hyacinth (Eichhornia crassipes) ko 'Terror of Bengal' kehte hain - ye South America se aaya ek invasive (bahari) paudha hai jo Bharat me bahut tez failta hai. Ye paani ki satah poori dhak leta hai, oxygen aur roshni andar nahi jaane deta, jisse jal me dissolved oxygen kam hokar machhliyan mar jaati hain aur navigation bhi ruk jaati hai; iski safai me crore rupaye kharch hote hain. Baaki teen iske kaam nahi hain: hawa se fungus ke beej spread karna, paani me cyanotoxin gholna, aur dhan ka leaf rot karna. Exam point: 'Water Hyacinth = Terror of Bengal = invasive + deoxygenation'."
   },
   {
-    "qe": "Which organ has the largest 'Vacuoles'?",
-    "qh": "किनमें 'रसधानी' (Vacuoles) सबसे बड़ी होती है?",
+    "qe": "The antimalarial compound Quinine is historically extracted from the bark of:",
+    "qh": "मलेरिया की प्रसिद्ध दवा कुनैन (Quinine) किस पेड़ की छाल से प्राप्त की जाती है?",
     "o": [
-      "Viruses",
-      "Bacteria",
-      "Plants | पेड़-पौधे",
-      "Animals"
+      "Eucalyptus",
+      "Taxus",
+      "Cinchona",
+      "Atropa"
     ],
     "a": 2,
-    "e": "Plants need more water storage, hence they have larger vacuoles. / पौधों को अधिक जल संचय की आवश्यकता होती है, इसलिए उनकी रसधानी बड़ी होती है।"
+    "e": "Concept: Quinine, jo malaria ke ilaaj ki purani aur mukhya dawa hai, Cinchona ped ki bark (chhaal) se nikalta hai - iske chhilke me quinine ka bitter swad aur antimalarial guna paya jata hai. Isi cinchona ki khoj se 17th century me Peru me malaria ka ilaaj shuru hua, aur 19th century me British ne India (Nilgiri, Darjeeling) me cinchona ke baag lagaye. Baaki teen alag dawaen dete hain: Eucalyptus se tel, Taxus se cancer ki dawa Taxol, aur Atropa (belladonna) se atropine. Exam point: 'Quinine = Cinchona bark', 'Taxol = Taxus', 'Reserpine = Sarpagandha'."
+  },
+  {
+    "qe": "Water-soluble vacuolar pigments responsible for blue, violet, and purple hues in flowers and fruits are:",
+    "qh": "फूलों और फलों को नीला, बैंगनी और लाल रंग देने वाले जल में घुलनशील वर्णक कहलाते हैं:",
+    "o": [
+      "Anthocyanins",
+      "Carotenoids",
+      "Chlorophylls",
+      "Xanthophylls"
+    ],
+    "a": 0,
+    "e": "Concept: Anthocyanin wo paani me ghulne wale (water-soluble) pigments hain jo phoolon aur falon ko neela, baigani, violet aur gaadha-laal rang dete hain (baingan, jamun, anar). Ye vacuole me rehte hain aur inka rang pH par nirbhar karta hai - tezab (acid) me laal, khare (alkaline) me neela. Baaki teen alag pigments hain: Carotenoids tel me ghulne wale (gajar ka naranja, tamatar ka laal), Chlorophylls hara, aur Xanthophylls peela - koi bhi neela/baigani nahi banata. Exam point: 'Blue/Violet/Purple = Anthocyanin (water-soluble)', 'Red/Orange/Yellow = Carotenoids (fat-soluble)'."
+  },
+  {
+    "qe": "In monocot stems (e.g., maize), vascular bundles are typically arranged:",
+    "qh": "एकबीजपत्री (Monocot) तनों में संवहन बंडल आमतौर पर कैसे व्यवस्थित होते हैं?",
+    "o": [
+      "In a concentric peripheral ring",
+      "Absent in mature shoots",
+      "Confined solely to the central pith",
+      "Scattered throughout the ground tissue"
+    ],
+    "a": 3,
+    "e": "Concept: Monocots (jaise makka, gahu, dhan, jau, kela aur pyaz) ke tane me vascular bundles poori ground tissue me bikre (scattered) hote hain, koi fixed ring nahi banti; isliye monocot stem ka haphazard arrangement hota hai aur secondary growth nahi hoti. Baaki teen galat ya dicot pattern hain: Dicots (amrud, mango) me bundles ek clean ring me lagte hain jisse vascular cambium aur motaap aata hai. Isi wajah se monocots phir se mota nahi hote. Exam point: 'Monocot = scattered bundles, no secondary growth', 'Dicot = ring me bundles, girth badhta hai'."
+  },
+  {
+    "qe": "The edible culinary portions of an onion bulb are morphologically modified:",
+    "qh": "प्याज का खाने योग्य भाग वनस्पति विज्ञान के अनुसार किसका रूपांतरण है?",
+    "o": [
+      "Fleshy scale leaves",
+      "Adventitious roots",
+      "Floral receptacles",
+      "Enlarged hypocotyls"
+    ],
+    "a": 0,
+    "e": "Concept: Pyaz (Onion) ka bulb ek modified underground stem hai, jisme mote-mote gudiya (fleshy scale leaves) hote hain jo khana store karte hain - ye patte hi khane wala hissa hain, roots nahi. Bulb ka ek chhota tana (disc) hota hai jisse ye pattiyaan chipki hoti hain aur neeche se adventitious roots aati hain. Baaki teen bulb ka guda nahi banate: Adventitious roots, Floral receptacles aur Enlarged hypocotyls. Exam point: 'Onion/Lehsun = bulb (modified stem + fleshy scale leaves)'."
+  },
+  {
+    "qe": "What is 'Vivipary' in mangrove species like Rhizophora?",
+    "qh": "राइजोफोरा जैसे मैंग्रोव पौधों में 'जरायुजता' (Vivipary) क्या है?",
+    "o": [
+      "Germination of seeds while still attached to the parent tree",
+      "Seed dormancy lasting multiple decades",
+      "Reproduction entirely via root tubers",
+      "Pollination restricted strictly to nighttime bats"
+    ],
+    "a": 0,
+    "e": "Concept: Vivipary ek khaas kshamta hai jisme beej apne hi ped se lage rehte hue ankurit (germinate) ho jata hai - ye mukhya rup se mangroves (Rhizophora) me dekhi jati hai. Mangrove ki mitti kichad bhare aur oxygen-less hoti hai, jahan beej ka aam ankurpan mushkil hota hai; isliye beej ped par hi ek lamba propagule ban jata hai, jo girne ke baad seedha kichad me chipak kar naya paudha bana deta hai. Baaki teen alag cheezein hain: seed dormancy ka saal-bhar tak chalna, reproduction root tubers se, aur raat me chammgadadron se pollination. Exam point: 'Vivipary = beej ped par lage rehte hue uge (Rhizophora, mangroves)'."
+  },
+  {
+    "qe": "Microscopic aerating pores in the periderm of woody stems that facilitate gaseous exchange are:",
+    "qh": "काष्ठीय तनों की छाल में गैसों के विनिमय के लिए बने सूक्ष्म छिद्र कहलाते हैं:",
+    "o": [
+      "Hydathodes",
+      "Stomata",
+      "Tyloses",
+      "Lenticels"
+    ],
+    "a": 3,
+    "e": "Concept: Lenticels bark (periderm) ke spongy pores (phoosle chhed) hain, jinse ped ke andar-bahar gases ka aana-jaana hota hai - ye un bhaagon me stomata ka kaam karte hain jahan sakht bark hoti hai (jaise mango, apple ke tane). Inke beech khuli jaga hoti hai, jisse oxygen andar aur CO2 bahar jaati hai. Baaki teen alag hain: Hydathodes se guttation hoti hai, Stomata mukhya rup se patton par hote hain, aur Tyloses xylem ke vessels ko band karne wali abnormal growth hain. Exam point: 'Bark me gas exchange = Lenticels', 'Patton me = Stomata', 'Boond nikalna = Hydathodes'."
+  },
+  {
+    "qe": "Who is universally regarded as the 'Father of Botany'?",
+    "qh": "'वनस्पति विज्ञान का जनक' किसे माना जाता है?",
+    "o": [
+      "Carl Linnaeus",
+      "Theophrastus",
+      "Aristotle",
+      "Gregor Mendel"
+    ],
+    "a": 1,
+    "e": "Concept: Theophrastus (c. 371-287 BCE, Yunan) ko 'Father of Botany' kaha jata hai - unki do kitaabein 'Historia Plantarum' aur 'De Causis Plantarum' me paudhon ka pehla vyavasthit (systematic) varnan milta hai, isliye unhe Botany ka janak manaa jata hai. Baaki teen alag fields ke janak hain: Carl Linnaeus 'Father of Taxonomy' (dwi-naam paddhati), Aristotle 'Father of Zoology', aur Gregor Mendel 'Father of Genetics'. Exam point: 'Botany = Theophrastus', 'Taxonomy = Linnaeus', 'Zoology = Aristotle', 'Genetics = Mendel' - ye jodi har exam me aati hai."
+  },
+  {
+    "qe": "Which monosaccharide is predominantly found in sweet fruits and natural honey?",
+    "qh": "मीठे फलों और प्राकृतिक शहद में मुख्य रूप से कौन सी शर्करा पाई जाती है?",
+    "o": [
+      "Maltose",
+      "Fructose",
+      "Glucose",
+      "Sucrose"
+    ],
+    "a": 1,
+    "e": "Concept: Phalon aur shahad (honey) ki mukhya shakkar (sugar) Fructose hai - ise fruit sugar ya levulose bhi kehte hain, aur yahi sabse mithi (sweetest) natural shakkar hai, jo sucrose aur glucose se bhi meethi hoti hai. Fructose ek monosaccharide (simple sugar) hai, isliye energy tvarit milti hai. Baaki teen alag sugars hain: Maltose (jaun/anson ka sugar), Glucose (body ki sabse common sugar) aur Sucrose (gud/chini ka sugar, jo fructose + glucose se banta hai). Exam point: 'Fruit + Honey = Fructose (levulose)', 'Doodh ki shakkar = Lactose'."
+  },
+  {
+    "qe": "The structural cell walls of plants, commercial paper, and cotton fibers are almost purely composed of:",
+    "qh": "पादप कोशिका भित्ति, कागज और कपास (रुई) के रेशे मुख्य रूप से किसके बने होते हैं?",
+    "o": [
+      "Starch",
+      "Cellulose",
+      "Glycogen",
+      "Pectin"
+    ],
+    "a": 1,
+    "e": "Concept: Paudhon ki cell wall, kaagaz aur kapas (cotton) ka mukhya component Cellulose hai - ye beta-glucose ka ek lamba, seedha (linear) polymer hai; iske fibres me hydrogen bonding se bahut mazbooti aati hai. Isi wajah se kapde, kaagaz aur lakdi sab tike rehte hain aur cellulose duniya ka sabse zyada maatra me milne wala organic compound hai. Baaki teen alag padarth hain: Starch aur Glycogen plant-animal ke reserve hain, aur Pectin cells ke beech ka jodne wala padarth hai. Exam point: 'Cell wall/Paper/Cotton = Cellulose', 'Kanda/Keela ka reserve = Starch', 'Jaanwar ka reserve = Glycogen'."
+  },
+  {
+    "qe": "Colorless plastids specialized for storing starch, oils, and proteins in seeds and roots are:",
+    "qh": "जड़ों और बीजों में स्टार्च, वसा और प्रोटीन संचय करने वाले रंगहीन लवक कहलाते हैं:",
+    "o": [
+      "Chloroplasts",
+      "Gerontoplasts",
+      "Leucoplasts",
+      "Chromoplasts"
+    ],
+    "a": 2,
+    "e": "Concept: Leucoplasts wo plastids hote hain jinme koi pigment nahi hoti (colourless) - inka kaam khana (starch, oil, protein) store karna hai, jaise aalu ke kande, chana-bean ke beej aur nariyal ke endosperm me. Inhe unke store padarth ke naam se bulate hain: Amyloplast (starch), Elaioplast (tel), aur Aleuroplast (protein). Baaki teen pigment wale hain, koi storage-wale nahi: Chloroplasts (hara, photosynthesis), Gerontoplasts (budhe patte ka badla roop) aur Chromoplasts (rangeen). Exam point: 'Colourless + storage = Leucoplasts'."
+  },
+  {
+    "qe": "Carotenoid-rich plastids giving red, orange, and yellow pigmentation to petals and ripening peppers are:",
+    "qh": "फलों और फूलों को लाल, नारंगी और पीला रंग प्रदान करने वाले लवक क्या कहलाते हैं?",
+    "o": [
+      "Leucoplasts",
+      "Chromoplasts",
+      "Chloroplasts",
+      "Peroxisomes"
+    ],
+    "a": 1,
+    "e": "Concept: Chromoplasts wo plastids hain jinme carotenoid pigments (lycopene, carotene, xanthophyll) hote hain aur jo phoolon ki pankhudiyon (petals) aur bake hue falon ko laal, naranja aur peela rang dete hain - jaise tamatar, mirchi aur papaya. Ye badh (development) ke dauran mature hokar bante hain aur pollinators/pakne ka signal dete hain. Baaki teen ye kaam nahi karte: Leucoplasts bina rang ka hota hai (storage), Chloroplasts hara (photosynthesis), aur Peroxisomes photorespiration se juda chhota organelle hai. Exam point: 'Red/Orange/Yellow pigment plastid = Chromoplasts'."
+  },
+  {
+    "qe": "Which structural boundary is present in plant cells but completely absent in animal cells?",
+    "qh": "कौन सी सुरक्षात्मक संरचना केवल पादप कोशिकाओं में पाई जाती है, जंतु कोशिकाओं में नहीं?",
+    "o": [
+      "Nuclear envelope",
+      "Rigid Cell Wall",
+      "Endoplasmic reticulum",
+      "Plasma membrane"
+    ],
+    "a": 1,
+    "e": "Concept: Animal cells ke chaaron taraf koi sakht deewar nahi hoti, sirf ek patli plasma membrane hoti hai. Plant cells me uske bahar ek rigid Cell Wall hoti hai jo cellulose ki banti hai; yahi deewar plant ko shape, mazbooti aur suraksha deti hai. Baaki teen teeno plant aur animal cells me common hain, isliye plant-specific nahi hain: Nuclear envelope, Endoplasmic reticulum aur Plasma membrane. Exam point: 'Plant cell wall = Cellulose (animal cells me nahi hoti)' - isi wall ki wajah se plant cell animal cell se alag dikhti hai."
+  },
+  {
+    "qe": "Which cellular organelle occupies up to 90% of a mature plant cell's volume to maintain turgor pressure?",
+    "qh": "पादप कोशिका का 90% तक आयतन घेरने वाली और स्फीति दाब (Turgor) बनाए रखने वाली रसधानी कौन सी है?",
+    "o": [
+      "Lysosome",
+      "Golgi apparatus",
+      "Central Vacuole",
+      "Mitochondrion"
+    ],
+    "a": 2,
+    "e": "Concept: Mature plant cell ka sabse bada hissa Central Vacuole hota hai - ye cell ki 80-90% tak jagah le leta hai. Iske andar cell sap (paani, shakkar, salts, rang) bhara rehta hai aur ye Tonoplast membrane se ghira rehta hai. Ye turgor pressure paida karta hai jo plant cell ko soojha (turgid) rakhta hai aur plant ko khada rakhta hai - paani na mile to plant murjha jata hai. Baaki teen chhote organelles hain jo cell ki 90% jagah nahi lete: Lysosome, Golgi apparatus aur Mitochondrion. Exam point: 'Sabse bada organelle = Central Vacuole (plant cell ki 80-90% volume)'."
   }
 ]
