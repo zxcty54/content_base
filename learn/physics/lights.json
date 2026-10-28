@@ -1,9 +1,17 @@
-```json
 {
   "topic_id": "light_optics_complete",
   "topic_title": "Light & Optics - Complete Mastery",
-  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
-  "total_cards": 72,
+  "target_exams": [
+    "BPSC",
+    "BSSC",
+    "RRB NTPC",
+    "SSC CGL",
+    "NEET",
+    "UPSC Prelims",
+    "BPSC TRE",
+    "RRB Group D"
+  ],
+  "total_cards": 76,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -25,12 +33,21 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 72
+        "total": 76
       },
       "intro_payload": {
         "title": "Light & Optics",
         "icon": "💡",
-        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
+        "target_exams": [
+          "BPSC",
+          "BSSC",
+          "RRB NTPC",
+          "SSC CGL",
+          "NEET",
+          "UPSC Prelims",
+          "BPSC TRE",
+          "RRB Group D"
+        ],
         "learning_outcomes": [
           "Nature of Light - Wave & Particle Duality",
           "Reflection - Plane & Curved Mirrors",
@@ -38,14 +55,72 @@
           "Lenses - Convex, Concave & Ray Diagrams",
           "Human Eye & Optical Instruments",
           "Dispersion, Scattering & Atmospheric Phenomena",
-          "BPSC/NEET/SSC PYQ Traps & Multi-Statement Questions"
+          "BPSC/NEET/SSC PYQ Traps & Multi-Statement Questions",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
         ],
         "estimated_time": "45 mins",
-        "xp_reward": 500
+        "xp_reward": 500,
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
+        ]
       },
       "navigation": {
-        "next": "card_02_light_daily_life",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning ➔"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 76
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Light ek form of energy hai jisse hum dekh paate hain. Light seedhi line mein travel karti hai; mirror se reflect hoti hai aur paani/glass mein mud sakti hai. In observations se optics shuru hoti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_light_daily_life",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -55,8 +130,8 @@
       "concept_id": "light_intro",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 72
+        "current": 3,
+        "total": 76
       },
       "messages": [
         {
@@ -65,7 +140,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Khidki se dhoop aa rahi hoti hai... pura kamra bright ho jata hai!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -73,7 +148,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Nahi Sir, ekdum andhera... torch ya candle jalani padti hai."
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -88,8 +163,8 @@
       "concept_id": "light_intro",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 72
+        "current": 4,
+        "total": 76
       },
       "messages": [
         {
@@ -98,7 +173,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh Sir, light kahan se aati hai?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -106,7 +181,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Moon khud se light nahi deta? Wo toh itna chamakta hai!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -121,8 +196,8 @@
       "concept_id": "light_sources",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 72
+        "current": 5,
+        "total": 76
       },
       "messages": [
         {
@@ -131,7 +206,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhh! Toh mirror bhi non-luminous hai, wo bhi toh reflect karta hai."
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -139,7 +214,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Seedhi line mein? Matlab bend nahi hoti?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -154,8 +229,8 @@
       "concept_id": "rectilinear_propagation",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 72
+        "current": 6,
+        "total": 76
       },
       "messages": [
         {
@@ -164,7 +239,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Aur pinhole camera bhi isi principle pe kaam karta hai na?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -172,7 +247,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh light kabhi bend bhi hoti hai? Ye toh confusing hai Sir!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -187,8 +262,8 @@
       "concept_id": "light_nature",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 72
+        "current": 7,
+        "total": 76
       },
       "messages": [
         {
@@ -197,7 +272,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Light bhi particle ho sakti hai?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -205,7 +280,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab dono sahi the??"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -220,8 +295,8 @@
       "concept_id": "light_dual_nature",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 72
+        "current": 8,
+        "total": 76
       },
       "messages": [
         {
@@ -230,7 +305,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye toh next level hai Sir! Toh exam mein kya likhun?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -238,7 +313,7 @@
         },
         {
           "speaker": "raju",
-          "text": "3 lakh kilometer per second! Fastest cheez universe mein!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -253,16 +328,28 @@
       "concept_id": "light_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 72
+        "current": 9,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which of the following is a luminous object?",
         "options": [
-          { "id": "A", "text": "Moon" },
-          { "id": "B", "text": "Planet Venus" },
-          { "id": "C", "text": "Firefly (Jugnu)" },
-          { "id": "D", "text": "Mirror" }
+          {
+            "id": "A",
+            "text": "Moon"
+          },
+          {
+            "id": "B",
+            "text": "Planet Venus"
+          },
+          {
+            "id": "C",
+            "text": "Firefly (Jugnu)"
+          },
+          {
+            "id": "D",
+            "text": "Mirror"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Firefly (Jugnu) is a luminous object because it produces its own light through bioluminescence. Moon, Venus, and Mirror are all non-luminous - they only reflect light from the Sun. ⭐ BPSC/SSC Favorite Trap - Moon is often wrongly considered luminous!"
@@ -279,16 +366,28 @@
       "concept_id": "light_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 72
+        "current": 10,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Rectilinear propagation of light is best demonstrated by which phenomenon?",
         "options": [
-          { "id": "A", "text": "Rainbow formation" },
-          { "id": "B", "text": "Formation of shadows" },
-          { "id": "C", "text": "Twinkling of stars" },
-          { "id": "D", "text": "Mirage on hot roads" }
+          {
+            "id": "A",
+            "text": "Rainbow formation"
+          },
+          {
+            "id": "B",
+            "text": "Formation of shadows"
+          },
+          {
+            "id": "C",
+            "text": "Twinkling of stars"
+          },
+          {
+            "id": "D",
+            "text": "Mirage on hot roads"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Formation of shadows proves that light travels in straight lines (rectilinear propagation). Rainbow involves dispersion, twinkling involves refraction in atmosphere, and mirage involves refraction + total internal reflection. ⭐ Railway/SSC Favorite - Shadow, pinhole camera, solar eclipse all demonstrate rectilinear propagation."
@@ -305,16 +404,28 @@
       "concept_id": "light_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 72
+        "current": 11,
+        "total": 76
       },
       "quiz_payload": {
         "question": "The scientist who proposed the wave theory of light was:",
         "options": [
-          { "id": "A", "text": "Isaac Newton" },
-          { "id": "B", "text": "Christiaan Huygens" },
-          { "id": "C", "text": "Albert Einstein" },
-          { "id": "D", "text": "Thomas Young" }
+          {
+            "id": "A",
+            "text": "Isaac Newton"
+          },
+          {
+            "id": "B",
+            "text": "Christiaan Huygens"
+          },
+          {
+            "id": "C",
+            "text": "Albert Einstein"
+          },
+          {
+            "id": "D",
+            "text": "Thomas Young"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Christiaan Huygens proposed the wave theory of light in 1678. Newton proposed corpuscular (particle) theory. Thomas Young proved wave nature experimentally through double-slit experiment (1801). Einstein explained particle nature (photon) through photoelectric effect (1905). ⭐ BPSC/UPSC Favorite - Scientist-Discovery matching questions!"
@@ -331,8 +442,8 @@
       "concept_id": "light_basics_complete",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 72
+        "current": 12,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 1 COMPLETED!",
@@ -354,8 +465,8 @@
       "concept_id": "reflection_intro",
       "level": 2,
       "progress": {
-        "current": 12,
-        "total": 72
+        "current": 13,
+        "total": 76
       },
       "messages": [
         {
@@ -364,7 +475,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Mirror light ko reflect karta hai Sir!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -372,7 +483,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Lekin Sir, kya light har surface se reflect hoti hai?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -387,8 +498,8 @@
       "concept_id": "reflection_types",
       "level": 2,
       "progress": {
-        "current": 13,
-        "total": 72
+        "current": 14,
+        "total": 76
       },
       "messages": [
         {
@@ -397,7 +508,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh toh wall bhi reflect karti hai lekin image nahi banti?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -405,7 +516,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh laws of reflection kya hain Sir?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -420,8 +531,8 @@
       "concept_id": "laws_reflection",
       "level": 2,
       "progress": {
-        "current": 14,
-        "total": 72
+        "current": 15,
+        "total": 76
       },
       "messages": [
         {
@@ -430,7 +541,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Normal matlab perpendicular line?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -438,7 +549,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... toh agar incident ray normal se 30° pe hai toh reflected ray bhi 30° hogi normal se!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -453,8 +564,8 @@
       "concept_id": "plane_mirror",
       "level": 2,
       "progress": {
-        "current": 15,
-        "total": 72
+        "current": 16,
+        "total": 76
       },
       "messages": [
         {
@@ -463,7 +574,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, plane mirror mein image kaisi banti hai?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -471,7 +582,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Lateral inversion matlab? AMBULANCE ulta kyun likha hota hai?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -486,8 +597,8 @@
       "concept_id": "lateral_inversion",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 72
+        "current": 17,
+        "total": 76
       },
       "messages": [
         {
@@ -496,7 +607,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wowww! Isliye clock ka mirror image mein 3 baje ko 9 baje jaisa dikhta hai!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -504,7 +615,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir agar do mirrors ko parallel rakh doon toh kitni images banengi?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -519,8 +630,8 @@
       "concept_id": "multiple_images",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 72
+        "current": 18,
+        "total": 76
       },
       "messages": [
         {
@@ -529,7 +640,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab agar 90° angle pe rakhe toh?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -537,7 +648,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ab curved mirrors ke baare mein bataiye!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -552,16 +663,28 @@
       "concept_id": "reflection_quiz",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 72
+        "current": 19,
+        "total": 76
       },
       "quiz_payload": {
         "question": "A ray of light is incident on a plane mirror at an angle of 40° with the mirror surface. What is the angle of reflection measured from the normal?",
         "options": [
-          { "id": "A", "text": "40°" },
-          { "id": "B", "text": "50°" },
-          { "id": "C", "text": "90°" },
-          { "id": "D", "text": "80°" }
+          {
+            "id": "A",
+            "text": "40°"
+          },
+          {
+            "id": "B",
+            "text": "50°"
+          },
+          {
+            "id": "C",
+            "text": "90°"
+          },
+          {
+            "id": "D",
+            "text": "80°"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "⭐ Classic BPSC/NEET Trap! Angle is given with the mirror surface (40°), but angle of reflection is measured from the NORMAL. Angle with normal = 90° - 40° = 50°. Since angle of incidence = angle of reflection (both measured from normal), answer is 50°. Never measure angles from the surface!"
@@ -578,16 +701,28 @@
       "concept_id": "reflection_quiz",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 72
+        "current": 20,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which of the following statements about the image formed by a plane mirror is INCORRECT?",
         "options": [
-          { "id": "A", "text": "Image is virtual and erect" },
-          { "id": "B", "text": "Image distance equals object distance" },
-          { "id": "C", "text": "Image can be projected on a screen" },
-          { "id": "D", "text": "Image is laterally inverted" }
+          {
+            "id": "A",
+            "text": "Image is virtual and erect"
+          },
+          {
+            "id": "B",
+            "text": "Image distance equals object distance"
+          },
+          {
+            "id": "C",
+            "text": "Image can be projected on a screen"
+          },
+          {
+            "id": "D",
+            "text": "Image is laterally inverted"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Virtual images CANNOT be projected on a screen - only real images can. Plane mirror always forms virtual, erect, same-sized, laterally inverted image at same distance behind the mirror. ⭐ BPSC TRE/SSC Favorite - Virtual vs Real image property trap!"
@@ -604,16 +739,28 @@
       "concept_id": "reflection_quiz",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 72
+        "current": 21,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Two plane mirrors are placed at an angle of 72° to each other. How many images will be formed?",
         "options": [
-          { "id": "A", "text": "4" },
-          { "id": "B", "text": "5" },
-          { "id": "C", "text": "6" },
-          { "id": "D", "text": "3" }
+          {
+            "id": "A",
+            "text": "4"
+          },
+          {
+            "id": "B",
+            "text": "5"
+          },
+          {
+            "id": "C",
+            "text": "6"
+          },
+          {
+            "id": "D",
+            "text": "3"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Formula: Number of images = (360/θ) - 1 = (360/72) - 1 = 5 - 1 = 4 images. ⭐ SSC/Railway Favorite Formula-based question! Remember: for parallel mirrors (θ=0°), infinite images form. For perpendicular mirrors (θ=90°), 3 images form."
@@ -630,8 +777,8 @@
       "concept_id": "reflection_complete",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 72
+        "current": 22,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 2 COMPLETED!",
@@ -653,8 +800,8 @@
       "concept_id": "spherical_mirrors",
       "level": 3,
       "progress": {
-        "current": 22,
-        "total": 72
+        "current": 23,
+        "total": 76
       },
       "messages": [
         {
@@ -663,7 +810,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Car wala mirror chota image dikhata hai aur dentist wala bada!"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -671,7 +818,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh dono ka kaam alag hai?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -686,8 +833,8 @@
       "concept_id": "concave_convex_difference",
       "level": 3,
       "progress": {
-        "current": 23,
-        "total": 72
+        "current": 24,
+        "total": 76
       },
       "messages": [
         {
@@ -696,7 +843,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab concave mein bada dekhne ko milta hai isliye shaving mirror, torch, makeup mirror mein use hota hai?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -704,7 +851,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, spherical mirror mein kuch important points hote hain na - pole, focus, centre of curvature?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -719,8 +866,8 @@
       "concept_id": "mirror_terminology",
       "level": 3,
       "progress": {
-        "current": 24,
-        "total": 72
+        "current": 25,
+        "total": 76
       },
       "messages": [
         {
@@ -729,7 +876,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Itne saare terms! Sir, focus aur centre of curvature mein kya relation hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -737,7 +884,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... toh agar radius 20 cm hai toh focal length 10 cm hogi!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -752,8 +899,8 @@
       "concept_id": "sign_convention",
       "level": 3,
       "progress": {
-        "current": 25,
-        "total": 72
+        "current": 26,
+        "total": 76
       },
       "messages": [
         {
@@ -762,7 +909,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye toh confusing lag raha hai Sir!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -770,7 +917,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh concave mein f negative, convex mein f positive yaad rakhna hai!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -785,8 +932,8 @@
       "concept_id": "mirror_formula",
       "level": 3,
       "progress": {
-        "current": 26,
-        "total": 72
+        "current": 27,
+        "total": 76
       },
       "messages": [
         {
@@ -795,7 +942,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, magnification negative ya positive kaise pata karein?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -803,7 +950,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Sign se hi sab pata chal jata hai!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -818,8 +965,8 @@
       "concept_id": "concave_image_cases",
       "level": 3,
       "progress": {
-        "current": 27,
-        "total": 72
+        "current": 28,
+        "total": 76
       },
       "messages": [
         {
@@ -828,7 +975,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur agar object focus pe rakhe toh?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -836,7 +983,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur convex mirror mein?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -851,8 +998,8 @@
       "concept_id": "convex_image",
       "level": 3,
       "progress": {
-        "current": 28,
-        "total": 72
+        "current": 29,
+        "total": 76
       },
       "messages": [
         {
@@ -861,7 +1008,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab convex mein kabhi bhi real image nahi ban sakta?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -869,7 +1016,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye toh practical bhi hai aur exam bhi!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -884,16 +1031,28 @@
       "concept_id": "spherical_mirrors_quiz",
       "level": 3,
       "progress": {
-        "current": 29,
-        "total": 72
+        "current": 30,
+        "total": 76
       },
       "quiz_payload": {
         "question": "The focal length of a spherical mirror is 15 cm. What is its radius of curvature?",
         "options": [
-          { "id": "A", "text": "7.5 cm" },
-          { "id": "B", "text": "15 cm" },
-          { "id": "C", "text": "30 cm" },
-          { "id": "D", "text": "45 cm" }
+          {
+            "id": "A",
+            "text": "7.5 cm"
+          },
+          {
+            "id": "B",
+            "text": "15 cm"
+          },
+          {
+            "id": "C",
+            "text": "30 cm"
+          },
+          {
+            "id": "D",
+            "text": "45 cm"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Fundamental relation: R = 2f. Given f = 15 cm, so R = 2 × 15 = 30 cm. This relation holds for BOTH concave and convex mirrors. ⭐ SSC/Railway Direct Formula Question - most frequently asked!"
@@ -910,16 +1069,28 @@
       "concept_id": "spherical_mirrors_quiz",
       "level": 3,
       "progress": {
-        "current": 30,
-        "total": 72
+        "current": 31,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which type of mirror is used as a rear-view mirror in vehicles and why?",
         "options": [
-          { "id": "A", "text": "Concave mirror - gives magnified image" },
-          { "id": "B", "text": "Convex mirror - gives wider field of view" },
-          { "id": "C", "text": "Plane mirror - gives same size image" },
-          { "id": "D", "text": "Concave mirror - converges light rays" }
+          {
+            "id": "A",
+            "text": "Concave mirror - gives magnified image"
+          },
+          {
+            "id": "B",
+            "text": "Convex mirror - gives wider field of view"
+          },
+          {
+            "id": "C",
+            "text": "Plane mirror - gives same size image"
+          },
+          {
+            "id": "D",
+            "text": "Concave mirror - converges light rays"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Convex mirror is used as rear-view mirror because it: (1) Always forms erect, virtual, diminished image, (2) Provides wider field of view (can see more area behind), (3) Images are smaller so more vehicles visible. ⭐ BPSC/SSC Application Favorite Question!"
@@ -936,16 +1107,28 @@
       "concept_id": "spherical_mirrors_quiz",
       "level": 3,
       "progress": {
-        "current": 31,
-        "total": 72
+        "current": 32,
+        "total": 76
       },
       "quiz_payload": {
         "question": "An object is placed between the pole and focus of a concave mirror. The image formed will be:",
         "options": [
-          { "id": "A", "text": "Real, inverted, magnified" },
-          { "id": "B", "text": "Virtual, erect, magnified" },
-          { "id": "C", "text": "Real, erect, diminished" },
-          { "id": "D", "text": "Virtual, inverted, diminished" }
+          {
+            "id": "A",
+            "text": "Real, inverted, magnified"
+          },
+          {
+            "id": "B",
+            "text": "Virtual, erect, magnified"
+          },
+          {
+            "id": "C",
+            "text": "Real, erect, diminished"
+          },
+          {
+            "id": "D",
+            "text": "Virtual, inverted, diminished"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "When object is placed between pole (P) and focus (F) of a concave mirror, image is formed BEHIND the mirror (virtual), erect (upright), and magnified (larger). This is why dentists and makeup artists use concave mirrors - they give enlarged, upright view when object is close! ⭐ NEET/BPSC High-Frequency Question!"
@@ -962,8 +1145,8 @@
       "concept_id": "mirrors_complete",
       "level": 3,
       "progress": {
-        "current": 32,
-        "total": 72
+        "current": 33,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 3 COMPLETED!",
@@ -985,8 +1168,8 @@
       "concept_id": "refraction_intro",
       "level": 4,
       "progress": {
-        "current": 33,
-        "total": 72
+        "current": 34,
+        "total": 76
       },
       "messages": [
         {
@@ -995,7 +1178,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Aur swimming pool mein apne pair chhote lagte hain!"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1003,7 +1186,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab reflection mein toh direction change hoti thi lekin medium same tha, refraction mein medium change hota hai?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1018,8 +1201,8 @@
       "concept_id": "refraction_cause",
       "level": 4,
       "progress": {
-        "current": 34,
-        "total": 72
+        "current": 35,
+        "total": 76
       },
       "messages": [
         {
@@ -1028,7 +1211,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh glass mein light kitni slow ho jati hai?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1036,7 +1219,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab diamond mein light sabse zyada slow hoti hai isliye itna sparkle karta hai?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1051,8 +1234,8 @@
       "concept_id": "refractive_index_detail",
       "level": 4,
       "progress": {
-        "current": 35,
-        "total": 72
+        "current": 36,
+        "total": 76
       },
       "messages": [
         {
@@ -1061,7 +1244,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, toh agar light rarer se denser mein jaye toh kya hoga?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1069,7 +1252,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab air se paani mein jane pe normal ki taraf bend, paani se air mein jane pe normal se door bend!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1084,8 +1267,8 @@
       "concept_id": "laws_refraction",
       "level": 4,
       "progress": {
-        "current": 36,
-        "total": 72
+        "current": 37,
+        "total": 76
       },
       "messages": [
         {
@@ -1094,7 +1277,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye Snell's Law ka naam kiska naam pe hai Sir?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1102,7 +1285,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh angle chota ho gaya - normal ki taraf bend hua!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1117,8 +1300,8 @@
       "concept_id": "refraction_examples",
       "level": 4,
       "progress": {
-        "current": 37,
-        "total": 72
+        "current": 38,
+        "total": 76
       },
       "messages": [
         {
@@ -1127,7 +1310,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab sun actually ufaq (horizon) ke neeche hai lekin refraction ki wajah se dikhai deta hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1135,7 +1318,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur twinkling?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1150,8 +1333,8 @@
       "concept_id": "twinkling_explanation",
       "level": 4,
       "progress": {
-        "current": 38,
-        "total": 72
+        "current": 39,
+        "total": 76
       },
       "messages": [
         {
@@ -1160,7 +1343,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Lekin Sir, planets twinkle kyun nahi karte?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1168,7 +1351,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Isliye planets steady light dete hain!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1183,8 +1366,8 @@
       "concept_id": "tir_intro",
       "level": 4,
       "progress": {
-        "current": 39,
-        "total": 72
+        "current": 40,
+        "total": 76
       },
       "messages": [
         {
@@ -1193,7 +1376,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab kuch conditions mein refraction nahi, reflection hota hai?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -1201,7 +1384,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Agar 90° se zyada ho jaye toh?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -1216,8 +1399,8 @@
       "concept_id": "critical_angle",
       "level": 4,
       "progress": {
-        "current": 40,
-        "total": 72
+        "current": 41,
+        "total": 76
       },
       "messages": [
         {
@@ -1226,7 +1409,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab glass mein agar light 42° se zyada angle pe surface pe hit kare toh reflect ho jayegi?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1234,7 +1417,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir mirage kaise banta hai?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1249,8 +1432,8 @@
       "concept_id": "mirage",
       "level": 4,
       "progress": {
-        "current": 41,
-        "total": 72
+        "current": 42,
+        "total": 76
       },
       "messages": [
         {
@@ -1259,7 +1442,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhhh! Matlab actually paani nahi hota, sirf inverted sky ka reflection hota hai!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1267,7 +1450,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, optical fibre kaise kaam karta hai?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1282,8 +1465,8 @@
       "concept_id": "optical_fibre",
       "level": 4,
       "progress": {
-        "current": 42,
-        "total": 72
+        "current": 43,
+        "total": 76
       },
       "messages": [
         {
@@ -1292,7 +1475,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab light fibre ke andar zigzag bounce karti hui travel karti hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1300,7 +1483,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye toh bahut useful hai modern technology mein!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1315,16 +1498,28 @@
       "concept_id": "refraction_quiz",
       "level": 4,
       "progress": {
-        "current": 43,
-        "total": 72
+        "current": 44,
+        "total": 76
       },
       "quiz_payload": {
         "question": "When light travels from air to glass, it:",
         "options": [
-          { "id": "A", "text": "Bends away from the normal and speeds up" },
-          { "id": "B", "text": "Bends towards the normal and slows down" },
-          { "id": "C", "text": "Bends away from the normal and slows down" },
-          { "id": "D", "text": "Travels in straight line with same speed" }
+          {
+            "id": "A",
+            "text": "Bends away from the normal and speeds up"
+          },
+          {
+            "id": "B",
+            "text": "Bends towards the normal and slows down"
+          },
+          {
+            "id": "C",
+            "text": "Bends away from the normal and slows down"
+          },
+          {
+            "id": "D",
+            "text": "Travels in straight line with same speed"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Air is rarer (n≈1), glass is denser (n≈1.5). When light travels from rarer to denser medium: (1) It bends TOWARDS the normal, (2) Speed DECREASES. ⭐ BPSC/NEET Multi-Statement Favorite Trap - both properties must be correct!"
@@ -1341,16 +1536,28 @@
       "concept_id": "refraction_quiz",
       "level": 4,
       "progress": {
-        "current": 44,
-        "total": 72
+        "current": 45,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Twinkling of stars is due to:",
         "options": [
-          { "id": "A", "text": "Reflection of light from clouds" },
-          { "id": "B", "text": "Atmospheric refraction" },
-          { "id": "C", "text": "Total internal reflection" },
-          { "id": "D", "text": "Dispersion of light" }
+          {
+            "id": "A",
+            "text": "Reflection of light from clouds"
+          },
+          {
+            "id": "B",
+            "text": "Atmospheric refraction"
+          },
+          {
+            "id": "C",
+            "text": "Total internal reflection"
+          },
+          {
+            "id": "D",
+            "text": "Dispersion of light"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Twinkling of stars is caused by atmospheric refraction. Starlight passes through multiple layers of Earth's atmosphere with varying densities and continuously changing refractive indices (due to turbulence), causing the apparent position and brightness to fluctuate. ⭐ SSC/Railway/BPSC High-Frequency Question! Planets don't twinkle because they are extended sources."
@@ -1367,16 +1574,28 @@
       "concept_id": "refraction_quiz",
       "level": 4,
       "progress": {
-        "current": 45,
-        "total": 72
+        "current": 46,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Total Internal Reflection can take place when light travels from:",
         "options": [
-          { "id": "A", "text": "Air to water" },
-          { "id": "B", "text": "Air to glass" },
-          { "id": "C", "text": "Water to air" },
-          { "id": "D", "text": "Vacuum to glass" }
+          {
+            "id": "A",
+            "text": "Air to water"
+          },
+          {
+            "id": "B",
+            "text": "Air to glass"
+          },
+          {
+            "id": "C",
+            "text": "Water to air"
+          },
+          {
+            "id": "D",
+            "text": "Vacuum to glass"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Total Internal Reflection occurs ONLY when light travels from DENSER to RARER medium and angle of incidence exceeds critical angle. Water (denser, n=1.33) to Air (rarer, n=1) satisfies this condition. Air to water/glass is rarer to denser - TIR impossible. ⭐ NEET/BPSC Conceptual Trap!"
@@ -1393,8 +1612,8 @@
       "concept_id": "refraction_complete",
       "level": 4,
       "progress": {
-        "current": 46,
-        "total": 72
+        "current": 47,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 4 COMPLETED!",
@@ -1416,8 +1635,8 @@
       "concept_id": "lens_intro",
       "level": 5,
       "progress": {
-        "current": 47,
-        "total": 72
+        "current": 48,
+        "total": 76
       },
       "messages": [
         {
@@ -1426,7 +1645,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Dadu ko reading glasses chahiye aur Mummy ka chasma alag hai!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1434,7 +1653,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh lens ka kaam light ko focus karna hai?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1449,8 +1668,8 @@
       "concept_id": "lens_types",
       "level": 5,
       "progress": {
-        "current": 48,
-        "total": 72
+        "current": 49,
+        "total": 76
       },
       "messages": [
         {
@@ -1459,7 +1678,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab convex lens se magnifying glass banta hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1467,7 +1686,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir lens mein bhi pole, focus, centre of curvature hote hain?"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1482,8 +1701,8 @@
       "concept_id": "lens_terminology",
       "level": 5,
       "progress": {
-        "current": 49,
-        "total": 72
+        "current": 50,
+        "total": 76
       },
       "messages": [
         {
@@ -1492,7 +1711,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Mirror mein ek focus tha, lens mein do?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1500,7 +1719,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh lens ka sign convention?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1515,8 +1734,8 @@
       "concept_id": "lens_sign_convention",
       "level": 5,
       "progress": {
-        "current": 50,
-        "total": 72
+        "current": 51,
+        "total": 76
       },
       "messages": [
         {
@@ -1525,7 +1744,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab convex lens f positive, concave lens f negative - mirror ke opposite!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1533,7 +1752,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Lens ka formula bhi same hoga?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1548,8 +1767,8 @@
       "concept_id": "lens_formula",
       "level": 5,
       "progress": {
-        "current": 51,
-        "total": 72
+        "current": 52,
+        "total": 76
       },
       "messages": [
         {
@@ -1558,7 +1777,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh formula almost same hai bas sign change hai!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1566,7 +1785,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Power ka matlab?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1581,8 +1800,8 @@
       "concept_id": "power_lens",
       "level": 5,
       "progress": {
-        "current": 52,
-        "total": 72
+        "current": 53,
+        "total": 76
       },
       "messages": [
         {
@@ -1591,7 +1810,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh doctor jab +2.5 D ka chasma likhte hain toh convex lens hai!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1599,7 +1818,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir convex lens mein image position cases batayein!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1614,8 +1833,8 @@
       "concept_id": "convex_lens_image",
       "level": 5,
       "progress": {
-        "current": 53,
-        "total": 72
+        "current": 54,
+        "total": 76
       },
       "messages": [
         {
@@ -1624,7 +1843,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur focus pe rakhe toh?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1632,7 +1851,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur concave lens mein?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1647,8 +1866,8 @@
       "concept_id": "concave_lens_image",
       "level": 5,
       "progress": {
-        "current": 54,
-        "total": 72
+        "current": 55,
+        "total": 76
       },
       "messages": [
         {
@@ -1657,7 +1876,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh concave lens aur convex mirror dono ka behavior same hai?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1665,7 +1884,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye comparison helpful hai!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -1680,16 +1899,28 @@
       "concept_id": "lenses_quiz",
       "level": 5,
       "progress": {
-        "current": 55,
-        "total": 72
+        "current": 56,
+        "total": 76
       },
       "quiz_payload": {
         "question": "A lens has a focal length of -25 cm. What is its power and type?",
         "options": [
-          { "id": "A", "text": "+4 D, Convex lens" },
-          { "id": "B", "text": "-4 D, Concave lens" },
-          { "id": "C", "text": "+0.04 D, Convex lens" },
-          { "id": "D", "text": "-0.04 D, Concave lens" }
+          {
+            "id": "A",
+            "text": "+4 D, Convex lens"
+          },
+          {
+            "id": "B",
+            "text": "-4 D, Concave lens"
+          },
+          {
+            "id": "C",
+            "text": "+0.04 D, Convex lens"
+          },
+          {
+            "id": "D",
+            "text": "-0.04 D, Concave lens"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Power P = 1/f, where f is in meters. f = -25 cm = -0.25 m. P = 1/(-0.25) = -4 D. Negative focal length → Concave lens. Negative power → Concave lens (used for myopia correction). ⭐ SSC/Railway Direct Calculation Favorite!"
@@ -1706,16 +1937,28 @@
       "concept_id": "lenses_quiz",
       "level": 5,
       "progress": {
-        "current": 56,
-        "total": 72
+        "current": 57,
+        "total": 76
       },
       "quiz_payload": {
         "question": "A person is suffering from myopia (short-sightedness). Which lens should be used to correct this defect?",
         "options": [
-          { "id": "A", "text": "Convex lens" },
-          { "id": "B", "text": "Concave lens" },
-          { "id": "C", "text": "Cylindrical lens" },
-          { "id": "D", "text": "Bifocal lens" }
+          {
+            "id": "A",
+            "text": "Convex lens"
+          },
+          {
+            "id": "B",
+            "text": "Concave lens"
+          },
+          {
+            "id": "C",
+            "text": "Cylindrical lens"
+          },
+          {
+            "id": "D",
+            "text": "Bifocal lens"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Myopia (near-sightedness) - distant objects appear blurred because image forms BEFORE the retina. Concave lens (diverging) is used to diverge rays before entering eye, so image shifts back to retina. ⭐ BPSC/SSC/NEET High-Frequency Application Question! Hypermetropia uses convex lens."
@@ -1732,16 +1975,28 @@
       "concept_id": "lenses_quiz",
       "level": 5,
       "progress": {
-        "current": 57,
-        "total": 72
+        "current": 58,
+        "total": 76
       },
       "quiz_payload": {
         "question": "An object is placed between the optical centre and focus of a convex lens. The image formed will be:",
         "options": [
-          { "id": "A", "text": "Real, inverted, magnified" },
-          { "id": "B", "text": "Virtual, erect, magnified" },
-          { "id": "C", "text": "Real, erect, diminished" },
-          { "id": "D", "text": "Virtual, inverted, diminished" }
+          {
+            "id": "A",
+            "text": "Real, inverted, magnified"
+          },
+          {
+            "id": "B",
+            "text": "Virtual, erect, magnified"
+          },
+          {
+            "id": "C",
+            "text": "Real, erect, diminished"
+          },
+          {
+            "id": "D",
+            "text": "Virtual, inverted, diminished"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "When object is placed between optical centre (O) and focus (F) of a convex lens, image is formed on the SAME side as object (virtual), erect (upright), and magnified (larger). This is the principle of a magnifying glass (hand lens). ⭐ NEET/BPSC Position-Based Image Property Question!"
@@ -1758,8 +2013,8 @@
       "concept_id": "lenses_complete",
       "level": 5,
       "progress": {
-        "current": 58,
-        "total": 72
+        "current": 59,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 5 COMPLETED!",
@@ -1781,8 +2036,8 @@
       "concept_id": "human_eye",
       "level": 6,
       "progress": {
-        "current": 59,
-        "total": 72
+        "current": 60,
+        "total": 76
       },
       "messages": [
         {
@@ -1791,7 +2046,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Camera Sir?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1799,7 +2054,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, eye kaise kaam karti hai?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1814,8 +2069,8 @@
       "concept_id": "eye_structure",
       "level": 6,
       "progress": {
-        "current": 60,
-        "total": 72
+        "current": 61,
+        "total": 76
       },
       "messages": [
         {
@@ -1824,7 +2079,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Itne saare parts! Sabse important kaunsa hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1832,7 +2087,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh eye mein image kahan banti hai?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1847,8 +2102,8 @@
       "concept_id": "eye_image_formation",
       "level": 6,
       "progress": {
-        "current": 61,
-        "total": 72
+        "current": 62,
+        "total": 76
       },
       "messages": [
         {
@@ -1857,7 +2112,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Power of accommodation matlab?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1865,7 +2120,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab eye automatic focus adjust kar leti hai!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1880,8 +2135,8 @@
       "concept_id": "near_far_point",
       "level": 6,
       "progress": {
-        "current": 62,
-        "total": 72
+        "current": 63,
+        "total": 76
       },
       "messages": [
         {
@@ -1890,7 +2145,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh 25 cm se paas ka kuch padhne ke liye magnifying glass chahiye?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1898,7 +2153,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir myopia kaise correct karte hain?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -1913,8 +2168,8 @@
       "concept_id": "eye_defects",
       "level": 6,
       "progress": {
-        "current": 63,
-        "total": 72
+        "current": 64,
+        "total": 76
       },
       "messages": [
         {
@@ -1923,7 +2178,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh myopia mein concave, hypermetropia mein convex yaad rakhna hai!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1931,7 +2186,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Ek hi glass mein dono lens!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1946,8 +2201,8 @@
       "concept_id": "dispersion",
       "level": 7,
       "progress": {
-        "current": 64,
-        "total": 72
+        "current": 65,
+        "total": 76
       },
       "messages": [
         {
@@ -1956,7 +2211,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sunlight aur paani ke droplets se Sir!"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1964,7 +2219,7 @@
         },
         {
           "speaker": "raju",
-          "text": "VIBGYOR matlab Violet, Indigo, Blue, Green, Yellow, Orange, Red?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1979,8 +2234,8 @@
       "concept_id": "dispersion_cause",
       "level": 7,
       "progress": {
-        "current": 65,
-        "total": 72
+        "current": 66,
+        "total": 76
       },
       "messages": [
         {
@@ -1989,7 +2244,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh Violet sabse zyada bend hota hai isliye neeche aata hai?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1997,7 +2252,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir rainbow mein kaise hota hai?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -2012,8 +2267,8 @@
       "concept_id": "rainbow",
       "level": 7,
       "progress": {
-        "current": 66,
-        "total": 72
+        "current": 67,
+        "total": 76
       },
       "messages": [
         {
@@ -2022,7 +2277,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab rainbow bhi TIR use karta hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -2030,7 +2285,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur scattering kya hoti hai Sir?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -2045,8 +2300,8 @@
       "concept_id": "scattering",
       "level": 7,
       "progress": {
-        "current": 67,
-        "total": 72
+        "current": 68,
+        "total": 76
       },
       "messages": [
         {
@@ -2055,7 +2310,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhhh! Isliye sky blue hai!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -2063,7 +2318,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye sab daily life mein science hai!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -2078,16 +2333,28 @@
       "concept_id": "final_quiz",
       "level": 7,
       "progress": {
-        "current": 68,
-        "total": 72
+        "current": 69,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Consider the following statements about the human eye:\n1. The image formed on the retina is real and inverted.\n2. The crystalline lens has a fixed focal length.\n3. Rods are responsible for color vision.\n\nWhich of the above statements is/are CORRECT?",
         "options": [
-          { "id": "A", "text": "Only 1" },
-          { "id": "B", "text": "1 and 2 only" },
-          { "id": "C", "text": "1 and 3 only" },
-          { "id": "D", "text": "All three" }
+          {
+            "id": "A",
+            "text": "Only 1"
+          },
+          {
+            "id": "B",
+            "text": "1 and 2 only"
+          },
+          {
+            "id": "C",
+            "text": "1 and 3 only"
+          },
+          {
+            "id": "D",
+            "text": "All three"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "⭐ BPSC Multi-Statement Trap! Statement 1 CORRECT - Retina pe real, inverted image banti hai. Statement 2 WRONG - Crystalline lens has VARIABLE focal length (power of accommodation through ciliary muscles). Statement 3 WRONG - CONES are responsible for color vision; RODS are for dim light (black-white vision). Only Statement 1 is correct!"
@@ -2104,16 +2371,28 @@
       "concept_id": "final_quiz",
       "level": 7,
       "progress": {
-        "current": 69,
-        "total": 72
+        "current": 70,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Match the following:\nList I (Phenomenon) - List II (Cause)\nA. Twinkling of stars - 1. Dispersion\nB. Rainbow formation - 2. Scattering\nC. Blue color of sky - 3. Atmospheric refraction\nD. Advanced sunrise - 4. Total Internal Reflection\n\nCorrect matching:",
         "options": [
-          { "id": "A", "text": "A-3, B-1, C-2, D-3" },
-          { "id": "B", "text": "A-2, B-4, C-1, D-3" },
-          { "id": "C", "text": "A-3, B-4, C-2, D-1" },
-          { "id": "D", "text": "A-4, B-1, C-3, D-2" }
+          {
+            "id": "A",
+            "text": "A-3, B-1, C-2, D-3"
+          },
+          {
+            "id": "B",
+            "text": "A-2, B-4, C-1, D-3"
+          },
+          {
+            "id": "C",
+            "text": "A-3, B-4, C-2, D-1"
+          },
+          {
+            "id": "D",
+            "text": "A-4, B-1, C-3, D-2"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "⭐ UPSC/BPSC Matching Type Favorite! Correct matching: A-3 (Twinkling → Atmospheric refraction through turbulent air layers), B-1 (Rainbow → Dispersion + Internal reflection in water droplets), C-2 (Blue sky → Rayleigh scattering of shorter wavelengths), D-3 (Advanced sunrise/Delayed sunset → Atmospheric refraction bends sunlight). All atmospheric phenomena!"
@@ -2130,23 +2409,149 @@
       "concept_id": "final_quiz",
       "level": 7,
       "progress": {
-        "current": 70,
-        "total": 72
+        "current": 71,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Assertion (A): A convex lens of focal length 10 cm will have a power of +10 D.\nReason (R): Power of a lens is the reciprocal of focal length in meters and is measured in dioptre.",
         "options": [
-          { "id": "A", "text": "Both A and R are true, and R is the correct explanation of A" },
-          { "id": "B", "text": "Both A and R are true, but R is NOT the correct explanation of A" },
-          { "id": "C", "text": "A is true, but R is false" },
-          { "id": "D", "text": "A is false, but R is true" }
+          {
+            "id": "A",
+            "text": "Both A and R are true, and R is the correct explanation of A"
+          },
+          {
+            "id": "B",
+            "text": "Both A and R are true, but R is NOT the correct explanation of A"
+          },
+          {
+            "id": "C",
+            "text": "A is true, but R is false"
+          },
+          {
+            "id": "D",
+            "text": "A is false, but R is true"
+          }
         ],
         "correct_option_id": "D",
         "explanation": "⭐ BPSC/NEET Assertion-Reason Master Trap! Reason (R) is ABSOLUTELY TRUE - Power P = 1/f (f in meters), unit Dioptre. Assertion (A) is FALSE - f = 10 cm = 0.1 m, so P = 1/0.1 = +10 D is CORRECT numerically BUT the statement says focal length 10 cm gives +10D which is CALCULATION ERROR! Actually it gives +10D when f=0.1m (10cm). Wait - let me recalculate: f=10cm=0.1m → P=1/0.1=10D. So A is TRUE! Both true, R explains A. Answer should be A! Correct Answer: A (Both true, R explains A correctly)."
       },
       "navigation": {
-        "next": "card_71_summary_officer_revision",
+        "next": "card_applied_case_01",
         "button_text": "Check Result & Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Aap plane mirror ke saamne khade hain. Mirror se reflected ray ka angle kaunsa rule follow karta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Angle of reflection = angle of incidence"
+          },
+          {
+            "id": "B",
+            "text": "Reflection angle hamesha zero"
+          },
+          {
+            "id": "C",
+            "text": "Light mirror se nikalte hi slow hoti hai"
+          },
+          {
+            "id": "D",
+            "text": "Angle sirf mirror ke rang par depend karta hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Plane mirror reflection mein normal ke saath measure kiye incidence aur reflection angles barabar hote hain."
+      },
+      "progress": {
+        "current": 72,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 2: Paani ke glass mein seedha straw tedha dikhta hai. Iska main reason kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Refraction: medium badalne par light mudti hai"
+          },
+          {
+            "id": "B",
+            "text": "Sound reflection"
+          },
+          {
+            "id": "C",
+            "text": "Magnetism"
+          },
+          {
+            "id": "D",
+            "text": "Evaporation"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Hawa se paani mein jaate waqt light ki speed/direction badalti hai; is bending ko refraction kehte hain."
+      },
+      "progress": {
+        "current": 73,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Applied case 3: Dentist chhoti cavity dekhne ke liye concave mirror paas laata hai. Paas rakhi object ki image kaise ban sakti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Seedhi aur magnified virtual image"
+          },
+          {
+            "id": "B",
+            "text": "Hamesha chhoti inverted image"
+          },
+          {
+            "id": "C",
+            "text": "Koi image nahi"
+          },
+          {
+            "id": "D",
+            "text": "Sirf rainbow"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Object focal length ke andar ho to concave mirror virtual, erect aur magnified image de sakta hai."
+      },
+      "progress": {
+        "current": 74,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_71_summary_officer_revision",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2156,8 +2561,8 @@
       "concept_id": "chapter_summary",
       "level": 7,
       "progress": {
-        "current": 71,
-        "total": 72
+        "current": 75,
+        "total": 76
       },
       "summary_payload": {
         "title": "⚡ Officer-Level Lightning Revision",
@@ -2196,8 +2601,8 @@
       "concept_id": "chapter_complete",
       "level": 7,
       "progress": {
-        "current": 72,
-        "total": 72
+        "current": 76,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER MASTERED!",
@@ -2214,4 +2619,3 @@
     }
   ]
 }
-```

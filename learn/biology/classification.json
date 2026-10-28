@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims"
+    "UPSC Prelims",
+    "RRB Group D"
   ],
-  "total_cards": 80,
+  "total_cards": 84,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 80
+        "total": 84
       },
       "intro_payload": {
         "title": "🌿 Biological Classification (जीवों का वर्गीकरण)",
@@ -42,7 +43,8 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims"
+          "UPSC Prelims",
+          "RRB Group D"
         ],
         "learning_outcomes": [
           "Classification की जरूरत क्यों पड़ी – daily life से समझेंगे",
@@ -51,12 +53,70 @@
           "Monera, Protista, Fungi, Plantae, Animalia – हर Kingdom की विशेषताएं",
           "Virus, Viroid, Prion, Lichen – Special cases जो exam में आते हैं",
           "Scientist names, years, and key discoveries – PYQ level",
-          "BPSC Multi-statement traps और NEET exceptions"
+          "BPSC Multi-statement traps और NEET exceptions",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
         ]
       },
       "navigation": {
-        "next": "card_02_why_classify",
+        "next": "card_zero_foundation",
         "button_text": "Let's Begin ➔"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 84
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Classification ka matlab jeevon ko unki milti-julti visheshtaon ke hisaab se groups mein rakhna hai. Jaise library mein books alag shelves par hoti hain, waise living things ko pehchaanne aur padhne ke liye classify karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_why_classify",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -66,8 +126,8 @@
       "concept_id": "need_for_classification",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 80
+        "current": 3,
+        "total": 84
       },
       "messages": [
         {
@@ -76,7 +136,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir, sab alag dabbon mein rakha hota hai warna kuch milta hi nahi!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -84,7 +144,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa! Matlab biology ki bhi apni 'kitchen shelving system' hai – alag-alag boxes mein sab kuch!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -99,8 +159,8 @@
       "concept_id": "taxonomy_vs_systematics",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 80
+        "current": 4,
+        "total": 84
       },
       "messages": [
         {
@@ -109,7 +169,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Carl Linnaeus! Ye naam to bahut suna hai Sir. Unka kya khaas kaam tha?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -117,7 +177,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh Homo sapiens mein Homo capital se aur sapiens chhote se! Aur dono underline bhi hote hain na handwriting mein?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -132,8 +192,8 @@
       "concept_id": "taxonomic_hierarchy",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 80
+        "current": 5,
+        "total": 84
       },
       "messages": [
         {
@@ -142,7 +202,7 @@
         },
         {
           "speaker": "raju",
-          "text": "King Philip Came Over For Good Soup! Haha ye to yaad rahega Sir! Toh Species sabse chhota unit hai?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -150,7 +210,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Arre! Ye to pakka confuse karta! Species = smallest, Kingdom = largest – got it Sir!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -165,8 +225,8 @@
       "concept_id": "taxonomic_hierarchy_guess",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 80
+        "current": 6,
+        "total": 84
       },
       "quiz_payload": {
         "question": "🤔 Guess karo! Agar Tiger ka scientific naam Panthera tigris hai, toh 'Panthera' kya represent karta hai?",
@@ -203,8 +263,8 @@
       "concept_id": "classification_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 80
+        "current": 7,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Taxonomy के 'Father' कौन हैं और उन्होंने Binomial Nomenclature कब दिया? (Q1/3)",
@@ -241,8 +301,8 @@
       "concept_id": "classification_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 80
+        "current": 8,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Taxonomic hierarchy में सही क्रम कौन सा है – सबसे बड़े से सबसे छोटे? (Q2/3)",
@@ -279,8 +339,8 @@
       "concept_id": "classification_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 80
+        "current": 9,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Binomial Nomenclature के बारे में कौन सा कथन सही है? (Q3/3)",
@@ -317,8 +377,8 @@
       "concept_id": "mod1_complete",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 80
+        "current": 10,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 1 COMPLETED! 🎉",
@@ -340,8 +400,8 @@
       "concept_id": "two_kingdom_system",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 80
+        "current": 11,
+        "total": 84
       },
       "messages": [
         {
@@ -350,7 +410,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir, Plant aur Animal – do hi to hote hain! Phir problem kya aayi?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -358,7 +418,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Euglena dono kaam karti hai? Matlab ye plant bhi hai aur animal bhi? Ye to confusing hai!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -373,8 +433,8 @@
       "concept_id": "three_four_kingdom",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 80
+        "current": 12,
+        "total": 84
       },
       "messages": [
         {
@@ -383,7 +443,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab pehle 2, phir 3, phir 4... scientists baar baar badlte rahe?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -391,7 +451,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Robert Whittaker, 1969, Five Kingdoms – ye to important lag raha hai! Aur kya kya kingdoms hain?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -406,8 +466,8 @@
       "concept_id": "five_kingdom_overview",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 80
+        "current": 13,
+        "total": 84
       },
       "messages": [
         {
@@ -416,7 +476,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Monera, Protista, Fungi, Plantae, Animalia – 5 kingdoms! Sir Monera sabse alag lagti hai, wo kya hai exactly?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -424,7 +484,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Nucleus nahi?? Matlab koi nucleus-less organism bhi exist karta hai? Ye to surprise hai!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -439,8 +499,8 @@
       "concept_id": "kingdom_systems_quiz",
       "level": 1,
       "progress": {
-        "current": 13,
-        "total": 80
+        "current": 14,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Five Kingdom System किसने और कब दिया? (Q1/3)",
@@ -477,8 +537,8 @@
       "concept_id": "kingdom_systems_quiz",
       "level": 1,
       "progress": {
-        "current": 14,
-        "total": 80
+        "current": 15,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Fungi को Plants से अलग Kingdom क्यों दी गई? (Q2/3)",
@@ -515,8 +575,8 @@
       "concept_id": "kingdom_systems_quiz",
       "level": 1,
       "progress": {
-        "current": 15,
-        "total": 80
+        "current": 16,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से किस Kingdom में PROKARYOTIC organisms आते हैं? (Q3/3)",
@@ -553,8 +613,8 @@
       "concept_id": "mod2_complete",
       "level": 1,
       "progress": {
-        "current": 16,
-        "total": 80
+        "current": 17,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 2 COMPLETED! 🎉",
@@ -576,8 +636,8 @@
       "concept_id": "monera_kingdom",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 80
+        "current": 18,
+        "total": 84
       },
       "messages": [
         {
@@ -586,7 +646,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Mitochondria bhi nahi? Par Sir energy to banani padegi inhe bhi?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -594,7 +654,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Teen alag materials! Ye mix ho jayenge Sir – Bacteria=Peptidoglycan, Fungi=Chitin, Plants=Cellulose. Pakka yaad rakhna padega!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -609,8 +669,8 @@
       "concept_id": "bacteria_morphology_nutrition",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 80
+        "current": 19,
+        "total": 84
       },
       "messages": [
         {
@@ -619,7 +679,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Vibrio cholerae se haija hota hai! Aur E. coli hamare pet mein bhi hota hai na Sir?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -627,7 +687,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab kuch bacteria helpful hain, kuch harmful – sab ek hi kingdom mein? Interesting!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -642,8 +702,8 @@
       "concept_id": "cyanobacteria_archaea",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 80
+        "current": 20,
+        "total": 84
       },
       "messages": [
         {
@@ -652,7 +712,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Blue-Green Algae actual mein algae nahi hai? Ye to seriously confusing naam diya unhone!"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -660,7 +720,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Methanogens se biogas! Toh cow dung mein jo bacteria hote hain wo Methanogens hain? Isliye gobar gas plant chalti hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -675,8 +735,8 @@
       "concept_id": "monera_quiz",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 80
+        "current": 21,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Bacteria की cell wall किससे बनी होती है? (Q1/3)",
@@ -713,8 +773,8 @@
       "concept_id": "monera_quiz",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 80
+        "current": 22,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Cyanobacteria के बारे में कौन सा कथन सही है? (Q2/3)",
@@ -751,8 +811,8 @@
       "concept_id": "monera_quiz",
       "level": 2,
       "progress": {
-        "current": 22,
-        "total": 80
+        "current": 23,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Methanogens के बारे में क्या सही है? (Q3/3)",
@@ -789,8 +849,8 @@
       "concept_id": "mod3_complete",
       "level": 2,
       "progress": {
-        "current": 23,
-        "total": 80
+        "current": 24,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 3 COMPLETED! 🎉",
@@ -812,8 +872,8 @@
       "concept_id": "protista_kingdom",
       "level": 2,
       "progress": {
-        "current": 24,
-        "total": 80
+        "current": 25,
+        "total": 84
       },
       "messages": [
         {
@@ -822,7 +882,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bridge kingdom? Matlab ye beech wale hain – na poore plant, na poore animal?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -830,7 +890,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Euglena misfit! Matlab wo decide nahi kar paati ki kya banne chahti hai! Aur Plasmodium – wo to malaria waala hai na Sir?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -845,8 +905,8 @@
       "concept_id": "algae_protists",
       "level": 2,
       "progress": {
-        "current": 25,
-        "total": 80
+        "current": 26,
+        "total": 84
       },
       "messages": [
         {
@@ -855,7 +915,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Diatoms ki cell wall silica se! Aur Diatomaceous earth insulating material hai? Ye to practical use hua!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -863,7 +923,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Dinoflagellates se samundar mein blue light! Ye to magical lagta hai Sir! Phir exam mein bioluminescence = Dinoflagellates yaad rakhna hai?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -878,8 +938,8 @@
       "concept_id": "euglenoids_slime_moulds",
       "level": 2,
       "progress": {
-        "current": 26,
-        "total": 80
+        "current": 27,
+        "total": 84
       },
       "messages": [
         {
@@ -888,7 +948,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Euglena mein cell wall nahi! Par Sir wo to plant jaisi dikhi hai photosynthesis ki wajah se!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -896,7 +956,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Slime Moulds – animal jaisa behaviour, fungi jaisa reproduction! Ye to genuinely confusing hai!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -911,8 +971,8 @@
       "concept_id": "protista_quiz",
       "level": 2,
       "progress": {
-        "current": 27,
-        "total": 80
+        "current": 28,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Bioluminescence किसमें पाया जाता है? (Q1/3)",
@@ -949,8 +1009,8 @@
       "concept_id": "protista_quiz",
       "level": 2,
       "progress": {
-        "current": 28,
-        "total": 80
+        "current": 29,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Euglena के बारे में कौन सा कथन सही है? (Q2/3)",
@@ -987,8 +1047,8 @@
       "concept_id": "protista_quiz",
       "level": 2,
       "progress": {
-        "current": 29,
-        "total": 80
+        "current": 30,
+        "total": 84
       },
       "quiz_payload": {
         "question": "मलेरिया का कारक Plasmodium किस Kingdom में आता है? (Q3/3)",
@@ -1025,8 +1085,8 @@
       "concept_id": "mod4_complete",
       "level": 2,
       "progress": {
-        "current": 30,
-        "total": 80
+        "current": 31,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 4 COMPLETED! 🎉",
@@ -1048,8 +1108,8 @@
       "concept_id": "fungi_kingdom",
       "level": 3,
       "progress": {
-        "current": 31,
-        "total": 80
+        "current": 32,
+        "total": 84
       },
       "messages": [
         {
@@ -1058,7 +1118,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hyphae aur Mycelium! Matlab roots jaisa dikha hoga mushroom ke neeche jo zameen mein hota hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1066,7 +1126,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Puccinia se wheat rust hoti hai? Matlab khet mein jo fasal barbaad hoti hai wo Fungi ki wajah se?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1081,8 +1141,8 @@
       "concept_id": "fungi_classes",
       "level": 3,
       "progress": {
-        "current": 32,
-        "total": 80
+        "current": 33,
+        "total": 84
       },
       "messages": [
         {
@@ -1091,7 +1151,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir itne groups! Imperfect fungi kyu bolte hain Deuteromycetes ko?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1099,7 +1159,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Yeast fungus hai! Mujhe laga ye alag cheez hoti hai. Aur bread banane mein jo yeast use hote hain – wo Ascomycetes category mein hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1114,8 +1174,8 @@
       "concept_id": "fungi_reproduction_lichen",
       "level": 3,
       "progress": {
-        "current": 33,
-        "total": 80
+        "current": 34,
+        "total": 84
       },
       "messages": [
         {
@@ -1124,7 +1184,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ascus mein 8 ascospores! Ye number important lagta hai Sir!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1132,7 +1192,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Lichen koi kingdom nahi hai?! Ye to interesting exception hai! Aur Lichen pollution indicator bhi hota hai na Sir?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1147,8 +1207,8 @@
       "concept_id": "fungi_quiz",
       "level": 3,
       "progress": {
-        "current": 34,
-        "total": 80
+        "current": 35,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Fungi Imperfecti (Deuteromycetes) को 'अपूर्ण कवक' क्यों कहते हैं? (Q1/3)",
@@ -1185,8 +1245,8 @@
       "concept_id": "fungi_quiz",
       "level": 3,
       "progress": {
-        "current": 35,
-        "total": 80
+        "current": 36,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Lichen किसका mutualistic association है? (Q2/3)",
@@ -1223,8 +1283,8 @@
       "concept_id": "fungi_quiz",
       "level": 3,
       "progress": {
-        "current": 36,
-        "total": 80
+        "current": 37,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Ascomycetes में एक Ascus में कितने Ascospores बनते हैं? (Q3/3)",
@@ -1261,8 +1321,8 @@
       "concept_id": "mod5_complete",
       "level": 3,
       "progress": {
-        "current": 37,
-        "total": 80
+        "current": 38,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 5 COMPLETED! 🎉",
@@ -1284,8 +1344,8 @@
       "concept_id": "plantae_kingdom",
       "level": 3,
       "progress": {
-        "current": 38,
-        "total": 80
+        "current": 39,
+        "total": 84
       },
       "messages": [
         {
@@ -1294,7 +1354,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye sab groups toh plant wale hain – par kya Algae bhi plants mein aati hain?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1302,7 +1362,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Teen jagah teen alag algae! Unicellular = Protista, Multicellular = Plantae, Blue-Green = Monera. Ye to pakka confuse karega!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1317,8 +1377,8 @@
       "concept_id": "bryophyta_pteridophyta",
       "level": 3,
       "progress": {
-        "current": 39,
-        "total": 80
+        "current": 40,
+        "total": 84
       },
       "messages": [
         {
@@ -1327,7 +1387,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Amphibians of Plant Kingdom! Matlab jaise frog dono jagah rehta hai, Bryophytes bhi land pe rehte hain par paani bhi chahiye?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1335,7 +1395,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Pteridophyta pehle vascular plant hai! Matlab inse pehle koi xylem-phloem nahi tha plants mein? Wow!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -1350,8 +1410,8 @@
       "concept_id": "gymnosperms_angiosperms",
       "level": 3,
       "progress": {
-        "current": 40,
-        "total": 80
+        "current": 41,
+        "total": 84
       },
       "messages": [
         {
@@ -1360,7 +1420,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Naked seeds! Matlab seed koi covering mein nahi hai? Aur Sequoia duniya ka sabse bada tree hai? Woh to California mein hota hai na?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1368,7 +1428,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh gehu, chawal, makai sab Monocots hain? Aur aam, matar Dicots? Iska matlab roz khaane mein dono category kha lete hain!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1383,8 +1443,8 @@
       "concept_id": "plantae_quiz",
       "level": 3,
       "progress": {
-        "current": 41,
-        "total": 80
+        "current": 42,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Plant Kingdom में पहले Vascular plants कौन से हैं? (Q1/3)",
@@ -1421,8 +1481,8 @@
       "concept_id": "plantae_quiz",
       "level": 3,
       "progress": {
-        "current": 42,
-        "total": 80
+        "current": 43,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Bryophyta को 'Plant Kingdom के Amphibians' क्यों कहते हैं? (Q2/3)",
@@ -1459,8 +1519,8 @@
       "concept_id": "plantae_quiz",
       "level": 3,
       "progress": {
-        "current": 43,
-        "total": 80
+        "current": 44,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Gymnosperms और Angiosperms में मुख्य अंतर क्या है? (Q3/3)",
@@ -1497,8 +1557,8 @@
       "concept_id": "mod6_complete",
       "level": 3,
       "progress": {
-        "current": 44,
-        "total": 80
+        "current": 45,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 6 COMPLETED! 🎉",
@@ -1520,8 +1580,8 @@
       "concept_id": "animalia_kingdom",
       "level": 3,
       "progress": {
-        "current": 45,
-        "total": 80
+        "current": 46,
+        "total": 84
       },
       "messages": [
         {
@@ -1530,7 +1590,7 @@
         },
         {
           "speaker": "raju",
-          "text": "No cell wall! Matlab hamare cells ke bahar koi rigid wall nahi hai? To shape kaise maintain hoti hai?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1538,7 +1598,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Notochord! Matlab hamare backbone jaisa kuch? Jo animals mein hota hai unhe Chordata bolte hain?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1553,8 +1613,8 @@
       "concept_id": "animalia_phyla_overview",
       "level": 3,
       "progress": {
-        "current": 46,
-        "total": 80
+        "current": 47,
+        "total": 84
       },
       "messages": [
         {
@@ -1563,7 +1623,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Arthropoda largest phylum! Matlab insects sabse zyada species hain duniya mein? Ye to interesting hai Sir!"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1571,7 +1631,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Starfish fish nahi hai!! Ye to seriously ek trap hai – naam se dhoka hota hai!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1586,8 +1646,8 @@
       "concept_id": "chordata_vertebrates",
       "level": 4,
       "progress": {
-        "current": 47,
-        "total": 80
+        "current": 48,
+        "total": 84
       },
       "messages": [
         {
@@ -1596,7 +1656,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hum Mammalia mein hain! Aur Aves matlab birds – toh birds bhi Chordata hain?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1604,7 +1664,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bat = Mammal, Whale = Mammal, Starfish = Echinoderm, Flying Fish = Fish – naam se dhoka nahi khaana! Sir ye to notes mein likh leta hoon!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1619,8 +1679,8 @@
       "concept_id": "animalia_quiz",
       "level": 3,
       "progress": {
-        "current": 48,
-        "total": 80
+        "current": 49,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Animal Kingdom का सबसे बड़ा Phylum कौन सा है? (Q1/3)",
@@ -1657,8 +1717,8 @@
       "concept_id": "animalia_quiz",
       "level": 3,
       "progress": {
-        "current": 49,
-        "total": 80
+        "current": 50,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन Mammal है? (Q2/3)",
@@ -1695,8 +1755,8 @@
       "concept_id": "animalia_quiz",
       "level": 3,
       "progress": {
-        "current": 50,
-        "total": 80
+        "current": 51,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Chordata Phylum की तीन common characteristics में से कौन सी सही है? (Q3/3)",
@@ -1733,8 +1793,8 @@
       "concept_id": "mod7_complete",
       "level": 3,
       "progress": {
-        "current": 51,
-        "total": 80
+        "current": 52,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 7 COMPLETED! 🎉",
@@ -1756,8 +1816,8 @@
       "concept_id": "virus_special_case",
       "level": 4,
       "progress": {
-        "current": 52,
-        "total": 80
+        "current": 53,
+        "total": 84
       },
       "messages": [
         {
@@ -1766,7 +1826,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Virus kisi kingdom mein nahi?! Par wo to sab jagah hain! Bade problem create karte hain!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1774,7 +1834,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Virus crystal ban sakta hai?! Aur Dmitri Ivanovsky, 1892 – ye date toh important hai Sir!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1789,8 +1849,8 @@
       "concept_id": "virus_structure_types",
       "level": 4,
       "progress": {
-        "current": 53,
-        "total": 80
+        "current": 54,
+        "total": 84
       },
       "messages": [
         {
@@ -1799,7 +1859,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Virus mein ya DNA hoga ya RNA – dono ek saath nahi! Ye to maine socha bhi nahi tha Sir!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1807,7 +1867,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Reverse transcriptase! Normally DNA se RNA banta hai, par HIV mein ulta – RNA se DNA! Isliye reverse!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1822,8 +1882,8 @@
       "concept_id": "viroid_prion",
       "level": 4,
       "progress": {
-        "current": 54,
-        "total": 80
+        "current": 55,
+        "total": 84
       },
       "messages": [
         {
@@ -1832,7 +1892,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sirf RNA, koi protein nahi! Virus se bhi primitive! Aur Prion kya hota hai Sir?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1840,7 +1900,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Teen alag levels: Virus = nucleic acid + protein, Viroid = nucleic acid only, Prion = protein only. Ye to exam mein zaroor poochha jaayega!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1855,8 +1915,8 @@
       "concept_id": "virus_viroid_prion_quiz",
       "level": 4,
       "progress": {
-        "current": 55,
-        "total": 80
+        "current": 56,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Viroid के बारे में कौन सा कथन सही है? (Q1/3)",
@@ -1893,8 +1953,8 @@
       "concept_id": "virus_viroid_prion_quiz",
       "level": 4,
       "progress": {
-        "current": 56,
-        "total": 80
+        "current": 57,
+        "total": 84
       },
       "quiz_payload": {
         "question": "HIV को Retrovirus क्यों कहते हैं? (Q2/3)",
@@ -1931,8 +1991,8 @@
       "concept_id": "virus_viroid_prion_quiz",
       "level": 4,
       "progress": {
-        "current": 57,
-        "total": 80
+        "current": 58,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Mad Cow Disease (BSE) किससे होती है? (Q3/3)",
@@ -1969,8 +2029,8 @@
       "concept_id": "mod8_complete",
       "level": 4,
       "progress": {
-        "current": 58,
-        "total": 80
+        "current": 59,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 8 COMPLETED! 🎉",
@@ -1992,8 +2052,8 @@
       "concept_id": "three_domain_system",
       "level": 4,
       "progress": {
-        "current": 59,
-        "total": 80
+        "current": 60,
+        "total": 84
       },
       "messages": [
         {
@@ -2002,7 +2062,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Teen Domains? Matlab kingdoms se upar ek level aur hai?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -2010,7 +2070,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Archaea Eukaryotes ke relatives hain? Ye to bahut surprising fact hai Sir! Ab revision karte hain!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -2025,8 +2085,8 @@
       "concept_id": "key_scientists_classification",
       "level": 4,
       "progress": {
-        "current": 60,
-        "total": 80
+        "current": 61,
+        "total": 84
       },
       "messages": [
         {
@@ -2035,7 +2095,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aristotle se Copeland tak – ek-ek scientist ne system upgrade kiya! Ye chronology yaad rakhni hai!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -2043,7 +2103,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Itne scientists! Ivanovsky 1892 TMV, Stanley 1935 crystal, Diener 1971 viroid, Prusiner 1997 Nobel Prion – ye sab yaad karna padega!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -2058,8 +2118,8 @@
       "concept_id": "important_organisms_kingdom",
       "level": 4,
       "progress": {
-        "current": 61,
-        "total": 80
+        "current": 62,
+        "total": 84
       },
       "messages": [
         {
@@ -2068,7 +2128,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Spirogyra Plantae mein! Maine socha tha wo Protista mein hoga kyunki ye algae hai!"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -2076,7 +2136,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Dahi wala Lactobacillus bhi Monera mein hai! Aur Rhizobium bhi! Daily life ka connection!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -2091,8 +2151,8 @@
       "concept_id": "economic_importance_organisms",
       "level": 4,
       "progress": {
-        "current": 62,
-        "total": 80
+        "current": 63,
+        "total": 84
       },
       "messages": [
         {
@@ -2101,7 +2161,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Penicillin bhi Fungi se aata hai! Alexander Fleming 1928 – ye date toh SSC mein zaroor aata hai!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -2109,7 +2169,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Spirulina protein supplement bhi Cyanobacteria se hai? Aur agar-agar algae se? Ye to bahut useful organisms hain!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -2124,8 +2184,8 @@
       "concept_id": "kingdom_sorting_game",
       "level": 4,
       "progress": {
-        "current": 63,
-        "total": 80
+        "current": 64,
+        "total": 84
       },
       "quiz_payload": {
         "question": "🤔 Quick Sort! Yeast किस Kingdom में आता है?",
@@ -2162,8 +2222,8 @@
       "concept_id": "virus_kingdom_trap",
       "level": 4,
       "progress": {
-        "current": 64,
-        "total": 80
+        "current": 65,
+        "total": 84
       },
       "quiz_payload": {
         "question": "🤔 Guess karo! Five Kingdom System mein Virus ko kahan rakha gaya hai?",
@@ -2200,8 +2260,8 @@
       "concept_id": "exceptions_exam_traps",
       "level": 4,
       "progress": {
-        "current": 65,
-        "total": 80
+        "current": 66,
+        "total": 84
       },
       "messages": [
         {
@@ -2210,7 +2270,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Mycoplasma mein cell wall nahi! Matlab exception hai Monera ke andar bhi!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -2218,7 +2278,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Coral Animalia mein! Mushroom Fungi mein, Seaweed algae mein – naam se dhoka everywhere!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -2233,8 +2293,8 @@
       "concept_id": "more_exam_traps",
       "level": 4,
       "progress": {
-        "current": 66,
-        "total": 80
+        "current": 67,
+        "total": 84
       },
       "messages": [
         {
@@ -2243,7 +2303,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Lichen SO₂ se mar jaata hai! Matlab jahan industry hai wahan Lichen nahi milega? Interesting indicator!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -2251,7 +2311,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Coenocytic hyphae mein septa nahi! Ye Phycomycetes mein hai. Ab revision kar lete hain Sir – final quiz ke liye ready hoon!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -2266,8 +2326,8 @@
       "concept_id": "comprehensive_quiz_1",
       "level": 4,
       "progress": {
-        "current": 67,
-        "total": 80
+        "current": 68,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Mycoplasma किस कारण से अन्य Bacteria से अलग है? (Q1/2)",
@@ -2304,8 +2364,8 @@
       "concept_id": "comprehensive_quiz_2",
       "level": 4,
       "progress": {
-        "current": 68,
-        "total": 80
+        "current": 69,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Penicillin antibiotic की खोज किसने और कब की? (Q2/2)",
@@ -2331,8 +2391,122 @@
         "explanation": "Alexander Fleming ने 1928 में Penicillin discover किया – Penicillium notatum fungus से। यह Fungi Kingdom (Ascomycetes) से प्राप्त पहला antibiotic था। Louis Pasteur = Germ Theory of Disease, Pasteurization। Robert Koch = TB bacteria (1882), Koch's Postulates। SSC, Railway और BPSC में Fleming – 1928 – Penicillin सबसे popular question है!"
       },
       "navigation": {
-        "next": "card_69_officer_revision",
+        "next": "card_applied_case_01",
         "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Ek jeev mein chlorophyll nahi, woh apna food photosynthesis se nahi banata, aur mushroom jaisi hyphae hoti hain. Use kis group mein rakhenge?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fungi"
+          },
+          {
+            "id": "B",
+            "text": "Green plants"
+          },
+          {
+            "id": "C",
+            "text": "Mammals"
+          },
+          {
+            "id": "D",
+            "text": "Algae only"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Fungi mein chlorophyll nahi hota; kai fungi hyphae se bane hote hain aur food absorb karte hain."
+      },
+      "progress": {
+        "current": 70,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: Ek jaanwar paani mein rehta hai, bachchon ko doodh pilata hai aur lungs se saans leta hai. Kaunsi pehchaan sabse sahi hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mammal, chahe whale ho"
+          },
+          {
+            "id": "B",
+            "text": "Fish, kyunki paani mein rehta hai"
+          },
+          {
+            "id": "C",
+            "text": "Amphibian, kyunki tairta hai"
+          },
+          {
+            "id": "D",
+            "text": "Insect, kyunki surface par aata hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Classification ek hi surface clue se nahi hoti. Mammary glands aur lungs mammals ki pehchaan hain; whale mammal hai."
+      },
+      "progress": {
+        "current": 71,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 3: Ek virus ko antibiotic dene se aam viral cold seedhe theek nahi hota. Iska sahi reason kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Antibiotics bacteria ke targets par kaam karte hain, virus par nahi"
+          },
+          {
+            "id": "B",
+            "text": "Virus ek fungus hai"
+          },
+          {
+            "id": "C",
+            "text": "Antibiotics sirf blood ko thanda karte hain"
+          },
+          {
+            "id": "D",
+            "text": "Cold mein koi biological agent nahi hota"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Antibiotics bacterial structures/processes ko target karte hain; viral infection ke liye woh seedha ilaaj nahi."
+      },
+      "progress": {
+        "current": 72,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_69_officer_revision",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2342,8 +2516,8 @@
       "concept_id": "chapter_officer_revision",
       "level": 5,
       "progress": {
-        "current": 69,
-        "total": 80
+        "current": 73,
+        "total": 84
       },
       "summary_payload": {
         "title": "⚡ Quick Officer Revision – Biological Classification",
@@ -2382,8 +2556,8 @@
       "concept_id": "final_master_quiz_1",
       "level": 5,
       "progress": {
-        "current": 70,
-        "total": 80
+        "current": 74,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. Cyanobacteria Protista Kingdom में आते हैं\n2. Yeast एक unicellular Fungi है जो Ascomycetes class में है\n3. Virus में DNA और RNA दोनों एक साथ पाए जाते हैं\n4. Mycoplasma में cell wall अनुपस्थित होती है\n\nउपर्युक्त में से कौन सा/से कथन सही है/हैं?",
@@ -2420,8 +2594,8 @@
       "concept_id": "final_master_quiz_2",
       "level": 5,
       "progress": {
-        "current": 71,
-        "total": 80
+        "current": 75,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Assertion (A): Fungi को अलग Kingdom में रखा गया है, Plants से अलग।\nReason (R): Fungi में Chlorophyll नहीं होता और ये Chitin cell wall वाले Heterotrophic Eukaryotes हैं।\n\nसही विकल्प चुनिए:",
@@ -2458,8 +2632,8 @@
       "concept_id": "final_master_quiz_3",
       "level": 5,
       "progress": {
-        "current": 72,
-        "total": 80
+        "current": 76,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित युग्मों (Organism – Kingdom) में से कौन से सही हैं?\n1. Spirogyra – Protista\n2. Plasmodium – Protista\n3. Penicillium – Fungi\n4. Anabaena – Plantae\n\nसही कूट चुनिए:",
@@ -2496,8 +2670,8 @@
       "concept_id": "final_master_quiz_4",
       "level": 5,
       "progress": {
-        "current": 73,
-        "total": 80
+        "current": 77,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा कथन Virus के बारे में असत्य है?",
@@ -2534,8 +2708,8 @@
       "concept_id": "final_master_quiz_5",
       "level": 5,
       "progress": {
-        "current": 74,
-        "total": 80
+        "current": 78,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. Dinoflagellates की cell wall Silica से बनी होती है\n2. Lichen एक Fungi और Algae का mutualistic association है\n3. Deuteromycetes में sexual reproduction कभी नहीं देखी गई\n4. Pteridophytes में seeds होते हैं लेकिन fruits नहीं\n\nकौन से कथन सही हैं?",
@@ -2572,8 +2746,8 @@
       "concept_id": "final_master_quiz_6",
       "level": 5,
       "progress": {
-        "current": 75,
-        "total": 80
+        "current": 79,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Assertion (A): Euglena को किसी भी Kingdom में रखना कठिन है।\nReason (R): Euglena में chloroplast होते हैं (autotrophic), लेकिन cell wall नहीं होती और यह heterotrophic भी हो सकता है।\n\nसही विकल्प चुनिए:",
@@ -2610,8 +2784,8 @@
       "concept_id": "final_master_quiz_7",
       "level": 5,
       "progress": {
-        "current": 76,
-        "total": 80
+        "current": 80,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा जोड़ा (Scientist – Contribution) गलत है?",
@@ -2648,8 +2822,8 @@
       "concept_id": "final_master_quiz_8",
       "level": 5,
       "progress": {
-        "current": 77,
-        "total": 80
+        "current": 81,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. Bat (चमगादड़) Aves class में आता है\n2. Whale एक Mammal है\n3. Starfish Echinodermata में है, Fish नहीं\n4. Penguin Fly नहीं करता इसलिए यह Mammal है\n\nकौन से कथन सही हैं?",
@@ -2686,8 +2860,8 @@
       "concept_id": "chapter_complete",
       "level": 5,
       "progress": {
-        "current": 78,
-        "total": 80
+        "current": 82,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER COMPLETED – BIOLOGICAL CLASSIFICATION! 🏆",
@@ -2709,8 +2883,8 @@
       "concept_id": "bonus_quick_facts",
       "level": 5,
       "progress": {
-        "current": 79,
-        "total": 80
+        "current": 83,
+        "total": 84
       },
       "summary_payload": {
         "title": "⚡ BONUS: Last-Minute Exam Speed Facts",
@@ -2749,8 +2923,8 @@
       "concept_id": "final_celebration",
       "level": 5,
       "progress": {
-        "current": 80,
-        "total": 80
+        "current": 84,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🌟 YOU ARE AN OFFICER NOW! 🌟",

@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims"
+    "UPSC Prelims",
+    "RRB Group D"
   ],
-  "total_cards": 70,
+  "total_cards": 74,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 70
+        "total": 74
       },
       "intro_payload": {
         "chapter_title": "Electrochemistry",
@@ -42,7 +43,8 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims"
+          "UPSC Prelims",
+          "RRB Group D"
         ],
         "what_you_will_learn": [
           "Why your phone battery dies and the real chemistry behind it",
@@ -59,11 +61,67 @@
           "Industrial applications: Electroplating, Chlor-Alkali, Hall-Héroult (1886)"
         ],
         "total_cards": 70,
-        "estimated_time": "55 minutes"
+        "estimated_time": "55 minutes",
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
+        ]
       },
       "navigation": {
-        "next": "card_02_daily_hook",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning ⚡"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 74
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Electrochemistry mein chemical change aur electricity ek-doosre se jude hote hain. Battery chemical energy ko electrical energy mein badalti hai; electrolysis mein electricity chemical change karwati hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, isi baat par dhyan deta hoon."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_daily_hook",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -73,13 +131,13 @@
       "concept_id": "electrochemistry_introduction",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 70
+        "current": 3,
+        "total": 74
       },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, aaj subah exam centre jaate waqt mera phone bilkul band ho gaya — 2% pe tha! Aur charger ghar bhool aaya. Bahut bura laga."
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -87,7 +145,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, kuch chemical hoga andar? Main nahi jaanta exactly... current nikal rahi thi shayad?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -106,8 +164,8 @@
       "concept_id": "redox_reactions_foundation",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 70
+        "current": 4,
+        "total": 74
       },
       "messages": [
         {
@@ -116,7 +174,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... oxidation matlab electron dena, reduction matlab lena. Par sir, kaise yaad rakhunga dono ek saath?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -124,7 +182,7 @@
         },
         {
           "speaker": "raju",
-          "text": "An Ox, Red Cat... matlab Anode par Oxidation, Cathode par Reduction! Ye to smart trick hai sir. Ye dono sab jagah same rahega?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -139,8 +197,8 @@
       "concept_id": "galvanic_cell_basics",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 70
+        "current": 5,
+        "total": 74
       },
       "messages": [
         {
@@ -149,7 +207,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh galvanic cell ek tarah ki natural battery hai? Koi bahar se current nahi lagana?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -157,7 +215,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?! Zinc pighal jaata hai andar, aur copper badhta jaata hai? Toh dono beakers ek doosre se alag hain — current kaise jati hai ions ke liye?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -172,8 +230,8 @@
       "concept_id": "salt_bridge_function",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 70
+        "current": 6,
+        "total": 74
       },
       "messages": [
         {
@@ -182,7 +240,7 @@
         },
         {
           "speaker": "raju",
-          "text": "KCl kyun use karte hain sir, koi aur namak kyun nahi?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -190,7 +248,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhhh! Balance ke liye! Kisi bhi random namak se kaam nahi chalta. Aur sir, galvanic cell mein Anode negative hota hai kya? Isne confuse kar diya pehle."
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -205,8 +263,8 @@
       "concept_id": "electrode_polarity_trap",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 70
+        "current": 7,
+        "total": 74
       },
       "messages": [
         {
@@ -215,7 +273,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh Galvanic mein Anode negative. Aur Electrolytic mein?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -223,7 +281,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye to pakka mix ho jayega exam mein! Ek baar phir clearly bolo — Universal fixed kya hai aur kya change hota hai?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -238,8 +296,8 @@
       "concept_id": "electrode_polarity_trap",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 70
+        "current": 8,
+        "total": 74
       },
       "guess_payload": {
         "question": "Ek student keh raha hai: 'Electrolytic cell mein Anode positive hota hai isliye wahan reduction hoti hai.' Kya ye sahi hai?",
@@ -277,8 +335,8 @@
       "concept_id": "galvanic_cell_basics",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 70
+        "current": 9,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Daniel Cell (Galvanic Cell) ke baare mein kaun sa statement GALAT hai?",
@@ -315,8 +373,8 @@
       "concept_id": "salt_bridge_function",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 70
+        "current": 10,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Salt Bridge mein KCl kyun prefer kiya jaata hai? (SSC CGL 2019 pattern)",
@@ -353,8 +411,8 @@
       "concept_id": "galvanic_vs_electrolytic",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 70
+        "current": 11,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Galvanic Cell aur Electrolytic Cell ke baare mein kaun se statements SAHI hain? I. Dono mein Anode par oxidation hoti hai. II. Galvanic mein Anode negative, Electrolytic mein Anode positive hota hai. III. Galvanic cell spontaneous reaction se energy produce karta hai. IV. Electrolytic cell mein external current zaroori nahi.",
@@ -391,8 +449,8 @@
       "concept_id": "galvanic_cell_basics",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 70
+        "current": 12,
+        "total": 74
       },
       "milestone_payload": {
         "title": "MODULE 1 COMPLETE! 🔋",
@@ -414,8 +472,8 @@
       "concept_id": "standard_hydrogen_electrode",
       "level": 2,
       "progress": {
-        "current": 12,
-        "total": 70
+        "current": 13,
+        "total": 74
       },
       "messages": [
         {
@@ -424,7 +482,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, SHE ka electrode kya hota hai? Gold hoga ya silver — kyunki ye precious reference hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -432,7 +490,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Platinum! Gold nahi! Ye pakka confuse karta. Toh sab kuch is SHE ke relative mein measure hoga? Zinc ka potential kya hoga iske against?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -447,8 +505,8 @@
       "concept_id": "emf_formula",
       "level": 2,
       "progress": {
-        "current": 13,
-        "total": 70
+        "current": 14,
+        "total": 74
       },
       "messages": [
         {
@@ -457,7 +515,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Minus minus ho gaya plus! Toh 1.10 V positive — matlab reaction spontaneous hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -465,7 +523,7 @@
         },
         {
           "speaker": "raju",
-          "text": "ΔG° aur E°cell ka relation! Toh thermodynamics aur electrochemistry jud gayi? Sir ye to bahut powerful connection hai!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -480,8 +538,8 @@
       "concept_id": "electrochemical_series",
       "level": 2,
       "progress": {
-        "current": 14,
-        "total": 70
+        "current": 15,
+        "total": 74
       },
       "messages": [
         {
@@ -490,7 +548,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh sabse neeche kaun hai sir? Sochta hoon sodium hoga?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -498,7 +556,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Zinc, Copper ko displace karega kyunki Zn ka E° zyada negative hai? Isliye ZnSO₄ solution mein copper nahi daalte — copper wahan react nahi karega?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -513,8 +571,8 @@
       "concept_id": "electrochemical_series",
       "level": 2,
       "progress": {
-        "current": 15,
-        "total": 70
+        "current": 16,
+        "total": 74
       },
       "guess_payload": {
         "question": "Ek plate of Copper ko Silver Nitrate (AgNO₃) solution mein daal diya. Kya reaction hogi?",
@@ -552,8 +610,8 @@
       "concept_id": "emf_formula",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 70
+        "current": 17,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Agar E°(Mg²⁺/Mg) = −2.37 V aur E°(Cu²⁺/Cu) = +0.34 V hai, toh Mg-Cu galvanic cell ka E°cell kya hoga?",
@@ -590,8 +648,8 @@
       "concept_id": "standard_hydrogen_electrode",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 70
+        "current": 18,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Standard Hydrogen Electrode (SHE) ke baare mein kaun sa statement SAHI hai? (BPSC Prelims pattern)",
@@ -628,8 +686,8 @@
       "concept_id": "electrochemical_series",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 70
+        "current": 19,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Electrochemical Series mein sabse neeche (most negative reduction potential) aur sabse upar (most positive) kaun hain? (SSC CGL & Railway direct fact)",
@@ -666,8 +724,8 @@
       "concept_id": "electrochemical_series",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 70
+        "current": 20,
+        "total": 74
       },
       "milestone_payload": {
         "title": "MODULE 2 COMPLETE! 📊",
@@ -689,8 +747,8 @@
       "concept_id": "nernst_equation",
       "level": 3,
       "progress": {
-        "current": 20,
-        "total": 70
+        "current": 21,
+        "total": 74
       },
       "messages": [
         {
@@ -699,7 +757,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, Nernst naam sun ke thoda dar lag raha hai — complicated hogi equation?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -707,7 +765,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Q ka matlab wahi hai jo Chemistry mein equilibrium mein seekha tha? Products over reactants? Aur log use karte hain ln nahi?"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -722,8 +780,8 @@
       "concept_id": "nernst_equation_deeper",
       "level": 3,
       "progress": {
-        "current": 21,
-        "total": 70
+        "current": 22,
+        "total": 74
       },
       "messages": [
         {
@@ -732,7 +790,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh agar Cu²⁺ concentration kam ho jaaye — Q badhega — aur E kamhogi? Matlab battery dhire dhire weak hoti jaati hai discharge hone par?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -740,7 +798,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Woah! E = 0 matlab battery dead. Aur tab Q = Kc? Toh E° se seedha Kc nikaal sakte hain?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -755,8 +813,8 @@
       "concept_id": "nernst_equilibrium_link",
       "level": 3,
       "progress": {
-        "current": 22,
-        "total": 70
+        "current": 23,
+        "total": 74
       },
       "messages": [
         {
@@ -765,7 +823,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur ΔG° se bhi Kc milta hai — ΔG° = −RT ln Kc. Toh teeno ek saath linked hain — E°, ΔG°, aur Kc?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -773,7 +831,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Positive E° → negative ΔG° → Kc > 1 → spontaneous. Ye to ek chain hai! Ek value se baaki sab nikal sakte hain. Ab concentration cell kya hota hai sir?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -788,8 +846,8 @@
       "concept_id": "nernst_equation",
       "level": 3,
       "progress": {
-        "current": 23,
-        "total": 70
+        "current": 24,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Daniel Cell mein E° = 1.10 V, n = 2. Agar [Zn²⁺] = 0.1 M aur [Cu²⁺] = 1.0 M ho, toh 298K par E kya hoga? (log(0.1) = −1)",
@@ -826,8 +884,8 @@
       "concept_id": "nernst_equilibrium_link",
       "level": 3,
       "progress": {
-        "current": 24,
-        "total": 70
+        "current": 25,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Ek galvanic cell ka E°cell = 0.591 V aur n = 2 hai. 298K par Equilibrium Constant (Kc) kya hoga?",
@@ -864,8 +922,8 @@
       "concept_id": "golden_triad",
       "level": 3,
       "progress": {
-        "current": 25,
-        "total": 70
+        "current": 26,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Golden Triad ke baare mein (E°, ΔG°, Kc) — BPSC multi-statement: I. ΔG° = −nFE°cell. II. Log Kc = nE°/0.0591 at 298K. III. Positive E° → ΔG° positive → Kc > 1. IV. Agar E°cell = 0 toh Kc = 1.",
@@ -902,8 +960,8 @@
       "concept_id": "nernst_equation",
       "level": 3,
       "progress": {
-        "current": 26,
-        "total": 70
+        "current": 27,
+        "total": 74
       },
       "milestone_payload": {
         "title": "MODULE 3 COMPLETE! 🧮",
@@ -925,13 +983,13 @@
       "concept_id": "conductance_basics",
       "level": 3,
       "progress": {
-        "current": 27,
-        "total": 70
+        "current": 28,
+        "total": 74
       },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, ek baar Mummy ne kaha tha — 'Nanga wire paani mein mat daalna, bijli maregi!' Matlab paani bijli conduct karta hai? Par pipe ka paani to nahi karta na?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -939,7 +997,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh conductance resistance ka ulta hai! Zyada conductance matlab zyada current flow. Aur specific conductance kya hota hai?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -958,8 +1016,8 @@
       "concept_id": "molar_conductance",
       "level": 3,
       "progress": {
-        "current": 28,
-        "total": 70
+        "current": 29,
+        "total": 74
       },
       "messages": [
         {
@@ -968,7 +1026,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye ulta kyun? κ ghatti aur Λm badhti — dono opposite! Exam mein ye pakka confuse karega!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -976,7 +1034,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wah sir! Classroom vs ground — perfect analogy! Toh infinite dilution par Λm maximum hogi — usiko Λ°m kehte hain? Strong aur weak electrolytes mein kya farq hai?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -991,8 +1049,8 @@
       "concept_id": "strong_weak_electrolytes",
       "level": 3,
       "progress": {
-        "current": 29,
-        "total": 70
+        "current": 30,
+        "total": 74
       },
       "messages": [
         {
@@ -1001,7 +1059,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur weak electrolytes jaise CH₃COOH (acetic acid)? Woh to partially dissociate karte hain?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1009,7 +1067,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Kohlrausch? Ye naam BPSC ke papers mein dekha tha main ne! Exactly kya kiya unhone?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1024,8 +1082,8 @@
       "concept_id": "kohlrausch_law",
       "level": 3,
       "progress": {
-        "current": 30,
-        "total": 70
+        "current": 31,
+        "total": 74
       },
       "messages": [
         {
@@ -1034,7 +1092,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye practically kaise kaam karta hai sir? Example do na?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1042,7 +1100,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Kitna smart! Strong wale se weak nikaalo — jaise ulti calculation! Aur α (dissociation degree) = Λm/Λ°m hoti hai? Iska Ka se bhi link hai kya?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1057,8 +1115,8 @@
       "concept_id": "molar_conductance",
       "level": 3,
       "progress": {
-        "current": 31,
-        "total": 70
+        "current": 32,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Dilution badhane par (concentration kam karne par) kya hoga? (BPSC / SSC favorite trap!)",
@@ -1095,8 +1153,8 @@
       "concept_id": "kohlrausch_law",
       "level": 3,
       "progress": {
-        "current": 32,
-        "total": 70
+        "current": 33,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Kohlrausch ka Law of Independent Migration of Ions kab diya gaya aur iska main use kya hai?",
@@ -1133,8 +1191,8 @@
       "concept_id": "strong_weak_electrolytes",
       "level": 3,
       "progress": {
-        "current": 33,
-        "total": 70
+        "current": 34,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Degree of dissociation α = Λm / Λ°m. Agar Acetic acid ki Λm = 7.8 S cm²/mol aur Λ°m = 390 S cm²/mol hai, toh α kya hai aur Ka ka formula kya hoga? (C = concentration)",
@@ -1171,8 +1229,8 @@
       "concept_id": "conductance_basics",
       "level": 3,
       "progress": {
-        "current": 34,
-        "total": 70
+        "current": 35,
+        "total": 74
       },
       "milestone_payload": {
         "title": "MODULE 4 COMPLETE! 🌊",
@@ -1194,13 +1252,13 @@
       "concept_id": "electrolysis_basics",
       "level": 4,
       "progress": {
-        "current": 35,
-        "total": 70
+        "current": 36,
+        "total": 74
       },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, meri cycle ki chain pe chrome jaisi coating hai — ye kaise aati hai? Koi factory mein kya karte hain exactly?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1208,7 +1266,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Salt bridge nahi! Ek hi solution mein dono? Aur Anode positive — ye galvanic se ulta hai. Reactions kya hoti hain?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1227,8 +1285,8 @@
       "concept_id": "faraday_first_law",
       "level": 4,
       "progress": {
-        "current": 36,
-        "total": 70
+        "current": 37,
+        "total": 74
       },
       "messages": [
         {
@@ -1237,7 +1295,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Z kya hai sir? Aur Q = I × t matlab current × time? Units kya hongi?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1245,7 +1303,7 @@
         },
         {
           "speaker": "raju",
-          "text": "96500 — Faraday constant! Ye to EMF wala F hi hai! Toh current × time = charge — aur usse mass niklo formula se. Second Law kya hai?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1260,8 +1318,8 @@
       "concept_id": "faraday_second_law",
       "level": 4,
       "progress": {
-        "current": 37,
-        "total": 70
+        "current": 38,
+        "total": 74
       },
       "messages": [
         {
@@ -1270,7 +1328,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Equivalent weight matlab molar mass divided by n? Cu ke liye kya hoga? Cu²⁺ mein n = 2 toh equivalent weight = 64/2 = 32?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1278,7 +1336,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ek Faraday se 32g Cu aur 108g Ag — toh Ag zyada deposit hoga same charge se? Kyunki iska n=1 hai! Equivalent weight mein difference hai. Ye trap toh pakka aayega exam mein!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1293,8 +1351,8 @@
       "concept_id": "faraday_first_law",
       "level": 4,
       "progress": {
-        "current": 38,
-        "total": 70
+        "current": 39,
+        "total": 74
       },
       "guess_payload": {
         "question": "AgNO₃ solution mein 2 A current 965 seconds ke liye pass kiya gaya. Ag ka atomic mass = 108, n = 1. F = 96500 C/mol. Cathode par kitna Ag deposit hoga?",
@@ -1332,8 +1390,8 @@
       "concept_id": "faraday_first_law",
       "level": 4,
       "progress": {
-        "current": 39,
-        "total": 70
+        "current": 40,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Faraday's First Law ke baare mein kaun se statements SAHI hain? I. m ∝ Q = I × t. II. Z = M/(nF) — electrochemical equivalent. III. 1 Faraday = 96500 C = charge of 1 mole electrons. IV. Mass deposited temperature par depend karta hai.",
@@ -1370,8 +1428,8 @@
       "concept_id": "faraday_second_law",
       "level": 4,
       "progress": {
-        "current": 40,
-        "total": 70
+        "current": 41,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Same charge pass karne par Cu (n=2, M=64) aur Ag (n=1, M=108) ka mass ratio kya hoga? (Faraday Second Law)",
@@ -1408,8 +1466,8 @@
       "concept_id": "electrolysis_basics",
       "level": 4,
       "progress": {
-        "current": 41,
-        "total": 70
+        "current": 42,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Electrolytic cell mein Anode positive (+) hota hai. Phir bhi kaun si reaction hoti hai wahan? (Classic BPSC Assertion-Reason trap!)",
@@ -1446,8 +1504,8 @@
       "concept_id": "faraday_laws",
       "level": 4,
       "progress": {
-        "current": 42,
-        "total": 70
+        "current": 43,
+        "total": 74
       },
       "milestone_payload": {
         "title": "MODULE 5 COMPLETE! ⚗️",
@@ -1469,13 +1527,13 @@
       "concept_id": "dry_cell",
       "level": 4,
       "progress": {
-        "current": 43,
-        "total": 70
+        "current": 44,
+        "total": 74
       },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, remote mein jo batteries hain — AA size — wo kaunsi hoti hain? Inhe charge kyun nahi kar sakte?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1483,7 +1541,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Electrolyte paste hai! Isliye dry cell! Par charge kyun nahi kar sakte?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1502,8 +1560,8 @@
       "concept_id": "lead_storage_battery",
       "level": 4,
       "progress": {
-        "current": 44,
-        "total": 70
+        "current": 45,
+        "total": 74
       },
       "messages": [
         {
@@ -1512,7 +1570,7 @@
         },
         {
           "speaker": "raju",
-          "text": "6 × 2 = 12 V! Aur ye recharge ho sakti hai kyunki reaction reversible hai? Discharge mein kya hota hai exactly?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1520,7 +1578,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Dono electrodes discharge mein PbSO₄! Toh pehchano kaise ki kaun si side kaun hai jab discharged ho? Charging mein reverse hoti hai — smart engineering!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1535,8 +1593,8 @@
       "concept_id": "fuel_cell",
       "level": 4,
       "progress": {
-        "current": 45,
-        "total": 70
+        "current": 46,
+        "total": 74
       },
       "messages": [
         {
@@ -1545,7 +1603,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sirf paani! Ye to environment ke liye perfect hai! Aur NASA wala bhi isi se chalte the na sir?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1553,7 +1611,7 @@
         },
         {
           "speaker": "raju",
-          "text": "KOH electrolyte — H₂SO₄ nahi! Ye bhi ek trap hoga — dry cell mein NH₄Cl, Lead battery mein H₂SO₄, fuel cell mein KOH. Teeno alag!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -1568,8 +1626,8 @@
       "concept_id": "commercial_cells",
       "level": 4,
       "progress": {
-        "current": 46,
-        "total": 70
+        "current": 47,
+        "total": 74
       },
       "guess_payload": {
         "question": "Match karo — Electrolyte kaun sa cell mein kya hai? Ye BPSC ka classic mixing trap hai! NH₄Cl paste / H₂SO₄ (38%) / KOH solution — inhe match karo: Dry Cell, Lead Storage, Fuel Cell.",
@@ -1607,8 +1665,8 @@
       "concept_id": "lead_storage_battery",
       "level": 4,
       "progress": {
-        "current": 47,
-        "total": 70
+        "current": 48,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Lead Storage Battery discharge hone par kaun se statements SAHI hain? I. Dono electrodes par PbSO₄ banta hai. II. H₂SO₄ ki concentration badhti hai. III. Solution ki density ghatti hai. IV. Charging par PbSO₄ wapas Pb aur PbO₂ mein convert hota hai.",
@@ -1645,8 +1703,8 @@
       "concept_id": "fuel_cell",
       "level": 4,
       "progress": {
-        "current": 48,
-        "total": 70
+        "current": 49,
+        "total": 74
       },
       "quiz_payload": {
         "question": "H₂-O₂ Fuel Cell ke baare mein BPSC/UPSC multi-statement: I. Byproduct = water only. II. Electrolyte = KOH solution. III. Efficiency ≈ 70%. IV. Ye primary cell hai — ek baar discharge hone par recharge nahi hota.",
@@ -1683,8 +1741,8 @@
       "concept_id": "dry_cell",
       "level": 4,
       "progress": {
-        "current": 49,
-        "total": 70
+        "current": 50,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Dry Cell (Leclanché Cell) ke baare mein kaun sa statement SAHI hai?",
@@ -1721,8 +1779,8 @@
       "concept_id": "commercial_cells",
       "level": 4,
       "progress": {
-        "current": 50,
-        "total": 70
+        "current": 51,
+        "total": 74
       },
       "milestone_payload": {
         "title": "MODULE 6 COMPLETE! 🔋",
@@ -1744,13 +1802,13 @@
       "concept_id": "corrosion_basics",
       "level": 5,
       "progress": {
-        "current": 51,
-        "total": 70
+        "current": 52,
+        "total": 74
       },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, hamare ghar ki iron railing pe lal-bhoori coating aa gayi hai — Mummy badi pareshan hain. Ye kya hai aur kyon hota hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1758,7 +1816,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Iron khud galvanic cell ban jaata hai? Toh rust ke liye kya kya chahiye — sirf hawa ya paani bhi?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1777,8 +1835,8 @@
       "concept_id": "corrosion_mechanism",
       "level": 5,
       "progress": {
-        "current": 52,
-        "total": 70
+        "current": 53,
+        "total": 74
       },
       "messages": [
         {
@@ -1787,7 +1845,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Iron itself wire ka kaam karta hai! Toh agar iron par koi dusri metal ho — jaise copper rivet — kya ye corrosion aur tez karta hai?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1795,7 +1853,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wah! Alag metals contact mein — wahan corrosion aur zyada! Toh kaise rokein ise? Galvanization kya hoti hai exactly?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1810,8 +1868,8 @@
       "concept_id": "corrosion_prevention",
       "level": 5,
       "progress": {
-        "current": 53,
-        "total": 70
+        "current": 54,
+        "total": 74
       },
       "messages": [
         {
@@ -1820,7 +1878,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Galvanization mein zinc coat? Toh zinc apni jaaan deke iron bachaata hai? Isse 'Sacrificial' kyun kehte?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1839,8 +1897,8 @@
       "concept_id": "corrosion_prevention",
       "level": 5,
       "progress": {
-        "current": 54,
-        "total": 70
+        "current": 55,
+        "total": 74
       },
       "guess_payload": {
         "question": "Underground iron pipelines ko corrosion se bachane ke liye kaunsa method sabse effective hai aur kyun?",
@@ -1878,8 +1936,8 @@
       "concept_id": "corrosion_basics",
       "level": 5,
       "progress": {
-        "current": 55,
-        "total": 70
+        "current": 56,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Rust ka sahi chemical formula kya hai aur iske liye kya conditions zaroori hain?",
@@ -1916,8 +1974,8 @@
       "concept_id": "corrosion_prevention",
       "level": 5,
       "progress": {
-        "current": 56,
-        "total": 70
+        "current": 57,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Galvanization mein Zinc use karne ki exact scientific reason kya hai? (BPSC Prelims favorite)",
@@ -1954,8 +2012,8 @@
       "concept_id": "corrosion_mechanism",
       "level": 5,
       "progress": {
-        "current": 57,
-        "total": 70
+        "current": 58,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Corrosion ke baare mein BPSC multi-statement: I. Iron rust ke liye O₂ aur H₂O dono zaroori hain. II. Corrosion ek electrochemical process hai jisme iron anode banta hai. III. Coastal areas mein corrosion tez hoti hai kyunki NaCl conductivity badhata hai. IV. Copper pipe iron se zyada corrode karta hai.",
@@ -1992,8 +2050,8 @@
       "concept_id": "corrosion_basics",
       "level": 5,
       "progress": {
-        "current": 58,
-        "total": 70
+        "current": 59,
+        "total": 74
       },
       "milestone_payload": {
         "title": "MODULE 7 COMPLETE! 🛡️",
@@ -2015,8 +2073,8 @@
       "concept_id": "electroplating",
       "level": 5,
       "progress": {
-        "current": 59,
-        "total": 70
+        "current": 60,
+        "total": 74
       },
       "messages": [
         {
@@ -2025,7 +2083,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh gold plating mein gold anode hoga, object cathode? Gold dissolves from anode, deposits on cathode (object)?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -2033,7 +2091,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh cycle chain pe chrome coating — chrome anode se aaya! Ab Chlor-Alkali process kya hai sir? Industrial level pe?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -2048,8 +2106,8 @@
       "concept_id": "chlor_alkali_process",
       "level": 5,
       "progress": {
-        "current": 60,
-        "total": 70
+        "current": 61,
+        "total": 74
       },
       "messages": [
         {
@@ -2058,7 +2116,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Teeno useful products! Cl₂ kahan use hota hai? H₂ kahan? NaOH kahan?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -2077,8 +2135,8 @@
       "concept_id": "hall_heroult_process",
       "level": 5,
       "progress": {
-        "current": 61,
-        "total": 70
+        "current": 62,
+        "total": 74
       },
       "messages": [
         {
@@ -2087,7 +2145,7 @@
         },
         {
           "speaker": "raju",
-          "text": "1886 — dono ne ek saath! Process mein kya hota hai sir exactly?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -2095,7 +2153,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Cryolite melting point kam karta hai — ye engineering trick! Aur anode consume hota hai carbon se! Exam mein ye bhi poocha jaata hoga kya anode material?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -2110,8 +2168,8 @@
       "concept_id": "hall_heroult_process",
       "level": 5,
       "progress": {
-        "current": 62,
-        "total": 70
+        "current": 63,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Hall-Héroult Process ke baare mein BPSC/UPSC multi-statement: I. 1886 mein Hall (USA) aur Héroult (France) ne independently discover kiya. II. Al₂O₃ ko Cryolite mein dissolve karte hain melting point kam karne ke liye. III. Aluminum cathode par deposit hota hai. IV. Anode material = gold (inert electrode).",
@@ -2148,8 +2206,8 @@
       "concept_id": "electroplating",
       "level": 5,
       "progress": {
-        "current": 63,
-        "total": 70
+        "current": 64,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Electroplating mein object (jis par plating karni hai) kaunsa electrode hota hai aur kyon?",
@@ -2186,8 +2244,8 @@
       "concept_id": "chlor_alkali_process",
       "level": 5,
       "progress": {
-        "current": 64,
-        "total": 70
+        "current": 65,
+        "total": 74
       },
       "quiz_payload": {
         "question": "Chlor-Alkali Process mein NaCl brine ke electrolysis par kaun ke products milte hain?",
@@ -2224,8 +2282,8 @@
       "concept_id": "electroplating",
       "level": 5,
       "progress": {
-        "current": 65,
-        "total": 70
+        "current": 66,
+        "total": 74
       },
       "milestone_payload": {
         "title": "MODULE 8 COMPLETE! 🏭",
@@ -2236,8 +2294,122 @@
         "motivational_quote": "Sab 8 modules clear! Ab Officer Revision aur Final Boss Quiz! Ye marks seedhe BPSC/NEET mein jaenge! 🎯"
       },
       "navigation": {
-        "next": "card_66_summary",
+        "next": "card_applied_case_01",
         "button_text": "Officer Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Applied case 1: Steel spoon par silver ki patli layer chadhani hai. Electroplating mein spoon ko aam taur par kis electrode par rakhenge?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cathode"
+          },
+          {
+            "id": "B",
+            "text": "Anode"
+          },
+          {
+            "id": "C",
+            "text": "Battery ka glass"
+          },
+          {
+            "id": "D",
+            "text": "Salt bridge only"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Metal ions cathode par electrons lekar deposit hote hain; isliye jis object ko coat karna hai use cathode banate hain."
+      },
+      "progress": {
+        "current": 67,
+        "total": 74
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 2: Phone battery se current nikalte waqt stored chemical energy kis form mein milti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Electrical energy"
+          },
+          {
+            "id": "B",
+            "text": "Sound only"
+          },
+          {
+            "id": "C",
+            "text": "Nuclear energy"
+          },
+          {
+            "id": "D",
+            "text": "No energy"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Battery ke redox reactions chemical energy ko electrical energy mein convert karte hain."
+      },
+      "progress": {
+        "current": 68,
+        "total": 74
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 3: Iron nail ko paani aur hawa dono milte hain. Kuch din baad rust dikhta hai. Corrosion rokne ka ek practical tareeka?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Paint/coating se water aur oxygen ka contact kam karna"
+          },
+          {
+            "id": "B",
+            "text": "Nail ko aur geela karna"
+          },
+          {
+            "id": "C",
+            "text": "Salt daalna"
+          },
+          {
+            "id": "D",
+            "text": "Nail ko scratch karna"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Paint ya protective coating iron ko moisture/oxygen se alag rakhti hai aur rusting slow karti hai."
+      },
+      "progress": {
+        "current": 69,
+        "total": 74
+      },
+      "navigation": {
+        "next": "card_66_summary",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2247,8 +2419,8 @@
       "concept_id": "electrochemistry_complete_revision",
       "level": 5,
       "progress": {
-        "current": 66,
-        "total": 70
+        "current": 70,
+        "total": 74
       },
       "summary_payload": {
         "title": "⚡ Officer Revision — Electrochemistry Complete",
@@ -2287,8 +2459,8 @@
       "concept_id": "bpsc_assertion_reason",
       "level": 5,
       "progress": {
-        "current": 67,
-        "total": 70
+        "current": 71,
+        "total": 74
       },
       "quiz_payload": {
         "question": "BPSC ASSERTION-REASON FORMAT: Assertion (A): Galvanic cell mein Anode par electrons ka accumulation hota hai isliye ye negative terminal hota hai. Reason (R): Anode par oxidation hoti hai jisme electrons produce hote hain (OIL = Oxidation Is Loss of electrons). Dono statements correct hain aur R, A ki sahi explanation hai — ye sahi hai kya?",
@@ -2325,8 +2497,8 @@
       "concept_id": "bpsc_multi_statement",
       "level": 5,
       "progress": {
-        "current": 68,
-        "total": 70
+        "current": 72,
+        "total": 74
       },
       "quiz_payload": {
         "question": "BPSC/UPSC MASTER MULTI-STATEMENT: Electrochemistry ke baare mein kaun se statements BILKUL SAHI hain? I. Nernst equation: E = E° − (0.0591/n)log Q at 298K. II. Hall-Héroult process 1886 mein Hall (USA) aur Héroult (France) ne independently discover kiya — Al extraction ke liye. III. Faraday's Laws 1833-34 mein diye gaye. IV. Kohlrausch Law 1876 mein diya gaya — strong electrolytes ki Λ°m ke liye. V. Lead Storage Battery discharge mein dono electrodes PbSO₄ bante hain aur H₂SO₄ concentration BADHTI hai.",
@@ -2363,8 +2535,8 @@
       "concept_id": "neet_upsc_advanced",
       "level": 5,
       "progress": {
-        "current": 69,
-        "total": 70
+        "current": 73,
+        "total": 74
       },
       "quiz_payload": {
         "question": "NEET/UPSC ADVANCED: Ek cell: Zn|Zn²⁺(0.01M)||Cu²⁺(1.0M)|Cu. E°cell = 1.10V, n=2, 298K. Nernst equation se E kya hoga? (log(0.01/1.0) = log(0.01) = −2)",
@@ -2401,8 +2573,8 @@
       "concept_id": "electrochemistry_complete",
       "level": 5,
       "progress": {
-        "current": 70,
-        "total": 70
+        "current": 74,
+        "total": 74
       },
       "milestone_payload": {
         "title": "🏆 ELECTROCHEMISTRY OFFICER CERTIFIED! 🏆",

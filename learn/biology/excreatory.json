@@ -1,8 +1,17 @@
 {
   "topic_id": "human_excretory_system_complete",
   "topic_title": "Excretory System (उत्सर्जन तंत्र)",
-  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "BPSC TRE", "UPSC Prelims"],
-  "total_cards": 100,
+  "target_exams": [
+    "BPSC",
+    "BSSC",
+    "RRB NTPC",
+    "SSC CGL",
+    "NEET",
+    "BPSC TRE",
+    "UPSC Prelims",
+    "RRB Group D"
+  ],
+  "total_cards": 104,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -24,7 +33,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 100
+        "total": 104
       },
       "intro_payload": {
         "title": "Human Excretory System (मानव उत्सर्जन तंत्र)",
@@ -35,12 +44,70 @@
           "Ammonotelic, Ureotelic, aur Uricotelic organisms ke scientific exceptions",
           "Invertebrate Excretory Structures (Flame cells, Nephridia, Malpighian tubules)",
           "Human Kidney Anatomy, Layers, Renal Fascia, Capsule, aur Peritoneal position",
-          "Nephron Architecture: Cortical vs Juxtamedullary Nephrons, Podocytes, aur Filtration Slits"
+          "Nephron Architecture: Cortical vs Juxtamedullary Nephrons, Podocytes, aur Filtration Slits",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
         ]
       },
       "navigation": {
-        "next": "card_02_waste_origin",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning ➔"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 104
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Human excretory system blood se kuch waste aur extra paani hata kar urine banata hai. Kidney filter ka kaam karti hai; urine tubes se bladder tak jaata hai aur phir body se bahar nikalta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, isi baat par dhyan deta hoon."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_waste_origin",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -50,8 +117,8 @@
       "concept_id": "concept_excretion_definition",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 100
+        "current": 3,
+        "total": 104
       },
       "messages": [
         {
@@ -60,7 +127,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, subah-subah jo hum fresh hote hain (stool pass karte hain), wahi to sara kachra bahar nikal deta hai na body se?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -68,7 +135,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Dono alag hain? To fir scientific [[Excretion | Cells ke andar chemical reactions se bane metabolic poisonous wastes jaise Urea, Uric Acid aur Ammonia ko nikalna]] exact kya hota hai sir?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -83,8 +150,8 @@
       "concept_id": "concept_nitrogenous_wastes",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 100
+        "current": 4,
+        "total": 104
       },
       "messages": [
         {
@@ -93,7 +160,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaa! Matlab carbohydrates aur fats ke jalne se jo CO2 aur Paani banta hai, wo alag hai aur protein se bana nitrogenous waste alag?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -101,7 +168,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Ammonia sabse khatarnak zahar hai! To fir nature sabhi janwaron me ek jaisa waste kyu nahi banati sir?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -116,8 +183,8 @@
       "concept_id": "concept_water_toxicity_tradeoff",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 100
+        "current": 5,
+        "total": 104
       },
       "messages": [
         {
@@ -126,7 +193,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Arey baap re! Agar hum insan Ammonia nikalne lage, to hume din bhar me 50 litre paani peena padega!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -134,7 +201,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya sir! Jiske paas jitna kam paani, wo utna kam toxic waste banayega!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -149,16 +216,28 @@
       "concept_id": "concept_ammonotelic_animals",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 100
+        "current": 6,
+        "total": 104
       },
       "quiz_payload": {
         "question": "NCERT/BPSC Drill: Ek Tadpole (medhak ka bachha) paani me rehta hai aur adult Frog zameen par. Tadpole ka main excretory waste kya hona chahiye?",
         "options": [
-          { "id": "A", "text": "Uric Acid (paani bachane ke liye)" },
-          { "id": "B", "text": "Ammonia (Kyunki paani ki koi kami nahi hai)" },
-          { "id": "C", "text": "Urea (Adult frog ki tarah)" },
-          { "id": "D", "text": "Guanine" }
+          {
+            "id": "A",
+            "text": "Uric Acid (paani bachane ke liye)"
+          },
+          {
+            "id": "B",
+            "text": "Ammonia (Kyunki paani ki koi kami nahi hai)"
+          },
+          {
+            "id": "C",
+            "text": "Urea (Adult frog ki tarah)"
+          },
+          {
+            "id": "D",
+            "text": "Guanine"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Tadpole aquatic hota hai isiliye wo Ammonotelic hota hai aur gills se direct ammonia diffuse karta hai. Adult frog zameen par aane ke baad Ureotelic ban jata hai (Urea nikalta hai). Ye standard exam trap hai!"
@@ -175,16 +254,28 @@
       "concept_id": "concept_nitrogenous_wastes",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 100
+        "current": 7,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Nitrogenous wastes ki toxicity (vishakt-ta) ka ghat-ta hua (decreasing) sahi kram kaun sa hai? (Railway RRB / SSC CGL)",
         "options": [
-          { "id": "A", "text": "Uric Acid > Urea > Ammonia" },
-          { "id": "B", "text": "Ammonia > Uric Acid > Urea" },
-          { "id": "C", "text": "Ammonia > Urea > Uric Acid" },
-          { "id": "D", "text": "Urea > Ammonia > Uric Acid" }
+          {
+            "id": "A",
+            "text": "Uric Acid > Urea > Ammonia"
+          },
+          {
+            "id": "B",
+            "text": "Ammonia > Uric Acid > Urea"
+          },
+          {
+            "id": "C",
+            "text": "Ammonia > Urea > Uric Acid"
+          },
+          {
+            "id": "D",
+            "text": "Urea > Ammonia > Uric Acid"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Ammonia sabse zyada toxic hota hai jise maximum paani chahiye, uske baad Urea medium toxic hai, aur Uric Acid sabse kam toxic hota hai jise least water chahiye."
@@ -201,16 +292,28 @@
       "concept_id": "concept_excretion_definition",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 100
+        "current": 8,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Metabolic Excretion aur Egestion (Defecation) ke sandarbh me satya kathan chuniye: (BPSC / UPSC Prelims Level)",
         "options": [
-          { "id": "A", "text": "Dono processes me blood se filter hua kachra bahar nikalta hai." },
-          { "id": "B", "text": "Egestion digestive waste (undigested food) ka nikalna hai jabki Excretion cellular metabolism se bane toxic waste ka nikalna hai." },
-          { "id": "C", "text": "Stool me main metabolic waste urea hota hai." },
-          { "id": "D", "text": "Kidney egestion aur defecation dono ko control karti hai." }
+          {
+            "id": "A",
+            "text": "Dono processes me blood se filter hua kachra bahar nikalta hai."
+          },
+          {
+            "id": "B",
+            "text": "Egestion digestive waste (undigested food) ka nikalna hai jabki Excretion cellular metabolism se bane toxic waste ka nikalna hai."
+          },
+          {
+            "id": "C",
+            "text": "Stool me main metabolic waste urea hota hai."
+          },
+          {
+            "id": "D",
+            "text": "Kidney egestion aur defecation dono ko control karti hai."
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Egestion digestive tract se bina pache bhojan ko nikalna hai. Excretion ka matlab hai cellular biochemical reactions se bane nitrogenous kachre ko blood se filter karke bahar nikalna."
@@ -227,16 +330,28 @@
       "concept_id": "concept_ammonotelic_animals",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 100
+        "current": 9,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Favorite: Inme se kaun sa biological group 'Uricotelic' (Uric Acid utsarjan karne wala) hai?",
         "options": [
-          { "id": "A", "text": "Manushya, Whale aur Frog" },
-          { "id": "B", "text": "Bony fishes, Aquatic amphibians aur Amoeba" },
-          { "id": "C", "text": "Pakshi (Birds), Rengne wale jeev (Reptiles) aur Keede (Insects)" },
-          { "id": "D", "text": "Marine Cartilaginous Sharks aur Rays" }
+          {
+            "id": "A",
+            "text": "Manushya, Whale aur Frog"
+          },
+          {
+            "id": "B",
+            "text": "Bony fishes, Aquatic amphibians aur Amoeba"
+          },
+          {
+            "id": "C",
+            "text": "Pakshi (Birds), Rengne wale jeev (Reptiles) aur Keede (Insects)"
+          },
+          {
+            "id": "D",
+            "text": "Marine Cartilaginous Sharks aur Rays"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Birds, Land Reptiles (Lizards, Snakes), Insects aur Land Snails paani bachane ke liye Uric Acid ko paste ya pellet ke roop me nikalte hain. Inhe Uricotelic organisms kehte hain."
@@ -253,8 +368,8 @@
       "concept_id": "concept_milestone_waste_types",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 100
+        "current": 10,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 1 COMPLETED!",
@@ -276,8 +391,8 @@
       "concept_id": "concept_ornithine_cycle",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 100
+        "current": 11,
+        "total": 104
       },
       "messages": [
         {
@@ -286,7 +401,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Obviously sir! Kidney hi to excretory organ hai, to urea wahi banata hoga na?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -294,7 +409,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Baap re! Matlab Liver urea banata hai, blood me bhejta hai, aur Kidney usko chaan kar peshab banati hai!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -309,8 +424,8 @@
       "concept_id": "concept_blood_vessel_urea_levels",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 100
+        "current": 12,
+        "total": 104
       },
       "messages": [
         {
@@ -319,7 +434,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, logic lagayein to Liver ne abhi-abhi urea banaya, to Liver se nikalne wali vein me sabse zyada hona chahiye?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -327,7 +442,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Superb trick sir! Liver se nikalne wali nas me Maximum, aur Kidney se nikalne wali me Minimum!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -342,8 +457,8 @@
       "concept_id": "concept_invertebrate_organs",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 100
+        "current": 13,
+        "total": 104
       },
       "messages": [
         {
@@ -352,7 +467,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Jaise Cockroach aur Earthworm me kya hota hai sir? Exam me match the column aata hai iska!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -360,7 +475,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur Prawn (Jhinga machhli) me sir? Wo to pani me rehta hai!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -375,8 +490,8 @@
       "concept_id": "concept_antennal_coxal_glands",
       "level": 1,
       "progress": {
-        "current": 13,
-        "total": 100
+        "current": 14,
+        "total": 104
       },
       "messages": [
         {
@@ -385,7 +500,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, ye to ekdum factual goldmine hai! SSC aur Railway me Green Glands aur Flame Cells har saal poochte hain!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -393,7 +508,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Is pure table ko main mind me lock kar leta hoon sir, chaliye test lijiye!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -408,16 +523,28 @@
       "concept_id": "concept_invertebrate_organs",
       "level": 1,
       "progress": {
-        "current": 14,
-        "total": 100
+        "current": 15,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Planaria aur Taenia solium (Flatworms) me excretion aur osmoregulation ka mukhya ang kaun sa hai? (SSC CGL / Railway Group D)",
         "options": [
-          { "id": "A", "text": "Nephridia" },
-          { "id": "B", "text": "Flame Cells (Protonephridia / Jwala Koshikayein)" },
-          { "id": "C", "text": "Malpighian tubules" },
-          { "id": "D", "text": "Green Glands" }
+          {
+            "id": "A",
+            "text": "Nephridia"
+          },
+          {
+            "id": "B",
+            "text": "Flame Cells (Protonephridia / Jwala Koshikayein)"
+          },
+          {
+            "id": "C",
+            "text": "Malpighian tubules"
+          },
+          {
+            "id": "D",
+            "text": "Green Glands"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Flatworms (Platyhelminthes) jaise Planaria me Protonephridia ya Flame cells payi jaati hain, jinka main function ionic aur osmotic balance banaye rakhna tatha excretion karna hai."
@@ -434,16 +561,28 @@
       "concept_id": "concept_blood_vessel_urea_levels",
       "level": 1,
       "progress": {
-        "current": 15,
-        "total": 100
+        "current": 16,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Manav sharir ki kis rakt vahika (blood vessel) me Urea ki matra sarvadhik (maximum) hoti hai? (BPSC / NEET PYQ)",
         "options": [
-          { "id": "A", "text": "Renal Artery (Vrikkya Dhamani)" },
-          { "id": "B", "text": "Renal Vein (Vrikkya Sira)" },
-          { "id": "C", "text": "Hepatic Vein (Yakrit Sira)" },
-          { "id": "D", "text": "Hepatic Portal Vein" }
+          {
+            "id": "A",
+            "text": "Renal Artery (Vrikkya Dhamani)"
+          },
+          {
+            "id": "B",
+            "text": "Renal Vein (Vrikkya Sira)"
+          },
+          {
+            "id": "C",
+            "text": "Hepatic Vein (Yakrit Sira)"
+          },
+          {
+            "id": "D",
+            "text": "Hepatic Portal Vein"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Urea ka nirmaan Liver me Ornithine cycle dwara hota hai, isiliye Liver se blood bahar le jane wali Hepatic Vein me urea concentration sabse zyada hoti hai. Kidney se nikalne wali Renal Vein me least hoti hai."
@@ -460,16 +599,28 @@
       "concept_id": "concept_antennal_coxal_glands",
       "level": 1,
       "progress": {
-        "current": 16,
-        "total": 100
+        "current": 17,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE / SSC: Prawns (Jhinga) me excretory function kiske dwara sampann hota hai?",
         "options": [
-          { "id": "A", "text": "Malpighian tubules" },
-          { "id": "B", "text": "Green Glands (Antennal Glands)" },
-          { "id": "C", "text": "Coxal Glands" },
-          { "id": "D", "text": "Nephridia" }
+          {
+            "id": "A",
+            "text": "Malpighian tubules"
+          },
+          {
+            "id": "B",
+            "text": "Green Glands (Antennal Glands)"
+          },
+          {
+            "id": "C",
+            "text": "Coxal Glands"
+          },
+          {
+            "id": "D",
+            "text": "Nephridia"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Crustaceans jaise Prawn me Antennary glands ya Green Glands excretory organ ka kaam karti hain jo cephalothorax me antennas ke base par located hoti hain."
@@ -486,8 +637,8 @@
       "concept_id": "concept_milestone_organs_cleared",
       "level": 1,
       "progress": {
-        "current": 17,
-        "total": 100
+        "current": 18,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 2 UNLOCKED!",
@@ -509,8 +660,8 @@
       "concept_id": "concept_kidney_gross_location",
       "level": 1,
       "progress": {
-        "current": 18,
-        "total": 100
+        "current": 19,
+        "total": 104
       },
       "messages": [
         {
@@ -519,15 +670,15 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, Kidney hamare pet (abdomen) me aage hoti hai ya peeth ki taraf peeche?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
-          "text": "Excellent question! Hamari kidney peeth ki taraf dorsal inner abdominal wall par located hoti hai between [[T12 to L3 Vertebrae | Last Thoracic (T12) aur Third Lumbar (L3) reedh ki haddi ke beech ka sthan]]."
+          "text": "Chaliye, is baat ko seedhe samajhte hain. Hamari kidney peeth ki taraf dorsal inner abdominal wall par located hoti hai between [[T12 to L3 Vertebrae | Last Thoracic (T12) aur Third Lumbar (L3) reedh ki haddi ke beech ka sthan]]."
         },
         {
           "speaker": "raju",
-          "text": "Aur sir, dono kidneys bilkul ek barabar unchai par hoti hain kya?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -542,8 +693,8 @@
       "concept_id": "concept_kidney_asymmetry_position",
       "level": 1,
       "progress": {
-        "current": 19,
-        "total": 100
+        "current": 20,
+        "total": 104
       },
       "messages": [
         {
@@ -552,7 +703,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Liver right me space gher leta hai isliye right kidney thoda neeche shift ho jati hai!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -560,7 +711,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Retroperitoneal matlab peritoneum cavity ke peeche! Ye term medical aur BPSC dono me bohot aati hai sir!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -575,8 +726,8 @@
       "concept_id": "concept_kidney_dimensions_hilum",
       "level": 1,
       "progress": {
-        "current": 20,
-        "total": 100
+        "current": 21,
+        "total": 104
       },
       "messages": [
         {
@@ -585,7 +736,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur kidney ke andar khoon ki naliyan ghusne ka koi main darwaza hota hai kya?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -593,7 +744,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Hilum entry gate hai aur Renal Pelvis funnel/piping system!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -608,8 +759,8 @@
       "concept_id": "concept_kidney_protective_coverings",
       "level": 1,
       "progress": {
-        "current": 21,
-        "total": 100
+        "current": 22,
+        "total": 104
       },
       "messages": [
         {
@@ -618,7 +769,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab beech me fat ki gaddi (cushion) hoti hai taaki koi peeth par mukka mare to kidney damage na ho!"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -626,7 +777,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Cortex Bahar, Medulla Andar! Got it sir, lets do the questions!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -641,16 +792,28 @@
       "concept_id": "concept_kidney_gross_location",
       "level": 1,
       "progress": {
-        "current": 22,
-        "total": 100
+        "current": 23,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Manav Kidney reedh ki haddi (vertebral column) ke kin levels ke beech sthit hoti hai? (NCERT Class 11 / NEET / BPSC)",
         "options": [
-          { "id": "A", "text": "C1 se T12" },
-          { "id": "B", "text": "T12 (Last Thoracic) se L3 (Third Lumbar)" },
-          { "id": "C", "text": "T1 se T10" },
-          { "id": "D", "text": "L1 se S5" }
+          {
+            "id": "A",
+            "text": "C1 se T12"
+          },
+          {
+            "id": "B",
+            "text": "T12 (Last Thoracic) se L3 (Third Lumbar)"
+          },
+          {
+            "id": "C",
+            "text": "T1 se T10"
+          },
+          {
+            "id": "D",
+            "text": "L1 se S5"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Human kidneys abdominal cavity me dorsal body wall ke paas Last Thoracic vertebra (T12) aur Third Lumbar vertebra (L3) ke beech sthit hoti hain."
@@ -667,16 +830,28 @@
       "concept_id": "concept_kidney_dimensions_hilum",
       "level": 1,
       "progress": {
-        "current": 23,
-        "total": 100
+        "current": 24,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Kidney ke madhya-bhitari (inner medial) kinare par sthit gaddha (notch) jahan se blood vessels aur ureter pravesh karte hain, kya kehlata hai?",
         "options": [
-          { "id": "A", "text": "Renal Pelvis" },
-          { "id": "B", "text": "Hilum (ya Hilus)" },
-          { "id": "C", "text": "Calyx" },
-          { "id": "D", "text": "Medullary Pyramid" }
+          {
+            "id": "A",
+            "text": "Renal Pelvis"
+          },
+          {
+            "id": "B",
+            "text": "Hilum (ya Hilus)"
+          },
+          {
+            "id": "C",
+            "text": "Calyx"
+          },
+          {
+            "id": "D",
+            "text": "Medullary Pyramid"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Kidney ke concave border par sthit notch ko Hilum kehte hain. Hilum ke andar funnel-shaped space ko Renal Pelvis kaha jata hai."
@@ -693,16 +868,28 @@
       "concept_id": "concept_kidney_asymmetry_position",
       "level": 1,
       "progress": {
-        "current": 24,
-        "total": 100
+        "current": 25,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC / UPSC Drill: Manav kidney ko 'Retroperitoneal' kyu kaha jata hai?",
         "options": [
-          { "id": "A", "text": "Kyunki ye chest cavity me dil ke peeche hoti hai." },
-          { "id": "B", "text": "Kyunki ye Peritoneum jhillli ke peeche sthit hoti hai aur sirf aage se peritonial membrane se cover hoti hai." },
-          { "id": "C", "text": "Kyunki isme urine ulta flow karta hai." },
-          { "id": "D", "text": "Kyunki ye pelvis ke andar band hoti hai." }
+          {
+            "id": "A",
+            "text": "Kyunki ye chest cavity me dil ke peeche hoti hai."
+          },
+          {
+            "id": "B",
+            "text": "Kyunki ye Peritoneum jhillli ke peeche sthit hoti hai aur sirf aage se peritonial membrane se cover hoti hai."
+          },
+          {
+            "id": "C",
+            "text": "Kyunki isme urine ulta flow karta hai."
+          },
+          {
+            "id": "D",
+            "text": "Kyunki ye pelvis ke andar band hoti hai."
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Retroperitoneal ang wo hote hain jo abdominal cavity me Peritoneum membrane ke peeche hote hain. Kidneys, pancreas ka hissa aur duodenum retroperitoneal hote hain."
@@ -719,8 +906,8 @@
       "concept_id": "concept_milestone_anatomy_cleared",
       "level": 1,
       "progress": {
-        "current": 25,
-        "total": 100
+        "current": 26,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 3 CONQUERED!",
@@ -742,8 +929,8 @@
       "concept_id": "concept_columns_of_bertini",
       "level": 1,
       "progress": {
-        "current": 26,
-        "total": 100
+        "current": 27,
+        "total": 104
       },
       "messages": [
         {
@@ -752,7 +939,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur do pyramids ke beech me jo Cortex ka tissue andar ghus jata hai, use kya bolte hain sir?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -760,7 +947,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Acha! Bertini ke stambh (Columns of Bertini) cortex ke extension hain jo pyramids ke beech rasta banate hain!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -775,8 +962,8 @@
       "concept_id": "concept_calyx_papilla_pathway",
       "level": 1,
       "progress": {
-        "current": 27,
-        "total": 100
+        "current": 28,
+        "total": 104
       },
       "messages": [
         {
@@ -785,7 +972,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Pyramids ➔ Papilla ➔ Calyces ➔ Pelvis ➔ Ureter! Ekdum clear drainage pipeline hai sir!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -793,7 +980,7 @@
         },
         {
           "speaker": "raju",
-          "text": "10-12 lakh per kidney matlab dono kidney milakar 20-24 lakh nephrons! Wow!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -808,16 +995,28 @@
       "concept_id": "concept_columns_of_bertini",
       "level": 1,
       "progress": {
-        "current": 28,
-        "total": 100
+        "current": 29,
+        "total": 104
       },
       "quiz_payload": {
         "question": "NCERT Flash Question: 'Columns of Bertini' kidney ke kis part ka extension (vistar) hote hain jo doosre part me ghuste hain?",
         "options": [
-          { "id": "A", "text": "Medulla ka Cortex me vistar" },
-          { "id": "B", "text": "Cortex ka Medullary Pyramids ke beech vistar" },
-          { "id": "C", "text": "Pelvis ka Ureter me vistar" },
-          { "id": "D", "text": "Urinary bladder ka Urethra me vistar" }
+          {
+            "id": "A",
+            "text": "Medulla ka Cortex me vistar"
+          },
+          {
+            "id": "B",
+            "text": "Cortex ka Medullary Pyramids ke beech vistar"
+          },
+          {
+            "id": "C",
+            "text": "Pelvis ka Ureter me vistar"
+          },
+          {
+            "id": "D",
+            "text": "Urinary bladder ka Urethra me vistar"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Cortex medullary pyramids ke beech longitudinal columns ke roop me fail jata hai, jinhe Renal Columns of Bertini kaha jata hai."
@@ -834,16 +1033,28 @@
       "concept_id": "concept_calyx_papilla_pathway",
       "level": 1,
       "progress": {
-        "current": 29,
-        "total": 100
+        "current": 30,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Urine ke kidney se nikalne ka sahi flow pathway chuniye: (NEET / BPSC Exam Drill)",
         "options": [
-          { "id": "A", "text": "Renal Pelvis ➔ Minor Calyx ➔ Major Calyx ➔ Papilla" },
-          { "id": "B", "text": "Papilla ➔ Minor Calyx ➔ Major Calyx ➔ Renal Pelvis ➔ Ureter" },
-          { "id": "C", "text": "Ureter ➔ Renal Pelvis ➔ Calyx ➔ Medullary Pyramid" },
-          { "id": "D", "text": "Major Calyx ➔ Minor Calyx ➔ Renal Pelvis ➔ Papilla" }
+          {
+            "id": "A",
+            "text": "Renal Pelvis ➔ Minor Calyx ➔ Major Calyx ➔ Papilla"
+          },
+          {
+            "id": "B",
+            "text": "Papilla ➔ Minor Calyx ➔ Major Calyx ➔ Renal Pelvis ➔ Ureter"
+          },
+          {
+            "id": "C",
+            "text": "Ureter ➔ Renal Pelvis ➔ Calyx ➔ Medullary Pyramid"
+          },
+          {
+            "id": "D",
+            "text": "Major Calyx ➔ Minor Calyx ➔ Renal Pelvis ➔ Papilla"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Pyramids ke tips (Renal Papilla) se urine Minor Calyces me girta hai, jo milkar Major Calyx banate hain, fir Renal Pelvis me jata hai aur Ureter se bahar nikalta hai."
@@ -860,16 +1071,28 @@
       "concept_id": "concept_nephron_structure_intro",
       "level": 1,
       "progress": {
-        "current": 30,
-        "total": 100
+        "current": 31,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Manav vrikk (Human Kidney) ki rachnatmak aur kriyatmak ikai (Structural & Functional Unit) kya hai? (Railway RRB / SSC)",
         "options": [
-          { "id": "A", "text": "Neuron" },
-          { "id": "B", "text": "Nephron (Vrikkanu)" },
-          { "id": "C", "text": "Hepatocyte" },
-          { "id": "D", "text": "Alveoli" }
+          {
+            "id": "A",
+            "text": "Neuron"
+          },
+          {
+            "id": "B",
+            "text": "Nephron (Vrikkanu)"
+          },
+          {
+            "id": "C",
+            "text": "Hepatocyte"
+          },
+          {
+            "id": "D",
+            "text": "Alveoli"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Kidney ki unit Nephron hai (10-12 lakh per kidney). Neuron Brain/Nervous system ki unit hai, Hepatocyte Liver ki koshika hai, aur Alveoli Lungs ki functional unit hai."
@@ -886,16 +1109,28 @@
       "concept_id": "concept_columns_of_bertini",
       "level": 1,
       "progress": {
-        "current": 31,
-        "total": 100
+        "current": 32,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Favorite: 'Renal Columns of Bertini' kahan paye jate hain?",
         "options": [
-          { "id": "A", "text": "Liver ke lobes ke beech" },
-          { "id": "B", "text": "Heart ke ventricles ke beech" },
-          { "id": "C", "text": "Kidney ke Medullary Pyramids ke beech" },
-          { "id": "D", "text": "Brain ke hemispheres ke beech" }
+          {
+            "id": "A",
+            "text": "Liver ke lobes ke beech"
+          },
+          {
+            "id": "B",
+            "text": "Heart ke ventricles ke beech"
+          },
+          {
+            "id": "C",
+            "text": "Kidney ke Medullary Pyramids ke beech"
+          },
+          {
+            "id": "D",
+            "text": "Brain ke hemispheres ke beech"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Renal columns of Bertini kidney ke cortex ka extension hote hain jo medullary pyramids ke beech sthit hote hain."
@@ -912,8 +1147,8 @@
       "concept_id": "concept_milestone_internal_kidney",
       "level": 1,
       "progress": {
-        "current": 32,
-        "total": 100
+        "current": 33,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 4 CLEARED!",
@@ -935,8 +1170,8 @@
       "concept_id": "concept_malpighian_corpuscle",
       "level": 1,
       "progress": {
-        "current": 33,
-        "total": 100
+        "current": 34,
+        "total": 104
       },
       "messages": [
         {
@@ -945,7 +1180,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, Glomerulus me blood kaun lata hai aur kaun wapas le jata hai?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -953,7 +1188,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aane wali rasta chauda aur jane wala patla? Tab to andar blood ka pressure bohot badh jata hoga!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -968,8 +1203,8 @@
       "concept_id": "concept_podocytes_filtration_slits",
       "level": 1,
       "progress": {
-        "current": 34,
-        "total": 100
+        "current": 35,
+        "total": 104
       },
       "messages": [
         {
@@ -978,7 +1213,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Glomerulus + Bowman's Capsule dono ko milakar kya bolte hain sir?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -986,7 +1221,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Podocytes = Pao/Foot wali cells! Inhi ke beech ki jheeliyon (slits) se blood chhan kar katori me girta hai!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -1001,8 +1236,8 @@
       "concept_id": "concept_pct_loop_henle_dct",
       "level": 1,
       "progress": {
-        "current": 35,
-        "total": 100
+        "current": 36,
+        "total": 104
       },
       "messages": [
         {
@@ -1011,7 +1246,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur DCT aage jaakar kis me khulti hai sir?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1019,7 +1254,7 @@
         },
         {
           "speaker": "raju",
-          "text": "PCT ➔ Loop of Henle ➔ DCT ➔ Collecting Duct! Lineage ekdum clear hai sir!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1034,16 +1269,28 @@
       "concept_id": "concept_malpighian_corpuscle",
       "level": 1,
       "progress": {
-        "current": 36,
-        "total": 100
+        "current": 37,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Malpighian Body (Renal Corpuscle) kin do sanrachnaon (structures) ke milne se banti hai? (NEET / SSC CGL)",
         "options": [
-          { "id": "A", "text": "PCT aur DCT" },
-          { "id": "B", "text": "Glomerulus aur Bowman's Capsule" },
-          { "id": "C", "text": "Loop of Henle aur Collecting Duct" },
-          { "id": "D", "text": "Afferent aur Efferent arteriole" }
+          {
+            "id": "A",
+            "text": "PCT aur DCT"
+          },
+          {
+            "id": "B",
+            "text": "Glomerulus aur Bowman's Capsule"
+          },
+          {
+            "id": "C",
+            "text": "Loop of Henle aur Collecting Duct"
+          },
+          {
+            "id": "D",
+            "text": "Afferent aur Efferent arteriole"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Glomerulus (capillary tuft) aur Bowman's capsule (cup-like structure) ko sanyukt roop se Malpighian body ya Renal corpuscle kaha jata hai."
@@ -1060,16 +1307,28 @@
       "concept_id": "concept_podocytes_filtration_slits",
       "level": 1,
       "progress": {
-        "current": 37,
-        "total": 100
+        "current": 38,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Podocytes naamak vishisht koshikayein kahan payi jaati hain aur inka mukhya karya kya hai? (BPSC Prelims / NEET)",
         "options": [
-          { "id": "A", "text": "PCT ki deewar par - glucose absorb karne ke liye" },
-          { "id": "B", "text": "Bowman's capsule ki visceral layer par - filtration slits (chhalni ke chhed) banane ke liye" },
-          { "id": "C", "text": "Loop of Henle par - urea secret karne ke liye" },
-          { "id": "D", "text": "Urinary bladder me - urine store karne ke liye" }
+          {
+            "id": "A",
+            "text": "PCT ki deewar par - glucose absorb karne ke liye"
+          },
+          {
+            "id": "B",
+            "text": "Bowman's capsule ki visceral layer par - filtration slits (chhalni ke chhed) banane ke liye"
+          },
+          {
+            "id": "C",
+            "text": "Loop of Henle par - urea secret karne ke liye"
+          },
+          {
+            "id": "D",
+            "text": "Urinary bladder me - urine store karne ke liye"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Podocytes Bowman's capsule ki visceral epithelial layer par hoti hain jo ek intricate manner me arrange hokar filtration slits ya slit pores banati hain jinse blood ultra-filter hota hai."
@@ -1086,16 +1345,28 @@
       "concept_id": "concept_malpighian_corpuscle",
       "level": 1,
       "progress": {
-        "current": 38,
-        "total": 100
+        "current": 39,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Favorite: Glomerulus me Ultrafiltration ke liye ucch rakt daab (high blood pressure) ka mukhya kaaran kya hai?",
         "options": [
-          { "id": "A", "text": "Heart ka tez dhadakna" },
-          { "id": "B", "text": "Afferent arteriole ka diameter Efferent arteriole se CHAUDA (wider) hona" },
-          { "id": "C", "text": "Kidney ka L3 vertebra par hona" },
-          { "id": "D", "text": "Bowman's capsule ka mota hona" }
+          {
+            "id": "A",
+            "text": "Heart ka tez dhadakna"
+          },
+          {
+            "id": "B",
+            "text": "Afferent arteriole ka diameter Efferent arteriole se CHAUDA (wider) hona"
+          },
+          {
+            "id": "C",
+            "text": "Kidney ka L3 vertebra par hona"
+          },
+          {
+            "id": "D",
+            "text": "Bowman's capsule ka mota hona"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Afferent arteriole (aane wali nali) ka vyas (diameter) Efferent arteriole (jane wali nali) se bada hota hai, jisse glomerulus ki capillaries me high hydrostatic pressure create hota hai."
@@ -1112,8 +1383,8 @@
       "concept_id": "concept_milestone_nephron_micro",
       "level": 1,
       "progress": {
-        "current": 39,
-        "total": 100
+        "current": 40,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 5 COMPLETED!",
@@ -1135,8 +1406,8 @@
       "concept_id": "concept_nephron_types_ratio",
       "level": 1,
       "progress": {
-        "current": 40,
-        "total": 100
+        "current": 41,
+        "total": 104
       },
       "messages": [
         {
@@ -1145,7 +1416,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur baaki 15% nephrons kaise hote hain sir?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1153,7 +1424,7 @@
         },
         {
           "speaker": "raju",
-          "text": "85% Cortical (chhota loop) aur 15% Juxtamedullary (lamba loop)! Ye ratio to directly yaad rakhna padega!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1168,8 +1439,8 @@
       "concept_id": "concept_vasa_recta_capillaries",
       "level": 1,
       "progress": {
-        "current": 41,
-        "total": 100
+        "current": 42,
+        "total": 104
       },
       "messages": [
         {
@@ -1178,7 +1449,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur Loop of Henle ke parallel jo nali chalti hai usko kya bolte hain sir?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1186,7 +1457,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhh! Cortical me loop chhota hai to Vasa Recta absent/reduced, Juxtamedullary me loop deep hai to Vasa Recta prominent!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1201,8 +1472,8 @@
       "concept_id": "concept_cortex_medulla_anatomy_mapping",
       "level": 1,
       "progress": {
-        "current": 42,
-        "total": 100
+        "current": 43,
+        "total": 104
       },
       "messages": [
         {
@@ -1211,7 +1482,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur Medulla me kya rehta hai sir?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1219,7 +1490,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Cortex = Malpighian body + PCT + DCT. Medulla = Henle Loop + Collecting Duct. Crystal clear ho gaya sir!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1234,16 +1505,28 @@
       "concept_id": "concept_nephron_types_ratio",
       "level": 1,
       "progress": {
-        "current": 43,
-        "total": 100
+        "current": 44,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Manav kidney me paye jane wale Cortical Nephrons aur Juxtamedullary Nephrons ka lagbhag anupaat (ratio) kitna hota hai? (NEET / BPSC)",
         "options": [
-          { "id": "A", "text": "50% Cortical : 50% Juxtamedullary" },
-          { "id": "B", "text": "85% Cortical : 15% Juxtamedullary" },
-          { "id": "C", "text": "15% Cortical : 85% Juxtamedullary" },
-          { "id": "D", "text": "99% Cortical : 1% Juxtamedullary" }
+          {
+            "id": "A",
+            "text": "50% Cortical : 50% Juxtamedullary"
+          },
+          {
+            "id": "B",
+            "text": "85% Cortical : 15% Juxtamedullary"
+          },
+          {
+            "id": "C",
+            "text": "15% Cortical : 85% Juxtamedullary"
+          },
+          {
+            "id": "D",
+            "text": "99% Cortical : 1% Juxtamedullary"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Human kidney me lagbhag 85% Cortical nephrons hote hain (short loop of Henle) aur lagbhag 15% Juxtamedullary nephrons hote hain (long loop of Henle deep into medulla)."
@@ -1260,16 +1543,28 @@
       "concept_id": "concept_vasa_recta_capillaries",
       "level": 1,
       "progress": {
-        "current": 44,
-        "total": 100
+        "current": 45,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Vasa Recta ke sandarbh me satya kathan chuniye: (BPSC / UPSC Prelims Level)",
         "options": [
-          { "id": "A", "text": "Ye PCT ke chaaron taraf gol ghumti hai." },
-          { "id": "B", "text": "Ye U-shaped capillary loop hai jo Henle loop ke parallel chalti hai aur cortical nephrons me absent/reduced hoti hai." },
-          { "id": "C", "text": "Ye kidney me blood enter karane wali sabse moti dhamani hai." },
-          { "id": "D", "text": "Ye podocytes ko nutrients deti hai." }
+          {
+            "id": "A",
+            "text": "Ye PCT ke chaaron taraf gol ghumti hai."
+          },
+          {
+            "id": "B",
+            "text": "Ye U-shaped capillary loop hai jo Henle loop ke parallel chalti hai aur cortical nephrons me absent/reduced hoti hai."
+          },
+          {
+            "id": "C",
+            "text": "Ye kidney me blood enter karane wali sabse moti dhamani hai."
+          },
+          {
+            "id": "D",
+            "text": "Ye podocytes ko nutrients deti hai."
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Vasa recta efferent arteriole se nikalne wali U-shaped minute capillary hai jo Henle's loop ke parallel chalti hai. Ye Cortical nephrons me absent ya highly reduced hoti hai."
@@ -1286,16 +1581,28 @@
       "concept_id": "concept_cortex_medulla_anatomy_mapping",
       "level": 1,
       "progress": {
-        "current": 45,
-        "total": 100
+        "current": 46,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Favorite: Inme se Nephron ka kaun sa hissa samanyatah Renal Cortex me NAHI paya jata?",
         "options": [
-          { "id": "A", "text": "Bowman's Capsule" },
-          { "id": "B", "text": "Proximal Convoluted Tubule (PCT)" },
-          { "id": "C", "text": "Distal Convoluted Tubule (DCT)" },
-          { "id": "D", "text": "Loop of Henle ka deep segment" }
+          {
+            "id": "A",
+            "text": "Bowman's Capsule"
+          },
+          {
+            "id": "B",
+            "text": "Proximal Convoluted Tubule (PCT)"
+          },
+          {
+            "id": "C",
+            "text": "Distal Convoluted Tubule (DCT)"
+          },
+          {
+            "id": "D",
+            "text": "Loop of Henle ka deep segment"
+          }
         ],
         "correct_option_id": "D",
         "explanation": "Malpighian corpuscle (Bowman's capsule + Glomerulus), PCT aur DCT renal cortex me hote hain, jabki Loop of Henle renal medulla ke andar dhasa hota hai."
@@ -1312,8 +1619,8 @@
       "concept_id": "concept_milestone_types_cleared",
       "level": 1,
       "progress": {
-        "current": 46,
-        "total": 100
+        "current": 47,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 6 COMPLETED!",
@@ -1324,8 +1631,122 @@
         "motivational_quote": "Incredible mastery! You have covered 100% of Anatomy, Wastes, and Nephron Types!"
       },
       "navigation": {
-        "next": "card_47_officer_summary",
+        "next": "card_applied_case_01",
         "button_text": "Go To Officer Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 1: Garmi mein paani kam peene par urine aam taur par zyada concentrated ho sakta hai. Kidney ka kaunsa kaam isse samjhata hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Zaroorat par zyada paani reabsorb karna"
+          },
+          {
+            "id": "B",
+            "text": "Urine mein oxygen banana"
+          },
+          {
+            "id": "C",
+            "text": "Blood cells ko urine mein badalna"
+          },
+          {
+            "id": "D",
+            "text": "Paani ko glucose mein badalna"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Kidney tubules paani reabsorb karke body ka water balance banaye rakhte hain; dehydration mein urine concentrated ho sakta hai."
+      },
+      "progress": {
+        "current": 48,
+        "total": 104
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: Kidneys kaam nahi kar rahi aur blood mein waste jama ho raha hai. Dialysis ka main purpose kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Blood se kuch wastes aur extra water hatana"
+          },
+          {
+            "id": "B",
+            "text": "Naye red blood cells banana"
+          },
+          {
+            "id": "C",
+            "text": "Food ko digest karna"
+          },
+          {
+            "id": "D",
+            "text": "Lungs ko oxygen dena"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Dialysis machine filter ke through blood se kuch wastes aur extra fluid nikaalne mein madad karti hai."
+      },
+      "progress": {
+        "current": 49,
+        "total": 104
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Applied case 3: Urine test mein glucose baar-baar milta hai. Yeh kis health issue ki jaanch ka signal ho sakta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Blood glucose regulation/diabetes ki medical assessment"
+          },
+          {
+            "id": "B",
+            "text": "Lungs mein oxygen ki kami ka direct proof"
+          },
+          {
+            "id": "C",
+            "text": "Haddi tootne ka proof"
+          },
+          {
+            "id": "D",
+            "text": "Hearing loss"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Urine glucose high blood sugar ya kidney handling se juda ho sakta hai; diagnosis doctor proper tests se karta hai."
+      },
+      "progress": {
+        "current": 50,
+        "total": 104
+      },
+      "navigation": {
+        "next": "card_47_officer_summary",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -1335,8 +1756,8 @@
       "concept_id": "concept_part1_officer_summary",
       "level": 1,
       "progress": {
-        "current": 47,
-        "total": 100
+        "current": 51,
+        "total": 104
       },
       "summary_payload": {
         "title": "⚡ Part 1 Officer Lightning Revision",
@@ -1375,16 +1796,28 @@
       "concept_id": "concept_final_officer_challenge_1",
       "level": 1,
       "progress": {
-        "current": 48,
-        "total": 100
+        "current": 52,
+        "total": 104
       },
       "quiz_payload": {
         "question": "BPSC / UPSC Multi-Statement Challenge:\nNimnlikhit kathanon par vichar kijiye:\n1. Manushya me Urea ka nirmaan Kidney me hota hai.\n2. Hepatic Vein me sharir ki kisi bhi anya vein ki tulna me Urea ki sandrata (concentration) sarvadhik hoti hai.\n3. Podocytes Bowman's capsule ki visceral layer me paye jate hain jo filtration slits banate hain.\n4. Juxtamedullary nephrons me Vasa Recta anupasthit (absent) hoti hai.\n\nSahi kathan chuniye:",
         "options": [
-          { "id": "A", "text": "Kewal 1 aur 4 satya hain" },
-          { "id": "B", "text": "Kewal 2 aur 3 satya hain" },
-          { "id": "C", "text": "Kewal 1, 2 aur 3 satya hain" },
-          { "id": "D", "text": "Sabhi 1, 2, 3, 4 satya hain" }
+          {
+            "id": "A",
+            "text": "Kewal 1 aur 4 satya hain"
+          },
+          {
+            "id": "B",
+            "text": "Kewal 2 aur 3 satya hain"
+          },
+          {
+            "id": "C",
+            "text": "Kewal 1, 2 aur 3 satya hain"
+          },
+          {
+            "id": "D",
+            "text": "Sabhi 1, 2, 3, 4 satya hain"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Statement 1 galat hai (Urea Liver me banta hai). Statement 4 galat hai (Vasa Recta Juxtamedullary me well-developed hoti hai, Cortical me absent/reduced hoti hai). Statement 2 aur 3 bilkul satya hain."
@@ -1401,16 +1834,28 @@
       "concept_id": "concept_final_officer_challenge_2",
       "level": 1,
       "progress": {
-        "current": 49,
-        "total": 100
+        "current": 53,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Assertion (A) & Reason (R) Drill (NEET / BPSC):\nAssertion (A): Pakshi (Birds) aur Rengne wale jeev (Reptiles) Uricotelic hote hain.\nReason (R): Uric acid sabse kam vishaila (least toxic) nitrogenous waste hai aur iske utsarjan me newnatam (minimum) jal ki aavashyakta hoti hai.",
         "options": [
-          { "id": "A", "text": "Dono (A) aur (R) sahi hain, aur (R), (A) ka sahi spashtikaran hai." },
-          { "id": "B", "text": "Dono (A) aur (R) sahi hain, lekin (R), (A) ka sahi spashtikaran NAHI hai." },
-          { "id": "C", "text": "(A) sahi hai lekin (R) galat hai." },
-          { "id": "D", "text": "(A) galat hai lekin (R) sahi hai." }
+          {
+            "id": "A",
+            "text": "Dono (A) aur (R) sahi hain, aur (R), (A) ka sahi spashtikaran hai."
+          },
+          {
+            "id": "B",
+            "text": "Dono (A) aur (R) sahi hain, lekin (R), (A) ka sahi spashtikaran NAHI hai."
+          },
+          {
+            "id": "C",
+            "text": "(A) sahi hai lekin (R) galat hai."
+          },
+          {
+            "id": "D",
+            "text": "(A) galat hai lekin (R) sahi hai."
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Birds aur Land reptiles me paani ki kami se nipatne ke liye adaptation hota hai. Uric acid least toxic hota hai aur negligible water loss ke saath semi-solid paste ke roop me bahar nikala jata hai."
@@ -1427,8 +1872,8 @@
       "concept_id": "concept_part1_trophy",
       "level": 1,
       "progress": {
-        "current": 50,
-        "total": 100
+        "current": 54,
+        "total": 104
       },
       "milestone_payload": {
         "title": "🏆 PART 1 MASTERED: 50/50 CARDS!",
@@ -1450,8 +1895,8 @@
       "concept_id": "concept_urine_formation_steps",
       "level": 2,
       "progress": {
-        "current": 51,
-        "total": 100
+        "current": 55,
+        "total": 104
       },
       "messages": [
         {
@@ -1460,7 +1905,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, kya saara kaam sirf chhalni (filter) jaisa hota hai ya kuch aur bhi steps hote hain?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1468,7 +1913,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab pehle sab chhaan lo, fir kaam ki cheezein wapas kheench lo, aur jo kachra chhoot gaya usko zabardasti nali me bhej do!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1483,8 +1928,8 @@
       "concept_id": "concept_filtration_membrane",
       "level": 2,
       "progress": {
-        "current": 52,
-        "total": 100
+        "current": 56,
+        "total": 104
       },
       "messages": [
         {
@@ -1493,7 +1938,7 @@
         },
         {
           "speaker": "raju",
-          "text": "In teen chhalniyo se kya chhan jata hai aur kya peeche chhoot jata hai sir?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1501,7 +1946,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Isiliye isko 'Ultra-filtration' bolte hain kyunki Proteins aur Blood Cells ko chhodkar lagbhag sab kuch chhan jata hai!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1516,8 +1961,8 @@
       "concept_id": "concept_gfr_and_renal_flow",
       "level": 2,
       "progress": {
-        "current": 53,
-        "total": 100
+        "current": 57,
+        "total": 104
       },
       "messages": [
         {
@@ -1526,7 +1971,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur is 1200 mL blood se kitna filtrate banta hai har minute me sir?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1534,7 +1979,7 @@
         },
         {
           "speaker": "raju",
-          "text": "180 Litre per day?? Sir agar roz 180 Litre peshab banega tab to insaan 2 ghante me sookh kar khatam ho jayega!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1549,8 +1994,8 @@
       "concept_id": "concept_nfp_pressures",
       "level": 2,
       "progress": {
-        "current": 54,
-        "total": 100
+        "current": 58,
+        "total": 104
       },
       "messages": [
         {
@@ -1559,7 +2004,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur koi pressure isko rokne ki koshish nahi karta kya sir?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1567,7 +2012,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab sirf $10\\text{ mmHg}$ ke net effective pressure se din bhar me 180 litre filtrate chhan jata hai!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1582,16 +2027,28 @@
       "concept_id": "concept_gfr_and_renal_flow",
       "level": 2,
       "progress": {
-        "current": 55,
-        "total": 100
+        "current": 59,
+        "total": 104
       },
       "quiz_payload": {
         "question": "NCERT/BPSC Flash Check: Ek swasth vayask manushya me ek din (24 ghante) me lagbhag kitna Glomerular Filtrate banta hai aur kitna vastavik Urine (peshab) banta hai?",
         "options": [
-          { "id": "A", "text": "Filtrate 180 Litre, Vastavik Urine 180 Litre" },
-          { "id": "B", "text": "Filtrate 180 Litre, Vastavik Urine lagbhag 1.5 Litre" },
-          { "id": "C", "text": "Filtrate 1.5 Litre, Vastavik Urine 180 Litre" },
-          { "id": "D", "text": "Filtrate 50 Litre, Vastavik Urine 5 Litre" }
+          {
+            "id": "A",
+            "text": "Filtrate 180 Litre, Vastavik Urine 180 Litre"
+          },
+          {
+            "id": "B",
+            "text": "Filtrate 180 Litre, Vastavik Urine lagbhag 1.5 Litre"
+          },
+          {
+            "id": "C",
+            "text": "Filtrate 1.5 Litre, Vastavik Urine 180 Litre"
+          },
+          {
+            "id": "D",
+            "text": "Filtrate 50 Litre, Vastavik Urine 5 Litre"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Ek din me 180 Litre filtrate banta hai, jisme se lagbhag 99% hissa renal tubules dwara reabsorb ho jata hai. Is prakar kewal 1 se 1.5 Litre peshab (urine) hi sharir se bahar nikalta hai."
@@ -1608,16 +2065,28 @@
       "concept_id": "concept_gfr_and_renal_flow",
       "level": 2,
       "progress": {
-        "current": 56,
-        "total": 100
+        "current": 60,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Ek swasth manav me samanya Glomerular Filtration Rate (GFR) prati minute kitni hoti hai? (Railway RRB / SSC CGL)",
         "options": [
-          { "id": "A", "text": "50 mL/min" },
-          { "id": "B", "text": "125 mL/min" },
-          { "id": "C", "text": "500 mL/min" },
-          { "id": "D", "text": "1200 mL/min" }
+          {
+            "id": "A",
+            "text": "50 mL/min"
+          },
+          {
+            "id": "B",
+            "text": "125 mL/min"
+          },
+          {
+            "id": "C",
+            "text": "500 mL/min"
+          },
+          {
+            "id": "D",
+            "text": "1200 mL/min"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Samanya GFR 125 mL/minute hoti hai, jo 24 ghante me 180 Litre/day banti hai. 1100-1200 mL/min Renal Blood Flow hota hai."
@@ -1634,16 +2103,28 @@
       "concept_id": "concept_filtration_membrane",
       "level": 2,
       "progress": {
-        "current": 57,
-        "total": 100
+        "current": 61,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Ultrafiltration ke dauran nimnlikhit me se kaun sa ghatak (component) Bowman's capsule me filter hokar PRAVESH NAHI KARTA? (NEET / BPSC)",
         "options": [
-          { "id": "A", "text": "Glucose aur Amino Acids" },
-          { "id": "B", "text": "Sodium aur Potassium ions" },
-          { "id": "C", "text": "Bade Plasma Proteins aur Blood Cells" },
-          { "id": "D", "text": "Urea aur Uric Acid" }
+          {
+            "id": "A",
+            "text": "Glucose aur Amino Acids"
+          },
+          {
+            "id": "B",
+            "text": "Sodium aur Potassium ions"
+          },
+          {
+            "id": "C",
+            "text": "Bade Plasma Proteins aur Blood Cells"
+          },
+          {
+            "id": "D",
+            "text": "Urea aur Uric Acid"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Filtration membrane ke slit pores se bade plasma proteins (jaise Albumin) aur rakt koshikayein (RBCs, WBCs, platelets) filter nahi ho pate; baaki sabhi ghulit padarth chhan jate hain."
@@ -1660,16 +2141,28 @@
       "concept_id": "concept_nfp_pressures",
       "level": 2,
       "progress": {
-        "current": 58,
-        "total": 100
+        "current": 62,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE / NEET: Net Filtration Pressure (NFP) ka sahi ganitiya sutra (formula) kya hai?",
         "options": [
-          { "id": "A", "text": "NFP = GHP + BCOP + CHP" },
-          { "id": "B", "text": "NFP = GHP - (BCOP + CHP)" },
-          { "id": "C", "text": "NFP = BCOP - (GHP + CHP)" },
-          { "id": "D", "text": "NFP = CHP - (GHP - BCOP)" }
+          {
+            "id": "A",
+            "text": "NFP = GHP + BCOP + CHP"
+          },
+          {
+            "id": "B",
+            "text": "NFP = GHP - (BCOP + CHP)"
+          },
+          {
+            "id": "C",
+            "text": "NFP = BCOP - (GHP + CHP)"
+          },
+          {
+            "id": "D",
+            "text": "NFP = CHP - (GHP - BCOP)"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Net Filtration Pressure = Glomerular Hydrostatic Pressure (aage dhakelne wala daab) MINUS [Blood Colloidal Osmotic Pressure + Capsular Hydrostatic Pressure (virodh karne wale daab)]. Net value lagbhag 10 mmHg aati hai."
@@ -1686,8 +2179,8 @@
       "concept_id": "concept_milestone_ultrafiltration",
       "level": 2,
       "progress": {
-        "current": 59,
-        "total": 100
+        "current": 63,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 7 COMPLETED!",
@@ -1709,8 +2202,8 @@
       "concept_id": "concept_pct_physiology",
       "level": 2,
       "progress": {
-        "current": 60,
-        "total": 100
+        "current": 64,
+        "total": 104
       },
       "messages": [
         {
@@ -1719,7 +2212,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Surface area badhne se kya fayda hota hai sir?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1727,7 +2220,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab 100% Glucose aur 100% Amino acids PCT me hi bach liye jate hain! Normal urine me zero glucose hona chahiye!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -1742,8 +2235,8 @@
       "concept_id": "concept_henle_loop_permeability",
       "level": 2,
       "progress": {
-        "current": 61,
-        "total": 100
+        "current": 65,
+        "total": 104
       },
       "messages": [
         {
@@ -1752,7 +2245,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur Ascending Limb (upar chadhne wali nali) me iska ulta hota hai kya sir?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1760,7 +2253,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Neeche aate waqt sirf Paani niklega (filtrate gadha hoga), aur Upar jaate waqt sirf Namak niklega (filtrate patla hoga)! Kya zabardast design hai!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1775,8 +2268,8 @@
       "concept_id": "concept_dct_and_secretion",
       "level": 2,
       "progress": {
-        "current": 62,
-        "total": 100
+        "current": 66,
+        "total": 104
       },
       "messages": [
         {
@@ -1785,7 +2278,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye tubular secretion kyu zaroori hai sir? Iska main maqsad kya hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1793,7 +2286,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Acha! Secretion = Acid-base balance aur Potassium balance ko control karna!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1808,16 +2301,28 @@
       "concept_id": "concept_pct_physiology",
       "level": 2,
       "progress": {
-        "current": 63,
-        "total": 100
+        "current": 67,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Swasth manav me Glomerular Filtrate me maujood 100% Glucose aur Amino Acids ka punaravshoshan (reabsorption) nephron ke kis bhaag me ho jata hai? (BSSC / SSC CGL)",
         "options": [
-          { "id": "A", "text": "Bowman's Capsule" },
-          { "id": "B", "text": "Proximal Convoluted Tubule (PCT)" },
-          { "id": "C", "text": "Descending Loop of Henle" },
-          { "id": "D", "text": "Distal Convoluted Tubule (DCT)" }
+          {
+            "id": "A",
+            "text": "Bowman's Capsule"
+          },
+          {
+            "id": "B",
+            "text": "Proximal Convoluted Tubule (PCT)"
+          },
+          {
+            "id": "C",
+            "text": "Descending Loop of Henle"
+          },
+          {
+            "id": "D",
+            "text": "Distal Convoluted Tubule (DCT)"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "PCT ki simple cuboidal brush border epithelium glucose aur amino acids ko 100% actively reabsorb kar leti hai. Isiliye normal urine me glucose anupasthit hota hai."
@@ -1834,16 +2339,28 @@
       "concept_id": "concept_henle_loop_permeability",
       "level": 2,
       "progress": {
-        "current": 64,
-        "total": 100
+        "current": 68,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Henle's Loop ki Descending Limb (avarohi bhuja) ke sandarbh me satya kathan chuniye: (NEET / BPSC Exam Drill)",
         "options": [
-          { "id": "A", "text": "Ye jal (water) ke liye apargamya (impermeable) hoti hai." },
-          { "id": "B", "text": "Ye jal (water) ke liye pargamya (permeable) hoti hai lekin electrolytes ke liye lagbhag apargamya hoti hai." },
-          { "id": "C", "text": "Ye active transport dwara NaCl ko bahar nikaalti hai." },
-          { "id": "D", "text": "Isme brush border epithelium payi jaati hai." }
+          {
+            "id": "A",
+            "text": "Ye jal (water) ke liye apargamya (impermeable) hoti hai."
+          },
+          {
+            "id": "B",
+            "text": "Ye jal (water) ke liye pargamya (permeable) hoti hai lekin electrolytes ke liye lagbhag apargamya hoti hai."
+          },
+          {
+            "id": "C",
+            "text": "Ye active transport dwara NaCl ko bahar nikaalti hai."
+          },
+          {
+            "id": "D",
+            "text": "Isme brush border epithelium payi jaati hai."
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Henle's loop ki Descending limb paani ke liye permeable hoti hai jisse paani bahar nikalta hai aur filtrate hypertonic (gadha) hota jata hai. Ascending limb paani ke liye impermeable hoti hai."
@@ -1860,16 +2377,28 @@
       "concept_id": "concept_dct_and_secretion",
       "level": 2,
       "progress": {
-        "current": 65,
-        "total": 100
+        "current": 69,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Favorite: Tubular Secretion ke dauran kaun se ions actively renal tubules me bhej kar body fluid ka pH aur ionic balance maintain kiya jata hai?",
         "options": [
-          { "id": "A", "text": "Kewal Glucose aur Proteins" },
-          { "id": "B", "text": "$H^+$ (Hydrogen ions), $K^+$ (Potassium ions) aur Ammonia" },
-          { "id": "C", "text": "Kewal Oxygen aur Carbon dioxide" },
-          { "id": "D", "text": "Kewal Calcium aur Magnesium" }
+          {
+            "id": "A",
+            "text": "Kewal Glucose aur Proteins"
+          },
+          {
+            "id": "B",
+            "text": "$H^+$ (Hydrogen ions), $K^+$ (Potassium ions) aur Ammonia"
+          },
+          {
+            "id": "C",
+            "text": "Kewal Oxygen aur Carbon dioxide"
+          },
+          {
+            "id": "D",
+            "text": "Kewal Calcium aur Magnesium"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Tubular secretion ke dauran tubular cells actively $H^+$, $K^+$, aur ammonia ko filtrate me secrete karti hain aur $HCO_3^-$ ko absorb karke blood ke acid-base balance (pH 7.4) ko maintain karti hain."
@@ -1886,8 +2415,8 @@
       "concept_id": "concept_milestone_reabsorption",
       "level": 2,
       "progress": {
-        "current": 66,
-        "total": 100
+        "current": 70,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 8 CLEARED!",
@@ -1909,8 +2438,8 @@
       "concept_id": "concept_counter_current_principles",
       "level": 2,
       "progress": {
-        "current": 67,
-        "total": 100
+        "current": 71,
+        "total": 104
       },
       "messages": [
         {
@@ -1919,7 +2448,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, 'Counter-Current' ka matlab kya dharayein aamne-saamne ulti disha me beh rahi hain?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1927,7 +2456,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Do alag-alag U-tubes jisme liquid ulti dishao me daud raha hai!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1942,8 +2471,8 @@
       "concept_id": "concept_osmolarity_values",
       "level": 2,
       "progress": {
-        "current": 68,
-        "total": 100
+        "current": 72,
+        "total": 104
       },
       "messages": [
         {
@@ -1952,7 +2481,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Itna tagda namkeen mahol medulla me kisne banaya sir?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1960,7 +2489,7 @@
         },
         {
           "speaker": "raju",
-          "text": "$NaCl$ + $Urea$ milkar deep medulla ko $1200\\text{ mOsmol/L}$ ka super-concentrated zone bana dete hain!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1975,8 +2504,8 @@
       "concept_id": "concept_vasa_recta_exchanger",
       "level": 2,
       "progress": {
-        "current": 69,
-        "total": 100
+        "current": 73,
+        "total": 104
       },
       "messages": [
         {
@@ -1985,7 +2514,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Vasa recta is gradient ko baha kar kyu nahi le jati sir?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1993,7 +2522,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Waah! Jo liya wahi wapas lauta diya! Isiliye medullary gradient salamat rehta hai aur paani asani se absorb ho jata hai!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -2008,16 +2537,28 @@
       "concept_id": "concept_osmolarity_values",
       "level": 2,
       "progress": {
-        "current": 70,
-        "total": 100
+        "current": 74,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Renal Cortex se Inner Medulla ki taraf badhne par interstitial fluid ki Osmolarity kis seema tak badhti hai? (NCERT Class 11 / NEET)",
         "options": [
-          { "id": "A", "text": "100 mOsmol/L se 300 mOsmol/L" },
-          { "id": "B", "text": "300 mOsmol/L se lagbhag 1200 mOsmol/L" },
-          { "id": "C", "text": "1200 mOsmol/L se 300 mOsmol/L" },
-          { "id": "D", "text": "Zero se 100 mOsmol/L" }
+          {
+            "id": "A",
+            "text": "100 mOsmol/L se 300 mOsmol/L"
+          },
+          {
+            "id": "B",
+            "text": "300 mOsmol/L se lagbhag 1200 mOsmol/L"
+          },
+          {
+            "id": "C",
+            "text": "1200 mOsmol/L se 300 mOsmol/L"
+          },
+          {
+            "id": "D",
+            "text": "Zero se 100 mOsmol/L"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Cortex me osmolarity samanya blood plasma jaisi (300 mOsmol/L) hoti hai, jo Inner Medulla me deep jane par badhkar lagbhag 1200 mOsmol/L tak pahunch jati hai."
@@ -2034,16 +2575,28 @@
       "concept_id": "concept_osmolarity_values",
       "level": 2,
       "progress": {
-        "current": 71,
-        "total": 100
+        "current": 75,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Medullary Interstitium me concentration gradient banaye rakhne ke liye mukhya roop se kaun se do padarth zimmedar hain? (BPSC / UPSC Prelims)",
         "options": [
-          { "id": "A", "text": "Glucose aur Amino Acids" },
-          { "id": "B", "text": "NaCl aur Urea" },
-          { "id": "C", "text": "Bicarbonate aur Uric acid" },
-          { "id": "D", "text": "Creatinine aur Bilirubin" }
+          {
+            "id": "A",
+            "text": "Glucose aur Amino Acids"
+          },
+          {
+            "id": "B",
+            "text": "NaCl aur Urea"
+          },
+          {
+            "id": "C",
+            "text": "Bicarbonate aur Uric acid"
+          },
+          {
+            "id": "D",
+            "text": "Creatinine aur Bilirubin"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Medullary interstitial gradient mukhya roop se NaCl (jo ascending Henle limb se transport hota hai) aur Urea (jo Collecting duct se diffuse hokar interstitium me enter karta hai) dwara maintain hota hai."
@@ -2060,16 +2613,28 @@
       "concept_id": "concept_counter_current_principles",
       "level": 2,
       "progress": {
-        "current": 72,
-        "total": 100
+        "current": 76,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Favorite: Manav kidney shuruati filtrate ki tulna me lagbhag kitne guna sandra (concentrated) mutra (urine) utpann kar sakti hai?",
         "options": [
-          { "id": "A", "text": "2 Guna" },
-          { "id": "B", "text": "4 Guna" },
-          { "id": "C", "text": "10 Guna" },
-          { "id": "D", "text": "20 Guna" }
+          {
+            "id": "A",
+            "text": "2 Guna"
+          },
+          {
+            "id": "B",
+            "text": "4 Guna"
+          },
+          {
+            "id": "C",
+            "text": "10 Guna"
+          },
+          {
+            "id": "D",
+            "text": "20 Guna"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Initial filtrate ki osmolarity 300 mOsmol/L hoti hai, jabki final concentrated urine lagbhag 1200 mOsmol/L tak sandra hota hai, jo ki shuruati filtrate ka lagbhag 4 guna (4 times) hai."
@@ -2086,8 +2651,8 @@
       "concept_id": "concept_milestone_counter_current",
       "level": 2,
       "progress": {
-        "current": 73,
-        "total": 100
+        "current": 77,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 9 CONQUERED!",
@@ -2109,8 +2674,8 @@
       "concept_id": "concept_jga_structure",
       "level": 2,
       "progress": {
-        "current": 74,
-        "total": 100
+        "current": 78,
+        "total": 104
       },
       "messages": [
         {
@@ -2119,7 +2684,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye sensor BP kam hone par kya karta hai sir?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -2127,7 +2692,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Arey baap re! BPSC me ye single 'n' (Kidney Renin) aur double 'n' (Digestive Rennin) ka trap bohot baar dekha hai!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -2142,8 +2707,8 @@
       "concept_id": "concept_raas_mechanism",
       "level": 2,
       "progress": {
-        "current": 75,
-        "total": 100
+        "current": 79,
+        "total": 104
       },
       "messages": [
         {
@@ -2152,7 +2717,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur Angiotensin-II fir kya karta hai sir?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -2160,7 +2725,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Result: Blood Volume badha, Blood Pressure badha, aur GFR wapas normal ho gaya!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -2175,8 +2740,8 @@
       "concept_id": "concept_adh_vasopressin",
       "level": 2,
       "progress": {
-        "current": 76,
-        "total": 100
+        "current": 80,
+        "total": 104
       },
       "messages": [
         {
@@ -2185,7 +2750,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Agar kisi insaan me ADH banna band ho jaye tab kya hoga sir?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -2193,7 +2758,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Diabetes Mellitus = Insulin ki kami (Sugar badhta hai), aur Diabetes Insipidus = ADH ki kami (Paani behta hai)! Crystal clear distinction!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -2208,8 +2773,8 @@
       "concept_id": "concept_anf_mechanism",
       "level": 2,
       "progress": {
-        "current": 77,
-        "total": 100
+        "current": 81,
+        "total": 104
       },
       "messages": [
         {
@@ -2218,7 +2783,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Heart khud ek hormone nikal kar Kidney ke RAAS mechanism par brake lagata hai?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -2226,7 +2791,7 @@
         },
         {
           "speaker": "raju",
-          "text": "RAAS aur ADH ne BP badhaya, aur Heart ke ANF ne BP ghataya! Perfect homeostatic balance!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -2241,16 +2806,28 @@
       "concept_id": "concept_jga_structure",
       "level": 2,
       "progress": {
-        "current": 78,
-        "total": 100
+        "current": 82,
+        "total": 104
       },
       "quiz_payload": {
         "question": "GFR ya Blood Pressure girne par Juxtaglomerular (JG) cells dwara kaun sa padarth sravit (secreted) hota hai? (SSC CGL / Railway RRB)",
         "options": [
-          { "id": "A", "text": "Rennin (Doodh pachane wala enzyme)" },
-          { "id": "B", "text": "Renin (Single 'n' wala enzyme/hormone)" },
-          { "id": "C", "text": "Insulin" },
-          { "id": "D", "text": "Thyroxine" }
+          {
+            "id": "A",
+            "text": "Rennin (Doodh pachane wala enzyme)"
+          },
+          {
+            "id": "B",
+            "text": "Renin (Single 'n' wala enzyme/hormone)"
+          },
+          {
+            "id": "C",
+            "text": "Insulin"
+          },
+          {
+            "id": "D",
+            "text": "Thyroxine"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Kidney ki JG cells 'Renin' (single 'n') release karti hain jo RAAS pathway ko start karta hai. 'Rennin' (double 'n') aamashay (stomach) me paya jane wala proteolytic enzyme hai jo bachho me milk curdling karta hai."
@@ -2267,16 +2844,28 @@
       "concept_id": "concept_adh_vasopressin",
       "level": 2,
       "progress": {
-        "current": 79,
-        "total": 100
+        "current": 83,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Antidiuretic Hormone (ADH / Vasopressin) ki kami se hone wala rog kaun sa hai? (NEET / BPSC Exam Drill)",
         "options": [
-          { "id": "A", "text": "Diabetes Mellitus" },
-          { "id": "B", "text": "Diabetes Insipidus" },
-          { "id": "C", "text": "Addison's Disease" },
-          { "id": "D", "text": "Uremia" }
+          {
+            "id": "A",
+            "text": "Diabetes Mellitus"
+          },
+          {
+            "id": "B",
+            "text": "Diabetes Insipidus"
+          },
+          {
+            "id": "C",
+            "text": "Addison's Disease"
+          },
+          {
+            "id": "D",
+            "text": "Uremia"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "ADH ki kami se DCT aur collecting duct paani ko reabsorb nahi kar pate, jisse atyadhik matra me dilute urine banta hai (Polyuria). Is sthiti ko Diabetes Insipidus kehte hain."
@@ -2293,16 +2882,28 @@
       "concept_id": "concept_anf_mechanism",
       "level": 2,
       "progress": {
-        "current": 80,
-        "total": 100
+        "current": 84,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Favorite: Inme se kaun sa hormone rakt vahikaon ko phailakar (vasodilation) rakt daab (blood pressure) ko GHATATA (decreases) hai?",
         "options": [
-          { "id": "A", "text": "Angiotensin-II" },
-          { "id": "B", "text": "Aldosterone" },
-          { "id": "C", "text": "Atrial Natriuretic Factor (ANF)" },
-          { "id": "D", "text": "ADH (Vasopressin)" }
+          {
+            "id": "A",
+            "text": "Angiotensin-II"
+          },
+          {
+            "id": "B",
+            "text": "Aldosterone"
+          },
+          {
+            "id": "C",
+            "text": "Atrial Natriuretic Factor (ANF)"
+          },
+          {
+            "id": "D",
+            "text": "ADH (Vasopressin)"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "ANF heart ke atria se release hota hai jab blood pressure badhta hai. Ye vasodilation karta hai aur RAAS mechanism ko inhibit karke BP ko wapas normal kam karta hai."
@@ -2319,8 +2920,8 @@
       "concept_id": "concept_milestone_hormones",
       "level": 2,
       "progress": {
-        "current": 81,
-        "total": 100
+        "current": 85,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 10 COMPLETED!",
@@ -2342,8 +2943,8 @@
       "concept_id": "concept_micturition_reflex",
       "level": 2,
       "progress": {
-        "current": 82,
-        "total": 100
+        "current": 86,
+        "total": 104
       },
       "messages": [
         {
@@ -2352,7 +2953,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, jab bladder bharta hai to dimaag ko kaise pata chalta hai ki bathroom jana hai?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -2360,7 +2961,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur Sphincter muscle khul jati hai aur bladder squeeze hokar peshab bahar!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -2375,8 +2976,8 @@
       "concept_id": "concept_urine_characteristics",
       "level": 2,
       "progress": {
-        "current": 83,
-        "total": 100
+        "current": 87,
+        "total": 104
       },
       "messages": [
         {
@@ -2385,7 +2986,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur ek din ke peshab me kitna urea bahar nikal jata hai sir?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -2393,7 +2994,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Urochrome = Peela rang, pH = 6.0, Urea = 25-30g per day! Super memorable facts!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -2408,8 +3009,8 @@
       "concept_id": "concept_accessory_organs",
       "level": 2,
       "progress": {
-        "current": 84,
-        "total": 100
+        "current": 88,
+        "total": 104
       },
       "messages": [
         {
@@ -2418,7 +3019,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur hamari twacha (skin) se jo paseena nikalta hai usme kya hota hai sir?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -2426,7 +3027,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Lungs = CO2, Liver = Bile pigments, Sweat = Salts/Urea, Sebum = Waxes/Sterols!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -2441,16 +3042,28 @@
       "concept_id": "concept_urine_characteristics",
       "level": 2,
       "progress": {
-        "current": 85,
-        "total": 100
+        "current": 89,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Manav mutra (urine) ka halka peela rang nimnlikhit me se kiske upashthiti ke kaaran hota hai? (Railway RRB NTPC / SSC CGL)",
         "options": [
-          { "id": "A", "text": "Melanin" },
-          { "id": "B", "text": "Urochrome (Urobilin)" },
-          { "id": "C", "text": "Chlorophyll" },
-          { "id": "D", "text": "Keratin" }
+          {
+            "id": "A",
+            "text": "Melanin"
+          },
+          {
+            "id": "B",
+            "text": "Urochrome (Urobilin)"
+          },
+          {
+            "id": "C",
+            "text": "Chlorophyll"
+          },
+          {
+            "id": "D",
+            "text": "Keratin"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Purani RBCs ke hemoglobin ke breakdown se banne wala Urochrome pigment urine ko uska vishesh halka peela rang pradan karta hai."
@@ -2467,16 +3080,28 @@
       "concept_id": "concept_urine_characteristics",
       "level": 2,
       "progress": {
-        "current": 86,
-        "total": 100
+        "current": 90,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Ek swasth vayask vyakti prati din mutra ke madhyam se lagbhag kitna Urea utsarjit karta hai? (NCERT Class 11 / BPSC)",
         "options": [
-          { "id": "A", "text": "1 se 2 Gram" },
-          { "id": "B", "text": "25 se 30 Gram" },
-          { "id": "C", "text": "100 se 150 Gram" },
-          { "id": "D", "text": "500 Gram" }
+          {
+            "id": "A",
+            "text": "1 se 2 Gram"
+          },
+          {
+            "id": "B",
+            "text": "25 se 30 Gram"
+          },
+          {
+            "id": "C",
+            "text": "100 se 150 Gram"
+          },
+          {
+            "id": "D",
+            "text": "500 Gram"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "NCERT ke anusaar ek samanya vayask manav prati din lagbhag 25 se 30 gram urea ka utsarjan karta hai. Samanya urine ka pH lagbhag 6.0 hota hai."
@@ -2493,16 +3118,28 @@
       "concept_id": "concept_accessory_organs",
       "level": 2,
       "progress": {
-        "current": 87,
-        "total": 100
+        "current": 91,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Favorite: Manav fephde (lungs) prati minute lagbhag kitni matra me $CO_2$ ka nishkasan karte hain?",
         "options": [
-          { "id": "A", "text": "20 mL/minute" },
-          { "id": "B", "text": "200 mL/minute (lagbhag 18 Litre/day)" },
-          { "id": "C", "text": "2000 mL/minute" },
-          { "id": "D", "text": "5 mL/minute" }
+          {
+            "id": "A",
+            "text": "20 mL/minute"
+          },
+          {
+            "id": "B",
+            "text": "200 mL/minute (lagbhag 18 Litre/day)"
+          },
+          {
+            "id": "C",
+            "text": "2000 mL/minute"
+          },
+          {
+            "id": "D",
+            "text": "5 mL/minute"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "NCERT ke anusaar hamare lungs lagbhag 200 mL Carbon dioxide prati minute aur badi matra me jal-vaashp (water vapour) sharir se bahar nikaalte hain."
@@ -2519,8 +3156,8 @@
       "concept_id": "concept_milestone_micturition",
       "level": 2,
       "progress": {
-        "current": 88,
-        "total": 100
+        "current": 92,
+        "total": 104
       },
       "milestone_payload": {
         "title": "MODULE 11 CLEARED!",
@@ -2542,8 +3179,8 @@
       "concept_id": "concept_uremia_hemodialysis",
       "level": 2,
       "progress": {
-        "current": 89,
-        "total": 100
+        "current": 93,
+        "total": 104
       },
       "messages": [
         {
@@ -2552,7 +3189,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Dialysis machine me khoon jamta kyu nahi hai sir naliyo ke andar?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -2560,7 +3197,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Machine me jane se pehle Heparin daalo, aur wapas sharir me aane se pehle Anti-heparin! Exam ka classic concept!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -2575,8 +3212,8 @@
       "concept_id": "concept_renal_calculi_stones",
       "level": 2,
       "progress": {
-        "current": 90,
-        "total": 100
+        "current": 94,
+        "total": 104
       },
       "messages": [
         {
@@ -2585,7 +3222,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Isiliye doctor pathri ke mareezo ko tamatar aur palak ke beej khane se mana karte hain!"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -2593,7 +3230,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Kidney Stone = Calcium Oxalate crystals, Gout (Gathiya) = Uric Acid crystals in joints!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -2608,8 +3245,8 @@
       "concept_id": "concept_pathology_terms",
       "level": 2,
       "progress": {
-        "current": 91,
-        "total": 100
+        "current": 95,
+        "total": 104
       },
       "messages": [
         {
@@ -2618,7 +3255,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir agar urine me Protein aane lage ya Blood aane lage to use kya bolte hain?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -2626,7 +3263,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Saare clinical terms ab mere fingertips par hain sir, test shuru kijiye!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -2641,16 +3278,28 @@
       "concept_id": "concept_renal_calculi_stones",
       "level": 2,
       "progress": {
-        "current": 92,
-        "total": 100
+        "current": 96,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Kidney me banne wali pathri (Renal Calculi) mukhya roop se kis rasayanik padarth ki bani hoti hai? (BPSC / SSC CGL / Railway)",
         "options": [
-          { "id": "A", "text": "Calcium Oxalate" },
-          { "id": "B", "text": "Sodium Chloride" },
-          { "id": "C", "text": "Magnesium Sulphate" },
-          { "id": "D", "text": "Calcium Carbonate" }
+          {
+            "id": "A",
+            "text": "Calcium Oxalate"
+          },
+          {
+            "id": "B",
+            "text": "Sodium Chloride"
+          },
+          {
+            "id": "C",
+            "text": "Magnesium Sulphate"
+          },
+          {
+            "id": "D",
+            "text": "Calcium Carbonate"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Kidney stones (Renal Calculi) mukhya roop se agulansheel crystallized salts, visheshkar Calcium Oxalate ke bane hote hain."
@@ -2667,16 +3316,28 @@
       "concept_id": "concept_uremia_hemodialysis",
       "level": 2,
       "progress": {
-        "current": 93,
-        "total": 100
+        "current": 97,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Hemodialysis (Rakt-apohan) prakriya me rakt ko dialyzer machine me bhejne se pehle usme kaun sa padarth milaya jata hai? (NEET / BPSC)",
         "options": [
-          { "id": "A", "text": "Anti-heparin" },
-          { "id": "B", "text": "Heparin (Anticoagulant)" },
-          { "id": "C", "text": "Thrombin" },
-          { "id": "D", "text": "Fibrinogen" }
+          {
+            "id": "A",
+            "text": "Anti-heparin"
+          },
+          {
+            "id": "B",
+            "text": "Heparin (Anticoagulant)"
+          },
+          {
+            "id": "C",
+            "text": "Thrombin"
+          },
+          {
+            "id": "D",
+            "text": "Fibrinogen"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Blood ko machine ki artificial cellophane naliyo me jamne (clotting) se rokne ke liye pehle Heparin milaya jata hai, aur dialyse hone ke baad body me lautaane se theek pehle Anti-heparin milaya jata hai."
@@ -2693,16 +3354,28 @@
       "concept_id": "concept_pathology_terms",
       "level": 2,
       "progress": {
-        "current": 94,
-        "total": 100
+        "current": 98,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ BPSC TRE Favorite: Urine me 'Glycosuria' aur 'Ketonuria' ki upashthiti kis bimari ka prathmik nidanik (indicative) lakshan hai?",
         "options": [
-          { "id": "A", "text": "Diabetes Insipidus" },
-          { "id": "B", "text": "Diabetes Mellitus" },
-          { "id": "C", "text": "Uremia" },
-          { "id": "D", "text": "Glomerulonephritis" }
+          {
+            "id": "A",
+            "text": "Diabetes Insipidus"
+          },
+          {
+            "id": "B",
+            "text": "Diabetes Mellitus"
+          },
+          {
+            "id": "C",
+            "text": "Uremia"
+          },
+          {
+            "id": "D",
+            "text": "Glomerulonephritis"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Diabetes Mellitus ke marijo me insulin ki kami ke kaaran blood glucose badh jata hai, jisse peshab me glucose (Glycosuria) aur fatty acid breakdown se bane ketone bodies (Ketonuria) nikalne lagte hain."
@@ -2719,8 +3392,8 @@
       "concept_id": "concept_milestone_disorders",
       "level": 2,
       "progress": {
-        "current": 95,
-        "total": 100
+        "current": 99,
+        "total": 104
       },
       "milestone_payload": {
         "title": "ALL MODULES COMPLETED!",
@@ -2742,8 +3415,8 @@
       "concept_id": "concept_part2_officer_summary",
       "level": 2,
       "progress": {
-        "current": 96,
-        "total": 100
+        "current": 100,
+        "total": 104
       },
       "summary_payload": {
         "title": "⚡ Part 2 Officer Lightning Revision",
@@ -2782,16 +3455,28 @@
       "concept_id": "concept_final_master_quiz_1",
       "level": 2,
       "progress": {
-        "current": 97,
-        "total": 100
+        "current": 101,
+        "total": 104
       },
       "quiz_payload": {
         "question": "BPSC / UPSC Prelims Multi-Statement Master Trap:\nExcretory physiology ke sandarbh me nimnlikhit kathanon par vichar kijiye:\n1. Henle's loop ki ascending limb jal (water) ke liye purnatah apargamya (impermeable) hoti hai.\n2. ANF (Atrial Natriuretic Factor) rakt vahikaon ko sikodkar (vasoconstriction) rakt daab badhata hai.\n3. Swasth vyakti ke PCT me 100% Glucose aur Amino Acids ka punaravshoshan ho jata hai.\n4. Diabetes Insipidus rog Insulin hormone ki atyadhik matra ke kaaran hota hai.\n\nUpyukt me se Kaun se kathan SATYA hain?",
         "options": [
-          { "id": "A", "text": "Kewal 1 aur 3 satya hain" },
-          { "id": "B", "text": "Kewal 2 aur 4 satya hain" },
-          { "id": "C", "text": "Kewal 1, 2 aur 3 satya hain" },
-          { "id": "D", "text": "Sabhi 1, 2, 3 aur 4 satya hain" }
+          {
+            "id": "A",
+            "text": "Kewal 1 aur 3 satya hain"
+          },
+          {
+            "id": "B",
+            "text": "Kewal 2 aur 4 satya hain"
+          },
+          {
+            "id": "C",
+            "text": "Kewal 1, 2 aur 3 satya hain"
+          },
+          {
+            "id": "D",
+            "text": "Sabhi 1, 2, 3 aur 4 satya hain"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Statement 1 satya hai (Ascending limb water-impermeable hoti hai). Statement 2 galat hai (ANF vasodilation karke BP ghatata hai). Statement 3 satya hai (PCT me 100% glucose reabsorb hota hai). Statement 4 galat hai (Diabetes Insipidus ADH ki kami se hota hai). Atah kewal 1 aur 3 sahi hain."
@@ -2808,16 +3493,28 @@
       "concept_id": "concept_final_master_quiz_2",
       "level": 2,
       "progress": {
-        "current": 98,
-        "total": 100
+        "current": 102,
+        "total": 104
       },
       "quiz_payload": {
         "question": "Assertion (A) & Reason (R) Drill (NEET / BPSC Exam Pattern):\nAssertion (A): Henle's loop aur Vasa Recta ke beech Counter-Current Mechanism vrikk ke medullary interstitium me sandrata pravanta (osmotic gradient) banaye rakhne me sahayak hota hai.\nReason (R): Yeh gradient collecting duct se jal ke aasaani se nishkasan aur mutra ko sandra (concentrated) banane me madad karta hai.",
         "options": [
-          { "id": "A", "text": "Dono (A) aur (R) sahi hain, aur (R), (A) ka sahi spashtikaran hai." },
-          { "id": "B", "text": "Dono (A) aur (R) sahi hain, lekin (R), (A) ka sahi spashtikaran NAHI hai." },
-          { "id": "C", "text": "(A) sahi hai lekin (R) galat hai." },
-          { "id": "D", "text": "(A) galat hai lekin (R) sahi hai." }
+          {
+            "id": "A",
+            "text": "Dono (A) aur (R) sahi hain, aur (R), (A) ka sahi spashtikaran hai."
+          },
+          {
+            "id": "B",
+            "text": "Dono (A) aur (R) sahi hain, lekin (R), (A) ka sahi spashtikaran NAHI hai."
+          },
+          {
+            "id": "C",
+            "text": "(A) sahi hai lekin (R) galat hai."
+          },
+          {
+            "id": "D",
+            "text": "(A) galat hai lekin (R) sahi hai."
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Dono kathan satya hain. Medulla me 300 se 1200 mOsmol/L ka high osmotic gradient hi collecting duct se paani ko bahar kheenchna sambhav banata hai, jisse hamara sharir kam se kam paani gawa kar concentrated urine pass karta hai."
@@ -2834,16 +3531,28 @@
       "concept_id": "concept_final_master_quiz_3",
       "level": 2,
       "progress": {
-        "current": 99,
-        "total": 100
+        "current": 103,
+        "total": 104
       },
       "quiz_payload": {
         "question": "⭐ Match The Column Challenge (BPSC / UPSC Prelims Pattern):\nColumn I (Sanrachna/Rog) ko Column II (Karya/Lakshan) se sahi su-melit kijiye:\n(P) Podocytes ➔ (1) 70-80% Electrolytes aur Paani ka absorption\n(Q) PCT ➔ (2) Filtration Slits / Pores ka nirmaan\n(R) Renin ➔ (3) Calcium Oxalate ke insoluble crystals\n(S) Renal Calculi ➔ (4) Angiotensinogen ko Angiotensin-I me badalna",
         "options": [
-          { "id": "A", "text": "P-2, Q-1, R-4, S-3" },
-          { "id": "B", "text": "P-1, Q-2, R-3, S-4" },
-          { "id": "C", "text": "P-2, Q-4, R-1, S-3" },
-          { "id": "D", "text": "P-3, Q-1, R-4, S-2" }
+          {
+            "id": "A",
+            "text": "P-2, Q-1, R-4, S-3"
+          },
+          {
+            "id": "B",
+            "text": "P-1, Q-2, R-3, S-4"
+          },
+          {
+            "id": "C",
+            "text": "P-2, Q-4, R-1, S-3"
+          },
+          {
+            "id": "D",
+            "text": "P-3, Q-1, R-4, S-2"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Podocytes filtration slits banate hain (P-2), PCT 70-80% absorption karta hai (Q-1), Renin Angiotensinogen ko convert karta hai (R-4), aur Renal Calculi calcium oxalate crystals hote hain (S-3)."
@@ -2860,8 +3569,8 @@
       "concept_id": "concept_chapter_completion_trophy",
       "level": 2,
       "progress": {
-        "current": 100,
-        "total": 100
+        "current": 104,
+        "total": 104
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER COMPLETED: 100/100 CARDS!",
@@ -2872,7 +3581,7 @@
         "motivational_quote": "Sensational Dedication! You have mastered every single scientist discovery, equation, gradient value, hormonal feedback loop, and clinical trap with zero topic leakage. You are 100% exam-ready for BPSC, NEET, SSC CGL & UPSC Prelims!"
       },
       "navigation": {
-        "next": "card_01_intro",
+        "next": null,
         "button_text": "Restart or Go to Dashboard ➔"
       }
     }

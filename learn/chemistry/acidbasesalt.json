@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims"
+    "UPSC Prelims",
+    "RRB Group D"
   ],
-  "total_cards": 80,
+  "total_cards": 84,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 80
+        "total": 84
       },
       "intro_payload": {
         "title": "⚗️ Acids, Bases & Salts (अम्ल, क्षार और लवण)",
@@ -42,7 +43,8 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims"
+          "UPSC Prelims",
+          "RRB Group D"
         ],
         "learning_outcomes": [
           "Acid aur Base ki pehchaan – daily life se",
@@ -52,12 +54,70 @@
           "Neutralization Reaction – Salt kaise banta hai",
           "Important Salts – NaCl, Na₂CO₃, NaHCO₃, Bleaching Powder",
           "Buffer Solutions aur their importance",
-          "PYQ Traps – BPSC, SSC, NEET level mastery"
+          "PYQ Traps – BPSC, SSC, NEET level mastery",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
         ]
       },
       "navigation": {
-        "next": "card_02_daily_acid_observation",
+        "next": "card_zero_foundation",
         "button_text": "Let's Begin ➔"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 84
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Acid, base aur salt ko pehle daily examples se pehchano: nimbu ka ras acidic hota hai, soap solution basic hota hai, aur common salt ek salt hai. Is chapter mein unke properties, pH aur reactions step by step aayenge."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_daily_acid_observation",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -67,8 +127,8 @@
       "concept_id": "acid_daily_life",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 80
+        "current": 3,
+        "total": 84
       },
       "messages": [
         {
@@ -77,7 +137,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Bilkul – muh mein paani aa jaata hai aur tongue pe ek khattas, cheenka wala feel hota hai!"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -85,7 +145,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Dahi mein acid hai?? Mujhe laga dahi to healthy cheez hai – acid kaise hogi?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -100,8 +160,8 @@
       "concept_id": "acid_properties",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 80
+        "current": 4,
+        "total": 84
       },
       "messages": [
         {
@@ -110,7 +170,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Litmus paper! Wo to humne class mein dekha tha – laal ho jaata hai acid se. Aur base se neela hota hai na Sir?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -118,7 +178,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sabun base hai! Isliye haath mein chiknahat aati hai! Ab samajh aaya! Toh acid = khatta, base = kadwa aur chikna?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -133,8 +193,8 @@
       "concept_id": "natural_acids_sources",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 80
+        "current": 5,
+        "total": 84
       },
       "messages": [
         {
@@ -143,7 +203,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Chinti ke daank mein Formic Acid?! Isliye daank lagne pe jalan hoti hai? Aur apple mein Malic Acid – Malic toh apple ka Latin naam jaisa lagta hai!"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -151,7 +211,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Uric Acid se Gout! Matlab body ke andar bhi acid banta hai jo problem karta hai? Ab aage kya hai Sir?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -166,8 +226,8 @@
       "concept_id": "natural_acids_quiz",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 80
+        "current": 6,
+        "total": 84
       },
       "quiz_payload": {
         "question": "सिरका (Vinegar) में कौन सा अम्ल पाया जाता है? (Q1/3)",
@@ -204,8 +264,8 @@
       "concept_id": "natural_acids_quiz",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 80
+        "current": 7,
+        "total": 84
       },
       "quiz_payload": {
         "question": "चींटी के डंक में कौन सा अम्ल होता है जिससे जलन होती है? (Q2/3)",
@@ -242,8 +302,8 @@
       "concept_id": "natural_acids_quiz",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 80
+        "current": 8,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Acid की कौन सी property गलत है? (Q3/3)",
@@ -280,8 +340,8 @@
       "concept_id": "mod1_complete",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 80
+        "current": 9,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 1 COMPLETED! 🎉",
@@ -303,8 +363,8 @@
       "concept_id": "arrhenius_theory",
       "level": 2,
       "progress": {
-        "current": 9,
-        "total": 80
+        "current": 10,
+        "total": 84
       },
       "messages": [
         {
@@ -313,7 +373,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa! To HCl paani mein daalo to H⁺ aur Cl⁻ banta hai – toh HCl acid hai!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -321,7 +381,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sirf paani mein?! Matlab agar acid-base reaction paani ke bina ho to ye theory kuch nahi bata sakti?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -336,8 +396,8 @@
       "concept_id": "bronsted_lowry_theory",
       "level": 2,
       "progress": {
-        "current": 10,
-        "total": 80
+        "current": 11,
+        "total": 84
       },
       "messages": [
         {
@@ -346,7 +406,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Proton donate = Acid, Proton accept = Base! Ye to Arrhenius se zyada logical lagta hai Sir!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -354,7 +414,7 @@
         },
         {
           "speaker": "raju",
-          "text": "HCl ka conjugate base = Cl⁻, H₂O ka conjugate acid = H₃O⁺! Matlab har acid ke paas ek conjugate base hoti hai!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -369,8 +429,8 @@
       "concept_id": "lewis_theory",
       "level": 2,
       "progress": {
-        "current": 11,
-        "total": 80
+        "current": 12,
+        "total": 84
       },
       "messages": [
         {
@@ -379,7 +439,7 @@
         },
         {
           "speaker": "raju",
-          "text": "BF₃ ek acid hai?! Par usme to koi H⁺ nahi diya! Toh Arrhenius aur Bronsted ke hisab se ye acid nahi hoga na?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -387,7 +447,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Teen theories – Arrhenius sabse narrow, Lewis sabse broad! Aur 1923 mein do alag scientists ne alag-alag theory di – same year mein!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -402,8 +462,8 @@
       "concept_id": "theory_comparison_guess",
       "level": 2,
       "progress": {
-        "current": 12,
-        "total": 80
+        "current": 13,
+        "total": 84
       },
       "quiz_payload": {
         "question": "🤔 Guess karo! NH₃ (Ammonia) Bronsted-Lowry theory ke hisab se kya hai?",
@@ -440,8 +500,8 @@
       "concept_id": "acid_base_theories_quiz",
       "level": 2,
       "progress": {
-        "current": 13,
-        "total": 80
+        "current": 14,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Arrhenius Theory की मुख्य सीमा (Limitation) क्या है? (Q1/3)",
@@ -478,8 +538,8 @@
       "concept_id": "acid_base_theories_quiz",
       "level": 2,
       "progress": {
-        "current": 14,
-        "total": 80
+        "current": 15,
+        "total": 84
       },
       "quiz_payload": {
         "question": "BF₃ किस theory के अनुसार Acid है? (Q2/3)",
@@ -516,8 +576,8 @@
       "concept_id": "acid_base_theories_quiz",
       "level": 2,
       "progress": {
-        "current": 15,
-        "total": 80
+        "current": 16,
+        "total": 84
       },
       "quiz_payload": {
         "question": "HCl + H₂O → H₃O⁺ + Cl⁻ इस reaction में H₂O की Bronsted-Lowry role क्या है? (Q3/3)",
@@ -554,8 +614,8 @@
       "concept_id": "mod2_complete",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 80
+        "current": 17,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 2 COMPLETED! 🎉",
@@ -577,8 +637,8 @@
       "concept_id": "ph_scale_intro",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 80
+        "current": 18,
+        "total": 84
       },
       "messages": [
         {
@@ -587,7 +647,7 @@
         },
         {
           "speaker": "raju",
-          "text": "0 se 14 – matlab 7 beech mein hai! Toh 7 pe kya hoga Sir?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -595,7 +655,7 @@
         },
         {
           "speaker": "raju",
-          "text": "pH 0 se 7 = acid, 7 = neutral, 7 se 14 = base! Aur Sorensen 1909! Ye to simple hai Sir!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -610,8 +670,8 @@
       "concept_id": "ph_values_daily_life",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 80
+        "current": 19,
+        "total": 84
       },
       "messages": [
         {
@@ -620,7 +680,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Blood ka pH 7.35-7.45 – slightly alkaline! Agar blood bahut acidic ya basic ho jaaye to kya hoga Sir?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -628,7 +688,7 @@
         },
         {
           "speaker": "raju",
-          "text": "pH decrease = acidity increase! Ye to ulta lagta hai – number ghata toh acidity badhi! Ye confusing hai Sir!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -643,8 +703,8 @@
       "concept_id": "ph_logarithmic_scale",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 80
+        "current": 20,
+        "total": 84
       },
       "messages": [
         {
@@ -653,7 +713,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhhh! Negative log ki wajah se ulta hai! Zyada acid = kam pH number. Got it Sir! Aur pH ek unit waala number hai ya unit less?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -661,7 +721,7 @@
         },
         {
           "speaker": "raju",
-          "text": "1 pH unit = 10 times difference! Matlab pH 4 aur pH 6 mein 100 times ka fark hai! Ye to logarithm wali baat hai!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -676,8 +736,8 @@
       "concept_id": "ph_scale_quiz",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 80
+        "current": 21,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Human Blood का normal pH range क्या है? (Q1/3)",
@@ -714,8 +774,8 @@
       "concept_id": "ph_scale_quiz",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 80
+        "current": 22,
+        "total": 84
       },
       "quiz_payload": {
         "question": "pH scale किसने और कब दिया? (Q2/3)",
@@ -752,8 +812,8 @@
       "concept_id": "ph_scale_quiz",
       "level": 2,
       "progress": {
-        "current": 22,
-        "total": 80
+        "current": 23,
+        "total": 84
       },
       "quiz_payload": {
         "question": "यदि किसी solution का pH = 3 है और दूसरे का pH = 5 है, तो pH=3 वाला solution pH=5 वाले से कितना अधिक acidic है? (Q3/3)",
@@ -790,8 +850,8 @@
       "concept_id": "mod3_complete",
       "level": 2,
       "progress": {
-        "current": 23,
-        "total": 80
+        "current": 24,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 3 COMPLETED! 🎉",
@@ -813,8 +873,8 @@
       "concept_id": "strong_weak_acids",
       "level": 2,
       "progress": {
-        "current": 24,
-        "total": 80
+        "current": 25,
+        "total": 84
       },
       "messages": [
         {
@@ -823,7 +883,7 @@
         },
         {
           "speaker": "raju",
-          "text": "100% ionize matlab ek bhi molecule bacha nahi! Sir kaunse acids strong hain?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -831,7 +891,7 @@
         },
         {
           "speaker": "raju",
-          "text": "HF weak acid hai?! HCl, HBr, HI strong hain par HF weak?? Ye to confusing trap hai Sir!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -846,8 +906,8 @@
       "concept_id": "hf_exception_strong_bases",
       "level": 2,
       "progress": {
-        "current": 25,
-        "total": 80
+        "current": 26,
+        "total": 84
       },
       "messages": [
         {
@@ -856,7 +916,7 @@
         },
         {
           "speaker": "raju",
-          "text": "F ki electronegativity ki wajah se HF weak acid! Ab weak bases kaunse hain Sir?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -864,7 +924,7 @@
         },
         {
           "speaker": "raju",
-          "text": "HF glass tod sakta hai?? Weak acid hua lekin glass khaa gaya! Ye to seriously unexpected hai Sir!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -879,8 +939,8 @@
       "concept_id": "dilute_conc_strong_weak_difference",
       "level": 2,
       "progress": {
-        "current": 26,
-        "total": 80
+        "current": 27,
+        "total": 84
       },
       "messages": [
         {
@@ -889,7 +949,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Concentrated matlab sirf concentrated, weak matlab kam ionized! Ye to mix ho jaata tha mujhe – ab clear hai!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -897,7 +957,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Dilute H₂SO₄ → H₂ gas, Concentrated H₂SO₄ → SO₂ gas! Ye to important difference hai – same acid, alag products!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -912,8 +972,8 @@
       "concept_id": "strong_weak_quiz",
       "level": 2,
       "progress": {
-        "current": 27,
-        "total": 80
+        "current": 28,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा एक Weak Acid है? (Q1/3)",
@@ -950,8 +1010,8 @@
       "concept_id": "strong_weak_quiz",
       "level": 2,
       "progress": {
-        "current": 28,
-        "total": 80
+        "current": 29,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Assertion (A): HCl एक strong acid है।\nReason (R): HCl पानी में पूरी तरह (100%) ionize होकर H⁺ और Cl⁻ ions देता है। (Q2/3)",
@@ -988,8 +1048,8 @@
       "concept_id": "strong_weak_quiz",
       "level": 2,
       "progress": {
-        "current": 29,
-        "total": 80
+        "current": 30,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Zinc के साथ Dilute H₂SO₄ की reaction से क्या gas बनती है? (Q3/3)",
@@ -1026,8 +1086,8 @@
       "concept_id": "mod4_complete",
       "level": 2,
       "progress": {
-        "current": 30,
-        "total": 80
+        "current": 31,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 4 COMPLETED! 🎉",
@@ -1049,8 +1109,8 @@
       "concept_id": "neutralization_reaction",
       "level": 3,
       "progress": {
-        "current": 31,
-        "total": 80
+        "current": 32,
+        "total": 84
       },
       "messages": [
         {
@@ -1059,7 +1119,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Antacid base hai?! Aur wo stomach acid ko neutralize karta hai! Matlab acid aur base aapas mein kat jaate hain – ek dono ko khatam kar deta hai?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1067,7 +1127,7 @@
         },
         {
           "speaker": "raju",
-          "text": "NaCl khane ka namak!! Acid aur base se khane ka namak bana! Ye to amazing hai Sir!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1082,8 +1142,8 @@
       "concept_id": "types_of_salts",
       "level": 3,
       "progress": {
-        "current": 32,
-        "total": 80
+        "current": 33,
+        "total": 84
       },
       "messages": [
         {
@@ -1092,7 +1152,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Arre! Matlab NH₄Cl (ammonium chloride) acidic salt hai? Ye to dahi mein use hota hai! Aur Na₂CO₃ basic salt hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1100,7 +1160,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Salt bhi acid ya base ho sakta hai?! Ye to seriously unexpected tha Sir! Salt neutral nahi hota hamesha?"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1115,8 +1175,8 @@
       "concept_id": "nacl_common_salt",
       "level": 3,
       "progress": {
-        "current": 33,
-        "total": 80
+        "current": 34,
+        "total": 84
       },
       "messages": [
         {
@@ -1125,7 +1185,7 @@
         },
         {
           "speaker": "raju",
-          "text": "NaCl se Cl₂ aur NaOH banana – Chlor-Alkali process! Ye factory mein hota hoga na Sir? Electrolysis se?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1133,7 +1193,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Brine matlab namkeen paani – NaCl solution! Aur usse teen cheezein milti hain – Cl₂, H₂, NaOH! Ek kaam se teen faayde!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1148,8 +1208,8 @@
       "concept_id": "washing_baking_soda",
       "level": 3,
       "progress": {
-        "current": 34,
-        "total": 80
+        "current": 35,
+        "total": 84
       },
       "messages": [
         {
@@ -1158,7 +1218,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Washing Soda = Na₂CO₃·10H₂O! 10 paani ke molecules ke saath! Aur Baking Soda alag hota hai Sir?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1166,7 +1226,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Baking Soda = NaHCO₃! Aur ye fire extinguisher mein bhi hota hai? Matlab ek hi cheez baking aur fire dono mein kaam aati hai!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1181,8 +1241,8 @@
       "concept_id": "bleaching_powder_plaster_paris",
       "level": 3,
       "progress": {
-        "current": 35,
-        "total": 80
+        "current": 36,
+        "total": 84
       },
       "messages": [
         {
@@ -1191,7 +1251,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bleaching Powder paani saaf karta hai! Isliye swimming pool mein aur nali ke paani mein daalte hain! Aur Plaster of Paris kya hai Sir?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1199,7 +1259,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Fracture mein jo plaster lagate hain wo Plaster of Paris hai! Ab samajh aaya kyu set ho jaata hai – paani milaane se gypsum ban jaata hai!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1214,8 +1274,8 @@
       "concept_id": "important_salts_quiz",
       "level": 3,
       "progress": {
-        "current": 36,
-        "total": 80
+        "current": 37,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Baking Soda (NaHCO₃) के बारे में कौन सा कथन सही है? (Q1/3)",
@@ -1252,8 +1312,8 @@
       "concept_id": "important_salts_quiz",
       "level": 3,
       "progress": {
-        "current": 37,
-        "total": 80
+        "current": 38,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Bleaching Powder किसे Cl₂ gas प्रवाहित करके बनाया जाता है? (Q2/3)",
@@ -1290,8 +1350,8 @@
       "concept_id": "important_salts_quiz",
       "level": 3,
       "progress": {
-        "current": 38,
-        "total": 80
+        "current": 39,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Plaster of Paris (CaSO₄·½H₂O) कब 'set' होता है? (Q3/3)",
@@ -1328,8 +1388,8 @@
       "concept_id": "mod5_complete",
       "level": 3,
       "progress": {
-        "current": 39,
-        "total": 80
+        "current": 40,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 5 COMPLETED! 🎉",
@@ -1351,8 +1411,8 @@
       "concept_id": "indicators",
       "level": 3,
       "progress": {
-        "current": 40,
-        "total": 80
+        "current": 41,
+        "total": 84
       },
       "messages": [
         {
@@ -1361,7 +1421,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Litmus purple hota hai neutral mein?! Mujhe laga ya red ya blue hoga! Purple toh dono ka mix hai!"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1369,7 +1429,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haldi natural indicator hai?? Matlab kapde pe haldi lag jaaye aur sabun se dhoya to rang badal gaya – woh base ki wajah se hua! Isliye haldi ke daag saaf nahi hote!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1384,8 +1444,8 @@
       "concept_id": "universal_indicator_olfactory",
       "level": 3,
       "progress": {
-        "current": 41,
-        "total": 80
+        "current": 42,
+        "total": 84
       },
       "messages": [
         {
@@ -1394,7 +1454,7 @@
         },
         {
           "speaker": "raju",
-          "text": "pH 7 pe green! Matlab neutral = green color! Ye to pH paper se seedha dekh sakte hain bina calculation ke?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1402,7 +1462,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Pyaaz ek indicator hai?! Hain?? Matlab pyaaz ko base mein rakhne se smell gaayab ho jaati hai? Ye to seriously weird science hai!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -1417,8 +1477,8 @@
       "concept_id": "indicators_quiz",
       "level": 3,
       "progress": {
-        "current": 42,
-        "total": 80
+        "current": 43,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Phenolphthalein indicator Acidic solution में कौन सा रंग दिखाता है? (Q1/3)",
@@ -1455,8 +1515,8 @@
       "concept_id": "indicators_quiz",
       "level": 3,
       "progress": {
-        "current": 43,
-        "total": 80
+        "current": 44,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Litmus indicator प्राकृतिक रूप से किससे प्राप्त होता है? (Q2/3)",
@@ -1493,8 +1553,8 @@
       "concept_id": "indicators_quiz",
       "level": 3,
       "progress": {
-        "current": 44,
-        "total": 80
+        "current": 45,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Universal Indicator पर pH = 7 (Neutral) solution का रंग कौन सा होगा? (Q3/3)",
@@ -1531,8 +1591,8 @@
       "concept_id": "mod6_complete",
       "level": 3,
       "progress": {
-        "current": 45,
-        "total": 80
+        "current": 46,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 6 COMPLETED! 🎉",
@@ -1554,8 +1614,8 @@
       "concept_id": "industrial_acids",
       "level": 3,
       "progress": {
-        "current": 46,
-        "total": 80
+        "current": 47,
+        "total": 84
       },
       "messages": [
         {
@@ -1564,7 +1624,7 @@
         },
         {
           "speaker": "raju",
-          "text": "H₂SO₄ = King of Chemicals! Aur car ki battery mein bhi hota hai! Isliye battery se corrosive acid leak hota hai?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1572,7 +1632,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aqua Regia se Gold dissolve hota hai! Toh ye ek special mixture hai – HNO₃ aur HCl, 1:3 ratio mein? Ye to interesting hai Sir!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1587,8 +1647,8 @@
       "concept_id": "acid_rain",
       "level": 3,
       "progress": {
-        "current": 47,
-        "total": 80
+        "current": 48,
+        "total": 84
       },
       "messages": [
         {
@@ -1597,7 +1657,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Acid Rain! Isliye old buildings aur statues katne lagte hain – acid se marble dissolve ho jaata hai? Taj Mahal ke baare mein bhi bola gaya tha na Sir?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1605,7 +1665,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Marble Cancer! Chemistry aur environmental science ek saath! Aur Supreme Court ka order bhi isse connected hai!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1620,8 +1680,8 @@
       "concept_id": "buffer_solutions",
       "level": 4,
       "progress": {
-        "current": 48,
-        "total": 80
+        "current": 49,
+        "total": 84
       },
       "messages": [
         {
@@ -1630,7 +1690,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Buffer = pH shock absorber! Par Sir blood mein bhi pH maintain hota hai – kya wahan bhi buffer kaam karta hai?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1638,7 +1698,7 @@
         },
         {
           "speaker": "raju",
-          "text": "CH₃COOH + CH₃COONa = buffer! Acetic acid aur sodium acetate! Aur blood mein carbonic acid-bicarbonate system – ye NEET mein zaroor aayega!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1653,8 +1713,8 @@
       "concept_id": "industrial_acids_quiz",
       "level": 3,
       "progress": {
-        "current": 49,
-        "total": 80
+        "current": 50,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Aqua Regia किसका mixture है और यह क्यों special है? (Q1/3)",
@@ -1691,8 +1751,8 @@
       "concept_id": "industrial_acids_quiz",
       "level": 3,
       "progress": {
-        "current": 50,
-        "total": 80
+        "current": 51,
+        "total": 84
       },
       "quiz_payload": {
         "question": "H₂SO₄ को 'King of Chemicals' क्यों कहते हैं? (Q2/3)",
@@ -1729,8 +1789,8 @@
       "concept_id": "industrial_acids_quiz",
       "level": 3,
       "progress": {
-        "current": 51,
-        "total": 80
+        "current": 52,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Acid Rain का मुख्य कारण वायुमंडल में कौन सी gases हैं? (Q3/3)",
@@ -1767,8 +1827,8 @@
       "concept_id": "mod7_complete",
       "level": 3,
       "progress": {
-        "current": 52,
-        "total": 80
+        "current": 53,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 7 COMPLETED! 🎉",
@@ -1790,8 +1850,8 @@
       "concept_id": "special_reactions_concepts",
       "level": 4,
       "progress": {
-        "current": 53,
-        "total": 80
+        "current": 54,
+        "total": 84
       },
       "messages": [
         {
@@ -1800,7 +1860,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Paani amphoteric hai?! Matlab kabhi acid kabhi base! ZnO bhi amphoteric – isliye zinc ki reaction acid mein bhi hoti hai aur base mein bhi?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1808,7 +1868,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Amino Acids bhi amphoteric! Isliye pH ke hisaab se charge badal jaata hai proteins mein! NEET mein ye concept important hoga!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1823,8 +1883,8 @@
       "concept_id": "special_acid_reactions",
       "level": 4,
       "progress": {
-        "current": 54,
-        "total": 80
+        "current": 55,
+        "total": 84
       },
       "messages": [
         {
@@ -1833,7 +1893,7 @@
         },
         {
           "speaker": "raju",
-          "text": "NaHCO₃ heat pe CO₂ deta hai – isliye cake phoolti hai! Aur limestone HCl mein dissolve – isliye caves banate hain underground water acidic hoke?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -1841,7 +1901,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Submarine mein Na₂O₂ se oxygen nikalte hain! Chemistry ki application kitni jagah hoti hai Sir!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -1856,8 +1916,8 @@
       "concept_id": "hard_soft_water",
       "level": 4,
       "progress": {
-        "current": 55,
-        "total": 80
+        "current": 56,
+        "total": 84
       },
       "messages": [
         {
@@ -1866,7 +1926,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Temporary hardness boiling se hat jaati hai! Isliye gaon mein paani ubaal ke peete hain! Par permanent hardness nahi hategi boiling se?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1874,7 +1934,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sabun hard water mein jhag nahi deta! Isliye kuch jagah kapde saaf nahi hote achhe se! Aur Washing Soda permanent hardness remove karta hai!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1889,8 +1949,8 @@
       "concept_id": "special_concepts_quiz",
       "level": 4,
       "progress": {
-        "current": 56,
-        "total": 80
+        "current": 57,
+        "total": 84
       },
       "quiz_payload": {
         "question": "ZnO किस प्रकार का oxide है? (Q1/3)",
@@ -1927,8 +1987,8 @@
       "concept_id": "special_concepts_quiz",
       "level": 4,
       "progress": {
-        "current": 57,
-        "total": 80
+        "current": 58,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Temporary Hardness of Water कैसे remove होती है? (Q2/3)",
@@ -1965,8 +2025,8 @@
       "concept_id": "special_concepts_quiz",
       "level": 4,
       "progress": {
-        "current": 58,
-        "total": 80
+        "current": 59,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Buffer Solution के बारे में कौन सा कथन सही है? (Q3/3)",
@@ -2003,8 +2063,8 @@
       "concept_id": "mod8_complete",
       "level": 4,
       "progress": {
-        "current": 59,
-        "total": 80
+        "current": 60,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 8 COMPLETED! 🎉",
@@ -2026,8 +2086,8 @@
       "concept_id": "bonus_exam_facts",
       "level": 4,
       "progress": {
-        "current": 60,
-        "total": 80
+        "current": 61,
+        "total": 84
       },
       "messages": [
         {
@@ -2036,7 +2096,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Boric Acid Lewis acid hai Bronsted nahi! Interesting! Aur HClO₄ strongest common acid! Ye to important facts hain Sir!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -2044,7 +2104,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Blue Vitriol, Green Vitriol, White Vitriol – teeno vitriol yaad rakhne hain! CuSO₄ = Blue, FeSO₄ = Green, ZnSO₄ = White!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -2059,8 +2119,8 @@
       "concept_id": "concentration_terms",
       "level": 4,
       "progress": {
-        "current": 61,
-        "total": 80
+        "current": 62,
+        "total": 84
       },
       "messages": [
         {
@@ -2069,7 +2129,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Molarity aur Molality mein fark! Molarity = per liter solution, Molality = per kg solvent! Ye mix ho jaayenge Sir!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -2077,7 +2137,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Temperature se Molarity change hoti hai, Molality nahi! Ye to important distinction hai NEET ke liye!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -2092,8 +2152,8 @@
       "concept_id": "acid_base_applications",
       "level": 4,
       "progress": {
-        "current": 62,
-        "total": 80
+        "current": 63,
+        "total": 84
       },
       "messages": [
         {
@@ -2102,7 +2162,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toothpaste basic hai toh wo teeth ki acidity neutralize karta hai! Matlab brushing actually chemistry hai!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -2110,7 +2170,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Khet mein lime daalna ek chemistry experiment hai! Acidic soil = lime daalo, alkaline soil = gypsum daalo! Farmers bhi chemist hain in a way!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -2125,8 +2185,8 @@
       "concept_id": "salt_nature_prediction",
       "level": 4,
       "progress": {
-        "current": 63,
-        "total": 80
+        "current": 64,
+        "total": 84
       },
       "quiz_payload": {
         "question": "🤔 Guess karo! NH₄Cl (Ammonium Chloride) solution ka pH kya hoga?",
@@ -2163,8 +2223,8 @@
       "concept_id": "reaction_prediction",
       "level": 4,
       "progress": {
-        "current": 64,
-        "total": 80
+        "current": 65,
+        "total": 84
       },
       "quiz_payload": {
         "question": "🤔 Ek marble statue pe H₂SO₄ (acid rain) girta hai – kya banta hai?",
@@ -2201,8 +2261,8 @@
       "concept_id": "extra_exam_facts",
       "level": 4,
       "progress": {
-        "current": 65,
-        "total": 80
+        "current": 66,
+        "total": 84
       },
       "messages": [
         {
@@ -2211,7 +2271,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sugar pe H₂SO₄ se sirf carbon bachta hai?! Matlab sugar ka saara H aur O nikal jaata hai! Ye to dramatic experiment hoga!"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -2219,7 +2279,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Caustic Soda = NaOH, Caustic Potash = KOH! Aur HNO₃ skin yellow karta hai – isliye chemistry lab mein gloves pehnate hain!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -2234,8 +2294,8 @@
       "concept_id": "miscellaneous_quiz",
       "level": 4,
       "progress": {
-        "current": 66,
-        "total": 80
+        "current": 67,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Blue Vitriol (नीला थोथा) का रासायनिक नाम क्या है? (Q1/2)",
@@ -2272,8 +2332,8 @@
       "concept_id": "miscellaneous_quiz",
       "level": 4,
       "progress": {
-        "current": 67,
-        "total": 80
+        "current": 68,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Soil की Acidity दूर करने के लिए किसान क्या मिलाते हैं? (Q2/2)",
@@ -2299,8 +2359,122 @@
         "explanation": "Acidic soil (pH < 7) को neutralize करने के लिए किसान Slaked Lime (Ca(OH)₂ = बुझा हुआ चूना) मिलाते हैं – यह basic होने से soil का pH बढ़ाता है। Alkaline soil (pH > 7) को neutralize करने के लिए Gypsum (CaSO₄·2H₂O) मिलाते हैं। BPSC Agriculture-Chemistry crossover direct question!"
       },
       "navigation": {
-        "next": "card_68_officer_revision",
+        "next": "card_applied_case_01",
         "button_text": "Check Answer & Continue ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Khaane ke baad acidity ho to doctor antacid lene ko kahe. Antacid ka basic kaam kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Stomach ke extra acid ko neutralize karna"
+          },
+          {
+            "id": "B",
+            "text": "Food ko oxygen mein badalna"
+          },
+          {
+            "id": "C",
+            "text": "Blood clot banana"
+          },
+          {
+            "id": "D",
+            "text": "Stomach ko acid se bharna"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Basic antacid excess stomach acid ko neutralize kar sakta hai; medicine sahi dose mein hi leni chahiye."
+      },
+      "progress": {
+        "current": 69,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 2: Unknown liquid blue litmus ko red kar deta hai. Practical conclusion kya hoga?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Liquid acidic ho sakta hai"
+          },
+          {
+            "id": "B",
+            "text": "Liquid hamesha neutral hai"
+          },
+          {
+            "id": "C",
+            "text": "Liquid metal hai"
+          },
+          {
+            "id": "D",
+            "text": "Liquid oxygen hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Blue litmus ka red hona acidic solution ka common indicator test hai."
+      },
+      "progress": {
+        "current": 70,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 3: Acidic soil wale garden mein gardener soil test ke baad agricultural lime milata hai. Lime kyun?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Basic material acidity ko neutralize karne mein madad karega"
+          },
+          {
+            "id": "B",
+            "text": "Lime photosynthesis karta hai"
+          },
+          {
+            "id": "C",
+            "text": "Lime nitrogen ko oxygen banata hai"
+          },
+          {
+            "id": "D",
+            "text": "Lime soil ka mass mita deta hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Lime (jaise calcium carbonate) acidic soil ko neutralize karne ke liye use ho sakta hai; soil test ke hisaab se dose honi chahiye."
+      },
+      "progress": {
+        "current": 71,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_68_officer_revision",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2310,8 +2484,8 @@
       "concept_id": "officer_revision_summary",
       "level": 5,
       "progress": {
-        "current": 68,
-        "total": 80
+        "current": 72,
+        "total": 84
       },
       "summary_payload": {
         "title": "⚡ Quick Officer Revision – Acids, Bases & Salts",
@@ -2350,8 +2524,8 @@
       "concept_id": "final_master_quiz_1",
       "level": 5,
       "progress": {
-        "current": 69,
-        "total": 80
+        "current": 73,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. HF (Hydrofluoric Acid) एक strong acid है\n2. Baking Soda का formula Na₂CO₃·10H₂O है\n3. Arrhenius Theory केवल aqueous solutions में valid है\n4. Litmus, neutral solution में Purple color दिखाता है\n\nकौन से कथन सही हैं?",
@@ -2388,8 +2562,8 @@
       "concept_id": "final_master_quiz_2",
       "level": 5,
       "progress": {
-        "current": 70,
-        "total": 80
+        "current": 74,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Assertion (A): Na₂CO₃ (Washing Soda) का solution basic होता है।\nReason (R): Na₂CO₃ एक Weak Acid (H₂CO₃) और Strong Base (NaOH) से बना salt है, इसलिए hydrolysis से OH⁻ ions मिलते हैं।\n\nसही विकल्प चुनिए:",
@@ -2426,8 +2600,8 @@
       "concept_id": "final_master_quiz_3",
       "level": 5,
       "progress": {
-        "current": 71,
-        "total": 80
+        "current": 75,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित युग्मों (Salt – Chemical Formula) में से कौन से सही हैं?\n1. Plaster of Paris – CaSO₄·2H₂O\n2. Bleaching Powder – CaOCl₂\n3. Glauber's Salt – Na₂SO₄·10H₂O\n4. Blue Vitriol – FeSO₄·7H₂O\n\nसही कूट:",
@@ -2464,8 +2638,8 @@
       "concept_id": "final_master_quiz_4",
       "level": 5,
       "progress": {
-        "current": 72,
-        "total": 80
+        "current": 76,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. Temporary Hardness of Water, boiling से remove की जा सकती है\n2. Permanent Hardness, Na₂CO₃ मिलाने से remove होती है\n3. Hard water में साबुन अधिक झाग देता है\n4. Temporary Hardness, Ca(HCO₃)₂ और Mg(HCO₃)₂ की वजह से होती है\n\nकौन से कथन सही हैं?",
@@ -2502,8 +2676,8 @@
       "concept_id": "final_master_quiz_5",
       "level": 5,
       "progress": {
-        "current": 73,
-        "total": 80
+        "current": 77,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Assertion (A): BF₃ एक Lewis Acid है लेकिन Arrhenius Acid नहीं है।\nReason (R): BF₃ में Boron के पास empty orbital है जो electron pair accept कर सकता है, लेकिन यह H⁺ ions release नहीं करता।\n\nसही विकल्प:",
@@ -2540,8 +2714,8 @@
       "concept_id": "final_master_quiz_6",
       "level": 5,
       "progress": {
-        "current": 74,
-        "total": 80
+        "current": 78,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा कथन गलत है?",
@@ -2578,8 +2752,8 @@
       "concept_id": "final_master_quiz_7",
       "level": 5,
       "progress": {
-        "current": 75,
-        "total": 80
+        "current": 79,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. H₂O एक Amphoteric substance है\n2. Phenolphthalein, Acidic solution में Pink color देता है\n3. Methyl Orange, Basic solution में Yellow color देता है\n4. Universal Indicator पर pH=7 पर Green color दिखता है\n\nकौन से कथन सही हैं?",
@@ -2616,8 +2790,8 @@
       "concept_id": "final_master_quiz_8",
       "level": 5,
       "progress": {
-        "current": 76,
-        "total": 80
+        "current": 80,
+        "total": 84
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा (Acid – Source) युग्म गलत है?",
@@ -2654,8 +2828,8 @@
       "concept_id": "chapter_complete",
       "level": 5,
       "progress": {
-        "current": 77,
-        "total": 80
+        "current": 81,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER COMPLETED – ACIDS, BASES & SALTS! 🏆",
@@ -2677,8 +2851,8 @@
       "concept_id": "bonus_speed_facts",
       "level": 5,
       "progress": {
-        "current": 78,
-        "total": 80
+        "current": 82,
+        "total": 84
       },
       "summary_payload": {
         "title": "⚡ BONUS: Last-Minute Exam Speed Facts",
@@ -2717,8 +2891,8 @@
       "concept_id": "final_motivation",
       "level": 5,
       "progress": {
-        "current": 79,
-        "total": 80
+        "current": 83,
+        "total": 84
       },
       "messages": [
         {
@@ -2727,7 +2901,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir sach mein! Pehle socha tha ye bahut boring chemistry hai, par ab har cheez mein chemistry dikh rahi hai – dahi mein, antacid mein, haldi mein, chinti ke daank mein sab mein!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -2735,7 +2909,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Thank you Sir! Ab confidence aa gaya! Pehle HF ko strong acid samajhta tha, Washing Soda aur Baking Soda mix ho jaata tha – ab sab clear hai!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -2750,8 +2924,8 @@
       "concept_id": "final_celebration",
       "level": 5,
       "progress": {
-        "current": 80,
-        "total": 80
+        "current": 84,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🌟 OFFICER-LEVEL CHEMISTRY ACHIEVED! 🌟",

@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims"
+    "UPSC Prelims",
+    "RRB Group D"
   ],
-  "total_cards": 80,
+  "total_cards": 84,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 80
+        "total": 84
       },
       "intro_payload": {
         "title": "Atomic Structure",
@@ -43,21 +44,80 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims"
+          "UPSC Prelims",
+          "RRB Group D"
         ],
         "learning_outcomes": [
           "Understand Discovery of Subatomic Particles",
           "Master Thomson, Rutherford & Bohr's Atomic Models",
           "Learn Quantum Numbers & Electronic Configuration",
           "Decode Aufbau, Pauli & Hund's Rules",
-          "Solve PYQs from SSC, Railway, BPSC & NEET"
+          "Solve PYQs from SSC, Railway, BPSC & NEET",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
         ],
         "estimated_time": "45 minutes",
-        "total_concepts": 14
+        "total_concepts": 14,
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
+        ]
       },
       "navigation": {
-        "next": "card_02_daily_life_intro",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning 🚀"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 84
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Har substance bahut chhote particles se bana hota hai. Atom kisi element ka basic particle hai. Atom ke andar proton, neutron aur electron hote hain; pehle inka charge aur jagah samjhenge."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, abhi ka lesson samajh aaya."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_daily_life_intro",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -67,8 +127,8 @@
       "concept_id": "atom_introduction_daily_life",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 80
+        "current": 3,
+        "total": 84
       },
       "messages": [
         {
@@ -77,7 +137,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, science mein pada tha matter se bana hai sab kuch... matlab solid, liquid, gas..."
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -85,7 +145,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hmmm... sabse chhoti cheez? Koi bahut chhota particle?"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -100,8 +160,8 @@
       "concept_id": "atom_basic_definition",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 80
+        "current": 4,
+        "total": 84
       },
       "messages": [
         {
@@ -110,7 +170,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab atom ko tod nahi sakte? Par Sir aapne bola todne lago... to atom ke baad kya?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -118,7 +178,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaa... to atom ke andar bhi kuch hota hai?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -133,8 +193,8 @@
       "concept_id": "subatomic_particles_introduction",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 80
+        "current": 5,
+        "total": 84
       },
       "messages": [
         {
@@ -143,7 +203,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye teen particles ka kya kaam hai? Aur sabse pehle kaun discover hua tha?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -151,7 +211,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Okay Sir! Pehle electron ke baare mein batao."
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -166,8 +226,8 @@
       "concept_id": "electron_discovery_thomson",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 80
+        "current": 6,
+        "total": 84
       },
       "messages": [
         {
@@ -176,7 +236,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To wo rays kya thi Sir?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -184,7 +244,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! To electron negative charge wala particle hai jo bahut halka hai!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -199,8 +259,8 @@
       "concept_id": "electron_properties_details",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 80
+        "current": 7,
+        "total": 84
       },
       "messages": [
         {
@@ -209,7 +269,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye 1/1836 kya hai? Matlab electron proton se 1836 times halka hai?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -217,7 +277,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Accha! To electron bahut light hai. Ab proton ka discovery kab hua?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -232,8 +292,8 @@
       "concept_id": "proton_discovery_goldstein",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 80
+        "current": 8,
+        "total": 84
       },
       "messages": [
         {
@@ -242,7 +302,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To proton positive charge wala hai? Aur ye nucleus kya hai Sir?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -250,7 +310,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab atom ke beech mein nucleus hai jisme proton hai, aur bahar electrons!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -265,8 +325,8 @@
       "concept_id": "neutron_discovery_chadwick",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 80
+        "current": 9,
+        "total": 84
       },
       "messages": [
         {
@@ -275,7 +335,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Neutral matlab koi charge nahi? To iska kya kaam hai atom mein?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -283,7 +343,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! To neutron ek binding agent hai nucleus ko stable rakhne ke liye!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -298,8 +358,8 @@
       "concept_id": "electron_discovery_quiz",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 80
+        "current": 10,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Who discovered the ELECTRON and in which year? (SSC CGL 2019 PYQ Pattern)",
@@ -336,8 +396,8 @@
       "concept_id": "neutron_discovery_quiz",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 80
+        "current": 11,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which subatomic particle is electrically NEUTRAL and was discovered by James Chadwick? (Railway NTPC 2020 Pattern)",
@@ -374,8 +434,8 @@
       "concept_id": "mass_ratio_quiz",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 80
+        "current": 12,
+        "total": 84
       },
       "quiz_payload": {
         "question": "The mass of an electron is approximately how many times LIGHTER than a proton? (BPSC 2018 Pattern)",
@@ -412,8 +472,8 @@
       "concept_id": "subatomic_particles_complete",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 80
+        "current": 13,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🎉 SUBATOMIC PARTICLES MASTERED!",
@@ -435,8 +495,8 @@
       "concept_id": "thomson_model_introduction",
       "level": 1,
       "progress": {
-        "current": 13,
-        "total": 80
+        "current": 14,
+        "total": 84
       },
       "messages": [
         {
@@ -445,7 +505,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir wahi scientist jinhone electron discover kiya tha?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -453,7 +513,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Accha! To pura atom positive hai aur usme electrons ghuse hain?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -468,8 +528,8 @@
       "concept_id": "thomson_model_limitations",
       "level": 1,
       "progress": {
-        "current": 14,
-        "total": 80
+        "current": 15,
+        "total": 84
       },
       "messages": [
         {
@@ -478,7 +538,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye Alpha Scattering Experiment kya hai? Kisne kiya?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -486,7 +546,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir please! Ye experiment batao."
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -501,8 +561,8 @@
       "concept_id": "alpha_scattering_experiment",
       "level": 1,
       "progress": {
-        "current": 15,
-        "total": 80
+        "current": 16,
+        "total": 84
       },
       "messages": [
         {
@@ -511,7 +571,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To kya hua experiment mein Sir?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -519,7 +579,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! To iska matlab kya tha?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -534,8 +594,8 @@
       "concept_id": "rutherford_nuclear_model",
       "level": 1,
       "progress": {
-        "current": 16,
-        "total": 80
+        "current": 17,
+        "total": 84
       },
       "messages": [
         {
@@ -544,7 +604,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab atom jyada tar khali hai aur beech mein ek chota sa nucleus hai?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -552,7 +612,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bahut chhota par bahut heavy! Par Sir kya isme bhi koi problem thi?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -567,8 +627,8 @@
       "concept_id": "rutherford_model_limitations",
       "level": 1,
       "progress": {
-        "current": 17,
-        "total": 80
+        "current": 18,
+        "total": 84
       },
       "messages": [
         {
@@ -577,7 +637,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To agar energy lose karega to kya hoga?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -585,7 +645,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To Rutherford sahi tha structure mein par stability explain nahi kar paya?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -600,8 +660,8 @@
       "concept_id": "thomson_model_quiz",
       "level": 1,
       "progress": {
-        "current": 18,
-        "total": 80
+        "current": 19,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Thomson's Plum Pudding Model of atom suggests that: (SSC CHSL 2021 Pattern)",
@@ -638,8 +698,8 @@
       "concept_id": "rutherford_experiment_quiz",
       "level": 1,
       "progress": {
-        "current": 19,
-        "total": 80
+        "current": 20,
+        "total": 84
       },
       "quiz_payload": {
         "question": "In Rutherford's Alpha Scattering Experiment, which metal foil was used? (Railway Group D 2022 Pattern)",
@@ -676,8 +736,8 @@
       "concept_id": "rutherford_conclusion_quiz",
       "level": 1,
       "progress": {
-        "current": 20,
-        "total": 80
+        "current": 21,
+        "total": 84
       },
       "quiz_payload": {
         "question": "The fact that most alpha particles passed straight through the gold foil in Rutherford's experiment suggests that: (BPSC 2019 Pattern)",
@@ -714,8 +774,8 @@
       "concept_id": "early_models_complete",
       "level": 1,
       "progress": {
-        "current": 21,
-        "total": 80
+        "current": 22,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🎯 EARLY ATOMIC MODELS CONQUERED!",
@@ -737,8 +797,8 @@
       "concept_id": "bohr_model_introduction",
       "level": 1,
       "progress": {
-        "current": 22,
-        "total": 80
+        "current": 23,
+        "total": 84
       },
       "messages": [
         {
@@ -747,7 +807,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir quantum theory matlab kya? Ye naya concept hai!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -755,7 +815,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Okay Sir, batao Bohr ke postulates!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -770,8 +830,8 @@
       "concept_id": "bohr_postulate_stationary_orbits",
       "level": 1,
       "progress": {
-        "current": 23,
-        "total": 80
+        "current": 24,
+        "total": 84
       },
       "messages": [
         {
@@ -780,7 +840,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Accha! To Bohr ne bola electron fixed orbit mein ghumta hai aur energy lose nahi karta? Ye to Rutherford ki problem solve ho gayi!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -788,7 +848,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye formula yaad rakhna padega! n kya hai ismein?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -803,8 +863,8 @@
       "concept_id": "bohr_postulates_energy_transition",
       "level": 1,
       "progress": {
-        "current": 24,
-        "total": 80
+        "current": 25,
+        "total": 84
       },
       "messages": [
         {
@@ -813,7 +873,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab normal orbit mein rehne par koi energy change nahi, par jump karne par energy change hoti hai?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -821,7 +881,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wah! To Bohr ne spectrum bhi explain kar diya!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -836,8 +896,8 @@
       "concept_id": "bohr_energy_formula_hydrogen",
       "level": 1,
       "progress": {
-        "current": 25,
-        "total": 80
+        "current": 26,
+        "total": 84
       },
       "messages": [
         {
@@ -846,7 +906,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye 13.6 eV value kya hai? Exam mein yaad rakhni padegi?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -854,7 +914,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To formulas yaad rakhne padenge! Par Bohr model mein bhi koi limitation thi kya?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -869,8 +929,8 @@
       "concept_id": "bohr_model_limitations",
       "level": 1,
       "progress": {
-        "current": 26,
-        "total": 80
+        "current": 27,
+        "total": 84
       },
       "messages": [
         {
@@ -879,7 +939,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye Uncertainty Principle kya hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -887,7 +947,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To ab quantum mechanical model use hota hai?"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -902,8 +962,8 @@
       "concept_id": "bohr_postulate_quiz",
       "level": 1,
       "progress": {
-        "current": 27,
-        "total": 80
+        "current": 28,
+        "total": 84
       },
       "quiz_payload": {
         "question": "According to Bohr's model, electron does NOT radiate energy when it is in: (NEET 2020 Pattern)",
@@ -940,8 +1000,8 @@
       "concept_id": "bohr_energy_quiz",
       "level": 1,
       "progress": {
-        "current": 28,
-        "total": 80
+        "current": 29,
+        "total": 84
       },
       "quiz_payload": {
         "question": "The energy of an electron in the ground state (n=1) of hydrogen atom is: (SSC CGL 2020 Pattern)",
@@ -978,8 +1038,8 @@
       "concept_id": "bohr_limitation_quiz",
       "level": 1,
       "progress": {
-        "current": 29,
-        "total": 80
+        "current": 30,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Bohr's atomic model successfully explains the spectrum of: (BPSC 2021 Pattern)",
@@ -1016,8 +1076,8 @@
       "concept_id": "bohr_model_complete",
       "level": 1,
       "progress": {
-        "current": 30,
-        "total": 80
+        "current": 31,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🌟 BOHR'S MODEL MASTERED!",
@@ -1039,8 +1099,8 @@
       "concept_id": "quantum_mechanical_model_intro",
       "level": 2,
       "progress": {
-        "current": 31,
-        "total": 80
+        "current": 32,
+        "total": 84
       },
       "messages": [
         {
@@ -1049,7 +1109,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir electron wave kaise ho sakta hai? Wo to particle hai na?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1057,7 +1117,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To Schrödinger ne kya kiya?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1072,8 +1132,8 @@
       "concept_id": "schrodinger_wave_equation",
       "level": 2,
       "progress": {
-        "current": 32,
-        "total": 80
+        "current": 33,
+        "total": 84
       },
       "messages": [
         {
@@ -1082,7 +1142,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir orbit aur orbital mein kya farak hai?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1090,7 +1150,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Quantum numbers matlab?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1105,8 +1165,8 @@
       "concept_id": "quantum_numbers_introduction",
       "level": 2,
       "progress": {
-        "current": 33,
-        "total": 80
+        "current": 34,
+        "total": 84
       },
       "messages": [
         {
@@ -1115,7 +1175,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye BPSC aur NEET mein bahut aata hai na? Detail mein samjhao please!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1123,7 +1183,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Accha, to n se shell pata chalta hai. Baaki teen?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1138,8 +1198,8 @@
       "concept_id": "azimuthal_quantum_number",
       "level": 2,
       "progress": {
-        "current": 34,
-        "total": 80
+        "current": 35,
+        "total": 84
       },
       "messages": [
         {
@@ -1148,7 +1208,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir agar n = 3 hai to l ki values kya hongi?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1156,7 +1216,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Nice trick! Aage batao Sir."
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -1171,8 +1231,8 @@
       "concept_id": "magnetic_quantum_number",
       "level": 2,
       "progress": {
-        "current": 35,
-        "total": 80
+        "current": 36,
+        "total": 84
       },
       "messages": [
         {
@@ -1181,7 +1241,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab p ke 3 orbitals aur d ke 5 orbitals hote hain different directions mein?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1189,7 +1249,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Got it! Ab last wala spin quantum number?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1204,8 +1264,8 @@
       "concept_id": "spin_quantum_number",
       "level": 2,
       "progress": {
-        "current": 36,
-        "total": 80
+        "current": 37,
+        "total": 84
       },
       "messages": [
         {
@@ -1214,7 +1274,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To ek orbital mein 2 electron ho sakte hain par opposite spin ke?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1222,7 +1282,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Ab clear ho gaya! Par Sir quantum numbers kaise assign karte hain?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1237,8 +1297,8 @@
       "concept_id": "azimuthal_value_quiz",
       "level": 2,
       "progress": {
-        "current": 37,
-        "total": 80
+        "current": 38,
+        "total": 84
       },
       "quiz_payload": {
         "question": "For a 3d orbital, the values of principal (n) and azimuthal (l) quantum numbers are: (NEET 2019 PYQ)",
@@ -1275,8 +1335,8 @@
       "concept_id": "magnetic_quantum_values",
       "level": 2,
       "progress": {
-        "current": 38,
-        "total": 80
+        "current": 39,
+        "total": 84
       },
       "quiz_payload": {
         "question": "How many orbitals are present in a d subshell? (SSC CGL 2021 Pattern)",
@@ -1313,8 +1373,8 @@
       "concept_id": "spin_quantum_number_quiz",
       "level": 2,
       "progress": {
-        "current": 39,
-        "total": 80
+        "current": 40,
+        "total": 84
       },
       "quiz_payload": {
         "question": "The spin quantum number of an electron can have values: (Railway Group D 2022 Pattern)",
@@ -1351,8 +1411,8 @@
       "concept_id": "quantum_numbers_complete",
       "level": 2,
       "progress": {
-        "current": 40,
-        "total": 80
+        "current": 41,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🎊 QUANTUM NUMBERS DECODED!",
@@ -1374,8 +1434,8 @@
       "concept_id": "electronic_configuration_introduction",
       "level": 2,
       "progress": {
-        "current": 41,
-        "total": 80
+        "current": 42,
+        "total": 84
       },
       "messages": [
         {
@@ -1384,7 +1444,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Kaun se rules Sir? Quantum numbers wale?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1392,7 +1452,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ek-ek karke detail mein samjhao please!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1407,8 +1467,8 @@
       "concept_id": "aufbau_principle_detailed",
       "level": 2,
       "progress": {
-        "current": 42,
-        "total": 80
+        "current": 43,
+        "total": 84
       },
       "messages": [
         {
@@ -1417,7 +1477,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye (n+l) rule kya hai? Aur 4s, 3d ka order ulta kyun hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1425,7 +1485,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Accha! To energy order rote-rote yaad rakhna padega?"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1440,8 +1500,8 @@
       "concept_id": "pauli_exclusion_principle",
       "level": 2,
       "progress": {
-        "current": 43,
-        "total": 80
+        "current": 44,
+        "total": 84
       },
       "messages": [
         {
@@ -1450,7 +1510,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab har electron unique identity rakhta hai quantum numbers se?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1458,7 +1518,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Clear! Ab Hund's rule?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1473,8 +1533,8 @@
       "concept_id": "hund_rule_maximum_multiplicity",
       "level": 2,
       "progress": {
-        "current": 44,
-        "total": 80
+        "current": 45,
+        "total": 84
       },
       "messages": [
         {
@@ -1483,7 +1543,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Accha! Example se samjhao Sir - jaise nitrogen ka."
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1491,7 +1551,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Got it! To teen rules combined use karte hain configuration likhne mein?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1506,8 +1566,8 @@
       "concept_id": "electronic_configuration_examples",
       "level": 2,
       "progress": {
-        "current": 45,
-        "total": 80
+        "current": 46,
+        "total": 84
       },
       "messages": [
         {
@@ -1516,7 +1576,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir shorthand notation bhi hai kya? Har baar 1s² 2s² likhna lamba hai!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1524,7 +1584,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye to easy ho gaya! Par Sir kuch exceptions bhi hain kya?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1539,8 +1599,8 @@
       "concept_id": "electronic_configuration_exceptions",
       "level": 2,
       "progress": {
-        "current": 46,
-        "total": 80
+        "current": 47,
+        "total": 84
       },
       "messages": [
         {
@@ -1549,7 +1609,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Kya?! Rules follow nahi kiye? Kyun Sir?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1557,7 +1617,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye to exam mein pakka puchenge! Yaad rakhna padega!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -1572,8 +1632,8 @@
       "concept_id": "aufbau_order_quiz",
       "level": 2,
       "progress": {
-        "current": 47,
-        "total": 80
+        "current": 48,
+        "total": 84
       },
       "quiz_payload": {
         "question": "According to Aufbau principle, which orbital is filled BEFORE 3d? (SSC CGL 2020 Pattern)",
@@ -1610,8 +1670,8 @@
       "concept_id": "chromium_exception_quiz",
       "level": 2,
       "progress": {
-        "current": 48,
-        "total": 80
+        "current": 49,
+        "total": 84
       },
       "quiz_payload": {
         "question": "The electronic configuration of Chromium (Z=24) is: (NEET 2021 Pattern)",
@@ -1648,8 +1708,8 @@
       "concept_id": "hund_rule_quiz",
       "level": 2,
       "progress": {
-        "current": 49,
-        "total": 80
+        "current": 50,
+        "total": 84
       },
       "quiz_payload": {
         "question": "According to Hund's rule, the correct filling of electrons in 2p orbitals for nitrogen (7 electrons) is: (BPSC 2020 Pattern)",
@@ -1686,8 +1746,8 @@
       "concept_id": "electronic_configuration_complete",
       "level": 2,
       "progress": {
-        "current": 50,
-        "total": 80
+        "current": 51,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🏆 ELECTRON FILLING CHAMPION!",
@@ -1709,8 +1769,8 @@
       "concept_id": "valency_introduction",
       "level": 2,
       "progress": {
-        "current": 51,
-        "total": 80
+        "current": 52,
+        "total": 84
       },
       "messages": [
         {
@@ -1719,7 +1779,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir valence electrons kaise find karte hain? Last shell ke electrons?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -1727,7 +1787,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Cl ki valency = 8-7 = 1? Par 7 electrons hain?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -1742,8 +1802,8 @@
       "concept_id": "valency_calculation_octet",
       "level": 2,
       "progress": {
-        "current": 52,
-        "total": 80
+        "current": 53,
+        "total": 84
       },
       "messages": [
         {
@@ -1752,7 +1812,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Accha! To valency batati hai kitne bonds banana chahiye atom!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1760,7 +1820,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Got it! Par Sir transition elements mein variable valency hoti hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1775,8 +1835,8 @@
       "concept_id": "variable_valency_transition",
       "level": 2,
       "progress": {
-        "current": 53,
-        "total": 80
+        "current": 54,
+        "total": 84
       },
       "messages": [
         {
@@ -1785,7 +1845,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab ek hi element ki alag-alag valency ho sakti hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1793,7 +1853,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Interesting! Ab isotopes kya hote hain Sir?"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1808,8 +1868,8 @@
       "concept_id": "isotopes_introduction",
       "level": 2,
       "progress": {
-        "current": 54,
-        "total": 80
+        "current": 55,
+        "total": 84
       },
       "messages": [
         {
@@ -1818,7 +1878,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab teeno hydrogen hain par weight alag hai?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1826,7 +1886,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Radioactive matlab dangerous? C-14 se dating kaise hoti hai?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1841,8 +1901,8 @@
       "concept_id": "isobars_isotones_concepts",
       "level": 2,
       "progress": {
-        "current": 55,
-        "total": 80
+        "current": 56,
+        "total": 84
       },
       "messages": [
         {
@@ -1851,7 +1911,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye to confusing hai Sir! Koi trick hai yaad rakhne ki?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1859,7 +1919,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Okay yaad rakhna hai ye sab! Ab quiz?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1874,8 +1934,8 @@
       "concept_id": "valency_calculation_quiz",
       "level": 2,
       "progress": {
-        "current": 56,
-        "total": 80
+        "current": 57,
+        "total": 84
       },
       "quiz_payload": {
         "question": "An element has 7 valence electrons. Its valency is: (SSC CHSL 2021 Pattern)",
@@ -1912,8 +1972,8 @@
       "concept_id": "isotopes_definition_quiz",
       "level": 2,
       "progress": {
-        "current": 57,
-        "total": 80
+        "current": 58,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Isotopes of an element have: (NEET 2018 Pattern)",
@@ -1950,8 +2010,8 @@
       "concept_id": "isobars_definition_quiz",
       "level": 2,
       "progress": {
-        "current": 58,
-        "total": 80
+        "current": 59,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Atoms of DIFFERENT elements having SAME mass number are called: (Railway NTPC 2020 Pattern)",
@@ -1988,8 +2048,8 @@
       "concept_id": "advanced_concepts_complete",
       "level": 2,
       "progress": {
-        "current": 59,
-        "total": 80
+        "current": 60,
+        "total": 84
       },
       "milestone_payload": {
         "title": "💎 ADVANCED CONCEPTS UNLOCKED!",
@@ -2000,8 +2060,122 @@
         "motivational_quote": "From atoms to isotopes - you're thinking like a chemistry professor now! One final push - revision & master quiz! 🚀"
       },
       "navigation": {
-        "next": "card_60_complete_revision",
+        "next": "card_applied_case_01",
         "button_text": "Officer Level Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Sodium atom ek electron kho deta hai. Bana hua particle kis charge ka hoga?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Positive ion (cation)"
+          },
+          {
+            "id": "B",
+            "text": "Negative ion (anion)"
+          },
+          {
+            "id": "C",
+            "text": "Neutral molecule"
+          },
+          {
+            "id": "D",
+            "text": "Neutron"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Electron negative hota hai; ek electron khone par protons zyada ho jaate hain, isliye Na⁺ cation banta hai."
+      },
+      "progress": {
+        "current": 61,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: Do carbon atoms ke proton same hain par neutron alag. Inhe kya kaha jaata hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Isotopes"
+          },
+          {
+            "id": "B",
+            "text": "Ions"
+          },
+          {
+            "id": "C",
+            "text": "Isobars"
+          },
+          {
+            "id": "D",
+            "text": "Molecules"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Same element ke atoms mein protons same aur neutrons alag hon to unhe isotopes kehte hain."
+      },
+      "progress": {
+        "current": 62,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 3: Neutral oxygen atom ke nucleus mein 8 protons hain. Neutral rehne ke liye electrons kitne?",
+        "options": [
+          {
+            "id": "A",
+            "text": "8"
+          },
+          {
+            "id": "B",
+            "text": "16"
+          },
+          {
+            "id": "C",
+            "text": "0"
+          },
+          {
+            "id": "D",
+            "text": "10"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Neutral atom mein total positive proton charge aur negative electron charge barabar hote hain; isliye 8 electrons."
+      },
+      "progress": {
+        "current": 63,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_60_complete_revision",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2011,8 +2185,8 @@
       "concept_id": "complete_chapter_revision",
       "level": 2,
       "progress": {
-        "current": 60,
-        "total": 80
+        "current": 64,
+        "total": 84
       },
       "summary_payload": {
         "title": "⚡ COMPLETE ATOMIC STRUCTURE - OFFICER REVISION",
@@ -2063,8 +2237,8 @@
       "concept_id": "final_bpsc_style_1",
       "level": 2,
       "progress": {
-        "current": 61,
-        "total": 80
+        "current": 65,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Consider the following statements about atomic structure:\n\nI. J.J. Thomson discovered electron in 1897.\nII. Neutron was discovered by James Chadwick in 1932.\nIII. The mass of electron is approximately equal to the mass of proton.\nIV. Most of the mass of atom is concentrated in the nucleus.\n\nWhich of the above statements are CORRECT? (BPSC Multi-Statement Pattern)",
@@ -2101,8 +2275,8 @@
       "concept_id": "final_assertion_reason_1",
       "level": 2,
       "progress": {
-        "current": 62,
-        "total": 80
+        "current": 66,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Assertion (A): In Rutherford's alpha scattering experiment, most alpha particles passed straight through the gold foil.\n\nReason (R): Atoms are mostly empty space with a small dense nucleus at the center.\n\n(BPSC/NEET Assertion-Reason Pattern)",
@@ -2139,8 +2313,8 @@
       "concept_id": "final_quantum_numbers",
       "level": 2,
       "progress": {
-        "current": 63,
-        "total": 80
+        "current": 67,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which of the following sets of quantum numbers is NOT possible for an electron in an atom? (NEET Pattern)",
@@ -2177,8 +2351,8 @@
       "concept_id": "final_electronic_config",
       "level": 2,
       "progress": {
-        "current": 64,
-        "total": 80
+        "current": 68,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Consider the following statements about electronic configuration:\n\nI. Electronic configuration of Copper (Z=29) is [Ar] 3d⁹ 4s².\nII. Half-filled and fully-filled d orbitals provide extra stability.\nIII. According to Aufbau principle, 4s orbital is filled before 3d orbital.\n\nWhich statement(s) is/are CORRECT? (BPSC Multi-Statement Pattern)",
@@ -2215,8 +2389,8 @@
       "concept_id": "final_isotopes_isobars",
       "level": 2,
       "progress": {
-        "current": 65,
-        "total": 80
+        "current": 69,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Assertion (A): C-12 and C-14 are isotopes of carbon.\n\nReason (R): Isotopes have same number of protons but different number of neutrons.\n\n(NEET Assertion-Reason Pattern)",
@@ -2253,8 +2427,8 @@
       "concept_id": "pyq_ssc_2019",
       "level": 2,
       "progress": {
-        "current": 66,
-        "total": 80
+        "current": 70,
+        "total": 84
       },
       "quiz_payload": {
         "question": "The nucleus of an atom contains: (SSC CGL 2019 Actual PYQ)",
@@ -2291,8 +2465,8 @@
       "concept_id": "pyq_railway_2020",
       "level": 2,
       "progress": {
-        "current": 67,
-        "total": 80
+        "current": 71,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which scientist proposed that electrons revolve around the nucleus in fixed orbits? (Railway NTPC 2020 Actual PYQ)",
@@ -2329,8 +2503,8 @@
       "concept_id": "pyq_neet_2021",
       "level": 2,
       "progress": {
-        "current": 68,
-        "total": 80
+        "current": 72,
+        "total": 84
       },
       "quiz_payload": {
         "question": "The maximum number of electrons that can be accommodated in a shell with principal quantum number n is: (NEET 2021 Actual PYQ)",
@@ -2367,8 +2541,8 @@
       "concept_id": "pyq_bpsc_2020",
       "level": 2,
       "progress": {
-        "current": 69,
-        "total": 80
+        "current": 73,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Isotopes of an element have different: (BPSC 2020 Actual PYQ)",
@@ -2405,8 +2579,8 @@
       "concept_id": "pyq_ssc_chsl_2021",
       "level": 2,
       "progress": {
-        "current": 70,
-        "total": 80
+        "current": 74,
+        "total": 84
       },
       "quiz_payload": {
         "question": "The energy of electron in nth orbit of hydrogen atom is given by: (SSC CHSL 2021 Actual PYQ)",
@@ -2443,8 +2617,8 @@
       "concept_id": "de_broglie_wavelength",
       "level": 2,
       "progress": {
-        "current": 71,
-        "total": 80
+        "current": 75,
+        "total": 84
       },
       "messages": [
         {
@@ -2453,7 +2627,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir electron ki wavelength calculate kar sakte hain?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -2461,7 +2635,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Interesting! Aur NEET level concepts?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -2476,8 +2650,8 @@
       "concept_id": "heisenberg_uncertainty_principle",
       "level": 2,
       "progress": {
-        "current": 72,
-        "total": 80
+        "current": 76,
+        "total": 84
       },
       "messages": [
         {
@@ -2486,7 +2660,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab electron ka exact path nahi bata sakte?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -2494,7 +2668,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye sab to bahut deep hai Sir!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -2509,8 +2683,8 @@
       "concept_id": "photoelectric_effect_einstein",
       "level": 2,
       "progress": {
-        "current": 73,
-        "total": 80
+        "current": 77,
+        "total": 84
       },
       "messages": [
         {
@@ -2519,7 +2693,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To light particles jaisi bhi behave karti hai?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -2527,7 +2701,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Physics aur chemistry connected hain!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -2542,8 +2716,8 @@
       "concept_id": "hydrogen_spectrum_series",
       "level": 2,
       "progress": {
-        "current": 74,
-        "total": 80
+        "current": 78,
+        "total": 84
       },
       "messages": [
         {
@@ -2552,7 +2726,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye series yaad rakhne ka koi trick hai Sir?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -2560,7 +2734,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bahut helpful Sir! Aur concepts?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -2575,8 +2749,8 @@
       "concept_id": "orbital_shapes_visualization",
       "level": 2,
       "progress": {
-        "current": 75,
-        "total": 80
+        "current": 79,
+        "total": 84
       },
       "messages": [
         {
@@ -2585,7 +2759,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir diagrams draw karne padte hain kya exam mein?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -2593,7 +2767,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Clear Sir! Ab practice karna hai solid!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -2608,8 +2782,8 @@
       "concept_id": "exam_tricks_mnemonics",
       "level": 2,
       "progress": {
-        "current": 76,
-        "total": 80
+        "current": 80,
+        "total": 84
       },
       "messages": [
         {
@@ -2618,7 +2792,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur quantum number ke liye?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -2626,7 +2800,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye tricks bahut kaam aayengi!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -2641,8 +2815,8 @@
       "concept_id": "common_exam_mistakes",
       "level": 2,
       "progress": {
-        "current": 77,
-        "total": 80
+        "current": 81,
+        "total": 84
       },
       "messages": [
         {
@@ -2651,7 +2825,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur kya mistakes hain Sir?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -2659,7 +2833,7 @@
         },
         {
           "speaker": "raju",
-          "text": "In mistakes se bachna hai! Ab final round?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -2674,8 +2848,8 @@
       "concept_id": "rapid_fire_important_facts",
       "level": 2,
       "progress": {
-        "current": 78,
-        "total": 80
+        "current": 82,
+        "total": 84
       },
       "messages": [
         {
@@ -2684,7 +2858,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Nobel Prizes bhi bata do Sir!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -2692,7 +2866,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Perfect Sir! Last tips?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -2707,8 +2881,8 @@
       "concept_id": "final_chapter_motivation",
       "level": 2,
       "progress": {
-        "current": 79,
-        "total": 80
+        "current": 83,
+        "total": 84
       },
       "messages": [
         {
@@ -2717,7 +2891,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ab confidence bahut badh gaya hai! Koi bhi question aa jaye, tackle kar loonga!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -2725,7 +2899,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Thank you so much Sir! Atomic Structure ab mera strong topic hai! 💪⚛️"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -2740,8 +2914,8 @@
       "concept_id": "chapter_completion_trophy",
       "level": 2,
       "progress": {
-        "current": 80,
-        "total": 80
+        "current": 84,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🎉 ATOMIC STRUCTURE CHAMPION! 🎉",

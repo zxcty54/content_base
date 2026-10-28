@@ -1,0 +1,725 @@
+{
+  "topic_id": "heat_temperature_thermal_physics",
+  "topic_title": "Heat & Temperature",
+  "target_exams": [
+    "RRB Group D",
+    "RRB NTPC",
+    "BPSC",
+    "BSSC"
+  ],
+  "total_cards": 22,
+  "characters": {
+    "aman": {
+      "name": "Aman Sir",
+      "role": "teacher",
+      "avatar": "👨‍🏫"
+    },
+    "raju": {
+      "name": "Raju",
+      "role": "student",
+      "avatar": "👦"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "heat_temperature_thermal_physics_intro",
+      "level": 1,
+      "intro_payload": {
+        "title": "Heat & Temperature",
+        "icon": "🌡️",
+        "subtitle": "Zero se Railway basics, phir advanced applications",
+        "target_exams": [
+          "RRB Group D",
+          "RRB NTPC",
+          "BPSC",
+          "BSSC"
+        ],
+        "learning_outcomes": [
+          "Heat aur temperature ka farq",
+          "Conduction, convection, radiation",
+          "Thermal expansion aur daily examples",
+          "Specific heat, latent heat aur phase change ke formulas",
+          "Railway facts, thermometer scales aur heat transfer applications"
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB ke direct facts, units, formulas aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Examples aur common confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice with explanations using earlier concepts."
+          }
+        ]
+      },
+      "progress": {
+        "current": 1,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_02_heat_temperature",
+        "button_text": "Start Learning ➔"
+      }
+    },
+    {
+      "card_id": "card_02_heat_temperature",
+      "card_slug": "card_02_heat_temperature",
+      "type": "chat",
+      "concept_id": "heat_vs_temperature",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Temperature batata hai body kitni hot ya cold hai; heat energy hai jo temperature difference ke kaaran ek body se doosri mein transfer hoti hai. Chai se thande cup ki taraf heat jaati hai. Railway point: heat ki SI unit joule (J), temperature ki SI unit kelvin (K) hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
+        }
+      ],
+      "progress": {
+        "current": 2,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_03_thermometer_scales",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_03_thermometer_scales",
+      "card_slug": "card_03_thermometer_scales",
+      "type": "chat",
+      "concept_id": "temperature_scales",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Celsius scale mein paani ka freezing point 0°C aur boiling point standard pressure par 100°C hai. Kelvin = Celsius + 273.15, isliye 0°C = 273.15 K. Kelvin ka degree sign nahi likhte. Temperature difference 1°C ka size 1 K ke barabar hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main pehle isi concept ko pakka karunga."
+        }
+      ],
+      "progress": {
+        "current": 3,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_04_conduction",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_04_conduction",
+      "card_slug": "card_04_conduction",
+      "type": "chat",
+      "concept_id": "conduction",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Conduction mein heat seedhe contact se transfer hoti hai, lekin material ka bulk move nahi karta. Garam chai mein rakhe metal spoon ka doosra end garam hona iska example hai. Metals aam taur par good conductors; wood, plastic aur air poor conductors hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, ab baat samajh mein aa rahi hai."
+        }
+      ],
+      "progress": {
+        "current": 4,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_05_convection",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_05_convection",
+      "card_slug": "card_05_convection",
+      "type": "chat",
+      "concept_id": "convection",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Convection liquids aur gases mein hoti hai: garam fluid halka hokar upar jaata hai, thanda fluid neeche aata hai. Paani garam karte waqt circulating currents bante hain. Sea breeze aur room heater ki warm air ka failna convection ke examples hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Abhi ka main point clear hai."
+        }
+      ],
+      "progress": {
+        "current": 5,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_06_radiation",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_06_radiation",
+      "card_slug": "card_06_radiation",
+      "type": "chat",
+      "concept_id": "radiation",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Radiation electromagnetic waves se heat transfer hai; iske liye hawa ya koi material zaroori nahi. Sun ki heat space cross karke Earth tak radiation se pahunchti hai. Dark, matte surface heat ko zyada absorb/emit karti hai; shiny surface kam absorb aur zyada reflect kar sakti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
+        }
+      ],
+      "progress": {
+        "current": 6,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_07_thermal_expansion",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_07_thermal_expansion",
+      "card_slug": "card_07_thermal_expansion",
+      "type": "chat",
+      "concept_id": "thermal_expansion",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Aksar cheez garam karne par phailti aur thandi karne par sikudti hai. Railway track aur bridges mein expansion gaps isliye chhode jaate hain. Liquid thermometers bhi liquid ke expansion par kaam karte hain. Har material ka expansion barabar nahi hota."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
+        }
+      ],
+      "progress": {
+        "current": 7,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_08_specific_heat",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_08_specific_heat",
+      "card_slug": "card_08_specific_heat",
+      "type": "chat",
+      "concept_id": "specific_heat",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Specific heat capacity batati hai ki 1 kg substance ka temperature 1 K badhane ke liye kitni heat chahiye. Formula Q = mcΔT hai: Q heat, m mass, c specific heat, ΔT temperature change. Paani ki specific heat high hoti hai, isliye woh dheere garam aur dheere thanda hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha Sir, abhi tak sab clear hai."
+        }
+      ],
+      "progress": {
+        "current": 8,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_09_latent_heat",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_09_latent_heat",
+      "card_slug": "card_09_latent_heat",
+      "type": "chat",
+      "concept_id": "latent_heat",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Melting ya boiling ke dauran substance state badalta hai; is waqt di gayi heat temperature badhane ke bajay state change mein lagti hai. Is energy ko latent heat kehte hain. Formula Q = mL hai, jahan L specific latent heat hai. Ice pighalte waqt temperature 0°C par reh sakta hai jab tak ice bachi ho."
+        },
+        {
+          "speaker": "raju",
+          "text": "Ab is example ka matlab samajh aaya."
+        }
+      ],
+      "progress": {
+        "current": 9,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_10_evaporation_boiling",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_10_evaporation_boiling",
+      "card_slug": "card_10_evaporation_boiling",
+      "type": "chat",
+      "concept_id": "evaporation_boiling",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Evaporation liquid ki surface se kisi bhi temperature par ho sakti hai; faster particles bahar nikalte hain aur bacha liquid thanda hota hai. Boiling poore liquid mein hoti hai, boiling point par. Hawa chalna, zyada surface area aur kam humidity evaporation ko tez karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, ye example mujhe samajh aa gaya."
+        }
+      ],
+      "progress": {
+        "current": 10,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_11_anomalous_water",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_11_anomalous_water",
+      "card_slug": "card_11_anomalous_water",
+      "type": "chat",
+      "concept_id": "water_expansion_exception",
+      "level": 4,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Paani 4°C par sabse zyada density rakhta hai. 4°C se 0°C tak thanda karne par paani phailta hai; ice liquid water se kam dense hoti hai aur tairti hai. Is anomaly se sardiyon mein lake ki surface jamti hai, neeche liquid water reh sakta hai aur aquatic life bachti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, abhi ka lesson samajh aaya."
+        }
+      ],
+      "progress": {
+        "current": 11,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_12_heat_transfer_application",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_12_heat_transfer_application",
+      "card_slug": "card_12_heat_transfer_application",
+      "type": "chat",
+      "concept_id": "heat_transfer_applications",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Thermos flask heat transfer ko kam karta hai: vacuum conduction/convection ghataata hai, shiny inner surface radiation reflect karti hai, aur stopper hawa ka movement rokta hai. Wool kapde apne fibres ke beech air trap karte hain; air poor conductor hai, isliye body heat kam nikalti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, ye example mujhe samajh aa gaya."
+        }
+      ],
+      "progress": {
+        "current": 12,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_13_thermal_equilibrium",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_13_thermal_equilibrium",
+      "card_slug": "card_13_thermal_equilibrium",
+      "type": "chat",
+      "concept_id": "thermal_equilibrium",
+      "level": 4,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Do objects thermal contact mein hon aur unke beech net heat transfer na ho, to thermal equilibrium hota hai; tab unka temperature same hota hai. Zeroth law isi idea se thermometer ko temperature compare karne ka base deta hai. Heat hamesha spontaneous roop se higher temperature se lower temperature ki taraf jaati hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
+        }
+      ],
+      "progress": {
+        "current": 13,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_14_quiz_heat_units",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_14_quiz_heat_units",
+      "card_slug": "card_14_quiz_heat_units",
+      "type": "quiz",
+      "concept_id": "heat_vs_temperature",
+      "level": 1,
+      "quiz_payload": {
+        "question": "Heat ki SI unit kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Joule"
+          },
+          {
+            "id": "B",
+            "text": "Kelvin"
+          },
+          {
+            "id": "C",
+            "text": "Celsius"
+          },
+          {
+            "id": "D",
+            "text": "Metre"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Heat energy hai, isliye SI unit joule (J) hai. Kelvin temperature ki SI unit hai."
+      },
+      "progress": {
+        "current": 14,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_15_quiz_transfer",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_15_quiz_transfer",
+      "card_slug": "card_15_quiz_transfer",
+      "type": "quiz",
+      "concept_id": "heat_transfer_applications",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Suraj se Earth tak heat kaise pahunchti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Radiation"
+          },
+          {
+            "id": "B",
+            "text": "Conduction"
+          },
+          {
+            "id": "C",
+            "text": "Convection"
+          },
+          {
+            "id": "D",
+            "text": "Evaporation"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Space mein material medium nahi hai, isliye conduction/convection nahi; radiation heat transfer karti hai."
+      },
+      "progress": {
+        "current": 15,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_16_quiz_specific_heat",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_16_quiz_specific_heat",
+      "card_slug": "card_16_quiz_specific_heat",
+      "type": "quiz",
+      "concept_id": "specific_heat",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Q = mcΔT mein c kya batata hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Specific heat capacity"
+          },
+          {
+            "id": "B",
+            "text": "Pressure"
+          },
+          {
+            "id": "C",
+            "text": "Latent heat"
+          },
+          {
+            "id": "D",
+            "text": "Density"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "c specific heat capacity hai: unit mass ka temperature ek degree badhane ke liye chahiye heat."
+      },
+      "progress": {
+        "current": 16,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_17_quiz_latent",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_17_quiz_latent",
+      "card_slug": "card_17_quiz_latent",
+      "type": "quiz",
+      "concept_id": "latent_heat",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Ice pighalte waqt 0°C par temperature kuch samay constant kyun reh sakta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Heat state change mein lagti hai"
+          },
+          {
+            "id": "B",
+            "text": "Heat bilkul nahi milti"
+          },
+          {
+            "id": "C",
+            "text": "Ice heat banati hai"
+          },
+          {
+            "id": "D",
+            "text": "Mass zero ho jaata hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Melting ke dauran latent heat intermolecular arrangement badalne mein lagti hai, temperature badhane mein nahi."
+      },
+      "progress": {
+        "current": 17,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_18_quiz_water",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_18_quiz_water",
+      "card_slug": "card_18_quiz_water",
+      "type": "quiz",
+      "concept_id": "water_expansion_exception",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Paani ki maximum density lagbhag kis temperature par hoti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "4°C"
+          },
+          {
+            "id": "B",
+            "text": "0°C"
+          },
+          {
+            "id": "C",
+            "text": "100°C"
+          },
+          {
+            "id": "D",
+            "text": "-4°C"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Liquid water ki maximum density 4°C ke aas-paas hoti hai; freezing ke paas ice kam dense hoti hai."
+      },
+      "progress": {
+        "current": 18,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_applied_case_01",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Metal spoon ka ek end garam chai mein hai; kuch der baad doosra end bhi garam lagta hai. Heat ka transfer kaunsa hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Conduction"
+          },
+          {
+            "id": "B",
+            "text": "Convection"
+          },
+          {
+            "id": "C",
+            "text": "Radiation only"
+          },
+          {
+            "id": "D",
+            "text": "Evaporation"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Solid spoon ke particles/ electrons ke through contact se heat spread hoti hai; ise conduction kehte hain."
+      },
+      "progress": {
+        "current": 19,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: Paseena sukhte waqt skin thandi lagti hai. Iska reason kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Evaporating water skin se heat leta hai"
+          },
+          {
+            "id": "B",
+            "text": "Paseena heat banata hai"
+          },
+          {
+            "id": "C",
+            "text": "Air ka mass zero hota hai"
+          },
+          {
+            "id": "D",
+            "text": "Skin mein latent heat nahi hoti"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Evaporation ke liye energy chahiye; water skin se heat leta hai, isliye cooling feel hoti hai."
+      },
+      "progress": {
+        "current": 20,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 3: Dhoop mein black shirt aur white shirt mein black shirt zyada garam ho sakti hai. Kyon?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dark surface zyada radiation absorb karti hai"
+          },
+          {
+            "id": "B",
+            "text": "White surface heat banati hai"
+          },
+          {
+            "id": "C",
+            "text": "Black colour gravity badhata hai"
+          },
+          {
+            "id": "D",
+            "text": "Cloth mein conduction impossible hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Dark matte surfaces aam taur par radiation zyada absorb karti hain; shiny/light surfaces zyada reflect kar sakti hain."
+      },
+      "progress": {
+        "current": 21,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_summary",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_summary",
+      "card_slug": "card_summary",
+      "type": "summary",
+      "concept_id": "heat_temperature_thermal_physics_summary",
+      "level": 4,
+      "summary_payload": {
+        "title": "Quick Revision",
+        "revision_points": [
+          {
+            "topic": "Units",
+            "point": "Heat—joule (J); temperature—kelvin (K). Kelvin = °C + 273.15."
+          },
+          {
+            "topic": "Transfer",
+            "point": "Conduction: contact; convection: moving fluid; radiation: waves, medium not required."
+          },
+          {
+            "topic": "Formulas",
+            "point": "Q = mcΔT for temperature change; Q = mL for state change."
+          },
+          {
+            "topic": "Railway facts",
+            "point": "Paani ki specific heat high; ice water par float karti hai; dark matte surfaces heat better absorb karti hain."
+          }
+        ]
+      },
+      "progress": {
+        "current": 22,
+        "total": 22
+      },
+      "navigation": {
+        "next": null,
+        "button_text": "Final Practice ➔"
+      }
+    }
+  ]
+}

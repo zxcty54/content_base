@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims"
+    "UPSC Prelims",
+    "RRB Group D"
   ],
-  "total_cards": 72,
+  "total_cards": 76,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 72
+        "total": 76
       },
       "intro_payload": {
         "chapter_title": "Surface Chemistry",
@@ -42,7 +43,8 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims"
+          "UPSC Prelims",
+          "RRB Group D"
         ],
         "tagline": "From your morning chai to life-saving medicines — it all happens at the surface!",
         "learning_outcomes": [
@@ -53,7 +55,9 @@
           "Colloids: Types, Properties, Tyndall Effect, Brownian Motion",
           "Coagulation, Hardy-Schulze Rule & Peptization",
           "Emulsions, Gels, Aerosols — complete classification",
-          "Real exam PYQ traps from BPSC, SSC, NEET & UPSC"
+          "Real exam PYQ traps from BPSC, SSC, NEET & UPSC",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
         ],
         "total_cards": 72,
         "modules": [
@@ -62,11 +66,67 @@
           "Module 3: Colloids — The In-Between World",
           "Module 4: Emulsions & Special Colloids",
           "Module 5: Final Officer Challenge"
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
         ]
       },
       "navigation": {
-        "next": "card_02_daily_life_hook",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning ➔"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 76
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Surface chemistry mein hum dekhte hain ki kisi material ki satah par doosre particles kaise chipakte ya react karte hain. Roz ka example: charcoal ki satah kuch badboo wale particles ko pakad sakti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, isi baat par dhyan deta hoon."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_daily_life_hook",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -76,8 +136,8 @@
       "concept_id": "surface_phenomena_intro",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 72
+        "current": 3,
+        "total": 76
       },
       "messages": [
         {
@@ -86,7 +146,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan sir, fridge me kala pathar jaisa kuch rakha tha Mummy ne. Kehti thi smell khatam ho jaata hai usse!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -94,7 +154,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Surface pe? Matlab andar kuch nahi hota? Ye to confusing lagta hai sir!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -109,8 +169,8 @@
       "concept_id": "adsorption_definition",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 72
+        "current": 4,
+        "total": 76
       },
       "messages": [
         {
@@ -119,7 +179,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Adsorbent aur Adsorbate... ye to mix ho jayega sir! Dono itne similar lagte hain!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -127,7 +187,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ahhhh! Ab samajh aaya! Net aur fish — ye yaad rahega sir!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -142,8 +202,8 @@
       "concept_id": "adsorption_vs_absorption",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 72
+        "current": 5,
+        "total": 76
       },
       "messages": [
         {
@@ -152,7 +212,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh agar paani sponge ke andar gaya toh absorption, aur agar sirf upar chipka rahe toh adsorption? Sir ye BPSC me aata hai kya?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -160,7 +220,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Whoa! Ye to pakka confuse karta sir... Sorption = dono ek saath. Likh liya!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -175,8 +235,8 @@
       "concept_id": "adsorption_vs_absorption",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 72
+        "current": 6,
+        "total": 76
       },
       "guess_payload": {
         "question": "Raju ke ghar me paani ka filter hai jisme activated carbon laga hai. Woh paani ke haanikaarak chemicals ko apni surface pe rok leta hai. Ye process kya hai?",
@@ -213,8 +273,8 @@
       "concept_id": "physisorption",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 72
+        "current": 7,
+        "total": 76
       },
       "messages": [
         {
@@ -223,7 +283,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Van der Waals forces? Matlab ye woh weak waali attraction hai jo gases mein hoti hai? Sir ye toh NEET mein bhi aata hai na?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -231,7 +291,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Temperature badhao toh kam hota hai? Sir ye ulta nahi lagta? Zyada heat se zyada chipkana chahiye na?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -246,8 +306,8 @@
       "concept_id": "physisorption_temperature",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 72
+        "current": 8,
+        "total": 76
       },
       "messages": [
         {
@@ -256,7 +316,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ahhh! Toh Adsorption always exothermic hota hai? Ye pakka yaad rakhna hai!"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -264,7 +324,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Whoa sir... ye toh thermodynamics bhi ghus gayi! ΔG negative = spontaneous. Got it!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -279,8 +339,8 @@
       "concept_id": "chemisorption",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 72
+        "current": 9,
+        "total": 76
       },
       "messages": [
         {
@@ -289,7 +349,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh Chemisorption bahut strong chipkana hua! Aur Physisorption weak. Sir dono ka comparison kaise yaad rakhun?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -297,7 +357,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Monolayer matlab sirf ek layer? Physisorption mein multiple layers ho sakti hain? Ye interesting hai sir!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -312,8 +372,8 @@
       "concept_id": "physisorption_vs_chemisorption",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 72
+        "current": 10,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Chemisorption ke baare mein kaunsa statement GALAT hai?",
@@ -350,8 +410,8 @@
       "concept_id": "adsorption_thermodynamics",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 72
+        "current": 11,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Adsorption process mein entropy (ΔS) aur enthalpy (ΔH) ke signs kya hote hain?",
@@ -388,8 +448,8 @@
       "concept_id": "adsorbents_examples",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 72
+        "current": 12,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Kaunsa substance ek adsorbent KA KAAM NAHI karta?",
@@ -426,8 +486,8 @@
       "concept_id": "adsorption_basics_complete",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 72
+        "current": 13,
+        "total": 76
       },
       "milestone_payload": {
         "title": "MODULE 1A COMPLETE! 🎉",
@@ -449,8 +509,8 @@
       "concept_id": "freundlich_isotherm",
       "level": 2,
       "progress": {
-        "current": 13,
-        "total": 72
+        "current": 14,
+        "total": 76
       },
       "messages": [
         {
@@ -459,7 +519,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Isotherm matlab same temperature pe? Toh graph hoga pressure vs kitna adsorb hua? Sir formula kya hai?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -467,7 +527,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye formula BPSC me aata hai? 1/n wala kya hota hai exactly?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -482,8 +542,8 @@
       "concept_id": "freundlich_pressure_cases",
       "level": 2,
       "progress": {
-        "current": 14,
-        "total": 72
+        "current": 15,
+        "total": 76
       },
       "messages": [
         {
@@ -492,7 +552,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Limitation bhi hai? Matlab ye perfect formula nahi hai? Toh sahi wala kaunsa hai?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -500,7 +560,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Nobel Prize mila tha Langmuir ko? 1932 mein? Sir ye toh BPSC mein zaroor aayega — scientists aur years wala!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -515,8 +575,8 @@
       "concept_id": "langmuir_assumptions",
       "level": 2,
       "progress": {
-        "current": 15,
-        "total": 72
+        "current": 16,
+        "total": 76
       },
       "messages": [
         {
@@ -525,7 +585,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Empirical matlab? Sir ye wala word confuse karta hai!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -533,7 +593,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hahaha! Khichdi wala example ekdum clear kar diya sir! Empirical = bina theory ke observation. Got it!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -548,8 +608,8 @@
       "concept_id": "freundlich_isotherm",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 72
+        "current": 17,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Freundlich adsorption isotherm ke log(x/m) vs log P graph mein slope aur y-intercept kya represent karte hain?",
@@ -586,8 +646,8 @@
       "concept_id": "langmuir_isotherm",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 72
+        "current": 18,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Langmuir Adsorption Isotherm ki kaunsi assumption GALAT hai?",
@@ -624,8 +684,8 @@
       "concept_id": "adsorption_applications",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 72
+        "current": 19,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Activated charcoal ka use gas masks mein kyun hota hai — ismein kaunsa principle kaam karta hai?",
@@ -662,8 +722,8 @@
       "concept_id": "adsorption_isotherms_complete",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 72
+        "current": 20,
+        "total": 76
       },
       "milestone_payload": {
         "title": "ISOTHERMS CONQUERED! 📈",
@@ -685,8 +745,8 @@
       "concept_id": "catalysis_introduction",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 72
+        "current": 21,
+        "total": 76
       },
       "messages": [
         {
@@ -695,7 +755,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab catalyst khud nahi badalta lekin doosron ko badalta hai? Ye toh bahut smart hai sir! Kaise karta hai ye?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -703,7 +763,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Shortcut road! Seedha samajh aaya! Toh catalyst paehle kuch banta hai reaction mein, phir wapas ho jaata hai?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -718,8 +778,8 @@
       "concept_id": "catalyst_properties",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 72
+        "current": 22,
+        "total": 76
       },
       "messages": [
         {
@@ -728,7 +788,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir equilibrium constant nahi badalta? Matlab agar mujhe zyada product chahiye toh catalyst se kaam nahi chalega? Toh fir catalyst ka kya fayda?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -736,7 +796,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Jaldi pohunchte hain same jagah pe — position nahi badli sirf speed badli! Ye clear ho gaya sir!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -751,8 +811,8 @@
       "concept_id": "homogeneous_heterogeneous_catalysis",
       "level": 2,
       "progress": {
-        "current": 22,
-        "total": 72
+        "current": 23,
+        "total": 76
       },
       "messages": [
         {
@@ -761,7 +821,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Homogeneous = same phase, Heterogeneous = alag phase. Simple! Sir example aur do na industrial wale?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -769,7 +829,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haber = Iron, Contact = V2O5. Ye yaad kar liya sir! Aur NEET mein enzyme catalysis bhi hoti hai na?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -784,8 +844,8 @@
       "concept_id": "enzyme_catalysis",
       "level": 2,
       "progress": {
-        "current": 23,
-        "total": 72
+        "current": 24,
+        "total": 76
       },
       "messages": [
         {
@@ -794,7 +854,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Lock and Key! Toh enzyme = lock, substrate = key? Ya ulta?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -802,7 +862,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Zymase, Invertase, Diastase — ye sab yaad karney hain? NEET mein aate hain kya sir?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -817,8 +877,8 @@
       "concept_id": "promoters_catalytic_poisons",
       "level": 2,
       "progress": {
-        "current": 24,
-        "total": 72
+        "current": 25,
+        "total": 76
       },
       "messages": [
         {
@@ -827,7 +887,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh promoter catalyst ka assistant hua? Aur catalytic poison?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -835,7 +895,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Product khud catalyst ban jaata hai? Ye toh bahut unique hai sir! Koi example?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -850,8 +910,8 @@
       "concept_id": "autocatalysis",
       "level": 2,
       "progress": {
-        "current": 25,
-        "total": 72
+        "current": 26,
+        "total": 76
       },
       "messages": [
         {
@@ -860,7 +920,7 @@
         },
         {
           "speaker": "raju",
-          "text": "S-shaped curve? Toh initially slow, beech mein fast, phir slow? Ye interesting hai sir!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -868,7 +928,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Zeolites? Ye kya hota hai sir? Pehli baar suna!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -883,8 +943,8 @@
       "concept_id": "catalysis_types",
       "level": 2,
       "progress": {
-        "current": 26,
-        "total": 72
+        "current": 27,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Haber Process mein ammonia ke synthesis ke liye kaunsa catalyst use hota hai aur uska promoter kya hai?",
@@ -921,8 +981,8 @@
       "concept_id": "homogeneous_catalysis_example",
       "level": 2,
       "progress": {
-        "current": 27,
-        "total": 72
+        "current": 28,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Kaunsa catalyst aur reaction Homogeneous Catalysis ka example hai?",
@@ -959,8 +1019,8 @@
       "concept_id": "enzyme_catalysis_examples",
       "level": 2,
       "progress": {
-        "current": 28,
-        "total": 72
+        "current": 29,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Sucrose (cane sugar) ko glucose aur fructose mein convert karne wala enzyme kaunsa hai?",
@@ -997,8 +1057,8 @@
       "concept_id": "catalysis_complete",
       "level": 2,
       "progress": {
-        "current": 29,
-        "total": 72
+        "current": 30,
+        "total": 76
       },
       "milestone_payload": {
         "title": "CATALYSIS MASTERED! ⚗️",
@@ -1020,8 +1080,8 @@
       "concept_id": "colloids_introduction",
       "level": 2,
       "progress": {
-        "current": 30,
-        "total": 72
+        "current": 31,
+        "total": 76
       },
       "messages": [
         {
@@ -1030,7 +1090,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Milk colloid hai? Seriously? Toh paani mein namak milaya woh kya hua?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1038,7 +1098,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Tyndall Effect? Ye kya hota hai sir? Naam sunke hi interesting laga!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1053,8 +1113,8 @@
       "concept_id": "tyndall_effect",
       "level": 2,
       "progress": {
-        "current": 31,
-        "total": 72
+        "current": 32,
+        "total": 76
       },
       "messages": [
         {
@@ -1063,7 +1123,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Mandir mein dhuan aur dhoopbatti ka smoke — usme torch chalao toh beam dikh jaati hai! Ye Tyndall Effect hai! Sir ye pehle bhi dekha tha ye — naam nahi pata tha!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1071,7 +1131,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Dispersed phase aur Dispersion medium — dono alag! Sir milk mein kya dispersed phase hai aur kya medium?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1086,8 +1146,8 @@
       "concept_id": "colloid_classification_types",
       "level": 2,
       "progress": {
-        "current": 32,
-        "total": 72
+        "current": 33,
+        "total": 76
       },
       "messages": [
         {
@@ -1096,7 +1156,7 @@
         },
         {
           "speaker": "raju",
-          "text": "8 types! Sir ye sab yaad kaise karein? Pumice stone foam hai? Seriously?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1104,7 +1164,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Fog liquid aerosol hai — matlab liquid particles hava mein hain! Ab logical laga sir!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1119,8 +1179,8 @@
       "concept_id": "lyophilic_lyophobic_colloids",
       "level": 3,
       "progress": {
-        "current": 33,
-        "total": 72
+        "current": 34,
+        "total": 76
       },
       "messages": [
         {
@@ -1129,7 +1189,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hydrophilic matlab water loving — easy! Toh Lyophobic?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -1137,7 +1197,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Gold sol, silver sol — dono Lyophobic hain? Ye exam mein pakka aayega sir!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -1152,8 +1212,8 @@
       "concept_id": "colloid_types_examples",
       "level": 2,
       "progress": {
-        "current": 34,
-        "total": 72
+        "current": 35,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Neeche diye gaye mixtures mein se kaunsa ek COLLOID nahi hai?",
@@ -1190,8 +1250,8 @@
       "concept_id": "tyndall_effect_application",
       "level": 2,
       "progress": {
-        "current": 35,
-        "total": 72
+        "current": 36,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Tyndall Effect ke baare mein kaunsa statement SAHI hai?",
@@ -1228,8 +1288,8 @@
       "concept_id": "lyophilic_lyophobic",
       "level": 3,
       "progress": {
-        "current": 36,
-        "total": 72
+        "current": 37,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Kaunsa colloid Lyophilic (Hydrophilic) hai?",
@@ -1266,8 +1326,8 @@
       "concept_id": "colloids_basics_complete",
       "level": 2,
       "progress": {
-        "current": 37,
-        "total": 72
+        "current": 38,
+        "total": 76
       },
       "milestone_payload": {
         "title": "COLLOIDS BASICS CLEAR! 🌫️",
@@ -1289,8 +1349,8 @@
       "concept_id": "brownian_motion",
       "level": 3,
       "progress": {
-        "current": 38,
-        "total": 72
+        "current": 39,
+        "total": 76
       },
       "messages": [
         {
@@ -1299,7 +1359,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Robert Brown ne 1827 mein dekha? Aur ye kyu important hai sir colloids ke liye?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1307,7 +1367,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Einstein bhi Brownian Motion se connected hain? Ye toh nahi pata tha sir! Colloids interesting hai bilkul!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -1322,8 +1382,8 @@
       "concept_id": "electrophoresis_electroosmosis",
       "level": 3,
       "progress": {
-        "current": 39,
-        "total": 72
+        "current": 40,
+        "total": 76
       },
       "messages": [
         {
@@ -1332,7 +1392,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ferric hydroxide positive, Gold negative — ye yaad karna zaroori hai kya sir?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1340,7 +1400,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hardy-Schulze Rule? Ye kya hota hai sir?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1355,8 +1415,8 @@
       "concept_id": "coagulation_hardy_schulze",
       "level": 3,
       "progress": {
-        "current": 40,
-        "total": 72
+        "current": 41,
+        "total": 76
       },
       "messages": [
         {
@@ -1365,7 +1425,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Valency zyada = zyada coagulation? Kaise sir? Example do na!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1373,7 +1433,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Al3+ sabse powerful coagulant! Toh aluminium salts paani saaf karne mein use hote hain — isi wajah se?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1388,8 +1448,8 @@
       "concept_id": "peptization_protection",
       "level": 3,
       "progress": {
-        "current": 41,
-        "total": 72
+        "current": 42,
+        "total": 76
       },
       "messages": [
         {
@@ -1398,7 +1458,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Peptization = coagulation ka ulta? Toh ek dafa jo settle ho gaya woh phir colloid ban sakta hai? Amazing!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1406,7 +1466,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Gold Number kam hai toh zyada protect karta hai? Ulta logic phir! Lekin samajh aaya sir!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1421,8 +1481,8 @@
       "concept_id": "hardy_schulze_rule",
       "level": 3,
       "progress": {
-        "current": 42,
-        "total": 72
+        "current": 43,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Fe(OH)3 sol (positively charged) ko coagulate karne mein kaunsa electrolyte sabse effective hoga? (Hardy-Schulze Rule ke anusar)",
@@ -1459,8 +1519,8 @@
       "concept_id": "gold_number",
       "level": 3,
       "progress": {
-        "current": 43,
-        "total": 72
+        "current": 44,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Gold Number ke baare mein kaunsa statement sahi hai?",
@@ -1497,8 +1557,8 @@
       "concept_id": "brownian_motion_electrophoresis",
       "level": 3,
       "progress": {
-        "current": 44,
-        "total": 72
+        "current": 45,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Electrophoresis experiment mein As2S3 sol (negatively charged) ke particles kahan move karenge?",
@@ -1535,8 +1595,8 @@
       "concept_id": "colloid_properties_complete",
       "level": 3,
       "progress": {
-        "current": 45,
-        "total": 72
+        "current": 46,
+        "total": 76
       },
       "milestone_payload": {
         "title": "COLLOID PROPERTIES CONQUERED! ⚡",
@@ -1558,8 +1618,8 @@
       "concept_id": "emulsions_introduction",
       "level": 3,
       "progress": {
-        "current": 46,
-        "total": 72
+        "current": 47,
+        "total": 76
       },
       "messages": [
         {
@@ -1568,7 +1628,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Oil in Water aur Water in Oil — matlab ek mein oil ki droplets paani mein hain aur dusre mein paani ki droplets oil mein? Dono mein fark kya hoga practically?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1576,7 +1636,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Emulsifying agent? Matlab bridge banane wala? Kaunse substances hote hain ye?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -1591,8 +1651,8 @@
       "concept_id": "emulsifying_agents",
       "level": 3,
       "progress": {
-        "current": 47,
-        "total": 72
+        "current": 48,
+        "total": 76
       },
       "messages": [
         {
@@ -1601,7 +1661,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bile salts khana digest karne mein emulsifying agent ka kaam karte hain? NEET mein ye biology se connected hua!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1609,7 +1669,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Dahi bilona se makkhan nikalta hai — toh O/W se W/O bana? Amazing sir!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1624,8 +1684,8 @@
       "concept_id": "gels_aerosols_foam",
       "level": 3,
       "progress": {
-        "current": 48,
-        "total": 72
+        "current": 49,
+        "total": 76
       },
       "messages": [
         {
@@ -1634,7 +1694,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Insect spray aerosol hai? Wo to bottle se nikal ke hava mein phail jaata hai! Samajh aaya!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1642,7 +1702,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bread solid foam hai?! Sir ye toh chemistry aur biology dono mein ek saath! Yeast se CO2 aur wo bread mein trap — nice!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1657,8 +1717,8 @@
       "concept_id": "emulsion_types",
       "level": 3,
       "progress": {
-        "current": 49,
-        "total": 72
+        "current": 50,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Butter aur Cold Cream kaunse type ke emulsion hain?",
@@ -1695,8 +1755,8 @@
       "concept_id": "emulsifying_agents_examples",
       "level": 3,
       "progress": {
-        "current": 50,
-        "total": 72
+        "current": 51,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Body mein fat ka emulsification kaun karta hai aur ye kahan hota hai?",
@@ -1733,8 +1793,8 @@
       "concept_id": "colloid_types_identification",
       "level": 3,
       "progress": {
-        "current": 51,
-        "total": 72
+        "current": 52,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Neeche diye gaye pairs mein se kaunsa pair — Dispersed Phase aur Dispersion Medium — 'FOAM' ke liye correct hai?",
@@ -1771,8 +1831,8 @@
       "concept_id": "emulsions_complete",
       "level": 3,
       "progress": {
-        "current": 52,
-        "total": 72
+        "current": 53,
+        "total": 76
       },
       "milestone_payload": {
         "title": "EMULSIONS & SPECIAL COLLOIDS DONE! 🧈",
@@ -1794,8 +1854,8 @@
       "concept_id": "adsorption_applications_realworld",
       "level": 3,
       "progress": {
-        "current": 53,
-        "total": 72
+        "current": 54,
+        "total": 76
       },
       "messages": [
         {
@@ -1804,7 +1864,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Chromatography bhi adsorption pe based hai? Matlab blood group test mein ya dye separation mein?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1812,7 +1872,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Electronic box mein jo silica gel ka packet hota hai — woh adsorption kar raha hota hai? Ek kaam ka concept toh hai ye!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1827,8 +1887,8 @@
       "concept_id": "colloid_applications_realworld",
       "level": 3,
       "progress": {
-        "current": 54,
-        "total": 72
+        "current": 55,
+        "total": 76
       },
       "messages": [
         {
@@ -1837,7 +1897,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Delta formation — Geography mein padha tha! Toh Ganga ka delta bhi colloidal clay ke coagulation se bana? Ye toh UPSC mein bhi aayega!"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1845,7 +1905,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ink bhi colloid hai? Paint bhi? Toh hum colloids se ghire hain sir literally!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1860,8 +1920,8 @@
       "concept_id": "colloid_preparation_purification",
       "level": 3,
       "progress": {
-        "current": 55,
-        "total": 72
+        "current": 56,
+        "total": 76
       },
       "messages": [
         {
@@ -1870,7 +1930,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bredig's Arc method! Ye naam interesting hai sir! Electric arc se gold sol banta hai?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1878,7 +1938,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Kidney biological dialysis machine hai! NEET mein ye bhi poochha hoga sir?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1893,8 +1953,8 @@
       "concept_id": "applications_adsorption_colloid",
       "level": 3,
       "progress": {
-        "current": 56,
-        "total": 72
+        "current": 57,
+        "total": 76
       },
       "quiz_payload": {
         "question": "River delta ka formation kaunse principle pe based hai?",
@@ -1931,8 +1991,8 @@
       "concept_id": "dialysis_cottrell",
       "level": 3,
       "progress": {
-        "current": 57,
-        "total": 72
+        "current": 58,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Cottrell Precipitator ka use kaha hota hai aur ye kaunse principle pe kaam karta hai?",
@@ -1969,8 +2029,8 @@
       "concept_id": "bredig_arc_preparation",
       "level": 3,
       "progress": {
-        "current": 58,
-        "total": 72
+        "current": 59,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Bredig's Arc Method se kaunse type ke colloid banaye jaate hain?",
@@ -2007,8 +2067,8 @@
       "concept_id": "applications_complete",
       "level": 3,
       "progress": {
-        "current": 59,
-        "total": 72
+        "current": 60,
+        "total": 76
       },
       "milestone_payload": {
         "title": "APPLICATIONS MODULE DONE! 🌍",
@@ -2019,8 +2079,122 @@
         "motivational_quote": "Delta formation se gas masks tak — applications clear hain! Ab FINAL OFFICER CHALLENGE!"
       },
       "navigation": {
-        "next": "card_60_officer_revision_summary",
+        "next": "card_applied_case_01",
         "button_text": "Start Final Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Fridge ki badboo ke liye charcoal filter use kiya jaata hai. Charcoal ka surface kya karta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Badboo ke kuch molecules ko adsorb karta hai"
+          },
+          {
+            "id": "B",
+            "text": "Sab molecules ko dissolve kar deta hai"
+          },
+          {
+            "id": "C",
+            "text": "Heat ko electricity banata hai"
+          },
+          {
+            "id": "D",
+            "text": "Paani ko metal karta hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Porous charcoal ka large surface kuch gas/odour molecules ko apni surface par adsorb kar sakta hai."
+      },
+      "progress": {
+        "current": 61,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 2: Dhoop ki beam dusty room mein dikhai deti hai. Colloidal particles light scatter karte hain. Is effect ka naam?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tyndall effect"
+          },
+          {
+            "id": "B",
+            "text": "Doppler effect"
+          },
+          {
+            "id": "C",
+            "text": "Hall effect"
+          },
+          {
+            "id": "D",
+            "text": "Photoelectric effect"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Colloid ke particles light scatter karte hain, jisse beam ka path dikh sakta hai; ise Tyndall effect kehte hain."
+      },
+      "progress": {
+        "current": 62,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Applied case 3: Ek chemical process mein catalyst use karne se reaction jaldi hoti hai, par catalyst end mein largely unchanged rehta hai. Catalyst kya karta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lower activation-energy pathway deta hai"
+          },
+          {
+            "id": "B",
+            "text": "Equilibrium ko hamesha product side kheenchta hai"
+          },
+          {
+            "id": "C",
+            "text": "Reactant ka mass mita deta hai"
+          },
+          {
+            "id": "D",
+            "text": "Reaction ko impossible banata hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Catalyst lower activation-energy pathway provide karta hai; woh rate badhata hai aur ideal case mein permanently consume nahi hota."
+      },
+      "progress": {
+        "current": 63,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_60_officer_revision_summary",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2030,8 +2204,8 @@
       "concept_id": "surface_chemistry_complete_revision",
       "level": 4,
       "progress": {
-        "current": 60,
-        "total": 72
+        "current": 64,
+        "total": 76
       },
       "summary_payload": {
         "title": "⚡ Officer Rapid Revision — Surface Chemistry",
@@ -2070,8 +2244,8 @@
       "concept_id": "surface_chemistry_final_1",
       "level": 4,
       "progress": {
-        "current": 61,
-        "total": 72
+        "current": 65,
+        "total": 76
       },
       "quiz_payload": {
         "question": "BPSC Officer Level — Neeche diye gaye statements ko consider karo aur SAHI statements choose karo:\n(I) Physisorption low temperature pe zyada hoti hai kyunki Van der Waals forces zyada effective hote hain.\n(II) Chemisorption ka enthalpy 20-40 kJ/mol hota hai.\n(III) Catalyst reaction ki equilibrium constant (K) badha deta hai.\n(IV) Gold Number jitna kam, protective colloid utna hi zyada effective hai.",
@@ -2108,8 +2282,8 @@
       "concept_id": "surface_chemistry_final_2",
       "level": 4,
       "progress": {
-        "current": 62,
-        "total": 72
+        "current": 66,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Assertion-Reason Type (BPSC/UPSC): \nAssertion (A): River aur sea ke sangam par delta ka nirman hota hai.\nReason (R): Sea water ke electrolytes river ke colloidal clay ko coagulate karte hain — Hardy-Schulze Rule ke anusar.",
@@ -2146,8 +2320,8 @@
       "concept_id": "surface_chemistry_final_3",
       "level": 4,
       "progress": {
-        "current": 63,
-        "total": 72
+        "current": 67,
+        "total": 76
       },
       "quiz_payload": {
         "question": "NEET Level Multi-Statement: Enzyme catalysis ke baare mein kaunse statements SAHI hain?\n(I) Enzymes protein-based biological catalysts hain.\n(II) Lock and Key model mein enzyme = key aur substrate = lock hai.\n(III) Zymase glucose ko ethanol aur CO2 mein convert karta hai.\n(IV) Enzyme ki efficiency (turnover number) bahut high hoti hai — ek second mein lakho reactions.",
@@ -2184,8 +2358,8 @@
       "concept_id": "surface_chemistry_final_4",
       "level": 4,
       "progress": {
-        "current": 64,
-        "total": 72
+        "current": 68,
+        "total": 76
       },
       "quiz_payload": {
         "question": "SSC CGL Officer Level: Neeche diye examples mein se kaunse HETEROGENEOUS CATALYSIS ke examples hain?\n(I) Fe catalyst — Haber Process (N2 + H2 → NH3)\n(II) V2O5 catalyst — Contact Process (SO2 + O2 → SO3)\n(III) NO gas catalyst — Lead Chamber Process (SO2 + O2 → H2SO4)\n(IV) H2SO4 (liquid) catalyst — ester formation (liquid reactants)",
@@ -2222,8 +2396,8 @@
       "concept_id": "surface_chemistry_final_5",
       "level": 4,
       "progress": {
-        "current": 65,
-        "total": 72
+        "current": 69,
+        "total": 76
       },
       "quiz_payload": {
         "question": "BPSC 2022 Style — Freundlich Adsorption Isotherm ke baare mein kaunse statements SAHI hain?\n(I) Ye ek empirical isotherm hai — experimental data se derived.\n(II) Isotherm equation: x/m = k.P^(1/n) — yahan n > 1 hamesha.\n(III) Langmuir isotherm Freundlich se better hai kyunki ye high pressure pe bhi valid hai.\n(IV) Freundlich isotherm multilayer adsorption explain karta hai.",
@@ -2260,8 +2434,8 @@
       "concept_id": "surface_chemistry_final_6",
       "level": 4,
       "progress": {
-        "current": 66,
-        "total": 72
+        "current": 70,
+        "total": 76
       },
       "quiz_payload": {
         "question": "NEET/BPSC Combined Trap: Dialysis ke baare mein kaunsa kaunsa statement SAHI hai?\n(I) Dialysis mein semi-permeable membrane use hoti hai.\n(II) Colloid particles membrane se nahi guzarte lekin ions aur small molecules guzar jaate hain.\n(III) Graham ne dialysis discover kiya tha (1861).\n(IV) Kidney ek biological Cottrell Precipitator ki tarah kaam karti hai.",
@@ -2298,8 +2472,8 @@
       "concept_id": "surface_chemistry_final_7",
       "level": 4,
       "progress": {
-        "current": 67,
-        "total": 72
+        "current": 71,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Assertion-Reason (UPSC Prelims Style):\nAssertion (A): Adsorption ek spontaneous process hai jisme ΔG negative hota hai.\nReason (R): Adsorption mein ΔH negative (exothermic) aur ΔS negative (entropy decrease) dono hote hain — lekin low temperature pe ΔH > TΔS hota hai isliye ΔG negative rahta hai.",
@@ -2336,8 +2510,8 @@
       "concept_id": "surface_chemistry_final_8",
       "level": 4,
       "progress": {
-        "current": 68,
-        "total": 72
+        "current": 72,
+        "total": 76
       },
       "quiz_payload": {
         "question": "RRB NTPC/SSC Speed Round: Neeche diye gaye pairs mein se kaunse pair galat hain?\n(I) Fog — Solid Aerosol\n(II) Cheese — Gel (Liquid in Solid)\n(III) Shaving Cream — Foam (Gas in Liquid)\n(IV) Ruby Glass — Solid Sol (Solid in Solid)\n(V) Smoke — Liquid Aerosol",
@@ -2374,8 +2548,8 @@
       "concept_id": "surface_chemistry_final_9",
       "level": 4,
       "progress": {
-        "current": 69,
-        "total": 72
+        "current": 73,
+        "total": 76
       },
       "quiz_payload": {
         "question": "BPSC Combined Level — Surface Chemistry Applications mein se kaunse SAHI matched hain?\n(I) Gas Masks — Physisorption principle — Activated Charcoal\n(II) Water Purification — Coagulation — Alum (Phitkari)\n(III) Animal Charcoal — Adsorption — Sugar solution bleaching\n(IV) Chromatography — Distillation principle\n(V) Silica Gel — Moisture control in packed goods",
@@ -2412,8 +2586,8 @@
       "concept_id": "surface_chemistry_final_10",
       "level": 4,
       "progress": {
-        "current": 70,
-        "total": 72
+        "current": 74,
+        "total": 76
       },
       "quiz_payload": {
         "question": "UPSC/NEET Ultimate Level — Kaunsa statement(s) Langmuir Isotherm ki assumptions ke AGAINST hai?\n(I) Surface uniform hai aur sab sites equivalent energy wale hain.\n(II) Adsorbed molecules ek dusre ke saath interact karte hain aur lateral forces hain.\n(III) Adsorption sirf monolayer tak hoti hai.\n(IV) Adsorption aur desorption ek dynamic equilibrium mein hain.\n(V) Multiple layers of adsorption possible hain at high pressure.",
@@ -2450,8 +2624,8 @@
       "concept_id": "surface_chemistry_chapter_complete",
       "level": 4,
       "progress": {
-        "current": 71,
-        "total": 72
+        "current": 75,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🏆 SURFACE CHEMISTRY OFFICER CERTIFIED! 🏆",
@@ -2473,8 +2647,8 @@
       "concept_id": "surface_chemistry_master_summary",
       "level": 4,
       "progress": {
-        "current": 72,
-        "total": 72
+        "current": 76,
+        "total": 76
       },
       "summary_payload": {
         "title": "⚡ Master Officer Summary — Surface Chemistry Complete",

@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "BPSC TRE"
+    "BPSC TRE",
+    "RRB Group D"
   ],
-  "total_cards": 67,
+  "total_cards": 71,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 67
+        "total": 71
       },
       "intro_payload": {
         "chapter_title": "Magnetism — Fridge Magnet se Electric Motor Tak",
@@ -42,7 +43,8 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "BPSC TRE"
+          "BPSC TRE",
+          "RRB Group D"
         ],
         "learning_outcomes": [
           "Magnet, poles aur field lines ko samjhna",
@@ -51,12 +53,70 @@
           "Straight wire, loop aur solenoid ka magnetic field",
           "Current-carrying conductor par force aur electric motor",
           "Dia, para, ferro-magnetic materials aur hysteresis",
-          "Magnetic flux, Gauss's law aur torque on dipole"
+          "Magnetic flux, Gauss's law aur torque on dipole",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
         ]
       },
       "navigation": {
-        "next": "card_02_daily_magnet",
+        "next": "card_zero_foundation",
         "button_text": "Chalo Shuru Karein ➔"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 71
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Magnet kuch materials—jaise iron—ko attract karta hai. Har magnet ke do poles hote hain; same poles door dhakelte hain aur opposite poles paas kheenchte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, ab baat samajh mein aa rahi hai."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_daily_magnet",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -66,8 +126,8 @@
       "concept_id": "magnet_intro",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 67
+        "current": 3,
+        "total": 71
       },
       "messages": [
         {
@@ -76,7 +136,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan sir, wo toh bas ek push se chipak jaata hai! Maine kabhi socha hi nahi ki gum ke bina kaise ruk jaata hai."
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -84,7 +144,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh kya har cheez magnet ko chipakti hai sir? Meri copy bhi chipak jayegi kya?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -99,8 +159,8 @@
       "concept_id": "magnetic_poles",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 67
+        "current": 4,
+        "total": 71
       },
       "messages": [
         {
@@ -109,7 +169,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab agar main magnet ko beech se kaat doon, toh sirf North wala tukda bachega na?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -117,7 +177,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Matlab jitni baar todo, utni baar dono pole wapas aa jayenge? Ye to exam me pakka confuse karega!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -132,8 +192,8 @@
       "concept_id": "like_unlike_poles",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 67
+        "current": 5,
+        "total": 71
       },
       "guess_payload": {
         "question": "Agar do magnet ke North pole ek doosre ke saamne le aaye jaayein, toh kya hoga?",
@@ -170,8 +230,8 @@
       "concept_id": "magnet_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 67
+        "current": 6,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Ek bar magnet ko baar-baar do tukdon mein tod diya jaaye, toh (Q1/3):",
@@ -208,8 +268,8 @@
       "concept_id": "magnet_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 67
+        "current": 7,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Nimnlikhit mein se kaun si dhaatu magnet dwara aakarshit (attract) nahi hoti? (Q2/3)",
@@ -246,8 +306,8 @@
       "concept_id": "magnet_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 67
+        "current": 8,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Ek magnet ke South pole ke paas doosre magnet ka North pole laaya jaaye, toh kya hoga? (Q3/3)",
@@ -284,8 +344,8 @@
       "concept_id": "module1_complete",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 67
+        "current": 9,
+        "total": 71
       },
       "milestone_payload": {
         "title": "MODULE COMPLETED!",
@@ -307,8 +367,8 @@
       "concept_id": "magnetic_field",
       "level": 2,
       "progress": {
-        "current": 9,
-        "total": 67
+        "current": 10,
+        "total": 71
       },
       "messages": [
         {
@@ -317,7 +377,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan sir, maine dekha hai, bina chhue hi pin uski taraf udh ke chali jaati hai!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -325,7 +385,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye lines asli mein hoti hain kya sir, ya bas samjhane ke liye banayi jaati hain?"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -340,8 +400,8 @@
       "concept_id": "field_line_properties",
       "level": 2,
       "progress": {
-        "current": 10,
-        "total": 67
+        "current": 11,
+        "total": 71
       },
       "messages": [
         {
@@ -350,7 +410,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur andar? Matlab magnet ke andar bhi lines hoti hain kya?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -358,7 +418,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Cross kyun nahi karti sir? Agar cross kar jaayein toh?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -373,8 +433,8 @@
       "concept_id": "field_line_direction_no_cross",
       "level": 2,
       "progress": {
-        "current": 11,
-        "total": 67
+        "current": 12,
+        "total": 71
       },
       "guess_payload": {
         "question": "Do magnetic field lines ek doosre ko cross kyun nahi karti?",
@@ -411,8 +471,8 @@
       "concept_id": "field_lines_quiz",
       "level": 2,
       "progress": {
-        "current": 12,
-        "total": 67
+        "current": 13,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Bar magnet ke bahar, magnetic field lines ki direction hoti hai (Q1/3):",
@@ -449,8 +509,8 @@
       "concept_id": "field_lines_quiz",
       "level": 2,
       "progress": {
-        "current": 13,
-        "total": 67
+        "current": 14,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Magnetic field lines jahan sabse close (paas-paas) hoti hain, wahan field ki taakat kaisi hoti hai? (Q2/3)",
@@ -487,8 +547,8 @@
       "concept_id": "field_lines_quiz",
       "level": 2,
       "progress": {
-        "current": 14,
-        "total": 67
+        "current": 15,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Do magnetic field lines aapas mein cross kyun nahi karti? (Q3/3)",
@@ -525,8 +585,8 @@
       "concept_id": "module2_complete",
       "level": 2,
       "progress": {
-        "current": 15,
-        "total": 67
+        "current": 16,
+        "total": 71
       },
       "milestone_payload": {
         "title": "MODULE COMPLETED!",
@@ -548,8 +608,8 @@
       "concept_id": "earth_as_magnet",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 67
+        "current": 17,
+        "total": 71
       },
       "messages": [
         {
@@ -558,7 +618,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan sir, gaon mein guard uncle ka compass bhi hamesha ek hi taraf ruk jaata tha!"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -566,7 +626,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Matlab Earth ka North magnetic pole actually South mein hai?! Ye toh confusing naam hai sir!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -581,8 +641,8 @@
       "concept_id": "magnetic_elements",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 67
+        "current": 18,
+        "total": 71
       },
       "messages": [
         {
@@ -591,7 +651,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye teeno alag-alag kya batate hain sir?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -599,7 +659,7 @@
         },
         {
           "speaker": "raju",
-          "text": "⭐ Sir ye toh lagta hai officer level ka concept hai, exam mein zaroor aayega!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -614,8 +674,8 @@
       "concept_id": "compass_needle_direction",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 67
+        "current": 19,
+        "total": 71
       },
       "guess_payload": {
         "question": "Compass ki needle ka North-seeking sira hamesha Prithvi ke bhoogolik North ki taraf kyun point karta hai?",
@@ -652,8 +712,8 @@
       "concept_id": "earth_magnetism_quiz",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 67
+        "current": 20,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Geographic North aur Magnetic North ke beech ke angle ko kya kehte hain? (Q1/3)",
@@ -690,8 +750,8 @@
       "concept_id": "earth_magnetism_quiz",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 67
+        "current": 21,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Magnetic Equator par Angle of Dip (Inclination) ka maan kितna hota hai? (Q2/3)",
@@ -728,8 +788,8 @@
       "concept_id": "earth_magnetism_quiz",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 67
+        "current": 22,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Prithvi ke magnetic poles par Horizontal Component ka maan kितना hota hai? (Q3/3)",
@@ -766,8 +826,8 @@
       "concept_id": "module3_complete",
       "level": 2,
       "progress": {
-        "current": 22,
-        "total": 67
+        "current": 23,
+        "total": 71
       },
       "milestone_payload": {
         "title": "MODULE COMPLETED!",
@@ -789,8 +849,8 @@
       "concept_id": "oersted_experiment",
       "level": 3,
       "progress": {
-        "current": 23,
-        "total": 67
+        "current": 24,
+        "total": 71
       },
       "messages": [
         {
@@ -799,7 +859,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Seriously?? Matlab bijli bhi magnet jaisa kaam karti hai?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -807,7 +867,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh kya current jitna zyada hoga, magnetic field bhi utna hi strong hoga sir?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -822,8 +882,8 @@
       "concept_id": "right_hand_thumb_rule",
       "level": 3,
       "progress": {
-        "current": 24,
-        "total": 67
+        "current": 25,
+        "total": 71
       },
       "messages": [
         {
@@ -832,7 +892,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa, matlab hath se hi answer nikal sakte hain! Left hand se try kiya toh?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -840,7 +900,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ruko sir, do alag rules hain? Ye toh yaad rakhna mushkil hoga!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -855,8 +915,8 @@
       "concept_id": "field_strength_current",
       "level": 3,
       "progress": {
-        "current": 25,
-        "total": 67
+        "current": 26,
+        "total": 71
       },
       "guess_payload": {
         "question": "Ek sidhe (straight) taar mein current double kar diya jaaye toh us taar ke paas magnetic field ka kya hoga?",
@@ -893,8 +953,8 @@
       "concept_id": "oersted_quiz",
       "level": 3,
       "progress": {
-        "current": 26,
-        "total": 67
+        "current": 27,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Current le jaane wale taar ke paas rakhe compass ki needle kyun deflect (hilti) ho jaati hai? (Q1/3)",
@@ -931,8 +991,8 @@
       "concept_id": "oersted_quiz",
       "level": 3,
       "progress": {
-        "current": 27,
-        "total": 67
+        "current": 28,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Right Hand Thumb Rule mein thumb kis cheez ki direction dikhata hai? (Q2/3)",
@@ -969,8 +1029,8 @@
       "concept_id": "oersted_quiz",
       "level": 3,
       "progress": {
-        "current": 28,
-        "total": 67
+        "current": 29,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Electromagnetism ki khoj kis scientist ne ki thi aur kis saal? (Q3/3)",
@@ -1007,8 +1067,8 @@
       "concept_id": "module4_complete",
       "level": 3,
       "progress": {
-        "current": 29,
-        "total": 67
+        "current": 30,
+        "total": 71
       },
       "milestone_payload": {
         "title": "MODULE COMPLETED!",
@@ -1030,8 +1090,8 @@
       "concept_id": "straight_wire_field",
       "level": 3,
       "progress": {
-        "current": 30,
-        "total": 67
+        "current": 31,
+        "total": 71
       },
       "messages": [
         {
@@ -1040,7 +1100,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh taar ke paas field strong hogi aur door jaane par kamzor?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1048,7 +1108,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye μ₀ (mu-zero) kya cheez hai sir?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1063,8 +1123,8 @@
       "concept_id": "circular_loop_field",
       "level": 3,
       "progress": {
-        "current": 31,
-        "total": 67
+        "current": 32,
+        "total": 71
       },
       "messages": [
         {
@@ -1073,7 +1133,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Center par field aur zyada strong ho jayegi shayad, kyunki saari loop ki current ek jagah asar dikha rahi hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1081,7 +1141,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir agar loop ki jagah bahut saari coils ek saath lapet di jaayein toh?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1096,8 +1156,8 @@
       "concept_id": "solenoid_toroid",
       "level": 3,
       "progress": {
-        "current": 32,
-        "total": 67
+        "current": 33,
+        "total": 71
       },
       "messages": [
         {
@@ -1106,7 +1166,7 @@
         },
         {
           "speaker": "raju",
-          "text": "⭐ Ye toh electromagnet jaisa lagta hai sir!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1114,7 +1174,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab teen shapes — straight wire, circular loop, aur solenoid — teenon ka field pattern bilkul alag hai!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1129,8 +1189,8 @@
       "concept_id": "field_shapes_quiz",
       "level": 3,
       "progress": {
-        "current": 33,
-        "total": 67
+        "current": 34,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Ek lambi seedhi taar ke paas magnetic field, taar se doori 'r' ke saath kaise badalti hai? (Q1/3)",
@@ -1167,8 +1227,8 @@
       "concept_id": "field_shapes_quiz",
       "level": 3,
       "progress": {
-        "current": 34,
-        "total": 67
+        "current": 35,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Ek current-carrying solenoid ke andar utpann hone wala magnetic field kaisi hoti hai aur ye sabse zyada mildi-julti hai? (Q2/3)",
@@ -1205,8 +1265,8 @@
       "concept_id": "field_shapes_quiz",
       "level": 3,
       "progress": {
-        "current": 35,
-        "total": 67
+        "current": 36,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Ek circular current loop ke center par magnetic field kis cheez par nirbhar nahi karti? (Q3/3)",
@@ -1243,8 +1303,8 @@
       "concept_id": "module5_complete",
       "level": 3,
       "progress": {
-        "current": 36,
-        "total": 67
+        "current": 37,
+        "total": 71
       },
       "milestone_payload": {
         "title": "MODULE COMPLETED!",
@@ -1266,8 +1326,8 @@
       "concept_id": "force_on_conductor",
       "level": 4,
       "progress": {
-        "current": 37,
-        "total": 67
+        "current": 38,
+        "total": 71
       },
       "messages": [
         {
@@ -1276,7 +1336,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... shayad taar par bhi ek force lagegi, jaisa hum magnet ke pinjre mein pin daalte hain?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1284,7 +1344,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur agar dono perpendicular (90°) hon toh?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1299,8 +1359,8 @@
       "concept_id": "flemings_left_hand_rule",
       "level": 4,
       "progress": {
-        "current": 38,
-        "total": 67
+        "current": 39,
+        "total": 71
       },
       "messages": [
         {
@@ -1309,7 +1369,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ruko sir, pehle Right Hand Thumb Rule tha current ke field ke liye, ab Left Hand Rule force ke liye? Ye toh exam mein palat jaayega mera!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1317,7 +1377,7 @@
         },
         {
           "speaker": "raju",
-          "text": "FBI trick! First-Field, seCond(middle)-Current, thumB-force! Ab main kabhi nahi bhoolunga sir!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1332,8 +1392,8 @@
       "concept_id": "force_between_parallel_wires",
       "level": 4,
       "progress": {
-        "current": 39,
-        "total": 67
+        "current": 40,
+        "total": 71
       },
       "messages": [
         {
@@ -1342,7 +1402,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Yeh toh poles ke ulta hai — poles mein 'same repel karte hain', par yahan 'same direction attract karti hai'?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1350,7 +1410,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow sir, matlab Ampere ki definition khud isी force wale concept se nikli hai!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1365,8 +1425,8 @@
       "concept_id": "force_quiz",
       "level": 4,
       "progress": {
-        "current": 40,
-        "total": 67
+        "current": 41,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Fleming's Left Hand Rule mein Thumb kis cheez ki direction dikhata hai? (Q1/3)",
@@ -1403,8 +1463,8 @@
       "concept_id": "force_quiz",
       "level": 4,
       "progress": {
-        "current": 41,
-        "total": 67
+        "current": 42,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Do parallel taaron mein current same direction mein bahe, toh dono taar aapas mein kya karte hain? (Q2/3)",
@@ -1441,8 +1501,8 @@
       "concept_id": "force_quiz",
       "level": 4,
       "progress": {
-        "current": 42,
-        "total": 67
+        "current": 43,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Agar current-carrying taar magnetic field ke bilkul samaantar (parallel, θ = 0°) rakhi ho, toh taar par lagne wala force kितना hoga? (Q3/3)",
@@ -1479,8 +1539,8 @@
       "concept_id": "module6_complete",
       "level": 4,
       "progress": {
-        "current": 43,
-        "total": 67
+        "current": 44,
+        "total": 71
       },
       "milestone_payload": {
         "title": "MODULE COMPLETED!",
@@ -1502,8 +1562,8 @@
       "concept_id": "electromagnet_vs_permanent",
       "level": 4,
       "progress": {
-        "current": 44,
-        "total": 67
+        "current": 45,
+        "total": 71
       },
       "messages": [
         {
@@ -1512,7 +1572,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha sir maine video mein dekha hai, ekdum se sab gir jaata hai jaise magnet gayab ho gaya!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1520,7 +1580,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh isमें permanent magnet se kya fayda hai sir?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1535,8 +1595,8 @@
       "concept_id": "electric_motor_working",
       "level": 4,
       "progress": {
-        "current": 45,
-        "total": 67
+        "current": 46,
+        "total": 71
       },
       "messages": [
         {
@@ -1545,7 +1605,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab wahi Fleming's Left Hand Rule wala force hi motor ko ghumata hai?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1553,7 +1613,7 @@
         },
         {
           "speaker": "raju",
-          "text": "⭐ Toh mera table fan bhi isी principle par chalta hai! Ab samajh aaya!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1568,8 +1628,8 @@
       "concept_id": "motor_split_ring",
       "level": 4,
       "progress": {
-        "current": 46,
-        "total": 67
+        "current": 47,
+        "total": 71
       },
       "guess_payload": {
         "question": "Electric motor mein 'Split-Ring Commutator' ka kya kaam hai?",
@@ -1606,8 +1666,8 @@
       "concept_id": "electromagnet_motor_quiz",
       "level": 4,
       "progress": {
-        "current": 47,
-        "total": 67
+        "current": 48,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Electromagnet mein core ke liye kaunsi dhaatu use hoti hai, aur kyun? (Q1/3)",
@@ -1644,8 +1704,8 @@
       "concept_id": "electromagnet_motor_quiz",
       "level": 4,
       "progress": {
-        "current": 48,
-        "total": 67
+        "current": 49,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Electric motor kis energy conversion ka udaharan hai? (Q2/3)",
@@ -1682,8 +1742,8 @@
       "concept_id": "electromagnet_motor_quiz",
       "level": 4,
       "progress": {
-        "current": 49,
-        "total": 67
+        "current": 50,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Electric motor mein coil ki do sides par opposite forces kis rule se lagti hain, jisse coil ghoomti hai? (Q3/3)",
@@ -1720,8 +1780,8 @@
       "concept_id": "module7_complete",
       "level": 4,
       "progress": {
-        "current": 50,
-        "total": 67
+        "current": 51,
+        "total": 71
       },
       "milestone_payload": {
         "title": "MODULE COMPLETED!",
@@ -1743,8 +1803,8 @@
       "concept_id": "magnetic_materials_types",
       "level": 5,
       "progress": {
-        "current": 51,
-        "total": 67
+        "current": 52,
+        "total": 71
       },
       "messages": [
         {
@@ -1753,7 +1813,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab in teenon mein antar kya hai sir?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1761,7 +1821,7 @@
         },
         {
           "speaker": "raju",
-          "text": "⭐ Toh sirf iron, cobalt, nickel hi asli 'magnet' ban paate hain sir?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1776,8 +1836,8 @@
       "concept_id": "curie_temperature",
       "level": 5,
       "progress": {
-        "current": 52,
-        "total": 67
+        "current": 53,
+        "total": 71
       },
       "messages": [
         {
@@ -1786,7 +1846,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Garmi se magnet apni takat kho deta hai? Wo kितне temperature par?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1794,7 +1854,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh isse zyada garam karne par iron ko magnet nahi bana sakte sir?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1809,8 +1869,8 @@
       "concept_id": "hysteresis_material_choice",
       "level": 5,
       "progress": {
-        "current": 53,
-        "total": 67
+        "current": 54,
+        "total": 71
       },
       "messages": [
         {
@@ -1819,7 +1879,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Isका exam mein kya use hai sir?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1827,7 +1887,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa, matlab steel = permanent magnet, soft iron = electromagnet — ab clear ho gaya!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1842,8 +1902,8 @@
       "concept_id": "materials_quiz",
       "level": 5,
       "progress": {
-        "current": 54,
-        "total": 67
+        "current": 55,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Nimnlikhit mein se kaunsa material diamagnetic hai? (Q1/3)",
@@ -1880,8 +1940,8 @@
       "concept_id": "materials_quiz",
       "level": 5,
       "progress": {
-        "current": 55,
-        "total": 67
+        "current": 56,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Curie Temperature ke upar garam karne par ferromagnetic material kya ban jaata hai? (Q2/3)",
@@ -1918,8 +1978,8 @@
       "concept_id": "materials_quiz",
       "level": 5,
       "progress": {
-        "current": 56,
-        "total": 67
+        "current": 57,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Permanent magnet banane ke liye kaunsa material behtar hota hai aur kyun? (Q3/3)",
@@ -1956,8 +2016,8 @@
       "concept_id": "module8_complete",
       "level": 5,
       "progress": {
-        "current": 57,
-        "total": 67
+        "current": 58,
+        "total": 71
       },
       "milestone_payload": {
         "title": "MODULE COMPLETED!",
@@ -1979,8 +2039,8 @@
       "concept_id": "magnetic_flux",
       "level": 5,
       "progress": {
-        "current": 58,
-        "total": 67
+        "current": 59,
+        "total": 71
       },
       "messages": [
         {
@@ -1989,7 +2049,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab jitni zyada field lines surface se guzrengi, flux utna hi zyada hoga?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -1997,7 +2057,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Agar surface field ke bilkul parallel rakh dein toh flux kya hoga sir?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -2012,8 +2072,8 @@
       "concept_id": "gauss_law_magnetism",
       "level": 5,
       "progress": {
-        "current": 59,
-        "total": 67
+        "current": 60,
+        "total": 71
       },
       "messages": [
         {
@@ -2022,7 +2082,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Zero kyun sir, jabki electric field ke case mein toh flux nikalta hai charge ki wajah se?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -2030,7 +2090,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Waah! Module 1 ka 'monopole nahi hota' wala concept yahan wapas kaam aaya — sab kुछ jud raha hai!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -2045,8 +2105,8 @@
       "concept_id": "torque_bar_magnet",
       "level": 5,
       "progress": {
-        "current": 60,
-        "total": 67
+        "current": 61,
+        "total": 71
       },
       "messages": [
         {
@@ -2055,7 +2115,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Jaise compass ki needle bhi hamesha ek hi direction mein align ho jaati hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -2063,7 +2123,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh maximum torque tab lagega jab magnet field ke perpendicular (90°) ho?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -2078,8 +2138,8 @@
       "concept_id": "flux_torque_quiz",
       "level": 5,
       "progress": {
-        "current": 61,
-        "total": 67
+        "current": 62,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Kisi bhi closed surface se guzarne wala total magnetic flux hamesha kितना hota hai, aur kyun? (Q1/3)",
@@ -2116,8 +2176,8 @@
       "concept_id": "flux_torque_quiz",
       "level": 5,
       "progress": {
-        "current": 62,
-        "total": 67
+        "current": 63,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Ek magnetic dipole (bar magnet) uniform field ke samaantar (θ = 0°) rakha ho, toh us par lagne wala torque kितना hoga? (Q2/3)",
@@ -2154,8 +2214,8 @@
       "concept_id": "flux_torque_quiz",
       "level": 5,
       "progress": {
-        "current": 63,
-        "total": 67
+        "current": 64,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Magnetic Flux (Φ) ka SI unit kya hai? (Q3/3)",
@@ -2192,8 +2252,8 @@
       "concept_id": "module9_complete",
       "level": 5,
       "progress": {
-        "current": 64,
-        "total": 67
+        "current": 65,
+        "total": 71
       },
       "milestone_payload": {
         "title": "MODULE COMPLETED!",
@@ -2204,8 +2264,122 @@
         "motivational_quote": "Zabardast Raju! Poora chapter clear! Ab final officer-level revision aur mega quiz baaki hai!"
       },
       "navigation": {
-        "next": "card_65_summary",
+        "next": "card_applied_case_01",
         "button_text": "Continue to Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Compass needle north-south direction mein set ho jaati hai. Iska kaaran kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Earth ka magnetic field needle par torque lagata hai"
+          },
+          {
+            "id": "B",
+            "text": "Compass mein gravity nahi hoti"
+          },
+          {
+            "id": "C",
+            "text": "Needle sunlight follow karti hai"
+          },
+          {
+            "id": "D",
+            "text": "Air pressure needle ko ghumata hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Compass ka magnetized needle Earth ke magnetic field ke saath align hota hai."
+      },
+      "progress": {
+        "current": 66,
+        "total": 71
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: Coil ke andar current badhaya aur turns bhi badhaye. Electromagnet ki strength aam taur par kya karegi?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Badhegi"
+          },
+          {
+            "id": "B",
+            "text": "Hamesha zero hogi"
+          },
+          {
+            "id": "C",
+            "text": "Mass ke barabar hogi"
+          },
+          {
+            "id": "D",
+            "text": "Sirf colour badlega"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Coil ke turns aur current badhne se magnetic field aam taur par strong hota hai; iron core bhi strength badha sakta hai."
+      },
+      "progress": {
+        "current": 67,
+        "total": 71
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 3: Electric bell mein current on hone par iron armature khinchta hai, phir contact tootkar release hota hai. Kaunsa device effect use ho raha hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Electromagnet ka temporary magnetic pull"
+          },
+          {
+            "id": "B",
+            "text": "Permanent plastic charge"
+          },
+          {
+            "id": "C",
+            "text": "Thermal expansion only"
+          },
+          {
+            "id": "D",
+            "text": "Sound absorption"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Current-carrying coil electromagnet banti hai aur iron armature ko attract karke bell mechanism chalati hai."
+      },
+      "progress": {
+        "current": 68,
+        "total": 71
+      },
+      "navigation": {
+        "next": "card_65_summary",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2215,8 +2389,8 @@
       "concept_id": "chapter_revision",
       "level": 5,
       "progress": {
-        "current": 65,
-        "total": 67
+        "current": 69,
+        "total": 71
       },
       "summary_payload": {
         "title": "⚡ Quick Officer Revision",
@@ -2255,8 +2429,8 @@
       "concept_id": "master_officer_quiz",
       "level": 5,
       "progress": {
-        "current": 66,
-        "total": 67
+        "current": 70,
+        "total": 71
       },
       "quiz_payload": {
         "question": "Nimnlikhit statements par vichaar karein: (1) Ek current-carrying solenoid ke andar field bar magnet ke field jaisi hoti hai. (2) Fleming's Left Hand Rule mein Middle finger Field ki direction batata hai. (3) Diamagnetic materials magnetic field se attract hote hain. (4) Gauss's Law ke anusaar closed surface se total magnetic flux zero hota hai. Upar diye gaye kितने statements sahi hain?",
@@ -2293,8 +2467,8 @@
       "concept_id": "chapter_complete",
       "level": 5,
       "progress": {
-        "current": 67,
-        "total": 67
+        "current": 71,
+        "total": 71
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER MASTERED!",
@@ -2305,7 +2479,7 @@
         "motivational_quote": "Raju, ab tum fridge magnet se lekar electric motor tak, aur Prithvi ke magnetism se lekar Gauss's Law tak — sab kuछ officer level par samajhते ho! BPSC, SSC, Railway, NEET — sab exams ke liye taiyar ho!"
       },
       "navigation": {
-        "next": "chapter_end",
+        "next": null,
         "button_text": "Finish Chapter ➔"
       }
     }

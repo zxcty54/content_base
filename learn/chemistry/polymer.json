@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims"
+    "UPSC Prelims",
+    "RRB Group D"
   ],
-  "total_cards": 72,
+  "total_cards": 76,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 72
+        "total": 76
       },
       "intro_payload": {
         "title": "🧪 Polymers in Chemistry",
@@ -42,21 +43,80 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims"
+          "UPSC Prelims",
+          "RRB Group D"
         ],
         "learning_outcomes": [
           "Master natural vs synthetic polymers with real-life examples",
           "Understand polymerization mechanisms (Addition & Condensation)",
           "Learn classification: Homopolymer, Copolymer, Thermoplastic, Thermosetting",
           "Crack PYQs on Nylon, PVC, Teflon, Bakelite with exact structures",
-          "Memorize biodegradable polymers and environmental impact for BPSC/UPSC"
+          "Memorize biodegradable polymers and environmental impact for BPSC/UPSC",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
         ],
         "estimated_time": "25 mins",
-        "total_modules": 6
+        "total_modules": 6,
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
+        ]
       },
       "navigation": {
-        "next": "card_02_daily_life_intro",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning 🚀"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 76
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Polymer bahut saare chhote repeating units—monomers—ke judne se bana bada molecule hota hai. Beads ki lambi mala ek simple analogy hai. Plastic, rubber, starch aur proteins ke examples se samjhenge."
+        },
+        {
+          "speaker": "raju",
+          "text": "Abhi ka main point clear hai."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_daily_life_intro",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -66,8 +126,8 @@
       "concept_id": "polymer_daily_life",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 72
+        "current": 3,
+        "total": 76
       },
       "messages": [
         {
@@ -76,7 +136,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir sab plastic jaisi cheezein hain... light weight aur strong!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -84,7 +144,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... matlab plastic bhi ek polymer hai?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -99,8 +159,8 @@
       "concept_id": "monomer_polymer_definition",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 72
+        "current": 4,
+        "total": 76
       },
       "messages": [
         {
@@ -109,7 +169,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir to polymerization matlab bahut saare monomers ka judna?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -117,7 +177,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ji Sir! Types kitne hain polymers ke?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -132,8 +192,8 @@
       "concept_id": "natural_synthetic_polymers",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 72
+        "current": 5,
+        "total": 76
       },
       "messages": [
         {
@@ -142,7 +202,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? DNA bhi polymer hai Sir? Biology wala DNA?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -150,7 +210,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Nature original scientist hai! 😄"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -165,8 +225,8 @@
       "concept_id": "polymer_basics_quiz_1",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 72
+        "current": 6,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which of the following is a NATURAL polymer?",
@@ -203,8 +263,8 @@
       "concept_id": "polymer_basics_quiz_2",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 72
+        "current": 7,
+        "total": 76
       },
       "quiz_payload": {
         "question": "The small repeating units that join together to form a polymer are called:",
@@ -241,8 +301,8 @@
       "concept_id": "polymer_basics_quiz_3",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 72
+        "current": 8,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which of the following is an example of a biological polymer?",
@@ -279,8 +339,8 @@
       "concept_id": "basics_module_complete",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 72
+        "current": 9,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 POLYMER BASICS UNLOCKED!",
@@ -302,8 +362,8 @@
       "concept_id": "polymer_classification_start",
       "level": 2,
       "progress": {
-        "current": 9,
-        "total": 72
+        "current": 10,
+        "total": 76
       },
       "messages": [
         {
@@ -312,7 +372,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir structure wala thoda confusing lag raha hai... linear matlab seedhi line mein?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -320,7 +380,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... to ek hi polymer polyethene ke do types hain - linear aur branched?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -335,8 +395,8 @@
       "concept_id": "hdpe_ldpe_difference",
       "level": 2,
       "progress": {
-        "current": 10,
-        "total": 72
+        "current": 11,
+        "total": 76
       },
       "messages": [
         {
@@ -345,7 +405,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir to HDPE zyada strong kyunki linear aur tightly packed! LDPE flexible kyunki branched!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -353,7 +413,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab cross-linked ko dobara pighlaya nahi ja sakta?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -368,8 +428,8 @@
       "concept_id": "thermoplastic_vs_thermosetting",
       "level": 2,
       "progress": {
-        "current": 11,
-        "total": 72
+        "current": 12,
+        "total": 76
       },
       "messages": [
         {
@@ -378,7 +438,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir to thermoplastic recyclable hai lekin thermosetting nahi?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -386,7 +446,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya Sir! Structure affects properties! 💡"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -401,8 +461,8 @@
       "concept_id": "homopolymer_copolymer_types",
       "level": 2,
       "progress": {
-        "current": 12,
-        "total": 72
+        "current": 13,
+        "total": 76
       },
       "messages": [
         {
@@ -411,7 +471,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir Nylon-6,6 mein ye 6,6 ka matlab kya hai?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -419,7 +479,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhh... number carbon atoms batata hai! Cool! 😊"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -434,8 +494,8 @@
       "concept_id": "classification_quiz_1",
       "level": 2,
       "progress": {
-        "current": 13,
-        "total": 72
+        "current": 14,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which of the following is a THERMOSETTING polymer?",
@@ -472,8 +532,8 @@
       "concept_id": "classification_quiz_2",
       "level": 2,
       "progress": {
-        "current": 14,
-        "total": 72
+        "current": 15,
+        "total": 76
       },
       "quiz_payload": {
         "question": "HDPE (High Density Polyethene) differs from LDPE (Low Density Polyethene) primarily in:",
@@ -510,8 +570,8 @@
       "concept_id": "classification_quiz_3",
       "level": 2,
       "progress": {
-        "current": 15,
-        "total": 72
+        "current": 16,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Nylon-6,6 is an example of:",
@@ -548,8 +608,8 @@
       "concept_id": "classification_module_complete",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 72
+        "current": 17,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎯 CLASSIFICATION MASTERED!",
@@ -571,8 +631,8 @@
       "concept_id": "polymerization_mechanism_start",
       "level": 3,
       "progress": {
-        "current": 17,
-        "total": 72
+        "current": 18,
+        "total": 76
       },
       "messages": [
         {
@@ -581,7 +641,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir addition mein kuch nahi nikalta, condensation mein kuch nikalkar nikalta hai... yahi difference hai?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -589,7 +649,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ji Sir! Example chahiye! 🙏"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -604,8 +664,8 @@
       "concept_id": "addition_polymerization_mechanism",
       "level": 3,
       "progress": {
-        "current": 18,
-        "total": 72
+        "current": 19,
+        "total": 76
       },
       "messages": [
         {
@@ -614,7 +674,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir double bond zaruri hai addition ke liye?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -622,7 +682,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya Sir! Unsaturated monomer → addition polymer! 💡"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -637,8 +697,8 @@
       "concept_id": "condensation_polymerization_mechanism",
       "level": 3,
       "progress": {
-        "current": 19,
-        "total": 72
+        "current": 20,
+        "total": 76
       },
       "messages": [
         {
@@ -647,7 +707,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir to ye biochemistry ka peptide bond jaisa hai - amino acids jud te hain to paani nikalta hai?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -655,7 +715,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Biology aur Chemistry connected hai! 🤯"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -670,8 +730,8 @@
       "concept_id": "addition_condensation_comparison",
       "level": 3,
       "progress": {
-        "current": 20,
-        "total": 72
+        "current": 21,
+        "total": 76
       },
       "messages": [
         {
@@ -680,7 +740,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ek trick hai kya yaad rakhne ki?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -688,7 +748,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Perfect Sir! Ye trick kaam aayegi! 😄"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -703,8 +763,8 @@
       "concept_id": "polymerization_quiz_1",
       "level": 3,
       "progress": {
-        "current": 21,
-        "total": 72
+        "current": 22,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which type of polymerization involves the elimination of small molecules like H₂O during polymer formation?",
@@ -741,8 +801,8 @@
       "concept_id": "polymerization_quiz_2",
       "level": 3,
       "progress": {
-        "current": 22,
-        "total": 72
+        "current": 23,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which of the following is formed by ADDITION polymerization?",
@@ -779,8 +839,8 @@
       "concept_id": "polymerization_quiz_3",
       "level": 3,
       "progress": {
-        "current": 23,
-        "total": 72
+        "current": 24,
+        "total": 76
       },
       "quiz_payload": {
         "question": "The formation of protein from amino acids is an example of:",
@@ -817,8 +877,8 @@
       "concept_id": "polymerization_module_complete",
       "level": 3,
       "progress": {
-        "current": 24,
-        "total": 72
+        "current": 25,
+        "total": 76
       },
       "milestone_payload": {
         "title": "⚗️ POLYMERIZATION MECHANISMS CONQUERED!",
@@ -840,8 +900,8 @@
       "concept_id": "important_polymers_start",
       "level": 4,
       "progress": {
-        "current": 25,
-        "total": 72
+        "current": 26,
+        "total": 76
       },
       "messages": [
         {
@@ -850,7 +910,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir sabse pehle Polythene - ye to sabse common hai bags mein!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -858,7 +918,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir HDPE aur LDPE mein difference structure wala tha na - linear vs branched?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -873,8 +933,8 @@
       "concept_id": "pvc_polyvinyl_chloride",
       "level": 4,
       "progress": {
-        "current": 26,
-        "total": 72
+        "current": 27,
+        "total": 76
       },
       "messages": [
         {
@@ -883,15 +943,15 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir plasticizer kya hota hai?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
-          "text": "Good question! Plasticizer wo chemical hai jo polymer mein add karke usko flexible aur soft banata hai - jaise phthalates. Pure PVC rigid hota hai (pipes), plasticizer ke saath flexible (raincoats). Lekin kuch plasticizers health ke liye harmful hote hain - isliye phthalate-free products aate hain. Ye environmental chemistry ka part hai UPSC mein!"
+          "text": "Chaliye, is baat ko seedhe samajhte hain. Plasticizer wo chemical hai jo polymer mein add karke usko flexible aur soft banata hai - jaise phthalates. Pure PVC rigid hota hai (pipes), plasticizer ke saath flexible (raincoats). Lekin kuch plasticizers health ke liye harmful hote hain - isliye phthalate-free products aate hain. Ye environmental chemistry ka part hai UPSC mein!"
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... additives se properties change ho jaati hain!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -906,8 +966,8 @@
       "concept_id": "teflon_ptfe",
       "level": 4,
       "progress": {
-        "current": 27,
-        "total": 72
+        "current": 28,
+        "total": 76
       },
       "messages": [
         {
@@ -916,7 +976,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Accidentally discover hua? Kaise Sir?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -924,7 +984,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Accidental discovery but revolutionary product! 🤯"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -939,8 +999,8 @@
       "concept_id": "polystyrene_polymer",
       "level": 4,
       "progress": {
-        "current": 28,
-        "total": 72
+        "current": 29,
+        "total": 76
       },
       "messages": [
         {
@@ -949,7 +1009,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir Styrofoam mein foam kaise banta hai? Air bharti hain kya?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -957,7 +1017,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab thermocol = expanded polystyrene! 💡"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -972,8 +1032,8 @@
       "concept_id": "nylon_polymer_types",
       "level": 4,
       "progress": {
-        "current": 29,
-        "total": 72
+        "current": 30,
+        "total": 76
       },
       "messages": [
         {
@@ -982,15 +1042,15 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir Nylon-6,6 aur Nylon-6 mein kya difference hai properties mein?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
-          "text": "Good question! Dono similar properties hain lekin Nylon-6,6 thoda zyada crystalline aur strong hai, higher melting point (265°C vs 220°C). Nylon-6 thoda zyada flexible aur dye easily absorb karta hai. Exam mein usually Nylon-6,6 ka structure zyada puchte hain - do monomers wala. BPSC mein scientist name aur year zaroor aata hai!"
+          "text": "Chaliye, is baat ko seedhe samajhte hain. Dono similar properties hain lekin Nylon-6,6 thoda zyada crystalline aur strong hai, higher melting point (265°C vs 220°C). Nylon-6 thoda zyada flexible aur dye easily absorb karta hai. Exam mein usually Nylon-6,6 ka structure zyada puchte hain - do monomers wala. BPSC mein scientist name aur year zaroor aata hai!"
         },
         {
           "speaker": "raju",
-          "text": "Wallace Carothers, 1935 - noted! 📝"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -1005,8 +1065,8 @@
       "concept_id": "terylene_dacron_polymer",
       "level": 4,
       "progress": {
-        "current": 30,
-        "total": 72
+        "current": 31,
+        "total": 76
       },
       "messages": [
         {
@@ -1015,7 +1075,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir PET bottles ka matlab Polyethylene terephthalate! Hain, ye naam itna bada hai! 😮"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1023,7 +1083,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhh... isliye 'polyester' likhta hai shirts pe! 💡"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -1038,8 +1098,8 @@
       "concept_id": "bakelite_polymer",
       "level": 4,
       "progress": {
-        "current": 31,
-        "total": 72
+        "current": 32,
+        "total": 76
       },
       "messages": [
         {
@@ -1048,7 +1108,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye thermosetting hai matlab ek baar set ho gaya to reshape nahi hoga?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1056,7 +1116,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Leo Baekeland, 1907 - ye bhi note kar liya! 📝"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1071,8 +1131,8 @@
       "concept_id": "important_polymers_quiz_1",
       "level": 4,
       "progress": {
-        "current": 32,
-        "total": 72
+        "current": 33,
+        "total": 76
       },
       "quiz_payload": {
         "question": "The monomer of Teflon (PTFE) is:",
@@ -1109,8 +1169,8 @@
       "concept_id": "important_polymers_quiz_2",
       "level": 4,
       "progress": {
-        "current": 33,
-        "total": 72
+        "current": 34,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which polymer is known as the first fully synthetic fiber?",
@@ -1147,8 +1207,8 @@
       "concept_id": "important_polymers_quiz_3",
       "level": 4,
       "progress": {
-        "current": 34,
-        "total": 72
+        "current": 35,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Bakelite is prepared by the condensation polymerization of:",
@@ -1185,8 +1245,8 @@
       "concept_id": "important_polymers_module_complete",
       "level": 4,
       "progress": {
-        "current": 35,
-        "total": 72
+        "current": 36,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎖️ IMPORTANT POLYMERS MASTERED!",
@@ -1208,8 +1268,8 @@
       "concept_id": "rubber_introduction",
       "level": 5,
       "progress": {
-        "current": 36,
-        "total": 72
+        "current": 37,
+        "total": 76
       },
       "messages": [
         {
@@ -1218,7 +1278,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir car tyres mein natural rubber use hota hai kya?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1226,7 +1286,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ek aur accidental discovery! 😄 Sir synthetic rubber bhi hota hai?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1241,8 +1301,8 @@
       "concept_id": "synthetic_rubber_types",
       "level": 5,
       "progress": {
-        "current": 37,
-        "total": 72
+        "current": 38,
+        "total": 76
       },
       "messages": [
         {
@@ -1251,7 +1311,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir BUNA mein NA matlab Sodium? Lekin ab bhi use hota hai kya?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1259,7 +1319,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya Sir! Historical names important hain! 📝"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1274,8 +1334,8 @@
       "concept_id": "biodegradable_polymers_intro",
       "level": 5,
       "progress": {
-        "current": 38,
-        "total": 72
+        "current": 39,
+        "total": 76
       },
       "messages": [
         {
@@ -1284,7 +1344,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir to ye environment mein decompose ho jayenge? Pollution nahi karenge?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1292,7 +1352,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir medical sutures bhi polymer se bante hain? Wow! 🤯"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1307,8 +1367,8 @@
       "concept_id": "medical_application_polymers",
       "level": 5,
       "progress": {
-        "current": 39,
-        "total": 72
+        "current": 40,
+        "total": 76
       },
       "messages": [
         {
@@ -1317,7 +1377,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye to biotechnology aur chemistry ka combination hai! 😮"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1325,7 +1385,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Amazing applications Sir! Polymers har jagah hain! 🔬"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1340,8 +1400,8 @@
       "concept_id": "special_polymers_quiz_1",
       "level": 5,
       "progress": {
-        "current": 40,
-        "total": 72
+        "current": 41,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Vulcanization of rubber involves heating natural rubber with:",
@@ -1378,8 +1438,8 @@
       "concept_id": "special_polymers_quiz_2",
       "level": 5,
       "progress": {
-        "current": 41,
-        "total": 72
+        "current": 42,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which of the following is a biodegradable polymer?",
@@ -1416,8 +1476,8 @@
       "concept_id": "special_polymers_quiz_3",
       "level": 5,
       "progress": {
-        "current": 42,
-        "total": 72
+        "current": 43,
+        "total": 76
       },
       "quiz_payload": {
         "question": "BUNA-N rubber is a copolymer of:",
@@ -1454,8 +1514,8 @@
       "concept_id": "special_polymers_module_complete",
       "level": 5,
       "progress": {
-        "current": 43,
-        "total": 72
+        "current": 44,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🌟 SPECIAL POLYMERS UNLOCKED!",
@@ -1477,8 +1537,8 @@
       "concept_id": "polymer_environment_impact",
       "level": 6,
       "progress": {
-        "current": 44,
-        "total": 72
+        "current": 45,
+        "total": 76
       },
       "messages": [
         {
@@ -1487,7 +1547,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye itna serious problem hai? Lekin plastic to convenient hai na? 😟"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1495,7 +1555,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Koi solution hai Sir? Sab plastic ban kar denge kya?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1510,8 +1570,8 @@
       "concept_id": "plastic_pollution_solutions",
       "level": 6,
       "progress": {
-        "current": 45,
-        "total": 72
+        "current": 46,
+        "total": 76
       },
       "messages": [
         {
@@ -1520,7 +1580,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir plastic roads? Kaise banate hain?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1528,7 +1588,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Waste se useful product! Jugaad level: India! 😄"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1543,8 +1603,8 @@
       "concept_id": "plastic_recycling_codes",
       "level": 6,
       "progress": {
-        "current": 46,
-        "total": 72
+        "current": 47,
+        "total": 76
       },
       "messages": [
         {
@@ -1553,7 +1613,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir to har plastic recyclable nahi hai?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1561,7 +1621,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya Sir! Codes identify karne ke liye hain! 💡"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1576,8 +1636,8 @@
       "concept_id": "plastic_ban_initiatives_india",
       "level": 6,
       "progress": {
-        "current": 47,
-        "total": 72
+        "current": 48,
+        "total": 76
       },
       "messages": [
         {
@@ -1586,7 +1646,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir EPR ka matlab kya hai?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1594,7 +1654,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha policy hai Sir! Responsibility fix ho gai! 👍"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1609,8 +1669,8 @@
       "concept_id": "environment_quiz_1",
       "level": 6,
       "progress": {
-        "current": 48,
-        "total": 72
+        "current": 49,
+        "total": 76
       },
       "quiz_payload": {
         "question": "The '3R' principle for plastic waste management stands for:",
@@ -1647,8 +1707,8 @@
       "concept_id": "environment_quiz_2",
       "level": 6,
       "progress": {
-        "current": 49,
-        "total": 72
+        "current": 50,
+        "total": 76
       },
       "quiz_payload": {
         "question": "India banned single-use plastics in which year?",
@@ -1685,8 +1745,8 @@
       "concept_id": "environment_quiz_3",
       "level": 6,
       "progress": {
-        "current": 50,
-        "total": 72
+        "current": 51,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Who is known as the 'Plastic Man of India' for developing technology to use plastic waste in road construction?",
@@ -1723,8 +1783,8 @@
       "concept_id": "environment_module_complete",
       "level": 6,
       "progress": {
-        "current": 51,
-        "total": 72
+        "current": 52,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🌍 ENVIRONMENTAL IMPACT MASTERED!",
@@ -1746,8 +1806,8 @@
       "concept_id": "complete_recap_start",
       "level": 7,
       "progress": {
-        "current": 52,
-        "total": 72
+        "current": 53,
+        "total": 76
       },
       "messages": [
         {
@@ -1756,7 +1816,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ji Sir! Bahut kuch seekha hai... thoda dizzy feel ho raha hai! 😅"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1764,7 +1824,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Addition mein direct join, condensation mein paani nikle! 💡"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1779,8 +1839,8 @@
       "concept_id": "polymer_scientists_discoveries",
       "level": 7,
       "progress": {
-        "current": 53,
-        "total": 72
+        "current": 54,
+        "total": 76
       },
       "messages": [
         {
@@ -1789,7 +1849,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir do accidental discoveries hain - Teflon aur Vulcanization! Interesting! 😊"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -1797,7 +1857,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Nobel Prize bhi mila polymer pe! Important field hai! 🏅"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -1812,8 +1872,8 @@
       "concept_id": "classification_quick_recap",
       "level": 7,
       "progress": {
-        "current": 54,
-        "total": 72
+        "current": 55,
+        "total": 76
       },
       "messages": [
         {
@@ -1822,7 +1882,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir structure affects properties - linear tightly packed (strong), branched loosely packed (flexible), cross-linked rigid!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1830,7 +1890,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ji Sir! Interconnected concepts hain! 🧠"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1845,8 +1905,8 @@
       "concept_id": "polymer_uses_rapid_fire",
       "level": 7,
       "progress": {
-        "current": 55,
-        "total": 72
+        "current": 56,
+        "total": 76
       },
       "messages": [
         {
@@ -1855,7 +1915,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir har polymer ka specific use hai properties ke according! 👍"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1863,7 +1923,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya Sir! Logic se yaad rahega! 💡"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1878,8 +1938,8 @@
       "concept_id": "polymer_exam_strategy",
       "level": 7,
       "progress": {
-        "current": 56,
-        "total": 72
+        "current": 57,
+        "total": 76
       },
       "messages": [
         {
@@ -1888,7 +1948,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir to level ke according preparation karna padega!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1896,12 +1956,126 @@
         },
         {
           "speaker": "raju",
-          "text": "Confidence aa gaya Sir! Ab practice chahiye! 💪"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
-        "next": "card_57_summary_card",
+        "next": "card_applied_case_01",
         "button_text": "Final Summary ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Garam chai ke cup ka plastic lid soft hokar shape badal sakta hai, phir thanda hokar set ho jaata hai. Yeh likely kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Thermoplastic"
+          },
+          {
+            "id": "B",
+            "text": "Thermosetting plastic"
+          },
+          {
+            "id": "C",
+            "text": "Natural mineral"
+          },
+          {
+            "id": "D",
+            "text": "Ceramic"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Thermoplastics heat par soften aur thanda hone par set ho sakte hain; har plastic food heat ke liye safe nahi hota."
+      },
+      "progress": {
+        "current": 58,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: Pressure-cooker handle garam hone par aasani se melt na ho, isliye heat-resistant thermosetting material chuna ja sakta hai. Iska feature kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Set hone ke baad dobara aasani se melt/mould nahi hota"
+          },
+          {
+            "id": "B",
+            "text": "Hamesha paani mein ghul jaata hai"
+          },
+          {
+            "id": "C",
+            "text": "Ek single monomer hota hai"
+          },
+          {
+            "id": "D",
+            "text": "Room temperature par gas hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Thermosetting polymers cross-linked structure bana sakte hain; set hone ke baad unhe remelt karke shape dena mushkil hota hai."
+      },
+      "progress": {
+        "current": 59,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Applied case 3: Rubber tyre ko zyada durable/elastic banane ke liye vulcanization ki jaati hai. Ismein kya hota hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rubber chains ke beech sulfur cross-links bante hain"
+          },
+          {
+            "id": "B",
+            "text": "Rubber ko water mein dissolve karte hain"
+          },
+          {
+            "id": "C",
+            "text": "Polymer ko monomer mein freeze karte hain"
+          },
+          {
+            "id": "D",
+            "text": "Oxygen ko completely nikaal dete hain"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Vulcanization mein sulfur cross-links rubber ki strength aur elasticity improve karte hain."
+      },
+      "progress": {
+        "current": 60,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_57_summary_card",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -1911,8 +2085,8 @@
       "concept_id": "polymer_complete_summary",
       "level": 7,
       "progress": {
-        "current": 57,
-        "total": 72
+        "current": 61,
+        "total": 76
       },
       "summary_payload": {
         "title": "⚡ OFFICER-LEVEL LIGHTNING REVISION",
@@ -1971,8 +2145,8 @@
       "concept_id": "rapid_fire_quiz_1",
       "level": 7,
       "progress": {
-        "current": 58,
-        "total": 72
+        "current": 62,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which polymer is used in non-stick cookware coating?",
@@ -2009,8 +2183,8 @@
       "concept_id": "rapid_fire_quiz_2",
       "level": 7,
       "progress": {
-        "current": 59,
-        "total": 72
+        "current": 63,
+        "total": 76
       },
       "quiz_payload": {
         "question": "The monomer of PVC is:",
@@ -2047,8 +2221,8 @@
       "concept_id": "rapid_fire_quiz_3",
       "level": 7,
       "progress": {
-        "current": 60,
-        "total": 72
+        "current": 64,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Vulcanization of rubber was discovered by:",
@@ -2085,8 +2259,8 @@
       "concept_id": "rapid_fire_quiz_4",
       "level": 7,
       "progress": {
-        "current": 61,
-        "total": 72
+        "current": 65,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which polymer is used for making electrical switches?",
@@ -2123,8 +2297,8 @@
       "concept_id": "rapid_fire_quiz_5",
       "level": 7,
       "progress": {
-        "current": 62,
-        "total": 72
+        "current": 66,
+        "total": 76
       },
       "quiz_payload": {
         "question": "PET (Polyethylene terephthalate) is commonly known as:",
@@ -2161,8 +2335,8 @@
       "concept_id": "rapid_fire_quiz_6",
       "level": 7,
       "progress": {
-        "current": 63,
-        "total": 72
+        "current": 67,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Natural rubber is a polymer of:",
@@ -2199,8 +2373,8 @@
       "concept_id": "rapid_fire_quiz_7",
       "level": 7,
       "progress": {
-        "current": 64,
-        "total": 72
+        "current": 68,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which synthetic fiber is also known as artificial silk?",
@@ -2237,8 +2411,8 @@
       "concept_id": "rapid_fire_quiz_8",
       "level": 7,
       "progress": {
-        "current": 65,
-        "total": 72
+        "current": 69,
+        "total": 76
       },
       "quiz_payload": {
         "question": "BUNA-S rubber is a copolymer of butadiene and:",
@@ -2275,8 +2449,8 @@
       "concept_id": "rapid_fire_quiz_9",
       "level": 7,
       "progress": {
-        "current": 66,
-        "total": 72
+        "current": 70,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Thermocol is chemically:",
@@ -2313,8 +2487,8 @@
       "concept_id": "rapid_fire_quiz_10",
       "level": 7,
       "progress": {
-        "current": 67,
-        "total": 72
+        "current": 71,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Plastic recycling code '1' represents:",
@@ -2351,8 +2525,8 @@
       "concept_id": "rapid_fire_quiz_11",
       "level": 7,
       "progress": {
-        "current": 68,
-        "total": 72
+        "current": 72,
+        "total": 76
       },
       "quiz_payload": {
         "question": "India banned single-use plastics in:",
@@ -2389,8 +2563,8 @@
       "concept_id": "rapid_fire_quiz_12",
       "level": 7,
       "progress": {
-        "current": 69,
-        "total": 72
+        "current": 73,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Which property makes HDPE stronger than LDPE?",
@@ -2427,8 +2601,8 @@
       "concept_id": "bpsc_style_final_quiz",
       "level": 7,
       "progress": {
-        "current": 70,
-        "total": 72
+        "current": 74,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Consider the following statements about polymers:\n\n1. Bakelite is a thermosetting polymer with cross-linked structure.\n2. Nylon-6,6 is formed by condensation polymerization eliminating water.\n3. Teflon is chemically inert and has a high coefficient of friction.\n4. PHBV is a biodegradable polymer produced by certain bacteria.\n\nHow many of the above statements are CORRECT?",
@@ -2465,8 +2639,8 @@
       "concept_id": "chapter_complete_celebration",
       "level": 7,
       "progress": {
-        "current": 71,
-        "total": 72
+        "current": 75,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎊 POLYMERS CHAPTER CONQUERED!",
@@ -2488,8 +2662,8 @@
       "concept_id": "final_completion",
       "level": 7,
       "progress": {
-        "current": 72,
-        "total": 72
+        "current": 76,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🌟 CERTIFICATE OF MASTERY 🌟",

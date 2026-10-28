@@ -8,9 +8,10 @@
     "SSC CGL",
     "NEET",
     "UPSC Prelims",
-    "BPSC TRE"
+    "BPSC TRE",
+    "RRB Group D"
   ],
-  "total_cards": 72,
+  "total_cards": 76,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -32,7 +33,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 72
+        "total": 76
       },
       "intro_payload": {
         "title": "⚡ Work, Energy & Power",
@@ -44,7 +45,8 @@
           "SSC CGL",
           "NEET",
           "UPSC Prelims",
-          "BPSC TRE"
+          "BPSC TRE",
+          "RRB Group D"
         ],
         "learning_outcomes": [
           "Master the scientific definition of Work and resolve BPSC multi-statement traps",
@@ -52,14 +54,72 @@
           "Calculate Power and differentiate human vs machine efficiency",
           "Solve Kinetic & Potential Energy numerical for SSC/Railway",
           "Apply Work-Energy Theorem like an Officer",
-          "Decode Conservation of Energy in real-world scenarios"
+          "Decode Conservation of Energy in real-world scenarios",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
         ],
         "estimated_time": "45 minutes",
-        "total_modules": 6
+        "total_modules": 6,
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
+        ]
       },
       "navigation": {
-        "next": "card_02_work_intro",
+        "next": "card_zero_foundation",
         "button_text": "शुरू करें 🚀"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 76
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Physics mein work tab hota hai jab force kisi object ko force ki direction mein move karaye. Deewar ko zor se dhakelne par agar woh hile hi nahi, to physics ke hisaab se work zero hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_work_intro",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -69,8 +129,8 @@
       "concept_id": "work_daily_life",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 72
+        "current": 3,
+        "total": 76
       },
       "messages": [
         {
@@ -79,7 +139,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, poora din padhai ki... bahut hard work kiya! Thak gaya hun 😫"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -87,7 +147,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir wo hi to bol raha hun... 6 ghante padhai = bahut zyada work! 😅"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -102,8 +162,8 @@
       "concept_id": "work_definition_intro",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 72
+        "current": 4,
+        "total": 76
       },
       "messages": [
         {
@@ -112,7 +172,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab? Work ka matlab work nahi hota? 😵"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -120,7 +180,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hainn?? Itni mehnat ke baad bhi zero?? Ye to unfair hai Sir! 😤"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -135,8 +195,8 @@
       "concept_id": "work_universal_definition",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 72
+        "current": 5,
+        "total": 76
       },
       "messages": [
         {
@@ -145,7 +205,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh... matlab bag pakad ke khada rahun to displacement zero, isliye work zero! 😮"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -153,7 +213,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... to deewar ko dhakka lagaun aur wo na hile, to bhi work zero! 🧱"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -168,8 +228,8 @@
       "concept_id": "work_basic_formula",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 72
+        "current": 6,
+        "total": 76
       },
       "messages": [
         {
@@ -178,7 +238,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye cos θ kyun aaya? Seedha F × s kyun nahi? 🤔"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -186,7 +246,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur agar angle ho to? 😯"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -201,8 +261,8 @@
       "concept_id": "work_angle_effect",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 72
+        "current": 7,
+        "total": 76
       },
       "messages": [
         {
@@ -211,7 +271,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab agar θ = 90° ho (Force perpendicular) to cos 90° = 0... Work = 0! 😲"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -219,7 +279,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Lekin Sir, coolie thakta to hai! 😅"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -234,8 +294,8 @@
       "concept_id": "work_internal_energy",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 72
+        "current": 8,
+        "total": 76
       },
       "messages": [
         {
@@ -244,7 +304,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhh... Physics sirf external object ke displacement se work naapti hai! 😮"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -252,7 +312,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Pakka yaad rakhunga Sir! 📝"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -267,8 +327,8 @@
       "concept_id": "work_si_unit",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 72
+        "current": 9,
+        "total": 76
       },
       "messages": [
         {
@@ -277,7 +337,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Joule kis scientist ke naam pe hai Sir? 🤔"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -285,7 +345,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Noted Sir! James Joule = Work & Heat scientist ✅"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -300,8 +360,8 @@
       "concept_id": "work_sign_convention",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 72
+        "current": 10,
+        "total": 76
       },
       "messages": [
         {
@@ -310,7 +370,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Negative work matlab? Work to ho gaya, uska sign kaise negative hoga? 😵"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -318,7 +378,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Example chahiye Sir! 🙏"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -333,8 +393,8 @@
       "concept_id": "work_positive_negative_examples",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 72
+        "current": 11,
+        "total": 76
       },
       "messages": [
         {
@@ -343,7 +403,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye to simple hai! Aur negative wala? 🤔"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -351,7 +411,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... friction hamesha negative work karta hai kyunki wo motion ko oppose karta hai! 😮"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -366,8 +426,8 @@
       "concept_id": "work_zero_scenarios",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 72
+        "current": 12,
+        "total": 76
       },
       "messages": [
         {
@@ -376,7 +436,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Third wala samjhao Sir! Example chahiye 🙏"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -384,7 +444,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! To gravity Moon ko orbit mein रख rahi hai but koi work nahi kar rahi! 😲"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -399,8 +459,8 @@
       "concept_id": "work_basic_definition",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 72
+        "current": 13,
+        "total": 76
       },
       "quiz_payload": {
         "question": "एक व्यक्ति 20 kg का बैग अपने सिर पर रखकर 100 m क्षैतिज (horizontal) दिशा में चलता है। बैग पर किया गया कार्य (Work) कितना है? (g = 10 m/s²)",
@@ -437,8 +497,8 @@
       "concept_id": "work_angle_based",
       "level": 1,
       "progress": {
-        "current": 13,
-        "total": 72
+        "current": 14,
+        "total": 76
       },
       "quiz_payload": {
         "question": "यदि किसी वस्तु पर 50 N का बल 30° के कोण पर लगाकर उसे 10 m विस्थापित किया जाता है, तो किया गया कार्य कितना होगा? (cos 30° = 0.866)",
@@ -475,8 +535,8 @@
       "concept_id": "work_negative_work",
       "level": 1,
       "progress": {
-        "current": 14,
-        "total": 72
+        "current": 15,
+        "total": 76
       },
       "quiz_payload": {
         "question": "एक गतिशील कार पर ब्रेक लगाया जाता है और वह 20 m चलकर रुक जाती है। घर्षण बल (friction force) द्वारा किया गया कार्य होगा:",
@@ -513,8 +573,8 @@
       "concept_id": "work_module_complete",
       "level": 1,
       "progress": {
-        "current": 15,
-        "total": 72
+        "current": 16,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 1 CLEARED!",
@@ -536,8 +596,8 @@
       "concept_id": "energy_daily_life",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 72
+        "current": 17,
+        "total": 76
       },
       "messages": [
         {
@@ -546,7 +606,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Chai peeta hun Sir! Bina chai ke kuch karne ka mann nahi karta 😅☕"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -554,7 +614,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Energy mil jati hai Sir! Tab jaake padhai ya kaam kar pata hun 💪"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -569,8 +629,8 @@
       "concept_id": "energy_universal_definition",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 72
+        "current": 18,
+        "total": 76
       },
       "messages": [
         {
@@ -579,7 +639,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Energy aur Work related hain? 🤔"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -587,7 +647,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... jaise phone mein battery (energy) hai, to wo kaam (work) kar sakta hai! 📱🔋"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -602,8 +662,8 @@
       "concept_id": "energy_types_overview",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 72
+        "current": 19,
+        "total": 76
       },
       "messages": [
         {
@@ -612,7 +672,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Itni saari! 😵 Sabka exam mein alag-alag formula hai kya Sir?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -620,7 +680,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Chalo Sir, Kinetic Energy se shuru karte hain! 💪"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -635,8 +695,8 @@
       "concept_id": "kinetic_energy_definition",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 72
+        "current": 20,
+        "total": 76
       },
       "messages": [
         {
@@ -645,7 +705,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Example: Chalti gaadi mein KE hai, khadi gaadi mein nahi! 🚗"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -653,7 +713,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Speed ka square effect! Ye to numerical mein bahut kaam aayega Sir! 📝"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -668,8 +728,8 @@
       "concept_id": "kinetic_energy_calculation",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 72
+        "current": 21,
+        "total": 76
       },
       "messages": [
         {
@@ -678,7 +738,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Simple! Agar speed 20 m/s karte to? 🤔"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -686,7 +746,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya Sir! v² wala effect bahut powerful hai! 💡"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -701,8 +761,8 @@
       "concept_id": "potential_energy_intro",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 72
+        "current": 22,
+        "total": 76
       },
       "messages": [
         {
@@ -711,7 +771,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Position matlab? Example chahiye Sir! 🙏"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -719,7 +779,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhh... isliye height wale paani mein zyada pressure! 😮"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -734,8 +794,8 @@
       "concept_id": "gravitational_potential_energy",
       "level": 2,
       "progress": {
-        "current": 22,
-        "total": 72
+        "current": 23,
+        "total": 76
       },
       "messages": [
         {
@@ -744,7 +804,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab जितनी ऊँचाई ज्यादा, उतनी PE ज्यादा! Simple! 😊"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -752,7 +812,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab agar मैं तीसरी मंज़िल पर खड़ा हूँ, to ground से alag height, first floor se alag height! 🏢"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -767,8 +827,8 @@
       "concept_id": "potential_energy_calculation",
       "level": 2,
       "progress": {
-        "current": 23,
-        "total": 72
+        "current": 24,
+        "total": 76
       },
       "messages": [
         {
@@ -777,7 +837,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur जब ये गिर के ground पर पहुँचेगा, तो PE = 0 (kyunki h=0)! 😮"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -785,7 +845,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haann! Ye to suspicious hai! 🕵️"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -800,8 +860,8 @@
       "concept_id": "energy_transformation_intro",
       "level": 2,
       "progress": {
-        "current": 24,
-        "total": 72
+        "current": 25,
+        "total": 76
       },
       "messages": [
         {
@@ -810,7 +870,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... PE kam, KE zyada! Energy रूप बदल रही है! 😲"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -818,7 +878,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab: At top: PE max, KE=0. At bottom: PE=0, KE max. But total same! 🎯"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -833,8 +893,8 @@
       "concept_id": "kinetic_energy_numerical",
       "level": 2,
       "progress": {
-        "current": 25,
-        "total": 72
+        "current": 26,
+        "total": 76
       },
       "quiz_payload": {
         "question": "एक 1000 kg की कार 20 m/s की चाल से चल रही है। इसकी Kinetic Energy कितनी होगी?",
@@ -871,8 +931,8 @@
       "concept_id": "potential_energy_numerical",
       "level": 2,
       "progress": {
-        "current": 26,
-        "total": 72
+        "current": 27,
+        "total": 76
       },
       "quiz_payload": {
         "question": "10 kg द्रव्यमान की एक वस्तु को जमीन से 5 m ऊँचाई पर रखा गया है। इसकी Gravitational Potential Energy कितनी है? (g = 10 m/s²)",
@@ -909,8 +969,8 @@
       "concept_id": "energy_transformation",
       "level": 2,
       "progress": {
-        "current": 27,
-        "total": 72
+        "current": 28,
+        "total": 76
       },
       "quiz_payload": {
         "question": "एक गेंद को ऊँचाई से गिराया जाता है। गिरते समय निम्न में से क्या होता है?",
@@ -947,8 +1007,8 @@
       "concept_id": "energy_module_complete",
       "level": 2,
       "progress": {
-        "current": 28,
-        "total": 72
+        "current": 29,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 2 CLEARED!",
@@ -970,8 +1030,8 @@
       "concept_id": "conservation_law_intro",
       "level": 2,
       "progress": {
-        "current": 29,
-        "total": 72
+        "current": 30,
+        "total": 76
       },
       "messages": [
         {
@@ -980,7 +1040,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Law of Conservation of Energy! Energy na बनती है, na नष्ट होती है, sirf रूप बदलती है! 😎"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -988,7 +1048,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir iska matlab kya duniya mein kabhi energy खत्म nahi hogi? 😮"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1003,8 +1063,8 @@
       "concept_id": "conservation_daily_examples",
       "level": 2,
       "progress": {
-        "current": 30,
-        "total": 72
+        "current": 31,
+        "total": 76
       },
       "messages": [
         {
@@ -1013,7 +1073,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab हर जगह energy बस form change कर रही है! 😲"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1021,7 +1081,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Chain of transformations! 🔗"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1036,8 +1096,8 @@
       "concept_id": "pendulum_energy_conservation",
       "level": 2,
       "progress": {
-        "current": 31,
-        "total": 72
+        "current": 32,
+        "total": 76
       },
       "messages": [
         {
@@ -1046,7 +1106,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur beech mein dono mix hain! PE + KE = Total constant! 😮"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1054,7 +1114,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... ideal condition mein perpetually चलता रहेगा, real mein stop हो जाएगा! Got it! ✅"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1069,8 +1129,8 @@
       "concept_id": "free_fall_conservation",
       "level": 2,
       "progress": {
-        "current": 32,
-        "total": 72
+        "current": 33,
+        "total": 76
       },
       "messages": [
         {
@@ -1079,7 +1139,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow Sir! Bina equations of motion use kiye directly velocity निकाल ली! 😲"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1087,7 +1147,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Double weapon mil gaya Sir! 💪📝"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1102,8 +1162,8 @@
       "concept_id": "conservation_statement",
       "level": 2,
       "progress": {
-        "current": 33,
-        "total": 72
+        "current": 34,
+        "total": 76
       },
       "quiz_payload": {
         "question": "ऊर्जा संरक्षण का नियम (Law of Conservation of Energy) क्या कहता है?",
@@ -1140,8 +1200,8 @@
       "concept_id": "pendulum_energy",
       "level": 2,
       "progress": {
-        "current": 34,
-        "total": 72
+        "current": 35,
+        "total": 76
       },
       "quiz_payload": {
         "question": "एक साधारण लोलक (simple pendulum) में ऊर्जा रूपांतरण कैसे होता है?",
@@ -1178,8 +1238,8 @@
       "concept_id": "free_fall_energy",
       "level": 2,
       "progress": {
-        "current": 35,
-        "total": 72
+        "current": 36,
+        "total": 76
       },
       "quiz_payload": {
         "question": "एक वस्तु को 20 m ऊँचाई से मुक्त रूप से गिराया जाता है। जमीन से टकराने से ठीक पहले उसकी चाल क्या होगी? (g = 10 m/s², वायु प्रतिरोध नगण्य)",
@@ -1216,8 +1276,8 @@
       "concept_id": "conservation_module_complete",
       "level": 2,
       "progress": {
-        "current": 36,
-        "total": 72
+        "current": 37,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 3 CLEARED!",
@@ -1239,8 +1299,8 @@
       "concept_id": "power_daily_life",
       "level": 3,
       "progress": {
-        "current": 37,
-        "total": 72
+        "current": 38,
+        "total": 76
       },
       "messages": [
         {
@@ -1249,7 +1309,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir dono ka work to same hai (same weight, same height)! 🤔"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1257,7 +1317,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Main! Kyunki maine kam time mein same work kiya! 😎"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1272,8 +1332,8 @@
       "concept_id": "power_universal_definition",
       "level": 3,
       "progress": {
-        "current": 38,
-        "total": 72
+        "current": 39,
+        "total": 76
       },
       "messages": [
         {
@@ -1282,7 +1342,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab same work, कम time = ज्यादा Power! 😮"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1290,7 +1350,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Watt! Bulb pe likha hota hai - 60W, 100W! 💡"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1305,8 +1365,8 @@
       "concept_id": "power_electrical_example",
       "level": 3,
       "progress": {
-        "current": 39,
-        "total": 72
+        "current": 40,
+        "total": 76
       },
       "messages": [
         {
@@ -1315,7 +1375,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab 60W bulb कम energy लेगा per second, so कम bright! 😯"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1323,7 +1383,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya Sir! Power = Speed of energy usage! ⚡"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1338,8 +1398,8 @@
       "concept_id": "power_energy_formula",
       "level": 3,
       "progress": {
-        "current": 40,
-        "total": 72
+        "current": 41,
+        "total": 76
       },
       "messages": [
         {
@@ -1348,7 +1408,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab P = W/t aur P = E/t dono sahi hain? 🤔"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1356,7 +1416,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Got it Sir! Dono formulas arsenal mein ready! 💪"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1371,8 +1431,8 @@
       "concept_id": "power_calculation_example",
       "level": 3,
       "progress": {
-        "current": 41,
-        "total": 72
+        "current": 42,
+        "total": 76
       },
       "messages": [
         {
@@ -1381,7 +1441,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Simple! Agar same work 5 second mein kare to? 🤔"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1389,7 +1449,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Inverse relation! Time ↓ Power ↑ 📈"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1404,8 +1464,8 @@
       "concept_id": "kilowatt_hour",
       "level": 3,
       "progress": {
-        "current": 42,
-        "total": 72
+        "current": 43,
+        "total": 76
       },
       "messages": [
         {
@@ -1414,7 +1474,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Bill mein likha hota hai '150 units consumed'। Ye kWh hai? 😮"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1422,7 +1482,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! 1 unit = 3.6 million Joules! Itni badi value! 😲"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1437,8 +1497,8 @@
       "concept_id": "electricity_bill_calculation",
       "level": 3,
       "progress": {
-        "current": 43,
-        "total": 72
+        "current": 44,
+        "total": 76
       },
       "messages": [
         {
@@ -1447,7 +1507,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir formula batao! 🙏"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1455,7 +1515,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab agar rate ₹5 per unit, to bill = 30 × 5 = ₹150! Practical math! 💰"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1470,8 +1530,8 @@
       "concept_id": "power_definition_quiz",
       "level": 3,
       "progress": {
-        "current": 44,
-        "total": 72
+        "current": 45,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Power की सही परिभाषा है:",
@@ -1508,8 +1568,8 @@
       "concept_id": "power_numerical_quiz",
       "level": 3,
       "progress": {
-        "current": 45,
-        "total": 72
+        "current": 46,
+        "total": 76
       },
       "quiz_payload": {
         "question": "एक मशीन 20 seconds में 4000 J कार्य करती है। इसकी Power कितनी है?",
@@ -1546,8 +1606,8 @@
       "concept_id": "kwh_conversion_quiz",
       "level": 3,
       "progress": {
-        "current": 46,
-        "total": 72
+        "current": 47,
+        "total": 76
       },
       "quiz_payload": {
         "question": "1 kWh (kilowatt-hour) = ? Joules",
@@ -1584,8 +1644,8 @@
       "concept_id": "power_module_complete",
       "level": 3,
       "progress": {
-        "current": 47,
-        "total": 72
+        "current": 48,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 4 CLEARED!",
@@ -1607,8 +1667,8 @@
       "concept_id": "work_energy_theorem_intro",
       "level": 3,
       "progress": {
-        "current": 48,
-        "total": 72
+        "current": 49,
+        "total": 76
       },
       "messages": [
         {
@@ -1617,7 +1677,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Sir? Formula mein batao! 🙏"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1625,7 +1685,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab work karo, object ki speed change hogi! 😮"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1640,8 +1700,8 @@
       "concept_id": "work_energy_theorem_example",
       "level": 3,
       "progress": {
-        "current": 49,
-        "total": 72
+        "current": 50,
+        "total": 76
       },
       "messages": [
         {
@@ -1650,7 +1710,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab bina force/acceleration dekhe directly work निकाल लिया! 😲"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1658,7 +1718,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Powerful theorem Sir! Energy approach > Force approach! 💡"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1673,8 +1733,8 @@
       "concept_id": "work_energy_stopping_distance",
       "level": 3,
       "progress": {
-        "current": 50,
-        "total": 72
+        "current": 51,
+        "total": 76
       },
       "messages": [
         {
@@ -1683,7 +1743,7 @@
         },
         {
           "speaker": "raju",
-          "text": "W = ½m(v² - u²) = ½ × 1000 × (0² - 20²) = 500 × (-400) = -200,000 J! 😮"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1691,7 +1751,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Theorem se energy loss bhi calculate ho gaya! 🎯"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1706,8 +1766,8 @@
       "concept_id": "work_energy_theorem_statement",
       "level": 3,
       "progress": {
-        "current": 51,
-        "total": 72
+        "current": 52,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Work-Energy Theorem के अनुसार:",
@@ -1744,8 +1804,8 @@
       "concept_id": "work_energy_numerical",
       "level": 3,
       "progress": {
-        "current": 52,
-        "total": 72
+        "current": 53,
+        "total": 76
       },
       "quiz_payload": {
         "question": "2 kg द्रव्यमान की एक गेंद का वेग 5 m/s से बढ़कर 15 m/s हो जाता है। गेंद पर किया गया कुल कार्य कितना है?",
@@ -1782,8 +1842,8 @@
       "concept_id": "work_energy_negative_work",
       "level": 3,
       "progress": {
-        "current": 53,
-        "total": 72
+        "current": 54,
+        "total": 76
       },
       "quiz_payload": {
         "question": "यदि किसी गतिशील वस्तु पर ऋणात्मक कार्य (negative work) किया जाए, तो:",
@@ -1820,8 +1880,8 @@
       "concept_id": "theorem_module_complete",
       "level": 3,
       "progress": {
-        "current": 54,
-        "total": 72
+        "current": 55,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 5 CLEARED!",
@@ -1843,8 +1903,8 @@
       "concept_id": "bpsc_traps_overview",
       "level": 4,
       "progress": {
-        "current": 55,
-        "total": 72
+        "current": 56,
+        "total": 76
       },
       "messages": [
         {
@@ -1853,7 +1913,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir maine sab padh liya, ab kya trap ho sakta hai? 🤔"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1861,7 +1921,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ready Sir! Traps को expose karo! 🔥"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1876,8 +1936,8 @@
       "concept_id": "coolie_horizontal_motion_trap",
       "level": 4,
       "progress": {
-        "current": 56,
-        "total": 72
+        "current": 57,
+        "total": 76
       },
       "messages": [
         {
@@ -1886,7 +1946,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Lekin Sir, answer to ZERO hai! Force (weight) vertical downward, Displacement horizontal → θ=90° → Work = 0! 😎"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1894,7 +1954,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Pakka trap nahi hoga ab! 💪"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1909,8 +1969,8 @@
       "concept_id": "satellite_circular_motion_trap",
       "level": 4,
       "progress": {
-        "current": 57,
-        "total": 72
+        "current": 58,
+        "total": 76
       },
       "messages": [
         {
@@ -1919,7 +1979,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hmm... Gravity to constant force laga rahi hai, aur satellite चल भी रहा है... Work positive hoga? 🤔"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1927,7 +1987,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhh! Perpendicular forces kabhi work nahi karte! Ye to important trap hai! 😮"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1942,8 +2002,8 @@
       "concept_id": "friction_always_negative_trap",
       "level": 4,
       "progress": {
-        "current": 58,
-        "total": 72
+        "current": 59,
+        "total": 76
       },
       "messages": [
         {
@@ -1952,7 +2012,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Friction to oppose karta hai motion ko, to hamesha negative! 😵"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1960,7 +2020,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Exception याद रखना पड़ेगा Sir! Friction can do positive work (rare cases)! 🎯"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1975,8 +2035,8 @@
       "concept_id": "energy_power_confusion_trap",
       "level": 4,
       "progress": {
-        "current": 59,
-        "total": 72
+        "current": 60,
+        "total": 76
       },
       "messages": [
         {
@@ -1985,7 +2045,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, higher power = faster energy use... to TRUE hoga na? 😕"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1993,7 +2053,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaaa... TIME factor भी देखना पड़ेगा! High power ≠ Always high energy! 💡"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -2008,8 +2068,8 @@
       "concept_id": "bpsc_multistatement_trap",
       "level": 4,
       "progress": {
-        "current": 60,
-        "total": 72
+        "current": 61,
+        "total": 76
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार कीजिए:\n1. किसी वस्तु को उठाकर क्षैतिज दिशा में ले जाने पर गुरुत्वाकर्षण बल कोई कार्य नहीं करता।\n2. वृत्ताकार पथ पर गति करते समय अभिकेन्द्र बल (centripetal force) सदैव धनात्मक कार्य करता है।\n\nसही कथन है/हैं:",
@@ -2046,8 +2106,8 @@
       "concept_id": "assertion_reason_trap",
       "level": 4,
       "progress": {
-        "current": 61,
-        "total": 72
+        "current": 62,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Assertion (A): एक वस्तु को ऊपर उठाने में किया गया कार्य धनात्मक होता है।\nReason (R): कार्य करने से वस्तु की स्थितिज ऊर्जा बढ़ती है।\n\nसही विकल्प चुनिए:",
@@ -2084,8 +2144,8 @@
       "concept_id": "speed_doubling_energy_trap",
       "level": 4,
       "progress": {
-        "current": 62,
-        "total": 72
+        "current": 63,
+        "total": 76
       },
       "quiz_payload": {
         "question": "यदि किसी गतिशील वस्तु की चाल (speed) दोगुनी कर दी जाए, तो उसकी गतिज ऊर्जा:",
@@ -2122,8 +2182,8 @@
       "concept_id": "exam_traps_module_complete",
       "level": 4,
       "progress": {
-        "current": 63,
-        "total": 72
+        "current": 64,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🎉 MODULE 6 CLEARED!",
@@ -2134,8 +2194,122 @@
         "motivational_quote": "You've mastered the TRAPS that trap 90% candidates! Now you're exam-ready! 💪⚡"
       },
       "navigation": {
-        "next": "card_64_officer_revision",
+        "next": "card_applied_case_01",
         "button_text": "Officer Revision Summary ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 1: Ek student bag ko floor se table tak uthata hai. Gravity ke viruddh kiye gaye work ka formula kaunsa use hoga?",
+        "options": [
+          {
+            "id": "A",
+            "text": "W = mgh"
+          },
+          {
+            "id": "B",
+            "text": "W = mv"
+          },
+          {
+            "id": "C",
+            "text": "W = I/R"
+          },
+          {
+            "id": "D",
+            "text": "W = fλ"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Bag ko height h tak uthate waqt work against gravity mgh hota hai, ideal case mein."
+      },
+      "progress": {
+        "current": 65,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 2: Koi vyakti bhaari box ko 1 minute tak dhakel raha hai, par box hila nahi. Box par physics ke hisaab se work kitna hua?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Zero"
+          },
+          {
+            "id": "B",
+            "text": "Maximum"
+          },
+          {
+            "id": "C",
+            "text": "Mass ke barabar"
+          },
+          {
+            "id": "D",
+            "text": "Time ke barabar"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Mechanical work = force × displacement in force direction. Displacement zero hai, isliye box par work zero."
+      },
+      "progress": {
+        "current": 66,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 3: Do students same stairs chadhte hain; ek aadha samay leta hai aur same height tak jaata hai. Kis student ki average power zyada hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jo kam samay leta hai"
+          },
+          {
+            "id": "B",
+            "text": "Jo zyada samay leta hai"
+          },
+          {
+            "id": "C",
+            "text": "Dono ki zero"
+          },
+          {
+            "id": "D",
+            "text": "Mass ka koi role nahi"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Same work kam time mein karne par power = work/time zyada hoti hai."
+      },
+      "progress": {
+        "current": 67,
+        "total": 76
+      },
+      "navigation": {
+        "next": "card_64_officer_revision",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2145,8 +2319,8 @@
       "concept_id": "chapter_officer_revision",
       "level": 4,
       "progress": {
-        "current": 64,
-        "total": 72
+        "current": 68,
+        "total": 76
       },
       "summary_payload": {
         "title": "⚡ OFFICER REVISION - Lightning Facts",
@@ -2197,8 +2371,8 @@
       "concept_id": "final_master_quiz_1",
       "level": 4,
       "progress": {
-        "current": 65,
-        "total": 72
+        "current": 69,
+        "total": 76
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार कीजिए:\n1. किसी वस्तु पर किया गया ऋणात्मक कार्य उसकी गतिज ऊर्जा को कम करता है।\n2. एक समान वृत्तीय गति में गुरुत्वाकर्षण बल सदैव कार्य करता है।\n3. Power का SI मात्रक Joule/second है।\n4. 1 kWh = 3.6 × 10⁶ J\n\nसही कथन हैं:",
@@ -2235,8 +2409,8 @@
       "concept_id": "final_master_quiz_2",
       "level": 4,
       "progress": {
-        "current": 66,
-        "total": 72
+        "current": 70,
+        "total": 76
       },
       "quiz_payload": {
         "question": "एक 1500 kg की कार 72 km/h की चाल से चल रही है। यदि इसकी चाल बढ़ाकर 108 km/h कर दी जाए, तो गतिज ऊर्जा में वृद्धि होगी:",
@@ -2273,8 +2447,8 @@
       "concept_id": "final_master_quiz_3",
       "level": 4,
       "progress": {
-        "current": 67,
-        "total": 72
+        "current": 71,
+        "total": 76
       },
       "quiz_payload": {
         "question": "Assertion (A): ऊर्जा संरक्षण का नियम केवल यांत्रिक ऊर्जा (mechanical energy) पर लागू होता है।\nReason (R): ऊष्मा (heat) और ध्वनि (sound) भी ऊर्जा के रूप हैं।\n\nसही विकल्प है:",
@@ -2311,8 +2485,8 @@
       "concept_id": "final_master_quiz_4",
       "level": 4,
       "progress": {
-        "current": 68,
-        "total": 72
+        "current": 72,
+        "total": 76
       },
       "quiz_payload": {
         "question": "एक मशीन 25 kW की Power से 10 minutes तक कार्य करती है। इसके द्वारा उपयोग की गई कुल ऊर्जा (kWh में) है:",
@@ -2349,8 +2523,8 @@
       "concept_id": "final_master_quiz_5",
       "level": 4,
       "progress": {
-        "current": 69,
-        "total": 72
+        "current": 73,
+        "total": 76
       },
       "quiz_payload": {
         "question": "एक पत्थर को h ऊँचाई से गिराया जाता है। जमीन से h/2 ऊँचाई पर इसकी गतिज ऊर्जा (KE) और स्थितिज ऊर्जा (PE) का अनुपात होगा: (वायु प्रतिरोध नगण्य)",
@@ -2387,8 +2561,8 @@
       "concept_id": "scientists_names_years",
       "level": 4,
       "progress": {
-        "current": 70,
-        "total": 72
+        "current": 74,
+        "total": 76
       },
       "messages": [
         {
@@ -2397,7 +2571,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, Law of Conservation of Energy किसने दिया? 🤔"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -2405,7 +2579,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Noted Sir! Joule = Work/Energy unit, Watt = Power unit! 💯"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -2420,8 +2594,8 @@
       "concept_id": "exam_mnemonics",
       "level": 4,
       "progress": {
-        "current": 71,
-        "total": 72
+        "current": 75,
+        "total": 76
       },
       "messages": [
         {
@@ -2430,7 +2604,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ek aur: Energy types याद kaise rakhe? 😅"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -2438,7 +2612,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Perfect Sir! Ab sab set hai! 💪🔥"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -2453,8 +2627,8 @@
       "concept_id": "chapter_completion",
       "level": 4,
       "progress": {
-        "current": 72,
-        "total": 72
+        "current": 76,
+        "total": 76
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER MASTERED! 🏆",

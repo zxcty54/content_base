@@ -1,0 +1,896 @@
+{
+  "topic_id": "biomolecules_life_chemistry",
+  "topic_title": "Biomolecules: Food, Cells & Life",
+  "target_exams": [
+    "RRB Group D",
+    "RRB NTPC",
+    "BPSC",
+    "BSSC",
+    "SSC CGL"
+  ],
+  "total_cards": 25,
+  "characters": {
+    "aman": {
+      "name": "Aman Sir",
+      "role": "teacher",
+      "avatar": "👨‍🏫"
+    },
+    "raju": {
+      "name": "Raju",
+      "role": "student",
+      "avatar": "👦"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "biomolecules_intro",
+      "level": 1,
+      "intro_payload": {
+        "title": "Biomolecules: sharir ke zaroori molecules",
+        "subtitle": "Food se cells tak: zero se Railway basics aur advanced links",
+        "icon": "🧬",
+        "target_exams": [
+          "RRB Group D",
+          "RRB NTPC",
+          "BPSC",
+          "BSSC"
+        ],
+        "learning_outcomes": [
+          "Biomolecule, element aur monomer ke seedhe meaning",
+          "Carbohydrate, lipid, protein aur nucleic acid ke kaam",
+          "Enzymes, ATP, vitamins aur minerals",
+          "Food tests aur digestion ke main steps",
+          "Railway facts, basic bonds aur advanced biological links"
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
+        ]
+      },
+      "progress": {
+        "current": 1,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_02_biomolecule_basics",
+        "button_text": "Start Learning ➔"
+      }
+    },
+    {
+      "card_id": "card_02_biomolecule_basics",
+      "card_slug": "card_02_biomolecule_basics",
+      "type": "chat",
+      "concept_id": "02_biomolecule_basics",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Biomolecules woh molecules hain jo jeevit cells mein milte hain ya unke kaam mein madad karte hain. Seedha example: roti ka starch, tel ka fat, dal ka protein aur cells ka DNA—sab biomolecules hain. Inmein aam taur par carbon, hydrogen aur oxygen hote hain; proteins aur nucleic acids mein nitrogen bhi hota hai. Railway point: chaar bade groups yaad rakho—carbohydrates, lipids, proteins, nucleic acids. Advanced link: chhote building blocks judkar bade molecules bana sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Abhi tak ka example clear hai."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 2,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_03_carbohydrates",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_03_carbohydrates",
+      "card_slug": "card_03_carbohydrates",
+      "type": "chat",
+      "concept_id": "03_carbohydrates",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Carbohydrates sharir ko jaldi istemal hone wali energy dete hain. Glucose ek simple sugar hai; starch chawal/roti mein milta hai; cellulose paudhon ki cell wall ko majbooti deta hai. Railway point: plants starch store karte hain, animals glycogen store karte hain. Advanced link: simple sugars monosaccharides, do sugars disaccharides, aur bahut se sugar units polysaccharides kehlate hain; unke beech glycosidic bond hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha Sir, abhi tak sab clear hai."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 3,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_04_carbohydrate_quiz",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_04_carbohydrate_quiz",
+      "card_slug": "card_04_carbohydrate_quiz",
+      "type": "quiz",
+      "concept_id": "04_carbohydrate_quiz",
+      "level": 1,
+      "quiz_payload": {
+        "question": "Roti mein energy dene wala mukhya carbohydrate kaunsa hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Starch"
+          },
+          {
+            "id": "B",
+            "text": "DNA"
+          },
+          {
+            "id": "C",
+            "text": "Haemoglobin"
+          },
+          {
+            "id": "D",
+            "text": "Vitamin D"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Roti mein starch hota hai. Digestion ke baad starch chhote sugars, aakhir mein glucose, mein toot sakta hai."
+      },
+      "progress": {
+        "current": 4,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_05_lipids",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_05_lipids",
+      "card_slug": "card_05_lipids",
+      "type": "chat",
+      "concept_id": "05_lipids",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Lipids mein fats, oils aur waxes aate hain. Ye energy ko store karte hain, thand se bachane mein madad karte hain, aur cell membrane ka ek hissa banate hain. Railway point: fats paani mein ghulte nahi; kai oils room temperature par liquid aur kai fats solid hote hain. Advanced link: triglyceride glycerol aur fatty acids se banta hai; phospholipid ki water-loving head aur water-avoiding tails membrane ki double layer banati hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, isi baat par dhyan deta hoon."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 5,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_06_proteins",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_06_proteins",
+      "card_slug": "card_06_proteins",
+      "type": "chat",
+      "concept_id": "06_proteins",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Proteins sharir ki banawat aur kaam dono mein madad karte hain—muscle, skin, kuch hormones aur antibodies mein protein hota hai. Dal, anda aur doodh protein ke food sources hain. Protein ke building blocks amino acids hain; amino acids peptide bonds se judte hain. Advanced link: amino-acid sequence protein ki folding aur shape ko prabhavit karti hai; shape badle to protein ka kaam bhi badal sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, isi baat par dhyan deta hoon."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 6,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_07_protein_quiz",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_07_protein_quiz",
+      "card_slug": "card_07_protein_quiz",
+      "type": "quiz",
+      "concept_id": "07_protein_quiz",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Protein ke building blocks kya kehlate hain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Amino acids"
+          },
+          {
+            "id": "B",
+            "text": "Fatty acids"
+          },
+          {
+            "id": "C",
+            "text": "Nucleotides"
+          },
+          {
+            "id": "D",
+            "text": "Glucose"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Amino acids peptide bonds se judkar protein banate hain. Fatty acids aam taur par lipids ka hissa hote hain."
+      },
+      "progress": {
+        "current": 7,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_08_enzymes",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_08_enzymes",
+      "card_slug": "card_08_enzymes",
+      "type": "chat",
+      "concept_id": "08_enzymes",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Enzyme cell ka biological helper hai jo reaction ko jaldi karata hai. Amylase saliva mein starch todne mein madad karta hai. Enzyme khud reaction ke baad khatam nahi hota. Railway point: adhiktar enzymes proteins hote hain aur har enzyme kuch khaas substrate par kaam karta hai. Advanced link: enzyme activation energy kam karta hai; bahut zyada heat ya galat pH uski shape bigaad sakta hai, isliye kaam ruk sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 8,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_09_enzyme_quiz",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_09_enzyme_quiz",
+      "card_slug": "card_09_enzyme_quiz",
+      "type": "quiz",
+      "concept_id": "09_enzyme_quiz",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Enzyme reaction ko tez kaise karta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Activation energy kam karke"
+          },
+          {
+            "id": "B",
+            "text": "Naya atom bana kar"
+          },
+          {
+            "id": "C",
+            "text": "Reaction ka mass mita kar"
+          },
+          {
+            "id": "D",
+            "text": "Har substrate ko ek hi product bana kar"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Enzyme reaction ka rasta aasaan karke activation energy kam karta hai. Wo khud reaction mein permanently consume nahi hota."
+      },
+      "progress": {
+        "current": 9,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_10_nucleic_acids",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_10_nucleic_acids",
+      "card_slug": "card_10_nucleic_acids",
+      "type": "chat",
+      "concept_id": "10_nucleic_acids",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "DNA aur RNA nucleic acids hain. DNA mein cells ki hereditary instructions hoti hain; RNA un instructions ko use karke protein banane mein madad karta hai. Nucleotide inka chhota unit hai. Railway point: DNA mein deoxyribose sugar, RNA mein ribose sugar hoti hai; DNA mein thymine aur RNA mein aam taur par uracil hota hai. Advanced link: nucleotide mein sugar, phosphate aur nitrogen base hota hai; nucleotides phosphodiester bonds se judte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 10,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_11_nucleic_acid_quiz",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_11_nucleic_acid_quiz",
+      "card_slug": "card_11_nucleic_acid_quiz",
+      "type": "quiz",
+      "concept_id": "11_nucleic_acid_quiz",
+      "level": 2,
+      "quiz_payload": {
+        "question": "RNA mein DNA ke thymine ki jagah aam taur par kaunsa base hota hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Uracil"
+          },
+          {
+            "id": "B",
+            "text": "Guanine"
+          },
+          {
+            "id": "C",
+            "text": "Cytosine"
+          },
+          {
+            "id": "D",
+            "text": "Adenine"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "RNA mein uracil hota hai; DNA mein aam taur par thymine hota hai. Dono mein adenine, guanine aur cytosine bhi milte hain."
+      },
+      "progress": {
+        "current": 11,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_12_atp",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_12_atp",
+      "card_slug": "card_12_atp",
+      "type": "chat",
+      "concept_id": "12_atp",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Cell ko kaam karne ke liye usable energy chahiye. ATP ek chhota molecule hai jo cell mein energy transfer karta hai—ise energy-carrying molecule samjho, battery ki tarah. ATP tootkar ADP aur phosphate banata hai, to energy release hoti hai. Advanced link: respiration se nikli energy ka kuch hissa ATP banane mein lagta hai; muscles, transport aur synthesis jaise kaam ATP use karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main pehle isi concept ko pakka karunga."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 12,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_13_vitamins_minerals",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_13_vitamins_minerals",
+      "card_slug": "card_13_vitamins_minerals",
+      "type": "chat",
+      "concept_id": "13_vitamins_minerals",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Vitamins aur minerals kam matra mein chahiye, par body ke normal kaam ke liye zaroori hote hain. Vitamin C ki kami se scurvy aur vitamin D ki kami se bachchon mein rickets ho sakta hai. Iron haemoglobin banane mein kaam aata hai. Railway point: vitamins energy ka direct main source nahi; wo body ke processes ko sahi chalane mein madad karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, ab baat samajh mein aa rahi hai."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 13,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_14_vitamin_quiz",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_14_vitamin_quiz",
+      "card_slug": "card_14_vitamin_quiz",
+      "type": "quiz",
+      "concept_id": "14_vitamin_quiz",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Vitamin C ki kami se kaunsi disease ho sakti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Scurvy"
+          },
+          {
+            "id": "B",
+            "text": "Rickets"
+          },
+          {
+            "id": "C",
+            "text": "Goitre"
+          },
+          {
+            "id": "D",
+            "text": "Night blindness"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Scurvy vitamin C ki kami se hota hai. Rickets aam taur par bachchon mein vitamin D ki kami se sambandhit hai."
+      },
+      "progress": {
+        "current": 14,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_15_food_tests",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_15_food_tests",
+      "card_slug": "card_15_food_tests",
+      "type": "chat",
+      "concept_id": "15_food_tests",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Food ke kuch molecules ko simple tests se pehchana ja sakta hai. Iodine solution starch ke saath blue-black ho sakta hai. Biuret reagent protein ke saath violet/purple rang deta hai. Oil/grease ka translucent spot bhi lipid ka simple clue hai. Test karte waqt reagent ko nahi chakhna—ye laboratory chemicals ho sakte hain. Advanced link: test ka rang kisi molecule ke saath reagent ki reaction se badalta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 15,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_16_digestion",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_16_digestion",
+      "card_slug": "card_16_digestion",
+      "type": "chat",
+      "concept_id": "16_digestion",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Digestion bade food molecules ko chhote absorbable units mein todta hai. Amylase starch par, proteases proteins par aur lipase fats par kaam karte hain. Chhote products intestine se blood ya lymph mein absorb ho sakte hain. Railway point: bile enzyme nahi hota; bile fat ko chhoti droplets mein baantkar lipase ke liye surface badhata hai. Advanced link: chemical digestion hydrolysis se bonds todta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main ise apne notes mein likh leta hoon."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 16,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_17_digestion_quiz",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_17_digestion_quiz",
+      "card_slug": "card_17_digestion_quiz",
+      "type": "quiz",
+      "concept_id": "17_digestion_quiz",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Bile ka ek main kaam kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fat ko chhoti droplets mein baantna"
+          },
+          {
+            "id": "B",
+            "text": "Protein ko amino acids mein todna"
+          },
+          {
+            "id": "C",
+            "text": "Starch ko glucose banana"
+          },
+          {
+            "id": "D",
+            "text": "DNA ko nucleotides mein todna"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Bile fat ko emulsify karta hai—badi boondon ko chhoti boondon mein baantta hai. Bile khud digestive enzyme nahi hota."
+      },
+      "progress": {
+        "current": 17,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_18_denaturation",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_18_denaturation",
+      "card_slug": "card_18_denaturation",
+      "type": "chat",
+      "concept_id": "18_denaturation",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Protein ki 3-D shape uske kaam ke liye zaroori hai. Bahut zyada heat ya bahut acidic/basic condition se protein ki shape bigad sakti hai; ise denaturation kehte hain. Anda pakne par egg-white ka protein badalna ek daily example hai. Advanced link: denaturation mein aksar amino-acid sequence nahi tootati, par protein ki folded shape aur function bigad sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 18,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_19_gene_to_protein",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_19_gene_to_protein",
+      "card_slug": "card_19_gene_to_protein",
+      "type": "chat",
+      "concept_id": "19_gene_to_protein",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "DNA ka ek hissa gene kehlata hai. Cell gene ki information se pehle RNA copy banata hai; phir ribosome RNA ko padhkar amino acids ko sahi order mein jodta hai. Is tarah protein banta hai. Is flow ko simple roop mein DNA → RNA → protein likhte hain. Advanced link: mutation DNA sequence badal sakti hai; asar neutral, harmful ya kabhi useful ho sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, ye example mujhe samajh aa gaya."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Pehle basic idea yaad rakho, phir Railway ke fact aur advanced link ko usi se jodo."
+        }
+      ],
+      "progress": {
+        "current": 19,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_20_advanced_quiz",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_20_advanced_quiz",
+      "card_slug": "card_20_advanced_quiz",
+      "type": "quiz",
+      "concept_id": "20_advanced_quiz",
+      "level": 3,
+      "quiz_payload": {
+        "question": "DNA → RNA → protein ke simple flow mein protein banane ki jagah kaunsi cell structure hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ribosome"
+          },
+          {
+            "id": "B",
+            "text": "Lysosome"
+          },
+          {
+            "id": "C",
+            "text": "Vacuole"
+          },
+          {
+            "id": "D",
+            "text": "Cell wall"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Ribosome RNA ki information padhkar amino acids jodta hai. Isliye protein synthesis ka main site ribosome hai."
+      },
+      "progress": {
+        "current": 20,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_applied_case_01",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Kitchen mein kisi food sample par iodine solution daalne se blue-black rang aaya. Kaunsa molecule present ho sakta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Starch"
+          },
+          {
+            "id": "B",
+            "text": "Protein"
+          },
+          {
+            "id": "C",
+            "text": "Fat only"
+          },
+          {
+            "id": "D",
+            "text": "Vitamin C"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Iodine starch ke saath blue-black colour deta hai; test sample ko khana nahi chahiye."
+      },
+      "progress": {
+        "current": 21,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 2: Dal ke protein ko digestion ke baad chhote building blocks mein todna hota hai. Kaunsa enzyme group kaam karega?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Protease"
+          },
+          {
+            "id": "B",
+            "text": "Amylase only"
+          },
+          {
+            "id": "C",
+            "text": "Lipase only"
+          },
+          {
+            "id": "D",
+            "text": "Chlorophyll"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Proteases proteins ko peptides/amino acids mein todte hain; amylase starch par, lipase fats par kaam karta hai."
+      },
+      "progress": {
+        "current": 22,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 3: Bukhar mein bahut high temperature se enzyme kaam karna band kar sakta hai. Iska likely reason kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Enzyme ki 3-D shape badal sakti hai"
+          },
+          {
+            "id": "B",
+            "text": "Enzyme DNA ban jaata hai"
+          },
+          {
+            "id": "C",
+            "text": "Substrate mass zero ho jaata hai"
+          },
+          {
+            "id": "D",
+            "text": "Water solid ban jaata hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "High heat protein enzyme ki shape/active site ko bigaad sakti hai; ise denaturation kehte hain."
+      },
+      "progress": {
+        "current": 23,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_21_summary",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_21_summary",
+      "card_slug": "card_21_summary",
+      "type": "summary",
+      "concept_id": "biomolecules_summary",
+      "level": 3,
+      "summary_payload": {
+        "title": "Quick Revision: Biomolecules",
+        "revision_points": [
+          {
+            "topic": "Carbohydrates",
+            "point": "Glucose simple sugar hai; starch plants ka storage carbohydrate, glycogen animals ka storage carbohydrate, cellulose plant cell wall ka structural part hai."
+          },
+          {
+            "topic": "Lipids",
+            "point": "Energy storage, insulation aur membranes; triglyceride glycerol + fatty acids se banta hai."
+          },
+          {
+            "topic": "Proteins and enzymes",
+            "point": "Proteins amino acids se bante hain. Enzymes biological catalysts hain; heat/pH se unki shape badal sakti hai."
+          },
+          {
+            "topic": "DNA/RNA",
+            "point": "Dono nucleotide polymers hain. DNA mein deoxyribose/thymine; RNA mein ribose/uracil."
+          },
+          {
+            "topic": "Railway facts",
+            "point": "Iodine + starch → blue-black; Biuret + protein → violet; bile fat emulsify karta hai, enzyme nahi."
+          },
+          {
+            "topic": "Advanced link",
+            "point": "DNA → RNA → protein; ATP cell ke kaamon ke liye energy transfer karta hai."
+          }
+        ]
+      },
+      "progress": {
+        "current": 24,
+        "total": 25
+      },
+      "navigation": {
+        "next": "card_22_final_quiz",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_22_final_quiz",
+      "card_slug": "card_22_final_quiz",
+      "type": "final_quiz",
+      "concept_id": "22_final_quiz",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Kaunsa pair sahi hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Starch — iodine se blue-black test"
+          },
+          {
+            "id": "B",
+            "text": "Protein — iodine se blue-black test"
+          },
+          {
+            "id": "C",
+            "text": "Bile — protein-digesting enzyme"
+          },
+          {
+            "id": "D",
+            "text": "DNA — amino acids ka polymer"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Starch iodine ke saath blue-black rang deta hai. Protein ka Biuret test violet hota hai. Bile enzyme nahi, aur DNA nucleotides ka polymer hai."
+      },
+      "progress": {
+        "current": 25,
+        "total": 25
+      },
+      "navigation": {
+        "next": null,
+        "button_text": "Aage badho ➔"
+      }
+    }
+  ]
+}

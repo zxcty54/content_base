@@ -1,0 +1,827 @@
+{
+  "topic_id": "plant_nutrition_transport_growth",
+  "topic_title": "Plants: Nutrition, Transport & Growth",
+  "target_exams": [
+    "RRB Group D",
+    "RRB NTPC",
+    "BPSC",
+    "BSSC"
+  ],
+  "total_cards": 26,
+  "characters": {
+    "aman": {
+      "name": "Aman Sir",
+      "role": "teacher",
+      "avatar": "👨‍🏫"
+    },
+    "raju": {
+      "name": "Raju",
+      "role": "student",
+      "avatar": "👦"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "plant_life_intro",
+      "level": 1,
+      "intro_payload": {
+        "title": "Plants: Food, Transport & Growth",
+        "subtitle": "Zero se Railway basics aur advanced plant biology tak",
+        "icon": "🌱",
+        "target_exams": [
+          "RRB Group D",
+          "RRB NTPC",
+          "BPSC",
+          "BSSC"
+        ],
+        "learning_outcomes": [
+          "Plant ke basic parts aur unke kaam",
+          "Photosynthesis aur plant respiration ka farq",
+          "Xylem, phloem, stomata aur transpiration",
+          "Mineral nutrition, nitrogen fixation aur plant hormones",
+          "Tropisms, pollination aur seed formation ke basics"
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Plant parts, seedha matlab aur daily-life examples."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "Photosynthesis, transport, stomata aur common plant facts."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Processes ko examples aur diagrams ke logic se jodo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Plant hormones, limiting factors aur linked mechanisms."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Multi-step questions and applications."
+          }
+        ]
+      },
+      "progress": {
+        "current": 1,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_02_plant_parts",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_02_plant_parts",
+      "card_slug": "card_02_plant_parts",
+      "type": "chat",
+      "concept_id": "plant_body",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Plant body ke main visible parts root, stem aur leaves hain. Roots paani/minerals lene aur plant ko mitti mein pakadne mein madad karte hain; stem support aur transport deta hai; leaves food banane ki main jagah hain. Alag plants mein shape badal sakti hai, par kaam ko pehle samjho."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, ab baat samajh mein aa rahi hai."
+        }
+      ],
+      "progress": {
+        "current": 2,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_03_autotroph",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_03_autotroph",
+      "card_slug": "card_03_autotroph",
+      "type": "chat",
+      "concept_id": "autotrophic_nutrition",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Green plants aam taur par autotroph hote hain: wo roshni ki energy use karke apna food banate hain. Animals heterotroph hain, kyunki unhe food doosre organisms se lena padta hai. “Autotroph” ka simple matlab hai self-feeding; plants phir bhi paani aur minerals mitti se lete hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main pehle isi concept ko pakka karunga."
+        }
+      ],
+      "progress": {
+        "current": 3,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_04_photosynthesis",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_04_photosynthesis",
+      "card_slug": "card_04_photosynthesis",
+      "type": "chat",
+      "concept_id": "photosynthesis_basics",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Photosynthesis mein green plants light energy ki madad se carbon dioxide aur water se glucose banate hain; oxygen release hoti hai. Saral equation: carbon dioxide + water —light/chlorophyll→ glucose + oxygen. Is process ke liye chlorophyll, light aur raw materials zaroori hain. Railway point: photosynthesis plant ka food-making process hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
+        }
+      ],
+      "progress": {
+        "current": 4,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_05_quiz_photo",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_05_quiz_photo",
+      "card_slug": "card_05_quiz_photo",
+      "type": "quiz",
+      "concept_id": "photosynthesis_basics",
+      "level": 1,
+      "quiz_payload": {
+        "question": "Photosynthesis mein plant kaunsa gas release karta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Oxygen"
+          },
+          {
+            "id": "B",
+            "text": "Nitrogen"
+          },
+          {
+            "id": "C",
+            "text": "Hydrogen"
+          },
+          {
+            "id": "D",
+            "text": "Methane"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Photosynthesis mein water se bane oxygen ka release hota hai. Carbon dioxide raw material ke roop mein use hoti hai."
+      },
+      "progress": {
+        "current": 5,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_06_chloroplast",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_06_chloroplast",
+      "card_slug": "card_06_chloroplast",
+      "type": "chat",
+      "concept_id": "chloroplast_chlorophyll",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Chloroplast leaf cells mein milne wala organelle hai; isme chlorophyll pigment light absorb karta hai. Chlorophyll green light ko zyada reflect karta hai, isliye leaves green dikhte hain. Advanced link: light reactions thylakoid membranes par aur carbon-fixing reactions chloroplast stroma mein hoti hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
+        }
+      ],
+      "progress": {
+        "current": 6,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_07_stomata",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_07_stomata",
+      "card_slug": "card_07_stomata",
+      "type": "chat",
+      "concept_id": "stomata_gas_exchange",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Stomata leaf surface ke chhote pores hain. Guard cells unhe khol-band karte hain. Carbon dioxide andar aa sakti hai; oxygen aur water vapour bahar ja sakte hain. Stomata plant ko gas exchange aur water loss ke beech balance banane dete hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
+        }
+      ],
+      "progress": {
+        "current": 7,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_08_photo_factors",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_08_photo_factors",
+      "card_slug": "card_08_photo_factors",
+      "type": "chat",
+      "concept_id": "photosynthesis_factors",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Photosynthesis ki speed light, carbon dioxide, water, temperature aur chlorophyll se prabhavit hoti hai. Kisi ek zaroori factor ki kami process ko limit kar sakti hai—ise limiting factor kehte hain. Bahut high temperature enzymes ko nuksan pahuncha sakta hai, isliye “zyada” hamesha “better” nahi hota."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, abhi ka lesson samajh aaya."
+        }
+      ],
+      "progress": {
+        "current": 8,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_09_respiration_plants",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_09_respiration_plants",
+      "card_slug": "card_09_respiration_plants",
+      "type": "chat",
+      "concept_id": "plant_respiration",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Plants bhi respiration karte hain: cells glucose todkar usable energy release karte hain. Respiration din-raat hota hai; photosynthesis ke liye light chahiye. Photosynthesis glucose banata hai, respiration glucose use karta hai. Dono processes ko ek hi cheez mat samjho."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, ab baat samajh mein aa rahi hai."
+        }
+      ],
+      "progress": {
+        "current": 9,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_10_quiz_respiration",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_10_quiz_respiration",
+      "card_slug": "card_10_quiz_respiration",
+      "type": "quiz",
+      "concept_id": "plant_respiration",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Plant respiration kab hota hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Din aur raat dono"
+          },
+          {
+            "id": "B",
+            "text": "Sirf dhoop mein"
+          },
+          {
+            "id": "C",
+            "text": "Sirf raat mein"
+          },
+          {
+            "id": "D",
+            "text": "Sirf roots mein"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Living plant cells day and night respiration karte hain. Photosynthesis light ki presence par depend karta hai."
+      },
+      "progress": {
+        "current": 10,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_11_xylem",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_11_xylem",
+      "card_slug": "card_11_xylem",
+      "type": "chat",
+      "concept_id": "xylem_transport",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Xylem roots se paani aur dissolved minerals ko plant ke upar ke parts tak le jaata hai. Kai xylem cells mature plant mein dead, hollow tubes ki tarah kaam karte hain. Water movement mein transpiration se bana pull aur water molecules ka cohesion madad karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
+        }
+      ],
+      "progress": {
+        "current": 11,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_12_phloem",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_12_phloem",
+      "card_slug": "card_12_phloem",
+      "type": "chat",
+      "concept_id": "phloem_transport",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Phloem leaves mein bane sugars ko plant ke un parts tak le jaata hai jahan food chahiye ya store hona hai. Is movement ko translocation kehte hain. Xylem ka main flow paani/minerals hai; phloem ka main cargo sugars. Phloem transport source aur sink ke hisaab se alag directions mein ho sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
+        }
+      ],
+      "progress": {
+        "current": 12,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_13_quiz_vascular",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_13_quiz_vascular",
+      "card_slug": "card_13_quiz_vascular",
+      "type": "quiz",
+      "concept_id": "plant_transport",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Leaf se bana sugar plant ke doosre parts tak kaun le jaata hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phloem"
+          },
+          {
+            "id": "B",
+            "text": "Xylem"
+          },
+          {
+            "id": "C",
+            "text": "Stomata"
+          },
+          {
+            "id": "D",
+            "text": "Root cap"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Phloem organic food, khaaskar sugars, ko source se use/store karne wale parts tak le jaata hai."
+      },
+      "progress": {
+        "current": 13,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_14_transpiration",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_14_transpiration",
+      "card_slug": "card_14_transpiration",
+      "type": "chat",
+      "concept_id": "transpiration",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Transpiration plant ke aerial parts, khaaskar leaves ke stomata, se water vapour ka loss hai. Isse water evaporate hota hai, jo xylem mein upar ki taraf pull banane mein madad karta hai. Transpiration cooling mein bhi madad kar sakti hai, par bahut zyada water loss harmful hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, abhi ka lesson samajh aaya."
+        }
+      ],
+      "progress": {
+        "current": 14,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_15_mineral_nutrition",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_15_mineral_nutrition",
+      "card_slug": "card_15_mineral_nutrition",
+      "type": "chat",
+      "concept_id": "plant_minerals",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Plants ko nitrogen, phosphorus, potassium, magnesium jaise minerals chahiye. Nitrogen proteins aur nucleic acids banane mein lagta hai; magnesium chlorophyll ka central atom hai. Roots minerals ko paani mein dissolved ions ke roop mein lete hain. Deficiency se growth aur leaf colour prabhavit ho sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main pehle isi concept ko pakka karunga."
+        }
+      ],
+      "progress": {
+        "current": 15,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_16_nitrogen_fixation",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_16_nitrogen_fixation",
+      "card_slug": "card_16_nitrogen_fixation",
+      "type": "chat",
+      "concept_id": "nitrogen_cycle_plants",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Hawa mein nitrogen gas bahut hai, par adhiktar plants ise seedhe use nahi kar sakte. Soil ke kuch bacteria nitrogen ko usable compounds mein badalte hain. Legume plants ki root nodules mein Rhizobium bacteria nitrogen fixation mein madad karta hai; plant unhe food deta hai, bacteria plant ko nitrogen compounds banane mein sahayata karta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main ise apne notes mein likh leta hoon."
+        }
+      ],
+      "progress": {
+        "current": 16,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_17_quiz_nitrogen",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_17_quiz_nitrogen",
+      "card_slug": "card_17_quiz_nitrogen",
+      "type": "quiz",
+      "concept_id": "nitrogen_cycle_plants",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Legume roots ki nodules mein nitrogen fixation mein kaunsa bacteria madad karta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rhizobium"
+          },
+          {
+            "id": "B",
+            "text": "Lactobacillus"
+          },
+          {
+            "id": "C",
+            "text": "Plasmodium"
+          },
+          {
+            "id": "D",
+            "text": "Yeast"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Rhizobium legume plants ki root nodules mein rehta hai aur nitrogen fixation mein madad karta hai."
+      },
+      "progress": {
+        "current": 17,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_18_plant_hormones",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_18_plant_hormones",
+      "card_slug": "card_18_plant_hormones",
+      "type": "chat",
+      "concept_id": "plant_hormones",
+      "level": 4,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Plant hormones chhoti matra mein growth aur response control karte hain. Auxin cell elongation/tropism mein; gibberellin stem growth aur seed germination mein; cytokinin cell division mein; abscisic acid stress/dormancy mein; ethylene fruit ripening mein role karta hai. Ye effects plant, tissue aur condition par depend kar sakte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Ab is example ka matlab samajh aaya."
+        }
+      ],
+      "progress": {
+        "current": 18,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_19_tropisms",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_19_tropisms",
+      "card_slug": "card_19_tropisms",
+      "type": "chat",
+      "concept_id": "plant_tropisms",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Tropism growth direction ka stimulus ke response mein badalna hai. Shoot light ki taraf grow kare to positive phototropism; root gravity ki direction mein grow kare to positive geotropism. Tendril support ke around lapet sakta hai—touch response ka example. Plant move nahi karta jaise animal, par uska growth direction badal sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, isi baat par dhyan deta hoon."
+        }
+      ],
+      "progress": {
+        "current": 19,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_20_quiz_hormone",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_20_quiz_hormone",
+      "card_slug": "card_20_quiz_hormone",
+      "type": "quiz",
+      "concept_id": "plant_hormones",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Fruit ripening se sabse zyada juda plant hormone kaunsa hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ethylene"
+          },
+          {
+            "id": "B",
+            "text": "Auxin"
+          },
+          {
+            "id": "C",
+            "text": "Insulin"
+          },
+          {
+            "id": "D",
+            "text": "Adrenaline"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Ethylene ek gaseous plant hormone hai jo fruit ripening ko promote kar sakta hai."
+      },
+      "progress": {
+        "current": 20,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_21_pollination_seed",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_21_pollination_seed",
+      "card_slug": "card_21_pollination_seed",
+      "type": "chat",
+      "concept_id": "plant_reproduction_basics",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Flowering plants mein pollination pollen ka anther se stigma tak transfer hai; ye fertilization nahi hota. Fertilization mein male aur female gametes fuse karte hain. Fertilization ke baad ovule seed aur ovary aam taur par fruit ban sakti hai. Wind, insects aur animals pollen transfer mein madad karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, ye example mujhe samajh aa gaya."
+        }
+      ],
+      "progress": {
+        "current": 21,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_22_plant_adaptation",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_22_plant_adaptation",
+      "card_slug": "card_22_plant_adaptation",
+      "type": "chat",
+      "concept_id": "plant_adaptations",
+      "level": 4,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Plants ke structures environment ke anukul ho sakte hain. Cactus ke spines water loss kam karte hain, fleshy stem paani store karta hai; aquatic plants mein air spaces buoyancy de sakte hain. Adaptation ek inherited feature hai jo survival/reproduction mein help kar sakta hai—har individual apni zaroorat se naya inherited trait nahi banata."
+        },
+        {
+          "speaker": "raju",
+          "text": "Abhi tak ka example clear hai."
+        }
+      ],
+      "progress": {
+        "current": 22,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_23_final_quiz",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_23_final_quiz",
+      "card_slug": "card_23_final_quiz",
+      "type": "quiz",
+      "concept_id": "plant_course_review",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Kaunsa statement sahi hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Xylem paani/minerals aur phloem sugars le jaata hai"
+          },
+          {
+            "id": "B",
+            "text": "Photosynthesis sirf roots mein hota hai"
+          },
+          {
+            "id": "C",
+            "text": "Plant respiration sirf raat mein hota hai"
+          },
+          {
+            "id": "D",
+            "text": "Pollination aur fertilization ek hi event hain"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Xylem water/minerals ka main transport karta hai; phloem sugars ka. Photosynthesis mainly green tissues mein hota hai, respiration day/night hota hai, pollination fertilization se pehle ka alag step hai."
+      },
+      "progress": {
+        "current": 23,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_applied_case_01",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 1: Ek indoor plant ko kai din andhere mein rakha gaya. Nayi leaf mein starch test kam positive ho sakta hai. Kyon?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Light na milne se photosynthesis kam hua"
+          },
+          {
+            "id": "B",
+            "text": "Roots ne oxygen ko starch bana diya"
+          },
+          {
+            "id": "C",
+            "text": "Plant ne chlorophyll ko blood mein bheja"
+          },
+          {
+            "id": "D",
+            "text": "Stomata ne soil banana shuru kiya"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Light photosynthesis ka energy source hai; lambi darkness mein naya sugar/starch banana kam ho sakta hai."
+      },
+      "progress": {
+        "current": 24,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: Plant ko paani mil raha hai, par stem ke xylem vessels damage ho gaye. Leaves par kya asar aa sakta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Paani upar pahunchna mushkil aur leaves wilt ho sakti hain"
+          },
+          {
+            "id": "B",
+            "text": "Sugar phloem se seedha paani ban jayegi"
+          },
+          {
+            "id": "C",
+            "text": "Leaves oxygen se bhar jaayengi"
+          },
+          {
+            "id": "D",
+            "text": "Flowers metal ban jayenge"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Xylem roots se paani/minerals upar le jaata hai; transport rukne par leaves ko paani kam mil sakta hai."
+      },
+      "progress": {
+        "current": 25,
+        "total": 26
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 3: Khidki ki taraf se roshni aane par potted plant dheere-dheere us taraf jhukta hai. Is response ka naam kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Positive phototropism"
+          },
+          {
+            "id": "B",
+            "text": "Negative geotropism only"
+          },
+          {
+            "id": "C",
+            "text": "Transpiration"
+          },
+          {
+            "id": "D",
+            "text": "Fertilization"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Shoot roshni ki taraf grow kare to positive phototropism kehte hain."
+      },
+      "progress": {
+        "current": 26,
+        "total": 26
+      },
+      "navigation": {
+        "next": null,
+        "button_text": "Check Answer ➔"
+      }
+    }
+  ]
+}

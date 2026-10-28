@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims"
+    "UPSC Prelims",
+    "RRB Group D"
   ],
-  "total_cards": 80,
+  "total_cards": 84,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 80
+        "total": 84
       },
       "intro_payload": {
         "title": "Chemistry in Everyday Life",
@@ -43,7 +44,8 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims"
+          "UPSC Prelims",
+          "RRB Group D"
         ],
         "learning_outcomes": [
           "Understand drugs and their classifications",
@@ -51,14 +53,72 @@
           "Master tranquilizers and antimicrobials",
           "Explore antacids, antihistamines, and antifertility drugs",
           "Discover food chemistry - preservatives, sweeteners, antioxidants",
-          "Study soaps, detergents, and cleansing action"
+          "Study soaps, detergents, and cleansing action",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
         ],
         "estimated_time": "25 minutes",
-        "total_concepts": 12
+        "total_concepts": 12,
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
+        ]
       },
       "navigation": {
-        "next": "card_02_medicine_start",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning 🚀"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 84
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Chemistry in everyday life batati hai ki soaps, medicines, food preservatives, fuels aur cleaning products kaam kaise karte hain. Har product ko uske use, basic chemistry aur safety ke saath samjhenge."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_medicine_start",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -68,8 +128,8 @@
       "concept_id": "medicines_intro",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 80
+        "current": 3,
+        "total": 84
       },
       "messages": [
         {
@@ -78,7 +138,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir, unhe sir dard tha to Mummy ne ek tablet di thi. Aur Papa ne kaha tha 'ye dawai hai'."
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -86,7 +146,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaa! To dawai bhi ek chemical hai?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -101,8 +161,8 @@
       "concept_id": "drug_classification_basis",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 80
+        "current": 4,
+        "total": 84
       },
       "messages": [
         {
@@ -111,7 +171,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir exam mein kaun sa zyada important hai?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -119,7 +179,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab jaise sir dard ki dawai, bukhar ki dawai - aise?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -134,8 +194,8 @@
       "concept_id": "analgesics_definition",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 80
+        "current": 5,
+        "total": 84
       },
       "messages": [
         {
@@ -144,7 +204,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab sir dard gaya par agar koi infection tha to wo rahega?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -152,7 +212,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Narcotic matlab nasha wali category?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -167,8 +227,8 @@
       "concept_id": "non_narcotic_analgesics",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 80
+        "current": 6,
+        "total": 84
       },
       "messages": [
         {
@@ -177,7 +237,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To Sir, Aspirin teen kaam karti hai ek saath?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -185,7 +245,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Aspirin zyada powerful hai?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -200,8 +260,8 @@
       "concept_id": "narcotic_analgesics",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 80
+        "current": 7,
+        "total": 84
       },
       "messages": [
         {
@@ -210,7 +270,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye to nasha karne wale bhi use karte hain na?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -218,7 +278,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To Non-Narcotic safe hain aur Narcotic dangerous but powerful?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -233,8 +293,8 @@
       "concept_id": "analgesics_classification",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 80
+        "current": 8,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which of the following is a Non-Narcotic Analgesic that also reduces inflammation? (SSC CGL 2019 Pattern)",
@@ -271,8 +331,8 @@
       "concept_id": "narcotic_source",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 80
+        "current": 9,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Narcotic Analgesics like Morphine are derived from which plant? (Railway NTPC 2021 Pattern)",
@@ -309,8 +369,8 @@
       "concept_id": "analgesics_function",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 80
+        "current": 10,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Statement I: Analgesics cure the disease causing pain. Statement II: Analgesics only reduce or block the pain signals. (BPSC 2020 Assertion-Reason Pattern)",
@@ -347,8 +407,8 @@
       "concept_id": "analgesics_complete",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 80
+        "current": 11,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🎯 ANALGESICS MODULE CLEARED!",
@@ -370,8 +430,8 @@
       "concept_id": "antimicrobials_definition",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 80
+        "current": 12,
+        "total": 84
       },
       "messages": [
         {
@@ -380,7 +440,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Anti-microbials matlab microbes ke against?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -388,7 +448,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To Sir antibiotics bhi isi mein aati hain?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -403,8 +463,8 @@
       "concept_id": "antibiotics_definition",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 80
+        "current": 13,
+        "total": 84
       },
       "messages": [
         {
@@ -413,7 +473,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Bacteria ko marne ke liye fungi use karte hain?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -421,7 +481,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To Penicillin sabse pehli antibiotic hai aur Fleming ne discover ki!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -436,8 +496,8 @@
       "concept_id": "antibiotic_spectrum",
       "level": 1,
       "progress": {
-        "current": 13,
-        "total": 80
+        "current": 14,
+        "total": 84
       },
       "messages": [
         {
@@ -446,7 +506,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To broad spectrum zyada achhi hai na? Zyada bacteria maregi?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -454,7 +514,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaa! Matlab doctor pehle test karke dekhte hain konsa bacteria hai?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -469,8 +529,8 @@
       "concept_id": "antiseptics_disinfectants",
       "level": 1,
       "progress": {
-        "current": 14,
-        "total": 80
+        "current": 15,
+        "total": 84
       },
       "messages": [
         {
@@ -479,7 +539,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Dettol ya wo lal wali dawai... kya naam hai... Betadine!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -487,7 +547,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Kya?! Same chemical ka naam badal jata hai?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -502,8 +562,8 @@
       "concept_id": "antiseptic_disinfectant_difference",
       "level": 1,
       "progress": {
-        "current": 15,
-        "total": 80
+        "current": 16,
+        "total": 84
       },
       "messages": [
         {
@@ -512,7 +572,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Dettol thoda dilute karke wound par aur zyada concentrate karke floor par?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -520,7 +580,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye exam mein statement true-false mein confuse kar denge!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -535,8 +595,8 @@
       "concept_id": "antibiotic_vs_antiseptic",
       "level": 1,
       "progress": {
-        "current": 16,
-        "total": 80
+        "current": 17,
+        "total": 84
       },
       "messages": [
         {
@@ -545,7 +605,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Matlab tablet andar, cream/lotion bahar?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -553,7 +613,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Antibiotic resistance matlab bacteria immune ho jate hain?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -568,8 +628,8 @@
       "concept_id": "penicillin_discovery",
       "level": 1,
       "progress": {
-        "current": 17,
-        "total": 80
+        "current": 18,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Who discovered the first antibiotic Penicillin, and from which organism? (SSC CGL 2018)",
@@ -606,8 +666,8 @@
       "concept_id": "antiseptic_vs_disinfectant",
       "level": 1,
       "progress": {
-        "current": 18,
-        "total": 80
+        "current": 19,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which of the following statements is CORRECT? (BPSC 2022 Pattern)",
@@ -644,8 +704,8 @@
       "concept_id": "broad_spectrum",
       "level": 1,
       "progress": {
-        "current": 19,
-        "total": 80
+        "current": 20,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which of the following is a Broad Spectrum Antibiotic? (Railway NTPC 2020)",
@@ -682,8 +742,8 @@
       "concept_id": "antimicrobials_complete",
       "level": 1,
       "progress": {
-        "current": 20,
-        "total": 80
+        "current": 21,
+        "total": 84
       },
       "milestone_payload": {
         "title": "⚡ INFECTION FIGHTERS CLEARED!",
@@ -705,8 +765,8 @@
       "concept_id": "tranquilizers_definition",
       "level": 1,
       "progress": {
-        "current": 21,
-        "total": 80
+        "current": 22,
+        "total": 84
       },
       "messages": [
         {
@@ -715,7 +775,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir, mere chacha ko bahut stress tha to doctor ne kuch medicine di thi. Wo kehte the 'mann shaant ho jata hai'."
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -723,7 +783,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To ye bhi brain ko affect karti hain jaise Narcotic Analgesics?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -738,8 +798,8 @@
       "concept_id": "tranquilizers_examples",
       "level": 1,
       "progress": {
-        "current": 22,
-        "total": 80
+        "current": 23,
+        "total": 84
       },
       "messages": [
         {
@@ -748,7 +808,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye bhi addictive hain kya jaise Morphine?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -756,7 +816,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab ye bhi controlled drugs hain?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -771,8 +831,8 @@
       "concept_id": "antacids_definition",
       "level": 1,
       "progress": {
-        "current": 23,
-        "total": 80
+        "current": 24,
+        "total": 84
       },
       "messages": [
         {
@@ -781,7 +841,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Mummy kehti hain 'zyada mirchi khaya hoga' aur Eno ya Digene deti hain."
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -789,7 +849,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab ye acid-base neutralization hai jo chemistry mein pada tha?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -804,8 +864,8 @@
       "concept_id": "antacids_chemicals",
       "level": 1,
       "progress": {
-        "current": 24,
-        "total": 80
+        "current": 25,
+        "total": 84
       },
       "messages": [
         {
@@ -814,7 +874,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ghar mein acidity mein Mummy kabhi baking soda deti hain paani mein!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -822,7 +882,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wah! Side effects ko ek dusre se cancel kar dete hain!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -837,8 +897,8 @@
       "concept_id": "antihistamines_definition",
       "level": 1,
       "progress": {
-        "current": 25,
-        "total": 80
+        "current": 26,
+        "total": 84
       },
       "messages": [
         {
@@ -847,7 +907,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To Sir antihistamines matlab jo histamine ke against kaam karein?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -855,7 +915,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye bhi koi side effect hota hai?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -870,8 +930,8 @@
       "concept_id": "antihistamines_drowsiness",
       "level": 1,
       "progress": {
-        "current": 26,
-        "total": 80
+        "current": 27,
+        "total": 84
       },
       "messages": [
         {
@@ -880,7 +940,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab allergy to theek ho jayegi par neend aa jayegi!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -888,7 +948,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Side effect ko feature bana diya!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -903,8 +963,8 @@
       "concept_id": "tranquilizers_function",
       "level": 1,
       "progress": {
-        "current": 27,
-        "total": 80
+        "current": 28,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Tranquilizers are primarily used for treating: (Railway Group D 2022)",
@@ -941,8 +1001,8 @@
       "concept_id": "antacids_neutralization",
       "level": 1,
       "progress": {
-        "current": 28,
-        "total": 80
+        "current": 29,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which chemical is the main component of 'Milk of Magnesia' used as an antacid? (SSC CHSL 2021)",
@@ -979,8 +1039,8 @@
       "concept_id": "antihistamines_side_effect",
       "level": 1,
       "progress": {
-        "current": 29,
-        "total": 80
+        "current": 30,
+        "total": 84
       },
       "quiz_payload": {
         "question": "The most common side effect of older antihistamines is: (BPSC 2019)",
@@ -1017,8 +1077,8 @@
       "concept_id": "drugs_module_3_complete",
       "level": 1,
       "progress": {
-        "current": 30,
-        "total": 80
+        "current": 31,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🧠 MENTAL & DIGESTIVE DRUGS MASTERED!",
@@ -1040,8 +1100,8 @@
       "concept_id": "antifertility_definition",
       "level": 1,
       "progress": {
-        "current": 31,
-        "total": 80
+        "current": 32,
+        "total": 84
       },
       "messages": [
         {
@@ -1050,7 +1110,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye exam mein aata hai? Thoda sensitive topic lag raha hai."
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1058,7 +1118,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hormones matlab jo body naturally banati hai?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1073,8 +1133,8 @@
       "concept_id": "antifertility_hormones",
       "level": 1,
       "progress": {
-        "current": 32,
-        "total": 80
+        "current": 33,
+        "total": 84
       },
       "messages": [
         {
@@ -1083,7 +1143,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye kaam kaise karti hain Sir?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1091,7 +1151,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To ye bahut effective hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1106,8 +1166,8 @@
       "concept_id": "food_additives_intro",
       "level": 1,
       "progress": {
-        "current": 33,
-        "total": 80
+        "current": 34,
+        "total": 84
       },
       "messages": [
         {
@@ -1116,15 +1176,15 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Chips ke packet par, biscuit par... E-numbers bhi hote hain. Ye safe hain?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
-          "text": "Good question! Food additives wo substances hain jo food mein deliberately add kiye jate hain for various purposes - preservation, color, flavor, sweetness, texture improvement. Jab tak approved quantities mein ho, tab tak safe hain. FSSAI India mein regulate karta hai. Food additives 4 main categories mein aate hain."
+          "text": "Chaliye, is baat ko seedhe samajhte hain. Food additives wo substances hain jo food mein deliberately add kiye jate hain for various purposes - preservation, color, flavor, sweetness, texture improvement. Jab tak approved quantities mein ho, tab tak safe hain. FSSAI India mein regulate karta hai. Food additives 4 main categories mein aate hain."
         },
         {
           "speaker": "raju",
-          "text": "Kaun kaun se categories hain?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -1139,8 +1199,8 @@
       "concept_id": "artificial_sweeteners_definition",
       "level": 1,
       "progress": {
-        "current": 34,
-        "total": 80
+        "current": 35,
+        "total": 84
       },
       "messages": [
         {
@@ -1149,7 +1209,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir Sugar Free tablets mein yahi hota hai na?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1157,7 +1217,7 @@
         },
         {
           "speaker": "raju",
-          "text": "2000 guna zyada sweet?! Matlab ek chutki kaafi hai poore bartan ke liye!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1172,8 +1232,8 @@
       "concept_id": "food_preservatives_definition",
       "level": 1,
       "progress": {
-        "current": 35,
-        "total": 80
+        "current": 36,
+        "total": 84
       },
       "messages": [
         {
@@ -1182,7 +1242,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ghar mein achaar banate time namak aur sirka daalte hain - wo bhi preservation hai?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1190,7 +1250,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab zyada namak ya sugar wala food jaldi kharab nahi hota?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1205,8 +1265,8 @@
       "concept_id": "antioxidants_food",
       "level": 1,
       "progress": {
-        "current": 36,
-        "total": 80
+        "current": 37,
+        "total": 84
       },
       "messages": [
         {
@@ -1215,7 +1275,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Mummy kehti hain kholne ke baad jaldi khatam karo. Ab samajh aaya kyun!"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1223,7 +1283,7 @@
         },
         {
           "speaker": "raju",
-          "text": "BHA aur BHT yaad rakhna mushkil hai!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1238,8 +1298,8 @@
       "concept_id": "food_colors_flavors",
       "level": 1,
       "progress": {
-        "current": 37,
-        "total": 80
+        "current": 38,
+        "total": 84
       },
       "messages": [
         {
@@ -1248,7 +1308,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ice cream aur candies mein bahut colors hote hain!"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1256,7 +1316,7 @@
         },
         {
           "speaker": "raju",
-          "text": "FSSAI matlab Food Safety and Standards Authority of India?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1271,8 +1331,8 @@
       "concept_id": "artificial_sweeteners_comparison",
       "level": 1,
       "progress": {
-        "current": 38,
-        "total": 80
+        "current": 39,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which artificial sweetener is approximately 2000 times sweeter than cane sugar? (SSC CGL 2020)",
@@ -1309,8 +1369,8 @@
       "concept_id": "food_preservatives_example",
       "level": 1,
       "progress": {
-        "current": 39,
-        "total": 80
+        "current": 40,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Sodium benzoate is commonly used as a preservative in: (Railway NTPC 2021)",
@@ -1347,8 +1407,8 @@
       "concept_id": "antioxidants_function",
       "level": 1,
       "progress": {
-        "current": 40,
-        "total": 80
+        "current": 41,
+        "total": 84
       },
       "quiz_payload": {
         "question": "BHA and BHT are added to food products primarily to: (BPSC 2021)",
@@ -1385,8 +1445,8 @@
       "concept_id": "food_chemistry_complete",
       "level": 1,
       "progress": {
-        "current": 41,
-        "total": 80
+        "current": 42,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🍕 FOOD CHEMISTRY CHAMPION!",
@@ -1408,8 +1468,8 @@
       "concept_id": "soaps_definition",
       "level": 1,
       "progress": {
-        "current": 42,
-        "total": 80
+        "current": 43,
+        "total": 84
       },
       "messages": [
         {
@@ -1418,7 +1478,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir dirt nikal jati hai aur haath saaf ho jate hain. Foam bhi banta hai!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1426,7 +1486,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab soap factory mein oil aur NaOH milate hain?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1441,8 +1501,8 @@
       "concept_id": "soap_molecule_structure",
       "level": 1,
       "progress": {
-        "current": 43,
-        "total": 80
+        "current": 44,
+        "total": 84
       },
       "messages": [
         {
@@ -1451,7 +1511,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ek molecule ke do opposite nature?!"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1459,7 +1519,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wah! To soap oil aur paani ko connect kar deti hai!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1474,8 +1534,8 @@
       "concept_id": "micelle_structure",
       "level": 1,
       "progress": {
-        "current": 44,
-        "total": 80
+        "current": 45,
+        "total": 84
       },
       "messages": [
         {
@@ -1484,7 +1544,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab ek cage ban jata hai jo dirt ko pakad leta hai?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1492,7 +1552,7 @@
         },
         {
           "speaker": "raju",
-          "text": "CMC ka matlab kam sabun se kaam nahi chalega?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1507,8 +1567,8 @@
       "concept_id": "soap_hard_water",
       "level": 1,
       "progress": {
-        "current": 45,
-        "total": 80
+        "current": 46,
+        "total": 84
       },
       "messages": [
         {
@@ -1517,7 +1577,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir scum matlab wo safed waali cheez jo bucket mein jum jati hai?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1525,7 +1585,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To hard water mein soap bekaar ho jati hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1540,8 +1600,8 @@
       "concept_id": "detergents_definition",
       "level": 1,
       "progress": {
-        "current": 46,
-        "total": 80
+        "current": 47,
+        "total": 84
       },
       "messages": [
         {
@@ -1550,7 +1610,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To Sir, detergent bhi micelle banati hai?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1558,7 +1618,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab detergent upgrade version hai soap ka!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1573,8 +1633,8 @@
       "concept_id": "detergent_classification",
       "level": 1,
       "progress": {
-        "current": 47,
-        "total": 80
+        "current": 48,
+        "total": 84
       },
       "messages": [
         {
@@ -1583,7 +1643,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Antiseptic detergent?! Savlon?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1591,7 +1651,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Teen alag jobs ke liye teen types!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1606,8 +1666,8 @@
       "concept_id": "biodegradable_detergents",
       "level": 1,
       "progress": {
-        "current": 48,
-        "total": 80
+        "current": 49,
+        "total": 84
       },
       "messages": [
         {
@@ -1616,7 +1676,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab detergent waste river mein jhaag ban raha tha?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1624,7 +1684,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To ab detergents environment-friendly hain?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1639,8 +1699,8 @@
       "concept_id": "soap_chemical_nature",
       "level": 1,
       "progress": {
-        "current": 49,
-        "total": 80
+        "current": 50,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Chemically, soaps are: (Railway Group D 2019)",
@@ -1677,8 +1737,8 @@
       "concept_id": "soap_hard_water",
       "level": 1,
       "progress": {
-        "current": 50,
-        "total": 80
+        "current": 51,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Soaps do not work well in hard water because: (SSC CGL 2019)",
@@ -1715,8 +1775,8 @@
       "concept_id": "biodegradable_detergents",
       "level": 1,
       "progress": {
-        "current": 51,
-        "total": 80
+        "current": 52,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which type of detergent structure is biodegradable? (BPSC 2020)",
@@ -1753,8 +1813,8 @@
       "concept_id": "cleansing_agents_complete",
       "level": 1,
       "progress": {
-        "current": 52,
-        "total": 80
+        "current": 53,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🧼 CLEANSING CHEMISTRY MASTERED!",
@@ -1776,8 +1836,8 @@
       "concept_id": "advanced_drug_concepts",
       "level": 2,
       "progress": {
-        "current": 53,
-        "total": 80
+        "current": 54,
+        "total": 84
       },
       "messages": [
         {
@@ -1786,7 +1846,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir chemotherapy matlab sirf cancer ki dawai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1794,7 +1854,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Chemistry ka practical application!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1809,8 +1869,8 @@
       "concept_id": "drug_target_interaction",
       "level": 2,
       "progress": {
-        "current": 54,
-        "total": 80
+        "current": 55,
+        "total": 84
       },
       "messages": [
         {
@@ -1819,7 +1879,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab galat drug sahi receptor se fit nahi hogi?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1827,7 +1887,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wah! Musical chair jaisa game!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1842,8 +1902,8 @@
       "concept_id": "drug_side_effects",
       "level": 2,
       "progress": {
-        "current": 55,
-        "total": 80
+        "current": 56,
+        "total": 84
       },
       "messages": [
         {
@@ -1852,7 +1912,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To koi bhi dawai 100% safe nahi hai?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1860,7 +1920,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ab samajh aaya doctor prescription kyun zaruri hai!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -1875,8 +1935,8 @@
       "concept_id": "vaccines_immunity",
       "level": 2,
       "progress": {
-        "current": 56,
-        "total": 80
+        "current": 57,
+        "total": 84
       },
       "messages": [
         {
@@ -1885,7 +1945,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! To polio ki dawai nahi, vaccine hai!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1893,12 +1953,126 @@
         },
         {
           "speaker": "raju",
-          "text": "Jenner - Smallpox, Pasteur - Rabies. Got it!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
-        "next": "card_57_rapid_fire_summary",
+        "next": "card_applied_case_01",
         "button_text": "Perfect! Officer Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 1: Hard water mein soap kam jhaag deta hai; detergent phir bhi kaam kar sakta hai. Practical reason kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hard-water ions detergent ko soap ki tarah itna precipitate nahi karte"
+          },
+          {
+            "id": "B",
+            "text": "Detergent acid ko sugar bana deta hai"
+          },
+          {
+            "id": "C",
+            "text": "Soap mein atoms nahi hote"
+          },
+          {
+            "id": "D",
+            "text": "Hard water mein koi minerals nahi"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Calcium/magnesium ions soap ke saath scum bana sakte hain; kai detergents hard water mein zyada effective rehte hain."
+      },
+      "progress": {
+        "current": 58,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: Doctor ne antibiotic ka course diya, par patient do din baad behtar mehsoos karke band kar deta hai. Sahi advice kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Prescriber ki instructions follow kare; khud se course change na kare"
+          },
+          {
+            "id": "B",
+            "text": "Bachi hui dose dost ko de"
+          },
+          {
+            "id": "C",
+            "text": "Har fever mein double dose le"
+          },
+          {
+            "id": "D",
+            "text": "Medicine ko food mein chhupa kar sabko de"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Antibiotic use clinician ke direction ke mutabik hona chahiye; self-medication ya course badalna resistance/relapse ka risk badha sakta hai."
+      },
+      "progress": {
+        "current": 59,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 3: Toothpaste mouth mein acids ko neutralize karne mein madad karta hai. Yeh kis chemistry concept ka everyday use hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Acid-base neutralization"
+          },
+          {
+            "id": "B",
+            "text": "Electroplating"
+          },
+          {
+            "id": "C",
+            "text": "Sublimation"
+          },
+          {
+            "id": "D",
+            "text": "Polymerization only"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Basic toothpaste acids ko neutralize karne mein madad karta hai; oral hygiene ke liye brushing ke saath dental care bhi zaroori hai."
+      },
+      "progress": {
+        "current": 60,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_57_rapid_fire_summary",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -1908,8 +2082,8 @@
       "concept_id": "chapter_quick_revision",
       "level": 2,
       "progress": {
-        "current": 57,
-        "total": 80
+        "current": 61,
+        "total": 84
       },
       "summary_payload": {
         "title": "⚡ OFFICER LEVEL LIGHTNING REVISION",
@@ -1960,8 +2134,8 @@
       "concept_id": "final_assessment_1",
       "level": 2,
       "progress": {
-        "current": 58,
-        "total": 80
+        "current": 62,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Consider the following statements:\n\nI. Aspirin is a Non-Steroidal Anti-Inflammatory Drug (NSAID) that reduces pain, fever, and inflammation.\n\nII. Paracetamol is more effective than Aspirin in reducing inflammation.\n\nIII. Morphine is derived from the opium poppy plant and is a narcotic analgesic.\n\nWhich of the above statements is/are CORRECT? (BPSC Pattern)",
@@ -1998,8 +2172,8 @@
       "concept_id": "final_assessment_2",
       "level": 2,
       "progress": {
-        "current": 59,
-        "total": 80
+        "current": 63,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Match the following:\n\nList-I (Drug Type) | List-II (Example)\nA. Antibiotic | 1. Valium\nB. Tranquilizer | 2. Penicillin\nC. Antiseptic | 3. Aspartame\nD. Artificial Sweetener | 4. Dettol\n\nCorrect matching is: (UPSC Prelims Pattern)",
@@ -2036,8 +2210,8 @@
       "concept_id": "final_assessment_3",
       "level": 2,
       "progress": {
-        "current": 60,
-        "total": 80
+        "current": 64,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Assertion (A): Detergents are more effective than soaps in hard water.\n\nReason (R): Detergents form soluble salts with Ca²⁺ and Mg²⁺ ions present in hard water.\n\n(BPSC Assertion-Reason Pattern)",
@@ -2074,8 +2248,8 @@
       "concept_id": "final_assessment_4",
       "level": 2,
       "progress": {
-        "current": 61,
-        "total": 80
+        "current": 65,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which of the following food additives is/are correctly matched with their function?\n\n1. Sodium benzoate - Preservative\n2. BHA and BHT - Antioxidants\n3. Aspartame - Food coloring agent\n4. Sodium bicarbonate - Antacid\n\nSelect the correct answer: (SSC CGL Pattern)",
@@ -2112,8 +2286,8 @@
       "concept_id": "final_assessment_5",
       "level": 2,
       "progress": {
-        "current": 62,
-        "total": 80
+        "current": 66,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Consider the following about Antibiotics:\n\nI. Alexander Fleming discovered Penicillin from Penicillium notatum fungus in 1929.\n\nII. Broad spectrum antibiotics like Chloramphenicol are always better than narrow spectrum antibiotics.\n\nIII. Antibiotics can develop resistance in bacteria due to their specific targeting mechanism.\n\nWhich statement(s) is/are CORRECT? (BPSC/NEET Pattern)",
@@ -2150,8 +2324,8 @@
       "concept_id": "pyq_advanced_1",
       "level": 2,
       "progress": {
-        "current": 63,
-        "total": 80
+        "current": 67,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which of the following is used as both an antiseptic and a disinfectant depending upon concentration? (Railway NTPC 2020 PYQ)",
@@ -2188,8 +2362,8 @@
       "concept_id": "pyq_advanced_2",
       "level": 2,
       "progress": {
-        "current": 64,
-        "total": 80
+        "current": 68,
+        "total": 84
       },
       "quiz_payload": {
         "question": "The process of preparing soap from oil and caustic soda is called: (SSC CGL 2019 PYQ)",
@@ -2226,8 +2400,8 @@
       "concept_id": "pyq_advanced_3",
       "level": 2,
       "progress": {
-        "current": 65,
-        "total": 80
+        "current": 69,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Tincture of Iodine, used as an antiseptic, is: (BPSC 2018 PYQ)",
@@ -2264,8 +2438,8 @@
       "concept_id": "pyq_advanced_4",
       "level": 2,
       "progress": {
-        "current": 66,
-        "total": 80
+        "current": 70,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Which artificial sweetener contains a dipeptide and is unstable at cooking temperature? (NEET 2020 Pattern)",
@@ -2302,8 +2476,8 @@
       "concept_id": "pyq_advanced_5",
       "level": 2,
       "progress": {
-        "current": 67,
-        "total": 80
+        "current": 71,
+        "total": 84
       },
       "quiz_payload": {
         "question": "In the structure of a soap micelle formed in water, the: (SSC CHSL 2021 PYQ)",
@@ -2340,8 +2514,8 @@
       "concept_id": "enzyme_inhibition_drugs",
       "level": 2,
       "progress": {
-        "current": 68,
-        "total": 80
+        "current": 72,
+        "total": 84
       },
       "messages": [
         {
@@ -2350,7 +2524,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab Aspirin enzyme ko block kar deti hai?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -2358,7 +2532,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye to biology aur chemistry ka combination hai!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -2373,8 +2547,8 @@
       "concept_id": "antiviral_drugs",
       "level": 2,
       "progress": {
-        "current": 69,
-        "total": 80
+        "current": 73,
+        "total": 84
       },
       "messages": [
         {
@@ -2383,7 +2557,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Isliye normal flu mein antibiotics nahi dete doctor?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -2391,7 +2565,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye to exam trap hai pakka!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -2406,8 +2580,8 @@
       "concept_id": "antimalarial_drugs",
       "level": 2,
       "progress": {
-        "current": 70,
-        "total": 80
+        "current": 74,
+        "total": 84
       },
       "messages": [
         {
@@ -2416,7 +2590,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Cinchona bark se Quinine - ye to geography mein bhi pada tha!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -2424,7 +2598,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To har disease ke liye alag drug category hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -2439,8 +2613,8 @@
       "concept_id": "antifungal_drugs",
       "level": 2,
       "progress": {
-        "current": 71,
-        "total": 80
+        "current": 75,
+        "total": 84
       },
       "messages": [
         {
@@ -2449,7 +2623,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir fungus bhi infection cause karta hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -2457,7 +2631,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To bacteria, virus, fungus, protozoa - sabke alag drugs!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -2472,8 +2646,8 @@
       "concept_id": "routes_of_drug_administration",
       "level": 2,
       "progress": {
-        "current": 72,
-        "total": 80
+        "current": 76,
+        "total": 84
       },
       "messages": [
         {
@@ -2482,7 +2656,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir emergency mein IV kyun use karte hain?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -2490,7 +2664,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Different situations ke liye different routes!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -2505,8 +2679,8 @@
       "concept_id": "drug_drug_interactions",
       "level": 2,
       "progress": {
-        "current": 73,
-        "total": 80
+        "current": 77,
+        "total": 84
       },
       "messages": [
         {
@@ -2515,7 +2689,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab do drugs ek saath lena risky hai?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -2523,7 +2697,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Isliye doctor poori list poochte hain ki kya drugs le rahe ho!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -2538,8 +2712,8 @@
       "concept_id": "generic_branded_drugs",
       "level": 2,
       "progress": {
-        "current": 74,
-        "total": 80
+        "current": 78,
+        "total": 84
       },
       "messages": [
         {
@@ -2548,7 +2722,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To generic lena zyada sense banata hai?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -2556,7 +2730,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Jan Aushadhi scheme! Ye to news mein bhi suna hai!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -2571,8 +2745,8 @@
       "concept_id": "food_fortification_concept",
       "level": 2,
       "progress": {
-        "current": 75,
-        "total": 80
+        "current": 79,
+        "total": 84
       },
       "messages": [
         {
@@ -2581,7 +2755,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To namak mein iodine isliye hoti hai?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -2589,7 +2763,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Chemistry health improvement mein kitna kaam aata hai!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -2604,8 +2778,8 @@
       "concept_id": "harmful_food_practices",
       "level": 2,
       "progress": {
-        "current": 76,
-        "total": 80
+        "current": 80,
+        "total": 84
       },
       "messages": [
         {
@@ -2614,7 +2788,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?! Ye to bahut dangerous hai Sir!"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -2622,7 +2796,7 @@
         },
         {
           "speaker": "raju",
-          "text": "To awareness bahut zaroori hai!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -2637,8 +2811,8 @@
       "concept_id": "chemistry_careers",
       "level": 2,
       "progress": {
-        "current": 77,
-        "total": 80
+        "current": 81,
+        "total": 84
       },
       "messages": [
         {
@@ -2647,7 +2821,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir chemistry itne saare fields mein use hoti hai!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -2655,7 +2829,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ab chemistry boring nahi lagti Sir, practical lagti hai!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -2670,8 +2844,8 @@
       "concept_id": "final_chapter_motivation",
       "level": 2,
       "progress": {
-        "current": 78,
-        "total": 80
+        "current": 82,
+        "total": 84
       },
       "messages": [
         {
@@ -2680,7 +2854,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ab lagta hai chemistry hamari zindagi mein har jagah hai!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -2688,7 +2862,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Thank you Sir! Ab Chemistry in Everyday Life mera strong topic hai! 💪"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -2703,8 +2877,8 @@
       "concept_id": "ultimate_chapter_summary",
       "level": 2,
       "progress": {
-        "current": 79,
-        "total": 80
+        "current": 83,
+        "total": 84
       },
       "summary_payload": {
         "title": "🏆 ULTIMATE OFFICER REVISION - CHEMISTRY IN EVERYDAY LIFE",
@@ -2755,8 +2929,8 @@
       "concept_id": "chapter_completion",
       "level": 2,
       "progress": {
-        "current": 80,
-        "total": 80
+        "current": 84,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🎉 CHAPTER COMPLETED! 🎉",

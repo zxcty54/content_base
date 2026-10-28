@@ -1,9 +1,17 @@
-
 {
   "topic_id": "biotechnology_biology_neet_bpsc",
   "topic_title": "Biotechnology - Principles, Processes & Applications",
-  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
-  "total_cards": 87,
+  "target_exams": [
+    "BPSC",
+    "BSSC",
+    "RRB NTPC",
+    "SSC CGL",
+    "NEET",
+    "UPSC Prelims",
+    "BPSC TRE",
+    "RRB Group D"
+  ],
+  "total_cards": 99,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -23,12 +31,24 @@
       "type": "intro",
       "concept_id": "biotechnology_intro",
       "level": 1,
-      "progress": { "current": 1, "total": 87 },
+      "progress": {
+        "current": 1,
+        "total": 99
+      },
       "intro_payload": {
         "title": "Biotechnology",
         "subtitle": "Principles, Processes & Applications - NEET/BPSC Level",
         "icon_emoji": "🧬",
-        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims", "BPSC TRE"],
+        "target_exams": [
+          "BPSC",
+          "BSSC",
+          "RRB NTPC",
+          "SSC CGL",
+          "NEET",
+          "UPSC Prelims",
+          "BPSC TRE",
+          "RRB Group D"
+        ],
         "learning_outcomes": [
           "Understand Biotechnology from curd-making to genetic engineering",
           "Master Restriction Enzymes - discovery, nomenclature, mechanism",
@@ -36,14 +56,72 @@
           "Understand entire Recombinant DNA Technology process step-by-step",
           "Master PCR, Bioreactors, and Downstream Processing",
           "Learn Applications: Insulin, Gene Therapy, Bt Cotton, GM Crops",
-          "Crack GEAC, Biosafety, and Bihar Board (BSEB) aligned concepts for BPSC TRE"
+          "Crack GEAC, Biosafety, and Bihar Board (BSEB) aligned concepts for BPSC TRE",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
         ],
         "estimated_time": "35 minutes",
-        "total_xp": "420 XP"
+        "total_xp": "420 XP",
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
+        ]
       },
       "navigation": {
-        "next": "card_02_curd_analogy",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning 🚀"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 99
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Biotechnology ka matlab hai jeevit cells, microbes ya unke parts ki madad se useful cheeze banana. Pehle cell, DNA aur gene ke simple meanings samjho; phir dekho inka use dawa, kheti aur diagnosis mein kaise hota hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, abhi ka lesson samajh aaya."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_curd_analogy",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -52,7 +130,10 @@
       "type": "chat",
       "concept_id": "traditional_biotechnology",
       "level": 1,
-      "progress": { "current": 2, "total": 87 },
+      "progress": {
+        "current": 3,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -60,7 +141,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Thoda sa jaman (starter culture) dalte hain, phir raat bhar mein dahi ban jata hai."
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -68,7 +149,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Seriously? Dahi banana bhi Biotechnology hai? Toh bread, cheese bhi isi category mein aayenge?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -82,7 +163,10 @@
       "type": "chat",
       "concept_id": "modern_biotechnology",
       "level": 1,
-      "progress": { "current": 3, "total": 87 },
+      "progress": {
+        "current": 4,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -90,7 +174,7 @@
         },
         {
           "speaker": "raju",
-          "text": "DNA ko directly modify karna? Matlab genes ko change karna?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -98,7 +182,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, yeh toh bahut broad definition hai! Exam mein iska koi exact/official definition bhi hoga?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -112,7 +196,10 @@
       "type": "chat",
       "concept_id": "eu_definition_biotech",
       "level": 1,
-      "progress": { "current": 4, "total": 87 },
+      "progress": {
+        "current": 5,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -120,7 +207,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Itni lambi definition yaad rakhni padegi? Sir yeh toh mushkil hai!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -128,7 +215,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Toh pehle gene change karo, phir factory level pe product banao - yehi Biotechnology hai!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -142,14 +229,29 @@
       "type": "quiz",
       "concept_id": "biotechnology_definition_quiz",
       "level": 1,
-      "progress": { "current": 5, "total": 87 },
+      "progress": {
+        "current": 6,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 1/3: Which of the following is an example of TRADITIONAL Biotechnology?",
         "options": [
-          { "id": "A", "text": "Production of Humulin (human insulin) using E. coli" },
-          { "id": "B", "text": "Bt Cotton production" },
-          { "id": "C", "text": "Curd formation from milk using Lactobacillus" },
-          { "id": "D", "text": "Gene therapy for ADA deficiency" }
+          {
+            "id": "A",
+            "text": "Production of Humulin (human insulin) using E. coli"
+          },
+          {
+            "id": "B",
+            "text": "Bt Cotton production"
+          },
+          {
+            "id": "C",
+            "text": "Curd formation from milk using Lactobacillus"
+          },
+          {
+            "id": "D",
+            "text": "Gene therapy for ADA deficiency"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Curd formation is a classic example of Traditional Biotechnology - it uses microorganisms (Lactobacillus) in their natural form without any genetic modification. Options A, B, D all involve deliberate DNA/gene manipulation, hence they fall under Modern Biotechnology (Genetic Engineering)."
@@ -165,14 +267,29 @@
       "type": "quiz",
       "concept_id": "biotechnology_definition_quiz",
       "level": 1,
-      "progress": { "current": 6, "total": 87 },
+      "progress": {
+        "current": 7,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 2/3: What are the TWO core techniques that make modern Biotechnology possible?",
         "options": [
-          { "id": "A", "text": "Fermentation and Distillation" },
-          { "id": "B", "text": "Genetic Engineering and Bioprocess Engineering" },
-          { "id": "C", "text": "Pasteurization and Sterilization" },
-          { "id": "D", "text": "Hybridization and Mutation Breeding" }
+          {
+            "id": "A",
+            "text": "Fermentation and Distillation"
+          },
+          {
+            "id": "B",
+            "text": "Genetic Engineering and Bioprocess Engineering"
+          },
+          {
+            "id": "C",
+            "text": "Pasteurization and Sterilization"
+          },
+          {
+            "id": "D",
+            "text": "Hybridization and Mutation Breeding"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "As per the EU (European Federation of Biotechnology) definition, the two core techniques are:\n1. Genetic Engineering - altering the chemistry of genetic material (DNA/RNA)\n2. Bioprocess Engineering - maintaining sterile (contamination-free) conditions for large-scale production\n\n⭐ BPSC Trap: Students often confuse this with just 'fermentation technology' which is only a subset!"
@@ -188,14 +305,29 @@
       "type": "quiz",
       "concept_id": "biotechnology_definition_quiz",
       "level": 1,
-      "progress": { "current": 7, "total": 87 },
+      "progress": {
+        "current": 8,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 3/3: Genetic Engineering essentially involves changing which of the following?",
         "options": [
-          { "id": "A", "text": "Physical structure of an organism only" },
-          { "id": "B", "text": "The chemistry of genetic material (DNA/RNA)" },
-          { "id": "C", "text": "Only the diet of an organism" },
-          { "id": "D", "text": "The habitat of an organism" }
+          {
+            "id": "A",
+            "text": "Physical structure of an organism only"
+          },
+          {
+            "id": "B",
+            "text": "The chemistry of genetic material (DNA/RNA)"
+          },
+          {
+            "id": "C",
+            "text": "Only the diet of an organism"
+          },
+          {
+            "id": "D",
+            "text": "The habitat of an organism"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Genetic Engineering involves techniques to alter the chemistry of genetic material (DNA and RNA), to introduce these into host organisms, and thus change the phenotype of the host organism. This is the foundation of all modern biotechnology applications like Bt Cotton, Humulin, and Gene Therapy."
@@ -211,7 +343,10 @@
       "type": "milestone",
       "concept_id": "module_1_complete",
       "level": 1,
-      "progress": { "current": 8, "total": 87 },
+      "progress": {
+        "current": 9,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "🎉 MODULE 1 COMPLETE!",
         "badge_emoji": "🧬",
@@ -231,7 +366,10 @@
       "type": "chat",
       "concept_id": "restriction_enzyme_discovery",
       "level": 2,
-      "progress": { "current": 9, "total": 87 },
+      "progress": {
+        "current": 10,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -239,7 +377,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Kaatne wali kaenchi? DNA itni chhoti cheez ko kaise kaatenge Sir?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -247,7 +385,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, sirf ek scientist? Ya aur bhi log involved the?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -261,7 +399,10 @@
       "type": "chat",
       "concept_id": "restriction_enzyme_scientists",
       "level": 2,
-      "progress": { "current": 10, "total": 87 },
+      "progress": {
+        "current": 11,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -269,7 +410,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Teen scientists ek hi Nobel Prize share karte hain? Yeh toh confuse karega exam mein!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -277,7 +418,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Noted! Ab yeh enzyme kaam kaise karta hai?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -291,7 +432,10 @@
       "type": "chat",
       "concept_id": "restriction_enzyme_nomenclature",
       "level": 2,
-      "progress": { "current": 11, "total": 87 },
+      "progress": {
+        "current": 12,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -299,7 +443,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhh! Matlab naam se hi pata chal jaata hai konse bacteria se yeh enzyme aaya hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -307,7 +451,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh yeh bacteria ke apne DNA ko kyun nahi kaatte?"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -321,15 +465,18 @@
       "type": "chat",
       "concept_id": "palindromic_sequence",
       "level": 2,
-      "progress": { "current": 12, "total": 87 },
+      "progress": {
+        "current": 13,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
-          "text": "Great question! Bacteria apne DNA ko [[Methylation | DNA par ek chemical (methyl group) chipka dena jisse woh protect ho jaye]] karke protect kar lete hain. Foreign DNA (jaise virus ka) methylated nahi hota, isliye enzyme sirf usko pehchan kar kaat deta hai."
+          "text": "Chaliye, is baat ko seedhe samajhte hain. Bacteria apne DNA ko [[Methylation | DNA par ek chemical (methyl group) chipka dena jisse woh protect ho jaye]] karke protect kar lete hain. Foreign DNA (jaise virus ka) methylated nahi hota, isliye enzyme sirf usko pehchan kar kaat deta hai."
         },
         {
           "speaker": "raju",
-          "text": "Achha! Par yeh kaatte kahan par hain? Kya koi specific jagah hoti hai?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -337,7 +484,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Yeh toh interesting hai! Dono strand ulta padhne par bhi same aa raha hai!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -351,7 +498,10 @@
       "type": "chat",
       "concept_id": "sticky_blunt_ends",
       "level": 2,
-      "progress": { "current": 13, "total": 87 },
+      "progress": {
+        "current": 14,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -359,7 +509,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sticky ends? Matlab yeh chipakne wale ends hain?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -367,7 +517,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Toh yeh sticky ends hi rDNA technology ki jaan hain?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -381,14 +531,29 @@
       "type": "quiz",
       "concept_id": "restriction_enzyme_quiz",
       "level": 2,
-      "progress": { "current": 14, "total": 87 },
+      "progress": {
+        "current": 15,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 1/3: The Nobel Prize for discovery of Restriction Enzymes (1978) was awarded to:",
         "options": [
-          { "id": "A", "text": "Only Werner Arber" },
-          { "id": "B", "text": "Werner Arber, Hamilton Smith, and Daniel Nathans" },
-          { "id": "C", "text": "Cohen and Boyer" },
-          { "id": "D", "text": "Kary Mullis" }
+          {
+            "id": "A",
+            "text": "Only Werner Arber"
+          },
+          {
+            "id": "B",
+            "text": "Werner Arber, Hamilton Smith, and Daniel Nathans"
+          },
+          {
+            "id": "C",
+            "text": "Cohen and Boyer"
+          },
+          {
+            "id": "D",
+            "text": "Kary Mullis"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "The Nobel Prize in 1978 was jointly awarded to three scientists:\n• Werner Arber - suggested the existence of restriction enzymes\n• Hamilton Smith - isolated the first restriction enzyme (HindII)\n• Daniel Nathans - demonstrated its application\n\n⭐ BPSC Trap: Cohen and Boyer are famous for the FIRST recombinant DNA experiment (1972), NOT restriction enzyme discovery! Kary Mullis discovered PCR."
@@ -404,14 +569,29 @@
       "type": "quiz",
       "concept_id": "restriction_enzyme_quiz",
       "level": 2,
-      "progress": { "current": 15, "total": 87 },
+      "progress": {
+        "current": 16,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 2/3: In the name 'EcoRI', what does the letter 'R' stand for?",
         "options": [
-          { "id": "A", "text": "Order of discovery" },
-          { "id": "B", "text": "Genus name" },
-          { "id": "C", "text": "Strain of the organism" },
-          { "id": "D", "text": "Restriction enzyme category" }
+          {
+            "id": "A",
+            "text": "Order of discovery"
+          },
+          {
+            "id": "B",
+            "text": "Genus name"
+          },
+          {
+            "id": "C",
+            "text": "Strain of the organism"
+          },
+          {
+            "id": "D",
+            "text": "Restriction enzyme category"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "In EcoRI naming convention:\n• E = Genus (Escherichia)\n• co = Species (coli)\n• R = Strain (RY13)\n• I = Order of isolation (first enzyme isolated from that strain)\n\n⭐ SSC CGL/Railway favorite factual question on nomenclature!"
@@ -427,14 +607,29 @@
       "type": "quiz",
       "concept_id": "restriction_enzyme_quiz",
       "level": 2,
-      "progress": { "current": 16, "total": 87 },
+      "progress": {
+        "current": 17,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 3/3: A palindromic DNA sequence is one that:",
         "options": [
-          { "id": "A", "text": "Reads the same on both strands when read in the same (5' to 3') direction" },
-          { "id": "B", "text": "Can only be found in bacteriophages" },
-          { "id": "C", "text": "Has no complementary base pairing" },
-          { "id": "D", "text": "Is always methylated" }
+          {
+            "id": "A",
+            "text": "Reads the same on both strands when read in the same (5' to 3') direction"
+          },
+          {
+            "id": "B",
+            "text": "Can only be found in bacteriophages"
+          },
+          {
+            "id": "C",
+            "text": "Has no complementary base pairing"
+          },
+          {
+            "id": "D",
+            "text": "Is always methylated"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "A palindromic sequence reads the same on both DNA strands when read in the 5' to 3' direction. Example:\n5'-GAATTC-3'\n3'-CTTAAG-5'\n\nReading the top strand 5'→3' gives GAATTC, and reading the bottom strand 5'→3' also gives GAATTC. This symmetry allows restriction enzymes to recognize and bind to specific sites, then cut to create sticky ends."
@@ -450,7 +645,10 @@
       "type": "milestone",
       "concept_id": "module_2_complete",
       "level": 2,
-      "progress": { "current": 17, "total": 87 },
+      "progress": {
+        "current": 18,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "🎊 MODULE 2 CLEARED!",
         "badge_emoji": "✂️",
@@ -470,7 +668,10 @@
       "type": "chat",
       "concept_id": "gel_electrophoresis_principle",
       "level": 2,
-      "progress": { "current": 18, "total": 87 },
+      "progress": {
+        "current": 19,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -478,7 +679,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hmm, jaise chhalni (sieve) se cheezein size ke hisaab se chhaanti hain waise kuch?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -486,7 +687,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh chhote fragments zyada aage jaayenge ya bade?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -500,7 +701,10 @@
       "type": "chat",
       "concept_id": "gel_size_based_separation",
       "level": 2,
-      "progress": { "current": 19, "total": 87 },
+      "progress": {
+        "current": 20,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -508,7 +712,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Matlab jaise chhota bachcha bheed mein aasani se aage nikal jaaye aur bada aadmi atak jaaye?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -516,7 +720,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Par Sir, DNA toh transparent hoti hai, dikhegi kaise?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -530,7 +734,10 @@
       "type": "chat",
       "concept_id": "dna_visualization_elution",
       "level": 2,
-      "progress": { "current": 20, "total": 87 },
+      "progress": {
+        "current": 21,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -538,7 +745,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow, jaise UV torch mein kuch cheezein glow karti hain waise!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -546,7 +753,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya! Toh yeh poora process gene isolate karne ka pehla step hai!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -560,14 +767,29 @@
       "type": "guess",
       "concept_id": "gel_electrophoresis_guess",
       "level": 2,
-      "progress": { "current": 21, "total": 87 },
+      "progress": {
+        "current": 22,
+        "total": 99
+      },
       "guess_payload": {
         "question": "In Gel Electrophoresis, DNA fragments move towards which electrode, and why?",
         "options": [
-          { "id": "A", "text": "Cathode, because DNA is positively charged" },
-          { "id": "B", "text": "Anode, because DNA is negatively charged" },
-          { "id": "C", "text": "Both electrodes equally" },
-          { "id": "D", "text": "DNA does not move in electric field" }
+          {
+            "id": "A",
+            "text": "Cathode, because DNA is positively charged"
+          },
+          {
+            "id": "B",
+            "text": "Anode, because DNA is negatively charged"
+          },
+          {
+            "id": "C",
+            "text": "Both electrodes equally"
+          },
+          {
+            "id": "D",
+            "text": "DNA does not move in electric field"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "DNA moves towards the ANODE (positive electrode) because DNA is negatively charged due to the phosphate groups in its backbone. This is a fundamental principle - like charges repel, unlike charges attract, so negative DNA moves towards positive anode. ⭐ NEET Trap: Students often confuse direction due to confusion between electrode names!"
@@ -583,14 +805,29 @@
       "type": "quiz",
       "concept_id": "gel_electrophoresis_quiz",
       "level": 2,
-      "progress": { "current": 22, "total": 87 },
+      "progress": {
+        "current": 23,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 1/3: Smaller DNA fragments in gel electrophoresis:",
         "options": [
-          { "id": "A", "text": "Move slower and stay near the well" },
-          { "id": "B", "text": "Move faster and travel farther through the gel" },
-          { "id": "C", "text": "Do not move at all" },
-          { "id": "D", "text": "Move towards the cathode" }
+          {
+            "id": "A",
+            "text": "Move slower and stay near the well"
+          },
+          {
+            "id": "B",
+            "text": "Move faster and travel farther through the gel"
+          },
+          {
+            "id": "C",
+            "text": "Do not move at all"
+          },
+          {
+            "id": "D",
+            "text": "Move towards the cathode"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Smaller DNA fragments move faster and travel farther through the porous agarose gel matrix, while larger fragments move slower and remain closer to the well (starting point). This size-based separation is the core principle of gel electrophoresis."
@@ -606,14 +843,29 @@
       "type": "quiz",
       "concept_id": "gel_electrophoresis_quiz",
       "level": 2,
-      "progress": { "current": 23, "total": 87 },
+      "progress": {
+        "current": 24,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 2/3: Which chemical is used to stain DNA for visualization under UV light?",
         "options": [
-          { "id": "A", "text": "Methylene Blue" },
-          { "id": "B", "text": "Ethidium Bromide" },
-          { "id": "C", "text": "Safranin" },
-          { "id": "D", "text": "Iodine" }
+          {
+            "id": "A",
+            "text": "Methylene Blue"
+          },
+          {
+            "id": "B",
+            "text": "Ethidium Bromide"
+          },
+          {
+            "id": "C",
+            "text": "Safranin"
+          },
+          {
+            "id": "D",
+            "text": "Iodine"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Ethidium Bromide is used to stain DNA. It intercalates (inserts) between DNA base pairs and glows orange under UV light, allowing us to visualize the separated DNA bands in the gel. ⭐ Railway/SSC Fact-Speed Question."
@@ -629,14 +881,29 @@
       "type": "quiz",
       "concept_id": "gel_electrophoresis_quiz",
       "level": 2,
-      "progress": { "current": 24, "total": 87 },
+      "progress": {
+        "current": 25,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 3/3: The process of cutting out and extracting a specific DNA fragment from the gel is called:",
         "options": [
-          { "id": "A", "text": "Elution" },
-          { "id": "B", "text": "Ligation" },
-          { "id": "C", "text": "Transformation" },
-          { "id": "D", "text": "Transcription" }
+          {
+            "id": "A",
+            "text": "Elution"
+          },
+          {
+            "id": "B",
+            "text": "Ligation"
+          },
+          {
+            "id": "C",
+            "text": "Transformation"
+          },
+          {
+            "id": "D",
+            "text": "Transcription"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Elution is the process of extracting/isolating a specific DNA fragment from the gel after separation. This purified DNA fragment is then used for the next step - ligation into a vector for cloning."
@@ -652,7 +919,10 @@
       "type": "milestone",
       "concept_id": "module_3_complete",
       "level": 2,
-      "progress": { "current": 25, "total": 87 },
+      "progress": {
+        "current": 26,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "🏆 MODULE 3 CONQUERED!",
         "badge_emoji": "🧫",
@@ -672,7 +942,10 @@
       "type": "chat",
       "concept_id": "cloning_vector_intro",
       "level": 3,
-      "progress": { "current": 26, "total": 87 },
+      "progress": {
+        "current": 27,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -680,7 +953,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Vehicle? Matlab koi transport karne wali cheez?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -688,7 +961,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Toh koi bhi plasmid vector ban sakta hai kya?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -702,7 +975,10 @@
       "type": "chat",
       "concept_id": "vector_essential_features",
       "level": 3,
-      "progress": { "current": 27, "total": 87 },
+      "progress": {
+        "current": 28,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -710,7 +986,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, 'ori' ka kaam kya hai exactly?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -718,7 +994,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur selectable marker? Yeh kaise pata chalta hai transformation successful hua?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -732,7 +1008,10 @@
       "type": "chat",
       "concept_id": "selectable_marker_detail",
       "level": 3,
-      "progress": { "current": 28, "total": 87 },
+      "progress": {
+        "current": 29,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -740,7 +1019,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hmm, koi tag jaisi cheez lagayein?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -748,7 +1027,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Toh antibiotic resistance ek 'proof' hai vector transfer ka! Genius trick hai yeh toh!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -762,7 +1041,10 @@
       "type": "chat",
       "concept_id": "pbr322_vector_detail",
       "level": 3,
-      "progress": { "current": 29, "total": 87 },
+      "progress": {
+        "current": 30,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -770,7 +1052,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, ismein restriction sites bhi hain kya specific?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -778,7 +1060,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Par agar main gene ko tet^R gene ke andar wale site pe insert karu toh us gene ka kaam kharab ho jaayega na?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -792,7 +1074,10 @@
       "type": "chat",
       "concept_id": "insertional_inactivation",
       "level": 3,
-      "progress": { "current": 30, "total": 87 },
+      "progress": {
+        "current": 31,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -800,7 +1085,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab agar gene tet^R ke andar gaya, toh tet^R kaam karna band kar dega?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -808,7 +1093,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wahh! Yeh toh double-check system hai! Genius technique!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -822,7 +1107,10 @@
       "type": "chat",
       "concept_id": "ti_plasmid_other_vectors",
       "level": 3,
-      "progress": { "current": 31, "total": 87 },
+      "progress": {
+        "current": 32,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -830,7 +1118,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha, toh plants ke liye alag vector chahiye hota hai?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -838,7 +1126,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Sab vectors ka apna specific use hai! Ab quiz karte hain Sir!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -852,14 +1140,29 @@
       "type": "quiz",
       "concept_id": "cloning_vector_quiz",
       "level": 3,
-      "progress": { "current": 32, "total": 87 },
+      "progress": {
+        "current": 33,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 1/3: Which of the following is NOT an essential feature of a cloning vector?",
         "options": [
-          { "id": "A", "text": "Origin of Replication (ori)" },
-          { "id": "B", "text": "Selectable Marker" },
-          { "id": "C", "text": "Restriction (Cloning) Sites" },
-          { "id": "D", "text": "Nucleus" }
+          {
+            "id": "A",
+            "text": "Origin of Replication (ori)"
+          },
+          {
+            "id": "B",
+            "text": "Selectable Marker"
+          },
+          {
+            "id": "C",
+            "text": "Restriction (Cloning) Sites"
+          },
+          {
+            "id": "D",
+            "text": "Nucleus"
+          }
         ],
         "correct_option_id": "D",
         "explanation": "A cloning vector needs: ori (for replication), Selectable Marker (for identifying transformants), and Cloning Sites (for inserting foreign DNA). Nucleus is NOT relevant - plasmids and phages don't have nuclei; they are extra-chromosomal or viral DNA molecules."
@@ -875,14 +1178,29 @@
       "type": "quiz",
       "concept_id": "cloning_vector_quiz",
       "level": 3,
-      "progress": { "current": 33, "total": 87 },
+      "progress": {
+        "current": 34,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 2/3: In pBR322, if a foreign gene is inserted at the BamHI site (within tet^R gene), what happens?",
         "options": [
-          { "id": "A", "text": "amp^R gene becomes inactive" },
-          { "id": "B", "text": "tet^R gene becomes inactive due to insertional inactivation" },
-          { "id": "C", "text": "Both amp^R and tet^R become inactive" },
-          { "id": "D", "text": "Nothing happens to either gene" }
+          {
+            "id": "A",
+            "text": "amp^R gene becomes inactive"
+          },
+          {
+            "id": "B",
+            "text": "tet^R gene becomes inactive due to insertional inactivation"
+          },
+          {
+            "id": "C",
+            "text": "Both amp^R and tet^R become inactive"
+          },
+          {
+            "id": "D",
+            "text": "Nothing happens to either gene"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "BamHI site is located WITHIN the tet^R gene in pBR322. When foreign DNA is inserted here, it disrupts (inactivates) the tet^R gene - this is called Insertional Inactivation. The amp^R gene remains intact, so recombinant bacteria will grow on Ampicillin medium but NOT on Tetracycline medium - this is how we select recombinants! ⭐ BPSC Multi-statement trap favorite!"
@@ -898,14 +1216,29 @@
       "type": "quiz",
       "concept_id": "cloning_vector_quiz",
       "level": 3,
-      "progress": { "current": 34, "total": 87 },
+      "progress": {
+        "current": 35,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 3/3: Ti plasmid, used as a vector for plant genetic engineering, is naturally found in:",
         "options": [
-          { "id": "A", "text": "Escherichia coli" },
-          { "id": "B", "text": "Agrobacterium tumefaciens" },
-          { "id": "C", "text": "Bacillus thuringiensis" },
-          { "id": "D", "text": "Saccharomyces cerevisiae" }
+          {
+            "id": "A",
+            "text": "Escherichia coli"
+          },
+          {
+            "id": "B",
+            "text": "Agrobacterium tumefaciens"
+          },
+          {
+            "id": "C",
+            "text": "Bacillus thuringiensis"
+          },
+          {
+            "id": "D",
+            "text": "Saccharomyces cerevisiae"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Ti (Tumor inducing) plasmid is naturally found in Agrobacterium tumefaciens, a bacterium that causes crown gall disease (tumors) in plants. Scientists have disarmed this plasmid (removed its disease-causing properties) and use it as a vector to introduce foreign genes into plant cells. ⭐ NEET/BPSC Favorite fact!"
@@ -921,7 +1254,10 @@
       "type": "milestone",
       "concept_id": "module_4_complete",
       "level": 3,
-      "progress": { "current": 35, "total": 87 },
+      "progress": {
+        "current": 36,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "🎖️ MODULE 4 MASTERED!",
         "badge_emoji": "🧫",
@@ -941,7 +1277,10 @@
       "type": "chat",
       "concept_id": "competent_cells_calcium",
       "level": 3,
-      "progress": { "current": 36, "total": 87 },
+      "progress": {
+        "current": 37,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -949,7 +1288,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh phir vector ko bacteria ke andar kaise daalein?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -957,7 +1296,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha, toh calcium se pores banate hain! Phir DNA kaise andar jaata hai?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -971,7 +1310,10 @@
       "type": "chat",
       "concept_id": "heat_shock_method",
       "level": 3,
-      "progress": { "current": 37, "total": 87 },
+      "progress": {
+        "current": 38,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -979,7 +1321,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achanak garam-thanda karne se DNA andar chala jaata hai? Interesting!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -987,7 +1329,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Kya sirf yahi ek tareeka hai gene ko andar daalne ka?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -1001,7 +1343,10 @@
       "type": "chat",
       "concept_id": "gene_gun_microinjection",
       "level": 3,
-      "progress": { "current": 38, "total": 87 },
+      "progress": {
+        "current": 39,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1009,7 +1354,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Gun se gene chalate hain?? Yeh toh sunne mein bahut ajeeb lag raha hai!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1017,7 +1362,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Okay Sir! Ab practice karte hain in sab methods pe!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1031,14 +1376,29 @@
       "type": "guess",
       "concept_id": "transfer_method_matching",
       "level": 3,
-      "progress": { "current": 39, "total": 87 },
+      "progress": {
+        "current": 40,
+        "total": 99
+      },
       "guess_payload": {
         "question": "Which method is BEST suited for introducing foreign genes into PLANT cells (with tough cell walls)?",
         "options": [
-          { "id": "A", "text": "Micro-injection only" },
-          { "id": "B", "text": "Heat shock with CaCl2 only" },
-          { "id": "C", "text": "Gene Gun (Biolistics) or Disarmed Ti plasmid vector" },
-          { "id": "D", "text": "Simple diffusion" }
+          {
+            "id": "A",
+            "text": "Micro-injection only"
+          },
+          {
+            "id": "B",
+            "text": "Heat shock with CaCl2 only"
+          },
+          {
+            "id": "C",
+            "text": "Gene Gun (Biolistics) or Disarmed Ti plasmid vector"
+          },
+          {
+            "id": "D",
+            "text": "Simple diffusion"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Plant cells have a tough cellulose cell wall, making simple methods like heat shock (used for bacteria) ineffective. Gene Gun (Biolistics) uses high-velocity DNA-coated particles to penetrate the cell wall, while Disarmed Ti plasmid (from Agrobacterium) naturally transfers genes into plant cells. ⭐ NEET Application-based question!"
@@ -1054,14 +1414,29 @@
       "type": "quiz",
       "concept_id": "gene_transfer_quiz",
       "level": 3,
-      "progress": { "current": 40, "total": 87 },
+      "progress": {
+        "current": 41,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 1/3: What is the purpose of treating bacterial cells with Calcium Chloride (CaCl2)?",
         "options": [
-          { "id": "A", "text": "To kill unwanted bacteria" },
-          { "id": "B", "text": "To make the cell wall porous for easy DNA entry (make cells competent)" },
-          { "id": "C", "text": "To increase bacterial growth rate" },
-          { "id": "D", "text": "To provide nutrition to bacteria" }
+          {
+            "id": "A",
+            "text": "To kill unwanted bacteria"
+          },
+          {
+            "id": "B",
+            "text": "To make the cell wall porous for easy DNA entry (make cells competent)"
+          },
+          {
+            "id": "C",
+            "text": "To increase bacterial growth rate"
+          },
+          {
+            "id": "D",
+            "text": "To provide nutrition to bacteria"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "CaCl2 treatment makes the bacterial cell wall porous, preparing the cells to take up foreign DNA. This process of making cells ready to accept DNA is called making cells 'competent'. This is followed by heat shock treatment (42°C) to facilitate DNA entry."
@@ -1077,14 +1452,29 @@
       "type": "quiz",
       "concept_id": "gene_transfer_quiz",
       "level": 3,
-      "progress": { "current": 41, "total": 87 },
+      "progress": {
+        "current": 42,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 2/3: The 'Gene Gun' or 'Biolistics' method uses which materials to carry DNA into cells?",
         "options": [
-          { "id": "A", "text": "Gold or Tungsten particles" },
-          { "id": "B", "text": "Copper wires" },
-          { "id": "C", "text": "Glass beads only" },
-          { "id": "D", "text": "Silver nanoparticles" }
+          {
+            "id": "A",
+            "text": "Gold or Tungsten particles"
+          },
+          {
+            "id": "B",
+            "text": "Copper wires"
+          },
+          {
+            "id": "C",
+            "text": "Glass beads only"
+          },
+          {
+            "id": "D",
+            "text": "Silver nanoparticles"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "In Biolistics (Gene Gun method), DNA is coated onto microscopic Gold or Tungsten particles, which are then shot at high velocity into plant cells to penetrate the tough cell wall. This method is widely used for plant genetic transformation."
@@ -1100,14 +1490,29 @@
       "type": "quiz",
       "concept_id": "gene_transfer_quiz",
       "level": 3,
-      "progress": { "current": 42, "total": 87 },
+      "progress": {
+        "current": 43,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 3/3: Micro-injection method of gene transfer directly delivers DNA into the:",
         "options": [
-          { "id": "A", "text": "Cell wall" },
-          { "id": "B", "text": "Nucleus of an animal cell" },
-          { "id": "C", "text": "Mitochondria only" },
-          { "id": "D", "text": "Cell membrane surface" }
+          {
+            "id": "A",
+            "text": "Cell wall"
+          },
+          {
+            "id": "B",
+            "text": "Nucleus of an animal cell"
+          },
+          {
+            "id": "C",
+            "text": "Mitochondria only"
+          },
+          {
+            "id": "D",
+            "text": "Cell membrane surface"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Micro-injection directly delivers DNA into the nucleus of an animal cell using a fine glass needle under a microscope. This method is used for creating transgenic animals like transgenic mice."
@@ -1123,7 +1528,10 @@
       "type": "milestone",
       "concept_id": "module_5_complete",
       "level": 3,
-      "progress": { "current": 43, "total": 87 },
+      "progress": {
+        "current": 44,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "🚀 MODULE 5 DONE!",
         "badge_emoji": "💉",
@@ -1143,7 +1551,10 @@
       "type": "chat",
       "concept_id": "rdna_process_overview",
       "level": 4,
-      "progress": { "current": 44, "total": 87 },
+      "progress": {
+        "current": 45,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1151,7 +1562,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab jaise ek recipe ke sab ingredients seekh liye, ab poori recipe banani hai?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1159,7 +1570,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, pehle step ‘Isolation of DNA’ mein exactly hota kya hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1173,7 +1584,10 @@
       "type": "chat",
       "concept_id": "dna_isolation_step",
       "level": 4,
-      "progress": { "current": 45, "total": 87 },
+      "progress": {
+        "current": 46,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1181,7 +1595,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha, cell todna padta hai! Phir RNA aur protein ko kaise alag karte hain DNA se?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1189,11 +1603,11 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh yeh purified DNA hi hum cut karenge Restriction Enzyme se?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
-        "next": "card_46_pcr_intro",
+        "next": "card_45b_dna_spooling",
         "button_text": "Amplification step dekho ➔"
       }
     },
@@ -1203,11 +1617,14 @@
       "type": "chat",
       "concept_id": "dna_precipitation_spooling",
       "level": 4,
-      "progress": { "current": 46, "total": 87 },
+      "progress": {
+        "current": 47,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, enzymes ne protein aur RNA toh khatam kar diye, par DNA abhi bhi liquid solution mein ghula hua hai. Usko hath se pakad ke bahar kaise nikalenge?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1215,7 +1632,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab thanda ethanol daalte hi DNA bahar dikhne lagti hai? Jaise doodh se chhena alag hota hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1233,7 +1650,10 @@
       "type": "chat",
       "concept_id": "pcr_introduction",
       "level": 4,
-      "progress": { "current": 46, "total": 87 },
+      "progress": {
+        "current": 48,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1241,7 +1661,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Lakhon copies?? Yeh toh photocopy machine jaisa laga!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1249,7 +1669,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Iske andar exactly kya process hoti hai Sir?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1263,7 +1683,10 @@
       "type": "chat",
       "concept_id": "pcr_components",
       "level": 4,
-      "progress": { "current": 47, "total": 87 },
+      "progress": {
+        "current": 49,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1271,7 +1694,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Taq Polymerase itna special kyun hai? Normal enzyme use nahi kar sakte?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1279,7 +1702,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hot springs wala bacteria! Interesting! Ab steps batao PCR ke."
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1293,7 +1716,10 @@
       "type": "chat",
       "concept_id": "pcr_three_steps",
       "level": 4,
-      "progress": { "current": 48, "total": 87 },
+      "progress": {
+        "current": 50,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1301,7 +1727,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, teeno steps mein temperature alag-alag kyun hoti hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1309,7 +1735,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh ek cycle mein double, phir 4 guna, phir 8 guna... yeh toh geometric progression hai!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1323,7 +1749,10 @@
       "type": "chat",
       "concept_id": "ligation_insertion_culturing",
       "level": 4,
-      "progress": { "current": 49, "total": 87 },
+      "progress": {
+        "current": 51,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1331,7 +1760,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh Ligase 'DNA ka gum' jaisa kaam karta hai?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1339,7 +1768,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aur last step - product extract karna?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1353,7 +1782,10 @@
       "type": "chat",
       "concept_id": "product_extraction",
       "level": 4,
-      "progress": { "current": 50, "total": 87 },
+      "progress": {
+        "current": 52,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1361,7 +1793,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bioreactor kya bilkul factory jaisa hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1369,7 +1801,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Poora process ab clear ho gaya! Practice karte hain Sir!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1383,14 +1815,29 @@
       "type": "quiz",
       "concept_id": "rdna_process_quiz",
       "level": 4,
-      "progress": { "current": 51, "total": 87 },
+      "progress": {
+        "current": 53,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 1/3: PCR was discovered by which scientist?",
         "options": [
-          { "id": "A", "text": "Werner Arber" },
-          { "id": "B", "text": "Kary Mullis" },
-          { "id": "C", "text": "Hamilton Smith" },
-          { "id": "D", "text": "Stanley Cohen" }
+          {
+            "id": "A",
+            "text": "Werner Arber"
+          },
+          {
+            "id": "B",
+            "text": "Kary Mullis"
+          },
+          {
+            "id": "C",
+            "text": "Hamilton Smith"
+          },
+          {
+            "id": "D",
+            "text": "Stanley Cohen"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Kary Mullis discovered PCR (Polymerase Chain Reaction) in 1985, for which he won the Nobel Prize. This should not be confused with Restriction Enzyme discovery (Arber, Smith, Nathans - 1978 Nobel Prize) or first rDNA experiment (Cohen and Boyer - 1972). ⭐ BPSC loves mixing up these scientist-discovery pairs!"
@@ -1406,14 +1853,29 @@
       "type": "quiz",
       "concept_id": "rdna_process_quiz",
       "level": 4,
-      "progress": { "current": 52, "total": 87 },
+      "progress": {
+        "current": 54,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 2/3: Taq Polymerase, used in PCR, is naturally obtained from which organism?",
         "options": [
-          { "id": "A", "text": "Escherichia coli" },
-          { "id": "B", "text": "Thermus aquaticus" },
-          { "id": "C", "text": "Agrobacterium tumefaciens" },
-          { "id": "D", "text": "Bacillus thuringiensis" }
+          {
+            "id": "A",
+            "text": "Escherichia coli"
+          },
+          {
+            "id": "B",
+            "text": "Thermus aquaticus"
+          },
+          {
+            "id": "C",
+            "text": "Agrobacterium tumefaciens"
+          },
+          {
+            "id": "D",
+            "text": "Bacillus thuringiensis"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Taq Polymerase is obtained from Thermus aquaticus, a bacterium that naturally lives in hot springs. Since PCR requires high temperatures (up to 95°C) for DNA denaturation, this heat-stable (thermostable) enzyme is essential as normal DNA polymerases would denature at such temperatures."
@@ -1429,14 +1891,29 @@
       "type": "quiz",
       "concept_id": "rdna_process_quiz",
       "level": 4,
-      "progress": { "current": 53, "total": 87 },
+      "progress": {
+        "current": 55,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 3/3: Arrange the correct order of PCR steps:",
         "options": [
-          { "id": "A", "text": "Annealing → Denaturation → Extension" },
-          { "id": "B", "text": "Denaturation → Annealing → Extension" },
-          { "id": "C", "text": "Extension → Denaturation → Annealing" },
-          { "id": "D", "text": "Denaturation → Extension → Annealing" }
+          {
+            "id": "A",
+            "text": "Annealing → Denaturation → Extension"
+          },
+          {
+            "id": "B",
+            "text": "Denaturation → Annealing → Extension"
+          },
+          {
+            "id": "C",
+            "text": "Extension → Denaturation → Annealing"
+          },
+          {
+            "id": "D",
+            "text": "Denaturation → Extension → Annealing"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "The correct PCR cycle order is:\n1. Denaturation (95°C) - DNA strands separate\n2. Annealing (~55°C) - Primers bind to complementary sequences\n3. Extension (72°C) - Taq Polymerase synthesizes new DNA strand\n\nThis cycle repeats 20-30 times for exponential amplification. ⭐ SSC/Railway sequence-based question!"
@@ -1452,7 +1929,10 @@
       "type": "milestone",
       "concept_id": "module_6_complete",
       "level": 4,
-      "progress": { "current": 54, "total": 87 },
+      "progress": {
+        "current": 56,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "🔥 MODULE 6 CRUSHED!",
         "badge_emoji": "🔬",
@@ -1472,7 +1952,10 @@
       "type": "chat",
       "concept_id": "bioreactor_necessity",
       "level": 4,
-      "progress": { "current": 55, "total": 87 },
+      "progress": {
+        "current": 57,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1480,7 +1963,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bilkul nahi Sir! Bahut zyada quantity chahiye hogi!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1488,7 +1971,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh yeh bahut precise control wali machine hogi na? Cell ko sahi environment chahiye hoga!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1502,7 +1985,10 @@
       "type": "chat",
       "concept_id": "bioreactor_types_detail",
       "level": 4,
-      "progress": { "current": 56, "total": 87 },
+      "progress": {
+        "current": 58,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1510,7 +1996,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, stirrer aur sparger dono ki zaroorat kyun hai? Ek se kaam nahi chalta?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1518,7 +2004,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Toh yeh bahut sophisticated tank hai! Product nikalne ke baad kya karte hain?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1532,7 +2018,10 @@
       "type": "chat",
       "concept_id": "downstream_processing_detail",
       "level": 4,
-      "progress": { "current": 57, "total": 87 },
+      "progress": {
+        "current": 59,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1540,7 +2029,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab jaise kacche maal ko refine karke final product banate hain factory mein?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1548,7 +2037,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Toh yeh sab steps mile ke ek medicine market tak pahunchti hai! Bahut lamba process hai!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -1562,14 +2051,29 @@
       "type": "quiz",
       "concept_id": "bioreactor_quiz",
       "level": 4,
-      "progress": { "current": 58, "total": 87 },
+      "progress": {
+        "current": 60,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 1/3: What is the primary purpose of a Bioreactor?",
         "options": [
-          { "id": "A", "text": "To store DNA samples at low temperature" },
-          { "id": "B", "text": "To grow microorganisms/cells at large scale to produce useful products" },
-          { "id": "C", "text": "To cut DNA using restriction enzymes" },
-          { "id": "D", "text": "To visualize DNA fragments" }
+          {
+            "id": "A",
+            "text": "To store DNA samples at low temperature"
+          },
+          {
+            "id": "B",
+            "text": "To grow microorganisms/cells at large scale to produce useful products"
+          },
+          {
+            "id": "C",
+            "text": "To cut DNA using restriction enzymes"
+          },
+          {
+            "id": "D",
+            "text": "To visualize DNA fragments"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "A Bioreactor is a large vessel (100-1000 litres) used to grow microorganisms or cells at large scale, providing optimum conditions (temperature, pH, oxygen, nutrients), to produce a specific product like Insulin, Growth Hormone, or Vaccines."
@@ -1585,14 +2089,29 @@
       "type": "quiz",
       "concept_id": "bioreactor_quiz",
       "level": 4,
-      "progress": { "current": 59, "total": 87 },
+      "progress": {
+        "current": 61,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 2/3: The most commonly used bioreactor type is:",
         "options": [
-          { "id": "A", "text": "Stirred Tank Bioreactor" },
-          { "id": "B", "text": "Photobioreactor only" },
-          { "id": "C", "text": "Fixed Bed Reactor only" },
-          { "id": "D", "text": "None of the above" }
+          {
+            "id": "A",
+            "text": "Stirred Tank Bioreactor"
+          },
+          {
+            "id": "B",
+            "text": "Photobioreactor only"
+          },
+          {
+            "id": "C",
+            "text": "Fixed Bed Reactor only"
+          },
+          {
+            "id": "D",
+            "text": "None of the above"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Stirred Tank Bioreactor is the most commonly used type. It has an agitator (stirrer) system that mixes the contents and provides oxygen, ensuring uniform distribution of nutrients and oxygen throughout the culture medium."
@@ -1608,14 +2127,29 @@
       "type": "quiz",
       "concept_id": "bioreactor_quiz",
       "level": 4,
-      "progress": { "current": 60, "total": 87 },
+      "progress": {
+        "current": 62,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 3/3: Downstream Processing includes all of the following EXCEPT:",
         "options": [
-          { "id": "A", "text": "Separation and purification of product" },
-          { "id": "B", "text": "Formulation with preservatives" },
-          { "id": "C", "text": "Clinical trials/Quality control testing" },
-          { "id": "D", "text": "Cutting DNA with restriction enzymes" }
+          {
+            "id": "A",
+            "text": "Separation and purification of product"
+          },
+          {
+            "id": "B",
+            "text": "Formulation with preservatives"
+          },
+          {
+            "id": "C",
+            "text": "Clinical trials/Quality control testing"
+          },
+          {
+            "id": "D",
+            "text": "Cutting DNA with restriction enzymes"
+          }
         ],
         "correct_option_id": "D",
         "explanation": "Downstream processing occurs AFTER the bioreactor stage and includes separation, purification, formulation (adding preservatives), and quality control testing. Cutting DNA with restriction enzymes happens much earlier, during the gene isolation/cloning stage - NOT part of downstream processing."
@@ -1631,7 +2165,10 @@
       "type": "milestone",
       "concept_id": "module_7_complete",
       "level": 4,
-      "progress": { "current": 61, "total": 87 },
+      "progress": {
+        "current": 63,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "🏭 MODULE 7 COMPLETE!",
         "badge_emoji": "⚗️",
@@ -1651,7 +2188,10 @@
       "type": "chat",
       "concept_id": "insulin_traditional_method",
       "level": 5,
-      "progress": { "current": 62, "total": 87 },
+      "progress": {
+        "current": 64,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1659,7 +2199,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hmm, kisi jaanwar se? Cow ya pig se?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1667,7 +2207,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh phir human insulin kaise banaya biotechnology se?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1681,7 +2221,10 @@
       "type": "chat",
       "concept_id": "insulin_ab_chains",
       "level": 5,
-      "progress": { "current": 63, "total": 87 },
+      "progress": {
+        "current": 65,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1689,7 +2232,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Do alag chains? Toh body mein yeh alag-alag banti hain?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1697,7 +2240,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Toh biotechnology se banate waqt yeh C-peptide wala step kaise handle karte hain?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1711,7 +2254,10 @@
       "type": "chat",
       "concept_id": "humulin_eli_lilly",
       "level": 5,
-      "progress": { "current": 64, "total": 87 },
+      "progress": {
+        "current": 66,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1719,7 +2265,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, unhone Chain A aur Chain B kaise banaye?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -1727,7 +2273,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Matlab do alag factories mein do parts banaye, phir jodkar final product banaya!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -1741,7 +2287,10 @@
       "type": "chat",
       "concept_id": "gene_therapy_concept",
       "level": 5,
-      "progress": { "current": 65, "total": 87 },
+      "progress": {
+        "current": 67,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1749,7 +2298,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Woh bimaar rahega uss gene ki kami se? Koi ilaaj hai kya iska?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1757,7 +2306,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Yeh toh ekdum sci-fi jaisa lag raha hai! Pehli baar kab use hua tha yeh?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1771,7 +2320,10 @@
       "type": "chat",
       "concept_id": "ada_deficiency_case",
       "level": 5,
-      "progress": { "current": 66, "total": 87 },
+      "progress": {
+        "current": 68,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1779,7 +2331,7 @@
         },
         {
           "speaker": "raju",
-          "text": "ADA deficiency? Yeh kya problem create karti hai body mein?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1787,7 +2339,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh patient ka naam bhi kuch record mein hai kya? Ya bas 1990 yaad rakhna hai?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1801,7 +2353,10 @@
       "type": "chat",
       "concept_id": "ashanti_desilva_case",
       "level": 5,
-      "progress": { "current": 67, "total": 87 },
+      "progress": {
+        "current": 69,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1809,7 +2364,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Toh cells ko bahar nikaal ke treat karke wapas daala? Yeh toh permanent ilaaj hoga?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1817,7 +2372,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Toh yeh limitation hai is technique ki! Practice karte hain ab?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -1831,14 +2386,29 @@
       "type": "quiz",
       "concept_id": "applications_quiz",
       "level": 5,
-      "progress": { "current": 68, "total": 87 },
+      "progress": {
+        "current": 70,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 1/3: 'Humulin', the first genetically engineered human insulin, was produced by which company in 1983?",
         "options": [
-          { "id": "A", "text": "Pfizer" },
-          { "id": "B", "text": "Eli Lilly" },
-          { "id": "C", "text": "Moderna" },
-          { "id": "D", "text": "Bayer" }
+          {
+            "id": "A",
+            "text": "Pfizer"
+          },
+          {
+            "id": "B",
+            "text": "Eli Lilly"
+          },
+          {
+            "id": "C",
+            "text": "Moderna"
+          },
+          {
+            "id": "D",
+            "text": "Bayer"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Eli Lilly company produced Humulin, the first genetically engineered human insulin, in 1983. Chain A and Chain B of insulin were produced separately in different E. coli vectors, then combined using disulfide bonds to form functional insulin. ⭐ BPSC Precise year-fact question!"
@@ -1854,14 +2424,29 @@
       "type": "quiz",
       "concept_id": "applications_quiz",
       "level": 5,
-      "progress": { "current": 69, "total": 87 },
+      "progress": {
+        "current": 71,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 2/3: Mature insulin consists of Chain A and Chain B connected by:",
         "options": [
-          { "id": "A", "text": "Hydrogen bonds only" },
-          { "id": "B", "text": "Disulfide bonds" },
-          { "id": "C", "text": "Peptide bonds directly" },
-          { "id": "D", "text": "Ionic bonds" }
+          {
+            "id": "A",
+            "text": "Hydrogen bonds only"
+          },
+          {
+            "id": "B",
+            "text": "Disulfide bonds"
+          },
+          {
+            "id": "C",
+            "text": "Peptide bonds directly"
+          },
+          {
+            "id": "D",
+            "text": "Ionic bonds"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Chain A and Chain B of mature insulin are connected by Disulfide bonds (bonds between sulfur atoms of cysteine residues). In the body, insulin is first synthesized as Pro-insulin with a C-peptide, which is later removed to form the mature, functional two-chain insulin."
@@ -1877,14 +2462,29 @@
       "type": "quiz",
       "concept_id": "applications_quiz",
       "level": 5,
-      "progress": { "current": 70, "total": 87 },
+      "progress": {
+        "current": 72,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 3/3: The first gene therapy (1990) was given to a child suffering from which condition?",
         "options": [
-          { "id": "A", "text": "Sickle Cell Anemia" },
-          { "id": "B", "text": "ADA (Adenosine Deaminase) Deficiency" },
-          { "id": "C", "text": "Down Syndrome" },
-          { "id": "D", "text": "Thalassemia" }
+          {
+            "id": "A",
+            "text": "Sickle Cell Anemia"
+          },
+          {
+            "id": "B",
+            "text": "ADA (Adenosine Deaminase) Deficiency"
+          },
+          {
+            "id": "C",
+            "text": "Down Syndrome"
+          },
+          {
+            "id": "D",
+            "text": "Thalassemia"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "The first gene therapy in 1990 was given to a child (Ashanti DeSilva) suffering from ADA (Adenosine Deaminase) deficiency, a genetic disorder causing severe immune system dysfunction. Since lymphocytes are not immortal, the treatment needed periodic repetition unless bone marrow stem cells are used for a permanent cure."
@@ -1900,7 +2500,10 @@
       "type": "milestone",
       "concept_id": "module_8_complete",
       "level": 5,
-      "progress": { "current": 71, "total": 87 },
+      "progress": {
+        "current": 73,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "💉 MODULE 8 ACED!",
         "badge_emoji": "🩺",
@@ -1920,7 +2523,10 @@
       "type": "chat",
       "concept_id": "gm_plants_definition",
       "level": 5,
-      "progress": { "current": 72, "total": 87 },
+      "progress": {
+        "current": 74,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1928,7 +2534,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir, TV pe suna hai! Yeh normal cotton se alag kaise hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1936,7 +2542,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Paudha khud pesticide banata hai?? Yeh toh amazing hai! Konsa bacteria hai yeh?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1950,7 +2556,10 @@
       "type": "chat",
       "concept_id": "bt_toxin_bacillus",
       "level": 5,
-      "progress": { "current": 73, "total": 87 },
+      "progress": {
+        "current": 75,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1958,7 +2567,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Cry genes? Yeh naam kyun rakha gaya inka?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1966,7 +2575,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Matlab yeh sirf insects ke andar hi active hota hai, humans ke liye toxic nahi hai?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1980,7 +2589,10 @@
       "type": "chat",
       "concept_id": "bt_toxin_activation",
       "level": 5,
-      "progress": { "current": 74, "total": 87 },
+      "progress": {
+        "current": 76,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -1988,7 +2600,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh active toxin banne ke baad kya hota hai insect ke andar?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1996,11 +2608,11 @@
         },
         {
           "speaker": "raju",
-          "text": "Genius mechanism hai yeh! Ab RNAi ke baare mein bhi jaanna hai!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
-        "next": "card_75_rnai_technology",
+        "next": "card_74b_cry_gene_types",
         "button_text": "RNAi samjho ➔"
       }
     },
@@ -2010,11 +2622,14 @@
       "type": "chat",
       "concept_id": "cry_gene_nomenclature_specificity",
       "level": 5,
-      "progress": { "current": 76, "total": 87 },
+      "progress": {
+        "current": 77,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, ek doubt hai. Agar kisi khet mein cotton nahi, balki makka (corn) laga ho, toh kya yahi Bt toxin wahan ke keedon par bhi kaam karega?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -2022,7 +2637,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab keeda badla toh gene bhi badlega? Inke alag-alag naam yaad rakhne honge?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -2040,7 +2655,10 @@
       "type": "chat",
       "concept_id": "rnai_mechanism_nematode",
       "level": 5,
-      "progress": { "current": 75, "total": 87 },
+      "progress": {
+        "current": 78,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -2048,7 +2666,7 @@
         },
         {
           "speaker": "raju",
-          "text": "RNA interference? Matlab RNA hi rok deta hai kaam?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -2056,7 +2674,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh RNAi se yeh nematode infection kaise roka jaata hai?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -2070,7 +2688,10 @@
       "type": "chat",
       "concept_id": "rnai_tobacco_nematode",
       "level": 5,
-      "progress": { "current": 76, "total": 87 },
+      "progress": {
+        "current": 79,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -2078,7 +2699,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Toh nematode khud apne aap ko survive nahi kar paata plant ke andar?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -2086,7 +2707,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wow! Yeh toh bahut smart natural defense strategy hai! Ab practice karein!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -2100,14 +2721,29 @@
       "type": "quiz",
       "concept_id": "gm_plants_quiz",
       "level": 5,
-      "progress": { "current": 77, "total": 87 },
+      "progress": {
+        "current": 80,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 1/3: Bt Cotton contains a gene from which bacterium?",
         "options": [
-          { "id": "A", "text": "Escherichia coli" },
-          { "id": "B", "text": "Bacillus thuringiensis" },
-          { "id": "C", "text": "Agrobacterium tumefaciens" },
-          { "id": "D", "text": "Thermus aquaticus" }
+          {
+            "id": "A",
+            "text": "Escherichia coli"
+          },
+          {
+            "id": "B",
+            "text": "Bacillus thuringiensis"
+          },
+          {
+            "id": "C",
+            "text": "Agrobacterium tumefaciens"
+          },
+          {
+            "id": "D",
+            "text": "Thermus aquaticus"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Bt Cotton contains the Cry gene from Bacillus thuringiensis (Bt), which produces a crystal protein toxin that kills bollworm insects. This protein remains inactive (as protoxin) until it enters the alkaline gut of the insect, where it becomes activated."
@@ -2123,14 +2759,29 @@
       "type": "quiz",
       "concept_id": "gm_plants_quiz",
       "level": 5,
-      "progress": { "current": 78, "total": 87 },
+      "progress": {
+        "current": 81,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 2/3: Why is Bt toxin (Cry protein) NOT harmful to humans despite being an insecticide?",
         "options": [
-          { "id": "A", "text": "Human gut is alkaline, so toxin doesn't activate" },
-          { "id": "B", "text": "Human gut is acidic, so protoxin doesn't get activated into toxic form" },
-          { "id": "C", "text": "Humans don't consume cotton" },
-          { "id": "D", "text": "Bt toxin only works on plants, not animals" }
+          {
+            "id": "A",
+            "text": "Human gut is alkaline, so toxin doesn't activate"
+          },
+          {
+            "id": "B",
+            "text": "Human gut is acidic, so protoxin doesn't get activated into toxic form"
+          },
+          {
+            "id": "C",
+            "text": "Humans don't consume cotton"
+          },
+          {
+            "id": "D",
+            "text": "Bt toxin only works on plants, not animals"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Bt toxin remains inactive as a protoxin until it enters an ALKALINE environment (like insect gut). Human digestive system is ACIDIC, so the protoxin never gets solubilized/activated into its toxic form. This is why Bt crops are considered safe for human consumption. ⭐ NEET conceptual trap question!"
@@ -2146,14 +2797,29 @@
       "type": "quiz",
       "concept_id": "gm_plants_quiz",
       "level": 5,
-      "progress": { "current": 79, "total": 87 },
+      "progress": {
+        "current": 82,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 3/3: RNAi technology used against nematode (Meloidogyne incognita) infection works by:",
         "options": [
-          { "id": "A", "text": "Directly killing the nematode with a toxin" },
-          { "id": "B", "text": "Producing dsRNA that silences a specific nematode gene needed for survival" },
-          { "id": "C", "text": "Blocking the nematode's respiratory system" },
-          { "id": "D", "text": "Making the plant taste bad to nematodes" }
+          {
+            "id": "A",
+            "text": "Directly killing the nematode with a toxin"
+          },
+          {
+            "id": "B",
+            "text": "Producing dsRNA that silences a specific nematode gene needed for survival"
+          },
+          {
+            "id": "C",
+            "text": "Blocking the nematode's respiratory system"
+          },
+          {
+            "id": "D",
+            "text": "Making the plant taste bad to nematodes"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "RNAi technology works by making the plant produce double-stranded RNA (dsRNA) complementary to a specific nematode mRNA. This dsRNA binds and silences the target gene through RNA interference, preventing normal gene expression needed for the nematode's survival/parasitic function - thus protecting the plant."
@@ -2169,7 +2835,10 @@
       "type": "milestone",
       "concept_id": "module_9_complete",
       "level": 5,
-      "progress": { "current": 80, "total": 87 },
+      "progress": {
+        "current": 83,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "🌾 MODULE 9 CONQUERED!",
         "badge_emoji": "🌱",
@@ -2189,7 +2858,10 @@
       "type": "chat",
       "concept_id": "transgenic_animals_diagnosis",
       "level": 6,
-      "progress": { "current": 81, "total": 87 },
+      "progress": {
+        "current": 84,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -2197,7 +2869,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Gaay ka doodh insaani baby ke liye behtar bana diya? Kya baat hai!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -2205,7 +2877,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Par Sir, itni powerful technology hai toh koi risk bhi hoga na? Koi rules-regulations?"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -2219,7 +2891,10 @@
       "type": "chat",
       "concept_id": "geac_cartagena_flavrsavr",
       "level": 6,
-      "progress": { "current": 82, "total": 87 },
+      "progress": {
+        "current": 85,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "aman",
@@ -2227,7 +2902,7 @@
         },
         {
           "speaker": "raju",
-          "text": "International level pe bhi kuch rules hain kya?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -2235,11 +2910,11 @@
         },
         {
           "speaker": "raju",
-          "text": "Achha! Toh yeh sab hone se pehle bahut checks hote hain! Ab last quiz karte hain Sir!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
-        "next": "card_83_quiz_final_module_q1",
+        "next": "card_82b_biopiracy_basmati",
         "button_text": "Quiz Time! ➔"
       }
     },
@@ -2249,11 +2924,14 @@
       "type": "chat",
       "concept_id": "biopiracy_basmati_dmh11",
       "level": 6,
-      "progress": { "current": 84, "total": 87 },
+      "progress": {
+        "current": 86,
+        "total": 99
+      },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, hamare deshon ke desi paudhe jaise neem, haldi aur basmati chawal toh sadiyon se hamare paas hain. Kya koi bahar ki company inpe apna adhikar jama sakti hai?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -2261,7 +2939,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain? Hamare chawal par unka patent? Phir Bharat ne kya kiya?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -2279,14 +2957,29 @@
       "type": "quiz",
       "concept_id": "transgenic_biosafety_quiz",
       "level": 6,
-      "progress": { "current": 83, "total": 87 },
+      "progress": {
+        "current": 87,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 1/3: 'Rosie', the first transgenic cow, was engineered to produce milk enriched with which human protein?",
         "options": [
-          { "id": "A", "text": "Insulin" },
-          { "id": "B", "text": "Alpha-lactalbumin" },
-          { "id": "C", "text": "Hemoglobin" },
-          { "id": "D", "text": "Growth Hormone" }
+          {
+            "id": "A",
+            "text": "Insulin"
+          },
+          {
+            "id": "B",
+            "text": "Alpha-lactalbumin"
+          },
+          {
+            "id": "C",
+            "text": "Hemoglobin"
+          },
+          {
+            "id": "D",
+            "text": "Growth Hormone"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Rosie, the first transgenic cow, was engineered to produce milk enriched with human alpha-lactalbumin protein, making the milk more nutritionally balanced for human babies compared to normal cow milk. This is a classic example of a transgenic animal application."
@@ -2302,14 +2995,29 @@
       "type": "quiz",
       "concept_id": "transgenic_biosafety_quiz",
       "level": 6,
-      "progress": { "current": 84, "total": 87 },
+      "progress": {
+        "current": 88,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 2/3: In India, which committee is responsible for approving the safety of GM organisms before commercial release?",
         "options": [
-          { "id": "A", "text": "UGC" },
-          { "id": "B", "text": "GEAC (Genetic Engineering Appraisal Committee)" },
-          { "id": "C", "text": "ISRO" },
-          { "id": "D", "text": "AICTE" }
+          {
+            "id": "A",
+            "text": "UGC"
+          },
+          {
+            "id": "B",
+            "text": "GEAC (Genetic Engineering Appraisal Committee)"
+          },
+          {
+            "id": "C",
+            "text": "ISRO"
+          },
+          {
+            "id": "D",
+            "text": "AICTE"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "GEAC (Genetic Engineering Appraisal Committee, now called Genetic Engineering Approval Committee) is the regulatory body in India responsible for assessing the safety of GM organisms and approving their release for research or commercial purposes. ⭐ BPSC/UPSC Prelims Favorite factual question!"
@@ -2325,14 +3033,29 @@
       "type": "quiz",
       "concept_id": "transgenic_biosafety_quiz",
       "level": 6,
-      "progress": { "current": 85, "total": 90 },
+      "progress": {
+        "current": 89,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "Quiz 3/3: 'Flavr Savr' tomato, the first GM food approved for consumption, was modified to:",
         "options": [
-          { "id": "A", "text": "Grow larger in size" },
-          { "id": "B", "text": "Delay ripening (softening) using antisense RNA technology" },
-          { "id": "C", "text": "Change its color to blue" },
-          { "id": "D", "text": "Produce its own pesticide" }
+          {
+            "id": "A",
+            "text": "Grow larger in size"
+          },
+          {
+            "id": "B",
+            "text": "Delay ripening (softening) using antisense RNA technology"
+          },
+          {
+            "id": "C",
+            "text": "Change its color to blue"
+          },
+          {
+            "id": "D",
+            "text": "Produce its own pesticide"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Flavr Savr tomato was the first genetically modified food approved for human consumption. It was engineered using antisense RNA technology to silence the gene responsible for producing an enzyme that causes fruit softening, thus delaying ripening and extending shelf life."
@@ -2348,7 +3071,10 @@
       "type": "milestone",
       "concept_id": "module_10_complete",
       "level": 6,
-      "progress": { "current": 86, "total": 90 },
+      "progress": {
+        "current": 90,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "🐄 MODULE 10 MASTERED!",
         "badge_emoji": "🔬",
@@ -2358,8 +3084,122 @@
         "motivational_quote": "Poora Biotechnology chapter clear! Ab Officer-level final revision karte hain! 💪"
       },
       "navigation": {
-        "next": "card_87_summary",
+        "next": "card_applied_case_01",
         "button_text": "Officer Revision Card ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Dahi jamane ke liye ghar mein purane dahi ka thoda starter doodh mein milaya jaata hai. Ismein kaunsa process kaam karta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Microbes ki fermentation"
+          },
+          {
+            "id": "B",
+            "text": "DNA ka melting"
+          },
+          {
+            "id": "C",
+            "text": "Blood clotting"
+          },
+          {
+            "id": "D",
+            "text": "Photosynthesis"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Starter culture ke microbes lactose ko ferment karke lactic acid banate hain; isi se doodh dahi banta hai."
+      },
+      "progress": {
+        "current": 91,
+        "total": 99
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: Ek patient ko human insulin ki zaroorat hai. Biotechnology mein bacteria se insulin banane ka best basic idea kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Human insulin gene ko suitable bacteria mein introduce karke protein banwana"
+          },
+          {
+            "id": "B",
+            "text": "Bacteria ko insulin khilana"
+          },
+          {
+            "id": "C",
+            "text": "Blood ko bacteria se filter karna"
+          },
+          {
+            "id": "D",
+            "text": "Insulin ko sunlight mein rakhna"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Gene transfer se bacteria insulin protein bana sakte hain; phir product ko purify aur test kiya jaata hai."
+      },
+      "progress": {
+        "current": 92,
+        "total": 99
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 3: Kisan aisi fasal chahta hai jo ek specific insect se kam nuksan uthaye. Kis approach se yeh trait laaya ja sakta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Targeted genetic modification ya breeding"
+          },
+          {
+            "id": "B",
+            "text": "Har plant ko pesticide se bhigo dena"
+          },
+          {
+            "id": "C",
+            "text": "Plant ko paani dena band karna"
+          },
+          {
+            "id": "D",
+            "text": "Seeds ko andhere mein rakhna"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Useful inherited trait ko breeding ya carefully designed genetic modification se introduce kiya ja sakta hai; safety testing zaroori hai."
+      },
+      "progress": {
+        "current": 93,
+        "total": 99
+      },
+      "navigation": {
+        "next": "card_87_summary",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2368,7 +3208,10 @@
       "type": "summary",
       "concept_id": "biotechnology_full_revision",
       "level": 6,
-      "progress": { "current": 87, "total": 90 },
+      "progress": {
+        "current": 94,
+        "total": 99
+      },
       "summary_payload": {
         "title": "⚡ OFFICER QUICK REVISION - Biotechnology",
         "revision_points": [
@@ -2413,14 +3256,29 @@
       "type": "final_quiz",
       "concept_id": "biotechnology_final_master_quiz",
       "level": 6,
-      "progress": { "current": 88, "total": 90 },
+      "progress": {
+        "current": 95,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "FINAL QUIZ 1/4 (BPSC Multi-Statement Level):\n\nStatement I: All restriction enzymes cut DNA at exactly the same type of palindromic sequence.\n\nStatement II: A cloning vector must have an origin of replication (ori), a selectable marker, and cloning sites.\n\nWhich is correct?",
         "options": [
-          { "id": "A", "text": "Only Statement I" },
-          { "id": "B", "text": "Only Statement II" },
-          { "id": "C", "text": "Both statements" },
-          { "id": "D", "text": "Neither statement" }
+          {
+            "id": "A",
+            "text": "Only Statement I"
+          },
+          {
+            "id": "B",
+            "text": "Only Statement II"
+          },
+          {
+            "id": "C",
+            "text": "Both statements"
+          },
+          {
+            "id": "D",
+            "text": "Neither statement"
+          }
         ],
         "correct_option_id": "B",
         "explanation": "Statement I is FALSE: Different restriction enzymes recognize DIFFERENT palindromic sequences (e.g., EcoRI recognizes GAATTC, while other enzymes recognize different sequences). Each enzyme is specific to its own recognition site.\n\nStatement II is TRUE: These three features (ori, selectable marker, cloning sites) are indeed essential for any effective cloning vector.\n\n⭐ BPSC Pattern: Testing whether students overgeneralize specific facts!"
@@ -2436,14 +3294,29 @@
       "type": "final_quiz",
       "concept_id": "biotechnology_final_master_quiz",
       "level": 6,
-      "progress": { "current": 89, "total": 90 },
+      "progress": {
+        "current": 96,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "FINAL QUIZ 2/4 (NEET Assertion-Reason):\n\nAssertion (A): Bt cotton plants are resistant to bollworm attack.\n\nReason (R): The Cry protein produced by Bt cotton is toxic in its native/inactive form even before entering the insect gut.\n\nChoose the correct option:",
         "options": [
-          { "id": "A", "text": "Both A and R are true, and R is the correct explanation of A" },
-          { "id": "B", "text": "Both A and R are true, but R is NOT the correct explanation of A" },
-          { "id": "C", "text": "A is true, but R is false" },
-          { "id": "D", "text": "A is false, but R is true" }
+          {
+            "id": "A",
+            "text": "Both A and R are true, and R is the correct explanation of A"
+          },
+          {
+            "id": "B",
+            "text": "Both A and R are true, but R is NOT the correct explanation of A"
+          },
+          {
+            "id": "C",
+            "text": "A is true, but R is false"
+          },
+          {
+            "id": "D",
+            "text": "A is false, but R is true"
+          }
         ],
         "correct_option_id": "C",
         "explanation": "Assertion is TRUE: Bt cotton plants are indeed resistant to bollworm attack because they produce Cry protein toxin.\n\nReason is FALSE: The Cry protein is produced as an INACTIVE protoxin, NOT in its toxic form. It only becomes activated (toxic) after entering the ALKALINE gut environment of the insect. The protoxin itself is not toxic.\n\n⭐ NEET Trap: Tests precise understanding of Bt toxin ACTIVATION mechanism, not just its existence!"
@@ -2459,14 +3332,29 @@
       "type": "final_quiz",
       "concept_id": "biotechnology_final_master_quiz",
       "level": 6,
-      "progress": { "current": 90, "total": 92 },
+      "progress": {
+        "current": 97,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "FINAL QUIZ 3/4 (UPSC Prelims Level):\n\nWhich of the following statements regarding gene therapy for ADA deficiency (1990) is/are CORRECT?\n\n1. It was the world's first approved gene therapy case.\n2. Functional ADA gene was introduced into the patient's lymphocytes using a retrovirus vector.\n3. This treatment provides a permanent, one-time cure since lymphocytes are immortal.\n4. A permanent cure requires introducing the ADA gene into bone marrow stem cells.\n\nSelect the correct answer:",
         "options": [
-          { "id": "A", "text": "1, 2 and 4 only" },
-          { "id": "B", "text": "1, 2 and 3 only" },
-          { "id": "C", "text": "2 and 3 only" },
-          { "id": "D", "text": "All four statements" }
+          {
+            "id": "A",
+            "text": "1, 2 and 4 only"
+          },
+          {
+            "id": "B",
+            "text": "1, 2 and 3 only"
+          },
+          {
+            "id": "C",
+            "text": "2 and 3 only"
+          },
+          {
+            "id": "D",
+            "text": "All four statements"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Statements 1, 2, and 4 are CORRECT:\n1. ✅ First approved gene therapy case (1990)\n2. ✅ Retrovirus vector used to introduce ADA gene into lymphocytes\n4. ✅ Permanent cure requires bone marrow stem cells (since these continuously produce new cells)\n\nStatement 3 is WRONG: Lymphocytes are NOT immortal - they have a limited lifespan, which is exactly why the treatment needs to be repeated periodically unless stem cells are targeted.\n\n⭐ UPSC Pattern: Multi-statement with one deliberately false 'plausible-sounding' statement!"
@@ -2482,14 +3370,29 @@
       "type": "final_quiz",
       "concept_id": "biotechnology_final_master_quiz",
       "level": 6,
-      "progress": { "current": 91, "total": 92 },
+      "progress": {
+        "current": 98,
+        "total": 99
+      },
       "quiz_payload": {
         "question": "FINAL QUIZ 4/4 (SSC CGL/Railway Speed-Fact Level):\n\nMatch the following correctly:\nA. Insertional Inactivation - 1. Ti Plasmid\nB. Molecular Scissors - 2. tet^R gene disruption\nC. Plant Tumor-inducing vector - 3. Restriction Enzymes\nD. Heat-stable DNA Polymerase - 4. Taq Polymerase",
         "options": [
-          { "id": "A", "text": "A-2, B-3, C-1, D-4" },
-          { "id": "B", "text": "A-1, B-2, C-3, D-4" },
-          { "id": "C", "text": "A-3, B-2, C-4, D-1" },
-          { "id": "D", "text": "A-4, B-1, C-2, D-3" }
+          {
+            "id": "A",
+            "text": "A-2, B-3, C-1, D-4"
+          },
+          {
+            "id": "B",
+            "text": "A-1, B-2, C-3, D-4"
+          },
+          {
+            "id": "C",
+            "text": "A-3, B-2, C-4, D-1"
+          },
+          {
+            "id": "D",
+            "text": "A-4, B-1, C-2, D-3"
+          }
         ],
         "correct_option_id": "A",
         "explanation": "Correct Matching:\nA. Insertional Inactivation → 2. tet^R gene disruption (when foreign DNA disrupts a marker gene)\nB. Molecular Scissors → 3. Restriction Enzymes (cut DNA at specific sites)\nC. Plant Tumor-inducing vector → 1. Ti Plasmid (from Agrobacterium tumefaciens)\nD. Heat-stable DNA Polymerase → 4. Taq Polymerase (from Thermus aquaticus)\n\n⭐ Railway/SSC Pattern: Terminology matching tests overall conceptual clarity across the full chapter!"
@@ -2505,7 +3408,10 @@
       "type": "milestone",
       "concept_id": "chapter_complete_biotechnology",
       "level": 6,
-      "progress": { "current": 92, "total": 92 },
+      "progress": {
+        "current": 99,
+        "total": 99
+      },
       "milestone_payload": {
         "title": "👑 BIOTECHNOLOGY MASTERED! 👑",
         "badge_emoji": "🧬",

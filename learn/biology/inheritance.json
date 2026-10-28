@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims"
+    "UPSC Prelims",
+    "RRB Group D"
   ],
-  "total_cards": 80,
+  "total_cards": 84,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 80
+        "total": 84
       },
       "intro_payload": {
         "chapter_icon": "🧬",
@@ -43,7 +44,8 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims"
+          "UPSC Prelims",
+          "RRB Group D"
         ],
         "learning_outcomes": [
           "Understand Mendel's Laws of Inheritance with full exam traps",
@@ -52,7 +54,9 @@
           "Understand Linkage, Crossing Over & Chromosome Theory",
           "Master Sex Determination & Sex-Linked Inheritance",
           "Learn Mutations, Genetic Disorders & Pedigree Analysis",
-          "Crack BPSC multi-statement & NEET equation-level questions"
+          "Crack BPSC multi-statement & NEET equation-level questions",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
         ],
         "modules": [
           "Module 1: What is Inheritance? (Daily Life Hook)",
@@ -67,11 +71,67 @@
           "Module 10: Sex-Linked Inheritance & Colour Blindness",
           "Module 11: Mutations & Chromosomal Disorders",
           "Module 12: Final Officer Revision & Master Quiz"
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
         ]
       },
       "navigation": {
-        "next": "card_02_daily_life_hook",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning 🚀"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 84
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Inheritance ka matlab parents se bachchon tak traits ka jaana hai. Aankhon ka rang ya kuch blood features genes se prabhavit hote hain. Genes DNA ke chhote instructions jaise hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha Sir, abhi tak sab clear hai."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_daily_life_hook",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -81,8 +141,8 @@
       "concept_id": "inheritance_introduction",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 80
+        "current": 3,
+        "total": 84
       },
       "messages": [
         {
@@ -91,7 +151,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, meri mummy ki aankh kaali hai, papa ki bhi kaali... aur meri bhi kaali hi hai. Ye toh normal hai na?"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -99,7 +159,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Arey wah Sir! Matlab body ke features bhi virasat mein milte hain? Lekin ye kaise hota hai exactly?"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -114,8 +174,8 @@
       "concept_id": "heredity_variation_definition",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 80
+        "current": 4,
+        "total": 84
       },
       "messages": [
         {
@@ -124,7 +184,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Ek padri ne matar ke daane se itni badi discovery ki? Ye toh funny lag raha hai Sir!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -132,7 +192,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! 1866 mein publish, lekin recognize 1900 mein. Sir ye yaad rakhna padega!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -147,8 +207,8 @@
       "concept_id": "mendel_pea_plant_advantages",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 80
+        "current": 5,
+        "total": 84
       },
       "messages": [
         {
@@ -157,7 +217,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, 7 traits matlab 7 alag-alag cheezein? Kaunsi kaunsi?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -165,7 +225,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye toh bahut saari cheezein hain Sir! Mix ho jayegi! Yaad kaise rakhun?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -180,8 +240,8 @@
       "concept_id": "mendel_seven_traits",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 80
+        "current": 6,
+        "total": 84
       },
       "guess_payload": {
         "question": "Mendel ne matar ke kaun se trait mein tall vs dwarf study kiya tha? Aur tall ka result kya aaya jab dono ko cross karaya?",
@@ -219,8 +279,8 @@
       "concept_id": "mendel_basics",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 80
+        "current": 7,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Gregor Mendel ki research paper officially publish hui thi kis saal?",
@@ -257,8 +317,8 @@
       "concept_id": "mendel_pea_advantages",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 80
+        "current": 8,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Mendel ne Pisum sativum (matar) par kitne contrasting traits study kiye?",
@@ -295,8 +355,8 @@
       "concept_id": "genetics_father",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 80
+        "current": 9,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Niche diye gaye statements mein se kaunsa/kaunse sahi hai/hain?\n(I) Mendel ek Austrian monk the.\n(II) Mendel ne apna kaam ek monastery garden mein kiya.\n(III) Mendel ko unke jeevan mein hi 'Father of Genetics' ghoshit kiya gaya.\n(IV) Mendel ki paper 1866 mein publish hui thi.",
@@ -333,8 +393,8 @@
       "concept_id": "module1_complete",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 80
+        "current": 10,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 1 COMPLETE! 🎉",
@@ -356,8 +416,8 @@
       "concept_id": "law_of_dominance",
       "level": 2,
       "progress": {
-        "current": 10,
-        "total": 80
+        "current": 11,
+        "total": 84
       },
       "messages": [
         {
@@ -366,7 +426,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab jo zyada powerful hai woh dikhta hai, aur jo kamzor hai woh chhup jaata hai?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -374,7 +434,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohhh! Toh T aur t ek dusre ke alleles hue? Ye toh samajh aa gaya Sir!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -389,8 +449,8 @@
       "concept_id": "genotype_phenotype",
       "level": 2,
       "progress": {
-        "current": 11,
-        "total": 80
+        "current": 12,
+        "total": 84
       },
       "messages": [
         {
@@ -399,7 +459,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? TT aur Tt dono tall dikhenge? Toh inhe kaise pehchanen ki kaunsa TT hai aur kaunsa Tt?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -407,7 +467,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Waah! Ye toh detective work jaisa hai! Andar se kya hai ye jaanne ke liye test karo!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -422,8 +482,8 @@
       "concept_id": "homozygous_heterozygous",
       "level": 2,
       "progress": {
-        "current": 12,
-        "total": 80
+        "current": 13,
+        "total": 84
       },
       "messages": [
         {
@@ -432,7 +492,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, 'true breeding' matlab kya hota hai exactly?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -440,7 +500,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir, bilkul ready! Ye segregation wala kya hota hai?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -455,8 +515,8 @@
       "concept_id": "law_of_segregation",
       "level": 2,
       "progress": {
-        "current": 13,
-        "total": 80
+        "current": 14,
+        "total": 84
       },
       "messages": [
         {
@@ -465,7 +525,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab maa-baap ke genes gamete mein split ho jaate hain? Jaise apni property dono bachon mein barabar baant do?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -473,7 +533,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! 'Law of Purity of Gametes' — ye naam exams mein poochhte hain Sir?"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -488,8 +548,8 @@
       "concept_id": "law_of_dominance_segregation",
       "level": 2,
       "progress": {
-        "current": 14,
-        "total": 80
+        "current": 15,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Mendel ka 'Law of Segregation' ka doosra naam kya hai?",
@@ -526,8 +586,8 @@
       "concept_id": "genotype_phenotype_quiz",
       "level": 2,
       "progress": {
-        "current": 15,
-        "total": 80
+        "current": 16,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Ek pea plant ka genotype 'Tt' hai. Uska phenotype kya hoga jab T = Tall dominant aur t = dwarf recessive?",
@@ -564,8 +624,8 @@
       "concept_id": "test_cross",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 80
+        "current": 17,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Test Cross mein unknown genotype wale individual ko kis se cross karaya jaata hai?",
@@ -602,8 +662,8 @@
       "concept_id": "module2_complete",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 80
+        "current": 18,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 2 DONE! 🏆",
@@ -625,8 +685,8 @@
       "concept_id": "monohybrid_cross",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 80
+        "current": 19,
+        "total": 84
       },
       "messages": [
         {
@@ -635,7 +695,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Kya aaya F2 mein, Sir?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -643,7 +703,7 @@
         },
         {
           "speaker": "raju",
-          "text": "3:1 aur 1:2:1 — Sir ye dono alag-alag hain na? Ye confuse karenge!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -658,8 +718,8 @@
       "concept_id": "punnett_square",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 80
+        "current": 20,
+        "total": 84
       },
       "messages": [
         {
@@ -668,7 +728,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Toh 4 combinations mein 1 TT, 2 Tt, 1 tt — that's 1:2:1 genotype ratio! Aur dikhne mein TT aur Tt dono tall = 3 tall, 1 tt dwarf = 3:1 phenotype ratio! Sir samajh gaya!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -676,7 +736,7 @@
         },
         {
           "speaker": "raju",
-          "text": "7324 seeds! Haan yaar, ek monk ne itni mehnat ki — respect hai Sir!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -691,8 +751,8 @@
       "concept_id": "f1_f2_generation_recap",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 80
+        "current": 21,
+        "total": 84
       },
       "messages": [
         {
@@ -701,7 +761,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan! Matlab recessive F1 mein chhup gaya tha, F2 mein wapas aa gaya — genes destroy nahi hote, sirf chhup jaate hain!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -709,7 +769,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Isliye kabhi kabhi disease kahan se aayi ye samajh nahi aata! Chhupa hua recessive tha!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -724,8 +784,8 @@
       "concept_id": "monohybrid_ratio",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 80
+        "current": 22,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Monohybrid cross mein F2 generation ka phenotypic ratio kya hota hai?",
@@ -762,8 +822,8 @@
       "concept_id": "punnett_square_quiz",
       "level": 2,
       "progress": {
-        "current": 22,
-        "total": 80
+        "current": 23,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Punnett Square kis scientist ne develop kiya tha?",
@@ -800,8 +860,8 @@
       "concept_id": "f2_generation_trap",
       "level": 2,
       "progress": {
-        "current": 23,
-        "total": 80
+        "current": 24,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Mendel ne matar ke round (RR) aur wrinkled (rr) seeds ko cross karaya. F2 generation mein approximately kitne seeds round the aur kitne wrinkled, agar total 7324 seeds the?",
@@ -838,8 +898,8 @@
       "concept_id": "module3_complete",
       "level": 2,
       "progress": {
-        "current": 24,
-        "total": 80
+        "current": 25,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 3 CLEARED! 🌟",
@@ -861,8 +921,8 @@
       "concept_id": "law_independent_assortment",
       "level": 3,
       "progress": {
-        "current": 25,
-        "total": 80
+        "current": 26,
+        "total": 84
       },
       "messages": [
         {
@@ -871,7 +931,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, ab F2 mein kya aayega? Mujhe lagta hai sirf round-yellow aur wrinkled-green aayenge!"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -879,7 +939,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab seed shape aur seed color ek doosre ko affect nahi karte? Ye independent hain? Ekdum amazing!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -894,8 +954,8 @@
       "concept_id": "dihybrid_9331_ratio",
       "level": 3,
       "progress": {
-        "current": 26,
-        "total": 80
+        "current": 27,
+        "total": 84
       },
       "messages": [
         {
@@ -904,7 +964,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Matlab ye law sirf tab kaam karta hai jab genes alag chromosomes par hon? Same chromosome par hote toh problem?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -912,7 +972,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hahaha! Mendel lucky bhi tha aur brilliant bhi! Interesting Sir!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -927,8 +987,8 @@
       "concept_id": "dihybrid_cross_ratio",
       "level": 3,
       "progress": {
-        "current": 27,
-        "total": 80
+        "current": 28,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Dihybrid cross (RrYy × RrYy) ke F2 generation mein phenotypic ratio kya hota hai?",
@@ -965,8 +1025,8 @@
       "concept_id": "independent_assortment_condition",
       "level": 3,
       "progress": {
-        "current": 28,
-        "total": 80
+        "current": 29,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Law of Independent Assortment kab apply hota hai?",
@@ -1003,8 +1063,8 @@
       "concept_id": "dihybrid_newcombinations",
       "level": 3,
       "progress": {
-        "current": 29,
-        "total": 80
+        "current": 30,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Dihybrid cross RRYY × rryy mein F1 generation ka genotype kya hoga?",
@@ -1041,8 +1101,8 @@
       "concept_id": "module4_complete",
       "level": 3,
       "progress": {
-        "current": 30,
-        "total": 80
+        "current": 31,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 4 SMASHED! 💥",
@@ -1064,8 +1124,8 @@
       "concept_id": "incomplete_dominance",
       "level": 3,
       "progress": {
-        "current": 31,
-        "total": 80
+        "current": 32,
+        "total": 84
       },
       "messages": [
         {
@@ -1074,7 +1134,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Agar Mendel sahi hai toh red hi aana chahiye tha na? Pink kyun aaya? Blending ho gayi?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1082,7 +1142,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Woh toh Mendel wala 3:1 phenotypic ratio change ho gaya! 1:2:1 ho gaya phenotype mein bhi! Ye toh exam mein pakka confuse karega!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1097,8 +1157,8 @@
       "concept_id": "codominance",
       "level": 3,
       "progress": {
-        "current": 32,
-        "total": 80
+        "current": 33,
+        "total": 84
       },
       "messages": [
         {
@@ -1107,7 +1167,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab incomplete dominance mein mix ho jaata hai — pink, aur codominance mein dono saath apna dikhate hain — AB jaise? Ye toh bilkul alag hai!"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1115,7 +1175,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, incomplete dominance = blend, codominance = dono saath — ye yaad rakhna padega!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1130,8 +1190,8 @@
       "concept_id": "incomplete_dominance_quiz",
       "level": 3,
       "progress": {
-        "current": 33,
-        "total": 80
+        "current": 34,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Snapdragon (Antirrhinum) mein red (RR) × white (rr) cross se F1 mein pink flowers aate hain. F1 × F1 cross se F2 mein phenotypic ratio kya hoga?",
@@ -1168,8 +1228,8 @@
       "concept_id": "codominance_vs_incomplete",
       "level": 3,
       "progress": {
-        "current": 34,
-        "total": 80
+        "current": 35,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Codominance ka sabse best example kaunsa hai?",
@@ -1206,8 +1266,8 @@
       "concept_id": "dominance_types_trap",
       "level": 3,
       "progress": {
-        "current": 35,
-        "total": 80
+        "current": 36,
+        "total": 84
       },
       "quiz_payload": {
         "question": "BPSC Trap: Niche mein se kaunsa statement GALAT hai?\n(I) Incomplete dominance mein F2 phenotypic ratio 1:2:1 hota hai.\n(II) Codominance mein ek allele doosre ko dabata hai.\n(III) AB blood group codominance ka example hai.\n(IV) Snapdragon mein pink F1 incomplete dominance dikhata hai.",
@@ -1244,8 +1304,8 @@
       "concept_id": "module5_complete",
       "level": 3,
       "progress": {
-        "current": 36,
-        "total": 80
+        "current": 37,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 5 CONQUERED! 🎯",
@@ -1267,8 +1327,8 @@
       "concept_id": "multiple_alleles_abo",
       "level": 3,
       "progress": {
-        "current": 37,
-        "total": 80
+        "current": 38,
+        "total": 84
       },
       "messages": [
         {
@@ -1277,7 +1337,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Teen alleles hain lekin apne andar sirf 2? Matlab ye teeno sabke andar divided hain?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1285,7 +1345,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Toh O group wala sirf 'ii' hai — koi antigen nahi? Aur AB mein dono — A bhi B bhi? Amazing Sir!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1300,8 +1360,8 @@
       "concept_id": "abo_blood_group_genetics",
       "level": 3,
       "progress": {
-        "current": 38,
-        "total": 80
+        "current": 39,
+        "total": 84
       },
       "messages": [
         {
@@ -1310,7 +1370,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, O group universal donor aur AB universal recipient — ye toh bahut important hai! Lekin antibodies kya hoti hain?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1318,7 +1378,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Karl Landsteiner! 1901! Ye toh Nobel Prize wali discovery hogi Sir?"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1333,8 +1393,8 @@
       "concept_id": "abo_blood_group_quiz",
       "level": 3,
       "progress": {
-        "current": 39,
-        "total": 80
+        "current": 40,
+        "total": 84
       },
       "quiz_payload": {
         "question": "ABO Blood Group system discover kiya tha:",
@@ -1371,8 +1431,8 @@
       "concept_id": "blood_group_genotype",
       "level": 3,
       "progress": {
-        "current": 40,
-        "total": 80
+        "current": 41,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Ek vyakti ka blood group 'O' hai. Uska possible genotype kya hoga?",
@@ -1409,8 +1469,8 @@
       "concept_id": "universal_donor_recipient",
       "level": 3,
       "progress": {
-        "current": 41,
-        "total": 80
+        "current": 42,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Multi-statement: ABO blood groups ke baare mein:\n(I) O group universal donor hai kyunki surface par koi antigen nahi.\n(II) AB group universal recipient hai kyunki plasma mein koi antibody nahi.\n(III) A group ke blood mein anti-B antibody hoti hai.\n(IV) B group ke blood mein anti-A aur anti-B dono antibodies hoti hain.",
@@ -1447,8 +1507,8 @@
       "concept_id": "module6_complete",
       "level": 3,
       "progress": {
-        "current": 42,
-        "total": 80
+        "current": 43,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 6 DONE! 🩸",
@@ -1470,8 +1530,8 @@
       "concept_id": "linkage_morgan",
       "level": 4,
       "progress": {
-        "current": 43,
-        "total": 80
+        "current": 44,
+        "total": 84
       },
       "messages": [
         {
@@ -1480,7 +1540,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Drosophila ko kyun choose kiya Morgan ne? Matar ki tarah koi khaas wajah thi?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1488,7 +1548,7 @@
         },
         {
           "speaker": "raju",
-          "text": "1933 mein Nobel! Sir Drosophila toh bahut powerful machli nikli!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1503,8 +1563,8 @@
       "concept_id": "crossing_over_recombination",
       "level": 4,
       "progress": {
-        "current": 44,
-        "total": 80
+        "current": 45,
+        "total": 84
       },
       "messages": [
         {
@@ -1513,7 +1573,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab chromosomes literally apne pieces exchange karte hain? Like two jigsaw puzzles ke pieces swap karo?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1521,7 +1581,7 @@
         },
         {
           "speaker": "raju",
-          "text": "centiMorgan! Morgan ke naam par unit! Ye toh bahut badi baat hai Sir!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1536,8 +1596,8 @@
       "concept_id": "linkage_crossing_over_quiz",
       "level": 4,
       "progress": {
-        "current": 45,
-        "total": 80
+        "current": 46,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Thomas Hunt Morgan ne kis organism par kaam karke Linkage discover kiya?",
@@ -1574,8 +1634,8 @@
       "concept_id": "crossing_over_chiasma",
       "level": 4,
       "progress": {
-        "current": 46,
-        "total": 80
+        "current": 47,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Crossing Over kab hota hai?",
@@ -1612,8 +1672,8 @@
       "concept_id": "genetic_distance_unit",
       "level": 4,
       "progress": {
-        "current": 47,
-        "total": 80
+        "current": 48,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Genetic distance ki unit kya hai jo Morgan ke naam par rakhi gayi hai?",
@@ -1650,8 +1710,8 @@
       "concept_id": "module7_complete",
       "level": 4,
       "progress": {
-        "current": 48,
-        "total": 80
+        "current": 49,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 7 CLEAR! 🦟",
@@ -1673,8 +1733,8 @@
       "concept_id": "sex_determination_xx_xy",
       "level": 4,
       "progress": {
-        "current": 49,
-        "total": 80
+        "current": 50,
+        "total": 84
       },
       "messages": [
         {
@@ -1683,7 +1743,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Matlab baby ka sex toh baap ke sperm se decide hota hai — maa se nahi? Hain?? Toh jo log maa ko blame karte hain ladki paida hone par woh bilkul galat hain!"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -1691,7 +1751,7 @@
         },
         {
           "speaker": "raju",
-          "text": "XO type grasshopper mein! Ek X aur koi Y nahi male mein? Interesting Sir!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1706,8 +1766,8 @@
       "concept_id": "sex_determination_types",
       "level": 4,
       "progress": {
-        "current": 50,
-        "total": 80
+        "current": 51,
+        "total": 84
       },
       "messages": [
         {
@@ -1716,7 +1776,7 @@
         },
         {
           "speaker": "raju",
-          "text": "ZW type mein female mein alag chromosomes? Matlab birds mein female 'heterogametic' hoti hai? Ulta insaan se!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1724,7 +1784,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye mix ho jayega! XY, XO, ZW, honeybee — itne types! Kaise yaad rakhe?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -1739,8 +1799,8 @@
       "concept_id": "sex_determination_quiz",
       "level": 4,
       "progress": {
-        "current": 51,
-        "total": 80
+        "current": 52,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Pakshiyon (Birds) mein sex determination kis type se hota hai?",
@@ -1777,8 +1837,8 @@
       "concept_id": "sex_chromosomes_human",
       "level": 4,
       "progress": {
-        "current": 52,
-        "total": 80
+        "current": 53,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Manushya mein ek larki paida hogi jab:\n(I) X-bearing sperm X-egg fertilize kare\n(II) Y-bearing sperm X-egg fertilize kare\n(III) Fertilized egg XX ho\n(IV) Fertilized egg XY ho",
@@ -1815,8 +1875,8 @@
       "concept_id": "heterogametic_homogametic",
       "level": 4,
       "progress": {
-        "current": 53,
-        "total": 80
+        "current": 54,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Insects mein se kaun 'XO type' sex determination follow karta hai jahan male mein sirf ek X chromosome hota hai?",
@@ -1853,8 +1913,8 @@
       "concept_id": "module8_complete",
       "level": 4,
       "progress": {
-        "current": 54,
-        "total": 80
+        "current": 55,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 8 CLEARED! ⚧",
@@ -1876,8 +1936,8 @@
       "concept_id": "sex_linked_inheritance",
       "level": 4,
       "progress": {
-        "current": 55,
-        "total": 80
+        "current": 56,
+        "total": 84
       },
       "messages": [
         {
@@ -1886,7 +1946,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Males mein zyada kyun? Females mein kyun kam?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1894,7 +1954,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Males ke paas backup nahi hota! Female ke paas doosra X backup hai! Smart concept Sir!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1909,8 +1969,8 @@
       "concept_id": "haemophilia_sex_linked",
       "level": 4,
       "progress": {
-        "current": 56,
-        "total": 80
+        "current": 57,
+        "total": 84
       },
       "messages": [
         {
@@ -1919,7 +1979,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Queen Victoria carrier thi aur disease puri Europe ki royal families mein phail gayi? Ye toh real life thriller hai Sir!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1927,7 +1987,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Factor VIII aur Factor IX — Haemophilia A aur B alag hain! Ye confuse kar sakta tha Sir!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -1942,8 +2002,8 @@
       "concept_id": "colour_blindness_quiz",
       "level": 4,
       "progress": {
-        "current": 57,
-        "total": 80
+        "current": 58,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Colour Blindness males mein females se zyada kyun hoti hai?",
@@ -1980,8 +2040,8 @@
       "concept_id": "haemophilia_quiz",
       "level": 4,
       "progress": {
-        "current": 58,
-        "total": 80
+        "current": 59,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Haemophilia B kis clotting factor ki kami se hota hai?",
@@ -2018,8 +2078,8 @@
       "concept_id": "royal_disease_carrier",
       "level": 4,
       "progress": {
-        "current": 59,
-        "total": 80
+        "current": 60,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Haemophilia ko 'Royal Disease' kyun kaha jaata hai?",
@@ -2056,8 +2116,8 @@
       "concept_id": "module9_complete",
       "level": 4,
       "progress": {
-        "current": 60,
-        "total": 80
+        "current": 61,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 9 DONE! 👑",
@@ -2079,8 +2139,8 @@
       "concept_id": "mutations_introduction",
       "level": 5,
       "progress": {
-        "current": 61,
-        "total": 80
+        "current": 62,
+        "total": 84
       },
       "messages": [
         {
@@ -2089,7 +2149,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hugo De Vries ne mutation theory di? Ye wahi De Vries hain jo Mendel ka kaam rediscover karne wale teen logon mein se ek the?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -2097,7 +2157,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sickle Cell Anaemia mutation se hoti hai? Ye toh khoon ki bimari hai Sir!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -2112,8 +2172,8 @@
       "concept_id": "chromosomal_disorders",
       "level": 5,
       "progress": {
-        "current": 62,
-        "total": 80
+        "current": 63,
+        "total": 84
       },
       "messages": [
         {
@@ -2122,7 +2182,7 @@
         },
         {
           "speaker": "raju",
-          "text": "47 chromosomes! Extra chromosome 21! Ye number yaad rakhna hai Sir. Aur kaunse disorders hain?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -2130,7 +2190,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Trisomy 21, 18, 13 — Down, Edward, Patau — aur sex chromosomes mein Turner aur Klinefelter! Sir ye toh poori list hai!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -2145,8 +2205,8 @@
       "concept_id": "mendelian_genetic_disorders",
       "level": 5,
       "progress": {
-        "current": 63,
-        "total": 80
+        "current": 64,
+        "total": 84
       },
       "messages": [
         {
@@ -2155,7 +2215,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sickle Cell Anaemia mein ek amino acid change — glutamic acid ki jagah valine! Itni chhoti si galti se poori bimaari!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -2163,7 +2223,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Wah! Ek disease jo malaria se bachati bhi hai! Nature ka kya jugaad hai yaar!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -2178,8 +2238,8 @@
       "concept_id": "down_syndrome_quiz",
       "level": 5,
       "progress": {
-        "current": 64,
-        "total": 80
+        "current": 65,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Down Syndrome mein chromosome ki kaunsi abnormality hoti hai?",
@@ -2216,8 +2276,8 @@
       "concept_id": "sickle_cell_mutation",
       "level": 5,
       "progress": {
-        "current": 65,
-        "total": 80
+        "current": 66,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Sickle Cell Anaemia mein beta-globin gene mein kaunsa amino acid substitution hota hai?",
@@ -2254,8 +2314,8 @@
       "concept_id": "genetic_disorders_trap",
       "level": 5,
       "progress": {
-        "current": 66,
-        "total": 80
+        "current": 67,
+        "total": 84
       },
       "quiz_payload": {
         "question": "BPSC Multi-Statement: Niche diye statements mein kaunsa/kaunse SAHI hain?\n(I) Turner Syndrome mein female ka karyotype 45,XO hota hai.\n(II) Klinefelter Syndrome mein male ka karyotype 47,XXY hota hai.\n(III) Sickle Cell Anaemia autosomal dominant disorder hai.\n(IV) Down Syndrome ka doosra naam Trisomy 21 hai.",
@@ -2292,8 +2352,8 @@
       "concept_id": "module10_complete",
       "level": 5,
       "progress": {
-        "current": 67,
-        "total": 80
+        "current": 68,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 10 CLEARED! 🧬",
@@ -2315,8 +2375,8 @@
       "concept_id": "pedigree_analysis",
       "level": 5,
       "progress": {
-        "current": 68,
-        "total": 80
+        "current": 69,
+        "total": 84
       },
       "messages": [
         {
@@ -2325,7 +2385,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir pedigree mein kaise pata chalega ki autosomal hai ya sex-linked?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -2333,7 +2393,7 @@
         },
         {
           "speaker": "raju",
-          "text": "5 rules pedigree ke liye! Sir, generation skip = recessive, har generation = dominant — ye key points hain!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -2348,8 +2408,8 @@
       "concept_id": "chromosome_theory_of_heredity",
       "level": 5,
       "progress": {
-        "current": 69,
-        "total": 80
+        "current": 70,
+        "total": 84
       },
       "messages": [
         {
@@ -2358,7 +2418,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sutton aur Boveri! 1902-1903! Toh Mendel ke 1866 ke baad 36-37 saal mein chromosomes se link hua?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -2366,7 +2426,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Jumping genes?! Barbara McClintock! 1983 Nobel! Ye toh bilkul naya concept tha Sir — koi batata nahi!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -2381,8 +2441,8 @@
       "concept_id": "chromosome_theory_quiz",
       "level": 5,
       "progress": {
-        "current": 70,
-        "total": 80
+        "current": 71,
+        "total": 84
       },
       "quiz_payload": {
         "question": "'Chromosomal Theory of Inheritance' kis/kinhe ne propose kiya?",
@@ -2419,8 +2479,8 @@
       "concept_id": "pedigree_rules_quiz",
       "level": 5,
       "progress": {
-        "current": 71,
-        "total": 80
+        "current": 72,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Pedigree analysis mein — agar disease generations skip karti hai (aati hai, phir ek generation nahi aati, phir aati hai) — toh trait probably kaunsa hai?",
@@ -2457,8 +2517,8 @@
       "concept_id": "transposons_mcclintock",
       "level": 5,
       "progress": {
-        "current": 72,
-        "total": 80
+        "current": 73,
+        "total": 84
       },
       "quiz_payload": {
         "question": "'Jumping Genes' (Transposons) kine ne discover kiya aur unhe Nobel Prize kis saal mila?",
@@ -2495,8 +2555,8 @@
       "concept_id": "module11_complete",
       "level": 5,
       "progress": {
-        "current": 73,
-        "total": 80
+        "current": 74,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 11 DONE! 🎖️",
@@ -2507,8 +2567,122 @@
         "motivational_quote": "Almost officer ban gaye! Sirf final revision aur Master Quiz baaki hai!"
       },
       "navigation": {
-        "next": "card_74_final_summary",
+        "next": "card_applied_case_01",
         "button_text": "Start Final Module ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 1: Tall plant (Tt) ko dwarf plant (tt) se cross kiya. Agar T dominant hai, offspring mein kya sambhav hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lagbhag aadhe tall aur aadhe dwarf"
+          },
+          {
+            "id": "B",
+            "text": "Sabhi dwarf"
+          },
+          {
+            "id": "C",
+            "text": "Sabhi TT"
+          },
+          {
+            "id": "D",
+            "text": "Koi bhi plant nahi ugega"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Tt × tt se Tt aur tt ke barabar chances hote hain; isliye simple Mendelian model mein 1:1 tall:dwarf."
+      },
+      "progress": {
+        "current": 75,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 2: Bachche ka blood group parents se milta-julta ho sakta hai, par bilkul ek jaisa hona zaroori nahi. Iska basic reason kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bachcha har parent se gene/allele ka set paata hai"
+          },
+          {
+            "id": "B",
+            "text": "Sirf mother blood group decide karti hai"
+          },
+          {
+            "id": "C",
+            "text": "Food se genes badal jaate hain"
+          },
+          {
+            "id": "D",
+            "text": "Blood group environment se roz badalta hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Inheritance mein offspring ko alleles parents se milte hain; combination ke hisaab se trait banta hai."
+      },
+      "progress": {
+        "current": 76,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Applied case 3: Ek family mein dono parents ka ek recessive trait chhupa hua hai (carrier). Bachche mein trait dikhne ke liye kya hona chahiye?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dono se recessive allele milna"
+          },
+          {
+            "id": "B",
+            "text": "Sirf ek dominant allele milna"
+          },
+          {
+            "id": "C",
+            "text": "Koi allele na milna"
+          },
+          {
+            "id": "D",
+            "text": "Sirf environment change hona"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Simple recessive inheritance mein trait tab dikhta hai jab offspring ko dono parents se recessive allele mile."
+      },
+      "progress": {
+        "current": 77,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_74_final_summary",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2518,8 +2692,8 @@
       "concept_id": "full_chapter_revision",
       "level": 5,
       "progress": {
-        "current": 74,
-        "total": 80
+        "current": 78,
+        "total": 84
       },
       "summary_payload": {
         "title": "⚡ Officer Rapid Revision — Inheritance Biology",
@@ -2558,8 +2732,8 @@
       "concept_id": "master_quiz_1",
       "level": 5,
       "progress": {
-        "current": 75,
-        "total": 80
+        "current": 79,
+        "total": 84
       },
       "quiz_payload": {
         "question": "BPSC Officer Level — Multi-Statement:\nNiche diye statements mein se kaunse SAHI hain?\n(I) Mendel ka Law of Segregation 'Law of Purity of Gametes' ke naam se bhi jaana jaata hai.\n(II) Dihybrid cross mein F2 ka phenotypic ratio 9:3:3:1 tab hota hai jab dono genes unlinked hon.\n(III) Incomplete dominance mein F2 phenotypic ratio 3:1 hota hai jab F1 × F1 cross karaya jaata hai.\n(IV) Codominance mein ek allele doosre allele ke phenotype ko suppress karta hai.\n(V) ABO blood group ek Multiple Allele system hai jisme I^A aur I^B codominant hain.",
@@ -2596,8 +2770,8 @@
       "concept_id": "master_quiz_2",
       "level": 5,
       "progress": {
-        "current": 76,
-        "total": 80
+        "current": 80,
+        "total": 84
       },
       "quiz_payload": {
         "question": "NEET Level — Assertion-Reason:\nAssertion (A): Sickle Cell Anaemia ke heterozygous carriers (HbA HbS) malaria se relatively protected hote hain.\nReason (R): HbS (sickle haemoglobin) ki presence malaria parasite Plasmodium ke liye RBC ko hostile environment banati hai.\n\nNiche diye options mein se sahi answer chuniye:",
@@ -2634,8 +2808,8 @@
       "concept_id": "master_quiz_3",
       "level": 5,
       "progress": {
-        "current": 77,
-        "total": 80
+        "current": 81,
+        "total": 84
       },
       "quiz_payload": {
         "question": "BPSC/UPSC Level — Scientists aur Discoveries Match:\n(I) Mendel — (a) Jumping Genes\n(II) Morgan — (b) ABO Blood Groups\n(III) Landsteiner — (c) Linkage in Drosophila\n(IV) McClintock — (d) Laws of Inheritance\n\nSahi match karo:",
@@ -2672,8 +2846,8 @@
       "concept_id": "master_quiz_4",
       "level": 5,
       "progress": {
-        "current": 78,
-        "total": 80
+        "current": 82,
+        "total": 84
       },
       "quiz_payload": {
         "question": "SSC CGL/RRB NTPC Speed Fact — Multi-Statement:\n(I) Turner Syndrome mein karyotype 45,XO hota hai aur patient female hoti hai.\n(II) Klinefelter Syndrome mein karyotype 47,XXY hota hai aur patient male hota hai.\n(III) Down Syndrome mein chromosome 18 ki extra copy hoti hai.\n(IV) Haemophilia A mein clotting Factor IX ki kami hoti hai.\n(V) Pea plant (Pisum sativum) mein 7 pairs chromosomes hote hain.",
@@ -2710,8 +2884,8 @@
       "concept_id": "master_quiz_5",
       "level": 5,
       "progress": {
-        "current": 79,
-        "total": 80
+        "current": 83,
+        "total": 84
       },
       "quiz_payload": {
         "question": "NEET Level Genetics Integration:\nEk couple mein pati ka blood group A (genotype I^A i) aur patni ka blood group B (genotype I^B i) hai. Unki santaan mein kaunse-kaunse blood groups possible hain?",
@@ -2748,8 +2922,8 @@
       "concept_id": "chapter_complete",
       "level": 5,
       "progress": {
-        "current": 80,
-        "total": 80
+        "current": 84,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER COMPLETE! OFFICER LEVEL ACHIEVED!",

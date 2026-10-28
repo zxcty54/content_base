@@ -1,1 +1,725 @@
-
+{
+  "topic_id": "units_measurement_physics",
+  "topic_title": "Units, Measurement & Scientific Notation",
+  "target_exams": [
+    "RRB Group D",
+    "RRB NTPC",
+    "BPSC",
+    "BSSC"
+  ],
+  "total_cards": 22,
+  "characters": {
+    "aman": {
+      "name": "Aman Sir",
+      "role": "teacher",
+      "avatar": "👨‍🏫"
+    },
+    "raju": {
+      "name": "Raju",
+      "role": "student",
+      "avatar": "👦"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "units_measurement_physics_intro",
+      "level": 1,
+      "intro_payload": {
+        "title": "Units, Measurement & Scientific Notation",
+        "icon": "📏",
+        "subtitle": "Zero se Railway basics, phir advanced applications",
+        "target_exams": [
+          "RRB Group D",
+          "RRB NTPC",
+          "BPSC",
+          "BSSC"
+        ],
+        "learning_outcomes": [
+          "Physical quantity, unit aur measurement ka seedha matlab",
+          "SI base units aur common derived units",
+          "Unit conversion, prefixes aur scientific notation",
+          "Accuracy, precision, least count aur measurement error",
+          "Railway formulas aur dimensional checking"
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB ke direct facts, units, formulas aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Examples aur common confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice with explanations using earlier concepts."
+          }
+        ]
+      },
+      "progress": {
+        "current": 1,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_02_measurement_basics",
+        "button_text": "Start Learning ➔"
+      }
+    },
+    {
+      "card_id": "card_02_measurement_basics",
+      "card_slug": "card_02_measurement_basics",
+      "type": "chat",
+      "concept_id": "measurement",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Measurement ka matlab kisi quantity ko standard unit se compare karna hai. Length batate waqt sirf “5” kaafi nahi—5 metre ya 5 centimetre batana hota hai. Number measurement ka size batata hai; unit uska scale batati hai. Har reading mein value aur unit dono likho."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, isi baat par dhyan deta hoon."
+        }
+      ],
+      "progress": {
+        "current": 2,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_03_si_base_units",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_03_si_base_units",
+      "card_slug": "card_03_si_base_units",
+      "type": "chat",
+      "concept_id": "si_base_units",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "SI duniya bhar mein istemal hone wala standard unit system hai. Basic quantities ke units mein length—metre (m), mass—kilogram (kg), time—second (s), electric current—ampere (A), temperature—kelvin (K) shamil hain. Railway point: force SI mein newton (N), energy joule (J), power watt (W) hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, ab baat samajh mein aa rahi hai."
+        }
+      ],
+      "progress": {
+        "current": 3,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_04_derived_units",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_04_derived_units",
+      "card_slug": "card_04_derived_units",
+      "type": "chat",
+      "concept_id": "derived_units",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Derived unit base units ko multiply ya divide karke banta hai. Speed = distance/time, isliye unit m/s. Acceleration = speed/time, isliye m/s². Force = mass × acceleration, isliye kg·m/s², jise newton (N) kehte hain. Formula se unit nikalna yaad karne se zyada bharosemand hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
+        }
+      ],
+      "progress": {
+        "current": 4,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_05_prefixes",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_05_prefixes",
+      "card_slug": "card_05_prefixes",
+      "type": "chat",
+      "concept_id": "metric_prefixes",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Prefixes bahut bade ya chhote numbers ko aasaan banate hain: kilo = 1000, centi = 1/100, milli = 1/1000, micro = 10⁻⁶. Isliye 1 km = 1000 m aur 1 m = 100 cm. Conversion mein pehle prefix ka factor likho, phir number badlo."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, ab baat samajh mein aa rahi hai."
+        }
+      ],
+      "progress": {
+        "current": 5,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_06_scientific_notation",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_06_scientific_notation",
+      "card_slug": "card_06_scientific_notation",
+      "type": "chat",
+      "concept_id": "scientific_notation",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Bahut bade/chhote number ko scientific notation mein a × 10ⁿ likhte hain, jahan 1 ≤ a < 10. Jaise 300000 = 3 × 10⁵ aur 0.0004 = 4 × 10⁻⁴. Advanced calculations mein powers of ten se multiplication/division aasaan hoti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
+        }
+      ],
+      "progress": {
+        "current": 6,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_07_scalars_vectors",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_07_scalars_vectors",
+      "card_slug": "card_07_scalars_vectors",
+      "type": "chat",
+      "concept_id": "scalar_vector",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Scalar quantity mein sirf size hota hai—mass, time, temperature. Vector mein size ke saath direction bhi hoti hai—displacement, velocity, force. Daily example: “5 km” distance batata hai; “5 km east” direction bhi batata hai. Railway mein distance aur displacement ka farq poocha ja sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
+        }
+      ],
+      "progress": {
+        "current": 7,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_08_accuracy_precision",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_08_accuracy_precision",
+      "card_slug": "card_08_accuracy_precision",
+      "type": "chat",
+      "concept_id": "accuracy_precision",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Accuracy ka matlab reading true value ke kitne paas hai; precision ka matlab baar-baar ki readings aapas mein kitni milti hain. Ek weighing machine har baar 2 kg zyada dikhaye to readings precise ho sakti hain, par accurate nahi. Har measurement mein instrument aur reading ka error ho sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Abhi ka main point clear hai."
+        }
+      ],
+      "progress": {
+        "current": 8,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_09_least_count",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_09_least_count",
+      "card_slug": "card_09_least_count",
+      "type": "chat",
+      "concept_id": "least_count",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Least count instrument ki sabse chhoti readable division hoti hai. Ruler ki divisions 1 mm ho to uski least count 1 mm hai. Chhoti least count se fine measurement mil sakti hai, lekin sahi reading ke liye instrument ko zero par check karna bhi zaroori hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main pehle isi concept ko pakka karunga."
+        }
+      ],
+      "progress": {
+        "current": 9,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_10_dimensions",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_10_dimensions",
+      "card_slug": "card_10_dimensions",
+      "type": "chat",
+      "concept_id": "dimensions",
+      "level": 4,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Dimensional formula batata hai ki quantity mass (M), length (L), time (T) jaise base quantities par kaise depend karti hai. Speed ka dimension LT⁻¹ aur force ka MLT⁻² hai. Equation ke dono sides ke dimensions milne chahiye; is test se galat formula pakda ja sakta hai, par sahi numerical constant prove nahi hota."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main pehle isi concept ko pakka karunga."
+        }
+      ],
+      "progress": {
+        "current": 10,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_11_density_measurement",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_11_density_measurement",
+      "card_slug": "card_11_density_measurement",
+      "type": "chat",
+      "concept_id": "density",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Density = mass/volume. SI unit kg/m³ hai; chhote samples mein g/cm³ bhi use hota hai. Same volume ke iron aur sponge ka mass alag hota hai kyunki density alag hoti hai. Formula se unknown mass ya volume nikaal sakte ho, bas units ko pehle consistent banao."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
+        }
+      ],
+      "progress": {
+        "current": 11,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_12_measurement_errors",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_12_measurement_errors",
+      "card_slug": "card_12_measurement_errors",
+      "type": "chat",
+      "concept_id": "measurement_error",
+      "level": 4,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Random error readings ko kabhi thoda zyada, kabhi thoda kam kar sakta hai; repeated readings ka mean madad karta hai. Systematic error har reading ko ek hi taraf shift karta hai, jaise zero error. Instrument ko calibrate karna systematic error kam karta hai. Significant figures result ki justified precision dikhate hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
+        }
+      ],
+      "progress": {
+        "current": 12,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_13_measurement_example",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_13_measurement_example",
+      "card_slug": "card_13_measurement_example",
+      "type": "chat",
+      "concept_id": "unit_conversion_application",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Example: 72 km/h ko m/s mein badlo. 1 km = 1000 m aur 1 h = 3600 s, isliye 72 × 1000/3600 = 20 m/s. Shortcut: km/h ko m/s mein badalne ke liye 5/18 se multiply; m/s ko km/h mein badalne ke liye 18/5 se."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
+        }
+      ],
+      "progress": {
+        "current": 13,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_14_quiz_si",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_14_quiz_si",
+      "card_slug": "card_14_quiz_si",
+      "type": "quiz",
+      "concept_id": "si_base_units",
+      "level": 1,
+      "quiz_payload": {
+        "question": "Electric current ka SI base unit kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ampere"
+          },
+          {
+            "id": "B",
+            "text": "Volt"
+          },
+          {
+            "id": "C",
+            "text": "Ohm"
+          },
+          {
+            "id": "D",
+            "text": "Watt"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Ampere electric current ka SI base unit hai. Volt potential difference, ohm resistance aur watt power ki unit hai."
+      },
+      "progress": {
+        "current": 14,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_15_quiz_derived",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_15_quiz_derived",
+      "card_slug": "card_15_quiz_derived",
+      "type": "quiz",
+      "concept_id": "derived_units",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Force ki SI unit kaun si hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Newton"
+          },
+          {
+            "id": "B",
+            "text": "Joule"
+          },
+          {
+            "id": "C",
+            "text": "Pascal"
+          },
+          {
+            "id": "D",
+            "text": "Coulomb"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Force = mass × acceleration; SI base units kg·m/s² ko newton (N) kehte hain."
+      },
+      "progress": {
+        "current": 15,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_16_quiz_conversion",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_16_quiz_conversion",
+      "card_slug": "card_16_quiz_conversion",
+      "type": "quiz",
+      "concept_id": "unit_conversion_application",
+      "level": 2,
+      "quiz_payload": {
+        "question": "36 km/h barabar kitne m/s hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 m/s"
+          },
+          {
+            "id": "B",
+            "text": "18 m/s"
+          },
+          {
+            "id": "C",
+            "text": "36 m/s"
+          },
+          {
+            "id": "D",
+            "text": "100 m/s"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "km/h ko m/s mein badalne ke liye 5/18 se multiply: 36 × 5/18 = 10 m/s."
+      },
+      "progress": {
+        "current": 16,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_17_quiz_scalar",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_17_quiz_scalar",
+      "card_slug": "card_17_quiz_scalar",
+      "type": "quiz",
+      "concept_id": "scalar_vector",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Inmein se vector quantity kaunsi hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Force"
+          },
+          {
+            "id": "B",
+            "text": "Mass"
+          },
+          {
+            "id": "C",
+            "text": "Time"
+          },
+          {
+            "id": "D",
+            "text": "Temperature"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Force ka size aur direction dono hote hain, isliye force vector hai."
+      },
+      "progress": {
+        "current": 17,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_18_quiz_dimensions",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_18_quiz_dimensions",
+      "card_slug": "card_18_quiz_dimensions",
+      "type": "quiz",
+      "concept_id": "dimensions",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Speed ka dimensional formula kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "LT⁻¹"
+          },
+          {
+            "id": "B",
+            "text": "LT⁻²"
+          },
+          {
+            "id": "C",
+            "text": "MLT⁻²"
+          },
+          {
+            "id": "D",
+            "text": "ML²T⁻²"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Speed = distance/time, isliye dimension L/T ya LT⁻¹ hota hai."
+      },
+      "progress": {
+        "current": 18,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_applied_case_01",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Train ki speed 72 km/h hai. Meters per second mein yeh kitni hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "20 m/s"
+          },
+          {
+            "id": "B",
+            "text": "10 m/s"
+          },
+          {
+            "id": "C",
+            "text": "36 m/s"
+          },
+          {
+            "id": "D",
+            "text": "72 m/s"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "72 × 5/18 = 20 m/s. Unit conversion mein km ko m aur hour ko seconds mein badlo."
+      },
+      "progress": {
+        "current": 19,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: 2 kg trolley ko 3 m/s² acceleration milti hai. Net force kitna hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "6 N"
+          },
+          {
+            "id": "B",
+            "text": "5 N"
+          },
+          {
+            "id": "C",
+            "text": "1.5 N"
+          },
+          {
+            "id": "D",
+            "text": "0.67 N"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Newton ke second law se F = ma = 2 × 3 = 6 N."
+      },
+      "progress": {
+        "current": 20,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 3: Ek chhote block ka mass 200 g aur volume 100 cm³ hai. Density kya hogi?",
+        "options": [
+          {
+            "id": "A",
+            "text": "2 g/cm³"
+          },
+          {
+            "id": "B",
+            "text": "0.5 g/cm³"
+          },
+          {
+            "id": "C",
+            "text": "20 g/cm³"
+          },
+          {
+            "id": "D",
+            "text": "200 g/cm³"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Density = mass/volume = 200/100 = 2 g/cm³."
+      },
+      "progress": {
+        "current": 21,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_summary",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_summary",
+      "card_slug": "card_summary",
+      "type": "summary",
+      "concept_id": "units_measurement_physics_summary",
+      "level": 4,
+      "summary_payload": {
+        "title": "Quick Revision",
+        "revision_points": [
+          {
+            "topic": "SI units",
+            "point": "Length—m; mass—kg; time—s; current—A; temperature—K. Force—N; energy—J; power—W."
+          },
+          {
+            "topic": "Conversions",
+            "point": "Prefixes ke powers of ten likhkar convert karo; km/h → m/s mein 5/18, reverse mein 18/5."
+          },
+          {
+            "topic": "Measurement quality",
+            "point": "Accuracy true value se paas; precision repeated readings ki closeness; least count instrument ki smallest division."
+          },
+          {
+            "topic": "Advanced check",
+            "point": "Equation ke dono sides ke dimensions same hone chahiye; dimensional analysis numerical constant nahi batata."
+          }
+        ]
+      },
+      "progress": {
+        "current": 22,
+        "total": 22
+      },
+      "navigation": {
+        "next": null,
+        "button_text": "Final Practice ➔"
+      }
+    }
+  ]
+}

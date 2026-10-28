@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims"
+    "UPSC Prelims",
+    "RRB Group D"
   ],
-  "total_cards": 80,
+  "total_cards": 84,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 80
+        "total": 84
       },
       "intro_payload": {
         "chapter_icon": "🧠",
@@ -43,7 +44,8 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims"
+          "UPSC Prelims",
+          "RRB Group D"
         ],
         "learning_outcomes": [
           "Understand the structure of a Neuron with all parts and types",
@@ -52,7 +54,9 @@
           "Understand Spinal Cord structure and Reflex Action mechanism",
           "Master the divisions of Nervous System — CNS, PNS, ANS",
           "Learn Sensory organs — Eye and Ear structure & function",
-          "Crack BPSC multi-statement & NEET diagram-level questions"
+          "Crack BPSC multi-statement & NEET diagram-level questions",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
         ],
         "modules": [
           "Module 1: What is Nervous System? (Daily Life Hook)",
@@ -66,11 +70,67 @@
           "Module 9: Eye — Structure & Function",
           "Module 10: Ear — Structure & Function",
           "Module 11: Final Officer Revision & Master Quiz"
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
         ]
       },
       "navigation": {
-        "next": "card_02_daily_hook",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning 🚀"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 84
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Nervous system body ka message network hai. Brain control centre hai, spinal cord main raasta hai, aur nerves messages ko body ke parts tak le jaati hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Abhi tak ka example clear hai."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_daily_hook",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -80,8 +140,8 @@
       "concept_id": "nervous_system_introduction",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 80
+        "current": 3,
+        "total": 84
       },
       "messages": [
         {
@@ -90,7 +150,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Haan Sir! Kabhi kabhi toh haath apne aap hata leta hoon kuch goram cheez se — matlab sochne se pehle hi ho jaata hai! Ye system kya hai exactly?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -98,7 +158,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Neuron! Matlab nerve cell? Ye toh bahut interesting lag raha hai Sir — bijli ki tarah signal jaata hai body mein?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -113,8 +173,8 @@
       "concept_id": "nervous_system_overview",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 80
+        "current": 4,
+        "total": 84
       },
       "messages": [
         {
@@ -123,7 +183,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ohh! Toh nervous system ek computer ki tarah hai — input lena, process karna, output dena! Sir lekin body mein sirf ek hi nervous system hota hai?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -131,7 +191,7 @@
         },
         {
           "speaker": "raju",
-          "text": "CNS, PNS, ANS — teen divisions! Sir ye naam toh exam mein zaroor poochhe jaate honge!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -146,8 +206,8 @@
       "concept_id": "neuron_structure",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 80
+        "current": 5,
+        "total": 84
       },
       "messages": [
         {
@@ -156,7 +216,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Dendrites receive karti hain, Axon bhejta hai — Sir ye toh important hai! Lekin ye ek meter lamba cell? Seriously?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -164,7 +224,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Myelin Sheath! Axon ka covering! Sir ye naam kuch special kaam karta hoga — kya hai ye exactly?"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -179,8 +239,8 @@
       "concept_id": "myelin_sheath_nodes",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 80
+        "current": 6,
+        "total": 84
       },
       "messages": [
         {
@@ -189,7 +249,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Nodes of Ranvier! Jump-jump karke signal jaata hai — Saltatory Conduction! Sir ye toh NEET mein zaroor aata hoga?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -197,7 +257,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Schwann Cells PNS mein aur Oligodendrocytes CNS mein! Sir ye toh pakka exam mein aayega — Myelin disease ka naam bhi batao!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -212,8 +272,8 @@
       "concept_id": "neuron_types",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 80
+        "current": 7,
+        "total": 84
       },
       "messages": [
         {
@@ -222,7 +282,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Afferent matlab Andar aana — Sensory, aur Efferent matlab baahar jaana — Motor! Sir ye trick kaam aayegi!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -230,7 +290,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bipolar neurons retina mein! Multipolar sabse common! Sir ye structure-wise types bhi exam mein aate hain?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -245,8 +305,8 @@
       "concept_id": "neuron_structure_quiz",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 80
+        "current": 8,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Neuron ka kaunsa part signals ko RECEIVE karta hai?",
@@ -283,8 +343,8 @@
       "concept_id": "myelin_sheath_quiz",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 80
+        "current": 9,
+        "total": 84
       },
       "quiz_payload": {
         "question": "PNS mein Myelin Sheath kaun banata hai?",
@@ -321,8 +381,8 @@
       "concept_id": "neuron_types_quiz",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 80
+        "current": 10,
+        "total": 84
       },
       "quiz_payload": {
         "question": "BPSC Multi-Statement: Neuron ke baare mein kaunse statements SAHI hain?\n(I) Sensory neurons ko Afferent neurons bhi kehte hain.\n(II) Motor neurons CNS se muscles tak signal bhejte hain.\n(III) Interneurons peripheral nervous system mein paaye jaate hain.\n(IV) Bipolar neurons retina mein paaye jaate hain.",
@@ -359,8 +419,8 @@
       "concept_id": "module2_complete",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 80
+        "current": 11,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 2 CLEARED! 🧠",
@@ -382,8 +442,8 @@
       "concept_id": "resting_potential",
       "level": 2,
       "progress": {
-        "current": 11,
-        "total": 80
+        "current": 12,
+        "total": 84
       },
       "messages": [
         {
@@ -392,7 +452,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Minus 70 mV! Matlab neuron jab rest mein hoti hai tab bhi charge hoti hai? Khaali nahi hoti?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -400,7 +460,7 @@
         },
         {
           "speaker": "raju",
-          "text": "3 Na+ bahar aur 2 K+ andar! ATP use karta hai! Isliye brain ko itna glucose chahiye! Ye connection samajh aaya Sir!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -415,8 +475,8 @@
       "concept_id": "action_potential",
       "level": 2,
       "progress": {
-        "current": 12,
-        "total": 80
+        "current": 13,
+        "total": 84
       },
       "messages": [
         {
@@ -425,7 +485,7 @@
         },
         {
           "speaker": "raju",
-          "text": "All-or-none! Matlab half signal nahi jaata? Ya poora jaayega ya kuch nahi? Ye interesting constraint hai!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -433,7 +493,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Depolarization — Na+ andar, Repolarization — K+ bahar, Refractory Period — rest! Sir ye sequence yaad rakhna hai!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -448,8 +508,8 @@
       "concept_id": "impulse_conduction",
       "level": 2,
       "progress": {
-        "current": 13,
-        "total": 80
+        "current": 14,
+        "total": 84
       },
       "messages": [
         {
@@ -458,7 +518,7 @@
         },
         {
           "speaker": "raju",
-          "text": "120 meters per second! Ye toh 430 km/h se bhi zyada speed hai! Insan ki body mein itni tez signal jaati hai?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -466,7 +526,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Signal sirf ek direction mein! Ulta nahi ja sakta! Ye toh logical hai — warna body mein confusion ho jaata!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -481,8 +541,8 @@
       "concept_id": "resting_potential_quiz",
       "level": 2,
       "progress": {
-        "current": 14,
-        "total": 80
+        "current": 15,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Neuron ka Resting Membrane Potential approximately kitna hota hai?",
@@ -519,8 +579,8 @@
       "concept_id": "action_potential_quiz",
       "level": 2,
       "progress": {
-        "current": 15,
-        "total": 80
+        "current": 16,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Action Potential ke dauran Depolarization kab hoti hai?",
@@ -557,8 +617,8 @@
       "concept_id": "saltatory_conduction_quiz",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 80
+        "current": 17,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Saltatory Conduction kahan hoti hai aur kyun?",
@@ -595,8 +655,8 @@
       "concept_id": "module3_complete",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 80
+        "current": 18,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 3 DONE! ⚡",
@@ -618,8 +678,8 @@
       "concept_id": "synapse_introduction",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 80
+        "current": 19,
+        "total": 84
       },
       "messages": [
         {
@@ -628,7 +688,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Neurotransmitters! Chemical messengers! Matlab electrical signal chemical mein convert ho jaata hai gap cross karne ke liye?"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -636,7 +696,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Synaptic Vesicles mein packed hain neurotransmitters, gap mein release hote hain, receptor se bind! Sir ye toh bahut organized hai!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -651,8 +711,8 @@
       "concept_id": "neurotransmitters_types",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 80
+        "current": 20,
+        "total": 84
       },
       "messages": [
         {
@@ -661,7 +721,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Itne saare neurotransmitters! Sir Dopamine ka naam suna tha — social media use karne par Dopamine release hoti hai keh ke?"
+          "text": "Sir, abhi ka lesson samajh aaya."
         },
         {
           "speaker": "aman",
@@ -669,7 +729,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Nerve gas Acetylcholinesterase ko block karta hai! Parkinson's mein Dopamine kam! Sir ye real world connections bahut kaam ke hain!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         }
       ],
       "navigation": {
@@ -684,8 +744,8 @@
       "concept_id": "synapse_quiz",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 80
+        "current": 21,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Synapse par signal transmission ka sahi sequence kya hai?",
@@ -722,8 +782,8 @@
       "concept_id": "neurotransmitter_quiz",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 80
+        "current": 22,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Parkinson's Disease mein kaun se neurotransmitter ki kami hoti hai?",
@@ -760,8 +820,8 @@
       "concept_id": "acetylcholine_quiz",
       "level": 2,
       "progress": {
-        "current": 22,
-        "total": 80
+        "current": 23,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Acetylcholine ko synapse mein destroy kaun karta hai taaki next signal ke liye cleft clear ho sake?",
@@ -798,8 +858,8 @@
       "concept_id": "module4_complete",
       "level": 2,
       "progress": {
-        "current": 23,
-        "total": 80
+        "current": 24,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 4 CLEARED! 🧪",
@@ -821,8 +881,8 @@
       "concept_id": "nervous_system_divisions",
       "level": 2,
       "progress": {
-        "current": 24,
-        "total": 80
+        "current": 25,
+        "total": 84
       },
       "messages": [
         {
@@ -831,7 +891,7 @@
         },
         {
           "speaker": "raju",
-          "text": "12 Cranial Nerves aur 31 Spinal Nerves! Sir ye numbers yaad rakhne honge! Cranial nerves brain se nikli — toh kya saari cranial nerves brain mein hi kaam karti hain?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -839,7 +899,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Vagus nerve sabse lamba cranial nerve! Roman numerals I to XII! Sir ye toh bahut important list lagti hai!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -854,8 +914,8 @@
       "concept_id": "cranial_nerves_important",
       "level": 2,
       "progress": {
-        "current": 25,
-        "total": 80
+        "current": 26,
+        "total": 84
       },
       "messages": [
         {
@@ -864,7 +924,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Itne saare nerves! Sir V Trigeminal sabse bada aur X Vagus sabse lamba — ye dono alag hain na? Bada aur lamba mein farak?"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -872,7 +932,7 @@
         },
         {
           "speaker": "raju",
-          "text": "8+12+5+5+1 = 31! Sir ye calculation bhi yaad rakhni hogi! Cervical, Thoracic, Lumbar, Sacral, Coccygeal!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -887,8 +947,8 @@
       "concept_id": "cranial_nerves_quiz",
       "level": 2,
       "progress": {
-        "current": 26,
-        "total": 80
+        "current": 27,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Manushya mein total kitni pairs Cranial Nerves hoti hain?",
@@ -925,8 +985,8 @@
       "concept_id": "vagus_nerve_quiz",
       "level": 2,
       "progress": {
-        "current": 27,
-        "total": 80
+        "current": 28,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Sabse lamba Cranial Nerve kaun si hai?",
@@ -963,8 +1023,8 @@
       "concept_id": "spinal_nerves_quiz",
       "level": 2,
       "progress": {
-        "current": 28,
-        "total": 80
+        "current": 29,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Manushya mein Spinal Nerves ki kul kitni pairs hoti hain aur sabse zyada pairs kaunse region ki hain?",
@@ -1001,8 +1061,8 @@
       "concept_id": "module5_complete",
       "level": 2,
       "progress": {
-        "current": 29,
-        "total": 80
+        "current": 30,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 5 CONQUERED! 🗺️",
@@ -1024,8 +1084,8 @@
       "concept_id": "brain_overview",
       "level": 3,
       "progress": {
-        "current": 30,
-        "total": 80
+        "current": 31,
+        "total": 84
       },
       "messages": [
         {
@@ -1034,7 +1094,7 @@
         },
         {
           "speaker": "raju",
-          "text": "86 billion neurons! Aur teen main divisions — Forebrain, Midbrain, Hindbrain! Sir ye toh bahut badi structure hai!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1042,7 +1102,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Dura Mater, Arachnoid, Pia Mater — DAP — teen layers! Meningitis in layers ki infection! Sir ye names bizarre hain lekin interesting!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1057,8 +1117,8 @@
       "concept_id": "cerebrum_lobes",
       "level": 3,
       "progress": {
-        "current": 31,
-        "total": 80
+        "current": 32,
+        "total": 84
       },
       "messages": [
         {
@@ -1067,7 +1127,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Frontal Lobe — thinking aur planning! Parietal — touch sensation! Sir aur kaunse lobes hain?"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -1075,7 +1135,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Occipital back mein — vision! Temporal side mein — hearing! Sir ye positions samajh aa gaye ab! Corpus Callosum bridge ka kaam karta hai dono hemispheres ke beech!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -1090,8 +1150,8 @@
       "concept_id": "thalamus_hypothalamus",
       "level": 3,
       "progress": {
-        "current": 32,
-        "total": 80
+        "current": 33,
+        "total": 84
       },
       "messages": [
         {
@@ -1100,7 +1160,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Thalamus — Gateway to Cerebral Cortex! Relay station! Matlab traffic controller jaisa? Aur Hypothalamus kya karta hai Sir?"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1108,7 +1168,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hypothalamus — thermostat, bhook-pyaas, neend! Pituitary bhi! Sir ye toh bahut powerful structure hai — bahut kuch control karta hai!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1123,8 +1183,8 @@
       "concept_id": "cerebellum_midbrain_hindbrain",
       "level": 3,
       "progress": {
-        "current": 33,
-        "total": 80
+        "current": 34,
+        "total": 84
       },
       "messages": [
         {
@@ -1133,7 +1193,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Cerebellum balance karta hai — aur sharab se Cerebellum affect — isliye drunk person girta hai! Sir ye connection bahut clearly samajh aaya!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1141,7 +1201,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Medulla Oblongata — heartbeat aur breathing — Vital Center! Agar damage ho toh death! Sir ye toh sabse important part hai body ka!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1156,8 +1216,8 @@
       "concept_id": "brain_lobes_quiz",
       "level": 3,
       "progress": {
-        "current": 34,
-        "total": 80
+        "current": 35,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Vision processing ka primary area brain ke kaunse lobe mein hai?",
@@ -1194,8 +1254,8 @@
       "concept_id": "hypothalamus_quiz",
       "level": 3,
       "progress": {
-        "current": 35,
-        "total": 80
+        "current": 36,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Body temperature regulation (thermoregulation) kaunsa brain structure control karta hai?",
@@ -1232,8 +1292,8 @@
       "concept_id": "brain_parts_trap_quiz",
       "level": 3,
       "progress": {
-        "current": 36,
-        "total": 80
+        "current": 37,
+        "total": 84
       },
       "quiz_payload": {
         "question": "BPSC Multi-Statement: Brain ke baare mein kaunse statements SAHI hain?\n(I) Cerebellum balance aur motor coordination control karta hai.\n(II) Medulla Oblongata ko 'Vital Center' kehte hain kyunki heartbeat aur breathing yahan control hoti hai.\n(III) Thalamus ko 'Master of Endocrine System' kehte hain.\n(IV) Corpus Callosum do cerebral hemispheres ko jodta hai.",
@@ -1270,8 +1330,8 @@
       "concept_id": "module6_complete",
       "level": 3,
       "progress": {
-        "current": 37,
-        "total": 80
+        "current": 38,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 6 CLEARED! 🧠",
@@ -1293,8 +1353,8 @@
       "concept_id": "spinal_cord_structure",
       "level": 3,
       "progress": {
-        "current": 38,
-        "total": 80
+        "current": 39,
+        "total": 84
       },
       "messages": [
         {
@@ -1303,7 +1363,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hain?? Brain mein bahar grey matter, andar white — Spinal Cord mein andar grey matter, bahar white! Ye toh exact opposite hai! Exam mein toh ye zaroor confuse karega!"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1311,7 +1371,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bell-Magendie Law! Dorsal = Sensory in, Ventral = Motor out! Sir ye naam bhi yaad rakhna padega!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1326,8 +1386,8 @@
       "concept_id": "reflex_action",
       "level": 3,
       "progress": {
-        "current": 39,
-        "total": 80
+        "current": 40,
+        "total": 84
       },
       "messages": [
         {
@@ -1336,7 +1396,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Brain tak nahi jaata signal? Sirf Spinal Cord se? Toh Brain ko baad mein pata chalta hai ki haath hata liya? Wow!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -1344,7 +1404,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Knee-jerk monosynaptic — sirf ek synapse! Aur pupil reflex cranial reflex! Sir ye dono famous examples hain exams ke liye?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -1359,8 +1419,8 @@
       "concept_id": "conditioned_reflex_pavlov",
       "level": 3,
       "progress": {
-        "current": 40,
-        "total": 80
+        "current": 41,
+        "total": 84
       },
       "messages": [
         {
@@ -1369,7 +1429,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Pavlov ka dog! Ghanti bajao — saliva aao! Ye toh Maine suna tha Sir — 1904 Nobel Prize! Ye toh psychology mein bhi padha jaata hai!"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1377,7 +1437,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Neem ki khushbu se dadi ki yaad — ye bhi conditioned reflex hai! Sir nervous system bahut smart hai — learning bhi karta hai!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1392,8 +1452,8 @@
       "concept_id": "reflex_arc_quiz",
       "level": 3,
       "progress": {
-        "current": 41,
-        "total": 80
+        "current": 42,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Reflex Arc mein sahi sequence kya hai?",
@@ -1430,8 +1490,8 @@
       "concept_id": "spinal_cord_grey_white_quiz",
       "level": 3,
       "progress": {
-        "current": 42,
-        "total": 80
+        "current": 43,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Spinal Cord ki cross-section mein grey matter aur white matter ki sahi arrangement kya hai?",
@@ -1468,8 +1528,8 @@
       "concept_id": "pavlov_conditioned_reflex_quiz",
       "level": 3,
       "progress": {
-        "current": 43,
-        "total": 80
+        "current": 44,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Ivan Pavlov ko Nobel Prize kab mila aur kis field mein?",
@@ -1506,8 +1566,8 @@
       "concept_id": "module7_complete",
       "level": 3,
       "progress": {
-        "current": 44,
-        "total": 80
+        "current": 45,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 7 DONE! 🦴",
@@ -1529,8 +1589,8 @@
       "concept_id": "autonomic_nervous_system",
       "level": 3,
       "progress": {
-        "current": 45,
-        "total": 80
+        "current": 46,
+        "total": 84
       },
       "messages": [
         {
@@ -1539,7 +1599,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sympathetic aur Parasympathetic — aur ye ek doosre ke opposite kaam karte hain! Sir kaunsa kaunsa kaam karta hai?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -1547,7 +1607,7 @@
         },
         {
           "speaker": "raju",
-          "text": "S for Stress — Sympathetic, P for Peace — Parasympathetic! Bahut achchi trick Sir! Emergency mein Sympathetic, Normal mein Parasympathetic!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -1562,8 +1622,8 @@
       "concept_id": "sympathetic_parasympathetic_comparison",
       "level": 3,
       "progress": {
-        "current": 46,
-        "total": 80
+        "current": 47,
+        "total": 84
       },
       "messages": [
         {
@@ -1572,7 +1632,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sympathetic mein Norepinephrine, Parasympathetic mein Acetylcholine! Aur ganglia ki position bhi alag! Sir ye toh complex hai!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -1580,7 +1640,7 @@
         },
         {
           "speaker": "raju",
-          "text": "S-C-L aur P-L-C! Dono mein preganglionic mein Acetylcholine, sirf postganglionic mein farak! Sir ab samajh aaya!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -1595,8 +1655,8 @@
       "concept_id": "ans_divisions_quiz",
       "level": 3,
       "progress": {
-        "current": 47,
-        "total": 80
+        "current": 48,
+        "total": 84
       },
       "quiz_payload": {
         "question": "'Fight or Flight' response kaunsa system control karta hai aur uska main neurotransmitter kya hai?",
@@ -1633,8 +1693,8 @@
       "concept_id": "parasympathetic_effects_quiz",
       "level": 3,
       "progress": {
-        "current": 48,
-        "total": 80
+        "current": 49,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Parasympathetic Nervous System ke activation ka kaunsa effect GALAT hai?",
@@ -1671,8 +1731,8 @@
       "concept_id": "ans_neurotransmitter_quiz",
       "level": 3,
       "progress": {
-        "current": 49,
-        "total": 80
+        "current": 50,
+        "total": 84
       },
       "quiz_payload": {
         "question": "ANS ke dono divisions (Sympathetic aur Parasympathetic) mein PREGANGLIONIC neuron ka neurotransmitter kya hota hai?",
@@ -1709,8 +1769,8 @@
       "concept_id": "module8_complete",
       "level": 3,
       "progress": {
-        "current": 50,
-        "total": 80
+        "current": 51,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 8 CONQUERED! 🎯",
@@ -1732,8 +1792,8 @@
       "concept_id": "eye_structure",
       "level": 4,
       "progress": {
-        "current": 51,
-        "total": 80
+        "current": 52,
+        "total": 84
       },
       "messages": [
         {
@@ -1742,7 +1802,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sclera — safed, Choroid — blood supply, Retina — andar! Iris colored part aur Pupil khaali jagah! Sir eye toh camera ki tarah hai!"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1750,7 +1810,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Aqueous Humor aur Vitreous Humor! Glaucoma mein Aqueous pressure badha! Sir Camera aur Aankh ka comparison bahut helpful hai!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1765,8 +1825,8 @@
       "concept_id": "retina_photoreceptors",
       "level": 4,
       "progress": {
-        "current": 52,
-        "total": 80
+        "current": 53,
+        "total": 84
       },
       "messages": [
         {
@@ -1775,7 +1835,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Rods — raat, black-white — Rhodopsin — Vitamin A! Cones — din, rang — Color Blindness! Sir Night Blindness ka karan Vitamin A ki kami — ye toh famous fact hai!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1783,7 +1843,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Fovea mein sirf Cones — sharp vision! Blind Spot mein koi receptor nahi — optic nerve exit point! Sir ye facts toh NEET ke liye gold hain!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -1798,8 +1858,8 @@
       "concept_id": "eye_layers_quiz",
       "level": 4,
       "progress": {
-        "current": 53,
-        "total": 80
+        "current": 54,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Aankh ki teen layers ka bahari se andar sahi order kya hai?",
@@ -1836,8 +1896,8 @@
       "concept_id": "rods_cones_quiz",
       "level": 4,
       "progress": {
-        "current": 54,
-        "total": 80
+        "current": 55,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Night Blindness kaunse photoreceptors ki kharabi se hoti hai aur kaunse vitamin ki kami se?",
@@ -1874,8 +1934,8 @@
       "concept_id": "fovea_blind_spot_quiz",
       "level": 4,
       "progress": {
-        "current": 55,
-        "total": 80
+        "current": 56,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Retina mein 'Blind Spot' (Optic Disc) kyun hota hai?",
@@ -1912,8 +1972,8 @@
       "concept_id": "module9_complete",
       "level": 4,
       "progress": {
-        "current": 56,
-        "total": 80
+        "current": 57,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 9 DONE! 👁️",
@@ -1935,8 +1995,8 @@
       "concept_id": "ear_structure_overview",
       "level": 4,
       "progress": {
-        "current": 57,
-        "total": 80
+        "current": 58,
+        "total": 84
       },
       "messages": [
         {
@@ -1945,7 +2005,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ossicles — body ki sabse chhoti bones! Malleus, Incus, Stapes — teen bones! Sir ye names kaise yaad rakhein?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1953,7 +2013,7 @@
         },
         {
           "speaker": "raju",
-          "text": "MIS! Malleus-Incus-Stapes! Stapes sabse chhoti bone! Ye toh alag fact hai Sir — kaan ki haddi sabse chhoti!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -1968,8 +2028,8 @@
       "concept_id": "cochlea_hearing_mechanism",
       "level": 4,
       "progress": {
-        "current": 58,
-        "total": 80
+        "current": 59,
+        "total": 84
       },
       "messages": [
         {
@@ -1978,7 +2038,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Organ of Corti — actual hearing organ! Hair cells vibrations detect karti hain! Sir ye naam exam mein zaroor aata hoga?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1986,7 +2046,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Cochlea → Cochlear Nerve → Temporal Lobe — hearing ka poora path! Sir ye complete pathway NEET ke liye important hai!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -2001,8 +2061,8 @@
       "concept_id": "vestibular_apparatus_balance",
       "level": 4,
       "progress": {
-        "current": 59,
-        "total": 80
+        "current": 60,
+        "total": 84
       },
       "messages": [
         {
@@ -2011,7 +2071,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Semicircular Canals rotation detect karte hain! Motion sickness kaan-aankh mismatch se! Sir ye bahut interesting hai — kaan aur aankh dono milke balance banate hain!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -2019,7 +2079,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Vestibular Nerve → Cerebellum — balance connection! Vertigo inner ear problem se! Poora system connected hai Sir!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         }
       ],
       "navigation": {
@@ -2034,8 +2094,8 @@
       "concept_id": "ear_ossicles_quiz",
       "level": 4,
       "progress": {
-        "current": 60,
-        "total": 80
+        "current": 61,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Human body ki sabse chhoti bone kaun si hai aur woh kahan hoti hai?",
@@ -2072,8 +2132,8 @@
       "concept_id": "organ_of_corti_quiz",
       "level": 4,
       "progress": {
-        "current": 61,
-        "total": 80
+        "current": 62,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Hearing ka actual organ (receptor) kaunsa hai aur woh kahan hota hai?",
@@ -2110,8 +2170,8 @@
       "concept_id": "semicircular_canals_quiz",
       "level": 4,
       "progress": {
-        "current": 62,
-        "total": 80
+        "current": 63,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Semicircular Canals ka primary function kya hai?",
@@ -2148,8 +2208,8 @@
       "concept_id": "module10_complete",
       "level": 4,
       "progress": {
-        "current": 63,
-        "total": 80
+        "current": 64,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 10 DONE! 👂",
@@ -2171,8 +2231,8 @@
       "concept_id": "csf_blood_brain_barrier",
       "level": 5,
       "progress": {
-        "current": 64,
-        "total": 80
+        "current": 65,
+        "total": 84
       },
       "messages": [
         {
@@ -2181,7 +2241,7 @@
         },
         {
           "speaker": "raju",
-          "text": "CSF shock absorber hai! Meninges ke beech! Aur Lumbar Puncture se sample! Sir ye medical procedure bhi exam mein aata hai?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -2189,7 +2249,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Blood-Brain Barrier! Astrocytes ise banati hain! Isliye brain mein har medicine nahi pahunhti! Sir ye connection bilkul naya tha mere liye!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -2204,8 +2264,8 @@
       "concept_id": "limbic_system_memory",
       "level": 5,
       "progress": {
-        "current": 65,
-        "total": 80
+        "current": 66,
+        "total": 84
       },
       "messages": [
         {
@@ -2214,7 +2274,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hippocampus — long-term memory! Alzheimer's mein pehle Hippocampus kharab hota hai! Amygdala — fear! Sir ye names interesting hain — hippocampus toh seahorse jaisa lagta hai!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -2222,7 +2282,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Hippocampus = seahorse shape! Alzheimer's mein Amyloid plaques aur Tau protein! Sir ye toh poora medical science hai!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -2237,8 +2297,8 @@
       "concept_id": "glial_cells_types",
       "level": 5,
       "progress": {
-        "current": 66,
-        "total": 80
+        "current": 67,
+        "total": 84
       },
       "messages": [
         {
@@ -2247,7 +2307,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Glial cells ka type dekho — Astrocytes BBB, Oligodendrocytes CNS Myelin, Schwann PNS Myelin, Microglia immune! Ependymal CSF! Sir ye sab alag functions hain!"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -2255,7 +2315,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Brain tumors glial cells se! Neurons divide nahi karte — isliye brain injury permanent ho sakti hai! PNS mein Schwann cells ki wajah se recovery hoti hai!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -2270,8 +2330,8 @@
       "concept_id": "csf_bbq_quiz",
       "level": 5,
       "progress": {
-        "current": 67,
-        "total": 80
+        "current": 68,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Cerebrospinal Fluid (CSF) kahan produce hota hai?",
@@ -2308,8 +2368,8 @@
       "concept_id": "hippocampus_quiz",
       "level": 5,
       "progress": {
-        "current": 68,
-        "total": 80
+        "current": 69,
+        "total": 84
       },
       "quiz_payload": {
         "question": "Alzheimer's Disease mein pehle kaunsa brain structure affect hota hai?",
@@ -2346,8 +2406,8 @@
       "concept_id": "glial_cells_quiz",
       "level": 5,
       "progress": {
-        "current": 69,
-        "total": 80
+        "current": 70,
+        "total": 84
       },
       "quiz_payload": {
         "question": "CNS mein Blood-Brain Barrier (BBB) banane mein mainly kaunsi Glial cells help karti hain?",
@@ -2384,8 +2444,8 @@
       "concept_id": "module11_complete",
       "level": 5,
       "progress": {
-        "current": 70,
-        "total": 80
+        "current": 71,
+        "total": 84
       },
       "milestone_payload": {
         "title": "MODULE 11 CLEARED! 🎓",
@@ -2396,8 +2456,122 @@
         "motivational_quote": "Sab modules complete! Ab Final Officer Revision aur Master Quiz se apna Officer Level prove karo!"
       },
       "navigation": {
-        "next": "card_71_officer_summary",
+        "next": "card_applied_case_01",
         "button_text": "Go to Final Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 1: Garam pan ko chhoote hi haath bina soch-vichaar ke peeche hat jaata hai. Sabse seedha pathway kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Receptor → sensory neuron → spinal cord/reflex pathway → motor neuron"
+          },
+          {
+            "id": "B",
+            "text": "Eye → stomach → kidney"
+          },
+          {
+            "id": "C",
+            "text": "Heart → bone → skin"
+          },
+          {
+            "id": "D",
+            "text": "Lungs → liver → muscle"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Reflex arc ka fast route spinal cord se ho sakta hai; isse body nuksan se jaldi bacha sakti hai."
+      },
+      "progress": {
+        "current": 72,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 2: Achanak bright light padne par pupil chhota hota hai. Is response ka practical fayda kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aankh mein aane wali roshni kam karna"
+          },
+          {
+            "id": "B",
+            "text": "Aankh ka rang badalna"
+          },
+          {
+            "id": "C",
+            "text": "Sunne ki capacity badhana"
+          },
+          {
+            "id": "D",
+            "text": "Blood pressure banana"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Pupil ka constrict hona retina tak pahunchne wali roshni ko kam karta hai aur eye ko protect karta hai."
+      },
+      "progress": {
+        "current": 73,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Applied case 3: Bus mein padhte waqt kuch logon ko motion sickness hoti hai. Ismein kaun se sensory signals ka mismatch role kar sakta hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aankh aur inner-ear balance signals"
+          },
+          {
+            "id": "B",
+            "text": "Taste aur smell only"
+          },
+          {
+            "id": "C",
+            "text": "Skin colour aur hair length"
+          },
+          {
+            "id": "D",
+            "text": "Kidney aur liver signals"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Aankhon aur vestibular system se milne wale motion signals mismatch kar sakte hain, jisse motion sickness ho sakti hai."
+      },
+      "progress": {
+        "current": 74,
+        "total": 84
+      },
+      "navigation": {
+        "next": "card_71_officer_summary",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -2407,8 +2581,8 @@
       "concept_id": "full_chapter_revision",
       "level": 5,
       "progress": {
-        "current": 71,
-        "total": 80
+        "current": 75,
+        "total": 84
       },
       "summary_payload": {
         "title": "⚡ Officer Rapid Revision — Nervous System",
@@ -2447,8 +2621,8 @@
       "concept_id": "master_quiz_1",
       "level": 5,
       "progress": {
-        "current": 72,
-        "total": 80
+        "current": 76,
+        "total": 84
       },
       "quiz_payload": {
         "question": "BPSC Officer Level Multi-Statement:\nNiche diye statements mein se kaunse SAHI hain?\n(I) Spinal Cord mein andar Grey Matter (H-shape) aur bahar White Matter hota hai — Brain ke bilkul ulta.\n(II) Bell-Magendie Law ke anusar Dorsal root sensory information enter karti hai aur Ventral root motor commands nikalti hai.\n(III) Vagus Nerve (CN X) sirf neck tak jaata hai aur sabse lamba cranial nerve hai.\n(IV) Corpus Callosum dono cerebral hemispheres ko connect karta hai.\n(V) Hypothalamus ko 'Gateway to Cerebral Cortex' kehte hain.",
@@ -2485,8 +2659,8 @@
       "concept_id": "master_quiz_2",
       "level": 5,
       "progress": {
-        "current": 73,
-        "total": 80
+        "current": 77,
+        "total": 84
       },
       "quiz_payload": {
         "question": "NEET Level Assertion-Reason:\nAssertion (A): Myelinated nerve fibers mein action potential Saltatory Conduction ke zariye travel karta hai jo speed ko 70-120 m/s tak badhata hai.\nReason (R): Myelin Sheath electrically insulating hoti hai aur sirf Nodes of Ranvier par action potential generate hota hai, jisse signal jump karta hai.\n\nNiche diye options mein sahi answer chuniye:",
@@ -2523,8 +2697,8 @@
       "concept_id": "master_quiz_3",
       "level": 5,
       "progress": {
-        "current": 74,
-        "total": 80
+        "current": 78,
+        "total": 84
       },
       "quiz_payload": {
         "question": "SSC CGL/BPSC Speed Facts — Multi-Statement:\n(I) Stapes human body ki sabse chhoti bone hai aur Middle Ear mein hoti hai.\n(II) Organ of Corti Cochlea mein Basilar Membrane par hota hai aur hearing ka actual receptor hai.\n(III) Fovea Centralis mein sirf Rod cells hote hain jo maximum visual acuity dete hain.\n(IV) Night Blindness Vitamin A ki kami se hoti hai kyunki Rhodopsin pigment ka synthesis rukta hai.\n(V) Semicircular Canals hearing ke liye responsible hain.",
@@ -2561,8 +2735,8 @@
       "concept_id": "master_quiz_4",
       "level": 5,
       "progress": {
-        "current": 75,
-        "total": 80
+        "current": 79,
+        "total": 84
       },
       "quiz_payload": {
         "question": "UPSC/BPSC Integration Level:\nNiche Scientists aur unke contributions ka sahi match karo:\n(I) Ivan Pavlov — (a) Conditioned Reflex/Classical Conditioning — 1904 Nobel\n(II) Santiago Ramon y Cajal — (b) Neuron Doctrine — neurons individual cells hain\n(III) Otto Loewi — (c) Chemical neurotransmission discover kiya — 1936 Nobel\n(IV) Alan Hodgkin & Andrew Huxley — (d) Action Potential ionic mechanism — 1963 Nobel",
@@ -2599,8 +2773,8 @@
       "concept_id": "master_quiz_5",
       "level": 5,
       "progress": {
-        "current": 76,
-        "total": 80
+        "current": 80,
+        "total": 84
       },
       "quiz_payload": {
         "question": "NEET 2022 Level — Nervous System Integration:\nEk patient mein damage hua hai jahan Sympathetic postganglionic neurons kaam nahi kar rahe. Niche kaunsa effect NAHI hoga?\n(I) Heart rate normal ya kam rahegi (no tachycardia)\n(II) Pupils normal ya constricted rahenge (no dilation)\n(III) Digestion bahut slow ho jaayegi\n(IV) Salivation increase hogi",
@@ -2637,8 +2811,8 @@
       "concept_id": "master_quiz_6",
       "level": 5,
       "progress": {
-        "current": 77,
-        "total": 80
+        "current": 81,
+        "total": 84
       },
       "quiz_payload": {
         "question": "BPSC 2023 Style Assertion-Reason — Reflex Action:\nAssertion (A): Haath ko garam cheez se hatane ki reflex action brain ke involve hue bina hoti hai.\nReason (R): Simple spinal reflexes mein signal pathway Receptor→Sensory Neuron→Spinal Cord→Motor Neuron→Effector tak limited hoti hai aur brain sirf baad mein pain conscious feel karta hai.\n\nAnswer chuniye:",
@@ -2675,8 +2849,8 @@
       "concept_id": "master_quiz_7",
       "level": 5,
       "progress": {
-        "current": 78,
-        "total": 80
+        "current": 82,
+        "total": 84
       },
       "quiz_payload": {
         "question": "RRB NTPC/SSC CGL Speed Fact Trap:\nNiche diye facts mein se kaunsa/kaunse GALAT hain?\n(I) Vestibulocochlear nerve (CN VIII) hearing aur balance dono control karta hai.\n(II) Trigeminal nerve (CN V) sabse lamba cranial nerve hai.\n(III) Optic nerve (CN II) smell sense karta hai.\n(IV) Hypoglossal nerve (CN XII) tongue movement control karta hai.",
@@ -2713,8 +2887,8 @@
       "concept_id": "master_quiz_8",
       "level": 5,
       "progress": {
-        "current": 79,
-        "total": 80
+        "current": 83,
+        "total": 84
       },
       "quiz_payload": {
         "question": "NEET Highest Order — Glial Cells & Neurotransmitters Integration:\nNiche kaunse statements SAHI hain?\n(I) Astrocytes Blood-Brain Barrier banane mein help karti hain.\n(II) Brain tumors mostly neurons se develop hote hain kyunki neurons zyada divide karte hain.\n(III) Sweat glands ko supply karne wale Sympathetic postganglionic neurons Acetylcholine release karte hain — Norepinephrine nahi.\n(IV) Oligodendrocytes CNS mein Myelin Sheath banate hain.\n(V) GABA ek excitatory neurotransmitter hai jo neurons ko fire karne mein help karta hai.",
@@ -2751,8 +2925,8 @@
       "concept_id": "chapter_complete",
       "level": 5,
       "progress": {
-        "current": 80,
-        "total": 80
+        "current": 84,
+        "total": 84
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER COMPLETE! NERVOUS SYSTEM OFFICER! 🧠",

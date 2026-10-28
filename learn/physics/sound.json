@@ -1,0 +1,725 @@
+{
+  "topic_id": "sound_waves_and_hearing",
+  "topic_title": "Sound & Waves",
+  "target_exams": [
+    "RRB Group D",
+    "RRB NTPC",
+    "BPSC",
+    "BSSC"
+  ],
+  "total_cards": 22,
+  "characters": {
+    "aman": {
+      "name": "Aman Sir",
+      "role": "teacher",
+      "avatar": "👨‍🏫"
+    },
+    "raju": {
+      "name": "Raju",
+      "role": "student",
+      "avatar": "👦"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "card_01_intro",
+      "card_slug": "card_01_intro",
+      "type": "intro",
+      "concept_id": "sound_waves_and_hearing_intro",
+      "level": 1,
+      "intro_payload": {
+        "title": "Sound & Waves",
+        "icon": "🔊",
+        "subtitle": "Zero se Railway basics, phir advanced applications",
+        "target_exams": [
+          "RRB Group D",
+          "RRB NTPC",
+          "BPSC",
+          "BSSC"
+        ],
+        "learning_outcomes": [
+          "Sound ka source vibration hota hai aur travel ke liye medium chahiye",
+          "Frequency, amplitude, pitch aur loudness ka farq",
+          "Wave speed v = fλ aur medium ka effect",
+          "Echo, ultrasound, infrasound aur human hearing",
+          "Railway facts plus resonance and Doppler basics"
+        ],
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB ke direct facts, units, formulas aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Examples aur common confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice with explanations using earlier concepts."
+          }
+        ]
+      },
+      "progress": {
+        "current": 1,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_02_vibration_sound",
+        "button_text": "Start Learning ➔"
+      }
+    },
+    {
+      "card_id": "card_02_vibration_sound",
+      "card_slug": "card_02_vibration_sound",
+      "type": "chat",
+      "concept_id": "sound_vibration",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Sound kisi vibrating source se banti hai—jaise tabla ki membrane, guitar string ya vocal cords. Vibration aas-paas ke particles ko hilati hai; ye disturbance aage badhti hai. Sound energy carry karti hai, par medium ke particles source se listener tak safar nahi karte."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha Sir, abhi tak sab clear hai."
+        }
+      ],
+      "progress": {
+        "current": 2,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_03_medium_needed",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_03_medium_needed",
+      "card_slug": "card_03_medium_needed",
+      "type": "chat",
+      "concept_id": "sound_medium",
+      "level": 1,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Sound ko travel karne ke liye solid, liquid ya gas jaise medium chahiye. Vacuum mein particles nahi hote, isliye sound nahi chal sakti. Space mein explosion dikh sakta hai, par hawa na hone se sound sunai nahi degi. Railway fact: sound mechanical wave hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha Sir, abhi tak sab clear hai."
+        }
+      ],
+      "progress": {
+        "current": 3,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_04_longitudinal_wave",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_04_longitudinal_wave",
+      "card_slug": "card_04_longitudinal_wave",
+      "type": "chat",
+      "concept_id": "longitudinal_wave",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Air mein sound longitudinal wave hai: particles wave ki direction ke parallel aage-peeche vibrate karte hain. Paas-paas particles compression, door particles rarefaction banate hain. Ye compressed/rarefied regions medium ke through aage badhte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Abhi tak ka example clear hai."
+        }
+      ],
+      "progress": {
+        "current": 4,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_05_frequency_pitch",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_05_frequency_pitch",
+      "card_slug": "card_05_frequency_pitch",
+      "type": "chat",
+      "concept_id": "frequency_pitch",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Frequency ek second mein hone wali vibrations ki ginti hai; unit hertz (Hz). Frequency zyada ho to aam taur par pitch high, kam ho to pitch low hoti hai. Patli whistle ki pitch high aur bade drum ki pitch low ho sakti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
+        }
+      ],
+      "progress": {
+        "current": 5,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_06_amplitude_loudness",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_06_amplitude_loudness",
+      "card_slug": "card_06_amplitude_loudness",
+      "type": "chat",
+      "concept_id": "amplitude_loudness",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Amplitude vibration ka maximum displacement hai. Amplitude zyada ho to sound aam taur par louder sunai deti hai; amplitude kam ho to softer. Loudness subjective hoti hai, jabki intensity measurable energy per area per time hai. Frequency pitch se judi hai, amplitude loudness se."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main ise apne notes mein likh leta hoon."
+        }
+      ],
+      "progress": {
+        "current": 6,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_07_speed_wavelength",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_07_speed_wavelength",
+      "card_slug": "card_07_speed_wavelength",
+      "type": "chat",
+      "concept_id": "wave_speed",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Wave speed, frequency aur wavelength ka relation v = fλ hai. Wavelength compression se agle compression tak ka distance hai. Agar medium same rahe to frequency badhne par wavelength kam hoti hai; speed medium ki properties par depend karti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Sir, abhi ka lesson samajh aaya."
+        }
+      ],
+      "progress": {
+        "current": 7,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_08_medium_speed",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_08_medium_speed",
+      "card_slug": "card_08_medium_speed",
+      "type": "chat",
+      "concept_id": "sound_speed_medium",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Sound aam taur par solids mein liquids se, aur liquids mein gases se tez chalti hai, kyunki particles aur elasticity ka arrangement alag hota hai. Hawa mein temperature badhne par sound ki speed aam taur par badhti hai. Railway questions mein medium aur temperature ka effect poocha ja sakta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
+        }
+      ],
+      "progress": {
+        "current": 8,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_09_hearing_range",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_09_hearing_range",
+      "card_slug": "card_09_hearing_range",
+      "type": "chat",
+      "concept_id": "human_hearing",
+      "level": 2,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Healthy young human ear ka aam hearing range lagbhag 20 Hz se 20,000 Hz (20 kHz) hai. Isse kam frequency infrasound, aur isse zyada ultrasound kehlati hai. Age aur hearing health se actual range badal sakti hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha, ab baat samajh mein aa rahi hai."
+        }
+      ],
+      "progress": {
+        "current": 9,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_10_echo_sonar",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_10_echo_sonar",
+      "card_slug": "card_10_echo_sonar",
+      "type": "chat",
+      "concept_id": "echo_sonar",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Sound kisi hard surface se reflect hokar wapas aaye to echo sunai de sakta hai. Alag echo sunne ke liye lagbhag 0.1 s ka gap chahiye. Distance nikalne mein sound ka round trip hota hai: distance = speed × time/2. SONAR underwater distance/depth ke liye reflected sound use karta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main pehle isi concept ko pakka karunga."
+        }
+      ],
+      "progress": {
+        "current": 10,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_11_ultrasound_uses",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_11_ultrasound_uses",
+      "card_slug": "card_11_ultrasound_uses",
+      "type": "chat",
+      "concept_id": "ultrasound_uses",
+      "level": 3,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Ultrasound medical imaging mein body ke andar se reflected echoes se picture banane mein madad karta hai. Bats aur dolphins bhi high-frequency sound aur echoes se surroundings samajh sakte hain. Ultrasound cleaning aur crack detection mein bhi use hota hai; diagnostic use trained professionals karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main pehle isi concept ko pakka karunga."
+        }
+      ],
+      "progress": {
+        "current": 11,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_12_noise_resonance",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_12_noise_resonance",
+      "card_slug": "card_12_noise_resonance",
+      "type": "chat",
+      "concept_id": "noise_resonance",
+      "level": 4,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Unwanted ya harmful sound noise pollution hai; zyada loud sound hearing ko nuksan pahuncha sakti hai. Resonance tab hota hai jab periodic force ki frequency object ki natural frequency ke kareeb ho aur vibration badh jaaye. Music instruments resonance ko useful tarah se use karte hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
+        }
+      ],
+      "progress": {
+        "current": 12,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_13_doppler",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_13_doppler",
+      "card_slug": "card_13_doppler",
+      "type": "chat",
+      "concept_id": "doppler_effect",
+      "level": 5,
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Doppler effect mein source aur listener ke relative motion se observed frequency badalti hai. Ambulance paas aate waqt siren ki pitch zyada aur door jaate waqt kam sunai deti hai. Source ki asli frequency nahi badalti; wavefronts listener tak pahunchne ka gap badalta hai."
+        },
+        {
+          "speaker": "raju",
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
+        }
+      ],
+      "progress": {
+        "current": 13,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_14_quiz_medium",
+        "button_text": "Aage badho ➔"
+      }
+    },
+    {
+      "card_id": "card_14_quiz_medium",
+      "card_slug": "card_14_quiz_medium",
+      "type": "quiz",
+      "concept_id": "sound_medium",
+      "level": 1,
+      "quiz_payload": {
+        "question": "Sound vacuum mein kyun nahi travel karti?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Medium particles nahi hote"
+          },
+          {
+            "id": "B",
+            "text": "Sound ki energy zero hoti hai"
+          },
+          {
+            "id": "C",
+            "text": "Vacuum mein light nahi hoti"
+          },
+          {
+            "id": "D",
+            "text": "Sound sirf solids mein chalti hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Sound mechanical wave hai aur vibration pass karne ke liye medium particles chahiye."
+      },
+      "progress": {
+        "current": 14,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_15_quiz_frequency",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_15_quiz_frequency",
+      "card_slug": "card_15_quiz_frequency",
+      "type": "quiz",
+      "concept_id": "frequency_pitch",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Frequency ki SI unit kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hertz"
+          },
+          {
+            "id": "B",
+            "text": "Decibel"
+          },
+          {
+            "id": "C",
+            "text": "Joule"
+          },
+          {
+            "id": "D",
+            "text": "Metre"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Frequency cycles per second hoti hai; unit hertz (Hz) hai."
+      },
+      "progress": {
+        "current": 15,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_16_quiz_range",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_16_quiz_range",
+      "card_slug": "card_16_quiz_range",
+      "type": "quiz",
+      "concept_id": "human_hearing",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Insaan ki aam hearing range kis ke kareeb hoti hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "20 Hz–20 kHz"
+          },
+          {
+            "id": "B",
+            "text": "0–20 Hz"
+          },
+          {
+            "id": "C",
+            "text": "20 kHz–200 kHz"
+          },
+          {
+            "id": "D",
+            "text": "1–10 Hz"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Aam human hearing range lagbhag 20 Hz se 20 kHz hoti hai; individuals mein farq ho sakta hai."
+      },
+      "progress": {
+        "current": 16,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_17_quiz_wave_speed",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_17_quiz_wave_speed",
+      "card_slug": "card_17_quiz_wave_speed",
+      "type": "quiz",
+      "concept_id": "wave_speed",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Wave speed ka sahi relation kaunsa hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "v = fλ"
+          },
+          {
+            "id": "B",
+            "text": "v = f/λ"
+          },
+          {
+            "id": "C",
+            "text": "v = λ/f"
+          },
+          {
+            "id": "D",
+            "text": "v = f + λ"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Wave speed frequency aur wavelength ke product ke barabar hoti hai."
+      },
+      "progress": {
+        "current": 17,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_18_quiz_echo",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_18_quiz_echo",
+      "card_slug": "card_18_quiz_echo",
+      "type": "quiz",
+      "concept_id": "echo_sonar",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Echo se deewar tak distance nikalte waqt round-trip time ko 2 se divide kyun karte hain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sound aage aur wapas dono taraf jaati hai"
+          },
+          {
+            "id": "B",
+            "text": "Sound aadhi speed se chalti hai"
+          },
+          {
+            "id": "C",
+            "text": "Echo ki frequency aadhi hoti hai"
+          },
+          {
+            "id": "D",
+            "text": "Deewar sound absorb karti hai"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Measured time sound ke jaana aur lautna dono cover karta hai; one-way distance ke liye 2 se divide karte hain."
+      },
+      "progress": {
+        "current": 18,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_applied_case_01",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Applied case 1: Echo 2 seconds baad suna. Hawa mein sound speed 340 m/s maan kar wall kitni door hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "340 m"
+          },
+          {
+            "id": "B",
+            "text": "680 m"
+          },
+          {
+            "id": "C",
+            "text": "170 m"
+          },
+          {
+            "id": "D",
+            "text": "34 m"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Echo mein sound aage jaakar lautti hai; distance = vt/2 = 340×2/2 = 340 m."
+      },
+      "progress": {
+        "current": 19,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 4,
+      "quiz_payload": {
+        "question": "Applied case 2: Ambulance paas aate hue siren ki pitch zyada sunai deti hai, door jaate hue kam. Kaunsa effect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Doppler effect"
+          },
+          {
+            "id": "B",
+            "text": "Photoelectric effect"
+          },
+          {
+            "id": "C",
+            "text": "Tyndall effect"
+          },
+          {
+            "id": "D",
+            "text": "Capillary effect"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Relative motion se wavefronts ke arrival gap badalte hain; isliye observed frequency/pitch badalti hai."
+      },
+      "progress": {
+        "current": 20,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 3: Tabla ko zor se bajane par sound loud hoti hai, par sur wahi rehta hai. Kaunsi property badhi?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Amplitude"
+          },
+          {
+            "id": "B",
+            "text": "Frequency"
+          },
+          {
+            "id": "C",
+            "text": "Wavelength only"
+          },
+          {
+            "id": "D",
+            "text": "Medium ka naam"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Zyada force se vibration ka amplitude badhta hai, jis se loudness badhti hai. Pitch mainly frequency se judi hai."
+      },
+      "progress": {
+        "current": 21,
+        "total": 22
+      },
+      "navigation": {
+        "next": "card_summary",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_summary",
+      "card_slug": "card_summary",
+      "type": "summary",
+      "concept_id": "sound_waves_and_hearing_summary",
+      "level": 4,
+      "summary_payload": {
+        "title": "Quick Revision",
+        "revision_points": [
+          {
+            "topic": "Sound",
+            "point": "Vibrations se banti hai; mechanical wave hai; vacuum mein nahi chalti."
+          },
+          {
+            "topic": "Wave properties",
+            "point": "Frequency—Hz, pitch; amplitude—loudness; v = fλ."
+          },
+          {
+            "topic": "Human hearing",
+            "point": "Aam range 20 Hz–20 kHz; neeche infrasound, upar ultrasound."
+          },
+          {
+            "topic": "Applications",
+            "point": "Echo/SONAR distance; ultrasound imaging/cleaning; Doppler relative motion se observed pitch change."
+          }
+        ]
+      },
+      "progress": {
+        "current": 22,
+        "total": 22
+      },
+      "navigation": {
+        "next": null,
+        "button_text": "Final Practice ➔"
+      }
+    }
+  ]
+}

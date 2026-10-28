@@ -7,9 +7,10 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims"
+    "UPSC Prelims",
+    "RRB Group D"
   ],
-  "total_cards": 63,
+  "total_cards": 67,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -31,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 63
+        "total": 67
       },
       "intro_payload": {
         "chapter_icon": "🍽️",
@@ -43,7 +44,8 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims"
+          "UPSC Prelims",
+          "RRB Group D"
         ],
         "learning_outcomes": [
           "Understand what digestion is and why it is needed",
@@ -51,14 +53,72 @@
           "Master every digestive enzyme — name, source, substrate, product",
           "Understand absorption in small intestine — villi and microvilli",
           "Know liver and pancreas functions as accessory glands",
-          "Crack BPSC multi-statement & NEET enzyme-based questions confidently"
+          "Crack BPSC multi-statement & NEET enzyme-based questions confidently",
+          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
+          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
         ],
         "total_modules": 6,
-        "estimated_time": "50 mins"
+        "estimated_time": "50 mins",
+        "learning_path": [
+          {
+            "level": 1,
+            "title": "Zero/Foundation",
+            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
+          },
+          {
+            "level": 2,
+            "title": "Railway Basic",
+            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
+          },
+          {
+            "level": 3,
+            "title": "Railway Application",
+            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
+          },
+          {
+            "level": 4,
+            "title": "Advanced",
+            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
+          },
+          {
+            "level": 5,
+            "title": "Advanced Challenge",
+            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
+          }
+        ]
       },
       "navigation": {
-        "next": "card_02_digestion_intro",
+        "next": "card_zero_foundation",
         "button_text": "Start Learning 🚀"
+      }
+    },
+    {
+      "card_id": "card_zero_foundation",
+      "card_slug": "card_zero_foundation",
+      "type": "chat",
+      "concept_id": "zero_level_foundation",
+      "level": 1,
+      "progress": {
+        "current": 2,
+        "total": 67
+      },
+      "messages": [
+        {
+          "speaker": "aman",
+          "text": "Digestive system khaane ko chhote, body ke kaam aane wale parts mein todta hai. Munh se shuru hokar food pipe, stomach aur intestines tak khaana jaata hai; phir nutrients blood mein absorb hote hain."
+        },
+        {
+          "speaker": "raju",
+          "text": "Main pehle isi concept ko pakka karunga."
+        },
+        {
+          "speaker": "aman",
+          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
+        }
+      ],
+      "navigation": {
+        "next": "card_02_digestion_intro",
+        "button_text": "Aage badho ➔"
       }
     },
     {
@@ -68,8 +128,8 @@
       "concept_id": "digestion_why_needed",
       "level": 1,
       "progress": {
-        "current": 2,
-        "total": 63
+        "current": 3,
+        "total": 67
       },
       "messages": [
         {
@@ -79,7 +139,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Arey haan! Maine kabhi socha hi nahi tha ki roti seedha kaam nahi karti — pehle tooti, phir kaam ki!"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -88,7 +148,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Mechanical = physically todna, Chemical = enzymes se todna — dono types clear hain sir! Kahan se shuru hota hai yeh process?"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -103,8 +163,8 @@
       "concept_id": "alimentary_canal_order",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 63
+        "current": 4,
+        "total": 67
       },
       "messages": [
         {
@@ -114,7 +174,7 @@
         },
         {
           "speaker": "raju",
-          "text": "8-9 meter!! Sir itna lamba! Lekin pet mein itna kahan fit hota hai?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -123,11 +183,11 @@
         },
         {
           "speaker": "raju",
-          "text": "Small intestine 6-7 meter coiled hai — isliye pet mein fit hoti hai! Aur Digestive System = Alimentary Canal + Liver + Pancreas + Salivary Glands. Got it sir!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
-        "next": "card_04_mouth_salivary",
+        "next": "card_03b_gut_wall_layers",
         "button_text": "Next Card ➔"
       }
     },
@@ -138,13 +198,13 @@
       "concept_id": "alimentary_canal_histology_layers",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 63
+        "current": 5,
+        "total": 67
       },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, yeh 9 metre lambi tube andar se kaise bani hoti hai? Kya iski deewar ek hi layer ki hoti hai?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -152,7 +212,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Outer to inner: Serosa → Muscularis → Submucosa → Mucosa! Isme koi exception ya special feature bhi hai sir?"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -171,8 +231,8 @@
       "concept_id": "mouth_salivary_glands_amylase",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 63
+        "current": 6,
+        "total": 67
       },
       "messages": [
         {
@@ -182,7 +242,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Salivary Amylase ka doosra naam Ptyalin hai?? Sir maine sirf Amylase suna tha — Ptyalin to naya hai!"
+          "text": "Abhi ka main point clear hai."
         },
         {
           "speaker": "aman",
@@ -191,7 +251,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Starch digestion Mouth se shuru, Small Intestine mein complete — aur Ptyalin = Salivary Amylase! Ye note kar liya — exam mein pakka aayega!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         }
       ],
       "navigation": {
@@ -206,8 +266,8 @@
       "concept_id": "mouth_digestion_quiz1",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 63
+        "current": 7,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q1/3: Salivary Amylase (Ptyalin) kis substrate pe kaam karta hai?",
@@ -244,8 +304,8 @@
       "concept_id": "mouth_digestion_quiz2",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 63
+        "current": 8,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q2/3: Salivary glands kitne pairs hote hain aur konsa pair sabse bada hota hai?",
@@ -282,8 +342,8 @@
       "concept_id": "mouth_digestion_quiz3",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 63
+        "current": 9,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q3/3: SSC Direct — Alimentary Canal aur Digestive System mein kya fark hai?",
@@ -320,8 +380,8 @@
       "concept_id": "module1_complete",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 63
+        "current": 10,
+        "total": 67
       },
       "milestone_payload": {
         "title": "MODULE 1 COMPLETE! 🎉",
@@ -343,8 +403,8 @@
       "concept_id": "oesophagus_peristalsis",
       "level": 2,
       "progress": {
-        "current": 9,
-        "total": 63
+        "current": 11,
+        "total": 67
       },
       "messages": [
         {
@@ -354,7 +414,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Peristalsis ki wajah se astronauts ulte hoke bhi kha sakte hain?? Ye to amazing hai! Sir bolus kya hota hai?"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -363,7 +423,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bolus = chewed food, Cardiac Sphincter = valve between oesophagus aur stomach, weak hone par = Acid Reflux! Logical connection hai sir!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -378,8 +438,8 @@
       "concept_id": "stomach_hcl_pepsin",
       "level": 2,
       "progress": {
-        "current": 10,
-        "total": 63
+        "current": 12,
+        "total": 67
       },
       "messages": [
         {
@@ -389,7 +449,7 @@
         },
         {
           "speaker": "raju",
-          "text": "HCl itna strong acid stomach mein?? Phir stomach khud kyun nahi chal jaata sir?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -398,7 +458,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Pepsinogen inactive, HCl activate karta hai = Pepsin — phir Pepsin proteins todta hai! Aur Mucus stomach wall ko bachata hai — brilliant design hai body ka!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -413,8 +473,8 @@
       "concept_id": "gastric_enzymes_complete",
       "level": 2,
       "progress": {
-        "current": 11,
-        "total": 63
+        "current": 13,
+        "total": 67
       },
       "messages": [
         {
@@ -424,7 +484,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Rennin sirf infants mein! Adults mein nahi! Ye to pakka trap hai sir — exam mein zaroor aayega!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -433,7 +493,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bolus = mouth se aaya, Chyme = stomach se nikla! Pyloric Sphincter exit door hai stomach ka! Ab sab connect ho raha hai sir!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -448,8 +508,8 @@
       "concept_id": "stomach_quiz1",
       "level": 2,
       "progress": {
-        "current": 12,
-        "total": 63
+        "current": 14,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q1/3: Stomach mein HCl kaun si cells produce karti hain?",
@@ -486,8 +546,8 @@
       "concept_id": "stomach_quiz2",
       "level": 2,
       "progress": {
-        "current": 13,
-        "total": 63
+        "current": 15,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q2/3: BPSC Trap — Rennin enzyme ke baare mein kaunsa statement SAHI hai?",
@@ -524,8 +584,8 @@
       "concept_id": "stomach_quiz3",
       "level": 2,
       "progress": {
-        "current": 14,
-        "total": 63
+        "current": 16,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q3/3: Peptic Ulcer kis bacterium ki wajah se hota hai aur ise kisne discover kiya?",
@@ -562,8 +622,8 @@
       "concept_id": "module2_complete",
       "level": 2,
       "progress": {
-        "current": 15,
-        "total": 63
+        "current": 17,
+        "total": 67
       },
       "milestone_payload": {
         "title": "STOMACH SECRETS UNLOCKED! ⚗️",
@@ -585,8 +645,8 @@
       "concept_id": "small_intestine_structure",
       "level": 3,
       "progress": {
-        "current": 16,
-        "total": 63
+        "current": 18,
+        "total": 67
       },
       "messages": [
         {
@@ -596,7 +656,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Duodenum C-shaped hai — interesting! Sir Jejunum aur Ileum mein kya hota hai alag se?"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -605,7 +665,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Pernicious Anaemia = Vitamin B12 absorb nahi hoti = Intrinsic Factor nahi = Parietal cells kharaab! Yeh chain important hai sir!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -620,8 +680,8 @@
       "concept_id": "pancreatic_enzymes_complete",
       "level": 3,
       "progress": {
-        "current": 17,
-        "total": 63
+        "current": 19,
+        "total": 67
       },
       "messages": [
         {
@@ -631,7 +691,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir Trypsin aur Chymotrypsin — dono protein todte hain? Phir dono alag kyun hain?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -640,7 +700,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Trypsinogen inactive, Enterokinase activate karta hai = Trypsin! Bilkul Pepsinogen-HCl wali story jaisi — body pehle inactive form banaati hai safety ke liye!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         }
       ],
       "navigation": {
@@ -655,8 +715,8 @@
       "concept_id": "bile_liver_emulsification",
       "level": 3,
       "progress": {
-        "current": 18,
-        "total": 63
+        "current": 20,
+        "total": 67
       },
       "messages": [
         {
@@ -666,7 +726,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir bile mein enzymes nahi?? Toh fat todta kaun hai?"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -675,11 +735,11 @@
         },
         {
           "speaker": "raju",
-          "text": "Bile = emulsification (physical todna), Lipase = chemical digestion! Ye dono ka fark exam mein galat karna mat sir — note kar liya!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
-        "next": "card_19_intestinal_enzymes",
+        "next": "card_18b_duct_system_sphincter_oddi",
         "button_text": "Next Card ➔"
       }
     },
@@ -690,13 +750,13 @@
       "concept_id": "biliary_duct_system_sphincter_oddi",
       "level": 3,
       "progress": {
-        "current": 20,
-        "total": 63
+        "current": 21,
+        "total": 67
       },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, liver se bile aur pancreas se pancreatic juice duodenum mein alag-alag aate hain ya ek hi pipe se?"
+          "text": "Main ise apne notes mein likh leta hoon."
         },
         {
           "speaker": "aman",
@@ -704,7 +764,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Phir yeh Common Bile Duct seedhe duodenum mein khulti hai?"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -723,8 +783,8 @@
       "concept_id": "intestinal_enzymes_succus_entericus",
       "level": 3,
       "progress": {
-        "current": 19,
-        "total": 63
+        "current": 22,
+        "total": 67
       },
       "messages": [
         {
@@ -734,7 +794,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir Lactase ke baare mein kuch special sunna tha — Lactose Intolerance kya hai?"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         },
         {
           "speaker": "aman",
@@ -743,7 +803,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Invertase = Sucrase — ek hi enzyme, do naam! Aur Lactose Intolerance = Lactase nahi = milk digest nahi! Ye practical knowledge hai!"
+          "text": "Sir, abhi ka lesson samajh aaya."
         }
       ],
       "navigation": {
@@ -758,8 +818,8 @@
       "concept_id": "small_intestine_quiz1",
       "level": 3,
       "progress": {
-        "current": 20,
-        "total": 63
+        "current": 23,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q1/3: Pancreas ko 'Mixed Gland' kyun kaha jaata hai?",
@@ -796,8 +856,8 @@
       "concept_id": "small_intestine_quiz2",
       "level": 3,
       "progress": {
-        "current": 21,
-        "total": 63
+        "current": 24,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q2/3: NEET Direct — Bile (Pitt ras) ka primary function kya hai?",
@@ -834,8 +894,8 @@
       "concept_id": "small_intestine_quiz3",
       "level": 3,
       "progress": {
-        "current": 22,
-        "total": 63
+        "current": 25,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q3/3: BPSC Trap — Trypsinogen ko activate karne wala enzyme kaun hai?",
@@ -872,8 +932,8 @@
       "concept_id": "module3_complete",
       "level": 3,
       "progress": {
-        "current": 23,
-        "total": 63
+        "current": 26,
+        "total": 67
       },
       "milestone_payload": {
         "title": "ENZYME EXPERT! 🧪",
@@ -895,8 +955,8 @@
       "concept_id": "absorption_villi_microvilli",
       "level": 3,
       "progress": {
-        "current": 24,
-        "total": 63
+        "current": 27,
+        "total": 67
       },
       "messages": [
         {
@@ -906,7 +966,7 @@
         },
         {
           "speaker": "raju",
-          "text": "200 square meters!! Sir yeh to ek tennis court se bhi bada hai! Sirf absorption ke liye itna bada area??"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -915,7 +975,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Glucose, Amino acids = blood capillaries mein, Fatty acids = Lacteal mein lymph mein — fat ka alag route! Yeh pakka exam trap hai sir!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
@@ -930,8 +990,8 @@
       "concept_id": "nutrient_absorption_specifics",
       "level": 3,
       "progress": {
-        "current": 25,
-        "total": 63
+        "current": 28,
+        "total": 67
       },
       "messages": [
         {
@@ -941,7 +1001,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Vitamin K large intestine mein absorb hota hai?? Matlab gut bacteria Vitamin K banate hain??"
+          "text": "Achha Sir, abhi ki baat samajh aa gayi."
         },
         {
           "speaker": "aman",
@@ -950,7 +1010,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Gut bacteria Vitamin K banate hain! Antibiotics → bacteria mare → Vitamin K kam! Aur bile recycle hota hai — enterohepatic circulation! Waah!"
+          "text": "Abhi tak ka example clear hai."
         }
       ],
       "navigation": {
@@ -965,8 +1025,8 @@
       "concept_id": "large_intestine_functions",
       "level": 3,
       "progress": {
-        "current": 26,
-        "total": 63
+        "current": 29,
+        "total": 67
       },
       "messages": [
         {
@@ -976,7 +1036,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir Appendix kya kaam karta hai? Sunne mein aaya hai ki yeh useless hai!"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -985,7 +1045,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Appendix = vestigial organ in humans, Herbivores mein Caecum bada = cellulose digestion! Appendicitis = right side lower pain!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -1000,8 +1060,8 @@
       "concept_id": "absorption_quiz1",
       "level": 3,
       "progress": {
-        "current": 27,
-        "total": 63
+        "current": 30,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q1/3: Fat absorption small intestine mein kaise hoti hai?",
@@ -1038,8 +1098,8 @@
       "concept_id": "absorption_quiz2",
       "level": 3,
       "progress": {
-        "current": 28,
-        "total": 63
+        "current": 31,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q2/3: Small intestine ka effective surface area Villi aur Microvilli ki wajah se kitna ho jaata hai?",
@@ -1076,8 +1136,8 @@
       "concept_id": "absorption_quiz3",
       "level": 3,
       "progress": {
-        "current": 29,
-        "total": 63
+        "current": 32,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q3/3: BPSC Multi-Statement — Large Intestine ke baare mein inme se kaunsa statement GALAT hai?",
@@ -1114,8 +1174,8 @@
       "concept_id": "module4_complete",
       "level": 3,
       "progress": {
-        "current": 30,
-        "total": 63
+        "current": 33,
+        "total": 67
       },
       "milestone_payload": {
         "title": "ABSORPTION ACED! 💪",
@@ -1137,8 +1197,8 @@
       "concept_id": "liver_multiple_functions",
       "level": 4,
       "progress": {
-        "current": 31,
-        "total": 63
+        "current": 34,
+        "total": 67
       },
       "messages": [
         {
@@ -1148,7 +1208,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir itna sab kuch liver karta hai?? Urea bhi liver mein banta hai — yeh toh Excretion chapter mein bhi tha!"
+          "text": "Haan Sir, is tarah samajhna aasaan hai."
         },
         {
           "speaker": "aman",
@@ -1157,7 +1217,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Liver = largest gland = largest internal organ — dono! Aur 70% remove hone ke baad bhi regenerate karta hai — ye to superhero hai!"
+          "text": "Ab is example ka matlab samajh aaya."
         }
       ],
       "navigation": {
@@ -1172,8 +1232,8 @@
       "concept_id": "liver_diseases_jaundice_cirrhosis",
       "level": 4,
       "progress": {
-        "current": 32,
-        "total": 63
+        "current": 35,
+        "total": 67
       },
       "messages": [
         {
@@ -1183,7 +1243,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir Hepatitis ke itne types hain! A aur E faeco-oral — dirty water se? B aur C blood borne?"
+          "text": "Main pehle isi concept ko pakka karunga."
         },
         {
           "speaker": "aman",
@@ -1192,7 +1252,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Glycogenolysis = glycogen → glucose, Gluconeogenesis = new glucose banana! Aur Hep A,E = water, Hep B,C = blood — pakka note kar liya!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         }
       ],
       "navigation": {
@@ -1207,8 +1267,8 @@
       "concept_id": "complete_enzyme_summary",
       "level": 4,
       "progress": {
-        "current": 33,
-        "total": 63
+        "current": 36,
+        "total": 67
       },
       "messages": [
         {
@@ -1218,7 +1278,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir Lactose = Glucose + Galactose?? Maine socha tha Glucose + Fructose hoga!"
+          "text": "Achha Sir, abhi tak sab clear hai."
         },
         {
           "speaker": "aman",
@@ -1227,7 +1287,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sucrose = Glucose+Fructose, Lactose = Glucose+Galactose, Maltose = Glucose+Glucose — teeno alag! Yeh yaad kar lunga pakka!"
+          "text": "Theek hai, pehle ye baat yaad rakhta hoon."
         }
       ],
       "navigation": {
@@ -1242,8 +1302,8 @@
       "concept_id": "liver_enzyme_quiz1",
       "level": 4,
       "progress": {
-        "current": 34,
-        "total": 63
+        "current": 37,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q1/3: Lactase enzyme kis disaccharide ko todta hai aur uske products kya hain?",
@@ -1280,8 +1340,8 @@
       "concept_id": "liver_enzyme_quiz2",
       "level": 4,
       "progress": {
-        "current": 35,
-        "total": 63
+        "current": 38,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q2/3: NEET — Liver ka 'Largest gland' aur 'Largest internal organ' dono hona — kya yeh sahi hai?",
@@ -1318,8 +1378,8 @@
       "concept_id": "liver_enzyme_quiz3",
       "level": 4,
       "progress": {
-        "current": 36,
-        "total": 63
+        "current": 39,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q3/3: SSC CGL — Hepatitis B kaise failta hai?",
@@ -1356,8 +1416,8 @@
       "concept_id": "module5_complete",
       "level": 4,
       "progress": {
-        "current": 37,
-        "total": 63
+        "current": 40,
+        "total": 67
       },
       "milestone_payload": {
         "title": "LIVER LEGENDS! 🏆",
@@ -1379,8 +1439,8 @@
       "concept_id": "digestive_hormones_gastrin_secretin",
       "level": 4,
       "progress": {
-        "current": 38,
-        "total": 63
+        "current": 41,
+        "total": 67
       },
       "messages": [
         {
@@ -1390,7 +1450,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Secretin kya hai sir? Pehli baar sun raha hun!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -1399,7 +1459,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Secretin = pehla hormone ever discovered! Bayliss aur Starling 1902! Aur CCK = bile release aur pancreatic enzymes! Ye to history aur science dono hain!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -1414,8 +1474,8 @@
       "concept_id": "gip_motilin_hormones",
       "level": 4,
       "progress": {
-        "current": 39,
-        "total": 63
+        "current": 42,
+        "total": 67
       },
       "messages": [
         {
@@ -1425,7 +1485,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Housekeeper Wave?? Sir khali pet mein bhi intestine kaam karti hai??"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1434,7 +1494,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Borborygmus = pet ki growling sound = Motilin ka kaam! Aur Gastrin = stomach, Secretin = duodenum — sources alag hain!"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         }
       ],
       "navigation": {
@@ -1449,8 +1509,8 @@
       "concept_id": "digestive_disorders_complete",
       "level": 4,
       "progress": {
-        "current": 40,
-        "total": 63
+        "current": 43,
+        "total": 67
       },
       "messages": [
         {
@@ -1460,7 +1520,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Celiac Disease mein Villi destroy ho jaate hain?? Phir absorption kaise hogi??"
+          "text": "Haan Sir, simple tareeke se samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1469,11 +1529,11 @@
         },
         {
           "speaker": "raju",
-          "text": "Celiac = Gluten → Villi destroy → malabsorption! Treatment = gluten-free diet! Ye to practical health knowledge bhi hai!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         }
       ],
       "navigation": {
-        "next": "card_41_quiz16",
+        "next": "card_40b_pem_kwashiorkor_marasmus",
         "button_text": "Next Card ➔"
       }
     },
@@ -1484,13 +1544,13 @@
       "concept_id": "protein_energy_malnutrition_pem",
       "level": 4,
       "progress": {
-        "current": 43,
-        "total": 63
+        "current": 44,
+        "total": 67
       },
       "messages": [
         {
           "speaker": "raju",
-          "text": "Sir, garib bacchon mein kuposhan (malnutrition) se pet phool jata hai aur hath-paon patle ho jaate hain. Yeh kis cheez ki kami se hota hai?"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         },
         {
           "speaker": "aman",
@@ -1498,7 +1558,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya! Kwashiorkor = sirf protein ki kami + pet phoola (edema). Marasmus = protein aur calorie dono ki kami + no edema!"
+          "text": "Theek hai Sir, main is point ko yaad rakhoonga."
         },
         {
           "speaker": "aman",
@@ -1517,8 +1577,8 @@
       "concept_id": "hormones_disorders_quiz1",
       "level": 4,
       "progress": {
-        "current": 41,
-        "total": 63
+        "current": 45,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q1/3: BPSC Direct — 'Pehla hormone' jo ever discover kiya gaya — uska naam aur discoverer kaun hai?",
@@ -1555,8 +1615,8 @@
       "concept_id": "hormones_disorders_quiz2",
       "level": 4,
       "progress": {
-        "current": 42,
-        "total": 63
+        "current": 46,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q2/3: CCK (Cholecystokinin) ka primary function kya hai?",
@@ -1593,8 +1653,8 @@
       "concept_id": "hormones_disorders_quiz3",
       "level": 4,
       "progress": {
-        "current": 43,
-        "total": 63
+        "current": 47,
+        "total": 67
       },
       "quiz_payload": {
         "question": "Q3/3: NEET Assertion-Reason — Assertion (A): Celiac Disease mein patient ko wheat-based food avoid karna chahiye. Reason (R): Wheat mein Gluten protein hota hai jo Celiac patients mein small intestine ki Villi ko damage karta hai, absorption reduce karta hai.",
@@ -1631,8 +1691,8 @@
       "concept_id": "module6_complete",
       "level": 4,
       "progress": {
-        "current": 44,
-        "total": 63
+        "current": 48,
+        "total": 67
       },
       "milestone_payload": {
         "title": "ALL MODULES CONQUERED! 🎊",
@@ -1654,8 +1714,8 @@
       "concept_id": "digestion_special_facts",
       "level": 5,
       "progress": {
-        "current": 45,
-        "total": 63
+        "current": 49,
+        "total": 67
       },
       "messages": [
         {
@@ -1665,7 +1725,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Enamel sabse hard substance — diamond se bhi hard?? Yeh interesting fact hai sir!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -1674,7 +1734,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Goblet cells = mucus, Brunner's glands = Duodenum mein alkaline mucus, Peyer's patches = Ileum mein immunity! Har jagah kuch na kuch special hai!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -1689,8 +1749,8 @@
       "concept_id": "nutrition_modes_autotroph_heterotroph",
       "level": 5,
       "progress": {
-        "current": 46,
-        "total": 63
+        "current": 50,
+        "total": 67
       },
       "messages": [
         {
@@ -1700,7 +1760,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Euglena dono karta hai?? Matlab woh plant bhi hai aur animal bhi??"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         },
         {
           "speaker": "aman",
@@ -1709,7 +1769,7 @@
         },
         {
           "speaker": "raju",
-          "text": "5 steps: Ingestion → Digestion → Absorption → Assimilation → Egestion! Assimilation pehle, Egestion last! Order pakka karta hun!"
+          "text": "Main ise apne notes mein likh leta hoon."
         }
       ],
       "navigation": {
@@ -1724,8 +1784,8 @@
       "concept_id": "guess_digestive_enzyme",
       "level": 5,
       "progress": {
-        "current": 47,
-        "total": 63
+        "current": 51,
+        "total": 67
       },
       "guess_payload": {
         "question": "🤔 Guess karo — Ek enzyme jo Pancreas se inactive form mein nikalta hai, Small Intestine ki wall se nikle ek special enzyme ne ise active kiya, aur ab yeh proteins ko todta hai. Iska active form kya hai aur ise activate karne wala enzyme kaun hai?",
@@ -1763,8 +1823,8 @@
       "concept_id": "caloric_values_macronutrients",
       "level": 5,
       "progress": {
-        "current": 48,
-        "total": 63
+        "current": 52,
+        "total": 67
       },
       "messages": [
         {
@@ -1774,7 +1834,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Fat mein 9 kcal — Carbs aur Protein se double! Isliye fat khaane se zyada mote hote hain!"
+          "text": "Achha, ab baat samajh mein aa rahi hai."
         },
         {
           "speaker": "aman",
@@ -1783,12 +1843,126 @@
         },
         {
           "speaker": "raju",
-          "text": "Humans cellulose digest nahi kar sakte — koi cellulase nahi! Herbivores karte hain — bacteria ki wajah se! Dietary fiber = cellulose = digestion nahi hoti but gut mein important!"
+          "text": "Sir, ye example mujhe samajh aa gaya."
         }
       ],
       "navigation": {
-        "next": "card_49_officer_summary",
+        "next": "card_applied_case_01",
         "button_text": "Final Revision ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_01",
+      "card_slug": "card_applied_case_01",
+      "type": "quiz",
+      "concept_id": "applied_practice_01",
+      "level": 2,
+      "quiz_payload": {
+        "question": "Applied case 1: Roti ka tukda muh mein der tak chabane par thoda meetha lagne lagta hai. Kaunsa enzyme starch par kaam kar raha hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Salivary amylase"
+          },
+          {
+            "id": "B",
+            "text": "Pepsin"
+          },
+          {
+            "id": "C",
+            "text": "Lipase"
+          },
+          {
+            "id": "D",
+            "text": "Trypsin"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Saliva ka amylase starch ko chhote sugars mein todna shuru karta hai; isi se meethapan aa sakta hai."
+      },
+      "progress": {
+        "current": 53,
+        "total": 67
+      },
+      "navigation": {
+        "next": "card_applied_case_02",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_02",
+      "card_slug": "card_applied_case_02",
+      "type": "quiz",
+      "concept_id": "applied_practice_02",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 2: Bile duct band hone par fats digest karna mushkil ho sakta hai. Bile ka normal kaam kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fat ki badi boondon ko chhoti boondon mein baantna"
+          },
+          {
+            "id": "B",
+            "text": "Protein ko amino acids mein todna"
+          },
+          {
+            "id": "C",
+            "text": "Starch ko glucose banana"
+          },
+          {
+            "id": "D",
+            "text": "Oxygen blood mein jodna"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "Bile fat ko emulsify karke surface area badhata hai; enzymes phir fats ko aasani se digest karte hain."
+      },
+      "progress": {
+        "current": 54,
+        "total": 67
+      },
+      "navigation": {
+        "next": "card_applied_case_03",
+        "button_text": "Check Answer ➔"
+      }
+    },
+    {
+      "card_id": "card_applied_case_03",
+      "card_slug": "card_applied_case_03",
+      "type": "quiz",
+      "concept_id": "applied_practice_03",
+      "level": 3,
+      "quiz_payload": {
+        "question": "Applied case 3: Diarrhoea mein body se paani aur salts bahut nikal rahe hain. ORS peene ka practical fayda kya hai?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Paani aur salts ki absorption mein madad"
+          },
+          {
+            "id": "B",
+            "text": "Food ko stomach mein rokna"
+          },
+          {
+            "id": "C",
+            "text": "Body mein infection ko turant maarna"
+          },
+          {
+            "id": "D",
+            "text": "Digestive enzymes ko band karna"
+          }
+        ],
+        "correct_option_id": "A",
+        "explanation": "ORS mein paani aur sahi matra ke salts/glucose hote hain jo intestine se fluid absorption mein madad karte hain."
+      },
+      "progress": {
+        "current": 55,
+        "total": 67
+      },
+      "navigation": {
+        "next": "card_49_officer_summary",
+        "button_text": "Check Answer ➔"
       }
     },
     {
@@ -1798,8 +1972,8 @@
       "concept_id": "full_chapter_summary",
       "level": 5,
       "progress": {
-        "current": 49,
-        "total": 63
+        "current": 56,
+        "total": 67
       },
       "summary_payload": {
         "title": "⚡ Officer Rapid Revision — Digestive System",
@@ -1838,8 +2012,8 @@
       "concept_id": "master_quiz_1",
       "level": 5,
       "progress": {
-        "current": 50,
-        "total": 63
+        "current": 57,
+        "total": 67
       },
       "quiz_payload": {
         "question": "🏆 MASTER QUIZ Q1/5 — BPSC Multi-Statement: Inme se kaun se statements Digestive System ke baare mein SAHI hain?\n(1) Salivary Amylase aur Ptyalin dono alag-alag enzymes hain\n(2) Bile mein koi digestive enzyme nahi hota\n(3) Trypsinogen ko Enterokinase activate karta hai\n(4) Rennin adults mein bhi hota hai\n(5) Large intestine mein koi digestive enzyme nahi hota",
@@ -1876,8 +2050,8 @@
       "concept_id": "master_quiz_2",
       "level": 5,
       "progress": {
-        "current": 51,
-        "total": 63
+        "current": 58,
+        "total": 67
       },
       "quiz_payload": {
         "question": "🏆 MASTER QUIZ Q2/5 — NEET Assertion-Reason: Assertion (A): Pancreatic enzymes inactive precursors (zymogen granules) ke roop mein secrete hote hain. Reason (R): Agar yeh active form mein secrete hon, toh Pancreas khud ko digest kar le — Pancreatitis ho sakti hai.",
@@ -1914,8 +2088,8 @@
       "concept_id": "master_quiz_3",
       "level": 5,
       "progress": {
-        "current": 52,
-        "total": 63
+        "current": 59,
+        "total": 67
       },
       "quiz_payload": {
         "question": "🏆 MASTER QUIZ Q3/5 — SSC/Railway Speed Round — Inme se kaun sa match GALAT hai?",
@@ -1952,8 +2126,8 @@
       "concept_id": "master_quiz_4",
       "level": 5,
       "progress": {
-        "current": 53,
-        "total": 63
+        "current": 60,
+        "total": 67
       },
       "quiz_payload": {
         "question": "🏆 MASTER QUIZ Q4/5 — UPSC Prelims Level: Holozoic nutrition ke 5 steps ka SAHI kram identify karo:",
@@ -1990,8 +2164,8 @@
       "concept_id": "master_quiz_5",
       "level": 5,
       "progress": {
-        "current": 54,
-        "total": 63
+        "current": 61,
+        "total": 67
       },
       "quiz_payload": {
         "question": "🏆 MASTER QUIZ Q5/5 — NEET Officer Supreme: Inme se kaun se statements Absorption ke baare mein SAHI hain?\n(1) Glucose portal vein se liver mein jaata hai\n(2) Fatty acids Lacteals mein Chylomicrons ke roop mein absorb hote hain\n(3) Vitamin B12 Duodenum mein absorb hota hai Intrinsic Factor ke saath\n(4) Bile salts Ileum mein absorb hoke Enterohepatic Circulation mein participate karte hain\n(5) Large intestine mein Iron aur Calcium best absorb hote hain",
@@ -2028,8 +2202,8 @@
       "concept_id": "cross_system_connections",
       "level": 5,
       "progress": {
-        "current": 55,
-        "total": 63
+        "current": 62,
+        "total": 67
       },
       "messages": [
         {
@@ -2039,7 +2213,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Insulin = glucose store karo, Glucagon = glucose nikalo! Dono pancreas se aur dono opposite kaam karte hain!"
+          "text": "Ab is example ka matlab samajh aaya."
         },
         {
           "speaker": "aman",
@@ -2048,7 +2222,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Gut mein 100 trillion bacteria!! Aur Gut-Brain connection?? Sir dahi khaana probiotics ke liye — iska science bhi samajh aaya ab!"
+          "text": "Achha, abhi isi baat ko yaad karta hoon."
         }
       ],
       "navigation": {
@@ -2063,8 +2237,8 @@
       "concept_id": "final_guess_comprehensive",
       "level": 5,
       "progress": {
-        "current": 56,
-        "total": 63
+        "current": 63,
+        "total": 67
       },
       "guess_payload": {
         "question": "🎯 Final Boss Guess — Yeh organ body mein sabse bada internal organ bhi hai, sabse bada gland bhi hai, bile banata hai, urea banata hai, glycogen store karta hai, blood clotting factors banata hai, aur 70% remove hone ke baad bhi regenerate kar sakta hai. Kaun hai yeh superhero organ?",
@@ -2102,8 +2276,8 @@
       "concept_id": "chapter_completion",
       "level": 5,
       "progress": {
-        "current": 57,
-        "total": 63
+        "current": 64,
+        "total": 67
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER COMPLETE — DIGESTIVE SYSTEM MASTER!",
@@ -2125,8 +2299,8 @@
       "concept_id": "next_chapter_hook",
       "level": 5,
       "progress": {
-        "current": 58,
-        "total": 63
+        "current": 65,
+        "total": 67
       },
       "messages": [
         {
@@ -2136,7 +2310,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Glucose se 36-38 ATP?? Sir phir khaane se itni energy kaise milti hai ek baar mein?? Cellular Respiration ka poora chapter banana hai!"
+          "text": "Abhi tak ka example clear hai."
         },
         {
           "speaker": "aman",
@@ -2145,7 +2319,7 @@
         },
         {
           "speaker": "raju",
-          "text": "36 vs 38 ATP debate?? Sir ab toh ruk hi nahi sakte — Cellular Respiration ka chapter immediately shuru karte hain!"
+          "text": "Main pehle isi concept ko pakka karunga."
         }
       ],
       "navigation": {
@@ -2160,8 +2334,8 @@
       "concept_id": "chapter_farewell",
       "level": 5,
       "progress": {
-        "current": 59,
-        "total": 63
+        "current": 66,
+        "total": 67
       },
       "messages": [
         {
@@ -2171,7 +2345,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir seriously — pehle Digestive System mujhe boring lagta tha — sirf khaana hajaM! Ab pata chala kitna amazing science hai peeche! Har organ ka design perfect reason se hai!"
+          "text": "Theek hai, isi baat par dhyan deta hoon."
         },
         {
           "speaker": "aman",
@@ -2180,7 +2354,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ab khaana khate waqt biology yaad aayegi! Sir chalte hain — Cellular Respiration dekhna hai. ATP ka raaz kholna hai!"
+          "text": "Abhi ka main point clear hai."
         }
       ],
       "navigation": {
@@ -2195,8 +2369,8 @@
       "concept_id": "chapter_final_farewell",
       "level": 5,
       "progress": {
-        "current": 60,
-        "total": 63
+        "current": 67,
+        "total": 67
       },
       "milestone_payload": {
         "title": "BIOLOGY OFFICER IN MAKING! 🌟",
