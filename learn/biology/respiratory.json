@@ -7,10 +7,9 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims",
-    "RRB Group D"
+    "UPSC Prelims"
   ],
-  "total_cards": 84,
+  "total_cards": 80,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -32,7 +31,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 84
+        "total": 80
       },
       "intro_payload": {
         "title": "🫁 Respiratory System (श्वसन तंत्र)",
@@ -43,8 +42,7 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC",
-          "RRB Group D"
+          "UPSC"
         ],
         "learning_outcomes": [
           "Breathing vs Respiration का फर्क समझोगे",
@@ -54,70 +52,12 @@
           "Respiratory Volumes & Capacities (Spirometry)",
           "Respiratory Disorders – Asthma, Emphysema, Occupational diseases",
           "Regulation of Breathing – Neural & Chemical control",
-          "PYQ Traps – BPSC, SSC, NEET level mastery",
-          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
-          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
-        ],
-        "learning_path": [
-          {
-            "level": 1,
-            "title": "Zero/Foundation",
-            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
-          },
-          {
-            "level": 2,
-            "title": "Railway Basic",
-            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
-          },
-          {
-            "level": 3,
-            "title": "Railway Application",
-            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
-          },
-          {
-            "level": 4,
-            "title": "Advanced",
-            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
-          },
-          {
-            "level": 5,
-            "title": "Advanced Challenge",
-            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
-          }
+          "PYQ Traps – BPSC, SSC, NEET level mastery"
         ]
       },
       "navigation": {
-        "next": "card_zero_foundation",
-        "button_text": "Let's Begin ➔"
-      }
-    },
-    {
-      "card_id": "card_zero_foundation",
-      "card_slug": "card_zero_foundation",
-      "type": "chat",
-      "concept_id": "zero_level_foundation",
-      "level": 1,
-      "progress": {
-        "current": 2,
-        "total": 84
-      },
-      "messages": [
-        {
-          "speaker": "aman",
-          "text": "Respiratory system hawa se oxygen body mein leta hai aur carbon dioxide bahar nikaalta hai. Saans lena hawa ki movement hai; cells ke andar oxygen se energy banana alag process hai, jise cellular respiration kehte hain."
-        },
-        {
-          "speaker": "raju",
-          "text": "Sir, aapne abhi kaha ki Respiratory system hawa se oxygen body mein leta hai aur carbon dioxide. Kya main sahi samjha?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
-        }
-      ],
-      "navigation": {
         "next": "card_02_breathing_daily",
-        "button_text": "Aage badho ➔"
+        "button_text": "Let's Begin ➔"
       }
     },
     {
@@ -127,8 +67,8 @@
       "concept_id": "breathing_observation",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 84
+        "current": 2,
+        "total": 80
       },
       "messages": [
         {
@@ -145,7 +85,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Ye jo cheez tum roz bina soche karte ho – andar hawa lena."
+          "text": "Hain?? Dono ek hi cheez nahi hai kya? Mujhe to laga saans lena matlab respiration!"
         }
       ],
       "navigation": {
@@ -160,8 +100,8 @@
       "concept_id": "breathing_vs_respiration",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 84
+        "current": 3,
+        "total": 80
       },
       "messages": [
         {
@@ -178,7 +118,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Ekdum perfect example."
+          "text": "Sir par breathing me koi enzyme wagairah lagta hai kya?"
         }
       ],
       "navigation": {
@@ -193,8 +133,8 @@
       "concept_id": "breathing_no_enzyme",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 84
+        "current": 4,
+        "total": 80
       },
       "messages": [
         {
@@ -211,7 +151,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Ye to important point hai... ab"
+          "text": "Ye to important point hai... ab aage bataiye Sir, hawa andar jaati kahan se hai?"
         }
       ],
       "navigation": {
@@ -226,8 +166,8 @@
       "concept_id": "breathing_vs_respiration_quiz",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 84
+        "current": 5,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा कथन सही है? (Q1/3)",
@@ -264,8 +204,8 @@
       "concept_id": "breathing_vs_respiration_quiz",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 84
+        "current": 6,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Assertion (A): Breathing और Respiration एक ही process है। Reason (R): दोनों में oxygen का उपयोग होता है। (Q2/3)",
@@ -302,8 +242,8 @@
       "concept_id": "breathing_vs_respiration_quiz",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 84
+        "current": 7,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Cellular Respiration किसमें होता है? (Q3/3)",
@@ -340,8 +280,8 @@
       "concept_id": "mod1_complete",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 84
+        "current": 8,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 1 COMPLETED! 🎉",
@@ -363,8 +303,8 @@
       "concept_id": "respiratory_tract_start",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 84
+        "current": 9,
+        "total": 80
       },
       "messages": [
         {
@@ -396,8 +336,8 @@
       "concept_id": "nasal_cavity_structure",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 84
+        "current": 10,
+        "total": 80
       },
       "messages": [
         {
@@ -414,7 +354,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: nasal cavity se hawa jaati hai Pharynx me."
+          "text": "Sir par kabhi khana khaate waqt khaansi aa jaati hai – wo kyu?"
         }
       ],
       "navigation": {
@@ -429,8 +369,8 @@
       "concept_id": "epiglottis_function",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 84
+        "current": 11,
+        "total": 80
       },
       "messages": [
         {
@@ -447,7 +387,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Tabhi khaansi aati hai – body ka defense mechanism hai."
+          "text": "Sir ab trachea ke baare me bataiye – wo kaise dikhti hai?"
         }
       ],
       "navigation": {
@@ -462,8 +402,8 @@
       "concept_id": "larynx_structure",
       "level": 1,
       "progress": {
-        "current": 13,
-        "total": 84
+        "current": 12,
+        "total": 80
       },
       "messages": [
         {
@@ -480,7 +420,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Puberty me testosterone hormone ki wajah se larynx bada ho jaata hai."
+          "text": "Ye to interesting hai Sir! Larynx ke baad kya aata hai?"
         }
       ],
       "navigation": {
@@ -495,8 +435,8 @@
       "concept_id": "trachea_structure",
       "level": 1,
       "progress": {
-        "current": 14,
-        "total": 84
+        "current": 13,
+        "total": 80
       },
       "messages": [
         {
@@ -509,11 +449,11 @@
         },
         {
           "speaker": "aman",
-          "text": "Chaliye, is baat ko seedhe samajhte hain. C-shaped isliye kyunki trachea ke peeche oesophagus (food pipe) hoti hai. Agar pura ring hota to khana nigalte waqt food pipe expand nahi kar paati! C ka open side peeche hota hai jahan smooth muscle hoti hai. Ye NEET ka classic question hai!"
+          "text": "Excellent question! C-shaped isliye kyunki trachea ke peeche oesophagus (food pipe) hoti hai. Agar pura ring hota to khana nigalte waqt food pipe expand nahi kar paati! C ka open side peeche hota hai jahan smooth muscle hoti hai. Ye NEET ka classic question hai!"
         },
         {
           "speaker": "raju",
-          "text": "Nahi Sir, maine is baare mein pehle nahi socha. Aap bataiye."
+          "text": "Wow Sir! Design me bhi logic hai! Ab trachea ke baad?"
         }
       ],
       "navigation": {
@@ -528,8 +468,8 @@
       "concept_id": "bronchi_bronchioles",
       "level": 1,
       "progress": {
-        "current": 15,
-        "total": 84
+        "current": 14,
+        "total": 80
       },
       "messages": [
         {
@@ -546,7 +486,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Foreign body aspiration me right bronchus me jaane ka chance zyada hota hai."
+          "text": "Matlab jaise ped ki branch chhoti hoti jaati hai, waise hi ye tubes patli hoti jaati hain?"
         }
       ],
       "navigation": {
@@ -561,8 +501,8 @@
       "concept_id": "alveoli_structure",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 84
+        "current": 15,
+        "total": 80
       },
       "messages": [
         {
@@ -579,7 +519,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Kyunki itne saare hone se surface area bahut zyada ho jaata hai – lagbhag."
+          "text": "Ek cell thick!! Matlab paper se bhi patli?"
         }
       ],
       "navigation": {
@@ -594,8 +534,8 @@
       "concept_id": "surfactant",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 84
+        "current": 16,
+        "total": 80
       },
       "messages": [
         {
@@ -627,8 +567,8 @@
       "concept_id": "respiratory_tract_order",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 84
+        "current": 17,
+        "total": 80
       },
       "quiz_payload": {
         "question": "🤔 Guess karo! Hawa ka sahi rasta kya hai nose se alveoli tak?",
@@ -665,8 +605,8 @@
       "concept_id": "respiratory_tract_quiz",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 84
+        "current": 18,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Trachea में C-shaped cartilage rings क्यों होते हैं? (Q1/3)",
@@ -703,8 +643,8 @@
       "concept_id": "respiratory_tract_quiz",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 84
+        "current": 19,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Surfactant किसके द्वारा स्रावित होता है? (Q2/3)",
@@ -741,8 +681,8 @@
       "concept_id": "respiratory_tract_quiz",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 84
+        "current": 20,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Foreign body aspiration में object सामान्यतः किस bronchus में जाता है? (Q3/3)",
@@ -779,8 +719,8 @@
       "concept_id": "mod2_complete",
       "level": 2,
       "progress": {
-        "current": 22,
-        "total": 84
+        "current": 21,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 2 COMPLETED! 🎉",
@@ -802,8 +742,8 @@
       "concept_id": "lungs_anatomy",
       "level": 2,
       "progress": {
-        "current": 23,
-        "total": 84
+        "current": 22,
+        "total": 80
       },
       "messages": [
         {
@@ -820,7 +760,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Lungs ke charon taraf ek double membrane hoti hai – Pleura."
+          "text": "Jaise machine me lubricant daalte hain? Waise hi pleural fluid kaam karta hai?"
         }
       ],
       "navigation": {
@@ -835,8 +775,8 @@
       "concept_id": "conducting_vs_respiratory",
       "level": 2,
       "progress": {
-        "current": 24,
-        "total": 84
+        "current": 23,
+        "total": 80
       },
       "messages": [
         {
@@ -853,7 +793,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: conducting part ka jo air volume hota hai jisme koi gas exchange nahi hota."
+          "text": "Dead Space! Matlab 150 mL hawa to waste jaati hai har saans me?"
         }
       ],
       "navigation": {
@@ -868,8 +808,8 @@
       "concept_id": "mechanism_of_breathing",
       "level": 2,
       "progress": {
-        "current": 25,
-        "total": 84
+        "current": 24,
+        "total": 80
       },
       "messages": [
         {
@@ -901,8 +841,8 @@
       "concept_id": "inspiration_diaphragm",
       "level": 2,
       "progress": {
-        "current": 26,
-        "total": 84
+        "current": 25,
+        "total": 80
       },
       "messages": [
         {
@@ -934,8 +874,8 @@
       "concept_id": "expiration_mechanism",
       "level": 2,
       "progress": {
-        "current": 27,
-        "total": 84
+        "current": 26,
+        "total": 80
       },
       "messages": [
         {
@@ -952,7 +892,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Normal quiet breathing me Expiration passive hai – haan."
+          "text": "Internal intercostal!! Matlab external wale saans andar lene me aur internal wale zor se bahar nikalne me?"
         }
       ],
       "navigation": {
@@ -967,8 +907,8 @@
       "concept_id": "breathing_mechanism_quiz",
       "level": 2,
       "progress": {
-        "current": 28,
-        "total": 84
+        "current": 27,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Inspiration के दौरान Diaphragm क्या करता है? (Q1/3)",
@@ -1005,8 +945,8 @@
       "concept_id": "breathing_mechanism_quiz",
       "level": 2,
       "progress": {
-        "current": 29,
-        "total": 84
+        "current": 28,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Normal quiet breathing में Expiration कैसी process है? (Q2/3)",
@@ -1043,8 +983,8 @@
       "concept_id": "breathing_mechanism_quiz",
       "level": 2,
       "progress": {
-        "current": 30,
-        "total": 84
+        "current": 29,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Breathing mechanism किस physical law पर आधारित है? (Q3/3)",
@@ -1081,8 +1021,8 @@
       "concept_id": "mod3_complete",
       "level": 2,
       "progress": {
-        "current": 31,
-        "total": 84
+        "current": 30,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 3 COMPLETED! 🎉",
@@ -1104,8 +1044,8 @@
       "concept_id": "respiratory_volumes",
       "level": 3,
       "progress": {
-        "current": 32,
-        "total": 84
+        "current": 31,
+        "total": 80
       },
       "messages": [
         {
@@ -1137,8 +1077,8 @@
       "concept_id": "irv_erv_volumes",
       "level": 3,
       "progress": {
-        "current": 33,
-        "total": 84
+        "current": 32,
+        "total": 80
       },
       "messages": [
         {
@@ -1155,7 +1095,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: yahin sabse bada concept hai – kitna bhi zor se hawa nikalo."
+          "text": "Hain?? Matlab hum kabhi lungs puri tarah khali nahi kar sakte? Ye to surprising hai!"
         }
       ],
       "navigation": {
@@ -1170,8 +1110,8 @@
       "concept_id": "respiratory_capacities",
       "level": 3,
       "progress": {
-        "current": 34,
-        "total": 84
+        "current": 33,
+        "total": 80
       },
       "messages": [
         {
@@ -1188,7 +1128,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: RV=1200 yaad rakho."
+          "text": "FRC matlab ERV + RV... aur IC = TV + IRV. Sir ye Spirometer se measure hota hai na?"
         }
       ],
       "navigation": {
@@ -1203,8 +1143,8 @@
       "concept_id": "spirometer_residual",
       "level": 3,
       "progress": {
-        "current": 35,
-        "total": 84
+        "current": 34,
+        "total": 80
       },
       "messages": [
         {
@@ -1236,8 +1176,8 @@
       "concept_id": "volumes_capacities_quiz",
       "level": 3,
       "progress": {
-        "current": 36,
-        "total": 84
+        "current": 35,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन Spirometer से measure नहीं होता? (Q1/3)",
@@ -1274,8 +1214,8 @@
       "concept_id": "volumes_capacities_quiz",
       "level": 3,
       "progress": {
-        "current": 37,
-        "total": 84
+        "current": 36,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Vital Capacity (VC) किसके बराबर है? (Q2/3)",
@@ -1312,8 +1252,8 @@
       "concept_id": "volumes_capacities_quiz",
       "level": 3,
       "progress": {
-        "current": 38,
-        "total": 84
+        "current": 37,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Anatomical Dead Space का approximate volume कितना होता है? (Q3/3)",
@@ -1350,8 +1290,8 @@
       "concept_id": "mod4_complete",
       "level": 3,
       "progress": {
-        "current": 39,
-        "total": 84
+        "current": 38,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 4 COMPLETED! 🎉",
@@ -1373,8 +1313,8 @@
       "concept_id": "gas_exchange_concept",
       "level": 3,
       "progress": {
-        "current": 40,
-        "total": 84
+        "current": 39,
+        "total": 80
       },
       "messages": [
         {
@@ -1406,8 +1346,8 @@
       "concept_id": "partial_pressure_values",
       "level": 3,
       "progress": {
-        "current": 41,
-        "total": 84
+        "current": 40,
+        "total": 80
       },
       "messages": [
         {
@@ -1439,8 +1379,8 @@
       "concept_id": "diffusion_membrane",
       "level": 3,
       "progress": {
-        "current": 42,
-        "total": 84
+        "current": 41,
+        "total": 80
       },
       "messages": [
         {
@@ -1457,7 +1397,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Kyunki diffusion rate thickness ke inversely proportional hai – jitni patli."
+          "text": "Fick's Law matlab – Rate of diffusion ∝ Surface Area × Pressure Difference / Thickness?"
         }
       ],
       "navigation": {
@@ -1472,8 +1412,8 @@
       "concept_id": "gas_exchange_quiz",
       "level": 3,
       "progress": {
-        "current": 43,
-        "total": 84
+        "current": 42,
+        "total": 80
       },
       "quiz_payload": {
         "question": "CO₂ का diffusion gradient O₂ से कम होने के बावजूद CO₂ efficiently diffuse क्यों हो जाती है? (Q1/3)",
@@ -1510,8 +1450,8 @@
       "concept_id": "gas_exchange_quiz",
       "level": 3,
       "progress": {
-        "current": 44,
-        "total": 84
+        "current": 43,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Respiratory Membrane (Diffusion Membrane) की approximately thickness कितनी होती है? (Q2/3)",
@@ -1548,8 +1488,8 @@
       "concept_id": "gas_exchange_quiz",
       "level": 3,
       "progress": {
-        "current": 45,
-        "total": 84
+        "current": 44,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Alveoli में O₂ का partial pressure (pO₂) कितना होता है? (Q3/3)",
@@ -1586,8 +1526,8 @@
       "concept_id": "mod5_complete",
       "level": 3,
       "progress": {
-        "current": 46,
-        "total": 84
+        "current": 45,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 5 COMPLETED! 🎉",
@@ -1609,8 +1549,8 @@
       "concept_id": "oxygen_transport",
       "level": 3,
       "progress": {
-        "current": 47,
-        "total": 84
+        "current": 46,
+        "total": 80
       },
       "messages": [
         {
@@ -1627,7 +1567,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Haemoglobin me 4 heme groups hote hain."
+          "text": "Matlab lungs me O₂ bind hogi aur tissues me release hogi – kyunki reaction reversible hai?"
         }
       ],
       "navigation": {
@@ -1642,8 +1582,8 @@
       "concept_id": "oxygen_dissociation_curve",
       "level": 4,
       "progress": {
-        "current": 48,
-        "total": 84
+        "current": 47,
+        "total": 80
       },
       "messages": [
         {
@@ -1660,7 +1600,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bohr Effect! Matlab exercise karte waqt body garam hoti hai, CO₂ zyada banti hai, pH kam hota hai – to Hb zyada O₂…"
+          "text": "Bohr Effect! Matlab exercise karte waqt body garam hoti hai, CO₂ zyada banti hai, pH kam hota hai – to Hb zyada O₂ release karega! Body ne kitna smart system banaya hai!"
         }
       ],
       "navigation": {
@@ -1675,8 +1615,8 @@
       "concept_id": "co2_transport",
       "level": 4,
       "progress": {
-        "current": 49,
-        "total": 84
+        "current": 48,
+        "total": 80
       },
       "messages": [
         {
@@ -1693,7 +1633,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir ye bahut important trap hai – CO₂ Hb ke heme se nahi, amino group se bind hoti hai! Aur O₂ heme ke iron se bind…"
+          "text": "Sir ye bahut important trap hai – CO₂ Hb ke heme se nahi, amino group se bind hoti hai! Aur O₂ heme ke iron se bind hoti hai!"
         }
       ],
       "navigation": {
@@ -1708,8 +1648,8 @@
       "concept_id": "chloride_shift_haldane",
       "level": 4,
       "progress": {
-        "current": 50,
-        "total": 84
+        "current": 49,
+        "total": 80
       },
       "messages": [
         {
@@ -1726,7 +1666,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Bohr = CO₂ ki wajah se O₂ release zyada. Haldane = O₂ release hone se CO₂ binding zyada. Dono ek doosre ke…"
+          "text": "Bohr = CO₂ ki wajah se O₂ release zyada. Haldane = O₂ release hone se CO₂ binding zyada. Dono ek doosre ke complement hain!"
         }
       ],
       "navigation": {
@@ -1741,8 +1681,8 @@
       "concept_id": "transport_quiz",
       "level": 4,
       "progress": {
-        "current": 51,
-        "total": 84
+        "current": 50,
+        "total": 80
       },
       "quiz_payload": {
         "question": "CO₂ blood में सबसे अधिक किस form में transport होती है? (Q1/3)",
@@ -1779,8 +1719,8 @@
       "concept_id": "transport_quiz",
       "level": 4,
       "progress": {
-        "current": 52,
-        "total": 84
+        "current": 51,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Bohr Effect क्या है? (Q2/3)",
@@ -1817,8 +1757,8 @@
       "concept_id": "transport_quiz",
       "level": 4,
       "progress": {
-        "current": 53,
-        "total": 84
+        "current": 52,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Oxygen-Haemoglobin Dissociation Curve का आकार कैसा होता है? (Q3/3)",
@@ -1855,8 +1795,8 @@
       "concept_id": "mod6_complete",
       "level": 4,
       "progress": {
-        "current": 54,
-        "total": 84
+        "current": 53,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 6 COMPLETED! 🎉",
@@ -1878,8 +1818,8 @@
       "concept_id": "regulation_breathing",
       "level": 4,
       "progress": {
-        "current": 55,
-        "total": 84
+        "current": 54,
+        "total": 80
       },
       "messages": [
         {
@@ -1896,7 +1836,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Medulla me Dorsal Respiratory Group (DRG) – inspiration control karti hai."
+          "text": "Pneumotaxic Centre inspiration ko rokta hai? Matlab agar ye na ho to saans bahut der tak andar hi rahegi?"
         }
       ],
       "navigation": {
@@ -1911,8 +1851,8 @@
       "concept_id": "chemical_regulation",
       "level": 4,
       "progress": {
-        "current": 56,
-        "total": 84
+        "current": 55,
+        "total": 80
       },
       "messages": [
         {
@@ -1929,7 +1869,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: CO₂ (aur H⁺) PRIMARY stimulus hai."
+          "text": "Carotid Body aur Aortic Body! Ye to cardiovascular system me bhi aate hain na? Cross-topic link!"
         }
       ],
       "navigation": {
@@ -1944,8 +1884,8 @@
       "concept_id": "voluntary_breathing",
       "level": 4,
       "progress": {
-        "current": 57,
-        "total": 84
+        "current": 56,
+        "total": 80
       },
       "messages": [
         {
@@ -1977,8 +1917,8 @@
       "concept_id": "regulation_quiz",
       "level": 4,
       "progress": {
-        "current": 58,
-        "total": 84
+        "current": 57,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Breathing का primary chemical stimulus क्या है? (Q1/3)",
@@ -2015,8 +1955,8 @@
       "concept_id": "regulation_quiz",
       "level": 4,
       "progress": {
-        "current": 59,
-        "total": 84
+        "current": 58,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Pneumotaxic Centre कहाँ स्थित है और इसका क्या कार्य है? (Q2/3)",
@@ -2053,8 +1993,8 @@
       "concept_id": "regulation_quiz",
       "level": 4,
       "progress": {
-        "current": 60,
-        "total": 84
+        "current": 59,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Hering-Breuer Reflex किससे संबंधित है? (Q3/3)",
@@ -2091,8 +2031,8 @@
       "concept_id": "mod7_complete",
       "level": 4,
       "progress": {
-        "current": 61,
-        "total": 84
+        "current": 60,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 7 COMPLETED! 🎉",
@@ -2114,8 +2054,8 @@
       "concept_id": "respiratory_disorders",
       "level": 4,
       "progress": {
-        "current": 62,
-        "total": 84
+        "current": 61,
+        "total": 80
       },
       "messages": [
         {
@@ -2132,7 +2072,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Inhaler me Bronchodilators hote hain jo bronchioles ki smooth muscles ko."
+          "text": "IgE! Wo allergy wali antibody! Matlab asthma ek hypersensitivity reaction bhi ho sakta hai?"
         }
       ],
       "navigation": {
@@ -2147,8 +2087,8 @@
       "concept_id": "emphysema_disease",
       "level": 4,
       "progress": {
-        "current": 63,
-        "total": 84
+        "current": 62,
+        "total": 80
       },
       "messages": [
         {
@@ -2165,7 +2105,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Emphysema irreversible hai – damaged alveoli wapas nahi banti."
+          "text": "Ye to scary hai Sir! Aur koi disorders hain?"
         }
       ],
       "navigation": {
@@ -2180,8 +2120,8 @@
       "concept_id": "occupational_lung_diseases",
       "level": 4,
       "progress": {
-        "current": 64,
-        "total": 84
+        "current": 63,
+        "total": 80
       },
       "messages": [
         {
@@ -2213,8 +2153,8 @@
       "concept_id": "pneumonia_tb_cancer",
       "level": 4,
       "progress": {
-        "current": 65,
-        "total": 84
+        "current": 64,
+        "total": 80
       },
       "messages": [
         {
@@ -2246,8 +2186,8 @@
       "concept_id": "respiration_in_organisms",
       "level": 4,
       "progress": {
-        "current": 66,
-        "total": 84
+        "current": 65,
+        "total": 80
       },
       "messages": [
         {
@@ -2264,7 +2204,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: cockroach me spiracles hote hain body ke side me – 10 pairs."
+          "text": "Cockroach me Haemoglobin nahi!! Matlab blood me O₂ carry hi nahi hota? Sab direct tubes se? Wow!"
         }
       ],
       "navigation": {
@@ -2279,8 +2219,8 @@
       "concept_id": "disorders_quiz",
       "level": 4,
       "progress": {
-        "current": 67,
-        "total": 84
+        "current": 66,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Emphysema में क्या होता है? (Q1/3)",
@@ -2317,8 +2257,8 @@
       "concept_id": "disorders_quiz",
       "level": 4,
       "progress": {
-        "current": 68,
-        "total": 84
+        "current": 67,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Tuberculosis (TB) किस organism से होती है? (Q2/3)",
@@ -2355,8 +2295,8 @@
       "concept_id": "disorders_quiz",
       "level": 4,
       "progress": {
-        "current": 69,
-        "total": 84
+        "current": 68,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Cockroach में श्वसन (respiration) किसके द्वारा होता है? (Q3/3)",
@@ -2393,8 +2333,8 @@
       "concept_id": "mod8_complete",
       "level": 4,
       "progress": {
-        "current": 70,
-        "total": 84
+        "current": 69,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 8 COMPLETED! 🎉",
@@ -2416,8 +2356,8 @@
       "concept_id": "high_altitude_co_poisoning",
       "level": 5,
       "progress": {
-        "current": 71,
-        "total": 84
+        "current": 70,
+        "total": 80
       },
       "messages": [
         {
@@ -2434,7 +2374,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Carbon Monoxide (CO) Poisoning – CO ki Hb se affinity O₂ se 200-250 times."
+          "text": "200 times zyada affinity!! Tab to thodi si CO bhi khatarnak hogi! Aur HbCO banane ke baad O₂ ki jagah nahi bachti?"
         }
       ],
       "navigation": {
@@ -2449,8 +2389,8 @@
       "concept_id": "cyanosis_hypoxia_types",
       "level": 5,
       "progress": {
-        "current": 72,
-        "total": 84
+        "current": 71,
+        "total": 80
       },
       "messages": [
         {
@@ -2467,7 +2407,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Hypoxia ke types yaad rakho – 1) Hypoxic Hypoxia (low pO₂ – high altitude)."
+          "text": "Cyanide poisoning me cells O₂ use nahi kar paati? Matlab O₂ hai blood me par cells le nahi paati! Kitna dangerous!"
         }
       ],
       "navigation": {
@@ -2482,8 +2422,8 @@
       "concept_id": "advanced_concepts_quiz",
       "level": 5,
       "progress": {
-        "current": 73,
-        "total": 84
+        "current": 72,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Carbon Monoxide (CO) की Haemoglobin से affinity O₂ की तुलना में कितनी अधिक है? (Q1/3)",
@@ -2520,8 +2460,8 @@
       "concept_id": "advanced_concepts_quiz",
       "level": 5,
       "progress": {
-        "current": 74,
-        "total": 84
+        "current": 73,
+        "total": 80
       },
       "quiz_payload": {
         "question": "High Altitude पर शरीर किस हार्मोन की सहायता से adapt करता है? (Q2/3)",
@@ -2558,8 +2498,8 @@
       "concept_id": "advanced_concepts_quiz",
       "level": 5,
       "progress": {
-        "current": 75,
-        "total": 84
+        "current": 74,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Histotoxic Hypoxia किसके कारण होती है? (Q3/3)",
@@ -2596,8 +2536,8 @@
       "concept_id": "mod9_complete",
       "level": 5,
       "progress": {
-        "current": 76,
-        "total": 84
+        "current": 75,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 9 COMPLETED! 🎉",
@@ -2608,122 +2548,8 @@
         "motivational_quote": "Saare 9 modules complete! Ab Final Officer Revision aur Master Quiz baaki hai – let's go!"
       },
       "navigation": {
-        "next": "card_applied_case_01",
-        "button_text": "Go to Officer Revision ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_01",
-      "card_slug": "card_applied_case_01",
-      "type": "quiz",
-      "concept_id": "applied_practice_01",
-      "level": 2,
-      "quiz_payload": {
-        "question": "Applied case 1: Seedhiyan chadhne par saans tez ho jaati hai. Body ko is samay kya zaroorat badhi hoti hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Oxygen delivery aur carbon dioxide removal"
-          },
-          {
-            "id": "B",
-            "text": "Blood se sab glucose hatana"
-          },
-          {
-            "id": "C",
-            "text": "Lungs mein food store karna"
-          },
-          {
-            "id": "D",
-            "text": "Kidney se sound nikaalna"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Active muscles zyada oxygen use aur carbon dioxide produce karte hain; ventilation tez hoti hai."
-      },
-      "progress": {
-        "current": 77,
-        "total": 84
-      },
-      "navigation": {
-        "next": "card_applied_case_02",
-        "button_text": "Check Answer ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_02",
-      "card_slug": "card_applied_case_02",
-      "type": "quiz",
-      "concept_id": "applied_practice_02",
-      "level": 3,
-      "quiz_payload": {
-        "question": "Applied case 2: Lambe samay tak cigarette smoke se alveoli damage hote hain. Gas exchange par kya asar ho sakta hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Oxygen/CO₂ exchange ke liye effective surface kam ho sakta hai"
-          },
-          {
-            "id": "B",
-            "text": "Lungs digestion karne lagenge"
-          },
-          {
-            "id": "C",
-            "text": "Blood oxygen banana band kar dega bina lungs ke"
-          },
-          {
-            "id": "D",
-            "text": "Bones oxygen absorb karengi"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Alveoli ka surface area gas exchange ke liye zaroori hai; damage se exchange kam effective ho sakta hai."
-      },
-      "progress": {
-        "current": 78,
-        "total": 84
-      },
-      "navigation": {
-        "next": "card_applied_case_03",
-        "button_text": "Check Answer ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_03",
-      "card_slug": "card_applied_case_03",
-      "type": "quiz",
-      "concept_id": "applied_practice_03",
-      "level": 2,
-      "quiz_payload": {
-        "question": "Applied case 3: Machhli paani se bahar nikalne par jaldi saans ki takleef mein aa sakti hai. Gills ka kaam kya tha?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Paani se dissolved oxygen lena"
-          },
-          {
-            "id": "B",
-            "text": "Hawa mein starch banana"
-          },
-          {
-            "id": "C",
-            "text": "Blood pump karna"
-          },
-          {
-            "id": "D",
-            "text": "Nitrogen gas banana"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Fish gills paani ke flow se dissolved oxygen absorb karte hain; bahar unka exchange system sahi tarah kaam nahi karta."
-      },
-      "progress": {
-        "current": 79,
-        "total": 84
-      },
-      "navigation": {
         "next": "card_76_officer_revision",
-        "button_text": "Check Answer ➔"
+        "button_text": "Go to Officer Revision ➔"
       }
     },
     {
@@ -2733,8 +2559,8 @@
       "concept_id": "chapter_revision",
       "level": 5,
       "progress": {
-        "current": 80,
-        "total": 84
+        "current": 76,
+        "total": 80
       },
       "summary_payload": {
         "title": "⚡ Quick Officer Revision – Respiratory System",
@@ -2773,8 +2599,8 @@
       "concept_id": "final_master_quiz",
       "level": 5,
       "progress": {
-        "current": 81,
-        "total": 84
+        "current": 77,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. Normal Expiration एक active process है\n2. Residual Volume spirometer से measure होता है\n3. CO₂ का सबसे अधिक transport Bicarbonate ions (HCO₃⁻) के रूप में होता है\n4. Pneumotaxic Centre Medulla Oblongata में स्थित है\n\nउपर्युक्त में से कौन सा/से कथन सही है/हैं?",
@@ -2811,8 +2637,8 @@
       "concept_id": "final_master_quiz",
       "level": 5,
       "progress": {
-        "current": 82,
-        "total": 84
+        "current": 78,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Assertion (A): Emphysema एक irreversible lung disease है।\nReason (R): Emphysema में alveolar walls permanently damage हो जाती हैं जिससे gas exchange surface area कम होता है।\n\nसही विकल्प चुनिए:",
@@ -2849,8 +2675,8 @@
       "concept_id": "final_master_quiz",
       "level": 5,
       "progress": {
-        "current": 83,
-        "total": 84
+        "current": 79,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित युग्मों पर विचार करें:\n1. Earthworm – Gills\n2. Fish – Moist Skin\n3. Cockroach – Tracheal System\n4. Frog – Lungs, Skin & Buccal Cavity\n\nउपर्युक्त में से कौन सा/से युग्म सही सुमेलित है/हैं?",
@@ -2887,8 +2713,8 @@
       "concept_id": "chapter_complete",
       "level": 5,
       "progress": {
-        "current": 84,
-        "total": 84
+        "current": 80,
+        "total": 80
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER COMPLETED – RESPIRATORY SYSTEM! 🏆",

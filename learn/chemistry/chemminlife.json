@@ -7,10 +7,9 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims",
-    "RRB Group D"
+    "UPSC Prelims"
   ],
-  "total_cards": 84,
+  "total_cards": 80,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -32,7 +31,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 84
+        "total": 80
       },
       "intro_payload": {
         "title": "Chemistry in Everyday Life",
@@ -44,8 +43,7 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims",
-          "RRB Group D"
+          "UPSC Prelims"
         ],
         "learning_outcomes": [
           "Understand drugs and their classifications",
@@ -53,72 +51,14 @@
           "Master tranquilizers and antimicrobials",
           "Explore antacids, antihistamines, and antifertility drugs",
           "Discover food chemistry - preservatives, sweeteners, antioxidants",
-          "Study soaps, detergents, and cleansing action",
-          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
-          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
+          "Study soaps, detergents, and cleansing action"
         ],
         "estimated_time": "25 minutes",
-        "total_concepts": 12,
-        "learning_path": [
-          {
-            "level": 1,
-            "title": "Zero/Foundation",
-            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
-          },
-          {
-            "level": 2,
-            "title": "Railway Basic",
-            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
-          },
-          {
-            "level": 3,
-            "title": "Railway Application",
-            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
-          },
-          {
-            "level": 4,
-            "title": "Advanced",
-            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
-          },
-          {
-            "level": 5,
-            "title": "Advanced Challenge",
-            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
-          }
-        ]
+        "total_concepts": 12
       },
-      "navigation": {
-        "next": "card_zero_foundation",
-        "button_text": "Start Learning 🚀"
-      }
-    },
-    {
-      "card_id": "card_zero_foundation",
-      "card_slug": "card_zero_foundation",
-      "type": "chat",
-      "concept_id": "zero_level_foundation",
-      "level": 1,
-      "progress": {
-        "current": 2,
-        "total": 84
-      },
-      "messages": [
-        {
-          "speaker": "aman",
-          "text": "Chemistry in everyday life batati hai ki soaps, medicines, food preservatives, fuels aur cleaning products kaam kaise karte hain. Har product ko uske use, basic chemistry aur safety ke saath samjhenge."
-        },
-        {
-          "speaker": "raju",
-          "text": "Sir, aapne abhi kaha ki Chemistry in everyday life batati hai ki soaps. Kya main sahi samjha?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
-        }
-      ],
       "navigation": {
         "next": "card_02_medicine_start",
-        "button_text": "Aage badho ➔"
+        "button_text": "Start Learning 🚀"
       }
     },
     {
@@ -128,8 +68,8 @@
       "concept_id": "medicines_intro",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 84
+        "current": 2,
+        "total": 80
       },
       "messages": [
         {
@@ -146,7 +86,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Par aaj hum chemistry mein isko 'Drug' kahenge."
+          "text": "Achhaa! To dawai bhi ek chemical hai?"
         }
       ],
       "navigation": {
@@ -161,8 +101,8 @@
       "concept_id": "drug_classification_basis",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 84
+        "current": 3,
+        "total": 80
       },
       "messages": [
         {
@@ -179,7 +119,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Hum pehle Pharmacological Effect se shuru karte hain - matlab kis kaam ke."
+          "text": "Matlab jaise sir dard ki dawai, bukhar ki dawai - aise?"
         }
       ],
       "navigation": {
@@ -194,8 +134,8 @@
       "concept_id": "analgesics_definition",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 84
+        "current": 4,
+        "total": 80
       },
       "messages": [
         {
@@ -212,7 +152,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Analgesics sirf signal block karte hain jo brain ko pain ki information deta."
+          "text": "Narcotic matlab nasha wali category?"
         }
       ],
       "navigation": {
@@ -227,8 +167,8 @@
       "concept_id": "non_narcotic_analgesics",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 84
+        "current": 5,
+        "total": 80
       },
       "messages": [
         {
@@ -245,7 +185,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Isliye isko NSAID bhi kehte hain - Non-Steroidal Anti-Inflammatory Drug."
+          "text": "Matlab Aspirin zyada powerful hai?"
         }
       ],
       "navigation": {
@@ -260,8 +200,8 @@
       "concept_id": "narcotic_analgesics",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 84
+        "current": 6,
+        "total": 80
       },
       "messages": [
         {
@@ -278,7 +218,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: isiliye ye bahut dangerous hain."
+          "text": "To Non-Narcotic safe hain aur Narcotic dangerous but powerful?"
         }
       ],
       "navigation": {
@@ -293,8 +233,8 @@
       "concept_id": "analgesics_classification",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 84
+        "current": 7,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Which of the following is a Non-Narcotic Analgesic that also reduces inflammation? (SSC CGL 2019 Pattern)",
@@ -331,8 +271,8 @@
       "concept_id": "narcotic_source",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 84
+        "current": 8,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Narcotic Analgesics like Morphine are derived from which plant? (Railway NTPC 2021 Pattern)",
@@ -369,8 +309,8 @@
       "concept_id": "analgesics_function",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 84
+        "current": 9,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Statement I: Analgesics cure the disease causing pain. Statement II: Analgesics only reduce or block the pain signals. (BPSC 2020 Assertion-Reason Pattern)",
@@ -407,8 +347,8 @@
       "concept_id": "analgesics_complete",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 84
+        "current": 10,
+        "total": 80
       },
       "milestone_payload": {
         "title": "🎯 ANALGESICS MODULE CLEARED!",
@@ -430,8 +370,8 @@
       "concept_id": "antimicrobials_definition",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 84
+        "current": 11,
+        "total": 80
       },
       "messages": [
         {
@@ -448,7 +388,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Antimicrobials wo drugs hain jo microorganisms (bacteria."
+          "text": "To Sir antibiotics bhi isi mein aati hain?"
         }
       ],
       "navigation": {
@@ -463,8 +403,8 @@
       "concept_id": "antibiotics_definition",
       "level": 1,
       "progress": {
-        "current": 13,
-        "total": 84
+        "current": 12,
+        "total": 80
       },
       "messages": [
         {
@@ -496,8 +436,8 @@
       "concept_id": "antibiotic_spectrum",
       "level": 1,
       "progress": {
-        "current": 14,
-        "total": 84
+        "current": 13,
+        "total": 80
       },
       "messages": [
         {
@@ -514,7 +454,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Broad spectrum zyada bacteria maarti hai par ye body ke good bacteria bhi."
+          "text": "Achhaa! Matlab doctor pehle test karke dekhte hain konsa bacteria hai?"
         }
       ],
       "navigation": {
@@ -529,8 +469,8 @@
       "concept_id": "antiseptics_disinfectants",
       "level": 1,
       "progress": {
-        "current": 15,
-        "total": 84
+        "current": 14,
+        "total": 80
       },
       "messages": [
         {
@@ -547,7 +487,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Ye sab ANTISEPTICS hain."
+          "text": "Kya?! Same chemical ka naam badal jata hai?"
         }
       ],
       "navigation": {
@@ -562,8 +502,8 @@
       "concept_id": "antiseptic_disinfectant_difference",
       "level": 1,
       "progress": {
-        "current": 16,
-        "total": 84
+        "current": 15,
+        "total": 80
       },
       "messages": [
         {
@@ -595,8 +535,8 @@
       "concept_id": "antibiotic_vs_antiseptic",
       "level": 1,
       "progress": {
-        "current": 17,
-        "total": 84
+        "current": 16,
+        "total": 80
       },
       "messages": [
         {
@@ -613,7 +553,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, is sawal ka jawab sochne ke liye mujhe ek chhota hint chahiye."
+          "text": "Antibiotic resistance matlab bacteria immune ho jate hain?"
         }
       ],
       "navigation": {
@@ -628,8 +568,8 @@
       "concept_id": "penicillin_discovery",
       "level": 1,
       "progress": {
-        "current": 18,
-        "total": 84
+        "current": 17,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Who discovered the first antibiotic Penicillin, and from which organism? (SSC CGL 2018)",
@@ -666,8 +606,8 @@
       "concept_id": "antiseptic_vs_disinfectant",
       "level": 1,
       "progress": {
-        "current": 19,
-        "total": 84
+        "current": 18,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Which of the following statements is CORRECT? (BPSC 2022 Pattern)",
@@ -704,8 +644,8 @@
       "concept_id": "broad_spectrum",
       "level": 1,
       "progress": {
-        "current": 20,
-        "total": 84
+        "current": 19,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Which of the following is a Broad Spectrum Antibiotic? (Railway NTPC 2020)",
@@ -742,8 +682,8 @@
       "concept_id": "antimicrobials_complete",
       "level": 1,
       "progress": {
-        "current": 21,
-        "total": 84
+        "current": 20,
+        "total": 80
       },
       "milestone_payload": {
         "title": "⚡ INFECTION FIGHTERS CLEARED!",
@@ -765,8 +705,8 @@
       "concept_id": "tranquilizers_definition",
       "level": 1,
       "progress": {
-        "current": 22,
-        "total": 84
+        "current": 21,
+        "total": 80
       },
       "messages": [
         {
@@ -783,7 +723,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Wo TRANQUILIZERS the."
+          "text": "To ye bhi brain ko affect karti hain jaise Narcotic Analgesics?"
         }
       ],
       "navigation": {
@@ -798,8 +738,8 @@
       "concept_id": "tranquilizers_examples",
       "level": 1,
       "progress": {
-        "current": 23,
-        "total": 84
+        "current": 22,
+        "total": 80
       },
       "messages": [
         {
@@ -816,7 +756,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Bahut important question."
+          "text": "Matlab ye bhi controlled drugs hain?"
         }
       ],
       "navigation": {
@@ -831,8 +771,8 @@
       "concept_id": "antacids_definition",
       "level": 1,
       "progress": {
-        "current": 24,
-        "total": 84
+        "current": 23,
+        "total": 80
       },
       "messages": [
         {
@@ -849,7 +789,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Hamara stomach Hydrochloric Acid (HCl) banata hai jo food digest karne mein."
+          "text": "Matlab ye acid-base neutralization hai jo chemistry mein pada tha?"
         }
       ],
       "navigation": {
@@ -864,8 +804,8 @@
       "concept_id": "antacids_chemicals",
       "level": 1,
       "progress": {
-        "current": 25,
-        "total": 84
+        "current": 24,
+        "total": 80
       },
       "messages": [
         {
@@ -897,8 +837,8 @@
       "concept_id": "antihistamines_definition",
       "level": 1,
       "progress": {
-        "current": 26,
-        "total": 84
+        "current": 25,
+        "total": 80
       },
       "messages": [
         {
@@ -915,7 +855,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Antihistamines wo drugs hain jo histamine ke action ko block kar deti hain."
+          "text": "Ye bhi koi side effect hota hai?"
         }
       ],
       "navigation": {
@@ -930,8 +870,8 @@
       "concept_id": "antihistamines_drowsiness",
       "level": 1,
       "progress": {
-        "current": 27,
-        "total": 84
+        "current": 26,
+        "total": 80
       },
       "messages": [
         {
@@ -963,8 +903,8 @@
       "concept_id": "tranquilizers_function",
       "level": 1,
       "progress": {
-        "current": 28,
-        "total": 84
+        "current": 27,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Tranquilizers are primarily used for treating: (Railway Group D 2022)",
@@ -1001,8 +941,8 @@
       "concept_id": "antacids_neutralization",
       "level": 1,
       "progress": {
-        "current": 29,
-        "total": 84
+        "current": 28,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Which chemical is the main component of 'Milk of Magnesia' used as an antacid? (SSC CHSL 2021)",
@@ -1039,8 +979,8 @@
       "concept_id": "antihistamines_side_effect",
       "level": 1,
       "progress": {
-        "current": 30,
-        "total": 84
+        "current": 29,
+        "total": 80
       },
       "quiz_payload": {
         "question": "The most common side effect of older antihistamines is: (BPSC 2019)",
@@ -1077,8 +1017,8 @@
       "concept_id": "drugs_module_3_complete",
       "level": 1,
       "progress": {
-        "current": 31,
-        "total": 84
+        "current": 30,
+        "total": 80
       },
       "milestone_payload": {
         "title": "🧠 MENTAL & DIGESTIVE DRUGS MASTERED!",
@@ -1100,8 +1040,8 @@
       "concept_id": "antifertility_definition",
       "level": 1,
       "progress": {
-        "current": 32,
-        "total": 84
+        "current": 31,
+        "total": 80
       },
       "messages": [
         {
@@ -1118,7 +1058,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Ye purely scientific understanding hai - koi hesitation nahi."
+          "text": "Hormones matlab jo body naturally banati hai?"
         }
       ],
       "navigation": {
@@ -1133,8 +1073,8 @@
       "concept_id": "antifertility_hormones",
       "level": 1,
       "progress": {
-        "current": 33,
-        "total": 84
+        "current": 32,
+        "total": 80
       },
       "messages": [
         {
@@ -1151,7 +1091,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Ye ovulation ko suppress kar deti hain matlab egg release nahi hota ovary se."
+          "text": "To ye bahut effective hai?"
         }
       ],
       "navigation": {
@@ -1166,8 +1106,8 @@
       "concept_id": "food_additives_intro",
       "level": 1,
       "progress": {
-        "current": 34,
-        "total": 84
+        "current": 33,
+        "total": 80
       },
       "messages": [
         {
@@ -1180,11 +1120,11 @@
         },
         {
           "speaker": "aman",
-          "text": "Chaliye, is baat ko seedhe samajhte hain. Food additives wo substances hain jo food mein deliberately add kiye jate hain for various purposes - preservation, color, flavor, sweetness, texture improvement. Jab tak approved quantities mein ho, tab tak safe hain. FSSAI India mein regulate karta hai. Food additives 4 main categories mein aate hain."
+          "text": "Good question! Food additives wo substances hain jo food mein deliberately add kiye jate hain for various purposes - preservation, color, flavor, sweetness, texture improvement. Jab tak approved quantities mein ho, tab tak safe hain. FSSAI India mein regulate karta hai. Food additives 4 main categories mein aate hain."
         },
         {
           "speaker": "raju",
-          "text": "Sir, main pehle iska basic matlab samajhna chahta hoon."
+          "text": "Kaun kaun se categories hain?"
         }
       ],
       "navigation": {
@@ -1199,8 +1139,8 @@
       "concept_id": "artificial_sweeteners_definition",
       "level": 1,
       "progress": {
-        "current": 35,
-        "total": 84
+        "current": 34,
+        "total": 80
       },
       "messages": [
         {
@@ -1217,7 +1157,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Common artificial sweeteners hain - Aspartame (sugar se 100 times sweeter)."
+          "text": "2000 guna zyada sweet?! Matlab ek chutki kaafi hai poore bartan ke liye!"
         }
       ],
       "navigation": {
@@ -1232,8 +1172,8 @@
       "concept_id": "food_preservatives_definition",
       "level": 1,
       "progress": {
-        "current": 36,
-        "total": 84
+        "current": 35,
+        "total": 80
       },
       "messages": [
         {
@@ -1250,7 +1190,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Salt aur vinegar natural preservatives hain."
+          "text": "Matlab zyada namak ya sugar wala food jaldi kharab nahi hota?"
         }
       ],
       "navigation": {
@@ -1265,8 +1205,8 @@
       "concept_id": "antioxidants_food",
       "level": 1,
       "progress": {
-        "current": 37,
-        "total": 84
+        "current": 36,
+        "total": 80
       },
       "messages": [
         {
@@ -1298,8 +1238,8 @@
       "concept_id": "food_colors_flavors",
       "level": 1,
       "progress": {
-        "current": 38,
-        "total": 84
+        "current": 37,
+        "total": 80
       },
       "messages": [
         {
@@ -1316,7 +1256,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Flavoring agents taste enhance karte hain - monosodium glutamate (MSG) sabse."
+          "text": "FSSAI matlab Food Safety and Standards Authority of India?"
         }
       ],
       "navigation": {
@@ -1331,8 +1271,8 @@
       "concept_id": "artificial_sweeteners_comparison",
       "level": 1,
       "progress": {
-        "current": 39,
-        "total": 84
+        "current": 38,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Which artificial sweetener is approximately 2000 times sweeter than cane sugar? (SSC CGL 2020)",
@@ -1369,8 +1309,8 @@
       "concept_id": "food_preservatives_example",
       "level": 1,
       "progress": {
-        "current": 40,
-        "total": 84
+        "current": 39,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Sodium benzoate is commonly used as a preservative in: (Railway NTPC 2021)",
@@ -1407,8 +1347,8 @@
       "concept_id": "antioxidants_function",
       "level": 1,
       "progress": {
-        "current": 41,
-        "total": 84
+        "current": 40,
+        "total": 80
       },
       "quiz_payload": {
         "question": "BHA and BHT are added to food products primarily to: (BPSC 2021)",
@@ -1445,8 +1385,8 @@
       "concept_id": "food_chemistry_complete",
       "level": 1,
       "progress": {
-        "current": 42,
-        "total": 84
+        "current": 41,
+        "total": 80
       },
       "milestone_payload": {
         "title": "🍕 FOOD CHEMISTRY CHAMPION!",
@@ -1468,8 +1408,8 @@
       "concept_id": "soaps_definition",
       "level": 1,
       "progress": {
-        "current": 43,
-        "total": 84
+        "current": 42,
+        "total": 80
       },
       "messages": [
         {
@@ -1486,7 +1426,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, main abhi andaza nahi laga paa raha. Aap samjha dijiye."
+          "text": "Matlab soap factory mein oil aur NaOH milate hain?"
         }
       ],
       "navigation": {
@@ -1501,8 +1441,8 @@
       "concept_id": "soap_molecule_structure",
       "level": 1,
       "progress": {
-        "current": 44,
-        "total": 84
+        "current": 43,
+        "total": 80
       },
       "messages": [
         {
@@ -1534,8 +1474,8 @@
       "concept_id": "micelle_structure",
       "level": 1,
       "progress": {
-        "current": 45,
-        "total": 84
+        "current": 44,
+        "total": 80
       },
       "messages": [
         {
@@ -1552,7 +1492,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Yaad rakho - tails inside (hydrophobic + oil)."
+          "text": "CMC ka matlab kam sabun se kaam nahi chalega?"
         }
       ],
       "navigation": {
@@ -1567,8 +1507,8 @@
       "concept_id": "soap_hard_water",
       "level": 1,
       "progress": {
-        "current": 46,
-        "total": 84
+        "current": 45,
+        "total": 80
       },
       "messages": [
         {
@@ -1585,7 +1525,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Reaction ye hoti hai."
+          "text": "To hard water mein soap bekaar ho jati hai?"
         }
       ],
       "navigation": {
@@ -1600,8 +1540,8 @@
       "concept_id": "detergents_definition",
       "level": 1,
       "progress": {
-        "current": 47,
-        "total": 84
+        "current": 46,
+        "total": 80
       },
       "messages": [
         {
@@ -1633,8 +1573,8 @@
       "concept_id": "detergent_classification",
       "level": 1,
       "progress": {
-        "current": 48,
-        "total": 84
+        "current": 47,
+        "total": 80
       },
       "messages": [
         {
@@ -1666,8 +1606,8 @@
       "concept_id": "biodegradable_detergents",
       "level": 1,
       "progress": {
-        "current": 49,
-        "total": 84
+        "current": 48,
+        "total": 80
       },
       "messages": [
         {
@@ -1684,7 +1624,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: modern detergents BIODEGRADABLE banayi jati hain with straight chain."
+          "text": "To ab detergents environment-friendly hain?"
         }
       ],
       "navigation": {
@@ -1699,8 +1639,8 @@
       "concept_id": "soap_chemical_nature",
       "level": 1,
       "progress": {
-        "current": 50,
-        "total": 84
+        "current": 49,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Chemically, soaps are: (Railway Group D 2019)",
@@ -1737,8 +1677,8 @@
       "concept_id": "soap_hard_water",
       "level": 1,
       "progress": {
-        "current": 51,
-        "total": 84
+        "current": 50,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Soaps do not work well in hard water because: (SSC CGL 2019)",
@@ -1775,8 +1715,8 @@
       "concept_id": "biodegradable_detergents",
       "level": 1,
       "progress": {
-        "current": 52,
-        "total": 84
+        "current": 51,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Which type of detergent structure is biodegradable? (BPSC 2020)",
@@ -1813,8 +1753,8 @@
       "concept_id": "cleansing_agents_complete",
       "level": 1,
       "progress": {
-        "current": 53,
-        "total": 84
+        "current": 52,
+        "total": 80
       },
       "milestone_payload": {
         "title": "🧼 CLEANSING CHEMISTRY MASTERED!",
@@ -1836,8 +1776,8 @@
       "concept_id": "advanced_drug_concepts",
       "level": 2,
       "progress": {
-        "current": 54,
-        "total": 84
+        "current": 53,
+        "total": 80
       },
       "messages": [
         {
@@ -1869,8 +1809,8 @@
       "concept_id": "drug_target_interaction",
       "level": 2,
       "progress": {
-        "current": 55,
-        "total": 84
+        "current": 54,
+        "total": 80
       },
       "messages": [
         {
@@ -1902,8 +1842,8 @@
       "concept_id": "drug_side_effects",
       "level": 2,
       "progress": {
-        "current": 56,
-        "total": 84
+        "current": 55,
+        "total": 80
       },
       "messages": [
         {
@@ -1920,7 +1860,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Isiliye self-medication dangerous hai."
+          "text": "Ab samajh aaya doctor prescription kyun zaruri hai!"
         }
       ],
       "navigation": {
@@ -1935,8 +1875,8 @@
       "concept_id": "vaccines_immunity",
       "level": 2,
       "progress": {
-        "current": 57,
-        "total": 84
+        "current": 56,
+        "total": 80
       },
       "messages": [
         {
@@ -1957,122 +1897,8 @@
         }
       ],
       "navigation": {
-        "next": "card_applied_case_01",
-        "button_text": "Perfect! Officer Revision ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_01",
-      "card_slug": "card_applied_case_01",
-      "type": "quiz",
-      "concept_id": "applied_practice_01",
-      "level": 3,
-      "quiz_payload": {
-        "question": "Applied case 1: Hard water mein soap kam jhaag deta hai; detergent phir bhi kaam kar sakta hai. Practical reason kya hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Hard-water ions detergent ko soap ki tarah itna precipitate nahi karte"
-          },
-          {
-            "id": "B",
-            "text": "Detergent acid ko sugar bana deta hai"
-          },
-          {
-            "id": "C",
-            "text": "Soap mein atoms nahi hote"
-          },
-          {
-            "id": "D",
-            "text": "Hard water mein koi minerals nahi"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Calcium/magnesium ions soap ke saath scum bana sakte hain; kai detergents hard water mein zyada effective rehte hain."
-      },
-      "progress": {
-        "current": 58,
-        "total": 84
-      },
-      "navigation": {
-        "next": "card_applied_case_02",
-        "button_text": "Check Answer ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_02",
-      "card_slug": "card_applied_case_02",
-      "type": "quiz",
-      "concept_id": "applied_practice_02",
-      "level": 3,
-      "quiz_payload": {
-        "question": "Applied case 2: Doctor ne antibiotic ka course diya, par patient do din baad behtar mehsoos karke band kar deta hai. Sahi advice kya hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Prescriber ki instructions follow kare; khud se course change na kare"
-          },
-          {
-            "id": "B",
-            "text": "Bachi hui dose dost ko de"
-          },
-          {
-            "id": "C",
-            "text": "Har fever mein double dose le"
-          },
-          {
-            "id": "D",
-            "text": "Medicine ko food mein chhupa kar sabko de"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Antibiotic use clinician ke direction ke mutabik hona chahiye; self-medication ya course badalna resistance/relapse ka risk badha sakta hai."
-      },
-      "progress": {
-        "current": 59,
-        "total": 84
-      },
-      "navigation": {
-        "next": "card_applied_case_03",
-        "button_text": "Check Answer ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_03",
-      "card_slug": "card_applied_case_03",
-      "type": "quiz",
-      "concept_id": "applied_practice_03",
-      "level": 2,
-      "quiz_payload": {
-        "question": "Applied case 3: Toothpaste mouth mein acids ko neutralize karne mein madad karta hai. Yeh kis chemistry concept ka everyday use hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Acid-base neutralization"
-          },
-          {
-            "id": "B",
-            "text": "Electroplating"
-          },
-          {
-            "id": "C",
-            "text": "Sublimation"
-          },
-          {
-            "id": "D",
-            "text": "Polymerization only"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Basic toothpaste acids ko neutralize karne mein madad karta hai; oral hygiene ke liye brushing ke saath dental care bhi zaroori hai."
-      },
-      "progress": {
-        "current": 60,
-        "total": 84
-      },
-      "navigation": {
         "next": "card_57_rapid_fire_summary",
-        "button_text": "Check Answer ➔"
+        "button_text": "Perfect! Officer Revision ➔"
       }
     },
     {
@@ -2082,8 +1908,8 @@
       "concept_id": "chapter_quick_revision",
       "level": 2,
       "progress": {
-        "current": 61,
-        "total": 84
+        "current": 57,
+        "total": 80
       },
       "summary_payload": {
         "title": "⚡ OFFICER LEVEL LIGHTNING REVISION",
@@ -2134,8 +1960,8 @@
       "concept_id": "final_assessment_1",
       "level": 2,
       "progress": {
-        "current": 62,
-        "total": 84
+        "current": 58,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Consider the following statements:\n\nI. Aspirin is a Non-Steroidal Anti-Inflammatory Drug (NSAID) that reduces pain, fever, and inflammation.\n\nII. Paracetamol is more effective than Aspirin in reducing inflammation.\n\nIII. Morphine is derived from the opium poppy plant and is a narcotic analgesic.\n\nWhich of the above statements is/are CORRECT? (BPSC Pattern)",
@@ -2172,8 +1998,8 @@
       "concept_id": "final_assessment_2",
       "level": 2,
       "progress": {
-        "current": 63,
-        "total": 84
+        "current": 59,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Match the following:\n\nList-I (Drug Type) | List-II (Example)\nA. Antibiotic | 1. Valium\nB. Tranquilizer | 2. Penicillin\nC. Antiseptic | 3. Aspartame\nD. Artificial Sweetener | 4. Dettol\n\nCorrect matching is: (UPSC Prelims Pattern)",
@@ -2210,8 +2036,8 @@
       "concept_id": "final_assessment_3",
       "level": 2,
       "progress": {
-        "current": 64,
-        "total": 84
+        "current": 60,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Assertion (A): Detergents are more effective than soaps in hard water.\n\nReason (R): Detergents form soluble salts with Ca²⁺ and Mg²⁺ ions present in hard water.\n\n(BPSC Assertion-Reason Pattern)",
@@ -2248,8 +2074,8 @@
       "concept_id": "final_assessment_4",
       "level": 2,
       "progress": {
-        "current": 65,
-        "total": 84
+        "current": 61,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Which of the following food additives is/are correctly matched with their function?\n\n1. Sodium benzoate - Preservative\n2. BHA and BHT - Antioxidants\n3. Aspartame - Food coloring agent\n4. Sodium bicarbonate - Antacid\n\nSelect the correct answer: (SSC CGL Pattern)",
@@ -2286,8 +2112,8 @@
       "concept_id": "final_assessment_5",
       "level": 2,
       "progress": {
-        "current": 66,
-        "total": 84
+        "current": 62,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Consider the following about Antibiotics:\n\nI. Alexander Fleming discovered Penicillin from Penicillium notatum fungus in 1929.\n\nII. Broad spectrum antibiotics like Chloramphenicol are always better than narrow spectrum antibiotics.\n\nIII. Antibiotics can develop resistance in bacteria due to their specific targeting mechanism.\n\nWhich statement(s) is/are CORRECT? (BPSC/NEET Pattern)",
@@ -2324,8 +2150,8 @@
       "concept_id": "pyq_advanced_1",
       "level": 2,
       "progress": {
-        "current": 67,
-        "total": 84
+        "current": 63,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Which of the following is used as both an antiseptic and a disinfectant depending upon concentration? (Railway NTPC 2020 PYQ)",
@@ -2362,8 +2188,8 @@
       "concept_id": "pyq_advanced_2",
       "level": 2,
       "progress": {
-        "current": 68,
-        "total": 84
+        "current": 64,
+        "total": 80
       },
       "quiz_payload": {
         "question": "The process of preparing soap from oil and caustic soda is called: (SSC CGL 2019 PYQ)",
@@ -2400,8 +2226,8 @@
       "concept_id": "pyq_advanced_3",
       "level": 2,
       "progress": {
-        "current": 69,
-        "total": 84
+        "current": 65,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Tincture of Iodine, used as an antiseptic, is: (BPSC 2018 PYQ)",
@@ -2438,8 +2264,8 @@
       "concept_id": "pyq_advanced_4",
       "level": 2,
       "progress": {
-        "current": 70,
-        "total": 84
+        "current": 66,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Which artificial sweetener contains a dipeptide and is unstable at cooking temperature? (NEET 2020 Pattern)",
@@ -2476,8 +2302,8 @@
       "concept_id": "pyq_advanced_5",
       "level": 2,
       "progress": {
-        "current": 71,
-        "total": 84
+        "current": 67,
+        "total": 80
       },
       "quiz_payload": {
         "question": "In the structure of a soap micelle formed in water, the: (SSC CHSL 2021 PYQ)",
@@ -2514,8 +2340,8 @@
       "concept_id": "enzyme_inhibition_drugs",
       "level": 2,
       "progress": {
-        "current": 72,
-        "total": 84
+        "current": 68,
+        "total": 80
       },
       "messages": [
         {
@@ -2547,8 +2373,8 @@
       "concept_id": "antiviral_drugs",
       "level": 2,
       "progress": {
-        "current": 73,
-        "total": 84
+        "current": 69,
+        "total": 80
       },
       "messages": [
         {
@@ -2580,8 +2406,8 @@
       "concept_id": "antimalarial_drugs",
       "level": 2,
       "progress": {
-        "current": 74,
-        "total": 84
+        "current": 70,
+        "total": 80
       },
       "messages": [
         {
@@ -2598,7 +2424,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Multidisciplinary connection hai."
+          "text": "To har disease ke liye alag drug category hai?"
         }
       ],
       "navigation": {
@@ -2613,8 +2439,8 @@
       "concept_id": "antifungal_drugs",
       "level": 2,
       "progress": {
-        "current": 75,
-        "total": 84
+        "current": 71,
+        "total": 80
       },
       "messages": [
         {
@@ -2646,8 +2472,8 @@
       "concept_id": "routes_of_drug_administration",
       "level": 2,
       "progress": {
-        "current": 76,
-        "total": 84
+        "current": 72,
+        "total": 80
       },
       "messages": [
         {
@@ -2679,8 +2505,8 @@
       "concept_id": "drug_drug_interactions",
       "level": 2,
       "progress": {
-        "current": 77,
-        "total": 84
+        "current": 73,
+        "total": 80
       },
       "messages": [
         {
@@ -2697,7 +2523,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: agar doctor ne prescribe nahi kiya to."
+          "text": "Isliye doctor poori list poochte hain ki kya drugs le rahe ho!"
         }
       ],
       "navigation": {
@@ -2712,8 +2538,8 @@
       "concept_id": "generic_branded_drugs",
       "level": 2,
       "progress": {
-        "current": 78,
-        "total": 84
+        "current": 74,
+        "total": 80
       },
       "messages": [
         {
@@ -2745,8 +2571,8 @@
       "concept_id": "food_fortification_concept",
       "level": 2,
       "progress": {
-        "current": 79,
-        "total": 84
+        "current": 75,
+        "total": 80
       },
       "messages": [
         {
@@ -2778,8 +2604,8 @@
       "concept_id": "harmful_food_practices",
       "level": 2,
       "progress": {
-        "current": 80,
-        "total": 84
+        "current": 76,
+        "total": 80
       },
       "messages": [
         {
@@ -2811,8 +2637,8 @@
       "concept_id": "chemistry_careers",
       "level": 2,
       "progress": {
-        "current": 81,
-        "total": 84
+        "current": 77,
+        "total": 80
       },
       "messages": [
         {
@@ -2844,8 +2670,8 @@
       "concept_id": "final_chapter_motivation",
       "level": 2,
       "progress": {
-        "current": 82,
-        "total": 84
+        "current": 78,
+        "total": 80
       },
       "messages": [
         {
@@ -2877,8 +2703,8 @@
       "concept_id": "ultimate_chapter_summary",
       "level": 2,
       "progress": {
-        "current": 83,
-        "total": 84
+        "current": 79,
+        "total": 80
       },
       "summary_payload": {
         "title": "🏆 ULTIMATE OFFICER REVISION - CHEMISTRY IN EVERYDAY LIFE",
@@ -2929,8 +2755,8 @@
       "concept_id": "chapter_completion",
       "level": 2,
       "progress": {
-        "current": 84,
-        "total": 84
+        "current": 80,
+        "total": 80
       },
       "milestone_payload": {
         "title": "🎉 CHAPTER COMPLETED! 🎉",

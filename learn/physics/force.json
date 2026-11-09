@@ -8,10 +8,9 @@
     "SSC CGL",
     "NEET",
     "UPSC Prelims",
-    "BPSC TRE",
-    "RRB Group D"
+    "BPSC TRE"
   ],
-  "total_cards": 76,
+  "total_cards": 72,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -33,7 +32,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 76
+        "total": 72
       },
       "intro_payload": {
         "title": "Force in Physics",
@@ -45,8 +44,7 @@
           "SSC CGL",
           "NEET",
           "UPSC Prelims",
-          "BPSC TRE",
-          "RRB Group D"
+          "BPSC TRE"
         ],
         "learning_outcomes": [
           "Understanding Force from Daily Life to Newton's Laws",
@@ -56,72 +54,14 @@
           "Newton's Three Laws of Motion",
           "Friction, Pressure, Thrust & Their Applications",
           "Gravitational Force & Free Fall",
-          "PYQ Traps from BPSC, SSC, Railway & NEET",
-          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
-          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
+          "PYQ Traps from BPSC, SSC, Railway & NEET"
         ],
         "estimated_time": "45 minutes",
-        "xp_reward": 500,
-        "learning_path": [
-          {
-            "level": 1,
-            "title": "Zero/Foundation",
-            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
-          },
-          {
-            "level": 2,
-            "title": "Railway Basic",
-            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
-          },
-          {
-            "level": 3,
-            "title": "Railway Application",
-            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
-          },
-          {
-            "level": 4,
-            "title": "Advanced",
-            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
-          },
-          {
-            "level": 5,
-            "title": "Advanced Challenge",
-            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
-          }
-        ]
+        "xp_reward": 500
       },
-      "navigation": {
-        "next": "card_zero_foundation",
-        "button_text": "Start Learning ➔"
-      }
-    },
-    {
-      "card_id": "card_zero_foundation",
-      "card_slug": "card_zero_foundation",
-      "type": "chat",
-      "concept_id": "zero_level_foundation",
-      "level": 1,
-      "progress": {
-        "current": 2,
-        "total": 76
-      },
-      "messages": [
-        {
-          "speaker": "aman",
-          "text": "Force ka simple matlab push ya pull hai. Darwaza dhakelna, ball pakadna aur cycle rokna force ke examples hain. Force se motion, speed, direction ya shape badal sakti hai."
-        },
-        {
-          "speaker": "raju",
-          "text": "Sir, aapne abhi kaha ki Force ka simple matlab push ya pull hai.. Kya main sahi samjha?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
-        }
-      ],
       "navigation": {
         "next": "card_02_daily_life_push",
-        "button_text": "Aage badho ➔"
+        "button_text": "Start Learning ➔"
       }
     },
     {
@@ -131,8 +71,8 @@
       "concept_id": "force_intro_daily_life",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 76
+        "current": 2,
+        "total": 72
       },
       "messages": [
         {
@@ -149,11 +89,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, darwaza kheenchna bhi pull force ka example hai na?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Bilkul. Darwaza kheenchna pull force hai; force push ya pull dono ho sakti hai."
+          "text": "Ohhh... matlab jab main darwaza kholne ke liye kheenchta hoon, tab bhi force lagti hai?"
         }
       ],
       "navigation": {
@@ -168,8 +104,8 @@
       "concept_id": "force_definition_scientific",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 76
+        "current": 3,
+        "total": 72
       },
       "messages": [
         {
@@ -186,7 +122,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Force ko measure karte hain NEWTON (N) mein."
+          "text": "Matlab bada force matlab zyada Newton?"
         }
       ],
       "navigation": {
@@ -201,8 +137,8 @@
       "concept_id": "force_interaction",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 76
+        "current": 4,
+        "total": 72
       },
       "messages": [
         {
@@ -234,8 +170,8 @@
       "concept_id": "force_daily_examples",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 76
+        "current": 5,
+        "total": 72
       },
       "quiz_payload": {
         "question": "Raju ek bhaari box ko zameen par se uthana chahta hai. Kaun sa action FORCE ka example hai?",
@@ -272,8 +208,8 @@
       "concept_id": "effects_of_force_intro",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 76
+        "current": 6,
+        "total": 72
       },
       "messages": [
         {
@@ -305,8 +241,8 @@
       "concept_id": "effect_stop_motion",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 76
+        "current": 7,
+        "total": 72
       },
       "messages": [
         {
@@ -338,8 +274,8 @@
       "concept_id": "effect_start_motion",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 76
+        "current": 8,
+        "total": 72
       },
       "messages": [
         {
@@ -371,8 +307,8 @@
       "concept_id": "effect_change_direction",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 76
+        "current": 9,
+        "total": 72
       },
       "messages": [
         {
@@ -404,8 +340,8 @@
       "concept_id": "effect_change_shape",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 76
+        "current": 10,
+        "total": 72
       },
       "messages": [
         {
@@ -437,8 +373,8 @@
       "concept_id": "effects_quiz_1",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 76
+        "current": 11,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: Ek moving cricket ball fielder ke haath se touch karke apni direction change kar deti hai. Yeh force ka kaun sa effect hai? (Q1/3)",
@@ -475,8 +411,8 @@
       "concept_id": "effects_quiz_2",
       "level": 1,
       "progress": {
-        "current": 13,
-        "total": 76
+        "current": 12,
+        "total": 72
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से किस स्थिति में Force वस्तु की SHAPE को प्रभावित करती है? (Q2/3)",
@@ -513,8 +449,8 @@
       "concept_id": "effects_quiz_3",
       "level": 1,
       "progress": {
-        "current": 14,
-        "total": 76
+        "current": 13,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ Railway Pattern: जब एक रुकी हुई गाड़ी को धक्का लगाकर चलाया जाता है, तो यह Force का कौन सा प्रभाव है? (Q3/3)",
@@ -551,8 +487,8 @@
       "concept_id": "milestone_effects_complete",
       "level": 1,
       "progress": {
-        "current": 15,
-        "total": 76
+        "current": 14,
+        "total": 72
       },
       "milestone_payload": {
         "title": "🎯 MODULE 1 COMPLETED!",
@@ -574,8 +510,8 @@
       "concept_id": "types_of_force_intro",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 76
+        "current": 15,
+        "total": 72
       },
       "messages": [
         {
@@ -592,7 +528,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: 1) CONTACT FORCE - jahan physical touch zaroori hai."
+          "text": "Bina touch kiye force? Ye kaise possible hai Sir?"
         }
       ],
       "navigation": {
@@ -607,8 +543,8 @@
       "concept_id": "contact_force_definition",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 76
+        "current": 16,
+        "total": 72
       },
       "messages": [
         {
@@ -625,7 +561,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Bolne se force nahi lagti."
+          "text": "Ye sab alag alag hain? Sir ek ek karke samjhaiye please!"
         }
       ],
       "navigation": {
@@ -640,8 +576,8 @@
       "concept_id": "muscular_force_detail",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 76
+        "current": 17,
+        "total": 72
       },
       "messages": [
         {
@@ -673,8 +609,8 @@
       "concept_id": "friction_force_intro",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 76
+        "current": 18,
+        "total": 72
       },
       "messages": [
         {
@@ -691,7 +627,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Jab cycle chalate waqt tum pedal maarna band kar do."
+          "text": "Toh friction ek problem hai kya Sir?"
         }
       ],
       "navigation": {
@@ -706,8 +642,8 @@
       "concept_id": "friction_advantages_disadvantages",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 76
+        "current": 19,
+        "total": 72
       },
       "messages": [
         {
@@ -739,8 +675,8 @@
       "concept_id": "contact_force_quiz_1",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 76
+        "current": 20,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BSSC Pattern: एक बैल गाड़ी को खींच रहा है। यह किस प्रकार का बल है? (Q1/3)",
@@ -777,8 +713,8 @@
       "concept_id": "contact_force_quiz_2",
       "level": 2,
       "progress": {
-        "current": 22,
-        "total": 76
+        "current": 21,
+        "total": 72
       },
       "quiz_payload": {
         "question": "साइकिल चलाना बंद करने के बाद वह कुछ दूरी तय करके रुक जाती है। इसका कारण है: (Q2/3)",
@@ -815,8 +751,8 @@
       "concept_id": "contact_force_quiz_3",
       "level": 2,
       "progress": {
-        "current": 23,
-        "total": 76
+        "current": 22,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ SSC Pattern: घर्षण बल के लाभ का उदाहरण कौन सा है? (Q3/3)",
@@ -853,8 +789,8 @@
       "concept_id": "milestone_contact_complete",
       "level": 2,
       "progress": {
-        "current": 24,
-        "total": 76
+        "current": 23,
+        "total": 72
       },
       "milestone_payload": {
         "title": "🔥 MODULE 2 COMPLETED!",
@@ -876,8 +812,8 @@
       "concept_id": "non_contact_force_intro",
       "level": 2,
       "progress": {
-        "current": 25,
-        "total": 76
+        "current": 24,
+        "total": 72
       },
       "messages": [
         {
@@ -909,8 +845,8 @@
       "concept_id": "gravitational_force_detail",
       "level": 2,
       "progress": {
-        "current": 26,
-        "total": 76
+        "current": 25,
+        "total": 72
       },
       "messages": [
         {
@@ -942,8 +878,8 @@
       "concept_id": "magnetic_force_detail",
       "level": 2,
       "progress": {
-        "current": 27,
-        "total": 76
+        "current": 26,
+        "total": 72
       },
       "messages": [
         {
@@ -975,8 +911,8 @@
       "concept_id": "electrostatic_force_detail",
       "level": 2,
       "progress": {
-        "current": 28,
-        "total": 76
+        "current": 27,
+        "total": 72
       },
       "messages": [
         {
@@ -1008,8 +944,8 @@
       "concept_id": "noncontact_quiz_1",
       "level": 2,
       "progress": {
-        "current": 29,
-        "total": 76
+        "current": 28,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: सेब का पेड़ से नीचे गिरना किस बल के कारण होता है? (Q1/3)",
@@ -1046,8 +982,8 @@
       "concept_id": "noncontact_quiz_2",
       "level": 2,
       "progress": {
-        "current": 30,
-        "total": 76
+        "current": 29,
+        "total": 72
       },
       "quiz_payload": {
         "question": "चुंबक की दो समान ध्रुवों (Like Poles) को पास लाने पर क्या होता है? (Q2/3)",
@@ -1084,8 +1020,8 @@
       "concept_id": "noncontact_quiz_3",
       "level": 2,
       "progress": {
-        "current": 31,
-        "total": 76
+        "current": 30,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ Railway Pattern: प्लास्टिक की कंघी को बालों पर रगड़ने के बाद वह कागज के टुकड़ों को आकर्षित करती है। यह किस बल का उदाहरण है? (Q3/3)",
@@ -1122,8 +1058,8 @@
       "concept_id": "milestone_noncontact_complete",
       "level": 2,
       "progress": {
-        "current": 32,
-        "total": 76
+        "current": 31,
+        "total": 72
       },
       "milestone_payload": {
         "title": "🌟 MODULE 3 COMPLETED!",
@@ -1145,8 +1081,8 @@
       "concept_id": "balanced_unbalanced_intro",
       "level": 3,
       "progress": {
-        "current": 33,
-        "total": 76
+        "current": 32,
+        "total": 72
       },
       "messages": [
         {
@@ -1163,7 +1099,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Actually हम forces को दो categories में बांटते हैं."
+          "text": "Ye cancel hona kya hota hai Sir?"
         }
       ],
       "navigation": {
@@ -1178,8 +1114,8 @@
       "concept_id": "balanced_forces_detail",
       "level": 3,
       "progress": {
-        "current": 34,
-        "total": 76
+        "current": 33,
+        "total": 72
       },
       "messages": [
         {
@@ -1196,7 +1132,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: tum aur tumhara dost ek table को opposite sides से EQUAL force से धक्का दे."
+          "text": "Ohhh toh balanced forces se motion change nahi hota?"
         }
       ],
       "navigation": {
@@ -1211,8 +1147,8 @@
       "concept_id": "unbalanced_forces_detail",
       "level": 3,
       "progress": {
-        "current": 35,
-        "total": 76
+        "current": 34,
+        "total": 72
       },
       "messages": [
         {
@@ -1244,8 +1180,8 @@
       "concept_id": "balanced_guess",
       "level": 3,
       "progress": {
-        "current": 36,
-        "total": 76
+        "current": 35,
+        "total": 72
       },
       "quiz_payload": {
         "question": "एक रस्साकशी (Tug of War) में दोनों टीमें बराबर बल से खींच रही हैं। रस्सी की स्थिति क्या होगी?",
@@ -1282,8 +1218,8 @@
       "concept_id": "balanced_quiz_1",
       "level": 3,
       "progress": {
-        "current": 37,
-        "total": 76
+        "current": 36,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC Multi-Statement: निम्नलिखित में से कौन सा कथन सही है? (Q1/3)\nA) संतुलित बल वस्तु की गति की अवस्था को बदल देते हैं।\nB) असंतुलित बल वस्तु में गति उत्पन्न कर सकते हैं।",
@@ -1320,8 +1256,8 @@
       "concept_id": "balanced_quiz_2",
       "level": 3,
       "progress": {
-        "current": 38,
-        "total": 76
+        "current": 37,
+        "total": 72
       },
       "quiz_payload": {
         "question": "एक मेज पर रखी किताब स्थिर है। इस पर कौन से बल कार्यरत हैं? (Q2/3)",
@@ -1358,8 +1294,8 @@
       "concept_id": "balanced_quiz_3",
       "level": 3,
       "progress": {
-        "current": 39,
-        "total": 76
+        "current": 38,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ Railway Pattern: स्थिर खड़ी बस में अचानक असंतुलित बल लगने से क्या होगा? (Q3/3)",
@@ -1396,8 +1332,8 @@
       "concept_id": "milestone_balanced_complete",
       "level": 3,
       "progress": {
-        "current": 40,
-        "total": 76
+        "current": 39,
+        "total": 72
       },
       "milestone_payload": {
         "title": "⚖️ MODULE 4 COMPLETED!",
@@ -1419,8 +1355,8 @@
       "concept_id": "newton_first_law_intro",
       "level": 3,
       "progress": {
-        "current": 41,
-        "total": 76
+        "current": 40,
+        "total": 72
       },
       "messages": [
         {
@@ -1437,7 +1373,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: पहला है NEWTON'S FIRST LAW OF MOTION - जिसे LAW OF INERTIA भी कहते हैं."
+          "text": "Matlab Sir? Thoda आसान भाषा में?"
         }
       ],
       "navigation": {
@@ -1452,8 +1388,8 @@
       "concept_id": "inertia_of_rest",
       "level": 3,
       "progress": {
-        "current": 42,
-        "total": 76
+        "current": 41,
+        "total": 72
       },
       "messages": [
         {
@@ -1470,7 +1406,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: चलती चीज़ें भी बिना force के चलती ही रहेंगी."
+          "text": "Wow! Toh ye sब चीज़ों की 'आलस' की tendency है?"
         }
       ],
       "navigation": {
@@ -1485,8 +1421,8 @@
       "concept_id": "inertia_definition",
       "level": 3,
       "progress": {
-        "current": 43,
-        "total": 76
+        "current": 42,
+        "total": 72
       },
       "messages": [
         {
@@ -1518,8 +1454,8 @@
       "concept_id": "inertia_daily_examples",
       "level": 3,
       "progress": {
-        "current": 44,
-        "total": 76
+        "current": 43,
+        "total": 72
       },
       "messages": [
         {
@@ -1551,8 +1487,8 @@
       "concept_id": "first_law_quiz_1",
       "level": 3,
       "progress": {
-        "current": 45,
-        "total": 76
+        "current": 44,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: Newton के प्रथम नियम को किस नाम से भी जाना जाता है? (Q1/3)",
@@ -1589,8 +1525,8 @@
       "concept_id": "first_law_quiz_2",
       "level": 3,
       "progress": {
-        "current": 46,
-        "total": 76
+        "current": 45,
+        "total": 72
       },
       "quiz_payload": {
         "question": "चलती हुई बस के अचानक रुकने पर यात्री आगे की ओर झुक जाते हैं। यह किसका उदाहरण है? (Q2/3)",
@@ -1627,8 +1563,8 @@
       "concept_id": "first_law_quiz_3",
       "level": 3,
       "progress": {
-        "current": 47,
-        "total": 76
+        "current": 46,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ SSC Pattern: जड़त्व (Inertia) किस पर निर्भर करती है? (Q3/3)",
@@ -1665,8 +1601,8 @@
       "concept_id": "newton_second_law_intro",
       "level": 3,
       "progress": {
-        "current": 48,
-        "total": 76
+        "current": 47,
+        "total": 72
       },
       "messages": [
         {
@@ -1683,7 +1619,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: किसी object पर लगी force उसके mass और acceleration के गुणनफल के बराबर होती."
+          "text": "Toh heavy object ko zyada force चाहिए move करने के लिए?"
         }
       ],
       "navigation": {
@@ -1698,8 +1634,8 @@
       "concept_id": "second_law_examples",
       "level": 3,
       "progress": {
-        "current": 49,
-        "total": 76
+        "current": 48,
+        "total": 72
       },
       "messages": [
         {
@@ -1731,8 +1667,8 @@
       "concept_id": "newton_third_law_intro",
       "level": 3,
       "progress": {
-        "current": 50,
-        "total": 76
+        "current": 49,
+        "total": 72
       },
       "messages": [
         {
@@ -1764,8 +1700,8 @@
       "concept_id": "third_law_examples",
       "level": 3,
       "progress": {
-        "current": 51,
-        "total": 76
+        "current": 50,
+        "total": 72
       },
       "messages": [
         {
@@ -1797,8 +1733,8 @@
       "concept_id": "newton_quiz_1",
       "level": 3,
       "progress": {
-        "current": 52,
-        "total": 76
+        "current": 51,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ NEET Pattern: Newton के द्वितीय नियम का गणितीय रूप क्या है? (Q1/3)",
@@ -1835,8 +1771,8 @@
       "concept_id": "newton_quiz_2",
       "level": 3,
       "progress": {
-        "current": 53,
-        "total": 76
+        "current": 52,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: एक व्यक्ति नाव से किनारे पर कूदता है तो नाव पीछे हट जाती है। यह किस नियम का उदाहरण है? (Q2/3)",
@@ -1873,8 +1809,8 @@
       "concept_id": "newton_quiz_3",
       "level": 3,
       "progress": {
-        "current": 54,
-        "total": 76
+        "current": 53,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ Railway Pattern: रॉकेट किस सिद्धांत पर कार्य करता है? (Q3/3)",
@@ -1911,8 +1847,8 @@
       "concept_id": "milestone_newton_complete",
       "level": 3,
       "progress": {
-        "current": 55,
-        "total": 76
+        "current": 54,
+        "total": 72
       },
       "milestone_payload": {
         "title": "🏆 MODULE 5 COMPLETED!",
@@ -1934,8 +1870,8 @@
       "concept_id": "pressure_thrust_intro",
       "level": 4,
       "progress": {
-        "current": 56,
-        "total": 76
+        "current": 55,
+        "total": 72
       },
       "messages": [
         {
@@ -1952,7 +1888,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Wo PRESSURE के कारण होता है."
+          "text": "Toh Thrust ek तरह की force है?"
         }
       ],
       "navigation": {
@@ -1967,8 +1903,8 @@
       "concept_id": "pressure_definition_formula",
       "level": 4,
       "progress": {
-        "current": 57,
-        "total": 76
+        "current": 56,
+        "total": 72
       },
       "messages": [
         {
@@ -2000,8 +1936,8 @@
       "concept_id": "pressure_daily_examples",
       "level": 4,
       "progress": {
-        "current": 58,
-        "total": 76
+        "current": 57,
+        "total": 72
       },
       "messages": [
         {
@@ -2033,8 +1969,8 @@
       "concept_id": "pressure_quiz_1",
       "level": 4,
       "progress": {
-        "current": 59,
-        "total": 76
+        "current": 58,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ SSC Pattern: Pressure (दाब) का SI मात्रक क्या है? (Q1/3)",
@@ -2071,8 +2007,8 @@
       "concept_id": "pressure_quiz_2",
       "level": 4,
       "progress": {
-        "current": 60,
-        "total": 76
+        "current": 59,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ Railway Pattern: तेज़ चाकू आसानी से काटता है क्योंकि: (Q2/3)",
@@ -2109,8 +2045,8 @@
       "concept_id": "pressure_quiz_3",
       "level": 4,
       "progress": {
-        "current": 61,
-        "total": 76
+        "current": 60,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC Pattern: ऊंट के पैर चौड़े होते हैं ताकि: (Q3/3)",
@@ -2147,8 +2083,8 @@
       "concept_id": "milestone_pressure_complete",
       "level": 4,
       "progress": {
-        "current": 62,
-        "total": 76
+        "current": 61,
+        "total": 72
       },
       "milestone_payload": {
         "title": "🎯 MODULE 6 COMPLETED!",
@@ -2170,8 +2106,8 @@
       "concept_id": "free_fall_gravity_intro",
       "level": 4,
       "progress": {
-        "current": 63,
-        "total": 76
+        "current": 62,
+        "total": 72
       },
       "messages": [
         {
@@ -2188,7 +2124,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: अगर हवा का resistance ignore करें तो हां."
+          "text": "'g' की value कितनी होती है Sir?"
         }
       ],
       "navigation": {
@@ -2203,8 +2139,8 @@
       "concept_id": "acceleration_due_to_gravity",
       "level": 4,
       "progress": {
-        "current": 64,
-        "total": 76
+        "current": 63,
+        "total": 72
       },
       "messages": [
         {
@@ -2236,8 +2172,8 @@
       "concept_id": "mass_vs_weight",
       "level": 4,
       "progress": {
-        "current": 65,
-        "total": 76
+        "current": 64,
+        "total": 72
       },
       "messages": [
         {
@@ -2269,8 +2205,8 @@
       "concept_id": "gravity_quiz_1",
       "level": 4,
       "progress": {
-        "current": 66,
-        "total": 76
+        "current": 65,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ NEET Pattern: पृथ्वी पर गुरुत्वीय त्वरण (g) का मान लगभग कितना है? (Q1/3)",
@@ -2307,8 +2243,8 @@
       "concept_id": "gravity_quiz_2",
       "level": 4,
       "progress": {
-        "current": 67,
-        "total": 76
+        "current": 66,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ BPSC Trap: Mass और Weight में क्या अंतर है? (Q2/3)",
@@ -2345,8 +2281,8 @@
       "concept_id": "gravity_quiz_3",
       "level": 4,
       "progress": {
-        "current": 68,
-        "total": 76
+        "current": 67,
+        "total": 72
       },
       "quiz_payload": {
         "question": "⭐ SSC Pattern: यदि किसी व्यक्ति का द्रव्यमान 60 kg है, तो पृथ्वी पर उसका भार लगभग कितना होगा? (g = 10 m/s²) (Q3/3)",
@@ -2383,8 +2319,8 @@
       "concept_id": "milestone_gravity_complete",
       "level": 4,
       "progress": {
-        "current": 69,
-        "total": 76
+        "current": 68,
+        "total": 72
       },
       "milestone_payload": {
         "title": "🌍 MODULE 7 COMPLETED!",
@@ -2395,122 +2331,8 @@
         "motivational_quote": "Superb! Gravity concepts fully mastered! अब Final Revision और Officer Level Quiz का समय! 🔥"
       },
       "navigation": {
-        "next": "card_applied_case_01",
-        "button_text": "Start Final Revision ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_01",
-      "card_slug": "card_applied_case_01",
-      "type": "quiz",
-      "concept_id": "applied_practice_01",
-      "level": 2,
-      "quiz_payload": {
-        "question": "Applied case 1: Bus achanak brake lagati hai aur khada passenger aage jhukta hai. Kaunsa concept isse samjhata hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Inertia: body apni motion state banaye rakhna chahti hai"
-          },
-          {
-            "id": "B",
-            "text": "Magnetic attraction"
-          },
-          {
-            "id": "C",
-            "text": "Sound reflection"
-          },
-          {
-            "id": "D",
-            "text": "Thermal expansion"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Bus rukti hai par passenger ka upper body motion mein rehna chahta hai; seat/hand support na ho to woh aage jhukta hai."
-      },
-      "progress": {
-        "current": 70,
-        "total": 76
-      },
-      "navigation": {
-        "next": "card_applied_case_02",
-        "button_text": "Check Answer ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_02",
-      "card_slug": "card_applied_case_02",
-      "type": "quiz",
-      "concept_id": "applied_practice_02",
-      "level": 2,
-      "quiz_payload": {
-        "question": "Applied case 2: Geeli floor par shoes phisalna aasaan kyun hota hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Shoe aur floor ke beech friction kam ho sakta hai"
-          },
-          {
-            "id": "B",
-            "text": "Gravity band ho jaati hai"
-          },
-          {
-            "id": "C",
-            "text": "Mass zero ho jaata hai"
-          },
-          {
-            "id": "D",
-            "text": "Pressure hamesha zero hota hai"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Paani surface ki grip/friction ghata sakta hai, isliye slip ka risk badhta hai."
-      },
-      "progress": {
-        "current": 71,
-        "total": 76
-      },
-      "navigation": {
-        "next": "card_applied_case_03",
-        "button_text": "Check Answer ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_03",
-      "card_slug": "card_applied_case_03",
-      "type": "quiz",
-      "concept_id": "applied_practice_03",
-      "level": 3,
-      "quiz_payload": {
-        "question": "Applied case 3: Same force se ek blunt knife aur sharp knife ko sabzi par dabaya. Sharp knife aasani se kaat sakta hai kyun?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Chhote contact area par pressure zyada hota hai"
-          },
-          {
-            "id": "B",
-            "text": "Uska mass kam hota hai isliye gravity nahi"
-          },
-          {
-            "id": "C",
-            "text": "Usme electricity hoti hai"
-          },
-          {
-            "id": "D",
-            "text": "Friction hamesha zero hota hai"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Pressure = force/area; sharp edge ka area chhota hota hai, isliye same force par pressure zyada hota hai."
-      },
-      "progress": {
-        "current": 72,
-        "total": 76
-      },
-      "navigation": {
         "next": "card_69_officer_revision",
-        "button_text": "Check Answer ➔"
+        "button_text": "Start Final Revision ➔"
       }
     },
     {
@@ -2520,8 +2342,8 @@
       "concept_id": "officer_level_revision",
       "level": 5,
       "progress": {
-        "current": 73,
-        "total": 76
+        "current": 69,
+        "total": 72
       },
       "summary_payload": {
         "title": "⚡ OFFICER LEVEL QUICK REVISION",
@@ -2572,8 +2394,8 @@
       "concept_id": "final_officer_quiz",
       "level": 5,
       "progress": {
-        "current": 74,
-        "total": 76
+        "current": 70,
+        "total": 72
       },
       "quiz_payload": {
         "question": "🏆 BPSC OFFICER LEVEL MULTI-STATEMENT:\n\nकथन A: संतुलित बल वस्तु की गति की अवस्था को परिवर्तित नहीं करते।\nकथन B: जड़त्व (Inertia) वस्तु के वेग (Velocity) पर निर्भर करती है।\nकथन C: Newton का तृतीय नियम क्रिया-प्रतिक्रिया पर आधारित है।\nकथन D: दाब (Pressure) क्षेत्रफल के व्युत्क्रमानुपाती (inversely proportional) होता है।\n\nसही कथनों का चयन करें:",
@@ -2610,8 +2432,8 @@
       "concept_id": "assertion_reason_quiz",
       "level": 5,
       "progress": {
-        "current": 75,
-        "total": 76
+        "current": 71,
+        "total": 72
       },
       "quiz_payload": {
         "question": "🎯 NEET/BPSC ASSERTION-REASON PATTERN:\n\nअभिकथन (Assertion - A): ऊंट के पैर चौड़े होते हैं।\n\nकारण (Reason - R): चौड़े पैरों से क्षेत्रफल बढ़ जाता है, जिससे दाब कम हो जाता है और ऊंट रेत में नहीं धंसता।\n\nसही विकल्प चुनें:",
@@ -2648,8 +2470,8 @@
       "concept_id": "chapter_completion",
       "level": 5,
       "progress": {
-        "current": 76,
-        "total": 76
+        "current": 72,
+        "total": 72
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER COMPLETED!",

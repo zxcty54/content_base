@@ -7,10 +7,9 @@
     "RRB NTPC",
     "SSC CGL",
     "NEET",
-    "UPSC Prelims",
-    "RRB Group D"
+    "UPSC Prelims"
   ],
-  "total_cards": 84,
+  "total_cards": 80,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -32,7 +31,7 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 84
+        "total": 80
       },
       "intro_payload": {
         "title": "🌿 Ecosystem (पारिस्थितिकी तंत्र)",
@@ -43,8 +42,7 @@
           "RRB NTPC",
           "SSC CGL",
           "NEET",
-          "UPSC Prelims",
-          "RRB Group D"
+          "UPSC Prelims"
         ],
         "learning_outcomes": [
           "Ecosystem kya hai – pond se samjhenge",
@@ -54,70 +52,12 @@
           "Nutrient Cycles – Carbon, Nitrogen, Phosphorus",
           "Ecological Succession – Primary aur Secondary",
           "Productivity – GPP, NPP, Secondary Productivity",
-          "PYQ Traps – BPSC, SSC, NEET, UPSC level mastery",
-          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
-          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
-        ],
-        "learning_path": [
-          {
-            "level": 1,
-            "title": "Zero/Foundation",
-            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
-          },
-          {
-            "level": 2,
-            "title": "Railway Basic",
-            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
-          },
-          {
-            "level": 3,
-            "title": "Railway Application",
-            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
-          },
-          {
-            "level": 4,
-            "title": "Advanced",
-            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
-          },
-          {
-            "level": 5,
-            "title": "Advanced Challenge",
-            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
-          }
+          "PYQ Traps – BPSC, SSC, NEET, UPSC level mastery"
         ]
       },
       "navigation": {
-        "next": "card_zero_foundation",
-        "button_text": "Let's Begin ➔"
-      }
-    },
-    {
-      "card_id": "card_zero_foundation",
-      "card_slug": "card_zero_foundation",
-      "type": "chat",
-      "concept_id": "zero_level_foundation",
-      "level": 1,
-      "progress": {
-        "current": 2,
-        "total": 84
-      },
-      "messages": [
-        {
-          "speaker": "aman",
-          "text": "Ecosystem mein living things—plants, animals, microbes—aur unke aas-paas ki hawa, paani, mitti milkar ek system banate hain. Har jeev doosron aur environment se juda hota hai."
-        },
-        {
-          "speaker": "raju",
-          "text": "Sir, aapne abhi kaha ki Ecosystem mein living things—plants. Kya main sahi samjha?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
-        }
-      ],
-      "navigation": {
         "next": "card_02_ecosystem_daily",
-        "button_text": "Aage badho ➔"
+        "button_text": "Let's Begin ➔"
       }
     },
     {
@@ -127,8 +67,8 @@
       "concept_id": "ecosystem_definition",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 84
+        "current": 2,
+        "total": 80
       },
       "messages": [
         {
@@ -145,7 +85,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Isi ko Ecosystem bolte hain – yaani ek area mein saare living organisms."
+          "text": "A.G. Tansley, 1935 – note kar liya Sir! Aur ye 'functional unit' matlab kya hota hai exactly?"
         }
       ],
       "navigation": {
@@ -160,8 +100,8 @@
       "concept_id": "biotic_abiotic_components",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 84
+        "current": 3,
+        "total": 80
       },
       "messages": [
         {
@@ -193,8 +133,8 @@
       "concept_id": "ecosystem_types",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 84
+        "current": 4,
+        "total": 80
       },
       "messages": [
         {
@@ -211,7 +151,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sabse productive = Tropical Rainforest aur Coral Reef! Sabse kam productive = Desert aur Open Ocean! Ye important…"
+          "text": "Sabse productive = Tropical Rainforest aur Coral Reef! Sabse kam productive = Desert aur Open Ocean! Ye important comparison hai Sir!"
         }
       ],
       "navigation": {
@@ -226,8 +166,8 @@
       "concept_id": "ecosystem_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 84
+        "current": 5,
+        "total": 80
       },
       "quiz_payload": {
         "question": "'Ecosystem' शब्द किसने और कब दिया? (Q1/3)",
@@ -264,8 +204,8 @@
       "concept_id": "ecosystem_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 84
+        "current": 6,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Edaphic factors किससे संबंधित हैं? (Q2/3)",
@@ -302,8 +242,8 @@
       "concept_id": "ecosystem_basics_quiz",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 84
+        "current": 7,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा एक Artificial Ecosystem है? (Q3/3)",
@@ -340,8 +280,8 @@
       "concept_id": "mod1_complete",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 84
+        "current": 8,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 1 COMPLETED! 🎉",
@@ -363,8 +303,8 @@
       "concept_id": "trophic_levels_producers",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 84
+        "current": 9,
+        "total": 80
       },
       "messages": [
         {
@@ -381,7 +321,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Woh hote hain Consumers."
+          "text": "Decomposers! Matlab jo marey hue cheez ko todke mitti mein milate hain? Ye bhi ecosystem ka part hai?"
         }
       ],
       "navigation": {
@@ -396,8 +336,8 @@
       "concept_id": "food_chain",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 84
+        "current": 10,
+        "total": 80
       },
       "messages": [
         {
@@ -414,7 +354,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Do types of food chain! Grazing food chain – plants se shuru, Detritus food chain – dead matter se shuru! Ye dono…"
+          "text": "Do types of food chain! Grazing food chain – plants se shuru, Detritus food chain – dead matter se shuru! Ye dono alag hain!"
         }
       ],
       "navigation": {
@@ -429,8 +369,8 @@
       "concept_id": "food_web",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 84
+        "current": 11,
+        "total": 80
       },
       "messages": [
         {
@@ -462,8 +402,8 @@
       "concept_id": "ten_percent_law",
       "level": 2,
       "progress": {
-        "current": 13,
-        "total": 84
+        "current": 12,
+        "total": 80
       },
       "messages": [
         {
@@ -480,7 +420,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Isliye vegetarian banna zyada energy efficient hai! Ek level skip karna = 10 guna zyada food! Ye to ecological logic…"
+          "text": "Isliye vegetarian banna zyada energy efficient hai! Ek level skip karna = 10 guna zyada food! Ye to ecological logic hai Sir!"
         }
       ],
       "navigation": {
@@ -495,8 +435,8 @@
       "concept_id": "food_chain_quiz",
       "level": 2,
       "progress": {
-        "current": 14,
-        "total": 84
+        "current": 13,
+        "total": 80
       },
       "quiz_payload": {
         "question": "10% Law (Lindeman's Law) किसने और कब दिया? (Q1/3)",
@@ -533,8 +473,8 @@
       "concept_id": "food_chain_quiz",
       "level": 2,
       "progress": {
-        "current": 15,
-        "total": 84
+        "current": 14,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Food Chain: Grass → Grasshopper → Frog → Snake → Eagle में यदि Grass में 10,000 J ऊर्जा है, तो Eagle को कितनी ऊर्जा मिलेगी? (Q2/3)",
@@ -571,8 +511,8 @@
       "concept_id": "food_chain_quiz",
       "level": 2,
       "progress": {
-        "current": 16,
-        "total": 84
+        "current": 15,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Detritus Food Chain और Grazing Food Chain में क्या मुख्य अंतर है? (Q3/3)",
@@ -609,8 +549,8 @@
       "concept_id": "mod2_complete",
       "level": 2,
       "progress": {
-        "current": 17,
-        "total": 84
+        "current": 16,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 2 COMPLETED! 🎉",
@@ -632,8 +572,8 @@
       "concept_id": "ecological_pyramids_intro",
       "level": 2,
       "progress": {
-        "current": 18,
-        "total": 84
+        "current": 17,
+        "total": 80
       },
       "messages": [
         {
@@ -650,7 +590,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Teen types ke Ecological Pyramids hain."
+          "text": "Sirf Energy pyramid hamesha seedha! Numbers aur Biomass ulta bhi ho sakta hai? Ye to surprising hai Sir!"
         }
       ],
       "navigation": {
@@ -665,8 +605,8 @@
       "concept_id": "pyramid_of_numbers",
       "level": 2,
       "progress": {
-        "current": 19,
-        "total": 84
+        "current": 18,
+        "total": 80
       },
       "messages": [
         {
@@ -698,8 +638,8 @@
       "concept_id": "pyramid_of_biomass",
       "level": 2,
       "progress": {
-        "current": 20,
-        "total": 84
+        "current": 19,
+        "total": 80
       },
       "messages": [
         {
@@ -716,7 +656,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Phytoplankton thodi quantity mein hoti hai lekin itni fast reproduce karti hai ki bahut saare zooplankton ko support…"
+          "text": "Phytoplankton thodi quantity mein hoti hai lekin itni fast reproduce karti hai ki bahut saare zooplankton ko support karte hain! Standing crop vs production rate!"
         }
       ],
       "navigation": {
@@ -731,8 +671,8 @@
       "concept_id": "pyramid_of_energy",
       "level": 2,
       "progress": {
-        "current": 21,
-        "total": 84
+        "current": 20,
+        "total": 80
       },
       "messages": [
         {
@@ -749,7 +689,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Energy = hamesha upright, Biomass = aquatic mein inverted, Numbers = tree ya parasitic mein inverted! Ye teen facts…"
+          "text": "Energy = hamesha upright, Biomass = aquatic mein inverted, Numbers = tree ya parasitic mein inverted! Ye teen facts exam mein ek saath trap karte hain!"
         }
       ],
       "navigation": {
@@ -764,8 +704,8 @@
       "concept_id": "ecological_pyramids_quiz",
       "level": 2,
       "progress": {
-        "current": 22,
-        "total": 84
+        "current": 21,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा Pyramid कभी भी Inverted नहीं होता? (Q1/3)",
@@ -802,8 +742,8 @@
       "concept_id": "ecological_pyramids_quiz",
       "level": 2,
       "progress": {
-        "current": 23,
-        "total": 84
+        "current": 22,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Aquatic Ecosystem में Pyramid of Biomass Inverted क्यों होता है? (Q2/3)",
@@ -840,8 +780,8 @@
       "concept_id": "ecological_pyramids_quiz",
       "level": 2,
       "progress": {
-        "current": 24,
-        "total": 84
+        "current": 23,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Parasitic Food Chain में Pyramid of Numbers कैसी होती है? (Q3/3)",
@@ -878,8 +818,8 @@
       "concept_id": "mod3_complete",
       "level": 2,
       "progress": {
-        "current": 25,
-        "total": 84
+        "current": 24,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 3 COMPLETED! 🎉",
@@ -901,8 +841,8 @@
       "concept_id": "primary_productivity",
       "level": 2,
       "progress": {
-        "current": 26,
-        "total": 84
+        "current": 25,
+        "total": 80
       },
       "messages": [
         {
@@ -934,8 +874,8 @@
       "concept_id": "secondary_productivity",
       "level": 2,
       "progress": {
-        "current": 27,
-        "total": 84
+        "current": 26,
+        "total": 80
       },
       "messages": [
         {
@@ -944,7 +884,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Secondary productivity sirf consumers ka production hai – isme NPP-GPP wali subdivision nahi hoti! Ye trap hai"
+          "text": "Secondary productivity sirf consumers ka production hai – isme NPP-GPP wali subdivision nahi hoti! Ye trap hai NEET ka!"
         },
         {
           "speaker": "aman",
@@ -967,8 +907,8 @@
       "concept_id": "decomposition_process",
       "level": 2,
       "progress": {
-        "current": 28,
-        "total": 84
+        "current": 27,
+        "total": 80
       },
       "messages": [
         {
@@ -985,7 +925,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Humus bahut important hai – ye dark-colored."
+          "text": "Humus dark colored stable compound hai! Aur lignin wala detritus slow decompose hota hai – ye bhi NEET trap hai na Sir?"
         }
       ],
       "navigation": {
@@ -1000,8 +940,8 @@
       "concept_id": "productivity_quiz",
       "level": 2,
       "progress": {
-        "current": 29,
-        "total": 84
+        "current": 28,
+        "total": 80
       },
       "quiz_payload": {
         "question": "NPP (Net Primary Productivity) का सही formula क्या है? (Q1/3)",
@@ -1038,8 +978,8 @@
       "concept_id": "productivity_quiz",
       "level": 2,
       "progress": {
-        "current": 30,
-        "total": 84
+        "current": 29,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Decomposition के steps का सही क्रम क्या है? (Q2/3)",
@@ -1076,8 +1016,8 @@
       "concept_id": "productivity_quiz",
       "level": 2,
       "progress": {
-        "current": 31,
-        "total": 84
+        "current": 30,
+        "total": 80
       },
       "quiz_payload": {
         "question": "किस Ecosystem की Net Primary Productivity (NPP) सबसे अधिक होती है? (Q3/3)",
@@ -1114,8 +1054,8 @@
       "concept_id": "mod4_complete",
       "level": 2,
       "progress": {
-        "current": 32,
-        "total": 84
+        "current": 31,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 4 COMPLETED! 🎉",
@@ -1137,8 +1077,8 @@
       "concept_id": "carbon_cycle",
       "level": 3,
       "progress": {
-        "current": 33,
-        "total": 84
+        "current": 32,
+        "total": 80
       },
       "messages": [
         {
@@ -1170,8 +1110,8 @@
       "concept_id": "carbon_cycle_reservoirs",
       "level": 3,
       "progress": {
-        "current": 34,
-        "total": 84
+        "current": 33,
+        "total": 80
       },
       "messages": [
         {
@@ -1203,8 +1143,8 @@
       "concept_id": "nitrogen_cycle",
       "level": 3,
       "progress": {
-        "current": 35,
-        "total": 84
+        "current": 34,
+        "total": 80
       },
       "messages": [
         {
@@ -1221,7 +1161,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Rhizobium legume mein, Azotobacter free-living, Anabaena/Nostoc paddy mein! Teen alag types ke N₂ fixing bacteria –…"
+          "text": "Rhizobium legume mein, Azotobacter free-living, Anabaena/Nostoc paddy mein! Teen alag types ke N₂ fixing bacteria – ye yaad rakhne hain!"
         }
       ],
       "navigation": {
@@ -1236,8 +1176,8 @@
       "concept_id": "nitrogen_cycle_steps",
       "level": 3,
       "progress": {
-        "current": 36,
-        "total": 84
+        "current": 35,
+        "total": 80
       },
       "messages": [
         {
@@ -1269,8 +1209,8 @@
       "concept_id": "nutrient_cycles_quiz",
       "level": 3,
       "progress": {
-        "current": 37,
-        "total": 84
+        "current": 36,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Nitrification में NH₃ को NO₂⁻ में convert करने वाला bacteria कौन सा है? (Q1/3)",
@@ -1307,8 +1247,8 @@
       "concept_id": "nutrient_cycles_quiz",
       "level": 3,
       "progress": {
-        "current": 38,
-        "total": 84
+        "current": 37,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Paddy Fields में Biological Nitrogen Fixation मुख्यतः कौन करता है? (Q2/3)",
@@ -1345,8 +1285,8 @@
       "concept_id": "nutrient_cycles_quiz",
       "level": 3,
       "progress": {
-        "current": 39,
-        "total": 84
+        "current": 38,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Denitrification में NO₃⁻ को N₂ में convert करने वाला bacteria कौन सा है? (Q3/3)",
@@ -1383,8 +1323,8 @@
       "concept_id": "mod5_complete",
       "level": 3,
       "progress": {
-        "current": 40,
-        "total": 84
+        "current": 39,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 5 COMPLETED! 🎉",
@@ -1406,8 +1346,8 @@
       "concept_id": "ecological_succession",
       "level": 3,
       "progress": {
-        "current": 41,
-        "total": 84
+        "current": 40,
+        "total": 80
       },
       "messages": [
         {
@@ -1424,7 +1364,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Bahut samay lagta hai – hundreds to thousands of years."
+          "text": "Pioneer species pehle aati hain, Climax community last mein – stable state! Aur lichen rock pe pehle – isliye pioneer?"
         }
       ],
       "navigation": {
@@ -1439,8 +1379,8 @@
       "concept_id": "primary_secondary_succession",
       "level": 3,
       "progress": {
-        "current": 42,
-        "total": 84
+        "current": 41,
+        "total": 80
       },
       "messages": [
         {
@@ -1472,8 +1412,8 @@
       "concept_id": "sere_hydrosere_xerosere",
       "level": 3,
       "progress": {
-        "current": 43,
-        "total": 84
+        "current": 42,
+        "total": 80
       },
       "messages": [
         {
@@ -1505,8 +1445,8 @@
       "concept_id": "succession_quiz",
       "level": 3,
       "progress": {
-        "current": 44,
-        "total": 84
+        "current": 43,
+        "total": 80
       },
       "quiz_payload": {
         "question": "एक नई volcanic island पर होने वाली succession किस प्रकार की होगी? (Q1/3)",
@@ -1543,8 +1483,8 @@
       "concept_id": "succession_quiz",
       "level": 3,
       "progress": {
-        "current": 45,
-        "total": 84
+        "current": 44,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Hydrosere में सही उत्तराधिकार (Succession) क्रम कौन सा है? (Q2/3)",
@@ -1581,8 +1521,8 @@
       "concept_id": "succession_quiz",
       "level": 3,
       "progress": {
-        "current": 46,
-        "total": 84
+        "current": 45,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Climax Community के बारे में कौन सा कथन सही है? (Q3/3)",
@@ -1619,8 +1559,8 @@
       "concept_id": "mod6_complete",
       "level": 3,
       "progress": {
-        "current": 47,
-        "total": 84
+        "current": 46,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 6 COMPLETED! 🎉",
@@ -1642,8 +1582,8 @@
       "concept_id": "phosphorus_cycle",
       "level": 3,
       "progress": {
-        "current": 48,
-        "total": 84
+        "current": 47,
+        "total": 80
       },
       "messages": [
         {
@@ -1675,8 +1615,8 @@
       "concept_id": "water_cycle_hydrological",
       "level": 3,
       "progress": {
-        "current": 49,
-        "total": 84
+        "current": 48,
+        "total": 80
       },
       "messages": [
         {
@@ -1708,8 +1648,8 @@
       "concept_id": "cycles_quiz",
       "level": 3,
       "progress": {
-        "current": 50,
-        "total": 84
+        "current": 49,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Phosphorus Cycle को Sedimentary Cycle क्यों कहते हैं? (Q1/3)",
@@ -1746,8 +1686,8 @@
       "concept_id": "cycles_quiz",
       "level": 3,
       "progress": {
-        "current": 51,
-        "total": 84
+        "current": 50,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Assertion (A): Carbon Cycle और Nitrogen Cycle को Gaseous Cycles कहते हैं।\nReason (R): इन दोनों में atmosphere में एक reservoir होता है – CO₂ और N₂। (Q2/3)",
@@ -1784,8 +1724,8 @@
       "concept_id": "cycles_quiz",
       "level": 3,
       "progress": {
-        "current": 52,
-        "total": 84
+        "current": 51,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Leguminous plants (दलहनी फसलें) में Nitrogen Fixation करने वाला Symbiotic bacteria कौन सा है? (Q3/3)",
@@ -1822,8 +1762,8 @@
       "concept_id": "mod7_complete",
       "level": 3,
       "progress": {
-        "current": 53,
-        "total": 84
+        "current": 52,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 7 COMPLETED! 🎉",
@@ -1845,8 +1785,8 @@
       "concept_id": "biomagnification",
       "level": 4,
       "progress": {
-        "current": 54,
-        "total": 84
+        "current": 53,
+        "total": 80
       },
       "messages": [
         {
@@ -1878,8 +1818,8 @@
       "concept_id": "eutrophication",
       "level": 4,
       "progress": {
-        "current": 55,
-        "total": 84
+        "current": 54,
+        "total": 80
       },
       "messages": [
         {
@@ -1896,7 +1836,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Algal Bloom → Algae death → Decomposition → Oxygen depletion → Fish death → Dead Zone! Ek chain reaction hai…"
+          "text": "Algal Bloom → Algae death → Decomposition → Oxygen depletion → Fish death → Dead Zone! Ek chain reaction hai pollution ki!"
         }
       ],
       "navigation": {
@@ -1911,8 +1851,8 @@
       "concept_id": "ozone_depletion_ecosystem",
       "level": 4,
       "progress": {
-        "current": 56,
-        "total": 84
+        "current": 55,
+        "total": 80
       },
       "messages": [
         {
@@ -1929,7 +1869,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Montreal Protocol 1987 – ye naam yaad rakhna hai! Aur UV radiation se phytoplankton bhi damage hota hai – marine…"
+          "text": "Montreal Protocol 1987 – ye naam yaad rakhna hai! Aur UV radiation se phytoplankton bhi damage hota hai – marine food chain pe effect!"
         }
       ],
       "navigation": {
@@ -1944,8 +1884,8 @@
       "concept_id": "keystone_species",
       "level": 4,
       "progress": {
-        "current": 57,
-        "total": 84
+        "current": 56,
+        "total": 80
       },
       "messages": [
         {
@@ -1962,7 +1902,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Tiger keystone species hai India mein! Isliye tiger conservation = entire ecosystem conservation! Project Tiger ka…"
+          "text": "Tiger keystone species hai India mein! Isliye tiger conservation = entire ecosystem conservation! Project Tiger ka scientific reason clear hua!"
         }
       ],
       "navigation": {
@@ -1977,8 +1917,8 @@
       "concept_id": "special_concepts_quiz",
       "level": 4,
       "progress": {
-        "current": 58,
-        "total": 84
+        "current": 57,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Biomagnification के बारे में कौन सा कथन सही है? (Q1/3)",
@@ -2015,8 +1955,8 @@
       "concept_id": "special_concepts_quiz",
       "level": 4,
       "progress": {
-        "current": 59,
-        "total": 84
+        "current": 58,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Eutrophication में 'Dead Zone' कैसे बनता है? (Q2/3)",
@@ -2053,8 +1993,8 @@
       "concept_id": "special_concepts_quiz",
       "level": 4,
       "progress": {
-        "current": 60,
-        "total": 84
+        "current": 59,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Montreal Protocol (1987) किससे संबंधित है? (Q3/3)",
@@ -2091,8 +2031,8 @@
       "concept_id": "mod8_complete",
       "level": 4,
       "progress": {
-        "current": 61,
-        "total": 84
+        "current": 60,
+        "total": 80
       },
       "milestone_payload": {
         "title": "MODULE 8 COMPLETED! 🎉",
@@ -2114,8 +2054,8 @@
       "concept_id": "extra_ecosystem_concepts",
       "level": 4,
       "progress": {
-        "current": 62,
-        "total": 84
+        "current": 61,
+        "total": 80
       },
       "messages": [
         {
@@ -2132,7 +2072,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Zyada diverse ecosystem = zyada resilient! Isliye monoculture crops zyada vulnerable hoti hain – ek disease se sab…"
+          "text": "Zyada diverse ecosystem = zyada resilient! Isliye monoculture crops zyada vulnerable hoti hain – ek disease se sab khatam!"
         }
       ],
       "navigation": {
@@ -2147,8 +2087,8 @@
       "concept_id": "energy_flow_unidirectional",
       "level": 4,
       "progress": {
-        "current": 63,
-        "total": 84
+        "current": 62,
+        "total": 80
       },
       "messages": [
         {
@@ -2180,8 +2120,8 @@
       "concept_id": "biomes",
       "level": 4,
       "progress": {
-        "current": 64,
-        "total": 84
+        "current": 63,
+        "total": 80
       },
       "messages": [
         {
@@ -2213,8 +2153,8 @@
       "concept_id": "ecosystem_guess",
       "level": 4,
       "progress": {
-        "current": 65,
-        "total": 84
+        "current": 64,
+        "total": 80
       },
       "quiz_payload": {
         "question": "🤔 Guess karo! 'Matter cycles, Energy flows' – is statement mein Energy ke baare mein kya sahi hai?",
@@ -2251,8 +2191,8 @@
       "concept_id": "pyramid_guess",
       "level": 4,
       "progress": {
-        "current": 66,
-        "total": 84
+        "current": 65,
+        "total": 80
       },
       "quiz_payload": {
         "question": "🤔 Ek talab mein Phytoplankton (producers) ki biomass, Zooplankton (primary consumers) se LESS hai – toh Pyramid of Biomass kaisi hogi?",
@@ -2289,8 +2229,8 @@
       "concept_id": "important_ecosystem_organisms",
       "level": 4,
       "progress": {
-        "current": 67,
-        "total": 84
+        "current": 66,
+        "total": 80
       },
       "messages": [
         {
@@ -2322,8 +2262,8 @@
       "concept_id": "comprehensive_quiz_1",
       "level": 4,
       "progress": {
-        "current": 68,
-        "total": 84
+        "current": 67,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. Ecological Niche एक organism का habitat है\n2. Gause's Law के अनुसार दो species एक ही niche occupy नहीं कर सकती\n3. Diverse ecosystem अधिक resilient होता है\n4. Monoculture farming ecosystem resilience बढ़ाती है\n\nकौन से कथन सही हैं?",
@@ -2349,122 +2289,8 @@
         "explanation": "कथन 1 गलत – Niche ≠ Habitat। Habitat = जहाँ organism रहता है (address)। Niche = organism का ecological role (profession – क्या खाता है, कब active है etc.)। कथन 2 सही – Gause's Competitive Exclusion Principle: no two species can occupy the same niche। कथन 3 सही – Diversity → Resilience। कथन 4 गलत – Monoculture से diversity कम होती है → resilience कम होती है। BPSC multi-statement trap!"
       },
       "navigation": {
-        "next": "card_applied_case_01",
-        "button_text": "Check Answer & Continue ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_01",
-      "card_slug": "card_applied_case_01",
-      "type": "quiz",
-      "concept_id": "applied_practice_01",
-      "level": 3,
-      "quiz_payload": {
-        "question": "Applied case 1: Khet mein pesticide ka zyada istemal hota hai. Chhoti machhli se badi machhli aur phir pakshi tak food chain jaati hai. Persistent pesticide ka level aksar kahan zyada ho sakta hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Food chain ke top predator mein"
-          },
-          {
-            "id": "B",
-            "text": "Sirf mitti mein aur kahin nahi"
-          },
-          {
-            "id": "C",
-            "text": "Har trophic level par bilkul same"
-          },
-          {
-            "id": "D",
-            "text": "Plants mein zero"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Kuch persistent pollutants food chain mein biomagnify ho sakte hain, isliye top predators mein concentration badh sakti hai."
-      },
-      "progress": {
-        "current": 69,
-        "total": 84
-      },
-      "navigation": {
-        "next": "card_applied_case_02",
-        "button_text": "Check Answer ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_02",
-      "card_slug": "card_applied_case_02",
-      "type": "quiz",
-      "concept_id": "applied_practice_02",
-      "level": 4,
-      "quiz_payload": {
-        "question": "Applied case 2: Talab ke paas fertilizer runoff aaya; kuch din baad algae bahut badhi aur machhliyan marne lagi. Likely sequence kya hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Nutrient enrichment → algal bloom → decomposition se oxygen ghatna"
-          },
-          {
-            "id": "B",
-            "text": "Paani mein oxygen bahut badhna"
-          },
-          {
-            "id": "C",
-            "text": "Salt ka turant sugar ban jana"
-          },
-          {
-            "id": "D",
-            "text": "Fish ka photosynthesis karna"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Extra nutrients algal bloom badha sakte hain; algae decompose hone par microbes oxygen use karte hain, dissolved oxygen ghat sakti hai."
-      },
-      "progress": {
-        "current": 70,
-        "total": 84
-      },
-      "navigation": {
-        "next": "card_applied_case_03",
-        "button_text": "Check Answer ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_03",
-      "card_slug": "card_applied_case_03",
-      "type": "quiz",
-      "concept_id": "applied_practice_03",
-      "level": 3,
-      "quiz_payload": {
-        "question": "Applied case 3: Forest se ek predator hat gaya. Uske prey ki sankhya badhne par plants kam ho rahe hain. Yeh kis concept ka example hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Food web mein linked population effects"
-          },
-          {
-            "id": "B",
-            "text": "Cell division"
-          },
-          {
-            "id": "C",
-            "text": "Simple water cycle only"
-          },
-          {
-            "id": "D",
-            "text": "Non-living mineral formation"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Food web mein predator, prey aur plants linked hote hain; ek population ka change doosre levels ko prabhavit kar sakta hai."
-      },
-      "progress": {
-        "current": 71,
-        "total": 84
-      },
-      "navigation": {
         "next": "card_68_officer_revision",
-        "button_text": "Check Answer ➔"
+        "button_text": "Check Answer & Continue ➔"
       }
     },
     {
@@ -2474,8 +2300,8 @@
       "concept_id": "officer_revision_summary",
       "level": 5,
       "progress": {
-        "current": 72,
-        "total": 84
+        "current": 68,
+        "total": 80
       },
       "summary_payload": {
         "title": "⚡ Quick Officer Revision – Ecosystem",
@@ -2514,8 +2340,8 @@
       "concept_id": "final_master_quiz_1",
       "level": 5,
       "progress": {
-        "current": 73,
-        "total": 84
+        "current": 69,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. Pyramid of Energy कभी inverted नहीं होती\n2. Pyramid of Biomass aquatic ecosystem में inverted होती है\n3. Pyramid of Numbers parasitic food chain में inverted होती है\n4. Pyramid of Numbers हमेशा upright होती है\n\nकौन से कथन सही हैं?",
@@ -2552,8 +2378,8 @@
       "concept_id": "final_master_quiz_2",
       "level": 5,
       "progress": {
-        "current": 74,
-        "total": 84
+        "current": 70,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Assertion (A): Secondary Succession, Primary Succession से तेज होती है।\nReason (R): Secondary Succession में पहले से soil और seed bank मौजूद होती है जो colonization को तेज बनाती है।\n\nसही विकल्प चुनिए:",
@@ -2590,8 +2416,8 @@
       "concept_id": "final_master_quiz_3",
       "level": 5,
       "progress": {
-        "current": 75,
-        "total": 84
+        "current": 71,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित bacteria-process pairs में से कौन से सही हैं?\n1. Nitrosomonas – NH₃ को NO₂⁻ में convert करता है\n2. Nitrobacter – N₂ को NH₃ में convert करता है\n3. Pseudomonas – NO₃⁻ को N₂ में convert करता है (Denitrification)\n4. Rhizobium – legume roots में symbiotic N₂ fixation\n\nसही कूट:",
@@ -2628,8 +2454,8 @@
       "concept_id": "final_master_quiz_4",
       "level": 5,
       "progress": {
-        "current": 76,
-        "total": 84
+        "current": 72,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. Carbon Cycle में atmosphere एक major reservoir है\n2. Phosphorus Cycle में कोई atmospheric phase नहीं होती\n3. Nitrogen atmosphere में 78% है लेकिन plants directly use नहीं कर सकते\n4. Water Cycle में Transpiration का कोई role नहीं है\n\nकौन से कथन सही हैं?",
@@ -2666,8 +2492,8 @@
       "concept_id": "final_master_quiz_5",
       "level": 5,
       "progress": {
-        "current": 77,
-        "total": 84
+        "current": 73,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Assertion (A): Energy flow in an ecosystem is unidirectional.\nReason (R): As per the Second Law of Thermodynamics, energy is lost as heat at each trophic level and cannot be recycled.\n\nसही विकल्प:",
@@ -2704,8 +2530,8 @@
       "concept_id": "final_master_quiz_6",
       "level": 5,
       "progress": {
-        "current": 78,
-        "total": 84
+        "current": 74,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित में से कौन सा कथन GALAT है?",
@@ -2742,8 +2568,8 @@
       "concept_id": "final_master_quiz_7",
       "level": 5,
       "progress": {
-        "current": 79,
-        "total": 84
+        "current": 75,
+        "total": 80
       },
       "quiz_payload": {
         "question": "निम्नलिखित कथनों पर विचार करें:\n1. Tropical Rainforest की NPP सबसे अधिक होती है\n2. Open Ocean की NPP per unit area सबसे कम होती है\n3. A.G. Tansley ने 1935 में Ecosystem शब्द दिया\n4. Charles Elton ने 1942 में Ecological Pyramids concept दिया\n\nकौन से कथन सही हैं?",
@@ -2780,8 +2606,8 @@
       "concept_id": "final_master_quiz_8",
       "level": 5,
       "progress": {
-        "current": 80,
-        "total": 84
+        "current": 76,
+        "total": 80
       },
       "quiz_payload": {
         "question": "Decomposition के बारे में कौन सा कथन सही है?\n1. Humification में dark-colored, stable Humus बनता है\n2. Warm और moist conditions में decomposition तेज होती है\n3. Lignin-rich detritus quickly decompose होता है\n4. Mineralization में inorganic nutrients release होते हैं\n\nकौन से कथन सही हैं?",
@@ -2818,8 +2644,8 @@
       "concept_id": "chapter_complete",
       "level": 5,
       "progress": {
-        "current": 81,
-        "total": 84
+        "current": 77,
+        "total": 80
       },
       "milestone_payload": {
         "title": "🏆 CHAPTER COMPLETED – ECOSYSTEM! 🏆",
@@ -2841,8 +2667,8 @@
       "concept_id": "bonus_speed_facts",
       "level": 5,
       "progress": {
-        "current": 82,
-        "total": 84
+        "current": 78,
+        "total": 80
       },
       "summary_payload": {
         "title": "⚡ BONUS: Last-Minute Exam Speed Facts",
@@ -2881,8 +2707,8 @@
       "concept_id": "final_motivation_chat",
       "level": 5,
       "progress": {
-        "current": 83,
-        "total": 84
+        "current": 79,
+        "total": 80
       },
       "messages": [
         {
@@ -2891,7 +2717,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir sach mein!"
+          "text": "Sir sach mein! Pehle ecosystem sunke boring lagta tha – par ab har cheez mein connection dikh raha hai. Talab mein food chain, atmosphere mein nitrogen, forests mein carbon – sab ek connected system hai!"
         },
         {
           "speaker": "aman",
@@ -2899,7 +2725,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Thank you Sir! Ab koi bhi ecosystem question confuse nahi karega! Pyramid exceptions, nitrogen bacteria, succession…"
+          "text": "Thank you Sir! Ab koi bhi ecosystem question confuse nahi karega! Pyramid exceptions, nitrogen bacteria, succession types – sab ekdum clear hain!"
         }
       ],
       "navigation": {
@@ -2914,8 +2740,8 @@
       "concept_id": "final_celebration",
       "level": 5,
       "progress": {
-        "current": 84,
-        "total": 84
+        "current": 80,
+        "total": 80
       },
       "milestone_payload": {
         "title": "🌟 ECOSYSTEM OFFICER ACHIEVED! 🌟",

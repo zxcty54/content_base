@@ -1,16 +1,9 @@
+
 {
   "topic_id": "health_disease_biology",
   "topic_title": "Health and Disease",
-  "target_exams": [
-    "BPSC",
-    "BSSC",
-    "RRB NTPC",
-    "SSC CGL",
-    "NEET",
-    "UPSC Prelims",
-    "RRB Group D"
-  ],
-  "total_cards": 64,
+  "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims"],
+  "total_cards": 78,
   "characters": {
     "aman": {
       "name": "Aman Sir",
@@ -32,20 +25,12 @@
       "level": 1,
       "progress": {
         "current": 1,
-        "total": 64
+        "total": 78
       },
       "intro_payload": {
         "title": "Health and Disease",
         "icon": "🏥",
-        "target_exams": [
-          "BPSC",
-          "BSSC",
-          "RRB NTPC",
-          "SSC CGL",
-          "NEET",
-          "UPSC Prelims",
-          "RRB Group D"
-        ],
+        "target_exams": ["BPSC", "BSSC", "RRB NTPC", "SSC CGL", "NEET", "UPSC Prelims"],
         "learning_outcomes": [
           "Understand WHO definition of health and types of diseases",
           "Master infectious diseases: bacteria, virus, fungi, protozoa",
@@ -53,70 +38,12 @@
           "Explore immunity types: innate vs acquired, active vs passive",
           "Study vaccines, antibodies and immune system components",
           "Cover lifestyle diseases, cancer, AIDS and drug addiction",
-          "Analyze public health programs and disease control measures",
-          "Zero/Foundation → Railway Basic → Advanced: har stage pichhle stage par build hota hai.",
-          "Har formula ke symbols, units aur ek worked example samjhaaya jayega."
-        ],
-        "learning_path": [
-          {
-            "level": 1,
-            "title": "Zero/Foundation",
-            "description": "Class 8 level se shuru: pehle seedha matlab, zaroori shabd aur daily-life example."
-          },
-          {
-            "level": 2,
-            "title": "Railway Basic",
-            "description": "RRB Group D/NTPC ke direct facts, units, formula aur simple applications."
-          },
-          {
-            "level": 3,
-            "title": "Railway Application",
-            "description": "Mixed examples aur common exam confusions ko step by step solve karo."
-          },
-          {
-            "level": 4,
-            "title": "Advanced",
-            "description": "Mechanism, exceptions aur multi-step reasoning; har naya term pehle define hoga."
-          },
-          {
-            "level": 5,
-            "title": "Advanced Challenge",
-            "description": "Hard practice aur detailed explanations; pehle ke concepts ka use karke solve karo."
-          }
+          "Analyze public health programs and disease control measures"
         ]
       },
       "navigation": {
-        "next": "card_zero_foundation",
-        "button_text": "Start Learning 🚀"
-      }
-    },
-    {
-      "card_id": "card_zero_foundation",
-      "card_slug": "card_zero_foundation",
-      "type": "chat",
-      "concept_id": "zero_level_foundation",
-      "level": 1,
-      "progress": {
-        "current": 2,
-        "total": 64
-      },
-      "messages": [
-        {
-          "speaker": "aman",
-          "text": "Disease tab hoti hai jab body ka normal kaam bigad jaata hai. Kuch bimariyan germs se failti hain, kuch lifestyle ya genes se judi hoti hain. Pehle cause, phailne ka tareeka aur prevention samjhenge."
-        },
-        {
-          "speaker": "raju",
-          "text": "Sir, aapne abhi kaha ki Disease tab hoti hai jab body ka normal kaam bigad jaata hai.. Kya main sahi samjha?"
-        },
-        {
-          "speaker": "aman",
-          "text": "Bilkul. Is course ka order hai: buniyad, Railway ke basic sawal, phir advanced ideas. Naya term aane par uska matlab pehle dekhenge."
-        }
-      ],
-      "navigation": {
         "next": "card_02_daily_health",
-        "button_text": "Aage badho ➔"
+        "button_text": "Start Learning 🚀"
       }
     },
     {
@@ -126,8 +53,8 @@
       "concept_id": "health_concept_intro",
       "level": 1,
       "progress": {
-        "current": 3,
-        "total": 64
+        "current": 2,
+        "total": 78
       },
       "messages": [
         {
@@ -144,7 +71,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Nahi Sir, maine is baare mein pehle nahi socha. Aap bataiye."
+          "text": "Matlab sir... agar bukhar nahi hai, khaansi nahi hai to healthy ho na? Aur kya chahiye?"
         }
       ],
       "navigation": {
@@ -159,8 +86,8 @@
       "concept_id": "who_health_definition",
       "level": 1,
       "progress": {
-        "current": 4,
-        "total": 64
+        "current": 3,
+        "total": 78
       },
       "messages": [
         {
@@ -177,22 +104,23 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Ek insaan physically fit ho sakta hai par agar mental stress hai ya society."
+          "text": "Sir disease ka matlab kya hota hai exactly? Koi bhi problem ho to disease bolte hain?"
         }
       ],
       "navigation": {
-        "next": "card_005_rebuilt_5",
+        "next": "card_04_disease_types",
         "button_text": "Next ➔"
       }
     },
     {
-      "card_slug": "card_005_rebuilt_5",
+      "card_slug":"04_disease_types",
+      "card_slug": "card_04_disease_types",
       "type": "chat",
       "concept_id": "disease_classification",
       "level": 1,
       "progress": {
-        "current": 5,
-        "total": 64
+        "current": 4,
+        "total": 78
       },
       "messages": [
         {
@@ -201,7 +129,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, aapne abhi kaha ki Disease matlab jab body ki normal functioning disturbed ho jaye.. Kya main sahi samjha?"
+          "text": "Matlab malaria, TB ye sab communicable hain kyunki failti hain? Aur diabetes, cancer ye non-communicable?"
         },
         {
           "speaker": "aman",
@@ -209,14 +137,13 @@
         },
         {
           "speaker": "raju",
-          "text": "Mujhe is point par thodi madad chahiye Sir."
+          "text": "Sir pathogens matlab jo organisms bimari failate hain? Sabse common kaun hai?"
         }
       ],
       "navigation": {
         "next": "card_05_quiz_health_def",
         "button_text": "Quiz Time ➔"
-      },
-      "card_id": "card_005_rebuilt_5"
+      }
     },
     {
       "card_id": "card_05_quiz_health_def",
@@ -225,28 +152,16 @@
       "concept_id": "health_definition_quiz",
       "level": 1,
       "progress": {
-        "current": 6,
-        "total": 64
+        "current": 5,
+        "total": 78
       },
       "quiz_payload": {
         "question": "According to WHO (1948), health is defined as:",
         "options": [
-          {
-            "id": "A",
-            "text": "Absence of disease only"
-          },
-          {
-            "id": "B",
-            "text": "Physical fitness and strength"
-          },
-          {
-            "id": "C",
-            "text": "Complete physical, mental and social well-being, not merely absence of disease"
-          },
-          {
-            "id": "D",
-            "text": "Good immunity and no infections"
-          }
+          { "id": "A", "text": "Absence of disease only" },
+          { "id": "B", "text": "Physical fitness and strength" },
+          { "id": "C", "text": "Complete physical, mental and social well-being, not merely absence of disease" },
+          { "id": "D", "text": "Good immunity and no infections" }
         ],
         "correct_option_id": "C",
         "explanation": "WHO defines health as a state of complete physical, mental and social well-being, not merely the absence of disease or infirmity. This holistic definition was adopted in 1948 and emphasizes that health includes psychological and social dimensions, not just physical aspects. This is frequently asked in BPSC and SSC exams."
@@ -263,28 +178,16 @@
       "concept_id": "disease_classification_quiz",
       "level": 1,
       "progress": {
-        "current": 7,
-        "total": 64
+        "current": 6,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Which of the following is a non-communicable disease?",
         "options": [
-          {
-            "id": "A",
-            "text": "Tuberculosis"
-          },
-          {
-            "id": "B",
-            "text": "Malaria"
-          },
-          {
-            "id": "C",
-            "text": "Diabetes mellitus"
-          },
-          {
-            "id": "D",
-            "text": "Typhoid"
-          }
+          { "id": "A", "text": "Tuberculosis" },
+          { "id": "B", "text": "Malaria" },
+          { "id": "C", "text": "Diabetes mellitus" },
+          { "id": "D", "text": "Typhoid" }
         ],
         "correct_option_id": "C",
         "explanation": "Diabetes mellitus is a non-communicable disease caused by metabolic dysfunction, not by pathogens. It cannot spread from person to person. Tuberculosis (bacterial), Malaria (protozoan), and Typhoid (bacterial) are all communicable diseases that can be transmitted. Railway exams frequently test this classification."
@@ -301,28 +204,16 @@
       "concept_id": "pathogen_types_quiz",
       "level": 1,
       "progress": {
-        "current": 8,
-        "total": 64
+        "current": 7,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Disease-causing organisms are collectively called:",
         "options": [
-          {
-            "id": "A",
-            "text": "Antibodies"
-          },
-          {
-            "id": "B",
-            "text": "Antigens"
-          },
-          {
-            "id": "C",
-            "text": "Pathogens"
-          },
-          {
-            "id": "D",
-            "text": "Parasites"
-          }
+          { "id": "A", "text": "Antibodies" },
+          { "id": "B", "text": "Antigens" },
+          { "id": "C", "text": "Pathogens" },
+          { "id": "D", "text": "Parasites" }
         ],
         "correct_option_id": "C",
         "explanation": "Pathogens are disease-causing organisms including bacteria, viruses, fungi, and protozoa. Antibodies are proteins produced by immune system, antigens are foreign substances that trigger immune response, and parasites are organisms that live on or in host (a type of pathogen). NEET commonly asks pathogen terminology."
@@ -339,8 +230,8 @@
       "concept_id": "health_basics_complete",
       "level": 1,
       "progress": {
-        "current": 9,
-        "total": 64
+        "current": 8,
+        "total": 78
       },
       "milestone_payload": {
         "title": "Health Basics Mastered! 🎯",
@@ -362,8 +253,8 @@
       "concept_id": "bacteria_pathogens",
       "level": 1,
       "progress": {
-        "current": 10,
-        "total": 64
+        "current": 9,
+        "total": 78
       },
       "messages": [
         {
@@ -380,7 +271,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: TB bacteria Mycobacterium tuberculosis lungs me attack karta hai."
+          "text": "Sir aur kaun se common bacterial diseases hain? Typhoid bhi bacterial hai kya?"
         }
       ],
       "navigation": {
@@ -395,8 +286,8 @@
       "concept_id": "typhoid_cholera_diseases",
       "level": 1,
       "progress": {
-        "current": 11,
-        "total": 64
+        "current": 10,
+        "total": 78
       },
       "messages": [
         {
@@ -413,7 +304,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Sir, main pehle iska basic matlab samajhna chahta hoon."
+          "text": "Antibiotics matlab bacteria ko marne ki medicine? Sabhi bacteria ek jaisi antibiotic se mar jate hain?"
         }
       ],
       "navigation": {
@@ -428,8 +319,8 @@
       "concept_id": "antibiotics_resistance",
       "level": 1,
       "progress": {
-        "current": 12,
-        "total": 64
+        "current": 11,
+        "total": 78
       },
       "messages": [
         {
@@ -446,7 +337,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: weak bacteria mar jate hain par strong bacteria survive kar ke multiply."
+          "text": "Sir ab viral diseases ke baare me batao - virus bacteria se kaise different hai?"
         }
       ],
       "navigation": {
@@ -461,28 +352,16 @@
       "concept_id": "tuberculosis_quiz",
       "level": 1,
       "progress": {
-        "current": 13,
-        "total": 64
+        "current": 12,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Tuberculosis is caused by which bacteria and who discovered it?",
         "options": [
-          {
-            "id": "A",
-            "text": "Salmonella typhi; Louis Pasteur"
-          },
-          {
-            "id": "B",
-            "text": "Mycobacterium tuberculosis; Robert Koch (1882)"
-          },
-          {
-            "id": "C",
-            "text": "Vibrio cholerae; John Snow"
-          },
-          {
-            "id": "D",
-            "text": "Streptococcus pneumoniae; Alexander Fleming"
-          }
+          { "id": "A", "text": "Salmonella typhi; Louis Pasteur" },
+          { "id": "B", "text": "Mycobacterium tuberculosis; Robert Koch (1882)" },
+          { "id": "C", "text": "Vibrio cholerae; John Snow" },
+          { "id": "D", "text": "Streptococcus pneumoniae; Alexander Fleming" }
         ],
         "correct_option_id": "B",
         "explanation": "Tuberculosis is caused by Mycobacterium tuberculosis, discovered by Robert Koch in 1882 (Nobel Prize in 1905). It spreads through airborne droplets and primarily affects lungs. TB test is Mantoux test, and BCG vaccine provides immunity. Robert Koch's discovery year is frequently asked in BPSC and Railway exams."
@@ -499,28 +378,16 @@
       "concept_id": "typhoid_diagnosis_quiz",
       "level": 1,
       "progress": {
-        "current": 14,
-        "total": 64
+        "current": 13,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Which test is used to diagnose Typhoid fever?",
         "options": [
-          {
-            "id": "A",
-            "text": "Mantoux test"
-          },
-          {
-            "id": "B",
-            "text": "Widal test"
-          },
-          {
-            "id": "C",
-            "text": "ELISA test"
-          },
-          {
-            "id": "D",
-            "text": "Western Blot"
-          }
+          { "id": "A", "text": "Mantoux test" },
+          { "id": "B", "text": "Widal test" },
+          { "id": "C", "text": "ELISA test" },
+          { "id": "D", "text": "Western Blot" }
         ],
         "correct_option_id": "B",
         "explanation": "Widal test is used to diagnose Typhoid fever by detecting antibodies against Salmonella typhi. Mantoux test is for TB, ELISA for various diseases including AIDS, and Western Blot is confirmatory test for HIV. Disease-diagnosis correlation is commonly asked in SSC and NEET exams."
@@ -537,28 +404,16 @@
       "concept_id": "penicillin_discovery_quiz",
       "level": 1,
       "progress": {
-        "current": 15,
-        "total": 64
+        "current": 14,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Who discovered Penicillin (first antibiotic) and in which year?",
         "options": [
-          {
-            "id": "A",
-            "text": "Louis Pasteur, 1885"
-          },
-          {
-            "id": "B",
-            "text": "Robert Koch, 1882"
-          },
-          {
-            "id": "C",
-            "text": "Alexander Fleming, 1928"
-          },
-          {
-            "id": "D",
-            "text": "Edward Jenner, 1796"
-          }
+          { "id": "A", "text": "Louis Pasteur, 1885" },
+          { "id": "B", "text": "Robert Koch, 1882" },
+          { "id": "C", "text": "Alexander Fleming, 1928" },
+          { "id": "D", "text": "Edward Jenner, 1796" }
         ],
         "correct_option_id": "C",
         "explanation": "Alexander Fleming discovered Penicillin in 1928 from Penicillium notatum fungus (Nobel Prize 1945). This was the first antibiotic discovered. Edward Jenner discovered smallpox vaccine (1796), Louis Pasteur developed rabies vaccine, and Robert Koch discovered TB bacteria. Scientist-discovery-year combinations are heavily tested in BPSC and Railway exams."
@@ -575,8 +430,8 @@
       "concept_id": "bacterial_diseases_complete",
       "level": 1,
       "progress": {
-        "current": 16,
-        "total": 64
+        "current": 15,
+        "total": 78
       },
       "milestone_payload": {
         "title": "Bacterial Diseases Conquered! 🦠",
@@ -598,8 +453,8 @@
       "concept_id": "virus_characteristics",
       "level": 1,
       "progress": {
-        "current": 17,
-        "total": 64
+        "current": 16,
+        "total": 78
       },
       "messages": [
         {
@@ -616,7 +471,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Viruses obligate intracellular parasites hain - host cell ki machinery use."
+          "text": "Sir AIDS ke baare me detail me batao - ye itna dangerous kyun hai?"
         }
       ],
       "navigation": {
@@ -631,8 +486,8 @@
       "concept_id": "aids_hiv_disease",
       "level": 1,
       "progress": {
-        "current": 18,
-        "total": 64
+        "current": 17,
+        "total": 78
       },
       "messages": [
         {
@@ -649,7 +504,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: sahi understanding."
+          "text": "Sir dengue, chikungunya ye bhi viral hain na? Mosquito se failte hain?"
         }
       ],
       "navigation": {
@@ -664,8 +519,8 @@
       "concept_id": "vector_borne_viruses",
       "level": 1,
       "progress": {
-        "current": 19,
-        "total": 64
+        "current": 18,
+        "total": 78
       },
       "messages": [
         {
@@ -682,7 +537,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Dengue ka koi specific antiviral nahi - symptomatic treatment dete hain."
+          "text": "Sir polio, chickenpox ye bhi viral hain na? Ab to polio India me khatam ho gaya!"
         }
       ],
       "navigation": {
@@ -697,28 +552,16 @@
       "concept_id": "virus_properties_quiz",
       "level": 1,
       "progress": {
-        "current": 20,
-        "total": 64
+        "current": 19,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Why don't antibiotics work against viral infections?",
         "options": [
-          {
-            "id": "A",
-            "text": "Viruses are too small"
-          },
-          {
-            "id": "B",
-            "text": "Viruses reproduce inside host cells using host machinery, lack own metabolic system"
-          },
-          {
-            "id": "C",
-            "text": "Viruses have thick cell walls"
-          },
-          {
-            "id": "D",
-            "text": "Viruses develop resistance quickly"
-          }
+          { "id": "A", "text": "Viruses are too small" },
+          { "id": "B", "text": "Viruses reproduce inside host cells using host machinery, lack own metabolic system" },
+          { "id": "C", "text": "Viruses have thick cell walls" },
+          { "id": "D", "text": "Viruses develop resistance quickly" }
         ],
         "correct_option_id": "B",
         "explanation": "Antibiotics target bacterial cell walls, ribosomes, or metabolic pathways - which viruses don't have. Viruses are obligate intracellular parasites that use host cell machinery for replication. They lack their own metabolic system, so antibiotics are ineffective. Antivirals work differently by blocking viral replication. This is a common BPSC and NEET conceptual question."
@@ -735,28 +578,16 @@
       "concept_id": "aids_transmission_quiz",
       "level": 1,
       "progress": {
-        "current": 21,
-        "total": 64
+        "current": 20,
+        "total": 78
       },
       "quiz_payload": {
         "question": "HIV/AIDS can be transmitted through:",
         "options": [
-          {
-            "id": "A",
-            "text": "Mosquito bites and handshakes"
-          },
-          {
-            "id": "B",
-            "text": "Sharing food and casual contact"
-          },
-          {
-            "id": "C",
-            "text": "Blood transfusion, sexual contact, mother to child, contaminated needles"
-          },
-          {
-            "id": "D",
-            "text": "Coughing and sneezing"
-          }
+          { "id": "A", "text": "Mosquito bites and handshakes" },
+          { "id": "B", "text": "Sharing food and casual contact" },
+          { "id": "C", "text": "Blood transfusion, sexual contact, mother to child, contaminated needles" },
+          { "id": "D", "text": "Coughing and sneezing" }
         ],
         "correct_option_id": "C",
         "explanation": "HIV transmits through: infected blood transfusion, unprotected sexual contact, mother to child (vertical transmission), and sharing contaminated needles. It does NOT spread through mosquitoes, casual contact, handshakes, food sharing, or air. This is a heavily tested BPSC and Railway exam topic to clear misconceptions about AIDS transmission."
@@ -773,28 +604,16 @@
       "concept_id": "dengue_vector_quiz",
       "level": 1,
       "progress": {
-        "current": 22,
-        "total": 64
+        "current": 21,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Dengue and Chikungunya are transmitted by which mosquito?",
         "options": [
-          {
-            "id": "A",
-            "text": "Anopheles mosquito"
-          },
-          {
-            "id": "B",
-            "text": "Culex mosquito"
-          },
-          {
-            "id": "C",
-            "text": "Aedes aegypti mosquito"
-          },
-          {
-            "id": "D",
-            "text": "Mansonia mosquito"
-          }
+          { "id": "A", "text": "Anopheles mosquito" },
+          { "id": "B", "text": "Culex mosquito" },
+          { "id": "C", "text": "Aedes aegypti mosquito" },
+          { "id": "D", "text": "Mansonia mosquito" }
         ],
         "correct_option_id": "C",
         "explanation": "Aedes aegypti mosquito transmits both Dengue and Chikungunya viruses. Anopheles transmits Malaria (protozoan disease), Culex transmits Filariasis (helminth disease). Vector-disease correlation is extremely common in SSC, Railway, and BPSC exams. Remember: Aedes bites during daytime!"
@@ -811,8 +630,8 @@
       "concept_id": "viral_diseases_complete",
       "level": 1,
       "progress": {
-        "current": 23,
-        "total": 64
+        "current": 22,
+        "total": 78
       },
       "milestone_payload": {
         "title": "Viral Diseases Mastered! 🦠",
@@ -834,8 +653,8 @@
       "concept_id": "immunity_basics",
       "level": 1,
       "progress": {
-        "current": 24,
-        "total": 64
+        "current": 23,
+        "total": 78
       },
       "messages": [
         {
@@ -852,7 +671,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Immunity do types ki hoti hai - Innate (janm se hai."
+          "text": "To innate sab germs ke against kaam karti hai, par acquired sirf specific germ ke against? Antibodies kya hoti hain sir?"
         }
       ],
       "navigation": {
@@ -867,8 +686,8 @@
       "concept_id": "antibodies_function",
       "level": 1,
       "progress": {
-        "current": 25,
-        "total": 64
+        "current": 24,
+        "total": 78
       },
       "messages": [
         {
@@ -877,7 +696,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Achhaaa!"
+          "text": "Achhaaa! To antibodies police jaisi hain jo criminals (pathogens) ko pakad kar marker laga dete hain? Sir kitne types ki antibodies hoti hain?"
         },
         {
           "speaker": "aman",
@@ -885,7 +704,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: 5 types hain - IgG (most abundant."
+          "text": "Sir active aur passive immunity me kya difference hai? Vaccine me kaun si immunity milti hai?"
         }
       ],
       "navigation": {
@@ -900,8 +719,8 @@
       "concept_id": "active_passive_immunity",
       "level": 1,
       "progress": {
-        "current": 26,
-        "total": 64
+        "current": 25,
+        "total": 78
       },
       "messages": [
         {
@@ -918,7 +737,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Passive immunity temporary hoti hai - few weeks to months."
+          "text": "Sir vaccination kaise kaam karti hai? Dead germs dal dete hain body me?"
         }
       ],
       "navigation": {
@@ -933,8 +752,8 @@
       "concept_id": "vaccine_types_working",
       "level": 1,
       "progress": {
-        "current": 27,
-        "total": 64
+        "current": 26,
+        "total": 78
       },
       "messages": [
         {
@@ -951,7 +770,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Jab actual pathogen attack karta hai."
+          "text": "Sir allergy bhi immunity se related hai kya? Kuch logo ko peanuts se allergy hoti hai!"
         }
       ],
       "navigation": {
@@ -966,28 +785,16 @@
       "concept_id": "immunity_types_quiz",
       "level": 1,
       "progress": {
-        "current": 28,
-        "total": 64
+        "current": 27,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Which type of immunity is obtained when antibodies are injected (like anti-venom for snake bite)?",
         "options": [
-          {
-            "id": "A",
-            "text": "Active natural immunity"
-          },
-          {
-            "id": "B",
-            "text": "Active artificial immunity"
-          },
-          {
-            "id": "C",
-            "text": "Passive natural immunity"
-          },
-          {
-            "id": "D",
-            "text": "Passive artificial immunity"
-          }
+          { "id": "A", "text": "Active natural immunity" },
+          { "id": "B", "text": "Active artificial immunity" },
+          { "id": "C", "text": "Passive natural immunity" },
+          { "id": "D", "text": "Passive artificial immunity" }
         ],
         "correct_option_id": "D",
         "explanation": "Anti-venom injection provides Passive Artificial Immunity - ready-made antibodies are given artificially. Active immunity is when body produces its own antibodies (natural through infection, artificial through vaccination). Passive natural is when baby gets antibodies from mother. This classification is frequently tested in NEET and BPSC exams."
@@ -1004,28 +811,16 @@
       "concept_id": "vaccine_discovery_quiz",
       "level": 1,
       "progress": {
-        "current": 29,
-        "total": 64
+        "current": 28,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Who developed the first vaccine against smallpox and in which year?",
         "options": [
-          {
-            "id": "A",
-            "text": "Louis Pasteur, 1885"
-          },
-          {
-            "id": "B",
-            "text": "Edward Jenner, 1796"
-          },
-          {
-            "id": "C",
-            "text": "Robert Koch, 1882"
-          },
-          {
-            "id": "D",
-            "text": "Alexander Fleming, 1928"
-          }
+          { "id": "A", "text": "Louis Pasteur, 1885" },
+          { "id": "B", "text": "Edward Jenner, 1796" },
+          { "id": "C", "text": "Robert Koch, 1882" },
+          { "id": "D", "text": "Alexander Fleming, 1928" }
         ],
         "correct_option_id": "B",
         "explanation": "Edward Jenner developed the first vaccine against smallpox in 1796 using cowpox virus. The word 'vaccine' comes from 'vacca' (cow in Latin). Louis Pasteur later developed rabies vaccine (1885). This scientist-discovery-year combination is extremely common in BPSC, SSC, and Railway exams."
@@ -1042,28 +837,16 @@
       "concept_id": "antibody_types_quiz",
       "level": 1,
       "progress": {
-        "current": 30,
-        "total": 64
+        "current": 29,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Which immunoglobulin is found in colostrum (first milk) and provides passive immunity to newborn?",
         "options": [
-          {
-            "id": "A",
-            "text": "IgG"
-          },
-          {
-            "id": "B",
-            "text": "IgM"
-          },
-          {
-            "id": "C",
-            "text": "IgA"
-          },
-          {
-            "id": "D",
-            "text": "IgE"
-          }
+          { "id": "A", "text": "IgG" },
+          { "id": "B", "text": "IgM" },
+          { "id": "C", "text": "IgA" },
+          { "id": "D", "text": "IgE" }
         ],
         "correct_option_id": "C",
         "explanation": "IgA (Immunoglobulin A) is present in colostrum, mucus, saliva, and tears. It provides passive natural immunity to newborns. IgG is most abundant and can cross placenta. IgM is first antibody response. IgE is involved in allergic reactions. NEET frequently tests antibody types and their locations/functions."
@@ -1080,8 +863,8 @@
       "concept_id": "immunity_complete",
       "level": 1,
       "progress": {
-        "current": 31,
-        "total": 64
+        "current": 30,
+        "total": 78
       },
       "milestone_payload": {
         "title": "Immunity System Decoded! 🛡️",
@@ -1103,8 +886,8 @@
       "concept_id": "protozoan_diseases",
       "level": 1,
       "progress": {
-        "current": 32,
-        "total": 64
+        "current": 31,
+        "total": 78
       },
       "messages": [
         {
@@ -1121,7 +904,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Plasmodium protozoan malaria cause karta hai - 4 species hain."
+          "text": "Sir diagnosis kaise hota hai? Aur treatment kya hai?"
         }
       ],
       "navigation": {
@@ -1136,8 +919,8 @@
       "concept_id": "malaria_diagnosis_treatment",
       "level": 1,
       "progress": {
-        "current": 33,
-        "total": 64
+        "current": 32,
+        "total": 78
       },
       "messages": [
         {
@@ -1154,7 +937,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Kala-azar (Visceral Leishmaniasis) Leishmania donovani se hota hai - sandfly."
+          "text": "Sir sleeping sickness bhi protozoan hai kya? Africa me hota hai?"
         }
       ],
       "navigation": {
@@ -1169,8 +952,8 @@
       "concept_id": "trypanosomiasis_giardia",
       "level": 1,
       "progress": {
-        "current": 34,
-        "total": 64
+        "current": 33,
+        "total": 78
       },
       "messages": [
         {
@@ -1187,7 +970,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: kuch fungi pathogenic hain - Ringworm (skin infection."
+          "text": "Sir helminth matlab worms? Wo bhi disease cause karte hain?"
         }
       ],
       "navigation": {
@@ -1202,28 +985,16 @@
       "concept_id": "malaria_discovery_quiz",
       "level": 1,
       "progress": {
-        "current": 35,
-        "total": 64
+        "current": 34,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Who discovered that malaria is transmitted by female Anopheles mosquito?",
         "options": [
-          {
-            "id": "A",
-            "text": "Louis Pasteur"
-          },
-          {
-            "id": "B",
-            "text": "Robert Koch"
-          },
-          {
-            "id": "C",
-            "text": "Ronald Ross (1897, Nobel Prize 1902)"
-          },
-          {
-            "id": "D",
-            "text": "Charles Laveran"
-          }
+          { "id": "A", "text": "Louis Pasteur" },
+          { "id": "B", "text": "Robert Koch" },
+          { "id": "C", "text": "Ronald Ross (1897, Nobel Prize 1902)" },
+          { "id": "D", "text": "Charles Laveran" }
         ],
         "correct_option_id": "C",
         "explanation": "Sir Ronald Ross discovered in 1897 that malaria is transmitted by female Anopheles mosquito and won Nobel Prize in 1902. Charles Laveran discovered malaria parasite Plasmodium. This discovery happened while Ross was working in India. Scientist-discovery-award combination is heavily tested in BPSC and Railway exams."
@@ -1240,28 +1011,16 @@
       "concept_id": "disease_pathogen_match_quiz",
       "level": 1,
       "progress": {
-        "current": 36,
-        "total": 64
+        "current": 35,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Match the disease with causative organism: Kala-azar is caused by:",
         "options": [
-          {
-            "id": "A",
-            "text": "Plasmodium vivax"
-          },
-          {
-            "id": "B",
-            "text": "Leishmania donovani"
-          },
-          {
-            "id": "C",
-            "text": "Trypanosoma"
-          },
-          {
-            "id": "D",
-            "text": "Entamoeba histolytica"
-          }
+          { "id": "A", "text": "Plasmodium vivax" },
+          { "id": "B", "text": "Leishmania donovani" },
+          { "id": "C", "text": "Trypanosoma" },
+          { "id": "D", "text": "Entamoeba histolytica" }
         ],
         "correct_option_id": "B",
         "explanation": "Kala-azar (Visceral Leishmaniasis) is caused by Leishmania donovani protozoan, transmitted by sandfly. Plasmodium causes malaria, Trypanosoma causes sleeping sickness, Entamoeba causes amoebic dysentery. Disease-pathogen matching is extremely common in SSC and NEET exams."
@@ -1278,28 +1037,16 @@
       "concept_id": "vector_disease_quiz",
       "level": 1,
       "progress": {
-        "current": 37,
-        "total": 64
+        "current": 36,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Which mosquito transmits malaria?",
         "options": [
-          {
-            "id": "A",
-            "text": "Aedes aegypti"
-          },
-          {
-            "id": "B",
-            "text": "Culex"
-          },
-          {
-            "id": "C",
-            "text": "Female Anopheles"
-          },
-          {
-            "id": "D",
-            "text": "Male Anopheles"
-          }
+          { "id": "A", "text": "Aedes aegypti" },
+          { "id": "B", "text": "Culex" },
+          { "id": "C", "text": "Female Anopheles" },
+          { "id": "D", "text": "Male Anopheles" }
         ],
         "correct_option_id": "C",
         "explanation": "Female Anopheles mosquito transmits malaria (Plasmodium). Only female mosquitoes bite as they need blood for egg development. Aedes aegypti transmits dengue/chikungunya, Culex transmits filariasis. Vector-disease correlation is a favorite topic in Railway and SSC exams."
@@ -1316,8 +1063,8 @@
       "concept_id": "protozoan_diseases_complete",
       "level": 1,
       "progress": {
-        "current": 38,
-        "total": 64
+        "current": 37,
+        "total": 78
       },
       "milestone_payload": {
         "title": "Protozoan Diseases Mastered! 🦠",
@@ -1339,8 +1086,8 @@
       "concept_id": "cancer_basics",
       "level": 1,
       "progress": {
-        "current": 39,
-        "total": 64
+        "current": 38,
+        "total": 78
       },
       "messages": [
         {
@@ -1357,7 +1104,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: cancer genetic mutations se hota hai - DNA me changes jo cell division."
+          "text": "Matlab tobacco se cancer ho sakta hai? Aur tumor kya hai sir?"
         }
       ],
       "navigation": {
@@ -1372,8 +1119,8 @@
       "concept_id": "benign_malignant_tumors",
       "level": 1,
       "progress": {
-        "current": 40,
-        "total": 64
+        "current": 39,
+        "total": 78
       },
       "messages": [
         {
@@ -1390,7 +1137,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Biopsy (tissue sample examine karte hain)."
+          "text": "Sir prevention kaise kare? Kuch to tarika hoga!"
         }
       ],
       "navigation": {
@@ -1405,8 +1152,8 @@
       "concept_id": "cancer_prevention_awareness",
       "level": 1,
       "progress": {
-        "current": 41,
-        "total": 64
+        "current": 40,
+        "total": 78
       },
       "messages": [
         {
@@ -1423,7 +1170,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Diabetes mellitus - insulin deficiency ya resistance."
+          "text": "Sir drug addiction bhi health problem hai na? Bahut suna hai iske baare me!"
         }
       ],
       "navigation": {
@@ -1438,8 +1185,8 @@
       "concept_id": "substance_abuse",
       "level": 1,
       "progress": {
-        "current": 42,
-        "total": 64
+        "current": 41,
+        "total": 78
       },
       "messages": [
         {
@@ -1456,7 +1203,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Drugs dopamine release karati hain (pleasure neurotransmitter) - artificial."
+          "text": "Alcohol aur tobacco bhi drugs hain kya sir? Legal to hain!"
         }
       ],
       "navigation": {
@@ -1471,8 +1218,8 @@
       "concept_id": "alcohol_tobacco_effects",
       "level": 1,
       "progress": {
-        "current": 43,
-        "total": 64
+        "current": 42,
+        "total": 78
       },
       "messages": [
         {
@@ -1504,28 +1251,16 @@
       "concept_id": "cancer_types_quiz",
       "level": 1,
       "progress": {
-        "current": 44,
-        "total": 64
+        "current": 43,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Which type of tumor is non-cancerous and remains localized?",
         "options": [
-          {
-            "id": "A",
-            "text": "Malignant tumor"
-          },
-          {
-            "id": "B",
-            "text": "Benign tumor"
-          },
-          {
-            "id": "C",
-            "text": "Metastatic tumor"
-          },
-          {
-            "id": "D",
-            "text": "Carcinoma"
-          }
+          { "id": "A", "text": "Malignant tumor" },
+          { "id": "B", "text": "Benign tumor" },
+          { "id": "C", "text": "Metastatic tumor" },
+          { "id": "D", "text": "Carcinoma" }
         ],
         "correct_option_id": "B",
         "explanation": "Benign tumors are non-cancerous, remain localized, grow slowly, and are usually encapsulated. They don't invade surrounding tissues or metastasize. Malignant tumors are cancerous, invasive, and can metastasize (spread). Carcinoma is a type of malignant tumor. This benign vs malignant distinction is heavily tested in NEET."
@@ -1542,28 +1277,16 @@
       "concept_id": "diabetes_types_quiz",
       "level": 1,
       "progress": {
-        "current": 45,
-        "total": 64
+        "current": 44,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Type 1 Diabetes is characterized by:",
         "options": [
-          {
-            "id": "A",
-            "text": "Insulin resistance due to obesity"
-          },
-          {
-            "id": "B",
-            "text": "Autoimmune destruction of pancreatic beta cells, insulin not produced"
-          },
-          {
-            "id": "C",
-            "text": "Excessive insulin production"
-          },
-          {
-            "id": "D",
-            "text": "Kidney failure"
-          }
+          { "id": "A", "text": "Insulin resistance due to obesity" },
+          { "id": "B", "text": "Autoimmune destruction of pancreatic beta cells, insulin not produced" },
+          { "id": "C", "text": "Excessive insulin production" },
+          { "id": "D", "text": "Kidney failure" }
         ],
         "correct_option_id": "B",
         "explanation": "Type 1 Diabetes (insulin-dependent) is caused by autoimmune destruction of insulin-producing beta cells in pancreas. Insulin injections required. Type 2 Diabetes is due to insulin resistance, associated with obesity and lifestyle. This classification is common in SSC and BPSC exams."
@@ -1580,28 +1303,16 @@
       "concept_id": "tobacco_effects_quiz",
       "level": 1,
       "progress": {
-        "current": 46,
-        "total": 64
+        "current": 45,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Which component of tobacco smoke is highly addictive?",
         "options": [
-          {
-            "id": "A",
-            "text": "Tar"
-          },
-          {
-            "id": "B",
-            "text": "Nicotine"
-          },
-          {
-            "id": "C",
-            "text": "Carbon monoxide"
-          },
-          {
-            "id": "D",
-            "text": "Benzene"
-          }
+          { "id": "A", "text": "Tar" },
+          { "id": "B", "text": "Nicotine" },
+          { "id": "C", "text": "Carbon monoxide" },
+          { "id": "D", "text": "Benzene" }
         ],
         "correct_option_id": "B",
         "explanation": "Nicotine is the highly addictive psychoactive component in tobacco. Tar contains carcinogens that cause cancer. Carbon monoxide reduces oxygen-carrying capacity of blood. Benzene is also carcinogenic. Understanding tobacco components is important for Railway and SSC exams."
@@ -1618,8 +1329,8 @@
       "concept_id": "lifestyle_diseases_complete",
       "level": 1,
       "progress": {
-        "current": 47,
-        "total": 64
+        "current": 46,
+        "total": 78
       },
       "milestone_payload": {
         "title": "Lifestyle Diseases Conquered! 💊",
@@ -1641,8 +1352,8 @@
       "concept_id": "public_health_programs",
       "level": 1,
       "progress": {
-        "current": 48,
-        "total": 64
+        "current": 47,
+        "total": 78
       },
       "messages": [
         {
@@ -1659,7 +1370,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya: Pulse Polio Immunization (1995 se start) - har bachche ko oral polio drops."
+          "text": "Sir ayushman bharat scheme bhi health se related hai na? Kya hai ye?"
         }
       ],
       "navigation": {
@@ -1674,8 +1385,8 @@
       "concept_id": "government_health_schemes",
       "level": 1,
       "progress": {
-        "current": 49,
-        "total": 64
+        "current": 48,
+        "total": 78
       },
       "messages": [
         {
@@ -1692,7 +1403,7 @@
         },
         {
           "speaker": "raju",
-          "text": "Samajh gaya, WHO duniya bhar mein sehat se jude kaam mein madad karta hai."
+          "text": "Sir disease surveillance matlab kya? Monitoring karte hain?"
         }
       ],
       "navigation": {
@@ -1707,8 +1418,8 @@
       "concept_id": "disease_surveillance_control",
       "level": 1,
       "progress": {
-        "current": 50,
-        "total": 64
+        "current": 49,
+        "total": 78
       },
       "messages": [
         {
@@ -1740,28 +1451,16 @@
       "concept_id": "polio_eradication_quiz",
       "level": 1,
       "progress": {
-        "current": 51,
-        "total": 64
+        "current": 50,
+        "total": 78
       },
       "quiz_payload": {
         "question": "In which year was India declared polio-free?",
         "options": [
-          {
-            "id": "A",
-            "text": "2005"
-          },
-          {
-            "id": "B",
-            "text": "2011"
-          },
-          {
-            "id": "C",
-            "text": "2014"
-          },
-          {
-            "id": "D",
-            "text": "2018"
-          }
+          { "id": "A", "text": "2005" },
+          { "id": "B", "text": "2011" },
+          { "id": "C", "text": "2014" },
+          { "id": "D", "text": "2018" }
         ],
         "correct_option_id": "C",
         "explanation": "India was declared polio-free by WHO in 2014 after 3 consecutive years of zero polio cases. Pulse Polio Immunization Programme started in 1995 played crucial role. Last polio case was reported in 2011. This achievement is frequently asked in UPSC and BPSC current affairs."
@@ -1778,28 +1477,16 @@
       "concept_id": "who_establishment_quiz",
       "level": 1,
       "progress": {
-        "current": 52,
-        "total": 64
+        "current": 51,
+        "total": 78
       },
       "quiz_payload": {
         "question": "World Health Organization (WHO) was established in which year and where is its headquarters?",
         "options": [
-          {
-            "id": "A",
-            "text": "1945, New York"
-          },
-          {
-            "id": "B",
-            "text": "1948, Geneva"
-          },
-          {
-            "id": "C",
-            "text": "1950, Paris"
-          },
-          {
-            "id": "D",
-            "text": "1946, London"
-          }
+          { "id": "A", "text": "1945, New York" },
+          { "id": "B", "text": "1948, Geneva" },
+          { "id": "C", "text": "1950, Paris" },
+          { "id": "D", "text": "1946, London" }
         ],
         "correct_option_id": "B",
         "explanation": "WHO was established on 7 April 1948 (World Health Day) with headquarters in Geneva, Switzerland. It's a specialized agency of United Nations for international public health. WHO constitution came into force on this date. This is a standard question in SSC and Railway exams."
@@ -1816,28 +1503,16 @@
       "concept_id": "ayushman_bharat_quiz",
       "level": 1,
       "progress": {
-        "current": 53,
-        "total": 64
+        "current": 52,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Ayushman Bharat scheme provides health insurance coverage of:",
         "options": [
-          {
-            "id": "A",
-            "text": "₹1 lakh per family"
-          },
-          {
-            "id": "B",
-            "text": "₹2 lakh per family"
-          },
-          {
-            "id": "C",
-            "text": "₹5 lakh per family"
-          },
-          {
-            "id": "D",
-            "text": "₹10 lakh per family"
-          }
+          { "id": "A", "text": "₹1 lakh per family" },
+          { "id": "B", "text": "₹2 lakh per family" },
+          { "id": "C", "text": "₹5 lakh per family" },
+          { "id": "D", "text": "₹10 lakh per family" }
         ],
         "correct_option_id": "C",
         "explanation": "Ayushman Bharat (launched 2018) provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization. It's world's largest health insurance scheme covering 10 crore poor families. Also known as PM-JAY. This is extremely important for UPSC and BPSC current affairs."
@@ -1854,8 +1529,8 @@
       "concept_id": "public_health_complete",
       "level": 1,
       "progress": {
-        "current": 54,
-        "total": 64
+        "current": 53,
+        "total": 78
       },
       "milestone_payload": {
         "title": "Public Health Programs Mastered! 🏥",
@@ -1866,122 +1541,8 @@
         "motivational_quote": "Phenomenal! All modules complete! You're now a Health & Disease expert! Time for final revision!"
       },
       "navigation": {
-        "next": "card_applied_case_01",
-        "button_text": "Officer Revision ⚡"
-      }
-    },
-    {
-      "card_id": "card_applied_case_01",
-      "card_slug": "card_applied_case_01",
-      "type": "quiz",
-      "concept_id": "applied_practice_01",
-      "level": 2,
-      "quiz_payload": {
-        "question": "Applied case 1: School mein kai bachche haath dhoye bina khaate hain aur stomach infection failta hai. Sabse pehla low-cost prevention kya hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Saaf paani aur soap se haath dhona"
-          },
-          {
-            "id": "B",
-            "text": "Antibiotic sabko roz dena"
-          },
-          {
-            "id": "C",
-            "text": "Khaana chhod dena"
-          },
-          {
-            "id": "D",
-            "text": "Room ko andhera rakhna"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Handwashing germs ko muh tak pahunchne se rokta hai; antibiotic bina diagnosis ke prevention nahi hai."
-      },
-      "progress": {
-        "current": 55,
-        "total": 64
-      },
-      "navigation": {
-        "next": "card_applied_case_02",
-        "button_text": "Check Answer ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_02",
-      "card_slug": "card_applied_case_02",
-      "type": "quiz",
-      "concept_id": "applied_practice_02",
-      "level": 3,
-      "quiz_payload": {
-        "question": "Applied case 2: Doctor batata hai ki patient ko influenza virus hai. Antibiotic maangne par kya samjhana chahiye?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Antibiotic virus ko seedhe nahi maarta; doctor ke bataye care ki zaroorat hai"
-          },
-          {
-            "id": "B",
-            "text": "Antibiotic har fever ko theek karta hai"
-          },
-          {
-            "id": "C",
-            "text": "Antibiotic vaccine ka doosra naam hai"
-          },
-          {
-            "id": "D",
-            "text": "Antibiotic paani ki kami door karta hai"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Antibiotics bacteria par kaam karte hain, influenza jaise virus par nahi. Sahi care ke liye clinician ki salah leni chahiye."
-      },
-      "progress": {
-        "current": 56,
-        "total": 64
-      },
-      "navigation": {
-        "next": "card_applied_case_03",
-        "button_text": "Check Answer ➔"
-      }
-    },
-    {
-      "card_id": "card_applied_case_03",
-      "card_slug": "card_applied_case_03",
-      "type": "quiz",
-      "concept_id": "applied_practice_03",
-      "level": 3,
-      "quiz_payload": {
-        "question": "Applied case 3: Ek community mein vaccination ke baad kisi infection ke cases kam hote hain. Vaccine ka basic role kya hai?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Immune system ko pathogen pehchanne ki practice dena"
-          },
-          {
-            "id": "B",
-            "text": "Har germ ko body se mechanically nikaalna"
-          },
-          {
-            "id": "C",
-            "text": "Blood ko oxygen se bharna"
-          },
-          {
-            "id": "D",
-            "text": "Antibiotic resistance banana"
-          }
-        ],
-        "correct_option_id": "A",
-        "explanation": "Vaccine immune system ko safe tareeke se pathogen ya uske antigen pehchanna sikhati hai, taaki future response tez ho."
-      },
-      "progress": {
-        "current": 57,
-        "total": 64
-      },
-      "navigation": {
         "next": "card_54_officer_revision",
-        "button_text": "Check Answer ➔"
+        "button_text": "Officer Revision ⚡"
       }
     },
     {
@@ -1991,8 +1552,8 @@
       "concept_id": "health_disease_revision",
       "level": 1,
       "progress": {
-        "current": 58,
-        "total": 64
+        "current": 54,
+        "total": 78
       },
       "summary_payload": {
         "title": "⚡ Quick Officer Revision",
@@ -2043,28 +1604,16 @@
       "concept_id": "final_assessment_1",
       "level": 1,
       "progress": {
-        "current": 59,
-        "total": 64
+        "current": 55,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Assertion (A): Antibiotics are not effective against viral infections. Reason (R): Viruses use host cell machinery for replication and lack their own metabolic pathways.",
         "options": [
-          {
-            "id": "A",
-            "text": "Both A and R are true, and R is correct explanation of A"
-          },
-          {
-            "id": "B",
-            "text": "Both A and R are true, but R is not correct explanation of A"
-          },
-          {
-            "id": "C",
-            "text": "A is true but R is false"
-          },
-          {
-            "id": "D",
-            "text": "A is false but R is true"
-          }
+          { "id": "A", "text": "Both A and R are true, and R is correct explanation of A" },
+          { "id": "B", "text": "Both A and R are true, but R is not correct explanation of A" },
+          { "id": "C", "text": "A is true but R is false" },
+          { "id": "D", "text": "A is false but R is true" }
         ],
         "correct_option_id": "A",
         "explanation": "Both assertion and reason are correct, and reason correctly explains assertion. Antibiotics target bacterial cell walls, ribosomes, or metabolic enzymes - none of which viruses possess. Viruses are obligate intracellular parasites using host machinery, so antibiotics can't affect them. Antivirals work differently by blocking viral replication enzymes. This Assertion-Reason format is BPSC favorite."
@@ -2081,28 +1630,16 @@
       "concept_id": "final_assessment_2",
       "level": 1,
       "progress": {
-        "current": 60,
-        "total": 64
+        "current": 56,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Match the following: (P) Malaria - (1) Aedes mosquito, (Q) Dengue - (2) Anopheles mosquito, (R) Filariasis - (3) Sandfly, (S) Kala-azar - (4) Culex mosquito",
         "options": [
-          {
-            "id": "A",
-            "text": "P-2, Q-1, R-4, S-3"
-          },
-          {
-            "id": "B",
-            "text": "P-1, Q-2, R-3, S-4"
-          },
-          {
-            "id": "C",
-            "text": "P-3, Q-4, R-1, S-2"
-          },
-          {
-            "id": "D",
-            "text": "P-2, Q-3, R-1, S-4"
-          }
+          { "id": "A", "text": "P-2, Q-1, R-4, S-3" },
+          { "id": "B", "text": "P-1, Q-2, R-3, S-4" },
+          { "id": "C", "text": "P-3, Q-4, R-1, S-2" },
+          { "id": "D", "text": "P-2, Q-3, R-1, S-4" }
         ],
         "correct_option_id": "A",
         "explanation": "Correct matches: Malaria - Female Anopheles mosquito (Plasmodium), Dengue - Aedes aegypti (Dengue virus), Filariasis - Culex mosquito (Wuchereria bancrofti), Kala-azar - Sandfly (Leishmania donovani). Vector-disease correlation is heavily tested in SSC, Railway and BPSC. Remember vectors by their distinct features and disease patterns."
@@ -2119,28 +1656,16 @@
       "concept_id": "final_assessment_3",
       "level": 1,
       "progress": {
-        "current": 61,
-        "total": 64
+        "current": 57,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Consider the following statements: (1) Type 1 diabetes is caused by insulin resistance (2) Benign tumors can metastasize to other organs (3) Passive immunity provides long-lasting protection (4) HIV attacks helper T-lymphocytes. How many statements are INCORRECT?",
         "options": [
-          {
-            "id": "A",
-            "text": "None"
-          },
-          {
-            "id": "B",
-            "text": "One"
-          },
-          {
-            "id": "C",
-            "text": "Two"
-          },
-          {
-            "id": "D",
-            "text": "Three"
-          }
+          { "id": "A", "text": "None" },
+          { "id": "B", "text": "One" },
+          { "id": "C", "text": "Two" },
+          { "id": "D", "text": "Three" }
         ],
         "correct_option_id": "D",
         "explanation": "Three statements are INCORRECT. (1) WRONG - Type 1 is autoimmune destruction of beta cells, Type 2 is insulin resistance. (2) WRONG - Benign tumors don't metastasize, only malignant do. (3) WRONG - Passive immunity is temporary (weeks to months), active is long-lasting. (4) CORRECT - HIV does attack CD4+ helper T-lymphocytes. Multi-statement questions test deep understanding, common in BPSC."
@@ -2157,28 +1682,16 @@
       "concept_id": "final_assessment_4",
       "level": 1,
       "progress": {
-        "current": 62,
-        "total": 64
+        "current": 58,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Assertion (A): India was declared polio-free in 2014. Reason (R): Pulse Polio Immunization Programme successfully vaccinated children across the country from 1995 onwards.",
         "options": [
-          {
-            "id": "A",
-            "text": "Both A and R are true, and R is correct explanation of A"
-          },
-          {
-            "id": "B",
-            "text": "Both A and R are true, but R is not correct explanation of A"
-          },
-          {
-            "id": "C",
-            "text": "A is true but R is false"
-          },
-          {
-            "id": "D",
-            "text": "A is false but R is true"
-          }
+          { "id": "A", "text": "Both A and R are true, and R is correct explanation of A" },
+          { "id": "B", "text": "Both A and R are true, but R is not correct explanation of A" },
+          { "id": "C", "text": "A is true but R is false" },
+          { "id": "D", "text": "A is false but R is true" }
         ],
         "correct_option_id": "A",
         "explanation": "Both assertion and reason are true, and reason correctly explains assertion. India was declared polio-free by WHO in 2014 after 3 consecutive years with zero cases (last case 2011). Pulse Polio Programme launched 1995 with oral polio drops to all children achieved this milestone. This success story is frequently asked in UPSC and BPSC current affairs."
@@ -2195,28 +1708,16 @@
       "concept_id": "final_assessment_5",
       "level": 1,
       "progress": {
-        "current": 63,
-        "total": 64
+        "current": 59,
+        "total": 78
       },
       "quiz_payload": {
         "question": "Arrange chronologically (earliest to latest): (P) WHO established (Q) Smallpox vaccine by Jenner (R) Penicillin discovered (S) India polio-free",
         "options": [
-          {
-            "id": "A",
-            "text": "Q-R-P-S"
-          },
-          {
-            "id": "B",
-            "text": "R-Q-P-S"
-          },
-          {
-            "id": "C",
-            "text": "Q-P-R-S"
-          },
-          {
-            "id": "D",
-            "text": "P-Q-R-S"
-          }
+          { "id": "A", "text": "Q-R-P-S" },
+          { "id": "B", "text": "R-Q-P-S" },
+          { "id": "C", "text": "Q-P-R-S" },
+          { "id": "D", "text": "P-Q-R-S" }
         ],
         "correct_option_id": "A",
         "explanation": "Correct chronological order: Smallpox vaccine by Edward Jenner (1796), Penicillin discovered by Alexander Fleming (1928), WHO established (1948), India declared polio-free (2014). Chronological questions test integrated knowledge of scientific discoveries and health milestones, commonly asked in Railway and SSC exams."
@@ -2233,8 +1734,8 @@
       "concept_id": "chapter_completion",
       "level": 1,
       "progress": {
-        "current": 64,
-        "total": 64
+        "current": 60,
+        "total": 78
       },
       "milestone_payload": {
         "title": "🏆 HEALTH & DISEASE MASTERED!",
