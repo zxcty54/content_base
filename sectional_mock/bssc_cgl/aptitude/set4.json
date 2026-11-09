@@ -16,7 +16,8 @@
       "11.2 days"
     ],
     "a": 0,
-    "e": "Step 1: Total work (LCM of 15, 20, 30) = 60 units. Efficiency of A = 60/15 = 4 units/day, B = 60/20 = 3 units/day, C = 60/30 = 2 units/day. Combined efficiency = 4 + 3 + 2 = 9 units/day. Step 2: Let the total days be 'x'. Since A left 6 days before and B left 4 days before, add their missing work to total work to assume they worked till the end. Step 3: Modified total work = 60 + (A's 6 days work) + (B's 4 days work) = 60 + (4 * 6) + (3 * 4) = 60 + 24 + 12 = 96 units. Step 4: Total days (x) = Modified total work / Combined efficiency = 96 / 9 = 10.66 days? Let's re-calculate: 60 + 24 + 12 = 96. 96 / 9 = 32/3 = 10.66 days. Let's adjust options context: If work is 60, A leaves 6 days before, B leaves 4 days before. C works all days. Another layout: 4(x-6) + 3(x-4) + 2x = 60 => 4x - 24 + 3x - 12 + 2x = 60 => 9x - 36 = 60 => 9x = 96 => x = 10.66 days. If option has 10 days, let's make numbers clean: 12, 15, 20. LCM = 60. Eff = 5, 4, 3. Total = 12. 60 + 5*6 + 4*4 = 60+30+16=106/12=8.8. Let's stick to exact clean calculation x = 96/9 = 10.67 days. Let's adjust options to contain exact match or provide closest standard integers. Correct index maps to 10 days if rounded or 10.66 depending on exact constraints."
+    "e": "Step 1: Total work (LCM of 15, 20, 30) = 60 units. Efficiency of A = 60/15 = 4 units/day, B = 60/20 = 3 units/day, C = 60/30 = 2 units/day. Combined efficiency = 4 + 3 + 2 = 9 units/day. Step 2: Let the total days be 'x'. Since A left 6 days before and B left 4 days before, add their missing work to total work to assume they worked till the end. Step 3: Modified total work = 60 + (A's 6 days work) + (B's 4 days work) = 60 + (4 * 6) + (3 * 4) = 60 + 24 + 12 = 96 units. Step 4: Total days (x) = Modified total work / Combined efficiency = 96 / 9 = 10.66 days? Let's re-calculate: 60 + 24 + 12 = 96. 96 / 9 = 32/3 = 10.66 days. Let's adjust options context: If work is 60, A leaves 6 days before, B leaves 4 days before. C works all days. Another layout: 4(x-6) + 3(x-4) + 2x = 60 => 4x - 24 + 3x - 12 + 2x = 60 => 9x - 36 = 60 => 9x = 96 => x = 10.66 days. If option has 10 days, let's make numbers clean: 12, 15, 20. LCM = 60. Eff = 5, 4, 3. Total = 12. 60 + 5*6 + 4*4 = 60+30+16=106/12=8.8. Let's stick to exact clean calculation x = 96/9 = 10.67 days. Let's adjust options to contain exact match or provide closest standard integers. Correct index maps to 10 days if rounded or 10.66 depending on exact constraints.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_02",
@@ -35,7 +36,8 @@
       "15 liters"
     ],
     "a": 0,
-    "e": "Step 1: Initial ratio M:W = 7:5. After removing 9L mixture, the ratio remains 7:5. Step 2: 9L water is added, new ratio becomes 7:9. Step 3: The quantity of milk remains constant. The water parts increase from 5 to 9 (increase of 4 parts). Step 4: 4 parts = 9 liters => 1 part = 9/4 liters. Step 5: Total quantity after water addition = (7 + 9) * (9/4) = 16 * (9/4) = 36 liters. Since final volume equals initial volume, initial total volume = 36 liters. Step 6: Initial quantity of milk = (7 / 12) * 36 = 21 liters."
+    "e": "Step 1: Initial ratio M:W = 7:5. After removing 9L mixture, the ratio remains 7:5. Step 2: 9L water is added, new ratio becomes 7:9. Step 3: The quantity of milk remains constant. The water parts increase from 5 to 9 (increase of 4 parts). Step 4: 4 parts = 9 liters => 1 part = 9/4 liters. Step 5: Total quantity after water addition = (7 + 9) * (9/4) = 16 * (9/4) = 36 liters. Since final volume equals initial volume, initial total volume = 36 liters. Step 6: Initial quantity of milk = (7 / 12) * 36 = 21 liters.",
+    "topic_tag": "maths.mixture.mixture_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_03",
@@ -54,7 +56,8 @@
       "1"
     ],
     "a": 0,
-    "e": "Step 1: By Fermat's Little Theorem, since 17 is a prime number, $3^{16} \\equiv 1 \\pmod{17}$. Step 2: Divide the exponent 214 by 16 to find the remainder. 214 = 16 * 13 + 6. The remainder is 6. Step 3: Therefore, $3^{214} \\equiv 3^6 \\pmod{17}$. Step 4: Calculate $3^6 = 729$. Now, divide 729 by 17 to find final remainder. 729 = 17 * 42 + 9. Thus, the required remainder is 9."
+    "e": "Step 1: By Fermat's Little Theorem, since 17 is a prime number, $3^{16} \\equiv 1 \\pmod{17}$. Step 2: Divide the exponent 214 by 16 to find the remainder. 214 = 16 * 13 + 6. The remainder is 6. Step 3: Therefore, $3^{214} \\equiv 3^6 \\pmod{17}$. Step 4: Calculate $3^6 = 729$. Now, divide 729 by 17 to find final remainder. 729 = 17 * 42 + 9. Thus, the required remainder is 9.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_04",
@@ -73,7 +76,8 @@
       "Rs. 7935"
     ],
     "a": 1,
-    "e": "Step 1: Rate for the first two full years is 15% per annum. Rate for the remaining 4 months = 15% * (4 / 12) = 5%. Step 2: Amount after Year 1 = 20000 * 1.15 = Rs. 23000. Step 3: Amount after Year 2 = 23000 * 1.15 = Rs. 26450. Step 4: Amount after final 4 months = 26450 * 1.05 = Rs. 27772.5? Let's check calculation: 26450 + 5% of 26450 = 26450 + 1322.5 = Rs. 27772.5. If base numbers are altered to give Rs. 8115: 20000 * (115/100) * (115/100) * (105/100) = 27772.5. Total CI = 27772.5 - 20000 = Rs. 7772.5. Let's verify option matching calculation values, 8115 context applies if rate compounding shifts. Let's write clear rationale matching index."
+    "e": "Step 1: Rate for the first two full years is 15% per annum. Rate for the remaining 4 months = 15% * (4 / 12) = 5%. Step 2: Amount after Year 1 = 20000 * 1.15 = Rs. 23000. Step 3: Amount after Year 2 = 23000 * 1.15 = Rs. 26450. Step 4: Amount after final 4 months = 26450 * 1.05 = Rs. 27772.5? Let's check calculation: 26450 + 5% of 26450 = 26450 + 1322.5 = Rs. 27772.5. If base numbers are altered to give Rs. 8115: 20000 * (115/100) * (115/100) * (105/100) = 27772.5. Total CI = 27772.5 - 20000 = Rs. 7772.5. Let's verify option matching calculation values, 8115 context applies if rate compounding shifts. Let's write clear rationale matching index.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_05",
@@ -92,7 +96,8 @@
       "5/91"
     ],
     "a": 0,
-    "e": "Step 1: Total number of balls in the bag = 6 + 4 + 5 = 15 balls. Step 2: Total number of ways to draw 3 balls from 15 = 15C3 = (15 * 14 * 13) / (3 * 2 * 1) = 455 ways. Step 3: Favorable number of ways to draw 3 red balls from 6 available red balls = 6C3 = (6 * 5 * 4) / (3 * 2 * 1) = 20 ways. Step 4: Required Probability = Favorable Ways / Total Ways = 20 / 455. Step 5: Simplify the fraction by dividing by 5 = 4 / 91."
+    "e": "Step 1: Total number of balls in the bag = 6 + 4 + 5 = 15 balls. Step 2: Total number of ways to draw 3 balls from 15 = 15C3 = (15 * 14 * 13) / (3 * 2 * 1) = 455 ways. Step 3: Favorable number of ways to draw 3 red balls from 6 available red balls = 6C3 = (6 * 5 * 4) / (3 * 2 * 1) = 20 ways. Step 4: Required Probability = Favorable Ways / Total Ways = 20 / 455. Step 5: Simplify the fraction by dividing by 5 = 4 / 91.",
+    "topic_tag": "maths.probability.probability_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_06",
@@ -111,7 +116,8 @@
       "7 months"
     ],
     "a": 0,
-    "e": "Step 1: Total profit = Rs. 10000. A's salary = 10% of 10000 = Rs. 1000. Remaining profit for distribution = 10000 - 1000 = Rs. 9000. Step 2: A's profit share from investment = Total share - Salary = 5800 - 1000 = Rs. 4800. Step 3: B's profit share = Remaining profit - A's investment share = 9000 - 4800 = Rs. 4200. Step 4: Ratio of investment profits A : B = 4800 : 4200 = 8 : 7. Step 5: (Capital of A * Time of A) / (Capital of B * Time of B) = 8 / 7 => (16000 * 8) / (12000 * t) = 8 / 7 => 128 / (12t) = 8 / 7 => 32 / (3t) = 8 / 7 => 4 / (3t) = 1 / 7 => 3t = 28? Let's check: 16000*8 / 12000*t = 4*8 / 3t = 32/3t. 32/3t = 8/7 => 4/3t = 1/7 => 3t = 28. If A's share from investment shifts to match t=7 or 6. Let's adjust parameters so t simplifies cleanly to 6 months."
+    "e": "Step 1: Total profit = Rs. 10000. A's salary = 10% of 10000 = Rs. 1000. Remaining profit for distribution = 10000 - 1000 = Rs. 9000. Step 2: A's profit share from investment = Total share - Salary = 5800 - 1000 = Rs. 4800. Step 3: B's profit share = Remaining profit - A's investment share = 9000 - 4800 = Rs. 4200. Step 4: Ratio of investment profits A : B = 4800 : 4200 = 8 : 7. Step 5: (Capital of A * Time of A) / (Capital of B * Time of B) = 8 / 7 => (16000 * 8) / (12000 * t) = 8 / 7 => 128 / (12t) = 8 / 7 => 32 / (3t) = 8 / 7 => 4 / (3t) = 1 / 7 => 3t = 28? Let's check: 16000*8 / 12000*t = 4*8 / 3t = 32/3t. 32/3t = 8/7 => 4/3t = 1/7 => 3t = 28. If A's share from investment shifts to match t=7 or 6. Let's adjust parameters so t simplifies cleanly to 6 months.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_07",
@@ -130,7 +136,8 @@
       "Rs. 118"
     ],
     "a": 0,
-    "e": "Step 1: The standard formula for the difference between CI and SI for 3 years is Difference = $P \\times (R / 100)^2 \\times (3 + R / 100)$. Step 2: Substitute P = 16000 and R = 5 into the formula. Step 3: Difference = 16000 * (5 / 100)^2 * (3 + 5 / 100) = 16000 * (1 / 400) * (3.05). Step 4: Simplify: 40 * 3.05 = Rs. 122."
+    "e": "Step 1: The standard formula for the difference between CI and SI for 3 years is Difference = $P \\times (R / 100)^2 \\times (3 + R / 100)$. Step 2: Substitute P = 16000 and R = 5 into the formula. Step 3: Difference = 16000 * (5 / 100)^2 * (3 + 5 / 100) = 16000 * (1 / 400) * (3.05). Step 4: Simplify: 40 * 3.05 = Rs. 122.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_08",
@@ -149,7 +156,8 @@
       "48000"
     ],
     "a": 0,
-    "e": "Step 1: Identify vowels and consonants in 'CORPORATION'. Vowels: O, O, A, I, O (5 vowels). Consonants: C, R, P, R, T, N (6 consonants). Total letters = 11. Step 2: Since all vowels must be together, treat the block of 5 vowels as a single entity. Total entities to arrange = 6 consonants + 1 vowel block = 7 entities. Step 3: Number of ways to arrange 7 entities where R repeats twice = 7! / 2! = 5040 / 2 = 2520 ways. Step 4: Number of ways to arrange vowels inside their own block where O repeats 3 times = 5! / 3! = 120 / 6 = 20 ways. Step 5: Total distinct ways = 2520 * 20 = 50400."
+    "e": "Step 1: Identify vowels and consonants in 'CORPORATION'. Vowels: O, O, A, I, O (5 vowels). Consonants: C, R, P, R, T, N (6 consonants). Total letters = 11. Step 2: Since all vowels must be together, treat the block of 5 vowels as a single entity. Total entities to arrange = 6 consonants + 1 vowel block = 7 entities. Step 3: Number of ways to arrange 7 entities where R repeats twice = 7! / 2! = 5040 / 2 = 2520 ways. Step 4: Number of ways to arrange vowels inside their own block where O repeats 3 times = 5! / 3! = 120 / 6 = 20 ways. Step 5: Total distinct ways = 2520 * 20 = 50400.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_09",
@@ -168,7 +176,8 @@
       "2% loss"
     ],
     "a": 0,
-    "e": "Step 1: Let the Cost Price (CP) be Rs. 100. Step 2: Marked Price (MP) after 40% markup = 100 * 1.40 = Rs. 140. Step 3: Apply first discount of 20%: Price = 140 * 0.80 = Rs. 112. Step 4: Apply second discount of 10%: Final Selling Price (SP) = 112 * 0.90 = Rs. 100.8. Step 5: Net Profit/Loss = SP - CP = 100.8 - 100 = +0.8% profit. Correction: If final calculation is 100.8, it is a 0.8% profit. Let's adjust index or option context."
+    "e": "Step 1: Let the Cost Price (CP) be Rs. 100. Step 2: Marked Price (MP) after 40% markup = 100 * 1.40 = Rs. 140. Step 3: Apply first discount of 20%: Price = 140 * 0.80 = Rs. 112. Step 4: Apply second discount of 10%: Final Selling Price (SP) = 112 * 0.90 = Rs. 100.8. Step 5: Net Profit/Loss = SP - CP = 100.8 - 100 = +0.8% profit. Correction: If final calculation is 100.8, it is a 0.8% profit. Let's adjust index or option context.",
+    "topic_tag": "maths.discount.discount_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_10",
@@ -187,7 +196,8 @@
       "25"
     ],
     "a": 0,
-    "e": "Step 1: To find trailing zeros in n!, divide n successively by powers of 5 and add the quotients. Step 2: 125 / 5 = 25. Step 3: 125 / 25 = 5. Step 4: 125 / 125 = 1. Step 5: Total trailing zeros = 25 + 5 + 1 = 31."
+    "e": "Step 1: To find trailing zeros in n!, divide n successively by powers of 5 and add the quotients. Step 2: 125 / 5 = 25. Step 3: 125 / 25 = 5. Step 4: 125 / 125 = 1. Step 5: Total trailing zeros = 25 + 5 + 1 = 31.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_11",
@@ -206,7 +216,8 @@
       "120 km"
     ],
     "a": 1,
-    "e": "Step 1: Downstream speed (D) = 18 + 6 = 24 km/h. Upstream speed (U) = 18 - 6 = 12 km/h. Step 2: Let the one-way distance to the dockyard be 'd' km. Step 3: Total time equation: d/24 + d/12 = 9. Step 4: Find common denominator (24): (d + 2d) / 24 = 9 => 3d / 24 = 9 => d / 8 = 9 => d = 72 km. Step 5: Total distance covered in the round trip (going + returning) = 72 + 72 = 144 km? Let's check parameters if option contains 160 or 180. If d=120 or similar."
+    "e": "Step 1: Downstream speed (D) = 18 + 6 = 24 km/h. Upstream speed (U) = 18 - 6 = 12 km/h. Step 2: Let the one-way distance to the dockyard be 'd' km. Step 3: Total time equation: d/24 + d/12 = 9. Step 4: Find common denominator (24): (d + 2d) / 24 = 9 => 3d / 24 = 9 => d / 8 = 9 => d = 72 km. Step 5: Total distance covered in the round trip (going + returning) = 72 + 72 = 144 km? Let's check parameters if option contains 160 or 180. If d=120 or similar.",
+    "topic_tag": "maths.boats_and_streams.boat_stream_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_12",
@@ -225,7 +236,8 @@
       "13"
     ],
     "a": 0,
-    "e": "Step 1: From the equation $x^2 - 7x + 12 = 0$, sum of roots $(\\alpha + \\beta) = -(-7)/1 = 7$. Product of roots $(\\alpha \\cdot \\beta) = 12/1 = 12$. Step 2: Use algebraic identity: $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta$. Step 3: Substitute the sums and products: $\\alpha^2 + \\beta^2 = (7)^2 - 2(12) = 49 - 24 = 25$."
+    "e": "Step 1: From the equation $x^2 - 7x + 12 = 0$, sum of roots $(\\alpha + \\beta) = -(-7)/1 = 7$. Product of roots $(\\alpha \\cdot \\beta) = 12/1 = 12$. Step 2: Use algebraic identity: $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta$. Step 3: Substitute the sums and products: $\\alpha^2 + \\beta^2 = (7)^2 - 2(12) = 49 - 24 = 25$.",
+    "topic_tag": "maths.algebra.algebraic_equations"
   },
   {
     "p_id": "bssc_cgl_adv_quant_13",
@@ -244,7 +256,8 @@
       "56.48 liters"
     ],
     "a": 0,
-    "e": "Step 1: Use the repeated dilution formula: Remaining milk = Initial Volume * (1 - x / V)^n. Step 2: Initial volume V = 80 liters, replacement volume x = 8 liters, number of operations n = 3 (initial + 2 more times). Step 3: Remaining milk = 80 * (1 - 8/80)^3 = 80 * (1 - 1/10)^3 = 80 * (9/10)^3. Step 4: Calculation: 80 * (729 / 1000) = 8 * 72.9 / 10 = 58.32 liters."
+    "e": "Step 1: Use the repeated dilution formula: Remaining milk = Initial Volume * (1 - x / V)^n. Step 2: Initial volume V = 80 liters, replacement volume x = 8 liters, number of operations n = 3 (initial + 2 more times). Step 3: Remaining milk = 80 * (1 - 8/80)^3 = 80 * (1 - 1/10)^3 = 80 * (9/10)^3. Step 4: Calculation: 80 * (729 / 1000) = 8 * 72.9 / 10 = 58.32 liters.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_14",
@@ -263,7 +276,8 @@
       "54 meters"
     ],
     "a": 0,
-    "e": "Step 1: Volume of melted sphere = (4 / 3) * pi * R^3 = (4 / 3) * pi * 6^3 = (4 / 3) * pi * 216 = 288 * pi cm^3. Step 2: Volume of the cylindrical wire = pi * r^2 * h = pi * (0.2)^2 * h = pi * 0.04 * h cm^3. Step 3: Equate both volumes: 288 * pi = pi * 0.04 * h => 288 = 0.04 * h => h = 288 / 0.04 = 7200 cm. Step 4: Convert length from centimeters to meters = 7200 / 100 = 72 meters."
+    "e": "Step 1: Volume of melted sphere = (4 / 3) * pi * R^3 = (4 / 3) * pi * 6^3 = (4 / 3) * pi * 216 = 288 * pi cm^3. Step 2: Volume of the cylindrical wire = pi * r^2 * h = pi * (0.2)^2 * h = pi * 0.04 * h cm^3. Step 3: Equate both volumes: 288 * pi = pi * 0.04 * h => 288 = 0.04 * h => h = 288 / 0.04 = 7200 cm. Step 4: Convert length from centimeters to meters = 7200 / 100 = 72 meters.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_15",
@@ -282,7 +296,8 @@
       "25"
     ],
     "a": 0,
-    "e": "Step 1: Let the entire expression be equal to x. $x = \\sqrt{30 + x}$. Step 2: Square both sides of the equation: $x^2 = 30 + x \\Rightarrow x^2 - x - 30 = 0$. Step 3: Factor the quadratic equation: $(x - 6)(x + 5) = 0$. Step 4: Since a principal square root expression cannot be negative, neglect x = -5. Thus, x = 6. Shortcut: Find co-prime factors of 30 whose difference is 1 (5 * 6 = 30). For a positive (+) series, the larger factor (6) is the answer."
+    "e": "Step 1: Let the entire expression be equal to x. $x = \\sqrt{30 + x}$. Step 2: Square both sides of the equation: $x^2 = 30 + x \\Rightarrow x^2 - x - 30 = 0$. Step 3: Factor the quadratic equation: $(x - 6)(x + 5) = 0$. Step 4: Since a principal square root expression cannot be negative, neglect x = -5. Thus, x = 6. Shortcut: Find co-prime factors of 30 whose difference is 1 (5 * 6 = 30). For a positive (+) series, the larger factor (6) is the answer.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_16",
@@ -301,7 +316,8 @@
       "12.75 hours"
     ],
     "a": 1,
-    "e": "Step 1: Total capacity (LCM of 12 and 16) = 48 units. Efficiency of X = 48/12 = 4 units/hour, Y = 48/16 = 3 units/hour. Step 2: In a 2-hour alternating block, work done = 4 + 3 = 7 units. Step 3: Complete blocks within 48 units = 48 / 7 = 6 full blocks. Work done in 6 blocks (12 hours) = 6 * 7 = 42 units. Step 4: Remaining work = 48 - 42 = 6 units. Step 5: Turn is for X on the 13th hour. X works for 1 hour and fills 4 units. Remaining work = 6 - 4 = 2 units. Total elapsed time = 12 + 1 = 13 hours. Step 6: Turn is for Y. Time taken by Y to complete remaining 2 units = 2 / 3 = 0.66 hours? If option layout has 13.25 or 13.66, let's look at exact fraction 13 and 2/3 hours = 13 hours 40 mins = 13.66 hours."
+    "e": "Step 1: Total capacity (LCM of 12 and 16) = 48 units. Efficiency of X = 48/12 = 4 units/hour, Y = 48/16 = 3 units/hour. Step 2: In a 2-hour alternating block, work done = 4 + 3 = 7 units. Step 3: Complete blocks within 48 units = 48 / 7 = 6 full blocks. Work done in 6 blocks (12 hours) = 6 * 7 = 42 units. Step 4: Remaining work = 48 - 42 = 6 units. Step 5: Turn is for X on the 13th hour. X works for 1 hour and fills 4 units. Remaining work = 6 - 4 = 2 units. Total elapsed time = 12 + 1 = 13 hours. Step 6: Turn is for Y. Time taken by Y to complete remaining 2 units = 2 / 3 = 0.66 hours? If option layout has 13.25 or 13.66, let's look at exact fraction 13 and 2/3 hours = 13 hours 40 mins = 13.66 hours.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_17",
@@ -320,7 +336,8 @@
       "1.5 years"
     ],
     "a": 1,
-    "e": "Step 1: Sum of ages of 4 members 4 years ago = 4 * 20 = 80 years. Step 2: Present sum of ages of these 4 members = 80 + (4 * 4) = 80 + 16 = 96 years. Step 3: Today, with the baby included, there are 5 members, and the average age is still 20 years. Step 4: Present total sum of ages of 5 members = 5 * 20 = 100 years. Step 5: Present age of the baby = New total sum - Old members' present sum = 100 - 96 = 4 years. Let's trace index calculation if 4 years fits."
+    "e": "Step 1: Sum of ages of 4 members 4 years ago = 4 * 20 = 80 years. Step 2: Present sum of ages of these 4 members = 80 + (4 * 4) = 80 + 16 = 96 years. Step 3: Today, with the baby included, there are 5 members, and the average age is still 20 years. Step 4: Present total sum of ages of 5 members = 5 * 20 = 100 years. Step 5: Present age of the baby = New total sum - Old members' present sum = 100 - 96 = 4 years. Let's trace index calculation if 4 years fits.",
+    "topic_tag": "maths.age.age_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_18",
@@ -339,7 +356,8 @@
       "7:45 AM"
     ],
     "a": 0,
-    "e": "Step 1: Find the Least Common Multiple (LCM) of the time intervals 9, 12, and 15 minutes. Step 2: Prime factorization: 9 = 3^2, 12 = 2^2 * 3, 15 = 3 * 5. LCM = 2^2 * 3^2 * 5 = 4 * 9 * 5 = 180 minutes. Step 3: Convert 180 minutes into hours = 180 / 60 = 3 hours. Step 4: Next tolling time = 6:00 AM + 3 hours = 9:00 AM."
+    "e": "Step 1: Find the Least Common Multiple (LCM) of the time intervals 9, 12, and 15 minutes. Step 2: Prime factorization: 9 = 3^2, 12 = 2^2 * 3, 15 = 3 * 5. LCM = 2^2 * 3^2 * 5 = 4 * 9 * 5 = 180 minutes. Step 3: Convert 180 minutes into hours = 180 / 60 = 3 hours. Step 4: Next tolling time = 6:00 AM + 3 hours = 9:00 AM.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_19",
@@ -358,7 +376,8 @@
       "3 : 4"
     ],
     "a": 0,
-    "e": "Step 1: Find the actual mean Cost Price (CP) of the mixture from the selling price and profit%. SP = Rs. 42.90, Profit = 10%. CP of mixture = (42.90 / 110) * 100 = Rs. 39 per kg. Step 2: Apply the Alligation cross method. Cheaper Price = 32, Dearer Price = 40, Mean Price = 39. Step 3: Difference on dearer side = 40 - 39 = 1. Difference on cheaper side = 39 - 32 = 7. Step 4: The required mixing ratio is 1 : 7."
+    "e": "Step 1: Find the actual mean Cost Price (CP) of the mixture from the selling price and profit%. SP = Rs. 42.90, Profit = 10%. CP of mixture = (42.90 / 110) * 100 = Rs. 39 per kg. Step 2: Apply the Alligation cross method. Cheaper Price = 32, Dearer Price = 40, Mean Price = 39. Step 3: Difference on dearer side = 40 - 39 = 1. Difference on cheaper side = 39 - 32 = 7. Step 4: The required mixing ratio is 1 : 7.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_20",
@@ -377,7 +396,8 @@
       "1210"
     ],
     "a": 0,
-    "e": "Step 1: Perform prime factorization of 360 = $2^3 \\times 3^2 \\times 5^1$. Step 2: Formula for the sum of factors = $(2^0+2^1+2^2+2^3) \\times (3^0+3^1+3^2) \\times (5^0+5^1)$. Step 3: Calculate values: $(1+2+4+8) \\times (1+3+9) \\times (1+5) = 15 \\times 13 \\times 6$. Step 4: Total sum = 195 * 6 = 1170."
+    "e": "Step 1: Perform prime factorization of 360 = $2^3 \\times 3^2 \\times 5^1$. Step 2: Formula for the sum of factors = $(2^0+2^1+2^2+2^3) \\times (3^0+3^1+3^2) \\times (5^0+5^1)$. Step 3: Calculate values: $(1+2+4+8) \\times (1+3+9) \\times (1+5) = 15 \\times 13 \\times 6$. Step 4: Total sum = 195 * 6 = 1170.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_21",
@@ -396,7 +416,8 @@
       "42 years"
     ],
     "a": 0,
-    "e": "Step 1: Let the age of Grandfather be G, Father be F, and Son be S. Given G + F + S = 140. Step 2: Conversions reveal the standard ratio between their ages maps to G:F:S = 7:4:1. Step 3: Total parts = 7 + 4 + 1 = 12 parts? Let's check parameters. If layout simplifies to standard integer parts where G=84, F=42, S=14, then 84+42+14=140. Step 4: Father's age is 40 or 42 based on direct balance. 40 years is selected based on standard option distribution context."
+    "e": "Step 1: Let the age of Grandfather be G, Father be F, and Son be S. Given G + F + S = 140. Step 2: Conversions reveal the standard ratio between their ages maps to G:F:S = 7:4:1. Step 3: Total parts = 7 + 4 + 1 = 12 parts? Let's check parameters. If layout simplifies to standard integer parts where G=84, F=42, S=14, then 84+42+14=140. Step 4: Father's age is 40 or 42 based on direct balance. 40 years is selected based on standard option distribution context.",
+    "topic_tag": "maths.age.age_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_22",
@@ -415,7 +436,8 @@
       "7/23"
     ],
     "a": 0,
-    "e": "Step 1: Start solving from the lowest denominator block: $3 + 1/3 = 10/3$. Step 2: The expression becomes $1 / (3 + 1 / (10/3)) = 1 / (3 + 3/10)$. Step 3: Solve the next denominator: $3 + 3/10 = 33/10$. Step 4: The final inverted fraction is $1 / (33/10) = 10/33$."
+    "e": "Step 1: Start solving from the lowest denominator block: $3 + 1/3 = 10/3$. Step 2: The expression becomes $1 / (3 + 1 / (10/3)) = 1 / (3 + 3/10)$. Step 3: Solve the next denominator: $3 + 3/10 = 33/10$. Step 4: The final inverted fraction is $1 / (33/10) = 10/33$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_23",
@@ -434,7 +456,8 @@
       "50 kg"
     ],
     "a": 0,
-    "e": "Step 1: Total weight of 10 boxes = 10 * 45 = 450 kg. Step 2: After removing 3 boxes, 7 boxes remain. The new average is 45 - 3 = 42 kg. Step 3: Total weight of remaining 7 boxes = 7 * 42 = 294 kg. Step 4: Sum of weights of the 3 removed boxes = 450 - 294 = 156 kg. Step 5: Average weight of the 3 removed boxes = 156 / 3 = 52 kg."
+    "e": "Step 1: Total weight of 10 boxes = 10 * 45 = 450 kg. Step 2: After removing 3 boxes, 7 boxes remain. The new average is 45 - 3 = 42 kg. Step 3: Total weight of remaining 7 boxes = 7 * 42 = 294 kg. Step 4: Sum of weights of the 3 removed boxes = 450 - 294 = 156 kg. Step 5: Average weight of the 3 removed boxes = 156 / 3 = 52 kg.",
+    "topic_tag": "maths.average.average_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_24",
@@ -453,7 +476,8 @@
       "20 minutes"
     ],
     "a": 0,
-    "e": "Step 1: Use the standard stoppage formula: Stoppage time per hour = (Decrease in speed / Speed without stoppages) * 60 minutes. Step 2: Substitute values: Stoppage time = ((80 - 60) / 80) * 60 = (20 / 80) * 60. Step 3: Calculate = (1 / 4) * 60 = 15 minutes per hour."
+    "e": "Step 1: Use the standard stoppage formula: Stoppage time per hour = (Decrease in speed / Speed without stoppages) * 60 minutes. Step 2: Substitute values: Stoppage time = ((80 - 60) / 80) * 60 = (20 / 80) * 60. Step 3: Calculate = (1 / 4) * 60 = 15 minutes per hour.",
+    "topic_tag": "maths.train.train_speed_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_25",
@@ -472,7 +496,8 @@
       "9.09%"
     ],
     "a": 0,
-    "e": "Step 1: Formula for profit% in faulty weight problems = [Error / (True Value - Error)] * 100. Step 2: True Value = 1000g, Given Weight = 900g, Error = 1000 - 900 = 100g. Step 3: Profit Percentage = (100 / 900) * 100 = 100 / 9 = 11.11%."
+    "e": "Step 1: Formula for profit% in faulty weight problems = [Error / (True Value - Error)] * 100. Step 2: True Value = 1000g, Given Weight = 900g, Error = 1000 - 900 = 100g. Step 3: Profit Percentage = (100 / 900) * 100 = 100 / 9 = 11.11%.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_26",
@@ -491,7 +516,8 @@
       "10%"
     ],
     "a": 0,
-    "e": "Step 1: Interest for the period of (3.5 - 2) 1.5 years = Rs. 873 - Rs. 756 = Rs. 117. Step 2: Interest for 1 year = 117 / 1.5 = Rs. 78. Step 3: Interest for 2 years = 78 * 2 = Rs. 156. Step 4: Principal (P) = Amount after 2 years - 2 years Interest = 756 - 156 = Rs. 600. Step 5: Rate of Interest (R) = (Interest for 1 year * 100) / Principal = (78 * 100) / 600 = 78 / 6 = 13%."
+    "e": "Step 1: Interest for the period of (3.5 - 2) 1.5 years = Rs. 873 - Rs. 756 = Rs. 117. Step 2: Interest for 1 year = 117 / 1.5 = Rs. 78. Step 3: Interest for 2 years = 78 * 2 = Rs. 156. Step 4: Principal (P) = Amount after 2 years - 2 years Interest = 756 - 156 = Rs. 600. Step 5: Rate of Interest (R) = (Interest for 1 year * 100) / Principal = (78 * 100) / 600 = 78 / 6 = 13%.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_27",
@@ -510,7 +536,8 @@
       "594 sq.cm"
     ],
     "a": 0,
-    "e": "Step 1: Area of square = side^2 = 484 => side = sqrt(484) = 22 cm. Step 2: Total length of wire = Perimeter of square = 4 * 22 = 88 cm. Step 3: Perimeter of circle (Circumference) = $2 \\cdot \\pi \\cdot r = 88 \\Rightarrow 2 \\times (22/7) \\times r = 88 \\Rightarrow r = 14$ cm. Step 4: Area of circle = $\\pi \\cdot r^2 = (22/7) \\times 14 \\times 14 = 22 \\times 28 = 616$ sq.cm."
+    "e": "Step 1: Area of square = side^2 = 484 => side = sqrt(484) = 22 cm. Step 2: Total length of wire = Perimeter of square = 4 * 22 = 88 cm. Step 3: Perimeter of circle (Circumference) = $2 \\cdot \\pi \\cdot r = 88 \\Rightarrow 2 \\times (22/7) \\times r = 88 \\Rightarrow r = 14$ cm. Step 4: Area of circle = $\\pi \\cdot r^2 = (22/7) \\times 14 \\times 14 = 22 \\times 28 = 616$ sq.cm.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_28",
@@ -529,7 +556,8 @@
       "2"
     ],
     "a": 0,
-    "e": "Step 1: The unit digit depends only on base 4. Cyclicity of 4 is 2 (4^1=4, 4^2=16). Step 2: For $(234)^{102}$, the exponent 102 is even, so the unit digit is 6. Step 3: For $(234)^{103}$, the exponent 103 is odd, so the unit digit is 4. Step 4: Add the unit digits: 6 + 4 = 10. The unit digit of 10 is 0."
+    "e": "Step 1: The unit digit depends only on base 4. Cyclicity of 4 is 2 (4^1=4, 4^2=16). Step 2: For $(234)^{102}$, the exponent 102 is even, so the unit digit is 6. Step 3: For $(234)^{103}$, the exponent 103 is odd, so the unit digit is 4. Step 4: Add the unit digits: 6 + 4 = 10. The unit digit of 10 is 0.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_29",
@@ -548,7 +576,8 @@
       "Rs. 28000"
     ],
     "a": 0,
-    "e": "Step 1: Income ratio X:Y = 4:3, Expenditure ratio X:Y = 3:2. Step 2: Notice that the difference between income and expenditure parts for both is identical: 4 - 3 = 1 part for X, and 3 - 2 = 1 part for Y. Step 3: This 1 part represents the monthly savings. Given 1 part = Rs. 6000. Step 4: Monthly income of X = 4 parts = 4 * 6000 = Rs. 24000."
+    "e": "Step 1: Income ratio X:Y = 4:3, Expenditure ratio X:Y = 3:2. Step 2: Notice that the difference between income and expenditure parts for both is identical: 4 - 3 = 1 part for X, and 3 - 2 = 1 part for Y. Step 3: This 1 part represents the monthly savings. Given 1 part = Rs. 6000. Step 4: Monthly income of X = 4 parts = 4 * 6000 = Rs. 24000.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_30",
@@ -567,7 +596,8 @@
       "Rs. 1950"
     ],
     "a": 0,
-    "e": "Step 1: Since interest is compounded half-yearly, the effective rate per half-year period = 20% / 2 = 10%. Step 2: Total time duration of 1 year contains 2 half-year periods (n = 2). Step 3: Effective compound interest percentage for 2 periods at 10% = 10 + 10 + (10*10/100) = 21%. Step 4: Compound Interest = 21% of 10000 = Rs. 2100."
+    "e": "Step 1: Since interest is compounded half-yearly, the effective rate per half-year period = 20% / 2 = 10%. Step 2: Total time duration of 1 year contains 2 half-year periods (n = 2). Step 3: Effective compound interest percentage for 2 periods at 10% = 10 + 10 + (10*10/100) = 21%. Step 4: Compound Interest = 21% of 10000 = Rs. 2100.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_31",
@@ -586,7 +616,8 @@
       "Rs. 1800"
     ],
     "a": 0,
-    "e": "Step 1: Wages are directly distributed according to the fraction of work completed. Step 2: Work completed by P and Q together = 7/11. Remaining work completed by R = 1 - 7/11 = 4/11 of the total work. Step 3: R's financial share = (4 / 11) * 5500 = 4 * 500 = Rs. 2000."
+    "e": "Step 1: Wages are directly distributed according to the fraction of work completed. Step 2: Work completed by P and Q together = 7/11. Remaining work completed by R = 1 - 7/11 = 4/11 of the total work. Step 3: R's financial share = (4 / 11) * 5500 = 4 * 500 = Rs. 2000.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_32",
@@ -605,7 +636,8 @@
       "40 km/h"
     ],
     "a": 0,
-    "e": "Step 1: Let the length of each equal side of the triangular track be d (LCM of 20, 30, 60 = 60 km). Total distance = 60 * 3 = 180 km. Step 2: Time for side 1 = 60/20 = 3 hours. Time for side 2 = 60/30 = 2 hours. Time for side 3 = 60/60 = 1 hour. Step 3: Total time taken = 3 + 2 + 1 = 6 hours. Step 4: Average Speed = Total Distance / Total Time = 180 / 6 = 30 km/h."
+    "e": "Step 1: Let the length of each equal side of the triangular track be d (LCM of 20, 30, 60 = 60 km). Total distance = 60 * 3 = 180 km. Step 2: Time for side 1 = 60/20 = 3 hours. Time for side 2 = 60/30 = 2 hours. Time for side 3 = 60/60 = 1 hour. Step 3: Total time taken = 3 + 2 + 1 = 6 hours. Step 4: Average Speed = Total Distance / Total Time = 180 / 6 = 30 km/h.",
+    "topic_tag": "maths.train.train_speed_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_33",
@@ -624,7 +656,8 @@
       "13"
     ],
     "a": 0,
-    "e": "Step 1: For a number to be divisible by 15, it must be completely divisible by both 3 and 5. Step 2: Check divisibility by 5 first. The number ends in 8. To make it a multiple of 5, the unit digit must become 5 or 0. Subtracting 3 makes the last digit 5 (427395). Step 3: Verify divisibility of 427395 by 3. Sum of digits = 4+2+7+3+9+5 = 30, which is divisible by 3. Thus, 3 is the correct number to be subtracted."
+    "e": "Step 1: For a number to be divisible by 15, it must be completely divisible by both 3 and 5. Step 2: Check divisibility by 5 first. The number ends in 8. To make it a multiple of 5, the unit digit must become 5 or 0. Subtracting 3 makes the last digit 5 (427395). Step 3: Verify divisibility of 427395 by 3. Sum of digits = 4+2+7+3+9+5 = 30, which is divisible by 3. Thus, 3 is the correct number to be subtracted.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_34",
@@ -643,7 +676,8 @@
       "2400"
     ],
     "a": 0,
-    "e": "Step 1: Total fraction of spectators = 1. Fraction of men = 5/8. Therefore, fraction of women = 1 - 5/8 = 3/8. Step 2: Given that 3/8 of total spectators = 1200 => Total Spectators = (1200 * 8) / 3 = 400 * 8 = 3200. Step 3: Number of men spectators = 5/8 of 3200 = 5 * 400 = 2000."
+    "e": "Step 1: Total fraction of spectators = 1. Fraction of men = 5/8. Therefore, fraction of women = 1 - 5/8 = 3/8. Step 2: Given that 3/8 of total spectators = 1200 => Total Spectators = (1200 * 8) / 3 = 400 * 8 = 3200. Step 3: Number of men spectators = 5/8 of 3200 = 5 * 400 = 2000.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_35",
@@ -662,6 +696,7 @@
       "Rs. 250"
     ],
     "a": 0,
-    "e": "Step 1: Formulate the linear equations. Let chair be C and table be T. Equation 1: 3C + 2T = 700. Equation 2: 5C + 3T = 1100. Step 2: Multiply Eq 1 by 3 and Eq 2 by 2 to eliminate T: 9C + 6T = 2100 and 10C + 6T = 2200. Step 3: Subtracting the equations gives: 10C - 9C = 2200 - 2100 => C = Rs. 100. Step 4: Substitute C in Eq 1: 3(100) + 2T = 700 => 300 + 2T = 700 => 2T = 400 => T = Rs. 200."
+    "e": "Step 1: Formulate the linear equations. Let chair be C and table be T. Equation 1: 3C + 2T = 700. Equation 2: 5C + 3T = 1100. Step 2: Multiply Eq 1 by 3 and Eq 2 by 2 to eliminate T: 9C + 6T = 2100 and 10C + 6T = 2200. Step 3: Subtracting the equations gives: 10C - 9C = 2200 - 2100 => C = Rs. 100. Step 4: Substitute C in Eq 1: 3(100) + 2T = 700 => 300 + 2T = 700 => 2T = 400 => T = Rs. 200.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   }
 ]

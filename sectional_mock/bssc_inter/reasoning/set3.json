@@ -16,7 +16,8 @@
       "729"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the first pair: $8 = 2^3$ and $81 = 3^4$. The logic is $n^3 : (n+1)^4$. Step 2: Apply the same logic to the second pair: $64 = 4^3$. The next term must be $(4+1)^4 = 5^4$. Step 3: Calculate $5^4 = 5 \\times 5 \\times 5 \\times 5 = 625$."
+    "e": "Step 1: Analyze the first pair: $8 = 2^3$ and $81 = 3^4$. The logic is $n^3 : (n+1)^4$. Step 2: Apply the same logic to the second pair: $64 = 4^3$. The next term must be $(4+1)^4 = 5^4$. Step 3: Calculate $5^4 = 5 \\times 5 \\times 5 \\times 5 = 625$.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
   },
   {
     "p_id": "bssc_reason_072",
@@ -35,7 +36,8 @@
       "QRIFD"
     ],
     "a": 0,
-    "e": "Step 1: Analyze 'SMART' -> 'TLBQU': S(+1)->T, M(-1)->L, A(+1)->B, R(-1)->Q, T(+1)->U. Step 2: Apply this pattern to 'PRIME': P(+1)->Q, R(-1)->Q, I(+1)->J, M(-1)->L, E(+1)->D. Step 3: Combine them to get 'QQJLD'."
+    "e": "Step 1: Analyze 'SMART' -> 'TLBQU': S(+1)->T, M(-1)->L, A(+1)->B, R(-1)->Q, T(+1)->U. Step 2: Apply this pattern to 'PRIME': P(+1)->Q, R(-1)->Q, I(+1)->J, M(-1)->L, E(+1)->D. Step 3: Combine them to get 'QQJLD'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_reason_073",
@@ -54,7 +56,8 @@
       "HJLN"
     ],
     "a": 0,
-    "e": "Step 1: Check the gaps in each group: L(+2)->N(+2)->P(+2)->R, T(+2)->V(+2)->X(+2)->Z, H(+2)->J(+2)->L(+2)->N. Step 2: Check 'HJMN': H(+2)->J(+3)->M(+1)->N. Step 3: 'HJMN' does not follow the uniform +2 step progression, so it is the odd one out."
+    "e": "Step 1: Check the gaps in each group: L(+2)->N(+2)->P(+2)->R, T(+2)->V(+2)->X(+2)->Z, H(+2)->J(+2)->L(+2)->N. Step 2: Check 'HJMN': H(+2)->J(+3)->M(+1)->N. Step 3: 'HJMN' does not follow the uniform +2 step progression, so it is the odd one out.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_074",
@@ -73,7 +76,8 @@
       "50"
     ],
     "a": 0,
-    "e": "Step 1: Find the difference between consecutive terms: $2-1=1$, $6-2=4$, $15-6=9$, $31-15=16$. Step 2: Notice that the differences are perfect squares: $1^2, 2^2, 3^2, 4^2$. Step 3: The next difference must be $5^2 = 25$. Next term = $31 + 25 = 56$."
+    "e": "Step 1: Find the difference between consecutive terms: $2-1=1$, $6-2=4$, $15-6=9$, $31-15=16$. Step 2: Notice that the differences are perfect squares: $1^2, 2^2, 3^2, 4^2$. Step 3: The next difference must be $5^2 = 25$. Next term = $31 + 25 = 56$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_075",
@@ -92,7 +96,8 @@
       "G"
     ],
     "a": 0,
-    "e": "Step 1: Note the positional values: Z(26), W(23), S(19), N(14), H(8). Step 2: Check the decreasing gaps: $26-3=23$, $23-4=19$, $19-5=14$, $14-6=8$. Step 3: The next gap must be -7. Position = $8 - 7 = 1$, which corresponds to 'A'."
+    "e": "Step 1: Note the positional values: Z(26), W(23), S(19), N(14), H(8). Step 2: Check the decreasing gaps: $26-3=23$, $23-4=19$, $19-5=14$, $14-6=8$. Step 3: The next gap must be -7. Position = $8 - 7 = 1$, which corresponds to 'A'.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_076",
@@ -111,7 +116,8 @@
       "Brother"
     ],
     "a": 0,
-    "e": "Step 1: From 'Q - R', Q is the sister of R. Step 2: From 'P + Q', P is the father of Q. Step 3: Since Q is R's sister and P is Q's father, P must be the father of R as well."
+    "e": "Step 1: From 'Q - R', Q is the sister of R. Step 2: From 'P + Q', P is the father of Q. Step 3: Since Q is R's sister and P is Q's father, P must be the father of R as well.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_reason_077",
@@ -130,7 +136,8 @@
       "0 meters"
     ],
     "a": 0,
-    "e": "Step 1: Moves East by 10m. Turns left (North) by 5m. Step 2: Turns left again (West) by 10m. Step 3: The East and West movements of 10m cancel each other out, leaving a net displacement of 5 meters North from the start."
+    "e": "Step 1: Moves East by 10m. Turns left (North) by 5m. Step 2: Turns left again (West) by 10m. Step 3: The East and West movements of 10m cancel each other out, leaving a net displacement of 5 meters North from the start.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_078",
@@ -149,7 +156,8 @@
       "Three completely disjoint circles"
     ],
     "a": 0,
-    "e": "Step 1: Bihar is a state completely inside the country of India. Step 2: India is a country completely inside the continent of Asia. Step 3: This nested geographical hierarchy is represented perfectly by three concentric circles."
+    "e": "Step 1: Bihar is a state completely inside the country of India. Step 2: India is a country completely inside the continent of Asia. Step 3: This nested geographical hierarchy is represented perfectly by three concentric circles.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_079",
@@ -168,7 +176,8 @@
       "5"
     ],
     "a": 0,
-    "e": "Step 1: Substitute the signs as instructed: $15 \\div 3 + 4 \\times 2 - 6$. Step 2: Apply VBODMAS rule: Division first: $15 \\div 3 = 5$. Multiplication next: $4 \\times 2 = 8$. Expression becomes $5 + 8 - 6$. Step 3: Solve final layout: $13 - 6 = 7$."
+    "e": "Step 1: Substitute the signs as instructed: $15 \\div 3 + 4 \\times 2 - 6$. Step 2: Apply VBODMAS rule: Division first: $15 \\div 3 = 5$. Multiplication next: $4 \\times 2 = 8$. Expression becomes $5 + 8 - 6$. Step 3: Solve final layout: $13 - 6 = 7$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_reason_080",
@@ -187,7 +196,8 @@
       "36"
     ],
     "a": 0,
-    "e": "Step 1: Analyze row logic: Row 1: $3 \\times 5 = 15$. Row 2: $2 \\times 4 = 8$. Step 2: The pattern is $Col_1 \\times Col_2 = Col_3$. Step 3: Apply to Row 3: $5 \\times 6 = 30$."
+    "e": "Step 1: Analyze row logic: Row 1: $3 \\times 5 = 15$. Row 2: $2 \\times 4 = 8$. Step 2: The pattern is $Col_1 \\times Col_2 = Col_3$. Step 3: Apply to Row 3: $5 \\times 6 = 30$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_081",
@@ -206,7 +216,8 @@
       "None"
     ],
     "a": 0,
-    "e": "Step 1: Count intervals between characters forward and backward. Step 2: Look at pair P and R: P(16), Q(17), R(18). In the word, P and R have exactly one letter 'U' between them. Step 3: No other matching pairs exist. Total valid pair count is 1."
+    "e": "Step 1: Count intervals between characters forward and backward. Step 2: Look at pair P and R: P(16), Q(17), R(18). In the word, P and R have exactly one letter 'U' between them. Step 3: No other matching pairs exist. Total valid pair count is 1.",
+    "topic_tag": "reasoning.alphabetical_series.letter_patterns"
   },
   {
     "p_id": "bssc_reason_082",
@@ -225,7 +236,8 @@
       "28"
     ],
     "a": 0,
-    "e": "Step 1: After interchanging, Amit is at Deepak's original position, which is known to be 9th from the right end. Step 2: Amit's new position from the left end is given as 18th. Step 3: Total number of students = $\\text{Left position} + \\text{Right position} - 1 = 18 + 9 - 1 = 26$."
+    "e": "Step 1: After interchanging, Amit is at Deepak's original position, which is known to be 9th from the right end. Step 2: Amit's new position from the left end is given as 18th. Step 3: Total number of students = $\\text{Left position} + \\text{Right position} - 1 = 18 + 9 - 1 = 26$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_reason_083",
@@ -244,7 +256,8 @@
       "Neither follows"
     ],
     "a": 0,
-    "e": "Step 1: Some apples overlap with red. Since all red items are inside sweet, that overlapping part of apples is also sweet. Hence, conclusion 1 follows. Step 2: Sweet is the larger outer circle, so all sweet items being red is not a necessary conclusion. Only 1 follows."
+    "e": "Step 1: Some apples overlap with red. Since all red items are inside sweet, that overlapping part of apples is also sweet. Hence, conclusion 1 follows. Step 2: Sweet is the larger outer circle, so all sweet items being red is not a necessary conclusion. Only 1 follows.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_reason_084",
@@ -263,7 +276,8 @@
       "North"
     ],
     "a": 0,
-    "e": "Step 1: B is on the South side facing North. Immediate left of B (facing center) is the East side. So A is on the East side facing West. Step 2: The remaining spots are North and West sides for C and D. C is to the right of D, which places D on the North side facing South and C on the West side facing East. Step 3: Therefore, C is facing East."
+    "e": "Step 1: B is on the South side facing North. Immediate left of B (facing center) is the East side. So A is on the East side facing West. Step 2: The remaining spots are North and West sides for C and D. C is to the right of D, which places D on the North side facing South and C on the West side facing East. Step 3: Therefore, C is facing East.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_reason_085",
@@ -282,7 +296,8 @@
       "3"
     ],
     "a": 0,
-    "e": "Step 1: In a closed standard dice cube framework, a face can have 4 adjacent faces and 1 opposite face. Step 2: Since 1, 2, 3 are adjacent, the opposite must be among the remaining unlisted faces (5 or 6). Step 3: Without extra configuration views, it is either 5 or 6."
+    "e": "Step 1: In a closed standard dice cube framework, a face can have 4 adjacent faces and 1 opposite face. Step 2: Since 1, 2, 3 are adjacent, the opposite must be among the remaining unlisted faces (5 or 6). Step 3: Without extra configuration views, it is either 5 or 6.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_086",
@@ -301,7 +316,8 @@
       "99"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the first pair: $7 \\times (7 + 1) = 7 \\times 8 = 56$. The logic pattern is $n \\times (n + 1)$. Step 2: Apply to the second pair: $9 \\times (9 + 1) = 9 \\times 10$. Step 3: Result evaluates to 90."
+    "e": "Step 1: Analyze the first pair: $7 \\times (7 + 1) = 7 \\times 8 = 56$. The logic pattern is $n \\times (n + 1)$. Step 2: Apply to the second pair: $9 \\times (9 + 1) = 9 \\times 10$. Step 3: Result evaluates to 90.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
   },
   {
     "p_id": "bssc_reason_087",
@@ -320,7 +336,8 @@
       "PMQX"
     ],
     "a": 0,
-    "e": "Step 1: Trace the alphabet shifts: P(+3)->S, E(+3)->H, A(+3)->D, R(+3)->U. It is a uniform +3 shift. Step 2: Shift each letter of 'MINT' forward by +3 positions. Step 3: M+3=P, I+3=L, N+3=Q, T+3=W. Code is 'PLQW'."
+    "e": "Step 1: Trace the alphabet shifts: P(+3)->S, E(+3)->H, A(+3)->D, R(+3)->U. It is a uniform +3 shift. Step 2: Shift each letter of 'MINT' forward by +3 positions. Step 3: M+3=P, I+3=L, N+3=Q, T+3=W. Code is 'PLQW'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_reason_088",
@@ -339,7 +356,8 @@
       "Triangle"
     ],
     "a": 0,
-    "e": "Step 1: Analyze shapes: Square, Rectangle, and Triangle are 2-dimensional flat plane figures. Step 2: A Cube is a 3-dimensional solid spatial structure. Step 3: Therefore, Cube is the odd choice."
+    "e": "Step 1: Analyze shapes: Square, Rectangle, and Triangle are 2-dimensional flat plane figures. Step 2: A Cube is a 3-dimensional solid spatial structure. Step 3: Therefore, Cube is the odd choice.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_089",
@@ -358,7 +376,8 @@
       "42"
     ],
     "a": 0,
-    "e": "Step 1: Note decreasing steps: $120-21=99$, $99-19=80$, $80-17=63$, $63-15=48$. Step 2: Differences are consecutive odd numbers: -21, -19, -17, -15. Next must be -13. Step 3: Compute $48 - 13 = 35$."
+    "e": "Step 1: Note decreasing steps: $120-21=99$, $99-19=80$, $80-17=63$, $63-15=48$. Step 2: Differences are consecutive odd numbers: -21, -19, -17, -15. Next must be -13. Step 3: Compute $48 - 13 = 35$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_090",
@@ -377,7 +396,8 @@
       "MM"
     ],
     "a": 0,
-    "e": "Step 1: Track transition gaps between pairs: B(+2)->D, E(+2)->G, H(+2)->J. Step 2: Following this, K(+2) points to 'M'. Step 3: Write the next consecutive letter 'N'. The next block term is 'MN'."
+    "e": "Step 1: Track transition gaps between pairs: B(+2)->D, E(+2)->G, H(+2)->J. Step 2: Following this, K(+2) points to 'M'. Step 3: Write the next consecutive letter 'N'. The next block term is 'MN'.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_091",
@@ -396,7 +416,8 @@
       "Son"
     ],
     "a": 0,
-    "e": "Step 1: 'Daughter of my uncle' refers to the girl's paternal cousin sister. Step 2: The brother of that cousin sister is her cousin brother. Step 3: Hence, the boy is the girl's cousin."
+    "e": "Step 1: 'Daughter of my uncle' refers to the girl's paternal cousin sister. Step 2: The brother of that cousin sister is her cousin brother. Step 3: Hence, the boy is the girl's cousin.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_reason_092",
@@ -415,7 +436,8 @@
       "East"
     ],
     "a": 0,
-    "e": "Step 1: Facing South, turning right points West. Walks 20m West. Step 2: Heading West, turning left points back South. Walks 10m South. Step 3: He is currently heading South."
+    "e": "Step 1: Facing South, turning right points West. Walks 20m West. Step 2: Heading West, turning left points back South. Walks 10m South. Step 3: He is currently heading South.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_093",
@@ -434,7 +456,8 @@
       "Three isolated loops"
     ],
     "a": 0,
-    "e": "Step 1: English and Hindi are distinct, separate languages with no mutual overlap. Step 2: However, both belong entirely to the global set of 'Languages'. Step 3: This creates two separate independent circles inside a larger outer bounding circle."
+    "e": "Step 1: English and Hindi are distinct, separate languages with no mutual overlap. Step 2: However, both belong entirely to the global set of 'Languages'. Step 3: This creates two separate independent circles inside a larger outer bounding circle.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_094",
@@ -453,7 +476,8 @@
       "8"
     ],
     "a": 0,
-    "e": "Step 1: Find positional alphabet integer values: C=3, A=1, B=2. Step 2: Add values together: $3 + 1 + 2 = 6$. Step 3: The outcome is 6."
+    "e": "Step 1: Find positional alphabet integer values: C=3, A=1, B=2. Step 2: Add values together: $3 + 1 + 2 = 6$. Step 3: The outcome is 6.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_reason_095",
@@ -472,7 +496,8 @@
       "1"
     ],
     "a": 0,
-    "e": "Step 1: Check horizontal row-wise sum patterns: Row 1: $2 + 3 = 5$. Row 2: $7 + 1 = 8$. Step 2: Follow $Col_1 + Col_2 = Col_3$. Step 3: Row 3 calculation: $4 + 5 = 9$."
+    "e": "Step 1: Check horizontal row-wise sum patterns: Row 1: $2 + 3 = 5$. Row 2: $7 + 1 = 8$. Step 2: Follow $Col_1 + Col_2 = Col_3$. Step 3: Row 3 calculation: $4 + 5 = 9$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_reason_096",
@@ -491,7 +516,8 @@
       "2, 3, 1, 4"
     ],
     "a": 0,
-    "e": "Step 1: Normal dictionary order is: Pal(4), Paper(1), Pear(2), Pen(3). Step 2: To arrange in reverse order, flip the sorted sequence completely. Step 3: Reverse alphabetical sequence is 3, 2, 1, 4."
+    "e": "Step 1: Normal dictionary order is: Pal(4), Paper(1), Pear(2), Pen(3). Step 2: To arrange in reverse order, flip the sorted sequence completely. Step 3: Reverse alphabetical sequence is 3, 2, 1, 4.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_097",
@@ -510,7 +536,8 @@
       "29th"
     ],
     "a": 0,
-    "e": "Step 1: Use rank mapping formula: $\\text{Rank from bottom} = \\text{Total items} - \\text{Rank from top} + 1$. Step 2: Substitute given values: $50 - 20 + 1$. Step 3: $30 + 1 = 31$st."
+    "e": "Step 1: Use rank mapping formula: $\\text{Rank from bottom} = \\text{Total items} - \\text{Rank from top} + 1$. Step 2: Substitute given values: $50 - 20 + 1$. Step 3: $30 + 1 = 31$st.",
+    "topic_tag": "reasoning.ranking.position_and_order"
   },
   {
     "p_id": "bssc_reason_098",
@@ -529,7 +556,8 @@
       "Neither follows"
     ],
     "a": 0,
-    "e": "Step 1: Since all cats are completely inside dogs, and dogs have no intersection with cows, cats can also have no intersection with cows. Conclusion 1 follows. Step 2: Cats occupy a portion inside dogs, so some dogs are definitely cats. Conclusion 2 follows. Step 3: Both conclusions follow."
+    "e": "Step 1: Since all cats are completely inside dogs, and dogs have no intersection with cows, cats can also have no intersection with cows. Conclusion 1 follows. Step 2: Cats occupy a portion inside dogs, so some dogs are definitely cats. Conclusion 2 follows. Step 3: Both conclusions follow.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_reason_099",
@@ -548,7 +576,8 @@
       "D"
     ],
     "a": 0,
-    "e": "Step 1: Set up the known positions from the right/left clues: 'B is right of D', 'D is left of C' -> order C-D-B. Step 2: 'A is between E and B' -> complete the circular layout as C-D-B-A-E. Step 3: Looking inward, the immediate left of A is E."
+    "e": "Step 1: Set up the known positions from the right/left clues: 'B is right of D', 'D is left of C' -> order C-D-B. Step 2: 'A is between E and B' -> complete the circular layout as C-D-B-A-E. Step 3: Looking inward, the immediate left of A is E.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_reason_100",
@@ -567,7 +596,8 @@
       "10"
     ],
     "a": 0,
-    "e": "Step 1: Count individual small component triangles formed by intersection lines = 4. Step 2: Count larger combined triangles formed by combining two adjacent smaller triangles along diagonals = 4. Step 3: Total number of triangles = $4 + 4 = 8$."
+    "e": "Step 1: Count individual small component triangles formed by intersection lines = 4. Step 2: Count larger combined triangles formed by combining two adjacent smaller triangles along diagonals = 4. Step 3: Total number of triangles = $4 + 4 = 8$.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_reason_101",
@@ -586,7 +616,8 @@
       "West"
     ],
     "a": 0,
-    "e": "Step 1: The arrow rotates $+45^\\circ$ (clockwise) at each step. Step 2: To backtrack from step 3 to step 1, subtract $45^\\circ \\times 2 = 90^\\circ$ (counter-clockwise move). Step 3: Turning $90^\\circ$ counter-clockwise from North-East points to North-West."
+    "e": "Step 1: The arrow rotates $+45^\\circ$ (clockwise) at each step. Step 2: To backtrack from step 3 to step 1, subtract $45^\\circ \\times 2 = 90^\\circ$ (counter-clockwise move). Step 3: Turning $90^\\circ$ counter-clockwise from North-East points to North-West.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_102",
@@ -605,7 +636,8 @@
       "Circle"
     ],
     "a": 0,
-    "e": "Step 1: Identify the structural transition in the first pair: the shape remains identical, but its inner shading changes from filled (solid) to empty (hollow). Step 2: Apply this rule to the second pair. Step 3: A solid square transforms into a hollow square."
+    "e": "Step 1: Identify the structural transition in the first pair: the shape remains identical, but its inner shading changes from filled (solid) to empty (hollow). Step 2: Apply this rule to the second pair. Step 3: A solid square transforms into a hollow square.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
   },
   {
     "p_id": "bssc_reason_103",
@@ -624,7 +656,8 @@
       "No geometric variation"
     ],
     "a": 0,
-    "e": "Step 1: Folding twice means unfolding replicates the perimeter punch across all 4 quadrants. Step 2: The punch on the curved edge creates 4 symmetric outer cutouts along the unfolded circle boundary. Step 3: Option A describes this outcome."
+    "e": "Step 1: Folding twice means unfolding replicates the perimeter punch across all 4 quadrants. Step 2: The punch on the curved edge creates 4 symmetric outer cutouts along the unfolded circle boundary. Step 3: Option A describes this outcome.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_104",
@@ -643,7 +676,8 @@
       "Thursday"
     ],
     "a": 0,
-    "e": "Step 1: A normal year has 365 days (1 odd day), but a leap year has 366 days, which leaves exactly 2 odd days. Step 2: Since 2024 is a leap year, the calendar shifts forward by +2 days. Step 3: Monday + 2 days = Wednesday."
+    "e": "Step 1: A normal year has 365 days (1 odd day), but a leap year has 366 days, which leaves exactly 2 odd days. Step 2: Since 2024 is a leap year, the calendar shifts forward by +2 days. Step 3: Monday + 2 days = Wednesday.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_reason_105",
@@ -662,6 +696,7 @@
       "5, 4, 3, 2, 1"
     ],
     "a": 0,
-    "e": "Step 1: Identify the baseline unit, which is an individual Member(1). Step 2: Multiple members form a Family(2), multiple families build a Community(3), which lives in a Locality(4). Step 3: Multiple localities constitute a Country(5). The ascending sequence is 1, 2, 3, 4, 5."
+    "e": "Step 1: Identify the baseline unit, which is an individual Member(1). Step 2: Multiple members form a Family(2), multiple families build a Community(3), which lives in a Locality(4). Step 3: Multiple localities constitute a Country(5). The ascending sequence is 1, 2, 3, 4, 5.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   }
 ]

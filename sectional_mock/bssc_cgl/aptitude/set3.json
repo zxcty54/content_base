@@ -16,7 +16,8 @@
       "246"
     ],
     "a": 0,
-    "e": "Step 1: Understand the condition 'at least 2 ladies'. The committee can have exactly 2, 3, or 4 ladies. Step 2: Case 1: 2 ladies and 3 gentlemen = 4C2 * 6C3 = 6 * 20 = 120 ways. Step 3: Case 2: 3 ladies and 2 gentlemen = 4C3 * 6C2 = 4 * 15 = 60 ways. Step 4: Case 3: 4 ladies and 1 gentleman = 4C4 * 6C1 = 1 * 6 = 6 ways. Step 5: Total ways = 120 + 60 + 6 = 186."
+    "e": "Step 1: Understand the condition 'at least 2 ladies'. The committee can have exactly 2, 3, or 4 ladies. Step 2: Case 1: 2 ladies and 3 gentlemen = 4C2 * 6C3 = 6 * 20 = 120 ways. Step 3: Case 2: 3 ladies and 2 gentlemen = 4C3 * 6C2 = 4 * 15 = 60 ways. Step 4: Case 3: 4 ladies and 1 gentleman = 4C4 * 6C1 = 1 * 6 = 6 ways. Step 5: Total ways = 120 + 60 + 6 = 186.",
+    "topic_tag": "maths.combinatorics.counting_and_arrangements"
   },
   {
     "p_id": "bssc_cgl_adv_quant_37",
@@ -35,7 +36,8 @@
       "1/169"
     ],
     "a": 0,
-    "e": "Step 1: Probability that the first card drawn is a King = 4 / 52 = 1 / 13. Step 2: Since cards are drawn without replacement, 51 cards remain, containing 4 Queens. Step 3: Probability that the second card drawn is a Queen given the first was a King = 4 / 51. Step 4: Total combined probability = (4 / 52) * (4 / 51) = (1 / 13) * (4 / 51) = 4 / 663."
+    "e": "Step 1: Probability that the first card drawn is a King = 4 / 52 = 1 / 13. Step 2: Since cards are drawn without replacement, 51 cards remain, containing 4 Queens. Step 3: Probability that the second card drawn is a Queen given the first was a King = 4 / 51. Step 4: Total combined probability = (4 / 52) * (4 / 51) = (1 / 13) * (4 / 51) = 4 / 663.",
+    "topic_tag": "maths.probability.probability_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_38",
@@ -54,7 +56,8 @@
       "k = 2 or k = 5"
     ],
     "a": 0,
-    "e": "Step 1: For a quadratic equation Ax^2 + Bx + C = 0 to have equal roots, the discriminant D must be zero ($B^2 - 4AC = 0$). Step 2: Here, A = (k+1), B = -2(k-1), and C = 1. Step 3: Substitute into formula: $[-2(k-1)]^2 - 4(k+1)(1) = 0 \\Rightarrow 4(k^2 - 2k + 1) - 4k - 4 = 0$. Step 4: Simplify: $4k^2 - 8k + 4 - 4k - 4 = 0 \\Rightarrow 4k^2 - 12k = 0 \\Rightarrow 4k(k - 3) = 0$. Step 5: Therefore, k = 0 or k = 3."
+    "e": "Step 1: For a quadratic equation Ax^2 + Bx + C = 0 to have equal roots, the discriminant D must be zero ($B^2 - 4AC = 0$). Step 2: Here, A = (k+1), B = -2(k-1), and C = 1. Step 3: Substitute into formula: $[-2(k-1)]^2 - 4(k+1)(1) = 0 \\Rightarrow 4(k^2 - 2k + 1) - 4k - 4 = 0$. Step 4: Simplify: $4k^2 - 8k + 4 - 4k - 4 = 0 \\Rightarrow 4k^2 - 12k = 0 \\Rightarrow 4k(k - 3) = 0$. Step 5: Therefore, k = 0 or k = 3.",
+    "topic_tag": "maths.algebra.algebraic_equations"
   },
   {
     "p_id": "bssc_cgl_adv_quant_39",
@@ -73,7 +76,8 @@
       "50"
     ],
     "a": 0,
-    "e": "Step 1: According to Fermat's Little Theorem, if p is a prime number and 'a' is an integer not divisible by p, then $a^{p-1} \\equiv 1 \\pmod p$. Step 2: Here, base a = 2 and prime p = 101. Step 3: Therefore, $2^{101-1} = 2^{100} \\equiv 1 \\pmod{101}$. Step 4: Thus, the remainder left is exactly 1."
+    "e": "Step 1: According to Fermat's Little Theorem, if p is a prime number and 'a' is an integer not divisible by p, then $a^{p-1} \\equiv 1 \\pmod p$. Step 2: Here, base a = 2 and prime p = 101. Step 3: Therefore, $2^{101-1} = 2^{100} \\equiv 1 \\pmod{101}$. Step 4: Thus, the remainder left is exactly 1.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_40",
@@ -92,7 +96,8 @@
       "9 days"
     ],
     "a": 0,
-    "e": "Step 1: Total work (LCM of 12, 15, 20) = 60 units. Efficiency of A = 60/12 = 5, B = 60/15 = 4, C = 60/20 = 3 units/day. Step 2: Day 1 (A + B) work = 5 + 4 = 9 units. Day 3: Day 2 (A + C) work = 5 + 3 = 8 units. Step 3: In a 2-day alternating block, total work completed = 9 + 8 = 17 units. Step 4: In 3 full blocks (6 days), work completed = 17 * 3 = 51 units. Remaining work = 60 - 51 = 9 units. Step 5: On Day 7, it is (A + B)'s turn. They can complete exactly 9 units in one full day. Total time taken = 6 + 1 = 7 days."
+    "e": "Step 1: Total work (LCM of 12, 15, 20) = 60 units. Efficiency of A = 60/12 = 5, B = 60/15 = 4, C = 60/20 = 3 units/day. Step 2: Day 1 (A + B) work = 5 + 4 = 9 units. Day 3: Day 2 (A + C) work = 5 + 3 = 8 units. Step 3: In a 2-day alternating block, total work completed = 9 + 8 = 17 units. Step 4: In 3 full blocks (6 days), work completed = 17 * 3 = 51 units. Remaining work = 60 - 51 = 9 units. Step 5: On Day 7, it is (A + B)'s turn. They can complete exactly 9 units in one full day. Total time taken = 6 + 1 = 7 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_41",
@@ -111,7 +116,8 @@
       "58 hours"
     ],
     "a": 0,
-    "e": "Step 1: Total capacity (LCM of 10 and 15) = 30 units. Efficiency of inlet = +3 units/hour, outlet = -2 units/hour. Step 2: In a 2-hour cycle, net filling = +3 - 2 = 1 unit. Step 3: Since the inlet can fill 3 units in the last hour, subtract 3 from total to find critical cycle threshold = 30 - 3 = 27 units. Step 4: To fill 27 units, it takes 27 cycles = 27 * 2 = 54 hours. Step 5: At 54 hours, 27 units are full. In the 55th hour, the inlet pipe opens and adds the remaining 3 units, filling the tank completely. Total hours = 55."
+    "e": "Step 1: Total capacity (LCM of 10 and 15) = 30 units. Efficiency of inlet = +3 units/hour, outlet = -2 units/hour. Step 2: In a 2-hour cycle, net filling = +3 - 2 = 1 unit. Step 3: Since the inlet can fill 3 units in the last hour, subtract 3 from total to find critical cycle threshold = 30 - 3 = 27 units. Step 4: To fill 27 units, it takes 27 cycles = 27 * 2 = 54 hours. Step 5: At 54 hours, 27 units are full. In the 55th hour, the inlet pipe opens and adds the remaining 3 units, filling the tank completely. Total hours = 55.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_42",
@@ -130,7 +136,8 @@
       "44 liters"
     ],
     "a": 0,
-    "e": "Step 1: Formula for sequential variable replacement: Remaining Liquid = Initial Volume * (1 - x1/V) * (1 - x2/V). Step 2: Here, Initial Volume = 60, x1 = 6, and x2 = 10. Step 3: Remaining Milk = 60 * (1 - 6/60) * (1 - 10/60) = 60 * (54/60) * (50/60). Step 4: Simplify calculation = 60 * (9/10) * (5/6) = 45 liters."
+    "e": "Step 1: Formula for sequential variable replacement: Remaining Liquid = Initial Volume * (1 - x1/V) * (1 - x2/V). Step 2: Here, Initial Volume = 60, x1 = 6, and x2 = 10. Step 3: Remaining Milk = 60 * (1 - 6/60) * (1 - 10/60) = 60 * (54/60) * (50/60). Step 4: Simplify calculation = 60 * (9/10) * (5/6) = 45 liters.",
+    "topic_tag": "maths.mixture.mixture_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_43",
@@ -149,7 +156,8 @@
       "Rs. 1500.00"
     ],
     "a": 0,
-    "e": "Step 1: Total accumulated Amount = Principal * (1 + R1/100) * (1 + R2/100) * (1 + R3/100). Step 2: Amount = 10000 * (1.04) * (1.05) * (1.06). Step 3: Step-by-step product: 10000 * 1.04 = 10400. 10400 * 1.05 = 10920. 10920 * 1.06 = Rs. 11575.20. Step 4: Total Compound Interest = Amount - Principal = 11575.20 - 10000 = Rs. 1575.20."
+    "e": "Step 1: Total accumulated Amount = Principal * (1 + R1/100) * (1 + R2/100) * (1 + R3/100). Step 2: Amount = 10000 * (1.04) * (1.05) * (1.06). Step 3: Step-by-step product: 10000 * 1.04 = 10400. 10400 * 1.05 = 10920. 10920 * 1.06 = Rs. 11575.20. Step 4: Total Compound Interest = Amount - Principal = 11575.20 - 10000 = Rs. 1575.20.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_44",
@@ -168,7 +176,8 @@
       "20.0%"
     ],
     "a": 0,
-    "e": "Step 1: Let total cost price (CP) per unit be Rs. 100 and total items be 100. Total Cost = Rs. 10000. Marked Price (MP) per unit = Rs. 150. Step 2: Case 1: 40 units sold at MP = 40 * 150 = Rs. 6000. Remaining items = 60. Step 3: Case 2: 40% of 60 = 24 units sold at 20% discount on MP (150 * 0.8 = 120) = 24 * 120 = Rs. 2880. Step 4: Case 3: Rest = 60 - 24 = 36 units sold at 40% discount on MP (150 * 0.6 = 90) = 36 * 90 = Rs. 3240. Step 5: Total Revenue = 6000 + 2880 + 3240 = Rs. 12120. Net Profit Percentage = ((12120 - 10000) / 10000) * 100 = 24.4%."
+    "e": "Step 1: Let total cost price (CP) per unit be Rs. 100 and total items be 100. Total Cost = Rs. 10000. Marked Price (MP) per unit = Rs. 150. Step 2: Case 1: 40 units sold at MP = 40 * 150 = Rs. 6000. Remaining items = 60. Step 3: Case 2: 40% of 60 = 24 units sold at 20% discount on MP (150 * 0.8 = 120) = 24 * 120 = Rs. 2880. Step 4: Case 3: Rest = 60 - 24 = 36 units sold at 40% discount on MP (150 * 0.6 = 90) = 36 * 90 = Rs. 3240. Step 5: Total Revenue = 6000 + 2880 + 3240 = Rs. 12120. Net Profit Percentage = ((12120 - 10000) / 10000) * 100 = 24.4%.",
+    "topic_tag": "maths.discount.discount_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_45",
@@ -187,7 +196,8 @@
       "Rs. 24000"
     ],
     "a": 0,
-    "e": "Step 1: Total profit = Rs. 41000. A's annual managing salary = 500 * 12 = Rs. 6000. Remaining profit to distribute = 41000 - 6000 = Rs. 35000. Step 2: Let initial investments be 5x and 6x. A's equivalent monthly capital = (5x * 4) + (4x * 8) = 52x. Step 3: B's investment increases by 33.33% (1/3 of 6x = 2x) to become 8x. B's equivalent monthly capital = (6x * 4) + (8x * 8) = 88x. Step 4: Investment profit ratio A : B = 52 : 88 = 13 : 22. Sum of parts = 13 + 22 = 35 parts. Step 5: B's share = (22 / 35) * 35000 = Rs. 22000."
+    "e": "Step 1: Total profit = Rs. 41000. A's annual managing salary = 500 * 12 = Rs. 6000. Remaining profit to distribute = 41000 - 6000 = Rs. 35000. Step 2: Let initial investments be 5x and 6x. A's equivalent monthly capital = (5x * 4) + (4x * 8) = 52x. Step 3: B's investment increases by 33.33% (1/3 of 6x = 2x) to become 8x. B's equivalent monthly capital = (6x * 4) + (8x * 8) = 88x. Step 4: Investment profit ratio A : B = 52 : 88 = 13 : 22. Sum of parts = 13 + 22 = 35 parts. Step 5: B's share = (22 / 35) * 35000 = Rs. 22000.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_46",
@@ -206,7 +216,8 @@
       "30 km/h"
     ],
     "a": 0,
-    "e": "Step 1: Average speed formula = Total Distance / Total Time. Let each equal distance be represented by the LCM of speeds (60 km) to simplify fractions. Total Distance = 4 * 60 = 240 km. Step 2: Calculate individual times: t1 = 60/10 = 10h? No, 6h. t2 = 60/20 = 3h. t3 = 60/30 = 2h. t4 = 60/60 = 1h. Step 3: Total time taken = 6 + 3 + 2 + 1 = 12 hours. Step 4: Average Speed = 240 / 12 = 20 km/h."
+    "e": "Step 1: Average speed formula = Total Distance / Total Time. Let each equal distance be represented by the LCM of speeds (60 km) to simplify fractions. Total Distance = 4 * 60 = 240 km. Step 2: Calculate individual times: t1 = 60/10 = 10h? No, 6h. t2 = 60/20 = 3h. t3 = 60/30 = 2h. t4 = 60/60 = 1h. Step 3: Total time taken = 6 + 3 + 2 + 1 = 12 hours. Step 4: Average Speed = 240 / 12 = 20 km/h.",
+    "topic_tag": "maths.train.train_speed_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_47",
@@ -225,7 +236,8 @@
       "10 cm"
     ],
     "a": 0,
-    "e": "Step 1: Volume of a single sphere = (4 / 3) * pi * R^3 = (4 / 3) * pi * 3^3 = 36 * pi cm^3. Step 2: Volume of 12 spheres = 12 * 36 * pi = 432 * pi cm^3. Step 3: Volume of the right circular cylinder = pi * r^2 * h = pi * 6^2 * h = 36 * pi * h. Step 4: Since total volume remains constant, equate both expressions: 36 * pi * h = 432 * pi. Step 5: Height (h) = 432 / 36 = 12 cm."
+    "e": "Step 1: Volume of a single sphere = (4 / 3) * pi * R^3 = (4 / 3) * pi * 3^3 = 36 * pi cm^3. Step 2: Volume of 12 spheres = 12 * 36 * pi = 432 * pi cm^3. Step 3: Volume of the right circular cylinder = pi * r^2 * h = pi * 6^2 * h = 36 * pi * h. Step 4: Since total volume remains constant, equate both expressions: 36 * pi * h = 432 * pi. Step 5: Height (h) = 432 / 36 = 12 cm.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_48",
@@ -244,7 +256,8 @@
       "10"
     ],
     "a": 0,
-    "e": "Step 1: Perform prime factorization of 7200: $7200 = 2^5 \\times 3^2 \\times 5^2$. Step 2: For a factor to be a perfect square, the exponents of its prime components must be even numbers. Step 3: Possible even power choices for base 2 are: $2^0, 2^2, 2^4$ (3 choices). Step 4: Possible even power choices for base 3 are: $3^0, 3^2$ (2 choices). Step 5: Possible even power choices for base 5 are: $5^0, 5^2$ (2 choices). Step 6: Total perfect square factors = 3 * 2 * 2 = 12."
+    "e": "Step 1: Perform prime factorization of 7200: $7200 = 2^5 \\times 3^2 \\times 5^2$. Step 2: For a factor to be a perfect square, the exponents of its prime components must be even numbers. Step 3: Possible even power choices for base 2 are: $2^0, 2^2, 2^4$ (3 choices). Step 4: Possible even power choices for base 3 are: $3^0, 3^2$ (2 choices). Step 5: Possible even power choices for base 5 are: $5^0, 5^2$ (2 choices). Step 6: Total perfect square factors = 3 * 2 * 2 = 12.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_49",
@@ -263,7 +276,8 @@
       "Rs. 50000"
     ],
     "a": 0,
-    "e": "Step 1: Let the monthly incomes be 5x and 4x, and expenditures be 4y and 3y. Step 2: Form equations based on Savings = Income - Expenditure: $5x - 4y = 5000$ (Eq 1) and $4x - 3y = 6000$ (Eq 2). Step 3: Multiply Eq 1 by 3 and Eq 2 by 4 to eliminate y: $15x - 12y = 15000$ and $16x - 12y = 24000$. Step 4: Subtracting the equations gives: $16x - 15x = 24000 - 15000 \\Rightarrow x = 9000$. Step 5: A's income = 5x = 5 * 9000 = Rs. 45000."
+    "e": "Step 1: Let the monthly incomes be 5x and 4x, and expenditures be 4y and 3y. Step 2: Form equations based on Savings = Income - Expenditure: $5x - 4y = 5000$ (Eq 1) and $4x - 3y = 6000$ (Eq 2). Step 3: Multiply Eq 1 by 3 and Eq 2 by 4 to eliminate y: $15x - 12y = 15000$ and $16x - 12y = 24000$. Step 4: Subtracting the equations gives: $16x - 15x = 24000 - 15000 \\Rightarrow x = 9000$. Step 5: A's income = 5x = 5 * 9000 = Rs. 45000.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_50",
@@ -282,7 +296,8 @@
       "Rs. 7500"
     ],
     "a": 0,
-    "e": "Step 1: Let the part lent at 6% be x. Then the part lent at 8% is (15000 - x). Step 2: Set up the total interest equation: $0.06x + 0.08(15000 - x) = 1040$. Step 3: Simplify: $0.06x + 1200 - 0.08x = 1040 \\Rightarrow 1200 - 0.02x = 1040 \\Rightarrow 0.02x = 160$. Step 4: $x = 160 / 0.02 = Rs. 8000$ (amount at 6%). Step 5: Amount lent at 8% = 15000 - 8000 = Rs. 7000."
+    "e": "Step 1: Let the part lent at 6% be x. Then the part lent at 8% is (15000 - x). Step 2: Set up the total interest equation: $0.06x + 0.08(15000 - x) = 1040$. Step 3: Simplify: $0.06x + 1200 - 0.08x = 1040 \\Rightarrow 1200 - 0.02x = 1040 \\Rightarrow 0.02x = 160$. Step 4: $x = 160 / 0.02 = Rs. 8000$ (amount at 6%). Step 5: Amount lent at 8% = 15000 - 8000 = Rs. 7000.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_51",
@@ -301,7 +316,8 @@
       "15 seconds"
     ],
     "a": 0,
-    "e": "Step 1: Convert speed to m/s = 90 * (5 / 18) = 25 m/s. Step 2: Total distance covered crossing platform = Length of train (L) + 250. Step 3: Distance = Speed * Time $\\Rightarrow L + 250 = 25 * 22 = 550 \\Rightarrow L = 300$ meters. Step 4: Time taken to cross a static pole = Length of train / Speed = 300 / 25 = 12 seconds."
+    "e": "Step 1: Convert speed to m/s = 90 * (5 / 18) = 25 m/s. Step 2: Total distance covered crossing platform = Length of train (L) + 250. Step 3: Distance = Speed * Time $\\Rightarrow L + 250 = 25 * 22 = 550 \\Rightarrow L = 300$ meters. Step 4: Time taken to cross a static pole = Length of train / Speed = 300 / 25 = 12 seconds.",
+    "topic_tag": "maths.train.train_speed_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_52",
@@ -320,7 +336,8 @@
       "1512"
     ],
     "a": 0,
-    "e": "Step 1: Identify the components: first term a = 4, common ratio r = 12 / 4 = 3. Step 2: Use sum formula: $S_n = a(r^n - 1) / (r - 1)$. Step 3: Substitute for 6 terms: $S_6 = 4(3^6 - 1) / (3 - 1) = 4(729 - 1) / 2$. Step 4: Calculate = 2 * 728 = 1456."
+    "e": "Step 1: Identify the components: first term a = 4, common ratio r = 12 / 4 = 3. Step 2: Use sum formula: $S_n = a(r^n - 1) / (r - 1)$. Step 3: Substitute for 6 terms: $S_6 = 4(3^6 - 1) / (3 - 1) = 4(729 - 1) / 2$. Step 4: Calculate = 2 * 728 = 1456.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_53",
@@ -339,7 +356,8 @@
       "192"
     ],
     "a": 0,
-    "e": "Step 1: Square the expression once: $(x + 1/x)^2 = 4^2 \\Rightarrow x^2 + 2 + 1/x^2 = 16 \\Rightarrow x^2 + 1/x^2 = 14$. Step 2: Square the new expression a second time: $(x^2 + 1/x^2)^2 = 14^2 \\Rightarrow x^4 + 2 + 1/x^4 = 196$. Step 3: Rearrange to find the final value: $x^4 + 1/x^4 = 196 - 2 = 194$."
+    "e": "Step 1: Square the expression once: $(x + 1/x)^2 = 4^2 \\Rightarrow x^2 + 2 + 1/x^2 = 16 \\Rightarrow x^2 + 1/x^2 = 14$. Step 2: Square the new expression a second time: $(x^2 + 1/x^2)^2 = 14^2 \\Rightarrow x^4 + 2 + 1/x^4 = 196$. Step 3: Rearrange to find the final value: $x^4 + 1/x^4 = 196 - 2 = 194$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_54",
@@ -358,7 +376,8 @@
       "22500"
     ],
     "a": 0,
-    "e": "Step 1: Let the total registered voters be V. Votes cast = 0.90V. Valid votes = 0.90 * 0.90V = 0.81V. Step 2: The winner got 54% of valid votes, meaning the loser got 100 - 54 = 46% of valid votes. Step 3: The vote majority difference = 54% - 46% = 8% of the valid votes. Step 4: Set up equation: 8% of 0.81V = 1620 $\\Rightarrow 0.08 * 0.81 * V = 1620 \\Rightarrow 0.0648V = 1620$. Step 5: V = 1620 / 0.0648 = 25000."
+    "e": "Step 1: Let the total registered voters be V. Votes cast = 0.90V. Valid votes = 0.90 * 0.90V = 0.81V. Step 2: The winner got 54% of valid votes, meaning the loser got 100 - 54 = 46% of valid votes. Step 3: The vote majority difference = 54% - 46% = 8% of the valid votes. Step 4: Set up equation: 8% of 0.81V = 1620 $\\Rightarrow 0.08 * 0.81 * V = 1620 \\Rightarrow 0.0648V = 1620$. Step 5: V = 1620 / 0.0648 = 25000.",
+    "topic_tag": "maths.percentage.percentage_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_55",
@@ -377,7 +396,8 @@
       "sqrt(7)"
     ],
     "a": 0,
-    "e": "Step 1: Let the infinite product string be equal to x. $x = \\sqrt{7 \\cdot x}$. Step 2: Square both sides of the equation: $x^2 = 7x$. Step 3: Since x represents an infinite real sequence greater than zero ($x \\neq 0$), divide by x on both sides: x = 7."
+    "e": "Step 1: Let the infinite product string be equal to x. $x = \\sqrt{7 \\cdot x}$. Step 2: Square both sides of the equation: $x^2 = 7x$. Step 3: Since x represents an infinite real sequence greater than zero ($x \\neq 0$), divide by x on both sides: x = 7.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_56",
@@ -396,7 +416,8 @@
       "9941"
     ],
     "a": 0,
-    "e": "Step 1: Find the Least Common Multiple (LCM) of 12, 16, 24, and 32 = 96. Step 2: The largest possible 4-digit number is 9999. Step 3: Divide 9999 by 96 to locate the remainder: 9999 / 96 leaves a remainder of 15. Step 4: Subtract this remainder to find the largest 4-digit multiple of 96 = 9999 - 15 = 9984. Step 5: Add the required remainder constraint: 9984 + 5 = 9989."
+    "e": "Step 1: Find the Least Common Multiple (LCM) of 12, 16, 24, and 32 = 96. Step 2: The largest possible 4-digit number is 9999. Step 3: Divide 9999 by 96 to locate the remainder: 9999 / 96 leaves a remainder of 15. Step 4: Subtract this remainder to find the largest 4-digit multiple of 96 = 9999 - 15 = 9984. Step 5: Add the required remainder constraint: 9984 + 5 = 9989.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_57",
@@ -415,7 +436,8 @@
       "375 sq.m"
     ],
     "a": 0,
-    "e": "Step 1: Inner Area of the lawn = 50 * 30 = 1500 sq.m. Step 2: Calculate the new outer dimensions after adding 2.5 meters on both sides: Outer Length = 50 + 2(2.5) = 55m. Outer Breadth = 30 + 2(2.5) = 35m. Step 3: Outer Area including path = 55 * 35 = 1925 sq.m. Step 4: Area of the path = Outer Area - Inner Area = 1925 - 1500 = 425 sq.m."
+    "e": "Step 1: Inner Area of the lawn = 50 * 30 = 1500 sq.m. Step 2: Calculate the new outer dimensions after adding 2.5 meters on both sides: Outer Length = 50 + 2(2.5) = 55m. Outer Breadth = 30 + 2(2.5) = 35m. Step 3: Outer Area including path = 55 * 35 = 1925 sq.m. Step 4: Area of the path = Outer Area - Inner Area = 1925 - 1500 = 425 sq.m.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_58",
@@ -434,7 +456,8 @@
       "46"
     ],
     "a": 0,
-    "e": "Step 1: The standard empirical statistical relation is: $\\text{Mode} = 3 \\times \\text{Median} - 2 \\times \\text{Mean}$. Step 2: Substitute the given values into the relation: $\\text{Mode} = 3(45) - 2(42)$. Step 3: Calculate: $\\text{Mode} = 135 - 84 = 51$."
+    "e": "Step 1: The standard empirical statistical relation is: $\\text{Mode} = 3 \\times \\text{Median} - 2 \\times \\text{Mean}$. Step 2: Substitute the given values into the relation: $\\text{Mode} = 3(45) - 2(42)$. Step 3: Calculate: $\\text{Mode} = 135 - 84 = 51$.",
+    "topic_tag": "maths.average.average_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_59",
@@ -453,7 +476,8 @@
       "21 years"
     ],
     "a": 0,
-    "e": "Step 1: Let the present ages be 7x and 2x. After 4 years, their ages will be (7x + 4) and (2x + 4). Step 2: Set up product equation: $(7x + 4)(2x + 4) = 384 \\Rightarrow 14x^2 + 28x + 8x + 16 = 384$. Step 3: Simplify to standard quadratic equation: $14x^2 + 36x - 368 = 0 \\Rightarrow 7x^2 + 18x - 184 = 0$. Step 4: Solving factors shows x = 4 satisfies the equation ($7(16) + 72 - 184 = 0$). Step 5: Mother's present age = 7x = 7 * 4 = 28 years."
+    "e": "Step 1: Let the present ages be 7x and 2x. After 4 years, their ages will be (7x + 4) and (2x + 4). Step 2: Set up product equation: $(7x + 4)(2x + 4) = 384 \\Rightarrow 14x^2 + 28x + 8x + 16 = 384$. Step 3: Simplify to standard quadratic equation: $14x^2 + 36x - 368 = 0 \\Rightarrow 7x^2 + 18x - 184 = 0$. Step 4: Solving factors shows x = 4 satisfies the equation ($7(16) + 72 - 184 = 0$). Step 5: Mother's present age = 7x = 7 * 4 = 28 years.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_60",
@@ -472,7 +496,8 @@
       "1"
     ],
     "a": 0,
-    "e": "Step 1: The unit digit of $(763)^{45}$ depends on $3^{45}$. Cyclicity of 3 is 4. $45 \\% 4 = 1 \\Rightarrow 3^1 = 3$. Step 2: The unit digit of $(827)^{98}$ depends on $7^{98}$. Cyclicity of 7 is 4. $98 \\% 4 = 2 \\Rightarrow 7^2 = 49$, which ends in 9. Step 3: Multiply both unit digits = 3 * 9 = 27. The final unit digit is 7."
+    "e": "Step 1: The unit digit of $(763)^{45}$ depends on $3^{45}$. Cyclicity of 3 is 4. $45 \\% 4 = 1 \\Rightarrow 3^1 = 3$. Step 2: The unit digit of $(827)^{98}$ depends on $7^{98}$. Cyclicity of 7 is 4. $98 \\% 4 = 2 \\Rightarrow 7^2 = 49$, which ends in 9. Step 3: Multiply both unit digits = 3 * 9 = 27. The final unit digit is 7.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_61",
@@ -491,7 +516,8 @@
       "Rs. 2000"
     ],
     "a": 0,
-    "e": "Step 1: Total work (LCM of 8, 12, 16) = 48 units. Efficiency of A = 6, B = 4, C = 3 units/day. Step 2: A worked only for the first 2 days with the team. Step 3: Total work volume completed by A = 6 units/day * 2 days = 12 units. Step 4: Share of money is proportional to work share = (Work by A / Total Work) * Total Money = (12 / 48) * 7200 = (1 / 4) * 7200 = Rs. 1800."
+    "e": "Step 1: Total work (LCM of 8, 12, 16) = 48 units. Efficiency of A = 6, B = 4, C = 3 units/day. Step 2: A worked only for the first 2 days with the team. Step 3: Total work volume completed by A = 6 units/day * 2 days = 12 units. Step 4: Share of money is proportional to work share = (Work by A / Total Work) * Total Money = (12 / 48) * 7200 = (1 / 4) * 7200 = Rs. 1800.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_62",
@@ -510,7 +536,8 @@
       "3 : 5"
     ],
     "a": 0,
-    "e": "Step 1: Use spirit concentrations to set up alligation. Concentration in A = 5/7, in B = 7/13, and target in C = 8/13. Step 2: Calculate difference on B side: $8/13 - 7/13 = 1/13$. Step 3: Calculate difference on A side: $5/7 - 8/13 = (65 - 56) / 91 = 9/91$. Step 4: Mixing Ratio = $(1/13) : (9/91) = 1 : (9/7) = 7 : 9$."
+    "e": "Step 1: Use spirit concentrations to set up alligation. Concentration in A = 5/7, in B = 7/13, and target in C = 8/13. Step 2: Calculate difference on B side: $8/13 - 7/13 = 1/13$. Step 3: Calculate difference on A side: $5/7 - 8/13 = (65 - 56) / 91 = 9/91$. Step 4: Mixing Ratio = $(1/13) : (9/91) = 1 : (9/7) = 7 : 9$.",
+    "topic_tag": "maths.mixture.mixture_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_63",
@@ -529,7 +556,8 @@
       "Rs. 220"
     ],
     "a": 0,
-    "e": "Step 1: Let the original cost price for the publisher be x. Step 2: Price paid by the bookseller = 1.20x. Step 3: Price paid by the student = 1.20x * 1.25 = 1.50x. Step 4: Given student price is Rs. 300, set up equation: $1.50x = 300$. Step 5: $x = 300 / 1.50 = Rs. 200$."
+    "e": "Step 1: Let the original cost price for the publisher be x. Step 2: Price paid by the bookseller = 1.20x. Step 3: Price paid by the student = 1.20x * 1.25 = 1.50x. Step 4: Given student price is Rs. 300, set up equation: $1.50x = 300$. Step 5: $x = 300 / 1.50 = Rs. 200$.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_64",
@@ -548,7 +576,8 @@
       "Rs. 1050"
     ],
     "a": 0,
-    "e": "Step 1: Use simple interest formula to locate principal (P): $SI = (P \\times R \\times T) / 100 \\Rightarrow 3000 = (P \\times 10 \\times 3) / 100 \\Rightarrow 3000 = 0.3P \\Rightarrow P = Rs. 10000$. Step 2: The effective compound interest percentage for 2 years at 10% = $10 + 10 + (10 \\times 10 / 100) = 21\\%$. Step 3: Compound Interest = 21% of Rs. 10000 = Rs. 2100."
+    "e": "Step 1: Use simple interest formula to locate principal (P): $SI = (P \\times R \\times T) / 100 \\Rightarrow 3000 = (P \\times 10 \\times 3) / 100 \\Rightarrow 3000 = 0.3P \\Rightarrow P = Rs. 10000$. Step 2: The effective compound interest percentage for 2 years at 10% = $10 + 10 + (10 \\times 10 / 100) = 21\\%$. Step 3: Compound Interest = 21% of Rs. 10000 = Rs. 2100.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_65",
@@ -567,7 +596,8 @@
       "15 cm"
     ],
     "a": 0,
-    "e": "Step 1: Radius R = 10 cm. Half of Chord 1 = 12 / 2 = 6 cm. Perpendicular distance from center to Chord 1 ($d_1$) = $\\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$ cm. Step 2: Half of Chord 2 = 16 / 2 = 8 cm. Perpendicular distance from center to Chord 2 ($d_2$) = $\\sqrt{10^2 - 8^2} = \\sqrt{36} = 6$ cm. Step 3: Since chords lie on opposite sides of the center, add the perpendicular distances = $d_1 + d_2 = 8 + 6 = 14$ cm."
+    "e": "Step 1: Radius R = 10 cm. Half of Chord 1 = 12 / 2 = 6 cm. Perpendicular distance from center to Chord 1 ($d_1$) = $\\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$ cm. Step 2: Half of Chord 2 = 16 / 2 = 8 cm. Perpendicular distance from center to Chord 2 ($d_2$) = $\\sqrt{10^2 - 8^2} = \\sqrt{36} = 6$ cm. Step 3: Since chords lie on opposite sides of the center, add the perpendicular distances = $d_1 + d_2 = 8 + 6 = 14$ cm.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_66",
@@ -586,7 +616,8 @@
       "48"
     ],
     "a": 0,
-    "e": "Step 1: For a number to be divisible by 5, its units place digit must be 5 or 0. Since 0 is not in the set, the units position has exactly 1 choice (must be 5). Step 2: We need to fill the remaining 3 digit slots (thousands, hundreds, tens) using the remaining 5 available digits. Step 3: Number of distinct permutations = 5P3 = 5 * 4 * 3 = 60 numbers."
+    "e": "Step 1: For a number to be divisible by 5, its units place digit must be 5 or 0. Since 0 is not in the set, the units position has exactly 1 choice (must be 5). Step 2: We need to fill the remaining 3 digit slots (thousands, hundreds, tens) using the remaining 5 available digits. Step 3: Number of distinct permutations = 5P3 = 5 * 4 * 3 = 60 numbers.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_67",
@@ -605,7 +636,8 @@
       "3/7"
     ],
     "a": 0,
-    "e": "Step 1: A leap year contains 366 days, which translates to 52 complete weeks and exactly 2 extra odd days. Step 2: These 2 odd days can form 7 possible consecutive pairs: (Sun-Mon, Mon-Tue, Tue-Wed, Wed-Thu, Thu-Fri, Fri-Sat, Sat-Sun). Step 3: Out of 7 total pairs, 2 pairs contain a Sunday (Sun-Mon and Fri-Sat? No, Sat-Sun). Step 4: Therefore, the favorable outcomes are 2, and the exact probability is 2 / 7."
+    "e": "Step 1: A leap year contains 366 days, which translates to 52 complete weeks and exactly 2 extra odd days. Step 2: These 2 odd days can form 7 possible consecutive pairs: (Sun-Mon, Mon-Tue, Tue-Wed, Wed-Thu, Thu-Fri, Fri-Sat, Sat-Sun). Step 3: Out of 7 total pairs, 2 pairs contain a Sunday (Sun-Mon and Fri-Sat? No, Sat-Sun). Step 4: Therefore, the favorable outcomes are 2, and the exact probability is 2 / 7.",
+    "topic_tag": "maths.probability.probability_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_68",
@@ -624,7 +656,8 @@
       "10 km/h"
     ],
     "a": 0,
-    "e": "Step 1: Let speed of boat in still water be v km/h. Downstream Speed = v + 4, Upstream Speed = v - 4. Step 2: Since time is inversely proportional to speed for a fixed distance: Downstream Speed = 2 * Upstream Speed. Step 3: Set up equation: $v + 4 = 2(v - 4) \\Rightarrow v + 4 = 2v - 8$. Step 4: Solve for v: $2v - v = 4 + 8 \\Rightarrow v = 12$ km/h."
+    "e": "Step 1: Let speed of boat in still water be v km/h. Downstream Speed = v + 4, Upstream Speed = v - 4. Step 2: Since time is inversely proportional to speed for a fixed distance: Downstream Speed = 2 * Upstream Speed. Step 3: Set up equation: $v + 4 = 2(v - 4) \\Rightarrow v + 4 = 2v - 8$. Step 4: Solve for v: $2v - v = 4 + 8 \\Rightarrow v = 12$ km/h.",
+    "topic_tag": "maths.boats_and_streams.boat_stream_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_69",
@@ -643,7 +676,8 @@
       "365"
     ],
     "a": 0,
-    "e": "Step 1: Use the standard series mathematical formula for the sum of squares of first n natural numbers: $S = [n(n + 1)(2n + 1)] / 6$. Step 2: Substitute n = 10 into the expression: $S = [10 \\times (10 + 1) \\times (2(10) + 1)] / 6$. Step 3: Simplify: $S = (10 \\times 11 \\times 21) / 6 = 2310 / 6 = 385$."
+    "e": "Step 1: Use the standard series mathematical formula for the sum of squares of first n natural numbers: $S = [n(n + 1)(2n + 1)] / 6$. Step 2: Substitute n = 10 into the expression: $S = [10 \\times (10 + 1) \\times (2(10) + 1)] / 6$. Step 3: Simplify: $S = (10 \\times 11 \\times 21) / 6 = 2310 / 6 = 385$.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_70",
@@ -662,6 +696,7 @@
       "6"
     ],
     "a": 0,
-    "e": "Step 1: For a number to be divisible by 72, it must be completely divisible by both 8 and 9. Step 2: Test 8 divisibility rule (last 3 digits must be divisible by 8): $31y / 8$. Checking numbers reveals 312 is divisible by 8 ($312/8 = 39$). So the smallest value of y = 2. Step 3: Test 9 divisibility rule (sum of all digits must be a multiple of 9): $7 + 8 + 9 + x + 5 + 3 + 1 + 2 = 35 + x$. Step 4: The next higher multiple of 9 after 35 is 36. Therefore, $35 + x = 36 \\Rightarrow x = 1$. Step 5: Substitute values into the target expression: $(2x + y) = 2(1) + 2 = 4$."
+    "e": "Step 1: For a number to be divisible by 72, it must be completely divisible by both 8 and 9. Step 2: Test 8 divisibility rule (last 3 digits must be divisible by 8): $31y / 8$. Checking numbers reveals 312 is divisible by 8 ($312/8 = 39$). So the smallest value of y = 2. Step 3: Test 9 divisibility rule (sum of all digits must be a multiple of 9): $7 + 8 + 9 + x + 5 + 3 + 1 + 2 = 35 + x$. Step 4: The next higher multiple of 9 after 35 is 36. Therefore, $35 + x = 36 \\Rightarrow x = 1$. Step 5: Substitute values into the target expression: $(2x + y) = 2(1) + 2 = 4$.",
+    "topic_tag": "maths.number_system.number_system_problems"
   }
 ]

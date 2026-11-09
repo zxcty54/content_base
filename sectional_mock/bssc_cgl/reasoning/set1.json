@@ -16,7 +16,8 @@
       "4-9-64-1-324"
     ],
     "a": 1,
-    "e": "Step 1: Identify the standard alphabetical position of each letter in the word: B=2, I=9, H=8, A=1, R=18. Step 2: Square each of these single positional values: 2^2=4, 9^2=81, 8^2=64, 1^2=1, 18^2=324. Step 3: Combine the squared results with hyphens to form the final code string: '4-81-64-1-324'."
+    "e": "Step 1: Identify the standard alphabetical position of each letter in the word: B=2, I=9, H=8, A=1, R=18. Step 2: Square each of these single positional values: 2^2=4, 9^2=81, 8^2=64, 1^2=1, 18^2=324. Step 3: Combine the squared results with hyphens to form the final code string: '4-81-64-1-324'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_cgl_adv_reason_02",
@@ -35,7 +36,8 @@
       "T $ R @ J % K"
     ],
     "a": 2,
-    "e": "Step 1: Decode the correct option expression 'K % J @ R $ T'. Step 2: 'K % J' means K is the mother of J (K is female). Step 3: 'J @ R' means J is the husband of R. This implies J is male and R is his wife. Since K is J's mother, K is the mother-in-law of R. Step 4: 'R $ T' or structurally tracking parentage: 'J @ R' means J is the husband of R, and if combined with 'J $ T' or 'R is the mother of T' types. Let's trace 'J is the father of T'. If J is the father of T and K is the mother of J, then K is the paternal grandmother of T."
+    "e": "Step 1: Decode the correct option expression 'K % J @ R $ T'. Step 2: 'K % J' means K is the mother of J (K is female). Step 3: 'J @ R' means J is the husband of R. This implies J is male and R is his wife. Since K is J's mother, K is the mother-in-law of R. Step 4: 'R $ T' or structurally tracking parentage: 'J @ R' means J is the husband of R, and if combined with 'J $ T' or 'R is the mother of T' types. Let's trace 'J is the father of T'. If J is the father of T and K is the mother of J, then K is the paternal grandmother of T.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_03",
@@ -54,7 +56,8 @@
       "D"
     ],
     "a": 0,
-    "e": "Step 1: F sits at one of the ends. Since C sits second to the left of F, F must be at the extreme right end and facing North, or extreme left end facing South. Step 2: Following structural row setup constraints: F occupies the extreme right position. Step 3: Placing the remaining letters sequentially based on constraints yields the final layout from left to right as F - B - E - D - C - A under the specific directional flips. Thus, F is at the extreme end."
+    "e": "Step 1: F sits at one of the ends. Since C sits second to the left of F, F must be at the extreme right end and facing North, or extreme left end facing South. Step 2: Following structural row setup constraints: F occupies the extreme right position. Step 3: Placing the remaining letters sequentially based on constraints yields the final layout from left to right as F - B - E - D - C - A under the specific directional flips. Thus, F is at the extreme end.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_04",
@@ -73,7 +76,8 @@
       "Neither conclusion I nor II follows"
     ],
     "a": 2,
-    "e": "Step 1: Analyze Conclusion I: There is no direct negative relationship or restriction between Planets and Comets. Therefore, an overlapping Venn diagram where all Planets are inside Comets is completely valid. Hence, it is a possibility. Step 2: Analyze Conclusion II: The part of Stars that intersects with Comets can never touch or enter the Moon circle because No Comet is a Moon. Therefore, those specific Stars are definitely not Moons. Both conclusions follow."
+    "e": "Step 1: Analyze Conclusion I: There is no direct negative relationship or restriction between Planets and Comets. Therefore, an overlapping Venn diagram where all Planets are inside Comets is completely valid. Hence, it is a possibility. Step 2: Analyze Conclusion II: The part of Stars that intersects with Comets can never touch or enter the Moon circle because No Comet is a Moon. Therefore, those specific Stars are definitely not Moons. Both conclusions follow.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_05",
@@ -92,7 +96,8 @@
       "South-West"
     ],
     "a": 0,
-    "e": "Step 1: Initially facing North. Step 2: Turns 90 degrees clockwise -> Now facing East. Step 3: From East, turning 135 degrees anti-clockwise rotates him back through North (90 degrees) and an additional 45 degrees into the North-West direction line? Let's check: East minus 135 anti-clockwise = North-West. Step 4: He moves 20 meters in the North-West direction. Tracking coordinates from the origin shows his spatial location remains inside the North-East quadrant relative to the origin because of the initial 15m East shift."
+    "e": "Step 1: Initially facing North. Step 2: Turns 90 degrees clockwise -> Now facing East. Step 3: From East, turning 135 degrees anti-clockwise rotates him back through North (90 degrees) and an additional 45 degrees into the North-West direction line? Let's check: East minus 135 anti-clockwise = North-West. Step 4: He moves 20 meters in the North-West direction. Tracking coordinates from the origin shows his spatial location remains inside the North-East quadrant relative to the origin because of the initial 15m East shift.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_06",
@@ -111,7 +116,8 @@
       "Neither conclusion I nor II is true"
     ],
     "a": 2,
-    "e": "Step 1: Combine the two statement strings using the common link variable W: $X \\ge Y > Z = W \\le U < V$. Step 2: Test Conclusion I ($X > W$): Moving from X to W, the symbols are $\\ge$ and $>$. The strict inequality $>$ takes priority, so $X > W$ is definitely true. Step 3: Test Conclusion II ($V > Z$): Since $Z = W$ and $W \\le U < V$, we can write $Z \\le U < V$. Moving from V to Z gives $V > U \\ge Z$, which simplifies to $V > Z$. Both are true."
+    "e": "Step 1: Combine the two statement strings using the common link variable W: $X \\ge Y > Z = W \\le U < V$. Step 2: Test Conclusion I ($X > W$): Moving from X to W, the symbols are $\\ge$ and $>$. The strict inequality $>$ takes priority, so $X > W$ is definitely true. Step 3: Test Conclusion II ($V > Z$): Since $Z = W$ and $W \\le U < V$, we can write $Z \\le U < V$. Moving from V to Z gives $V > U \\ge Z$, which simplifies to $V > Z$. Both are true.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_07",
@@ -130,7 +136,8 @@
       "50"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the mathematical pattern across the rows. Let the columns be C1, C2, and C3. Step 2: Row 1: $C1^2 + C2^2 = 4^2 + 3^2 = 16 + 9 = 25$. This matches C3. Step 3: Row 2: $C1^2 + C2^2 = 5^2 + 2^2 = 25 + 4 = 29$. This matches C3. Step 4: Apply the identical logic to Row 3: $C1^2 + C2^2 = 6^2 + 5^2 = 36 + 25 = 61$."
+    "e": "Step 1: Analyze the mathematical pattern across the rows. Let the columns be C1, C2, and C3. Step 2: Row 1: $C1^2 + C2^2 = 4^2 + 3^2 = 16 + 9 = 25$. This matches C3. Step 3: Row 2: $C1^2 + C2^2 = 5^2 + 2^2 = 25 + 4 = 29$. This matches C3. Step 4: Apply the identical logic to Row 3: $C1^2 + C2^2 = 6^2 + 5^2 = 36 + 25 = 61$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_08",
@@ -149,7 +156,8 @@
       "560"
     ],
     "a": 0,
-    "e": "Step 1: Identify the escalating multiplication and increasing constant addition pattern between consecutive terms. Step 2: $(2 \\times 1) + 1 = 3$. Step 3: $(3 \\times 2) + 2 = 8$. Step 4: $(8 \\times 3) + 3 = 27$. Step 5: $(27 \\times 4) + 4 = 112$. Step 6: Follow the pattern for the final missing term: $(112 \\times 5) + 5 = 560 + 5 = 565$."
+    "e": "Step 1: Identify the escalating multiplication and increasing constant addition pattern between consecutive terms. Step 2: $(2 \\times 1) + 1 = 3$. Step 3: $(3 \\times 2) + 2 = 8$. Step 4: $(8 \\times 3) + 3 = 27$. Step 5: $(27 \\times 4) + 4 = 112$. Step 6: Follow the pattern for the final missing term: $(112 \\times 5) + 5 = 560 + 5 = 565$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_09",
@@ -168,7 +176,8 @@
       "Resistance"
     ],
     "a": 3,
-    "e": "Step 1: Voltmeter, Ammeter, and Galvanometer are all physical instrument devices used to measure different electrical parameters. Step 2: Resistance is an inherent physical property of a material, not a measuring instrument device. Therefore, Resistance is the odd one out."
+    "e": "Step 1: Voltmeter, Ammeter, and Galvanometer are all physical instrument devices used to measure different electrical parameters. Step 2: Resistance is an inherent physical property of a material, not a measuring instrument device. Therefore, Resistance is the odd one out.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_10",
@@ -187,7 +196,8 @@
       "Either tma or lmo"
     ],
     "a": 3,
-    "e": "Step 1: Compare sentence 1 and 2: 'bonds' is common, the code 'zni' is common. Step 2: Compare sentence 1 and 3: 'corporate' is common, the code 'kpa' is common. Step 3: In sentence 1, the remaining words are 'invest' and 'in', and the remaining codes are 'tma' and 'lmo'. Step 4: Since there are no further sentences containing either 'invest' or 'in' to isolate variables, the exact code for 'invest' cannot be uniquely determined and could be either 'tma' or 'lmo'."
+    "e": "Step 1: Compare sentence 1 and 2: 'bonds' is common, the code 'zni' is common. Step 2: Compare sentence 1 and 3: 'corporate' is common, the code 'kpa' is common. Step 3: In sentence 1, the remaining words are 'invest' and 'in', and the remaining codes are 'tma' and 'lmo'. Step 4: Since there are no further sentences containing either 'invest' or 'in' to isolate variables, the exact code for 'invest' cannot be uniquely determined and could be either 'tma' or 'lmo'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_cgl_adv_reason_11",
@@ -206,7 +216,8 @@
       "F"
     ],
     "a": 1,
-    "e": "Step 1: Draw a circular grid with 8 positions. Place A arbitrarily, and put G to its immediate left. Step 2: Place H third to the left of A. Step 3: Fit the remaining constraints sequentially: B sits between F and C, and E is second to the right of C. Step 4: The full clockwise arrangement layout resolves to A - D - E - F - B - C - H - G. Step 5: The person sitting to the immediate right of D (counter-clockwise direction) is A."
+    "e": "Step 1: Draw a circular grid with 8 positions. Place A arbitrarily, and put G to its immediate left. Step 2: Place H third to the left of A. Step 3: Fit the remaining constraints sequentially: B sits between F and C, and E is second to the right of C. Step 4: The full clockwise arrangement layout resolves to A - D - E - F - B - C - H - G. Step 5: The person sitting to the immediate right of D (counter-clockwise direction) is A.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_12",
@@ -225,7 +236,8 @@
       "61"
     ],
     "a": 0,
-    "e": "Step 1: Find the number of students who cleared the exam using the ranking formula: Total Passed = Position from Top + Position from Bottom - 1 = 14 + 43 - 1 = 57 - 1 = 56 students. Step 2: Total registered students = Passed students + Absent students + Failed students = 56 + 5 + 3 = 64 students."
+    "e": "Step 1: Find the number of students who cleared the exam using the ranking formula: Total Passed = Position from Top + Position from Bottom - 1 = 14 + 43 - 1 = 57 - 1 = 56 students. Step 2: Total registered students = Passed students + Absent students + Failed students = 56 + 5 + 3 = 64 students.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_13",
@@ -244,7 +256,8 @@
       "Grandfather"
     ],
     "a": 1,
-    "e": "Step 1: Simplify the phrase 'my daughter's only brother'. This refers to Neha's son. Step 2: The uncle of Neha's son must be Neha's husband's brother (brother-in-law). Step 3: The statement now becomes: 'His only daughter's brother is Neha's husband's brother'. Step 4: The gentleman's daughter's brother is simply the gentleman's son. Step 5: If the gentleman's son is Neha's husband's brother, then the gentleman must be the father of Neha's husband, which explicitly makes him Neha's Father-in-law."
+    "e": "Step 1: Simplify the phrase 'my daughter's only brother'. This refers to Neha's son. Step 2: The uncle of Neha's son must be Neha's husband's brother (brother-in-law). Step 3: The statement now becomes: 'His only daughter's brother is Neha's husband's brother'. Step 4: The gentleman's daughter's brother is simply the gentleman's son. Step 5: If the gentleman's son is Neha's husband's brother, then the gentleman must be the father of Neha's husband, which explicitly makes him Neha's Father-in-law.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_14",
@@ -263,7 +276,8 @@
       "Two separate non-intersecting circles inside a larger circle"
     ],
     "a": 2,
-    "e": "Step 1: Both Government Employees and Technical Professionals are entirely subsets of the 'Humans' category (outer large enclosing circle). Step 2: Some Government Employees can also be Technical Professionals simultaneously (such as government software engineers, creating a partial intersection between the two inner circles). Step 3: This matches the structure of two intersecting circles inside a larger circle."
+    "e": "Step 1: Both Government Employees and Technical Professionals are entirely subsets of the 'Humans' category (outer large enclosing circle). Step 2: Some Government Employees can also be Technical Professionals simultaneously (such as government software engineers, creating a partial intersection between the two inner circles). Step 3: This matches the structure of two intersecting circles inside a larger circle.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_15",
@@ -282,7 +296,8 @@
       "125 degrees"
     ],
     "a": 0,
-    "e": "Step 1: Use the standard clock angle formula: Angle = |30H - (11/2)M|, where H represents hours and M represents minutes. Step 2: Substitute H = 3 and M = 40 into the expression. Step 3: Angle = |30(3) - (11/2)(40)| = |90 - 11(20)| = |90 - 220| = |-130| = 130 degrees."
+    "e": "Step 1: Use the standard clock angle formula: Angle = |30H - (11/2)M|, where H represents hours and M represents minutes. Step 2: Substitute H = 3 and M = 40 into the expression. Step 3: Angle = |30(3) - (11/2)(40)| = |90 - 11(20)| = |90 - 220| = |-130| = 130 degrees.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_16",
@@ -301,7 +316,8 @@
       "Friday"
     ],
     "a": 1,
-    "e": "Step 1: Count the total number of days between Jan 26 and Aug 15 in a non-leap year. Remaining days in Jan = 5. Feb = 28, Mar = 31, Apr = 30, May = 31, June = 30, July = 31, Aug given days = 15. Step 2: Sum of days = 5 + 28 + 31 + 30 + 31 + 30 + 31 + 15 = 201 days. Step 3: Divide 201 by 7 to find odd days: 201 % 7 leaves a remainder of 5 odd days. Step 4: Since we are moving backward in time from August to January, count 5 days backward from Thursday (or 2 days forward), which gives Wednesday."
+    "e": "Step 1: Count the total number of days between Jan 26 and Aug 15 in a non-leap year. Remaining days in Jan = 5. Feb = 28, Mar = 31, Apr = 30, May = 31, June = 30, July = 31, Aug given days = 15. Step 2: Sum of days = 5 + 28 + 31 + 30 + 31 + 30 + 31 + 15 = 201 days. Step 3: Divide 201 by 7 to find odd days: 201 % 7 leaves a remainder of 5 odd days. Step 4: Since we are moving backward in time from August to January, count 5 days backward from Thursday (or 2 days forward), which gives Wednesday.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_17",
@@ -320,7 +336,8 @@
       "A dice showing faces C, D, and F together"
     ],
     "a": 2,
-    "e": "Step 1: According to the rules of folding a cube, no two opposite faces can ever be visible or adjacent to each other at the same time on a solid dice. Step 2: Option 1 shows A and D together (opposites - impossible). Option 2 shows B and E together (opposites - impossible). Option 4 shows C and F together (opposites - impossible). Step 3: Option 3 shows A, B, and C, none of which are opposite to each other. Hence, it is possible."
+    "e": "Step 1: According to the rules of folding a cube, no two opposite faces can ever be visible or adjacent to each other at the same time on a solid dice. Step 2: Option 1 shows A and D together (opposites - impossible). Option 2 shows B and E together (opposites - impossible). Option 4 shows C and F together (opposites - impossible). Step 3: Option 3 shows A, B, and C, none of which are opposite to each other. Hence, it is possible.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_18",
@@ -339,7 +356,8 @@
       "KPMLGV"
     ],
     "a": 3,
-    "e": "Step 1: Analyze the positional translation pattern in MASTER -> OCVVGT. M(+2)->O, A(+2)->C, S(+3)->V, T(+2)->V, E(+2)->G, R(+2)->T. Wait, let's re-verify: S=19+3=22(V). T=20+2=22(V). Every letter shifts +2 except S which shifts +3? Let's check a standard alternate shift: M(+2)->O, A(+2)->C, S(+3)->V... Following the exact pattern for INKJET gives I+2=K, N+2=P, K+2=M, J+2=L, E+2=G, T+2=V, which forms 'KPMLGV'."
+    "e": "Step 1: Analyze the positional translation pattern in MASTER -> OCVVGT. M(+2)->O, A(+2)->C, S(+3)->V, T(+2)->V, E(+2)->G, R(+2)->T. Wait, let's re-verify: S=19+3=22(V). T=20+2=22(V). Every letter shifts +2 except S which shifts +3? Let's check a standard alternate shift: M(+2)->O, A(+2)->C, S(+3)->V... Following the exact pattern for INKJET gives I+2=K, N+2=P, K+2=M, J+2=L, E+2=G, T+2=V, which forms 'KPMLGV'.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_19",
@@ -358,7 +376,8 @@
       "(15, 235)"
     ],
     "a": 3,
-    "e": "Step 1: Analyze the mathematical relationship in each pair. Pair 1: $14^2 = 196$. Pair 2: $16^2 = 256$. Pair 3: $12^2 = 144$. All these represent a (Number, its Square) relationship. Step 2: Pair 4: $15^2 = 225$, but the given value is 235, which breaks the rule. Therefore, it is the odd pair."
+    "e": "Step 1: Analyze the mathematical relationship in each pair. Pair 1: $14^2 = 196$. Pair 2: $16^2 = 256$. Pair 3: $12^2 = 144$. All these represent a (Number, its Square) relationship. Step 2: Pair 4: $15^2 = 225$, but the given value is 235, which breaks the rule. Therefore, it is the odd pair.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_20",
@@ -377,7 +396,8 @@
       "Neither conclusion I nor II follows"
     ],
     "a": 3,
-    "e": "Step 1: 'Only a few Gold are Silver' means Some Gold are Silver and Some Gold are NOT Silver. Step 2: Test Conclusion I: Some Gold are not Silver, but they can still completely enter the larger Platinum circle. Hence, saying they are 'definitely not Platinum' is false. Step 3: Test Conclusion II: Since 'Only a few' restricts all Gold from entering Silver, all Gold can never be Silver. Thus, neither conclusion follows."
+    "e": "Step 1: 'Only a few Gold are Silver' means Some Gold are Silver and Some Gold are NOT Silver. Step 2: Test Conclusion I: Some Gold are not Silver, but they can still completely enter the larger Platinum circle. Hence, saying they are 'definitely not Platinum' is false. Step 3: Test Conclusion II: Since 'Only a few' restricts all Gold from entering Silver, all Gold can never be Silver. Thus, neither conclusion follows.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_21",
@@ -396,7 +416,8 @@
       "0 meters, Same Point"
     ],
     "a": 1,
-    "e": "Step 1: 'A # B' -> A is 5m North of B. Step 2: 'B @ C' -> B is 5m East of C. This means C is 5m West of B. Step 3: 'C $ D' \\rightarrow C is 5m South of D. This implies D is 5m North of C. Step 4: Drawing the grid shows D aligns perfectly with A horizontally, situated exactly 5 meters to the West of A. Therefore, D is 5 meters West of A."
+    "e": "Step 1: 'A # B' -> A is 5m North of B. Step 2: 'B @ C' -> B is 5m East of C. This means C is 5m West of B. Step 3: 'C $ D' \\rightarrow C is 5m South of D. This implies D is 5m North of C. Step 4: Drawing the grid shows D aligns perfectly with A horizontally, situated exactly 5 meters to the West of A. Therefore, D is 5 meters West of A.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_22",
@@ -415,7 +436,8 @@
       "6"
     ],
     "a": 3,
-    "e": "Step 1: The lines divide the base into 3 small individual compartments. Step 2: Use the summation shortcut formula for triangles formed by lines from a single vertex to the base: Total Triangles = $1 + 2 + 3 = 6$. Step 3: Thus, there are exactly 6 triangles formed."
+    "e": "Step 1: The lines divide the base into 3 small individual compartments. Step 2: Use the summation shortcut formula for triangles formed by lines from a single vertex to the base: Total Triangles = $1 + 2 + 3 = 6$. Step 3: Thus, there are exactly 6 triangles formed.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_23",
@@ -434,7 +456,8 @@
       "sUpDl"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the letter shift in 'NIFTY' -> 'oJgUj'. N(+1)->o, I(+1)->J, F(+1)->g, T(+1)->U, Y(+1)->j. Every letter shifts +1 forward, but the case alternates: lowercase, uppercase, lowercase, uppercase, lowercase. Step 2: Apply +1 shift to 'STOCK': S->T, T->U, O->P, C->D, K->L. Step 3: Alternate case starting with lowercase: t, U, p, D, l -> 'tUpDl'."
+    "e": "Step 1: Analyze the letter shift in 'NIFTY' -> 'oJgUj'. N(+1)->o, I(+1)->J, F(+1)->g, T(+1)->U, Y(+1)->j. Every letter shifts +1 forward, but the case alternates: lowercase, uppercase, lowercase, uppercase, lowercase. Step 2: Apply +1 shift to 'STOCK': S->T, T->U, O->P, C->D, K->L. Step 3: Alternate case starting with lowercase: t, U, p, D, l -> 'tUpDl'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_cgl_adv_reason_24",
@@ -453,7 +476,8 @@
       "(6, 222)"
     ],
     "a": 2,
-    "e": "Step 1: Analyze the relationship logic. Pair 1: $3^3 + 3 = 27 + 3 = 30$. Pair 2: $4^3 + 4 = 64 + 4 = 68$. Pair 4: $6^3 + 6 = 216 + 6 = 222$. The pattern followed is ($n, n^3 + n$). Step 2: Check Pair 3: $5^3 + 5 = 125 + 5 = 130$. Wait, all choices satisfy this rule. Let's check a typo adjustment in Pair 3 or options grid from original PYQ template layout where 130 maps securely."
+    "e": "Step 1: Analyze the relationship logic. Pair 1: $3^3 + 3 = 27 + 3 = 30$. Pair 2: $4^3 + 4 = 64 + 4 = 68$. Pair 4: $6^3 + 6 = 216 + 6 = 222$. The pattern followed is ($n, n^3 + n$). Step 2: Check Pair 3: $5^3 + 5 = 125 + 5 = 130$. Wait, all choices satisfy this rule. Let's check a typo adjustment in Pair 3 or options grid from original PYQ template layout where 130 maps securely.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_25",
@@ -472,7 +496,8 @@
       "1-3-4-2"
     ],
     "a": 0,
-    "e": "Step 1: Arrange the administrative bodies from local level to state level. Step 2: Lowest tier is Gram Panchayat (1), followed by Block Samiti (3), then District Council/Zila Parishad (2), and highest is State Assembly (4). Step 3: The logical ascending string sequence is 1-3-2-4."
+    "e": "Step 1: Arrange the administrative bodies from local level to state level. Step 2: Lowest tier is Gram Panchayat (1), followed by Block Samiti (3), then District Council/Zila Parishad (2), and highest is State Assembly (4). Step 3: The logical ascending string sequence is 1-3-2-4.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_26",
@@ -491,7 +516,8 @@
       "- and $\\div$"
     ],
     "a": 1,
-    "e": "Step 1: Test option 2, which suggests swapping $\\times$ and $\\div$. The equation becomes: $12 \\div 4 + 6 - 3 \\times 2 = 11$. Step 2: Apply BODMAS rules. Perform division first: $12 \\div 4 = 3$. Step 3: Perform multiplication: $3 \\times 2 = 6$. Step 4: Perform final addition and subtraction: $3 + 6 - 6 = 9 - 6 = 3$ (not 11). Let's review the exact sign swap layout that resolves cleanly to 11 matching the option index."
+    "e": "Step 1: Test option 2, which suggests swapping $\\times$ and $\\div$. The equation becomes: $12 \\div 4 + 6 - 3 \\times 2 = 11$. Step 2: Apply BODMAS rules. Perform division first: $12 \\div 4 = 3$. Step 3: Perform multiplication: $3 \\times 2 = 6$. Step 4: Perform final addition and subtraction: $3 + 6 - 6 = 9 - 6 = 3$ (not 11). Let's review the exact sign swap layout that resolves cleanly to 11 matching the option index.",
+    "topic_tag": "maths.algebra.algebraic_equations"
   },
   {
     "p_id": "bssc_cgl_adv_reason_27",
@@ -510,7 +536,8 @@
       "24"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the row-wise progression across columns. Row 1: 8 (+7) -> 15 (+7) -> 22. Row 2: 4 (+7) -> 11 (+7) -> 18. Step 2: The constant difference pattern is adding 7 across each column step (+7). Step 3: Apply to Row 3: 12 (+7) -> 19 (+7) -> 26."
+    "e": "Step 1: Analyze the row-wise progression across columns. Row 1: 8 (+7) -> 15 (+7) -> 22. Row 2: 4 (+7) -> 11 (+7) -> 18. Step 2: The constant difference pattern is adding 7 across each column step (+7). Step 3: Apply to Row 3: 12 (+7) -> 19 (+7) -> 26.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_28",
@@ -529,7 +556,8 @@
       "HWJ"
     ],
     "a": 0,
-    "e": "Step 1: Track the first letters: A (+2) -> C (+2) -> E (+2) -> G (+2) -> I. Step 2: Track the second letters from reverse: Z (-1) -> Y (-1) -> X (-1) -> W (-1) -> V. Step 3: Track the third letters: B (+2) -> D (+2) -> F (+2) -> H (+2) -> J. Step 4: Combining the components gives the string 'IVJ'."
+    "e": "Step 1: Track the first letters: A (+2) -> C (+2) -> E (+2) -> G (+2) -> I. Step 2: Track the second letters from reverse: Z (-1) -> Y (-1) -> X (-1) -> W (-1) -> V. Step 3: Track the third letters: B (+2) -> D (+2) -> F (+2) -> H (+2) -> J. Step 4: Combining the components gives the string 'IVJ'.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_29",
@@ -548,7 +576,8 @@
       "Asteroid"
     ],
     "a": 0,
-    "e": "Step 1: Identify the cosmic classification rule. The Earth is scientifically classified as a Planet. Step 2: Apply the identical logic to the target word. The Sun is classified as a Star. Therefore, Star is correct."
+    "e": "Step 1: Identify the cosmic classification rule. The Earth is scientifically classified as a Planet. Step 2: Apply the identical logic to the target word. The Sun is classified as a Star. Therefore, Star is correct.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_30",
@@ -567,7 +596,8 @@
       "Two partially intersecting circles inside a larger circle"
     ],
     "a": 0,
-    "e": "Step 1: Both Doctors and Lawyers are entirely separate sub-categories belonging underneath the larger 'Professionals' enclosing circle. Step 2: A person registered as a practicing lawyer cannot simultaneously act as a practicing medical doctor under standard classification logic. Step 3: This forms a structure of two separate, non-intersecting circles completely inside a larger circle."
+    "e": "Step 1: Both Doctors and Lawyers are entirely separate sub-categories belonging underneath the larger 'Professionals' enclosing circle. Step 2: A person registered as a practicing lawyer cannot simultaneously act as a practicing medical doctor under standard classification logic. Step 3: This forms a structure of two separate, non-intersecting circles completely inside a larger circle.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_31",
@@ -586,7 +616,8 @@
       "E"
     ],
     "a": 0,
-    "e": "Step 1: D and E are siblings (children of B). Step 2: A is the brother of B. Step 3: Since A is the brother of D's parent (B), A is explicitly the uncle (paternal or maternal depending on B's gender) of D."
+    "e": "Step 1: D and E are siblings (children of B). Step 2: A is the brother of B. Step 3: Since A is the brother of D's parent (B), A is explicitly the uncle (paternal or maternal depending on B's gender) of D.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_32",
@@ -605,7 +636,8 @@
       "Cannot be determined uniquely"
     ],
     "a": 0,
-    "e": "Step 1: Track inequalities: $4 > 3 > 1$, and $5$ is the lightest. Step 2: Condition 2 states $4 > 2 > 3$. Step 3: Combine all paths: $4 > 2 > 3 > 1 > 5$. Step 4: Box 4 is explicitly situated at the highest position, making it the absolute heaviest box."
+    "e": "Step 1: Track inequalities: $4 > 3 > 1$, and $5$ is the lightest. Step 2: Condition 2 states $4 > 2 > 3$. Step 3: Combine all paths: $4 > 2 > 3 > 1 > 5$. Step 4: Box 4 is explicitly situated at the highest position, making it the absolute heaviest box.",
+    "topic_tag": "reasoning.ranking.position_and_order"
   },
   {
     "p_id": "bssc_cgl_adv_reason_33",
@@ -624,7 +656,8 @@
       "15-19-1-14-7-6"
     ],
     "a": 0,
-    "e": "Step 1: Identify standard positional values: O=15, R=18, A=1, N=14, G=7, E=5. Step 2: String them together with hyphens matching direct substitution: '15-18-1-14-7-5'."
+    "e": "Step 1: Identify standard positional values: O=15, R=18, A=1, N=14, G=7, E=5. Step 2: String them together with hyphens matching direct substitution: '15-18-1-14-7-5'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_cgl_adv_reason_34",
@@ -643,7 +676,8 @@
       "Sydney : Australia"
     ],
     "a": 3,
-    "e": "Step 1: Check the relationships: New Delhi is the capital of India, Washington DC is the capital of USA, and Paris is the capital of France (Country : Capital relationship). Step 2: Sydney is a major city in Australia, but the capital of Australia is Canberra. Therefore, this pair breaks the rule."
+    "e": "Step 1: Check the relationships: New Delhi is the capital of India, Washington DC is the capital of USA, and Paris is the capital of France (Country : Capital relationship). Step 2: Sydney is a major city in Australia, but the capital of Australia is Canberra. Therefore, this pair breaks the rule.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_35",
@@ -662,6 +696,7 @@
       "South-Westblank"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the angular shift. Actual North-East rotates clockwise to South, which is a shift of 135 degrees clockwise. Step 2: Apply the identical 135-degree clockwise rotation shift to the 'West' axis. Step 3: Rotating 135 degrees clockwise from West moves through North (90 degrees) and lands perfectly inside the 'North-East' quadrant quadrant axis. Therefore, West becomes North-East."
+    "e": "Step 1: Analyze the angular shift. Actual North-East rotates clockwise to South, which is a shift of 135 degrees clockwise. Step 2: Apply the identical 135-degree clockwise rotation shift to the 'West' axis. Step 3: Rotating 135 degrees clockwise from West moves through North (90 degrees) and lands perfectly inside the 'North-East' quadrant quadrant axis. Therefore, West becomes North-East.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   }
 ]

@@ -16,7 +16,8 @@
       "720 ways"
     ],
     "a": 1,
-    "e": "Step 1: Total number of ways to arrange 7 people in a circle without any restriction = (7 - 1)! = 6! = 720 ways. Step 2: Calculate the number of ways where the MD and CEO always sit together. Treat MD and CEO as a single block entity. Total entities to arrange = 5 directors + 1 block = 6 entities. Step 3: Arrange 6 entities in a circle = (6 - 1)! = 5! = 120 ways. Inside the block, MD and CEO can interchange their seats in 2! = 2 ways. Total ways they sit together = 120 * 2 = 240 ways. Step 4: Total ways they never sit together = Total unrestricted ways - Ways they sit together = 720 - 240 = 4800? Let's check: 720 - 240 = 480. Correct option is index 2 corresponding to 480 ways."
+    "e": "Step 1: Total number of ways to arrange 7 people in a circle without any restriction = (7 - 1)! = 6! = 720 ways. Step 2: Calculate the number of ways where the MD and CEO always sit together. Treat MD and CEO as a single block entity. Total entities to arrange = 5 directors + 1 block = 6 entities. Step 3: Arrange 6 entities in a circle = (6 - 1)! = 5! = 120 ways. Inside the block, MD and CEO can interchange their seats in 2! = 2 ways. Total ways they sit together = 120 * 2 = 240 ways. Step 4: Total ways they never sit together = Total unrestricted ways - Ways they sit together = 720 - 240 = 4800? Let's check: 720 - 240 = 480. Correct option is index 2 corresponding to 480 ways.",
+    "topic_tag": "maths.combinatorics.counting_and_arrangements"
   },
   {
     "p_id": "bssc_cgl_adv_quant_107",
@@ -35,7 +36,8 @@
       "13/16"
     ],
     "a": 0,
-    "e": "Step 1: Total number of possible outcomes when a coin is tossed 4 times = 2^4 = 16 outcomes. Step 2: Use the complement rule. Probability of 'at least 2 heads' = 1 - [Probability of 0 heads + Probability of 1 head]. Step 3: Favorable outcomes for 0 heads (all tails) = 4C0 = 1. Favorable outcomes for exactly 1 head = 4C1 = 4. Step 4: Total unfavorable outcomes = 1 + 4 = 5 outcomes. Step 5: Favorable outcomes for at least 2 heads = 16 - 5 = 11 outcomes. Step 6: Required Probability = 11 / 16."
+    "e": "Step 1: Total number of possible outcomes when a coin is tossed 4 times = 2^4 = 16 outcomes. Step 2: Use the complement rule. Probability of 'at least 2 heads' = 1 - [Probability of 0 heads + Probability of 1 head]. Step 3: Favorable outcomes for 0 heads (all tails) = 4C0 = 1. Favorable outcomes for exactly 1 head = 4C1 = 4. Step 4: Total unfavorable outcomes = 1 + 4 = 5 outcomes. Step 5: Favorable outcomes for at least 2 heads = 16 - 5 = 11 outcomes. Step 6: Required Probability = 11 / 16.",
+    "topic_tag": "maths.probability.probability_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_108",
@@ -54,7 +56,8 @@
       "x^2 - 9x + 16 = 0"
     ],
     "a": 0,
-    "e": "Step 1: For the given equation $x^2 - 5x + 4 = 0$, sum of roots $(\\alpha + \\beta) = 5$ and product of roots $(\\alpha\\beta) = 4$. Step 2: The roots of the new equation are $\\alpha^2$ and $\\beta$^2. Sum of new roots = $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 5^2 - 2(4) = 25 - 8 = 17$. Step 3: Product of new roots = $\\alpha^2 \\cdot \\beta^2 = (\\alpha\\beta)^2 = 4^2 = 16$. Step 4: The new quadratic equation layout is $x^2 - (\\text{Sum of new roots})x + (\\text{Product of new roots}) = 0 \\Rightarrow x^2 - 17x + 16 = 0$."
+    "e": "Step 1: For the given equation $x^2 - 5x + 4 = 0$, sum of roots $(\\alpha + \\beta) = 5$ and product of roots $(\\alpha\\beta) = 4$. Step 2: The roots of the new equation are $\\alpha^2$ and $\\beta$^2. Sum of new roots = $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 5^2 - 2(4) = 25 - 8 = 17$. Step 3: Product of new roots = $\\alpha^2 \\cdot \\beta^2 = (\\alpha\\beta)^2 = 4^2 = 16$. Step 4: The new quadratic equation layout is $x^2 - (\\text{Sum of new roots})x + (\\text{Product of new roots}) = 0 \\Rightarrow x^2 - 17x + 16 = 0$.",
+    "topic_tag": "maths.algebra.algebraic_equations"
   },
   {
     "p_id": "bssc_cgl_adv_quant_109",
@@ -73,7 +76,8 @@
       "2blank"
     ],
     "a": 0,
-    "e": "Step 1: Find the unit digit of $7^{95}$. Cyclicity of 7 is 4. Divide exponent 95 by 4: $95 \\% 4 = 3$. Unit digit corresponds to $7^3 = 343$, which ends in 3. Step 2: Find the unit digit of $3^{58}$. Cyclicity of 3 is 4. Divide exponent 58 by 4: $58 \\% 4 = 2$. Unit digit corresponds to $3^2 = 9$, which ends in 9. Step 3: Perform subtraction: 3 - 9. Since 3 is smaller than 9, borrow 10 from the tens place, making it 13 - 9 = 4. Thus, the required unit digit is 4."
+    "e": "Step 1: Find the unit digit of $7^{95}$. Cyclicity of 7 is 4. Divide exponent 95 by 4: $95 \\% 4 = 3$. Unit digit corresponds to $7^3 = 343$, which ends in 3. Step 2: Find the unit digit of $3^{58}$. Cyclicity of 3 is 4. Divide exponent 58 by 4: $58 \\% 4 = 2$. Unit digit corresponds to $3^2 = 9$, which ends in 9. Step 3: Perform subtraction: 3 - 9. Since 3 is smaller than 9, borrow 10 from the tens place, making it 13 - 9 = 4. Thus, the required unit digit is 4.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_110",
@@ -92,7 +96,8 @@
       "18.25 days"
     ],
     "a": 0,
-    "e": "Step 1: Efficiency ratio of A : B = 160 : 100 = 8 : 5. This means on any given day, A completes 8 units of work and B completes 5 units. Step 2: Total work = Efficiency of B * Days taken by B = 5 units/day * 40 days = 200 units. Step 3: Combined efficiency of A and B = 8 + 5 = 13 units/day. Step 4: Total days taken together = Total work / Combined efficiency = 200 / 13 = 15.38 days."
+    "e": "Step 1: Efficiency ratio of A : B = 160 : 100 = 8 : 5. This means on any given day, A completes 8 units of work and B completes 5 units. Step 2: Total work = Efficiency of B * Days taken by B = 5 units/day * 40 days = 200 units. Step 3: Combined efficiency of A and B = 8 + 5 = 13 units/day. Step 4: Total days taken together = Total work / Combined efficiency = 200 / 13 = 15.38 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_111",
@@ -111,7 +116,8 @@
       "6.0 hours"
     ],
     "a": 0,
-    "e": "Step 1: Total capacity (LCM of 6, 8, and 12) = 24 units. Step 2: Efficiency of Pipe A = +24/6 = +4 units/hour. Efficiency of Pipe B = +24/8 = +3 units/hour. Efficiency of Pipe C = -24/12 = -2 units/hour. Step 3: Net efficiency when all three are active = +4 + 3 - 2 = +5 units/hour. Step 4: Total time taken to fill the reservoir = Total Capacity / Net Efficiency = 24 / 5 = 4.8 hours."
+    "e": "Step 1: Total capacity (LCM of 6, 8, and 12) = 24 units. Step 2: Efficiency of Pipe A = +24/6 = +4 units/hour. Efficiency of Pipe B = +24/8 = +3 units/hour. Efficiency of Pipe C = -24/12 = -2 units/hour. Step 3: Net efficiency when all three are active = +4 + 3 - 2 = +5 units/hour. Step 4: Total time taken to fill the reservoir = Total Capacity / Net Efficiency = 24 / 5 = 4.8 hours.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_112",
@@ -130,7 +136,8 @@
       "15 litersblank"
     ],
     "a": 0,
-    "e": "Step 1: Initial quantity of water = 10% of 50 = 5 liters. Therefore, milk quantity = 50 - 5 = 45 liters. Step 2: In the final mixture, water must be 25%, meaning milk must represent 100% - 25% = 75% of the new total volume. Step 3: Since the quantity of milk remains unchanged (45 liters), 75% of New Total Volume = 45 liters => New Total Volume = (45 / 75) * 100 = 60 liters. Step 4: Quantity of water to be added = New Total Volume - Initial Total Volume = 60 - 50 = 10 liters."
+    "e": "Step 1: Initial quantity of water = 10% of 50 = 5 liters. Therefore, milk quantity = 50 - 5 = 45 liters. Step 2: In the final mixture, water must be 25%, meaning milk must represent 100% - 25% = 75% of the new total volume. Step 3: Since the quantity of milk remains unchanged (45 liters), 75% of New Total Volume = 45 liters => New Total Volume = (45 / 75) * 100 = 60 liters. Step 4: Quantity of water to be added = New Total Volume - Initial Total Volume = 60 - 50 = 10 liters.",
+    "topic_tag": "maths.mixture.mixture_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_113",
@@ -149,7 +156,8 @@
       "Rs. 4000"
     ],
     "a": 0,
-    "e": "Step 1: Use the standard 3-year interest difference formula: Difference = $P \\times (R / 100)^2 \\times (3 + R / 100)$. Step 2: Substitute Difference = 93 and R = 10. Step 3: $93 = P \\times (10 / 100)^2 \\times (3 + 10 / 100) \\Rightarrow 93 = P \\times (1 / 100) \\times (3.1)$. Step 4: $93 = P \\times (3.1 / 100) \\Rightarrow 93 = P \\times (31 / 1000)$. Step 5: $P = (93 \\times 1000) / 31 = 3 \\times 1000 = Rs. 3000$."
+    "e": "Step 1: Use the standard 3-year interest difference formula: Difference = $P \\times (R / 100)^2 \\times (3 + R / 100)$. Step 2: Substitute Difference = 93 and R = 10. Step 3: $93 = P \\times (10 / 100)^2 \\times (3 + 10 / 100) \\Rightarrow 93 = P \\times (1 / 100) \\times (3.1)$. Step 4: $93 = P \\times (3.1 / 100) \\Rightarrow 93 = P \\times (31 / 1000)$. Step 5: $P = (93 \\times 1000) / 31 = 3 \\times 1000 = Rs. 3000$.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_114",
@@ -168,7 +176,8 @@
       "11.1%"
     ],
     "a": 0,
-    "e": "Step 1: Let the cost price (CP) per unit be Re. 1 and total stock be 100 units. Total CP = Rs. 100. Marked Price (MP) per unit = Rs. 1.30. Step 2: Part 1: 50 units sold at MP = 50 * 1.30 = Rs. 65.00. Step 3: Part 2: 25 units sold at 20% discount on MP (1.30 * 0.8 = 1.04) = 25 * 1.04 = Rs. 26.00. Step 4: Part 3: 25 units sold at 40% discount on MP (1.30 * 0.6 = 0.78) = 25 * 0.78 = Rs. 19.50. Step 5: Total Revenue = 65.00 + 26.00 + 19.50 = Rs. 110.50. Step 6: Net Profit Percentage = 110.50 - 100 = 10.5%."
+    "e": "Step 1: Let the cost price (CP) per unit be Re. 1 and total stock be 100 units. Total CP = Rs. 100. Marked Price (MP) per unit = Rs. 1.30. Step 2: Part 1: 50 units sold at MP = 50 * 1.30 = Rs. 65.00. Step 3: Part 2: 25 units sold at 20% discount on MP (1.30 * 0.8 = 1.04) = 25 * 1.04 = Rs. 26.00. Step 4: Part 3: 25 units sold at 40% discount on MP (1.30 * 0.6 = 0.78) = 25 * 0.78 = Rs. 19.50. Step 5: Total Revenue = 65.00 + 26.00 + 19.50 = Rs. 110.50. Step 6: Net Profit Percentage = 110.50 - 100 = 10.5%.",
+    "topic_tag": "maths.discount.discount_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_115",
@@ -187,7 +196,8 @@
       "Rs. 22000"
     ],
     "a": 0,
-    "e": "Step 1: Let initial investments be 4x and 5x. Duration for first block is 3 months. Step 2: A's equivalent capital = (4x * 3) + [4x * (1 - 0.25) * 9] = 12x + (3x * 9) = 12x + 27x = 39x. Step 3: B's equivalent capital = (5x * 3) + [5x * (1 + 0.20) * 9] = 15x + (6x * 9) = 15x + 54x = 69x. Step 4: Profit sharing ratio A : B = 39 : 69 = 13 : 23. Step 5: Sum of ratio parts = 13 + 23 = 36 parts? Let's check: 39 + 69 = 108. 39/3 = 13, 69/3 = 23. 13+23 = 36. If total profit is Rs. 38000, let's look at 38000 context or map cleanly to 24000 depending on exact parameter adjustments. B's share = (23 / 36) * 38000 = standard integer selection."
+    "e": "Step 1: Let initial investments be 4x and 5x. Duration for first block is 3 months. Step 2: A's equivalent capital = (4x * 3) + [4x * (1 - 0.25) * 9] = 12x + (3x * 9) = 12x + 27x = 39x. Step 3: B's equivalent capital = (5x * 3) + [5x * (1 + 0.20) * 9] = 15x + (6x * 9) = 15x + 54x = 69x. Step 4: Profit sharing ratio A : B = 39 : 69 = 13 : 23. Step 5: Sum of ratio parts = 13 + 23 = 36 parts? Let's check: 39 + 69 = 108. 39/3 = 13, 69/3 = 23. 13+23 = 36. If total profit is Rs. 38000, let's look at 38000 context or map cleanly to 24000 depending on exact parameter adjustments. B's share = (23 / 36) * 38000 = standard integer selection.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_116",
@@ -206,7 +216,8 @@
       "180 meters"
     ],
     "a": 0,
-    "e": "Step 1: Since both are moving in the same direction, relative speed = Speed of train - Speed of man = 60 km/h - 6 km/h = 54 km/h. Step 2: Convert relative speed from km/h to m/s = 54 * (5 / 18) = 15 m/s. Step 3: Distance covered to pass the man completely equals the length of the train. Step 4: Length of train = Relative Speed * Time = 15 m/s * 15 seconds = 225 meters."
+    "e": "Step 1: Since both are moving in the same direction, relative speed = Speed of train - Speed of man = 60 km/h - 6 km/h = 54 km/h. Step 2: Convert relative speed from km/h to m/s = 54 * (5 / 18) = 15 m/s. Step 3: Distance covered to pass the man completely equals the length of the train. Step 4: Length of train = Relative Speed * Time = 15 m/s * 15 seconds = 225 meters.",
+    "topic_tag": "maths.train.train_speed_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_117",
@@ -225,7 +236,8 @@
       "24"
     ],
     "a": 0,
-    "e": "Step 1: Volume of the right circular cylinder = pi * R^2 * H = pi * 6^2 * 8 = pi * 36 * 8 = 288 * pi cm^3. Step 2: Volume of a single recast sphere = (4 / 3) * pi * r^3 = (4 / 3) * pi * 2^3 = (4 / 3) * pi * 8 = (32 / 3) * pi cm^3. Step 3: Total number of spheres formed = Volume of cylinder / Volume of one sphere = (288 * pi) / ((32 / 3) * pi) = 288 * (3 / 32) = 9 * 3 = 27."
+    "e": "Step 1: Volume of the right circular cylinder = pi * R^2 * H = pi * 6^2 * 8 = pi * 36 * 8 = 288 * pi cm^3. Step 2: Volume of a single recast sphere = (4 / 3) * pi * r^3 = (4 / 3) * pi * 2^3 = (4 / 3) * pi * 8 = (32 / 3) * pi cm^3. Step 3: Total number of spheres formed = Volume of cylinder / Volume of one sphere = (288 * pi) / ((32 / 3) * pi) = 288 * (3 / 32) = 9 * 3 = 27.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_118",
@@ -244,7 +256,8 @@
       "Rs. 24"
     ],
     "a": 0,
-    "e": "Step 1: Formulate the equations: $4N + 5P + 1R = 114$ (Eq 1) and $5N + 4P + 2R = 129$ (Eq 2). Step 2: Multiply Eq 1 by 2 to match the coefficients of R: $8N + 10P + 2R = 228$ (Eq 3). Step 3: Subtract Eq 2 from Eq 3: $(8N - 5N) + (10P - 4P) + (2R - 2R) = 228 - 129 \\Rightarrow 3N + 6P = 99$. Step 4: Divide the result by 3 to simplify the expression? Let's check direct combination options context. If calculation gives 27, it maps to option index 0."
+    "e": "Step 1: Formulate the equations: $4N + 5P + 1R = 114$ (Eq 1) and $5N + 4P + 2R = 129$ (Eq 2). Step 2: Multiply Eq 1 by 2 to match the coefficients of R: $8N + 10P + 2R = 228$ (Eq 3). Step 3: Subtract Eq 2 from Eq 3: $(8N - 5N) + (10P - 4P) + (2R - 2R) = 228 - 129 \\Rightarrow 3N + 6P = 99$. Step 4: Divide the result by 3 to simplify the expression? Let's check direct combination options context. If calculation gives 27, it maps to option index 0.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_119",
@@ -263,7 +276,8 @@
       "1.73"
     ],
     "a": 0,
-    "e": "Step 1: Find the arithmetic mean of the data set: Mean = (3 + 5 + 6 + 7 + 9) / 5 = 30 / 5 = 6. Step 2: Calculate squared deviations from the mean: (3-6)^2 = 9; (5-6)^2 = 1; (6-6)^2 = 0; (7-6)^2 = 1; (9-6)^2 = 9. Step 3: Sum of squared deviations = 9 + 1 + 0 + 1 + 9 = 20. Step 4: Variance = Sum of deviations / Number of items = 20 / 5 = 4. Step 5: Standard Deviation = sqrt(Variance) = sqrt(4) = 2.0."
+    "e": "Step 1: Find the arithmetic mean of the data set: Mean = (3 + 5 + 6 + 7 + 9) / 5 = 30 / 5 = 6. Step 2: Calculate squared deviations from the mean: (3-6)^2 = 9; (5-6)^2 = 1; (6-6)^2 = 0; (7-6)^2 = 1; (9-6)^2 = 9. Step 3: Sum of squared deviations = 9 + 1 + 0 + 1 + 9 = 20. Step 4: Variance = Sum of deviations / Number of items = 20 / 5 = 4. Step 5: Standard Deviation = sqrt(Variance) = sqrt(4) = 2.0.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_120",
@@ -282,7 +296,8 @@
       "11"
     ],
     "a": 0,
-    "e": "Step 1: Find trailing zeros in 45! by dividing successively by 5: 45 / 5 = 9; 9 / 5 = 1. Total zeros in 45! = 9 + 1 = 10 zeros. Step 2: Find trailing zeros in 10! by dividing successively by 5: 10 / 5 = 2. Total zeros in 10! = 2 zeros. Step 3: Since the expressions are multiplied, add the number of trailing zeros = 10 + 2 = 12 zeros."
+    "e": "Step 1: Find trailing zeros in 45! by dividing successively by 5: 45 / 5 = 9; 9 / 5 = 1. Total zeros in 45! = 9 + 1 = 10 zeros. Step 2: Find trailing zeros in 10! by dividing successively by 5: 10 / 5 = 2. Total zeros in 10! = 2 zeros. Step 3: Since the expressions are multiplied, add the number of trailing zeros = 10 + 2 = 12 zeros.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_121",
@@ -301,7 +316,8 @@
       "50 daysblank"
     ],
     "a": 0,
-    "e": "Step 1: Equate total work equation: 8 * (4M + 6W) = 10 * (3M + 7W) => 32M + 48W = 30M + 70W => 2M = 22W => 1M = 11W. Step 2: Find total work in terms of women efficiency units. Substitute M = 11W into the first group: Work = 8 * [4(11W) + 6W] = 8 * [44W + 6W] = 8 * 50W = 400W units. Step 3: Days required for 10 women alone = Total work / Group efficiency = 400W / 10W = 40 days."
+    "e": "Step 1: Equate total work equation: 8 * (4M + 6W) = 10 * (3M + 7W) => 32M + 48W = 30M + 70W => 2M = 22W => 1M = 11W. Step 2: Find total work in terms of women efficiency units. Substitute M = 11W into the first group: Work = 8 * [4(11W) + 6W] = 8 * [44W + 6W] = 8 * 50W = 400W units. Step 3: Days required for 10 women alone = Total work / Group efficiency = 400W / 10W = 40 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_122",
@@ -320,7 +336,8 @@
       "8/13"
     ],
     "a": 0,
-    "e": "Step 1: Total number of outcomes = 52. Step 2: Number of Red cards = 26. Number of Kings = 4. Step 3: Note that 2 Kings are already red (King of Hearts, King of Diamonds) and have been counted inside the red card set. Step 4: Total distinct favorable outcomes = 26 red cards + 2 black Kings = 28 cards. Step 5: Required Probability = Favorable Outcomes / Total Outcomes = 28 / 52. Step 6: Reduce the fraction by dividing by 4 = 7 / 13."
+    "e": "Step 1: Total number of outcomes = 52. Step 2: Number of Red cards = 26. Number of Kings = 4. Step 3: Note that 2 Kings are already red (King of Hearts, King of Diamonds) and have been counted inside the red card set. Step 4: Total distinct favorable outcomes = 26 red cards + 2 black Kings = 28 cards. Step 5: Required Probability = Favorable Outcomes / Total Outcomes = 28 / 52. Step 6: Reduce the fraction by dividing by 4 = 7 / 13.",
+    "topic_tag": "maths.probability.probability_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_123",
@@ -339,7 +356,8 @@
       "m <= -6"
     ],
     "a": 0,
-    "e": "Step 1: For a quadratic equation to have real and distinct roots, its discriminant D must be strictly greater than zero ($B^2 - 4AC > 0$). Step 2: Substitute coefficients A = 1, B = -m, C = 9 into the formula: $(-m)^2 - 4(1)(9) > 0 \\Rightarrow m^2 - 36 > 0$. Step 3: $m^2 > 36 \\Rightarrow |m| > 6$. Step 4: This inequality yields the solution range: m > 6 or m < -6."
+    "e": "Step 1: For a quadratic equation to have real and distinct roots, its discriminant D must be strictly greater than zero ($B^2 - 4AC > 0$). Step 2: Substitute coefficients A = 1, B = -m, C = 9 into the formula: $(-m)^2 - 4(1)(9) > 0 \\Rightarrow m^2 - 36 > 0$. Step 3: $m^2 > 36 \\Rightarrow |m| > 6$. Step 4: This inequality yields the solution range: m > 6 or m < -6.",
+    "topic_tag": "maths.algebra.algebraic_equations"
   },
   {
     "p_id": "bssc_cgl_adv_quant_124",
@@ -358,7 +376,8 @@
       "1"
     ],
     "a": 0,
-    "e": "Step 1: Find Euler's totient value for the divisor 9. $\\phi(9) = 9 \\times (1 - 1/3) = 6$. Step 2: According to Euler's Theorem, since 5 and 9 are co-prime, $5^6 \\equiv 1 \\pmod 9$. Step 3: Divide the exponent 74 by the totient value 6 to find the remainder power: $74 \\% 6 = 2$. Step 4: Therefore, $5^{74} \\equiv 5^2 \\equiv 25 \\pmod 9$. Step 5: Divide 25 by 9 to find final remainder: $25 \\% 9 = 7$. Thus, the remainder is 7."
+    "e": "Step 1: Find Euler's totient value for the divisor 9. $\\phi(9) = 9 \\times (1 - 1/3) = 6$. Step 2: According to Euler's Theorem, since 5 and 9 are co-prime, $5^6 \\equiv 1 \\pmod 9$. Step 3: Divide the exponent 74 by the totient value 6 to find the remainder power: $74 \\% 6 = 2$. Step 4: Therefore, $5^{74} \\equiv 5^2 \\equiv 25 \\pmod 9$. Step 5: Divide 25 by 9 to find final remainder: $25 \\% 9 = 7$. Thus, the remainder is 7.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_125",
@@ -377,7 +396,8 @@
       "300 seconds"
     ],
     "a": 0,
-    "e": "Step 1: Time taken by P to complete one full lap = Length / Speed = 400 / 8 = 50 seconds. Step 2: Time taken by Q to complete one full lap = Length / Speed = 400 / 5 = 80 seconds. Step 3: To meet at the exact starting point, the required time must be the Least Common Multiple (LCM) of their individual lap times. Step 4: LCM of 50 seconds and 80 seconds = 400 seconds."
+    "e": "Step 1: Time taken by P to complete one full lap = Length / Speed = 400 / 8 = 50 seconds. Step 2: Time taken by Q to complete one full lap = Length / Speed = 400 / 5 = 80 seconds. Step 3: To meet at the exact starting point, the required time must be the Least Common Multiple (LCM) of their individual lap times. Step 4: LCM of 50 seconds and 80 seconds = 400 seconds.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_126",
@@ -396,7 +416,8 @@
       "29 hours"
     ],
     "a": 0,
-    "e": "Step 1: Total capacity (LCM of 6 and 9) = 18 units. Efficiency of X = +3 units/hour, Y = -2 units/hour. Step 2: In a 2-hour alternative cycle, net filling = +3 - 2 = +1 unit. Step 3: Subtract X's peak rate from total to establish threshold = 18 - 3 = 15 units. Step 4: To fill 15 units, it takes 15 complete cycles = 15 * 2 = 30 hours. Step 5: At 30 hours, 15 units are full. In the 31st hour, Pipe X opens and adds the remaining 3 units, filling the reservoir completely. Total hours = 31."
+    "e": "Step 1: Total capacity (LCM of 6 and 9) = 18 units. Efficiency of X = +3 units/hour, Y = -2 units/hour. Step 2: In a 2-hour alternative cycle, net filling = +3 - 2 = +1 unit. Step 3: Subtract X's peak rate from total to establish threshold = 18 - 3 = 15 units. Step 4: To fill 15 units, it takes 15 complete cycles = 15 * 2 = 30 hours. Step 5: At 30 hours, 15 units are full. In the 31st hour, Pipe X opens and adds the remaining 3 units, filling the reservoir completely. Total hours = 31.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_127",
@@ -415,7 +436,8 @@
       "1 : 6"
     ],
     "a": 0,
-    "e": "Step 1: Since the mixture is sold at cost price, the entire profit percentage comes from the added water volume acting as free gain. Step 2: Let Cost Price of 1 liter milk be Re. 1. If profit is 20%, it implies for every 100 parts of milk, 20 parts of water are added. Step 3: Ratio of Water : Milk = 20 : 100 = 1 : 5."
+    "e": "Step 1: Since the mixture is sold at cost price, the entire profit percentage comes from the added water volume acting as free gain. Step 2: Let Cost Price of 1 liter milk be Re. 1. If profit is 20%, it implies for every 100 parts of milk, 20 parts of water are added. Step 3: Ratio of Water : Milk = 20 : 100 = 1 : 5.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_128",
@@ -434,7 +456,8 @@
       "Rs. 15.75"
     ],
     "a": 0,
-    "e": "Step 1: Case 1 (Yearly compounding): Rate for Year 1 = 10%. Rate for remaining 0.5 year = 5%. Effective rate = 10 + 5 + (10*5/100) = 15.5%. CI = 15.5% of 10000 = Rs. 1550. Step 2: Case 2 (Half-yearly compounding): Rate per half-year = 5%. Total periods (n) = 1.5 * 2 = 3 periods. Effective rate for 3 periods at 5% = 15.7625%. CI = 15.7625% of 10000 = Rs. 1576.25. Step 3: Difference = 1576.25 - 1550 = Rs. 26.25. Let's adjust options or choose closest match context, index 0 maps cleanly."
+    "e": "Step 1: Case 1 (Yearly compounding): Rate for Year 1 = 10%. Rate for remaining 0.5 year = 5%. Effective rate = 10 + 5 + (10*5/100) = 15.5%. CI = 15.5% of 10000 = Rs. 1550. Step 2: Case 2 (Half-yearly compounding): Rate per half-year = 5%. Total periods (n) = 1.5 * 2 = 3 periods. Effective rate for 3 periods at 5% = 15.7625%. CI = 15.7625% of 10000 = Rs. 1576.25. Step 3: Difference = 1576.25 - 1550 = Rs. 26.25. Let's adjust options or choose closest match context, index 0 maps cleanly.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_129",
@@ -453,7 +476,8 @@
       "18.50%"
     ],
     "a": 0,
-    "e": "Step 1: Let the Cost Price (CP) be Rs. 100. Step 2: Marked Price (MP) after 30% markup = 100 * 1.30 = Rs. 130. Step 3: Price after 10% discount = 130 * 0.90 = Rs. 117. Step 4: Final Price after adding 5% processing fee = 117 * 1.05 = Rs. 122.85. Step 5: Net Profit Percentage = Final Price - CP = 122.85 - 100 = 22.85%."
+    "e": "Step 1: Let the Cost Price (CP) be Rs. 100. Step 2: Marked Price (MP) after 30% markup = 100 * 1.30 = Rs. 130. Step 3: Price after 10% discount = 130 * 0.90 = Rs. 117. Step 4: Final Price after adding 5% processing fee = 117 * 1.05 = Rs. 122.85. Step 5: Net Profit Percentage = Final Price - CP = 122.85 - 100 = 22.85%.",
+    "topic_tag": "maths.discount.discount_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_130",
@@ -472,7 +496,8 @@
       "Rs. 20000blank"
     ],
     "a": 0,
-    "e": "Step 1: Combine capital investment ratios. A:B = 3:2 = 6:4. B:C = 4:3. Combined capital ratio A : B : C = 6 : 4 : 3. Step 2: Time duration ratio A : B : C = 2 : 3 : 4. Step 3: Profit sharing ratio = Capital * Time. A = 6 * 2 = 12. B = 4 * 3 = 12. C = 3 * 4 = 12. Step 4: Profit ratio A : B : C = 12 : 12 : 12 = 1 : 1 : 1. Step 5: A's share = 1/3 of total profit = 44000 / 3 = Rs. 14666.66? Let's check parameters if total profit simplifies with standard splits. Option index 0 handles standard mapping."
+    "e": "Step 1: Combine capital investment ratios. A:B = 3:2 = 6:4. B:C = 4:3. Combined capital ratio A : B : C = 6 : 4 : 3. Step 2: Time duration ratio A : B : C = 2 : 3 : 4. Step 3: Profit sharing ratio = Capital * Time. A = 6 * 2 = 12. B = 4 * 3 = 12. C = 3 * 4 = 12. Step 4: Profit ratio A : B : C = 12 : 12 : 12 = 1 : 1 : 1. Step 5: A's share = 1/3 of total profit = 44000 / 3 = Rs. 14666.66? Let's check parameters if total profit simplifies with standard splits. Option index 0 handles standard mapping.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_131",
@@ -491,7 +516,8 @@
       "15.00 km/h"
     ],
     "a": 0,
-    "e": "Step 1: Downstream speed (D) = 15 + 5 = 20 km/h. Upstream speed (U) = 15 - 5 = 10 km/h. Step 2: Time taken downstream = 45 / 20 = 2.25 hours. Time taken upstream = 45 / 10 = 4.5 hours. Step 3: Total time taken = 2.25 + 4.5 = 6.75 hours. Total distance covered = 45 + 45 = 90 km. Step 4: Average Speed = Total Distance / Total Time = 90 / 6.75 = 13.33 km/h. Shortcut: Average Speed = (2 * D * U) / (D + U) = (2 * 20 * 10) / (20 + 10) = 400 / 30 = 13.33 km/h."
+    "e": "Step 1: Downstream speed (D) = 15 + 5 = 20 km/h. Upstream speed (U) = 15 - 5 = 10 km/h. Step 2: Time taken downstream = 45 / 20 = 2.25 hours. Time taken upstream = 45 / 10 = 4.5 hours. Step 3: Total time taken = 2.25 + 4.5 = 6.75 hours. Total distance covered = 45 + 45 = 90 km. Step 4: Average Speed = Total Distance / Total Time = 90 / 6.75 = 13.33 km/h. Shortcut: Average Speed = (2 * D * U) / (D + U) = (2 * 20 * 10) / (20 + 10) = 400 / 30 = 13.33 km/h.",
+    "topic_tag": "maths.boats_and_streams.boat_stream_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_132",
@@ -510,7 +536,8 @@
       "256 sq.m"
     ],
     "a": 0,
-    "e": "Step 1: Outer Area of the square park = side^2 = 40 * 40 = 1600 sq.m. Step 2: Calculate inner dimensions after subtracting 2 meters width from both sides: Inner side = 40 - 2(2) = 40 - 4 = 36 meters. Step 3: Inner Area of the remaining park = 36 * 36 = 1296 sq.m. Step 4: Area of the internal track = Outer Area - Inner Area = 1600 - 1296 = 304 sq.m."
+    "e": "Step 1: Outer Area of the square park = side^2 = 40 * 40 = 1600 sq.m. Step 2: Calculate inner dimensions after subtracting 2 meters width from both sides: Inner side = 40 - 2(2) = 40 - 4 = 36 meters. Step 3: Inner Area of the remaining park = 36 * 36 = 1296 sq.m. Step 4: Area of the internal track = Outer Area - Inner Area = 1600 - 1296 = 304 sq.m.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_133",
@@ -529,7 +556,8 @@
       "140"
     ],
     "a": 0,
-    "e": "Step 1: Use the standard cubic identity: $x^3 + 1/x^3 = (x + 1/x)^3 - 3(x + 1/x)$. Step 2: Substitute the given value $(x + 1/x) = 5$ into the identity. Step 3: $x^3 + 1/x^3 = (5)^3 - 3(5) = 125 - 15 = 110$."
+    "e": "Step 1: Use the standard cubic identity: $x^3 + 1/x^3 = (x + 1/x)^3 - 3(x + 1/x)$. Step 2: Substitute the given value $(x + 1/x) = 5$ into the identity. Step 3: $x^3 + 1/x^3 = (5)^3 - 3(5) = 125 - 15 = 110$.",
+    "topic_tag": "maths.algebra.algebraic_equations"
   },
   {
     "p_id": "bssc_cgl_adv_quant_134",
@@ -548,7 +576,8 @@
       "29"
     ],
     "a": 0,
-    "e": "Step 1: Use the standard empirical formula connecting the three measures: $\\text{Mode} = 3 \\times \\text{Median} - 2 \\times \\text{Mean}$. Step 2: Substitute given values: $32 = 3 \\times \\text{Median} - 2(26)$. Step 3: $32 = 3 \\times \\text{Median} - 52 \\Rightarrow 3 \\times \\text{Median} = 32 + 52 = 84$. Step 4: $\\text{Median} = 84 / 3 = 28$."
+    "e": "Step 1: Use the standard empirical formula connecting the three measures: $\\text{Mode} = 3 \\times \\text{Median} - 2 \\times \\text{Mean}$. Step 2: Substitute given values: $32 = 3 \\times \\text{Median} - 2(26)$. Step 3: $32 = 3 \\times \\text{Median} - 52 \\Rightarrow 3 \\times \\text{Median} = 32 + 52 = 84$. Step 4: $\\text{Median} = 84 / 3 = 28$.",
+    "topic_tag": "maths.average.average_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_135",
@@ -567,7 +596,8 @@
       "420"
     ],
     "a": 0,
-    "e": "Step 1: Perform the prime factorization of 180 = $2^2 \\times 3^2 \\times 5^1$. Step 2: Formula for the sum of even factors requires taking powers of 2 from $2^1$ onwards (excluding $2^0$): Sum = $(2^1 + 2^2) \\times (3^0 + 3^1 + 3^2) \\times (5^0 + 5^1)$. Step 3: Calculate brackets = $(2 + 4) \\times (1 + 3 + 9) \\times (1 + 5) = 6 \\times 13 \\times 6$. Step 4: Total sum = 78 * 6 = 468."
+    "e": "Step 1: Perform the prime factorization of 180 = $2^2 \\times 3^2 \\times 5^1$. Step 2: Formula for the sum of even factors requires taking powers of 2 from $2^1$ onwards (excluding $2^0$): Sum = $(2^1 + 2^2) \\times (3^0 + 3^1 + 3^2) \\times (5^0 + 5^1)$. Step 3: Calculate brackets = $(2 + 4) \\times (1 + 3 + 9) \\times (1 + 5) = 6 \\times 13 \\times 6$. Step 4: Total sum = 78 * 6 = 468.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_136",
@@ -586,7 +616,8 @@
       "12 days"
     ],
     "a": 0,
-    "e": "Step 1: Determine efficiency ratios based on constraints. Let child efficiency C = 1 unit/day. Then woman W = 2C = 2 units/day. Man M = 2W = 4 units/day. Step 2: Calculate total work of the group = 10 days * (2M + 3W + 4C) = 10 * [2(4) + 3(2) + 4(1)] = 10 * (8 + 6 + 4) = 10 * 18 = 180 units. Step 3: Combined efficiency of 5 men alone = 5 * 4 units/day = 20 units/day. Step 4: Days required = Total work / Group efficiency = 180 / 20 = 9 days."
+    "e": "Step 1: Determine efficiency ratios based on constraints. Let child efficiency C = 1 unit/day. Then woman W = 2C = 2 units/day. Man M = 2W = 4 units/day. Step 2: Calculate total work of the group = 10 days * (2M + 3W + 4C) = 10 * [2(4) + 3(2) + 4(1)] = 10 * (8 + 6 + 4) = 10 * 18 = 180 units. Step 3: Combined efficiency of 5 men alone = 5 * 4 units/day = 20 units/day. Step 4: Days required = Total work / Group efficiency = 180 / 20 = 9 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_137",
@@ -605,7 +636,8 @@
       "1/22blank"
     ],
     "a": 0,
-    "e": "Step 1: Total number of marbles initially = 5 + 4 + 3 = 12 marbles. Step 2: Probability that the first marble drawn is white = 4 / 12 = 1 / 3. Step 3: Since it is drawn without replacement, 11 marbles remain, containing 3 white marbles. Step 4: Probability that the second marble drawn is white given the first was white = 3 / 11. Step 5: Combined Probability = (4 / 12) * (3 / 11) = (1 / 3) * (3 / 11) = 1 / 11."
+    "e": "Step 1: Total number of marbles initially = 5 + 4 + 3 = 12 marbles. Step 2: Probability that the first marble drawn is white = 4 / 12 = 1 / 3. Step 3: Since it is drawn without replacement, 11 marbles remain, containing 3 white marbles. Step 4: Probability that the second marble drawn is white given the first was white = 3 / 11. Step 5: Combined Probability = (4 / 12) * (3 / 11) = (1 / 3) * (3 / 11) = 1 / 11.",
+    "topic_tag": "maths.probability.probability_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_138",
@@ -624,7 +656,8 @@
       "25.00%"
     ],
     "a": 0,
-    "e": "Step 1: While buying, he pays for 1000g but takes 1100g. Cost = Rs. 1000 for 1100g. Step 2: While selling, he charges for 1000g (Rs. 1000) but gives only 900g. Step 3: Equalize product units to find true margin: Revenue for 1100g = (1000 / 900) * 1100 = Rs. 1222.22. Step 4: Profit Percentage = ((1222.22 - 1000) / 1000) * 100 = 222.22 / 10 = 22.22%."
+    "e": "Step 1: While buying, he pays for 1000g but takes 1100g. Cost = Rs. 1000 for 1100g. Step 2: While selling, he charges for 1000g (Rs. 1000) but gives only 900g. Step 3: Equalize product units to find true margin: Revenue for 1100g = (1000 / 900) * 1100 = Rs. 1222.22. Step 4: Profit Percentage = ((1222.22 - 1000) / 1000) * 100 = 222.22 / 10 = 22.22%.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_139",
@@ -643,7 +676,8 @@
       "Rs. 7500"
     ],
     "a": 0,
-    "e": "Step 1: Let the two parts be P1 and P2. Given $P1 + P2 = 12000$. Step 2: Set up interest equality: $(P1 \\times 12 \\times 3) / 100 = (P2 \\times 16 \\times 4.5) / 100 \\Rightarrow 36 \\cdot P1 = 72 \\cdot P2$. Step 3: Simplify ratio: $P1 / P2 = 72 / 36 = 2 / 1 \\Rightarrow P1 = 2 \\cdot P2$. Step 4: Total parts = 2 + 1 = 3 parts. 3 parts = 12000 => 1 part = 4000. Step 5: Value of the first part (P1) = 2 parts = 2 * 4000 = Rs. 8000."
+    "e": "Step 1: Let the two parts be P1 and P2. Given $P1 + P2 = 12000$. Step 2: Set up interest equality: $(P1 \\times 12 \\times 3) / 100 = (P2 \\times 16 \\times 4.5) / 100 \\Rightarrow 36 \\cdot P1 = 72 \\cdot P2$. Step 3: Simplify ratio: $P1 / P2 = 72 / 36 = 2 / 1 \\Rightarrow P1 = 2 \\cdot P2$. Step 4: Total parts = 2 + 1 = 3 parts. 3 parts = 12000 => 1 part = 4000. Step 5: Value of the first part (P1) = 2 parts = 2 * 4000 = Rs. 8000.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_140",
@@ -662,6 +696,7 @@
       "78%"
     ],
     "a": 0,
-    "e": "Step 1: Total surface area of a cube is given by the formula $6 \\cdot a^2$, which means it is directly proportional to the square of its side length ($A \\propto a^2$). Step 2: Use the successive growth percentage change formula: $x + y + (xy / 100)$. Step 3: Substitute x = 30 and y = 30 into the formula: $30 + 30 + (30 \\times 30 / 100) = 60 + 9 = 69\\%$ increase."
+    "e": "Step 1: Total surface area of a cube is given by the formula $6 \\cdot a^2$, which means it is directly proportional to the square of its side length ($A \\propto a^2$). Step 2: Use the successive growth percentage change formula: $x + y + (xy / 100)$. Step 3: Substitute x = 30 and y = 30 into the formula: $30 + 30 + (30 \\times 30 / 100) = 60 + 9 = 69\\%$ increase.",
+    "topic_tag": "maths.percentage.percentage_problems"
   }
 ]
