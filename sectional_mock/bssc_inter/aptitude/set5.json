@@ -16,7 +16,8 @@
       "1"
     ],
     "a": 1,
-    "e": "Step 1: Divisibility rule of 11: Difference between the sum of digits at odd positions and even positions must be 0 or a multiple of 11. Step 2: Odd positions sum = $4 + 2 + 1 = 7$. Even positions sum = $3 + Y + 5 = 8 + Y$. Step 3: Set $(8 + Y) - 7 = 11 \\implies Y + 1 = 11 \\implies Y = 10$ (not a single digit) or set $(8 + Y) - 7 = 0 \\implies Y + 1 = 0$ (negative). Let's test difference option: $(8+Y) - 7 = 11 \\implies Y = 10$. Wait, let's recalculate: Odd places: $4, 2, 1 \\implies 7$. Even places: $3, Y, 5 \\implies 8+Y$. Difference = $(8+Y) - 7 = Y+1$. For $Y=3$, difference is 4. Let's adjust order: Sum of odd digits = $5 + Y + 3 = 8 + Y$. Sum of even digits = $1 + 2 + 4 = 7$. Difference = $(8 + Y) - 7 = Y + 1$. For divisibility, $Y+1$ can be 0 or 11, which gives complex values. Let's realign the digits: if number is 432615. Odd places $5+6+3=14$. Even places $1+2+4=7$. Diff=7. Let's choose alternative setup: if $Y=3$, number is 432315. Odd places: $5+3+3=11$. Even places: $1+2+4=7$. Diff=4. Let's rewrite the layout to 432117. Let's use simple logic: if $Y=3$, number 432315 -> odd positions from right: $5+3+3=11$. Even: $1+2+4=7$. Let's make it 432312: odd: $2+3+3=8$, even: $1+2+4=7$. Let's provide a solid correct setup: If number is 432516 -> odd: $6+5+3=14$, even: $1+2+4=7$. Diff=7. Let's explicitly give a verified configuration: Number 432Y15: if $Y=3$, sum of odd digits from right = $5+3+3=11$, sum of even digits = $1+2+4=7$. Difference 4. Let's change the question string to a standard 11 divisibility rule setup: 432Y16 where $Y=7$. Let's use 432718. Odd: $8+7+3=18$, Even: $1+2+4=7$. Difference = 11. So $Y=7$ is perfect. Let's correct question digits to 432Y18 and options to match."
+    "e": "Step 1: Divisibility rule of 11: Difference between the sum of digits at odd positions and even positions must be 0 or a multiple of 11. Step 2: Odd positions sum = $4 + 2 + 1 = 7$. Even positions sum = $3 + Y + 5 = 8 + Y$. Step 3: Set $(8 + Y) - 7 = 11 \\implies Y + 1 = 11 \\implies Y = 10$ (not a single digit) or set $(8 + Y) - 7 = 0 \\implies Y + 1 = 0$ (negative). Let's test difference option: $(8+Y) - 7 = 11 \\implies Y = 10$. Wait, let's recalculate: Odd places: $4, 2, 1 \\implies 7$. Even places: $3, Y, 5 \\implies 8+Y$. Difference = $(8+Y) - 7 = Y+1$. For $Y=3$, difference is 4. Let's adjust order: Sum of odd digits = $5 + Y + 3 = 8 + Y$. Sum of even digits = $1 + 2 + 4 = 7$. Difference = $(8 + Y) - 7 = Y + 1$. For divisibility, $Y+1$ can be 0 or 11, which gives complex values. Let's realign the digits: if number is 432615. Odd places $5+6+3=14$. Even places $1+2+4=7$. Diff=7. Let's choose alternative setup: if $Y=3$, number is 432315. Odd places: $5+3+3=11$. Even places: $1+2+4=7$. Diff=4. Let's rewrite the layout to 432117. Let's use simple logic: if $Y=3$, number 432315 -> odd positions from right: $5+3+3=11$. Even: $1+2+4=7$. Let's make it 432312: odd: $2+3+3=8$, even: $1+2+4=7$. Let's provide a solid correct setup: If number is 432516 -> odd: $6+5+3=14$, even: $1+2+4=7$. Diff=7. Let's explicitly give a verified configuration: Number 432Y15: if $Y=3$, sum of odd digits from right = $5+3+3=11$, sum of even digits = $1+2+4=7$. Difference 4. Let's change the question string to a standard 11 divisibility rule setup: 432Y16 where $Y=7$. Let's use 432718. Odd: $8+7+3=18$, Even: $1+2+4=7$. Difference = 11. So $Y=7$ is perfect. Let's correct question digits to 432Y18 and options to match.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_math_107",
@@ -35,7 +36,8 @@
       "15"
     ],
     "a": 0,
-    "e": "Step 1: Let $x = \\sqrt{30 + x}$. Step 2: Squaring both sides: $x^2 - x - 30 = 0$. Step 3: Factorizing gives $(x-6)(x+5)=0$. Since the value must be positive, $x = 6$."
+    "e": "Step 1: Let $x = \\sqrt{30 + x}$. Step 2: Squaring both sides: $x^2 - x - 30 = 0$. Step 3: Factorizing gives $(x-6)(x+5)=0$. Since the value must be positive, $x = 6$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_108",
@@ -54,7 +56,8 @@
       "180"
     ],
     "a": 0,
-    "e": "Step 1: Difference in percentage = $42\\% - 30\\% = 12\\%$. Difference in marks = $45 - (-45) = 90$ marks. Step 2: 12% of Total Marks = 90 $\\implies$ Total Marks = $\\frac{90 \\times 100}{12} = 750$. Step 3: Passing marks = 30% of 750 + 45 = $225 + 45 = 270$."
+    "e": "Step 1: Difference in percentage = $42\\% - 30\\% = 12\\%$. Difference in marks = $45 - (-45) = 90$ marks. Step 2: 12% of Total Marks = 90 $\\implies$ Total Marks = $\\frac{90 \\times 100}{12} = 750$. Step 3: Passing marks = 30% of 750 + 45 = $225 + 45 = 270$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_109",
@@ -73,7 +76,8 @@
       "25%"
     ],
     "a": 0,
-    "e": "Step 1: Let the true weight be 1000g and cost price be Rs. 1000. He charges for 10% profit, so SP = Rs. 1100. Step 2: He uses 20% less weight, meaning he delivers 800g, whose actual Cost Price is Rs. 800. Step 3: Profit % = $\\frac{1100 - 800}{800} \\times 100 = \\frac{300}{800} \\times 100 = 37.5\\%$."
+    "e": "Step 1: Let the true weight be 1000g and cost price be Rs. 1000. He charges for 10% profit, so SP = Rs. 1100. Step 2: He uses 20% less weight, meaning he delivers 800g, whose actual Cost Price is Rs. 800. Step 3: Profit % = $\\frac{1100 - 800}{800} \\times 100 = \\frac{300}{800} \\times 100 = 37.5\\%$.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_math_110",
@@ -92,7 +96,8 @@
       "Rs. 5,000"
     ],
     "a": 0,
-    "e": "Step 1: Simple Interest for 3 years ($5 - 2$) = $6800 - 5600 = Rs.\\ 1200$. Step 2: SI for 1 year = $1200 / 3 = Rs.\\ 400$. SI for 2 years = $400 \\times 2 = Rs.\\ 800$. Step 3: Principal = Amount after 2 years - SI for 2 years = $5600 - 800 = Rs.\\ 4,800$."
+    "e": "Step 1: Simple Interest for 3 years ($5 - 2$) = $6800 - 5600 = Rs.\\ 1200$. Step 2: SI for 1 year = $1200 / 3 = Rs.\\ 400$. SI for 2 years = $400 \\times 2 = Rs.\\ 800$. Step 3: Principal = Amount after 2 years - SI for 2 years = $5600 - 800 = Rs.\\ 4,800$.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
   },
   {
     "p_id": "bssc_math_111",
@@ -111,7 +116,8 @@
       "Rs. 3,80,000"
     ],
     "a": 1,
-    "e": "Step 1: Formula: $Present\\ Value = Principal \\times (1 + \\frac{R}{100})^n$. Step 2: $441000 = P \\times (\\frac{21}{20})^2 \\implies 441000 = P \\times \\frac{441}{400}$. Step 3: $P = \\frac{441000 \\times 400}{441} = Rs.\\ 4,00,000$."
+    "e": "Step 1: Formula: $Present\\ Value = Principal \\times (1 + \\frac{R}{100})^n$. Step 2: $441000 = P \\times (\\frac{21}{20})^2 \\implies 441000 = P \\times \\frac{441}{400}$. Step 3: $P = \\frac{441000 \\times 400}{441} = Rs.\\ 4,00,000$.",
+    "topic_tag": "maths.age.age_problems"
   },
   {
     "p_id": "bssc_math_112",
@@ -130,7 +136,8 @@
       "120"
     ],
     "a": 0,
-    "e": "Step 1: Value ratio of coins = $4(1) : 5(0.5) : 6(0.25) = 4 : 2.5 : 1.5$. Total value parts sum = $4 + 2.5 + 1.5 = 8$ parts. Step 2: Given 8 parts = Rs. 320, so 1 part = Rs. 40. Step 3: Value of 25 paise coins = $1.5 \\times 40 = Rs.\\ 60$. Total number of 25p coins = $60 \\times 4 = 240$."
+    "e": "Step 1: Value ratio of coins = $4(1) : 5(0.5) : 6(0.25) = 4 : 2.5 : 1.5$. Total value parts sum = $4 + 2.5 + 1.5 = 8$ parts. Step 2: Given 8 parts = Rs. 320, so 1 part = Rs. 40. Step 3: Value of 25 paise coins = $1.5 \\times 40 = Rs.\\ 60$. Total number of 25p coins = $60 \\times 4 = 240$.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
   },
   {
     "p_id": "bssc_math_113",
@@ -149,7 +156,8 @@
       "Rs. 1,200"
     ],
     "a": 0,
-    "e": "Step 1: Let the remaining profit after charity be x. A's profit share = $\\frac{3}{5}x = 855 \\implies x = \\frac{855 \\times 5}{3} = 1425$. Step 2: Since 5% goes to charity, 95% of total profit = 1425. Step 3: Total profit = $\\frac{1425 \\times 100}{95} = 15 \\times 100 = Rs.\\ 1,500$."
+    "e": "Step 1: Let the remaining profit after charity be x. A's profit share = $\\frac{3}{5}x = 855 \\implies x = \\frac{855 \\times 5}{3} = 1425$. Step 2: Since 5% goes to charity, 95% of total profit = 1425. Step 3: Total profit = $\\frac{1425 \\times 100}{95} = 15 \\times 100 = Rs.\\ 1,500$.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_math_114",
@@ -168,7 +176,8 @@
       "715"
     ],
     "a": 0,
-    "e": "Step 1: The average of consecutive numbers is the middle term. Middle term = 27. Step 2: The 7 consecutive odd numbers are 21, 23, 25, 27, 29, 31, 33. Smallest = 21, Largest = 33. Step 3: Product = $21 \\times 33 = 693$."
+    "e": "Step 1: The average of consecutive numbers is the middle term. Middle term = 27. Step 2: The 7 consecutive odd numbers are 21, 23, 25, 27, 29, 31, 33. Smallest = 21, Largest = 33. Step 3: Product = $21 \\times 33 = 693$.",
+    "topic_tag": "maths.age.age_problems"
   },
   {
     "p_id": "bssc_math_115",
@@ -187,7 +196,8 @@
       "14 years"
     ],
     "a": 0,
-    "e": "Step 1: Let their ages 6 years ago be 6x and 5x. Present ages are $6x+6$ and $5x+6$. Step 2: Four years hence: $\\frac{6x + 6 + 4}{5x + 6 + 4} = \\frac{11}{10} \\implies \\frac{6x + 10}{5x + 10} = \\frac{11}{10}$. Step 3: $60x + 100 = 55x + 110 \\implies 5x = 10 \\implies x = 2$. Sagar's present age = $5(2) + 6 = 16\\ years$."
+    "e": "Step 1: Let their ages 6 years ago be 6x and 5x. Present ages are $6x+6$ and $5x+6$. Step 2: Four years hence: $\\frac{6x + 6 + 4}{5x + 6 + 4} = \\frac{11}{10} \\implies \\frac{6x + 10}{5x + 10} = \\frac{11}{10}$. Step 3: $60x + 100 = 55x + 110 \\implies 5x = 10 \\implies x = 2$. Sagar's present age = $5(2) + 6 = 16\\ years$.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
   },
   {
     "p_id": "bssc_math_116",
@@ -206,7 +216,8 @@
       "8 days"
     ],
     "a": 0,
-    "e": "Step 1: 3 men = 5 women, so 6 men = 10 women. Step 2: 6 men + 5 women = 10 women + 5 women = 15 women. Step 3: Use $M_1 D_1 = M_2 D_2 \\implies 5 \\times 12 = 15 \\times D_2 \\implies D_2 = 60 / 15 = 4\\ days$."
+    "e": "Step 1: 3 men = 5 women, so 6 men = 10 women. Step 2: 6 men + 5 women = 10 women + 5 women = 15 women. Step 3: Use $M_1 D_1 = M_2 D_2 \\implies 5 \\times 12 = 15 \\times D_2 \\implies D_2 = 60 / 15 = 4\\ days$.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_math_117",
@@ -225,7 +236,8 @@
       "14 hours"
     ],
     "a": 1,
-    "e": "Step 1: Total capacity = LCM(12, 15) = 60 units. Efficiency of A = 5, B = 4. Step 2: In 2 hours, work done = $5 + 4 = 9$ units. In 12 hours, work done = $6 \\times 9 = 54$ units. Remaining work = $60 - 54 = 6$ units. Step 3: On 13th hour, A fills 5 units, remaining 1 unit filled by B in $\\frac{1}{4}$ hour. Total time = $13\\ \\frac{1}{4} = 13.25\\ hours$."
+    "e": "Step 1: Total capacity = LCM(12, 15) = 60 units. Efficiency of A = 5, B = 4. Step 2: In 2 hours, work done = $5 + 4 = 9$ units. In 12 hours, work done = $6 \\times 9 = 54$ units. Remaining work = $60 - 54 = 6$ units. Step 3: On 13th hour, A fills 5 units, remaining 1 unit filled by B in $\\frac{1}{4}$ hour. Total time = $13\\ \\frac{1}{4} = 13.25\\ hours$.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
   },
   {
     "p_id": "bssc_math_118",
@@ -244,7 +256,8 @@
       "40 km/h"
     ],
     "a": 0,
-    "e": "Step 1: Formula for average speed with 3 equal distances is $\\frac{3xyz}{xy + yz + zx}$. Step 2: Let each distance part be 60 km (LCM of speeds). Time taken = $3 + 2 + 1 = 6$ hours. Step 3: Total distance = $60 \\times 3 = 180\\ km$. Average speed = $180 / 6 = 30\\ km/h$."
+    "e": "Step 1: Formula for average speed with 3 equal distances is $\\frac{3xyz}{xy + yz + zx}$. Step 2: Let each distance part be 60 km (LCM of speeds). Time taken = $3 + 2 + 1 = 6$ hours. Step 3: Total distance = $60 \\times 3 = 180\\ km$. Average speed = $180 / 6 = 30\\ km/h$.",
+    "topic_tag": "maths.train.train_speed_problems"
   },
   {
     "p_id": "bssc_math_119",
@@ -263,7 +276,8 @@
       "2:3"
     ],
     "a": 0,
-    "e": "Step 1: Upstream speed = $12 - 4 = 8\\ km/h$. Step 2: Downstream speed = $12 + 4 = 16\\ km/h$. Step 3: Ratio = 8:16 = 1:2."
+    "e": "Step 1: Upstream speed = $12 - 4 = 8\\ km/h$. Step 2: Downstream speed = $12 + 4 = 16\\ km/h$. Step 3: Ratio = 8:16 = 1:2.",
+    "topic_tag": "maths.boats_and_streams.boat_stream_problems"
   },
   {
     "p_id": "bssc_math_120",
@@ -282,7 +296,8 @@
       "312 sq m"
     ],
     "a": 0,
-    "e": "Step 1: Inner area = $40 \\times 30 = 1200\\ m^2$. Step 2: Outer dimensions after adding path = $40 + 4 = 44\\ m$ and $30 + 4 = 34\\ m$. Outer area = $44 \\times 34 = 1496\\ m^2$. Step 3: Area of path = $1496 - 1200 = 296\\ m^2$."
+    "e": "Step 1: Inner area = $40 \\times 30 = 1200\\ m^2$. Step 2: Outer dimensions after adding path = $40 + 4 = 44\\ m$ and $30 + 4 = 34\\ m$. Outer area = $44 \\times 34 = 1496\\ m^2$. Step 3: Area of path = $1496 - 1200 = 296\\ m^2$.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_math_121",
@@ -301,7 +316,8 @@
       "9 cm"
     ],
     "a": 0,
-    "e": "Step 1: Volume of sphere = Volume of cone $\\implies \\frac{4}{3}\\pi r_s^3 = \\frac{1}{3}\\pi r_c^2 h$. Step 2: $4 \\times 6^3 = r_c^2 \\times 12 \\implies 4 \\times 216 = 12r_c^2$. Step 3: $r_c^2 = 864 / 12 = 72$ (Wait, let's re-verify: $4 \\times 6 \\times 6 \\times 6 = 12 \\times r_c^2 \\implies r_c^2 = 72$). Let's change the radius of sphere to 3 cm or modify parameters: if radius of sphere is 6 cm, height of cone is 24 cm $\\implies 4 \\times 6^3 = 24r_c^2 \\implies 864 = 24r_c^2 \\implies r_c^2 = 36 \\implies r_c = 6\\ cm$. Let's adjust height text to 24 cm."
+    "e": "Step 1: Volume of sphere = Volume of cone $\\implies \\frac{4}{3}\\pi r_s^3 = \\frac{1}{3}\\pi r_c^2 h$. Step 2: $4 \\times 6^3 = r_c^2 \\times 12 \\implies 4 \\times 216 = 12r_c^2$. Step 3: $r_c^2 = 864 / 12 = 72$ (Wait, let's re-verify: $4 \\times 6 \\times 6 \\times 6 = 12 \\times r_c^2 \\implies r_c^2 = 72$). Let's change the radius of sphere to 3 cm or modify parameters: if radius of sphere is 6 cm, height of cone is 24 cm $\\implies 4 \\times 6^3 = 24r_c^2 \\implies 864 = 24r_c^2 \\implies r_c^2 = 36 \\implies r_c = 6\\ cm$. Let's adjust height text to 24 cm.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_122",
@@ -320,7 +336,8 @@
       "9900"
     ],
     "a": 0,
-    "e": "Step 1: LCM of 15, 20, 25 = 300. Step 2: Largest 4-digit number is 9999. Divide 9999 by 300, remainder is 99. Step 3: Perfect multiple = $9999 - 99 = 9900$. Add uniform remainder: $9900 + 2 = 9902$."
+    "e": "Step 1: LCM of 15, 20, 25 = 300. Step 2: Largest 4-digit number is 9999. Divide 9999 by 300, remainder is 99. Step 3: Perfect multiple = $9999 - 99 = 9900$. Add uniform remainder: $9900 + 2 = 9902$.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_math_123",
@@ -339,7 +356,8 @@
       "2"
     ],
     "a": 0,
-    "e": "Step 1: If $a + b + c = 0$, then according to algebraic identity, $a^3 + b^3 + c^3 = 3abc$. Step 2: Substitute $3abc$ into the expression: $\\frac{3abc}{abc}$. Step 3: Canceling $abc$ gives 3."
+    "e": "Step 1: If $a + b + c = 0$, then according to algebraic identity, $a^3 + b^3 + c^3 = 3abc$. Step 2: Substitute $3abc$ into the expression: $\\frac{3abc}{abc}$. Step 3: Canceling $abc$ gives 3.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_124",
@@ -358,7 +376,8 @@
       "1:3"
     ],
     "a": 0,
-    "e": "Step 1: Apply cross alligation rule. Left cost = 60, Right cost = 85, Target mean = 70. Step 2: Left ratio part = $|70 - 85| = 15$. Right ratio part = $|70 - 60| = 10$. Step 3: Ratio = 15:10 = 3:2."
+    "e": "Step 1: Apply cross alligation rule. Left cost = 60, Right cost = 85, Target mean = 70. Step 2: Left ratio part = $|70 - 85| = 15$. Right ratio part = $|70 - 60| = 10$. Step 3: Ratio = 15:10 = 3:2.",
+    "topic_tag": "maths.mixture.mixture_problems"
   },
   {
     "p_id": "bssc_math_125",
@@ -377,7 +396,8 @@
       "75"
     ],
     "a": 0,
-    "e": "Step 1: Range is calculated as Highest Value - Lowest Value. Step 2: Highest Value = 92, Lowest Value = 12. Step 3: Range = $92 - 12 = 80$."
+    "e": "Step 1: Range is calculated as Highest Value - Lowest Value. Step 2: Highest Value = 92, Lowest Value = 12. Step 3: Range = $92 - 12 = 80$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_126",
@@ -396,7 +416,8 @@
       "4000 W"
     ],
     "a": 0,
-    "e": "Step 1: Work done = Potential Energy given = $mgh = 100 \\times 10 \\times 20 = 20,000\\ J$. Step 2: Power = Work / Time = $20,000 / 10$. Step 3: Power = 2000 Watts."
+    "e": "Step 1: Work done = Potential Energy given = $mgh = 100 \\times 10 \\times 20 = 20,000\\ J$. Step 2: Power = Work / Time = $20,000 / 10$. Step 3: Power = 2000 Watts.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_127",
@@ -415,7 +436,8 @@
       "16000 J"
     ],
     "a": 0,
-    "e": "Step 1: Joule's law of heating states $H = I^2Rt$. Step 2: Substitute values: $H = 4^2 \\times 50 \\times 10$. Step 3: $H = 16 \\times 50 \\times 10 = 8000\\ Joules$."
+    "e": "Step 1: Joule's law of heating states $H = I^2Rt$. Step 2: Substitute values: $H = 4^2 \\times 50 \\times 10$. Step 3: $H = 16 \\times 50 \\times 10 = 8000\\ Joules$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_128",
@@ -434,7 +456,8 @@
       "5.75 grams"
     ],
     "a": 0,
-    "e": "Step 1: Number of moles = Given atoms / Avogadro number = $\\frac{3.011 \\times 10^{23}}{6.022 \\times 10^{23}} = 0.5\\ mol$. Step 2: Mass = Moles $\\times$ Molar mass. Step 3: Mass = $0.5 \\times 23 = 11.5\\ grams$."
+    "e": "Step 1: Number of moles = Given atoms / Avogadro number = $\\frac{3.011 \\times 10^{23}}{6.022 \\times 10^{23}} = 0.5\\ mol$. Step 2: Mass = Moles $\\times$ Molar mass. Step 3: Mass = $0.5 \\times 23 = 11.5\\ grams$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_129",
@@ -453,7 +476,8 @@
       "1"
     ],
     "a": 0,
-    "e": "Step 1: Base unit digit is 7. Cyclicity of 7 is 4. Step 2: Find the remainder of the power divided by 4: $142 / 4 \\implies Remainder = 2$. Step 3: Unit digit = $7^2 = 49 \\implies 9$."
+    "e": "Step 1: Base unit digit is 7. Cyclicity of 7 is 4. Step 2: Find the remainder of the power divided by 4: $142 / 4 \\implies Remainder = 2$. Step 3: Unit digit = $7^2 = 49 \\implies 9$.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_math_130",
@@ -472,7 +496,8 @@
       "Rs. 520"
     ],
     "a": 0,
-    "e": "Step 1: Net transformation ratio = $A \\times 1.20 \\times 0.90 = 540$. Step 2: $A \\times 1.08 = 540$. Step 3: $A = 540 / 1.08 = 500$."
+    "e": "Step 1: Net transformation ratio = $A \\times 1.20 \\times 0.90 = 540$. Step 2: $A \\times 1.08 = 540$. Step 3: $A = 540 / 1.08 = 500$.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_math_131",
@@ -491,7 +516,8 @@
       "24"
     ],
     "a": 0,
-    "e": "Step 1: Division first: $40 \\div 5 = 8$. Expression becomes $24 + 4 \\times 3 - 8$. Step 2: Multiplication next: $4 \\times 3 = 12$. Expression becomes $24 + 12 - 8$. Step 3: $36 - 8 = 28$."
+    "e": "Step 1: Division first: $40 \\div 5 = 8$. Expression becomes $24 + 4 \\times 3 - 8$. Step 2: Multiplication next: $4 \\times 3 = 12$. Expression becomes $24 + 12 - 8$. Step 3: $36 - 8 = 28$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_132",
@@ -510,7 +536,8 @@
       "2 years"
     ],
     "a": 0,
-    "e": "Step 1: Total age deficit accumulated over 2 years across 10 members = $10 \\times 2 = 20\\ years$. Step 2: This total gap is completely balanced by the inclusion of the new member. Step 3: Age difference = 20 years."
+    "e": "Step 1: Total age deficit accumulated over 2 years across 10 members = $10 \\times 2 = 20\\ years$. Step 2: This total gap is completely balanced by the inclusion of the new member. Step 3: Age difference = 20 years.",
+    "topic_tag": "maths.age.age_problems"
   },
   {
     "p_id": "bssc_math_133",
@@ -529,7 +556,8 @@
       "40"
     ],
     "a": 0,
-    "e": "Step 1: Formula for third proportional to a and b is $\\frac{b^2}{a}$. Step 2: Third proportional = $\\frac{24 \\times 24}{16}$. Step 3: $\\frac{576}{16} = 36$."
+    "e": "Step 1: Formula for third proportional to a and b is $\\frac{b^2}{a}$. Step 2: Third proportional = $\\frac{24 \\times 24}{16}$. Step 3: $\\frac{576}{16} = 36$.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
   },
   {
     "p_id": "bssc_math_134",
@@ -548,7 +576,8 @@
       "7 days"
     ],
     "a": 0,
-    "e": "Step 1: Total work = LCM(14, 21) = 42 units. Efficiency of A = 3, B = 2. Step 2: In the last 3 days, B worked alone. Work done by B = $3 \\times 2 = 6$ units. Remaining work = $42 - 6 = 36$ units. Step 3: Initial days worked together = $36 / (3 + 2) = 36 / 5 = 7.2$ days. Total days = $7.2 + 3 = 10.2$ days. Let's adjust inputs for integers: A in 10 days, B in 15 days, A leaves 2 days before completion $\\implies$ Total work = 30. Efficiencies A=3, B=2. Last 2 days B does $2 \\times 2 = 4$ units. Remaining 26 units done together in $26/5 = 5.2$ days. Total days = 7.2. Let's stick to initial equation with options or re-read options: if option has 9 days, let's configure parameters to yield 9: A=12 days, B=18 days. Total 36. Eff A=3, B=2. A leaves 4 days before completion $\\implies$ B does $4 \\times 2 = 8$ units. Rem 28. Together $28/5$ still fractional. Let's fix clean parameters: A=10, B=15. Total 30. A leaves 5 days before $\\implies$ B does $5 \\times 2 = 10$ units. Rem 20. Together $20/5 = 4$ days. Total days = $4 + 5 = 9$ days. Let's change description text to A in 10 days and B in 15 days, A leaves 5 days before completion."
+    "e": "Step 1: Total work = LCM(14, 21) = 42 units. Efficiency of A = 3, B = 2. Step 2: In the last 3 days, B worked alone. Work done by B = $3 \\times 2 = 6$ units. Remaining work = $42 - 6 = 36$ units. Step 3: Initial days worked together = $36 / (3 + 2) = 36 / 5 = 7.2$ days. Total days = $7.2 + 3 = 10.2$ days. Let's adjust inputs for integers: A in 10 days, B in 15 days, A leaves 2 days before completion $\\implies$ Total work = 30. Efficiencies A=3, B=2. Last 2 days B does $2 \\times 2 = 4$ units. Remaining 26 units done together in $26/5 = 5.2$ days. Total days = 7.2. Let's stick to initial equation with options or re-read options: if option has 9 days, let's configure parameters to yield 9: A=12 days, B=18 days. Total 36. Eff A=3, B=2. A leaves 4 days before completion $\\implies$ B does $4 \\times 2 = 8$ units. Rem 28. Together $28/5$ still fractional. Let's fix clean parameters: A=10, B=15. Total 30. A leaves 5 days before $\\implies$ B does $5 \\times 2 = 10$ units. Rem 20. Together $20/5 = 4$ days. Total days = $4 + 5 = 9$ days. Let's change description text to A in 10 days and B in 15 days, A leaves 5 days before completion.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_math_135",
@@ -567,7 +596,8 @@
       "10:30 a.m."
     ],
     "a": 0,
-    "e": "Step 1: By 8 a.m., the first train has traveled for 1 hour $\\implies 20\\ km$. Remaining distance between them at 8 a.m. = $110 - 20 = 90\\ km$. Step 2: Relative speed towards each other = $20 + 25 = 45\\ km/h$. Step 3: Time to meet = $90 / 45 = 2\\ hours$ after 8 a.m. Meeting time = 10 a.m."
+    "e": "Step 1: By 8 a.m., the first train has traveled for 1 hour $\\implies 20\\ km$. Remaining distance between them at 8 a.m. = $110 - 20 = 90\\ km$. Step 2: Relative speed towards each other = $20 + 25 = 45\\ km/h$. Step 3: Time to meet = $90 / 45 = 2\\ hours$ after 8 a.m. Meeting time = 10 a.m.",
+    "topic_tag": "maths.train.train_speed_problems"
   },
   {
     "p_id": "bssc_math_136",
@@ -586,7 +616,8 @@
       "21 m"
     ],
     "a": 0,
-    "e": "Step 1: Longest rod length matches the diagonal of a cuboid: $\\sqrt{l^2 + w^2 + h^2}$. Step 2: Substitute parameters: $\\sqrt{12^2 + 9^2 + 8^2} = \\sqrt{144 + 81 + 64}$. Step 3: $\\sqrt{289} = 17\\ meters$."
+    "e": "Step 1: Longest rod length matches the diagonal of a cuboid: $\\sqrt{l^2 + w^2 + h^2}$. Step 2: Substitute parameters: $\\sqrt{12^2 + 9^2 + 8^2} = \\sqrt{144 + 81 + 64}$. Step 3: $\\sqrt{289} = 17\\ meters$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_137",
@@ -605,7 +636,8 @@
       "12.5%"
     ],
     "a": 0,
-    "e": "Step 1: Formula for consumption adjustment: $[\\frac{R}{100 - R}] \\times 100$. Step 2: Substitute value: $[\\frac{10}{90}] \\times 100 = \\frac{100}{9}\\%$. Step 3: Result is 11.11%."
+    "e": "Step 1: Formula for consumption adjustment: $[\\frac{R}{100 - R}] \\times 100$. Step 2: Substitute value: $[\\frac{10}{90}] \\times 100 = \\frac{100}{9}\\%$. Step 3: Result is 11.11%.",
+    "topic_tag": "maths.percentage.percentage_problems"
   },
   {
     "p_id": "bssc_math_138",
@@ -624,7 +656,8 @@
       "6"
     ],
     "a": 0,
-    "e": "Step 1: For infinite unique solutions, ratios must satisfy $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$. Step 2: Substitute values: $\\frac{5}{10} = \\frac{2}{m} = \\frac{10}{20}$. Step 3: $\\frac{1}{2} = \\frac{2}{m} \\implies m = 4$."
+    "e": "Step 1: For infinite unique solutions, ratios must satisfy $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$. Step 2: Substitute values: $\\frac{5}{10} = \\frac{2}{m} = \\frac{10}{20}$. Step 3: $\\frac{1}{2} = \\frac{2}{m} \\implies m = 4$.",
+    "topic_tag": "maths.algebra.algebraic_equations"
   },
   {
     "p_id": "bssc_math_139",
@@ -643,7 +676,8 @@
       "1500 N"
     ],
     "a": 0,
-    "e": "Step 1: Acceleration $a = \\frac{v - u}{t} = \\frac{20 - 10}{5} = 2\\ m/s^2$. Step 2: Force formula is $F = ma$. Step 3: $F = 500 \\times 2 = 1000\\ Newtons$."
+    "e": "Step 1: Acceleration $a = \\frac{v - u}{t} = \\frac{20 - 10}{5} = 2\\ m/s^2$. Step 2: Force formula is $F = ma$. Step 3: $F = 500 \\times 2 = 1000\\ Newtons$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_math_140",
@@ -662,6 +696,7 @@
       "16"
     ],
     "a": 0,
-    "e": "Step 1: Let the numbers be $3x$ and $4x$, where $x$ represents their HCF. So numbers are $3 \\times 4 = 12$ and $4 \\times 4 = 16$. Step 2: LCM of 12 and 16 = 48. Alternatively, $LCM = Ratio_1 \\times Ratio_2 \\times HCF = 3 \\times 4 \\times 4 = 48$."
+    "e": "Step 1: Let the numbers be $3x$ and $4x$, where $x$ represents their HCF. So numbers are $3 \\times 4 = 12$ and $4 \\times 4 = 16$. Step 2: LCM of 12 and 16 = 48. Alternatively, $LCM = Ratio_1 \\times Ratio_2 \\times HCF = 3 \\times 4 \\times 4 = 48$.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
   }
 ]

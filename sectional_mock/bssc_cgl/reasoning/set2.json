@@ -16,7 +16,8 @@
       "Neither conclusion I nor II is true"
     ],
     "a": 0,
-    "e": "Step 1: Combine the relevant parts of the statement string using the common link variable S: $P < Q \\le R = S \\ge T > U$. Step 2: Evaluate Conclusion I ($R > U$): Since $R = S$ and $S \\ge T > U$, we get $R \\ge T > U$, which simplifies directly to $R > U$ due to the strict priority of the '>' symbol. Thus, I is definitely true. Step 3: Evaluate Conclusion II ($P < T$): The path from P to T is $P < Q \\le R = S \\ge T$. Here, the symbols change directions ('<' and '$\\ge$'), creating an dead zone of no definite relationship. Hence, II is false."
+    "e": "Step 1: Combine the relevant parts of the statement string using the common link variable S: $P < Q \\le R = S \\ge T > U$. Step 2: Evaluate Conclusion I ($R > U$): Since $R = S$ and $S \\ge T > U$, we get $R \\ge T > U$, which simplifies directly to $R > U$ due to the strict priority of the '>' symbol. Thus, I is definitely true. Step 3: Evaluate Conclusion II ($P < T$): The path from P to T is $P < Q \\le R = S \\ge T$. Here, the symbols change directions ('<' and '$\\ge$'), creating an dead zone of no definite relationship. Hence, II is false.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_37",
@@ -35,7 +36,8 @@
       "Neither conclusion I nor II follows"
     ],
     "a": 0,
-    "e": "Step 1: The phrase 'Only a few Laptops are Computers' establishes two definite facts: Some Laptops are Computers AND Some Laptops are NOT Computers. Step 2: All Computers are inside Machines, and no Machine can touch Television. This means no Computer can touch Television either. Step 3: Evaluate Conclusion I: The part of Laptops that are inside Computers (and therefore inside Machines) can never touch Television. Hence, those Laptops are definitely not Televisions. I is true. Step 4: Evaluate Conclusion II: Since 'Only a few' restricts all Laptops from entering Computers, it is impossible for all Laptops to be Computers. II is false."
+    "e": "Step 1: The phrase 'Only a few Laptops are Computers' establishes two definite facts: Some Laptops are Computers AND Some Laptops are NOT Computers. Step 2: All Computers are inside Machines, and no Machine can touch Television. This means no Computer can touch Television either. Step 3: Evaluate Conclusion I: The part of Laptops that are inside Computers (and therefore inside Machines) can never touch Television. Hence, those Laptops are definitely not Televisions. I is true. Step 4: Evaluate Conclusion II: Since 'Only a few' restricts all Laptops from entering Computers, it is impossible for all Laptops to be Computers. II is false.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_38",
@@ -54,7 +56,8 @@
       "Cousin"
     ],
     "a": 0,
-    "e": "Step 1: Decode the equation from left to right. 'M + N' means M is the brother of N. Step 2: 'N ÷ O' means N is the mother of O. Thus, M is the maternal uncle (mama) of O. Step 3: 'O - P' means O is the daughter of P. Since N is already the mother of O, P must be the father of O and married to N. Step 4: 'P * Q' means P is the father of Q. This implies O and Q are siblings (children of P and N). Step 5: Since M is the brother of their mother (N), M is explicitly the Maternal Uncle (मामा) of Q."
+    "e": "Step 1: Decode the equation from left to right. 'M + N' means M is the brother of N. Step 2: 'N ÷ O' means N is the mother of O. Thus, M is the maternal uncle (mama) of O. Step 3: 'O - P' means O is the daughter of P. Since N is already the mother of O, P must be the father of O and married to N. Step 4: 'P * Q' means P is the father of Q. This implies O and Q are siblings (children of P and N). Step 5: Since M is the brother of their mother (N), M is explicitly the Maternal Uncle (मामा) of Q.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_39",
@@ -73,7 +76,8 @@
       "Q"
     ],
     "a": 0,
-    "e": "Step 1: Set up a 6-position circular table. Place T facing outward. P is second to the right of T (counter-clockwise position). Step 2: R sits immediate left of P. Test both possibilities for P's direction. Following all constraints (U is third to right of R, Q is second to left of U), the correct configuration maps the clockwise sequence layout as T - U - R - P - Q - S. Step 3: S occupies the final slot between T and Q. Analyzing directions reveals that S faces inside, making T sit to the immediate left of S."
+    "e": "Step 1: Set up a 6-position circular table. Place T facing outward. P is second to the right of T (counter-clockwise position). Step 2: R sits immediate left of P. Test both possibilities for P's direction. Following all constraints (U is third to right of R, Q is second to left of U), the correct configuration maps the clockwise sequence layout as T - U - R - P - Q - S. Step 3: S occupies the final slot between T and Q. Analyzing directions reveals that S faces inside, making T sit to the immediate left of S.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_40",
@@ -92,7 +96,8 @@
       "6sqrt(2) meters, North-East"
     ],
     "a": 0,
-    "e": "Step 1: Decode 'A $ B' \\rightarrow A is 6m North of B. This means B is 6m South of A. Step 2: Decode 'B & C' \\rightarrow B is 6m East of C. This means C is 6m West of B. Step 3: Decode 'C % D' \\rightarrow C is 6m South of D. This means D is 6m North of C. Step 4: Map the coordinates: B is at (0, -6) from A. C is at (-6, -6). D is at (-6, 0) because moving 6m North from C cancels the South component. Step 5: D is located at coordinate (-6, 0) relative to A (0,0), which means D is exactly 6 meters directly to the East? Let's check: If B is East of C, C is West. D is North of C, so D is directly West of A? Let's trace carefully: A is North of B \\rightarrow B is below A. B is East of C \\rightarrow C is left of B. C is South of D \\rightarrow D is above C. Thus, D is directly West of A. Correction: If B is East of C, B is right of C, so C is left of B. D is North of C, so D is above C. Since A is above B and D is above C, D is directly West of A. Let's select the corresponding corrected positional index."
+    "e": "Step 1: Decode 'A $ B' \\rightarrow A is 6m North of B. This means B is 6m South of A. Step 2: Decode 'B & C' \\rightarrow B is 6m East of C. This means C is 6m West of B. Step 3: Decode 'C % D' \\rightarrow C is 6m South of D. This means D is 6m North of C. Step 4: Map the coordinates: B is at (0, -6) from A. C is at (-6, -6). D is at (-6, 0) because moving 6m North from C cancels the South component. Step 5: D is located at coordinate (-6, 0) relative to A (0,0), which means D is exactly 6 meters directly to the East? Let's check: If B is East of C, C is West. D is North of C, so D is directly West of A? Let's trace carefully: A is North of B \\rightarrow B is below A. B is East of C \\rightarrow C is left of B. C is South of D \\rightarrow D is above C. Thus, D is directly West of A. Correction: If B is East of C, B is right of C, so C is left of B. D is North of C, so D is above C. Since A is above B and D is above C, D is directly West of A. Let's select the corresponding corrected positional index.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_41",
@@ -111,7 +116,8 @@
       "7"
     ],
     "a": 0,
-    "e": "Step 1: Identify Total students (N) = 40. Left position of Rohan (L) = 25. Right position of Nitin (R) = 22. Step 2: Calculate the sum of individual ranks from both ends: L + R = 25 + 22 = 47. Step 3: Since (L + R) > Total (47 > 40), this is an explicit case of Overlapping. Step 4: Use the overlapping formula: Number of students between = (L + R) - Total - 2. Step 5: Students between = (25 + 22) - 40 - 2 = 47 - 42 = 5."
+    "e": "Step 1: Identify Total students (N) = 40. Left position of Rohan (L) = 25. Right position of Nitin (R) = 22. Step 2: Calculate the sum of individual ranks from both ends: L + R = 25 + 22 = 47. Step 3: Since (L + R) > Total (47 > 40), this is an explicit case of Overlapping. Step 4: Use the overlapping formula: Number of students between = (L + R) - Total - 2. Step 5: Students between = (25 + 22) - 40 - 2 = 47 - 42 = 5.",
+    "topic_tag": "reasoning.ranking.position_and_order"
   },
   {
     "p_id": "bssc_cgl_adv_reason_42",
@@ -130,7 +136,8 @@
       "160"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the operational relationship across the columns. Let the rows be represented by C1, C2, and C3. Step 2: Row 1: $C1^3 + C2^3 = 3^3 + 2^3 = 27 + 8 = 35$. This perfectly matches C3. Step 3: Row 2: $C1^3 + C2^3 = 4^3 + 1^3 = 64 + 1 = 65$. This matches C3. Step 4: Apply the identical cubic operational rule to Row 3: $5^3 + 3^3 = 125 + 27 = 152$."
+    "e": "Step 1: Analyze the operational relationship across the columns. Let the rows be represented by C1, C2, and C3. Step 2: Row 1: $C1^3 + C2^3 = 3^3 + 2^3 = 27 + 8 = 35$. This perfectly matches C3. Step 3: Row 2: $C1^3 + C2^3 = 4^3 + 1^3 = 64 + 1 = 65$. This matches C3. Step 4: Apply the identical cubic operational rule to Row 3: $5^3 + 3^3 = 125 + 27 = 152$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_43",
@@ -149,7 +156,8 @@
       "256"
     ],
     "a": 0,
-    "e": "Step 1: Identify the multiplication scale and incremental constant addition factor between consecutive elements. Step 2: $(6 \\times 2) + 1 = 13$. Step 3: $(13 \\times 2) + 2 = 28$. Step 4: $(28 \\times 2) + 3 = 59$. Step 5: $(59 \\times 2) + 4 = 122$. Step 6: Follow the pattern for the next target term: $(122 \\times 2) + 5 = 244 + 5 = 249$."
+    "e": "Step 1: Identify the multiplication scale and incremental constant addition factor between consecutive elements. Step 2: $(6 \\times 2) + 1 = 13$. Step 3: $(13 \\times 2) + 2 = 28$. Step 4: $(28 \\times 2) + 3 = 59$. Step 5: $(59 \\times 2) + 4 = 122$. Step 6: Follow the pattern for the next target term: $(122 \\times 2) + 5 = 244 + 5 = 249$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_44",
@@ -168,7 +176,8 @@
       "16-18-8-4-5"
     ],
     "a": 0,
-    "e": "Step 1: Identify the standard alphabetical positions of the letters from A=1 to Z=26. T=20, R=18, A=1, I=9, N=14. The code is simply the numerical value of each letter. Step 2: Find the positions for the word 'PRIDE': P=16, R=18, I=9, D=4, E=5. Step 3: Combine them using hyphens: '16-18-9-4-5'."
+    "e": "Step 1: Identify the standard alphabetical positions of the letters from A=1 to Z=26. T=20, R=18, A=1, I=9, N=14. The code is simply the numerical value of each letter. Step 2: Find the positions for the word 'PRIDE': P=16, R=18, I=9, D=4, E=5. Step 3: Combine them using hyphens: '16-18-9-4-5'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_cgl_adv_reason_45",
@@ -187,7 +196,8 @@
       "GT"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the pair EV : CX. E and V are opposite letters of the alphabet, and C and X are also opposite letters. The first letter E (-2 positions) drops to C. Step 2: Apply the identical logic to HS. H and S are opposites. Moving the first letter H backward by 2 positions (H - 2) gives F. Step 3: Find the opposite letter for F, which is U. Combining them gives 'FU'."
+    "e": "Step 1: Analyze the pair EV : CX. E and V are opposite letters of the alphabet, and C and X are also opposite letters. The first letter E (-2 positions) drops to C. Step 2: Apply the identical logic to HS. H and S are opposites. Moving the first letter H backward by 2 positions (H - 2) gives F. Step 3: Find the opposite letter for F, which is U. Combining them gives 'FU'.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_46",
@@ -206,7 +216,8 @@
       "(6, 35)"
     ],
     "a": 3,
-    "e": "Step 1: Evaluate the mathematical function inside each pair: Pair 1: $7^2 + 1 = 49 + 1 = 50$. Pair 2: $9^2 + 1 = 81 + 1 = 82$. Pair 3: $11^2 + 1 = 121 + 1 = 122$. The common pattern is ($n, n^2 + 1$). Step 2: Check Pair 4: $6^2 + 1 = 36 + 1 = 37$, but the given value is 35 ($6^2 - 1$). Hence, it breaks the group rule and is the odd pair."
+    "e": "Step 1: Evaluate the mathematical function inside each pair: Pair 1: $7^2 + 1 = 49 + 1 = 50$. Pair 2: $9^2 + 1 = 81 + 1 = 82$. Pair 3: $11^2 + 1 = 121 + 1 = 122$. The common pattern is ($n, n^2 + 1$). Step 2: Check Pair 4: $6^2 + 1 = 36 + 1 = 37$, but the given value is 35 ($6^2 - 1$). Hence, it breaks the group rule and is the odd pair.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_47",
@@ -225,7 +236,8 @@
       "30blank"
     ],
     "a": 0,
-    "e": "Step 1: Substitute the signs according to the given rules. The expression transforms into: $36 \\div 4 \\times 3 + 8 - 2$. Step 2: Apply BODMAS rules. Perform division first: $36 \\div 4 = 9$. Step 3: Perform multiplication next: $9 \\times 3 = 27$. Step 4: Perform final addition and subtraction steps: $27 + 8 - 2 = 35 - 2 = 33$."
+    "e": "Step 1: Substitute the signs according to the given rules. The expression transforms into: $36 \\div 4 \\times 3 + 8 - 2$. Step 2: Apply BODMAS rules. Perform division first: $36 \\div 4 = 9$. Step 3: Perform multiplication next: $9 \\times 3 = 27$. Step 4: Perform final addition and subtraction steps: $27 + 8 - 2 = 35 - 2 = 33$.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_48",
@@ -244,7 +256,8 @@
       "2"
     ],
     "a": 0,
-    "e": "Step 1: Use the Set Theory Union Formula: $n(C \\cup F \\cup H) = n(C) + n(F) + n(H) - n(C \\cap F) - n(F \\cap H) - n(C \\cap H) + n(C \\cap F \\cap H)$. Step 2: Substitute the values: Total playing = $50 + 40 + 30 - 10 - 5 - 7 + 3$. Step 3: Calculate = $120 - 22 + 3 = 98 + 3 = 101$? Let's check parameters: If total adds up to 99, 100 - 99 = 1 student left."
+    "e": "Step 1: Use the Set Theory Union Formula: $n(C \\cup F \\cup H) = n(C) + n(F) + n(H) - n(C \\cap F) - n(F \\cap H) - n(C \\cap H) + n(C \\cap F \\cap H)$. Step 2: Substitute the values: Total playing = $50 + 40 + 30 - 10 - 5 - 7 + 3$. Step 3: Calculate = $120 - 22 + 3 = 98 + 3 = 101$? Let's check parameters: If total adds up to 99, 100 - 99 = 1 student left.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_49",
@@ -263,7 +276,8 @@
       "6:00 PM Wednesday"
     ],
     "a": 0,
-    "e": "Step 1: Calculate total elapsed time on the faulty clock from Monday 8:00 AM to Wednesday 6:00 PM. Mon 8 AM to Wed 8 AM = 48 hours. Wed 8 AM to Wed 6 PM = 10 hours. Total faulty duration = 58 hours. Step 2: The ratio of true time to faulty time is 24 hours : 24 hours 10 minutes = 24 : 24.166 = 144 : 145. Step 3: True elapsed hours = $58 \\times (144 / 145) = 57.6$ hours, which means 57 hours and 36 minutes. Step 4: Subtract the difference from 6:00 PM to find the true time, which maps to 5:40 PM Wednesday."
+    "e": "Step 1: Calculate total elapsed time on the faulty clock from Monday 8:00 AM to Wednesday 6:00 PM. Mon 8 AM to Wed 8 AM = 48 hours. Wed 8 AM to Wed 6 PM = 10 hours. Total faulty duration = 58 hours. Step 2: The ratio of true time to faulty time is 24 hours : 24 hours 10 minutes = 24 : 24.166 = 144 : 145. Step 3: True elapsed hours = $58 \\times (144 / 145) = 57.6$ hours, which means 57 hours and 36 minutes. Step 4: Subtract the difference from 6:00 PM to find the true time, which maps to 5:40 PM Wednesday.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_50",
@@ -282,7 +296,8 @@
       "Sunday"
     ],
     "a": 0,
-    "e": "Step 1: Calculate odd days between Jan 1, 1896 and Jan 1, 1904. Duration = 8 years. Step 2: Count the leap years in this interval. 1896 is a leap year. The year 1900 is a century year not divisible by 400, so it is a standard non-leap year (Exception!). Step 3: Total odd days = 8 years + 2 leap days (for 1896 and 1900 transitions carefully tracked) = 10 odd days? Let's check: 1896 leap day added. 1900 is common. So only 1896 is leap within the span? 1904 is just starting. Odd days = 8 + 1 = 9 odd days. $9 \\% 7 = 2$ odd days. Step 4: Add 2 days to Wednesday = Friday."
+    "e": "Step 1: Calculate odd days between Jan 1, 1896 and Jan 1, 1904. Duration = 8 years. Step 2: Count the leap years in this interval. 1896 is a leap year. The year 1900 is a century year not divisible by 400, so it is a standard non-leap year (Exception!). Step 3: Total odd days = 8 years + 2 leap days (for 1896 and 1900 transitions carefully tracked) = 10 odd days? Let's check: 1896 leap day added. 1900 is common. So only 1896 is leap within the span? 1904 is just starting. Odd days = 8 + 1 = 9 odd days. $9 \\% 7 = 2$ odd days. Step 4: Add 2 days to Wednesday = Friday.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_51",
@@ -301,7 +316,8 @@
       "Grandmother"
     ],
     "a": 0,
-    "e": "Step 1: U (Grandfather, Contractor) is married to S (Grandmother, Housewife). Step 2: Q (Doctor, Father of T) belongs to the second generation. He must be married to P (who will be the Nurse and Mother of T and R). Step 3: T and R belong to the third generation as students. Step 4: Therefore, P is explicitly the Mother of T."
+    "e": "Step 1: U (Grandfather, Contractor) is married to S (Grandmother, Housewife). Step 2: Q (Doctor, Father of T) belongs to the second generation. He must be married to P (who will be the Nurse and Mother of T and R). Step 3: T and R belong to the third generation as students. Step 4: Therefore, P is explicitly the Mother of T.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_52",
@@ -320,7 +336,8 @@
       "U"
     ],
     "a": 0,
-    "e": "Step 1: Set up two rows of 4 slots each. Row 1 (facing South), Row 2 (facing North). Step 2: The problem explicitly states 'V faces R'. Therefore, the question 'Who faces V?' contains its own direct answer inside the premise constraint, which is R."
+    "e": "Step 1: Set up two rows of 4 slots each. Row 1 (facing South), Row 2 (facing North). Step 2: The problem explicitly states 'V faces R'. Therefore, the question 'Who faces V?' contains its own direct answer inside the premise constraint, which is R.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_53",
@@ -339,7 +356,8 @@
       "16"
     ],
     "a": 0,
-    "e": "Step 1: Count lines for the outer square box = 4 lines. Step 2: Count the 2 full internal diagonal lines passing through center = 2 lines. Step 3: A standard star (two intersecting triangles) requires 3 + 3 = 6 lines. Step 4: Total straight lines required = 4 + 2 + 6 = 12 lines."
+    "e": "Step 1: Count lines for the outer square box = 4 lines. Step 2: Count the 2 full internal diagonal lines passing through center = 2 lines. Step 3: A standard star (two intersecting triangles) requires 3 + 3 = 6 lines. Step 4: Total straight lines required = 4 + 2 + 6 = 12 lines.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_54",
@@ -358,7 +376,8 @@
       "Neither follows"
     ],
     "a": 0,
-    "e": "Step 1: All Locks are inside Keys. Keys partially overlap Doors. No Door can touch Window. Step 2: Test Conclusion I: There is no direct negative restriction preventing Locks from overlapping Doors. Hence, an overlapping possibility diagram is valid. I follows. Step 3: Test Conclusion II: Windows cannot touch Doors, but they can still overlap the remaining separate section of Keys. Thus, saying 'No Key is a Window' with absolute certainty is false. Only I follows."
+    "e": "Step 1: All Locks are inside Keys. Keys partially overlap Doors. No Door can touch Window. Step 2: Test Conclusion I: There is no direct negative restriction preventing Locks from overlapping Doors. Hence, an overlapping possibility diagram is valid. I follows. Step 3: Test Conclusion II: Windows cannot touch Doors, but they can still overlap the remaining separate section of Keys. Thus, saying 'No Key is a Window' with absolute certainty is false. Only I follows.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_55",
@@ -377,7 +396,8 @@
       "Cannot be isolated uniquely"
     ],
     "a": 0,
-    "e": "Step 1: Compare sentences 1 and 2: 'louder' is common, digit '9' is common. So, louder = 9. Step 2: Compare sentences 1 and 3: 'speaks' is common, digit '7' is common. So, speaks = 7. Step 3: In sentence 1, the remaining word is 'action', and the remaining digit code is 5. Therefore, action = 5."
+    "e": "Step 1: Compare sentences 1 and 2: 'louder' is common, digit '9' is common. So, louder = 9. Step 2: Compare sentences 1 and 3: 'speaks' is common, digit '7' is common. So, speaks = 7. Step 3: In sentence 1, the remaining word is 'action', and the remaining digit code is 5. Therefore, action = 5.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_56",
@@ -396,7 +416,8 @@
       "B < E"
     ],
     "a": 0,
-    "e": "Step 1: Test option 1 ($A > D$): Trace path from A to D: $A > B \\ge C = D$. The symbols are '>' and '$\\ge$'. The strict inequality '>' takes highest priority, which gives $A > D$. Hence, option 1 is definitely true. Step 2: Testing other paths reveals no strict direction or definitive holds."
+    "e": "Step 1: Test option 1 ($A > D$): Trace path from A to D: $A > B \\ge C = D$. The symbols are '>' and '$\\ge$'. The strict inequality '>' takes highest priority, which gives $A > D$. Hence, option 1 is definitely true. Step 2: Testing other paths reveals no strict direction or definitive holds.",
+    "topic_tag": "reasoning.inequality.coded_inequalities"
   },
   {
     "p_id": "bssc_cgl_adv_reason_57",
@@ -415,7 +436,8 @@
       "8 km"
     ],
     "a": 0,
-    "e": "Step 1: Initial position (0,0). Move 12 km South -> (0, -12). Step 2: Turn East for 9 km -> (9, -12). Step 3: Turn North for 20 km -> (9, -12 + 20) = (9, 8). Step 4: Left turn from North means moving West. Moves 3 km West -> (9 - 3, 8) = (6, 8). Step 5: Shortest displacement distance from origin (0,0) to final point (6,8) using Pythagoras = $\\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$ km."
+    "e": "Step 1: Initial position (0,0). Move 12 km South -> (0, -12). Step 2: Turn East for 9 km -> (9, -12). Step 3: Turn North for 20 km -> (9, -12 + 20) = (9, 8). Step 4: Left turn from North means moving West. Moves 3 km West -> (9 - 3, 8) = (6, 8). Step 5: Shortest displacement distance from origin (0,0) to final point (6,8) using Pythagoras = $\\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$ km.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_58",
@@ -434,7 +456,8 @@
       "512"
     ],
     "a": 0,
-    "e": "Step 1: Observe the clockwise progression squared transformation sequence rule. Step 2: Sector 1 to Sector 2: $3^2 = 9$. Sector 2 to Sector 3: $9^2 = 81$. Step 3: Sector 3 to Sector 4 must be the square of 81. Step 4: $81^2 = 6561$. Therefore, 6561 is the correct missing value."
+    "e": "Step 1: Observe the clockwise progression squared transformation sequence rule. Step 2: Sector 1 to Sector 2: $3^2 = 9$. Sector 2 to Sector 3: $9^2 = 81$. Step 3: Sector 3 to Sector 4 must be the square of 81. Step 4: $81^2 = 6561$. Therefore, 6561 is the correct missing value.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_59",
@@ -453,7 +476,8 @@
       "VHK"
     ],
     "a": 0,
-    "e": "Step 1: Analyze first letters of each cluster: Z (-1) -> Y (-1) -> X (-1) -> W (-1) -> V. Step 2: Analyze second letters: A (+2) -> C (+2) -> E (+2) -> G (+2) -> I. Step 3: Analyze third letters: D (+2) -> F (+2) -> H (+2) -> J (+2) -> L. Step 4: Combine the components to form the cluster 'VIL'."
+    "e": "Step 1: Analyze first letters of each cluster: Z (-1) -> Y (-1) -> X (-1) -> W (-1) -> V. Step 2: Analyze second letters: A (+2) -> C (+2) -> E (+2) -> G (+2) -> I. Step 3: Analyze third letters: D (+2) -> F (+2) -> H (+2) -> J (+2) -> L. Step 4: Combine the components to form the cluster 'VIL'.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_60",
@@ -472,7 +496,8 @@
       "Astigmatism"
     ],
     "a": 0,
-    "e": "Step 1: Myopia, Hypermetropia, and Astigmatism are all refractive errors or structural focusing defects of the human eye lens mechanism. Step 2: Cataract is a medical disease condition involving clouding of the eye lens due to protein breakdown. Hence, Cataract is distinct."
+    "e": "Step 1: Myopia, Hypermetropia, and Astigmatism are all refractive errors or structural focusing defects of the human eye lens mechanism. Step 2: Cataract is a medical disease condition involving clouding of the eye lens due to protein breakdown. Hence, Cataract is distinct.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_61",
@@ -491,7 +516,8 @@
       "S"
     ],
     "a": 0,
-    "e": "Step 1: Use the constraint: R is immediate left of Q, and Q is second left of T -> R - Q - _ - T block is formed. Step 2: Fit P and S. S is immediate right of P -> P - S block. Step 3: Merge blocks into a 5-slot space layout: P - S - R - Q - T. Step 4: The row from left to right is P-S-R-Q-T. The person occupying the exact middle position (3rd slot) is R. Correction: If R-Q-_-T is 4 slots, placing P-S requires slot adjustments. Layout R-Q-P-S-T fits if Q is second left of T. Then middle is P. Let's trace carefully: R, Q, P, S, T. Middle is P."
+    "e": "Step 1: Use the constraint: R is immediate left of Q, and Q is second left of T -> R - Q - _ - T block is formed. Step 2: Fit P and S. S is immediate right of P -> P - S block. Step 3: Merge blocks into a 5-slot space layout: P - S - R - Q - T. Step 4: The row from left to right is P-S-R-Q-T. The person occupying the exact middle position (3rd slot) is R. Correction: If R-Q-_-T is 4 slots, placing P-S requires slot adjustments. Layout R-Q-P-S-T fits if Q is second left of T. Then middle is P. Let's trace carefully: R, Q, P, S, T. Middle is P.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_62",
@@ -510,7 +536,8 @@
       "34"
     ],
     "a": 0,
-    "e": "Step 1: After interchanging, Amit occupies Deepak's original position. Step 2: Therefore, this new position is 22nd from the left end and was 15th from the right end. Step 3: Use total ranking formula: Total = Position from Left + Position from Right - 1. Step 4: Total students = 22 + 15 - 1 = 37 - 1 = 36."
+    "e": "Step 1: After interchanging, Amit occupies Deepak's original position. Step 2: Therefore, this new position is 22nd from the left end and was 15th from the right end. Step 3: Use total ranking formula: Total = Position from Left + Position from Right - 1. Step 4: Total students = 22 + 15 - 1 = 37 - 1 = 36.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_63",
@@ -529,7 +556,8 @@
       "19-13-2-18-20blank"
     ],
     "a": 0,
-    "e": "Step 1: Analyze example 'BLOCK' -> positions are B=2, L=12, O=15, C=3, K=11. The code simply outputs the direct alphabet numbers separated by hyphens. Step 2: Find positions for 'SMART': S=19, M=13, A=1, R=18, T=20. Step 3: Combine with hyphens: '19-13-1-18-20'."
+    "e": "Step 1: Analyze example 'BLOCK' -> positions are B=2, L=12, O=15, C=3, K=11. The code simply outputs the direct alphabet numbers separated by hyphens. Step 2: Find positions for 'SMART': S=19, M=13, A=1, R=18, T=20. Step 3: Combine with hyphens: '19-13-1-18-20'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_cgl_adv_reason_64",
@@ -548,7 +576,8 @@
       "J * K + L"
     ],
     "a": 0,
-    "e": "Step 1: Test option 1 'J + K + L'. Step 2: 'J + K' means J is the father of K (J is male). Step 3: 'K + L' means K is the father of L (K is male). Step 4: Since J is the father of L's father (K), J is explicitly the paternal grandfather (दादा) of L. Hence, option 1 is correct."
+    "e": "Step 1: Test option 1 'J + K + L'. Step 2: 'J + K' means J is the father of K (J is male). Step 3: 'K + L' means K is the father of L (K is male). Step 4: Since J is the father of L's father (K), J is explicitly the paternal grandfather (दादा) of L. Hence, option 1 is correct.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_65",
@@ -567,7 +596,8 @@
       "65.0 degrees"
     ],
     "a": 0,
-    "e": "Step 1: Use the standard clock angle formula: Angle = |30H - (11/2)M|. Step 2: Substitute H = 5 and M = 15. Step 3: Angle = |30(5) - (11/2)(15)| = |150 - 82.5| = 67.5 degrees."
+    "e": "Step 1: Use the standard clock angle formula: Angle = |30H - (11/2)M|. Step 2: Substitute H = 5 and M = 15. Step 3: Angle = |30(5) - (11/2)(15)| = |150 - 82.5| = 67.5 degrees.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_66",
@@ -586,7 +616,8 @@
       "2034"
     ],
     "a": 0,
-    "e": "Step 1: Check the placement of the year relative to leap years. 2024 is a leap year, so 2025 is a (Leap Year + 1) year. Step 2: A standard non-leap year that immediately follows a leap year repeats its full calendar profile after exactly 6 years. Step 3: Repeating Year = 2025 + 6 = 2031."
+    "e": "Step 1: Check the placement of the year relative to leap years. 2024 is a leap year, so 2025 is a (Leap Year + 1) year. Step 2: A standard non-leap year that immediately follows a leap year repeats its full calendar profile after exactly 6 years. Step 3: Repeating Year = 2025 + 6 = 2031.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_67",
@@ -605,7 +636,8 @@
       "Two separate non-intersecting circles inside a larger circle"
     ],
     "a": 0,
-    "e": "Step 1: All Tigers are completely inside the 'Mammals' category circle. Step 2: Some Mammals are Carnivores, and all Tigers are Carnivores (or vice-versa under dietary taxonomy). Under logic groups, Tigers sit inside the intersection of Mammals and Carnivores, represented best by option 1."
+    "e": "Step 1: All Tigers are completely inside the 'Mammals' category circle. Step 2: Some Mammals are Carnivores, and all Tigers are Carnivores (or vice-versa under dietary taxonomy). Under logic groups, Tigers sit inside the intersection of Mammals and Carnivores, represented best by option 1.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_68",
@@ -624,7 +656,8 @@
       "Neither conclusion I nor II follows"
     ],
     "a": 0,
-    "e": "Step 1: Check conditions for Either-Or pair: 1. Both conclusions must have same subject and predicate (Clips and Bands). 2. Both must be individual false/uncertain scenarios. 3. One must be positive (Some) and one negative (No). Step 2: All three conditions are satisfied here. Hence, the relationship explicitly forms an Either-Or case layout."
+    "e": "Step 1: Check conditions for Either-Or pair: 1. Both conclusions must have same subject and predicate (Clips and Bands). 2. Both must be individual false/uncertain scenarios. 3. One must be positive (Some) and one negative (No). Step 2: All three conditions are satisfied here. Hence, the relationship explicitly forms an Either-Or case layout.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_69",
@@ -643,7 +676,8 @@
       "12blank"
     ],
     "a": 0,
-    "e": "Step 1: Count cubes visible and hidden layer by layer from top to bottom. Layer 1 (top): 1 cube. Layer 2: 3 cubes (2 visible + 1 hidden underneath top). Layer 3 (bottom): 6 cubes. Step 2: Total number of structural cubes = 1 + 3 + 6 = 10 cubes."
+    "e": "Step 1: Count cubes visible and hidden layer by layer from top to bottom. Layer 1 (top): 1 cube. Layer 2: 3 cubes (2 visible + 1 hidden underneath top). Layer 3 (bottom): 6 cubes. Step 2: Total number of structural cubes = 1 + 3 + 6 = 10 cubes.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_70",
@@ -662,6 +696,7 @@
       "32"
     ],
     "a": 0,
-    "e": "Step 1: Identify the operation rule down the columns. Let the rows be R1, R2, and R3. Step 2: Column 1: $R1 \\times R2 = 5 \\times 6 = 30$. This matches R3. Step 3: Column 2: $R1 \\times R2 = 7 \\times 8 = 56$. This matches R3. Step 4: Apply the identical multiplication rule to Column 3: $R1 \\times R2 = 9 \\times 4 = 36$."
+    "e": "Step 1: Identify the operation rule down the columns. Let the rows be R1, R2, and R3. Step 2: Column 1: $R1 \\times R2 = 5 \\times 6 = 30$. This matches R3. Step 3: Column 2: $R1 \\times R2 = 7 \\times 8 = 56$. This matches R3. Step 4: Apply the identical multiplication rule to Column 3: $R1 \\times R2 = 9 \\times 4 = 36$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   }
 ]

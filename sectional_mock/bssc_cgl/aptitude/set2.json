@@ -16,7 +16,8 @@
       "11"
     ],
     "a": 0,
-    "e": "Step 1: Find the Euler's totient value $\\phi(18)$. Since $18 = 2^1 \\times 3^2$, $\\phi(18) = 18 \\times (1 - 1/2) \\times (1 - 1/3) = 18 \\times (1/2) \\times (2/3) = 6$. Step 2: According to Euler's Theorem, since 5 and 18 are co-prime, $5^6 \\equiv 1 \\pmod{18}$. Step 3: Divide the exponent 97 by the totient value 6 to find the remaining power: $97 \\% 6 = 1$. Step 4: Therefore, $5^{97} \\equiv 5^1 \\equiv 5 \\pmod{18}$. The required remainder is 5."
+    "e": "Step 1: Find the Euler's totient value $\\phi(18)$. Since $18 = 2^1 \\times 3^2$, $\\phi(18) = 18 \\times (1 - 1/2) \\times (1 - 1/3) = 18 \\times (1/2) \\times (2/3) = 6$. Step 2: According to Euler's Theorem, since 5 and 18 are co-prime, $5^6 \\equiv 1 \\pmod{18}$. Step 3: Divide the exponent 97 by the totient value 6 to find the remaining power: $97 \\% 6 = 1$. Step 4: Therefore, $5^{97} \\equiv 5^1 \\equiv 5 \\pmod{18}$. The required remainder is 5.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_072",
@@ -35,7 +36,8 @@
       "12 days"
     ],
     "a": 0,
-    "e": "Step 1: Total work (LCM of 20 and 30) = 60 units. Efficiency of X = 60/20 = 3 units/day, Efficiency of Y = 60/30 = 2 units/day. Step 2: Y worked alone for the last 10 days. Work completed by Y alone = 2 units/day * 10 days = 20 units. Step 3: Remaining work done by X and Y together initially = 60 - 20 = 40 units. Step 4: Combined efficiency of X and Y = 3 + 2 = 5 units/day. Step 5: Number of days X worked = 40 / 5 = 8 days."
+    "e": "Step 1: Total work (LCM of 20 and 30) = 60 units. Efficiency of X = 60/20 = 3 units/day, Efficiency of Y = 60/30 = 2 units/day. Step 2: Y worked alone for the last 10 days. Work completed by Y alone = 2 units/day * 10 days = 20 units. Step 3: Remaining work done by X and Y together initially = 60 - 20 = 40 units. Step 4: Combined efficiency of X and Y = 3 + 2 = 5 units/day. Step 5: Number of days X worked = 40 / 5 = 8 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_073",
@@ -54,7 +56,8 @@
       "Rs. 9500"
     ],
     "a": 0,
-    "e": "Step 1: The increase in interest from the 2nd year to the 3rd year is due to the interest earned on the 2nd year's interest. Interest difference = 1452 - 1320 = Rs. 132. Step 2: Calculate the rate of interest (R) = (132 / 1320) * 100 = 10% per annum. Step 3: Let the principal be P. Interest for 1st year = 0.10P. Amount after 1st year = 1.1P. Interest for 2nd year = 10% of 1.1P = 0.11P. Step 4: Given 2nd year interest is 1320, set up equation: 0.11P = 1320 => P = 1320 / 0.11 = Rs. 12000. Correction: index matching 12000 selection is 1."
+    "e": "Step 1: The increase in interest from the 2nd year to the 3rd year is due to the interest earned on the 2nd year's interest. Interest difference = 1452 - 1320 = Rs. 132. Step 2: Calculate the rate of interest (R) = (132 / 1320) * 100 = 10% per annum. Step 3: Let the principal be P. Interest for 1st year = 0.10P. Amount after 1st year = 1.1P. Interest for 2nd year = 10% of 1.1P = 0.11P. Step 4: Given 2nd year interest is 1320, set up equation: 0.11P = 1320 => P = 1320 / 0.11 = Rs. 12000. Correction: index matching 12000 selection is 1.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_074",
@@ -73,7 +76,8 @@
       "72000"
     ],
     "a": 0,
-    "e": "Step 1: First, seat the 6 gentlemen around the circular table. The number of ways to arrange n people in a circle is (n - 1)!. For 6 gentlemen, ways = (6 - 1)! = 5! = 120 ways. Step 2: Seating 6 gentlemen creates exactly 6 empty gaps between them. Step 3: Since no two ladies can sit together, the 6 ladies must occupy these 6 gaps. The number of ways to arrange 6 ladies in 6 distinct linear gaps is 6! = 720 ways. Step 4: Total unique arrangements = Arrangements of gentlemen * Arrangements of ladies = 120 * 720 = 86400."
+    "e": "Step 1: First, seat the 6 gentlemen around the circular table. The number of ways to arrange n people in a circle is (n - 1)!. For 6 gentlemen, ways = (6 - 1)! = 5! = 120 ways. Step 2: Seating 6 gentlemen creates exactly 6 empty gaps between them. Step 3: Since no two ladies can sit together, the 6 ladies must occupy these 6 gaps. The number of ways to arrange 6 ladies in 6 distinct linear gaps is 6! = 720 ways. Step 4: Total unique arrangements = Arrangements of gentlemen * Arrangements of ladies = 120 * 720 = 86400.",
+    "topic_tag": "maths.combinatorics.counting_and_arrangements"
   },
   {
     "p_id": "bssc_cgl_adv_quant_075",
@@ -92,7 +96,8 @@
       "5/18"
     ],
     "a": 0,
-    "e": "Step 1: Total number of possible outcomes when two dice are rolled = 6 * 6 = 36 outcomes. Step 2: Identify pairs whose product is a perfect square. Product = 1: (1,1) -> 1 pair. Product = 4: (1,4), (2,2), (4,1) -> 3 pairs. Product = 9: (3,3) -> 1 pair. Product = 16: (4,4) -> 1 pair. Product = 25: (5,5) -> 1 pair. Product = 36: (6,6) -> 1 pair. Step 3: Total favorable outcomes = 1 + 3 + 1 + 1 + 1 + 1 = 8 outcomes. Step 4: Required Probability = Favorable Outcomes / Total Outcomes = 8 / 36 = 2 / 9."
+    "e": "Step 1: Total number of possible outcomes when two dice are rolled = 6 * 6 = 36 outcomes. Step 2: Identify pairs whose product is a perfect square. Product = 1: (1,1) -> 1 pair. Product = 4: (1,4), (2,2), (4,1) -> 3 pairs. Product = 9: (3,3) -> 1 pair. Product = 16: (4,4) -> 1 pair. Product = 25: (5,5) -> 1 pair. Product = 36: (6,6) -> 1 pair. Step 3: Total favorable outcomes = 1 + 3 + 1 + 1 + 1 + 1 = 8 outcomes. Step 4: Required Probability = Favorable Outcomes / Total Outcomes = 8 / 36 = 2 / 9.",
+    "topic_tag": "maths.probability.probability_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_076",
@@ -111,7 +116,8 @@
       "42.50blank"
     ],
     "a": 0,
-    "e": "Step 1: Let the standard cost price be Re. 1 per gram. While buying, he pays for 1000g but takes 1200g due to 20% cheating. His effective cost = Rs. 1000 for 1200g. Step 2: His marked price for 1000g becomes 1000 * 1.10 = Rs. 1100. Step 3: While selling, he charges for 1000g (Rs. 1100) but gives only 900g due to 10% cheating. Step 4: Scale the selling revenue to 1200g to match cost units: Revenue for 1200g = (1100 / 900) * 1200 = Rs. 1466.67. Step 5: Profit % = ((1466.67 - 1000) / 1000) * 100 = 466.67 / 10 = 46.67%."
+    "e": "Step 1: Let the standard cost price be Re. 1 per gram. While buying, he pays for 1000g but takes 1200g due to 20% cheating. His effective cost = Rs. 1000 for 1200g. Step 2: His marked price for 1000g becomes 1000 * 1.10 = Rs. 1100. Step 3: While selling, he charges for 1000g (Rs. 1100) but gives only 900g due to 10% cheating. Step 4: Scale the selling revenue to 1200g to match cost units: Revenue for 1200g = (1100 / 900) * 1200 = Rs. 1466.67. Step 5: Profit % = ((1466.67 - 1000) / 1000) * 100 = 466.67 / 10 = 46.67%.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_077",
@@ -130,7 +136,8 @@
       "1:2"
     ],
     "a": 0,
-    "e": "Step 1: Let initial capitals be 3x and 5x. Duration for first block is 6 months. Step 2: P's investment for first 6 months = 3x * 6 = 18x. Then he adds 50% of 3x (1.5x), so new capital = 4.5x. Investment for next 6 months = 4.5x * 6 = 27x. Total equivalent capital for P = 18x + 27x = 45x. Step 3: Q's investment for first 6 months = 5x * 6 = 30x. Then he withdraws 20% of 5x (1x), so new capital = 4x. Investment for next 6 months = 4x * 6 = 24x. Total equivalent capital for Q = 30x + 24x = 54x. Step 4: Profit sharing ratio P : Q = 45x : 54x = 5 : 6. Correction: index adjusted for 5:6 calculation which is 2."
+    "e": "Step 1: Let initial capitals be 3x and 5x. Duration for first block is 6 months. Step 2: P's investment for first 6 months = 3x * 6 = 18x. Then he adds 50% of 3x (1.5x), so new capital = 4.5x. Investment for next 6 months = 4.5x * 6 = 27x. Total equivalent capital for P = 18x + 27x = 45x. Step 3: Q's investment for first 6 months = 5x * 6 = 30x. Then he withdraws 20% of 5x (1x), so new capital = 4x. Investment for next 6 months = 4x * 6 = 24x. Total equivalent capital for Q = 30x + 24x = 54x. Step 4: Profit sharing ratio P : Q = 45x : 54x = 5 : 6. Correction: index adjusted for 5:6 calculation which is 2.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_078",
@@ -149,7 +156,8 @@
       "66.2 liters"
     ],
     "a": 0,
-    "e": "Step 1: Apply the sequential variable reduction formula: Remaining Volume = Initial Volume * (1 - x1 / V) * (1 - x2 / V). Step 2: Given Initial Volume V = 90 liters, first reduction x1 = 9 liters, second reduction x2 = 18 liters. Step 3: Remaining Alcohol = 90 * (1 - 9 / 90) * (1 - 18 / 90) = 90 * (81 / 90) * (72 / 90). Step 4: Simplify calculation: 90 * (9 / 10) * (4 / 5) = 9 * 9 * 4 / 5 = 324 / 5 = 64.8 liters."
+    "e": "Step 1: Apply the sequential variable reduction formula: Remaining Volume = Initial Volume * (1 - x1 / V) * (1 - x2 / V). Step 2: Given Initial Volume V = 90 liters, first reduction x1 = 9 liters, second reduction x2 = 18 liters. Step 3: Remaining Alcohol = 90 * (1 - 9 / 90) * (1 - 18 / 90) = 90 * (81 / 90) * (72 / 90). Step 4: Simplify calculation: 90 * (9 / 10) * (4 / 5) = 9 * 9 * 4 / 5 = 324 / 5 = 64.8 liters.",
+    "topic_tag": "maths.mixture.mixture_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_079",
@@ -168,7 +176,8 @@
       "27"
     ],
     "a": 0,
-    "e": "Step 1: From the equation $x^2 - 5x + 6 = 0$, the sum of roots $(\\alpha + \\beta) = 5$ and the product of roots $(\\alpha \\cdot \\beta) = 6$. Step 2: Use the algebraic identity: $\\alpha^3 + \\beta^3 = (\\alpha + \\beta)^3 - 3\\alpha\\beta(\\alpha + \\beta)$. Step 3: Substitute the sums and products: $\\alpha^3 + \\beta^3 = (5)^3 - 3(6)(5) = 125 - 90 = 35$."
+    "e": "Step 1: From the equation $x^2 - 5x + 6 = 0$, the sum of roots $(\\alpha + \\beta) = 5$ and the product of roots $(\\alpha \\cdot \\beta) = 6$. Step 2: Use the algebraic identity: $\\alpha^3 + \\beta^3 = (\\alpha + \\beta)^3 - 3\\alpha\\beta(\\alpha + \\beta)$. Step 3: Substitute the sums and products: $\\alpha^3 + \\beta^3 = (5)^3 - 3(6)(5) = 125 - 90 = 35$.",
+    "topic_tag": "maths.algebra.algebraic_equations"
   },
   {
     "p_id": "bssc_cgl_adv_quant_080",
@@ -187,7 +196,8 @@
       "12"
     ],
     "a": 0,
-    "e": "Step 1: Perform the prime factorization of 240 = $2^4 \\times 3^1 \\times 5^1$. Step 2: To find the sum of only odd factors, completely ignore the base 2 prime component and use only the odd prime factor components. Step 3: Sum of odd factors = $(3^0 + 3^1) \\times (5^0 + 5^1) = (1 + 3) \\times (1 + 5) = 4 \\times 6 = 24$."
+    "e": "Step 1: Perform the prime factorization of 240 = $2^4 \\times 3^1 \\times 5^1$. Step 2: To find the sum of only odd factors, completely ignore the base 2 prime component and use only the odd prime factor components. Step 3: Sum of odd factors = $(3^0 + 3^1) \\times (5^0 + 5^1) = (1 + 3) \\times (1 + 5) = 4 \\times 6 = 24$.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_081",
@@ -206,7 +216,8 @@
       "40 seconds"
     ],
     "a": 0,
-    "e": "Step 1: Total distance to be covered in a circular lap to meet each other = Length of circular track = 1200 meters. Step 2: Since they run in opposite directions, relative speed = Sum of individual speeds = 15 + 25 = 40 m/s. Step 3: Time taken to meet for the first time = Length of track / Relative Speed = 1200 / 40 = 30 seconds."
+    "e": "Step 1: Total distance to be covered in a circular lap to meet each other = Length of circular track = 1200 meters. Step 2: Since they run in opposite directions, relative speed = Sum of individual speeds = 15 + 25 = 40 m/s. Step 3: Time taken to meet for the first time = Length of track / Relative Speed = 1200 / 40 = 30 seconds.",
+    "topic_tag": "maths.train.train_speed_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_082",
@@ -225,7 +236,8 @@
       "192"
     ],
     "a": 0,
-    "e": "Step 1: Volume of cylinder = pi * R^2 * H = pi * 8^2 * 9 = pi * 64 * 9 = 576 * pi cm^3. Step 2: Volume of a single recast cone = (1 / 3) * pi * r^2 * h = (1 / 3) * pi * 2^2 * 3 = 4 * pi cm^3. Step 3: Total number of cones formed = Volume of cylinder / Volume of one cone = (576 * pi) / (4 * pi) = 144."
+    "e": "Step 1: Volume of cylinder = pi * R^2 * H = pi * 8^2 * 9 = pi * 64 * 9 = 576 * pi cm^3. Step 2: Volume of a single recast cone = (1 / 3) * pi * r^2 * h = (1 / 3) * pi * 2^2 * 3 = 4 * pi cm^3. Step 3: Total number of cones formed = Volume of cylinder / Volume of one cone = (576 * pi) / (4 * pi) = 144.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_083",
@@ -244,7 +256,8 @@
       "8.0blank"
     ],
     "a": 0,
-    "e": "Step 1: Calculate the mean of the data set: Mean = (4 + 7 + 8 + 9 + 12) / 5 = 40 / 5 = 8. Step 2: Find the squared deviations from the mean for each term: (4-8)^2=16; (7-8)^2=1; (8-8)^2=0; (9-8)^2=1; (12-8)^2=16. Step 3: Sum of squared deviations = 16 + 1 + 0 + 1 + 16 = 34. Step 4: Variance = Sum of squared deviations / Number of terms = 34 / 5 = 6.8."
+    "e": "Step 1: Calculate the mean of the data set: Mean = (4 + 7 + 8 + 9 + 12) / 5 = 40 / 5 = 8. Step 2: Find the squared deviations from the mean for each term: (4-8)^2=16; (7-8)^2=1; (8-8)^2=0; (9-8)^2=1; (12-8)^2=16. Step 3: Sum of squared deviations = 16 + 1 + 0 + 1 + 16 = 34. Step 4: Variance = Sum of squared deviations / Number of terms = 34 / 5 = 6.8.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_084",
@@ -263,7 +276,8 @@
       "Rs. 48"
     ],
     "a": 0,
-    "e": "Step 1: Set up the equations: $2N + 3P + 1E = 95$ (Eq 1) and $3N + 2P + 4E = 135$ (Eq 2). Step 2: Add Eq 1 and Eq 2 together: $(2N + 3N) + (3P + 2P) + (1E + 4E) = 95 + 135 \\Rightarrow 5N + 5P + 5E = 230$. Step 3: Divide the entire sum equation by 5 to find the value for one unit of each: $5(N + P + E) = 230 \\Rightarrow N + P + E = 230 / 5 = Rs. 46$."
+    "e": "Step 1: Set up the equations: $2N + 3P + 1E = 95$ (Eq 1) and $3N + 2P + 4E = 135$ (Eq 2). Step 2: Add Eq 1 and Eq 2 together: $(2N + 3N) + (3P + 2P) + (1E + 4E) = 95 + 135 \\Rightarrow 5N + 5P + 5E = 230$. Step 3: Divide the entire sum equation by 5 to find the value for one unit of each: $5(N + P + E) = 230 \\Rightarrow N + P + E = 230 / 5 = Rs. 46$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_085",
@@ -282,7 +296,8 @@
       "Rs. 250000blank"
     ],
     "a": 0,
-    "e": "Step 1: Let the initial original gross income be I. Tax paid initially = 12% of I = 0.12I. Step 2: New gross income = I + 40000. New tax paid = 10% of (I + 40000) = 0.10(I + 40000). Step 3: Since tax amounts are identical, equate them: 0.12I = 0.10(I + 40000) => 0.12I = 0.10I + 4000 => 0.02I = 4000. Step 4: Solve for I: I = 4000 / 0.02 = Rs. 200000."
+    "e": "Step 1: Let the initial original gross income be I. Tax paid initially = 12% of I = 0.12I. Step 2: New gross income = I + 40000. New tax paid = 10% of (I + 40000) = 0.10(I + 40000). Step 3: Since tax amounts are identical, equate them: 0.12I = 0.10(I + 40000) => 0.12I = 0.10I + 4000 => 0.02I = 4000. Step 4: Solve for I: I = 4000 / 0.02 = Rs. 200000.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_086",
@@ -301,7 +316,8 @@
       "4 hours"
     ],
     "a": 0,
-    "e": "Step 1: Time taken to fill half the cistern at normal rate = 6 / 2 = 3 hours. Step 2: The remaining half cistern would normally take 3 hours to fill. Step 3: However, the rate is halved due to leakage, meaning the time required for this remaining section will double = 3 hours * 2 = 6 hours. Step 4: Total hours elapsed = Time for first half + Time for second half = 3 + 6 = 9 hours. Correction: option adjusted to 4.5 or matches index calculation context if rate is additive vs absolute net adjustment."
+    "e": "Step 1: Time taken to fill half the cistern at normal rate = 6 / 2 = 3 hours. Step 2: The remaining half cistern would normally take 3 hours to fill. Step 3: However, the rate is halved due to leakage, meaning the time required for this remaining section will double = 3 hours * 2 = 6 hours. Step 4: Total hours elapsed = Time for first half + Time for second half = 3 + 6 = 9 hours. Correction: option adjusted to 4.5 or matches index calculation context if rate is additive vs absolute net adjustment.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_087",
@@ -320,7 +336,8 @@
       "49 years"
     ],
     "a": 0,
-    "e": "Step 1: Let the present age of the son be x years. Father's present age = x^2 years. Step 2: Five years hence: Son's age = x + 5, Father's age = x^2 + 5. Step 3: Set up equation based on condition: x^2 + 5 = 3(x + 5) => x^2 + 5 = 3x + 15 => x^2 - 3x - 10 = 0. Step 4: Solve the quadratic equation: (x - 5)(x + 2) = 0. Since age cannot be negative, x = 5. Step 5: Father's present age = x^2 = 5^2 = 25 years."
+    "e": "Step 1: Let the present age of the son be x years. Father's present age = x^2 years. Step 2: Five years hence: Son's age = x + 5, Father's age = x^2 + 5. Step 3: Set up equation based on condition: x^2 + 5 = 3(x + 5) => x^2 + 5 = 3x + 15 => x^2 - 3x - 10 = 0. Step 4: Solve the quadratic equation: (x - 5)(x + 2) = 0. Since age cannot be negative, x = 5. Step 5: Father's present age = x^2 = 5^2 = 25 years.",
+    "topic_tag": "maths.age.age_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_088",
@@ -339,7 +356,8 @@
       "2*sqrt(3)"
     ],
     "a": 0,
-    "e": "Step 1: Let the expression string be equal to x. $x = \\sqrt{12 \\cdot x}$. Step 2: Square both sides of the equation: $x^2 = 12x$. Step 3: Divide by x on both sides assuming x is a non-zero positive infinite series ($x \\neq 0$): x = 12."
+    "e": "Step 1: Let the expression string be equal to x. $x = \\sqrt{12 \\cdot x}$. Step 2: Square both sides of the equation: $x^2 = 12x$. Step 3: Divide by x on both sides assuming x is a non-zero positive infinite series ($x \\neq 0$): x = 12.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_089",
@@ -358,7 +376,8 @@
       "4"
     ],
     "a": 0,
-    "e": "Step 1: Let the two numbers be 12a and 12b, where a and b are co-prime integers. Step 2: Product equation: 12a * 12b = 2160 => 144ab = 2160 => ab = 2160 / 144 = 15. Step 3: Find distinct pairs of factors of 15 that are co-prime to each other: (1, 15) and (3, 5). Step 4: There are exactly 2 such valid pairs."
+    "e": "Step 1: Let the two numbers be 12a and 12b, where a and b are co-prime integers. Step 2: Product equation: 12a * 12b = 2160 => 144ab = 2160 => ab = 2160 / 144 = 15. Step 3: Find distinct pairs of factors of 15 that are co-prime to each other: (1, 15) and (3, 5). Step 4: There are exactly 2 such valid pairs.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_090",
@@ -377,7 +396,8 @@
       "4 cm"
     ],
     "a": 0,
-    "e": "Step 1: Find the hypotenuse (h) of the right-angled triangle using Pythagoras theorem: $h = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$ cm. Step 2: For a right-angled triangle, a standard formula for the in-radius (r) is: $r = (Perpendicular + Base - Hypotenuse) / 2$. Step 3: Substitute the lengths: $r = (6 + 8 - 10) / 2 = (14 - 10) / 2 = 4 / 2 = 2$ cm."
+    "e": "Step 1: Find the hypotenuse (h) of the right-angled triangle using Pythagoras theorem: $h = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$ cm. Step 2: For a right-angled triangle, a standard formula for the in-radius (r) is: $r = (Perpendicular + Base - Hypotenuse) / 2$. Step 3: Substitute the lengths: $r = (6 + 8 - 10) / 2 = (14 - 10) / 2 = 4 / 2 = 2$ cm.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_091",
@@ -396,7 +416,8 @@
       "16 daysblank"
     ],
     "a": 0,
-    "e": "Step 1: Total work (LCM of 24, 36, 48) = 144 units. Efficiency of P = 6, Q = 4, R = 3. Step 2: Let total days be x. P worked for 4 days, Q worked for (x-3) days, R worked for all x days. Step 3: Work equation: 6(4) + 4(x - 3) + 3x = 144 => 24 + 4x - 12 + 3x = 144 => 7x + 12 = 144 => 7x = 132 => x = 18.85 days. Let's adjust parameters for clean integration if options show 20 or 15 days."
+    "e": "Step 1: Total work (LCM of 24, 36, 48) = 144 units. Efficiency of P = 6, Q = 4, R = 3. Step 2: Let total days be x. P worked for 4 days, Q worked for (x-3) days, R worked for all x days. Step 3: Work equation: 6(4) + 4(x - 3) + 3x = 144 => 24 + 4x - 12 + 3x = 144 => 7x + 12 = 144 => 7x = 132 => x = 18.85 days. Let's adjust parameters for clean integration if options show 20 or 15 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_092",
@@ -415,7 +436,8 @@
       "40 liters"
     ],
     "a": 0,
-    "e": "Step 1: Initial ratio A:W = 4:1. After drawing 10L mixture, the remaining solution has the same ratio 4:1. Step 2: 10L water is added, new ratio is 2:3, which can be scaled to keep Acid parts uniform (multiply by 2) = 4:6. Step 3: Acid parts are constant (4 parts). Water parts increase from 1 to 6 (increase of 5 parts). Step 4: 5 parts = 10 liters => 1 part = 2 liters. Step 5: Remaining total volume after extraction = (4 + 1) * 2 = 10 liters. Step 6: Original total volume = Volume after extraction + Extracted 10L = 10 + 10 = 20 liters. Let's re-verify: Final volume = (4+6)*2 = 20 liters."
+    "e": "Step 1: Initial ratio A:W = 4:1. After drawing 10L mixture, the remaining solution has the same ratio 4:1. Step 2: 10L water is added, new ratio is 2:3, which can be scaled to keep Acid parts uniform (multiply by 2) = 4:6. Step 3: Acid parts are constant (4 parts). Water parts increase from 1 to 6 (increase of 5 parts). Step 4: 5 parts = 10 liters => 1 part = 2 liters. Step 5: Remaining total volume after extraction = (4 + 1) * 2 = 10 liters. Step 6: Original total volume = Volume after extraction + Extracted 10L = 10 + 10 = 20 liters. Let's re-verify: Final volume = (4+6)*2 = 20 liters.",
+    "topic_tag": "maths.mixture.mixture_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_093",
@@ -434,7 +456,8 @@
       "40"
     ],
     "a": 0,
-    "e": "Step 1: Use Legendre's formula to find the exponent of a prime p in n!. Divide 80 successively by powers of 3. Step 2: 80 / 3 = 26 (quotient). Step 3: 26 / 3 = 8 (quotient). Step 4: 8 / 3 = 2 (quotient). Step 5: Sum of all quotients = 26 + 8 + 2 = 36. Therefore, the highest power of 3 is 36."
+    "e": "Step 1: Use Legendre's formula to find the exponent of a prime p in n!. Divide 80 successively by powers of 3. Step 2: 80 / 3 = 26 (quotient). Step 3: 26 / 3 = 8 (quotient). Step 4: 8 / 3 = 2 (quotient). Step 5: Sum of all quotients = 26 + 8 + 2 = 36. Therefore, the highest power of 3 is 36.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_094",
@@ -453,7 +476,8 @@
       "Rs. 5400"
     ],
     "a": 0,
-    "e": "Step 1: Let each installment value be X. Step 2: Present value formula for 2 installments: Present Value = $X / (1 + R/100) + X / (1 + R/100)^2$. Step 3: Here, Rate = 10%, PV = 10200. $10200 = X / 1.1 + X / 1.21 \\Rightarrow 10200 = (1.1X + X) / 1.21 \\Rightarrow 10200 = 2.1X / 1.21$. Step 4: $X = (10200 \\times 1.21) / 2.1 = 12342 / 2.1 = Rs. 5880$."
+    "e": "Step 1: Let each installment value be X. Step 2: Present value formula for 2 installments: Present Value = $X / (1 + R/100) + X / (1 + R/100)^2$. Step 3: Here, Rate = 10%, PV = 10200. $10200 = X / 1.1 + X / 1.21 \\Rightarrow 10200 = (1.1X + X) / 1.21 \\Rightarrow 10200 = 2.1X / 1.21$. Step 4: $X = (10200 \\times 1.21) / 2.1 = 12342 / 2.1 = Rs. 5880$.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_095",
@@ -472,7 +496,8 @@
       "1/365"
     ],
     "a": 0,
-    "e": "Step 1: A normal non-leap year has 365 days, which means 52 complete weeks and exactly 1 extra odd day. Step 2: This 1 odd day can be any of the 7 days of the week with equal likelihood (Mon, Tue, Wed, Thu, Fri, Sat, Sun). Step 3: For the year to have exactly 53 Mondays, this extra odd day must be a Monday. Step 4: There is exactly 1 favorable outcome out of 7 total options, so probability = 1 / 7."
+    "e": "Step 1: A normal non-leap year has 365 days, which means 52 complete weeks and exactly 1 extra odd day. Step 2: This 1 odd day can be any of the 7 days of the week with equal likelihood (Mon, Tue, Wed, Thu, Fri, Sat, Sun). Step 3: For the year to have exactly 53 Mondays, this extra odd day must be a Monday. Step 4: There is exactly 1 favorable outcome out of 7 total options, so probability = 1 / 7.",
+    "topic_tag": "maths.probability.probability_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_096",
@@ -491,7 +516,8 @@
       "7 months"
     ],
     "a": 0,
-    "e": "Step 1: Equivalent capital for P = 8000 * 6 = 48000. Equivalent capital for Q = 10000 * 8 = 80000. Step 2: Sum of P and Q equivalent capitals = 48000 + 80000 = 128000. Step 3: Total profit share ratio of (P+Q) : R = (10000 - 3600) : 3600 = 6400 : 3600 = 16 : 9. Step 4: (P+Q Capital) / R Capital = 16 / 9 => 128000 / (12000 * t) = 16 / 9 => 128 / 12t = 16 / 9 => 32 / 3t = 16 / 9 => 2 / t = 1 / 3 => t = 6 months."
+    "e": "Step 1: Equivalent capital for P = 8000 * 6 = 48000. Equivalent capital for Q = 10000 * 8 = 80000. Step 2: Sum of P and Q equivalent capitals = 48000 + 80000 = 128000. Step 3: Total profit share ratio of (P+Q) : R = (10000 - 3600) : 3600 = 6400 : 3600 = 16 : 9. Step 4: (P+Q Capital) / R Capital = 16 / 9 => 128000 / (12000 * t) = 16 / 9 => 128 / 12t = 16 / 9 => 32 / 3t = 16 / 9 => 2 / t = 1 / 3 => t = 6 months.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_097",
@@ -510,7 +536,8 @@
       "Rs. 5500"
     ],
     "a": 0,
-    "e": "Step 1: Use the 2-year difference formula: Difference = $P \\times (R / 100)^2$. Step 2: Substitute given values: $65 = P \\times (10 / 100)^2 \\Rightarrow 65 = P \\times (1 / 10)^2$. Step 3: $65 = P \\times (1 / 100) \\Rightarrow P = 65 \\times 100 = Rs. 6500$."
+    "e": "Step 1: Use the 2-year difference formula: Difference = $P \\times (R / 100)^2$. Step 2: Substitute given values: $65 = P \\times (10 / 100)^2 \\Rightarrow 65 = P \\times (1 / 10)^2$. Step 3: $65 = P \\times (1 / 100) \\Rightarrow P = 65 \\times 100 = Rs. 6500$.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_098",
@@ -529,7 +556,8 @@
       "48"
     ],
     "a": 0,
-    "e": "Step 1: Identify components of 'LEADER'. Vowels: E, A, E (3 vowels). Consonants: L, D, R (3 consonants). Step 2: Treat the 3 vowels as a single block entity. Total entities to arrange = 3 consonants + 1 vowel block = 4 entities. Step 3: Number of ways to arrange 4 distinct entities = 4! = 24 ways. Step 4: Arrange vowels inside their own block. There are 3 vowels where E repeats twice = 3! / 2! = 6 / 2 = 3 ways. Step 5: Total unique arrangements = 24 * 3 = 72."
+    "e": "Step 1: Identify components of 'LEADER'. Vowels: E, A, E (3 vowels). Consonants: L, D, R (3 consonants). Step 2: Treat the 3 vowels as a single block entity. Total entities to arrange = 3 consonants + 1 vowel block = 4 entities. Step 3: Number of ways to arrange 4 distinct entities = 4! = 24 ways. Step 4: Arrange vowels inside their own block. There are 3 vowels where E repeats twice = 3! / 2! = 6 / 2 = 3 ways. Step 5: Total unique arrangements = 24 * 3 = 72.",
+    "topic_tag": "maths.combinatorics.counting_and_arrangements"
   },
   {
     "p_id": "bssc_cgl_adv_quant_099",
@@ -548,7 +576,8 @@
       "Rs. 400"
     ],
     "a": 0,
-    "e": "Step 1: Let the original CP be 100x. Original Selling Price (SP1) = 120x. Step 2: New CP = 90x. New SP (SP2) = 90x * 1.20 = 108x. Step 3: Given the difference between SP1 and SP2 is Rs. 30: $120x - 108x = 30 \\Rightarrow 12x = 30 \\Rightarrow x = 30 / 12 = 2.5$. Step 4: Original Cost Price = 100x = 100 * 2.5 = Rs. 250."
+    "e": "Step 1: Let the original CP be 100x. Original Selling Price (SP1) = 120x. Step 2: New CP = 90x. New SP (SP2) = 90x * 1.20 = 108x. Step 3: Given the difference between SP1 and SP2 is Rs. 30: $120x - 108x = 30 \\Rightarrow 12x = 30 \\Rightarrow x = 30 / 12 = 2.5$. Step 4: Original Cost Price = 100x = 100 * 2.5 = Rs. 250.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_100",
@@ -567,7 +596,8 @@
       "28blank"
     ],
     "a": 0,
-    "e": "Step 1: Perform the prime factorization of 1200: $1200 = 2^4 \\times 3^1 \\times 5^2$. Step 2: Formula for total number of factors = $(p1 + 1) \\times (p2 + 1) \\times (p3 + 1)$, where p represents prime powers. Step 3: Total factors = $(4 + 1) \\times (1 + 1) \\times (2 + 1) = 5 \\times 2 \\times 3 = 30$."
+    "e": "Step 1: Perform the prime factorization of 1200: $1200 = 2^4 \\times 3^1 \\times 5^2$. Step 2: Formula for total number of factors = $(p1 + 1) \\times (p2 + 1) \\times (p3 + 1)$, where p represents prime powers. Step 3: Total factors = $(4 + 1) \\times (1 + 1) \\times (2 + 1) = 5 \\times 2 \\times 3 = 30$.",
+    "topic_tag": "maths.number_system.number_system_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_101",
@@ -586,7 +616,8 @@
       "1.5 km/h"
     ],
     "a": 0,
-    "e": "Step 1: Let speed of stream be w. Downstream Speed = 9 + w, Upstream Speed = 9 - w. Step 2: Time is inversely proportional to speed, so Downstream Speed = 2 * Upstream Speed. Step 3: $9 + w = 2(9 - w) \\Rightarrow 9 + w = 18 - 2w \\Rightarrow 3w = 9 \\Rightarrow w = 3$ km/h."
+    "e": "Step 1: Let speed of stream be w. Downstream Speed = 9 + w, Upstream Speed = 9 - w. Step 2: Time is inversely proportional to speed, so Downstream Speed = 2 * Upstream Speed. Step 3: $9 + w = 2(9 - w) \\Rightarrow 9 + w = 18 - 2w \\Rightarrow 3w = 9 \\Rightarrow w = 3$ km/h.",
+    "topic_tag": "maths.boats_and_streams.boat_stream_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_102",
@@ -605,7 +636,8 @@
       "14"
     ],
     "a": 0,
-    "e": "Step 1: From the equation, sum of roots $(\\alpha + \\beta) = 4$ and product of roots $(\\alpha \\cdot \\beta) = 2$. Step 2: Use identity: $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta$. Step 3: Substitute the values = $4^2 - 2(2) = 16 - 4 = 12$."
+    "e": "Step 1: From the equation, sum of roots $(\\alpha + \\beta) = 4$ and product of roots $(\\alpha \\cdot \\beta) = 2$. Step 2: Use identity: $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta$. Step 3: Substitute the values = $4^2 - 2(2) = 16 - 4 = 12$.",
+    "topic_tag": "maths.algebra.algebraic_equations"
   },
   {
     "p_id": "bssc_cgl_adv_quant_103",
@@ -624,7 +656,8 @@
       "62.50 liters"
     ],
     "a": 0,
-    "e": "Step 1: 25% removal means remaining volume fraction is 75% or 3/4 each time. Step 2: Number of operations n = 2. Step 3: Remaining Chemical = $100 \\times (3/4)^2 = 100 \\times (9/16) = 900 / 16 = 56.25$ liters."
+    "e": "Step 1: 25% removal means remaining volume fraction is 75% or 3/4 each time. Step 2: Number of operations n = 2. Step 3: Remaining Chemical = $100 \\times (3/4)^2 = 100 \\times (9/16) = 900 / 16 = 56.25$ liters.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_104",
@@ -643,7 +676,8 @@
       "48%"
     ],
     "a": 0,
-    "e": "Step 1: Surface area of a sphere is proportional to the square of its radius ($A \\propto R^2$). Step 2: Use successive percentage formula: $x + y + (xy / 100) = 20 + 20 + (20 \\times 20 / 100) = 40 + 4 = 44\\%$ increase."
+    "e": "Step 1: Surface area of a sphere is proportional to the square of its radius ($A \\propto R^2$). Step 2: Use successive percentage formula: $x + y + (xy / 100) = 20 + 20 + (20 \\times 20 / 100) = 40 + 4 = 44\\%$ increase.",
+    "topic_tag": "maths.percentage.percentage_problems"
   },
   {
     "p_id": "bssc_cgl_adv_quant_105",
@@ -662,6 +696,7 @@
       "7/12"
     ],
     "a": 0,
-    "e": "Step 1: Solve from the bottom: $2 + 1/2 = 5/2$. Step 2: Expression becomes $1 / (2 + 1 / (5/2)) = 1 / (2 + 2/5)$. Step 3: Solve the next denominator: $2 + 2/5 = 12/5$. Step 4: The inverted final value is $1 / (12/5) = 5/12$."
+    "e": "Step 1: Solve from the bottom: $2 + 1/2 = 5/2$. Step 2: Expression becomes $1 / (2 + 1 / (5/2)) = 1 / (2 + 2/5)$. Step 3: Solve the next denominator: $2 + 2/5 = 12/5$. Step 4: The inverted final value is $1 / (12/5) = 5/12$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   }
 ]

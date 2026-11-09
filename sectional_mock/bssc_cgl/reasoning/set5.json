@@ -16,7 +16,8 @@
       "Neither conclusion I nor II is true"
     ],
     "a": 1,
-    "e": "Step 1: Combine the statements using the common link variable J and L: $G \\ge H > I = J \\le K < L < M$. Step 2: Test Conclusion I ($G > L$): The path from G to L is $G \\ge H > I = J \\le K < L$. The symbols change direction between '>' and '$\\le$', which means no definite relationship can be established. So, I is false. Step 3: Test Conclusion II ($M > I$): The path from M to I is $M > L < K \\ge J = I$? Let's look closely at combined line: $I = J \\le K < L < M$. Moving from M to I gives $M > L > K \\ge J = I$, which simplifies directly to $M > I$. Thus, II is definitely true."
+    "e": "Step 1: Combine the statements using the common link variable J and L: $G \\ge H > I = J \\le K < L < M$. Step 2: Test Conclusion I ($G > L$): The path from G to L is $G \\ge H > I = J \\le K < L$. The symbols change direction between '>' and '$\\le$', which means no definite relationship can be established. So, I is false. Step 3: Test Conclusion II ($M > I$): The path from M to I is $M > L < K \\ge J = I$? Let's look closely at combined line: $I = J \\le K < L < M$. Moving from M to I gives $M > L > K \\ge J = I$, which simplifies directly to $M > I$. Thus, II is definitely true.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_107",
@@ -35,7 +36,8 @@
       "Neither conclusion I nor II follows"
     ],
     "a": 0,
-    "e": "Step 1: 'Only a few Phones are Smart' means Some Phones are Smart AND Some Phones are NOT Smart. Because of this restriction, all Phones can never enter the Smart circle, making Conclusion II completely false. Step 2: All Smart items are inside Digits, and no Digit can touch Analog. This means no Smart item can touch Analog either. Step 3: The specific part of Phones that overlaps with Smart/Digits can never touch Analog. Hence, those Phones are definitely not Analogs. Only conclusion I follows."
+    "e": "Step 1: 'Only a few Phones are Smart' means Some Phones are Smart AND Some Phones are NOT Smart. Because of this restriction, all Phones can never enter the Smart circle, making Conclusion II completely false. Step 2: All Smart items are inside Digits, and no Digit can touch Analog. This means no Smart item can touch Analog either. Step 3: The specific part of Phones that overlaps with Smart/Digits can never touch Analog. Hence, those Phones are definitely not Analogs. Only conclusion I follows.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_108",
@@ -54,7 +56,8 @@
       "Father"
     ],
     "a": 0,
-    "e": "Step 1: Decode the equation from left to right. 'A $ B' means A is the father of B (A is male). Step 2: 'B @ C' means B is the husband of C. This implies B is male and C is his wife (female). Since A is B's father, A is C's father-in-law. Step 3: 'C % D' means C is the mother of D, and 'D # E' means D is the sister of E. This implies D and E are siblings, and B and C are their parents. Step 4: Since A is the father of their father (B), A is explicitly the Paternal Grandfather (दादा) of E."
+    "e": "Step 1: Decode the equation from left to right. 'A $ B' means A is the father of B (A is male). Step 2: 'B @ C' means B is the husband of C. This implies B is male and C is his wife (female). Since A is B's father, A is C's father-in-law. Step 3: 'C % D' means C is the mother of D, and 'D # E' means D is the sister of E. This implies D and E are siblings, and B and C are their parents. Step 4: Since A is the father of their father (B), A is explicitly the Paternal Grandfather (दादा) of E.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_109",
@@ -73,7 +76,8 @@
       "Data insufficient"
     ],
     "a": 1,
-    "e": "Step 1: Place P at a middle side seat facing inside. Facing inside, 'immediate left' means moving in a clockwise direction. This places Q at the adjacent corner seat. Corners face outward. Step 2: R sits directly opposite to Q. On a square table matrix, the position opposite to a corner seat is another corner seat. Step 3: Therefore, R is sitting at a corner facing outward."
+    "e": "Step 1: Place P at a middle side seat facing inside. Facing inside, 'immediate left' means moving in a clockwise direction. This places Q at the adjacent corner seat. Corners face outward. Step 2: R sits directly opposite to Q. On a square table matrix, the position opposite to a corner seat is another corner seat. Step 3: Therefore, R is sitting at a corner facing outward.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_110",
@@ -92,7 +96,8 @@
       "10sqrt(2) meters, South-East"
     ],
     "a": 0,
-    "e": "Step 1: Decode 'W # X' -> W is 10m North of X. This means X is 10m South of W. Step 2: Decode 'X @ Y' -> X is 10m East of Y. This means Y is 10m West of X. Step 3: Decode 'Y $ Z' \\rightarrow Y is 10m South of Z. This means Z is 10m North of Y. Step 4: Map the coordinates assuming W is at (0,0): X is at (0, -10). Y is at (-10, -10). Z is 10m North of Y, so Z is at (-10, -10 + 10) = (-10, 0). Step 5: Looking at Z(-10, 0) relative to W(0,0), Z is exactly 10 meters directly to the West of W. Let's adjust option context to map accurately."
+    "e": "Step 1: Decode 'W # X' -> W is 10m North of X. This means X is 10m South of W. Step 2: Decode 'X @ Y' -> X is 10m East of Y. This means Y is 10m West of X. Step 3: Decode 'Y $ Z' \\rightarrow Y is 10m South of Z. This means Z is 10m North of Y. Step 4: Map the coordinates assuming W is at (0,0): X is at (0, -10). Y is at (-10, -10). Z is 10m North of Y, so Z is at (-10, -10 + 10) = (-10, 0). Step 5: Looking at Z(-10, 0) relative to W(0,0), Z is exactly 10 meters directly to the West of W. Let's adjust option context to map accurately.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_111",
@@ -111,7 +116,8 @@
       "Neither statement nor combined data is sufficient"
     ],
     "a": 3,
-    "e": "Step 1: Analyze Statement I: Q is taller than ONLY T, meaning the sequence ends as _ > _ > _ > Q > T. This tells us T is the shortest and Q is second shortest, but we don't know the tallest among P, R, and S. Step 2: Analyze Statement II: P > R, P > S, and T > P. This gives T > P > R/S. Step 3: Combine I and II: Statement I says Q > T is at the very bottom, but Statement II says T > P. This creates a logical contradiction between the two independent statements (Statement I requires T to be the absolute shortest, whereas Statement II requires T to be taller than P, R, and S). Since the statements contradict each other, a unified valid sequence cannot be formed. Hence, data is insufficient."
+    "e": "Step 1: Analyze Statement I: Q is taller than ONLY T, meaning the sequence ends as _ > _ > _ > Q > T. This tells us T is the shortest and Q is second shortest, but we don't know the tallest among P, R, and S. Step 2: Analyze Statement II: P > R, P > S, and T > P. This gives T > P > R/S. Step 3: Combine I and II: Statement I says Q > T is at the very bottom, but Statement II says T > P. This creates a logical contradiction between the two independent statements (Statement I requires T to be the absolute shortest, whereas Statement II requires T to be taller than P, R, and S). Since the statements contradict each other, a unified valid sequence cannot be formed. Hence, data is insufficient.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_112",
@@ -130,7 +136,8 @@
       "62"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the mathematical pattern across the rows. Let the columns be C1, C2, and C3. Step 2: Row 1: $C1^2 + C2^2 = 5^2 + 4^2 = 25 + 16 = 41$. This matches C3. Step 3: Row 2: $C1^2 + C2^2 = 6^2 + 2^2 = 36 + 4 = 40$. This matches C3. Step 4: Apply the identical squared operational rule to Row 3: $7^2 + 3^2 = 49 + 9 = 58$."
+    "e": "Step 1: Analyze the mathematical pattern across the rows. Let the columns be C1, C2, and C3. Step 2: Row 1: $C1^2 + C2^2 = 5^2 + 4^2 = 25 + 16 = 41$. This matches C3. Step 3: Row 2: $C1^2 + C2^2 = 6^2 + 2^2 = 36 + 4 = 40$. This matches C3. Step 4: Apply the identical squared operational rule to Row 3: $7^2 + 3^2 = 49 + 9 = 58$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_113",
@@ -149,7 +156,8 @@
       "155"
     ],
     "a": 0,
-    "e": "Step 1: Identify the multiplication scale and incremental constant addition factor between consecutive elements. Step 2: $(3 \\times 2) + 1 = 7$. Step 3: $(7 \\times 2) + 2 = 16$. Step 4: $(16 \\times 2) + 3 = 35$. Step 5: $(35 \\times 2) + 4 = 74$. Step 6: Follow the pattern for the next target term: $(74 \\times 2) + 5 = 148 + 5 = 153$."
+    "e": "Step 1: Identify the multiplication scale and incremental constant addition factor between consecutive elements. Step 2: $(3 \\times 2) + 1 = 7$. Step 3: $(7 \\times 2) + 2 = 16$. Step 4: $(16 \\times 2) + 3 = 35$. Step 5: $(35 \\times 2) + 4 = 74$. Step 6: Follow the pattern for the next target term: $(74 \\times 2) + 5 = 148 + 5 = 153$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_114",
@@ -168,7 +176,8 @@
       "zni"
     ],
     "a": 0,
-    "e": "Step 1: Compare sentence 1 and sentence 2: 'smart' is the common word, and the code 'tma' is common. So, smart = tma. Step 2: Compare sentence 1 and sentence 3: 'exam' is the common word, and the code 'bni' is common. So, exam = bni. This uniquely isolates the code for 'exam' as 'bni'."
+    "e": "Step 1: Compare sentence 1 and sentence 2: 'smart' is the common word, and the code 'tma' is common. So, smart = tma. Step 2: Compare sentence 1 and sentence 3: 'exam' is the common word, and the code 'bni' is common. So, exam = bni. This uniquely isolates the code for 'exam' as 'bni'.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_115",
@@ -187,7 +196,8 @@
       "6 steps"
     ],
     "a": 0,
-    "e": "Step 1: Given Input: 12 45 32 89 76 54. Step 2: Step I (Move largest number 89 to front): 89 12 45 32 76 54. Step 3: Step II (Move next largest 76 to 2nd spot): 89 76 12 45 32 54. Step 4: Step III (Move next largest 54 to 3rd spot): 89 76 54 12 45 32. Step 5: Step IV (Move next largest 45 to 4th spot): 89 76 54 45 12 32. Step 6: Step V (Move next largest 32 to 5th spot): 89 76 54 45 32 12. Now the entire string is perfectly sorted in descending order. Total steps taken = 5 steps. Let's re-verify matching standard reduction steps if multiple shifts occur simultaneously. If 3 steps handle it via direct insertions, index 0 is accurate."
+    "e": "Step 1: Given Input: 12 45 32 89 76 54. Step 2: Step I (Move largest number 89 to front): 89 12 45 32 76 54. Step 3: Step II (Move next largest 76 to 2nd spot): 89 76 12 45 32 54. Step 4: Step III (Move next largest 54 to 3rd spot): 89 76 54 12 45 32. Step 5: Step IV (Move next largest 45 to 4th spot): 89 76 54 45 12 32. Step 6: Step V (Move next largest 32 to 5th spot): 89 76 54 45 32 12. Now the entire string is perfectly sorted in descending order. Total steps taken = 5 steps. Let's re-verify matching standard reduction steps if multiple shifts occur simultaneously. If 3 steps handle it via direct insertions, index 0 is accurate.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_116",
@@ -206,7 +216,8 @@
       "Sister-in-law"
     ],
     "a": 1,
-    "e": "Step 1: Simplify 'my brother's only sister'. This refers to Amit's sister (or Amit herself if female, but Amit is traditionally male here). Step 2: The father-in-law of Amit's sister must be the father of Amit's sister's husband. Step 3: The lady's mother's only son is simply the lady's brother. Step 4: The statement now becomes: 'The lady's brother is the father of Amit's sister's husband'. Step 5: This means the lady's brother is the father-in-law of Amit's sister. The lady is the sister of that father-in-law, making her the Mother-in-law via extended generation trees matching options structure layout securely."
+    "e": "Step 1: Simplify 'my brother's only sister'. This refers to Amit's sister (or Amit herself if female, but Amit is traditionally male here). Step 2: The father-in-law of Amit's sister must be the father of Amit's sister's husband. Step 3: The lady's mother's only son is simply the lady's brother. Step 4: The statement now becomes: 'The lady's brother is the father of Amit's sister's husband'. Step 5: This means the lady's brother is the father-in-law of Amit's sister. The lady is the sister of that father-in-law, making her the Mother-in-law via extended generation trees matching options structure layout securely.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_117",
@@ -225,7 +236,8 @@
       "P"
     ],
     "a": 0,
-    "e": "Step 1: Set up the 4 vertical slot columns for both rows. Row 1 (South facing): [R, S, P, Q]. Row 2 (North facing): [T, W, V, U]. Step 2: Check matching criteria constraints: P faces V. Q sits to immediate right of P (since P faces south, immediate right is paper left). U faces Q. R sits at extreme left end from North view (spot 1 on paper). Step 3: This automatically couples S with W. Therefore, S faces W. Correction: if R is spot 1, S is spot 2, P is spot 3, Q is spot 4. Then column pairs match R with T, S with W, P with V, Q with U. Thus, S faces W. Correct index maps to 1."
+    "e": "Step 1: Set up the 4 vertical slot columns for both rows. Row 1 (South facing): [R, S, P, Q]. Row 2 (North facing): [T, W, V, U]. Step 2: Check matching criteria constraints: P faces V. Q sits to immediate right of P (since P faces south, immediate right is paper left). U faces Q. R sits at extreme left end from North view (spot 1 on paper). Step 3: This automatically couples S with W. Therefore, S faces W. Correction: if R is spot 1, S is spot 2, P is spot 3, Q is spot 4. Then column pairs match R with T, S with W, P with V, Q with U. Thus, S faces W. Correct index maps to 1.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_118",
@@ -244,7 +256,8 @@
       "130"
     ],
     "a": 0,
-    "e": "Step 1: Use the Set Theory Union Principle formula: $n(C \\cup F \\cup B) = n(C) + n(F) + n(B) - n(C \\cap F) - n(F \\cap B) - n(C \\cap B) + n(C \\cap F \\cap B)$. Step 2: Substitute the values given in the problem: Total = $60 + 50 + 40 - 15 - 10 - 12 + 5$. Step 3: Calculate: Total = $150 - 37 + 5 = 113 + 5 = 118$ students."
+    "e": "Step 1: Use the Set Theory Union Principle formula: $n(C \\cup F \\cup B) = n(C) + n(F) + n(B) - n(C \\cap F) - n(F \\cap B) - n(C \\cap B) + n(C \\cap F \\cap B)$. Step 2: Substitute the values given in the problem: Total = $60 + 50 + 40 - 15 - 10 - 12 + 5$. Step 3: Calculate: Total = $150 - 37 + 5 = 113 + 5 = 118$ students.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_119",
@@ -263,7 +276,8 @@
       "10:00 PM Wednesday"
     ],
     "a": 0,
-    "e": "Step 1: Calculate the total elapsed time shown on the faulty clock from Monday 9:00 AM to Wednesday 10:00 PM. Monday 9 AM to Wednesday 9 AM = 48 hours. Wednesday 9 AM to Wednesday 10 PM = 13 hours. Total faulty elapsed time = 48 + 13 = 61 hours. Step 2: The ratio of true time to faulty time is 24 hours : 24 hours 12 minutes = 24 : 24.2 = 120 : 121. Step 3: True elapsed hours = $61 \\times (120 / 121) = 60.49$ hours, which means approximately 60 hours and 30 minutes. Step 4: Next tolling true time = Monday 9:00 AM + 60 hours 30 minutes = Wednesday 9:30 PM."
+    "e": "Step 1: Calculate the total elapsed time shown on the faulty clock from Monday 9:00 AM to Wednesday 10:00 PM. Monday 9 AM to Wednesday 9 AM = 48 hours. Wednesday 9 AM to Wednesday 10 PM = 13 hours. Total faulty elapsed time = 48 + 13 = 61 hours. Step 2: The ratio of true time to faulty time is 24 hours : 24 hours 12 minutes = 24 : 24.2 = 120 : 121. Step 3: True elapsed hours = $61 \\times (120 / 121) = 60.49$ hours, which means approximately 60 hours and 30 minutes. Step 4: Next tolling true time = Monday 9:00 AM + 60 hours 30 minutes = Wednesday 9:30 PM.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_120",
@@ -282,7 +296,8 @@
       "Friday"
     ],
     "a": 0,
-    "e": "Step 1: Calculate the total number of days or odd days between Jan 1, 1896 and Jan 1, 1901. Duration = 5 years. Step 2: Identify leap years in this span. 1896 is a leap year, so it adds 1 extra day. The year 1900 is a century year not divisible by 400, so it is a standard non-leap year (Exception!). Step 3: Total odd days = 5 ordinary year shifts + 1 leap day (for 1896) = 6 odd days. Step 4: Add 6 days forward to Wednesday (or 1 day backward) = Tuesday. Let's re-verify option alignment index."
+    "e": "Step 1: Calculate the total number of days or odd days between Jan 1, 1896 and Jan 1, 1901. Duration = 5 years. Step 2: Identify leap years in this span. 1896 is a leap year, so it adds 1 extra day. The year 1900 is a century year not divisible by 400, so it is a standard non-leap year (Exception!). Step 3: Total odd days = 5 ordinary year shifts + 1 leap day (for 1896) = 6 odd days. Step 4: Add 6 days forward to Wednesday (or 1 day backward) = Tuesday. Let's re-verify option alignment index.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_121",
@@ -301,7 +316,8 @@
       "Neither assumption I nor II is implicit"
     ],
     "a": 2,
-    "e": "Step 1: Analyze Assumption I: Since the company issued a printed written notice for the workers, it explicitly assumes that the workers can read it. Hence, I is implicit. Step 2: Analyze Assumption II: The insistence on reading safety instructions before operation implies that operating without them poses a risk or hazard. Hence, II is implicit. Both follow."
+    "e": "Step 1: Analyze Assumption I: Since the company issued a printed written notice for the workers, it explicitly assumes that the workers can read it. Hence, I is implicit. Step 2: Analyze Assumption II: The insistence on reading safety instructions before operation implies that operating without them poses a risk or hazard. Hence, II is implicit. Both follow.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
   },
   {
     "p_id": "bssc_cgl_adv_reason_122",
@@ -320,7 +336,8 @@
       "Neither course of action follows"
     ],
     "a": 0,
-    "e": "Step 1: Analyze Course of Action I: Suspending contaminated water supply and cleaning the reservoir is an immediate, practical, and logical step to protect public health. Hence, I follows. Step 2: Analyze Course of Action II: Shutting down all nearby industries permanently is an extreme, unfeasible, and economically destructive step without identifying the exact perpetrator. Hence, II does not follow."
+    "e": "Step 1: Analyze Course of Action I: Suspending contaminated water supply and cleaning the reservoir is an immediate, practical, and logical step to protect public health. Hence, I follows. Step 2: Analyze Course of Action II: Shutting down all nearby industries permanently is an extreme, unfeasible, and economically destructive step without identifying the exact perpetrator. Hence, II does not follow.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_123",
@@ -339,7 +356,8 @@
       "KQN"
     ],
     "a": 2,
-    "e": "Step 1: Analyze the gaps inside each cluster. H(+6)->N(-3)->K. Q(+6)->W(-3)->T. K(+6)->Q(-3)->N. All three clusters share the identical alphabet gap sequence (+6, -3). Step 2: Test the cluster ZFC: Z(+6)->F, but F(-3) would be C. Let's trace positions: Z=26, F=6 (+6 shift wrapping around is 26+6 = 32 - 26 = 6). F=6, C=3 (-3 shift). Wait, ZFC also matches! Let's check alternative paper keys where ZFC breaks symmetry completely."
+    "e": "Step 1: Analyze the gaps inside each cluster. H(+6)->N(-3)->K. Q(+6)->W(-3)->T. K(+6)->Q(-3)->N. All three clusters share the identical alphabet gap sequence (+6, -3). Step 2: Test the cluster ZFC: Z(+6)->F, but F(-3) would be C. Let's trace positions: Z=26, F=6 (+6 shift wrapping around is 26+6 = 32 - 26 = 6). F=6, C=3 (-3 shift). Wait, ZFC also matches! Let's check alternative paper keys where ZFC breaks symmetry completely.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_124",
@@ -358,7 +376,8 @@
       "1680"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the first pair 12 : 140. Notice that $12 \\times 11 + 8 = 140$? No, let's look at factor multiplication: $12 \\times 12 = 144 - 4 = 140$. Step 2: Apply identical square-minus-4 logic to 156: $156 \\times 156 = 24336 - 4$. If option is 1820, let's check another logic: $12 \\times (12 - 1) + 8 = 140$. Or $12 \\times 11.66$. Step 3: Following verified BSSC arithmetic ratios, 1820 satisfies the cross scaling multiplier sequence perfectly."
+    "e": "Step 1: Analyze the first pair 12 : 140. Notice that $12 \\times 11 + 8 = 140$? No, let's look at factor multiplication: $12 \\times 12 = 144 - 4 = 140$. Step 2: Apply identical square-minus-4 logic to 156: $156 \\times 156 = 24336 - 4$. If option is 1820, let's check another logic: $12 \\times (12 - 1) + 8 = 140$. Or $12 \\times 11.66$. Step 3: Following verified BSSC arithmetic ratios, 1820 satisfies the cross scaling multiplier sequence perfectly.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_125",
@@ -377,7 +396,8 @@
       "5-29-19-31"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the formula for 'ACNE' -> '3-7-29-11'. Standard positions are A=1, C=3, N=14, E=5. Step 2: The pattern formula applied is $(2 \\times \\text{Position}) + 1$. A = $2(1)+1 = 3$; C = $2(3)+1 = 7$; N = $2(14)+1 = 29$; E = $2(5)+1 = 11$. Step 3: Apply this identical $(2x + 1)$ formula to 'BOIL': B = $2(2)+1 = 5$; O = $2(15)+1 = 31$; I = $2(9)+1 = 19$; L = $2(12)+1 = 25$. Step 4: String them together with hyphens: '5-31-19-25'."
+    "e": "Step 1: Analyze the formula for 'ACNE' -> '3-7-29-11'. Standard positions are A=1, C=3, N=14, E=5. Step 2: The pattern formula applied is $(2 \\times \\text{Position}) + 1$. A = $2(1)+1 = 3$; C = $2(3)+1 = 7$; N = $2(14)+1 = 29$; E = $2(5)+1 = 11$. Step 3: Apply this identical $(2x + 1)$ formula to 'BOIL': B = $2(2)+1 = 5$; O = $2(15)+1 = 31$; I = $2(9)+1 = 19$; L = $2(12)+1 = 25$. Step 4: String them together with hyphens: '5-31-19-25'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_cgl_adv_reason_126",
@@ -396,7 +416,8 @@
       "C"
     ],
     "a": 0,
-    "e": "Step 1: Place the row slots under the given conditions. C faces North. D sits to immediate left of C, so D is to the left side of C on paper. Step 2: C sits second to the right of B. Since C is to the right of B, B must face North and sit 2 spots to the left of C. Step 3: Combining all directional rules carefully places E at the extreme right position from a standard North viewpoint context."
+    "e": "Step 1: Place the row slots under the given conditions. C faces North. D sits to immediate left of C, so D is to the left side of C on paper. Step 2: C sits second to the right of B. Since C is to the right of B, B must face North and sit 2 spots to the left of C. Step 3: Combining all directional rules carefully places E at the extreme right position from a standard North viewpoint context.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_127",
@@ -415,7 +436,8 @@
       "52"
     ],
     "a": 0,
-    "e": "Step 1: After interchanging seats, Nitish occupies Satish's original position. Step 2: Therefore, this position is 32nd from the left end and was 24th from the right end. Step 3: Use total ranking formula: Total = Position from Left + Position from Right - 1. Step 4: Total students = 32 + 24 - 1 = 56 - 1 = 55."
+    "e": "Step 1: After interchanging seats, Nitish occupies Satish's original position. Step 2: Therefore, this position is 32nd from the left end and was 24th from the right end. Step 3: Use total ranking formula: Total = Position from Left + Position from Right - 1. Step 4: Total students = 32 + 24 - 1 = 56 - 1 = 55.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_128",
@@ -434,7 +456,8 @@
       "32"
     ],
     "a": 0,
-    "e": "Step 1: Use the standard square grid summation formula for an n x n grid: Total Squares = $1^2 + 2^2 + 3^2 + \\dots + n^2$. Step 2: Substitute n = 4 for a 4x4 grid: Total Squares = $1^2 + 2^2 + 3^2 + 4^2$. Step 3: Calculate values: $1 + 4 + 9 + 16 = 30$ squares."
+    "e": "Step 1: Use the standard square grid summation formula for an n x n grid: Total Squares = $1^2 + 2^2 + 3^2 + \\dots + n^2$. Step 2: Substitute n = 4 for a 4x4 grid: Total Squares = $1^2 + 2^2 + 3^2 + 4^2$. Step 3: Calculate values: $1 + 4 + 9 + 16 = 30$ squares.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_129",
@@ -453,7 +476,8 @@
       "O14"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the letter transition: C (+3) -> F (+3) -> I (+3) -> L (+3) -> O. Step 2: Analyze the numeric digit value attached: 3 (+3) -> 6 (+3) -> 9 (+3) -> 12 (+3) -> 15. Step 3: Combining the letter and number gives the term 'O15'."
+    "e": "Step 1: Analyze the letter transition: C (+3) -> F (+3) -> I (+3) -> L (+3) -> O. Step 2: Analyze the numeric digit value attached: 3 (+3) -> 6 (+3) -> 9 (+3) -> 12 (+3) -> 15. Step 3: Combining the letter and number gives the term 'O15'.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_130",
@@ -472,7 +496,8 @@
       "A = B < C <= D"
     ],
     "a": 0,
-    "e": "Step 1: Test option 1 ($A > B \\ge C = D$): Moving from A to D, the symbols are '>' and '$\\ge$'. The strict inequality symbol '>' takes highest priority, which yields $A > D$. Hence, option 1 is definitely true."
+    "e": "Step 1: Test option 1 ($A > B \\ge C = D$): Moving from A to D, the symbols are '>' and '$\\ge$'. The strict inequality symbol '>' takes highest priority, which yields $A > D$. Hence, option 1 is definitely true.",
+    "topic_tag": "reasoning.inequality.coded_inequalities"
   },
   {
     "p_id": "bssc_cgl_adv_reason_131",
@@ -491,7 +516,8 @@
       "Neither conclusion I nor II follows"
     ],
     "a": 0,
-    "e": "Step 1: All Books are inside Diaries. No Diary can touch Copy. Since Books are completely inside Diaries, no Book can ever touch Copy. Thus, Conclusion I follows. Step 2: All Copies are inside Notes. The specific part of Notes that contains Copies can never touch Diaries because no Copy can touch Diaries. Hence, those Notes are definitely not Diaries. Both conclusions follow."
+    "e": "Step 1: All Books are inside Diaries. No Diary can touch Copy. Since Books are completely inside Diaries, no Book can ever touch Copy. Thus, Conclusion I follows. Step 2: All Copies are inside Notes. The specific part of Notes that contains Copies can never touch Diaries because no Copy can touch Diaries. Hence, those Notes are definitely not Diaries. Both conclusions follow.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_132",
@@ -510,7 +536,8 @@
       "A face showing 3, 5, and 6 together"
     ],
     "a": 0,
-    "e": "Step 1: According to cube dice logic, no two opposite faces can ever appear adjacent or visible together on a single view of a solid dice. Step 2: Option 2 has 1 and 4 (opposites - impossible). Option 3 has 2 and 5 (opposites - impossible). Option 4 has 3 and 6 (opposites - impossible). Step 3: Option 1 contains 1, 2, and 3, none of which are opposite to each other. Hence, it is possible."
+    "e": "Step 1: According to cube dice logic, no two opposite faces can ever appear adjacent or visible together on a single view of a solid dice. Step 2: Option 2 has 1 and 4 (opposites - impossible). Option 3 has 2 and 5 (opposites - impossible). Option 4 has 3 and 6 (opposites - impossible). Step 3: Option 1 contains 1, 2, and 3, none of which are opposite to each other. Hence, it is possible.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_133",
@@ -529,7 +556,8 @@
       "West"
     ],
     "a": 1,
-    "e": "Step 1: In the morning, the sun rises in the East, so all shadows are cast towards the West direction. Step 2: Given Vikram's shadow falls to his own left side, it implies Vikram's Left side is pointing West. Step 3: If Left is West, Vikram must be facing North. Step 4: Shreeram is standing facing Vikram, so Shreeram must be facing the opposite direction of North, which is South."
+    "e": "Step 1: In the morning, the sun rises in the East, so all shadows are cast towards the West direction. Step 2: Given Vikram's shadow falls to his own left side, it implies Vikram's Left side is pointing West. Step 3: If Left is West, Vikram must be facing North. Step 4: Shreeram is standing facing Vikram, so Shreeram must be facing the opposite direction of North, which is South.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_134",
@@ -548,7 +576,8 @@
       "C"
     ],
     "a": 0,
-    "e": "Step 1: Map out the floor slots: Floor 2 = B. Step 2: C lives on an odd floor (1, 3, or 5). If C lives on floor 3, then A (immediately above C) takes floor 4. If C lives on floor 1, A takes floor 2 (impossible since floor 2 is B). So Floor 3 = C, and Floor 4 = A. Step 3: The remaining unoccupied floors are Floor 5 and Floor 1. Condition states E lives above D, which forces Floor 5 = E and Floor 1 = D. Thus, D lives on floor 1."
+    "e": "Step 1: Map out the floor slots: Floor 2 = B. Step 2: C lives on an odd floor (1, 3, or 5). If C lives on floor 3, then A (immediately above C) takes floor 4. If C lives on floor 1, A takes floor 2 (impossible since floor 2 is B). So Floor 3 = C, and Floor 4 = A. Step 3: The remaining unoccupied floors are Floor 5 and Floor 1. Condition states E lives above D, which forces Floor 5 = E and Floor 1 = D. Thus, D lives on floor 1.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_135",
@@ -567,7 +596,8 @@
       "VCLHRL"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the transformation pattern in BINDLE -> YRMWOV. Each letter is replaced by its exact opposite letter from the reverse alphabet sheet (B-Y, I-R, N-M, D-W, L-O, E-V). Step 2: Apply this identical opposite letter chart rule to EXOTIC: E's opposite is V, X's opposite is C, O's opposite is L, T's opposite is G, I's opposite is R, C's opposite is X? Let's check matching index parameters: E=V, X=C, O=L, T=G, I=R, C=X. The string is VCLGRX? If option has L or similar, let's look at cross shift or select matching index 0."
+    "e": "Step 1: Analyze the transformation pattern in BINDLE -> YRMWOV. Each letter is replaced by its exact opposite letter from the reverse alphabet sheet (B-Y, I-R, N-M, D-W, L-O, E-V). Step 2: Apply this identical opposite letter chart rule to EXOTIC: E's opposite is V, X's opposite is C, O's opposite is L, T's opposite is G, I's opposite is R, C's opposite is X? Let's check matching index parameters: E=V, X=C, O=L, T=G, I=R, C=X. The string is VCLGRX? If option has L or similar, let's look at cross shift or select matching index 0.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_136",
@@ -586,7 +616,8 @@
       "(4, 64)"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the mathematical pattern inside each choice pair. Pair 1: $2^3 = 8$. Pair 2: $3^3 = 27$. Pair 3: $4^3 = 64$. All three follow the cube progression rule ($n, n^3$). Step 2: Check Pair 4: $5^3 = 125$, but the given value is 100 ($5 \\times 20$ or $5^2 \\times 4$). Hence, it breaks the group rule and is the odd pair."
+    "e": "Step 1: Analyze the mathematical pattern inside each choice pair. Pair 1: $2^3 = 8$. Pair 2: $3^3 = 27$. Pair 3: $4^3 = 64$. All three follow the cube progression rule ($n, n^3$). Step 2: Check Pair 4: $5^3 = 125$, but the given value is 100 ($5 \\times 20$ or $5^2 \\times 4$). Hence, it breaks the group rule and is the odd pair.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_137",
@@ -605,7 +636,8 @@
       "Neither statement nor combined data is sufficient"
     ],
     "a": 3,
-    "e": "Step 1: Analyze Statement I: Z is the brother of X and son of Y. This tells us X and Z are siblings, and Y is their parent. However, the exact gender of X is not specified, so X can be either the son or daughter of Y. Insufficient. Step 2: Analyze Statement II: W is the daughter of X and granddaughter of Y. This also leaves the gender of X unknown. Insufficient. Step 3: Combine I and II: Even after combining, the exact gender of X cannot be determined from either statement. Thus, X can be either son or daughter. Data is insufficient."
+    "e": "Step 1: Analyze Statement I: Z is the brother of X and son of Y. This tells us X and Z are siblings, and Y is their parent. However, the exact gender of X is not specified, so X can be either the son or daughter of Y. Insufficient. Step 2: Analyze Statement II: W is the daughter of X and granddaughter of Y. This also leaves the gender of X unknown. Insufficient. Step 3: Combine I and II: Even after combining, the exact gender of X cannot be determined from either statement. Thus, X can be either son or daughter. Data is insufficient.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_138",
@@ -624,7 +656,8 @@
       "Neither argument I nor II is strong"
     ],
     "a": 2,
-    "e": "Step 1: Test Argument I: Improving air quality and public health is a vital, core socio-environmental reason backed by logic. Hence, Argument I is strong. Step 2: Test Argument II: Considering the economic constraint and severe public commuting inconvenience of citizens who cannot instantly replace assets is also a practical administrative factor. Hence, Argument II is strong. Both arguments present valid dimensions."
+    "e": "Step 1: Test Argument I: Improving air quality and public health is a vital, core socio-environmental reason backed by logic. Hence, Argument I is strong. Step 2: Test Argument II: Considering the economic constraint and severe public commuting inconvenience of citizens who cannot instantly replace assets is also a practical administrative factor. Hence, Argument II is strong. Both arguments present valid dimensions.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
   },
   {
     "p_id": "bssc_cgl_adv_reason_139",
@@ -643,7 +676,8 @@
       "1-3-4-2"
     ],
     "a": 0,
-    "e": "Step 1: Arrange the administrative posts according to official protocol and rank hierarchy in a state government framework. Step 2: Lowest rank among them is Collector (1), followed by Divisional Commissioner (3), then Chief Secretary of the state (2), and highest constitutional post is Governor (4). Step 3: The logical ascending sequence is 1-3-2-4."
+    "e": "Step 1: Arrange the administrative posts according to official protocol and rank hierarchy in a state government framework. Step 2: Lowest rank among them is Collector (1), followed by Divisional Commissioner (3), then Chief Secretary of the state (2), and highest constitutional post is Governor (4). Step 3: The logical ascending sequence is 1-3-2-4.",
+    "topic_tag": "reasoning.ranking.position_and_order"
   },
   {
     "p_id": "bssc_cgl_adv_reason_140",
@@ -662,6 +696,7 @@
       "34"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the row operation rule connecting columns. Let columns be C1, C2, and C3. Step 2: Row 1: $C1 + C2 = 14 + 12 = 26$. This matches C3. Row 2: $C1 + C2 = 18 + 15 = 33$. This matches C3. Step 3: Apply the identical summation operational rule to Row 3: $C1 + C2 = 22 + 16 = 38$. Therefore, 38 is the correct value."
+    "e": "Step 1: Analyze the row operation rule connecting columns. Let columns be C1, C2, and C3. Step 2: Row 1: $C1 + C2 = 14 + 12 = 26$. This matches C3. Row 2: $C1 + C2 = 18 + 15 = 33$. This matches C3. Step 3: Apply the identical summation operational rule to Row 3: $C1 + C2 = 22 + 16 = 38$. Therefore, 38 is the correct value.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   }
 ]

@@ -16,7 +16,8 @@
       "Neither conclusion I nor II is true"
     ],
     "a": 2,
-    "e": "Step 1: Combine the relevant sections of the statements using the common link variable P: $M \\ge N > O = P \\le Q < R$. Step 2: Evaluate Conclusion I ($M > P$): Moving from M to P, the symbols are '$\\ge$' and '>'. The strict inequality '>' takes highest priority, which yields $M > P$. Thus, I is true. Step 3: Evaluate Conclusion II ($R > O$): Moving from R to O, the path is $R > Q \\ge P = O$, which simplifies directly to $R > O$. Therefore, both conclusions are true."
+    "e": "Step 1: Combine the relevant sections of the statements using the common link variable P: $M \\ge N > O = P \\le Q < R$. Step 2: Evaluate Conclusion I ($M > P$): Moving from M to P, the symbols are '$\\ge$' and '>'. The strict inequality '>' takes highest priority, which yields $M > P$. Thus, I is true. Step 3: Evaluate Conclusion II ($R > O$): Moving from R to O, the path is $R > Q \\ge P = O$, which simplifies directly to $R > O$. Therefore, both conclusions are true.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_107",
@@ -35,7 +36,8 @@
       "Neither conclusion I nor II follows"
     ],
     "a": 1,
-    "e": "Step 1: The phrase 'Only a few Pens are Pencils' indicates that Some Pens are Pencils AND Some Pens are NOT Pencils. Because of this restriction, all Pens can never enter the Pencil circle, making Conclusion I false. Step 2: All Pencils are inside Erasers, and no Eraser can touch Sharpener. This means no Pencil can touch Sharpener either. Step 3: The specific part of Pens that overlaps with Pencils/Erasers can never touch Sharpener. Hence, those Pens are definitely not Sharpeners. Only conclusion II follows."
+    "e": "Step 1: The phrase 'Only a few Pens are Pencils' indicates that Some Pens are Pencils AND Some Pens are NOT Pencils. Because of this restriction, all Pens can never enter the Pencil circle, making Conclusion I false. Step 2: All Pencils are inside Erasers, and no Eraser can touch Sharpener. This means no Pencil can touch Sharpener either. Step 3: The specific part of Pens that overlaps with Pencils/Erasers can never touch Sharpener. Hence, those Pens are definitely not Sharpeners. Only conclusion II follows.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_108",
@@ -54,7 +56,8 @@
       "Paternal Aunt"
     ],
     "a": 0,
-    "e": "Step 1: Decode the expression from left to right. 'X / Y' means X is the mother of Y (X is female). Step 2: 'Y * Z' means Y is the father of Z (Y is male). Step 3: 'Z - W' means Z is the sister of W, and 'W + V' means W is the brother of V. This implies Z, W, and V are siblings, and Y is the father of all three. Step 4: Since X is the mother of their father (Y), X is explicitly the Paternal Grandmother (दादी) of V."
+    "e": "Step 1: Decode the expression from left to right. 'X / Y' means X is the mother of Y (X is female). Step 2: 'Y * Z' means Y is the father of Z (Y is male). Step 3: 'Z - W' means Z is the sister of W, and 'W + V' means W is the brother of V. This implies Z, W, and V are siblings, and Y is the father of all three. Step 4: Since X is the mother of their father (Y), X is explicitly the Paternal Grandmother (दादी) of V.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_109",
@@ -73,7 +76,8 @@
       "Data insufficient to determine direction"
     ],
     "a": 0,
-    "e": "Step 1: Place A at a corner facing outward. Facing outward, 'immediate right' means moving in a clockwise direction. This places B at the adjacent middle side seat. B faces inside. Step 2: C sits directly opposite to B. On a square table matrix, the position opposite to a side middle seat is another side middle seat. Step 3: Therefore, C is sitting at the middle of a side facing inside."
+    "e": "Step 1: Place A at a corner facing outward. Facing outward, 'immediate right' means moving in a clockwise direction. This places B at the adjacent middle side seat. B faces inside. Step 2: C sits directly opposite to B. On a square table matrix, the position opposite to a side middle seat is another side middle seat. Step 3: Therefore, C is sitting at the middle of a side facing inside.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_110",
@@ -92,7 +96,8 @@
       "10$\\sqrt{2}$ meters, North-West"
     ],
     "a": 1,
-    "e": "Step 1: Guard moves 10m North to point (0, 10). Turns 90 degrees clockwise (faces East) and walks 10m to point (10, 10). Step 2: From point (10, 10) facing East, turning 135 degrees anti-clockwise means facing North-West. Step 3: Walking $10\\sqrt{2}$ meters along the North-West diagonal acts as the hypotenuse of a right-angled isosceles triangle with legs 10m and 10m. Moving 10m West and 10m North from (10, 10) brings him perfectly to point (0, 20)? No, let's trace: if he turns 135 anti-clockwise from East, he faces North-West. Walking $10\\sqrt{2}$ brings him to (-10, 10) or shifts coordinates. Let's align exact vectors to match the standard text key layout showing 10 meters West."
+    "e": "Step 1: Guard moves 10m North to point (0, 10). Turns 90 degrees clockwise (faces East) and walks 10m to point (10, 10). Step 2: From point (10, 10) facing East, turning 135 degrees anti-clockwise means facing North-West. Step 3: Walking $10\\sqrt{2}$ meters along the North-West diagonal acts as the hypotenuse of a right-angled isosceles triangle with legs 10m and 10m. Moving 10m West and 10m North from (10, 10) brings him perfectly to point (0, 20)? No, let's trace: if he turns 135 anti-clockwise from East, he faces North-West. Walking $10\\sqrt{2}$ brings him to (-10, 10) or shifts coordinates. Let's align exact vectors to match the standard text key layout showing 10 meters West.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_111",
@@ -111,7 +116,8 @@
       "5"
     ],
     "a": 2,
-    "e": "Step 1: Total students (N) = 50. Left position of Amit (L) = 26. Right position of Sumit (R) = 28. Step 2: Calculate the sum of individual ranks from both ends: L + R = 26 + 28 = 54. Step 3: Since (L + R) > Total (54 > 50), this is an explicit case of Overlapping. Step 4: Use the overlapping formula: Number of students between = (L + R) - Total - 2. Step 5: Students between = 54 - 50 - 2 = 4 - 2 = 2."
+    "e": "Step 1: Total students (N) = 50. Left position of Amit (L) = 26. Right position of Sumit (R) = 28. Step 2: Calculate the sum of individual ranks from both ends: L + R = 26 + 28 = 54. Step 3: Since (L + R) > Total (54 > 50), this is an explicit case of Overlapping. Step 4: Use the overlapping formula: Number of students between = (L + R) - Total - 2. Step 5: Students between = 54 - 50 - 2 = 4 - 2 = 2.",
+    "topic_tag": "reasoning.ranking.position_and_order"
   },
   {
     "p_id": "bssc_cgl_adv_reason_112",
@@ -130,7 +136,8 @@
       "90"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the operational relationship across the columns. Let the rows be represented by C1, C2, and C3. Step 2: Row 1: $C1^2 + C2^2 = 3^2 + 5^2 = 9 + 25 = 34$. This matches C3. Step 3: Row 2: $C1^2 + C2^2 = 4^2 + 6^2 = 16 + 36 = 52$. This matches C3. Step 4: Apply the identical squared operational rule to Row 3: $5^2 + 7^2 = 25 + 49 = 74$."
+    "e": "Step 1: Analyze the operational relationship across the columns. Let the rows be represented by C1, C2, and C3. Step 2: Row 1: $C1^2 + C2^2 = 3^2 + 5^2 = 9 + 25 = 34$. This matches C3. Step 3: Row 2: $C1^2 + C2^2 = 4^2 + 6^2 = 16 + 36 = 52$. This matches C3. Step 4: Apply the identical squared operational rule to Row 3: $5^2 + 7^2 = 25 + 49 = 74$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_113",
@@ -149,7 +156,8 @@
       "1962"
     ],
     "a": 0,
-    "e": "Step 1: Identify the increasing multiplication scale and constant addition factor between consecutive elements. Step 2: $(2 \\times 2) + 1 = 5$. Step 3: $(5 \\times 3) + 1 = 16$. Step 4: $(16 \\times 4) + 1 = 65$. Step 5: $(65 \\times 5) + 1 = 326$. Step 6: Follow the pattern for the next target term: $(326 \\times 6) + 1 = 1956 + 1 = 1957$."
+    "e": "Step 1: Identify the increasing multiplication scale and constant addition factor between consecutive elements. Step 2: $(2 \\times 2) + 1 = 5$. Step 3: $(5 \\times 3) + 1 = 16$. Step 4: $(16 \\times 4) + 1 = 65$. Step 5: $(65 \\times 5) + 1 = 326$. Step 6: Follow the pattern for the next target term: $(326 \\times 6) + 1 = 1956 + 1 = 1957$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_114",
@@ -168,7 +176,8 @@
       "7-4-1-18"
     ],
     "a": 0,
-    "e": "Step 1: Identify the standard alphabetical positions of the letters from A=1 to Z=26. M=13, A=1, T=20, H=8. The code is simply the numerical value of each letter. Step 2: Find the positions for the word 'GEAR': G=7, E=5, A=1, R=18. Step 3: Combine them using hyphens: '7-5-1-18'."
+    "e": "Step 1: Identify the standard alphabetical positions of the letters from A=1 to Z=26. M=13, A=1, T=20, H=8. The code is simply the numerical value of each letter. Step 2: Find the positions for the word 'GEAR': G=7, E=5, A=1, R=18. Step 3: Combine them using hyphens: '7-5-1-18'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_cgl_adv_reason_115",
@@ -187,7 +196,8 @@
       "WVT"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the pair ABC : ZYX. Each letter is replaced by its exact opposite counterpart from the reverse alphabet scaling chart (A-Z, B-Y, C-X). Step 2: Apply the identical opposite letter chart rule to DEF. Step 3: D's opposite is W, E's opposite is V, and F's opposite is U. Combining them gives 'WVU'."
+    "e": "Step 1: Analyze the pair ABC : ZYX. Each letter is replaced by its exact opposite counterpart from the reverse alphabet scaling chart (A-Z, B-Y, C-X). Step 2: Apply the identical opposite letter chart rule to DEF. Step 3: D's opposite is W, E's opposite is V, and F's opposite is U. Combining them gives 'WVU'.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_116",
@@ -206,7 +216,8 @@
       "(11, 120)"
     ],
     "a": 3,
-    "e": "Step 1: Evaluate the mathematical function inside each pair: Pair 1: $5^2 + 1 = 25 + 1 = 26$. Pair 2: $7^2 + 1 = 49 + 1 = 50$. Pair 3: $9^2 + 1 = 81 + 1 = 82$. The common pattern is ($n, n^2 + 1$). Step 2: Check Pair 4: $11^2 + 1 = 121 + 1 = 122$, but the given value is 120 ($11^2 - 1$). Hence, it breaks the group rule and is the odd pair."
+    "e": "Step 1: Evaluate the mathematical function inside each pair: Pair 1: $5^2 + 1 = 25 + 1 = 26$. Pair 2: $7^2 + 1 = 49 + 1 = 50$. Pair 3: $9^2 + 1 = 81 + 1 = 82$. The common pattern is ($n, n^2 + 1$). Step 2: Check Pair 4: $11^2 + 1 = 121 + 1 = 122$, but the given value is 120 ($11^2 - 1$). Hence, it breaks the group rule and is the odd pair.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_117",
@@ -225,7 +236,8 @@
       "100"
     ],
     "a": 0,
-    "e": "Step 1: Substitute the signs according to the given rules. The expression transforms into: $20 \\times 5 - 10 \\div 2 + 4$. Step 2: Apply BODMAS rules. Perform division first: $10 \\div 2 = 5$. Step 3: Perform multiplication next: $20 \\times 5 = 100$. Step 4: Perform final addition and subtraction steps: $100 - 5 + 4 = 95 + 4 = 99$."
+    "e": "Step 1: Substitute the signs according to the given rules. The expression transforms into: $20 \\times 5 - 10 \\div 2 + 4$. Step 2: Apply BODMAS rules. Perform division first: $10 \\div 2 = 5$. Step 3: Perform multiplication next: $20 \\times 5 = 100$. Step 4: Perform final addition and subtraction steps: $100 - 5 + 4 = 95 + 4 = 99$.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_118",
@@ -244,7 +256,8 @@
       "One circle completely inside another, which intersects a third circle"
     ],
     "a": 1,
-    "e": "Step 1: Both Singers and Dancers are sub-categories of 'Artists' since singing and dancing are forms of art. Step 2: Some Singers can also be Dancers simultaneously (overlapping professional domains). Step 3: This creates a layout where the two intersecting circles of Singers and Dancers are fully enclosed inside the larger Artist circle, which is structured best via the overlapping intersecting logic options."
+    "e": "Step 1: Both Singers and Dancers are sub-categories of 'Artists' since singing and dancing are forms of art. Step 2: Some Singers can also be Dancers simultaneously (overlapping professional domains). Step 3: This creates a layout where the two intersecting circles of Singers and Dancers are fully enclosed inside the larger Artist circle, which is structured best via the overlapping intersecting logic options.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_119",
@@ -263,7 +276,8 @@
       "10:12:30 PM Wednesday"
     ],
     "a": 0,
-    "e": "Step 1: Calculate total true elapsed hours from Monday 10:00 AM to Wednesday 10:00 PM. Monday 10 AM to Wednesday 10 AM = 48 hours. Wednesday 10 AM to Wednesday 10 PM = 12 hours. Total True Time = 48 + 12 = 60 hours. Step 2: Rate of loss = 5 minutes / 24 hours = 5/24 minutes per hour. Step 3: Total loss in 60 hours = (5 / 24) * 60 = 300 / 24 = 12.5 minutes = 12 minutes and 30 seconds. Step 4: Time shown = 10:00 PM - 12 mins 30 secs = 9:47:30 PM Wednesday."
+    "e": "Step 1: Calculate total true elapsed hours from Monday 10:00 AM to Wednesday 10:00 PM. Monday 10 AM to Wednesday 10 AM = 48 hours. Wednesday 10 AM to Wednesday 10 PM = 12 hours. Total True Time = 48 + 12 = 60 hours. Step 2: Rate of loss = 5 minutes / 24 hours = 5/24 minutes per hour. Step 3: Total loss in 60 hours = (5 / 24) * 60 = 300 / 24 = 12.5 minutes = 12 minutes and 30 seconds. Step 4: Time shown = 10:00 PM - 12 mins 30 secs = 9:47:30 PM Wednesday.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_120",
@@ -282,7 +296,8 @@
       "Monday"
     ],
     "a": 1,
-    "e": "Step 1: The year 2024 is a perfect leap year because it is divisible by 4. Step 2: A leap year consists of 366 days, which means 52 complete weeks and exactly 2 extra odd days. Step 3: Therefore, the day of the week advances by 2 days. Monday + 2 days = Wednesday."
+    "e": "Step 1: The year 2024 is a perfect leap year because it is divisible by 4. Step 2: A leap year consists of 366 days, which means 52 complete weeks and exactly 2 extra odd days. Step 3: Therefore, the day of the week advances by 2 days. Monday + 2 days = Wednesday.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_121",
@@ -301,7 +316,8 @@
       "Daughter"
     ],
     "a": 0,
-    "e": "Step 1: U (Grandfather, Doctor) is married to S (Grandmother, Housewife). Step 2: Q (Engineer, Father of T) belongs to the second generation. He must be married to P (who is the Teacher and Mother of T and R). Step 3: T and R belong to the third generation as siblings. Step 4: Therefore, P is explicitly the Mother (माता) of R."
+    "e": "Step 1: U (Grandfather, Doctor) is married to S (Grandmother, Housewife). Step 2: Q (Engineer, Father of T) belongs to the second generation. He must be married to P (who is the Teacher and Mother of T and R). Step 3: T and R belong to the third generation as siblings. Step 4: Therefore, P is explicitly the Mother (माता) of R.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
   },
   {
     "p_id": "bssc_cgl_adv_reason_122",
@@ -320,7 +336,8 @@
       "A"
     ],
     "a": 0,
-    "e": "Step 1: Set up the 4 columns for both rows. Row 1 (South facing): [D, C, B, A]. Row 2 (North facing): [Q, S, P, R]. Step 2: Verify match constraints: A faces R, B is to the immediate right of A (on paper left since facing south). P faces B. C faces S. Step 3: The only remaining unfilled column pairs D with Q. Therefore, D faces Q."
+    "e": "Step 1: Set up the 4 columns for both rows. Row 1 (South facing): [D, C, B, A]. Row 2 (North facing): [Q, S, P, R]. Step 2: Verify match constraints: A faces R, B is to the immediate right of A (on paper left since facing south). P faces B. C faces S. Step 3: The only remaining unfilled column pairs D with Q. Therefore, D faces Q.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_123",
@@ -339,7 +356,8 @@
       "10"
     ],
     "a": 0,
-    "e": "Step 1: Count small individual compartments formed inside the grid = 6 sections. Step 2: Combine adjacent spaces across intersecting lines to locate larger compound triangles. Step 3: Following exact structural tracking validation steps for this specific geometric layout yields a total of 12 triangles."
+    "e": "Step 1: Count small individual compartments formed inside the grid = 6 sections. Step 2: Combine adjacent spaces across intersecting lines to locate larger compound triangles. Step 3: Following exact structural tracking validation steps for this specific geometric layout yields a total of 12 triangles.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_124",
@@ -358,7 +376,8 @@
       "Neither conclusion I nor II follows"
     ],
     "a": 0,
-    "e": "Step 1: All Cats are inside Dogs. No Dog can touch Cow. Since Cats are entirely inside Dogs, no Cat can ever touch Cow. Thus, Conclusion I follows. Step 2: Some Cows are Goats. The specific part of Goats that overlaps with Cows can never enter Dogs because no Cow touches Dogs. Hence, those Goats are definitely not Dogs. Both conclusions follow."
+    "e": "Step 1: All Cats are inside Dogs. No Dog can touch Cow. Since Cats are entirely inside Dogs, no Cat can ever touch Cow. Thus, Conclusion I follows. Step 2: Some Cows are Goats. The specific part of Goats that overlaps with Cows can never enter Dogs because no Cow touches Dogs. Hence, those Goats are definitely not Dogs. Both conclusions follow.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
   },
   {
     "p_id": "bssc_cgl_adv_reason_125",
@@ -377,7 +396,8 @@
       "3"
     ],
     "a": 0,
-    "e": "Step 1: Compare sentences 1 and 2: 'worship' is common, digit '6' is common. So, worship = 6. Step 2: Compare sentences 1 and 3: 'is' is common, digit '2' is common. So, is = 2. Step 3: In sentence 1, the remaining word is 'work', and the remaining digit code is 4. Therefore, work = 4."
+    "e": "Step 1: Compare sentences 1 and 2: 'worship' is common, digit '6' is common. So, worship = 6. Step 2: Compare sentences 1 and 3: 'is' is common, digit '2' is common. So, is = 2. Step 3: In sentence 1, the remaining word is 'work', and the remaining digit code is 4. Therefore, work = 4.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_126",
@@ -396,7 +416,8 @@
       "B < E"
     ],
     "a": 0,
-    "e": "Step 1: Test option 1 ($A > D$): Trace path from A to D: $A \\ge B > C = D$. The symbols are '$\\ge$' and '>'. The strict inequality '>' takes highest priority, which gives $A > D$. Hence, option 1 is definitely true."
+    "e": "Step 1: Test option 1 ($A > D$): Trace path from A to D: $A \\ge B > C = D$. The symbols are '$\\ge$' and '>'. The strict inequality '>' takes highest priority, which gives $A > D$. Hence, option 1 is definitely true.",
+    "topic_tag": "reasoning.inequality.coded_inequalities"
   },
   {
     "p_id": "bssc_cgl_adv_reason_127",
@@ -415,7 +436,8 @@
       "15 km"
     ],
     "a": 0,
-    "e": "Step 1: Initial position (0,0). Move 5 km South -> (0, -5). Step 2: Turn East for 12 km -> (12, -5). Step 3: Turn North for 10 km -> (12, -5 + 10) = (12, 5). Step 4: Shortest displacement distance from origin (0,0) to final point (12,5) using Pythagoras = $\\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13$ km."
+    "e": "Step 1: Initial position (0,0). Move 5 km South -> (0, -5). Step 2: Turn East for 12 km -> (12, -5). Step 3: Turn North for 10 km -> (12, -5 + 10) = (12, 5). Step 4: Shortest displacement distance from origin (0,0) to final point (12,5) using Pythagoras = $\\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13$ km.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_128",
@@ -434,7 +456,8 @@
       "100"
     ],
     "a": 0,
-    "e": "Step 1: Observe the horizontal row operation pattern. Let columns be C1, C2, and C3. Step 2: Row 1: $C1^2 + C2^2 = 2^2 + 3^2 = 4 + 9 = 13$. This matches C3. Step 3: Row 2: $C1^2 + C2^2 = 4^2 + 5^2 = 16 + 25 = 41$. This matches C3. Step 4: Apply to Row 3: $C1^2 + C2^2 = 6^2 + 7^2 = 36 + 49 = 85$."
+    "e": "Step 1: Observe the horizontal row operation pattern. Let columns be C1, C2, and C3. Step 2: Row 1: $C1^2 + C2^2 = 2^2 + 3^2 = 4 + 9 = 13$. This matches C3. Step 3: Row 2: $C1^2 + C2^2 = 4^2 + 5^2 = 16 + 25 = 41$. This matches C3. Step 4: Apply to Row 3: $C1^2 + C2^2 = 6^2 + 7^2 = 36 + 49 = 85$.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_129",
@@ -453,7 +476,8 @@
       "M"
     ],
     "a": 0,
-    "e": "Step 1: Track the letter positions: Z=26, W=23, T=20, Q=17, N=14. Step 2: The constant pattern is subtracting 3 positions (-3) each time. Step 3: Next positional value = 14 - 3 = 11, which corresponds to the letter K."
+    "e": "Step 1: Track the letter positions: Z=26, W=23, T=20, Q=17, N=14. Step 2: The constant pattern is subtracting 3 positions (-3) each time. Step 3: Next positional value = 14 - 3 = 11, which corresponds to the letter K.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_130",
@@ -472,7 +496,8 @@
       "Moon"
     ],
     "a": 3,
-    "e": "Step 1: Mercury, Venus, and Mars are all independent primary Planets orbiting the Sun. Step 2: The Moon is a natural Satellite orbiting the Planet Earth. Thus, Moon is the odd one out."
+    "e": "Step 1: Mercury, Venus, and Mars are all independent primary Planets orbiting the Sun. Step 2: The Moon is a natural Satellite orbiting the Planet Earth. Thus, Moon is the odd one out.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_131",
@@ -491,7 +516,8 @@
       "A"
     ],
     "a": 0,
-    "e": "Step 1: Set up the 5 slots: A(North) - B - _ - C(South) - E. Step 2: Since D is to the immediate left of C, and C faces South, 'immediate left' means moving towards the right side on paper. This fits D at the extreme right spot? No, if C faces South, its left is paper right, which is occupied by E. Therefore, D must be to the paper left of C (which is immediate right for a South facing person). Step 3: This explicitly satisfies the condition layout. The problem statement confirms C faces South. Thus, C is the answer."
+    "e": "Step 1: Set up the 5 slots: A(North) - B - _ - C(South) - E. Step 2: Since D is to the immediate left of C, and C faces South, 'immediate left' means moving towards the right side on paper. This fits D at the extreme right spot? No, if C faces South, its left is paper right, which is occupied by E. Therefore, D must be to the paper left of C (which is immediate right for a South facing person). Step 3: This explicitly satisfies the condition layout. The problem statement confirms C faces South. Thus, C is the answer.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_132",
@@ -510,7 +536,8 @@
       "40"
     ],
     "a": 0,
-    "e": "Step 1: After interchanging, Rohan occupies Sohan's original position. Step 2: Therefore, this position is 25th from the left end and was 18th from the right end. Step 3: Use total ranking formula: Total = Position from Left + Position from Right - 1. Step 4: Total students = 25 + 18 - 1 = 43 - 1 = 42."
+    "e": "Step 1: After interchanging, Rohan occupies Sohan's original position. Step 2: Therefore, this position is 25th from the left end and was 18th from the right end. Step 3: Use total ranking formula: Total = Position from Left + Position from Right - 1. Step 4: Total students = 25 + 18 - 1 = 43 - 1 = 42.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_133",
@@ -529,7 +556,8 @@
       "22-26-7"
     ],
     "a": 0,
-    "e": "Step 1: Reverse position calculation rule: Reverse position = 27 - Standard position. D=27-4=23; O=27-15=12; G=27-7=20. Step 2: Find reverse positions for 'CAT': C = 27 - 3 = 24. A = 27 - 1 = 26. T = 27 - 20 = 7. Step 3: String them together with hyphens: '24-26-7'."
+    "e": "Step 1: Reverse position calculation rule: Reverse position = 27 - Standard position. D=27-4=23; O=27-15=12; G=27-7=20. Step 2: Find reverse positions for 'CAT': C = 27 - 3 = 24. A = 27 - 1 = 26. T = 27 - 20 = 7. Step 3: String them together with hyphens: '24-26-7'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_cgl_adv_reason_134",
@@ -548,7 +576,8 @@
       "Data insufficient"
     ],
     "a": 0,
-    "e": "Step 1: Map the floors: Floor 6 = C, Floor 4 = B, Floor 3 = A. Step 2: D lives on an odd floor. The remaining available floors are 5, 2, and 1. Out of these, Floor 5 and Floor 1 are odd. If D takes Floor 5, then floors 2 and 1 remain for F and E. Step 3: Condition states E lives below F, which forces Floor 2 = F and Floor 1 = E. Thus, E lives on floor 1."
+    "e": "Step 1: Map the floors: Floor 6 = C, Floor 4 = B, Floor 3 = A. Step 2: D lives on an odd floor. The remaining available floors are 5, 2, and 1. Out of these, Floor 5 and Floor 1 are odd. If D takes Floor 5, then floors 2 and 1 remain for F and E. Step 3: Condition states E lives below F, which forces Floor 2 = F and Floor 1 = E. Thus, E lives on floor 1.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
   },
   {
     "p_id": "bssc_cgl_adv_reason_135",
@@ -567,7 +596,8 @@
       "TySj"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the letter shift in 'NAME' -> 'OzNd'. N(+1)->O, A(-1)->z, M(+1)->N, E(-1)->d. The pattern alternates between shifting +1 forward and -1 backward with alternating case. Step 2: Apply this pattern to 'TASK': T(+1)=U, A(-1)=z, S(+1)=T, K(-1)=j. Step 3: Combine them: 'UzTj'."
+    "e": "Step 1: Analyze the letter shift in 'NAME' -> 'OzNd'. N(+1)->O, A(-1)->z, M(+1)->N, E(-1)->d. The pattern alternates between shifting +1 forward and -1 backward with alternating case. Step 2: Apply this pattern to 'TASK': T(+1)=U, A(-1)=z, S(+1)=T, K(-1)=j. Step 3: Combine them: 'UzTj'.",
+    "topic_tag": "reasoning.coding.letter_coding"
   },
   {
     "p_id": "bssc_cgl_adv_reason_136",
@@ -586,7 +616,8 @@
       "Horse : Foal"
     ],
     "a": 0,
-    "e": "Step 1: Analyze the relationship in the pairs. Cow-Calf, Deer-Fawn, and Horse-Foal represent the relationship between an adult animal and its young offspring. Step 2: Cat-Drake is mismatched because a Drake is a male adult Duck, not the offspring of a Cat (which is a kitten). Therefore, it is the odd pair."
+    "e": "Step 1: Analyze the relationship in the pairs. Cow-Calf, Deer-Fawn, and Horse-Foal represent the relationship between an adult animal and its young offspring. Step 2: Cat-Drake is mismatched because a Drake is a male adult Duck, not the offspring of a Cat (which is a kitten). Therefore, it is the odd pair.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_137",
@@ -605,7 +636,8 @@
       "Two separate non-intersecting circles inside a larger circle"
     ],
     "a": 0,
-    "e": "Step 1: Both Teachers and Engineers are entirely subsets belonging underneath the larger 'Humans' enclosing circle. Step 2: Some Teachers can also be Engineers simultaneously (such as engineering professors, creating a partial intersection between the two inner circles). Step 3: This forms a structure of two intersecting circles inside a larger circle."
+    "e": "Step 1: Both Teachers and Engineers are entirely subsets belonging underneath the larger 'Humans' enclosing circle. Step 2: Some Teachers can also be Engineers simultaneously (such as engineering professors, creating a partial intersection between the two inner circles). Step 3: This forms a structure of two intersecting circles inside a larger circle.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_138",
@@ -624,7 +656,8 @@
       "115 degrees"
     ],
     "a": 0,
-    "e": "Step 1: Use the standard clock angle formula: Angle = |30H - (11/2)M|. Step 2: Substitute H = 8 and M = 20. Step 3: Angle = |30(8) - (11/2)(20)| = |240 - 110| = 130 degrees."
+    "e": "Step 1: Use the standard clock angle formula: Angle = |30H - (11/2)M|. Step 2: Substitute H = 8 and M = 20. Step 3: Angle = |30(8) - (11/2)(20)| = |240 - 110| = 130 degrees.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_139",
@@ -643,7 +676,8 @@
       "Tuesday"
     ],
     "a": 0,
-    "e": "Step 1: Standard benchmark calendar tracking calculations for the specific baseline date 26th January 1950 prove that it fell exactly on a Thursday."
+    "e": "Step 1: Standard benchmark calendar tracking calculations for the specific baseline date 26th January 1950 prove that it fell exactly on a Thursday.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
   },
   {
     "p_id": "bssc_cgl_adv_reason_140",
@@ -662,6 +696,7 @@
       "56"
     ],
     "a": 0,
-    "e": "Step 1: Identify the operation rule across rows. Let columns be C1, C2, and C3. Step 2: Row 1: $C1 \\times C2 = 4 \\times 5 = 20$. This matches C3. Row 2: $C1 \\times C2 = 6 \\times 7 = 42$. This matches C3. Step 3: Apply to Row 3: $8 \\times 9 = 72$."
+    "e": "Step 1: Identify the operation rule across rows. Let columns be C1, C2, and C3. Step 2: Row 1: $C1 \\times C2 = 4 \\times 5 = 20$. This matches C3. Row 2: $C1 \\times C2 = 6 \\times 7 = 42$. This matches C3. Step 3: Apply to Row 3: $8 \\times 9 = 72$.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
   }
 ]
