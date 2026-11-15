@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "collection": "365 Din, 365 Science Stories",
+  "description": "Roz ek sachchi science kahani: card par ek hook, detail mein scene, sawaal, explanation, reality check aur sources.",
+  "language": "Easy Hinglish",
+  "planned_days": 365,
+  "category_groups": [
+    {
+      "id": "space_astronomy",
+      "title": "Space aur Astronomy"
+    },
+    {
+      "id": "physics",
+      "title": "Physics"
+    },
+    {
+      "id": "chemistry_materials",
+      "title": "Chemistry aur Materials"
+    },
+    {
+      "id": "biology_medicine",
+      "title": "Biology aur Medicine"
+    },
+    {
+      "id": "mathematics",
+      "title": "Mathematics"
+    },
+    {
+      "id": "scientists_society",
+      "title": "Scientists aur Society"
+    }
+  ],
+  "status_codes": [
+    {
+      "id": "established",
+      "label": "Proven"
+    },
+    {
+      "id": "disputed",
+      "label": "Divided"
+    },
+    {
+      "id": "under_review",
+      "label": "Claim under review"
+    },
+    {
+      "id": "open",
+      "label": "Still Unsolved"
+    },
+    {
+      "id": "not_established",
+      "label": "Not established"
+    },
+    {
+      "id": "debunked",
+      "label": "Disproven"
+    }
+  ],
+  "months": [
+    {
+      "month": 1,
+      "title": "January",
+      "file": "month-01.json",
+      "start_day": 1,
+      "end_day": 31,
+      "days": 31,
+      "complete": true
+    }
+  ]
+}
