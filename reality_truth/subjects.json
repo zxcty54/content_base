@@ -1,0 +1,86 @@
+{
+  "project_title": "Reality Truth: Everyday Applied Science & Consumer Awareness",
+  "project_tagline": "Rozmarra ki cheezon ke peeche ka asli vigyan — bina kitaabi bhasha ke, ghar ke examples ke sath.",
+  "target_audience": "Families, Homemakers, Students & Everyday Consumers",
+  "language_style": "Simple Hinglish (No heavy textbook jargon; har chemical/scientific naam ka aam bhasha mein matlab aur real-life analogy)",
+  "version": 3,
+  "total_topics": 800,
+  "last_updated": "2026-11-24",
+  "pillars": [
+    {
+      "id": "pillar_food_kitchen",
+      "title": "Food & Kitchen Science",
+      "subtitle": "Rasoi, Paani, Tel, Bartan, Milk, Bread, Masale aur Packaged Food ka Asli Sach",
+      "icon": "🍳",
+      "color": "0xFF059669",
+      "isAvailable": true,
+      "topicCount": 200,
+      "jsonFile": "reality_truth/food_kitchen_science.json",
+      "zones": [
+        "Paani, Doodh & Drinks",
+        "Tel, Ghee & Talne ka Vigyan",
+        "Bartan, Foil & Plastic Storage",
+        "Chawal, Sabzi & Fruit Storage",
+        "Packaged Food Label ki Chalaaki",
+        "Atta, Namak, Masale & Mithaas"
+      ]
+    },
+    {
+      "id": "pillar_material_scams",
+      "title": "Material & Market Scams",
+      "subtitle": "Sona (Gold), Chandi, Bijli Wire, Cement-Sariya, Kapde, Petrol aur Bazaar ki Milawat ka Vigyan",
+      "icon": "🪙",
+      "color": "0xFFD97706",
+      "isAvailable": true,
+      "topicCount": 200,
+      "jsonFile": "reality_truth/material_market_scams.json",
+      "zones": [
+        "Gold, Silver & Jewellery",
+        "Electronics & Bijli",
+        "Documents & Daily Checks",
+        "Vehicle, Fuel & Safety",
+        "Kapde, Chamda & Ghar ka Samaan"
+      ]
+    },
+    {
+      "id": "pillar_personal_care_pharma",
+      "title": "Personal Care & Pharma",
+      "subtitle": "Cream, Shampoo, Soap, Toothpaste, Painkiller, Supplements aur Home First-Aid ke Daave vs Sach",
+      "icon": "🧴",
+      "color": "0xFFEC4899",
+      "isAvailable": true,
+      "topicCount": 200,
+      "jsonFile": "reality_truth/personal_care_pharma.json",
+      "zones": [
+        "Skincare & Cosmetics",
+        "Haircare & Hygiene",
+        "Oral & Dental Care",
+        "Medicines & Supplements",
+        "Women & Baby Hygiene",
+        "Home First-Aid Science",
+        "Dawai & Pharmacy Truth",
+        "Home Health Myths",
+        "Skincare & Haircare",
+        "Supplements & Fitness",
+        "Personal Care & Hygiene"
+      ]
+    },
+    {
+      "id": "pillar_tech_digital",
+      "title": "Everyday Tech & Digital Illusions",
+      "subtitle": "Phone Battery, AC, Geyser, Fridge, Wi-Fi, Solar, Car Physics aur Digital Scams/Dark Patterns",
+      "icon": "📱",
+      "color": "0xFF2563EB",
+      "isAvailable": true,
+      "topicCount": 200,
+      "jsonFile": "reality_truth/tech_digital_illusions.json",
+      "zones": [
+        "Smartphone & Battery Science",
+        "Home Appliances Science",
+        "Internet & Digital Privacy",
+        "Digital Scams & Dark Patterns",
+        "Driving & Road Physics"
+      ]
+    }
+  ]
+}
