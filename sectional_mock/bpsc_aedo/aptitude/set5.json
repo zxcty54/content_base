@@ -1,0 +1,702 @@
+[
+  {
+    "p_id": "bpsc_aedo_apt_s5_01",
+    "qe": "If the 7-digit number 543x78y is completely divisible by 72, what is the value of (3x + 2y)?",
+    "qh": "यदि 7-अंकीय संख्या 543x78y, 72 से पूर्णतः विभाज्य है, तो (3x + 2y) का मान क्या होगा?",
+    "oe": [
+      "19",
+      "25",
+      "23",
+      "21"
+    ],
+    "oh": [
+      "19",
+      "25",
+      "23",
+      "21"
+    ],
+    "a": 2,
+    "e": "For divisibility by 72, the number must be divisible by both 8 and 9. For 8, 78y is divisible by 8 => y = 4 (784/8 = 98). For 9, digit sum 5+4+3+x+7+8+4 = 31+x is divisible by 9 => x = 5 (sum 36). Thus 3x + 2y = 3(5) + 2(4) = 23.",
+    "topic_tag": "maths.number_system.number_system_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_02",
+    "qe": "The HCF of two numbers is 17 and the other two prime factors of their LCM are 11 and 13. Find the positive difference between the two numbers.",
+    "qh": "दो संख्याओं का म.स. (HCF) 17 है और उनके ल.स. (LCM) के अन्य दो अभाज्य गुणनखंड 11 और 13 हैं। दोनों संख्याओं के बीच धनात्मक अंतर ज्ञात कीजिए।",
+    "oe": [
+      "51",
+      "17",
+      "34",
+      "24"
+    ],
+    "oh": [
+      "51",
+      "17",
+      "34",
+      "24"
+    ],
+    "a": 2,
+    "e": "The two numbers are 17 × 11 = 187 and 17 × 13 = 221. Their positive difference = 221 - 187 = 34.",
+    "topic_tag": "maths.hcf_and_lcm.hcf_and_lcm_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_03",
+    "qe": "Evaluate: (0.85³ + 0.15³) / (0.85² − 0.85 × 0.15 + 0.15²)",
+    "qh": "मान ज्ञात कीजिए: (0.85³ + 0.15³) / (0.85² − 0.85 × 0.15 + 0.15²)",
+    "oe": [
+      "1.00",
+      "1.15",
+      "0.85",
+      "0.70"
+    ],
+    "oh": [
+      "1.00",
+      "1.15",
+      "0.85",
+      "0.70"
+    ],
+    "a": 0,
+    "e": "Using identity (a³ + b³) / (a² − ab + b²) = a + b, we get 0.85 + 0.15 = 1.00.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_04",
+    "qe": "The price of sugar increases by 25%. By what percentage should a family reduce its consumption so that the total expenditure on sugar increases by only 10%?",
+    "qh": "चीनी की कीमत 25% बढ़ जाती है। एक परिवार को अपनी खपत में कितने प्रतिशत की कमी करनी चाहिए ताकि चीनी पर कुल खर्च केवल 10% ही बढ़े?",
+    "oe": [
+      "12.5%",
+      "12%",
+      "10%",
+      "15%"
+    ],
+    "oh": [
+      "12.5%",
+      "12%",
+      "10%",
+      "15%"
+    ],
+    "a": 1,
+    "e": "Let initial price = 100, consumption = 100 (expenditure = 10,000). New price = 125, target expenditure = 11,000. New consumption = 11,000 / 125 = 88. Reduction = 100 - 88 = 12%.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_05",
+    "qe": "Find the single equivalent discount for two successive discounts of 20% and 15%.",
+    "qh": "20% और 15% की दो क्रमिक छूटों के समतुल्य एकल छूट ज्ञात कीजिए।",
+    "oe": [
+      "30%",
+      "32%",
+      "35%",
+      "33%"
+    ],
+    "oh": [
+      "30%",
+      "32%",
+      "35%",
+      "33%"
+    ],
+    "a": 1,
+    "e": "Equivalent single discount = d₁ + d₂ − (d₁ × d₂)/100 = 20 + 15 − (20 × 15)/100 = 35 − 3 = 32%.",
+    "topic_tag": "maths.discount.discount_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_06",
+    "qe": "If the ratio of principal to simple interest earned over 8 years is 5 : 2, find the annual rate of simple interest.",
+    "qh": "यदि 8 वर्षों में मूलधन और अर्जित साधारण ब्याज का अनुपात 5 : 2 है, तो साधारण ब्याज की वार्षिक दर ज्ञात कीजिए।",
+    "oe": [
+      "5%",
+      "6%",
+      "4%",
+      "4.5%"
+    ],
+    "oh": [
+      "5%",
+      "6%",
+      "4%",
+      "4.5%"
+    ],
+    "a": 0,
+    "e": "Let Principal = 5x and SI = 2x. Then 2x = (5x × R × 8)/100 => R = 200 / 40 = 5% per annum.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_07",
+    "qe": "What is the compound interest on ₹8,000 for 2 years at 15% per annum, compounded annually?",
+    "qh": "₹8,000 पर 15% वार्षिक दर से 2 वर्षों का वार्षिक संयोजित चक्रवृद्धि ब्याज कितना होगा?",
+    "oe": [
+      "₹2,580",
+      "₹2,400",
+      "₹2,520",
+      "₹2,640"
+    ],
+    "oh": [
+      "₹2,580",
+      "₹2,400",
+      "₹2,520",
+      "₹2,640"
+    ],
+    "a": 0,
+    "e": "Effective 2-year CI rate = 15 + 15 + (15×15)/100 = 32.25%. CI = 8,000 × 32.25% = ₹2,580.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_08",
+    "qe": "Find the third proportional to 12 and 30.",
+    "qh": "12 और 30 का तृतीयानुपाती (Third Proportional) ज्ञात कीजिए।",
+    "oe": [
+      "80",
+      "60",
+      "75",
+      "45"
+    ],
+    "oh": [
+      "80",
+      "60",
+      "75",
+      "45"
+    ],
+    "a": 2,
+    "e": "Third proportional to a and b is b² / a = 30² / 12 = 900 / 12 = 75.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_09",
+    "qe": "If the average of 7 consecutive odd numbers is 37, what is the largest of these numbers?",
+    "qh": "यदि 7 क्रमागत विषम संख्याओं का औसत 37 है, तो इनमें से सबसे बड़ी संख्या क्या है?",
+    "oe": [
+      "41",
+      "43",
+      "45",
+      "39"
+    ],
+    "oh": [
+      "41",
+      "43",
+      "45",
+      "39"
+    ],
+    "a": 1,
+    "e": "In 7 consecutive odd numbers, the 4th (middle) number is the average = 37. The largest (7th) number is 37 + 2 + 2 + 2 = 43.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_10",
+    "qe": "A and B can separately complete a work in 12 days and 15 days respectively. If they work on alternate days starting with A, in how many days will the total work be completed?",
+    "qh": "A और B अलग-अलग एक कार्य को क्रमशः 12 दिन और 15 दिन में पूरा कर सकते हैं। यदि वे A से शुरू करके एकांतर दिनों (alternate days) में कार्य करें, तो कुल कार्य कितने दिनों में पूरा होगा?",
+    "oe": [
+      "13¼ days",
+      "13½ days",
+      "13 days",
+      "14 days"
+    ],
+    "oh": [
+      "13¼ दिन",
+      "13½ दिन",
+      "13 दिन",
+      "14 दिन"
+    ],
+    "a": 0,
+    "e": "Total work = LCM(12, 15) = 60 units (A = 5/day, B = 4/day). In 2 days (A+B), 9 units are done. In 12 days (6 cycles), 54 units are done. Day 13: A does 5 units (total 59). Remaining 1 unit is done by B in 1/4 day. Total = 13¼ days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_11",
+    "qe": "Pipe A is 3 times as fast as pipe B in filling a tank. If both pipes together can fill the tank in 18 minutes, how long will pipe B alone take to fill it?",
+    "qh": "पाइप A एक टंकी को भरने में पाइप B से 3 गुना तेज है। यदि दोनों पाइप मिलकर टंकी को 18 मिनट में भर सकते हैं, तो पाइप B अकेले इसे भरने में कितना समय लेगा?",
+    "oe": [
+      "64 minutes",
+      "72 minutes",
+      "80 minutes",
+      "54 minutes"
+    ],
+    "oh": [
+      "64 मिनट",
+      "72 मिनट",
+      "80 मिनट",
+      "54 मिनट"
+    ],
+    "a": 1,
+    "e": "Let efficiency of B = 1, then A = 3. Combined efficiency = 4. Capacity = 18 × 4 = 72 units. Time for B alone = 72 / 1 = 72 minutes.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_12",
+    "qe": "If an athlete runs at a speed of 12 meters per second, how long will he take to cover a distance of 1.44 km?",
+    "qh": "यदि एक धावक 12 मीटर प्रति सेकंड की चाल से दौड़ता है, तो उसे 1.44 किमी की दूरी तय करने में कितना समय लगेगा?",
+    "oe": [
+      "120 seconds",
+      "140 seconds",
+      "90 seconds",
+      "100 seconds"
+    ],
+    "oh": [
+      "120 सेकंड",
+      "140 सेकंड",
+      "90 सेकंड",
+      "100 सेकंड"
+    ],
+    "a": 0,
+    "e": "Distance = 1.44 km = 1440 m. Time = 1440 / 12 = 120 seconds.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_13",
+    "qe": "A train crosses a stationary pole in 12 seconds and a 250-meter-long platform in 22 seconds. What is the length of the train?",
+    "qh": "एक ट्रेन एक स्थिर खंभे को 12 सेकंड में और 250 मीटर लंबे प्लेटफॉर्म को 22 सेकंड में पार करती है। ट्रेन की लंबाई क्या है?",
+    "oe": [
+      "320 m",
+      "280 m",
+      "250 m",
+      "300 m"
+    ],
+    "oh": [
+      "320 मीटर",
+      "280 मीटर",
+      "250 मीटर",
+      "300 मीटर"
+    ],
+    "a": 3,
+    "e": "Extra 22 − 12 = 10 seconds is taken solely to cover the 250 m platform. Speed = 250 / 10 = 25 m/s. Train length = 25 × 12 = 300 m.",
+    "topic_tag": "maths.train.train_speed_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_14",
+    "qe": "The diameter of a wheel is 70 cm. How much distance will it cover in 1,000 complete revolutions? (Use π = 22/7)",
+    "qh": "एक पहिये का व्यास 70 सेमी है। 1,000 पूर्ण चक्करों में यह कितनी दूरी तय करेगा? (π = 22/7 लें)",
+    "oe": [
+      "4.4 km",
+      "1.1 km",
+      "3.3 km",
+      "2.2 km"
+    ],
+    "oh": [
+      "4.4 किमी",
+      "1.1 किमी",
+      "3.3 किमी",
+      "2.2 किमी"
+    ],
+    "a": 3,
+    "e": "Circumference = πd = (22/7) × 70 = 220 cm = 2.2 m. Distance in 1,000 revolutions = 2.2 × 1,000 = 2,200 m = 2.2 km.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_15",
+    "qe": "What is the length of the longest rod that can be placed inside a rectangular box of dimensions 12 m × 4 m × 3 m?",
+    "qh": "12 मीटर × 4 मीटर × 3 मीटर विमाओं वाले एक आयताकार डिब्बे के अंदर रखी जा सकने वाली सबसे लंबी छड़ की लंबाई क्या है?",
+    "oe": [
+      "13 m",
+      "12 m",
+      "15 m",
+      "14 m"
+    ],
+    "oh": [
+      "13 मीटर",
+      "12 मीटर",
+      "15 मीटर",
+      "14 मीटर"
+    ],
+    "a": 0,
+    "e": "Longest diagonal = √(l² + b² + h²) = √(12² + 4² + 3²) = √(144 + 16 + 9) = √169 = 13 m.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_16",
+    "qe": "Three years ago, the average age of a husband, wife, and their child was 27 years. Five years ago, the average age of the wife and the child was 20 years. What is the present age of the husband?",
+    "qh": "तीन वर्ष पहले पति, पत्नी और उनके बच्चे की औसत आयु 27 वर्ष थी। पाँच वर्ष पहले पत्नी और बच्चे की औसत आयु 20 वर्ष थी। पति की वर्तमान आयु क्या है?",
+    "oe": [
+      "35 years",
+      "40 years",
+      "38 years",
+      "42 years"
+    ],
+    "oh": [
+      "35 वर्ष",
+      "40 वर्ष",
+      "38 वर्ष",
+      "42 वर्ष"
+    ],
+    "a": 1,
+    "e": "Present sum of (H + W + C) = (27 × 3) + (3 × 3) = 81 + 9 = 90 years. Present sum of (W + C) = (20 × 2) + (5 × 2) = 40 + 10 = 50 years. Husband's present age = 90 − 50 = 40 years.",
+    "topic_tag": "maths.age.age_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_17",
+    "qe": "A merchant has 60 kg of rice, part of which he sells at 10% profit and the rest at 20% profit. If he gains 14% on the whole, how much quantity was sold at 20% profit?",
+    "qh": "एक व्यापारी के पास 60 किग्रा चावल है, जिसका कुछ भाग वह 10% लाभ पर और शेष भाग 20% लाभ पर बेचता है। यदि उसे कुल मिलाकर 14% का लाभ होता है, तो 20% लाभ पर उसने कितना चावल बेचा?",
+    "oe": [
+      "30 kg",
+      "36 kg",
+      "20 kg",
+      "24 kg"
+    ],
+    "oh": [
+      "30 किग्रा",
+      "36 किग्रा",
+      "20 किग्रा",
+      "24 किग्रा"
+    ],
+    "a": 3,
+    "e": "By Alligation: Ratio of (10% part) : (20% part) = (20 − 14) : (14 − 10) = 6 : 4 = 3 : 2. Quantity at 20% profit = 60 × (2/5) = 24 kg.",
+    "topic_tag": "maths.alligation.alligation_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_18",
+    "qe": "If the numerator of a fraction is increased by 20% and its denominator is decreased by 20%, the new fraction becomes 3/4. What was the original fraction?",
+    "qh": "यदि किसी भिन्न के अंश में 20% की वृद्धि की जाए और हर में 20% की कमी की जाए, तो नई भिन्न 3/4 हो जाती है। मूल भिन्न क्या थी?",
+    "oe": [
+      "4/5",
+      "1/2",
+      "3/5",
+      "2/3"
+    ],
+    "oh": [
+      "4/5",
+      "1/2",
+      "3/5",
+      "2/3"
+    ],
+    "a": 1,
+    "e": "Let original fraction = x/y. (1.20 x) / (0.80 y) = 3/4 => (3/2)(x/y) = 3/4 => x/y = (3/4) × (2/3) = 1/2.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_19",
+    "qe": "Which fraction represents the repeating decimal 0.512512512...?",
+    "qh": "निम्नलिखित में से कौन-सी भिन्न आवर्ती दशमलव 0.512512512... को निरूपित करती है?",
+    "oe": [
+      "64/125",
+      "512/999",
+      "512/1000",
+      "512/990"
+    ],
+    "oh": [
+      "64/125",
+      "512/999",
+      "512/1000",
+      "512/990"
+    ],
+    "a": 1,
+    "e": "Since 3 digits repeat immediately after the decimal point, 0.512512... = 512/999 (coprime, since 512 = 2⁹ and 999 is odd).",
+    "topic_tag": "maths.number_system.number_system_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_20",
+    "qe": "If the 7-digit number 548x293 is completely divisible by 11, find the digit x.",
+    "qh": "यदि 7-अंकीय संख्या 548x293, 11 से पूर्णतः विभाज्य है, तो अंक x का मान ज्ञात कीजिए।",
+    "oe": [
+      "5",
+      "8",
+      "6",
+      "3"
+    ],
+    "oh": [
+      "5",
+      "8",
+      "6",
+      "3"
+    ],
+    "a": 0,
+    "e": "Sum of digits at odd places = 5 + 8 + 2 + 3 = 18. Sum at even places = 4 + x + 9 = 13 + x. Difference = 18 − (13 + x) = 5 − x. For divisibility by 11, 5 − x = 0 => x = 5.",
+    "topic_tag": "maths.number_system.number_system_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_21",
+    "qe": "Evaluate: (0.04)^(−1.5)",
+    "qh": "मान ज्ञात कीजिए: (0.04)^(−1.5)",
+    "oe": [
+      "625",
+      "250",
+      "25",
+      "125"
+    ],
+    "oh": [
+      "625",
+      "250",
+      "25",
+      "125"
+    ],
+    "a": 3,
+    "e": "0.04 = 4/100 = 1/25 = 5⁻². Thus (5⁻²)^(−3/2) = 5³ = 125.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_22",
+    "qe": "Find the HCF of the fractions 4/5, 8/15, and 16/25.",
+    "qh": "भिन्नों 4/5, 8/15 और 16/25 का म.स. (HCF) ज्ञात कीजिए।",
+    "oe": [
+      "4/75",
+      "16/75",
+      "8/75",
+      "4/25"
+    ],
+    "oh": [
+      "4/75",
+      "16/75",
+      "8/75",
+      "4/25"
+    ],
+    "a": 0,
+    "e": "HCF of fractions = HCF of numerators / LCM of denominators = HCF(4, 8, 16) / LCM(5, 15, 25) = 4/75.",
+    "topic_tag": "maths.hcf_and_lcm.hcf_and_lcm_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_23",
+    "qe": "Fresh fruit contains 68% water and dry fruit contains 20% water. How much dry fruit can be obtained from 100 kg of fresh fruit?",
+    "qh": "ताजे फल में 68% पानी और सूखे फल में 20% पानी होता है। 100 किग्रा ताजे फल से कितना सूखा फल प्राप्त किया जा सकता है?",
+    "oe": [
+      "32 kg",
+      "45 kg",
+      "50 kg",
+      "40 kg"
+    ],
+    "oh": [
+      "32 किग्रा",
+      "45 किग्रा",
+      "50 किग्रा",
+      "40 किग्रा"
+    ],
+    "a": 3,
+    "e": "Solid pulp remains constant: 32% of 100 kg = 32 kg. In dry fruit, pulp is 80%, so dry fruit weight = 32 / 0.80 = 40 kg.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_24",
+    "qe": "A vendor buys 12 pens for ₹100 and sells 10 pens for ₹100. What is his profit percentage?",
+    "qh": "एक विक्रेता ₹100 में 12 पेन खरीदता है और ₹100 में 10 पेन बेचता है। उसका लाभ प्रतिशत क्या है?",
+    "oe": [
+      "15%",
+      "25%",
+      "16.67%",
+      "20%"
+    ],
+    "oh": [
+      "15%",
+      "25%",
+      "16.67%",
+      "20%"
+    ],
+    "a": 3,
+    "e": "CP of 1 pen = 100/12; SP of 1 pen = 100/10 = 10. Profit% = [(12 − 10)/10] × 100 = 20%.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_25",
+    "qe": "What is the third proportional to 9 and 15?",
+    "qh": "9 और 15 का तृतीयानुपाती (Third Proportional) क्या है?",
+    "oe": [
+      "27",
+      "25",
+      "21",
+      "30"
+    ],
+    "oh": [
+      "27",
+      "25",
+      "21",
+      "30"
+    ],
+    "a": 1,
+    "e": "Third proportional to a and b is b²/a = 15² / 9 = 225 / 9 = 25.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_26",
+    "qe": "What is the difference between compound interest and simple interest on ₹8,000 for 3 years at 5% per annum?",
+    "qh": "₹8,000 की राशि पर 5% वार्षिक दर से 3 वर्षों के चक्रवृद्धि ब्याज और साधारण ब्याज के बीच अंतर कितना है?",
+    "oe": [
+      "₹64",
+      "₹65",
+      "₹60",
+      "₹61"
+    ],
+    "oh": [
+      "₹64",
+      "₹65",
+      "₹60",
+      "₹61"
+    ],
+    "a": 3,
+    "e": "For 3 years, CI − SI = P(r/100)²(3 + r/100) = 8,000 × (1/20)² × (3 + 1/20) = 8,000 × (1/400) × (61/20) = ₹61.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_27",
+    "qe": "A, B, and C can finish a task in 10, 12, and 15 days respectively. If they work together and earn ₹3,600 for the task, what is C's share?",
+    "qh": "A, B और C एक कार्य को क्रमशः 10, 12 और 15 दिनों में पूरा कर सकते हैं। यदि वे एक साथ कार्य करके ₹3,600 कमाते हैं, तो C का हिस्सा कितना होगा?",
+    "oe": [
+      "₹960",
+      "₹1,440",
+      "₹840",
+      "₹1,200"
+    ],
+    "oh": [
+      "₹960",
+      "₹1,440",
+      "₹840",
+      "₹1,200"
+    ],
+    "a": 0,
+    "e": "Work efficiency ratio A : B : C = 1/10 : 1/12 : 1/15 = 6 : 5 : 4 (LCM = 60). C's share = (4/15) × 3,600 = ₹960.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_28",
+    "qe": "Two pipes A and B can fill a tank in 20 minutes and 30 minutes respectively. Both are opened together, but after some time pipe B is turned off, and the tank gets filled in 16 minutes total. After how many minutes was pipe B turned off?",
+    "qh": "दो पाइप A और B एक टंकी को क्रमशः 20 मिनट और 30 मिनट में भर सकते हैं। दोनों को एक साथ खोला जाता है, लेकिन कुछ समय बाद पाइप B को बंद कर दिया जाता है और टंकी कुल 16 मिनट में भर जाती है। पाइप B को कितने मिनट बाद बंद किया गया था?",
+    "oe": [
+      "5 minutes",
+      "8 minutes",
+      "6 minutes",
+      "10 minutes"
+    ],
+    "oh": [
+      "5 मिनट",
+      "8 मिनट",
+      "6 मिनट",
+      "10 मिनट"
+    ],
+    "a": 2,
+    "e": "Capacity = 60 units (A = 3/min, B = 2/min). A runs for all 16 min, filling 16 × 3 = 48 units. Remaining 12 units were filled by B in 12 / 2 = 6 minutes.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_29",
+    "qe": "A and B start running simultaneously from the same point on a 600 m circular track in the same direction at speeds of 8 m/s and 5 m/s respectively. After how many seconds will they meet for the first time?",
+    "qh": "A और B एक 600 मीटर के वृत्ताकार ट्रैक पर एक ही बिंदु से एक ही दिशा में क्रमशः 8 मी/से और 5 मी/से की चाल से एक साथ दौड़ना शुरू करते हैं। वे पहली बार कितने सेकंड बाद मिलेंगे?",
+    "oe": [
+      "240 seconds",
+      "200 seconds",
+      "120 seconds",
+      "150 seconds"
+    ],
+    "oh": [
+      "240 सेकंड",
+      "200 सेकंड",
+      "120 सेकंड",
+      "150 सेकंड"
+    ],
+    "a": 1,
+    "e": "Relative speed in the same direction = 8 − 5 = 3 m/s. Time for first meeting = Track length / Relative speed = 600 / 3 = 200 seconds.",
+    "topic_tag": "maths.race_and_circular_tracks.race_and_circular_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_30",
+    "qe": "The average age of a husband, wife, and their child 3 years ago was 27 years, and that of the wife and the child 5 years ago was 20 years. What is the present age of the husband?",
+    "qh": "3 वर्ष पहले एक पति, पत्नी और उनके बच्चे की औसत आयु 27 वर्ष थी, तथा 5 वर्ष पहले पत्नी और बच्चे की औसत आयु 20 वर्ष थी। पति की वर्तमान आयु क्या है?",
+    "oe": [
+      "45 years",
+      "42 years",
+      "35 years",
+      "40 years"
+    ],
+    "oh": [
+      "45 वर्ष",
+      "42 वर्ष",
+      "35 वर्ष",
+      "40 वर्ष"
+    ],
+    "a": 3,
+    "e": "Present sum (H + W + C) = 3 × (27 + 3) = 90. Present sum (W + C) = 2 × (20 + 5) = 50. Husband's present age = 90 − 50 = 40 years.",
+    "topic_tag": "maths.age.age_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_31",
+    "qe": "30 litres of an acid-water solution contains 20% acid. How many litres of pure acid must be added to raise the acid concentration to 40%?",
+    "qh": "अम्ल और पानी के 30 लीटर घोल में 20% अम्ल है। अम्ल की सांद्रता को 40% करने के लिए इसमें कितने लीटर शुद्ध अम्ल मिलाना होगा?",
+    "oe": [
+      "15 litres",
+      "8 litres",
+      "10 litres",
+      "12 litres"
+    ],
+    "oh": [
+      "15 लीटर",
+      "8 लीटर",
+      "10 लीटर",
+      "12 लीटर"
+    ],
+    "a": 2,
+    "e": "Initially water = 80% of 30 = 24 L (stays constant). For 40% acid, water is 60% => New total = 24 / 0.60 = 40 L. Acid added = 40 − 30 = 10 litres.",
+    "topic_tag": "maths.mixture.mixture_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_32",
+    "qe": "What is the area of an equilateral triangle whose each side measures 8 cm?",
+    "qh": "उस समबाहु त्रिभुज का क्षेत्रफल कितना होगा जिसकी प्रत्येक भुजा 8 सेमी है?",
+    "oe": [
+      "16√3 cm²",
+      "32√3 cm²",
+      "24√3 cm²",
+      "8√3 cm²"
+    ],
+    "oh": [
+      "16√3 सेमी²",
+      "32√3 सेमी²",
+      "24√3 सेमी²",
+      "8√3 सेमी²"
+    ],
+    "a": 0,
+    "e": "Area of equilateral triangle = (√3/4) × a² = (√3/4) × 8² = 16√3 cm².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_33",
+    "qe": "Simplify: (2.3³ + 1.7³) / (2.3² − 2.3 × 1.7 + 1.7²)",
+    "qh": "सरल कीजिए: (2.3³ + 1.7³) / (2.3² − 2.3 × 1.7 + 1.7²)",
+    "oe": [
+      "4.6",
+      "3.0",
+      "4.0",
+      "0.6"
+    ],
+    "oh": [
+      "4.6",
+      "3.0",
+      "4.0",
+      "0.6"
+    ],
+    "a": 2,
+    "e": "Using (a³ + b³)/(a² − ab + b²) = a + b: 2.3 + 1.7 = 4.0.",
+    "topic_tag": "maths.algebra.algebraic_equations"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_34",
+    "qe": "What is the minimum value of (3 sin²θ + 4 cos²θ)?",
+    "qh": "(3 sin²θ + 4 cos²θ) का न्यूनतम मान क्या है?",
+    "oe": [
+      "7",
+      "3",
+      "4",
+      "1"
+    ],
+    "oh": [
+      "7",
+      "3",
+      "4",
+      "1"
+    ],
+    "a": 1,
+    "e": "3 sin²θ + 4 cos²θ = 3(sin²θ + cos²θ) + cos²θ = 3 + cos²θ. Since minimum cos²θ = 0, the minimum value is 3.",
+    "topic_tag": "maths.maxima_and_minima.maxima_minima_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s5_35",
+    "qe": "From a group of 5 men and 4 women, a 3-member committee is to be formed such that at least 2 women are included. In how many ways can this be done?",
+    "qh": "5 पुरुषों और 4 महिलाओं के समूह में से 3 सदस्यों की एक समिति बनानी है जिसमें कम से कम 2 महिलाएँ शामिल हों। यह कितने तरीकों से किया जा सकता है?",
+    "oe": [
+      "30",
+      "40",
+      "34",
+      "36"
+    ],
+    "oh": [
+      "30",
+      "40",
+      "34",
+      "36"
+    ],
+    "a": 2,
+    "e": "Cases: (2 women & 1 man) + (3 women) = C(4,2)×C(5,1) + C(4,3) = (6 × 5) + 4 = 30 + 4 = 34.",
+    "topic_tag": "maths.combinatorics.counting_and_arrangements"
+  }
+]

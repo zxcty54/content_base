@@ -1,0 +1,702 @@
+[
+  {
+    "p_id": "bpsc_aedo_rea_s3_01",
+    "qe": "Which sequence of mathematical signs should replace the '*' symbols sequentially to balance the equation?\n28 * 3 * 5 = 7 * 18 * 3",
+    "qh": "निम्नलिखित समीकरण को संतुलित करने के लिए '*' चिह्नों के स्थान पर क्रमानुसार किस गणितीय चिह्न समूह का प्रयोग किया जाना चाहिए?\n28 * 3 * 5 = 7 * 18 * 3",
+    "oe": [
+      "−, ×, +, ÷",
+      "+, ×, ÷, −",
+      "÷, +, ×, −",
+      "−, +, ×, ÷"
+    ],
+    "oh": [
+      "−, ×, +, ÷",
+      "+, ×, ÷, −",
+      "÷, +, ×, −",
+      "−, +, ×, ÷"
+    ],
+    "a": 0,
+    "e": "Testing Option 1 (−, ×, +, ÷): LHS = 28 − 3 × 5 = 28 − 15 = 13. RHS = 7 + 18 ÷ 3 = 7 + 6 = 13. LHS = RHS.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_02",
+    "qe": "Which option shares the same letter relationship as the given pair?\nKG : ND :: RJ : ?",
+    "qh": "दिए गए युग्म के समान संबंध दर्शाने वाला विकल्प चुनें:\nKG : ND :: RJ : ?",
+    "oe": [
+      "UG",
+      "VH",
+      "TG",
+      "UF"
+    ],
+    "oh": [
+      "UG",
+      "VH",
+      "TG",
+      "UF"
+    ],
+    "a": 0,
+    "e": "First letter +3, second letter −3: K(+3)→N, G(−3)→D. Similarly, R(+3)→U, J(−3)→G => UG.",
+    "topic_tag": "reasoning.letter_pairing.alphabetical_pairs"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_03",
+    "qe": "Three of the following letter pairs are alike in a certain manner and one is different. Select the odd one out.",
+    "qh": "निम्नलिखित में से तीन अक्षर-युग्म एक निश्चित तरीके से समान हैं और एक भिन्न है। भिन्न का चयन कीजिए।",
+    "oe": [
+      "TV",
+      "BE",
+      "HK",
+      "NQ"
+    ],
+    "oh": [
+      "TV",
+      "BE",
+      "HK",
+      "NQ"
+    ],
+    "a": 0,
+    "e": "B(+3)→E, H(+3)→K, N(+3)→Q all have a difference of +3. In TV, T(20) to V(22) has a difference of +2.",
+    "topic_tag": "reasoning.letter_pairing.alphabetical_pairs"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_04",
+    "qe": "If CAT is coded as 24 and DOG is coded as 26, how will BIHAR be coded in the same language?",
+    "qh": "यदि किसी कूट भाषा में CAT को 24 और DOG को 26 लिखा जाता है, तो उसी भाषा में BIHAR को कैसे लिखा जाएगा?",
+    "oe": [
+      "40",
+      "36",
+      "38",
+      "42"
+    ],
+    "oh": [
+      "40",
+      "36",
+      "38",
+      "42"
+    ],
+    "a": 2,
+    "e": "Each word is coded as the sum of its alphabetical positions: B(2) + I(9) + H(8) + A(1) + R(18) = 38.",
+    "topic_tag": "reasoning.coding.number_coding"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_05",
+    "qe": "Replace the question mark (?) with the option that follows the same logic as the first pair:\n63421 : 16 :: 57283 : ?",
+    "qh": "प्रश्नवाचक चिह्न (?) को उस विकल्प से बदलें जो पहले युग्म के समान तर्क का पालन करता है:\n63421 : 16 :: 57283 : ?",
+    "oe": [
+      "27",
+      "25",
+      "23",
+      "24"
+    ],
+    "oh": [
+      "27",
+      "25",
+      "23",
+      "24"
+    ],
+    "a": 1,
+    "e": "Second number is the sum of digits of the first number: 6+3+4+2+1 = 16. Similarly, 5+7+2+8+3 = 25.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_06",
+    "qe": "Introducing a boy, a girl says, \"He is the son of the daughter of my father's brother.\" How is the boy related to the girl?",
+    "qh": "एक लड़के का परिचय कराते हुए एक लड़की ने कहा, \"वह मेरे पिता के भाई की बेटी का बेटा है।\" लड़का लड़की से किस प्रकार संबंधित है?",
+    "oe": [
+      "Uncle",
+      "Nephew",
+      "Cousin",
+      "Brother"
+    ],
+    "oh": [
+      "चाचा",
+      "भतीजा/भांजा (Nephew)",
+      "चचेरा भाई (Cousin)",
+      "भाई"
+    ],
+    "a": 1,
+    "e": "Girl's father's brother = Uncle; Uncle's daughter = Girl's cousin (sister); Cousin's son = Girl's nephew.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_07",
+    "qe": "A man is facing South. He turns 135° clockwise, then turns 180°, and finally turns 45° anticlockwise. Which direction is he facing now?",
+    "qh": "एक व्यक्ति दक्षिण दिशा की ओर मुख करके खड़ा है। वह 135° दक्षिणावर्त (Clockwise) घूमता है, फिर 180° घूमता है और अंत में 45° वामावर्त (Anticlockwise) घूमता है। अब उसका मुख किस दिशा में है?",
+    "oe": [
+      "East",
+      "North-West",
+      "North",
+      "South-East"
+    ],
+    "oh": [
+      "पूर्व",
+      "उत्तर-पश्चिम",
+      "उत्तर",
+      "दक्षिण-पूर्व"
+    ],
+    "a": 0,
+    "e": "Net clockwise rotation = 135° + 180° − 45° = 270° clockwise (same as 90° anticlockwise). From South, 90° anticlockwise is East.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_08",
+    "qe": "In a row of students facing North, Rahul is 12th from the left end and Deepak is 15th from the right end. When they interchange their positions, Rahul becomes 20th from the left end. How many students are in the row?",
+    "qh": "उत्तर की ओर मुख करके बैठे छात्रों की एक पंक्ति में राहुल बाएँ छोर से 12वें स्थान पर है और दीपक दाएँ छोर से 15वें स्थान पर है। जब वे अपना स्थान आपस में बदलते हैं, तो राहुल बाएँ छोर से 20वें स्थान पर आ जाता है। पंक्ति में कुल कितने छात्र हैं?",
+    "oe": [
+      "34",
+      "36",
+      "35",
+      "33"
+    ],
+    "oh": [
+      "34",
+      "36",
+      "35",
+      "33"
+    ],
+    "a": 0,
+    "e": "Rahul's new position (20th from left) was Deepak's original position (15th from right). Total = 20 + 15 − 1 = 34.",
+    "topic_tag": "reasoning.ranking.position_and_order"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_09",
+    "qe": "Statements:\nSome tables are chairs.\nSome chairs are desks.\nAll desks are wooden.\nConclusions:\n(I) Some wooden things are chairs.\n(II) Some tables are desks.",
+    "qh": "कथन:\nकुछ मेज कुर्सियाँ हैं।\nकुछ कुर्सियाँ डेस्क हैं।\nसभी डेस्क लकड़ी के हैं।\nनिष्कर्ष:\n(I) कुछ लकड़ी की वस्तुएँ कुर्सियाँ हैं।\n(II) कुछ मेज डेस्क हैं।",
+    "oe": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both conclusions I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल निष्कर्ष I अनुसरण करता है",
+      "केवल निष्कर्ष II अनुसरण करता है",
+      "निष्कर्ष I और II दोनों अनुसरण करते हैं",
+      "न तो I और न ही II अनुसरण करता है"
+    ],
+    "a": 0,
+    "e": "Some chairs are desks and all desks are wooden => Some wooden things are chairs (I definitely follows). There is no definite link between tables and desks (II does not follow).",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_10",
+    "qe": "Statement: K < L ≤ M = N; P > M ≥ Q\nConclusions:\n(I) P > K\n(II) Q ≤ N",
+    "qh": "कथन: K < L ≤ M = N; P > M ≥ Q\nनिष्कर्ष:\n(I) P > K\n(II) Q ≤ N",
+    "oe": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल निष्कर्ष I अनुसरण करता है",
+      "केवल निष्कर्ष II अनुसरण करता है",
+      "I और II दोनों अनुसरण करते हैं",
+      "न तो I और न ही II अनुसरण करता है"
+    ],
+    "a": 2,
+    "e": "P > M ≥ L > K gives P > K (I follows). N = M ≥ Q gives Q ≤ N (II follows). Thus both follow.",
+    "topic_tag": "reasoning.inequality.coded_inequalities"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_11",
+    "qe": "Find the wrong number in the given series:\n4, 9, 19, 39, 78, 159",
+    "qh": "दी गई श्रृंखला में गलत संख्या ज्ञात कीजिए:\n4, 9, 19, 39, 78, 159",
+    "oe": [
+      "19",
+      "78",
+      "39",
+      "159"
+    ],
+    "oh": [
+      "19",
+      "78",
+      "39",
+      "159"
+    ],
+    "a": 1,
+    "e": "Pattern is (×2 + 1): 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79 (not 78), and 79×2+1=159.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_12",
+    "qe": "Find the missing letter in the series:\nZ, X, U, Q, L, ?",
+    "qh": "श्रृंखला में लुप्त अक्षर ज्ञात कीजिए:\nZ, X, U, Q, L, ?",
+    "oe": [
+      "F",
+      "H",
+      "G",
+      "E"
+    ],
+    "oh": [
+      "F",
+      "H",
+      "G",
+      "E"
+    ],
+    "a": 0,
+    "e": "Decreasing steps: Z(−2)→X(−3)→U(−4)→Q(−5)→L(−6)→F.",
+    "topic_tag": "reasoning.alphabetical_series.letter_patterns"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_13",
+    "qe": "Five books—History, Polity, Science, Maths, and Hindi—are kept in a stack. Maths is immediately above Hindi. Science is at the bottom. History is between Polity and Maths, and Polity is at the top. Which book is in the exact middle (3rd from top)?",
+    "qh": "पाँच पुस्तकें—इतिहास, राजव्यवस्था, विज्ञान, गणित और हिंदी—एक के ऊपर एक रखी हैं। गणित, हिंदी के ठीक ऊपर है। विज्ञान सबसे नीचे है। इतिहास, राजव्यवस्था और गणित के बीच में है तथा राजव्यवस्था सबसे ऊपर है। ठीक बीच में (ऊपर से तीसरे स्थान पर) कौन-सी पुस्तक है?",
+    "oe": [
+      "Hindi",
+      "Maths",
+      "History",
+      "Polity"
+    ],
+    "oh": [
+      "हिंदी",
+      "गणित",
+      "इतिहास",
+      "राजव्यवस्था"
+    ],
+    "a": 1,
+    "e": "Order from top to bottom: 1. Polity, 2. History, 3. Maths, 4. Hindi, 5. Science. The middle book (3rd) is Maths.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_14",
+    "qe": "Select the odd number out from the given options:\n125, 216, 343, 512, 625",
+    "qh": "दिए गए विकल्पों में से भिन्न संख्या का चयन कीजिए:\n125, 216, 343, 512, 625",
+    "oe": [
+      "125",
+      "625",
+      "216",
+      "512"
+    ],
+    "oh": [
+      "125",
+      "625",
+      "216",
+      "512"
+    ],
+    "a": 1,
+    "e": "125 (5³), 216 (6³), 343 (7³), and 512 (8³) are perfect cubes, whereas 625 (25²) is a square, not a cube.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_15",
+    "qe": "In a survey of 80 office staff, 50 like tea, 45 like coffee, and 20 like both tea and coffee. How many staff members like neither tea nor coffee?",
+    "qh": "80 कार्यालय कर्मचारियों के एक सर्वेक्षण में, 50 को चाय पसंद है, 45 को कॉफी पसंद है और 20 को चाय तथा कॉफी दोनों पसंद हैं। कितने कर्मचारियों को न तो चाय और न ही कॉफी पसंद है?",
+    "oe": [
+      "20",
+      "10",
+      "5",
+      "15"
+    ],
+    "oh": [
+      "20",
+      "10",
+      "5",
+      "15"
+    ],
+    "a": 2,
+    "e": "People liking at least one = 50 + 45 − 20 = 75. Neither = 80 − 75 = 5.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_16",
+    "qe": "At a conference, 10 officers shake hands with each other exactly once. How many total handshakes take place?",
+    "qh": "एक सम्मेलन में 10 अधिकारी एक-दूसरे से ठीक एक बार हाथ मिलाते हैं। कुल कितनी बार हाथ मिलाए जाते हैं?",
+    "oe": [
+      "90",
+      "40",
+      "45",
+      "50"
+    ],
+    "oh": [
+      "90",
+      "40",
+      "45",
+      "50"
+    ],
+    "a": 2,
+    "e": "Total handshakes = n(n − 1) / 2 = 10 × 9 / 2 = 45.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_17",
+    "qe": "Statement: \"All government primary schools in the district will be provided smart classrooms within six months.\" — Education Department.\nConclusions:\n(I) Currently, all primary schools do not have smart classrooms.\n(II) The department plans to improve digital infrastructure in schools.",
+    "qh": "कथन: \"जिले के सभी सरकारी प्राथमिक विद्यालयों को छह महीने के भीतर स्मार्ट क्लासरूम प्रदान किए जाएँगे।\" — शिक्षा विभाग।\nनिष्कर्ष:\n(I) वर्तमान में सभी प्राथमिक विद्यालयों में स्मार्ट क्लासरूम नहीं हैं।\n(II) विभाग विद्यालयों में डिजिटल बुनियादी ढाँचे में सुधार करने की योजना बना रहा है।",
+    "oe": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल निष्कर्ष I अनुसरण करता है",
+      "केवल निष्कर्ष II अनुसरण करता है",
+      "I और II दोनों अनुसरण करते हैं",
+      "न तो I और न ही II अनुसरण करता है"
+    ],
+    "a": 2,
+    "e": "Providing smart classrooms implies they are not yet universally present and reflects an effort to upgrade digital school infrastructure.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_18",
+    "qe": "In a code language, 'good morning friends' = 'xi yi zi', 'morning walk healthy' = 'yi pi qi', and 'friends walk daily' = 'zi qi ti'. Which code stands for 'healthy'?",
+    "qh": "एक कूट भाषा में 'good morning friends' = 'xi yi zi', 'morning walk healthy' = 'yi pi qi' और 'friends walk daily' = 'zi qi ti' है। 'healthy' के लिए कौन-सा कूट है?",
+    "oe": [
+      "ti",
+      "qi",
+      "pi",
+      "yi"
+    ],
+    "oh": [
+      "ti",
+      "qi",
+      "pi",
+      "yi"
+    ],
+    "a": 2,
+    "e": "From 1st and 2nd: 'morning' = 'yi'. From 2nd and 3rd: 'walk' = 'qi'. Remaining in 2nd statement: 'healthy' = 'pi'.",
+    "topic_tag": "reasoning.coding.mixed_coding"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_19",
+    "qe": "Which cluster will complete the series?\nZYX, WVU, TSR, QPO, ?",
+    "qh": "कौन-सा अक्षर-समूह श्रृंखला को पूरा करेगा?\nZYX, WVU, TSR, QPO, ?",
+    "oe": [
+      "ONM",
+      "NMK",
+      "NML",
+      "MLK"
+    ],
+    "oh": [
+      "ONM",
+      "NMK",
+      "NML",
+      "MLK"
+    ],
+    "a": 2,
+    "e": "Reverse alphabetical blocks of 3 consecutive letters: ZYX, WVU, TSR, QPO, NML.",
+    "topic_tag": "reasoning.alphabetical_series.letter_patterns"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_20",
+    "qe": "Determine the missing number in Row 3:\nRow 1: 16, 25, 9\nRow 2: 36, 49, 13\nRow 3: 64, 81, ?",
+    "qh": "पंक्ति 3 में लुप्त संख्या ज्ञात कीजिए:\nपंक्ति 1: 16, 25, 9\nपंक्ति 2: 36, 49, 13\nपंक्ति 3: 64, 81, ?",
+    "oe": [
+      "17",
+      "21",
+      "19",
+      "15"
+    ],
+    "oh": [
+      "17",
+      "21",
+      "19",
+      "15"
+    ],
+    "a": 0,
+    "e": "Rule: 3rd number = √(1st) + √(2nd). Row 1: 4 + 5 = 9; Row 2: 6 + 7 = 13; Row 3: √64 + √81 = 8 + 9 = 17.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_21",
+    "qe": "How many times do the hour hand and minute hand of a clock coincide (overlap) in 24 hours?",
+    "qh": "24 घंटे में एक घड़ी की घंटे और मिनट की सुइयाँ कितनी बार आपस में मिलती (संपाती होती) हैं?",
+    "oe": [
+      "11",
+      "22",
+      "24",
+      "20"
+    ],
+    "oh": [
+      "11",
+      "22",
+      "24",
+      "20"
+    ],
+    "a": 1,
+    "e": "The hands coincide 11 times in 12 hours (only once between 11 and 1, at 12:00). Hence in 24 hours they coincide 11 × 2 = 22 times.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_22",
+    "qe": "A solid cube of side 6 cm is painted green on all faces and sliced into 1 cm cubes. How many cubes have only one face painted?",
+    "qh": "6 सेमी भुजा वाले एक ठोस घन के सभी फलकों को हरे रंग से रंगकर 1 सेमी के घनों में काटा जाता है। केवल एक सतह रंगी होने वाले कितने घन होंगे?",
+    "oe": [
+      "64",
+      "96",
+      "108",
+      "48"
+    ],
+    "oh": [
+      "64",
+      "96",
+      "108",
+      "48"
+    ],
+    "a": 1,
+    "e": "Here n = 6. Cubes with exactly 1 painted face = 6 × (n − 2)² = 6 × 4² = 6 × 16 = 96.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_23",
+    "qe": "How many total rectangles (including squares) are present in a 3 × 4 grid (3 rows and 4 columns)?",
+    "qh": "एक 3 × 4 ग्रिड (3 पंक्तियाँ और 4 स्तंभ) में कुल कितने आयत (वर्गों सहित) हैं?",
+    "oe": [
+      "48",
+      "60",
+      "36",
+      "72"
+    ],
+    "oh": [
+      "48",
+      "60",
+      "36",
+      "72"
+    ],
+    "a": 1,
+    "e": "Rectangles in an m × n grid = [m(m+1)/2] × [n(n+1)/2] = (3×4/2) × (4×5/2) = 6 × 10 = 60.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_24",
+    "qe": "Six students M, N, O, P, Q, and R sit in a row facing North. M and N sit at the extreme ends. P sits to the immediate right of M, and O sits to the immediate left of N. If R sits between P and Q, who sits third from the left end?",
+    "qh": "छह छात्र M, N, O, P, Q और R उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। M और N अंतिम छोरों पर बैठे हैं। P, M के ठीक दाएँ बैठा है और O, N के ठीक बाएँ बैठा है। यदि R, P और Q के बीच बैठा है, तो बाएँ छोर से तीसरे स्थान पर कौन बैठा है?",
+    "oe": [
+      "P",
+      "Q",
+      "R",
+      "O"
+    ],
+    "oh": [
+      "P",
+      "Q",
+      "R",
+      "O"
+    ],
+    "a": 2,
+    "e": "Since P is to the right of M, M must be at the left end and N at the right end. Order left-to-right: M, P, R, Q, O, N. Third from left = R.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_25",
+    "qe": "Pointing to a photograph of a woman, Suresh said, \"She is the daughter of the only son of my grandfather.\" How is the woman related to Suresh?",
+    "qh": "एक महिला की तस्वीर की ओर इशारा करते हुए सुरेश ने कहा, \"वह मेरे दादा के इकलौते पुत्र की पुत्री है।\" वह महिला सुरेश से किस प्रकार संबंधित है?",
+    "oe": [
+      "Aunt",
+      "Cousin",
+      "Sister",
+      "Mother"
+    ],
+    "oh": [
+      "बुआ",
+      "चचेरी बहन",
+      "बहन",
+      "माता"
+    ],
+    "a": 2,
+    "e": "Suresh's grandfather's only son = Suresh's father. Father's daughter = Suresh's sister.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_26",
+    "qe": "Which Venn diagram relationship best represents: Fruits, Apples, Vegetables?",
+    "qh": "निम्नलिखित के बीच संबंध को कौन-सा वेन आरेख सर्वोत्तम दर्शाता है: फल, सेब, सब्जियाँ?",
+    "oe": [
+      "One large circle containing two intersecting circles",
+      "Three mutually intersecting circles",
+      "One circle completely inside a second circle, and a third circle completely separate",
+      "Three concentric circles"
+    ],
+    "oh": [
+      "एक बड़े वृत्त के अंदर दो काटते वृत्त",
+      "तीन परस्पर काटते वृत्त",
+      "एक वृत्त दूसरे के पूर्णतः अंदर, और तीसरा वृत्त पूर्णतः अलग",
+      "तीन संकेंद्रित वृत्त"
+    ],
+    "a": 2,
+    "e": "All Apples are Fruits (Apples inside Fruits), while Vegetables are distinct from both.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_27",
+    "qe": "Which two signs should be interchanged to make the given equation correct?\n36 − 6 × 4 + 8 ÷ 2 = 30",
+    "qh": "दिए गए समीकरण को सही बनाने के लिए किन दो चिह्नों को आपस में बदलना चाहिए?\n36 − 6 × 4 + 8 ÷ 2 = 30",
+    "oe": [
+      "'×' and '+'",
+      "'−' and '÷'",
+      "'÷' and '×'",
+      "'+' and '−'"
+    ],
+    "oh": [
+      "'×' और '+'",
+      "'−' और '÷'",
+      "'÷' और '×'",
+      "'+' और '−'"
+    ],
+    "a": 1,
+    "e": "Swapping '−' and '÷' gives: 36 ÷ 6 × 4 + 8 − 2 = 6 × 4 + 8 − 2 = 24 + 8 − 2 = 30.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_28",
+    "qe": "Select the word that CAN be formed using the letters of the word 'INFRASTRUCTURE':",
+    "qh": "वह शब्द चुनिए जो 'INFRASTRUCTURE' शब्द के अक्षरों से बनाया जा सकता है:",
+    "oe": [
+      "SCHOOL",
+      "MARKET",
+      "SYSTEM",
+      "NATURE"
+    ],
+    "oh": [
+      "SCHOOL",
+      "MARKET",
+      "SYSTEM",
+      "NATURE"
+    ],
+    "a": 3,
+    "e": "All letters of 'NATURE' (N, A, T, U, R, E) appear in 'INFRASTRUCTURE'.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_29",
+    "qe": "Question: How is 'good' coded in a certain code language?\nStatements:\nI. 'good morning' is coded as 'la pa'.\nII. 'morning walk' is coded as 'pa ta'.",
+    "qh": "प्रश्न: एक निश्चित कूट भाषा में 'good' को कैसे कूटबद्ध किया गया है?\nकथन:\nI. 'good morning' का कूट 'la pa' है।\nII. 'morning walk' का कूट 'pa ta' है।",
+    "oe": [
+      "Statement I alone is sufficient",
+      "Statement II alone is sufficient",
+      "Both statements I and II together are necessary",
+      "Neither I nor II is sufficient"
+    ],
+    "oh": [
+      "केवल कथन I पर्याप्त है",
+      "केवल कथन II पर्याप्त है",
+      "कथन I और II दोनों एक साथ आवश्यक हैं",
+      "न तो I और न ही II पर्याप्त है"
+    ],
+    "a": 2,
+    "e": "Comparing I and II gives 'morning' = 'pa', leaving 'good' = 'la' from Statement I.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_30",
+    "qe": "Statement: \"A large number of students in rural schools are struggling with basic reading and arithmetic skills.\"\nCourses of Action:\n(I) Remedial bridge classes and teacher training should be arranged for foundational literacy and numeracy.\n(II) Students who score low should be expelled from the school.",
+    "qh": "कथन: \"ग्रामीण विद्यालयों में बड़ी संख्या में छात्र बुनियादी पढ़ने और अंकगणित के कौशल में कठिनाई का सामना कर रहे हैं।\"\nकार्यवाहियाँ:\n(I) बुनियादी साक्षरता और संख्याज्ञान के लिए उपचारात्मक ब्रिज कक्षाएँ और शिक्षक प्रशिक्षण आयोजित किया जाना चाहिए।\n(II) कम अंक लाने वाले छात्रों को विद्यालय से निष्कासित कर दिया जाना चाहिए।",
+    "oe": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल I अनुसरण करती है",
+      "केवल II अनुसरण करती है",
+      "I और II दोनों अनुसरण करती हैं",
+      "न तो I और न ही II अनुसरण करती है"
+    ],
+    "a": 0,
+    "e": "Remedial instruction and teacher support (I) address the learning gap constructively; expelling struggling students (II) worsens the problem.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_31",
+    "qe": "Statements:\n(I) The university postponed all semester examinations by two weeks.\n(II) Heavy flooding submerged several approach roads and hostel premises in the city.",
+    "qh": "कथन:\n(I) विश्वविद्यालय ने सभी सेमेस्टर परीक्षाएँ दो सप्ताह के लिए स्थगित कर दीं।\n(II) भारी बाढ़ के कारण शहर की कई मुख्य सड़कें और छात्रावास परिसर जलमग्न हो गए।",
+    "oe": [
+      "Statement I is the cause and II is its effect",
+      "Statement II is the cause and I is its effect",
+      "Both are independent causes",
+      "Both are effects of a common cause"
+    ],
+    "oh": [
+      "कथन I कारण है और II इसका प्रभाव है",
+      "कथन II कारण है और I इसका प्रभाव है",
+      "दोनों स्वतंत्र कारण हैं",
+      "दोनों किसी सामान्य कारण के प्रभाव हैं"
+    ],
+    "a": 1,
+    "e": "Flooding of roads and hostels (II) prevented students from commuting/appearing, leading to postponement of exams (I).",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_32",
+    "qe": "A dice is thrown twice. In the first throw, 4 is adjacent to 1 and 2. In the second throw, 4 is adjacent to 5 and 6. Which number must be opposite to 4?",
+    "qh": "एक पासे को दो बार फेंका जाता है। पहली बार में 4 के निकट 1 और 2 हैं। दूसरी बार में 4 के निकट 5 और 6 हैं। 4 के विपरीत निश्चित रूप से कौन-सा अंक होगा?",
+    "oe": [
+      "2",
+      "1",
+      "5",
+      "3"
+    ],
+    "oh": [
+      "2",
+      "1",
+      "5",
+      "3"
+    ],
+    "a": 3,
+    "e": "4 is adjacent to 1, 2, 5, and 6, leaving only 3 as the opposite face.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_33",
+    "qe": "How many pairs of letters are there in the word 'CREATION' that have as many letters between them in the word (both forward and backward) as in the English alphabet?",
+    "qh": "शब्द 'CREATION' में अक्षरों के ऐसे कितने युग्म हैं जिनके बीच शब्द में (आगे और पीछे दोनों ओर से) उतने ही अक्षर हैं जितने अंग्रेजी वर्णमाला में होते हैं?",
+    "oe": [
+      "One",
+      "Four",
+      "Three",
+      "Two"
+    ],
+    "oh": [
+      "एक",
+      "चार",
+      "तीन",
+      "दो"
+    ],
+    "a": 3,
+    "e": "The two pairs are C–E (1 letter 'R' between them, matching D in alphabet) and N–O (0 letters between them, adjacent in reverse order).",
+    "topic_tag": "reasoning.letter_pairing.alphabetical_pairs"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_34",
+    "qe": "Select the odd number pair out:\n(5, 24), (7, 48), (9, 80), (11, 122)",
+    "qh": "असंगत संख्या युग्म का चयन कीजिए:\n(5, 24), (7, 48), (9, 80), (11, 122)",
+    "oe": [
+      "(7, 48)",
+      "(5, 24)",
+      "(11, 122)",
+      "(9, 80)"
+    ],
+    "oh": [
+      "(7, 48)",
+      "(5, 24)",
+      "(11, 122)",
+      "(9, 80)"
+    ],
+    "a": 2,
+    "e": "First three follow (n, n² − 1): 5²−1=24, 7²−1=48, 9²−1=80. For 11, 11²−1 = 120 (not 122).",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s3_35",
+    "qe": "Six boxes A, B, C, D, E, and F are stacked one above another (numbered 1 at the bottom to 6 at the top). E is on position 3. There are two boxes between E and B. A is immediately below B, F is at the bottommost position, and D is immediately above F. Which box is at position 4?",
+    "qh": "छह डिब्बे A, B, C, D, E और F एक के ऊपर एक रखे हैं (नीचे से 1 से ऊपर 6 तक)। E स्थान 3 पर है। E और B के बीच दो डिब्बे हैं। A, B के ठीक नीचे है, F सबसे नीचे है और D, F के ठीक ऊपर है। स्थान 4 पर कौन-सा डिब्बा है?",
+    "oe": [
+      "E",
+      "D",
+      "A",
+      "C"
+    ],
+    "oh": [
+      "E",
+      "D",
+      "A",
+      "C"
+    ],
+    "a": 3,
+    "e": "Bottom-to-top: 1=F, 2=D, 3=E, 4=C, 5=A, 6=B. Thus Box C is at position 4.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  }
+]

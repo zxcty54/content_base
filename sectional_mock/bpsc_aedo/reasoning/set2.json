@@ -1,0 +1,702 @@
+[
+  {
+    "p_id": "bpsc_aedo_rea_s2_01",
+    "qe": "If '+' means '÷', '÷' means '−', '−' means '×', and '×' means '+', find the value of X in:\n180 + 15 − 12 × 45 ÷ 39 = X",
+    "qh": "यदि '+' का अर्थ '÷', '÷' का अर्थ '−', '−' का अर्थ '×' और '×' का अर्थ '+' है, तो निम्न समीकरण में X का मान ज्ञात कीजिए:\n180 + 15 − 12 × 45 ÷ 39 = X",
+    "oe": [
+      "150",
+      "144",
+      "156",
+      "162"
+    ],
+    "oh": [
+      "150",
+      "144",
+      "156",
+      "162"
+    ],
+    "a": 0,
+    "e": "Substituting meanings: 180 ÷ 15 × 12 + 45 − 39 = 12 × 12 + 45 − 39 = 144 + 45 − 39 = 150.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_02",
+    "qe": "Identify the relationship in the first pair and complete the second pair:\nYW : US :: QO : ?",
+    "qh": "पहले युग्म में संबंध पहचानें और दूसरे युग्म को पूरा करें:\nYW : US :: QO : ?",
+    "oe": [
+      "MJ",
+      "MK",
+      "NJ",
+      "NL"
+    ],
+    "oh": [
+      "MJ",
+      "MK",
+      "NJ",
+      "NL"
+    ],
+    "a": 1,
+    "e": "Each letter decreases by 4: Y(25)→U(21), W(23)→S(19). Applying −4 to QO: Q(17)→M(13), O(15)→K(11) => MK.",
+    "topic_tag": "reasoning.letter_pairing.alphabetical_pairs"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_03",
+    "qe": "Four letter-cluster pairs are given, of which three are alike in a certain way and one is different. Select the odd pair.",
+    "qh": "चार अक्षर-समूह युग्म दिए गए हैं, जिनमें से तीन एक समान पैटर्न पर हैं और एक भिन्न है। भिन्न युग्म का चयन कीजिए।",
+    "oe": [
+      "RX : QW",
+      "WC : XD",
+      "JP : KQ",
+      "BM : CN"
+    ],
+    "oh": [
+      "RX : QW",
+      "WC : XD",
+      "JP : KQ",
+      "BM : CN"
+    ],
+    "a": 0,
+    "e": "In the first three pairs, each letter increases by +1 (W→X, C→D; B→C, M→N; J→K, P→Q). In RX : QW, each letter decreases by −1.",
+    "topic_tag": "reasoning.letter_pairing.alphabetical_pairs"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_04",
+    "qe": "In a code language, capital letters 'A', 'B', 'C' are coded as 2, 4, 6 respectively, while lowercase letters 'a', 'b', 'c' are coded as 11, 12, 13 respectively. Following this pattern, what is the code for \"Fi\"?",
+    "qh": "एक कूट भाषा में बड़े अक्षरों 'A', 'B', 'C' को क्रमशः 2, 4, 6 लिखा जाता है, जबकि छोटे अक्षरों 'a', 'b', 'c' को क्रमशः 11, 12, 13 लिखा जाता है। इसी पैटर्न के अनुसार \"Fi\" का कूट क्या होगा?",
+    "oe": [
+      "12, 18",
+      "12, 19",
+      "10, 19",
+      "14, 18"
+    ],
+    "oh": [
+      "12, 18",
+      "12, 19",
+      "10, 19",
+      "14, 18"
+    ],
+    "a": 1,
+    "e": "Rule: Capital letter = place value × 2; Lowercase letter = place value + 10. For 'F' (6): 6 × 2 = 12. For 'i' (9): 9 + 10 = 19. Code = 12, 19.",
+    "topic_tag": "reasoning.coding.number_coding"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_05",
+    "qe": "Select the set in which the numbers are related in the same way as the following sets (operations on whole numbers, not individual digits):\n(28, 63, 35)\n(41, 79, 38)",
+    "qh": "उस समूह का चयन करें जिसमें संख्याएँ ठीक उसी प्रकार संबंधित हैं जैसे निम्नलिखित समूहों में हैं (अंकों को तोड़े बिना पूर्ण संख्याओं पर संक्रिया करें):\n(28, 63, 35)\n(41, 79, 38)",
+    "oe": [
+      "(24, 71, 37)",
+      "(19, 64, 45)",
+      "(17, 54, 27)",
+      "(33, 82, 41)"
+    ],
+    "oh": [
+      "(24, 71, 37)",
+      "(19, 64, 45)",
+      "(17, 54, 27)",
+      "(33, 82, 41)"
+    ],
+    "a": 1,
+    "e": "Rule: 3rd number = 2nd number − 1st number. Checking (19, 64, 45): 64 − 19 = 45.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_06",
+    "qe": "If 'A + B' means 'A is the daughter of B', 'A − B' means 'A is the husband of B', and 'A × B' means 'A is the brother of B', then what does 'M × N − K' mean?",
+    "qh": "यदि 'A + B' का अर्थ 'A, B की पुत्री है', 'A − B' का अर्थ 'A, B का पति है' और 'A × B' का अर्थ 'A, B का भाई है', तो 'M × N − K' का क्या अर्थ है?",
+    "oe": [
+      "M is the brother of K",
+      "M is the father of K",
+      "M is the brother-in-law of K",
+      "K is the wife of M"
+    ],
+    "oh": [
+      "M, K का भाई है",
+      "M, K का पिता है",
+      "M, K का देवर/जेठ (Brother-in-law) है",
+      "K, M की पत्नी है"
+    ],
+    "a": 2,
+    "e": "M × N means M is brother of N. N − K means N is husband of K. Thus M is the brother of K's husband, i.e., brother-in-law of K.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_07",
+    "qe": "Priya walks 9 meters East from her house, turns left and walks 12 meters. What is the shortest distance and direction of her current position from her house?",
+    "qh": "प्रिया अपने घर से 9 मीटर पूर्व चलती है, फिर बाएँ मुड़कर 12 मीटर चलती है। उसके घर से उसकी वर्तमान स्थिति की न्यूनतम दूरी और दिशा क्या है?",
+    "oe": [
+      "15 m North-East",
+      "21 m North-East",
+      "18 m North-East",
+      "15 m South-East"
+    ],
+    "oh": [
+      "15 मीटर उत्तर-पूर्व",
+      "21 मीटर उत्तर-पूर्व",
+      "18 मीटर उत्तर-पूर्व",
+      "15 मीटर दक्षिण-पूर्व"
+    ],
+    "a": 0,
+    "e": "By Pythagoras theorem, shortest distance = √(9² + 12²) = √(81 + 144) = √225 = 15 m, in the North-East direction.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_08",
+    "qe": "In a competition, Arjun is ranked 27th from the top and 24th from the bottom. What is the total number of participants in the competition?",
+    "qh": "एक प्रतियोगिता में अर्जुन ऊपर से 27वें और नीचे से 24वें स्थान पर है। प्रतियोगिता में प्रतिभागियों की कुल संख्या कितनी है?",
+    "oe": [
+      "52",
+      "51",
+      "50",
+      "49"
+    ],
+    "oh": [
+      "52",
+      "51",
+      "50",
+      "49"
+    ],
+    "a": 2,
+    "e": "Total participants = Rank from top + Rank from bottom − 1 = 27 + 24 − 1 = 50.",
+    "topic_tag": "reasoning.ranking.position_and_order"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_09",
+    "qe": "Statements:\nSome flowers are roses.\nAll roses are red.\nNo red is black.\nConclusions:\n(I) Some flowers are red.\n(II) Some flowers are not black.",
+    "qh": "कथन:\nकुछ फूल गुलाब हैं।\nसभी गुलाब लाल हैं।\nकोई लाल काला नहीं है।\nनिष्कर्ष:\n(I) कुछ फूल लाल हैं।\n(II) कुछ फूल काले नहीं हैं।",
+    "oe": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both conclusions I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल निष्कर्ष I अनुसरण करता है",
+      "केवल निष्कर्ष II अनुसरण करता है",
+      "निष्कर्ष I और II दोनों अनुसरण करते हैं",
+      "न तो I और न ही II अनुसरण करता है"
+    ],
+    "a": 2,
+    "e": "Some flowers are roses and all roses are red => Some flowers are red (I follows). Since no red is black, those flowers that are red cannot be black => Some flowers are not black (II follows).",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_10",
+    "qe": "Statement: A ≥ B = C > D ≤ E < F\nConclusions:\n(I) A > D\n(II) B ≤ F",
+    "qh": "कथन: A ≥ B = C > D ≤ E < F\nनिष्कर्ष:\n(I) A > D\n(II) B ≤ F",
+    "oe": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल निष्कर्ष I अनुसरण करता है",
+      "केवल निष्कर्ष II अनुसरण करता है",
+      "I और II दोनों अनुसरण करते हैं",
+      "न तो I और न ही II अनुसरण करता है"
+    ],
+    "a": 0,
+    "e": "A ≥ B = C > D gives A > D (I follows). Between B and F signs reverse (> and ≤), so no definite relation holds (II is false).",
+    "topic_tag": "reasoning.inequality.coded_inequalities"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_11",
+    "qe": "What will come in place of '?' in the number series?\n3, 10, 24, 45, 73, ?",
+    "qh": "दी गई संख्या श्रृंखला में '?' के स्थान पर क्या आएगा?\n3, 10, 24, 45, 73, ?",
+    "oe": [
+      "108",
+      "105",
+      "110",
+      "112"
+    ],
+    "oh": [
+      "108",
+      "105",
+      "110",
+      "112"
+    ],
+    "a": 0,
+    "e": "Differences increase by +7 each step: +7, +14, +21, +28, +35. Next term = 73 + 35 = 108.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_12",
+    "qe": "Complete the series:\nBZA, DYC, FXE, HWG, ?",
+    "qh": "श्रृंखला को पूरा कीजिए:\nBZA, DYC, FXE, HWG, ?",
+    "oe": [
+      "KVI",
+      "JVI",
+      "JUI",
+      "JVH"
+    ],
+    "oh": [
+      "KVI",
+      "JVI",
+      "JUI",
+      "JVH"
+    ],
+    "a": 1,
+    "e": "1st letter +2 (B, D, F, H, J); 2nd letter −1 (Z, Y, X, W, V); 3rd letter +2 (A, C, E, G, I) => JVI.",
+    "topic_tag": "reasoning.alphabetical_series.letter_patterns"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_13",
+    "qe": "Four friends A, B, C, and D live on four different floors numbered 1 to 4 (ground floor = 1). A lives on floor 4. C does not live on floor 1 or 2. B does not live on floor 1. Who lives on floor 2?",
+    "qh": "चार मित्र A, B, C और D चार अलग-अलग मंजिलों (1 से 4, भूतल = 1) पर रहते हैं। A मंजिल 4 पर रहता है। C मंजिल 1 या 2 पर नहीं रहता है। B मंजिल 1 पर नहीं रहता है। मंजिल 2 पर कौन रहता है?",
+    "oe": [
+      "D",
+      "C",
+      "Either B or D",
+      "B"
+    ],
+    "oh": [
+      "D",
+      "C",
+      "या तो B या D",
+      "B"
+    ],
+    "a": 3,
+    "e": "Floor 4 = A. C is not on 1 or 2, so Floor 3 = C. B is not on 1, so Floor 2 = B, leaving Floor 1 = D.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_14",
+    "qe": "Choose the odd word out from the given alternatives:\nPatna, Ranchi, Raipur, Bhopal, Kanpur",
+    "qh": "दिए गए विकल्पों में से असंगत शब्द का चयन कीजिए:\nपटना, राँची, रायपुर, भोपाल, कानपुर",
+    "oe": [
+      "Kanpur",
+      "Raipur",
+      "Bhopal",
+      "Ranchi"
+    ],
+    "oh": [
+      "कानपुर",
+      "रायपुर",
+      "भोपाल",
+      "राँची"
+    ],
+    "a": 0,
+    "e": "Patna (Bihar), Ranchi (Jharkhand), Raipur (Chhattisgarh), and Bhopal (MP) are state capitals, whereas Kanpur is not a state capital.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_15",
+    "qe": "If 15 August 2024 was a Thursday, what day of the week was 15 August 2026?",
+    "qh": "यदि 15 अगस्त 2024 को गुरुवार था, तो 15 अगस्त 2026 को सप्ताह का कौन-सा दिन था?",
+    "oe": [
+      "Friday",
+      "Monday",
+      "Sunday",
+      "Saturday"
+    ],
+    "oh": [
+      "शुक्रवार",
+      "सोमवार",
+      "रविवार",
+      "शनिवार"
+    ],
+    "a": 3,
+    "e": "From 15 Aug 2024 to 15 Aug 2026 is 2 non-leap years (no 29 Feb crossed) => +2 odd days. Thursday + 2 days = Saturday.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_16",
+    "qe": "Select the option that is related to the third word in the same way as the second word is related to the first word:\nThermometer : Temperature :: Barometer : ?",
+    "qh": "उस विकल्प का चयन कीजिए जो तीसरे शब्द से उसी प्रकार संबंधित है जैसे दूसरा शब्द पहले शब्द से संबंधित है:\nथर्मामीटर : तापमान :: बैरोमीटर : ?",
+    "oe": [
+      "Humidity",
+      "Electric Current",
+      "Wind Speed",
+      "Atmospheric Pressure"
+    ],
+    "oh": [
+      "आर्द्रता",
+      "विद्युत धारा",
+      "पवन गति",
+      "वायुमंडलीय दाब"
+    ],
+    "a": 3,
+    "e": "A thermometer measures temperature; similarly, a barometer measures atmospheric pressure.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_17",
+    "qe": "Statement: \"Please switch off your mobile phones inside the examination hall.\" — Notice outside an exam centre.\nAssumptions:\n(I) Some candidates carry mobile phones to the exam centre.\n(II) Active mobile phones may disturb or facilitate unfair means during the exam.",
+    "qh": "कथन: \"कृपया परीक्षा हॉल के अंदर अपने मोबाइल फोन बंद रखें।\" — परीक्षा केंद्र के बाहर एक सूचना।\nपूर्वधारणाएँ:\n(I) कुछ अभ्यर्थी परीक्षा केंद्र पर मोबाइल फोन लेकर आते हैं।\n(II) चालू मोबाइल फोन परीक्षा के दौरान बाधा डाल सकते हैं या अनुचित साधनों में सहायक हो सकते हैं।",
+    "oe": [
+      "Only assumption I is implicit",
+      "Only assumption II is implicit",
+      "Both I and II are implicit",
+      "Neither I nor II is implicit"
+    ],
+    "oh": [
+      "केवल पूर्वधारणा I अंतर्निहित है",
+      "केवल पूर्वधारणा II अंतर्निहित है",
+      "I और II दोनों अंतर्निहित हैं",
+      "न तो I और न ही II अंतर्निहित है"
+    ],
+    "a": 2,
+    "e": "A notice asking candidates to switch off phones assumes candidates carry phones and keeping them on causes disturbance or unfair practices.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_18",
+    "qe": "In a code language, 'RED' is coded as 27 and 'BLUE' is coded as 40. How will 'GREEN' be coded in the same language?",
+    "qh": "एक कूट भाषा में 'RED' को 27 और 'BLUE' को 40 लिखा जाता है। उसी भाषा में 'GREEN' को कैसे लिखा जाएगा?",
+    "oe": [
+      "47",
+      "53",
+      "51",
+      "49"
+    ],
+    "oh": [
+      "47",
+      "53",
+      "51",
+      "49"
+    ],
+    "a": 3,
+    "e": "Code = sum of alphabetical positions: G(7) + R(18) + E(5) + E(5) + N(14) = 49.",
+    "topic_tag": "reasoning.coding.number_coding"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_19",
+    "qe": "Complete the alphabetical series:\nBDF, EGI, HJL, KMO, ?",
+    "qh": "अक्षर श्रृंखला को पूरा कीजिए:\nBDF, EGI, HJL, KMO, ?",
+    "oe": [
+      "OPR",
+      "NQR",
+      "NPR",
+      "NPQ"
+    ],
+    "oh": [
+      "OPR",
+      "NQR",
+      "NPR",
+      "NPQ"
+    ],
+    "a": 2,
+    "e": "Each letter increases by +3 from one cluster to the next: K(+3)=N, M(+3)=P, O(+3)=R => NPR.",
+    "topic_tag": "reasoning.alphabetical_series.letter_patterns"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_20",
+    "qe": "Find the missing number:\nRow 1: 8, 9, 36\nRow 2: 12, 5, 30\nRow 3: 14, 7, ?",
+    "qh": "लुप्त संख्या ज्ञात कीजिए:\nपंक्ति 1: 8, 9, 36\nपंक्ति 2: 12, 5, 30\nपंक्ति 3: 14, 7, ?",
+    "oe": [
+      "49",
+      "98",
+      "56",
+      "42"
+    ],
+    "oh": [
+      "49",
+      "98",
+      "56",
+      "42"
+    ],
+    "a": 0,
+    "e": "Rule: 3rd number = (1st × 2nd) / 2. Row 1: (8×9)/2 = 36; Row 2: (12×5)/2 = 30; Row 3: (14×7)/2 = 49.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_21",
+    "qe": "What is the smaller angle between the hour hand and minute hand of a clock at 9:30?",
+    "qh": "9:30 बजे घड़ी की घंटे की सुई और मिनट की सुई के बीच का छोटा कोण कितना होगा?",
+    "oe": [
+      "90°",
+      "110°",
+      "120°",
+      "105°"
+    ],
+    "oh": [
+      "90°",
+      "110°",
+      "120°",
+      "105°"
+    ],
+    "a": 3,
+    "e": "Angle = |30H − (11/2)M| = |30×9 − 5.5×30| = |270 − 165| = 105°.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_22",
+    "qe": "A 5 cm cube is painted blue on all faces and cut into 1 cm cubes. How many small cubes have exactly two faces painted?",
+    "qh": "5 सेमी के एक घन को सभी सतहों पर नीले रंग से रंगकर 1 सेमी के छोटे घनों में काटा जाता है। ठीक दो सतहों पर रंग वाले कितने छोटे घन होंगे?",
+    "oe": [
+      "54",
+      "48",
+      "36",
+      "24"
+    ],
+    "oh": [
+      "54",
+      "48",
+      "36",
+      "24"
+    ],
+    "a": 2,
+    "e": "Here n = 5. Cubes with exactly 2 painted faces lie on edges (excluding corners) = 12 × (n − 2) = 12 × 3 = 36.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_23",
+    "qe": "In a triangle ABC, 4 straight lines are drawn from vertex A to the opposite base BC, dividing BC into 5 parts. How many total triangles are formed in the figure?",
+    "qh": "एक त्रिभुज ABC में शीर्ष A से आधार BC पर 4 सीधी रेखाएँ खींची जाती हैं, जो आधार BC को 5 भागों में बाँटती हैं। आकृति में कुल कितने त्रिभुज बनते हैं?",
+    "oe": [
+      "15",
+      "20",
+      "25",
+      "10"
+    ],
+    "oh": [
+      "15",
+      "20",
+      "25",
+      "10"
+    ],
+    "a": 0,
+    "e": "With 5 base segments sharing vertex A, total triangles = 1 + 2 + 3 + 4 + 5 = 5×6/2 = 15.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_24",
+    "qe": "Six people P, Q, R, S, T, and U sit around a circle facing the centre. P sits opposite T. Q sits to the immediate right of P and immediate left of R. U sits opposite Q. Who sits to the immediate left of T?",
+    "qh": "छह व्यक्ति P, Q, R, S, T और U केंद्र की ओर मुख करके एक वृत्त में बैठे हैं। P, T के विपरीत बैठा है। Q, P के ठीक दाएँ और R के ठीक बाएँ बैठा है। U, Q के विपरीत बैठा है। T के ठीक बाएँ कौन बैठा है?",
+    "oe": [
+      "P",
+      "R",
+      "S",
+      "U"
+    ],
+    "oh": [
+      "P",
+      "R",
+      "S",
+      "U"
+    ],
+    "a": 1,
+    "e": "Going counter-clockwise (right): P, Q, R, T, U, S. Check: P opposite T (3 seats away: yes), Q immediate right of P & immediate left of R (yes), U opposite Q (yes). Immediate left (clockwise) of T is R.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_25",
+    "qe": "A is the father of B, but B is not the son of A. C is the husband of B. D is the mother of C. How is B related to D?",
+    "qh": "A, B का पिता है, लेकिन B, A का पुत्र नहीं है। C, B का पति है। D, C की माता है। B, D से किस प्रकार संबंधित है?",
+    "oe": [
+      "Daughter",
+      "Sister-in-law",
+      "Niece",
+      "Daughter-in-law"
+    ],
+    "oh": [
+      "पुत्री",
+      "ननद/भाभी",
+      "भतीजी",
+      "पुत्रवधू (बहू)"
+    ],
+    "a": 3,
+    "e": "B is A's child but not son => B is A's daughter (female). C is B's husband and D is C's mother => B is D's daughter-in-law.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_26",
+    "qe": "Which Venn diagram relationship best represents: Bihar, Patna, India?",
+    "qh": "निम्नलिखित के बीच संबंध को कौन-सा वेन आरेख सर्वोत्तम रूप से दर्शाता है: बिहार, पटना, भारत?",
+    "oe": [
+      "Three concentric circles (Patna inside Bihar, Bihar inside India)",
+      "Two separate circles inside one large circle",
+      "One circle outside two intersecting circles",
+      "Three intersecting circles"
+    ],
+    "oh": [
+      "तीन संकेंद्रित वृत्त (पटना बिहार के अंदर, बिहार भारत के अंदर)",
+      "एक बड़े वृत्त के अंदर दो अलग वृत्त",
+      "दो काटते वृत्तों के बाहर एक वृत्त",
+      "तीन परस्पर काटते वृत्त"
+    ],
+    "a": 0,
+    "e": "Patna is completely inside Bihar, and Bihar is completely inside India — represented by three concentric circles.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_27",
+    "qe": "Which interchange of two signs and two numbers will make the equation mathematically true?\n16 ÷ 3 + 4 × 12 − 7 = 17",
+    "qh": "किन दो चिह्नों और दो संख्याओं को आपस में बदलने से दिया गया समीकरण सत्य हो जाएगा?\n16 ÷ 3 + 4 × 12 − 7 = 17",
+    "oe": [
+      "'÷' and '−'; 16 and 12",
+      "'+' and '−'; 12 and 7",
+      "'+' and '×'; 3 and 4",
+      "'×' and '−'; 4 and 7"
+    ],
+    "oh": [
+      "'÷' और '−'; 16 और 12",
+      "'+' और '−'; 12 और 7",
+      "'+' और '×'; 3 और 4",
+      "'×' और '−'; 4 और 7"
+    ],
+    "a": 2,
+    "e": "Interchanging '+' with '×' and 3 with 4 gives: 16 ÷ 4 × 3 + 12 − 7 = 4 × 3 + 12 − 7 = 12 + 12 − 7 = 17.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_28",
+    "qe": "Which of the following words CANNOT be formed using the letters of 'ENVIRONMENT' (each letter used only as many times as it appears)?",
+    "qh": "निम्नलिखित में से कौन-सा शब्द 'ENVIRONMENT' के अक्षरों से नहीं बनाया जा सकता है?",
+    "oe": [
+      "MINOR",
+      "RIVER",
+      "ENTER",
+      "TENOR"
+    ],
+    "oh": [
+      "MINOR",
+      "RIVER",
+      "ENTER",
+      "TENOR"
+    ],
+    "a": 1,
+    "e": "'RIVER' requires two 'R's, whereas 'ENVIRONMENT' contains only one 'R'.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_29",
+    "qe": "Question: Among P, Q, R, and S, who is the heaviest?\nStatements:\nI. P is heavier than Q and R, but lighter than S.\nII. Q is heavier than R.",
+    "qh": "प्रश्न: P, Q, R और S में सबसे भारी कौन है?\nकथन:\nI. P, Q और R से भारी है, लेकिन S से हल्का है।\nII. Q, R से भारी है।",
+    "oe": [
+      "Statement I alone is sufficient",
+      "Statement II alone is sufficient",
+      "Both statements I and II together are required",
+      "Data even in both statements is insufficient"
+    ],
+    "oh": [
+      "केवल कथन I पर्याप्त है",
+      "केवल कथन II पर्याप्त है",
+      "कथन I और II दोनों एक साथ आवश्यक हैं",
+      "दोनों कथनों का डेटा भी अपर्याप्त है"
+    ],
+    "a": 0,
+    "e": "From Statement I alone: S > P > (Q, R), which immediately identifies S as the heaviest.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_30",
+    "qe": "Statement: \"Several cases of seasonal dengue fever have been reported in two wards of the town.\"\nCourses of Action:\n(I) Health authorities should carry out fogging and awareness drives to eliminate stagnant water.\n(II) All schools in the entire state should be closed indefinitely.",
+    "qh": "कथन: \"कस्बे के दो वार्डों में मौसमी डेंगू बुखार के कई मामले सामने आए हैं।\"\nकार्यवाहियाँ:\n(I) स्वास्थ्य अधिकारियों को फॉगिंग करानी चाहिए और रुके हुए पानी को हटाने के लिए जागरूकता अभियान चलाना चाहिए।\n(II) पूरे राज्य के सभी स्कूलों को अनिश्चितकाल के लिए बंद कर दिया जाना चाहिए।",
+    "oe": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल I अनुसरण करती है",
+      "केवल II अनुसरण करती है",
+      "I और II दोनों अनुसरण करती हैं",
+      "न तो I और न ही II अनुसरण करती है"
+    ],
+    "a": 0,
+    "e": "Targeted fogging and stagnant-water control (I) is the practical preventive step; shutting all schools statewide indefinitely (II) is disproportionate.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_31",
+    "qe": "Question: Should single-use plastic bags be strictly banned in public markets?\nArguments:\n(I) Yes, single-use plastics clog drainage systems and pollute soil and rivers for decades.\n(II) No, shopkeepers will lose all their customers if plastic bags are banned.",
+    "qh": "प्रश्न: क्या सार्वजनिक बाजारों में सिंगल-यूज प्लास्टिक थैलियों पर सख्ती से प्रतिबंध लगाया जाना चाहिए?\nतर्क:\n(I) हाँ, सिंगल-यूज प्लास्टिक नालियों को जाम करता है और दशकों तक मिट्टी व नदियों को प्रदूषित करता है।\n(II) नहीं, यदि प्लास्टिक थैलियों पर प्रतिबंध लगा तो दुकानदार अपने सभी ग्राहक खो देंगे।",
+    "oe": [
+      "Only Argument I is strong",
+      "Only Argument II is strong",
+      "Both I and II are strong",
+      "Neither I nor II is strong"
+    ],
+    "oh": [
+      "केवल तर्क I प्रबल है",
+      "केवल तर्क II प्रबल है",
+      "I और II दोनों प्रबल हैं",
+      "न तो I और न ही II प्रबल है"
+    ],
+    "a": 0,
+    "e": "Argument I gives a factual environmental and civic reason. Argument II is exaggerated because cloth/paper/jute bags easily replace plastic.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_32",
+    "qe": "An unfolded cube net has faces in a vertical strip of four squares [A, B, C, D] from top to bottom, with E attached to the left of B and F attached to the right of B. When folded into a cube, which face is opposite to A?",
+    "qh": "एक खुले घन (Net) में ऊपर से नीचे चार वर्गों की एक ऊर्ध्वाधर पट्टी [A, B, C, D] है, जिसमें E, B के बाएँ और F, B के दाएँ जुड़ा है। मोड़कर घन बनाने पर A के विपरीत कौन-सा फलक होगा?",
+    "oe": [
+      "B",
+      "E",
+      "D",
+      "C"
+    ],
+    "oh": [
+      "B",
+      "E",
+      "D",
+      "C"
+    ],
+    "a": 3,
+    "e": "In a linear strip of 4 faces [A, B, C, D], alternate faces are opposite: A is opposite C, B is opposite D, and E is opposite F.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_33",
+    "qe": "If all the digits of the number '84925731' are arranged in ascending order from left to right, how many digits will remain in their original positions?",
+    "qh": "यदि संख्या '84925731' के सभी अंकों को बाएँ से दाएँ आरोही (बढ़ते) क्रम में व्यवस्थित किया जाए, तो कितने अंक अपने मूल स्थान पर ही बने रहेंगे?",
+    "oe": [
+      "One",
+      "None",
+      "Three",
+      "Two"
+    ],
+    "oh": [
+      "एक",
+      "कोई नहीं",
+      "तीन",
+      "दो"
+    ],
+    "a": 3,
+    "e": "Original: 8 4 9 2 5 7 3 1; Ascending: 1 2 3 4 5 7 8 9. Digits 5 and 7 remain in the same 5th and 6th positions => Two digits.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_34",
+    "qe": "Select the odd pair out among the following country–currency pairs:",
+    "qh": "निम्नलिखित देश–मुद्रा युग्मों में से असंगत युग्म का चयन कीजिए:",
+    "oe": [
+      "India : Rupee",
+      "Japan : Yen",
+      "Bangladesh : Taka",
+      "Thailand : Dinar"
+    ],
+    "oh": [
+      "भारत : रुपया",
+      "जापान : येन",
+      "बांग्लादेश : टका",
+      "थाईलैंड : दीनार"
+    ],
+    "a": 3,
+    "e": "Rupee, Yen, and Taka are the official currencies of India, Japan, and Bangladesh respectively, whereas Thailand's currency is the Baht (not Dinar).",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s2_35",
+    "qe": "If 5 # 3 = 16 and 7 # 2 = 18, then what is the value of 9 # 4?",
+    "qh": "यदि 5 # 3 = 16 और 7 # 2 = 18 है, तो 9 # 4 का मान क्या होगा?",
+    "oe": [
+      "26",
+      "28",
+      "36",
+      "24"
+    ],
+    "oh": [
+      "26",
+      "28",
+      "36",
+      "24"
+    ],
+    "a": 0,
+    "e": "Pattern: a # b = (a + b) × 2. Check: (5+3)×2 = 16, (7+2)×2 = 18. Hence 9 # 4 = (9 + 4) × 2 = 26.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  }
+]

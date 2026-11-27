@@ -1,0 +1,1510 @@
+{
+  "category_id": "ws_02_weird_states_matter",
+  "title": "Weird States of Matter",
+  "subtitle": "Ek hi waqt jamta-ubalta paani, deewar chadhne wala liquid, aur hawa jaisa strong solid",
+  "icon": "🧊",
+  "color": "0xFF0284C7",
+  "topic_count": 100,
+  "topics": [
+    {
+      "id": "ws_02_001",
+      "subtopic": "Triple Point",
+      "title": "Ek Hi Waqt Par Paani Jam Bhi Sakta Hai, Pighal Bhi Sakta Hai Aur Ubal Bhi Sakta Hai!",
+      "shock_hook": "0.01°C aur low vacuum pressure (0.006 atm) par ek flask mein Barf, Paani aur Bhaap teeno ek saath dance karte hain!",
+      "aam_soch": "Paani 0°C par jamta hai aur 100°C par ubalta hai — dono ek hi time par kabhi nahi ho sakte.",
+      "science_truth": "Boiling point pressure par depend karta hai. Vacuum pump se jab hawa ka pressure kam kar ke 611.657 Pascals par laate hain, to boiling point girte-girte 0.01°C par freezing point se aa milta hai — ise 'Triple Point' kehte hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Khaas pressure aur temperature par paani ka ek saath solid, liquid aur gas ban jaana",
+        "simple_meaning": "Pressure aur temperature ke ek khaas junction par solid, liquid aur gas teeno ki energy barabar ho jaati hai."
+      },
+      "real_proof": "Physics labs mein cyclohexane aur water ke Triple Point cells mein aakhon ke saamne liquid ko ubalte aur usi pal barf mein jamte hue live dekha jaata hai.",
+      "mind_question": "Agar aap bina spacesuit ke space (zero pressure) mein ek glass paani khol dein, to wo jamega ya ublega?"
+    },
+    {
+      "id": "ws_02_002",
+      "subtopic": "Superfluid Helium",
+      "title": "Ek Aisa Liquid Jo Bina Kisi Motor Ke Apne Aap Cup Ki Deewar Chadh Kar Bahar Gir Jaata Hai!",
+      "shock_hook": "Liquid Helium ko -271°C tak thanda karein to wo 'bina rukawat behne wala liquid' ban kar zero friction se deewaron par upar behne lagta hai!",
+      "aam_soch": "Liquid hamesha gravity ki wajah se neeche hi behta hai, khud upar nahi chadh sakta.",
+      "science_truth": "2.17 Kelvin (-271°C) se neeche Helium-4 atoms Bose-Einstein Condensate ban kar ek single quantum wave ki tarah behave karte hain. Iski gaadhapan (gaadhapan/friction) bilkul ZERO ho jaati hai — patle chhedon ke khichav force use glass ki deewar par chadha kar Rollin film ke roop mein bahar tapka deti hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Extreme thand mein Liquid Helium ka bina kisi rukawat ke deewar par chadh jaana",
+        "simple_meaning": "Jab saare atoms ek hi quantum rhythm mein chalein, to aapas ki ragad (friction) zero ho jaati hai aur liquid rukta hi nahi."
+      },
+      "real_proof": "Pyotr Kapitsa, John Allen aur Don Misener ne 1937 mein bina rukawat behne wala liquid Helium khoja (1978 Nobel Prize) — ye ultra-fine pores mein se bhi bina dabav ke guzar jaata hai jahan helium gas bhi nahi ja sakti!",
+      "mind_question": "Agar ek bina rukawat behne wala liquid ko cup mein ghumakar chhod dein, to kya wo bina ruke saalon tak ghumta rahega?"
+    },
+    {
+      "id": "ws_02_003",
+      "subtopic": "Silica Aerogel",
+      "title": "Ek Aisa Solid Pathar Jo 99.8% Sirf Khali Hawa Hai — Aur Phool Ke Upaar Bhi Tik Jaaye!",
+      "shock_hook": "Frozen Smoke kehlane wala Silica Aerogel itna halka hai ki gulab ki patti par baith jaaye aur itna heat-proof ki neeche gas torch jale aur upar chocolate na pighle!",
+      "aam_soch": "Solid cheezein hamesha bhari aur garmi/thand jaldi pass karne wali hoti hain.",
+      "science_truth": "Gel se liquid ko 'liquid aur gas ke beech ki khaas halat Drying' se bina collapse kiye nikaal dene par sirf ek nano-porous silica skeleton bachta hai jo 99.8% hawa se bhara hota hai. Pores itne chhote (20 nm) hote hain ki hawa ke molecules tak move nahi kar paate — heat transfer lagbhag ruk jaata hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Aerogel ke microscopic chhedon mein hawa ke phans jaane se garmi ka aage na badh paana",
+        "simple_meaning": "Hawa ko nano-sized pinjron mein band kar dein to wo garmi aage pahuncha hi nahi paati."
+      },
+      "real_proof": "NASA ne Mars Rovers ki batteries ko -100°C thand se bachane aur Stardust mission mein comet ki dhool pakadne ke liye Aerogel use kiya.",
+      "mind_question": "Normal gel (jaise jelly) ko sukhane par wo sikud kar papad ban jaata hai, par Aerogel bina sikude apna poora shape kaise bacha leta hai?"
+    },
+    {
+      "id": "ws_02_004",
+      "subtopic": "Non-Newtonian Oobleck",
+      "title": "Ek Aisa Liquid Jis Par Aap Daud Sakte Hain — Par Rukte Hi Kamar Tak Doob Jaayenge!",
+      "shock_hook": "Cornstarch + Paani ke mixture par hathoda maarein to wo pathar ban kar uchhal deta hai, par dheere se haath daalein to makkhan ki tarah andar jaata hai!",
+      "aam_soch": "Koi cheez ya to liquid hoti hai ya solid — uske behave karne ka tareeqa maarne ki speed par depend nahi karta.",
+      "science_truth": "Ye ek Shear-Thickening Non-Newtonian Fluid hai. Dheere move karne par paani starch grains ko lubricate karta rehta hai. Par tez chot lagte hi paani beech se bhaag nahi paata aur starch particles ek-doosre se 'hydrocluster' jam bana kar instant solid wall ban jaate hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Tez maarne par particles ka ek saath jam kar patthar ban jaana (Cornstarch + Paani)",
+        "simple_meaning": "Bheed mein agar log dheere chalein to sab nikal jaate hain; par ek saath bhaagein to darwaze par pathar jaisa jaam lag jaata hai."
+      },
+      "real_proof": "Liquid Body Armor (bulletproof jackets) aur motorcycle impact pads isi shear-thickening fluid science se bante hain jo pehanne mein soft par goli/chot lagte hi rigid ho jaate hain!",
+      "mind_question": "Ketchup (tomato sauce) iska theek ulta (Shear-Thinning) kaise hota hai — bottle hilaane par patla aur plate par thick kyun ho jaata hai?"
+    },
+    {
+      "id": "ws_02_005",
+      "subtopic": "Supercritical Fluid",
+      "title": "Na Liquid, Na Gas — Ek Aisi Ajeeb State Jo Solid Coffee Beans Ke Andar Ghus Kar Sirf Caffeine Chheen Laati Hai!",
+      "shock_hook": "31°C aur 73 atm pressure par CO₂ na gas rehti hai na liquid — wo 'liquid aur gas ke beech ki khaas halat Fluid' ban kar gas ki tarah failti aur liquid ki tarah cheezein gholti hai!",
+      "aam_soch": "Duniya mein sirf Solid, Liquid aur Gas teen hi practical states hote hain.",
+      "science_truth": "Critical point ke paar Liquid aur Gas ke beech ki boundary (paani ki upari khinchi hui parat) bilkul mit jaati hai! liquid aur gas ke beech ki khaas halat CO₂ bina kisi liquid meniscus ke microscopic pores mein ghus jaata hai aur chemical solvent jaisi dissolving power rakhta hai — pressure chhodte hi wapas clean gas ban kar ud jaata hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "High pressure aur heat par liquid aur gas ka farq mit kar ek super-halat ban jaana",
+        "simple_meaning": "Gas jaisi tez penetration aur liquid jaisi dissolving power jab ek hi cheez mein aa jaaye."
+      },
+      "real_proof": "Decaffeinated coffee aur natural spice oils extract karne mein aaj toxic chemicals ke bajaye liquid aur gas ke beech ki khaas halat CO₂ ka massive industrial use hota hai.",
+      "mind_question": "Venus planet ki surface par itna zyada CO₂ pressure aur garmi hai — kya Venus ki hawa asal mein liquid aur gas ke beech ki khaas halat CO₂ ka samundar hai?"
+    },
+    {
+      "id": "ws_02_006",
+      "subtopic": "Bose-Einstein Condensate",
+      "title": "Lakho Alag Atoms Itne Thande Ho Jaayein Ki Apni Alag Pehchan Bhool Kar Ek 'Super-Atom' Ban Jaayein!",
+      "shock_hook": "Absolute Zero ke 1 billionth degree paas pahunch kar lakho Rubidium atoms ek hi single giant quantum blob ban jaate hain!",
+      "aam_soch": "Har atom ek chhoti alag goli hai — chahe kitna bhi thanda karein wo alag-alag hi rahenge.",
+      "science_truth": "De Broglie ke mutabik har atom ek wave hai; thanda karne par uski wavelength lambi hoti jaati hai. Nanokelvin temp par sabhi atoms ki waves overlap ho kar ek single coherent quantum state mein merge ho jaati hain (Bose-Einstein Condensate — 5th State of Matter)!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Absolute zero ke paas lakho atoms ka mil kar ek bade single super-atom ki tarah behave karna",
+        "simple_meaning": "Jab thand se sabhi atoms ki waves phail kar ek doosre mein ghul jaayein, to lakho atoms ek hi atom ban kar behave karte hain."
+      },
+      "real_proof": "1924 mein Satyendra Nath Bose aur Einstein ne ise predict kiya, aur 1995 mein Cornell, Wieman aur Ketterle ne lab mein bana kar 2001 mein Nobel jeeta.",
+      "mind_question": "ISS Space Station par NASA ne 'Cold Atom Lab' kyun bheji hai — space mein BEC banana Earth se behtar kyun hai?"
+    },
+    {
+      "id": "ws_02_007",
+      "subtopic": "Plasma 99% Universe",
+      "title": "School Mein Padha Ki Matter Solid-Liquid-Gas Hota Hai — Par Poore Universe Ka 99% Hissa Inme Se Ek Bhi Nahi Hai!",
+      "shock_hook": "Stars, Nebulae, Suraj, Bijli (Lightning) aur Tubelight — poore visible universe ka 99% hissa 4th State 'Plasma' hai!",
+      "aam_soch": "Solid, liquid aur gas hi main cheezein hain; plasma koi rare laboratory cheez hogi.",
+      "science_truth": "Jab gas ko bahut zyada garam ya high voltage diya jaata hai, to electrons atoms se alag ho jaate hain — ek electrically charged soup of free ions + electrons banta hai jise Plasma kehte hain. Ye magnetic fields se control hota hai aur khud light emit karta hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Bahut zyada garmi ya bijli se gas ke atoms ka toot kar chamakdar Plasma ban jaana",
+        "simple_meaning": "Gas ke atoms jab apni electron jackets utaar dein, to wo bijli aur magnet ke isharon par naachne wala Plasma ban jaata hai."
+      },
+      "real_proof": "Earth par hum rare thande pockets mein rehte hain jahan solid-liquid-gas tik paate hain, jabki taaron mein har jagah sirf Plasma hai.",
+      "mind_question": "Agar Plasma itna garam hota hai, to aapke ghar ke Neon sign ya tubelight ke andar ka plasma glass ko pighlata kyun nahi?"
+    },
+    {
+      "id": "ws_02_008",
+      "subtopic": "Time Crystals",
+      "title": "Ek Aisa Quantum Crystal Jo Bina Kisi Energy Kharch Kiye Hamesha Tick-Tick Rhythm Mein Hilta Rehta Hai!",
+      "shock_hook": "Normal crystals space mein pattern repeat karte hain (salt/diamond); 'Time Crystals' time mein bina ruke apna pattern repeat karte hain!",
+      "aam_soch": "Bina battery ya motor ke koi bhi system hamesha ke liye motion mein nahi reh sakta.",
+      "science_truth": "Nobel laureate Frank Wilczek ne 2012 mein predict kiya aur Google/universities ne banaya: Time Crystal mein particles periodic laser pulse ke neeche half-frequency par flip hote rehte hain bina kisi energy ko heat mein waste kiye — ye garmi aur energy ka science nahi todta kyunki ye 'closed equilibrium' mein nahi rehta aur useful work nahi nikalta!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Time Crystal ke atoms ka bina kisi extra energy kharch kiye lagatar ek taal par hilte rehna",
+        "simple_meaning": "Ek quantum pendulum jo heat paida kiye bina bilkul exact metronome ki tarah apni state flip karta rehta hai."
+      },
+      "real_proof": "2021 mein Google Sycamore quantum processor aur Delft University ke diamond defects mein real Time Crystals observe aur publish kiye gaye.",
+      "mind_question": "Agar Time Crystal hamesha hilta rehta hai, to isse perpetual motion machine (muft bijli) kyun nahi banayi ja sakti?"
+    },
+    {
+      "id": "ws_02_009",
+      "subtopic": "Liquid Crystals",
+      "title": "Aapke TV Aur Phone Ki Screen Ek Aisi Cheez Se Bani Hai Jo Liquid Ki Tarah Behti Hai Par Crystal Ki Tarah Light Modti Hai!",
+      "shock_hook": "Liquid Crystals (LCD) na poora solid hain aur na normal disordered liquid — wo dono ke beech ki 4th/mesophase state hain!",
+      "aam_soch": "Crystal ka matlab hamesha sakht, chamakdar solid patthar hota hai.",
+      "science_truth": "Rod-shaped organic molecules liquid ki tarah ghum-phir sakte hain par apni direction (alignment) ek saath crystal ki tarah seedhi rakhte hain! Halka sa 3-volt electric field lagate hi saari rods 90° ghum kar light rok deti hain — aur ek pixel black/white ho jaata hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Liquid Crystal ka bijli lagate hi mud kar light ko rokna ya pass karna (LCD Screen)",
+        "simple_meaning": "Paani mein tairti lakdiyon ka dher agar sab ek hi disha mein point kare aur button dabate hi ek saath mud jaaye."
+      },
+      "real_proof": "Calculators, digital watches aur billions of LCD screens pichle 50 saal se isi Liquid Crystal state par chal rahi hain.",
+      "mind_question": "Thand mein (jaise -20°C par) purani LCD screens slow ya freeze kyun ho jaati hain?"
+    },
+    {
+      "id": "ws_02_010",
+      "subtopic": "Quasicrystals Forbidden Symmetry",
+      "title": "Ek Aisa Crystal Jismein 5-Fold Symmetry Hai — Jise 100 Saal Tak Scientists Ne 'Physically Impossible' Kaha Tha!",
+      "shock_hook": "2011 mein Dan Shechtman ko Nobel mila ek aise crystal ke liye jise dekh kar log unhe 'pseudo-scientist' keh kar lab se nikaal chuke the!",
+      "aam_soch": "Crystals sirf 2, 3, 4 ya 6-sided patterns mein hi repeat ho sakte hain (jaise tiles floor par lagti hain).",
+      "science_truth": "Regular pentagons se floor bina gap ke nahi bhar sakte. Par Penrose tiling ki tarah two shapes ko non-repeating mathematical order mein rakhein to 5-fold (ya 10-fold) waves ka kinaron se mud kar bikharna pattern banta hai — ordered yet never repeating! Ise Quasicrystal kehte hain.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Aise crystals jinka pattern kabhi repeat nahi hota, phir bhi wo 100% organized hote hain",
+        "simple_meaning": "Ek aisa design jo poori tarah ordered aur niyambaddh hai, par uska koi hissa dobara repeat nahi hota."
+      },
+      "real_proof": "Baad mein Siberia ke Khatyrka meteorite aur pehle nuclear test (Trinity) ki glass mein natural Quasicrystals bhi mile!",
+      "mind_question": "Quasicrystals non-stick frying pans aur surgical needles mein aam crystals se zyada hard aur slip-resistant kyun hote hain?"
+    },
+    {
+      "id": "ws_02_011",
+      "subtopic": "Supercooled Water",
+      "title": "Bilkul Saaf Paani Ko -40°C Tak Thanda Kar Dein Tab Bhi Wo Liquid Reh Sakta Hai — Par Halka Sa Hilaate Hi Seconds Mein Barf Ban Jaata Hai!",
+      "shock_hook": "Freezer se nikaali hui thandi liquid bottle ko table par patakte hi upar se neeche barf ki lahar daud jaati hai!",
+      "aam_soch": "0°C par pahunchte hi har paani turant barf ban jaata hai.",
+      "science_truth": "Liquid se Ice crystal banne ke liye ek starting point ('bulbula shuru karne wala chhota kona' — jaise dust particle ya scratch) chahiye. Agar bottle aur paani ultra-pure aur shant hon, to paani 0°C se bahut neeche (-42°C tak!) liquid rehta hai — halka sa shock wave pehla crystal seed bana kar chain reaction chala deta hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Saaf bottle mein jamne ka koi kona na milne se paani ka 0°C se neeche bhi liquid rehna",
+        "simple_meaning": "Bheed ko baithne ke liye pehli kursi chahiye — jab tak pehla ice crystal nahi banta, baaki paani liquid rehne par majboor hota hai."
+      },
+      "real_proof": "Aasman ke high clouds mein water droplets -30°C par bhi liquid rehte hain aur airplane wings se takrate hi instant icing bana dete hain!",
+      "mind_question": "Normal paani ke muqable ubaal kar thanda kiya hua RO/distilled paani supercooling demo mein itna accha kaam kyun karta hai?"
+    },
+    {
+      "id": "ws_02_012",
+      "subtopic": "Superheated Water Microwave",
+      "title": "Microwave Mein Glass Ka Saaf Paani Bina Bulbulon Ke 100°C Paar Kar Jaata Hai — Aur Chammach Daalte Hi Phat Sakta Hai!",
+      "shock_hook": "Smooth ceramic cup mein paani 105°C par bhi shaant dikh sakta hai, aur ek pinch coffee/sugar daalte hi poora cup face par ubal padta hai!",
+      "aam_soch": "100°C par paani hamesha bubbles banakar ubalne lagta hai.",
+      "science_truth": "Boiling ke liye bhi chhote gas pockets (shuruat hone ka kona sites) chahiye hote hain. Gas stove par bartan ka tala bahut garam hota hai isliye bubbles ban jaate hain, par smooth mug mein microwave uniform heat karta hai — bubbles banne ke liye jagah na milne par paani 'Superheated' ho jaata hai aur ek chamach/particle girte hi instant steam explosion karta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Smooth cup mein ubalne ki jagah na milne par paani ka 100°C ke paar bina ubale garam rehna",
+        "simple_meaning": "Chhote bubble ko khulne ke liye paani ki upari khinchi hui parat todni padti hai; rough lakdi ka chamach ya scratches wo shuruat de dete hain."
+      },
+      "real_proof": "US FDA aur physics safety manuals plain water ko smooth glass mein microwave karne par wooden stirrer andar rakhne ki salah dete hain.",
+      "mind_question": "Chai patti ya coffee powder se pehle hi daal dene par paani kabhi superheat hokar erupt kyun nahi hota?"
+    },
+    {
+      "id": "ws_02_013",
+      "subtopic": "Ferrofluid Magnetic Spikes",
+      "title": "Ek Aisa Kaala Liquid Jo Magnet Paas Laate Hi Jinda Hedgehog Jaisa Kaanton Wala Shape Bana Leta Hai!",
+      "shock_hook": "Magnet hatate hi wo liquid ho kar beh jaata hai — magnet laate hi geometric kaante khade kar ke naachne lagta hai!",
+      "aam_soch": "Liquid kabhi magnet ke ishare par 3D solid spikes bana kar khada nahi ho sakta.",
+      "science_truth": "Ferrofluid mein Iron Oxide (Fe₃O₄) ke ~10 nanometer particles surfactant coating ke saath oil mein suspended rehte hain — itne chhote ki wo neeche baithte hi nahi. Magnetic field lines ko follow karne ki koshish aur liquid ke paani ki upari khinchi hui parat + gravity ki ladai mein wo perfect spikes ('Rosensweig Instability') banate hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Magnet aur liquid ke khichav ke beech ladai se Liquid Magnet mein kaante ban jaana",
+        "simple_meaning": "Magnetic pull liquid ko upar khinchta hai aur gravity/paani ki upari khinchi hui parat neeche — dono ke balance se spiky cones bante hain."
+      },
+      "real_proof": "NASA ne 1963 mein zero-gravity mein rocket fuel ko pump tak kheenchne ke liye Ferrofluid banaya tha; aaj ye high-end speakers aur hard-drive seals mein lagta hai.",
+      "mind_question": "Ferrofluid itna chhota magnet particle hone ke bawajood oil mein neeche settle kyun nahi hota (Brownian Motion ka kya role hai)?"
+    },
+    {
+      "id": "ws_02_014",
+      "subtopic": "Prince Rupert Drop",
+      "title": "Glass Ki Ek Aisi Boond Jo Hathode Aur Bullet Ko Bhi Tod De — Par Puchh Chhute Hi Dhool Ban Jaaye!",
+      "shock_hook": "Prince Rupert's Drop ke mote sar par 38-caliber bullet tak toot jaati hai, par uski patli tail par ek chutki todte hi poora glass micro-second mein powder ban jaata hai!",
+      "aam_soch": "Sheesha har jagah se ek hi tarah kamzor hota hai aur chot lagte hi toot jaata hai.",
+      "science_truth": "Pighle hue glass ko thande paani mein tapkane par bahar ki layer turant jam kar sikudti hai aur andar ka garam glass baad mein thanda hokar bahar ko zabardast compressive stress mein kheenchta hai (bulletproof!). Par tail mein tension unlocked rehti hai — wahan chhoti si crack 1,500+ m/s (Mach 4.5!) se poore drop ko explode kar deti hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Bahar ki thandi tight parat aur andar ki khinchi hui tension (Prince Rupert's Drop)",
+        "simple_meaning": "Bahar se itna tight dabav ho ki crack khul hi na sake — par andar ki tension ek baar azaad ho jaaye to poori building second mein gir jaaye."
+      },
+      "real_proof": "Aapke phone ka Gorilla Glass aur car ke side windows ('Tempered Glass') isi compression-stress physics par kaam karte hain!",
+      "mind_question": "Car ki windshield tootne par lambe teer jaise tukdon mein kyun nahi bikharti, jabki side window chhote-chhote daanon mein bikhar jaati hai?"
+    },
+    {
+      "id": "ws_02_015",
+      "subtopic": "Ice Skating Pressure & Pre-Melt",
+      "title": "Barf (Ice) Itni Slippery Kyun Hoti Hai — Jabki Sheesha Ya Dry Pathar Geela Na Ho To Nahi Phisalta?",
+      "shock_hook": "Barf ke upar har waqt ek invisible nano-layer Liquid Water ki rehti hai — chahe temp -30°C hi kyun na ho!",
+      "aam_soch": "Jooton ke pressure se barf pighal kar paani banti hai, isliye hum barf par phisalte hain.",
+      "science_truth": "Purani textbook kehti thi pressure se barf pighalti hai — par pressure se freezing point sirf ~0.07°C girta hai, -20°C par barf kaise phisalti hai? Surface ke water molecules ke paas upar koi partner nahi hota, isliye wo loosely vibrate kar ke ek permanent 'quasi-liquid' nano-film banaye rakhte hain (+ skate friction bhi madad karti hai)!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Barf ki sabse upari parat par 0°C se neeche bhi ek patli liquid jaisi fisalne wali parat rehna",
+        "simple_meaning": "Ice crystal ki sabse upari satah ke molecules ko neeche se pakad to milti hai par upar se nahi — isliye wo barf hote hue bhi paani jaise ludhakte rehte hain."
+      },
+      "real_proof": "Atomic Force Microscopy aur rangon se element pehchan-na ne -30°C tak barf ki surface par nanometer-thick mobile water film directly measure ki hai.",
+      "mind_question": "Agar -100°C par chale jaayein jahan ye quasi-liquid film jam jaati hai, to kya barf par phisalna sandpaper jaisa rough ho jaayega?"
+    },
+    {
+      "id": "ws_02_016",
+      "subtopic": "Ice Floats Anomaly",
+      "title": "Duniya Ke Lagbhag Saare Liquids Jamne Par Bhaari Ho Kar Doob Jaate Hain — Par Sirf Paani Halka Ho Kar Tairta Hai!",
+      "shock_hook": "Agar Ice paani se bhari hoti (normal solids ki tarah), to saari nadiyan aur samundar neeche se upar tak jam jaate aur Earth par life khatam ho jaati!",
+      "aam_soch": "Har cheez jamne par sikud kar chhoti aur heavy ho jaati hogi — ya ice aam baat hai.",
+      "science_truth": "Lagbhag har substance jamne par tight pack ho kar dense banta hai. Par Paani mein Hydrogen bonds 0°C par ek khula hexagonal 3D jaal banate hain jisme molecules ke beech 9% extra khali jagah chhoot jaati hai! Isi khali jagah se Ice halki (0.917 g/cm³) ho kar upar tairti hai aur neeche ke paani ko 4°C par zinda rakhti hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Jamne par paani ke molecules ka khule jaal mein phail jaana, jisse barf halki ho kar tairti hai",
+        "simple_meaning": "Thand mein paani ke molecules haath pakad kar khule gole mein khade ho jaate hain — jisse volume badh jaata hai aur wajan halka padta hai."
+      },
+      "real_proof": "Freezer mein paani ki glass bottle bhar kar rakhne par uska phat jana isi 9% ice expansion force ka saboot hai.",
+      "mind_question": "Gallium aur Silicon bhi paani ki tarah jamne par expand kyun hote hain?"
+    },
+    {
+      "id": "ws_02_017",
+      "subtopic": "Dry Ice & Leidenfrost",
+      "title": "Garam Tave Par Paani Ki Boond Turant Bhaap Banne Ke Bajaye Moti Ki Tarah Naachne Kyun Lagti Hai?",
+      "shock_hook": "Tava jitna zyada garam (200°C+), paani ki boond utni hi DER se sookhti hai — kyunki wo apni hi bhaap ke cushion par hawa mein udti rehti hai!",
+      "aam_soch": "Tava jitna zyada garam hoga, paani ki boond utni hi jaldi chhann se gayab ho jaayegi.",
+      "science_truth": "193°C (Leidenfrost Point) se upar, boond ka nichla hissa pal bhar mein bhaap ban kar ek insulating steam cushion bana leta hai. Steam heat ka kharab conductor hai, isliye boond tave ko chhuti hi nahi aur 10–30 second tak bina uble fisalti rehti hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Bahut garam tave par boond ke neeche bhaap ka cushion ban jaana jo boond ko jalne se bachata hai",
+        "simple_meaning": "Bhaap ki ek patli takiya boond ko garam steel se upar utha leti hai, jisse garmi andar jaani slow ho jaati hai."
+      },
+      "real_proof": "MythBusters aur physics demos mein geela haath seconds ke liye pighle hue Lead mein daal kar bina jale nikalna isi Leidenfrost steam shield se hota hai (par kabhi try mat kijiyega!).",
+      "mind_question": "Kya kisi bahut thande floor par Dry Ice ka tukda bhi aise hi bina friction ke apni gas cushion par hover karta hai?"
+    },
+    {
+      "id": "ws_02_018",
+      "subtopic": "Pitch Drop Experiment",
+      "title": "Ek Aisa Solid Damar (Pitch) Jo Hathode Se Sheeshe Ki Tarah Toot Jaata Hai — Par 100 Saal Se Boond-Boond Tapak Raha Hai!",
+      "shock_hook": "1927 mein shuru hue 'Pitch Drop Experiment' mein 97 saal mein ab tak sirf 9 boondein tapki hain — aur koi insaan use tapakte hue live nahi dekh paaya!",
+      "aam_soch": "Koi cheez agar hathode se toot jaaye to wo 100% solid hoti hai, beh nahi sakti.",
+      "science_truth": "Bitumen/Pitch ek Viscoelastic Polymer fluid hai jiski gaadhapan paani se 230 Billion guna zyada hai! Fast shock (hammer) par uske molecules move nahi kar paate aur wo brittle solid ki tarah toot jaata hai; par gravity ke continuous slow pull mein wo saalon mein ek boond girata hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Kitni der tak dekh rahe hain uspar nirbhar karta hai ki cheez solid hai ya dheere behne wala liquid",
+        "simple_meaning": "Solid ya Liquid hona is baat par bhi depend karta hai ki aap kitne seconds ya kitne saalon tak wait kar ke dekh rahe hain."
+      },
+      "real_proof": "University of Queensland (Australia) mein 1927 se rakha ye funnel Guinness World Record ka sabse lamba continuous lab experiment hai (next drop 2020s mein expected!).",
+      "mind_question": "Earth ke andar ka solid Mantle rock bhi kya hazaaron saalon ke time-scale par aise hi slowly beh kar continents chalata hai?"
+    },
+    {
+      "id": "ws_02_019",
+      "subtopic": "Ketchup & Blood Shear-Thinning",
+      "title": "Aapke Sharir Ka Khoon Aur Kitchen Ka Ketchup Ek Khaas Physics Trick Share Karte Hain!",
+      "shock_hook": "Khoon (Blood) patli nason (capillaries) mein jitna tez aur tight daab mein behta hai, utna hi PATLA ho jaata hai!",
+      "aam_soch": "Paani ki tarah har liquid ki gaadhapan (gaadhapan) hamesha fixed rehti hai.",
+      "science_truth": "Khoon aur Ketchup dono 'Shear-Thinning' fluids hain. Aaram mein Red Blood Cells chhote sikkon ke stack ('Rouleaux') bana kar gaadhe lagte hain; par jaise hi dil unhe patli capillaries mein dhakelta hai, shear stress stacks ko tod deta hai aur khoon aasani se flow hone lagta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Hilane ya jhatka lagane par Ketchup ke lambe molecules ka seedha ho kar patla behna",
+        "simple_meaning": "Dabav ya motion badhne par uljhe hue particles ek line mein lag jaate hain aur liquid patla ho kar bhaag nikalta hai."
+      },
+      "real_proof": "Paint bhi isi liye banaya jaata hai — brush chalate waqt patla hokar phail jaaye, par deewar par lagte hi gaadha hokar neeche na tapke!",
+      "mind_question": "Agar khoon paani ki tarah Newtonian liquid hota, to hamare dil ko pump karne mein kitni zyada mehnat lagti?"
+    },
+    {
+      "id": "ws_02_020",
+      "subtopic": "Quark-Gluon Plasma",
+      "title": "Big Bang Ke Pehle Microsecond Mein Universe Na Solid Tha Na Gas — Ek Trillion-Degree 'Perfect Liquid' Tha!",
+      "shock_hook": "CERN ke LHC mein gold/lead nuclei ko 99.999999% light speed par takrane par wo gas nahi, ab tak ka sabse friction-free Liquid banta hai!",
+      "aam_soch": "Bahut zyada garam cheez hamesha gas ya thin plasma hi ban jaati hogi.",
+      "science_truth": "4 Trillion °C par Protons aur Neutrons khud pighal kar apne andar ke Quarks aur Gluons ka soup bana lete hain (Quark-Gluon Plasma). Scientists ko laga ye gas jaisa hoga, par Strong Nuclear Force itni strong thi ki ye ab tak dekhe gaye har liquid se kam gaadhapan wala ideal fluid nikla!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Trillions degree garmi mein Protons ka pighal kar sabse chhote particles ka liquid soup ban jaana",
+        "simple_meaning": "Extreme garmi par atom ka nucleus bhi pighal kar universe ke shuruati 10-microsecond soup mein badal jaata hai."
+      },
+      "real_proof": "BNL RHIC aur CERN ALICE detectors ne elliptic flow patterns se confirm kiya ki QGP ek nearly-perfect liquid ki tarah behave karta hai.",
+      "mind_question": "Quark-Gluon Plasma sirf 10⁻²³ seconds ke liye banta hai — scientists itne chhote pal ki gaadhapan kaise naap lete hain?"
+    },
+    {
+      "id": "ws_02_021",
+      "subtopic": "Diamond Anvil Ice-VII",
+      "title": "Paani Sirf Ek Tarah Ki Barf Nahi Banata — Scientists Barf Ke 20 Se Zyada Alag-Alag Types Khoj Chuke Hain!",
+      "shock_hook": "Normal Ice (Ice Ih) ke alawa Ice VII, Ice X, Ice XIX tak aisi barfein hain jo 100°C ubalte temp par bhi rock-solid rehti hain!",
+      "aam_soch": "Barf sirf ek hi cheez hoti hai — white ya transparent frozen water.",
+      "science_truth": "H₂O ke V-shaped molecules alag-alag pressure par 20+ alag crystal geometries mein pack ho sakte hain. High pressure (2+ GPa) par banne wali Ice-VII paani se 1.6x dense hoti hai aur garam deep-Earth diamonds ke andar trapped mili hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Pressure badhane par barf ke atoms ka alag-alag 20 se zyada crystalline shapes mein jamna",
+        "simple_meaning": "Ek hi H₂O molecule ko jab alag pressure se dabaya jaaye to wo 20 alag-alag tarah ke 3D ghar bana leta hai."
+      },
+      "real_proof": "2018 mein Science journal mein natural diamonds ke andar phansi Ice-VII ki discovery publish hui — jisse earth ke mantle mein paani hone ka saboot mila.",
+      "mind_question": "Normal barf paani par tairti hai — kya Ice-VII paani mein pathar ki tarah doob jaayegi?"
+    },
+    {
+      "id": "ws_02_022",
+      "subtopic": "Silly Putty Bounce vs Break",
+      "title": "Ek Khilona Jo Farsh Par Ball Ki Tarah Uchhalta Hai, Par Table Par Chhod Dein To Roti Ki Tarah Pighal Jaata Hai!",
+      "shock_hook": "Silly Putty (Boron-Silicone polymer) ko ball bana kar phenkein to bounce karega, hathode se maarein to sheeshe ki tarah tootega, aur haath mein rakhein to beh jaayega!",
+      "aam_soch": "Koi cheez ya to rubber jaisi bouncy hoti hai ya sheeshe jaisi brittle ya honey jaisi flowy.",
+      "science_truth": "Silicone polymers ke beech Boron atoms temporary 'hydrogen-bond handshakes' banate hain. Dheere-dheere chhodein to haath chhoot kar chains beh jaati hain; par tez chot mein unhe haath chhodne ka time hi nahi milta aur wo cross-linked rubber ya brittle solid ban jaati hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Dheere khinchne par slime ke bonds ka khul jaana, aur tez jhatke par toote bina sakht rehna",
+        "simple_meaning": "Temporary dosti wala glue — agar aap jaldi mein dhakka dein to tight pakde rehta hai, par aaram se khinchein to chhod deta hai."
+      },
+      "real_proof": "1943 mein James Wright ne WWII rubber replacement dhoondhte waqt galti se Silicone oil mein Boric acid mila kar ye banta dekha tha!",
+      "mind_question": "Kya isi principle par aisi road surfaces ya protective helmets ban sakte hain jo normal mein soft par crash mein rock-hard ban jaayein?"
+    },
+    {
+      "id": "ws_02_023",
+      "subtopic": "Magnetic Liquid Oxygen",
+      "title": "Solid, Liquid, Gas Ke Beech Jab Hawa Jam Kar 'Neeli Barf' Ban Jaaye To Kya Hota Hai?",
+      "shock_hook": "Normal hawa ko -218°C par thanda karein to Nitrogen safed barf ban jaati hai aur Oxygen neeli crystal barf!",
+      "aam_soch": "Hawa hamesha invisible gas hi rehti hai, uska koi rang ya barf nahi hoti.",
+      "science_truth": "Gases mein molecules bahut door hote hain isliye light interact nahi karti. -183°C par Oxygen dense liquid banti hai aur do O₂ molecules mil kar red photons absorb karte hain — isliye pale-blue dikhti hai; -218°C par wahi blue barf (Solid Oxygen) ban jaati hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Liquid Oxygen ke molecules ke aapas mein takrane se uska neeli light dikhana",
+        "simple_meaning": "Jab do O₂ molecules bilkul nazdeek aa jaayein, to wo mil kar ek photon se do electron ek saath jump karwa kar blue color paida karte hain."
+      },
+      "real_proof": "Pluto planet par New Horizons spacecraft ne Nitrogen glaciers aur solid Methane ke pahaad sach mein photo kheench kar dikhaye!",
+      "mind_question": "Agar Nitrogen -210°C par jamti hai, to Pluto par -230°C mein Nitrogen barf pighal kar rivers kaise banati hai?"
+    },
+    {
+      "id": "ws_02_024",
+      "subtopic": "Water Bridges High Voltage",
+      "title": "Do Alag Glass Ke Beech Bina Kisi Pipe Ke Paani Hawa Mein 'Solid Bridge' Bana Kar Latak Sakta Hai!",
+      "shock_hook": "Do distilled-water beakers par 15,000 Volt DC lagate hi paani hawa mein seedha floating cylinder bridge bana leta hai!",
+      "aam_soch": "Paani hamesha gravity se neeche girta hai; bina pipe ke hawa mein cylinder bana kar ruk hi nahi sakta.",
+      "science_truth": "High electric field polar H₂O molecules ko ek chain mein align kar deta hai — itna strong bijli rokne wala insulator tension banta hai ki wo gravity ko balance kar ke centimetre-lambe horizontal water bridge ko hawa mein thame rakhta hai (aur doosri taraf paani transfer karta hai)!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "High voltage bijli lagane par paani ke molecules ka line mein jud kar hawa mein pul banana",
+        "simple_meaning": "Polar paani ke dipoles electric field mein tiny magnets ki tarah head-to-tail jud kar ek tight rassi bana lete hain."
+      },
+      "real_proof": "1893 mein William Armstrong ne ise pehli baar dekha aur Graz University (Austria) ke physicists ne high-speed laser experiments se 2007 mein confirm kiya.",
+      "mind_question": "Is experiment mein bilkul pure Distilled Water hi kyun use hota hai — normal tap water kyun nahi?"
+    },
+    {
+      "id": "ws_02_025",
+      "subtopic": "Liquid Nitrogen Popcorn",
+      "title": "Liquid Nitrogen Ek Cheez Ko Ek Hi Waqt Par Ubaalti Bhi Hai Aur Barf Bhi Banati Hai!",
+      "shock_hook": "Vacuum chamber mein Liquid Nitrogen (-196°C) ko pump karne par wo ek taraf tezi se boil hoti hai aur doosri second solid snow ban kar jam jaati hai!",
+      "aam_soch": "Koi liquid ubal raha ho to uska temperature badh raha hoga, wo thanda ho kar jam nahi sakta.",
+      "science_truth": "Evaporative cooling! Jab vacuum se vapour khincha jaata hai, to sabse energetic molecules ubal kar bhaag jaate hain — bache hue molecules ki average heat itni tez girti hai ki temperature -210°C pahunch kar Nitrogen ko solid snow mein jama deta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Vacuum mein hawa nikaalne se paani ka bina aag ke ubalna aur apni hi garmi kho kar jam jaana",
+        "simple_meaning": "Ubalte waqt tez bhaagne wale molecules saari garmi le jaate hain — aur peeche bacha liquid apni hi thand se jam jaata hai."
+      },
+      "real_proof": "Bilkul isi principle par garmi mein matke (earthen pot) ka paani aur aapka paseena thanda hota hai — bas vacuum mein ye process freezing speed par chala jaata hai!",
+      "mind_question": "Kya normal tap water ko bhi vacuum bell jar mein rakh kar bina freezer ke boil karte-karte barf mein jamaaya ja sakta hai?"
+    },
+    {
+      "id": "ws_02_026",
+      "subtopic": "Vortex Rings & Smoke",
+      "title": "Ek Invisible Hawa Ka Chhalla (gol bhanwar Ring) Bina Bikhre Poore Kamre Ke Paar Candle Bujha Sakta Hai!",
+      "shock_hook": "Air cannon se nikli hawa phailne ke bajaye ek tight spinning donut ban kar 20 feet door tak seedhi goli ki tarah jaati hai!",
+      "aam_soch": "Phook maarne par hawa kuch feet baad bikhar jaati hai, door tak tight nahi reh sakti.",
+      "science_truth": "Ek circular hole se tez pulse nikaalne par kinare ki friction se hawa andar ki taraf roll ho kar ek stable Toroidal gol bhanwar Ring bana leti hai. Ye ring khud ko spin kar ke hawa ke saath drag kam karti hai aur door tak energy le jaati hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Gol ring mein ghumti hui hawa ya paani ka bina bikhre door tak apni shape banaye rakhna",
+        "simple_meaning": "Spinning donut ki tarah hawa khud apne andar ghumti rehti hai, isliye aas-paas ki hawa use turant bikher nahi paati."
+      },
+      "real_proof": "Volcanoes (jaise Mount Etna), dolphins underwater bubble rings aur whales aise hi perfect gol bhanwar rings banate hain!",
+      "mind_question": "Agar do smoke rings aamne-saamne ya ek ke peeche ek bhejein, to unmein kya ajeeb 'leapfrogging' dance hota hai?"
+    },
+    {
+      "id": "ws_02_027",
+      "subtopic": "Chain Fountain Effect",
+      "title": "Jar Se Girte Waqt Steel Ki Beads Chain Achanak Hawa Mein Upar Fountain Ki Tarah Uchhal Kyun Jaati Hai?",
+      "shock_hook": "Table par rakhe jar se 50-meter bead chain neeche girayein to wo kinare se ghisatne ke bajaye hawa mein 2 feet upar arc bana kar udne lagti hai!",
+      "aam_soch": "Gravity sab cheezon ko sirf neeche khinchti hai — girte waqt chain upar hawa mein jump nahi kar sakti.",
+      "science_truth": "Steven Mould ne 2013 mein ye viral kiya aur Cambridge scientists ne prove kiya: Beads ke stiff links jab ek saath ghum kar neeche khinchte hain, to link ka pichla hissa jar ke dher/tali ko neeche dhakelta hai — Newton's 3rd Law se equal upward kick milkar chain ko hawa mein udha deta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Bartan se girti chain ka har kadi par neeche se dhakka kha kar hawa mein uncha uchna",
+        "simple_meaning": "Jab rigid rod ko ek end se upar khinchein to doosra end neeche zameen par push maarta hai — aur wahi push poori chain ko upar uchhal deta hai."
+      },
+      "real_proof": "Agar isi demo ko bina links wali soft rassi (thread) se karein to wo bilkul nahi uchhalti — kyunki lever action ke liye stiff links zaroori hain!",
+      "mind_question": "Chain jitni oonchi table se neeche giregi, uska hawa wala fountain utna hi ooncha kyun uthta jaata hai?"
+    },
+    {
+      "id": "ws_02_028",
+      "subtopic": "Kelvin Water Dropper",
+      "title": "Sirf Nal Se Tapakne Wale Saaf Paani Se Bina Magnet Ya Battery Ke 10,000 Volt Bijli Paida Ho Jaati Hai!",
+      "shock_hook": "Lord Kelvin ka 'Thunderstorm' apparatus sirf do tin cans aur do paani ki dhar se chalta hai — aur beech mein bijli ka spark maar deta hai!",
+      "aam_soch": "Bijli banane ke liye generator ghumana, solar panel ya chemical battery zaroori hoti hai.",
+      "science_truth": "Paani ki har boond mein thode natural positive-negative ions hote hain. Cross-wired metal rings ek stream ko slight positive aur doosri ko slight negative charge attract karne lagti hain; jaise-jaise boondein girti hain, positive feedback charge ko 10,000+ Volt tak badha kar air spark karwa deta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Do cheezon ko sirf ghisne par electrons ka ek side jama ho kar high-voltage spark banana",
+        "simple_meaning": "Chhota sa random charge difference khud apne aap ko amplify karte-karte lightning level voltage bana deta hai (energy paani ke girne se aati hai)."
+      },
+      "real_proof": "Aasman ke badalon mein barish/ole girte waqt bhi aisi hi charge separation se asli Lightning paida hoti hai!",
+      "mind_question": "Is Kelvin Dropper mein energy kahan se aayi? Jab voltage 10,000V pahunchta hai to girne wali paani ki boondein slow kyun dikhne lagti hain?"
+    },
+    {
+      "id": "ws_02_029",
+      "subtopic": "Metamaterials Auxetic",
+      "title": "Ek Aisa Solid Material Jise Khinchne Par Wo Patla Nahi Hota, Balki Mota Aur Chauda Ho Jaata Hai!",
+      "shock_hook": "Rubber band khinchne par beech se patla ho jaata hai — par 'Auxetic Metamaterial' khinchne par dono taraf se phool kar mota ho jaata hai!",
+      "aam_soch": "Duniya ki har cheez ko lamba khincho to wo beech se patli (thin) hi hogi.",
+      "science_truth": "Normal materials ka Poisson's Ratio positive hota hai. Par agar internal geometry ko inward-folded honeycombs (re-entrant bow-tie cells) mein design karein, to length-wise khinchte hi saare folded corners bahar ki taraf khul jaate hain — aur material mota ho jaata hai (Negative Poisson's Ratio)!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Aisi jaali design jo lambai mein khinchne par patli hone ke bajaye chaudai mein bhi phailti hai",
+        "simple_meaning": "Yahan properties atoms se nahi balki origami jaisi internal geometry se aati hain — folding khulne par size har taraf badhta hai."
+      },
+      "real_proof": "Running shoes ke shock-absorbing soles, blood-vessel stents aur blast-proof armor mein ab Auxetic structures use ho rahe hain.",
+      "mind_question": "Kya kisi material par pressure lagane par wo failne ke bajaye ek jagah jama ho kar aur zyada hard impact cushion ban sakta hai?"
+    },
+    {
+      "id": "ws_02_030",
+      "subtopic": "Vantablack Light Trap",
+      "title": "Ek Aisi Black Coating Jo 3D Cheez Ko Bhi Dekhne Wale Ki Aankhon Ke Liye 'Khali Black Hole' Bana Deti Hai!",
+      "shock_hook": "Ek crinkled aluminum foil ya insaani chehre ke statue par Vantablack lagane ke baad aapko uski naak, folds ya curves bilkul dikhna band ho jaate hain!",
+      "aam_soch": "Chahe jitna kala paint ho, roshni mein kisi cheez ke 3D curves aur shadows dikh hi jaate hain.",
+      "science_truth": "Carbon nanotubes ke vertical jungle mein 99.965% visible light andar ghus kar tubes ke beech baar-baar bounce hoti rehti hai aur heat ban jaati hai — bahar ek bhi photon wapas nahi aata! Jab light reflect hi nahi hoti, to brain 3D depth aur shading decode hi nahi kar paata.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Chhote Carbon pipes ke jangal mein roshni ka andar phans kar 99.96% gayab ho jaana",
+        "simple_meaning": "Light ek deep baans ke jungle mein ghus kar baar-baar takra kar gum ho jaati hai — wapas aankh tak kuch aata hi nahi."
+      },
+      "real_proof": "MIT ke 2019 coating ne 99.995% light absorb ki — ye telescopes ke andar stray glare khatam karne mein lagti hai.",
+      "mind_question": "Agar koi poori black car is coating se paint kar di jaaye to din ki dhoop mein uska temperature kitna tez badhega?"
+    },
+    {
+      "id": "ws_02_031",
+      "subtopic": "Exciton Condensation",
+      "title": "Kya Khali Light Aur Semiconductors Mil Kar Ek 'Excitonium' Naam Ka Ajeeb Liquid-Crystal Matter Bana Sakte Hain?",
+      "shock_hook": "50 saal ki theory ke baad scientists ne ek crystal mein electrons aur unke chhode hue 'holes' ko jod kar ek naya quantum phase proof kiya!",
+      "aam_soch": "Matter hamesha protons-neutrons-electrons se hi banta hai; ek khali 'hole' particle kaise ban sakta hai?",
+      "science_truth": "zaroorat par bijli chalane ya rokne wala chip material mein jab ek electron apni jagah chhodta hai, to pichhe chhooti positive khali jagah ('Hole') ek real particle ki tarah move karti hai. Electron + Hole mil kar ek hydrogen-jaisa 'Exciton' banate hain — jo thande crystal mein Bose-Einstein condensate ki tarah jama ho jaata hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Electron aur uski khali jagah ka mil kar crystal ke andar ek liquid jaisa behavior dikhana",
+        "simple_meaning": "Jaise paani mein hawa ka bulbula ek real cheez lagta hai, waise hi electrons ke samundar mein khali jagah bhi ek particle ki tarah behave karti hai."
+      },
+      "real_proof": "2017 mein University of Illinois ke Peter Abbamonte ki team ne TiSe₂ crystal mein EELS spectrometer se Excitonium ki clear signature confirm ki.",
+      "mind_question": "Jab electron aur hole ek doosre ko nullify nahi karte aur microsecond tak saath ghumte hain, to kya wo LED lights aur solar cells ki efficiency tay karte hain?"
+    },
+    {
+      "id": "ws_02_032",
+      "subtopic": "Hydrophobic Sand",
+      "title": "Ek Aisi Rait Jise Paani Ke Glass Mein Daal Dein Par Bahar Nikaalte Hi Wo 100% Sukhi Nikalti Hai!",
+      "shock_hook": "Magic Sand ko paani ke neeche daal kar mitti ke castles bana lein — chammach se nikaalte hi ek boond bhi geeli nahi rehti!",
+      "aam_soch": "Rait ya mitti paani mein jaate hi geeli aur chipchipi ho jaati hai.",
+      "science_truth": "Normal rait (SiO₂) polar hoti hai isliye paani chipakta hai. Agar rait ke har dane par Trimethylsilanol ki nano-coating kar dein, to surface non-polar (Lotus leaf jaisi paani ko door bhagane wala) ho jaati hai! Paani ke molecules rait ke bajaye ek-doosre se chipakna pasand karte hain aur rait ke chaaron taraf ek microscopic air pocket bana lete hain.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Paani ko na pasand karne wali wax layer jismein hawa phans kar keede ko tairati hai",
+        "simple_meaning": "Rait ke har dane ko ek invisible rain-jacket pehna di jaaye to paani usse chhune ke bajaye door bhagta hai."
+      },
+      "real_proof": "Oil spills samundar se saaf karne aur water-repellent glass/fabrics banane mein yahi paani ko door bhagane wala surface science use hoti hai.",
+      "mind_question": "Lotus (kamal) ke patte aur duck ke pankh bhi bina kisi soap ya battery ke aise hi hamesha dry kaise rehte hain?"
+    },
+    {
+      "id": "ws_02_033",
+      "subtopic": "Acoustic Levitation",
+      "title": "Sirf Sound Waves Ke Beech Paani Ki Boondein Aur Insect Bina Kisi Taar Ke Hawa Mein Latak Sakte Hain!",
+      "shock_hook": "High-frequency ultrasonic speaker ke neeche paani ki boond hawa mein bina chhue float karti rehti hai!",
+      "aam_soch": "Hawa mein kisi cheez ko tairane ke liye pankha, magnet ya rocket thrust zaroori hota hai.",
+      "science_truth": "Jab do ultrasonic waves aamne-saamne takra kar ek 'Standing Wave' banati hain, to beech mein kuch permanent shaant points ('Nodes') bante hain jinke upar aur neeche high pressure waves hoti hain. Chhoti boondein ya seeds in pressure pockets mein fass kar gravity ke khilaf hawa mein latki rehti hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Tez silent sound waves ke nodes par hawa ka pressure ban kar cheezon ko hawa mein latkana",
+        "simple_meaning": "Sound waves ke high-pressure walls ke beech chhote quiet traps ban jaate hain jo chhoti cheezon ko hawa mein pakad lete hain."
+      },
+      "real_proof": "Pharma labs mein container-less medicine testing ke liye aawaz ki Levitators use hote hain taaki glass wall reaction ko pollute na kare!",
+      "mind_question": "Is ultrasonic aawaz ki levitator mein insaan ko hawa mein kyun nahi udhaya ja sakta (kaunsi frequency aur power chahiye hogi)?"
+    },
+    {
+      "id": "ws_02_034",
+      "subtopic": "Teflon Slippery Physics",
+      "title": "Duniya Ki Sabse Phislan-Wali Cheez — Jis Par Chipkali (Gecko) Tak Nahi Chipak Sakti!",
+      "shock_hook": "Teflon (PTFE) itna non-stick hai ki koi glue, paani, tel ya yahan tak ki deewar par daudne wali gecko bhi is par fisal kar gir jaati hai!",
+      "aam_soch": "Kisi cheez ko smooth aur polish kar dein to wo non-stick ban jaati hai.",
+      "science_truth": "Carbon aur Fluorine ke beech duniya ka sabse strong single electrons share kar ke bana bond hota hai. Teflon chain ke chaaron taraf Fluorine atoms ka ek tight, symmetrical armor hota hai jo kisi bahari molecule ke saath Van der Waals ya hydrogen bond banne hi nahi deta!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Teflon mein Fluorine ki tight pakad ki wajah se kisi bhi cheez ka uspar na chipak paana",
+        "simple_meaning": "Teflon ke atoms apne padosiyon se itna khush rehte hain ki wo kisi bahari cheez se haath milane ko taiyaar hi nahi hote."
+      },
+      "real_proof": "Par sawal ye hai: agar Teflon par kuch nahi chipakta, to Teflon pan ke aluminum par kaise chipkaaya jaata hai? (powder ko garmi aur dabav se jodna + microscopic rough grit grooves mein mechanically lock kar ke!)",
+      "mind_question": "Agar Teflon non-stick hai, to uske upar superglue bhi chipakne mein fail kyun ho jaata hai?"
+    },
+    {
+      "id": "ws_02_035",
+      "subtopic": "Piezochromic & Mechanochromic",
+      "title": "Ek Aisa Plastic/Crystal Jo Khinchne Ya Hathoda Maarne Par Bina Paint Ke Apna Rang Badal Leta Hai!",
+      "shock_hook": "Polydiacetylene ya Mechanophore polymers par pressure padte hi wo Neela se Laal rang mein badal kar warn karte hain ki material tootne wala hai!",
+      "aam_soch": "Material par stress ya fracture sirf tootne ke baad ya X-ray machine se hi pata chalta hai.",
+      "science_truth": "Scientists ne aise 'Mechanophore' rings banaye hain jo polymers ke andar judi hoti hain. Jab bridge, plane wing ya rope par khatarnak khinchav aata hai, to rings khul kar light absorption change karti hain aur material glow/color change kar ke danger dikha deta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Plastic ya rubber ko khinchne par uske molecules ka rang badal kar tootne ki warning dena",
+        "simple_meaning": "Mechanical pulling energy molecule ke andar ek chhote button ko khinch kar rang badalne wala switch on kar deti hai."
+      },
+      "real_proof": "Smart aerospace composites aur sports helmets mein concussion impact force instantly dikhane ke liye mechanochromic sensors develop kiye gaye hain.",
+      "mind_question": "Jab hum normal clear plastic scale ko baar-baar modte hain to wo safed kyun ho jaata hai — kya wo bhi micro-cavities ki light scattering hai?"
+    },
+    {
+      "id": "ws_02_036",
+      "subtopic": "Shape Memory Polymer",
+      "title": "Ek Smart Plastic Thread Jise Ganth Baandh Kar Chhod Dein, Par Garam Hawa Lagte Hi Khud Ganth Khol Kar Silai Kar De!",
+      "shock_hook": "Smart surgical sutures patient ke body temperature (37°C) par pahunchte hi khud tight ho kar wound band kar dete hain!",
+      "aam_soch": "Dhaga ya plastic apni marzi se khud ko tighten ya untie nahi kar sakta.",
+      "science_truth": "Shape Memory Polymers mein ek permanent cross-linked network aur ek temporary crystalline switch hota hai. Thande mein ise kisi bhi loose shape mein rakha ja sakta hai; body heat (transition temp) paate hi temporary locks pighalte hain aur permanent network wapas purani tightly coiled shape mein laut aata hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Rubber ko garm karne par uske uljhe molecules ka wapas sikudne ki koshish karna",
+        "simple_meaning": "Polymer chains ko jabardasti seedha kar ke thand mein jamaya jaata hai; garmi milte hi wo apni natural uljhi hui relaxed state mein wapas spring ho jaati hain."
+      },
+      "real_proof": "Andreas Lendlein aur Robert Langer ne Science journal mein self-tying biodegradable surgical sutures demonstrate kiye the.",
+      "mind_question": "Rubber band garam karne par phailne ke bajaye sikudta (contract) kyun hai — jabki metal wires garam karne par lambe hote hain?"
+    },
+    {
+      "id": "ws_02_037",
+      "subtopic": "Kevlar Stopping Bullets",
+      "title": "Ek Patli Kapde Jaisi Jaali Tez Goli (Bullet) Ko Kaise Rok Leti Hai — Jabki Lohe Ki Chadar Ched Ho Jaati Hai?",
+      "shock_hook": "Kevlar ek plastic thread hai — par 10 layers mil kar 9mm goli ki energy poore kapde mein phaila kar rok deti hain!",
+      "aam_soch": "Bulletproof cheez sirf moti aur bhari steel plate hi ho sakti hai.",
+      "science_truth": "Kevlar (aramid polymer) ke chains ekdum seedhe aligned aur hydrogen bonds se ek mesh mein locked hote hain. Bullet lagte hi energy ek point par rukne ke bajaye sonic speed par poori woven net ke hazaaron fibers mein bat jaati hai — aur bullet ghoom kar energy kho deti hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Kevlar ke dhaagon ka aapas mein itni mazboot hydrogen pakad rakhna ki wo goli rok leta hai",
+        "simple_meaning": "Ek football net ek akeli steel rod se kamzor dikhta hai, par ball ki impact energy poore net mein baant kar use zero kar deta hai."
+      },
+      "real_proof": "Stephanie Kwolek ne 1965 mein DuPont lab mein cloudy polymer solution ko throw karne ke bajaye spin karwaya — aur Kevlar ki khoj hui!",
+      "mind_question": "Bulletproof Kevlar vest goli rok leta hai, par ek sharp chhuri (knife) se stab karne par fail kyun ho sakta hai?"
+    },
+    {
+      "id": "ws_02_038",
+      "subtopic": "Liquid Helium Fountain",
+      "title": "Sirf Flashlight Ki Halka Si Roshni Daalne Par Liquid Helium Mein Se Fountain Nikal Padta Hai!",
+      "shock_hook": "Thermomechanical Effect: bina rukawat behne wala liquid Helium ko thoda sa garam karte hi bina kisi pump ke 30 cm ooncha fountain shoot karta hai!",
+      "aam_soch": "Liquid ko upar uchhalne ke liye pressure pump ya ubaalne ki zaroorat hoti hai.",
+      "science_truth": "bina rukawat behne wala liquid Helium do components se bana lagta hai: 'normal fluid' (heat wala) aur 'bina rukawat behne wala liquid' (zero-bikhraav (disorder) wala). Agar aap ek fine-powder tube par halka sa heat/torch daalein, to zero-bikhraav (disorder) bina rukawat behne wala liquid garmi ke taraf daud kar density barabar karne ki koshish karta hai aur pipe se upar fountain ban kar phoot padta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Thodi si garmi milte hi Superfluid Helium ka patli tube se fountain ki tarah upar uchhalna",
+        "simple_meaning": "Normal liquids heat se door bhagte hain; quantum bina rukawat behne wala liquid bikhraav (disorder) equalize karne ke liye heat ki taraf upar daudta hai!"
+      },
+      "real_proof": "behad zyada thanda (-150°C se neeche) telescopes (jaise Spitzer/Herschel) mein moving pumps ke bina liquid helium manage karne ke liye aise hi porous-plug fountain pumps use kiye gaye.",
+      "mind_question": "Kya bina rukawat behne wala liquid Helium ke andar bubbles bante hain jab use garam kiya jaaye — ya uski garmi aage bhejne ki speed copper se bhi laakhon guna tez hoti hai?"
+    },
+    {
+      "id": "ws_02_039",
+      "subtopic": "Boyle's Flask Impossible?",
+      "title": "Kya patli naliyon mein paani ka apne aap upar chadhna Se Paani Apne Aap Pipe Mein Upar Chadh Kar Hamesha Behne Wala Fountain Bana Sakta Hai?",
+      "shock_hook": "Patli glass tube mein paani gravity ke khilaf khud upar chadh jaata hai — fir upar se neeche gir kar perpetual loop kyun nahi banata?",
+      "aam_soch": "Agar paani patli tube mein upar chadh sakta hai, to upar pipe mod kar neeche tapka dein to muft energy mil jaayegi!",
+      "science_truth": "Robert Boyle ne 1600s mein ye thought experiment kiya tha! Paani glass ki paani ki upari khinchi hui parat se upar to chadhta hai, par top par pahunchte hi wahi paani ki upari khinchi hui parat use boond ban kar neeche girne se rok leti hai — agar pipe ka muh neeche karein, to meniscus chhote level par hi Equilibrium mein ruk jaata hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Patli tube mein paani upar chadh sakta hai par upar se chhalak kar perpetual fountain nahi ban sakta",
+        "simple_meaning": "Jis haath ne paani ko upar khincha tha, wahi haath use end par pakad kar rakh lega — chhodega nahi."
+      },
+      "real_proof": "Par ped (trees) 100 meter oonche kaise paani pahunchate hain? Wahan patte se dhoop ki garmi mein paani bhaap ban kar udna hota hai — energy Sun se aati hai, muft mein nahi!",
+      "mind_question": "100 meter oonche Redwood pedon mein suction 10 meter ki atmospheric limit ko tod kar top tak paani kaise kheenchta hai?"
+    },
+    {
+      "id": "ws_02_040",
+      "subtopic": "Mpemba Effect",
+      "title": "Freezer Mein Garam Paani Thande Paani Se Pehle Barf Kaise Ban Sakta Hai?",
+      "shock_hook": "1963 mein ek Tanzanian schoolboy Erasto Mpemba ne ice-cream banate waqt dekha ki garam mixture thande se pehle jam gaya — aur aaj tak scientists is par behas kar rahe hain!",
+      "aam_soch": "Thande paani ko 0°C tak aane mein kam time lagega, isliye thanda hamesha pehle jamega.",
+      "science_truth": "Specific conditions mein garam paani pehle jam sakta hai kyunki: (1) garam paani se bhaap ban kar mass thoda kam ho jaata hai, (2) garam hawa ya paani ka upar uthna currents heat tezi se surface par laati hain, (3) dissolved gases kam hone se supercooling change hoti hai, aur (4) freezer ke frost layer ko pighla kar better thermal contact bana sakta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Bhaap udne aur ghoomne ki wajah se kabhi-kabhi garam paani thande se pehle barf ban jaana",
+        "simple_meaning": "Cooling sirf initial temperature par nahi, balki garam hawa ya paani ka upar uthna, bhaap ban kar udna aur shuruat hone ka kona ke raaste par bhi depend karti hai."
+      },
+      "real_proof": "Aristotle aur Francis Bacon ne bhi ise note kiya tha; 2020 mein Nature mein Simon Fraser University ne quantum/micro-bead Mpemba effect experimentally verify kiya.",
+      "mind_question": "Kya har baar garam paani pehle jamta hai ya sirf kuch khaas container shapes aur freezer conditions mein?"
+    },
+    {
+      "id": "ws_02_041",
+      "subtopic": "Electrorheological Fluids",
+      "title": "Ek Aisa Liquid Jo Sirf 1 Button Dabate Hi 1 Millisecond Mein Solid Stone Ban Jaata Hai — Aur Button Chhodte Hi Phir Paani!",
+      "shock_hook": "Magnetorheological (MR) ya Electrorheological (ER) fluid mein magnet/voltage lagate hi liquid instant rock-solid ho jaata hai!",
+      "aam_soch": "Liquid ko solid banane ke liye jamana (freeze) ya sukhana zaroori hota hai.",
+      "science_truth": "Oil mein suspended micro-iron particles normal mein freely float karte hain. Jaise hi bijli aur magnet se bani coil ON hoti hai, micro-particles seedhe magnetic field lines ke along chains bana kar jaam ho jaate hain — 0.002 seconds mein liquid se solid gel ban jaata hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Magnet on karte hi oil mein tairte iron particles ka jud kar 1 millisecond mein solid ban jaana",
+        "simple_meaning": "Oil mein tairte lohe ke dane magnet on hote hi ek doosre ka haath pakad kar tight pillars bana lete hain."
+      },
+      "real_proof": "Luxury sports cars (Audi/Ferrari/Cadillac MagneRide) ke shock absorbers aur earthquake-proof buildings ke dampers mein MR fluids lagte hain!",
+      "mind_question": "Gaddhe par car aane ke milliseconds ke andar MR shock absorber kaise decide karta hai ki kitna tight ya soft hona hai?"
+    },
+    {
+      "id": "ws_02_042",
+      "subtopic": "Sintering & Powder Solid",
+      "title": "Bina Pighlaye Metal Ya Ceramic Powder Ko Sirf Dabav Aur Thodi Heat Se Solid Steel Piece Kaise Bana Dete Hain?",
+      "shock_hook": "Tungsten (3,422°C) ya Ceramic ko pighlane ki zaroorat hi nahi — powder ko dabaa kar neeche ke temp par hi atoms aapas mein fuse ho jaate hain!",
+      "aam_soch": "Powder ko solid banane ke liye use poori tarah pighlana (melt) zaroori hota hai.",
+      "science_truth": "Melting point se kaafi neeche (~60–80% temp par), powder grains jahan ek-doosre ko chhute hain wahan atoms surface energy kam karne ke liye diffuse ho kar neck-bridges bana lete hain (powder ko garmi aur dabav se jodna) — bilkul do barf ke tukdon ko dabaane par ek ho jaane ki tarah!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Barf ke do tukdon ko dabane par beech ka thoda hissa pighal kar wapas jud jaana",
+        "simple_meaning": "Do dust particles ko chhupane ki jagah kam karne ke liye atoms kinaron par walk kar ke apas mein jud jaate hain."
+      },
+      "real_proof": "Metal 3D printing, Tungsten bulb filaments aur brake pads sab isi powder ko garmi aur dabav se jodna process se bina poora pighlaye banaye jaate hain.",
+      "mind_question": "Haath mein do barf ke tukde kuch seconds tight dabaa kar chhodein to wo ek hi tukda ban kar chipak kyun jaate hain ('Regelation')?"
+    },
+    {
+      "id": "ws_02_043",
+      "subtopic": "Aerogel vs Water",
+      "title": "99.8% Khali Hawa Wala Aerogel Jab Liquid Mein Jaata Hai To Kya Hota Hai?",
+      "shock_hook": "paani ko door bhagane wala Aerogel paani mein bilkul dry rehta hai aur upar chandi jaisa mirror chamak dikhata hai — par normal paani se pyar karne wala Aerogel ek boond chhute hi toot kar powder ban jaata hai!",
+      "aam_soch": "Hawa wala sponge paani pee kar geela sponge ban jaata hoga.",
+      "science_truth": "paani se pyar karne wala Aerogel ke nano-pores itne patle (20 nm) hote hain ki paani ghuste hi zabardast patle chhedon ke khichav pressure lagta hai — aur nazuk silica walls is pressure ko jhel na paa kar instantaneously crumble ho jaati hain! Par paani ko door bhagane wala coating kar dein to wo paani mein chandi ke bubble ki tarah chamakta hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Sookhte waqt micro-chhedon ke paani ke khichav se pure gel ka sikud kar toot jaana",
+        "simple_meaning": "Jitna chhota pore, utni massive patle chhedon ke khichav suction force — itni tez ki nano-walls khud toot jaayein."
+      },
+      "real_proof": "Isi patle chhedon ke khichav collapse se bachane ke liye Aerogel banate waqt liquid ko normal bhaap ban kar udna se nahi, liquid aur gas ke beech ki khaas halat drying se nikaala jaata hai!",
+      "mind_question": "Kya Graphene ya Polymer Aerogels paani mein bina toote 1000 baar squeeze kiye ja sakte hain?"
+    },
+    {
+      "id": "ws_02_044",
+      "subtopic": "Sublimation & Freezer Burn",
+      "title": "Aapke Freezer Mein Rakhi Barf Bina Pighle Aur Bina Paani Bane Dheere-Dheere Chhoti Hokar Gayab Kyun Ho Jaati Hai?",
+      "shock_hook": "-18°C freezer ke andar bhi Ice cubes hafte bhar mein sikud jaate hain — kyunki barf bina liquid bane seedha gas mein ud jaati hai!",
+      "aam_soch": "Barf sirf 0°C se upar pighal kar hi bhaap ya kam ho sakti hai.",
+      "science_truth": "Solid ice ke surface molecules ke paas bhi random thermal energy hoti hai; dry freezer air mein kuch molecules seedhe ice atoms ka jaal se chhoot kar vapour phase mein escape ho jaate hain (solid se seedha gas ban kar udna). Isi wajah se frozen food mein 'Freezer Burn' aur frost buildup hota hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Zero degree se neeche bhi barf ke molecules ka dheere-dheere solid se seedha bhaap ban kar udna",
+        "simple_meaning": "Har temperature par kuch fastest surface molecules solid jail tod kar hawa mein bhaag sakte hain."
+      },
+      "real_proof": "Freeze-dried coffee aur astronauts ka 'space ice cream' isi principle se vacuum mein ice ko bina pighlaye seedhe sukha kar banaya jaata hai!",
+      "mind_question": "Himalaya mein -10°C ki kadake ki thand mein bhi dhoop aane par geela kapda sukh kaise jaata hai?"
+    },
+    {
+      "id": "ws_02_045",
+      "subtopic": "Degenerate Matter White Dwarf",
+      "title": "Tare (Stars) Marne Ke Baad Ek Aisa 'Degenerate Matter' Banate Hain Jismein Chini Ke Cube Jitna Tukda Ek Haathi Jitna Bhari Hota Hai!",
+      "shock_hook": "White Dwarf star mein Electron Degeneracy Pressure atoms ko itna dabata hai ki 1 cm³ matter ka wajan ~1 TON hota hai!",
+      "aam_soch": "Solid metal (jaise Osmium) se zyada dense kuch ho hi nahi sakta.",
+      "science_truth": "Normal atoms mein 99.9999999% space electrons ke clouds ki wajah se khali hoti hai. Dead star mein gravity itni massive hoti hai ki wo orbitals tod kar nuclei ko chipka deti hai — sirf Pauli ka niyam (do electrons ek hi jagah nahi baith sakte) (do electrons ek hi quantum state mein nahi reh sakte) use black hole banne se rokta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Mare hue stars mein electrons ke aapas mein na ghus paane ki taqat jo gravity ko rokti hai",
+        "simple_meaning": "Electrons ko itna dabaya jaaye ki wo ek hi jagah baithne se mana kar dein — wahi quantum zid poore dead star ko sambhale rakhti hai."
+      },
+      "real_proof": "1930 mein 19-saal ke Subrahmanyan Chandrasekhar ne ship par baith kar calculate kiya ki 1.4 Solar Mass (Chandrasekhar Limit) ke baad ye pressure bhi haar maan leta hai (1983 Nobel Prize)!",
+      "mind_question": "Agar star ka mass 1.4 Chandrasekhar limit se zyada ho aur electrons haar maan lein, to aage Neutron Star aur Black Hole kaise bante hain?"
+    },
+    {
+      "id": "ws_02_046",
+      "subtopic": "Water Memory Myth vs Real H-Bond",
+      "title": "Paani Ke Molecules Ek Second Mein Trillion Baar Partner Badalte Hain — Phir Bhi Ice Aur Liquid Itna Alag Kaise?",
+      "shock_hook": "Aapke glass ka har H₂O molecule har 1 Picosecond (10⁻¹² s) mein apne hydrogen bonds tod kar naye padosi se haath milata hai!",
+      "aam_soch": "Liquid paani mein molecules shayad lambe time tak chains ya clusters mein jude rehte honge.",
+      "science_truth": "Femtosecond infrared lasers ne dikhaya ki liquid water mein H-bonds 1–2 picoseconds mein toot-te aur bante hain — matlab paani koi static structure ya 'memory' hold nahi kar sakta! Par ye continuous dynamic dancing network hi paani ka boiling point +100°C rakhta hai (warna H₂S ki tarah -60°C par gas hota!).",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Har picosecond (second ke arabvein hisse) mein paani ke molecules ka haath chhod kar naya bond banana",
+        "simple_meaning": "Har millisecond mein billion baar haath chhod kar naya haath pakadne wala flash-mob dance — isliye liquid beh bhi sakta hai aur strong bhi rehta hai."
+      },
+      "real_proof": "Agar paani mein H-bonding na hoti, to H₂O bhi H₂S (-60°C) ya H₂Se (-41°C) ki tarah room temp par gas hota aur samundar hote hi nahi!",
+      "mind_question": "H₂O aur H₂S ek hi periodic group ke hain, fir H₂O liquid aur H₂S badbudar gas kyun hai?"
+    },
+    {
+      "id": "ws_02_047",
+      "subtopic": "Metallic Glass",
+      "title": "Agar Pighle Hue Metal Ko Ek Millisecond Mein Thanda Kar Dein To Wo Crystal Nahi, 'Metallic Glass' Ban Jaata Hai!",
+      "shock_hook": "Bulk Metallic Glass dikhta metal jaisa hai, par andar se glass ki tarah disordered hota hai — aur Titanium/Steel se 2–3x zyada bouncy aur strong hota hai!",
+      "aam_soch": "Saare metals hamesha crystalline atoms ke neat rows se hi bante hain.",
+      "science_truth": "Normal metals thanda hote waqt crystal grains banate hain jinke beech weak boundaries hoti hain. Agar 4–5 alag size ke metal atoms (e.g. Zr-Ti-Cu-Ni-Be) ko mila kar ultra-fast cool karein, to unhe crystal banane ka time hi nahi milta aur 'bina fixed crystal pattern wala Metal' ban jaata hai jismein koi weak grain boundary nahi hoti!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "4-5 alag metals ko milane par atoms ko jamne ka sahi rasta na milna aur Metallic Glass banna",
+        "simple_meaning": "5 alag size ki balls ko jaldi se jamane par wo neat lines mein lag hi nahi paatin — aur bina weak joints ka super-elastic metal ban jaata hai."
+      },
+      "real_proof": "Apple ke SIM ejector pins (Liquidmetal), NASA ke solar-wind collectors aur high-energy golf clubs mein Bulk Metallic Glass use hua hai.",
+      "mind_question": "Doosri metallic balls ke muqable Metallic Glass ki chhoti ball steel plate par 10x zyada der tak bounce kyun karti rehti hai?"
+    },
+    {
+      "id": "ws_02_048",
+      "subtopic": "Dry Wetting & Meniscus",
+      "title": "Ek Glass Mein Paani Kinare Se Upar Chadhta Hai, Par Doosre Glass Mein Mercury Beech Se Upar Phool Jaata Hai!",
+      "shock_hook": "Paani glass ko geela kar ke upar khinchta hai (Concave), jabki Mercury glass se nafrat kar ke gol goli (Convex) ban jaata hai!",
+      "aam_soch": "Kisi bhi liquid ko glass mein bharo to uska top level bilkul flat hona chahiye.",
+      "science_truth": "Ye Adhesion (glass se chipakna) aur Cohesion (apne aap se chipakna) ki ladai hai. Paani ke molecules glass ke Si-O bonds ko pasand karte hain isliye wall par chadh jaate hain; Mercury atoms apas mein itne tight jude hain ki wo glass se door hat kar convex dome bana lete hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Paani ke boond ka apas mein chipakna vs patte ya kaanch se chipakne ke beech ki ladai",
+        "simple_meaning": "Agar liquid ko apna parivaar deewar se zyada pasand hai to wo goli banega; agar deewar zyada pasand hai to phail kar chadh jaayega."
+      },
+      "real_proof": "Agar isi glass par Teflon ya wax laga dein, to paani ka contact angle bhi 110°+ ho kar convex boond ban jaata hai!",
+      "mind_question": "Mercury thermometer tootne par chhoti-chhoti moti jaisi goliyan farsh par kyun daudti hain aur kapde ko geela kyun nahi kartin?"
+    },
+    {
+      "id": "ws_02_049",
+      "subtopic": "Rydberg Giant Atoms",
+      "title": "Ek Akele Atom Ko Phula Kar Ek Bacteria Jitna Bada Banaya Ja Sakta Hai — Aur Uske Andar Doosre Atoms Ghum Sakte Hain!",
+      "shock_hook": "Rydberg Atom mein electron ko laser se itna door bhej diya jaata hai ki ek atom normal se 10,000 guna bada ho jaata hai!",
+      "aam_soch": "Atoms hamesha fixed ultra-tiny size (~0.1 nanometer) ke hi hote hain.",
+      "science_truth": "Principal quantum number n=1 se badha kar laser se n=100+ par le jaayein, to atomic radius n² ke hisaab se 10,000x badh kar micrometer scale (bacteria size!) tak pahunch jaata hai! Scientists ne ek giant Rydberg atom ke electron orbit ke andar 170+ chhote neutral atoms trap kar ke 'Rydberg Polaron' banaya hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Laser se electron ko bahut door bhej kar ek aam atom ko bacteria jitna bada bana dena",
+        "simple_meaning": "Electron ko itna high energy orbit de diya jaaye ki wo nucleus se micrometer door ghumne lage — ek hollow giant atom!"
+      },
+      "real_proof": "2018 mein TU Wien aur Harvard ke physicists ne Bose-Einstein condensate ke andar giant Rydberg Polaron matter experimentally banaya (Physical Review Letters).",
+      "mind_question": "Rydberg atoms quantum computers mein itne popular kyun ho rahe hain — ek doosre se micrometer door hokar bhi wo baat kaise karte hain?"
+    },
+    {
+      "id": "ws_02_050",
+      "subtopic": "Sonication Cavitation",
+      "title": "Paani Ko Bina Garm Kiye Sirf Ultrasound Se Usmein 5,000°C Ke Tiny Explosions Karwaye Ja Sakte Hain!",
+      "shock_hook": "Thande paani mein ultrasonic cleaner chalaane par micro-bubbles toot-te hain aur local temp Suraj ki satah (5,000 K) tak pahunch jaata hai!",
+      "aam_soch": "Ultrasound sirf safai ya medical scanning ke liye gentle vibrations karta hai.",
+      "science_truth": "Tez sound wave ki low-pressure cycle mein micro vacuum bubbles bante hain, aur high-pressure cycle mein wo itni tezi se collapse (paani ke andar vacuum bulbule ban kar phatna) hote hain ki andar ki gas bina bahar ki garmi liye-diye compression se thousands of Kelvin garam ho kar micro-shockwaves aur free radicals bana deti hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Sound wave se paani mein bana vacuum bubble jab phat-ta hai to andar Suraj jitni garmi aur roshni nikalti hai",
+        "simple_meaning": "Chhota sa vacuum bubble jab charon taraf se paani ke massive pressure se ek point par pichakta hai, to andar micro-furnace jal uthta hai."
+      },
+      "real_proof": "Isi paani ke andar vacuum bulbule ban kar phatna ki wajah se tez ghumne wale ship propellers ka solid bronze metal bhi kuch mahinon mein khud-ba-khud khud kar chhed-chhed ho jaata hai!",
+      "mind_question": "Jewellery shop wala ultrasonic cleaner sirf 2 minute mein bina brush ke anguthi ke andar ki gandagi kaise saaf kar deta hai?"
+    },
+    {
+      "id": "ws_02_051",
+      "subtopic": "Dry Ice Skating",
+      "title": "Kya Barf Ke Alawa Dry Ice, Solid Nitrogen Aur Methane Bhi Space Mein Geysers Banate Hain?",
+      "shock_hook": "Neptune ke chand Triton par liquid paani nahi, -235°C par Nitrogen gas ke 8-km oonche kaale geysers phoot-te hain!",
+      "aam_soch": "Volcano ya geyser sirf garam lava aur ubalte paani se hi phoot sakte hain.",
+      "science_truth": "Triton par transparent Nitrogen ice ki parat hai; door Suraj ki thodi roshni barf ke aar-paar jaakar neeche ki dark mitti ko sirf kuch degrees garam karti hai — par Nitrogen ke liye wahi kaafi hai! Neeche Nitrogen gas ban kar pressure badhati hai aur upar barf phaad kar 'Cryovolcano' banati hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Transparent barf ke andar dhoop phans kar neeche ki Nitrogen gas ko garam kar ke geyser banana",
+        "simple_meaning": "Suraj ki halka si roshni transparent barf ke neeche heat trap kar ke thandi gas ka pressure cooker bana deti hai."
+      },
+      "real_proof": "1989 mein Voyager 2 spacecraft ne Triton ke surface par dark nitrogen geyser plumes live photograph kiye the.",
+      "mind_question": "Saturn ke chand Enceladus par kaunsi tidal force barf ke neeche liquid samundar aur water geysers chalati hai?"
+    },
+    {
+      "id": "ws_02_052",
+      "subtopic": "Supersolid Contradiction",
+      "title": "Ek Aisa Quantum Matter Jo Ek Hi Waqt Par Crystal Ki Tarah Rigid Solid Bhi Hai Aur Frictionless Liquid Bhi!",
+      "shock_hook": "2019–2021 mein scientists ne sach mein 'Supersolid' banaya — jismein atoms crystal pattern mein baith kar bhi ek-doosre ke aar-paar beh sakte hain!",
+      "aam_soch": "Solid aur Liquid ek doosre ke bilkul opposite hain; koi ek cheez dono ek saath nahi ho sakti.",
+      "science_truth": "Dipolar Dysprosium/Erbium atoms ke Bose-Einstein Condensate mein quantum chhote-chhote utar-chadhav unhe ek periodic crystal droplets mein arrange karti hain, jabki atoms ki matter-waves poori crystal mein continuous coherent bina rukawat behne wala liquid flow banaye rakhti hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Ek hi material ka ek saath crystal solid aur bina rukawat behne wala superfluid ban jaana",
+        "simple_meaning": "Ek chess board jiske squares fix crystal jaise hain, par players bina kisi friction ke sabhi squares mein ek saath wave ki tarah behte hain."
+      },
+      "real_proof": "Innsbruck (Ferlaino lab) aur Stuttgart ke physicists ne 2021 mein 2D Supersolid arrays directly create aur image kiye (Nature).",
+      "mind_question": "Kya kisi Neutron Star ke andar ke crust mein bhi aisi hi 'nuclear pasta' ya supersolid state exist karti hai?"
+    },
+    {
+      "id": "ws_02_053",
+      "subtopic": "Soap Bubble Thin Film",
+      "title": "Ek Sabun Ka Bulbula Fhatne Se Theek 1 Second Pehle Bilkul Kaala (Invisible) Kyun Ho Jaata Hai?",
+      "shock_hook": "Rainbow chamakne wala soap bubble jab phatne ke kareeb hota hai, to uske top par ek 'Black Spot' dikhta hai jahan thickness sirf 5 nm bachti hai!",
+      "aam_soch": "Soap bubble jab patla hota hai to aur zyada safed ya shiny ho kar phat-ta hoga.",
+      "science_truth": "Soap film ki thickness jab light ki wavelength (400–700 nm) se bahut kam (< 20 nm) ho jaati hai, to front surface aur back surface se reflect hone wali light waves 180° out-of-phase ho kar ek doosre ko CANCEL (light waves ka ek-doosre ko kaat kar andhera karna) kar deti hain — isliye koi light reflect nahi hoti aur jagah kaali dikhti hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Sabun ke bulbule ki sabse patli parat par light waves ke aapas mein katne se uska kaala dikhna",
+        "simple_meaning": "Jab film itni patli ho ki aage aur peeche ki light waves ek-doosre ko zero kar dein, to roshni aar-paar nikal jaati hai."
+      },
+      "real_proof": "Camera lenses aur chashmon par Anti-Reflective (AR) coating bhi exact quarter-wavelength destructive interference se glare zero karti hai!",
+      "mind_question": "Agar soap bubble sirf paani se banayein (bina soap ke), to wo 1 second bhi hawa mein kyun nahi tikta?"
+    },
+    {
+      "id": "ws_02_054",
+      "subtopic": "Chladni Sand Patterns",
+      "title": "Ek Metal Plate Par Rait Chhidak Kar Violin Bow Chalayein To Rait Khud Geometric Mandalas Bana Leti Hai!",
+      "shock_hook": "Har musical note par rait ke dane bikharkar nahi, bilkul symmetrical phool aur star patterns mein arrange ho jaate hain!",
+      "aam_soch": "Vibration se rait sirf randomly uchhal kar plate se neeche gir jaani chahiye.",
+      "science_truth": "Plate par jab ek ek taal par bajne wali frequency bajti hai, to Standing Waves banti hain. Plate ke jo hisse tez upar-neeche hilte hain (antinodes) wahan se rait uchhal kar un silent lines ('Nodal Lines') par aa kar ruk jaati hai jo bilkul nahi hil rahin!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Vibrate hoti plate par ret ka sirf un shaant jagahon par jama hona jahan plate nahi hilti",
+        "simple_meaning": "Kaanpte hue farsh par rait sirf un shant jagahon par jama hoti hai jahan vibration zero hai — aur wahi patterns banati hai."
+      },
+      "real_proof": "1787 mein Ernst Chladni ne ise discover kiya aur aaj bhi violin/guitar makers wood plates ki aawaz ki quality check karne ke liye Chladni patterns use karte hain.",
+      "mind_question": "Frequency badhate jaayein to rait ke geometric patterns aur zyada complex aur chhote-chhote cells mein kyun bat-te jaate hain?"
+    },
+    {
+      "id": "ws_02_055",
+      "subtopic": "Brazil Nut Effect",
+      "title": "Dry Fruits Ya Chips Ka Dabba Hilane Par Bada Samaan Neeche Doobne Ke Bajaye Sabse Upar Kyun Aa Jaata Hai?",
+      "shock_hook": "Mix namkeen ya nuts ke dabbe ko shake karein to bhari aur bade Brazil nuts / kaju hamesha top par aa jaate hain — aur chhote dane neeche!",
+      "aam_soch": "Bhari aur badi cheezein hilane par neeche tal mein baith jaani chahiye.",
+      "science_truth": "Har shake par jab sabhi pieces hawa mein thoda uchhalte hain, to chhote dane bade piece ke neeche bane gaps mein fisal kar bhar jaate hain — bada piece fir wapas neeche nahi aa paata! Is 'Granular garam hawa ya paani ka upar uthna' ki wajah se bada aur bhari item bhi upar chadh jaata hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Dabbe ko hilane par chhote dane neeche fisal kar bade Brazil Nuts ko upar dhakel dete hain",
+        "simple_meaning": "Chhote kankar har jump mein bade patthar ke neeche slip ho kar use ek-ek step upar dhakelte jaate hain."
+      },
+      "real_proof": "Pharma factories mein tablets/powder mix karte waqt aur earthquake mein bade boulders upar aane mein yehi granular physics scientists ka sir-dard hoti hai!",
+      "mind_question": "Kya kisi khaas density par bada ball upar aane ke bajaye neeche bhi jaa sakta hai ('Reverse Brazil Nut Effect')?"
+    },
+    {
+      "id": "ws_02_056",
+      "subtopic": "Hydrogel 99% Water Solid",
+      "title": "Ek Aisi Jelly Jo 99% Sirf Paani Hai — Phir Bhi Us Par Gaadi Chadh Jaaye To Nahi Phat-ti!",
+      "shock_hook": "Double-Network Hydrogel sirf 1–10% polymer aur 90%+ paani se banta hai, par rubber se zyada tough aur slice-proof hota hai!",
+      "aam_soch": "99% paani wali cheez haath lagate hi toot kar bikharni chahiye (jaise jelly).",
+      "science_truth": "Normal jelly mein ek weak polymer net hota hai. Double-network hydrogel mein ek tight brittle net aur ek stretchy elastic net aapas mein uljhe rehte hain — chot lagne par pehla net toot kar saari energy pee leta hai aur doosra net shape ko tootne se bacha kar wapas khinch leta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Jhatka lagne par pehle kamzor bonds ka toot kar energy sokhna aur main structure ko bachana",
+        "simple_meaning": "Ek net khud ko kurbaan kar ke jhatka absorb karta hai aur doosra stretchy net structure ko zinda rakhta hai — bilkul hamare knee cartilage ki tarah!"
+      },
+      "real_proof": "2020s mein Cambridge aur Hokkaido labs ne aise artificial cartilage hydrogels banaye jo steel ki tarah compression jhel kar artificial knee joints ban rahe hain.",
+      "mind_question": "Agar ye 99% paani hai, to dhoop ya dry kamre mein iska paani sukh kar papad na bane, iske liye kya kiya jaata hai?"
+    },
+    {
+      "id": "ws_02_057",
+      "subtopic": "Marangoni Effect Wine Tears",
+      "title": "Alcohol Ya Sabun Paani Ki Satah Par Girte Hi Paani Bina Hawa Ke Khud Daudne Kyun Lagta Hai?",
+      "shock_hook": "Soap-boat ko paani mein rakh kar peeche ek boond sabun daalein to boat bina battery ke aage rocket ki tarah bhaag jaati hai!",
+      "aam_soch": "Paani mein motion lane ke liye dhakka, hawa ya gravity slope chahiye hota hai.",
+      "science_truth": "Pure paani ka paani ki upari khinchi hui parat bahut high hota hai; jahan sabun ya alcohol girta hai wahan paani ki upari khinchi hui parat achanak gir jaata hai. Doosri taraf ka strong paani ki upari khinchi hui parat paani aur boat ko apni taraf tez khinch leta hai (Marangoni Flow) — aur wine glass ke kinare 'Tears of Wine' bhi isi wajah se upar chadhte hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Wine mein alcohol aur paani ke alag-alag evaporation se satah par khichav ban kar boondein girna",
+        "simple_meaning": "Ek taraf ki rubber sheet dheeli kar dein to doosri taraf ki tight rubber sheet sab kuch apni taraf kheench leti hai."
+      },
+      "real_proof": "zaroorat par bijli chalane ya rokne wala chip material silicon wafers ko bina water-spots ke sukhaane ('Marangoni Drying') mein industrial fabs isi physics ko use karti hain!",
+      "mind_question": "Paani mein chhidki hui kaali mirch (black pepper) ungli par ek boond sabun lagakar touch karte hi kinaron par kyun bhaag jaati hai?"
+    },
+    {
+      "id": "ws_02_058",
+      "subtopic": "Birefringence Plastic Stress",
+      "title": "Two Sunglasses Ke Beech Clear Plastic Ruler Rakhein To Usmein Rainbow Rangon Mein Stress Dikhta Hai!",
+      "shock_hook": "Transparent scale mein jo microscopic cracks aur forces chhupe hote hain, wo Polarized light mein glowing rainbow lines ban kar dikh jaate hain!",
+      "aam_soch": "Clear plastic ya glass ke andar kahan stress/dabav pad raha hai, ye aankhon se nahi dekh sakte.",
+      "science_truth": "Plastic mein jab internal stress hota hai, to uske polymer chains khinch kar light ko do perpendicular directions mein alag-alag speed se pass karte hain (Photoelastic light ka do alag hisson mein bat jaana). Two crossed polarizers (jaise laptop screen + polarized chashma) is speed difference ko rainbow interference colors mein badal dete hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Clear plastic par dabav padne se light ke do hisson mein batne par rainbow stress lines dikhna",
+        "simple_meaning": "Dabav se plastic ke andar light ke do lanes ki speed alag ho jaati hai, aur polarizers use rangin map bana kar dikha dete hain."
+      },
+      "real_proof": "Bridges, airplane windows aur smartphone screens mein hidden factory stress check karne ke liye Photoelasticity testing use hoti hai.",
+      "mind_question": "Airplane ki khidki ke paas polarized sunglasses pehan kar dekhne par ajeeb rainbow patches kyun dikhte hain?"
+    },
+    {
+      "id": "ws_02_059",
+      "subtopic": "Cold Boiling Vacuum",
+      "title": "Room Temperature Ka Paani Bina Stove Aur Bina Garam Hue Khud Ubal Sakta Hai — Aur Haath Daalo To Thanda Lage!",
+      "shock_hook": "Vacuum pump chalate hi 25°C ka thanda paani tez bubbles ke saath ubalne lagta hai — aur thermometer dekhein to temp badhne ke bajaye 0°C ki taraf girta jaata hai!",
+      "aam_soch": "Ubalne (Boiling) ka matlab hi hota hai 100°C ki extreme garmi — ubalta paani hamesha jalata hai.",
+      "science_truth": "Ubalna tab hota hai jab liquid ka vapour pressure bahar ki hawa ke pressure ke barabar ho jaaye. Hawa pump se hata dein to 25°C ka vapour pressure hi kaafi hota hai! Aur kyunki high-energy molecules bhaap ban kar heat chura lete hain, ubalta paani aur zyada THANDA hota jaata hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Kam pressure par paani ka thande mein ubalna aur apni garmi kharch kar ke barf ban jaana",
+        "simple_meaning": "Ubalne ke liye temperature badhana zaroori nahi — upar ki hawa ka bojh hata dein to thanda paani bhi bhaap banne lagta hai."
+      },
+      "real_proof": "Mount Everest ke top par atmospheric pressure kam hone se paani 68°C par hi ubal jaata hai — isliye wahan daal/chawal khule bartan mein galte hi nahi!",
+      "mind_question": "Pressure cooker mein khana jaldi kyun pakta hai — kya andar ka paani 100°C se upar ~120°C tak bina bhaap bane garam rehta hai?"
+    },
+    {
+      "id": "ws_02_060",
+      "subtopic": "Glass Actually Solid",
+      "title": "School Myth Busted: Sheesha (Glass) Koi 'Slow-Flowing Liquid' Nahi Hai — Wo 1000 Saal Mein Bhi Nahi Behta!",
+      "shock_hook": "Purane churches ki khidkiyon ka glass neeche se mota sirf isliye hai kyunki purane glass-makers use hand-spin kar ke banate the aur mota hissa neeche lagate the!",
+      "aam_soch": "Glass ek 'supercooled liquid' hai jo sadiyon mein gravity se neeche behta hai.",
+      "science_truth": "Glass ek bina fixed crystal pattern wala Solid hai (atoms disordered hain par locked hain). Room temp par glass ki gaadhapan calculate karein to 1 nanometer behne mein universe ki umar (13.8 billion years) se bhi kayi guna zyada waqt lagega! Purane Roman aur Egyptian glass vessels aaj bhi bilkul crisp aur undeformed hain.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Kaanch ke molecules random hain par itne jam chuke hain ki laakhon saal mein bhi nahi behte",
+        "simple_meaning": "Atoms ki arrangement liquid jaisi random zaroor hai, par wo itne jam chuke hain ki 10²⁰ saal tak hil hi nahi sakte."
+      },
+      "real_proof": "Edgar Zanotto (1998) ke calculations ne prove kiya ki cathedral glass ko visibly flow hone mein 10³² saal lagenge — aur purani khidkiyon mein kai panes upar se mote bhi lage mile hain!",
+      "mind_question": "To fir Amber (purana tree resin jismein million-saal purane insects band hain) bhi kya aise hi ek natural bina fixed crystal pattern wala Solid glass hai?"
+    },
+    {
+      "id": "ws_02_061",
+      "subtopic": "Pore-Scale Capillary Tree",
+      "title": "Ek 100-Meter Ooncha Ped Bina Kisi Mechanical Pump Ke Har Din Hazaaron Liter Paani Upar Kaise Khinchta Hai?",
+      "shock_hook": "Vacuum pump paani ko sirf 10.3 meter upar khinch sakta hai — par Redwood trees paani ko 115 meter upar 'Negative Pressure' (Tension) se khinchte hain!",
+      "aam_soch": "Vacuum suction se paani kitni bhi oonchai tak khincha ja sakta hai.",
+      "science_truth": "Atmosphere 10.3m se upar push nahi kar sakta, uske baad vacuum mein paani ubal kar toot jaana chahiye! Par ped ke ultra-fine Xylem tubes mein paani ke molecules strong Hydrogen bonds se ek solid rassi ki tarah jude rehte hain (Cohesion-Tension) — isliye patton se bhaap ban kar udna paani ko -15 atm tension mein bina tode upar khinch leta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Pedon ke pipes mein paani khinchav ki wajah se negative pressure mein bina toote upar chadhna",
+        "simple_meaning": "Patli tubes mein paani hawa ki tarah toot-ta nahi, balki ek strong khinchi hui rassi ki tarah upar chadh jaata hai."
+      },
+      "real_proof": "Agar Xylem mein ek tiny air bubble (embolism) aa jaaye to wo rassi toot jaati hai — ped us hisse ko band kar ke bagal ki tube se paani bhejte hain!",
+      "mind_question": "Physics ke hisaab se kya koi ped 130 meter se ooncha ug sakta hai ya uske baad gravity + xylem tension ki limit toot jaayegi?"
+    },
+    {
+      "id": "ws_02_062",
+      "subtopic": "Aerogel Thermal Shield",
+      "title": "Kya Hawa Ko Solid Mein Badla Ja Sakta Hai? Frozen Nitrogen-Oxygen Nahi, 'Frozen Smoke' Dekhiye!",
+      "shock_hook": "Blue-tint wala Silica Aerogel dikhne mein hawa ka solid tukda lagta hai, aur iska light modne ki taqat (1.007) lagbhag hawa (1.0003) ke barabar hai!",
+      "aam_soch": "Koi bhi solid ya to glass jaisa chamkega ya opaque pathar jaisa dikhega.",
+      "science_truth": "Aerogel mein 99.8% hawa aur 0.2% nano-silica walls hoti hain jo visible light ki wavelength se chhoti (2–20 nm) hain. Isliye light bina zyada mude pass ho jaati hai, bas Rayleigh scattering (aasmaan jaisi!) ki wajah se halka neela glow dikhta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Chhote chhedon aur crystals ke beech hawa phansne se light har taraf bikhar kar safed dikhti hai",
+        "simple_meaning": "Aasman ki tarah chhote nano-pores blue light ko thoda scatter kar dete hain, isliye solid cheez bhi hawa/dhuaan jaisi neeli dikhti hai."
+      },
+      "real_proof": "NASA ke Stardust spacecraft ne jab 6 km/s speed par comet ke dust particles pakde, to Aerogel ne unhe bina pighlaye cushion kar ke intact rok liya!",
+      "mind_question": "Agar ek comet ka particle 6 km/s (rifle bullet se 6x tez) par Aerogel se takraya, to wo usmein carrot-shape tunnel banakar bina toote kaise ruk gaya?"
+    },
+    {
+      "id": "ws_02_063",
+      "subtopic": "Liquid Air & Magnet",
+      "title": "Ek Bottle Ke Andar Hawa Ko Thanda Kar Ke 'Critical Opalescence' Dekhein: Jab Gas Aur Liquid Ek Hi Waqt Milky Ban Jaayein!",
+      "shock_hook": "Band tube mein CO₂ ya SF₆ ko 31°C/45°C ke critical point par laayein to transparent cheez achanak doodh jaisi white fog ban kar gayab ho jaati hai!",
+      "aam_soch": "Gas aur Liquid ke beech ki line hamesha crisp dikhti hai (ek meniscus line).",
+      "science_truth": "Critical Point par liquid aur gas ki density barabar ho jaati hai, aur molecules massive density chhote-chhote utar-chadhav mein aa jaate hain — jinka size exact visible light ki wavelength (~500 nm) ke barabar ho jaata hai! Light massive scatter hoti hai (Critical Opalescence) aur fir line mit kar ek single liquid aur gas ke beech ki khaas halat phase banta hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Critical point par liquid ke andar bade-bade density clouds banna jo use doodhiya bana dete hain",
+        "simple_meaning": "Liquid aur gas banne ki confusion mein molecules ke bade-bade jhund bante hain jo har direction mein light bikhair kar doodh jaise dikhte hain."
+      },
+      "real_proof": "Einstein ne 1910 mein is milky glow ki mathematical theory di thi jo aage chal kar modern infinity hatane ka math tarika Group physics ka base bani.",
+      "mind_question": "Subah ki dhoondh (fog) aur Critical Opalescence mein dono white dikhte hain — dono ke white dikhne ke peeche size ka kya connection hai?"
+    },
+    {
+      "id": "ws_02_064",
+      "subtopic": "Piezoelectric Quartz Resonance",
+      "title": "Ek Chhota Crystal Jo Ek Second Mein 32,768 Baar Kaanp Kar Aapki Ghadi Ko Exact Chalata Hai!",
+      "shock_hook": "Har sasti quartz watch mein ek tiny tuning-fork shaped Quartz crystal bijli se exact 2¹⁵ = 32,768 Hz par vibrate hota rehta hai!",
+      "aam_soch": "Digital ya quartz watch mein sirf ek computer chip time count karti hai.",
+      "science_truth": "Microchip ke paas khud time ka koi andaaza nahi hota! Battery Quartz tuning fork ko electric pulse se vibrate karti hai (Reverse dabane par bijli banane wala Effect), aur crystal har vibration par electric signal wapas bhejta hai. 15 binary flip-flops use 2 se divide karte-karte theek 1 Pulse/Second (1 Hz) bana dete hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Quartz crystal par bijli dene se uska fix rhythm par kaanpna aur exact time ginta rehna",
+        "simple_meaning": "Ek microscopic crystal ghanti jo insaani kaan se upar 32,768 baar har second bajti hai aur digital ginti chalati hai."
+      },
+      "real_proof": "32,768 (2¹⁵) isliye chuna gaya kyunki wo human hearing limit (20,000 Hz) se upar sabse chhoti power-of-2 frequency hai — taaki ghadi se tik-tik ki aawaz na aaye!",
+      "mind_question": "Aapke mobile aur computer CPU mein bhi aisa hi Quartz crystal oscillator kitne Megahertz par dhadak kar processor clock chalata hai?"
+    },
+    {
+      "id": "ws_02_065",
+      "subtopic": "Kessler/Taylor Bubble Instability",
+      "title": "Paani Mein Ek Bada Hawa Ka Bulbula Upar Uth-te Waqt Gol Nahi, 'Mushroom Umbrella' Kyun Ban Jaata Hai?",
+      "shock_hook": "Chhote bubbles gol rehte hain, par bada bubble (1 cm+) upar jaate hi neeche se chapta aur upar se chhata (mushroom cap) ban jaata hai!",
+      "aam_soch": "Hawa ka har bubble paani mein gol sphere ban kar hi upar aata hai.",
+      "science_truth": "Chhote bubble ko paani ki upari khinchi hui parat gol rakhti hai. Par bada bubble jab tez upar uthta hai, to samne ke paani ka dynamic pressure use upar se chapta karta hai aur neeche ka low-pressure wake use andar ki taraf kheench kar mushroom/skirt shape bana deta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Paani ke pressure aur khichav ki wajah se bade bubbles ka gol ki jagah umbrella shape lena",
+        "simple_meaning": "Surface tension ki pakad kamzor padte hi bahar ke paani ka dhakka bubble ka shape bilkul badal deta hai."
+      },
+      "real_proof": "Barish ki girne wali badi boondein bhi 'teardrop' shape ki nahi hotin — hawa ke pressure se wo hamburger bun jaisi chapti ho jaati hain!",
+      "mind_question": "To fir cartoon aur emojis mein barish ki boond ko hamesha tear-drop shape ka kyun dikhaya jaata hai?"
+    },
+    {
+      "id": "ws_02_066",
+      "subtopic": "Electrostatic Ink / Toner",
+      "title": "Laser Printer Bina Ek Boond Geeli Ink Ke Plastic Powder Se Paper Par HD Page Kaise Chhap Deta Hai?",
+      "shock_hook": "Laser printer mein liquid ink hoti hi nahi — wo static electricity aur 200°C garam roller se plastic dust ko kagaz mein pighla kar chipkata hai!",
+      "aam_soch": "Har printer paper par liquid ink spray karta hai, bas laser printer tez hota hoga.",
+      "science_truth": "Drum par laser light ghoom kar jahan-jahan likhna hota hai wahan static electric charge hata deta hai. Opposite-charged black plastic powder (Toner) sirf unhi jagahon par chipakta hai, paper par transfer hota hai, aur garam fuser roller use pighla kar paper fibers mein lock kar deta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Light aur static charge se drum par invisible photo bana kar uspar kaala toner powder chipkana",
+        "simple_meaning": "Balloon ko baal par ragad kar kagaz chipkane wali static bijli ko laser precision se control kar ke chhapai hoti hai."
+      },
+      "real_proof": "Laser printouts par kabhi paani gir jaaye to ink pighal kar nahi phailti — kyunki toner melted plastic polymer hai, liquid dye nahi!",
+      "mind_question": "Printer se nikalte hi kagaz garam kyun hota hai, aur printer jab standby par ho tab bhi bar-bar chhota sa fan kyun chalta hai?"
+    },
+    {
+      "id": "ws_02_067",
+      "subtopic": "Bingham Plastic Toothpaste",
+      "title": "Toothpaste Brush Par Solid Pathar Ki Tarah Baitha Rehta Hai, Par Tube Dabate Hi Cream Ban Kar Bahar Aa Jaata Hai!",
+      "shock_hook": "Bingham Plastics jab tak minimum threshold force ('Yield Stress') na mile tab tak 100% solid ki tarah khade rehte hain!",
+      "aam_soch": "Toothpaste bas ek bahut gaadha liquid hai jo dheere-dheere beh jaayega.",
+      "science_truth": "Toothpaste, mayonnaise aur wet concrete 'Bingham Plastics' hain. Unke andar clay/polymer particles ka weak 3D house-of-cards mesh gravity ke force se nahi girta (to brush par baitha rehta hai). Par jaise hi aap tube press kar ke Yield Stress paar karte hain, cards toot-te hain aur paste easily behne lagta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Toothpaste ka tab tak solid rehna jab tak aap tube par ek khas limit se zyada dabav na dalein",
+        "simple_meaning": "Ek fixed minimum dhakke se kam force par bilkul solid; usse upar force lagate hi smooth liquid!"
+      },
+      "real_proof": "Agar toothpaste normal thick liquid hota, to raat bhar mein brush ke bristles ke beech se beh kar neeche tapak jaata!",
+      "mind_question": "3D Printing (concrete house printing aur bio-printing) mein Bingham Plastic behaviour itna zaroori kyun hota hai?"
+    },
+    {
+      "id": "ws_02_068",
+      "subtopic": "Magnetocaloric Cooling",
+      "title": "Ek Aisa Solid Metal Jo Magnet Ke Paas Laate Hi Garam Ho Jaata Hai Aur Magnet Hatate Hi Thanda Ice-Cold!",
+      "shock_hook": "Gadolinium metal ko bina kisi compressor ya gas ke sirf magnet ghumane se Fridge/AC ki tarah thanda kiya ja sakta hai!",
+      "aam_soch": "Cooling karne ke liye fridge ki gas (thandak lane wali gas) compress aur expand karna hi ek rasta hai.",
+      "science_truth": "Magnet lagate hi Gadolinium ke atomic magnetic spins ek line mein align ho jaate hain — jisse magnetic bikhraav (disorder) ghat-ti hai aur thermal vibration (heat) badh jaati hai! Hawa/water se ye heat hata kar magnet band kar dein to spins wapas random hone ke liye metal ki heat khaa kar use thanda kar dete hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Magnet paas laane par metal ke andar ke spins seedhe ho kar metal ko garam aur hatane par thanda karna",
+        "simple_meaning": "Spin disorder kam hone par garmi bahar nikalti hai; magnet hatane par spins phir phailne ke liye aas-paas ki garmi chura kar thand paida karte hain."
+      },
+      "real_proof": "Labs mein milli-kelvin ultra-low temperatures (bina bahar ki garmi liye-diye Magnet khatam karne) tak pahunchne ka yahi main tareeqa hai aur zero-greenhouse-gas fridges is par ban rahe hain!",
+      "mind_question": "Gadolinium ka Curie Temperature ~20°C (room temp) ke paas kyun itna khaas maana jaata hai?"
+    },
+    {
+      "id": "ws_02_069",
+      "subtopic": "Cryogenic Nitrogen Boiling Hand",
+      "title": "Kya Scientists Sach Mein Liquid Nitrogen (-196°C) Ko Haath Par Daal Kar Bina Frostbite Ke Phenk Dete Hain?",
+      "shock_hook": "Liquid Nitrogen haath par kuch milliseconds tapak kar bina geela kiye fisal jaati hai — par agar wo ring ya glove mein ruk jaaye to ungli jam kar toot sakti hai!",
+      "aam_soch": "-196°C ki cheez chhute hi turant haath ko jamakar patthar bana degi.",
+      "science_truth": "Aapka +37°C haath -196°C Liquid Nitrogen ke liye +233°C garam tave jaisa hai! Instant Leidenfrost effect se haath aur liquid ke beech Nitrogen gas ki cushion ban jaati hai jo liquid ko chhune nahi deti. Par agar liquid kapde/glove mein fass jaaye to gas cushion khatam hokar turant severe freeze burn hota hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Thandi barf par garam boond ke neeche bhi vapor cushion ban kar boond ka bina chipke tairna",
+        "simple_meaning": "Insaani haath aur behad thanda liquid ke beech 233°C ka farq turant gas ki hawa-takiya bana deta hai — sirf jab tak liquid fisal jaaye!"
+      },
+      "real_proof": "Isi wajah se behad thanda lab safety rules kehte hain ki Liquid Nitrogen handle karte waqt cloth gloves nahi pehanne chahiye jo liquid ko soak kar lein (kabhi haath par try na karein!).",
+      "mind_question": "Phir ek phool (rose) ya rubber ball ko Liquid Nitrogen mein dubone par wo 5 second mein glass ki tarah tootne layak kyun jam jaata hai?"
+    },
+    {
+      "id": "ws_02_070",
+      "subtopic": "Electrochromic Smart Glass",
+      "title": "Ek Glass Window Jo Button Dabate Hi Clear Sheeshe Se Deep Dark Tint Ban Jaati Hai — Bina Parde (Curtain) Ke!",
+      "shock_hook": "Boeing 787 Dreamliner ki khidkiyon mein koi plastic shade nahi hota — sirf 1.5 Volt bijli se glass dark blue/black ho jaata hai!",
+      "aam_soch": "Sheeshe ko kaala karne ke liye upar se sun-film ya parda lagana hi padta hai.",
+      "science_truth": "Glass ke do layers ke beech Tungsten Oxide (WO₃) aur Lithium ions ki nano-sandwich hoti hai. Battery voltage lagate hi Lithium ions aur electrons WO₃ mein ghus kar 'Tungsten Bronze' bana dete hain jo light absorb kar ke glass ko dark kar deta hai — polarity palat-te hi ions wapas laut kar glass clear kar dete hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Bijli ke halka sa voltage badalne par smart glass ke andar ions ghus kar uska rang dark kar dena",
+        "simple_meaning": "Ek ultra-thin transparent battery jo charge hone par rang badal kar dark tint ban jaati hai aur discharge hone par wapas clear!"
+      },
+      "real_proof": "Luxury cars ke auto-dimming rearview mirrors aur Boeing 787 windows pichle 15 saal se is electrochromic tech par chal rahe hain.",
+      "mind_question": "Auto-dimming rearview mirror ko kaise pata chalta hai ki peeche wali car ki high-beam aankh mein lag rahi hai?"
+    },
+    {
+      "id": "ws_02_071",
+      "subtopic": "Dry Sand vs Wet Sand",
+      "title": "Sukhi Rait Fhisal Jaati Hai, Zyada Paani Wali Rait Bah Jaati Hai — Par Thodi Geeli Rait Se Castle Kaise Khada Ho Jaata Hai?",
+      "shock_hook": "Sirf 1–2% paani rait ke danon ke beech lakho microscopic 'Liquid Bridges' bana kar dhool ko solid deewar jaisa strength de deta hai!",
+      "aam_soch": "Paani rait ko chikna aur phisalkar kamzor banata hoga.",
+      "science_truth": "Dry sand mein sirf friction hoti hai. Jab thoda sa paani daalein, to patle chhedon ke khichav action se har do grains ke beech chhote concave water bridges bante hain — paani ki upari khinchi hui parat un grains ko ek-doosre se chipka kar khinchta hai! Zyada paani daalne par air spaces khatam hokar bridges mit jaate hain aur sand beh jaati hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Geeli ret ke daanon ke beech paani ke chhote pul banne se ret ka aapas mein tight chipak jaana",
+        "simple_meaning": "Do glass slides ke beech ek boond paani unhe itna tight chipka deta hai ki alag karna mushkil ho — wahi millions of sand grains ke beech hota hai."
+      },
+      "real_proof": "X-ray tomography scans ne wet sand ke andar in patle chhedon ke khichav bridges ko 3D mein capture kiya hai (Nature Materials).",
+      "mind_question": "Geeli sand-beach par chalte waqt aapke pair ke neeche ki rait achanak sukhi-safed kyun dikhne lagti hai ('Reynolds Dilatancy')?"
+    },
+    {
+      "id": "ws_02_072",
+      "subtopic": "Negative Refractive Index",
+      "title": "Scientists Ne Aise 'Metamaterials' Banaye Hain Jinmein Paani Mein Daali Pencil Seedhi Nahi, Ulta Mudti Dikhayi Deti Hai!",
+      "shock_hook": "Nature mein har cheez ka light modne ki taqat (Refractive Index) positive hota hai — par nano-circuits se bana Metamaterial light ko 'wrong way' mod deta hai!",
+      "aam_soch": "Light ka bend hona (Snell's Law) har material mein ek hi taraf hota hai.",
+      "science_truth": "Agar light ki wavelength se chhote copper split-ring resonators ki array banayein, to material ek saath negative electrical permittivity aur negative magnetic permeability dikhata hai — isse light normal line ke opposite side jaane ke bajaye same side wapas mud jaati hai (Negative light ka medium badalne par mudna)!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Khaas banawat wale Metamaterial jo light ko normal niyam ke bilkul ulta mod dete hain",
+        "simple_meaning": "Nano-antennas ka ek grid jo light ke electric aur magnetic waves ko ulta response de kar bending rule palat deta hai."
+      },
+      "real_proof": "David Smith aur John Pendry ki team ne microwave frequency par pehle Negative-Index 'Invisibility Cloak' prototypes demonstrate kiye the.",
+      "mind_question": "Kya Negative-Index 'Superlens' light ke waves ka kinaron se mud kar bikharna limit ko tod kar viruses aur DNA ko direct optical microscope se dikha sakti hai?"
+    },
+    {
+      "id": "ws_02_073",
+      "subtopic": "Piezoelectric Road Energy",
+      "title": "Kya Sirf Paani Ki Boond (Raindrop) Girne Se Bijli Ban Sakti Hai? Ek Single Boond Se 100 LED Bulbs Jale!",
+      "shock_hook": "Droplet-Based Electricity Generator mein ek raindrop PTFE surface par girte hi 140 Volt pulse bana kar 100 chhoti LEDs jala deti hai!",
+      "aam_soch": "Paani se bijli sirf bade dams ya turbines ghumane se hi ban sakti hai.",
+      "science_truth": "Jab paani ki boond PTFE/Teflon par baar-baar girti hai to surface par permanent negative charge jama ho jaata hai. Jaise hi ek giri hui boond phail kar neeche ke tiny aluminum electrode ko chhuti hai, poora stored charge ek circuit complete kar ke bulk current burst chhod deta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Paani ke tapakne ya kisi cheez se ragad khaane par boondon mein electric charge jama hona",
+        "simple_meaning": "Baarish ki boond sirf ek tap nahi karti, balki pre-charged surface aur metal wire ke beech ek momentary electrical bridge jod deti hai."
+      },
+      "real_proof": "2020 mein City University of Hong Kong ke Zuankai Wang ki team ne Nature journal mein ek 100-microliter raindrop se 140V aur 100 LEDs jalane ka demo publish kiya.",
+      "mind_question": "Kya future mein baarish wale ilakon ke chhaton aur umbrellas par aise triboelectric rain-panels lag sakte hain?"
+    },
+    {
+      "id": "ws_02_074",
+      "subtopic": "Spinning Liquid Mirror",
+      "title": "Bina Kisi Glass Polish Kiye Sirf Ek Pan Mein Mercury Ghumane Se Duniya Ka Perfect Telescope Mirror Ban Jaata Hai!",
+      "shock_hook": "Liquid ko constant speed par ghumayein to gravity + ghoomne se bahar ki taraf lagne wala force mil kar automatic ek EXACT Paraboloid Mirror bana dete hain!",
+      "aam_soch": "Telescope ke bade parabolic mirrors banane mein saalon ki laser glass-grinding lagti hai.",
+      "science_truth": "Newton ne khud prove kiya tha ki constant angular velocity omega par ghumte kisi bhi liquid ki surface mathematically ek perfect **Paraboloid** banati hai — wahi exact curve jo stars ki light ko ek single focus point par jama karta hai! Mercury (ya reflective Gallium) ghumane se bina polish ke sasta giant mirror ban jaata hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Ghumte bartan mein gravity aur bahari dhakke ke balance se paani ka perfect U-shape bowl banna",
+        "simple_meaning": "Ghumte waqt bahar phenkne wala force aur neeche khinchne wali gravity mil kar har liquid ko khud ek mathematical telescope bowl bana dete hain."
+      },
+      "real_proof": "India ke Nainital (ARIES Devasthal) mein **4-meter International Liquid Mirror Telescope (ILMT)** sach mein ghumte hue Liquid Mercury se aasmaan dekhta hai!",
+      "mind_question": "Liquid Mirror Telescope ka ek hi bada limitation kya hota hai — wo aasmaan mein har taraf tilt kyun nahi ho sakta?"
+    },
+    {
+      "id": "ws_02_075",
+      "subtopic": "Mpemba vs Frost/Salt Ice",
+      "title": "Barf Par Namak Daalte Hi Temperature 0°C Se Gir Kar -21°C Tak Thanda Kyun Ho Jaata Hai?",
+      "shock_hook": "Ice-cream wale bina freezer ke barf mein namak mila kar 0°C ki barf ko -15°C bana dete hain!",
+      "aam_soch": "Namak barf ko pighlata hai, isliye mixture thoda garam hota hoga.",
+      "science_truth": "Namak ice ke surface liquid film mein ghul kar paani ka freezing point -21°C tak gira deta hai. Ab barf ko pighalne par majboor hona padta hai — par pighalne (halat badalne mein lagne wali chhupi garmi of Fusion) aur namak ghulne ke liye energy kahan se aayegi? Mixture khud apne andar ki heat khaa leta hai, jisse temp tez gir kar -21°C tak pahunch jaata hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Barf mein namak milane par barf ka 0°C se neeche pighalna aur aas-paas se saari garmi chheenna",
+        "simple_meaning": "Jabardasti pighalne par barf aas-paas se saari garmi chura kar ice-cream ko aur bhi tez jama deti hai."
+      },
+      "real_proof": "Purani matka kulfi aur sadakon ki de-icing (CaCl₂ -50°C tak!) isi freezing-point depression par kaam karti hai.",
+      "mind_question": "Agar barf par Namak (NaCl) ke bajaye Calcium Chloride (CaCl₂) daalein to temperature aur zyada neeche kyun gir jaata hai?"
+    },
+    {
+      "id": "ws_02_076",
+      "subtopic": "Bose Glass & Fermi Sea",
+      "title": "Metals Ke Andar Electrons Ek 'Fermi Sea' Mein Hain — Jismein Room Temp Bhi Unke Liye Absolute Zero Jaisa Hai!",
+      "shock_hook": "Copper wire ke electrons ka 'Fermi Temperature' ~81,000°C hai — matlab hamare liye garm kamra unke liye deep freeze hai!",
+      "aam_soch": "Room temperature par wire ke electrons aam garm gas ki tarah dheere hilte honge.",
+      "science_truth": "Pauli ka niyam (do electrons ek hi jagah nahi baith sakte) ki wajah se Copper mein dense electrons niche ke sabhi energy levels bhar kar ~1,570 km/s speed par baithe rehte hain! Isliye 300 K room heat unmein se sirf 1% top electrons ko thoda hilati hai — baaki 99% quantum locked rehte hain.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Electrons ki bheed ki taqat jo White Dwarf star ko gravity ke neeche dab kar khatam hone se rokti hai",
+        "simple_meaning": "Lower seats sab full hone se upar wale electrons pehle se massive kinetic energy par hote hain; normal garmi unke liye chhoti si lahar jaisi hai."
+      },
+      "real_proof": "Isi wajah se metals ki heat capacity classical prediction se 100 guna kam nikalti thi — jab tak Quantum Fermi statistics ne raaz nahi khola!",
+      "mind_question": "Agar copper wire mein electrons 1,570 km/s speed par daud rahe hain, to jab hum switch ON karte hain to bijli ke electrons wire mein aage itna slow (millimeter per second!) kyun badhte hain?"
+    },
+    {
+      "id": "ws_02_077",
+      "subtopic": "Pillar of Fire Whirlpool",
+      "title": "Aag Aur Hawa Mil Kar Ek 'Blue Whirl' Bana Dete Hain Jo Bina Kaalik (Soot) Chhode Safai Se Jalta Hai!",
+      "shock_hook": "Oil spill par lagne wali normal orange smoky fire jab ek gol bhanwar tornado mein badalti hai, to wo shaant neeli (Blue Whirl) flame ban kar zero smoke mein jal jaati hai!",
+      "aam_soch": "Aag ka tornado hamesha zyada khatarnak, kaala aur smoky hoga.",
+      "science_truth": "2016 mein University of Maryland ne ek chhote fire-whirl ko paani par dekha jo achanak shrink ho kar calm, spinning Blue Flame ban gaya! gol bhanwar fuel vapours aur hawa ko itni perfect premixed ratio mein ghumata hai ki koi incomplete jalne ka reaction (kaalik) bachta hi nahi.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Chhote pipe mein gas aur oxygen ko ghoomte bhanwar mein milane se bina soot ka blue flame jalna",
+        "simple_meaning": "Spinning flow fuel aur hawa ko itna sahi mix kar deta hai ki smoky yellow flame gas-stove ki clean blue flame mein badal jaati hai."
+      },
+      "real_proof": "Scientists ab Blue Whirl ko samundar ke oil spills ko bina kaale dhuaan ke cleanly jalane ke tareeqe ke roop mein study kar rahe hain.",
+      "mind_question": "Kitchen gas stove mein neeli flame aur mombatti mein peeli flame — dono mein carbon soot ka kya farq hota hai?"
+    },
+    {
+      "id": "ws_02_078",
+      "subtopic": "Hydrophobic Lotus Nanotech",
+      "title": "Ek Aisi Satah Jo Paani Aur Kichad Se Apne Aap Saaf Ho Jaati Hai — Bina Kisi Chemical Soap Ke!",
+      "shock_hook": "Kamal ke patte ko kichad mein daal kar ek boond paani gira dein to paani ball ban kar saari dhool samet kar ludhak jaata hai!",
+      "aam_soch": "Patte par bas koi waxy smooth polish hoti hogi jisse paani fisal jaata hai.",
+      "science_truth": "Electron microscope se pata chala ki Kamal ka patta smooth nahi, balki 10-micrometer bumps aur unke upar nanometer wax needles se bhara hai! Paani ki boond sirf needle tips par hawa ke cushion par tikti hai (Cassie-Baxter State) — aur dhool patte se zyada paani ki boond se chipak kar beh jaati hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Patte ke microscopic kaanton par hawa phansi rehne se paani uspar boond ban kar ludhak jaata hai",
+        "simple_meaning": "Micro-kanton ke bed par baithne se paani ko chipakne ki jagah hi 3% milti hai, isliye wo goli ban kar gandagi saath le udta hai."
+      },
+      "real_proof": "Self-cleaning exterior house paints, fog-proof mirrors aur waterproof clothing fabrics isi 'Lotus Effect' biomimicry se bani hain.",
+      "mind_question": "To fir Rose (gulab) ki patti par paani ki boond gol hoti hai par chipak kar kyun rehti hai, neeche ludhakti kyun nahi?"
+    },
+    {
+      "id": "ws_02_079",
+      "subtopic": "Osmosis Pressure Power",
+      "title": "Sirf Meetha Aur Khara Paani Milane Se Ek Power Plant Chalaya Ja Sakta Hai (Blue Energy)!",
+      "shock_hook": "Jahan nadi ka meetha paani samundar ke khare paani se milta hai, wahan har second giant waterfalls ke barabar invisible Osmotic Pressure chhupa hai!",
+      "aam_soch": "Paani se bijli sirf oonchai se girne (hydro dam) ya waves se hi ban sakti hai.",
+      "science_truth": "Semipermeable membrane ke ek taraf fresh river water aur doosri taraf salty seawater rakhein, to bikhraav (disorder) ki wajah se fresh water membrane paar kar ke salt water ki taraf massive paani ke khichav wala pressure (~27 atm — 270 meter oonche dam ke barabar!) se dhakka maarta hai, jisse turbine ghoom sakta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Meethe aur khaare paani ke milne ki natural taqat jisse nadi ke muhane par bijli banayi jaa sakti hai",
+        "simple_meaning": "Do alag concentrations ko mix hone ki natural bikhraav (disorder) itni taqatwar hoti hai ki wo 270-meter water column khada kar sake."
+      },
+      "real_proof": "Norway aur Netherlands mein Blue Energy (Osmotic + Reverse Electrodialysis) pilot plants nadi-samundar ke sangam par test kiye gaye hain.",
+      "mind_question": "Hamare sharir ke har cell mein agar bahar ekdum pure distilled water chala jaaye to RBCs phool kar phat kyun jaati hain?"
+    },
+    {
+      "id": "ws_02_080",
+      "subtopic": "Pykrete Ice + Sawdust",
+      "title": "Barf Mein Sirf 14% Lakdi Ka Boora (Sawdust) Mila Dein To Wo Concrete Se Bhi Zyada Mazboot Aur Bullet-Resistant Ban Jaati Hai!",
+      "shock_hook": "World War II mein 'Pykrete' se poora ek Aircraft Carrier ship samundar mein tairane ka plan bana tha — goli maari to goli wapas ricochet ho gayi!",
+      "aam_soch": "Barf mein kachra/boora milane se barf aur kamzor aur gandi ho jaayegi.",
+      "science_truth": "Pure ice brittle hoti hai aur crack aate hi phat jaati hai. Par 14% wood pulp fibers ice ke andar steel-rebar ki tarah kaam karte hain (Composite!), jo cracks ko aage badhne se rokte hain aur melting bhi slow kar dete hain — iski compressive strength concrete ke kareeb pahunch jaati hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Barf mein lakdi ka burada milane se darar aage nahi badhti aur barf concrete jaisi mazboot banti hai",
+        "simple_meaning": "Jaise mitti mein bhusa milane se kacchi eent strong banti hai, waise hi barf mein wood fibers use tough armor bana dete hain."
+      },
+      "real_proof": "1943 mein Geoffrey Pyke aur Lord Mountbatten ne Quebec conference mein ek block Pykrete par pistol se fire kar ke generals ko shock kiya tha (Project Habakkuk).",
+      "mind_question": "Aaj ke Arctic construction aur temporary ice-bridges mein engineers strength badhane ke liye kya isi composite trick ka use karte hain?"
+    },
+    {
+      "id": "ws_02_081",
+      "subtopic": "Mpemba Reverse & Superfluid?",
+      "title": "Kya Light Ko Bhi Liquid Ya 'bina rukawat behne wala liquid' Ki Tarah Behne Par Majboor Kiya Ja Sakta Hai?",
+      "shock_hook": "2017 mein scientists ne room temperature par Polaritons ke zariye 'Liquid Light' banaya jo bina kisi obstacle se takraye beh sakti hai!",
+      "aam_soch": "Light sirf seedhi lines ya waves mein chalti hai; usmein liquid jaisa flow ya collision nahi hota.",
+      "science_truth": "Organic chip material microcavity mein jab laser photons excitons se strongly jud jaate hain, to naye hybrid particles 'Polaritons' bante hain. Ye photons ki tarah tez aur light-weight hote hain par electrons ki tarah interact kar ke bina rukawat behne wala liquid liquid ki tarah obstacle ke chaaron taraf bina wake banaye beh jaate hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Light aur matter ke mil kar bane particles jo room temperature par bhi bina rukawat behte hain",
+        "simple_meaning": "Light + Matter ka hybrid banakar photons ko aapas mein baat karne aur bina rukawat behne wala liquid liquid ki tarah behne ki shakti de di jaati hai."
+      },
+      "real_proof": "2017 mein CNR Nanotec (Italy) aur Polytechnique Montreal ne Nature Physics mein Room-Temp bina rukawat behne wala liquid Light demonstrate kiya.",
+      "mind_question": "Agar light bina rukawat behne wala liquid ban kar zero loss se flow kare, to future optical computers mein heat generation par kya asar padega?"
+    },
+    {
+      "id": "ws_02_082",
+      "subtopic": "Crystalline Metals Slip",
+      "title": "Ek Pure Metal Crystal Ko Agar Kisi Defect Ke Bina Banaya Jaaye To Wo Aaj Ke Steel Se 50 Guna Mazboot Hoga!",
+      "shock_hook": "Steel jitna strong dikhta hai, wo apni asli atomic bond strength ke sirf 1–2% par toot jaata hai — kyunki usmein microscopic 'crystal ki layers mein chhote khiskav' hote hain!",
+      "aam_soch": "Asli metal jitna pure aur perfect hoga, utna hi soft aur aam strength wala hoga.",
+      "science_truth": "Ek poori sheet ke saare atoms ek saath todne mein massive force chahiye. Par crystal mein ek-do extra half-lines ('crystal ki layers mein chhote khiskav') aate hi poora crystal ek heavy carpet ko wrinkle bana kar sarkaane ki tarah aasani se slip ho jaata hai! Defect-free metallic whiskers apni theoretical maximum strength dikhate hain.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Metal ke andar ki chhoti kamzoriyon (dislocations) ke fisalne se metal aasani se mud jaata hai",
+        "simple_meaning": "Bhari carpet ek baar mein khinchne se nahi hilta, par ek chhota sa fold/salwat bana kar aage badhayein to aasani se sarak jaata hai."
+      },
+      "real_proof": "Jet engine turbine blades ko ab ek single defect-free crystal ('Single-Crystal Superalloy') ke roop mein grow kiya jaata hai taaki 1,500°C par bhi creep na ho!",
+      "mind_question": "Paradox: Steel ko aur strong banane ke liye engineers usmein defect-free rakhne ke bajaye aur zyada defects (dislocation tangles & carbon) kyun daalte hain?"
+    },
+    {
+      "id": "ws_02_083",
+      "subtopic": "Dry Ice Acoustics",
+      "title": "Thande Dry Ice Ke Tukde Par Ek Garam Metal Chammach Rakhein To Wo Bhootiya Cheenk-Scream Karne Lagta Hai!",
+      "shock_hook": "Dry Ice (-78°C) aur Metal chammach milte hi bina kisi speaker ke high-pitched metallic cheekh nikalne lagti hai!",
+      "aam_soch": "Dry ice sirf dhuaan chhodti hai, metal rakhne par sirf thandi hogi.",
+      "science_truth": "Garam metal chammach Dry Ice ko chhute hi contact point par CO₂ instant high-pressure gas ban kar chammach ko upar dhakelta hai. Gas nikalte hi chammach wapas neeche girta hai aur fir gas use uchhalti hai — ye cycle ek second mein 1,000+ baar repeat ho kar chammach ko aawaz ki speaker bana deta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Garam spoon par sookhi barf ka bhaap ban kar spoon ko dhakelte rehna aur tez aawaz nikaalna",
+        "simple_meaning": "Tezi se banti gas metal ko baar-baar milliseconds mein uchhalti aur girati hai, aur wahi tez thak-thak aawaz ban jaati hai."
+      },
+      "real_proof": "Physics classrooms mein Dry Ice + spoon/quarter experiment solid se seedha gas ban kar udna pressure aur thermal energy se sound generation dikhane ka classic demo hai.",
+      "mind_question": "Kya kisi bartan mein paani ubalne se pehle aane wali 'singing kettle' ki aawaz bhi aisi hi microscopic bubbles ke tootne ki frequency se aati hai?"
+    },
+    {
+      "id": "ws_02_084",
+      "subtopic": "Soap Bubble Frozen Crystals",
+      "title": "Extreme Thand (-15°C) Mein Soap Bubble Phulane Par Usmein Barf Ke Phool Real-Time Mein Ugate Dikhayi Dete Hain!",
+      "shock_hook": "Frozen bubble par barf ek side se nahi chalti — chhote ice crystals hawa mein swirling 'Marangoni Snowstorm' ki tarah charon taraf ghum kar jamte hain!",
+      "aam_soch": "Thand mein bubble bas hawa mein ekdum se jam kar pathar ho jaata hoga.",
+      "science_truth": "Jaise hi bubble ka bottom thandi barf ko chhuta hai, freezing start hoti hai aur chhupi garmi nikalti hai. Ye heat bubble ki thin liquid film mein Marangoni surface-tension currents chala deti hai — jo micro ice crystals ko poore bubble par hurricane ki tarah ghumate hue jamati hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Pighalte hue barf ke icebergs mein garmi aur namak ke farq se paani ki layers ka alag behna",
+        "simple_meaning": "Jamne se nikli garmi bubble par microscopic toofan chala kar barf ke chhote phoolon ko charon taraf bikher deti hai."
+      },
+      "real_proof": "2019 mein Virginia Tech ke scientists ne Nature Communications mein frozen soap bubbles ke 'Snow-Globe Effect' ki high-speed physics publish ki.",
+      "mind_question": "Ek baar poora jamne ke baad bhi frozen bubble thodi der mein pichak kar cracks ke saath kyun baith jaata hai?"
+    },
+    {
+      "id": "ws_02_085",
+      "subtopic": "Piezoelectric Sugar Glow",
+      "title": "Andhere Mein Chini (Sugar) Ya Lifesaver Candy Ko Pliers Se Todne Par Usmein Se Neeli Bijli Ki Chingari Nikalti Hai!",
+      "shock_hook": "Bina kisi battery ya matchis ke sirf sucrose crystals ya quartz patthar ko todne par aankhon ke samne blue-violet light flash hoti hai (todne ya ghisne se halki chingari nikalna)!",
+      "aam_soch": "Sirf chini chabane ya patthar todne se light paida ho hi nahi sakti.",
+      "science_truth": "Non-symmetric Sucrose crystals toot-te hi ek taraf positive aur doosri taraf negative electric charge alag ho jaata hai! Gap ke aar-paar chhoti lightning spark kudti hai jo hawa ki Nitrogen gas ko excite kar ke ultraviolet + visible blue light nikal deti hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Sugar ya Scotch Tape todne par alag hue charges ka takra kar andhere mein neeli chingari chhodna",
+        "simple_meaning": "Crystal toot-te waqt micro-lightning paida hoti hai jo kamre ki hawa mein chhote UV/blue flashes jala deti hai."
+      },
+      "real_proof": "1620 mein Francis Bacon ne chini todte waqt ise note kiya tha — aur 2008 mein UCLA scientists ne vacuum mein sirf Scotch Tape chheelne se X-Rays nikalte hue detect kiye (Nature)!",
+      "mind_question": "Agar Scotch Tape chheelne se vacuum mein X-rays nikal sakte hain, to normal hawa mein chheelne par X-rays kyun nahi nikalte?"
+    },
+    {
+      "id": "ws_02_086",
+      "subtopic": "Spinning Top Gyroscope",
+      "title": "Ek Ghumta Hua Wheel Sirf Ek Side Rassi Se Latka Dein Tab Bhi Neeche Nahi Girta — Hawa Mein Seedha Ghumta Rehta Hai!",
+      "shock_hook": "Bicycle ka bhari wheel jab tez ghumta hai, to gravity use neeche girane ke bajaye sideways circle mein ghumane lagti hai!",
+      "aam_soch": "Ek side se pakda hua bhari wheel gravity ki wajah se turant neeche latak jaana chahiye.",
+      "science_truth": "Ghumte wheel mein massive Angular raftar ka zor (Momentum) (L) hota hai. Gravity ka torque wheel ko neeche girane ki koshish karta hai, par Newton ke rotational laws ke mutabik torque Angular raftar ka zor (Momentum) ki direction badalta hai — isliye girne ke bajaye wheel horizontal plane mein ghumne ('Gyroscopic lattu ki tarah dhire-dhire chakkar ghoomna') lagta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Ghoomte lattu ke axis ka gravity se neeche girne ke bajaye gol chakkar mein ghoomte rehna",
+        "simple_meaning": "Tez ghumti cheez apna axis badalna nahi chahti — side se dhakka lagne par wo girne ke bajaye 90° ghum kar balance bana leti hai."
+      },
+      "real_proof": "Airplanes, rockets, smartphones aur Hubble Space Telescope bina fuel waste kiye apna orientation isi Gyroscopic/Reaction Wheel physics se sambhalte hain!",
+      "mind_question": "Tez chalti hui bicycle bina haath lagaye seedhi chalti rehti hai, par rukte hi turant gir kyun jaati hai?"
+    },
+    {
+      "id": "ws_02_087",
+      "subtopic": "Superhydrophobic Anti-Ice",
+      "title": "Paani Ko Boond-Boond Phailne Se Rok Dein To Barf Jamne Se Pehle Hi Hawa Mein Uchhal Kar Bhaag Jaati Hai!",
+      "shock_hook": "Cold surface par microscopic paani ko bilkul na chhune wala droplets jab jamte-jamte aapas mein milte hain, to khud trampolines ki tarah hawa mein jump kar jaate hain!",
+      "aam_soch": "Paani ki do boondein milne par bas ek badi boond banegi — wo hawa mein khud jump nahi kar sakti.",
+      "science_truth": "Jab do microscopic boondein mil kar ek badi boond banti hain, to unka total surface area kam ho jaata hai — bachi hui extra Surface Energy kinetic energy mein badal kar boond ko neeche surface ke khilaf push maarti hai aur boond upar hawa mein jump kar jaati hai (Coalescence-Induced Jumping)!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Do paani ki boondon ke milte hi bachi hui surface energy ka unhein hawa mein uchhal dena",
+        "simple_meaning": "Do chhoti boondon ke milne par jo extra paani ki upari khinchi hui parat energy bachti hai, wahi ek chhota rocket ban kar boond ko uchhal deti hai."
+      },
+      "real_proof": "Aircraft wings aur power lines par frost/ice buildup rokne ke liye engineers ab yehi self-jumping paani ko bilkul na chhune wala coatings bana rahe hain.",
+      "mind_question": "Cicada insect ke pankh bhi bina kisi muscle ke baarish aur subah ki os (dew) ko isi self-jumping mechanism se saaf kaise rakhte hain?"
+    },
+    {
+      "id": "ws_02_088",
+      "subtopic": "Kerr & Faraday Effect",
+      "title": "Electricity Ya Magnet Se Bina Glass Ko Chhue Light Ki light waves ka ek hi disha mein seedha hona (Direction) Ghumayi Ja Sakti Hai!",
+      "shock_hook": "Transparent Glass par strong magnet lagayein to usse guzarne wali light ka plane twist ho jaata hai (Faraday Effect)!",
+      "aam_soch": "Light par electricity ya magnet ka koi direct asar nahi padta kyunki photons par charge zero hota hai.",
+      "science_truth": "Photons par charge nahi hota, par jis glass/crystal se light guzar rahi hai uske electrons par magnet/voltage ka asar padta hai! Magnetic field glass ke electrons ko thoda asymmetrically ghuma deta hai, jisse left aur right circularly polarized light ki speed alag ho jaati hai aur light waves ka ek hi disha mein seedha hona angle mud jaata hai.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Magnet ki taqat se glass ke andar guzarti light ki disha ko twist kar dena",
+        "simple_meaning": "Magnet light ko direct nahi pakadta, par jis glass se light ja rahi hai uske electrons ko mod kar light ki disha ghuma deta hai."
+      },
+      "real_proof": "1845 mein Michael Faraday ne yehi prove kar ke pehli baar sabit kiya tha ki Light khud ek bijli aur magnet se bani phenomenon hai — aur aaj fiber-optic internet isolators isi par chalte hain!",
+      "mind_question": "Astronomers door galaxies ke beech invisible magnetic fields ki taqat Faraday Rotation dekh kar kaise naap lete hain?"
+    },
+    {
+      "id": "ws_02_089",
+      "subtopic": "Liquid Air & Water Density",
+      "title": "Ek Glass Mein 10 Alag Liquids Bina Ek-Doosre Mein Mix Hue 10-Manzil Rainbow Tower Bana Lete Hain!",
+      "shock_hook": "Honey, Corn syrup, Dish soap, Paani, Oil, Rubbing alcohol aur Lamp oil ek hi glass mein daalein to wo aapas mein mix nahi hote — 7–10 sharp layers ban kar tairte hain!",
+      "aam_soch": "Sabhi liquids ko ek hi glass mein daal dein to wo mix ho kar ek ganda rang bana lenge.",
+      "science_truth": "Do cheezein mil kar ye jadu karti hain: (1) Density alag-alag layers mein jamna (1.4 g/cm³ honey neeche se 0.8 g/cm³ oil upar), aur (2) Polar vs Non-Polar immiscibility — oil-based layers water-based layers ke beech buffer wall bana kar unhe milne se rokti hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Tel aur paani ka na milna aur density ke hisaab se alag-alag layers mein upar-neeche tairna",
+        "simple_meaning": "Alag wajan aur 'dosti na karne wale' (polar vs non-polar) molecules ek glass mein silent elevator floors bana lete hain."
+      },
+      "real_proof": "Samundar mein bhi thanda salty deep water aur garam fresh surface water aise hi layers ('Pycnocline') bana kar global ocean currents chalate hain!",
+      "mind_question": "Agar is 7-layer glass mein ek metal bolt, ek cherry tomato, ek plastic cap aur ek cork daalein, to har object alag floor par jaakar kyun ruk jaayega?"
+    },
+    {
+      "id": "ws_02_090",
+      "subtopic": "Water Hammer Physics",
+      "title": "Ek Khali Ya Bhari Glass Bottle Par Haath Se Halka Sa Thappad Maarne Par Bottle Ka Bottom Khud Toot Kar Gir Jaata Hai!",
+      "shock_hook": "Paani se bhari glass bottle ke top par hatheli se tez maarein to haath jahan laga wahan kuch nahi hota — par bottle ka nichla hissa gol kat kar alag gir jaata hai!",
+      "aam_soch": "Bottle wahin se tootegi jahan aapne hathode ya haath se chot maari hai.",
+      "science_truth": "Jab aap bottle ko tez neeche dhakelte hain, to glass turant neeche jaata hai par andar ka paani Inertia ki wajah se ek millisecond peeche reh jaata hai — isse bottom par Vacuum cavities banti hain! Jab wapas paani tezi se neeche aakar glass bottom par takrata hai (paani ke andar vacuum bulbule ban kar phatna Water Hammer), to wo shockwave bottle ka bottom phaad deti hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Bottle par maarne par paani peeche reh jaata hai aur neeche bane vacuum bubbles phat kar glass tod dete hain",
+        "simple_meaning": "Paani aur glass ke beech bana vacuum bubble jab wapas takrata hai to ek miniature depth-charge bomb jaisa pressure banata hai."
+      },
+      "real_proof": "High-speed 10,000 fps cameras mein scientists ne bottom par bubbles bante aur phat-te hue glass ko neeche se nikaalte clear record kiya hai (khali bottle par ye bilkul kaam nahi karta!).",
+      "mind_question": "Ghar ke nalkon (pipes) mein achanak tap band karne par 'DHAD' ki tez aawaz kyun aati hai?"
+    },
+    {
+      "id": "ws_02_091",
+      "subtopic": "Siphon Limit & Vacuum",
+      "title": "Ek Pipe Se Bina Kisi Pump Ke Paani Pahaad Ke Upar Chadh Kar Doosri Taraf Neeche Kaise Gir Jaata Hai?",
+      "shock_hook": "Siphon pipe mein paani bina motor ke upar chadhta hai — par agar peak 10.3 meter se ooncha ho jaaye, to flow apne aap ruk jaata hai!",
+      "aam_soch": "Paani shayad pipe mein chhote chain-pull ki tarah bas girne wale wajan se khinchta hoga.",
+      "science_truth": "Siphon mein do forces mil kar kaam karti hain: bahar ki Atmospheric Pressure paani ko upar dhakelti hai aur liquid ke molecules ke beech ka Cohesion chain use aage le jaata hai. Par Earth ke 1 atm air pressure ki limit 10.3m paani hai — usse upar pipe ke top par vacuum ban kar paani ubal jaata hai aur siphon toot jaata hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Vacuum straw mein paani upar chadhane ka kaam bahar ki hawa ka wajan karta hai — jiski had 10.3 meter hai",
+        "simple_meaning": "Vacuum kuch khinchta nahi — bahar ki hawa ka bojh paani ko upar dhakelta hai, aur us dhakke ki ek fixed 10.3m limit hai."
+      },
+      "real_proof": "Vacuum chamber mein Mercury siphon kaam hi nahi karta (sirf super-degassed ionic liquid mein molecular cohesion thoda sa siphon chala paata hai).",
+      "mind_question": "Mercury ke liye yahi maximum siphon/barometer height 10.3 meter ke bajaye sirf 76 centimeter (0.76m) kyun reh jaati hai?"
+    },
+    {
+      "id": "ws_02_092",
+      "subtopic": "Liquid Marble",
+      "title": "Ek Aisi Paani Ki Boond Jise Aap Haath Mein Goli (Marble) Ki Tarah Roll Kar Sakte Hain Aur Wo Haath Geela Nahi Karti!",
+      "shock_hook": "Paani ki boond ko paani ko door bhagane wala nano-powder mein roll kar dein to wo solid rubber ball ki tarah table par ludhakti aur uchhalti hai!",
+      "aam_soch": "Paani ko haath ya table par rakhein to wo turant phail kar geela kar dega.",
+      "science_truth": "Jab paani ko door bhagane wala powder (jaise lycopodium spores ya fumed silica) boond ki satah ko wrap kar leta hai, to wo boond ko kisi bhi solid surface se direct touch hone se rokta hai. Liquid andar ghoomta rehta hai par bahari powder shell ek elastic non-wetting skin ban kar 'Liquid Marble' bana deta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Paani ki boond ke charon taraf powder chipak jaane se uska bina geela kiye kancha ban kar ludhakna",
+        "simple_meaning": "Paani ki boond ko non-stick powder ka ek flexible armour pehna dene se wo micro-balloon ki tarah roll hone lagti hai."
+      },
+      "real_proof": "Lab-on-a-chip microreactors aur cells ugayein ke liye Liquid Marbles use hote hain — bina glass tube ke har marble ek chhota test-tube ban jaata hai!",
+      "mind_question": "Paudhon ke kuch keede (aphids) apne meethhe liquid waste ko ghar se door ludhkane ke liye natural powder se Liquid Marbles kaise banate hain?"
+    },
+    {
+      "id": "ws_02_093",
+      "subtopic": "Piezoelectric & Liquid Crystal Display",
+      "title": "Ek Aisa Transparent Gel Jo Sirf Sardi-Garmi Ke Hisaab Se Apna Rang Badal Kar Thermometer Ban Jaata Hai!",
+      "shock_hook": "Cholesteric Liquid Crystals (Mood Rings / Forehead Strip Thermometers) sirf 1°C temp badalne par laal se hara aur neela ban jaate hain!",
+      "aam_soch": "Temperature batane ke liye electronic sensor ya pighalne wala mercury hi chahiye.",
+      "science_truth": "Cholesteric liquid crystals ke molecules ek spiral staircase (helix) mein arrange hote hain. Temperature badhte hi spiral ka step-height (pitch) thoda sikudta ya phailta hai — jis wavelength se wo pitch match karta hai, wahi color light reflect hoti hai (Bragg Reflection)!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Mood Ring ke liquid crystals ka garmi badalte hi mud kar alag-alag rang reflect karna",
+        "simple_meaning": "Molecules ki spiral seedhi garmi mein thodi tight hoti hai — aur seedhi ka gap badalte hi mirror ki tarah alag rang reflect hone lagta hai."
+      },
+      "real_proof": "Aquarium stick-on thermometers, forehead fever strips aur aerospace wind-tunnel temperature mapping sab isi cholesteric physics par chalte hain.",
+      "mind_question": "Mor (Peacock) ke pankh aur kuch beetles mein koi pigment na hote hue bhi itne metallic rainbow rang kyun dikhte hain?"
+    },
+    {
+      "id": "ws_02_094",
+      "subtopic": "Rutherford & Empty Atom Matter",
+      "title": "Earth Par Maujood Sabhi 8 Arab Insaan Agar Apne Atoms Ki Khali Jagah Hata Dein To Ek Chini Ke Cube Mein Sama Jaayein!",
+      "shock_hook": "Aapka shareer, pahaad aur solid steel — sabhi 99.9999999% sirf khali space hain; asli matter ek sukshm point se bhi chhota hai!",
+      "aam_soch": "Solid pathar aur steel bilkul thos bhare hue hain; unke andar koi khali jagah nahi hoti.",
+      "science_truth": "Agar ek atom ka nucleus cricket ground ke beech rakhi ek chhoti matar (pea) jaisa hai, to uske electrons pure stadium ke sabse bahari boundary par ghum rahe hain — beech ka poora stadium 100% khali hai! Bas bijli aur magnet se bani force humein us khali jagah mein ghusne nahi deti.",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Atom ke center aur bahar ke electrons ke beech 99.9999999999999% jagah bilkul khali hona",
+        "simple_meaning": "Insaani mass lagbhag poora microscopic nucleus mein hota hai, par size electrons ke electric shield se banta hai."
+      },
+      "real_proof": "Rutherford ke 1909 Gold Foil experiment mein 99.99% alpha particles solid gold ki chadar ko bina kisi takkar ke seedhe paar kar gaye the!",
+      "mind_question": "Agar atoms 99.9999999% khali hain, to roshni (light) kisi solid deewar ke aar-paar seedhi kyun nahi nikal jaati?"
+    },
+    {
+      "id": "ws_02_095",
+      "subtopic": "Water Strider Surface Tension",
+      "title": "Ek Keeda (Water Strider) Paani Ki Satah Ko Bina Tode Us Par Daud Aur Jump Kaise Kar Leta Hai?",
+      "shock_hook": "Water Strider apne pairon se paani ko neeche dabata hai — paani rubber sheet ki tarah stretch ho kar use upar uchhal deta hai!",
+      "aam_soch": "Keede ka wajan shayad paani se halka hoga isliye wo tairta hoga.",
+      "science_truth": "Keede ki body paani se denser hoti hai (agar wo neeche chala jaaye to doob jaaye!). Par uske pairon par hazaaron waxy micro-hairs hote hain jo paani ko wetting karne se rokte hain. Paani ke molecules ka mutual attraction (paani ki upari khinchi hui parat — Surface Tension) ek invisible trampoline banata hai jo keede ke wajan se 15x zyada bhaar jhel leta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Paer ke tiny baal aur paani ki khinchi satah ke sahare chhote keede ka bina doobe tairna",
+        "simple_meaning": "Water droplets haath pakad kar ek elastic jhoola banati hain — jab tak pair waxy rahein, keeda is jhoole par daudta rehta hai."
+      },
+      "real_proof": "Agar paani mein ek boond liquid dish-soap daal dein to paani ki upari khinchi hui parat toot jaata hai aur Water Strider turant paani mein doob jaata hai!",
+      "mind_question": "Kya koi insaan bhi 10-km bade paani ko bilkul na chhune wala shoes pehan kar paani par chal sakta hai — ya size badhte hi Volume vs Perimeter rule fail ho jaata hai?"
+    },
+    {
+      "id": "ws_02_096",
+      "subtopic": "Liquid Metal Gallium Heartbeat",
+      "title": "Acid Mein Rakhi Ek Mercury Ya Gallium Ki Boond Par Lohe Ki Keel Chhune Se Wo Asli Dil Ki Tarah Dhadakne Lagti Hai!",
+      "shock_hook": "Bina kisi motor ya brain ke, ek metal drop rhythm se phoolti aur sikudti hui 'Mercury Beating Heart' ban jaati hai!",
+      "aam_soch": "Non-living chemical drops sirf ek baar react kar ke ruk jaate hain; wo dil ki tarah rhythmically dhadak nahi sakte.",
+      "science_truth": "Acid+oxidizer mein rakhe metal drop ki surface par oxide layer banti hai jisse paani ki upari khinchi hui parat badal kar drop chapta ho jaata hai — phailte hi wo paas rakhi iron nail ko chhuta hai! Iron electrons de kar oxide khatam kar deta hai, paani ki upari khinchi hui parat wapas badh kar drop ko gol kar deta hai aur nail se door ho jaata hai — ye cycle baar-baar chal kar heartbeat jaisa pulse banati hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Chemical drop ka apni hi surface tension badal-badal kar apne aap zinda keede ki tarah aage chalna",
+        "simple_meaning": "Surface charge badalte hi liquid ka shape badalta hai, shape badalne se contact tut-ta hai, aur wapas purana shape laut kar cycle repeat hoti hai."
+      },
+      "real_proof": "1874 mein Gabriel Lippmann (1908 Nobel laureate) ne is bijli se boond ka khichav badalne wale effect ka mechanism explain kiya — aaj non-toxic Gallium drops se bhi ye demo hota hai!",
+      "mind_question": "Kya future ke soft-robots mein bina motors aur gears ke isi bijli se boond ka khichav badalne wale liquid-metal motion se muscles banayi ja sakti hain?"
+    },
+    {
+      "id": "ws_02_097",
+      "subtopic": "Pore-Scale Capillary Condensation",
+      "title": "Dhoop Mein Sukhe Kapde Ya Biscuit Narm Kyun Ho Jaate Hain Jabki Kamre Mein Baarish Nahi Hui?",
+      "shock_hook": "Microscopic dararon (nanopores) mein hawa ki invisible humidity bina 100% saturation ke hi liquid paani mein badal jaati hai!",
+      "aam_soch": "Hawa se paani sirf tab banta hai jab dew point ya 100% humidity ho.",
+      "science_truth": "Kelvin Equation ke mutabik ek curved concave surface (jaise biscuit ya salt crystal ke chhote pores) mein paani ke molecules zyada padosiyon se ghire hote hain, isliye unka vapour pressure gir jaata hai — aur sirf 50–60% room humidity par hi nano-gaps ke andar liquid paani thanda ho kar liquid banna ho kar cheezon ko geela/narm kar deta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Patli dararon aur geeli ret mein hawa ki nami ka normal se kam humidity par hi paani ban jaana",
+        "simple_meaning": "Patle kone mein molecules ko chhupne aur haath pakadne ki zyada jagah milti hai, isliye gas wahan samay se pehle liquid ban jaati hai."
+      },
+      "real_proof": "Manchester University (Andre Geim lab, 2020) ne prove kiya ki sirf 1–2 atom thick graphene channels mein bhi normal room humidity par patle chhedon ke khichav condensation hota hai.",
+      "mind_question": "Namak ke dabbe mein kuch chawal ke dane daalne se namak gila hokar dhela banne se kaise bach jaata hai?"
+    },
+    {
+      "id": "ws_02_098",
+      "subtopic": "Superionic Water & Diamond Rain",
+      "title": "Uranus Aur Neptune Planets Par Aasmaan Se Paani Ki Nahi, Asli Heeron (Diamonds) Ki Baarish Hoti Hai!",
+      "shock_hook": "Deep ice-giants mein Methane high pressure aur heat par toot kar pure Carbon ke chamkile diamonds banata hai jo neeche baraste hain!",
+      "aam_soch": "Baarish sirf paani ya kisi liquid gas ki hi ho sakti hai — heeron ki baarish impossible hai.",
+      "science_truth": "Neptune aur Uranus ke andar ~7,000 km neeche pressure 60 lakh atm aur temp ~5,000°C hota hai. Yahan Methane (CH₄) molecules toot kar Hydrogen alag chhodte hain aur Carbon atoms high pressure mein crush ho kar real solid diamonds ban kar core ki taraf tapakte hain!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Tez garmi aur plasma mein Methane gas ka toot kar seedhe asli Diamond ki parat jamana",
+        "simple_meaning": "Jab extreme pressure methane se hydrogen nichod le, to bacha hua pure carbon seedhe diamond crystal mein jam jaata hai."
+      },
+      "real_proof": "2017 mein SLAC National Accelerator Lab mein scientists ne polystyrene plastic par giant X-ray laser maar kar Neptune-like conditions create kin aur real nanometer diamonds bante dekhe (Nature Astronomy)!",
+      "mind_question": "Earth par bhi diamonds hamare surface par nahi bante — wo 150 km neeche mantle mein ban kar kis tarah ki volcano pipe se upar aate hain?"
+    },
+    {
+      "id": "ws_02_099",
+      "subtopic": "Phase Change Memory Materials",
+      "title": "Ek Aisa Crystal Jo Nanoseconds Mein Pighal Kar Glass Banta Hai Aur Wapas Crystal — Bina Purana Data Bhule!",
+      "shock_hook": "Purane Rewritable DVDs aur next-gen Phase-Change Computer Memory (PCM) mein atoms crystal (1) aur glass (0) ban kar data save karte hain!",
+      "aam_soch": "Computer memory sirf magnetic hard-disk ya silicon charge traps mein hi data store kar sakti hai.",
+      "science_truth": "Chalcogenide alloys (Germanium-Antimony-Tellurium) ko ek sharp laser/electric pulse se pighla kar turant thanda karein to disordered bina fixed crystal pattern wala Glass banta hai (high resistance = 0); thodi lambi gentle heat dein to wapas ordered Crystal ban jaata hai (low resistance = 1) — aur bina bijli ke saalon tak yaad rakhta hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Electric pulse se material ka random glass se crystal solid ban kar seconds mein data save karna",
+        "simple_meaning": "Ek hi material ke atoms ko neat rows (1) ya random crowd (0) mein nanoseconds mein lock kar ke digital memory banana."
+      },
+      "real_proof": "Intel Optane (3D XPoint) storage aur CD-RW/DVD-RW discs isi Phase-Change physics par kaam karti thin.",
+      "mind_question": "Glass aur Crystal state ke beech electrical resistance mein hazaar guna ka farq kyun aa jaata hai jabki atoms bilkul wahi hain?"
+    },
+    {
+      "id": "ws_02_100",
+      "subtopic": "Four Forces Shape All Matter",
+      "title": "Aapne Jitne Bhi Solids, Liquids, Crystals Aur Plasmas Dekhe — Un Sab Ko Sirf Ek Hi Force 'bijli aur magnet ki taqat' Chalati Hai!",
+      "shock_hook": "Gravity sirf planet ko baandhti hai, Nuclear forces atom ke andar band hain — par duniya ki har touch, shape, liquid, solid aur chemical bond sirf bijli aur magnet ki taqat hai!",
+      "aam_soch": "Friction, elasticity, paani ki upari khinchi hui parat, gaadhapan aur chemical bonds alag-alag fundamental forces hongi.",
+      "science_truth": "Physics mein sirf 4 fundamental forces hain. Friction ho, Oobleck ka jamna ho, ya diamond ki hardness — har ek mein sirf outer electrons ke beech ki bijli aur magnet se bani interaction alag-alag scales aur patterns mein dikhayi deti hai!",
+      "core_principle": {
+        "subject": "Matter ke Ajeeb Roop (Solid, Liquid, Gas)",
+        "concept": "Hamare aas-paas ki har cheez ki shape, rang aur sakhti sirf electrons ke electric khel se banti hai",
+        "simple_meaning": "Atom se lekar pahaad tak, har material ka solid, liquid ya rubber hona sirf electrons ki electric-magnetic interactions ka natija hai."
+      },
+      "real_proof": "Feynman Lectures mein Richard Feynman ne saabit kiya ki agar bijli aur magnet ki taqat ek pal ko off ho jaaye, to saara matter ek gas/dust cloud ban kar bikhar jaayega.",
+      "mind_question": "Agar har everyday force bijli aur magnet se bani hai, to haath mein pakda pathar neeche zameen par girtay waqt kaunsi doosri force us par jeet rahi hoti hai?"
+    }
+  ]
+}
