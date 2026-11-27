@@ -1,0 +1,702 @@
+[
+  {
+    "p_id": "bpsc_aedo_rea_s4_01",
+    "qe": "If '+' and '×' are interchanged, and '−' and '÷' are interchanged, evaluate:\n16 + 5 − 2 × 28 ÷ 7",
+    "qh": "यदि '+' और '×' को आपस में बदल दिया जाए तथा '−' और '÷' को आपस में बदल दिया जाए, तो मान ज्ञात कीजिए:\n16 + 5 − 2 × 28 ÷ 7",
+    "oe": [
+      "54",
+      "61",
+      "68",
+      "72"
+    ],
+    "oh": [
+      "54",
+      "61",
+      "68",
+      "72"
+    ],
+    "a": 1,
+    "e": "New expression: 16 × 5 ÷ 2 + 28 − 7 = 80 ÷ 2 + 28 − 7 = 40 + 28 − 7 = 61.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_02",
+    "qe": "Complete the letter analogy:\nAZ : BY :: CX : ?",
+    "qh": "अक्षर सादृश्यता को पूरा कीजिए:\nAZ : BY :: CX : ?",
+    "oe": [
+      "EW",
+      "DW",
+      "DU",
+      "EV"
+    ],
+    "oh": [
+      "EW",
+      "DW",
+      "DU",
+      "EV"
+    ],
+    "a": 1,
+    "e": "First letter +1 and second letter −1 (also opposite letter pairs): A→B, Z→Y. Thus C(+1)→D, X(−1)→W => DW.",
+    "topic_tag": "reasoning.letter_pairing.alphabetical_pairs"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_03",
+    "qe": "Select the odd letter-cluster from the given alternatives.",
+    "qh": "दिए गए विकल्पों में से भिन्न अक्षर-समूह का चयन कीजिए।",
+    "oe": [
+      "GIK",
+      "STV",
+      "ACE",
+      "MOQ"
+    ],
+    "oh": [
+      "GIK",
+      "STV",
+      "ACE",
+      "MOQ"
+    ],
+    "a": 1,
+    "e": "ACE, GIK, and MOQ each advance by (+2, +2). STV advances by (+1, +2).",
+    "topic_tag": "reasoning.letter_pairing.alphabetical_pairs"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_04",
+    "qe": "In a certain code language, DELHI is written as WVOSR. How will PATNA be written in that code language?",
+    "qh": "एक निश्चित कूट भाषा में DELHI को WVOSR लिखा जाता है। उसी कूट भाषा में PATNA को कैसे लिखा जाएगा?",
+    "oe": [
+      "KYGMZ",
+      "LZGMZ",
+      "KZGMZ",
+      "KZGMA"
+    ],
+    "oh": [
+      "KYGMZ",
+      "LZGMZ",
+      "KZGMZ",
+      "KZGMA"
+    ],
+    "a": 2,
+    "e": "Each letter is replaced by its opposite alphabetical letter (sum of positions = 27): P↔K, A↔Z, T↔G, N↔M, A↔Z => KZGMZ.",
+    "topic_tag": "reasoning.coding.letter_coding"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_05",
+    "qe": "Select the option that is related to the third number in the same way as the second number is related to the first:\n7 : 56 :: 11 : ?",
+    "qh": "उस विकल्प का चयन कीजिए जो तीसरी संख्या से उसी प्रकार संबंधित है जैसे दूसरी संख्या पहली संख्या से संबंधित है:\n7 : 56 :: 11 : ?",
+    "oe": [
+      "144",
+      "132",
+      "110",
+      "121"
+    ],
+    "oh": [
+      "144",
+      "132",
+      "110",
+      "121"
+    ],
+    "a": 1,
+    "e": "Pattern: n : n × (n + 1). 7 × 8 = 56; similarly 11 × 12 = 132.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_06",
+    "qe": "P is the brother of R. R is the father of Q. S is the husband of Q. T is the daughter of S. How is P related to T?",
+    "qh": "P, R का भाई है। R, Q का पिता है। S, Q का पति है। T, S की पुत्री है। P, T से किस प्रकार संबंधित है?",
+    "oe": [
+      "Mother's brother",
+      "Father's father",
+      "Mother's father's brother",
+      "Father's brother"
+    ],
+    "oh": [
+      "माता का भाई",
+      "पिता का पिता",
+      "माता के पिता का भाई",
+      "पिता का भाई"
+    ],
+    "a": 2,
+    "e": "S is husband of Q and T is daughter of S => Q is T's mother. R is Q's father => R is T's maternal grandfather (mother's father). P is R's brother => Mother's father's brother.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_07",
+    "qe": "One morning after sunrise, Ravi and Mohan were talking face-to-face at a park. If Ravi's shadow fell exactly to Ravi's right, which direction was Mohan facing?",
+    "qh": "एक सुबह सूर्योदय के बाद, रवि और मोहन एक पार्क में आमने-सामने बात कर रहे थे। यदि रवि की परछाई ठीक रवि के दाईं ओर पड़ रही थी, तो मोहन का मुख किस दिशा की ओर था?",
+    "oe": [
+      "West",
+      "South",
+      "East",
+      "North"
+    ],
+    "oh": [
+      "पश्चिम",
+      "दक्षिण",
+      "पूर्व",
+      "उत्तर"
+    ],
+    "a": 3,
+    "e": "In the morning, the sun is in the East, so all shadows fall towards the West. Since Ravi's shadow fell to his right, Ravi's right is West, meaning Ravi was facing South. Facing him, Mohan was facing North.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_08",
+    "qe": "In a row, A is 14th from the left and B is 16th from the right. If there are 4 persons sitting between A and B, what is the minimum possible number of persons in the row?",
+    "qh": "एक पंक्ति में A बाएँ से 14वें स्थान पर और B दाएँ से 16वें स्थान पर है। यदि A और B के बीच 4 व्यक्ति बैठे हैं, तो पंक्ति में व्यक्तियों की न्यूनतम संभावित संख्या क्या है?",
+    "oe": [
+      "30",
+      "34",
+      "24",
+      "26"
+    ],
+    "oh": [
+      "30",
+      "34",
+      "24",
+      "26"
+    ],
+    "a": 2,
+    "e": "For minimum count, use the overlapping case (valid since 4 < min(14,16)−1): Minimum = 14 + 16 − 4 − 2 = 24.",
+    "topic_tag": "reasoning.ranking.position_and_order"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_09",
+    "qe": "Statements:\nAll rivers are lakes.\nNo lake is an ocean.\nSome oceans are seas.\nConclusions:\n(I) No river is an ocean.\n(II) Some seas are not lakes.",
+    "qh": "कथन:\nसभी नदियाँ झीलें हैं।\nकोई झील महासागर नहीं है।\nकुछ महासागर समुद्र हैं।\nनिष्कर्ष:\n(I) कोई नदी महासागर नहीं है।\n(II) कुछ समुद्र झीलें नहीं हैं।",
+    "oe": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both conclusions I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल निष्कर्ष I अनुसरण करता है",
+      "केवल निष्कर्ष II अनुसरण करता है",
+      "निष्कर्ष I और II दोनों अनुसरण करते हैं",
+      "न तो I और न ही II अनुसरण करता है"
+    ],
+    "a": 2,
+    "e": "All rivers are inside lakes and no lake is an ocean => No river is an ocean (I follows). Some seas are oceans and no ocean is a lake => Those seas are not lakes (II follows).",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_10",
+    "qe": "Statement: X > Y ≥ Z = W < V ≤ U\nConclusions:\n(I) X > W\n(II) Z < U",
+    "qh": "कथन: X > Y ≥ Z = W < V ≤ U\nनिष्कर्ष:\n(I) X > W\n(II) Z < U",
+    "oe": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल निष्कर्ष I अनुसरण करता है",
+      "केवल निष्कर्ष II अनुसरण करता है",
+      "I और II दोनों अनुसरण करते हैं",
+      "न तो I और न ही II अनुसरण करता है"
+    ],
+    "a": 2,
+    "e": "X > Y ≥ Z = W => X > W (I follows). Z = W < V ≤ U => Z < U (II follows).",
+    "topic_tag": "reasoning.inequality.coded_inequalities"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_11",
+    "qe": "Find the next term in the series:\n2, 6, 12, 20, 30, 42, ?",
+    "qh": "दी गई श्रृंखला में अगला पद ज्ञात कीजिए:\n2, 6, 12, 20, 30, 42, ?",
+    "oe": [
+      "60",
+      "52",
+      "54",
+      "56"
+    ],
+    "oh": [
+      "60",
+      "52",
+      "54",
+      "56"
+    ],
+    "a": 3,
+    "e": "Differences are +4, +6, +8, +10, +12, +14 (or n×(n+1)). Next term = 42 + 14 = 56.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_12",
+    "qe": "Which sequence of letters when placed sequentially in the blanks completes the pattern?\na _ c _ a b _ d a _ c d",
+    "qh": "रिक्त स्थानों में क्रमानुसार कौन-सा अक्षर-समूह रखने पर पैटर्न पूरा होगा?\na _ c _ a b _ d a _ c d",
+    "oe": [
+      "d, b, c, b",
+      "b, d, c, b",
+      "b, c, d, b",
+      "b, d, a, c"
+    ],
+    "oh": [
+      "d, b, c, b",
+      "b, d, c, b",
+      "b, c, d, b",
+      "b, d, a, c"
+    ],
+    "a": 1,
+    "e": "Splitting into 4-letter blocks 'abcd | abcd | abcd' fills the blanks with b, d, c, b.",
+    "topic_tag": "reasoning.alphabetical_series.letter_patterns"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_13",
+    "qe": "Four subjects—Physics, Chemistry, Biology, and Economics—are scheduled on Monday, Tuesday, Wednesday, and Thursday (one per day). Economics is on Monday. Chemistry is neither on Tuesday nor on Thursday. Biology is not on Thursday. Which subject is scheduled on Tuesday?",
+    "qh": "चार विषय—भौतिकी, रसायन विज्ञान, जीव विज्ञान और अर्थशास्त्र—सोमवार, मंगलवार, बुधवार और गुरुवार को निर्धारित हैं (प्रतिदिन एक)। अर्थशास्त्र सोमवार को है। रसायन विज्ञान न तो मंगलवार को है और न ही गुरुवार को। जीव विज्ञान गुरुवार को नहीं है। मंगलवार को कौन-सा विषय निर्धारित है?",
+    "oe": [
+      "Economics",
+      "Biology",
+      "Chemistry",
+      "Physics"
+    ],
+    "oh": [
+      "अर्थशास्त्र",
+      "जीव विज्ञान",
+      "रसायन विज्ञान",
+      "भौतिकी"
+    ],
+    "a": 1,
+    "e": "Monday = Economics. Chemistry is not Tue/Thu => Wednesday = Chemistry. Biology is not Thu => Tuesday = Biology, leaving Thursday = Physics.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_14",
+    "qe": "Three of the following four words are alike in a certain way and one is different. Select the odd one out:\nMercury, Venus, Moon, Mars",
+    "qh": "निम्नलिखित चार शब्दों में से तीन एक निश्चित तरीके से समान हैं और एक भिन्न है। भिन्न शब्द चुनिए:\nबुध, शुक्र, चंद्रमा, मंगल",
+    "oe": [
+      "Mars",
+      "Venus",
+      "Moon",
+      "Mercury"
+    ],
+    "oh": [
+      "मंगल",
+      "शुक्र",
+      "चंद्रमा",
+      "बुध"
+    ],
+    "a": 2,
+    "e": "Mercury, Venus, and Mars are planets orbiting the Sun, whereas Moon is a natural satellite of Earth.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_15",
+    "qe": "Two views of the same dice are shown: in the first view, 3 is at the top, 1 is in front, and 2 is on the right; in the second view, 3 is at the top, 5 is in front, and 6 is on the right. Which number is opposite to 1?",
+    "qh": "एक ही पासे के दो दृश्य दिखाए गए हैं: पहले दृश्य में 3 ऊपर, 1 सामने और 2 दाईं ओर है; दूसरे दृश्य में 3 ऊपर, 5 सामने और 6 दाईं ओर है। 1 के विपरीत कौन-सा अंक है?",
+    "oe": [
+      "4",
+      "5",
+      "2",
+      "6"
+    ],
+    "oh": [
+      "4",
+      "5",
+      "2",
+      "6"
+    ],
+    "a": 1,
+    "e": "With 3 fixed at the top, rotating the dice horizontally moves the front face 1 to the back (opposite) when 5 comes to the front (since 2 and 6 are distinct right faces, it is a 180° rotation). Thus 1 is opposite to 5.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_16",
+    "qe": "If a clock shows 3:25, what time will appear in its vertical mirror image?",
+    "qh": "यदि एक घड़ी में 3:25 का समय दिख रहा है, तो उसके ऊर्ध्वाधर दर्पण प्रतिबिंब में क्या समय दिखाई देगा?",
+    "oe": [
+      "8:35",
+      "9:35",
+      "7:35",
+      "8:25"
+    ],
+    "oh": [
+      "8:35",
+      "9:35",
+      "7:35",
+      "8:25"
+    ],
+    "a": 0,
+    "e": "Mirror time = 11:60 − 3:25 = 8:35.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_17",
+    "qe": "Assertion (A): Rainwater harvesting is strongly promoted in drought-prone districts.\nReason (R): Collecting rainwater helps recharge groundwater tables and reduces water scarcity.",
+    "qh": "अभिकथन (A): सूखा-प्रवण जिलों में वर्षा जल संचयन को दृढ़ता से बढ़ावा दिया जाता है।\nकारण (R): वर्षा जल एकत्र करने से भूजल स्तर को रिचार्ज करने में मदद मिलती है और जल संकट कम होता है।",
+    "oe": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "oh": [
+      "A और R दोनों सत्य हैं और R, A की सही व्याख्या है",
+      "A और R दोनों सत्य हैं लेकिन R, A की सही व्याख्या नहीं है",
+      "A सत्य है लेकिन R असत्य है",
+      "A असत्य है लेकिन R सत्य है"
+    ],
+    "a": 0,
+    "e": "Rainwater harvesting recharges groundwater and mitigates scarcity, which directly explains why it is promoted in drought-prone districts.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_18",
+    "qe": "If 'TABLE' is coded as 'GZYOV' in a certain code language, how will 'CHAIR' be coded in that language?",
+    "qh": "यदि किसी निश्चित कूट भाषा में 'TABLE' को 'GZYOV' लिखा जाता है, तो उसी भाषा में 'CHAIR' को कैसे लिखा जाएगा?",
+    "oe": [
+      "XSZRI",
+      "XSYRI",
+      "XSZRJ",
+      "YSZRI"
+    ],
+    "oh": [
+      "XSZRI",
+      "XSYRI",
+      "XSZRJ",
+      "YSZRI"
+    ],
+    "a": 0,
+    "e": "Each letter is replaced by its opposite pair (A↔Z, B↔Y, C↔X, ...): C→X, H→S, A→Z, I→R, R→I => XSZRI.",
+    "topic_tag": "reasoning.coding.letter_coding"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_19",
+    "qe": "Which sequence of letters placed in the blanks completes the series?\np _ r s _ q r _ p q _ s",
+    "qh": "रिक्त स्थानों में कौन-सा अक्षर-क्रम रखने पर श्रृंखला पूरी होगी?\np _ r s _ q r _ p q _ s",
+    "oe": [
+      "q, s, p, r",
+      "r, p, s, q",
+      "p, q, s, r",
+      "q, p, s, r"
+    ],
+    "oh": [
+      "q, s, p, r",
+      "r, p, s, q",
+      "p, q, s, r",
+      "q, p, s, r"
+    ],
+    "a": 3,
+    "e": "Grouping into 4-letter blocks 'pqrs | pqrs | pqrs' fills the blanks sequentially with q, p, s, r.",
+    "topic_tag": "reasoning.alphabetical_series.letter_patterns"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_20",
+    "qe": "Find the missing number following the pattern:\nRow 1: 6, 8, 10\nRow 2: 5, 12, 13\nRow 3: 8, 15, ?",
+    "qh": "दिए गए पैटर्न के अनुसार लुप्त संख्या ज्ञात कीजिए:\nपंक्ति 1: 6, 8, 10\nपंक्ति 2: 5, 12, 13\nपंक्ति 3: 8, 15, ?",
+    "oe": [
+      "17",
+      "19",
+      "16",
+      "23"
+    ],
+    "oh": [
+      "17",
+      "19",
+      "16",
+      "23"
+    ],
+    "a": 0,
+    "e": "Each row is a Pythagorean triplet (1st² + 2nd² = 3rd²): √(8² + 15²) = √(64 + 225) = √289 = 17.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_21",
+    "qe": "If today is Wednesday, what day of the week will it be after 68 days?",
+    "qh": "यदि आज बुधवार है, तो 68 दिनों के बाद सप्ताह का कौन-सा दिन होगा?",
+    "oe": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Saturday"
+    ],
+    "oh": [
+      "रविवार",
+      "सोमवार",
+      "मंगलवार",
+      "शनिवार"
+    ],
+    "a": 1,
+    "e": "68 = 9 × 7 + 5 => 5 odd days. Wednesday + 5 days = Monday.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_22",
+    "qe": "What is the minimum number of straight cuts required to divide a large cube into 64 identical smaller cubes?",
+    "qh": "एक बड़े घन को 64 एकसमान छोटे घनों में विभाजित करने के लिए न्यूनतम कितने सीधे कट (Cuts) लगाने होंगे?",
+    "oe": [
+      "16",
+      "9",
+      "12",
+      "8"
+    ],
+    "oh": [
+      "16",
+      "9",
+      "12",
+      "8"
+    ],
+    "a": 1,
+    "e": "64 = 4 × 4 × 4, requiring (4 − 1) = 3 cuts along each of the 3 axes. Total cuts = 3 + 3 + 3 = 9.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_23",
+    "qe": "Find the total number of squares in a 3 × 5 rectangular grid (3 rows and 5 columns of unit squares).",
+    "qh": "एक 3 × 5 आयताकार ग्रिड (3 पंक्तियाँ और 5 स्तंभ) में वर्गों की कुल संख्या ज्ञात कीजिए।",
+    "oe": [
+      "30",
+      "28",
+      "22",
+      "26"
+    ],
+    "oh": [
+      "30",
+      "28",
+      "22",
+      "26"
+    ],
+    "a": 3,
+    "e": "Total squares = (3 × 5) + (2 × 4) + (1 × 3) = 15 + 8 + 3 = 26.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_24",
+    "qe": "Five girls sit on a bench facing North. Seema is to the immediate left of Rani and immediate right of Bindu. Mary is to the right of Rani. Reeta is between Rani and Mary. Who sits in the exact middle?",
+    "qh": "पाँच लड़कियाँ उत्तर की ओर मुख करके एक बेंच पर बैठी हैं। सीमा, रानी के ठीक बाएँ और बिंदु के ठीक दाएँ है। मैरी, रानी के दाएँ है। रीता, रानी और मैरी के बीच है। ठीक बीच में कौन बैठी है?",
+    "oe": [
+      "Seema",
+      "Reeta",
+      "Bindu",
+      "Rani"
+    ],
+    "oh": [
+      "सीमा",
+      "रीता",
+      "बिंदु",
+      "रानी"
+    ],
+    "a": 3,
+    "e": "Left-to-right order: Bindu, Seema, Rani, Reeta, Mary. Thus Rani sits in the exact middle (3rd).",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_25",
+    "qe": "If P is the brother of Q, Q is the sister of R, and R is the father of S, how is S related to P?",
+    "qh": "यदि P, Q का भाई है, Q, R की बहन है और R, S का पिता है, तो S, P से किस प्रकार संबंधित है?",
+    "oe": [
+      "Nephew only",
+      "Nephew or Niece",
+      "Son or Daughter",
+      "Niece only"
+    ],
+    "oh": [
+      "केवल भतीजा",
+      "भतीजा या भतीजी",
+      "पुत्र या पुत्री",
+      "केवल भतीजी"
+    ],
+    "a": 1,
+    "e": "P, Q, and R are siblings. S is R's child whose gender is not specified, so S is P's nephew or niece.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_26",
+    "qe": "Which Venn diagram relationship best represents: Athletes, Students, Singers?",
+    "qh": "निम्नलिखित के बीच संबंध को कौन-सा वेन आरेख सर्वोत्तम दर्शाता है: खिलाड़ी, छात्र, गायक?",
+    "oe": [
+      "Three concentric circles",
+      "One circle inside another, third separate",
+      "Three completely separate circles",
+      "Three mutually intersecting circles"
+    ],
+    "oh": [
+      "तीन संकेंद्रित वृत्त",
+      "एक के अंदर दूसरा, तीसरा अलग",
+      "तीन पूर्णतः अलग वृत्त",
+      "तीन परस्पर काटते हुए (एक-दूसरे को ओवरलैप करते) वृत्त"
+    ],
+    "a": 3,
+    "e": "A student can be an athlete and/or a singer, and vice versa — all three categories partially overlap each other.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_27",
+    "qe": "Which two numbers should be interchanged to make the equation correct?\n45 ÷ 5 + 8 × 3 − 6 = 19",
+    "qh": "दिए गए समीकरण को सही बनाने के लिए किन दो संख्याओं को आपस में बदलना चाहिए?\n45 ÷ 5 + 8 × 3 − 6 = 19",
+    "oe": [
+      "8 and 6",
+      "45 and 8",
+      "3 and 6",
+      "5 and 3"
+    ],
+    "oh": [
+      "8 और 6",
+      "45 और 8",
+      "3 और 6",
+      "5 और 3"
+    ],
+    "a": 0,
+    "e": "Swapping 8 and 6 gives: 45 ÷ 5 + 6 × 3 − 8 = 9 + 18 − 8 = 19.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_28",
+    "qe": "Arrange the following words in English dictionary order:\n1. Prepare  2. Present  3. Preserve  4. Predict  5. Prevent",
+    "qh": "निम्नलिखित शब्दों को अंग्रेजी शब्दकोश के क्रम में व्यवस्थित कीजिए:\n1. Prepare  2. Present  3. Preserve  4. Predict  5. Prevent",
+    "oe": [
+      "4, 1, 3, 2, 5",
+      "4, 2, 1, 3, 5",
+      "4, 1, 2, 3, 5",
+      "1, 4, 2, 3, 5"
+    ],
+    "oh": [
+      "4, 1, 3, 2, 5",
+      "4, 2, 1, 3, 5",
+      "4, 1, 2, 3, 5",
+      "1, 4, 2, 3, 5"
+    ],
+    "a": 2,
+    "e": "Alphabetical order: Predict (4) → Prepare (1) → Present (2) → Preserve (3) → Prevent (5) => 4, 1, 2, 3, 5.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_29",
+    "qe": "Question: On which day of the week was Ankit's birthday?\nStatements:\nI. Ankit's brother remembers it was after Tuesday but before Friday.\nII. Ankit's mother remembers it was on an even-numbered day of the month.",
+    "qh": "प्रश्न: अंकित का जन्मदिन सप्ताह के किस दिन था?\nकथन:\nI. अंकित के भाई को याद है कि वह मंगलवार के बाद लेकिन शुक्रवार से पहले था।\nII. अंकित की माता को याद है कि वह महीने की सम तारीख को था।",
+    "oe": [
+      "Statement I alone is sufficient",
+      "Statement II alone is sufficient",
+      "Both statements I and II together are sufficient",
+      "Both statements I and II together are NOT sufficient"
+    ],
+    "oh": [
+      "केवल कथन I पर्याप्त है",
+      "केवल कथन II पर्याप्त है",
+      "कथन I और II दोनों एक साथ पर्याप्त हैं",
+      "कथन I और II दोनों एक साथ भी पर्याप्त नहीं हैं"
+    ],
+    "a": 3,
+    "e": "Statement I leaves Wednesday or Thursday. Statement II mentions an even date without specifying the month/date mapping to weekdays. Thus the exact weekday cannot be determined.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_30",
+    "qe": "Statement: \"Frequent power cuts during peak summer afternoons are affecting hospital operations in the district.\"\nCourses of Action:\n(I) Hospitals should be connected to dedicated backup generators or uninterrupted feeder lines.\n(II) Hospitals should stop admitting patients during summer.",
+    "qh": "कथन: \"गर्मी की दोपहर में बार-बार बिजली कटौती से जिले में अस्पतालों का संचालन प्रभावित हो रहा है।\"\nकार्यवाहियाँ:\n(I) अस्पतालों को समर्पित बैकअप जनरेटर या निर्बाध फीडर लाइनों से जोड़ा जाना चाहिए।\n(II) अस्पतालों को गर्मियों के दौरान मरीजों को भर्ती करना बंद कर देना चाहिए।",
+    "oe": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल I अनुसरण करती है",
+      "केवल II अनुसरण करती है",
+      "I और II दोनों अनुसरण करती हैं",
+      "न तो I और न ही II अनुसरण करती है"
+    ],
+    "a": 0,
+    "e": "Providing uninterrupted power/backup (I) ensures safe medical care, whereas halting admissions (II) violates essential public health duty.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_31",
+    "qe": "Question: Should solar rooftops be made mandatory for all new government office buildings?\nArguments:\n(I) Yes, it will lower recurring electricity bills and promote clean renewable energy.\n(II) No, sunlight is never reliable anywhere in India.",
+    "qh": "प्रश्न: क्या सभी नए सरकारी कार्यालय भवनों के लिए सोलर रूफटॉप अनिवार्य किया जाना चाहिए?\nतर्क:\n(I) हाँ, इससे आवर्ती बिजली बिल कम होंगे और स्वच्छ नवीकरणीय ऊर्जा को बढ़ावा मिलेगा।\n(II) नहीं, भारत में कहीं भी धूप कभी विश्वसनीय नहीं होती।",
+    "oe": [
+      "Only Argument I is strong",
+      "Only Argument II is strong",
+      "Both I and II are strong",
+      "Neither I nor II is strong"
+    ],
+    "oh": [
+      "केवल तर्क I प्रबल है",
+      "केवल तर्क II प्रबल है",
+      "I और II दोनों प्रबल हैं",
+      "न तो I और न ही II प्रबल है"
+    ],
+    "a": 0,
+    "e": "Argument I is practical and sound, whereas Argument II is factually false since India receives abundant sunshine across most regions.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_32",
+    "qe": "Using the same unfolded cube net [A, B, C, D] vertically with E to the left of B and F to the right of B, which pair of faces CANNOT be adjacent when folded?",
+    "qh": "ऊपर से नीचे [A, B, C, D] पट्टी वाले एक खुले घन में E, B के बाएँ और F, B के दाएँ जुड़ा है। घन बनाने पर कौन-सा युग्म कभी संलग्न (Adjacent) नहीं हो सकता?",
+    "oe": [
+      "C and D",
+      "A and E",
+      "E and F",
+      "B and F"
+    ],
+    "oh": [
+      "C और D",
+      "A और E",
+      "E और F",
+      "B और F"
+    ],
+    "a": 2,
+    "e": "Opposite faces are never adjacent. Here E and F are opposite to each other, so they cannot be adjacent.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_33",
+    "qe": "In the standard English alphabet (A to Z), which letter is 7th to the right of the 11th letter from the left end?",
+    "qh": "मानक अंग्रेजी वर्णमाला (A से Z) में, बाएँ छोर से 11वें अक्षर के दाएँ 7वाँ अक्षर कौन-सा है?",
+    "oe": [
+      "T",
+      "S",
+      "Q",
+      "R"
+    ],
+    "oh": [
+      "T",
+      "S",
+      "Q",
+      "R"
+    ],
+    "a": 3,
+    "e": "11th letter from left + 7th to its right = (11 + 7) = 18th letter from the left, which is R.",
+    "topic_tag": "reasoning.alphabetical_series.letter_patterns"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_34",
+    "qe": "Select the odd letter-cluster out from the given alternatives:",
+    "qh": "दिए गए विकल्पों में से भिन्न अक्षर-समूह चुनिए:",
+    "oe": [
+      "BDF",
+      "IOU",
+      "EIO",
+      "AEI"
+    ],
+    "oh": [
+      "BDF",
+      "IOU",
+      "EIO",
+      "AEI"
+    ],
+    "a": 0,
+    "e": "AEI, IOU, and EIO consist entirely of vowels, whereas BDF consists entirely of consonants.",
+    "topic_tag": "reasoning.letter_pairing.alphabetical_pairs"
+  },
+  {
+    "p_id": "bpsc_aedo_rea_s4_35",
+    "qe": "'A @ B' means A is 4 m North of B, and 'A # B' means A is 3 m East of B. If 'P @ Q # R' holds, what is the shortest distance and direction of P from R?",
+    "qh": "'A @ B' का अर्थ A, B के 4 मीटर उत्तर में है और 'A # B' का अर्थ A, B के 3 मीटर पूर्व में है। यदि 'P @ Q # R' है, तो R से P की न्यूनतम दूरी और दिशा क्या है?",
+    "oe": [
+      "5 m North-West",
+      "5 m North-East",
+      "5 m South-East",
+      "7 m North-East"
+    ],
+    "oh": [
+      "5 मीटर उत्तर-पश्चिम",
+      "5 मीटर उत्तर-पूर्व",
+      "5 मीटर दक्षिण-पूर्व",
+      "7 मीटर उत्तर-पूर्व"
+    ],
+    "a": 1,
+    "e": "Q is 3 m East of R, and P is 4 m North of Q. Shortest distance RP = √(3² + 4²) = 5 m in the North-East direction.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "p_id": "bpsc_aedo_apt_s4_01",
+    "qe": "Find the greatest number that divides 148, 246, and 393 leaving the same remainder in each case.",
+    "qh": "वह सबसे बड़ी संख्या ज्ञात कीजिए जिससे 148, 246 और 393 को विभाजित करने पर प्रत्येक स्थिति में समान शेषफल बचे।",
+    "oe": [
+      "28",
+      "49",
+      "37",
+      "53"
+    ],
+    "oh": [
+      "28",
+      "49",
+      "37",
+      "53"
+    ],
+    "a": 1,
+    "e": "The required greatest number is HCF of pairwise differences: 246 - 148 = 98 and 393 - 246 = 147. HCF(98, 147) = 49 (check: each leaves remainder 1 when divided by 49).",
+    "topic_tag": "maths.number_system.number_system_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_02",
+    "qe": "While finding the HCF of two numbers by successive division, the quotients are 2, 3, and 5 respectively, and the last divisor is 16. What is the sum of the two numbers?",
+    "qh": "क्रमिक भाग विधि से दो संख्याओं का म.स. (HCF) निकालते समय भागफल क्रमशः 2, 3 और 5 आते हैं तथा अंतिम भाजक 16 है। दोनों संख्याओं का योग कितना है?",
+    "oe": [
+      "864",
+      "848",
+      "816",
+      "832"
+    ],
+    "oh": [
+      "864",
+      "848",
+      "816",
+      "832"
+    ],
+    "a": 1,
+    "e": "Last divisor = 16. Previous divisor = 16 × 5 = 80. Smaller number = 80 × 3 + 16 = 256. Larger number = 256 × 2 + 80 = 592. Sum = 592 + 256 = 848.",
+    "topic_tag": "maths.hcf_and_lcm.hcf_and_lcm_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_03",
+    "qe": "Find the value of: √(54 + √(93 + √(44 + √25)))",
+    "qh": "मान ज्ञात कीजिए: √(54 + √(93 + √(44 + √25)))",
+    "oe": [
+      "9",
+      "10",
+      "8",
+      "7"
+    ],
+    "oh": [
+      "9",
+      "10",
+      "8",
+      "7"
+    ],
+    "a": 2,
+    "e": "√25 = 5 => √(44 + 5) = √49 = 7 => √(93 + 7) = √100 = 10 => √(54 + 10) = √64 = 8.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_04",
+    "qe": "In a company initially having 1,200 employees, 60 employees were laid off in April and 240 more employees were laid off in May. What percentage of the initial workforce was laid off in total?",
+    "qh": "शुरुआत में 1,200 कर्मचारियों वाली एक कंपनी में अप्रैल में 60 कर्मचारियों और मई में 240 और कर्मचारियों की छंटनी की गई। कुल मिलाकर शुरुआती कर्मचारियों के कितने प्रतिशत की छंटनी हुई?",
+    "oe": [
+      "30%",
+      "20%",
+      "22.5%",
+      "25%"
+    ],
+    "oh": [
+      "30%",
+      "20%",
+      "22.5%",
+      "25%"
+    ],
+    "a": 3,
+    "e": "Total laid off = 60 + 240 = 300. Percentage = (300 / 1200) × 100 = 25%.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_05",
+    "qe": "Two articles are sold for ₹1,500 each, resulting in an overall profit of 25%. If the cost price of the first article was ₹1,000, what was the cost price of the second article?",
+    "qh": "दो वस्तुओं में से प्रत्येक को ₹1,500 में बेचने पर व्यापारी को कुल मिलाकर 25% का लाभ होता है। यदि पहली वस्तु का क्रय मूल्य ₹1,000 था, तो दूसरी वस्तु का क्रय मूल्य कितना था?",
+    "oe": [
+      "₹1,500",
+      "₹1,400",
+      "₹1,350",
+      "₹1,200"
+    ],
+    "oh": [
+      "₹1,500",
+      "₹1,400",
+      "₹1,350",
+      "₹1,200"
+    ],
+    "a": 1,
+    "e": "Total SP = 1500 + 1500 = ₹3,000. At 25% overall profit, Total CP = 3000 / 1.25 = ₹2,400. Cost price of second article = 2,400 - 1,000 = ₹1,400.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_06",
+    "qe": "A sum of ₹2,400 amounts to ₹3,120 in 4 years at a certain rate of simple interest. If the interest rate is increased by 2.5% per annum, what will the same sum amount to in 4 years?",
+    "qh": "₹2,400 की धनराशि साधारण ब्याज की एक निश्चित दर से 4 वर्षों में ₹3,120 हो जाती है। यदि ब्याज दर को 2.5% वार्षिक बढ़ा दिया जाए, तो वही धनराशि 4 वर्षों में कितनी हो जाएगी?",
+    "oe": [
+      "₹3,420",
+      "₹3,300",
+      "₹3,240",
+      "₹3,360"
+    ],
+    "oh": [
+      "₹3,420",
+      "₹3,300",
+      "₹3,240",
+      "₹3,360"
+    ],
+    "a": 3,
+    "e": "Extra interest for 4 years at +2.5% = 2400 × (2.5 × 4)/100 = 2400 × 10% = ₹240. New amount = 3,120 + 240 = ₹3,360.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_07",
+    "qe": "A sum of money placed at compound interest doubles itself in 5 years. In how many years will it become 16 times itself at the same rate?",
+    "qh": "चक्रवृद्धि ब्याज पर रखी गई एक धनराशि 5 वर्षों में दोगुनी हो जाती है। उसी दर पर यह कितने वर्षों में स्वयं की 16 गुनी हो जाएगी?",
+    "oe": [
+      "15 years",
+      "40 years",
+      "20 years",
+      "25 years"
+    ],
+    "oh": [
+      "15 वर्ष",
+      "40 वर्ष",
+      "20 वर्ष",
+      "25 वर्ष"
+    ],
+    "a": 2,
+    "e": "16 = 2⁴. Since the amount multiplies by 2 every 5 years, it becomes 2⁴ = 16 times in 4 × 5 = 20 years.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_08",
+    "qe": "A bag contains ₹1, ₹2, and ₹5 coins in the ratio 4 : 3 : 2. If the total value of the coins is ₹180, how many ₹5 coins are in the bag?",
+    "qh": "एक थैले में ₹1, ₹2 और ₹5 के सिक्के 4 : 3 : 2 के अनुपात में हैं। यदि सिक्कों का कुल मूल्य ₹180 है, तो थैले में ₹5 के कितने सिक्के हैं?",
+    "oe": [
+      "16",
+      "24",
+      "18",
+      "20"
+    ],
+    "oh": [
+      "16",
+      "24",
+      "18",
+      "20"
+    ],
+    "a": 2,
+    "e": "Value per group = (4×1) + (3×2) + (2×5) = 4 + 6 + 10 = ₹20. Number of groups = 180 / 20 = 9. Number of ₹5 coins = 2 × 9 = 18.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_09",
+    "qe": "A cricketer scores 92 runs in his 12th innings, thereby increasing his batting average by 4 runs. What is his average after the 12th innings?",
+    "qh": "एक क्रिकेटर अपनी 12वीं पारी में 92 रन बनाता है, जिससे उसका बल्लेबाजी औसत 4 रन बढ़ जाता है। 12वीं पारी के बाद उसका औसत क्या है?",
+    "oe": [
+      "48",
+      "52",
+      "46",
+      "44"
+    ],
+    "oh": [
+      "48",
+      "52",
+      "46",
+      "44"
+    ],
+    "a": 0,
+    "e": "Extra runs distributed over first 11 innings = 11 × 4 = 44. Therefore, his new average after 12th innings = 92 - 44 = 48.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_10",
+    "qe": "Working 6 hours a day, Suman can finish a typing assignment in 10 days. If she increases her daily working hours to 10 hours a day, in how many days will she complete the assignment?",
+    "qh": "प्रतिदिन 6 घंटे कार्य करके सुमन एक टाइपिंग कार्य 10 दिनों में पूरा कर सकती है। यदि वह प्रतिदिन 10 घंटे कार्य करे, तो वह कार्य कितने दिनों में पूरा करेगी?",
+    "oe": [
+      "7.5 days",
+      "5 days",
+      "8 days",
+      "6 days"
+    ],
+    "oh": [
+      "7.5 दिन",
+      "5 दिन",
+      "8 दिन",
+      "6 दिन"
+    ],
+    "a": 3,
+    "e": "Total hours required = 6 × 10 = 60 hours. Working 10 hours/day, days required = 60 / 10 = 6 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_11",
+    "qe": "Two pipes A and B can fill a tank in 12 hours and 18 hours respectively. If they are opened on alternate hours starting with A, in how much time will the tank be full?",
+    "qh": "दो पाइप A और B एक टंकी को क्रमशः 12 घंटे और 18 घंटे में भर सकते हैं। यदि उन्हें A से शुरू करके एकांतर घंटों (alternate hours) में खोला जाए, तो टंकी कितने समय में भर जाएगी?",
+    "oe": [
+      "14 hours",
+      "15 hours",
+      "14 hours 30 minutes",
+      "14 hours 20 minutes"
+    ],
+    "oh": [
+      "14 घंटे",
+      "15 घंटे",
+      "14 घंटे 30 मिनट",
+      "14 घंटे 20 मिनट"
+    ],
+    "a": 3,
+    "e": "Capacity = 36 units (A = 3/hr, B = 2/hr). In 2 hours, 5 units fill. In 14 hours (7 cycles), 35 units fill. Remaining 1 unit is filled by A in 1/3 hour = 20 minutes. Total = 14 hours 20 minutes.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_12",
+    "qe": "A policeman spots a thief from a distance of 300 meters. Both start running simultaneously; the thief runs at 10 km/h and the policeman chases at 12 km/h. After how many minutes will the policeman catch the thief?",
+    "qh": "एक पुलिसकर्मी 300 मीटर की दूरी से एक चोर को देखता है। दोनों एक साथ दौड़ना शुरू करते हैं; चोर 10 किमी/घंटा और पुलिसकर्मी 12 किमी/घंटा की चाल से दौड़ता है। पुलिसकर्मी चोर को कितने मिनट बाद पकड़ लेगा?",
+    "oe": [
+      "12 minutes",
+      "6 minutes",
+      "8 minutes",
+      "9 minutes"
+    ],
+    "oh": [
+      "12 मिनट",
+      "6 मिनट",
+      "8 मिनट",
+      "9 मिनट"
+    ],
+    "a": 3,
+    "e": "Relative speed = 12 − 10 = 2 km/h = 2000 m/hour. Time = (300 / 2000) × 60 = 9 minutes.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_13",
+    "qe": "A boat covers 24 km upstream and 36 km downstream in 6 hours, while it covers 36 km upstream and 24 km downstream in 6.5 hours. Find the speed of the stream.",
+    "qh": "एक नाव धारा के प्रतिकूल 24 किमी और धारा के अनुकूल 36 किमी की दूरी 6 घंटे में तय करती है, जबकि वह धारा के प्रतिकूल 36 किमी और धारा के अनुकूल 24 किमी की दूरी 6.5 घंटे में तय करती है। धारा की चाल ज्ञात कीजिए।",
+    "oe": [
+      "2 km/h",
+      "3 km/h",
+      "1.5 km/h",
+      "2.5 km/h"
+    ],
+    "oh": [
+      "2 किमी/घंटा",
+      "3 किमी/घंटा",
+      "1.5 किमी/घंटा",
+      "2.5 किमी/घंटा"
+    ],
+    "a": 0,
+    "e": "Let upstream speed = U and downstream speed = D. 24/U + 36/D = 6 and 36/U + 24/D = 6.5. Solving gives U = 8 km/h and D = 12 km/h. Stream speed = (D − U)/2 = (12 − 8)/2 = 2 km/h.",
+    "topic_tag": "maths.boats_and_streams.boat_stream_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_14",
+    "qe": "If the diagonal of a square is 12√2 cm, what is its area?",
+    "qh": "यदि एक वर्ग का विकर्ण 12√2 सेमी है, तो उसका क्षेत्रफल कितना है?",
+    "oe": [
+      "72 cm²",
+      "144 cm²",
+      "120 cm²",
+      "288 cm²"
+    ],
+    "oh": [
+      "72 सेमी²",
+      "144 सेमी²",
+      "120 सेमी²",
+      "288 सेमी²"
+    ],
+    "a": 1,
+    "e": "Diagonal = side × √2 = 12√2 => side = 12 cm. Area = 12² = 144 cm².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_15",
+    "qe": "A right circular cone has a base radius of 5 cm and a vertical height of 12 cm. What is its curved surface area (in terms of π)?",
+    "qh": "एक लंब वृत्तीय शंकु की आधार त्रिज्या 5 सेमी और ऊर्ध्वाधर ऊँचाई 12 सेमी है। इसका वक्र पृष्ठीय क्षेत्रफल (π के पदों में) क्या है?",
+    "oe": [
+      "55π cm²",
+      "65π cm²",
+      "60π cm²",
+      "75π cm²"
+    ],
+    "oh": [
+      "55π सेमी²",
+      "65π सेमी²",
+      "60π सेमी²",
+      "75π सेमी²"
+    ],
+    "a": 1,
+    "e": "Slant height l = √(r² + h²) = √(5² + 12²) = 13 cm. Curved surface area = πrl = π × 5 × 13 = 65π cm².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_16",
+    "qe": "A, B, and C invest capital in a business in the ratio 2 : 3 : 5 for time periods in the ratio 4 : 3 : 2 respectively. If the total profit is ₹54,000, what is C's share?",
+    "qh": "A, B और C किसी व्यवसाय में 2 : 3 : 5 के अनुपात में पूँजी निवेश करते हैं और उनके निवेश की अवधि का अनुपात क्रमशः 4 : 3 : 2 है। यदि कुल लाभ ₹54,000 है, तो C का हिस्सा क्या है?",
+    "oe": [
+      "₹22,000",
+      "₹16,000",
+      "₹18,000",
+      "₹20,000"
+    ],
+    "oh": [
+      "₹22,000",
+      "₹16,000",
+      "₹18,000",
+      "₹20,000"
+    ],
+    "a": 3,
+    "e": "Profit ratio = (2×4) : (3×3) : (5×2) = 8 : 9 : 10. Sum = 27 units. C's share = 54,000 × (10/27) = ₹20,000.",
+    "topic_tag": "maths.partnership.partnership_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_17",
+    "qe": "Two equal vessels are filled with mixtures of milk and water in the ratios 4 : 1 and 3 : 2 respectively. If both mixtures are poured into a single large vessel, what will be the ratio of milk to water?",
+    "qh": "दो समान बर्तनों में दूध और पानी का मिश्रण क्रमशः 4 : 1 और 3 : 2 के अनुपात में भरा है। यदि दोनों मिश्रणों को एक बड़े बर्तन में मिला दिया जाए, तो नए मिश्रण में दूध और पानी का अनुपात क्या होगा?",
+    "oe": [
+      "7 : 3",
+      "5 : 2",
+      "8 : 3",
+      "3 : 1"
+    ],
+    "oh": [
+      "7 : 3",
+      "5 : 2",
+      "8 : 3",
+      "3 : 1"
+    ],
+    "a": 0,
+    "e": "Both ratios have sum 4+1 = 5 and 3+2 = 5 (already equal capacity!). Adding directly: Milk = 4+3 = 7, Water = 1+2 = 3. Ratio = 7 : 3.",
+    "topic_tag": "maths.mixture.mixture_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_18",
+    "qe": "The total cost of 3 chairs and 2 tables is ₹2,900, while the cost of 2 chairs and 3 tables is ₹3,100. What is the combined cost of 1 chair and 1 table?",
+    "qh": "3 कुर्सियों और 2 मेजों की कुल कीमत ₹2,900 है, जबकि 2 कुर्सियों और 3 मेजों की कुल कीमत ₹3,100 है। 1 कुर्सी और 1 मेज की संयुक्त कीमत क्या है?",
+    "oe": [
+      "₹1,250",
+      "₹1,300",
+      "₹1,100",
+      "₹1,200"
+    ],
+    "oh": [
+      "₹1,250",
+      "₹1,300",
+      "₹1,100",
+      "₹1,200"
+    ],
+    "a": 3,
+    "e": "Adding both equations: 5 chairs + 5 tables = ₹6,000. Dividing by 5 gives 1 chair + 1 table = ₹1,200.",
+    "topic_tag": "maths.algebra.algebraic_equations"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_19",
+    "qe": "What is the exact value of 0.4333... − 0.1333...?",
+    "qh": "0.4333... − 0.1333... का सटीक मान क्या है?",
+    "oe": [
+      "2/9",
+      "1/3",
+      "3/10",
+      "7/30"
+    ],
+    "oh": [
+      "2/9",
+      "1/3",
+      "3/10",
+      "7/30"
+    ],
+    "a": 2,
+    "e": "0.43̄ = (43−4)/90 = 39/90 and 0.13̄ = (13−1)/90 = 12/90. Difference = 27/90 = 3/10 (0.3).",
+    "topic_tag": "maths.number_system.number_system_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_20",
+    "qe": "How many trailing zeroes are there at the end of 125! (factorial 125)?",
+    "qh": "125! (फैक्टोरियल 125) के अंत में कितने शून्य (Trailing Zeroes) होंगे?",
+    "oe": [
+      "30",
+      "32",
+      "25",
+      "31"
+    ],
+    "oh": [
+      "30",
+      "32",
+      "25",
+      "31"
+    ],
+    "a": 3,
+    "e": "Trailing zeroes = ⌊125/5⌋ + ⌊125/25⌋ + ⌊125/125⌋ = 25 + 5 + 1 = 31.",
+    "topic_tag": "maths.number_system.number_system_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_21",
+    "qe": "Find the value of (√5 + √3)/(√5 − √3) + (√5 − √3)/(√5 + √3).",
+    "qh": "(√5 + √3)/(√5 − √3) + (√5 − √3)/(√5 + √3) का मान ज्ञात कीजिए।",
+    "oe": [
+      "8",
+      "10",
+      "4",
+      "16"
+    ],
+    "oh": [
+      "8",
+      "10",
+      "4",
+      "16"
+    ],
+    "a": 0,
+    "e": "Using (a+b)/(a−b) + (a−b)/(a+b) = 2(a² + b²)/(a² − b²) = 2(5 + 3)/(5 − 3) = 16/2 = 8.",
+    "topic_tag": "maths.algebra.algebraic_equations"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_22",
+    "qe": "Four bells toll at intervals of 6, 8, 12, and 18 seconds respectively. If they start tolling together at 8:00 AM, how many times will they toll together in 12 minutes (including the start)?",
+    "qh": "चार घंटियाँ क्रमशः 6, 8, 12 और 18 सेकंड के अंतराल पर बजती हैं। यदि वे सुबह 8:00 बजे एक साथ बजना शुरू करती हैं, तो 12 मिनट में (प्रारंभ को शामिल करते हुए) वे कितनी बार एक साथ बजेंगी?",
+    "oe": [
+      "11",
+      "9",
+      "12",
+      "10"
+    ],
+    "oh": [
+      "11",
+      "9",
+      "12",
+      "10"
+    ],
+    "a": 0,
+    "e": "LCM(6, 8, 12, 18) = 72 seconds. In 12 minutes (720 s), they toll together (720/72) + 1 = 10 + 1 = 11 times.",
+    "topic_tag": "maths.hcf_and_lcm.hcf_and_lcm_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_23",
+    "qe": "The population of a town is 50,000. It increases by 10% in the first year and by 20% in the second year. What will be the population after 2 years?",
+    "qh": "एक कस्बे की जनसंख्या 50,000 है। यह पहले वर्ष में 10% और दूसरे वर्ष में 20% बढ़ती है। 2 वर्षों के बाद जनसंख्या कितनी होगी?",
+    "oe": [
+      "64,000",
+      "66,000",
+      "65,000",
+      "68,000"
+    ],
+    "oh": [
+      "64,000",
+      "66,000",
+      "65,000",
+      "68,000"
+    ],
+    "a": 1,
+    "e": "Population after 2 years = 50,000 × 1.10 × 1.20 = 66,000.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_24",
+    "qe": "A dealer sold two bicycles at ₹2,400 each. On one he gained 20% and on the other he lost 20%. What was his overall percentage profit or loss?",
+    "qh": "एक व्यापारी ने दो साइकिलें ₹2,400 प्रति साइकिल की दर से बेचीं। एक पर उसे 20% का लाभ हुआ और दूसरी पर 20% की हानि हुई। उसका कुल प्रतिशत लाभ या हानि क्या थी?",
+    "oe": [
+      "No profit, no loss",
+      "4% loss",
+      "4% profit",
+      "2% loss"
+    ],
+    "oh": [
+      "न लाभ, न हानि",
+      "4% हानि",
+      "4% लाभ",
+      "2% हानि"
+    ],
+    "a": 1,
+    "e": "When two articles are sold at the same SP with x% gain and x% loss, there is always a loss of (x²/100)% = 20²/100 = 4% loss.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_25",
+    "qe": "A started a business with ₹12,000 for 8 months and B joined with ₹16,000 for 9 months. Out of a total profit of ₹25,000, what is B's share?",
+    "qh": "A ने ₹12,000 के साथ 8 महीनों के लिए एक व्यवसाय शुरू किया और B ₹16,000 के साथ 9 महीनों के लिए शामिल हुआ। ₹25,000 के कुल लाभ में B का हिस्सा कितना है?",
+    "oe": [
+      "₹16,000",
+      "₹15,000",
+      "₹10,000",
+      "₹12,500"
+    ],
+    "oh": [
+      "₹16,000",
+      "₹15,000",
+      "₹10,000",
+      "₹12,500"
+    ],
+    "a": 1,
+    "e": "Profit ratio A : B = (12,000 × 8) : (16,000 × 9) = 96 : 144 = 2 : 3. B's share = (3/5) × 25,000 = ₹15,000.",
+    "topic_tag": "maths.partnership.partnership_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_26",
+    "qe": "Find the simple interest on ₹4,500 at 8% per annum from 10 February 2025 to 24 April 2025.",
+    "qh": "10 फरवरी 2025 से 24 अप्रैल 2025 तक ₹4,500 पर 8% वार्षिक दर से साधारण ब्याज ज्ञात कीजिए।",
+    "oe": [
+      "₹72",
+      "₹64",
+      "₹90",
+      "₹80"
+    ],
+    "oh": [
+      "₹72",
+      "₹64",
+      "₹90",
+      "₹80"
+    ],
+    "a": 0,
+    "e": "2025 is a non-leap year. Days = (28 − 10) in Feb + 31 in Mar + 24 in Apr = 73 days = 73/365 = 1/5 year. SI = (4,500 × 8 × 1/5)/100 = ₹72.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_27",
+    "qe": "6 men or 8 women can complete a work in 15 days. In how many days will 3 men and 6 women together complete the same work?",
+    "qh": "6 पुरुष या 8 महिलाएँ एक कार्य को 15 दिनों में पूरा कर सकते हैं। 3 पुरुष और 6 महिलाएँ मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
+    "oe": [
+      "14 days",
+      "10 days",
+      "16 days",
+      "12 days"
+    ],
+    "oh": [
+      "14 दिन",
+      "10 दिन",
+      "16 दिन",
+      "12 दिन"
+    ],
+    "a": 3,
+    "e": "6 men = 8 women => 3 men = 4 women. Thus 3 men + 6 women = 4 + 6 = 10 women. Since 8 women take 15 days, 10 women take (8 × 15)/10 = 12 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_28",
+    "qe": "A tap fills 3/5 of a tank in 18 minutes. How much total time will it take to fill 5/6 of the tank from empty?",
+    "qh": "एक नल 18 मिनट में एक टंकी का 3/5 भाग भरता है। खाली अवस्था से टंकी का 5/6 भाग भरने में उसे कुल कितना समय लगेगा?",
+    "oe": [
+      "27 minutes",
+      "24 minutes",
+      "30 minutes",
+      "25 minutes"
+    ],
+    "oh": [
+      "27 मिनट",
+      "24 मिनट",
+      "30 मिनट",
+      "25 मिनट"
+    ],
+    "a": 3,
+    "e": "Time to fill full tank = 18 × (5/3) = 30 minutes. Time to fill 5/6 tank = 30 × (5/6) = 25 minutes.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_29",
+    "qe": "Walking at 3/4 of his usual speed, a man reaches his office 15 minutes late. What is his usual time to reach the office?",
+    "qh": "अपनी सामान्य चाल की 3/4 चाल से चलने पर एक व्यक्ति अपने कार्यालय 15 मिनट देरी से पहुँचता है। कार्यालय पहुँचने का उसका सामान्य समय क्या है?",
+    "oe": [
+      "45 minutes",
+      "60 minutes",
+      "40 minutes",
+      "30 minutes"
+    ],
+    "oh": [
+      "45 मिनट",
+      "60 मिनट",
+      "40 मिनट",
+      "30 मिनट"
+    ],
+    "a": 0,
+    "e": "Speed ratio = 3 : 4 => Time ratio = 4 : 3. Difference = 1 unit = 15 min => Usual time = 3 × 15 = 45 minutes.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_30",
+    "qe": "The average of 7 consecutive odd numbers is 33. Which is the largest among these numbers?",
+    "qh": "7 क्रमागत विषम संख्याओं का औसत 33 है। इनमें सबसे बड़ी संख्या कौन-सी है?",
+    "oe": [
+      "37",
+      "43",
+      "41",
+      "39"
+    ],
+    "oh": [
+      "37",
+      "43",
+      "41",
+      "39"
+    ],
+    "a": 3,
+    "e": "For 7 consecutive odd numbers, the average (33) is the 4th (middle) number. The next three odd numbers are 35, 37, and 39.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_31",
+    "qe": "Two vessels contain milk and water in the ratios 3 : 2 and 7 : 3 respectively. If equal quantities from both vessels are mixed together, what will be the ratio of milk to water in the new mixture?",
+    "qh": "दो बर्तनों में दूध और पानी का अनुपात क्रमशः 3 : 2 और 7 : 3 है। यदि दोनों बर्तनों से बराबर मात्रा में मिश्रण मिलाया जाए, तो नए मिश्रण में दूध और पानी का अनुपात क्या होगा?",
+    "oe": [
+      "13 : 7",
+      "14 : 6",
+      "11 : 9",
+      "12 : 8"
+    ],
+    "oh": [
+      "13 : 7",
+      "14 : 6",
+      "11 : 9",
+      "12 : 8"
+    ],
+    "a": 0,
+    "e": "Taking 10 units from each: Vessel 1 gives 6 milk + 4 water; Vessel 2 gives 7 milk + 3 water. Total = 13 milk : 7 water.",
+    "topic_tag": "maths.mixture.mixture_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_32",
+    "qe": "The parallel sides of a trapezium are 18 cm and 12 cm, and the perpendicular distance between them is 10 cm. What is the area of the trapezium?",
+    "qh": "एक समलंब चतुर्भुज की समानांतर भुजाएँ 18 सेमी और 12 सेमी हैं तथा उनके बीच की लंबवत दूरी 10 सेमी है। समलंब चतुर्भुज का क्षेत्रफल क्या है?",
+    "oe": [
+      "150 cm²",
+      "120 cm²",
+      "300 cm²",
+      "180 cm²"
+    ],
+    "oh": [
+      "150 सेमी²",
+      "120 सेमी²",
+      "300 सेमी²",
+      "180 सेमी²"
+    ],
+    "a": 0,
+    "e": "Area of trapezium = (1/2) × (sum of parallel sides) × height = (1/2) × (18 + 12) × 10 = 150 cm².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_33",
+    "qe": "If α and β are the roots of the quadratic equation x² − 7x + 12 = 0, find the value of α² + β².",
+    "qh": "यदि α और β द्विघात समीकरण x² − 7x + 12 = 0 के मूल हैं, तो α² + β² का मान ज्ञात कीजिए।",
+    "oe": [
+      "21",
+      "49",
+      "25",
+      "37"
+    ],
+    "oh": [
+      "21",
+      "49",
+      "25",
+      "37"
+    ],
+    "a": 2,
+    "e": "Sum of roots α + β = 7, product αβ = 12. α² + β² = (α + β)² − 2αβ = 49 − 24 = 25.",
+    "topic_tag": "maths.algebra.algebraic_equations"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_34",
+    "qe": "The shadow of a vertical tower on level ground is 30√3 m when the Sun's angle of elevation is 30°. What is the height of the tower?",
+    "qh": "सूर्य का उन्नयन कोण 30° होने पर समतल भूमि पर एक ऊर्ध्वाधर मीनार की छाया की लंबाई 30√3 मीटर है। मीनार की ऊँचाई क्या है?",
+    "oe": [
+      "30√3 m",
+      "45 m",
+      "15 m",
+      "30 m"
+    ],
+    "oh": [
+      "30√3 मीटर",
+      "45 मीटर",
+      "15 मीटर",
+      "30 मीटर"
+    ],
+    "a": 3,
+    "e": "tan 30° = height / shadow => 1/√3 = h / (30√3) => h = 30 m.",
+    "topic_tag": "maths.trigonometry.trigonometry_problems"
+  },
+  {
+    "p_id": "bpsc_aedo_apt_s4_35",
+    "qe": "A family's monthly income is ₹40,000, distributed as: Food 35%, Rent 25%, Education 20%, and Savings 20%. How much more money is spent on Food than on Rent?",
+    "qh": "एक परिवार की मासिक आय ₹40,000 है, जिसका वितरण इस प्रकार है: भोजन 35%, किराया 25%, शिक्षा 20% और बचत 20%। किराए की तुलना में भोजन पर कितने रुपये अधिक खर्च होते हैं?",
+    "oe": [
+      "₹4,000",
+      "₹6,000",
+      "₹3,000",
+      "₹5,000"
+    ],
+    "oh": [
+      "₹4,000",
+      "₹6,000",
+      "₹3,000",
+      "₹5,000"
+    ],
+    "a": 0,
+    "e": "Difference = (35% − 25%) of ₹40,000 = 10% of 40,000 = ₹4,000.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  }
+]
