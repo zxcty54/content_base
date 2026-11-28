@@ -1,0 +1,602 @@
+[
+  {
+    "p_id": "btsc_hm_rm_s5_01",
+    "qe": "Find the next number in the series: 5, 11, 23, 41, 65, ?",
+    "qh": "श्रृंखला में अगली संख्या ज्ञात कीजिए: 5, 11, 23, 41, 65, ?",
+    "oe": [
+      "99",
+      "89",
+      "91",
+      "95"
+    ],
+    "oh": [
+      "99",
+      "89",
+      "91",
+      "95"
+    ],
+    "a": 3,
+    "e": "Differences are +6, +12, +18, +24, +30 ⇒ 65 + 30 = 95.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_02",
+    "qe": "Find the odd one out:",
+    "qh": "विषम का चयन कीजिए:",
+    "oe": [
+      "January",
+      "July",
+      "April",
+      "March"
+    ],
+    "oh": [
+      "जनवरी",
+      "जुलाई",
+      "अप्रैल",
+      "मार्च"
+    ],
+    "a": 2,
+    "e": "January, March, and July each have 31 days, whereas April has 30 days.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_03",
+    "qe": "25 : 625 :: 16 : ?",
+    "qh": "25 : 625 :: 16 : ?",
+    "oe": [
+      "256",
+      "196",
+      "216",
+      "225"
+    ],
+    "oh": [
+      "256",
+      "196",
+      "216",
+      "225"
+    ],
+    "a": 0,
+    "e": "25² = 625; 16² = 256.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_04",
+    "qe": "If 'BOOK' is coded as 'CPPL', how is 'PAGE' coded?",
+    "qh": "यदि 'BOOK' को 'CPPL' लिखा जाता है, तो 'PAGE' को कैसे लिखा जाएगा?",
+    "oe": [
+      "QBGF",
+      "QBHF",
+      "QBHJ",
+      "RBHF"
+    ],
+    "oh": [
+      "QBGF",
+      "QBHF",
+      "QBHJ",
+      "RBHF"
+    ],
+    "a": 1,
+    "e": "Each letter shifts +1: P+1=Q, A+1=B, G+1=H, E+1=F → QBHF.",
+    "topic_tag": "reasoning.coding.letter_coding"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_05",
+    "qe": "A student starts from his room, walks 10 m West, turns left and walks 10 m, turns left and walks 10 m. How far and in which direction is he from his room?",
+    "qh": "एक छात्र अपने कमरे से चलकर 10 मी पश्चिम जाता है, बाएँ मुड़कर 10 मी चलता है, फिर बाएँ मुड़कर 10 मी चलता है। वह अपने कमरे से कितनी दूर और किस दिशा में है?",
+    "oe": [
+      "10 m South",
+      "0 m",
+      "20 m West",
+      "10 m North"
+    ],
+    "oh": [
+      "10 मी दक्षिण",
+      "0 मी",
+      "20 मी पश्चिम",
+      "10 मी उत्तर"
+    ],
+    "a": 0,
+    "e": "West 10, left (South) 10, left (East) 10 ⇒ East-West cancels, leaving 10 m South.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_06",
+    "qe": "In a group of 120 hostel students, 70 attend Yoga, 65 play Sports, and 15 do neither. How many participate in BOTH Yoga and Sports?",
+    "qh": "120 छात्रावास छात्रों के एक समूह में 70 योग में भाग लेते हैं, 65 खेल खेलते हैं और 15 दोनों में से कुछ नहीं करते। कितने छात्र योग और खेल दोनों में भाग लेते हैं?",
+    "oe": [
+      "35",
+      "25",
+      "30",
+      "20"
+    ],
+    "oh": [
+      "35",
+      "25",
+      "30",
+      "20"
+    ],
+    "a": 2,
+    "e": "At least one = 120 − 15 = 105. Both = 70 + 65 − 105 = 30.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_07",
+    "qe": "Which Venn diagram represents: Vegetable, Potato, Brinjal?",
+    "qh": "कौन-सा वेन आरेख 'सब्जी, आलू, बैंगन' के संबंध को दर्शाता है?",
+    "oe": [
+      "Three disjoint circles",
+      "Two separate circles (Potato, Brinjal) inside one larger circle (Vegetable)",
+      "Overlapping Potato and Brinjal outside Vegetable",
+      "Three concentric circles"
+    ],
+    "oh": [
+      "तीन पूर्णतः अलग वृत्त",
+      "एक बड़े वृत्त (सब्जी) के भीतर दो अलग वृत्त (आलू और बैंगन)",
+      "सब्जी के बाहर आलू और बैंगन",
+      "तीन संकेंद्रित वृत्त"
+    ],
+    "a": 1,
+    "e": "Both potato and brinjal are distinct types of vegetables.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_08",
+    "qe": "In a queue of students at the mess counter, Ravi is 9th from the front and 15th from the back. How many students are in the queue?",
+    "qh": "मेस काउंटर पर छात्रों की एक कतार में रवि आगे से 9वें और पीछे से 15वें स्थान पर है। कतार में कुल कितने छात्र हैं?",
+    "oe": [
+      "25",
+      "24",
+      "23",
+      "22"
+    ],
+    "oh": [
+      "25",
+      "24",
+      "23",
+      "22"
+    ],
+    "a": 2,
+    "e": "Total = 9 + 15 − 1 = 23.",
+    "topic_tag": "reasoning.ranking.position_and_order"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_09",
+    "qe": "Four friends A, B, C, D sit around a square table facing the centre (one on each side). A sits opposite C. B is to the immediate right of A. Who sits to the immediate left of A?",
+    "qh": "चार मित्र A, B, C, D एक वर्गाकार मेज के चारों ओर (प्रत्येक भुजा पर एक) केंद्र की ओर मुख करके बैठे हैं। A, C के सामने है। B, A के ठीक दाएँ है। A के ठीक बाएँ कौन बैठा है?",
+    "oe": [
+      "C",
+      "B",
+      "D",
+      "Cannot be determined"
+    ],
+    "oh": [
+      "C",
+      "B",
+      "D",
+      "निर्धारित नहीं किया जा सकता"
+    ],
+    "a": 2,
+    "e": "Facing centre: A at South, opposite C at North, right of A is East (B) ⇒ left of A is West (D).",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_10",
+    "qe": "At 6:00, what is the angle between the hour hand and the minute hand of a clock?",
+    "qh": "6:00 बजे एक घड़ी की घंटे और मिनट की सुइयों के बीच का कोण कितना होता है?",
+    "oe": [
+      "120°",
+      "180°",
+      "90°",
+      "150°"
+    ],
+    "oh": [
+      "120°",
+      "180°",
+      "90°",
+      "150°"
+    ],
+    "a": 1,
+    "e": "At 6:00, the two hands point in exact opposite directions (180°).",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_11",
+    "qe": "If A is the sister of B, B is the father of C, and D is the mother of A, how is D related to C?",
+    "qh": "यदि A, B की बहन है, B, C का पिता है और D, A की माँ है, तो D, C से किस प्रकार संबंधित है?",
+    "oe": [
+      "Mother",
+      "Grandmother (Dadi)",
+      "Aunt",
+      "Sister"
+    ],
+    "oh": [
+      "माँ",
+      "दादी (Grandmother)",
+      "बुआ",
+      "बहन"
+    ],
+    "a": 1,
+    "e": "D is mother of both A and B; B is father of C ⇒ D is C's paternal grandmother.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_12",
+    "qe": "Pointing to a boy, Neha said, 'He is the son of my husband's mother.' If Neha's husband has no brothers, how is the boy related to Neha?",
+    "qh": "एक लड़के की ओर इशारा करते हुए नेहा ने कहा, 'वह मेरे पति की माँ का पुत्र है।' यदि नेहा के पति का कोई भाई नहीं है, तो वह लड़का नेहा से किस प्रकार संबंधित है?",
+    "oe": [
+      "Father",
+      "Son",
+      "Husband",
+      "Brother-in-law"
+    ],
+    "oh": [
+      "पिता",
+      "पुत्र",
+      "पति (Husband)",
+      "देवर"
+    ],
+    "a": 2,
+    "e": "Since her husband is the only son of his mother, the boy is Neha's husband.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_13",
+    "qe": "Statements: Some tables are chairs. All chairs are wooden. Conclusions: I. Some tables are wooden. II. All wooden things are chairs.",
+    "qh": "कथन: कुछ मेज कुर्सियाँ हैं। सभी कुर्सियाँ लकड़ी की हैं। निष्कर्ष: I. कुछ मेज लकड़ी की हैं। II. सभी लकड़ी की चीजें कुर्सियाँ हैं।",
+    "oe": [
+      "Only I follows",
+      "Only II follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "oh": [
+      "केवल I निकलता है",
+      "केवल II निकलता है",
+      "दोनों निकलते हैं",
+      "कोई नहीं निकलता"
+    ],
+    "a": 0,
+    "e": "Tables that are chairs must be wooden ⇒ I follows. Converse of 'All chairs are wooden' is not valid ⇒ II does not follow.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_14",
+    "qe": "Which number replaces '?' in the matrix: Row 1: [4, 5, 20]; Row 2: [6, 7, 42]; Row 3: [8, 9, ?]",
+    "qh": "मैट्रिक्स में '?' के स्थान पर कौन-सी संख्या आएगी: पंक्ति 1: [4, 5, 20]; पंक्ति 2: [6, 7, 42]; पंक्ति 3: [8, 9, ?]",
+    "oe": [
+      "81",
+      "68",
+      "64",
+      "72"
+    ],
+    "oh": [
+      "81",
+      "68",
+      "64",
+      "72"
+    ],
+    "a": 3,
+    "e": "Third column = first × second: 4×5=20, 6×7=42, 8×9=72.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_15",
+    "qe": "Statement: 'Students must switch off fans and lights before leaving hostel rooms.' — Hostel Notice. Assumption I: Switching off unused appliances saves electricity. Assumption II: Students frequently forget to switch them off.",
+    "qh": "कथन: 'छात्रों को छात्रावास का कमरा छोड़ने से पहले पंखे और लाइट बंद कर देनी चाहिए।' — छात्रावास सूचना। पूर्वधारणा I: अनुपयोगी उपकरण बंद करने से बिजली की बचत होती है। पूर्वधारणा II: छात्र अक्सर उन्हें बंद करना भूल जाते हैं।",
+    "oe": [
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both I and II are implicit",
+      "Neither is implicit"
+    ],
+    "oh": [
+      "केवल I अंतर्निहित है",
+      "केवल II अंतर्निहित है",
+      "I और II दोनों अंतर्निहित हैं",
+      "कोई अंतर्निहित नहीं है"
+    ],
+    "a": 2,
+    "e": "Both assumptions explain why the energy-saving instruction is issued.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_16",
+    "qe": "(DI) Daily water supply (litres) to 4 hostels: A = 1,200; B = 1,800; C = 1,500; D = 1,500. What percentage of the total water is supplied to Hostel B?",
+    "qh": "(DI) 4 छात्रावासों को दैनिक जल आपूर्ति (लीटर में): A = 1,200; B = 1,800; C = 1,500; D = 1,500। कुल जल का कितना प्रतिशत छात्रावास B को दिया जाता है?",
+    "oe": [
+      "35%",
+      "30%",
+      "25%",
+      "20%"
+    ],
+    "oh": [
+      "35%",
+      "30%",
+      "25%",
+      "20%"
+    ],
+    "a": 1,
+    "e": "Total = 6,000 L. Hostel B share = (1800 / 6000) × 100 = 30%.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_17",
+    "qe": "(DI) In a pie chart representing the above water supply (A=1200, B=1800, C=1500, D=1500; total 6000 L), what is the central angle for Hostel B?",
+    "qh": "(DI) उपरोक्त जल आपूर्ति (A=1200, B=1800, C=1500, D=1500; कुल 6000 ली) को दर्शाने वाले पाई चार्ट में छात्रावास B का केंद्रीय कोण कितना होगा?",
+    "oe": [
+      "72°",
+      "90°",
+      "120°",
+      "108°"
+    ],
+    "oh": [
+      "72°",
+      "90°",
+      "120°",
+      "108°"
+    ],
+    "a": 3,
+    "e": "30% of 360° = 108°.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_18",
+    "qe": "(DI) From the same water data (A=1200, B=1800, C=1500, D=1500), what is the difference between maximum and minimum hostel water supply?",
+    "qh": "(DI) उसी जल डेटा (A=1200, B=1800, C=1500, D=1500) से, अधिकतम और न्यूनतम छात्रावास जल आपूर्ति के बीच का अंतर क्या है?",
+    "oe": [
+      "300 litres",
+      "400 litres",
+      "600 litres",
+      "500 litres"
+    ],
+    "oh": [
+      "300 लीटर",
+      "400 लीटर",
+      "600 लीटर",
+      "500 लीटर"
+    ],
+    "a": 2,
+    "e": "Max (B=1800) − Min (A=1200) = 600 litres.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_19",
+    "qe": "A and B can do a work in 12 days, B and C in 15 days, and C and A in 20 days. In how many days can A, B, and C together finish the work?",
+    "qh": "A और B एक कार्य को 12 दिनों में, B और C 15 दिनों में, तथा C और A 20 दिनों में कर सकते हैं। A, B और C मिलकर उस कार्य को कितने दिनों में पूरा करेंगे?",
+    "oe": [
+      "12 days",
+      "8 days",
+      "15 days",
+      "10 days"
+    ],
+    "oh": [
+      "12 दिन",
+      "8 दिन",
+      "15 दिन",
+      "10 दिन"
+    ],
+    "a": 3,
+    "e": "2(A+B+C) = 1/12 + 1/15 + 1/20 = 12/60 = 1/5 ⇒ A+B+C = 1/10 ⇒ 10 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_20",
+    "qe": "Find a single equivalent discount for two successive discounts of 20% and 10%.",
+    "qh": "20% और 10% की दो क्रमिक छूटों के समतुल्य एकल छूट ज्ञात कीजिए।",
+    "oe": [
+      "30%",
+      "25%",
+      "28%",
+      "32%"
+    ],
+    "oh": [
+      "30%",
+      "25%",
+      "28%",
+      "32%"
+    ],
+    "a": 2,
+    "e": "Net SP = 100 × 0.80 × 0.90 = 72 ⇒ Single discount = 100 − 72 = 28%.",
+    "topic_tag": "maths.discount.discount_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_21",
+    "qe": "At what annual rate of Simple Interest will ₹3,000 yield ₹900 interest in 5 years?",
+    "qh": "किस वार्षिक साधारण ब्याज दर पर ₹3,000 पर 5 वर्षों में ₹900 ब्याज प्राप्त होगा?",
+    "oe": [
+      "5%",
+      "7%",
+      "6%",
+      "8%"
+    ],
+    "oh": [
+      "5%",
+      "7%",
+      "6%",
+      "8%"
+    ],
+    "a": 2,
+    "e": "R = (900 × 100) / (3000 × 5) = 6%.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_22",
+    "qe": "Find the Compound Interest on ₹5,000 for 2 years if the rate is 8% for the first year and 10% for the second year.",
+    "qh": "₹5,000 पर 2 वर्षों का चक्रवृद्धि ब्याज ज्ञात कीजिए यदि पहले वर्ष ब्याज दर 8% और दूसरे वर्ष 10% हो।",
+    "oe": [
+      "₹980",
+      "₹1,020",
+      "₹940",
+      "₹900"
+    ],
+    "oh": [
+      "₹980",
+      "₹1,020",
+      "₹940",
+      "₹900"
+    ],
+    "a": 2,
+    "e": "Amount = 5000 × 1.08 × 1.10 = ₹5,940 ⇒ CI = ₹940.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_23",
+    "qe": "Find the surface area of a sphere of radius 7 cm (use π = 22/7).",
+    "qh": "7 सेमी त्रिज्या वाले एक गोले का पृष्ठीय क्षेत्रफल ज्ञात कीजिए (π = 22/7 लें)।",
+    "oe": [
+      "462 cm²",
+      "308 cm²",
+      "616 cm²",
+      "154 cm²"
+    ],
+    "oh": [
+      "462 वर्ग सेमी",
+      "308 वर्ग सेमी",
+      "616 वर्ग सेमी",
+      "154 वर्ग सेमी"
+    ],
+    "a": 2,
+    "e": "Surface Area = 4πr² = 4 × (22/7) × 7 × 7 = 616 cm².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_24",
+    "qe": "A right circular cone has base radius 6 cm and vertical height 8 cm. Find its curved surface area (in terms of π).",
+    "qh": "एक लंब वृत्तीय शंकु के आधार की त्रिज्या 6 सेमी और ऊर्ध्वाधर ऊँचाई 8 सेमी है। इसका वक्र पृष्ठीय क्षेत्रफल (π के पदों में) ज्ञात कीजिए।",
+    "oe": [
+      "48π cm²",
+      "36π cm²",
+      "80π cm²",
+      "60π cm²"
+    ],
+    "oh": [
+      "48π वर्ग सेमी",
+      "36π वर्ग सेमी",
+      "80π वर्ग सेमी",
+      "60π वर्ग सेमी"
+    ],
+    "a": 3,
+    "e": "Slant height l = √(6² + 8²) = 10 cm. CSA = πrl = π × 6 × 10 = 60π cm².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_25",
+    "qe": "A vendor buys 10 lemons for ₹25 and sells 8 lemons for ₹25. Find his profit percentage.",
+    "qh": "एक विक्रेता ₹25 में 10 नींबू खरीदता है और ₹25 में 8 नींबू बेचता है। उसका लाभ प्रतिशत ज्ञात कीजिए।",
+    "oe": [
+      "20%",
+      "30%",
+      "25%",
+      "15%"
+    ],
+    "oh": [
+      "20%",
+      "30%",
+      "25%",
+      "15%"
+    ],
+    "a": 2,
+    "e": "CP per lemon = ₹2.50, SP per lemon = ₹3.125 ⇒ Profit% = (0.625 / 2.50) × 100 = 25%.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_26",
+    "qe": "The ratio of present ages of A and B is 4 : 5. After 6 years, the ratio becomes 5 : 6. Find A's present age.",
+    "qh": "A और B की वर्तमान आयु का अनुपात 4 : 5 है। 6 वर्ष बाद यह अनुपात 5 : 6 हो जाता है। A की वर्तमान आयु ज्ञात कीजिए।",
+    "oe": [
+      "24 years",
+      "28 years",
+      "20 years",
+      "30 years"
+    ],
+    "oh": [
+      "24 वर्ष",
+      "28 वर्ष",
+      "20 वर्ष",
+      "30 वर्ष"
+    ],
+    "a": 0,
+    "e": "Difference of 1 unit = 6 years ⇒ A = 4 × 6 = 24 years (and B = 30; after 6 yrs 30:36 = 5:6).",
+    "topic_tag": "maths.age.age_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_27",
+    "qe": "The average of 5 consecutive even numbers is 24. What is the largest of these numbers?",
+    "qh": "5 क्रमागत सम संख्याओं का औसत 24 है। इनमें से सबसे बड़ी संख्या क्या है?",
+    "oe": [
+      "32",
+      "26",
+      "30",
+      "28"
+    ],
+    "oh": [
+      "32",
+      "26",
+      "30",
+      "28"
+    ],
+    "a": 3,
+    "e": "Middle number = 24 ⇒ numbers are 20, 22, 24, 26, 28 ⇒ Largest = 28.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_28",
+    "qe": "If 40% of A = 60% of B, what is A : B?",
+    "qh": "यदि A का 40% = B का 60% है, तो A : B क्या होगा?",
+    "oe": [
+      "4 : 5",
+      "2 : 3",
+      "5 : 4",
+      "3 : 2"
+    ],
+    "oh": [
+      "4 : 5",
+      "2 : 3",
+      "5 : 4",
+      "3 : 2"
+    ],
+    "a": 3,
+    "e": "0.4A = 0.6B ⇒ A/B = 6/4 = 3/2 ⇒ 3 : 2.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_29",
+    "qe": "A cistern is filled by a pipe in 4 hours, but due to a leak it takes 5 hours. In how many hours will the leak empty a full cistern?",
+    "qh": "एक टंकी एक पाइप से 4 घंटे में भरती है, लेकिन रिसाव के कारण इसे भरने में 5 घंटे लगते हैं। रिसाव भरी हुई टंकी को कितने घंटे में खाली करेगा?",
+    "oe": [
+      "20 hours",
+      "16 hours",
+      "18 hours",
+      "24 hours"
+    ],
+    "oh": [
+      "20 घंटे",
+      "16 घंटे",
+      "18 घंटे",
+      "24 घंटे"
+    ],
+    "a": 0,
+    "e": "Leak rate = 1/4 − 1/5 = 1/20 ⇒ 20 hours.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s5_30",
+    "qe": "What is the value of (0.25 × 80) + (15% of 200)?",
+    "qh": "(0.25 × 80) + (200 का 15%) का मान क्या है?",
+    "oe": [
+      "40",
+      "45",
+      "50",
+      "60"
+    ],
+    "oh": [
+      "40",
+      "45",
+      "50",
+      "60"
+    ],
+    "a": 2,
+    "e": "0.25 × 80 = 20; 15% of 200 = 30; Sum = 50.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  }
+]

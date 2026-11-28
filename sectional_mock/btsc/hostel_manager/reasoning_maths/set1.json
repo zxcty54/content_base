@@ -1,0 +1,602 @@
+[
+  {
+    "p_id": "btsc_hm_rm_s1_01",
+    "qe": "Find the next number in the series: 3, 10, 31, 94, ?",
+    "qh": "श्रृंखला में अगली संख्या ज्ञात कीजिए: 3, 10, 31, 94, ?",
+    "oe": [
+      "279",
+      "283",
+      "285",
+      "281"
+    ],
+    "oh": [
+      "279",
+      "283",
+      "285",
+      "281"
+    ],
+    "a": 1,
+    "e": "Pattern: previous × 3 + 1. 3×3+1=10, 10×3+1=31, 31×3+1=94, 94×3+1=283.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_02",
+    "qe": "In a certain code language, HOSTEL is written as IQVXJT. How is WARDEN written in that code?",
+    "qh": "एक निश्चित कूट भाषा में HOSTEL को IQVXJT लिखा जाता है। उसी कूट में WARDEN को कैसे लिखा जाएगा?",
+    "oe": [
+      "XCUHJU",
+      "XCUHJT",
+      "XCTHJT",
+      "XCUHJS"
+    ],
+    "oh": [
+      "XCUHJU",
+      "XCUHJT",
+      "XCTHJT",
+      "XCUHJS"
+    ],
+    "a": 1,
+    "e": "Shifts are +1, +2, +3, +4, +5, +6: W+1=X, A+2=C, R+3=U, D+4=H, E+5=J, N+6=T → XCUHJT.",
+    "topic_tag": "reasoning.coding.letter_coding"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_03",
+    "qe": "Choose the odd one out among the following:",
+    "qh": "निम्नलिखित में से विषम (Odd one out) का चयन कीजिए:",
+    "oe": [
+      "Patna",
+      "Gaya",
+      "Muzaffarpur",
+      "Ranchi"
+    ],
+    "oh": [
+      "पटना",
+      "गया",
+      "मुजफ्फरपुर",
+      "राँची"
+    ],
+    "a": 3,
+    "e": "Patna, Gaya, and Muzaffarpur are cities in Bihar, whereas Ranchi is the capital of Jharkhand.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_04",
+    "qe": "Nutrition : Dietician :: Accounts : ?",
+    "qh": "पोषण : आहार विशेषज्ञ (Dietician) :: लेखा (Accounts) : ?",
+    "oe": [
+      "Electrician",
+      "Chef",
+      "Accountant",
+      "Plumber"
+    ],
+    "oh": [
+      "इलेक्ट्रीशियन",
+      "शेफ",
+      "लेखाकार (Accountant)",
+      "प्लंबर"
+    ],
+    "a": 2,
+    "e": "Nutrition is managed by a Dietician; Accounts are managed by an Accountant.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_05",
+    "qe": "A student walks 12 m North from his hostel gate, turns right and walks 5 m, then stops. What is the shortest distance from the hostel gate?",
+    "qh": "एक छात्र अपने छात्रावास के गेट से उत्तर की ओर 12 मी चलता है, दाएँ मुड़कर 5 मी चलता है और रुक जाता है। छात्रावास के गेट से उसकी न्यूनतम दूरी कितनी है?",
+    "oe": [
+      "13 m",
+      "7 m",
+      "15 m",
+      "17 m"
+    ],
+    "oh": [
+      "13 मी",
+      "7 मी",
+      "15 मी",
+      "17 मी"
+    ],
+    "a": 0,
+    "e": "By Pythagoras theorem: √(12² + 5²) = √(144 + 25) = √169 = 13 m.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_06",
+    "qe": "In a hostel survey of 150 students, 45 drink tea, 60 drink coffee, and 20 drink both. How many drink NEITHER tea nor coffee?",
+    "qh": "150 छात्रों के छात्रावास सर्वेक्षण में 45 चाय पीते हैं, 60 कॉफी पीते हैं और 20 दोनों पीते हैं। कितने छात्र न तो चाय और न ही कॉफी पीते हैं?",
+    "oe": [
+      "85",
+      "65",
+      "45",
+      "25"
+    ],
+    "oh": [
+      "85",
+      "65",
+      "45",
+      "25"
+    ],
+    "a": 1,
+    "e": "At least one = 45 + 60 − 20 = 85. Neither = 150 − 85 = 65.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_07",
+    "qe": "Which Venn diagram best represents the relationship among: Hostel, Kitchen, Furniture?",
+    "qh": "कौन-सा वेन आरेख 'छात्रावास (Hostel), रसोई (Kitchen), फर्नीचर (Furniture)' के संबंध को सर्वोत्तम रूप से दर्शाता है?",
+    "oe": [
+      "Three completely disjoint circles",
+      "One outer circle (Hostel) containing two separate inner circles (Kitchen and Furniture)",
+      "All three overlapping in a chain",
+      "One circle inside another inside the third"
+    ],
+    "oh": [
+      "तीन पूर्णतः अलग वृत्त",
+      "एक बड़े वृत्त (छात्रावास) के भीतर दो अलग वृत्त (रसोई और फर्नीचर)",
+      "तीनों एक श्रृंखला में ओवरलैप करते हुए",
+      "एक के अंदर दूसरा और उसके अंदर तीसरा"
+    ],
+    "a": 1,
+    "e": "In a hostel building context, both kitchen and furniture are distinct components inside the hostel.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_08",
+    "qe": "Five hostel rooms P, Q, R, S, T are in a row facing North. R is immediately left of S. P is at the extreme left. T is to the right of S. Q is between P and R. Which room is exactly in the middle?",
+    "qh": "पाँच छात्रावास कमरे P, Q, R, S, T उत्तर की ओर मुख करके एक पंक्ति में हैं। R, S के ठीक बाएँ है। P सबसे बाएँ सिरे पर है। T, S के दाएँ है। Q, P और R के बीच है। ठीक मध्य में कौन-सा कमरा है?",
+    "oe": [
+      "S",
+      "R",
+      "Q",
+      "T"
+    ],
+    "oh": [
+      "S",
+      "R",
+      "Q",
+      "T"
+    ],
+    "a": 1,
+    "e": "Left-to-right order: P, Q, R, S, T. Therefore R is in the middle.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_09",
+    "qe": "In a row of 40 boarders, Aman is 13th from the left end. What is Aman's position from the right end?",
+    "qh": "40 छात्रों की एक पंक्ति में अमन बाएँ छोर से 13वें स्थान पर है। दाएँ छोर से अमन का स्थान क्या है?",
+    "oe": [
+      "29th",
+      "27th",
+      "28th",
+      "26th"
+    ],
+    "oh": [
+      "29वाँ",
+      "27वाँ",
+      "28वाँ",
+      "26वाँ"
+    ],
+    "a": 2,
+    "e": "Position from right = 40 − 13 + 1 = 28th.",
+    "topic_tag": "reasoning.ranking.position_and_order"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_10",
+    "qe": "Six managers A, B, C, D, E, F sit around a circular table facing the centre. A sits opposite D. B sits immediately right of A. C sits immediately left of D. E sits opposite B. Who sits between A and E?",
+    "qh": "छह प्रबंधक A, B, C, D, E, F केंद्र की ओर मुख करके एक वृत्ताकार मेज के चारों ओर बैठे हैं। A, D के सामने है। B, A के ठीक दाएँ है। C, D के ठीक बाएँ है। E, B के सामने है। A और E के बीच कौन बैठा है?",
+    "oe": [
+      "C",
+      "B",
+      "D",
+      "F"
+    ],
+    "oh": [
+      "C",
+      "B",
+      "D",
+      "F"
+    ],
+    "a": 3,
+    "e": "Clockwise seats (facing centre): D(1), C(2, left of D), B(3, right of A), A(4, opposite D), F(5), E(6, opposite B). Between A(4) and E(6) sits F(5).",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_11",
+    "qe": "Pointing to a photograph, Rajesh said, 'He is the only son of my mother's father.' How is the man in the photograph related to Rajesh?",
+    "qh": "एक तस्वीर की ओर इशारा करते हुए राजेश ने कहा, 'वह मेरी माँ के पिता का इकलौता पुत्र है।' तस्वीर वाला व्यक्ति राजेश से किस प्रकार संबंधित है?",
+    "oe": [
+      "Father",
+      "Grandfather",
+      "Brother",
+      "Maternal Uncle (Mama)"
+    ],
+    "oh": [
+      "पिता",
+      "दादा",
+      "भाई",
+      "मामा"
+    ],
+    "a": 3,
+    "e": "Rajesh's mother's father = maternal grandfather; his only son = Rajesh's mother's brother = Maternal Uncle.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_12",
+    "qe": "A + B means A is the brother of B; A − B means A is the mother of B; A × B means A is the sister of B. What does P − Q + R mean?",
+    "qh": "A + B का अर्थ है A, B का भाई है; A − B का अर्थ है A, B की माँ है; A × B का अर्थ है A, B की बहन है। P − Q + R का क्या अर्थ है?",
+    "oe": [
+      "R is the father of P",
+      "P is the sister of R",
+      "Q is the father of P",
+      "P is the mother of R"
+    ],
+    "oh": [
+      "R, P का पिता है",
+      "P, R की बहन है",
+      "Q, P का पिता है",
+      "P, R की माँ है"
+    ],
+    "a": 3,
+    "e": "P is mother of Q, and Q is brother of R ⇒ P is the mother of R.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_13",
+    "qe": "Statements: All wardens are graduates. Some graduates are teachers. Conclusions: I. Some wardens are teachers. II. Some teachers are graduates.",
+    "qh": "कथन: सभी वार्डन स्नातक हैं। कुछ स्नातक शिक्षक हैं। निष्कर्ष: I. कुछ वार्डन शिक्षक हैं। II. कुछ शिक्षक स्नातक हैं।",
+    "oe": [
+      "Only Conclusion I follows",
+      "Only Conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "oh": [
+      "केवल निष्कर्ष I निकलता है",
+      "केवल निष्कर्ष II निकलता है",
+      "I और II दोनों निकलते हैं",
+      "न तो I और न ही II निकलता है"
+    ],
+    "a": 1,
+    "e": "'Some graduates are teachers' directly implies 'Some teachers are graduates' (II). Conclusion I is only a possibility, not definite.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_14",
+    "qe": "Statement: 'Keep the hostel kitchen floor dry to avoid accidental slips.' — Notice in a hostel mess. Assumptions: I. Wet floors can cause slipping accidents. II. Hostel staff can read notices.",
+    "qh": "कथन: 'फिसलने की दुर्घटनाओं से बचने के लिए छात्रावास की रसोई का फर्श सूखा रखें।' — मेस में सूचना। पूर्वधारणाएँ: I. गीला फर्श फिसलने की दुर्घटना का कारण बन सकता है। II. छात्रावास कर्मचारी सूचना पढ़ सकते हैं।",
+    "oe": [
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both I and II are implicit",
+      "Neither I nor II is implicit"
+    ],
+    "oh": [
+      "केवल I अंतर्निहित है",
+      "केवल II अंतर्निहित है",
+      "I और II दोनों अंतर्निहित हैं",
+      "न तो I और न ही II अंतर्निहित है"
+    ],
+    "a": 2,
+    "e": "Both assumptions logically underlie issuing a written safety notice.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_15",
+    "qe": "Which figure completes a non-verbal series where a square rotates 45° clockwise in each step and a dot inside moves one corner clockwise: Step 1 (square upright, dot top-left), Step 2 (diamond, dot top), Step 3 (square upright, dot top-right), Step 4 (?)",
+    "qh": "एक गैर-मौखिक श्रृंखला में एक वर्ग प्रत्येक चरण में 45° दक्षिणावर्त घूमता है और अंदर का बिंदु एक कोना दक्षिणावर्त चलता है: चरण 1 (सीधा वर्ग, बिंदु ऊपर-बाएँ), चरण 2 (हीरा रूप, बिंदु ऊपर), चरण 3 (सीधा वर्ग, बिंदु ऊपर-दाएँ), चरण 4 (?)",
+    "oe": [
+      "Diamond shape with dot at the right corner",
+      "Triangle with dot at centre",
+      "Diamond shape with dot at bottom",
+      "Upright square with dot at bottom-left"
+    ],
+    "oh": [
+      "हीरा आकृति जिसमें बिंदु दाएँ कोने पर हो",
+      "त्रिभुज जिसमें बिंदु केंद्र में हो",
+      "हीरा आकृति जिसमें बिंदु नीचे हो",
+      "सीधा वर्ग जिसमें बिंदु नीचे-बाएँ हो"
+    ],
+    "a": 0,
+    "e": "45° clockwise rotation alternates upright → diamond → upright → diamond; dot advances top-left → top → top-right → right corner.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_16",
+    "qe": "(DI) Four hostels A, B, C, D have 120, 150, 180, and 150 students respectively. What is the average number of students per hostel?",
+    "qh": "(DI) चार छात्रावासों A, B, C, D में क्रमशः 120, 150, 180 और 150 छात्र हैं। प्रति छात्रावास छात्रों की औसत संख्या क्या है?",
+    "oe": [
+      "145",
+      "140",
+      "160",
+      "150"
+    ],
+    "oh": [
+      "145",
+      "140",
+      "160",
+      "150"
+    ],
+    "a": 3,
+    "e": "Total = 120 + 150 + 180 + 150 = 600. Average = 600 / 4 = 150.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_17",
+    "qe": "(DI) From the same hostel data (A=120, B=150, C=180, D=150), by what percentage is Hostel C's strength more than Hostel B's?",
+    "qh": "(DI) उसी छात्रावास डेटा (A=120, B=150, C=180, D=150) से, छात्रावास C की छात्र संख्या छात्रावास B से कितने प्रतिशत अधिक है?",
+    "oe": [
+      "20%",
+      "15%",
+      "25%",
+      "30%"
+    ],
+    "oh": [
+      "20%",
+      "15%",
+      "25%",
+      "30%"
+    ],
+    "a": 0,
+    "e": "Difference = 180 − 150 = 30. Percentage more = (30 / 150) × 100 = 20%.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_18",
+    "qe": "(DI) In a hostel budget of ₹6,00,000, 45% is spent on Mess, 25% on Electricity & Water, 20% on Maintenance, and the rest on Sports & Library. How much is spent on Sports & Library?",
+    "qh": "(DI) ₹6,00,000 के छात्रावास बजट में 45% मेस पर, 25% बिजली व पानी पर, 20% रखरखाव पर और शेष खेल व पुस्तकालय पर खर्च होता है। खेल व पुस्तकालय पर कितना खर्च होता है?",
+    "oe": [
+      "₹90,000",
+      "₹1,20,000",
+      "₹60,000",
+      "₹45,000"
+    ],
+    "oh": [
+      "₹90,000",
+      "₹1,20,000",
+      "₹60,000",
+      "₹45,000"
+    ],
+    "a": 2,
+    "e": "Remaining % = 100 − (45 + 25 + 20) = 10%. Amount = 10% of 6,00,000 = ₹60,000.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_19",
+    "qe": "A can complete a hostel repair task in 12 days and B can do it in 15 days. Working together, in how many days will they complete it?",
+    "qh": "A एक छात्रावास मरम्मत कार्य को 12 दिनों में और B इसे 15 दिनों में पूरा कर सकता है। एक साथ कार्य करते हुए वे इसे कितने दिनों में पूरा करेंगे?",
+    "oe": [
+      "7 days",
+      "6⅔ days",
+      "9 days",
+      "6 days"
+    ],
+    "oh": [
+      "7 दिन",
+      "6⅔ दिन",
+      "9 दिन",
+      "6 दिन"
+    ],
+    "a": 1,
+    "e": "Combined rate = 1/12 + 1/15 = (5+4)/60 = 9/60 = 3/20 per day ⇒ Time = 20/3 = 6⅔ days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_20",
+    "qe": "If 15 workers can paint a hostel block in 8 days, how many workers are needed to paint it in 6 days?",
+    "qh": "यदि 15 मजदूर एक छात्रावास ब्लॉक को 8 दिनों में पेंट कर सकते हैं, तो इसे 6 दिनों में पेंट करने के लिए कितने मजदूरों की आवश्यकता होगी?",
+    "oe": [
+      "20",
+      "24",
+      "18",
+      "12"
+    ],
+    "oh": [
+      "20",
+      "24",
+      "18",
+      "12"
+    ],
+    "a": 0,
+    "e": "M₁D₁ = M₂D₂ ⇒ 15 × 8 = M₂ × 6 ⇒ M₂ = 120 / 6 = 20 workers.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_21",
+    "qe": "A tap fills a hostel overhead tank in 6 hours, while a leak empties it in 12 hours. If both are open, in how many hours will the tank be full?",
+    "qh": "एक नल छात्रावास की टंकी को 6 घंटे में भरता है, जबकि एक रिसाव उसे 12 घंटे में खाली कर देता है। यदि दोनों खुले हों, तो टंकी कितने घंटे में भर जाएगी?",
+    "oe": [
+      "8 hours",
+      "18 hours",
+      "12 hours",
+      "9 hours"
+    ],
+    "oh": [
+      "8 घंटे",
+      "18 घंटे",
+      "12 घंटे",
+      "9 घंटे"
+    ],
+    "a": 2,
+    "e": "Net rate = 1/6 − 1/12 = 1/12 tank/hour ⇒ 12 hours.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_22",
+    "qe": "A hostel buys a water purifier for ₹800 (unit part) and sells old stock for ₹920. What is the profit percentage?",
+    "qh": "एक वस्तु ₹800 में खरीदी जाती है और ₹920 में बेची जाती है। लाभ प्रतिशत क्या है?",
+    "oe": [
+      "15%",
+      "20%",
+      "12%",
+      "18%"
+    ],
+    "oh": [
+      "15%",
+      "20%",
+      "12%",
+      "18%"
+    ],
+    "a": 0,
+    "e": "Profit = 920 − 800 = 120. Profit % = (120 / 800) × 100 = 15%.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_23",
+    "qe": "A table marked at ₹2,000 is sold at a discount of 10%. What is its selling price?",
+    "qh": "₹2,000 अंकित मूल्य वाली एक मेज को 10% की छूट पर बेचा जाता है। इसका विक्रय मूल्य क्या है?",
+    "oe": [
+      "₹1,800",
+      "₹1,850",
+      "₹1,900",
+      "₹1,750"
+    ],
+    "oh": [
+      "₹1,800",
+      "₹1,850",
+      "₹1,900",
+      "₹1,750"
+    ],
+    "a": 0,
+    "e": "SP = 2000 × (1 − 0.10) = ₹1,800.",
+    "topic_tag": "maths.discount.discount_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_24",
+    "qe": "By selling a fan for ₹1,140, a shopkeeper loses 5%. At what price should he sell it to gain 5%?",
+    "qh": "एक पंखे को ₹1,140 में बेचने पर दुकानदार को 5% की हानि होती है। 5% लाभ कमाने के लिए उसे इसे किस मूल्य पर बेचना चाहिए?",
+    "oe": [
+      "₹1,250",
+      "₹1,260",
+      "₹1,320",
+      "₹1,200"
+    ],
+    "oh": [
+      "₹1,250",
+      "₹1,260",
+      "₹1,320",
+      "₹1,200"
+    ],
+    "a": 1,
+    "e": "95% of CP = 1140 ⇒ CP = 1200. For 5% gain, SP = 1200 × 1.05 = ₹1,260.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_25",
+    "qe": "Find the Simple Interest on ₹5,000 at 8% per annum for 3 years.",
+    "qh": "₹5,000 पर 8% वार्षिक ब्याज दर से 3 वर्षों का साधारण ब्याज (Simple Interest) ज्ञात कीजिए।",
+    "oe": [
+      "₹1,400",
+      "₹1,200",
+      "₹1,500",
+      "₹1,000"
+    ],
+    "oh": [
+      "₹1,400",
+      "₹1,200",
+      "₹1,500",
+      "₹1,000"
+    ],
+    "a": 1,
+    "e": "SI = (P × R × T) / 100 = (5000 × 8 × 3) / 100 = ₹1,200.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_26",
+    "qe": "Find the Compound Interest on ₹10,000 at 10% per annum for 2 years, compounded annually.",
+    "qh": "₹10,000 पर 10% वार्षिक दर से 2 वर्षों का वार्षिक चक्रवृद्धि ब्याज (Compound Interest) ज्ञात कीजिए।",
+    "oe": [
+      "₹2,000",
+      "₹1,900",
+      "₹2,100",
+      "₹2,200"
+    ],
+    "oh": [
+      "₹2,000",
+      "₹1,900",
+      "₹2,100",
+      "₹2,200"
+    ],
+    "a": 2,
+    "e": "Amount = 10000 × (1.1)² = ₹12,100 ⇒ CI = 12,100 − 10,000 = ₹2,100.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_27",
+    "qe": "In how many years will ₹4,000 yield ₹1,600 as Simple Interest at 10% per annum?",
+    "qh": "₹4,000 पर 10% वार्षिक साधारण ब्याज की दर से कितने वर्षों में ₹1,600 ब्याज प्राप्त होगा?",
+    "oe": [
+      "5 years",
+      "3 years",
+      "4 years",
+      "6 years"
+    ],
+    "oh": [
+      "5 वर्ष",
+      "3 वर्ष",
+      "4 वर्ष",
+      "6 वर्ष"
+    ],
+    "a": 2,
+    "e": "T = (SI × 100) / (P × R) = (1600 × 100) / (4000 × 10) = 4 years.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_28",
+    "qe": "A rectangular hostel hall is 24 m long and 15 m wide. What are its Area and Perimeter respectively?",
+    "qh": "एक आयताकार छात्रावास हॉल 24 मी लंबा और 15 मी चौड़ा है। इसका क्षेत्रफल और परिमाप क्रमशः क्या हैं?",
+    "oe": [
+      "360 m² and 39 m",
+      "360 m² and 78 m",
+      "300 m² and 78 m",
+      "390 m² and 78 m"
+    ],
+    "oh": [
+      "360 वर्ग मी और 39 मी",
+      "360 वर्ग मी और 78 मी",
+      "300 वर्ग मी और 78 मी",
+      "390 वर्ग मी और 78 मी"
+    ],
+    "a": 1,
+    "e": "Area = 24 × 15 = 360 m²; Perimeter = 2(24 + 15) = 78 m.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_29",
+    "qe": "A train 180 m long is running at 72 km/h. In how many seconds will it cross an electric pole?",
+    "qh": "180 मी लंबी एक ट्रेन 72 किमी/घंटा की गति से चल रही है। यह एक बिजली के खंभे को कितने सेकंड में पार करेगी?",
+    "oe": [
+      "10 s",
+      "9 s",
+      "12 s",
+      "7 s"
+    ],
+    "oh": [
+      "10 सेकंड",
+      "9 सेकंड",
+      "12 सेकंड",
+      "7 सेकंड"
+    ],
+    "a": 1,
+    "e": "72 km/h = 72 × 5/18 = 20 m/s. Time = 180 / 20 = 9 seconds.",
+    "topic_tag": "maths.train.train_speed_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s1_30",
+    "qe": "If A : B = 2 : 3 and B : C = 4 : 5, what is A : B : C?",
+    "qh": "यदि A : B = 2 : 3 और B : C = 4 : 5 है, तो A : B : C क्या होगा?",
+    "oe": [
+      "6 : 12 : 15",
+      "8 : 10 : 15",
+      "8 : 12 : 15",
+      "2 : 4 : 5"
+    ],
+    "oh": [
+      "6 : 12 : 15",
+      "8 : 10 : 15",
+      "8 : 12 : 15",
+      "2 : 4 : 5"
+    ],
+    "a": 2,
+    "e": "Make B common (12): A:B = 8:12 and B:C = 12:15 ⇒ A:B:C = 8:12:15.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
+  }
+]

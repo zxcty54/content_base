@@ -1,0 +1,602 @@
+[
+  {
+    "p_id": "bssc_ldc_math_s2_01",
+    "qe": "By selling a chair for ₹750, a trader gains 25%. Find its Cost Price.",
+    "qh": "एक कुर्सी को ₹750 में बेचने पर एक व्यापारी को 25% का लाभ होता है। इसका क्रय मूल्य ज्ञात कीजिए।",
+    "oe": [
+      "₹550",
+      "₹625",
+      "₹650",
+      "₹600"
+    ],
+    "oh": [
+      "₹550",
+      "₹625",
+      "₹650",
+      "₹600"
+    ],
+    "a": 3,
+    "e": "CP = 750 × 100 / 125 = ₹600.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_02",
+    "qe": "What is the sum of the first five prime numbers?",
+    "qh": "प्रथम पाँच अभाज्य संख्याओं (Prime Numbers) का योगफल कितना है?",
+    "oe": [
+      "18",
+      "26",
+      "28",
+      "30"
+    ],
+    "oh": [
+      "18",
+      "26",
+      "28",
+      "30"
+    ],
+    "a": 2,
+    "e": "First five prime numbers are 2, 3, 5, 7, 11 (note: 1 is not prime). Sum = 2+3+5+7+11 = 28.",
+    "topic_tag": "maths.number_system.number_system_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_03",
+    "qe": "The HCF of two numbers is 18 and their LCM is 108. If one number is 36, find the other number.",
+    "qh": "दो संख्याओं का म.स. (HCF) 18 और ल.स. (LCM) 108 है। यदि एक संख्या 36 है, तो दूसरी संख्या ज्ञात कीजिए।",
+    "oe": [
+      "48",
+      "72",
+      "60",
+      "54"
+    ],
+    "oh": [
+      "48",
+      "72",
+      "60",
+      "54"
+    ],
+    "a": 3,
+    "e": "Other number = (HCF × LCM) / 36 = (18 × 108) / 36 = 54.",
+    "topic_tag": "maths.hcf_and_lcm.hcf_and_lcm_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_04",
+    "qe": "Find the Simple Interest on ₹1,000 at 10% per annum for 2 years.",
+    "qh": "₹1,000 पर 10% वार्षिक दर से 2 वर्षों का साधारण ब्याज ज्ञात कीजिए।",
+    "oe": [
+      "₹210",
+      "₹150",
+      "₹200",
+      "₹250"
+    ],
+    "oh": [
+      "₹210",
+      "₹150",
+      "₹200",
+      "₹250"
+    ],
+    "a": 2,
+    "e": "SI = (1000 × 10 × 2) / 100 = ₹200.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_05",
+    "qe": "Find the Compound Interest on ₹1,000 at 10% per annum for 2 years, compounded annually.",
+    "qh": "₹1,000 पर 10% वार्षिक दर से 2 वर्षों का वार्षिक चक्रवृद्धि ब्याज ज्ञात कीजिए।",
+    "oe": [
+      "₹200",
+      "₹220",
+      "₹210",
+      "₹240"
+    ],
+    "oh": [
+      "₹200",
+      "₹220",
+      "₹210",
+      "₹240"
+    ],
+    "a": 2,
+    "e": "Amount = 1000 × (1.1)² = ₹1,210 ⇒ CI = ₹210.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_06",
+    "qe": "If 16 men can dig a trench in 12 days, in how many days can 24 men dig it?",
+    "qh": "यदि 16 व्यक्ति एक गड्ढा 12 दिनों में खोद सकते हैं, तो 24 व्यक्ति इसे कितने दिनों में खोदेंगे?",
+    "oe": [
+      "9 days",
+      "10 days",
+      "6 days",
+      "8 days"
+    ],
+    "oh": [
+      "9 दिन",
+      "10 दिन",
+      "6 दिन",
+      "8 दिन"
+    ],
+    "a": 3,
+    "e": "M₁D₁ = M₂D₂ ⇒ 16 × 12 = 24 × D₂ ⇒ D₂ = 8 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_07",
+    "qe": "What is the square root of 625?",
+    "qh": "625 का वर्गमूल (Square Root) क्या है?",
+    "oe": [
+      "45",
+      "15",
+      "35",
+      "25"
+    ],
+    "oh": [
+      "45",
+      "15",
+      "35",
+      "25"
+    ],
+    "a": 3,
+    "e": "25 × 25 = 625.",
+    "topic_tag": "maths.number_system.number_system_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_08",
+    "qe": "A train 200 m long crosses a 300 m long platform at 90 km/h. How many seconds does it take?",
+    "qh": "200 मीटर लंबी एक ट्रेन 90 किमी/घंटा की गति से 300 मीटर लंबे प्लेटफॉर्म को कितने सेकंड में पार करेगी?",
+    "oe": [
+      "20 s",
+      "15 s",
+      "30 s",
+      "25 s"
+    ],
+    "oh": [
+      "20 सेकंड",
+      "15 सेकंड",
+      "30 सेकंड",
+      "25 सेकंड"
+    ],
+    "a": 0,
+    "e": "Total distance = 200 + 300 = 500 m; Speed = 90 × 5/18 = 25 m/s; Time = 500 / 25 = 20 seconds.",
+    "topic_tag": "maths.train.train_speed_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_09",
+    "qe": "Find the area of a rhombus whose diagonals are 8 cm and 15 cm.",
+    "qh": "एक समचतुर्भुज (Rhombus) का क्षेत्रफल ज्ञात कीजिए जिसके विकर्ण 8 सेमी और 15 सेमी हैं।",
+    "oe": [
+      "60 cm²",
+      "30 cm²",
+      "45 cm²",
+      "120 cm²"
+    ],
+    "oh": [
+      "60 वर्ग सेमी",
+      "30 वर्ग सेमी",
+      "45 वर्ग सेमी",
+      "120 वर्ग सेमी"
+    ],
+    "a": 0,
+    "e": "Area = ½ × d₁ × d₂ = ½ × 8 × 15 = 60 cm².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_10",
+    "qe": "If sin θ = 1/2 (for acute θ), what is the value of cos 2θ?",
+    "qh": "यदि न्यूनकोण θ के लिए sin θ = 1/2 है, तो cos 2θ का मान क्या होगा?",
+    "oe": [
+      "1/2",
+      "0",
+      "√3/2",
+      "1"
+    ],
+    "oh": [
+      "1/2",
+      "0",
+      "√3/2",
+      "1"
+    ],
+    "a": 0,
+    "e": "sin θ = 1/2 ⇒ θ = 30° ⇒ cos 2θ = cos 60° = 1/2.",
+    "topic_tag": "maths.trigonometry.trigonometry_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_11",
+    "qe": "Solve for x: 5x − 7 = 3x + 9.",
+    "qh": "x का मान ज्ञात कीजिए: 5x − 7 = 3x + 9",
+    "oe": [
+      "10",
+      "6",
+      "4",
+      "8"
+    ],
+    "oh": [
+      "10",
+      "6",
+      "4",
+      "8"
+    ],
+    "a": 3,
+    "e": "2x = 16 ⇒ x = 8.",
+    "topic_tag": "maths.algebra.algebraic_equations"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_12",
+    "qe": "What percentage of 400 is 140?",
+    "qh": "140, 400 का कितने प्रतिशत है?",
+    "oe": [
+      "30%",
+      "40%",
+      "25%",
+      "35%"
+    ],
+    "oh": [
+      "30%",
+      "40%",
+      "25%",
+      "35%"
+    ],
+    "a": 3,
+    "e": "(140 / 400) × 100 = 35%.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_13",
+    "qe": "In a mixture of 45 litres, the ratio of milk to water is 4 : 1. Find the quantity of water.",
+    "qh": "45 लीटर मिश्रण में दूध और पानी का अनुपात 4 : 1 है। पानी की मात्रा ज्ञात कीजिए।",
+    "oe": [
+      "36 L",
+      "5 L",
+      "12 L",
+      "9 L"
+    ],
+    "oh": [
+      "36 लीटर",
+      "5 लीटर",
+      "12 लीटर",
+      "9 लीटर"
+    ],
+    "a": 3,
+    "e": "Water = (1/5) × 45 = 9 litres.",
+    "topic_tag": "maths.mixture.mixture_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_14",
+    "qe": "What is the sum of interior angles of a regular hexagon (6 sides)?",
+    "qh": "एक नियमित षट्भुज (Hexagon — 6 भुजाएँ) के सभी आंतरिक कोणों का योग कितना होता है?",
+    "oe": [
+      "540°",
+      "720°",
+      "360°",
+      "900°"
+    ],
+    "oh": [
+      "540°",
+      "720°",
+      "360°",
+      "900°"
+    ],
+    "a": 1,
+    "e": "(n − 2) × 180° = (6 − 2) × 180° = 720°.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_15",
+    "qe": "A student scores 48, 52, 60, and 80 in four tests. What is his average score?",
+    "qh": "एक छात्र चार परीक्षाओं में 48, 52, 60 और 80 अंक प्राप्त करता है। उसका औसत अंक क्या है?",
+    "oe": [
+      "55",
+      "65",
+      "58",
+      "60"
+    ],
+    "oh": [
+      "55",
+      "65",
+      "58",
+      "60"
+    ],
+    "a": 3,
+    "e": "(48 + 52 + 60 + 80) / 4 = 240 / 4 = 60.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_16",
+    "qe": "Find the value of (0.4)² + (0.3)².",
+    "qh": "(0.4)² + (0.3)² का मान ज्ञात कीजिए।",
+    "oe": [
+      "0.07",
+      "0.49",
+      "2.5",
+      "0.25"
+    ],
+    "oh": [
+      "0.07",
+      "0.49",
+      "2.5",
+      "0.25"
+    ],
+    "a": 3,
+    "e": "0.16 + 0.09 = 0.25.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_17",
+    "qe": "A bag contains 3 red and 5 blue balls. If one ball is drawn at random, what is the probability that it is red?",
+    "qh": "एक थैले में 3 लाल और 5 नीली गेंदें हैं। यदि यादृच्छिक रूप से एक गेंद निकाली जाए, तो उसके लाल होने की प्रायिकता क्या है?",
+    "oe": [
+      "1/2",
+      "3/5",
+      "3/8",
+      "5/8"
+    ],
+    "oh": [
+      "1/2",
+      "3/5",
+      "3/8",
+      "5/8"
+    ],
+    "a": 2,
+    "e": "Total balls = 8. P(Red) = 3/8.",
+    "topic_tag": "maths.probability.probability_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_18",
+    "qe": "Pipe A fills a tank in 6 hours and Pipe B empties it in 10 hours. Together, in how many hours will the empty tank fill?",
+    "qh": "पाइप A एक टंकी को 6 घंटे में भरता है और पाइप B इसे 10 घंटे में खाली करता है। दोनों एक साथ खोलने पर खाली टंकी कितने घंटे में भरेगी?",
+    "oe": [
+      "12 hours",
+      "15 hours",
+      "16 hours",
+      "20 hours"
+    ],
+    "oh": [
+      "12 घंटे",
+      "15 घंटे",
+      "16 घंटे",
+      "20 घंटे"
+    ],
+    "a": 1,
+    "e": "1/6 − 1/10 = (5 − 3)/30 = 2/30 = 1/15 ⇒ 15 hours.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_19",
+    "qe": "Which of the following fractions is the largest: 2/3, 3/4, 4/5, 5/6?",
+    "qh": "निम्नलिखित में से सबसे बड़ी भिन्न कौन-सी है: 2/3, 3/4, 4/5, 5/6?",
+    "oe": [
+      "2/3",
+      "4/5",
+      "3/4",
+      "5/6"
+    ],
+    "oh": [
+      "2/3",
+      "4/5",
+      "3/4",
+      "5/6"
+    ],
+    "a": 3,
+    "e": "Since numerator and denominator differ by 1 in all proper fractions, the one with the largest numerator (5/6 ≈ 0.833) is largest.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_20",
+    "qe": "If the perimeter of a square is 48 cm, what is its area?",
+    "qh": "यदि एक वर्ग का परिमाप 48 सेमी है, तो उसका क्षेत्रफल कितना होगा?",
+    "oe": [
+      "196 cm²",
+      "120 cm²",
+      "144 cm²",
+      "96 cm²"
+    ],
+    "oh": [
+      "196 वर्ग सेमी",
+      "120 वर्ग सेमी",
+      "144 वर्ग सेमी",
+      "96 वर्ग सेमी"
+    ],
+    "a": 2,
+    "e": "Side = 48/4 = 12 cm ⇒ Area = 12² = 144 cm².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_21",
+    "qe": "What is the value of sec² 45° − tan² 45°?",
+    "qh": "sec² 45° − tan² 45° का मान क्या है?",
+    "oe": [
+      "1",
+      "−1",
+      "0",
+      "2"
+    ],
+    "oh": [
+      "1",
+      "−1",
+      "0",
+      "2"
+    ],
+    "a": 0,
+    "e": "By identity sec² θ − tan² θ = 1 (and (√2)² − 1² = 2 − 1 = 1).",
+    "topic_tag": "maths.trigonometry.trigonometry_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_22",
+    "qe": "In what ratio must rice at ₹40/kg be mixed with rice at ₹60/kg to get a mixture worth ₹48/kg?",
+    "qh": "₹40/किग्रा वाले चावल को ₹60/किग्रा वाले चावल के साथ किस अनुपात में मिलाया जाए ताकि मिश्रण का मूल्य ₹48/किग्रा हो?",
+    "oe": [
+      "2 : 3",
+      "3 : 2",
+      "1 : 2",
+      "4 : 3"
+    ],
+    "oh": [
+      "2 : 3",
+      "3 : 2",
+      "1 : 2",
+      "4 : 3"
+    ],
+    "a": 1,
+    "e": "By Alligation: (60 − 48) : (48 − 40) = 12 : 8 = 3 : 2.",
+    "topic_tag": "maths.alligation.alligation_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_23",
+    "qe": "A marked price is ₹800 and it is sold for ₹680. What is the discount percentage?",
+    "qh": "एक वस्तु का अंकित मूल्य ₹800 है और इसे ₹680 में बेचा जाता है। छूट प्रतिशत क्या है?",
+    "oe": [
+      "15%",
+      "20%",
+      "12%",
+      "10%"
+    ],
+    "oh": [
+      "15%",
+      "20%",
+      "12%",
+      "10%"
+    ],
+    "a": 0,
+    "e": "Discount = 800 − 680 = 120. Discount% = (120/800) × 100 = 15%.",
+    "topic_tag": "maths.discount.discount_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_24",
+    "qe": "Find the value of (a + b)² − (a − b)² when a = 5 and b = 3.",
+    "qh": "जब a = 5 और b = 3 हो, तो (a + b)² − (a − b)² का मान ज्ञात कीजिए।",
+    "oe": [
+      "40",
+      "30",
+      "64",
+      "60"
+    ],
+    "oh": [
+      "40",
+      "30",
+      "64",
+      "60"
+    ],
+    "a": 3,
+    "e": "(a+b)² − (a−b)² = 4ab = 4 × 5 × 3 = 60.",
+    "topic_tag": "maths.algebra.algebraic_equations"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_25",
+    "qe": "A car travels at 60 km/h. How much distance does it cover in 2 hours 30 minutes?",
+    "qh": "एक कार 60 किमी/घंटा की गति से चलती है। यह 2 घंटे 30 मिनट में कितनी दूरी तय करेगी?",
+    "oe": [
+      "150 km",
+      "120 km",
+      "135 km",
+      "180 km"
+    ],
+    "oh": [
+      "150 किमी",
+      "120 किमी",
+      "135 किमी",
+      "180 किमी"
+    ],
+    "a": 0,
+    "e": "Distance = 60 × 2.5 = 150 km.",
+    "topic_tag": "maths.arithmetic.arithmetic_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_26",
+    "qe": "Which of the following is an IRRATIONAL number?",
+    "qh": "निम्नलिखित में से कौन-सी एक अपरिमेय संख्या (Irrational Number) है?",
+    "oe": [
+      "√7",
+      "√16",
+      "0.25",
+      "22/7"
+    ],
+    "oh": [
+      "√7",
+      "√16",
+      "0.25",
+      "22/7"
+    ],
+    "a": 0,
+    "e": "√7 cannot be expressed as p/q (whereas √16 = 4, 22/7, and 0.25 = 1/4 are rational).",
+    "topic_tag": "maths.number_system.number_system_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_27",
+    "qe": "If x : 12 :: 15 : 20, find the value of x.",
+    "qh": "यदि x : 12 :: 15 : 20 है, तो x का मान ज्ञात कीजिए।",
+    "oe": [
+      "6",
+      "8",
+      "10",
+      "9"
+    ],
+    "oh": [
+      "6",
+      "8",
+      "10",
+      "9"
+    ],
+    "a": 3,
+    "e": "x = (12 × 15) / 20 = 180 / 20 = 9.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_28",
+    "qe": "In how many ways can the letters of the word 'CAT' be arranged?",
+    "qh": "'CAT' शब्द के अक्षरों को कितने अलग-अलग तरीकों से व्यवस्थित किया जा सकता है?",
+    "oe": [
+      "12",
+      "9",
+      "6",
+      "3"
+    ],
+    "oh": [
+      "12",
+      "9",
+      "6",
+      "3"
+    ],
+    "a": 2,
+    "e": "3! = 3 × 2 × 1 = 6 ways.",
+    "topic_tag": "maths.combinatorics.counting_and_arrangements"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_29",
+    "qe": "A father is 3 times as old as his son. After 10 years, the father will be twice as old as his son. Find the son's present age.",
+    "qh": "एक पिता की आयु उसके पुत्र की आयु की 3 गुनी है। 10 वर्ष बाद पिता की आयु पुत्र की आयु की दोगुनी होगी। पुत्र की वर्तमान आयु ज्ञात कीजिए।",
+    "oe": [
+      "8 years",
+      "15 years",
+      "10 years",
+      "12 years"
+    ],
+    "oh": [
+      "8 वर्ष",
+      "15 वर्ष",
+      "10 वर्ष",
+      "12 वर्ष"
+    ],
+    "a": 2,
+    "e": "3x + 10 = 2(x + 10) ⇒ 3x + 10 = 2x + 20 ⇒ x = 10 years.",
+    "topic_tag": "maths.age.age_problems"
+  },
+  {
+    "p_id": "bssc_ldc_math_s2_30",
+    "qe": "If the radius of a circle is doubled, its area becomes how many times the original area?",
+    "qh": "यदि किसी वृत्त की त्रिज्या दोगुनी कर दी जाए, तो उसका क्षेत्रफल मूल क्षेत्रफल का कितने गुना हो जाएगा?",
+    "oe": [
+      "6 times",
+      "4 times",
+      "8 times",
+      "2 times"
+    ],
+    "oh": [
+      "6 गुना",
+      "4 गुना",
+      "8 गुना",
+      "2 गुना"
+    ],
+    "a": 1,
+    "e": "Area ∝ r², so (2r)² = 4r² (4 times).",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  }
+]
