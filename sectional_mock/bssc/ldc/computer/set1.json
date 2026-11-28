@@ -1,0 +1,602 @@
+[
+  {
+    "p_id": "bssc_ldc_comp_s1_01",
+    "qe": "[BSSC LDC 2025 PYQ] If you have employee salaries in Column B of MS Excel and want to calculate the total salary paid to employees earning more than ₹50,000, which Excel function is most appropriate?",
+    "qh": "[BSSC LDC 2025 PYQ] यदि MS Excel के कॉलम B में कर्मचारियों के वेतन की सूची है और आप ₹50,000 से अधिक वेतन पाने वाले कर्मचारियों को दिए जाने वाले कुल वेतन की गणना करना चाहते हैं, तो कौन-सा फ़ंक्शन सबसे उपयुक्त है?",
+    "oe": [
+      "COUNTIF",
+      "SUM",
+      "AVERAGEIF",
+      "SUMIF"
+    ],
+    "oh": [
+      "COUNTIF",
+      "SUM",
+      "AVERAGEIF",
+      "SUMIF"
+    ],
+    "a": 3,
+    "e": "SUMIF(range, criteria) sums numeric cells matching a condition, e.g. =SUMIF(B2:B50, \">50000\").",
+    "topic_tag": "economy.indian_economy.industry_and_development"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_02",
+    "qe": "[BSSC LDC 2025 PYQ] In MS Word, which key combination creates a manual line break (new line) WITHOUT starting a new paragraph?",
+    "qh": "[BSSC LDC 2025 PYQ] MS Word में नया पैराग्राफ शुरू किए बिना नई लाइन बनाने के लिए किस कुंजी संयोजन का उपयोग किया जाता है?",
+    "oe": [
+      "Ctrl + Enter",
+      "Shift + Enter",
+      "Esc",
+      "Alt + Enter"
+    ],
+    "oh": [
+      "Ctrl + Enter",
+      "Shift + Enter",
+      "Esc",
+      "Alt + Enter"
+    ],
+    "a": 1,
+    "e": "Shift + Enter inserts a soft line break within the same paragraph; Enter creates a new paragraph; Ctrl + Enter creates a page break.",
+    "topic_tag": "society.bihar_society.public_services"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_03",
+    "qe": "[BSSC LDC 2025 PYQ] In Natural Language Processing (NLP), which rule-based technique chops suffixes to reduce words to a root form, potentially producing non-dictionary stems (e.g., 'studies' → 'studi')?",
+    "qh": "[BSSC LDC 2025 PYQ] प्राकृतिक भाषा प्रसंस्करण (NLP) में कौन-सी तकनीक शब्दों को उनके मूल रूप में कम करने के लिए प्रत्यय काटती है, जिससे कभी-कभी गैर-मानक शब्दकोश रूप बन सकते हैं?",
+    "oe": [
+      "Stemming",
+      "Parsing",
+      "Lemmatization",
+      "Tokenization"
+    ],
+    "oh": [
+      "स्टेमिंग (Stemming)",
+      "पार्सिंग",
+      "लेमेटाइजेशन",
+      "टोकनाइजेशन"
+    ],
+    "a": 0,
+    "e": "Stemming strips prefixes/suffixes heuristically (which can create non-dictionary stems), whereas Lemmatization always returns a valid dictionary base word (lemma); Tokenization splits text into tokens.",
+    "topic_tag": "economy.indian_economy.industry_and_development"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_04",
+    "qe": "[BSSC LDC 2025 PYQ] Concerning computer hardware ports, which statements are TRUE? I. USB ports connect peripherals for data transfer and power. II. HDMI ports transmit high-definition audio and video signals. III. Ethernet ports are exclusively for printers.",
+    "qh": "[BSSC LDC 2025 PYQ] कंप्यूटर हार्डवेयर पोर्ट के संबंध में कौन-सा/से कथन सत्य है/हैं? I. USB पोर्ट डेटा ट्रांसफर और पावर के लिए बाह्य उपकरणों को जोड़ते हैं। II. HDMI पोर्ट हाई-डेफिनिशन ऑडियो और वीडियो सिग्नल संचारित करते हैं। III. ईथरनेट पोर्ट विशेष रूप से केवल प्रिंटर के लिए होते हैं।",
+    "oe": [
+      "Only I",
+      "Only I and II",
+      "Only II and III",
+      "I, II, and III"
+    ],
+    "oh": [
+      "केवल I",
+      "केवल I और II",
+      "केवल II और III",
+      "I, II, और III"
+    ],
+    "a": 1,
+    "e": "Statements I and II are true; Ethernet (RJ-45) ports are used for wired LAN network connectivity, not exclusively printers.",
+    "topic_tag": "physics.miscellaneous.general_physics"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_05",
+    "qe": "[BSSC LDC 2025 PYQ] Match Protocols (List-I) with Purposes (List-II): I. HTTP, II. FTP, III. SMTP, IV. DNS with [1. Sending email, 2. Transfers files, 3. Web data communication, 4. Translates domain names to IP addresses].",
+    "qh": "[BSSC LDC 2025 PYQ] प्रोटोकॉल (सूची-I) का उनके प्रयोजन (सूची-II) से मिलान करें: I. HTTP, II. FTP, III. SMTP, IV. DNS को [1. ईमेल भेजना, 2. फाइल ट्रांसफर, 3. वेब डेटा संचार, 4. डोमेन नाम को IP पते में अनुवाद] से मिलाएँ।",
+    "oe": [
+      "I-4, II-3, III-1, IV-2",
+      "I-1, II-3, III-2, IV-4",
+      "I-2, II-1, III-4, IV-3",
+      "I-3, II-2, III-1, IV-4"
+    ],
+    "oh": [
+      "I-4, II-3, III-1, IV-2",
+      "I-1, II-3, III-2, IV-4",
+      "I-2, II-1, III-4, IV-3",
+      "I-3, II-2, III-1, IV-4"
+    ],
+    "a": 3,
+    "e": "HTTP = Web data (3), FTP = File transfer (2), SMTP = Sending email (1), DNS = Domain-to-IP resolution (4).",
+    "topic_tag": "polity.bihar_governance.administration"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_06",
+    "qe": "What does 'CPU' stand for in a computer system?",
+    "qh": "कंप्यूटर प्रणाली में 'CPU' का पूर्ण रूप क्या है?",
+    "oe": [
+      "Computer Power Utility",
+      "Common Program Unit",
+      "Central Processing Unit",
+      "Control Peripheral Unit"
+    ],
+    "oh": [
+      "Computer Power Utility",
+      "Common Program Unit",
+      "Central Processing Unit",
+      "Control Peripheral Unit"
+    ],
+    "a": 2,
+    "e": "The CPU (Central Processing Unit) executes instructions via its ALU, Control Unit, and Registers.",
+    "topic_tag": "physics.miscellaneous.general_physics"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_07",
+    "qe": "Which type of computer memory is volatile (loses its contents when power is switched off)?",
+    "qh": "निम्नलिखित में से कौन-सी कंप्यूटर मेमोरी 'अस्थायी / वोलाटाइल' (Volatile) होती है जो बिजली बंद होने पर डेटा खो देती है?",
+    "oe": [
+      "RAM",
+      "SSD",
+      "ROM",
+      "Hard Disk Drive"
+    ],
+    "oh": [
+      "RAM",
+      "SSD",
+      "ROM",
+      "हार्ड डिस्क ड्राइव"
+    ],
+    "a": 0,
+    "e": "RAM (Random Access Memory) is volatile working memory; ROM, SSD, and HDD are non-volatile.",
+    "topic_tag": "physics.miscellaneous.general_physics"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_08",
+    "qe": "How many bits make 1 Byte?",
+    "qh": "1 बाइट (Byte) में कितने बिट्स (Bits) होते हैं?",
+    "oe": [
+      "1024 bits",
+      "4 bits",
+      "16 bits",
+      "8 bits"
+    ],
+    "oh": [
+      "1024 बिट्स",
+      "4 बिट्स",
+      "16 बिट्स",
+      "8 बिट्स"
+    ],
+    "a": 3,
+    "e": "1 Byte = 8 bits; 1 Nibble = 4 bits.",
+    "topic_tag": "physics.measurement.units_and_instruments"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_09",
+    "qe": "Which MS Excel symbol is used to denote a range of cells from A1 to A20?",
+    "qh": "MS Excel में A1 से A20 तक के सेल की रेंज को दर्शाने के लिए किस प्रतीक का उपयोग किया जाता है?",
+    "oe": [
+      "Comma (,)",
+      "Colon (:)",
+      "Slash (/)",
+      "Semicolon (;)"
+    ],
+    "oh": [
+      "कॉमा (,)",
+      "कोलन (:)",
+      "स्लैश (/)",
+      "सेमीकोलन (;)"
+    ],
+    "a": 1,
+    "e": "A colon (:) defines a contiguous range, e.g. =SUM(A1:A20).",
+    "topic_tag": "economy.indian_economy.industry_and_development"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_10",
+    "qe": "Which output device produces high-precision architectural blueprints and large engineering drawings using pens or inkjet nozzles?",
+    "qh": "कौन-सा आउटपुट डिवाइस पेन या इंकजेट नोजल का उपयोग करके बड़े इंजीनियरिंग आरेख और आर्किटेक्चरल ब्लूप्रिंट प्रिंट करता है?",
+    "oe": [
+      "Scanner",
+      "Barcode Reader",
+      "Joystick",
+      "Plotter"
+    ],
+    "oh": [
+      "स्कैनर",
+      "बारकोड रीडर",
+      "जॉयस्टिक",
+      "प्लॉटर (Plotter)"
+    ],
+    "a": 3,
+    "e": "A plotter prints large-format vector graphics and CAD blueprints.",
+    "topic_tag": "physics.miscellaneous.general_physics"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_11",
+    "qe": "In MS Word, which shortcut key saves an open document?",
+    "qh": "MS Word में खुले हुए दस्तावेज़ को सहेजने (Save) के लिए कौन-सी शॉर्टकट कुंजी उपयोग होती है?",
+    "oe": [
+      "Ctrl + Q",
+      "Ctrl + R",
+      "Ctrl + S",
+      "Ctrl + W"
+    ],
+    "oh": [
+      "Ctrl + Q",
+      "Ctrl + R",
+      "Ctrl + S",
+      "Ctrl + W"
+    ],
+    "a": 2,
+    "e": "Ctrl + S saves changes; F12 opens 'Save As'.",
+    "topic_tag": "society.bihar_society.public_services"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_12",
+    "qe": "Which topology connects every computer directly to a central Switch or Hub in a star-like layout?",
+    "qh": "कौन-सी नेटवर्क टोपोलॉजी प्रत्येक कंप्यूटर को सीधे एक केंद्रीय स्विच या हब से जोड़ती है?",
+    "oe": [
+      "Star Topology",
+      "Bus Topology",
+      "Ring Topology",
+      "Mesh Topology"
+    ],
+    "oh": [
+      "स्टार टोपोलॉजी (Star Topology)",
+      "बस टोपोलॉजी",
+      "रिंग टोपोलॉजी",
+      "मेश टोपोलॉजी"
+    ],
+    "a": 0,
+    "e": "In Star Topology, all nodes connect to a central switch/hub, making fault isolation easy.",
+    "topic_tag": "polity.bihar_governance.administration"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_13",
+    "qe": "What does 'GUI' stand for in operating systems like Windows?",
+    "qh": "विंडोज़ जैसे ऑपरेटिंग सिस्टम में 'GUI' का पूर्ण रूप क्या है?",
+    "oe": [
+      "Graphical User Interface",
+      "General Utility Input",
+      "Global Unix Index",
+      "Graphic Unit Integration"
+    ],
+    "oh": [
+      "Graphical User Interface",
+      "General Utility Input",
+      "Global Unix Index",
+      "Graphic Unit Integration"
+    ],
+    "a": 0,
+    "e": "GUI allows users to interact with visual icons, windows, and menus instead of typing text-only CLI commands.",
+    "topic_tag": "polity.bihar_governance.administration"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_14",
+    "qe": "Which MS Excel function returns the current date only (without time)?",
+    "qh": "MS Excel का कौन-सा फ़ंक्शन केवल वर्तमान तिथि (बिना समय के) लौटाता है?",
+    "oe": [
+      "=TODAY()",
+      "=DAY()",
+      "=DATEVALUE()",
+      "=NOW()"
+    ],
+    "oh": [
+      "=TODAY()",
+      "=DAY()",
+      "=DATEVALUE()",
+      "=NOW()"
+    ],
+    "a": 0,
+    "e": "=TODAY() returns the current date; =NOW() returns both current date and time.",
+    "topic_tag": "economy.indian_economy.industry_and_development"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_15",
+    "qe": "Which type of malware secretly disguises itself as a legitimate software utility while carrying hidden malicious code?",
+    "qh": "किस प्रकार का मैलवेयर वैध सॉफ़्टवेयर होने का दिखावा करता है जबकि अंदर छिपा हुआ हानिकारक कोड रखता है?",
+    "oe": [
+      "Router",
+      "Firewall",
+      "Trojan Horse",
+      "Antivirus"
+    ],
+    "oh": [
+      "राउटर",
+      "फ़ायरवॉल",
+      "ट्रोजन हॉर्स (Trojan Horse)",
+      "एंटीवायरस"
+    ],
+    "a": 2,
+    "e": "Unlike worms that self-replicate across networks, a Trojan disguises itself as legitimate software to trick users into running it.",
+    "topic_tag": "polity.bihar_governance.administration"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_16",
+    "qe": "Which key on the keyboard is pressed to rename a selected file or folder in Windows File Explorer?",
+    "qh": "विंडोज़ फाइल एक्सप्लोरर में किसी चयनित फाइल या फ़ोल्डर का नाम बदलने (Rename) के लिए कौन-सी कुंजी दबाई जाती है?",
+    "oe": [
+      "F4",
+      "F1",
+      "F6",
+      "F2"
+    ],
+    "oh": [
+      "F4",
+      "F1",
+      "F6",
+      "F2"
+    ],
+    "a": 3,
+    "e": "F2 renames selected items in Windows File Explorer.",
+    "topic_tag": "polity.bihar_governance.administration"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_17",
+    "qe": "In binary number system, what is the decimal value of binary '1010'?",
+    "qh": "बाइनरी संख्या प्रणाली में बाइनरी '1010' का दशमलव (Decimal) मान क्या है?",
+    "oe": [
+      "10",
+      "12",
+      "8",
+      "14"
+    ],
+    "oh": [
+      "10",
+      "12",
+      "8",
+      "14"
+    ],
+    "a": 0,
+    "e": "1×2³ + 0×2² + 1×2¹ + 0×2⁰ = 8 + 0 + 2 + 0 = 10.",
+    "topic_tag": "physics.miscellaneous.general_physics"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_18",
+    "qe": "Which database language is used to query, insert, update, and delete records in a Relational Database (RDBMS)?",
+    "qh": "रिलेशनल डेटाबेस (RDBMS) में रिकॉर्ड खोजने, जोड़ने, अपडेट करने और हटाने के लिए किस भाषा का उपयोग होता है?",
+    "oe": [
+      "JPEG",
+      "HTML",
+      "CSS",
+      "SQL (Structured Query Language)"
+    ],
+    "oh": [
+      "JPEG",
+      "HTML",
+      "CSS",
+      "SQL (स्ट्रक्चर्ड क्वेरी लैंग्वेज)"
+    ],
+    "a": 3,
+    "e": "SQL is the standard language for relational database management systems.",
+    "topic_tag": "economy.indian_economy.industry_and_development"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_19",
+    "qe": "In MS Word, which shortcut key creates a Hyperlink on selected text?",
+    "qh": "MS Word में चयनित टेक्स्ट पर हाइपरलिंक जोड़ने की शॉर्टकट कुंजी क्या है?",
+    "oe": [
+      "Ctrl + H",
+      "Ctrl + K",
+      "Ctrl + L",
+      "Ctrl + J"
+    ],
+    "oh": [
+      "Ctrl + H",
+      "Ctrl + K",
+      "Ctrl + L",
+      "Ctrl + J"
+    ],
+    "a": 1,
+    "e": "Ctrl + K inserts a hyperlink across Word, Excel, and PowerPoint.",
+    "topic_tag": "society.bihar_society.public_services"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_20",
+    "qe": "What is a 'Firewall' in computer networking?",
+    "qh": "कंप्यूटर नेटवर्किंग में 'फ़ायरवॉल' (Firewall) क्या होता है?",
+    "oe": [
+      "A printer cartridge",
+      "A security system (hardware/software) that monitors and filters incoming and outgoing network traffic based on security rules",
+      "A cooling fan inside the CPU",
+      "A spreadsheet macro"
+    ],
+    "oh": [
+      "प्रिंटर कार्ट्रिज",
+      "एक सुरक्षा प्रणाली (हार्डवेयर/सॉफ़्टवेयर) जो सुरक्षा नियमों के आधार पर आने-जाने वाले नेटवर्क ट्रैफ़िक की निगरानी और फ़िल्टरिंग करती है",
+      "CPU के अंदर का कूलिंग फैन",
+      "स्प्रेडशीट मैक्रो"
+    ],
+    "a": 1,
+    "e": "A firewall forms a barrier between trusted internal networks and untrusted external networks like the Internet.",
+    "topic_tag": "polity.bihar_governance.administration"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_21",
+    "qe": "Which optical disc has the highest storage capacity among CD, DVD, and Blu-ray Disc (single layer)?",
+    "qh": "CD, DVD और Blu-ray Disc (सिंगल लेयर) में से किस ऑप्टिकल डिस्क की भंडारण क्षमता सबसे अधिक होती है?",
+    "oe": [
+      "Blu-ray Disc (~25 GB)",
+      "CD (~700 MB)",
+      "Floppy Disk (1.44 MB)",
+      "DVD (~4.7 GB)"
+    ],
+    "oh": [
+      "Blu-ray Disc (~25 GB)",
+      "CD (~700 MB)",
+      "फ्लॉपी डिस्क (1.44 MB)",
+      "DVD (~4.7 GB)"
+    ],
+    "a": 0,
+    "e": "CD ≈ 700 MB < DVD ≈ 4.7 GB < Blu-ray ≈ 25 GB (single layer).",
+    "topic_tag": "physics.miscellaneous.general_physics"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_22",
+    "qe": "What does 'HTTP' stand for?",
+    "qh": "'HTTP' का पूर्ण रूप क्या है?",
+    "oe": [
+      "Host Tracking Text Protocol",
+      "Hybrid Terminal Transfer Path",
+      "Hypertext Transfer Protocol",
+      "High Transmission Text Program"
+    ],
+    "oh": [
+      "Host Tracking Text Protocol",
+      "Hybrid Terminal Transfer Path",
+      "Hypertext Transfer Protocol",
+      "High Transmission Text Program"
+    ],
+    "a": 2,
+    "e": "HTTP is the foundation protocol for data communication on the World Wide Web.",
+    "topic_tag": "polity.bihar_governance.administration"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_23",
+    "qe": "Which MS Excel function returns the largest numeric value from a range of cells?",
+    "qh": "MS Excel का कौन-सा फ़ंक्शन सेल की एक रेंज में से सबसे बड़ा संख्यात्मक मान लौटाता है?",
+    "oe": [
+      "=MAX()",
+      "=LEN()",
+      "=MIN()",
+      "=COUNT()"
+    ],
+    "oh": [
+      "=MAX()",
+      "=LEN()",
+      "=MIN()",
+      "=COUNT()"
+    ],
+    "a": 0,
+    "e": "=MAX(range) returns the maximum value; =MIN(range) returns the minimum.",
+    "topic_tag": "economy.indian_economy.industry_and_development"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_24",
+    "qe": "What is the function of 'BIOS' stored in ROM on a computer motherboard?",
+    "qh": "कंप्यूटर मदरबोर्ड की ROM में संग्रहीत 'BIOS' का मुख्य कार्य क्या है?",
+    "oe": [
+      "Perform Power-On Self-Test (POST) and load/boot the Operating System",
+      "Print spreadsheets",
+      "Browse websites",
+      "Edit photographs"
+    ],
+    "oh": [
+      "पावर-ऑन सेल्फ-टेस्ट (POST) करना और ऑपरेटिंग सिस्टम को बूट/लोड करना",
+      "स्प्रेडशीट प्रिंट करना",
+      "वेबसाइट ब्राउज़ करना",
+      "फ़ोटो संपादित करना"
+    ],
+    "a": 0,
+    "e": "BIOS (Basic Input/Output System) or UEFI initializes hardware and hands control to the OS bootloader.",
+    "topic_tag": "physics.miscellaneous.general_physics"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_25",
+    "qe": "Which key deletes the character immediately to the RIGHT of the cursor in text editors?",
+    "qh": "टेक्स्ट एडिटर में कर्सर के ठीक दाईं (Right) ओर के अक्षर को कौन-सी कुंजी हटाती है?",
+    "oe": [
+      "End",
+      "Home",
+      "Backspace",
+      "Delete"
+    ],
+    "oh": [
+      "End",
+      "Home",
+      "Backspace",
+      "Delete"
+    ],
+    "a": 3,
+    "e": "Delete removes characters to the right of the cursor; Backspace removes characters to the left.",
+    "topic_tag": "society.bihar_society.public_services"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_26",
+    "qe": "In computer networks, what does 'LAN' stand for?",
+    "qh": "कंप्यूटर नेटवर्क में 'LAN' का पूर्ण रूप क्या है?",
+    "oe": [
+      "Local Area Network",
+      "Long Access Network",
+      "Logical Array Name",
+      "Large Area Node"
+    ],
+    "oh": [
+      "Local Area Network",
+      "Long Access Network",
+      "Logical Array Name",
+      "Large Area Node"
+    ],
+    "a": 0,
+    "e": "LAN covers a limited area such as an office, building, or campus.",
+    "topic_tag": "polity.bihar_governance.administration"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_27",
+    "qe": "Which shortcut key opens a 'New Blank Document' in MS Word?",
+    "qh": "MS Word में एक 'नया खाली दस्तावेज़' (New Blank Document) खोलने के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है?",
+    "oe": [
+      "Ctrl + O",
+      "Ctrl + F",
+      "Ctrl + W",
+      "Ctrl + N"
+    ],
+    "oh": [
+      "Ctrl + O",
+      "Ctrl + F",
+      "Ctrl + W",
+      "Ctrl + N"
+    ],
+    "a": 3,
+    "e": "Ctrl + N = New document; Ctrl + O = Open existing document; Ctrl + W = Close active document.",
+    "topic_tag": "society.bihar_society.public_services"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_28",
+    "qe": "Which component inside the CPU performs arithmetic calculations (+, −, ×, ÷) and logical comparisons (<, >, =)?",
+    "qh": "CPU के भीतर कौन-सा घटक अंकगणितीय गणनाएँ (+, −, ×, ÷) और तार्किक तुलनाएँ (<, >, =) करता है?",
+    "oe": [
+      "Cache Memory",
+      "Control Unit (CU)",
+      "SMPS",
+      "Arithmetic Logic Unit (ALU)"
+    ],
+    "oh": [
+      "कैश मेमोरी",
+      "कंट्रोल यूनिट (CU)",
+      "SMPS",
+      "अरिथमेटिक लॉजिक यूनिट (ALU)"
+    ],
+    "a": 3,
+    "e": "ALU executes arithmetic and bitwise/logical operations; CU coordinates instruction decoding and control signals.",
+    "topic_tag": "physics.miscellaneous.general_physics"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_29",
+    "qe": "What is a 'Cookie' in web browsing?",
+    "qh": "वेब ब्राउज़िंग में 'कुकी' (Cookie) क्या होती है?",
+    "oe": [
+      "A small text file stored by a website on the user's browser to remember login state or preferences",
+      "A hardware cable",
+      "A computer virus always",
+      "A printer driver"
+    ],
+    "oh": [
+      "वेबसाइट द्वारा उपयोगकर्ता के ब्राउज़र में सहेजी गई एक छोटी टेक्स्ट फाइल जो लॉगिन स्थिति या प्राथमिकताएँ याद रखती है",
+      "एक हार्डवेयर केबल",
+      "हमेशा एक कंप्यूटर वायरस",
+      "एक प्रिंटर ड्राइवर"
+    ],
+    "a": 0,
+    "e": "HTTP cookies store small session tokens and user preferences locally in the browser.",
+    "topic_tag": "polity.bihar_governance.administration"
+  },
+  {
+    "p_id": "bssc_ldc_comp_s1_30",
+    "qe": "Which keyboard key moves the cursor directly to the beginning of the current line?",
+    "qh": "कीबोर्ड की कौन-सी कुंजी कर्सर को सीधे वर्तमान पंक्ति की शुरुआत में ले जाती है?",
+    "oe": [
+      "Home",
+      "End",
+      "Page Down",
+      "Tab"
+    ],
+    "oh": [
+      "Home",
+      "End",
+      "Page Down",
+      "Tab"
+    ],
+    "a": 0,
+    "e": "Home moves to start of line (Ctrl+Home moves to start of document); End moves to end of line.",
+    "topic_tag": "society.bihar_society.public_services"
+  }
+]

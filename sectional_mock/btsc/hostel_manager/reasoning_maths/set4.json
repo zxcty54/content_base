@@ -1,0 +1,602 @@
+[
+  {
+    "p_id": "btsc_hm_rm_s4_01",
+    "qe": "Find the next number: 0, 7, 26, 63, 124, ?",
+    "qh": "अगली संख्या ज्ञात कीजिए: 0, 7, 26, 63, 124, ?",
+    "oe": [
+      "216",
+      "195",
+      "225",
+      "215"
+    ],
+    "oh": [
+      "216",
+      "195",
+      "225",
+      "215"
+    ],
+    "a": 3,
+    "e": "Pattern: n³ − 1 → 1³−1=0, 2³−1=7, 3³−1=26, 4³−1=63, 5³−1=124, 6³−1=215.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_02",
+    "qe": "Select the odd letter-group out:",
+    "qh": "विषम अक्षर-समूह का चयन कीजिए:",
+    "oe": [
+      "PRU",
+      "BDF",
+      "ACE",
+      "GIK"
+    ],
+    "oh": [
+      "PRU",
+      "BDF",
+      "ACE",
+      "GIK"
+    ],
+    "a": 0,
+    "e": "In ACE, BDF, and GIK each consecutive letter advances by +2, whereas in PRU the steps are +2 (P→R) and +3 (R→U).",
+    "topic_tag": "reasoning.alphabetical_series.letter_patterns"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_03",
+    "qe": "Doctor : Stethoscope :: Chef : ?",
+    "qh": "डॉक्टर : स्टेथोस्कोप :: शेफ (रसोइया) : ?",
+    "oe": [
+      "Telescope",
+      "Compass",
+      "Ladle / Knife",
+      "Scalpel"
+    ],
+    "oh": [
+      "टेलीस्कोप",
+      "कम्पास",
+      "करछुल / चाकू",
+      "स्केलपेल"
+    ],
+    "a": 2,
+    "e": "A stethoscope is a signature tool of a doctor; a ladle/chef's knife is a tool of a chef.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_04",
+    "qe": "In a certain code, '123' means 'hot filtered coffee', '356' means 'very hot day', and '589' means 'day and night'. Which digit stands for 'very'?",
+    "qh": "एक निश्चित कूट में '123' का अर्थ 'hot filtered coffee', '356' का अर्थ 'very hot day' और '589' का अर्थ 'day and night' है। 'very' के लिए कौन-सा अंक है?",
+    "oe": [
+      "6",
+      "3",
+      "9",
+      "5"
+    ],
+    "oh": [
+      "6",
+      "3",
+      "9",
+      "5"
+    ],
+    "a": 0,
+    "e": "3 = 'hot' (common to 123 & 356); 5 = 'day' (common to 356 & 589) ⇒ in 356, 6 = 'very'.",
+    "topic_tag": "reasoning.coding.number_coding"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_05",
+    "qe": "If South-East becomes North, and North-East becomes West, what will West become?",
+    "qh": "यदि दक्षिण-पूर्व, उत्तर बन जाता है और उत्तर-पूर्व, पश्चिम बन जाता है, तो पश्चिम क्या बन जाएगा?",
+    "oe": [
+      "North-West",
+      "North-East",
+      "South-East",
+      "South-West"
+    ],
+    "oh": [
+      "उत्तर-पश्चिम",
+      "उत्तर-पूर्व",
+      "दक्षिण-पूर्व",
+      "दक्षिण-पश्चिम"
+    ],
+    "a": 2,
+    "e": "Each direction rotates 135° clockwise (or equivalently the reference shifts 135° anticlockwise): West rotated 135° anticlockwise = South-East.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_06",
+    "qe": "Which Venn diagram represents: Earth, Forest, Trees?",
+    "qh": "कौन-सा वेन आरेख 'पृथ्वी, जंगल, पेड़' को दर्शाता है?",
+    "oe": [
+      "Three completely separate circles",
+      "Two separate circles inside Trees",
+      "Earth inside Trees",
+      "Three concentric circles: Trees inside Forest inside Earth"
+    ],
+    "oh": [
+      "तीन अलग-अलग वृत्त",
+      "पेड़ के अंदर दो अलग वृत्त",
+      "पेड़ के अंदर पृथ्वी",
+      "तीन संकेंद्रित वृत्त: पृथ्वी के अंदर जंगल और जंगल के अंदर पेड़ (सामान्य श्रेणी में)"
+    ],
+    "a": 3,
+    "e": "Concentric representation: Trees form Forests, and Forests exist on Earth.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_07",
+    "qe": "In a Venn diagram of Hostel Boarders: Triangle = Athletes, Circle = Singers, Square = Scholars. Which region represents Boarders who are BOTH Athletes and Scholars but NOT Singers?",
+    "qh": "छात्रावास छात्रों के एक वेन आरेख में: त्रिभुज = खिलाड़ी, वृत्त = गायक, वर्ग = मेधावी छात्र। कौन-सा क्षेत्र उन छात्रों को दर्शाता है जो खिलाड़ी और मेधावी दोनों हैं लेकिन गायक नहीं हैं?",
+    "oe": [
+      "Square excluding Triangle and Circle",
+      "Only Circle",
+      "Intersection of all three shapes",
+      "Intersection of Triangle and Square excluding Circle"
+    ],
+    "oh": [
+      "वर्ग जिसमें त्रिभुज और वृत्त न हों",
+      "केवल वृत्त",
+      "तीनों आकृतियों का उभयनिष्ठ क्षेत्र",
+      "त्रिभुज और वर्ग का उभयनिष्ठ क्षेत्र जिसमें वृत्त शामिल न हो"
+    ],
+    "a": 3,
+    "e": "Athletes ∩ Scholars − Singers is the overlap of Triangle and Square outside the Circle.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_08",
+    "qe": "Five wardens W1, W2, W3, W4, W5 have duty on Mon to Fri (one each day). W1 has duty on Wednesday. W3 is immediately before W1. W5 is on Friday. W2 is not on Monday. On which day is W4's duty?",
+    "qh": "पाँच वार्डन W1, W2, W3, W4, W5 की ड्यूटी सोमवार से शुक्रवार तक (प्रत्येक दिन एक) है। W1 की ड्यूटी बुधवार को है। W3 ठीक W1 से पहले है। W5 शुक्रवार को है। W2 सोमवार को नहीं है। W4 की ड्यूटी किस दिन है?",
+    "oe": [
+      "Friday",
+      "Tuesday",
+      "Monday",
+      "Thursday"
+    ],
+    "oh": [
+      "शुक्रवार",
+      "मंगलवार",
+      "सोमवार",
+      "गुरुवार"
+    ],
+    "a": 2,
+    "e": "Wed=W1, Tue=W3, Fri=W5. Remaining Mon & Thu for W2 & W4. Since W2 ≠ Mon ⇒ Thu=W2, Mon=W4.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_09",
+    "qe": "Anil is taller than Bimal but shorter than Chintu. Deepak is shorter than Bimal. Who is the tallest?",
+    "qh": "अनिल, बिमल से लंबा है लेकिन चिंटू से छोटा है। दीपक, बिमल से छोटा है। सबसे लंबा कौन है?",
+    "oe": [
+      "Chintu",
+      "Deepak",
+      "Anil",
+      "Bimal"
+    ],
+    "oh": [
+      "चिंटू",
+      "दीपक",
+      "अनिल",
+      "बिमल"
+    ],
+    "a": 0,
+    "e": "Chintu > Anil > Bimal > Deepak. Tallest = Chintu.",
+    "topic_tag": "reasoning.ranking.position_and_order"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_10",
+    "qe": "Six persons sit in two parallel rows of 3 each facing each other. A, B, C face South; P, Q, R face North. B sits opposite Q (who is in the middle). A is at the right end of his row (facing South, i.e., West end). Who sits opposite A?",
+    "qh": "छह व्यक्ति 3-3 की दो समानांतर पंक्तियों में एक-दूसरे के सामने बैठे हैं। A, B, C का मुख दक्षिण की ओर है; P, Q, R का मुख उत्तर की ओर है। B, Q (जो मध्य में है) के सामने बैठा है। A अपनी पंक्ति के दाएँ छोर पर है। A के सामने कौन बैठ सकता है यदि P उत्तर पंक्ति के बाएँ छोर पर हो?",
+    "oe": [
+      "Q",
+      "P",
+      "R",
+      "C"
+    ],
+    "oh": [
+      "Q",
+      "P",
+      "R",
+      "C"
+    ],
+    "a": 1,
+    "e": "Facing South, A's row's right end is the viewer's left end! Facing North, P is at the left end (also viewer's left end) ⇒ P sits directly opposite A.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_11",
+    "qe": "Pointing to a lady, Rohan said, 'She is the daughter-in-law of my grandmother's only son.' How is the lady related to Rohan (if Rohan has no brothers)?",
+    "qh": "एक महिला की ओर इशारा करते हुए रोहन ने कहा, 'वह मेरी दादी के इकलौते पुत्र की पुत्रवधू है।' यदि रोहन का कोई भाई नहीं है, तो वह महिला रोहन से कैसे संबंधित है?",
+    "oe": [
+      "Sister",
+      "Mother",
+      "Wife",
+      "Aunt"
+    ],
+    "oh": [
+      "बहन",
+      "माँ",
+      "पत्नी (Wife)",
+      "चाची"
+    ],
+    "a": 2,
+    "e": "Grandmother's only son = Rohan's father. Since Rohan has no brother, his father's daughter-in-law = Rohan's wife.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_12",
+    "qe": "M is the son of N. N is the daughter of K. K is married to L. How is K related to M?",
+    "qh": "M, N का पुत्र है। N, K की पुत्री है। K का विवाह L से हुआ है। K, M से किस प्रकार संबंधित है?",
+    "oe": [
+      "Father",
+      "Uncle",
+      "Maternal Grandfather or Grandmother (Nana/Nani)",
+      "Brother"
+    ],
+    "oh": [
+      "पिता",
+      "मामा",
+      "नाना या नानी (Maternal Grandparent)",
+      "भाई"
+    ],
+    "a": 2,
+    "e": "N is M's mother and K is N's parent (gender unspecified) ⇒ K is M's maternal grandparent.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_13",
+    "qe": "Statements: All hostels are buildings. Some buildings are schools. Conclusions: I. Some schools are buildings. II. All schools are hostels.",
+    "qh": "कथन: सभी छात्रावास इमारतें हैं। कुछ इमारतें स्कूल हैं। निष्कर्ष: I. कुछ स्कूल इमारतें हैं। II. सभी स्कूल छात्रावास हैं।",
+    "oe": [
+      "Only I follows",
+      "Only II follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "oh": [
+      "केवल I निकलता है",
+      "केवल II निकलता है",
+      "दोनों निकलते हैं",
+      "कोई नहीं निकलता"
+    ],
+    "a": 0,
+    "e": "'Some buildings are schools' directly implies 'Some schools are buildings' (I). II is false.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_14",
+    "qe": "Statement: 'Avoid using immersion rods in hostel buckets.' — Hostel Warden. Courses of Action: I. Provide centralized solar/geyser hot-water points. II. Conduct periodic room safety checks.",
+    "qh": "कथन: 'छात्रावास की बाल्टियों में इमर्शन रॉड के उपयोग से बचें।' — छात्रावास वार्डन। कार्यवाही: I. केंद्रीकृत सोलर/गीजर गर्म पानी बिंदु उपलब्ध कराएँ। II. समय-समय पर कमरे की सुरक्षा जाँच करें।",
+    "oe": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
+    ],
+    "oh": [
+      "केवल I अनुसरण करता है",
+      "केवल II अनुसरण करता है",
+      "I और II दोनों अनुसरण करते हैं",
+      "कोई अनुसरण नहीं करता"
+    ],
+    "a": 2,
+    "e": "Providing a safe alternative (I) and enforcing compliance (II) are both constructive administrative actions.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_15",
+    "qe": "A square sheet is folded in half vertically, then folded in half horizontally, and a circular hole is punched at the centre of the folded quarter. When unfolded, how many circular holes appear?",
+    "qh": "एक वर्गाकार कागज को पहले ऊर्ध्वाधर आधा मोड़ा जाता है, फिर क्षैतिज आधा मोड़ा जाता है, और मुड़े हुए चौथाई भाग के केंद्र में एक गोल छेद किया जाता है। खोलने पर कुल कितने गोल छेद दिखाई देंगे?",
+    "oe": [
+      "8",
+      "2",
+      "1",
+      "4"
+    ],
+    "oh": [
+      "8",
+      "2",
+      "1",
+      "4"
+    ],
+    "a": 3,
+    "e": "Four layers are punched in the interior of the quarter ⇒ 4 symmetric circular holes appear.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_16",
+    "qe": "(DI) Library books added to a hostel reading room: 2022 = 400, 2023 = 500, 2024 = 650, 2025 = 850. What is the total number of books added over these 4 years?",
+    "qh": "(DI) छात्रावास वाचनालय में जोड़ी गई पुस्तकें: 2022 = 400, 2023 = 500, 2024 = 650, 2025 = 850। इन 4 वर्षों में जोड़ी गई पुस्तकों की कुल संख्या कितनी है?",
+    "oe": [
+      "2,200",
+      "2,500",
+      "2,350",
+      "2,400"
+    ],
+    "oh": [
+      "2,200",
+      "2,500",
+      "2,350",
+      "2,400"
+    ],
+    "a": 3,
+    "e": "400 + 500 + 650 + 850 = 2,400 books.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_17",
+    "qe": "(DI) From the same library data (2022=400, 2023=500, 2024=650, 2025=850), what is the ratio of books added in 2022 to 2025?",
+    "qh": "(DI) उसी पुस्तकालय डेटा (2022=400, 2023=500, 2024=650, 2025=850) से, 2022 और 2025 में जोड़ी गई पुस्तकों का अनुपात क्या है?",
+    "oe": [
+      "2 : 5",
+      "8 : 15",
+      "4 : 9",
+      "8 : 17"
+    ],
+    "oh": [
+      "2 : 5",
+      "8 : 15",
+      "4 : 9",
+      "8 : 17"
+    ],
+    "a": 3,
+    "e": "400 : 850 = 8 : 17 (dividing by 50).",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_18",
+    "qe": "(DI) What was the percentage increase in books added from 2022 (400) to 2023 (500)?",
+    "qh": "(DI) 2022 (400) से 2023 (500) तक जोड़ी गई पुस्तकों में कितने प्रतिशत की वृद्धि हुई?",
+    "oe": [
+      "25%",
+      "30%",
+      "20%",
+      "15%"
+    ],
+    "oh": [
+      "25%",
+      "30%",
+      "20%",
+      "15%"
+    ],
+    "a": 0,
+    "e": "(500 − 400) / 400 × 100 = 25%.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_19",
+    "qe": "A is twice as efficient as B. Together they complete a hostel inventory audit in 12 days. In how many days can A alone finish it?",
+    "qh": "A की कार्यक्षमता B से दोगुनी है। दोनों मिलकर छात्रावास इन्वेंटरी ऑडिट को 12 दिनों में पूरा करते हैं। A अकेले इसे कितने दिनों में पूरा कर सकता है?",
+    "oe": [
+      "18 days",
+      "24 days",
+      "20 days",
+      "16 days"
+    ],
+    "oh": [
+      "18 दिन",
+      "24 दिन",
+      "20 दिन",
+      "16 दिन"
+    ],
+    "a": 0,
+    "e": "Let B = 1 unit/day, A = 2 units/day ⇒ Total work = 3 × 12 = 36 units. A alone = 36 / 2 = 18 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_20",
+    "qe": "If the cost price of 15 bedsheets equals the selling price of 12 bedsheets, find the profit percentage.",
+    "qh": "यदि 15 चादरों का क्रय मूल्य 12 चादरों के विक्रय मूल्य के बराबर है, तो लाभ प्रतिशत ज्ञात कीजिए।",
+    "oe": [
+      "20%",
+      "15%",
+      "25%",
+      "30%"
+    ],
+    "oh": [
+      "20%",
+      "15%",
+      "25%",
+      "30%"
+    ],
+    "a": 2,
+    "e": "Profit% = (15 − 12)/12 × 100 = 25%.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_21",
+    "qe": "Find the Simple Interest on ₹4,500 at 6% per annum for 4 years.",
+    "qh": "₹4,500 पर 6% वार्षिक दर से 4 वर्षों का साधारण ब्याज ज्ञात कीजिए।",
+    "oe": [
+      "₹1,200",
+      "₹1,080",
+      "₹1,120",
+      "₹960"
+    ],
+    "oh": [
+      "₹1,200",
+      "₹1,080",
+      "₹1,120",
+      "₹960"
+    ],
+    "a": 1,
+    "e": "SI = (4500 × 6 × 4) / 100 = ₹1,080.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_22",
+    "qe": "Find the Compound Interest on ₹20,000 for 1 year at 20% per annum, compounded half-yearly.",
+    "qh": "₹20,000 पर 20% वार्षिक दर से 1 वर्ष का चक्रवृद्धि ब्याज ज्ञात कीजिए, जब ब्याज अर्धवार्षिक संयोजित हो।",
+    "oe": [
+      "₹4,000",
+      "₹3,800",
+      "₹4,400",
+      "₹4,200"
+    ],
+    "oh": [
+      "₹4,000",
+      "₹3,800",
+      "₹4,400",
+      "₹4,200"
+    ],
+    "a": 3,
+    "e": "Half-yearly rate = 10%, periods = 2. Amount = 20000 × (1.1)² = 24,200 ⇒ CI = ₹4,200.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_23",
+    "qe": "The sides of a triangular courtyard are 9 m, 12 m, and 15 m. Find its area.",
+    "qh": "एक त्रिभुजाकार आँगन की भुजाएँ 9 मी, 12 मी और 15 मी हैं। इसका क्षेत्रफल ज्ञात कीजिए।",
+    "oe": [
+      "54 m²",
+      "72 m²",
+      "45 m²",
+      "60 m²"
+    ],
+    "oh": [
+      "54 वर्ग मी",
+      "72 वर्ग मी",
+      "45 वर्ग मी",
+      "60 वर्ग मी"
+    ],
+    "a": 0,
+    "e": "Since 9² + 12² = 15² (81 + 144 = 225), it is a right triangle ⇒ Area = ½ × 9 × 12 = 54 m².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_24",
+    "qe": "A cuboidal store room is 10 m long, 8 m wide, and 5 m high. Find its volume.",
+    "qh": "एक घनाकार (घनाभ) स्टोर रूम 10 मी लंबा, 8 मी चौड़ा और 5 मी ऊँचा है। इसका आयतन ज्ञात कीजिए।",
+    "oe": [
+      "450 m³",
+      "500 m³",
+      "350 m³",
+      "400 m³"
+    ],
+    "oh": [
+      "450 घन मी",
+      "500 घन मी",
+      "350 घन मी",
+      "400 घन मी"
+    ],
+    "a": 3,
+    "e": "Volume = L × B × H = 10 × 8 × 5 = 400 m³.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_25",
+    "qe": "Pipe P fills a tank in 12 hours and Pipe Q fills it in 18 hours. Working together, how long will they take to fill the tank?",
+    "qh": "पाइप P एक टैंक को 12 घंटे में भरता है और पाइप Q इसे 18 घंटे में भरता है। दोनों मिलकर टैंक को कितने समय में भरेंगे?",
+    "oe": [
+      "7.2 hours",
+      "9.0 hours",
+      "8.0 hours",
+      "6.5 hours"
+    ],
+    "oh": [
+      "7.2 घंटे",
+      "9.0 घंटे",
+      "8.0 घंटे",
+      "6.5 घंटे"
+    ],
+    "a": 0,
+    "e": "1/12 + 1/18 = 5/36 ⇒ 36/5 = 7.2 hours.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_26",
+    "qe": "A shopkeeper marks goods 40% above cost price and allows a 20% discount. Find his net profit percentage.",
+    "qh": "एक दुकानदार वस्तुओं का मूल्य क्रय मूल्य से 40% अधिक अंकित करता है और 20% की छूट देता है। उसका शुद्ध लाभ प्रतिशत ज्ञात कीजिए।",
+    "oe": [
+      "12%",
+      "10%",
+      "20%",
+      "15%"
+    ],
+    "oh": [
+      "12%",
+      "10%",
+      "20%",
+      "15%"
+    ],
+    "a": 0,
+    "e": "Let CP = 100 ⇒ MP = 140 ⇒ SP = 140 × 0.8 = 112 ⇒ Profit = 12%.",
+    "topic_tag": "maths.discount.discount_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_27",
+    "qe": "What is the average of the first five positive odd numbers (1, 3, 5, 7, 9)?",
+    "qh": "प्रथम पाँच धनात्मक विषम संख्याओं (1, 3, 5, 7, 9) का औसत क्या है?",
+    "oe": [
+      "4",
+      "5",
+      "7",
+      "6"
+    ],
+    "oh": [
+      "4",
+      "5",
+      "7",
+      "6"
+    ],
+    "a": 1,
+    "e": "Average of first n odd numbers = n = 5 (sum = 25, 25/5 = 5).",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_28",
+    "qe": "If a salary is first increased by 10% and then decreased by 10%, what is the net percentage change?",
+    "qh": "यदि किसी वेतन में पहले 10% की वृद्धि की जाए और फिर 10% की कमी की जाए, तो शुद्ध प्रतिशत परिवर्तन क्या होगा?",
+    "oe": [
+      "2% decrease",
+      "1% increase",
+      "0% (No change)",
+      "1% decrease"
+    ],
+    "oh": [
+      "2% की कमी",
+      "1% की वृद्धि",
+      "0% (कोई बदलाव नहीं)",
+      "1% की कमी"
+    ],
+    "a": 3,
+    "e": "Net change = (+10)(−10)/100 = −1% (1% decrease).",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_29",
+    "qe": "A sum of ₹1,800 is divided among A, B, and C in the ratio 2 : 3 : 4. What is C's share?",
+    "qh": "₹1,800 की राशि A, B और C में 2 : 3 : 4 के अनुपात में बाँटी जाती है। C का हिस्सा कितना है?",
+    "oe": [
+      "₹900",
+      "₹400",
+      "₹600",
+      "₹800"
+    ],
+    "oh": [
+      "₹900",
+      "₹400",
+      "₹600",
+      "₹800"
+    ],
+    "a": 3,
+    "e": "Total parts = 2+3+4 = 9. C's share = (4/9) × 1800 = ₹800.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s4_30",
+    "qe": "A boat travels at 12 km/h in still water and the stream speed is 3 km/h. How long will it take to go 45 km downstream?",
+    "qh": "शांत जल में एक नाव की चाल 12 किमी/घंटा है और धारा की चाल 3 किमी/घंटा है। धारा के अनुकूल 45 किमी जाने में इसे कितना समय लगेगा?",
+    "oe": [
+      "3 hours",
+      "4 hours",
+      "2 hours",
+      "5 hours"
+    ],
+    "oh": [
+      "3 घंटे",
+      "4 घंटे",
+      "2 घंटे",
+      "5 घंटे"
+    ],
+    "a": 0,
+    "e": "Downstream speed = 12 + 3 = 15 km/h. Time = 45 / 15 = 3 hours.",
+    "topic_tag": "maths.train.train_speed_problems"
+  }
+]

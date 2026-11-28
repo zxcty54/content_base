@@ -1,0 +1,602 @@
+[
+  {
+    "p_id": "btsc_hm_rm_s3_01",
+    "qe": "Find the next term in the series: 2, 5, 10, 17, 26, ?",
+    "qh": "श्रृंखला में अगला पद ज्ञात कीजिए: 2, 5, 10, 17, 26, ?",
+    "oe": [
+      "36",
+      "39",
+      "37",
+      "35"
+    ],
+    "oh": [
+      "36",
+      "39",
+      "37",
+      "35"
+    ],
+    "a": 2,
+    "e": "Pattern: n² + 1 → 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_02",
+    "qe": "Thermometer : Temperature :: Hygrometer : ?",
+    "qh": "थर्मामीटर : तापमान :: हाइग्रोमीटर : ?",
+    "oe": [
+      "Wind speed",
+      "Pressure",
+      "Earthquake",
+      "Humidity"
+    ],
+    "oh": [
+      "पवन गति",
+      "दाब",
+      "भूकंप",
+      "आर्द्रता (Humidity)"
+    ],
+    "a": 3,
+    "e": "Thermometer measures temperature; Hygrometer measures relative humidity.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_03",
+    "qe": "Pick the odd word out:",
+    "qh": "विषम शब्द का चयन कीजिए:",
+    "oe": [
+      "Calcium",
+      "Potassium",
+      "Chlorine",
+      "Sodium"
+    ],
+    "oh": [
+      "कैल्शियम",
+      "पोटैशियम",
+      "क्लोरीन",
+      "सोडियम"
+    ],
+    "a": 2,
+    "e": "Sodium, Potassium, and Calcium are metals, whereas Chlorine is a non-metal (halogen).",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_04",
+    "qe": "If 'FIRE' is coded as 'DGPC', how is 'WATER' coded?",
+    "qh": "यदि 'FIRE' को 'DGPC' लिखा जाता है, तो 'WATER' को कैसे लिखा जाएगा?",
+    "oe": [
+      "UYQCP",
+      "UYRCP",
+      "VZRCP",
+      "UYRBP"
+    ],
+    "oh": [
+      "UYQCP",
+      "UYRCP",
+      "VZRCP",
+      "UYRBP"
+    ],
+    "a": 1,
+    "e": "Each letter shifts −2: W−2=U, A−2=Y, T−2=R, E−2=C, R−2=P → UYRCP.",
+    "topic_tag": "reasoning.coding.letter_coding"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_05",
+    "qe": "A warden walks 8 m South, turns right and walks 6 m, turns right and walks 8 m. How far and in which direction is he from the starting point?",
+    "qh": "एक वार्डन दक्षिण की ओर 8 मी चलता है, दाएँ मुड़कर 6 मी चलता है, फिर दाएँ मुड़कर 8 मी चलता है। वह प्रारंभिक बिंदु से कितनी दूर और किस दिशा में है?",
+    "oe": [
+      "14 m West",
+      "6 m East",
+      "6 m West",
+      "8 m North"
+    ],
+    "oh": [
+      "14 मी पश्चिम",
+      "6 मी पूर्व",
+      "6 मी पश्चिम",
+      "8 मी उत्तर"
+    ],
+    "a": 2,
+    "e": "South 8, right (West) 6, right (North) 8 brings him directly 6 m West of start.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_06",
+    "qe": "In a hostel of 100 boarders, 60 play Cricket, 55 play Football, and 25 play both. How many play NEITHER game?",
+    "qh": "100 छात्रों के एक छात्रावास में 60 क्रिकेट खेलते हैं, 55 फुटबॉल खेलते हैं और 25 दोनों खेलते हैं। कितने छात्र कोई भी खेल नहीं खेलते हैं?",
+    "oe": [
+      "15",
+      "20",
+      "10",
+      "5"
+    ],
+    "oh": [
+      "15",
+      "20",
+      "10",
+      "5"
+    ],
+    "a": 2,
+    "e": "At least one = 60 + 55 − 25 = 90. Neither = 100 − 90 = 10.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_07",
+    "qe": "Which Venn diagram represents: Milk, Water, Liquid?",
+    "qh": "कौन-सा वेन आरेख 'दूध, पानी, द्रव (Liquid)' को दर्शाता है?",
+    "oe": [
+      "Three disjoint circles",
+      "Two separate circles (Milk, Water) inside one big circle (Liquid)",
+      "Three overlapping circles",
+      "Liquid inside Milk"
+    ],
+    "oh": [
+      "तीन अलग-अलग वृत्त",
+      "एक बड़े वृत्त (द्रव) के भीतर दो अलग वृत्त (दूध और पानी)",
+      "तीन परस्पर काटते वृत्त",
+      "दूध के अंदर द्रव"
+    ],
+    "a": 1,
+    "e": "Both milk and water are distinct liquids.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_08",
+    "qe": "Six books of Economics, History, Polity, Science, Hindi, and English are stacked vertically. Hindi is at the bottom. Science is immediately above Polity. English is at the top. History is immediately below English and above Economics. Which book is 3rd from the bottom?",
+    "qh": "अर्थशास्त्र, इतिहास, राजनीति, विज्ञान, हिंदी और अंग्रेजी की छह पुस्तकें एक के ऊपर एक रखी हैं। हिंदी सबसे नीचे है। विज्ञान, राजनीति के ठीक ऊपर है। अंग्रेजी सबसे ऊपर है। इतिहास, अंग्रेजी के ठीक नीचे और अर्थशास्त्र के ऊपर है। नीचे से तीसरी पुस्तक कौन-सी है?",
+    "oe": [
+      "Polity",
+      "Economics",
+      "History",
+      "Science"
+    ],
+    "oh": [
+      "राजनीति",
+      "अर्थशास्त्र",
+      "इतिहास",
+      "विज्ञान"
+    ],
+    "a": 3,
+    "e": "Bottom to top: 1-Hindi, 2-Polity, 3-Science, 4-Economics, 5-History, 6-English. 3rd from bottom = Science.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_09",
+    "qe": "In a class of 35 students, Kavita ranks 7th from the top. What is her rank from the bottom?",
+    "qh": "35 छात्रों की एक कक्षा में कविता ऊपर से 7वें स्थान पर है। नीचे से उसका स्थान क्या है?",
+    "oe": [
+      "27th",
+      "28th",
+      "30th",
+      "29th"
+    ],
+    "oh": [
+      "27वाँ",
+      "28वाँ",
+      "30वाँ",
+      "29वाँ"
+    ],
+    "a": 3,
+    "e": "Rank from bottom = 35 − 7 + 1 = 29th.",
+    "topic_tag": "reasoning.ranking.position_and_order"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_10",
+    "qe": "If 1st January 2026 was a Thursday, what day of the week was 1st February 2026?",
+    "qh": "यदि 1 जनवरी 2026 को गुरुवार था, तो 1 फरवरी 2026 को सप्ताह का कौन-सा दिन था?",
+    "oe": [
+      "Sunday",
+      "Saturday",
+      "Monday",
+      "Friday"
+    ],
+    "oh": [
+      "रविवार",
+      "शनिवार",
+      "सोमवार",
+      "शुक्रवार"
+    ],
+    "a": 0,
+    "e": "January has 31 days (31 ≡ 3 mod 7). Thursday + 3 days = Sunday.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_11",
+    "qe": "A woman says to a man, 'Your father's wife's only daughter is my sister.' How is the woman related to the man?",
+    "qh": "एक महिला एक पुरुष से कहती है, 'तुम्हारे पिता की पत्नी की इकलौती पुत्री मेरी बहन है।' वह महिला उस पुरुष से कैसे संबंधित है?",
+    "oe": [
+      "Sister",
+      "Wife",
+      "Aunt",
+      "Mother"
+    ],
+    "oh": [
+      "बहन",
+      "पत्नी",
+      "चाची",
+      "माँ"
+    ],
+    "a": 0,
+    "e": "Man's father's wife's only daughter = the man's sister; her sister is also the man's sister.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_12",
+    "qe": "If P is the brother of Q, Q is the mother of R, and R is the sister of S, then how is P related to S?",
+    "qh": "यदि P, Q का भाई है, Q, R की माँ है, और R, S की बहन है, तो P, S से किस प्रकार संबंधित है?",
+    "oe": [
+      "Brother",
+      "Maternal Uncle (Mama)",
+      "Grandfather",
+      "Father"
+    ],
+    "oh": [
+      "भाई",
+      "मामा",
+      "दादा",
+      "पिता"
+    ],
+    "a": 1,
+    "e": "Q is mother of both R and S; P is Q's brother ⇒ P is S's maternal uncle.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_13",
+    "qe": "Statements: No pen is a pencil. Some pencils are erasers. Conclusions: I. No eraser is a pen. II. Some erasers are pencils.",
+    "qh": "कथन: कोई पेन पेंसिल नहीं है। कुछ पेंसिल रबड़ हैं। निष्कर्ष: I. कोई रबड़ पेन नहीं है। II. कुछ रबड़ पेंसिल हैं।",
+    "oe": [
+      "Only I follows",
+      "Only II follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "oh": [
+      "केवल I निकलता है",
+      "केवल II निकलता है",
+      "दोनों निकलते हैं",
+      "कोई नहीं निकलता"
+    ],
+    "a": 1,
+    "e": "'Some pencils are erasers' implies 'Some erasers are pencils' (II). 'Some erasers are not pens' is true, NOT 'No eraser is a pen' (I).",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_14",
+    "qe": "Statement: 'Install CCTV cameras at all hostel entry gates.' — Hostel Committee decision. Assumptions: I. CCTV helps monitor entry and improve security. II. Gates are key entry points.",
+    "qh": "कथन: 'सभी छात्रावास प्रवेश द्वारों पर CCTV कैमरे लगाएँ।' — छात्रावास समिति का निर्णय। पूर्वधारणाएँ: I. CCTV प्रवेश की निगरानी और सुरक्षा सुधारने में मदद करता है। II. द्वार प्रमुख प्रवेश बिंदु हैं।",
+    "oe": [
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both I and II are implicit",
+      "Neither is implicit"
+    ],
+    "oh": [
+      "केवल I अंतर्निहित है",
+      "केवल II अंतर्निहित है",
+      "I और II दोनों अंतर्निहित हैं",
+      "कोई भी अंतर्निहित नहीं है"
+    ],
+    "a": 2,
+    "e": "Both assumptions support placing cameras specifically at entry gates.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_15",
+    "qe": "Find the mirror image of the word 'HOSTEL' when a mirror is placed vertically to its RIGHT.",
+    "qh": "जब 'HOSTEL' शब्द के ठीक दाईं ओर एक ऊर्ध्वाधर दर्पण रखा जाए, तो इसका दर्पण प्रतिबिंब (Mirror Image) कैसा दिखेगा (अक्षर क्रम)?",
+    "oe": [
+      "Same order H O S T E L",
+      "Mirrored H at the left",
+      "Upside down starting with H",
+      "Reversed letter order starting with mirrored L, E, T, S, O, H"
+    ],
+    "oh": [
+      "समान क्रम H O S T E L",
+      "बाईं ओर दर्पणित H",
+      "H से शुरू होकर ऊपर-नीचे उल्टा",
+      "दाएँ से बाएँ उल्टे क्रम में दर्पणित L, E, T, S, O, H"
+    ],
+    "a": 3,
+    "e": "A vertical mirror reverses left-to-right order and horizontally flips asymmetric letters (L, E, S).",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_16",
+    "qe": "(DI) Mess attendance from Monday to Friday was: Mon 180, Tue 200, Wed 220, Thu 190, Fri 210. What is the average daily attendance?",
+    "qh": "(DI) सोमवार से शुक्रवार तक मेस में उपस्थिति थी: सोम 180, मंगल 200, बुध 220, गुरु 190, शुक्र 210। दैनिक औसत उपस्थिति कितनी है?",
+    "oe": [
+      "200",
+      "195",
+      "210",
+      "205"
+    ],
+    "oh": [
+      "200",
+      "195",
+      "210",
+      "205"
+    ],
+    "a": 0,
+    "e": "Total = 180+200+220+190+210 = 1000. Average = 1000/5 = 200.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_17",
+    "qe": "(DI) In the same mess data (Mon 180, Tue 200, Wed 220, Thu 190, Fri 210), what is the ratio of Monday's attendance to Friday's attendance?",
+    "qh": "(DI) उसी मेस डेटा (सोम 180, मंगल 200, बुध 220, गुरु 190, शुक्र 210) में सोमवार और शुक्रवार की उपस्थिति का अनुपात क्या है?",
+    "oe": [
+      "6 : 7",
+      "4 : 5",
+      "9 : 11",
+      "5 : 7"
+    ],
+    "oh": [
+      "6 : 7",
+      "4 : 5",
+      "9 : 11",
+      "5 : 7"
+    ],
+    "a": 0,
+    "e": "180 : 210 = 6 : 7 (dividing both by 30).",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_18",
+    "qe": "(DI) If Wednesday's attendance (220) is compared to Tuesday's (200), what is the percentage increase?",
+    "qh": "(DI) यदि बुधवार की उपस्थिति (220) की तुलना मंगलवार (200) से की जाए, तो प्रतिशत वृद्धि कितनी है?",
+    "oe": [
+      "10%",
+      "12%",
+      "15%",
+      "8%"
+    ],
+    "oh": [
+      "10%",
+      "12%",
+      "15%",
+      "8%"
+    ],
+    "a": 0,
+    "e": "(220 − 200) / 200 × 100 = 20 / 200 × 100 = 10%.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_19",
+    "qe": "A, B, and C can do a piece of work in 10, 20, and 30 days respectively. In how many days can they finish it working together?",
+    "qh": "A, B और C किसी कार्य को क्रमशः 10, 20 और 30 दिनों में कर सकते हैं। तीनों मिलकर कार्य को कितने दिनों में पूरा करेंगे?",
+    "oe": [
+      "4½ days",
+      "7 days",
+      "5⁵⁄₁₁ days",
+      "6 days"
+    ],
+    "oh": [
+      "4½ दिन",
+      "7 दिन",
+      "5⁵⁄₁₁ दिन",
+      "6 दिन"
+    ],
+    "a": 2,
+    "e": "1/10 + 1/20 + 1/30 = (6+3+2)/60 = 11/60 ⇒ 60/11 = 5⁵⁄₁₁ days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_20",
+    "qe": "Two articles are sold at ₹990 each: one at 10% profit and the other at 10% loss. What is the overall profit or loss in rupees?",
+    "qh": "दो वस्तुएँ प्रत्येक ₹990 में बेची जाती हैं: एक पर 10% लाभ और दूसरी पर 10% हानि होती है। कुल लाभ या हानि रुपये में ज्ञात कीजिए।",
+    "oe": [
+      "₹20 loss",
+      "₹20 profit",
+      "₹40 loss",
+      "No profit, no loss"
+    ],
+    "oh": [
+      "₹20 हानि",
+      "₹20 लाभ",
+      "₹40 हानि",
+      "न लाभ न हानि"
+    ],
+    "a": 0,
+    "e": "CP₁ = 990/1.1 = 900; CP₂ = 990/0.9 = 1100. Total CP = 2000, Total SP = 1980 ⇒ ₹20 loss.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_21",
+    "qe": "A sum of money at Simple Interest amounts to ₹6,200 in 2 years and ₹7,400 in 5 years. Find the principal sum.",
+    "qh": "साधारण ब्याज पर कोई धनराशि 2 वर्षों में ₹6,200 और 5 वर्षों में ₹7,400 हो जाती है। मूलधन ज्ञात कीजिए।",
+    "oe": [
+      "₹5,000",
+      "₹5,200",
+      "₹5,600",
+      "₹5,400"
+    ],
+    "oh": [
+      "₹5,000",
+      "₹5,200",
+      "₹5,600",
+      "₹5,400"
+    ],
+    "a": 3,
+    "e": "3 years' SI = 7400 − 6200 = 1200 ⇒ 1 year SI = 400. Principal = 6200 − 2×400 = ₹5,400.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_22",
+    "qe": "Find the Compound Interest on ₹16,000 at 5% per annum for 2 years, compounded annually.",
+    "qh": "₹16,000 पर 5% वार्षिक दर से 2 वर्षों का वार्षिक चक्रवृद्धि ब्याज ज्ञात कीजिए।",
+    "oe": [
+      "₹1,640",
+      "₹1,600",
+      "₹1,680",
+      "₹1,720"
+    ],
+    "oh": [
+      "₹1,640",
+      "₹1,600",
+      "₹1,680",
+      "₹1,720"
+    ],
+    "a": 0,
+    "e": "Amount = 16000 × (21/20)² = 16000 × 441/400 = 17,640 ⇒ CI = ₹1,640.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_23",
+    "qe": "What is the Total Surface Area of a cube of side 6 cm?",
+    "qh": "6 सेमी भुजा वाले एक घन (Cube) का कुल पृष्ठीय क्षेत्रफल (Total Surface Area) कितना होगा?",
+    "oe": [
+      "216 cm²",
+      "144 cm²",
+      "180 cm²",
+      "256 cm²"
+    ],
+    "oh": [
+      "216 वर्ग सेमी",
+      "144 वर्ग सेमी",
+      "180 वर्ग सेमी",
+      "256 वर्ग सेमी"
+    ],
+    "a": 0,
+    "e": "TSA = 6a² = 6 × 6² = 216 cm².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_24",
+    "qe": "The diagonal of a square is 10√2 cm. What is its perimeter?",
+    "qh": "एक वर्ग का विकर्ण 10√2 सेमी है। इसका परिमाप क्या है?",
+    "oe": [
+      "30 cm",
+      "20 cm",
+      "50 cm",
+      "40 cm"
+    ],
+    "oh": [
+      "30 सेमी",
+      "20 सेमी",
+      "50 सेमी",
+      "40 सेमी"
+    ],
+    "a": 3,
+    "e": "Diagonal = a√2 = 10√2 ⇒ side a = 10 cm ⇒ Perimeter = 4a = 40 cm.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_25",
+    "qe": "A dishonest grocer uses a 900 g weight instead of 1 kg while selling at cost price. What is his profit percentage?",
+    "qh": "एक बेईमान किराना विक्रेता क्रय मूल्य पर बेचते समय 1 किग्रा के स्थान पर 900 ग्राम के बाट का उपयोग करता है। उसका लाभ प्रतिशत क्या है?",
+    "oe": [
+      "11¹⁄₉%",
+      "10%",
+      "12%",
+      "9¹⁄₁₁%"
+    ],
+    "oh": [
+      "11¹⁄₉%",
+      "10%",
+      "12%",
+      "9¹⁄₁₁%"
+    ],
+    "a": 0,
+    "e": "Profit% = (100 / 900) × 100 = 11¹⁄₉%.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_26",
+    "qe": "In a mixture of 60 litres of milk and water, the ratio of milk to water is 2 : 1. How many litres of water must be added to make the ratio 1 : 2?",
+    "qh": "दूध और पानी के 60 लीटर मिश्रण में दूध और पानी का अनुपात 2 : 1 है। अनुपात 1 : 2 करने के लिए कितना लीटर पानी मिलाना होगा?",
+    "oe": [
+      "60 litres",
+      "30 litres",
+      "50 litres",
+      "40 litres"
+    ],
+    "oh": [
+      "60 लीटर",
+      "30 लीटर",
+      "50 लीटर",
+      "40 लीटर"
+    ],
+    "a": 0,
+    "e": "Initially Milk = 40 L, Water = 20 L. To make Milk:Water = 1:2, Water needed = 80 L ⇒ add 80 − 20 = 60 litres.",
+    "topic_tag": "maths.mixture.mixture_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_27",
+    "qe": "A car covers 240 km in 4 hours and the next 160 km in 4 hours. Find its average speed for the entire journey.",
+    "qh": "एक कार पहले 240 किमी 4 घंटे में और अगले 160 किमी 4 घंटे में तय करती है। पूरी यात्रा के लिए इसकी औसत चाल ज्ञात कीजिए।",
+    "oe": [
+      "55 km/h",
+      "60 km/h",
+      "50 km/h",
+      "45 km/h"
+    ],
+    "oh": [
+      "55 किमी/घंटा",
+      "60 किमी/घंटा",
+      "50 किमी/घंटा",
+      "45 किमी/घंटा"
+    ],
+    "a": 2,
+    "e": "Average speed = Total distance / Total time = (240 + 160) / (4 + 4) = 400 / 8 = 50 km/h.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_28",
+    "qe": "If x : y = 3 : 4, find the value of (4x + 5y) : (5x − 2y).",
+    "qh": "यदि x : y = 3 : 4 है, तो (4x + 5y) : (5x − 2y) का मान ज्ञात कीजिए।",
+    "oe": [
+      "32 : 7",
+      "30 : 7",
+      "28 : 9",
+      "16 : 5"
+    ],
+    "oh": [
+      "32 : 7",
+      "30 : 7",
+      "28 : 9",
+      "16 : 5"
+    ],
+    "a": 0,
+    "e": "(4×3 + 5×4) : (5×3 − 2×4) = (12 + 20) : (15 − 8) = 32 : 7.",
+    "topic_tag": "maths.ratio.ratio_and_proportion_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_29",
+    "qe": "What is the LCM of 12, 18, and 24?",
+    "qh": "12, 18 और 24 का लघुत्तम समापवर्त्य (LCM) क्या है?",
+    "oe": [
+      "144",
+      "36",
+      "48",
+      "72"
+    ],
+    "oh": [
+      "144",
+      "36",
+      "48",
+      "72"
+    ],
+    "a": 3,
+    "e": "Prime factors: 12=2²×3, 18=2×3², 24=2³×3 ⇒ LCM = 2³×3² = 72.",
+    "topic_tag": "maths.hcf_and_lcm.hcf_and_lcm_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s3_30",
+    "qe": "A student scores 144 marks out of 200 in a CBT mock. What is his percentage?",
+    "qh": "एक छात्र CBT मॉक में 200 में से 144 अंक प्राप्त करता है। उसका प्रतिशत कितना है?",
+    "oe": [
+      "68%",
+      "74%",
+      "72%",
+      "76%"
+    ],
+    "oh": [
+      "68%",
+      "74%",
+      "72%",
+      "76%"
+    ],
+    "a": 2,
+    "e": "(144 / 200) × 100 = 72%.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  }
+]

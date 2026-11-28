@@ -1,0 +1,602 @@
+[
+  {
+    "p_id": "btsc_hm_rm_s2_01",
+    "qe": "Find the missing number: 2, 5, 12, 27, 58, ?",
+    "qh": "लुप्त संख्या ज्ञात कीजिए: 2, 5, 12, 27, 58, ?",
+    "oe": [
+      "119",
+      "116",
+      "124",
+      "121"
+    ],
+    "oh": [
+      "119",
+      "116",
+      "124",
+      "121"
+    ],
+    "a": 3,
+    "e": "Pattern: ×2+1, ×2+2, ×2+3, ×2+4, ×2+5 ⇒ 58×2 + 5 = 121.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_02",
+    "qe": "Select the odd number pair out:",
+    "qh": "विषम संख्या युग्म का चयन कीजिए:",
+    "oe": [
+      "(4, 16)",
+      "(5, 25)",
+      "(7, 49)",
+      "(6, 35)"
+    ],
+    "oh": [
+      "(4, 16)",
+      "(5, 25)",
+      "(7, 49)",
+      "(6, 35)"
+    ],
+    "a": 3,
+    "e": "In the first three pairs, the second number is the square of the first; 6² = 36, not 35.",
+    "topic_tag": "reasoning.numeric_analogy.number_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_03",
+    "qe": "Find the next term in the letter series: BDF, HJL, NPR, ?",
+    "qh": "अक्षर श्रृंखला में अगला पद ज्ञात कीजिए: BDF, HJL, NPR, ?",
+    "oe": [
+      "UVW",
+      "TVW",
+      "TVX",
+      "SUV"
+    ],
+    "oh": [
+      "UVW",
+      "TVW",
+      "TVX",
+      "SUV"
+    ],
+    "a": 2,
+    "e": "Each letter advances by +6: B+6=H, H+6=N, N+6=T; similarly D→J→P→V and F→L→R→X ⇒ TVX.",
+    "topic_tag": "reasoning.alphabetical_series.letter_patterns"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_04",
+    "qe": "If RED = 27 and BLUE = 40, then what is GREEN (A=1, B=2, ..., Z=26)?",
+    "qh": "यदि RED = 27 और BLUE = 40 है, तो GREEN का मान क्या होगा (A=1, B=2, ..., Z=26)?",
+    "oe": [
+      "49",
+      "51",
+      "53",
+      "47"
+    ],
+    "oh": [
+      "49",
+      "51",
+      "53",
+      "47"
+    ],
+    "a": 0,
+    "e": "RED = 18+5+4=27; BLUE = 2+12+21+5=40; GREEN = 7+18+5+5+14 = 49.",
+    "topic_tag": "reasoning.coding.number_coding"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_05",
+    "qe": "Meera faces East. She turns 90° clockwise, then 180° anticlockwise, and finally 90° clockwise. Which direction is she facing now?",
+    "qh": "मीरा पूर्व दिशा की ओर मुख करके खड़ी है। वह 90° दक्षिणावर्त घूमती है, फिर 180° वामावर्त और अंत में 90° दक्षिणावर्त घूमती है। अब उसका मुख किस दिशा में है?",
+    "oe": [
+      "North",
+      "East",
+      "South",
+      "West"
+    ],
+    "oh": [
+      "उत्तर",
+      "पूर्व",
+      "दक्षिण",
+      "पश्चिम"
+    ],
+    "a": 1,
+    "e": "Net rotation = +90° − 180° + 90° = 0°, so she still faces East.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_06",
+    "qe": "In a hostel of 80 students, 50 speak Hindi, 45 speak English, and 20 speak both. How many speak ONLY English?",
+    "qh": "80 छात्रों के एक छात्रावास में 50 हिंदी बोलते हैं, 45 अंग्रेजी बोलते हैं और 20 दोनों बोलते हैं। कितने छात्र केवल अंग्रेजी बोलते हैं?",
+    "oe": [
+      "30",
+      "20",
+      "25",
+      "35"
+    ],
+    "oh": [
+      "30",
+      "20",
+      "25",
+      "35"
+    ],
+    "a": 2,
+    "e": "Only English = Total English − Both = 45 − 20 = 25.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_07",
+    "qe": "Which Venn diagram represents: Doctor, Female, Mother?",
+    "qh": "कौन-सा वेन आरेख 'डॉक्टर, महिला, माता' को दर्शाता है?",
+    "oe": [
+      "Mother circle completely inside Female circle, and Doctor overlapping both",
+      "Three completely separate circles",
+      "Female inside Mother",
+      "Doctor inside Mother inside Female"
+    ],
+    "oh": [
+      "माता का वृत्त पूर्णतः महिला के वृत्त के भीतर, और डॉक्टर का वृत्त दोनों को आंशिक रूप से काटते हुए",
+      "तीन पूर्णतः अलग वृत्त",
+      "माता के अंदर महिला",
+      "महिला के अंदर माता के अंदर डॉक्टर"
+    ],
+    "a": 0,
+    "e": "Every mother is female, while doctors can be male, female, or mothers.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_08",
+    "qe": "In a hostel building of 4 floors (1 to 4, bottom to top), Priya lives above Riya. Sonal lives on floor 1. Neha lives between Priya and Riya. Who lives on the top floor (floor 4)?",
+    "qh": "4 मंजिला छात्रावास भवन (नीचे से ऊपर 1 से 4) में प्रिया, रिया से ऊपर रहती है। सोनल मंजिल 1 पर रहती है। नेहा, प्रिया और रिया के बीच रहती है। सबसे ऊपरी मंजिल (4) पर कौन रहती है?",
+    "oe": [
+      "Priya",
+      "Riya",
+      "Sonal",
+      "Neha"
+    ],
+    "oh": [
+      "प्रिया",
+      "रिया",
+      "सोनल",
+      "नेहा"
+    ],
+    "a": 0,
+    "e": "Floor 1 = Sonal, Floor 2 = Riya, Floor 3 = Neha, Floor 4 = Priya.",
+    "topic_tag": "reasoning.puzzles.arrangement_puzzles"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_09",
+    "qe": "Among 5 boys P, Q, R, S, T, P is taller than Q only. R is shorter than S only. Who is the third tallest?",
+    "qh": "5 लड़कों P, Q, R, S, T में से P केवल Q से लंबा है। R केवल S से छोटा है। तीसरा सबसे लंबा कौन है?",
+    "oe": [
+      "P",
+      "R",
+      "S",
+      "T"
+    ],
+    "oh": [
+      "P",
+      "R",
+      "S",
+      "T"
+    ],
+    "a": 3,
+    "e": "Descending height order: S > R > T > P > Q. Third tallest = T.",
+    "topic_tag": "reasoning.ranking.position_and_order"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_10",
+    "qe": "A clock shows 3:00. What is the angle between the hour hand and the minute hand?",
+    "qh": "एक घड़ी में 3:00 बजे हैं। घंटे की सुई और मिनट की सुई के बीच का कोण कितना है?",
+    "oe": [
+      "120°",
+      "60°",
+      "90°",
+      "45°"
+    ],
+    "oh": [
+      "120°",
+      "60°",
+      "90°",
+      "45°"
+    ],
+    "a": 2,
+    "e": "At 3:00, angle = 3 × 30° = 90°.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_11",
+    "qe": "Introducing a boy, Seema says, 'He is the son of the only sister of my father.' How is the boy related to Seema?",
+    "qh": "एक लड़के का परिचय देते हुए सीमा कहती है, 'वह मेरे पिता की इकलौती बहन का पुत्र है।' वह लड़का सीमा से किस प्रकार संबंधित है?",
+    "oe": [
+      "Uncle",
+      "Cousin (Fuphera Bhai)",
+      "Nephew",
+      "Brother"
+    ],
+    "oh": [
+      "चाचा",
+      "फुफेरा भाई (Cousin)",
+      "भतीजा",
+      "भाई"
+    ],
+    "a": 1,
+    "e": "Father's sister = paternal aunt (Bua); her son = Seema's cousin.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_12",
+    "qe": "A is the father of B. C is the daughter of B. D is the brother of B. E is the wife of A. How is E related to C?",
+    "qh": "A, B का पिता है। C, B की पुत्री है। D, B का भाई है। E, A की पत्नी है। E, C से किस प्रकार संबंधित है?",
+    "oe": [
+      "Grandmother (Dadi)",
+      "Sister",
+      "Mother",
+      "Aunt"
+    ],
+    "oh": [
+      "दादी (Grandmother)",
+      "बहन",
+      "माँ",
+      "बुआ"
+    ],
+    "a": 0,
+    "e": "A and E are parents of B; C is B's daughter ⇒ E is C's paternal grandmother.",
+    "topic_tag": "reasoning.blood_relations.family_relationships"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_13",
+    "qe": "Statements: All apples are fruits. Some fruits are sweet. Conclusions: I. Some apples are sweet. II. Some sweet things are fruits.",
+    "qh": "कथन: सभी सेब फल हैं। कुछ फल मीठे हैं। निष्कर्ष: I. कुछ सेब मीठे हैं। II. कुछ मीठी चीजें फल हैं।",
+    "oe": [
+      "Only I follows",
+      "Only II follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "oh": [
+      "केवल I निकलता है",
+      "केवल II निकलता है",
+      "दोनों निकलते हैं",
+      "कोई नहीं निकलता"
+    ],
+    "a": 1,
+    "e": "Only II follows directly from 'Some fruits are sweet'; I is uncertain.",
+    "topic_tag": "reasoning.syllogism.logical_conclusions"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_14",
+    "qe": "Question (Data Sufficiency): On which day of the week was the hostel inspection held? Statement I: It was held after Wednesday and before Sunday. Statement II: It was not held on Friday or Saturday.",
+    "qh": "प्रश्न (आँकड़ा पर्याप्तता): छात्रावास निरीक्षण सप्ताह के किस दिन हुआ? कथन I: यह बुधवार के बाद और रविवार से पहले हुआ। कथन II: यह शुक्रवार या शनिवार को नहीं हुआ।",
+    "oe": [
+      "Statement I alone is sufficient",
+      "Statement II alone is sufficient",
+      "Both Statements I and II together are sufficient",
+      "Even together they are not sufficient"
+    ],
+    "oh": [
+      "केवल कथन I पर्याप्त है",
+      "केवल कथन II पर्याप्त है",
+      "कथन I और II दोनों मिलकर पर्याप्त हैं",
+      "दोनों मिलकर भी पर्याप्त नहीं हैं"
+    ],
+    "a": 2,
+    "e": "From I: Thursday, Friday, or Saturday. Combining II (not Fri/Sat) leaves uniquely Thursday.",
+    "topic_tag": "reasoning.logical_reasoning.critical_reasoning"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_15",
+    "qe": "How many triangles are there in a square with both its diagonals drawn?",
+    "qh": "एक वर्ग में उसके दोनों विकर्ण खींचे जाने पर कुल कितने त्रिभुज बनते हैं?",
+    "oe": [
+      "6",
+      "8",
+      "10",
+      "4"
+    ],
+    "oh": [
+      "6",
+      "8",
+      "10",
+      "4"
+    ],
+    "a": 1,
+    "e": "4 small right triangles + 4 larger triangles formed by pairs of adjacent small triangles = 8 triangles.",
+    "topic_tag": "reasoning.logical_reasoning.general_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_16",
+    "qe": "(DI) A hostel spends ₹2,00,000 monthly on groceries: Rice 40%, Wheat 25%, Pulses 20%, Vegetables 15%. What is the combined expenditure on Rice and Pulses?",
+    "qh": "(DI) एक छात्रावास किराने पर मासिक ₹2,00,000 खर्च करता है: चावल 40%, गेहूँ 25%, दाल 20%, सब्जियाँ 15%। चावल और दाल पर संयुक्त खर्च कितना है?",
+    "oe": [
+      "₹1,30,000",
+      "₹1,20,000",
+      "₹90,000",
+      "₹1,00,000"
+    ],
+    "oh": [
+      "₹1,30,000",
+      "₹1,20,000",
+      "₹90,000",
+      "₹1,00,000"
+    ],
+    "a": 1,
+    "e": "40% + 20% = 60% of 2,00,000 = ₹1,20,000.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_17",
+    "qe": "(DI) Using the same grocery budget (₹2,00,000: Rice 40%, Wheat 25%, Pulses 20%, Vegetables 15%), how much more is spent on Wheat than on Vegetables?",
+    "qh": "(DI) उसी किराना बजट (₹2,00,000: चावल 40%, गेहूँ 25%, दाल 20%, सब्जियाँ 15%) में सब्जियों की तुलना में गेहूँ पर कितना अधिक खर्च होता है?",
+    "oe": [
+      "₹15,000",
+      "₹25,000",
+      "₹30,000",
+      "₹20,000"
+    ],
+    "oh": [
+      "₹15,000",
+      "₹25,000",
+      "₹30,000",
+      "₹20,000"
+    ],
+    "a": 3,
+    "e": "(25% − 15%) = 10% of 2,00,000 = ₹20,000.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_18",
+    "qe": "(DI) Hostel electric units consumed over 4 months are 420, 480, 510, 390 kWh. What is the monthly average consumption?",
+    "qh": "(DI) 4 महीनों में छात्रावास में बिजली की खपत 420, 480, 510, 390 kWh रही। मासिक औसत खपत कितनी है?",
+    "oe": [
+      "460 kWh",
+      "450 kWh",
+      "475 kWh",
+      "440 kWh"
+    ],
+    "oh": [
+      "460 kWh",
+      "450 kWh",
+      "475 kWh",
+      "440 kWh"
+    ],
+    "a": 1,
+    "e": "(420 + 480 + 510 + 390) / 4 = 1800 / 4 = 450 kWh.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_19",
+    "qe": "12 men can construct a boundary wall in 15 days. How many days will 18 men take to build the same wall?",
+    "qh": "12 पुरुष एक चारदीवारी का निर्माण 15 दिनों में कर सकते हैं। उसी दीवार को 18 पुरुष कितने दिनों में बनाएँगे?",
+    "oe": [
+      "10 days",
+      "9 days",
+      "12 days",
+      "8 days"
+    ],
+    "oh": [
+      "10 दिन",
+      "9 दिन",
+      "12 दिन",
+      "8 दिन"
+    ],
+    "a": 0,
+    "e": "(12 × 15) / 18 = 10 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_20",
+    "qe": "Pipe A fills a cistern in 10 hours and Pipe B empties it in 15 hours. If both are opened together, in how many hours will the cistern be full?",
+    "qh": "पाइप A एक टंकी को 10 घंटे में भरता है और पाइप B उसे 15 घंटे में खाली करता है। दोनों को एक साथ खोलने पर टंकी कितने घंटे में भरेगी?",
+    "oe": [
+      "30 hours",
+      "35 hours",
+      "25 hours",
+      "20 hours"
+    ],
+    "oh": [
+      "30 घंटे",
+      "35 घंटे",
+      "25 घंटे",
+      "20 घंटे"
+    ],
+    "a": 0,
+    "e": "1/10 − 1/15 = (3−2)/30 = 1/30 ⇒ 30 hours.",
+    "topic_tag": "maths.pipes_and_cisterns.pipes_and_cisterns_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_21",
+    "qe": "A water cooler is marked at ₹1,200 (unit part) and sold at 15% discount, still earning a 20% profit. Find its Cost Price.",
+    "qh": "एक वस्तु का अंकित मूल्य ₹1,200 है और इसे 15% छूट पर बेचने के बाद भी 20% का लाभ होता है। इसका क्रय मूल्य ज्ञात कीजिए।",
+    "oe": [
+      "₹850",
+      "₹900",
+      "₹800",
+      "₹950"
+    ],
+    "oh": [
+      "₹850",
+      "₹900",
+      "₹800",
+      "₹950"
+    ],
+    "a": 0,
+    "e": "SP = 1200 × 0.85 = ₹1,020. CP = 1020 / 1.20 = ₹850.",
+    "topic_tag": "maths.discount.discount_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_22",
+    "qe": "At what rate percent per annum Simple Interest will a sum of money double itself in 8 years?",
+    "qh": "किस वार्षिक साधारण ब्याज दर पर कोई धनराशि 8 वर्षों में दोगुनी हो जाएगी?",
+    "oe": [
+      "15%",
+      "10%",
+      "8%",
+      "12.5%"
+    ],
+    "oh": [
+      "15%",
+      "10%",
+      "8%",
+      "12.5%"
+    ],
+    "a": 3,
+    "e": "SI = P ⇒ P = (P × R × 8)/100 ⇒ R = 100/8 = 12.5%.",
+    "topic_tag": "maths.simple_interest.simple_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_23",
+    "qe": "Find the difference between Compound Interest and Simple Interest on ₹8,000 at 10% per annum for 2 years.",
+    "qh": "₹8,000 पर 10% वार्षिक दर से 2 वर्षों के चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर ज्ञात कीजिए।",
+    "oe": [
+      "₹100",
+      "₹60",
+      "₹80",
+      "₹120"
+    ],
+    "oh": [
+      "₹100",
+      "₹60",
+      "₹80",
+      "₹120"
+    ],
+    "a": 2,
+    "e": "Difference for 2 years = P × (R/100)² = 8000 × (10/100)² = ₹80.",
+    "topic_tag": "maths.compound_interest.compound_interest_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_24",
+    "qe": "Find the area of a circular garden of radius 14 m (use π = 22/7).",
+    "qh": "14 मी त्रिज्या वाले एक वृत्ताकार बगीचे का क्षेत्रफल ज्ञात कीजिए (π = 22/7 लें)।",
+    "oe": [
+      "720 m²",
+      "440 m²",
+      "308 m²",
+      "616 m²"
+    ],
+    "oh": [
+      "720 वर्ग मी",
+      "440 वर्ग मी",
+      "308 वर्ग मी",
+      "616 वर्ग मी"
+    ],
+    "a": 3,
+    "e": "Area = πr² = (22/7) × 14 × 14 = 616 m².",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_25",
+    "qe": "Find the volume of a cylindrical water drum of radius 7 m and height 10 m (π = 22/7).",
+    "qh": "7 मी त्रिज्या और 10 मी ऊँचाई वाले बेलनाकार पानी के टैंक का आयतन ज्ञात कीजिए (π = 22/7)।",
+    "oe": [
+      "1,450 m³",
+      "770 m³",
+      "2,200 m³",
+      "1,540 m³"
+    ],
+    "oh": [
+      "1,450 घन मी",
+      "770 घन मी",
+      "2,200 घन मी",
+      "1,540 घन मी"
+    ],
+    "a": 3,
+    "e": "Volume = πr²h = (22/7) × 7 × 7 × 10 = 1,540 m³.",
+    "topic_tag": "maths.mensuration_2d.plane_mensuration_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_26",
+    "qe": "The cost price of 20 notebooks equals the selling price of 16 notebooks. Find the gain percentage.",
+    "qh": "20 कॉपियों का क्रय मूल्य 16 कॉपियों के विक्रय मूल्य के बराबर है। लाभ प्रतिशत ज्ञात कीजिए।",
+    "oe": [
+      "15%",
+      "25%",
+      "20%",
+      "30%"
+    ],
+    "oh": [
+      "15%",
+      "25%",
+      "20%",
+      "30%"
+    ],
+    "a": 1,
+    "e": "Gain% = (20 − 16)/16 × 100 = 4/16 × 100 = 25%.",
+    "topic_tag": "maths.profit_and_loss.profit_loss_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_27",
+    "qe": "A student's monthly mess fee increases from ₹2,500 to ₹3,000. What is the percentage increase?",
+    "qh": "एक छात्र का मासिक मेस शुल्क ₹2,500 से बढ़कर ₹3,000 हो जाता है। प्रतिशत वृद्धि कितनी है?",
+    "oe": [
+      "15%",
+      "25%",
+      "18%",
+      "20%"
+    ],
+    "oh": [
+      "15%",
+      "25%",
+      "18%",
+      "20%"
+    ],
+    "a": 3,
+    "e": "Increase = 500/2500 × 100 = 20%.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_28",
+    "qe": "The average age of 10 hostel boarders is 20 years. When a warden joins, the average becomes 22 years. What is the warden's age?",
+    "qh": "10 छात्रावास छात्रों की औसत आयु 20 वर्ष है। जब एक वार्डन शामिल होता है, तो औसत 22 वर्ष हो जाता है। वार्डन की आयु क्या है?",
+    "oe": [
+      "38 years",
+      "42 years",
+      "44 years",
+      "40 years"
+    ],
+    "oh": [
+      "38 वर्ष",
+      "42 वर्ष",
+      "44 वर्ष",
+      "40 वर्ष"
+    ],
+    "a": 1,
+    "e": "Sum of 11 = 11×22 = 242; Sum of 10 = 200 ⇒ Warden's age = 242 − 200 = 42 years.",
+    "topic_tag": "maths.average.average_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_29",
+    "qe": "If 35% of a number is 140, what is 60% of that number?",
+    "qh": "यदि किसी संख्या का 35%, 140 है, तो उस संख्या का 60% क्या होगा?",
+    "oe": [
+      "200",
+      "240",
+      "220",
+      "280"
+    ],
+    "oh": [
+      "200",
+      "240",
+      "220",
+      "280"
+    ],
+    "a": 1,
+    "e": "Number = 140 × 100/35 = 400. 60% of 400 = 240.",
+    "topic_tag": "maths.percentage.percentage_problems"
+  },
+  {
+    "p_id": "btsc_hm_rm_s2_30",
+    "qe": "A and B together can finish a job in 8 days, and A alone finishes it in 12 days. In how many days can B alone finish it?",
+    "qh": "A और B मिलकर एक कार्य को 8 दिनों में पूरा करते हैं, और A अकेले इसे 12 दिनों में पूरा करता है। B अकेले इसे कितने दिनों में पूरा करेगा?",
+    "oe": [
+      "24 days",
+      "16 days",
+      "20 days",
+      "18 days"
+    ],
+    "oh": [
+      "24 दिन",
+      "16 दिन",
+      "20 दिन",
+      "18 दिन"
+    ],
+    "a": 0,
+    "e": "B's rate = 1/8 − 1/12 = 1/24 ⇒ 24 days.",
+    "topic_tag": "maths.time_and_work.time_and_work_problems"
+  }
+]
